@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:id="@id/button_parent_layout" android:background="@drawable/photo_style_toggle_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_photobook_preview_layout_switching_button_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.card.MaterialCardView android:layout_gravity="center" android:layout_width="@dimen/photos_photobook_preview_layout_switching_cardview_size" android:layout_height="@dimen/photos_photobook_preview_layout_switching_cardview_size" android:layout_margin="@dimen/photos_photobook_preview_layout_switching_cardview_margin">
+        <com.google.android.apps.photos.photobook.pagelayout.PrintPageLayout android:layout_gravity="center" android:id="@id/print_page" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/page_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        </com.google.android.apps.photos.photobook.pagelayout.PrintPageLayout>
+    </android.support.design.card.MaterialCardView>
+</FrameLayout>

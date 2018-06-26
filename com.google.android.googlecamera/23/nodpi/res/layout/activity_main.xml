@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.MainActivityLayout android:id="@id/activity_root_view" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/preview_backed_with_textureview" />
+    <include layout="@layout/viewfinder" />
+    <com.android.camera.ui.ModeTransitionView android:id="@id/mode_transition_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/startup_bottom_bar" />
+    <ViewStub android:id="@id/camera_frame_layout_stub" android:layout="@layout/camera" android:inflatedId="@id/camera" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/onscreen_system_health_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.android.camera.ui.MainActivityLayout>

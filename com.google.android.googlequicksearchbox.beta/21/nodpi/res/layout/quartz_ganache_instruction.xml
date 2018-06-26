@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/quartz_meals_site_title" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/quartz_meals_site_title_bar_height">
+        <FrameLayout android:id="@id/quartz_ganache_instruction_main_panel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/quartz_padding_start" android:paddingEnd="@dimen/quartz_padding_end" />
+        <ScrollView android:id="@id/quartz_ganache_instruction_side_panel" android:paddingTop="@dimen/quartz_ganache_lists_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/quartz_padding_end">
+            <LinearLayout android:orientation="vertical" android:id="@id/quartz_ganache_instruction_ingredient_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

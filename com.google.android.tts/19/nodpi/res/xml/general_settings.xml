@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/install_voices_title" android:key="@string/install_voices_key" />
+    <SwitchPreference android:title="@string/auto_update_wifi_title" android:key="@string/auto_update_wifi_key" android:summary="@string/auto_update_wifi_summary" android:defaultValue="true" />
+    <SwitchPreference android:persistent="true" android:title="@string/loudness_title" android:key="@string/loudness_key" android:summary="@string/loudness_summary" android:defaultValue="false" />
+    <com.google.android.tts.settings.PopupMenuPreference android:entries="@array/f0_deviation_entries" android:title="@string/f0_deviation_title" android:key="@string/f0_deviation_key" android:defaultValue="1.0" android:entryValues="@array/f0_deviation_values" />
+    <SwitchPreference android:persistent="true" android:title="@string/accessibility_textnorm_levels_title" android:key="@string/number_processing_key" android:summary="@string/accessibility_textnorm_levels_summary" android:defaultValue="true" />
+    <com.google.android.tts.settings.PopupMenuPreference android:entries="@array/language_detection_entries" android:title="@string/language_detection_title" android:key="@string/language_detection_options_key" android:defaultValue="script" android:entryValues="@array/language_detection_values" />
+    <PreferenceScreen android:title="@string/analytics_title" android:key="@string/analytics_screen_key" android:fragment="com.google.android.tts.settings.AnalyticsPreferenceScreen" />
+    <PreferenceScreen android:title="@string/feedback_title" android:key="@string/feedback_key" />
+</PreferenceScreen>

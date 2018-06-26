@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.ui.PhotoVideoSwipeTutorial android:id="@id/photoVideoSwipeTutorial" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photoVideoSwipeTutorialPhotoIcon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/photoVideoSwipeTutorialVideoIcon" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextSwitcher android:id="@id/photoVideoSwipeTutorialText" android:paddingLeft="44.0dip" android:paddingTop="18.0dip" android:paddingRight="44.0dip" android:paddingBottom="18.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/photoVideoSwipeTutorialPhotoIcon" />
+    <TextView android:id="@id/photoVideoSwipeTutorialDismiss" android:paddingLeft="44.0dip" android:paddingTop="18.0dip" android:paddingRight="44.0dip" android:paddingBottom="18.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/got_it" android:fontFamily="sans-serif-medium" />
+</com.android.camera.ui.PhotoVideoSwipeTutorial>

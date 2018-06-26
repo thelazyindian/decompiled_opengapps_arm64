@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.messaging.ui.search.homeview.ZeroStateContactsView android:id="@id/zero_state_contacts" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ZeroStateSearchContacts">
+        <LinearLayout android:orientation="horizontal" android:id="@id/zero_state_contacts_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.apps.messaging.ui.search.homeview.ZeroStateContactsView>
+    <com.google.android.apps.messaging.ui.search.homeview.ZeroStateContentGroupsView android:id="@id/zero_state_content_groups" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ZeroStateSearchContentGroups">
+        <LinearLayout android:orientation="horizontal" android:id="@id/zero_state_content_groups_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.apps.messaging.ui.search.homeview.ZeroStateContentGroupsView>
+</merge>

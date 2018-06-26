@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/identity_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:listDivider" android:showDividers="end|middle">
+        <TextView android:paddingBottom="@dimen/summary_switch_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_title" style="@style/Text.Message.Bold" />
+    </LinearLayout>
+    <android.support.v7.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/summary_card_elevation" app:cardElevation="@dimen/summary_card_elevation" style="@style/OpaPaymentsSummaryCard">
+        <LinearLayout android:orientation="vertical" android:id="@id/summary_card_content" android:layout_width="fill_parent" android:layout_height="@dimen/oobe_element_height" android:divider="?android:listDivider" android:showDividers="middle">
+            <ImageView android:layout_gravity="center" android:id="@id/opa_payments_gpay_logo" android:layout_width="@dimen/summary_card_logo_width" android:layout_height="@dimen/summary_card_logo_height" android:src="@drawable/gpay" android:contentDescription="@string/gpay_logo" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirm_tos_info" />
+</LinearLayout>

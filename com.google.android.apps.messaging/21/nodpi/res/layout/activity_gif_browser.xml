@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/gif_browser_category_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <android.support.v7.widget.RecyclerView android:id="@id/gif_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/gif_browser_loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyleLarge" />
+        <View android:layout_gravity="top" android:background="@drawable/compose2o_gif_category_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/c2o_gif_browser_category_shadow_size" />
+    </FrameLayout>
+</LinearLayout>

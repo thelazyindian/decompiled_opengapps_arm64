@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.design.card.MaterialCardView android:id="@id/page_caption_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="-200.0dip" android:layout_marginRight="24.0dip">
+        <include layout="@layout/photos_photobook_pagelayout_book_page" />
+    </android.support.design.card.MaterialCardView>
+    <android.support.design.widget.TextInputLayout android:id="@id/page_caption_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginRight="22.0dip" app:errorEnabled="true">
+        <EditText android:id="@id/page_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textAutoCorrect|textCapSentences" android:imeOptions="actionDone|flagNoExtractUi" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

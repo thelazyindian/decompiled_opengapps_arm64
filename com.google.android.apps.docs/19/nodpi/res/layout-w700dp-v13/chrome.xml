@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/projector_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@dimen/viewer_content_discussions_visible_weight">
+        <include layout="@layout/chrome_content" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/discussions" android:background="@android:color/white" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.0">
+        <include layout="@layout/discussions_progress_bar_layout" />
+    </FrameLayout>
+</LinearLayout>

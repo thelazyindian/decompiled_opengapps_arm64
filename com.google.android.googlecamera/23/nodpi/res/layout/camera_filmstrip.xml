@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.camera.widget.FilmstripLayout android:id="@id/filmstrip_layout" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/camera_filmstrip_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:layout_gravity="center|left" android:id="@id/accessibility_last_filmstrip_item_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_last_filmstrip_item" android:contentDescription="@string/accessibility_mode_last_filmstrip_item" />
+        <com.android.camera.widget.FilmstripView android:id="@id/filmstrip_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView android:textSize="@dimen/filmstrip_view_no_photos_text_size" android:textColor="@color/filmstrip_view_no_photos_text_color" android:id="@id/no_photos_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/filmstrip_no_photos_description" android:drawableTop="@drawable/ic_photo" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <Button android:layout_gravity="center|right" android:id="@id/accessibility_next_filmstrip_item_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_next_filmstrip_item" android:contentDescription="@string/accessibility_mode_next_filmstrip_item" />
+    </FrameLayout>
+    <include layout="@layout/filmstrip_bottom_controls" />
+</com.android.camera.widget.FilmstripLayout>

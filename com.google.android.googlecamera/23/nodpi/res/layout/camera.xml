@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/camera_app_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr">
+        <com.android.camera.ui.focus.FocusRingView android:id="@id/focus_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.camera.ui.CaptureAnimationOverlay android:id="@id/capture_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.camera.ui.PreviewOverlay android:id="@id/preview_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.camera.ui.FaceView android:id="@id/face_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.android.camera.ui.GridLines android:layout_gravity="center_horizontal" android:id="@id/grid_lines" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/intent_review_imageview" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+        <FrameLayout android:id="@id/module_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/sticky_bottom_capture_layout" />
+        <include layout="@layout/top_menu" />
+        <FrameLayout android:id="@id/tutorials_placeholder_wrapper" android:background="@color/fullscreen_dialog_background_color" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/mode_list_layout" />
+        <include layout="@layout/close_button" />
+        <LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:id="@id/accessibility_affordances" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mode_options_height">
+            <Button android:id="@id/accessibility_zoom_minus_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_zoom_minus" android:contentDescription="@string/accessibility_mode_zoom_minus" />
+            <Button android:id="@id/accessibility_zoom_plus_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_zoom_plus" android:contentDescription="@string/accessibility_mode_zoom_plus" />
+            <Button android:id="@id/accessibility_burst_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accessibility_mode_burst" android:contentDescription="@string/accessibility_mode_burst" />
+        </LinearLayout>
+    </FrameLayout>
+    <include layout="@layout/camera_filmstrip" />
+</FrameLayout>

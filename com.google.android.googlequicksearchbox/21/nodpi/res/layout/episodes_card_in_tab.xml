@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/episodes_card" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/episode_separator" />
+        <android.support.v7.widget.RecyclerView android:id="@id/episodes_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/episode_card_footer" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/no_content_description_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/episode_separator" />
+        <TextView android:textAppearance="?textAppearanceBody2" android:gravity="center" android:id="@id/no_content_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,103 @@
+{
+  "Model": "Linear SVM",
+  "Classes": 2,
+  "Purpose": "quality",
+  "Bias": 0.009615,
+  "FeatureMeans": [
+    0.183983,
+    0.092317,
+    0.037357,
+    0.171591,
+    0.217251,
+    0.041185,
+    0.663748,
+    0.764957
+  ],
+  "FeatureSDevs": [
+    0.445112,
+    0.212411,
+    0.146466,
+    0.441349,
+    0.204785,
+    0.164381,
+    0.164444,
+    0.116520
+  ],
+  "FeatureWeights": [
+    0.042788,
+    -0.195140,
+    0.014271,
+    0.061670,
+    0.076820,
+    -0.498248,
+    0.459787,
+    0.054438,
+    0.530616,
+    0.029619,
+    -0.063138,
+    -0.031777,
+    -0.035284,
+    -0.171816,
+    -0.034343,
+    0.410111
+  ],
+  "FeatureNames": [
+    "FACE_COUNT",
+    "FACE_SHARPNESS_AGGREGATE_SCORE",
+    "FACE_IS_SMILING_AGGREGATE_SCORE",
+    "COMBINED_EYES",
+    "MOTION_SALIENCY",
+    "INTERFRAME_MOTION",
+    "PERCEPTUAL_SHARPNESS",
+    "MAX_GRID_SHARPNESS"
+  ],
+  "FeatureTransforms": [
+    {
+      "Transform": "abs",
+      "index": 5,
+      "Absolute": 1
+    },
+    {
+      "Transform": "mul",
+      "index": 4,
+      "CrossIndex": 6,
+      "Absolute": 0
+    },
+    {
+      "Transform": "abs",
+      "index": 4,
+      "Absolute": 1
+    },
+    {
+      "Transform": "mul",
+      "index": 3,
+      "CrossIndex": 1,
+      "Absolute": 1
+    },
+    {
+      "Transform": "mul",
+      "index": 3,
+      "CrossIndex": 4,
+      "Absolute": 0
+    },
+    {
+      "Transform": "sigmoid",
+      "index": 6,
+      "Absolute": 0,
+      "SigmoidOffset": 0.965829,
+      "SigmoidScale": 4.771227
+    },
+    {
+      "Transform": "abs",
+      "index": 7,
+      "Absolute": 1
+    },
+    {
+      "Transform": "sigmoid",
+      "index": 1,
+      "Absolute": 0,
+      "SigmoidOffset": 0.577393,
+      "SigmoidScale": 1.231493
+    }
+  ]
+}

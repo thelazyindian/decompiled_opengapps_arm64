@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:settings="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.carsetup.drivingmode.GearPreference android:title="@string/car_driving_mode_behavior_title" android:key="@string/car_pref_key_driving_mode_behavior_switch" />
+    <com.google.android.gms.carsetup.drivingmode.MasterSwitchPreference android:title="@string/car_driving_mode_automatic_rules_preferences_title" android:key="@string/car_pref_key_automatic_rules_preferences" settings:allowDividerBelow="true" />
+    <com.google.android.gms.carsetup.drivingmode.ToggleButtonPreference android:key="@string/car_pref_key_driving_mode_switch" settings:allowDividerAbove="true" />
+</PreferenceScreen>
