@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_container" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <android.support.v7.widget.Toolbar android:id="@id/projector_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/viewer_action_bar_height" style="@style/OverlayActionBarStyle" />
+    <View android:id="@id/toolbar_shadow" android:background="@drawable/action_mode_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="4.0dip" app:mtrlLinearBarHeight="4.0dip" style="@style/Widget.GoogleLib.Progress.Linear.Indeterminate" />
+    <android.support.design.widget.FloatingActionButton android:id="@id/edit_fab" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/viewer_edit_fab_margin_bottom" android:src="@drawable/edit_fab_icon" android:layout_alignParentBottom="true" android:contentDescription="@string/action_edit" android:layout_marginEnd="@dimen/viewer_edit_fab_margin_right" android:layout_alignParentEnd="true" />
+</merge>
