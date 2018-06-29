@@ -113,7 +113,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">गैरवर्तनाची तक्रार सबमिट केली नाही</string>
     <string name="announce_account_using">खाते वापरत आहे: %1$s.</string>
-    <string name="announce_action_undone">क्रिया पूर्ववत केली.</string>
     <string name="announce_collection_removed">फोल्डर काढले.</string>
     <string name="announce_document_removed">फाईल काढली.</string>
     <string name="announce_invalid_filename">अवैध नाव. कृपया एक भिन्न नाव एंटर करा.</string>
@@ -988,13 +987,9 @@
     <string name="member_count_max">99+</string>
     <string name="menu_backup">बॅकअप</string>
     <string name="menu_copy_link">लिंक कॉपी करा</string>
-    <string name="menu_create_shortcut">मुख्य स्क्रीनवर जोडा</string>
-    <string name="menu_delete">काढा</string>
     <string name="menu_detail">तपशील</string>
     <string name="menu_doc_view_grid_mode">ग्रिड म्हणून पहा</string>
     <string name="menu_doc_view_list_mode">सूची म्हणून पहा</string>
-    <string name="menu_download">डाउनलोड करा</string>
-    <string name="menu_dump_database">अभिप्राय - स्थानिक आवृत्ती डंप करा</string>
     <string name="menu_edit">संपादित करा</string>
     <string name="menu_empty_trash_too_many_items">काही आयटम रिक्त केले जाऊ शकत नाही, कचर्‍यामध्ये खूप जास्त आयटम.</string>
     <string name="menu_filter_by">याद्वारे फिल्टर करा</string>
@@ -1005,19 +1000,13 @@
     <string name="menu_keep_on_device">ऑफलाइन उपलब्ध</string>
     <string name="menu_link_share">लिंक शेअर करणे</string>
     <string name="menu_more_options">अधिक पर्याय</string>
-    <string name="menu_move_to">हलवा</string>
     <string name="menu_my_drive">माझा ड्राइव्ह</string>
     <string name="menu_navigation_devices">कॉंप्युटर</string>
     <string name="menu_notifications">सूचना</string>
-    <string name="menu_offline">ऑफलाइन उपलब्ध</string>
-    <string name="menu_open_with">यासह उघडा</string>
-    <string name="menu_print">प्रिंट करा</string>
     <string name="menu_refresh">रिफ्रेश करा</string>
-    <string name="menu_rename">पुनर्नामित करा</string>
     <string name="menu_save_to_drive">ड्राइव्हवर सेव्ह करा</string>
     <string name="menu_search">शोध</string>
     <string name="menu_selection_clear">निवड साफ करा</string>
-    <string name="menu_send">फाईल पाठवा</string>
     <string name="menu_send_link">दुवा शेअर करा</string>
     <string name="menu_settings">सेटिंग्ज</string>
     <string name="menu_share_print">प्रिंट करा</string>
@@ -1049,9 +1038,6 @@
     <string name="menu_sort_recently_opened">मी अंतिम उघडलेले</string>
     <string name="menu_sort_title">नाव</string>
     <string name="menu_title_button_describer">%1$s. %2$s. बटण पुनर्नामित करा</string>
-    <string name="menu_trash_delete_forever">हटवा</string>
-    <string name="menu_trash_restore">पुनर्संचयित करा</string>
-    <string name="menu_unpin">डिव्हाइसवरून काढा</string>
     <string name="menu_will_be_kept_offline">ऑफलाइन उपलब्ध करत आहे...</string>
     <string name="menu_will_no_longer_be_kept_offline">सादरीकरण यापुढे ऑफलाइन उपलब्ध असणार नाही</string>
     <string name="message_drive_scope_blocked">Google ड्राइव्ह वरुन %1$s मध्ये प्रवेश करू शकत नाही. मदतीसाठी आपल्या G Suite प्रशासकाशी संपर्क साधा.</string>
@@ -1423,7 +1409,7 @@
     <string name="prioritydocs_promo_negative">नाही, नको</string>
     <string name="prioritydocs_promo_positive">इंस्टॉल करा</string>
     <string name="promo_no_thanks_button">नाही, नको</string>
-    <string name="promo_snackbar_googledocs">आपल्या फोनमधून इतरांच्या हक्काने सादरीकरणे तयार आणि संपादित करा.</string>
+    <string name="promo_snackbar_googledocs_device">थेट तुमच्या डिव्हाइसवरून इतरांसह सादरीकरण तयार आणि संपादित करा.</string>
     <string name="promo_snackbar_got_it">समजले</string>
     <string name="promo_snackbar_heading">Google स्लाइड मध्ये आपले स्वागत आहे</string>
     <string name="promo_snackbar_learn_more">अधिक जाणून घ्या</string>
@@ -1439,8 +1425,6 @@
     <string name="published_options_dialog_title">प्रकाशित साइट सेटिंग्‍ज</string>
     <string name="punch_already_have_access_to_video">आपल्याला या व्हिडिओमध्ये यापूर्वीच प्रवेश मिळाला आहे.</string>
     <string name="punch_applying_theme">थीम लागू करत आहे...</string>
-    <string name="punch_change_theme_promo_instructions">थीम निवड आता जाताजाता उपलब्ध आहे</string>
-    <string name="punch_change_theme_promo_intro">एका नवीन स्लाइड थीमसह काही रंग जोडा</string>
     <string name="punch_hangouts_call_exists">मागील मीटिंग पूर्ण झाल्याशिवाय मीटिंगमध्ये सामील होऊ शकत नाही.</string>
     <string name="punch_hangouts_invite_email_body">खालील मीटिंग दुव्याला भेट द्या:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[स्लाइड] %1$s: माझ्‍या थेट सादरीकरणात सामील व्हा!</string>
@@ -1566,6 +1550,7 @@
     <string name="quota_range_small">1 MB अंतर्गत</string>
     <string name="quota_range_undefined">शून्य संचयन वापरले</string>
     <string name="quota_zero">काहीही नाही</string>
+    <string name="ratings_card_body">या अॅपला Play Store मध्ये रेट करा किंवा आम्हाला तुमचा फीडबॅक पाठवा.</string>
     <string name="ratings_card_feedback">अभिप्राय पाठवा</string>
     <string name="ratings_card_header">स्लाइडचा आनंद घेत आहात?</string>
     <string name="ratings_card_rate">अ‍ॅपला रेट करा</string>

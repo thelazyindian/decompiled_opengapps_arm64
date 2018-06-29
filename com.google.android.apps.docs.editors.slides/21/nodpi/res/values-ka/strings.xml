@@ -113,7 +113,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">დარღვევის შესახებ შეტყობინება ვერ გაიგზავნა</string>
     <string name="announce_account_using">გამოიყენება ანგარიში: %1$s.</string>
-    <string name="announce_action_undone">მოქმედება დაბრუნდა.</string>
     <string name="announce_collection_removed">საქაღალდე წაშლილია.</string>
     <string name="announce_document_removed">ფაილი წაშლილია.</string>
     <string name="announce_invalid_filename">სახელი არასწორია. გთხოვთ, შეიყვანოთ სხვა სახელი.</string>
@@ -988,13 +987,9 @@
     <string name="member_count_max">99+</string>
     <string name="menu_backup">სარეზერვო ასლები</string>
     <string name="menu_copy_link">ბმულის კოპირება</string>
-    <string name="menu_create_shortcut">მთავარ ეკრანზე დამატება</string>
-    <string name="menu_delete">ამოშლა</string>
     <string name="menu_detail">დეტალები</string>
     <string name="menu_doc_view_grid_mode">ბადედ ჩვენება</string>
     <string name="menu_doc_view_list_mode">სიად ჩვენება</string>
-    <string name="menu_download">ჩამოტვირთვა</string>
-    <string name="menu_dump_database">გამოხმაურება - ლოკალური ვერსიის ამონაბეჭდი</string>
     <string name="menu_edit">რედაქტირება</string>
     <string name="menu_empty_trash_too_many_items">ზოგიერთი ერთეულის წაშლა ვერ მოხერხდა. წაშლილებში ძალიან ბევრი ერთეულია.</string>
     <string name="menu_filter_by">ფილტრი:</string>
@@ -1005,19 +1000,13 @@
     <string name="menu_keep_on_device">ხელმისაწვდომია ხაზგარეშე</string>
     <string name="menu_link_share">ბმულის გაზიარება</string>
     <string name="menu_more_options">სხვა ვარიანტები</string>
-    <string name="menu_move_to">გადატანა</string>
     <string name="menu_my_drive">ჩემი Drive</string>
     <string name="menu_navigation_devices">კომპიუტერები</string>
     <string name="menu_notifications">შეტყობინებები</string>
-    <string name="menu_offline">ხელმისაწვდომია ხაზგარეშე</string>
-    <string name="menu_open_with">გახსნა</string>
-    <string name="menu_print">ამობეჭდვა</string>
     <string name="menu_refresh">განახლება</string>
-    <string name="menu_rename">გადარქმევა</string>
     <string name="menu_save_to_drive">Drive-ში შენახვა</string>
     <string name="menu_search">ძიება</string>
     <string name="menu_selection_clear">მონიშვნის გასუფთ.</string>
-    <string name="menu_send">ფაილის გაგზავ.</string>
     <string name="menu_send_link">ბმულის გაზიარება</string>
     <string name="menu_settings">პარამეტრები</string>
     <string name="menu_share_print">ბეჭდვა</string>
@@ -1049,9 +1038,6 @@
     <string name="menu_sort_recently_opened">ბოლოს გახსნილი ჩემ მიერ</string>
     <string name="menu_sort_title">სახელი</string>
     <string name="menu_title_button_describer">%1$s. %2$s. ღილაკის გადარქმევა</string>
-    <string name="menu_trash_delete_forever">წაშლა</string>
-    <string name="menu_trash_restore">აღდგენა</string>
-    <string name="menu_unpin">ხაზგარეშე მიუწვდ.</string>
     <string name="menu_will_be_kept_offline">ხდება ხაზგარეშე ხელმისაწვდომი…</string>
     <string name="menu_will_no_longer_be_kept_offline">პრეზენტაცია აღარ იქნება ხელმისაწვდომი ხაზგარეშე</string>
     <string name="message_drive_scope_blocked">%1$s-ზე წვდომა Google Drive-იდან შეუძლებელია. დახმარებისთვის მიმართეთ თქვენს G Suite ადმინისტრატორს.</string>
@@ -1422,7 +1408,7 @@
     <string name="prioritydocs_promo_negative">არა, გმადლობთ</string>
     <string name="prioritydocs_promo_positive">ინსტალაცია</string>
     <string name="promo_no_thanks_button">არა, გმადლობთ</string>
-    <string name="promo_snackbar_googledocs">შექმენით და დაარედაქტირეთ პრეზენტაციები სხვებთან ერთად პირდაპირ თქვენი ტელეფონიდან.</string>
+    <string name="promo_snackbar_googledocs_device">შექმენით და დაარედაქტირეთ პრეზენტაციები სხვებთან ერთად პირდაპირ თქვენი მოწყობილობიდან.</string>
     <string name="promo_snackbar_got_it">დახურვა</string>
     <string name="promo_snackbar_heading">მოგესალმებათ Google Slides</string>
     <string name="promo_snackbar_learn_more">შეიტყვეთ მეტი</string>
@@ -1438,8 +1424,6 @@
     <string name="published_options_dialog_title">გამოქვეყნებული საიტის პარამეტრები</string>
     <string name="punch_already_have_access_to_video">ამ ვიდეოზე წვდომა უკვე გაქვთ.</string>
     <string name="punch_applying_theme">მიმდინარეობს თემის დაყენება…</string>
-    <string name="punch_change_theme_promo_instructions">თემის არჩევა ახლა ხელმისაწვდომია ერთი ადგილიდან მეორეში მოგზაურობისას</string>
-    <string name="punch_change_theme_promo_intro">დაამატეთ ფერი Slides-ის ახალი თემით</string>
     <string name="punch_hangouts_call_exists">წინა შეხვედრის დასრულებამდე შეხვედრას ვერ შეუერთდებით.</string>
     <string name="punch_hangouts_invite_email_body">ეწვიეთ შეხვედრის ქვემოთ ნაჩვენებ ბმულს:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[სლაიდები] %1$s: შემოუერთდით ჩემს პირდაპირ პრეზენტაციას!</string>
@@ -1565,6 +1549,7 @@
     <string name="quota_range_small">1 მბაიტზე ნაკლები</string>
     <string name="quota_range_undefined">მეხსიერება გამოყენებული არ არის</string>
     <string name="quota_zero">არცერთი</string>
+    <string name="ratings_card_body">შეაფასეთ ეს აპი Play Store-ში ან გამოგვეხმაურეთ.</string>
     <string name="ratings_card_feedback">გამოხმაურება</string>
     <string name="ratings_card_header">მოგწონთ Slides?</string>
     <string name="ratings_card_rate">აპის შეფასება</string>

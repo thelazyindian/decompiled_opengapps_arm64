@@ -106,7 +106,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Теріс әрекет туралы хабар жіберілген жоқ</string>
     <string name="announce_account_using">Қолданыстағы есептік жазба: %1$s.</string>
-    <string name="announce_action_undone">Әрекет тоқтатылды.</string>
     <string name="announce_collection_removed">Қалта жойылды.</string>
     <string name="announce_document_removed">Файл жойылды.</string>
     <string name="announce_invalid_filename">Атауы жарамсыз. Басқа атау енгізіңіз.</string>
@@ -980,13 +979,9 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Сақтық көшірмелер</string>
     <string name="menu_copy_link">Сілтемені көшіру</string>
-    <string name="menu_create_shortcut">Нег. экранға қосу</string>
-    <string name="menu_delete">Жою</string>
     <string name="menu_detail">Мәліметтер</string>
     <string name="menu_doc_view_grid_mode">Кесте ретінде көрсету</string>
     <string name="menu_doc_view_list_mode">Тізім ретінде көрсету</string>
-    <string name="menu_download">Жүктеу</string>
-    <string name="menu_dump_database">Бағалау: жергілікті нұсқасын жіберу</string>
     <string name="menu_edit">Өзгерту</string>
     <string name="menu_empty_trash_too_many_items">Кейбір элементтерді босату мүмкін емес, себеттегі элементтер тым көп.</string>
     <string name="menu_filter_by">Іріктеу:</string>
@@ -997,19 +992,13 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="menu_keep_on_device">Офлайн режимінде қолжетімді</string>
     <string name="menu_link_share">Сілтеме бөлісу</string>
     <string name="menu_more_options">Қосымша опциялар</string>
-    <string name="menu_move_to">Жылжыту</string>
     <string name="menu_my_drive">My Drive</string>
     <string name="menu_navigation_devices">Компьютерлер</string>
     <string name="menu_notifications">Хабарландырулар</string>
-    <string name="menu_offline">Офлайн режимінде қолжетімді</string>
-    <string name="menu_open_with">Ашу жолдары</string>
-    <string name="menu_print">Басып шығару</string>
     <string name="menu_refresh">Жаңарту</string>
-    <string name="menu_rename">Атауын өзгерту</string>
     <string name="menu_save_to_drive">Drive ішіне сақтау</string>
     <string name="menu_search">Іздеу</string>
     <string name="menu_selection_clear">Таңдауды тазарту</string>
-    <string name="menu_send">Файлды жіберу</string>
     <string name="menu_send_link">Сілтемесін бөлісу</string>
     <string name="menu_settings">Параметрлер</string>
     <string name="menu_share_print">Басып шығару</string>
@@ -1041,9 +1030,6 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="menu_sort_recently_opened">Мен соңғы рет ашқан</string>
     <string name="menu_sort_title">Атауы бойынша</string>
     <string name="menu_title_button_describer">%2$s%1$s. атауын өзгерту түймесі</string>
-    <string name="menu_trash_delete_forever">Жою</string>
-    <string name="menu_trash_restore">Қалпына келтіру</string>
-    <string name="menu_unpin">Офлайн қолжетімсіз</string>
     <string name="menu_will_be_kept_offline">Офлайн режимінен қолжетімді күйінде қалдыру...</string>
     <string name="menu_will_no_longer_be_kept_offline">Презентация енді офлайн режимінде қолжетімсіз болады</string>
     <string name="message_drive_scope_blocked">%1$s файлына Google Drive-тан кіру мүмкін болмады. G Suite әкімшісінің көмегіне жүгініңіз.</string>
@@ -1413,7 +1399,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="prioritydocs_promo_negative">ЖОҚ, РАҚМЕТ</string>
     <string name="prioritydocs_promo_positive">ОРНАТУ</string>
     <string name="promo_no_thanks_button">ЖОҚ, РАҚМЕТ</string>
-    <string name="promo_snackbar_googledocs">Презентацияларды басқалармен бірге тікелей телефоннан жасау және өңдеу мүмкіндігі.</string>
+    <string name="promo_snackbar_googledocs_device">Презентацияларды басқалармен бірге тікелей құрылғыдан жасау және өңдеу мүмкіндігін пайдаланыңыз.</string>
     <string name="promo_snackbar_got_it">Түсінікті</string>
     <string name="promo_snackbar_heading">Google Slides қолданбасына қош келдіңіз</string>
     <string name="promo_snackbar_learn_more">Толығырақ ақпарат</string>
@@ -1429,8 +1415,6 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="published_options_dialog_title">Жарияланған вебсайт параметрлері</string>
     <string name="punch_already_have_access_to_video">Бұл бейнені көруге рұқсатыңыз бұрыннан бар.</string>
     <string name="punch_applying_theme">Тақырып қолданылуда…</string>
-    <string name="punch_change_theme_promo_instructions">Енді тақырыпты таңдау функциясын кез келген жерде қолдануға болады</string>
-    <string name="punch_change_theme_promo_intro">Жаңа Slides тақырыбын қолданып, презентация түсін түрлендіріңіз</string>
     <string name="punch_hangouts_call_exists">Алдыңғы бейне қоңырау аяқталмайынша, қазіргі бейне қоңырауды бастау мүмкін болмайды.</string>
     <string name="punch_hangouts_invite_email_body">Төмендегі бейне қоңырау сілтемесіне өтіңіз:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[Slides] %1$s: тікелей эфирде ұсынылатын презентацияма қатысыңыз!</string>
@@ -1556,6 +1540,7 @@ MАҢЫЗДЫ! Пікір жіберген соң, қолданба кэшін �
     <string name="quota_range_small">1 МБ төмен</string>
     <string name="quota_range_undefined">Жад орны мүлдем қолданылмаған</string>
     <string name="quota_zero">ешқандай</string>
+    <string name="ratings_card_body">Бұл қолданбаны Play Store-дан бағалаңыз немесе пікіріңізді жіберіңіз.</string>
     <string name="ratings_card_feedback">Пікір жіберу</string>
     <string name="ratings_card_header">Slides қолданбасы ұнады ма?</string>
     <string name="ratings_card_rate">Қолданбаны бағалау</string>

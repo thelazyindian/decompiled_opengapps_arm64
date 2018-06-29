@@ -128,7 +128,6 @@
     <string name="alphabet_set">0123456789אבגדהוזחטיכלמנסעפצקרשת</string>
     <string name="announce_abuse_undo">הדיווח על שימוש לרעה לא נשלח</string>
     <string name="announce_account_using">באמצעות חשבון: %1$s.</string>
-    <string name="announce_action_undone">הפעולה בוטלה.</string>
     <string name="announce_collection_removed">התייקיה הוסרה.</string>
     <string name="announce_document_removed">הקובץ הוסר.</string>
     <string name="announce_invalid_filename">הזנת שם לא חוקי. הזן שם אחר.</string>
@@ -1011,13 +1010,9 @@
     <string name="member_count_max">99‎+‎</string>
     <string name="menu_backup">גיבויים</string>
     <string name="menu_copy_link">העתקת קישור</string>
-    <string name="menu_create_shortcut">הוספה למסך דף הבית</string>
-    <string name="menu_delete">הסרה</string>
     <string name="menu_detail">פרטים</string>
     <string name="menu_doc_view_grid_mode">הצג כרשת</string>
     <string name="menu_doc_view_list_mode">הצג כרשימה</string>
-    <string name="menu_download">הורד</string>
-    <string name="menu_dump_database">משוב - השלך גרסה מקומית</string>
     <string name="menu_edit">עריכה</string>
     <string name="menu_empty_trash_too_many_items">קיימים פריטים רבים מדי באשפה וחלק מהם לא הוסרו.</string>
     <string name="menu_filter_by">סינון לפי</string>
@@ -1028,19 +1023,13 @@
     <string name="menu_keep_on_device">זמין במצב לא מקוון</string>
     <string name="menu_link_share">שיתוף באמצעות קישור</string>
     <string name="menu_more_options">אפשרויות נוספות</string>
-    <string name="menu_move_to">העבר</string>
     <string name="menu_my_drive">האחסון שלי</string>
     <string name="menu_navigation_devices">מחשבים</string>
     <string name="menu_notifications">הודעות</string>
-    <string name="menu_offline">זמין במצב לא מקוון</string>
-    <string name="menu_open_with">פתח באמצעות</string>
-    <string name="menu_print">הדפסה</string>
     <string name="menu_refresh">רענון</string>
-    <string name="menu_rename">שינוי שם</string>
     <string name="menu_save_to_drive">‏שמור ב-Drive</string>
     <string name="menu_search">חיפוש</string>
     <string name="menu_selection_clear">נקה בחירה</string>
-    <string name="menu_send">שלח קובץ</string>
     <string name="menu_send_link">שתף קישור</string>
     <string name="menu_settings">הגדרות</string>
     <string name="menu_share_print">הדפס</string>
@@ -1072,9 +1061,6 @@
     <string name="menu_sort_recently_opened">פתיחה אחרונה שלי</string>
     <string name="menu_sort_title">שם</string>
     <string name="menu_title_button_describer">%1$s. %2$s. לחצן שינוי שם</string>
-    <string name="menu_trash_delete_forever">מחיקה</string>
-    <string name="menu_trash_restore">שחזור</string>
-    <string name="menu_unpin">הסר מהמכשיר</string>
     <string name="menu_will_be_kept_offline">הגדרת הזמינות של הקובץ מתבצעת...</string>
     <string name="menu_will_no_longer_be_kept_offline">המצגת לא תהיה זמינה יותר במצב לא מקוון</string>
     <string name="message_drive_scope_blocked">‏לא ניתן לגשת אל %1$s דרך Google Drive. מנהל המערכת שלך ב-G Suite יוכל לסייע לך.</string>
@@ -1447,7 +1433,7 @@
     <string name="prioritydocs_promo_negative">לא, תודה</string>
     <string name="prioritydocs_promo_positive">התקן</string>
     <string name="promo_no_thanks_button">לא, תודה</string>
-    <string name="promo_snackbar_googledocs">יצירה ועריכה של מצגות עם אחרים ישירות מהטלפון.</string>
+    <string name="promo_snackbar_googledocs_device">יצירה ועריכה של מצגות עם אחרים ישירות מהמכשיר.</string>
     <string name="promo_snackbar_got_it">הבנתי</string>
     <string name="promo_snackbar_heading">‏ברוכים הבאים אל Google Slides</string>
     <string name="promo_snackbar_learn_more">למידע נוסף</string>
@@ -1463,8 +1449,6 @@
     <string name="published_options_dialog_title">הגדרות של אתר שפורסם</string>
     <string name="punch_already_have_access_to_video">כבר יש לך גישה לסרטון הזה.</string>
     <string name="punch_applying_theme">מחיל עיצוב...</string>
-    <string name="punch_change_theme_promo_instructions">עכשיו אפשר לבחור עיצובים בדרכים</string>
-    <string name="punch_change_theme_promo_intro">‏אפשר לבחור עיצוב חדש ב-Slides ולהעשיר את המצגת</string>
     <string name="punch_hangouts_call_exists">לא ניתן להצטרף לפגישה חדשה לפני שהפגישה הקודמת מסתיימת.</string>
     <string name="punch_hangouts_invite_email_body">לחיצה על הקישור תעביר אותך לפגישה:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">‏[Slides] %1$s: הצטרף למצגת שלי בשידור חי!</string>
@@ -1590,6 +1574,7 @@
     <string name="quota_range_small">‏פחות מ-1 MB</string>
     <string name="quota_range_undefined">שטח האחסון אינו מנוצל כלל</string>
     <string name="quota_zero">ללא</string>
+    <string name="ratings_card_body">‏מה דעתך לדרג את האפליקציה בחנות Play או לשלוח לנו משוב לגביה? זה יעזור לנו לשפר אותה.</string>
     <string name="ratings_card_feedback">שליחת משוב</string>
     <string name="ratings_card_header">‏נהנה מהשימוש ב-Slides?</string>
     <string name="ratings_card_rate">דרג את האפליקציה</string>
@@ -1597,7 +1582,7 @@
     <string name="relevance_sync_promo_card_body_copies_no_create">‏עכשיו ניתן לפתוח קבצים אחרונים ולערוך אותם במכשיר הזה במצב לא מקוון. אפשר לשנות את ההגדרה הזו ב-Slides מתי שרוצים.</string>
     <string name="relevance_sync_promo_card_header">עבודה במצב לא מקוון</string>
     <string name="remove_button">הסרה</string>
-    <string name="remove_button_confirm">העבר לאשפה</string>
+    <string name="remove_button_confirm">העברה לאשפה</string>
     <string name="remove_button_shared_item_confirm">הסר</string>
     <string name="remove_collection">להעביר לאשפה?</string>
     <string name="remove_collection_shared">להסיר מהתצוגה?</string>

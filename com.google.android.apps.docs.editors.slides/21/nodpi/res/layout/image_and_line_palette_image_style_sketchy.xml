@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/image_line_palette_layout" style="@style/PaletteWithDivider"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/image_and_line_palette_linecolor_row" />
+    <include layout="@layout/image_and_line_palette_lineweight_row_sketchy" />
+    <include layout="@layout/image_and_line_palette_linedash_row" />
+    <include layout="@layout/image_adjustments_row" />
+</LinearLayout>

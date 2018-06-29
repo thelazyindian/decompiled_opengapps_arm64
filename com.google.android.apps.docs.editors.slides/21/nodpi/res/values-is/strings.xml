@@ -113,7 +113,6 @@
     <string name="alphabet_set">0123456789AÁBCDÐEÉFGHIÍJKLMNOÓPQRSTUÚVWXYÝZÞÆÖ</string>
     <string name="announce_abuse_undo">Misnotkunartilkynning ekki send inn</string>
     <string name="announce_account_using">Þú ert að nota reikninginn: %1$s.</string>
-    <string name="announce_action_undone">Aðgerð afturkölluð.</string>
     <string name="announce_collection_removed">Mappa fjarlægð.</string>
     <string name="announce_document_removed">Skrá fjarlægð.</string>
     <string name="announce_invalid_filename">Ógilt heiti. Sláðu inn annað heiti.</string>
@@ -988,13 +987,9 @@ Smelltu á + til að búa til nýja kynningu."</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Öryggisafrit</string>
     <string name="menu_copy_link">Afrita tengil</string>
-    <string name="menu_create_shortcut">Bæta á heimaskjá</string>
-    <string name="menu_delete">Fjarlægja</string>
     <string name="menu_detail">Upplýsingar</string>
     <string name="menu_doc_view_grid_mode">Skoða sem töflu</string>
     <string name="menu_doc_view_list_mode">Skoða sem lista</string>
-    <string name="menu_download">Sækja</string>
-    <string name="menu_dump_database">Ábending – Senda inn útgáfu úr tækinu</string>
     <string name="menu_edit">Breyta</string>
     <string name="menu_empty_trash_too_many_items">Ekki var hægt að eyða öllum atriðum; of mörg atriði í ruslinu.</string>
     <string name="menu_filter_by">Sía eftir</string>
@@ -1005,19 +1000,13 @@ Smelltu á + til að búa til nýja kynningu."</string>
     <string name="menu_keep_on_device">Í boði án nettengingar</string>
     <string name="menu_link_share">Deiling með tengli</string>
     <string name="menu_more_options">Fleiri valkostir</string>
-    <string name="menu_move_to">Færa</string>
     <string name="menu_my_drive">Drifið mitt</string>
     <string name="menu_navigation_devices">Tölvur</string>
     <string name="menu_notifications">Tilkynningar</string>
-    <string name="menu_offline">Tiltækt án nettengingar</string>
-    <string name="menu_open_with">Opna með</string>
-    <string name="menu_print">Prenta</string>
     <string name="menu_refresh">Endurnýja</string>
-    <string name="menu_rename">Endurnefna</string>
     <string name="menu_save_to_drive">Vista á Drive</string>
     <string name="menu_search">Leita</string>
     <string name="menu_selection_clear">Hreinsa val</string>
-    <string name="menu_send">Senda skrá</string>
     <string name="menu_send_link">Deila tengli</string>
     <string name="menu_settings">Stillingar</string>
     <string name="menu_share_print">Prenta</string>
@@ -1049,9 +1038,6 @@ Smelltu á + til að búa til nýja kynningu."</string>
     <string name="menu_sort_recently_opened">Ég opnaði síðast</string>
     <string name="menu_sort_title">Heiti</string>
     <string name="menu_title_button_describer">%1$s. %2$s. hnappur til að endurnefna</string>
-    <string name="menu_trash_delete_forever">Eyða</string>
-    <string name="menu_trash_restore">Endurheimta</string>
-    <string name="menu_unpin">Fjarlægja úr tækinu</string>
     <string name="menu_will_be_kept_offline">Gerir skrá tiltæka án nettengingar…</string>
     <string name="menu_will_no_longer_be_kept_offline">Kynningunni verður ekki lengur haldið án nettengingar</string>
     <string name="message_drive_scope_blocked">Ekki tókst að opna %1$s úr Google Drive. Hafðu samband við stjórnanda G Suite til að fá hjálp.</string>
@@ -1423,7 +1409,7 @@ Smelltu á + til að búa til nýja kynningu."</string>
     <string name="prioritydocs_promo_negative">NEI, TAKK</string>
     <string name="prioritydocs_promo_positive">SETJA UPP</string>
     <string name="promo_no_thanks_button">NEI, TAKK</string>
-    <string name="promo_snackbar_googledocs">Búðu til og breyttu kynningum í samvinnu við aðra beint úr símanum.</string>
+    <string name="promo_snackbar_googledocs_device">Búðu til og breyttu kynningum í samvinnu við aðra beint úr tækinu þínu.</string>
     <string name="promo_snackbar_got_it">Ég skil</string>
     <string name="promo_snackbar_heading">Velkomin(n) í Google skyggnur</string>
     <string name="promo_snackbar_learn_more">Frekari upplýsingar</string>
@@ -1439,8 +1425,6 @@ Smelltu á + til að búa til nýja kynningu."</string>
     <string name="published_options_dialog_title">Stillingar birts vefsvæðis</string>
     <string name="punch_already_have_access_to_video">Þú ert þegar með aðgang að myndskeiðinu.</string>
     <string name="punch_applying_theme">Setur inn þema…</string>
-    <string name="punch_change_theme_promo_instructions">Þemaval er nú fáanlegt hvar sem þú ert</string>
-    <string name="punch_change_theme_promo_intro">Bættu lit í tilveruna með nýju þema í Skyggnum</string>
     <string name="punch_hangouts_call_exists">Ekki er hægt að tengjast fundi þar til fyrri fundi lýkur.</string>
     <string name="punch_hangouts_invite_email_body">Notaðu fundartengilinn hér að neðan:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[Skyggnur] %1$s: horfðu á kynninguna mína í beinni!</string>
@@ -1566,6 +1550,7 @@ Viðvörun: Ekki er hægt að afturkalla þessa aðgerð."</string>
     <string name="quota_range_small">Undir 1 MB</string>
     <string name="quota_range_undefined">Ekkert geymslurými notað</string>
     <string name="quota_zero">engin</string>
+    <string name="ratings_card_body">Gefðu þessu forriti einkunn í Play Store eða sendu okkur þitt álit.</string>
     <string name="ratings_card_feedback">Senda inn ábendingu</string>
     <string name="ratings_card_header">Eru Skyggnur þér að skapi?</string>
     <string name="ratings_card_rate">Gefa forriti einkunn</string>

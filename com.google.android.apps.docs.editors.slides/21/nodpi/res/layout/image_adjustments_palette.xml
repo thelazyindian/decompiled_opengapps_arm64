@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/image_adjustments_palette_layout" style="@style/PaletteWithDivider"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/image_adjustments_palette_reset_row" />
+    <include layout="@layout/image_adjustments_palette_transparency_row" />
+    <include layout="@layout/image_adjustments_palette_brightness_row" />
+    <include layout="@layout/image_adjustments_palette_contrast_row" />
+</LinearLayout>

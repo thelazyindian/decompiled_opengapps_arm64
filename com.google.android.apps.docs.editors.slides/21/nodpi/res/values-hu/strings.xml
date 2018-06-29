@@ -128,7 +128,6 @@
     <string name="alphabet_set">0123456789AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ</string>
     <string name="announce_abuse_undo">A rendszer nem tudta elküldeni a visszaélésről szóló jelentést</string>
     <string name="announce_account_using">Használt fiók: %1$s.</string>
-    <string name="announce_action_undone">Visszavonta a műveletet.</string>
     <string name="announce_collection_removed">Eltávolította a mappát.</string>
     <string name="announce_document_removed">Eltávolította a fájlt.</string>
     <string name="announce_invalid_filename">A megadott név érvénytelen. Adjon meg egy másik nevet.</string>
@@ -1011,13 +1010,9 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Biztonsági másolatok</string>
     <string name="menu_copy_link">Link másolása</string>
-    <string name="menu_create_shortcut">A kezdőképernyőhöz</string>
-    <string name="menu_delete">Eltávolítás</string>
     <string name="menu_detail">Részletek</string>
     <string name="menu_doc_view_grid_mode">Rácsnézet</string>
     <string name="menu_doc_view_list_mode">Listanézet</string>
-    <string name="menu_download">Letöltés</string>
-    <string name="menu_dump_database">Visszajelzés – helyi verzió kiírása</string>
     <string name="menu_edit">Szerkesztés</string>
     <string name="menu_empty_trash_too_many_items">Egyes elemeket nem sikerült üríteni. A kuka túl sok elemet tartalmaz.</string>
     <string name="menu_filter_by">Szűrő:</string>
@@ -1028,19 +1023,13 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="menu_keep_on_device">Elérhető offline</string>
     <string name="menu_link_share">Linkmegosztás</string>
     <string name="menu_more_options">További beállítások</string>
-    <string name="menu_move_to">Áthelyezés</string>
     <string name="menu_my_drive">Saját meghajtó</string>
     <string name="menu_navigation_devices">Számítógépek</string>
     <string name="menu_notifications">Értesítések</string>
-    <string name="menu_offline">Elérhető offline</string>
-    <string name="menu_open_with">Megnyitás ezzel…</string>
-    <string name="menu_print">Nyomtatás</string>
     <string name="menu_refresh">Frissítés</string>
-    <string name="menu_rename">Átnevezés</string>
     <string name="menu_save_to_drive">Mentés a Drive-ra</string>
     <string name="menu_search">Keresés</string>
     <string name="menu_selection_clear">Kijelölés törlése</string>
-    <string name="menu_send">Fájl küldése</string>
     <string name="menu_send_link">Link megosztása</string>
     <string name="menu_settings">Beállítások</string>
     <string name="menu_share_print">Nyomtatás</string>
@@ -1072,9 +1061,6 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="menu_sort_recently_opened">Általam utoljára megnyitva</string>
     <string name="menu_sort_title">Név</string>
     <string name="menu_title_button_describer">%1$s. %2$s. átnevezés gomb</string>
-    <string name="menu_trash_delete_forever">Törlés</string>
-    <string name="menu_trash_restore">Visszaállítás</string>
-    <string name="menu_unpin">Törl. az eszközről</string>
     <string name="menu_will_be_kept_offline">Offline elérés beállítása…</string>
     <string name="menu_will_no_longer_be_kept_offline">A prezentáció nem elérhető offline.</string>
     <string name="message_drive_scope_blocked">Nem férhet hozzá a következőhöz a Drive-ból: %1$s. Segítségért forduljon a G Suite-adminisztrátorhoz.</string>
@@ -1447,7 +1433,7 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="prioritydocs_promo_negative">KÖSZÖNÖM, NEM</string>
     <string name="prioritydocs_promo_positive">TELEPÍTÉS</string>
     <string name="promo_no_thanks_button">KÖSZÖNÖM, NEM</string>
-    <string name="promo_snackbar_googledocs">Közvetlenül telefonjáról hozhat létre prezentációkat, melyeket másokkal együtt is szerkeszthet.</string>
+    <string name="promo_snackbar_googledocs_device">Közvetlenül eszközéről hozhat létre prezentációkat, melyeket másokkal együtt is szerkeszthet.</string>
     <string name="promo_snackbar_got_it">Értem</string>
     <string name="promo_snackbar_heading">Üdvözli a Google Diák</string>
     <string name="promo_snackbar_learn_more">További információ</string>
@@ -1463,8 +1449,6 @@ Kattintson a + gombra prezentáció létrehozásához."</string>
     <string name="published_options_dialog_title">Közzétett webhely beállításai</string>
     <string name="punch_already_have_access_to_video">Már van hozzáférése a videóhoz.</string>
     <string name="punch_applying_theme">Téma alkalmazása…</string>
-    <string name="punch_change_theme_promo_instructions">Már útközben is választhat témát</string>
-    <string name="punch_change_theme_promo_intro">Az új Diák témával színesebbé teheti a prezentációkat</string>
     <string name="punch_hangouts_call_exists">Nem csatlakozhat a megbeszéléshez, amíg egy másik megbeszélés folyamatban van.</string>
     <string name="punch_hangouts_invite_email_body">Nyissa meg a lenti megbeszéléslinket:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[Diák] %1$s: csatlakozzon élő prezentációmhoz!</string>
@@ -1590,6 +1574,7 @@ Figyelmeztetés: A művelet nem vonható vissza."</string>
     <string name="quota_range_small">1 MB alatt</string>
     <string name="quota_range_undefined">Nincs felhasznált tárhely</string>
     <string name="quota_zero">nincs</string>
+    <string name="ratings_card_body">Értékelje ezt az alkalmazást a Play Store-ban, vagy küldjön nekünk visszajelzést.</string>
     <string name="ratings_card_feedback">Visszajelzés küldése</string>
     <string name="ratings_card_header">Tetszik Önnek a Diák szogláltatás?</string>
     <string name="ratings_card_rate">Alkalmazás értékelése</string>

@@ -128,7 +128,6 @@
     <string name="alphabet_set">0123456789ABCÇDEFGHIİJKLMNOÖPQRSŞTUÜVWXYZ</string>
     <string name="announce_abuse_undo">Kötüye kullanım raporu gönderilmedi</string>
     <string name="announce_account_using">Kullanılan hesap: %1$s.</string>
-    <string name="announce_action_undone">İşlem geri alındı.</string>
     <string name="announce_collection_removed">Klasör kaldırıldı.</string>
     <string name="announce_document_removed">Dosya kaldırıldı.</string>
     <string name="announce_invalid_filename">Geçersiz ad. Lütfen farklı bir ad girin.</string>
@@ -1023,13 +1022,9 @@ Yeni sunu oluşturmak için +'yı tıklayın."</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Yedeklemeler</string>
     <string name="menu_copy_link">Bağlantı. kopyala</string>
-    <string name="menu_create_shortcut">Ana ekrana ekle</string>
-    <string name="menu_delete">Kaldır</string>
     <string name="menu_detail">Ayrıntılar</string>
     <string name="menu_doc_view_grid_mode">Tablo olarak gör</string>
     <string name="menu_doc_view_list_mode">Liste olarak gör</string>
-    <string name="menu_download">İndir</string>
-    <string name="menu_dump_database">Geri Bildirim - Yerel sürümün dökümünü alın</string>
     <string name="menu_edit">Düzenle</string>
     <string name="menu_empty_trash_too_many_items">"Bazı öğeler silinemedi, Çöp Kutusu'nda çok fazla öğe var."</string>
     <string name="menu_filter_by">Filtreleme ölçütü</string>
@@ -1040,19 +1035,13 @@ Yeni sunu oluşturmak için +'yı tıklayın."</string>
     <string name="menu_keep_on_device">Çevrimdışı kullanılabilir</string>
     <string name="menu_link_share">Bağlantı paylaşma</string>
     <string name="menu_more_options">Diğer seçenekler</string>
-    <string name="menu_move_to">Taşı</string>
     <string name="menu_my_drive">"Drive'ım"</string>
     <string name="menu_navigation_devices">Bilgisayarlar</string>
     <string name="menu_notifications">Bildirimler</string>
-    <string name="menu_offline">Çevrimdışı kullanılabilir</string>
-    <string name="menu_open_with">Birlikte aç</string>
-    <string name="menu_print">Yazdır</string>
     <string name="menu_refresh">Yenile</string>
-    <string name="menu_rename">Yeniden adlandır</string>
     <string name="menu_save_to_drive">"Drive'a Kaydet"</string>
     <string name="menu_search">Ara</string>
     <string name="menu_selection_clear">Seçimi temizle</string>
-    <string name="menu_send">Dosyayı gönder</string>
     <string name="menu_send_link">Bağlantıyı paylaş</string>
     <string name="menu_settings">Ayarlar</string>
     <string name="menu_share_print">Yazdır</string>
@@ -1084,9 +1073,6 @@ Yeni sunu oluşturmak için +'yı tıklayın."</string>
     <string name="menu_sort_recently_opened">Son açtığım tarih</string>
     <string name="menu_sort_title">Ad</string>
     <string name="menu_title_button_describer">%1$s. %2$s. yeniden adlandır düğmesi</string>
-    <string name="menu_trash_delete_forever">Sil</string>
-    <string name="menu_trash_restore">Geri yükle</string>
-    <string name="menu_unpin">Cihazdan kaldır</string>
     <string name="menu_will_be_kept_offline">Çevrimdışı kullanılabilir hale getiriliyor…</string>
     <string name="menu_will_no_longer_be_kept_offline">Sunu artık çevrimdışı kullanılamayacak</string>
     <string name="message_drive_scope_blocked">"Google Drive'daki %1$s adlı dosyaya erişilemiyor. Yardım için G Suite yöneticinize ulaşın."</string>
@@ -1459,7 +1445,7 @@ Yeni sunu oluşturmak için +'yı tıklayın."</string>
     <string name="prioritydocs_promo_negative">HAYIR, TEŞEKKÜRLER</string>
     <string name="prioritydocs_promo_positive">YÜKLE</string>
     <string name="promo_no_thanks_button">HAYIR, TEŞEKKÜRLER</string>
-    <string name="promo_snackbar_googledocs">Doğrudan telefonunuzdan sunu oluşturun ve diğer kullanıcılarla düzenleyin.</string>
+    <string name="promo_snackbar_googledocs_device">Doğrudan cihazınızdan sunu oluşturun ve diğer kullanıcılarla düzenleyin.</string>
     <string name="promo_snackbar_got_it">Anladım</string>
     <string name="promo_snackbar_heading">"Google Slaytlar'a Hoş Geldiniz"</string>
     <string name="promo_snackbar_learn_more">Daha Fazla Bilgi Edinin</string>
@@ -1475,8 +1461,6 @@ Yeni sunu oluşturmak için +'yı tıklayın."</string>
     <string name="published_options_dialog_title">Yayınlanan sitenin ayarları</string>
     <string name="punch_already_have_access_to_video">Bu videoya zaten erişiminiz var.</string>
     <string name="punch_applying_theme">Tema uygulanıyor…</string>
-    <string name="punch_change_theme_promo_instructions">Artık hareket halindeyken tema seçimi yapabilirsiniz</string>
-    <string name="punch_change_theme_promo_intro">Yeni bir Slaytlar temasıyla renk katın</string>
     <string name="punch_hangouts_call_exists">Önceki toplantı bitene kadar yeni bir toplantıya katılamazsınız.</string>
     <string name="punch_hangouts_invite_email_body">Aşağıdaki toplantı bağlantısını ziyaret edin:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[Slaytlar] %1$s: Canlı sunumuma katılın!</string>
@@ -1602,6 +1586,7 @@ Uyarı: Bu işlemi geri alamazsınız."</string>
     <string name="quota_range_small">"1 MB'ın Altında"</string>
     <string name="quota_range_undefined">Hiç Depolama Alanı Kullanmayanlar</string>
     <string name="quota_zero">yok</string>
+    <string name="ratings_card_body">"Bu uygulamayı Play Store'da değerlendirin veya bize geri bildirim gönderin."</string>
     <string name="ratings_card_feedback">Geri Bildirim Gönder</string>
     <string name="ratings_card_header">"Slaytlar'ı beğeniyor musunuz?"</string>
     <string name="ratings_card_rate">Uygulamayı Değerlendir</string>

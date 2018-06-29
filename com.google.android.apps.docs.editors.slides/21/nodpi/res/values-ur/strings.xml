@@ -113,7 +113,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">بیجا استعمال کی اطلاع جمع نہیں ہوئی</string>
     <string name="announce_account_using">اکاؤنٹ استعمال ہو رہا ہے: %1$s۔</string>
-    <string name="announce_action_undone">عمل کالعدم ہو گیا۔</string>
     <string name="announce_collection_removed">فولڈر ہٹا دیا گیا۔</string>
     <string name="announce_document_removed">فائل ہٹا دی گئی۔</string>
     <string name="announce_invalid_filename">غلط نام۔ براہ کرم ایک مختلف نام درج کریں۔</string>
@@ -179,7 +178,7 @@
     <string name="camera_enabled_announcement">کیمرا آن ہو گیا</string>
     <string name="camera_image_insert_failed">تصویر داخل کرنا ناکام ہوگیا۔ بیرونی اسٹوریج دستیاب نہیں ہے۔</string>
     <string name="camera_settings">کیمرے کی ترتیبات</string>
-    <string name="cannot_change_any_settings">"You don't have permission to change these settings"</string>
+    <string name="cannot_change_any_settings">آپ کو ان ترتیبات میں تبدیلی کرنے کی اجازت نہیں ہے</string>
     <string name="cant_open_file">فائل نہیں کھل سکتی</string>
     <string name="cast_connected">کاسٹ آلات کو کنٹرول کریں</string>
     <string name="cast_list_item_content_description">%1$s, %2$s</string>
@@ -988,13 +987,9 @@
     <string name="member_count_max">+99</string>
     <string name="menu_backup">بیک اپس</string>
     <string name="menu_copy_link">لنک کاپی کریں</string>
-    <string name="menu_create_shortcut">ہوم اسکرین میں شامل کریں</string>
-    <string name="menu_delete">ہٹائیں</string>
     <string name="menu_detail">تفصیلات</string>
     <string name="menu_doc_view_grid_mode">گرڈ کے بطور دیکھیں</string>
     <string name="menu_doc_view_list_mode">فہرست کے بطور دیکھیں</string>
-    <string name="menu_download">ڈاؤن لوڈ کریں</string>
-    <string name="menu_dump_database">تاثرات - مقامی ورژن پھینک دیں</string>
     <string name="menu_edit">ترمیم کریں</string>
     <string name="menu_empty_trash_too_many_items">کچھ آئٹمز خالی نہیں ہو سکیں، کوڑے دان میں بہت زیادہ آئٹمز ہیں۔</string>
     <string name="menu_filter_by">فلٹر کریں بہ لحاظ</string>
@@ -1005,19 +1000,13 @@
     <string name="menu_keep_on_device">آف لائن دستیاب ہے</string>
     <string name="menu_link_share">لنک کا اشتراک</string>
     <string name="menu_more_options">مزید اختیارات</string>
-    <string name="menu_move_to">منتقل کریں</string>
     <string name="menu_my_drive">میری ڈرائیو</string>
     <string name="menu_navigation_devices">کمپیوٹرز</string>
     <string name="menu_notifications">اطلاعات</string>
-    <string name="menu_offline">آف لائن دستیاب ہے</string>
-    <string name="menu_open_with">اس کے ساتھ کھولیں</string>
-    <string name="menu_print">پرنٹ کریں</string>
     <string name="menu_refresh">ریفریش کریں</string>
-    <string name="menu_rename">نام بدلیں</string>
     <string name="menu_save_to_drive">‏Drive میں محفوظ کریں</string>
     <string name="menu_search">تلاش کریں</string>
     <string name="menu_selection_clear">انتخاب صاف کریں</string>
-    <string name="menu_send">فائل بھیجیں</string>
     <string name="menu_send_link">لنک کا اشتراک کریں</string>
     <string name="menu_settings">ترتیبات</string>
     <string name="menu_share_print">پرنٹ کریں</string>
@@ -1049,9 +1038,6 @@
     <string name="menu_sort_recently_opened">میرے ذریعے آخری بار کھولے گئے</string>
     <string name="menu_sort_title">نام</string>
     <string name="menu_title_button_describer">%1$s۔ %2$s۔ بٹن کا نام تبدیل کریں</string>
-    <string name="menu_trash_delete_forever">حذف کریں</string>
-    <string name="menu_trash_restore">بحال کریں</string>
-    <string name="menu_unpin">آلہ سے ہٹائیں</string>
     <string name="menu_will_be_kept_offline">آف لائن دستیاب بنائی جا رہی ہے…</string>
     <string name="menu_will_no_longer_be_kept_offline">پیشکش اب مزید آف لائن دستیاب نہیں رہے گی</string>
     <string name="message_drive_scope_blocked">‏Google Drive سے %1$s تک رسائی حاصل نہیں کرسکتے۔ مدد کیلئے اپنے G Suite منتظم سے رابطہ کریں۔</string>
@@ -1423,7 +1409,7 @@
     <string name="prioritydocs_promo_negative">نہیں شکریہ</string>
     <string name="prioritydocs_promo_positive">انسٹال کریں</string>
     <string name="promo_no_thanks_button">نہیں شکریہ</string>
-    <string name="promo_snackbar_googledocs">براہ راست اپنے فون سے دیگر لوگوں کے ساتھ پیشکشیں بنائیں اور ان میں ترمیم کریں۔</string>
+    <string name="promo_snackbar_googledocs_device">براہ راست اپنے آلہ سے دوسرے لوگوں کے ساتھ پیشکشیں بنائیں اور ان میں ترمیم کریں۔</string>
     <string name="promo_snackbar_got_it">سمجھ آ گئی</string>
     <string name="promo_snackbar_heading">‏Google Slides میں خوش آمدید</string>
     <string name="promo_snackbar_learn_more">مزید جانیں</string>
@@ -1439,8 +1425,6 @@
     <string name="published_options_dialog_title">شائع شدہ سائٹ کی ترتیبات</string>
     <string name="punch_already_have_access_to_video">آپ کے پاس پہلے سے اس ویڈیو کی رسائی ہے۔</string>
     <string name="punch_applying_theme">تھیم کا اطلاق ہو رہا ہے…</string>
-    <string name="punch_change_theme_promo_instructions">تھیم کا انتخاب اب چلتے پھرتے دستیاب ہے</string>
-    <string name="punch_change_theme_promo_intro">‏ایک نئے Slides تھیم کے ساتھ کچھ رنگوں کا اضافہ کریں</string>
     <string name="punch_hangouts_call_exists">گزشتہ میٹنگ ختم ہونے تک کسی میٹنگ میں شرکت نہیں کر سکتے۔</string>
     <string name="punch_hangouts_invite_email_body">میٹنگ کا لنک نیچے ملاحظہ کریں:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">‏[Slides] %1$s: میری لائیو پیشکش میں شامل ہوں!</string>
@@ -1566,6 +1550,7 @@
     <string name="quota_range_small">‏‎1 MB سے کم</string>
     <string name="quota_range_undefined">صفر اسٹوریج استعمال ہوئی</string>
     <string name="quota_zero">کوئی نہیں</string>
+    <string name="ratings_card_body">‏اس ایپ کی Play اسٹور میں درجہ بندی کریں یا ہمیں اپنے تاثرات بھیجیں۔</string>
     <string name="ratings_card_feedback">تاثرات بھیجیں</string>
     <string name="ratings_card_header">‏Slides کا لطف اٹھا رہے ہیں؟</string>
     <string name="ratings_card_rate">ایپ کی درجہ بندی کریں</string>

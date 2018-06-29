@@ -128,7 +128,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">"Rapport d'abus non envoyé"</string>
     <string name="announce_account_using">Compte utilisé : %1$s</string>
-    <string name="announce_action_undone">Action annulée.</string>
     <string name="announce_collection_removed">Dossier supprimé.</string>
     <string name="announce_document_removed">Fichier supprimé.</string>
     <string name="announce_invalid_filename">"Ce nom n'est pas valide. Veuillez en saisir un autre."</string>
@@ -194,7 +193,7 @@
     <string name="camera_enabled_announcement">Appareil photo désactivé</string>
     <string name="camera_image_insert_failed">"Échec de l'insertion de l'image. Le stockage externe n'est pas disponible."</string>
     <string name="camera_settings">"Paramètres de l'application Appareil photo"</string>
-    <string name="cannot_change_any_settings">"You don't have permission to change these settings"</string>
+    <string name="cannot_change_any_settings">"Vous n'êtes pas autorisé à modifier ces paramètres"</string>
     <string name="cant_open_file">"Impossible d'ouvrir le fichier"</string>
     <string name="cast_connected">Contrôler les appareils Cast</string>
     <string name="cast_list_item_content_description">%1$s, %2$s.</string>
@@ -1023,13 +1022,9 @@ Cliquez sur \"+\" pour créer une présentation."</string>
     <string name="member_count_max">> 99</string>
     <string name="menu_backup">Sauvegardes</string>
     <string name="menu_copy_link">Copier le lien</string>
-    <string name="menu_create_shortcut">Raccourci accueil</string>
-    <string name="menu_delete">Supprimer</string>
     <string name="menu_detail">Détails</string>
     <string name="menu_doc_view_grid_mode">Mode Grille</string>
     <string name="menu_doc_view_list_mode">Mode Liste</string>
-    <string name="menu_download">Télécharger</string>
-    <string name="menu_dump_database">Commentaires - Capturer la version locale</string>
     <string name="menu_edit">Édition</string>
     <string name="menu_empty_trash_too_many_items">"Impossible de vider certains éléments, car la corbeille contient trop d'éléments."</string>
     <string name="menu_filter_by">Filtrer par</string>
@@ -1040,19 +1035,13 @@ Cliquez sur \"+\" pour créer une présentation."</string>
     <string name="menu_keep_on_device">Disponible hors connexion</string>
     <string name="menu_link_share">Partage par lien</string>
     <string name="menu_more_options">Autres options</string>
-    <string name="menu_move_to">Déplacer</string>
     <string name="menu_my_drive">Mon Drive</string>
     <string name="menu_navigation_devices">Ordinateurs</string>
     <string name="menu_notifications">Notifications</string>
-    <string name="menu_offline">Disponible hors connexion</string>
-    <string name="menu_open_with">Ouvrir avec</string>
-    <string name="menu_print">Imprimer</string>
     <string name="menu_refresh">Actualiser</string>
-    <string name="menu_rename">Renommer</string>
     <string name="menu_save_to_drive">Enregistrer dans Drive</string>
     <string name="menu_search">Rechercher</string>
     <string name="menu_selection_clear">Effacer la sélection</string>
-    <string name="menu_send">Envoyer fichier</string>
     <string name="menu_send_link">Partager le lien</string>
     <string name="menu_settings">Paramètres</string>
     <string name="menu_share_print">Imprimer</string>
@@ -1084,9 +1073,6 @@ Cliquez sur \"+\" pour créer une présentation."</string>
     <string name="menu_sort_recently_opened">Dernière ouverture par moi</string>
     <string name="menu_sort_title">Nom</string>
     <string name="menu_title_button_describer">%1$s. %2$s. Bouton \"Renommer\"</string>
-    <string name="menu_trash_delete_forever">Supprimer</string>
-    <string name="menu_trash_restore">Restaurer</string>
-    <string name="menu_unpin">Désac. hors connex</string>
     <string name="menu_will_be_kept_offline">Activation de la disponibilité hors connexion…</string>
     <string name="menu_will_no_longer_be_kept_offline">La présentation ne sera plus disponible hors connexion.</string>
     <string name="message_drive_scope_blocked">"Impossible d'accéder à %1$s depuis Google Drive. Contactez votre administrateur G Suite pour obtenir de l'aide."</string>
@@ -1459,7 +1445,7 @@ Cliquez sur \"+\" pour créer une présentation."</string>
     <string name="prioritydocs_promo_negative">NON, MERCI</string>
     <string name="prioritydocs_promo_positive">INSTALLER</string>
     <string name="promo_no_thanks_button">NON, MERCI</string>
-    <string name="promo_snackbar_googledocs">"Créez et modifiez des présentations en collaboration avec d'autres personnes directement sur votre téléphone."</string>
+    <string name="promo_snackbar_googledocs_device">"Créez et modifiez des présentations avec d'autres personnes directement sur votre appareil."</string>
     <string name="promo_snackbar_got_it">OK</string>
     <string name="promo_snackbar_heading">Bienvenue dans Google Slides</string>
     <string name="promo_snackbar_learn_more">En savoir plus</string>
@@ -1475,8 +1461,6 @@ Cliquez sur \"+\" pour créer une présentation."</string>
     <string name="published_options_dialog_title">Paramètres de site publié</string>
     <string name="punch_already_have_access_to_video">Vous avez déjà accès à cette vidéo.</string>
     <string name="punch_applying_theme">Application du thème…</string>
-    <string name="punch_change_theme_promo_instructions">"Vous pouvez désormais sélectionner le thème à partir d'un appareil mobile."</string>
-    <string name="punch_change_theme_promo_intro">Ajoutez de la couleur en choisissant un autre thème Slides.</string>
     <string name="punch_hangouts_call_exists">"Impossible de participer à une réunion tant que la réunion précédente n'est pas terminée."</string>
     <string name="punch_hangouts_invite_email_body">Consulter le site de la réunion via le lien ci-dessous :&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[Slides] %1$s : participez à ma présentation en direct !</string>
@@ -1602,6 +1586,7 @@ Avertissement : Vous ne pourrez pas annuler cette action."</string>
     <string name="quota_range_small">Moins de 1 Mo</string>
     <string name="quota_range_undefined">Aucun espace de stockage utilisé</string>
     <string name="quota_zero">aucun</string>
+    <string name="ratings_card_body">Donnez votre avis sur cette application dans le Play Store ou faites-nous part de vos commentaires.</string>
     <string name="ratings_card_feedback">Envoyer des commentaires</string>
     <string name="ratings_card_header">Vous appréciez Slides ?</string>
     <string name="ratings_card_rate">"Attribuer une note à l'application"</string>

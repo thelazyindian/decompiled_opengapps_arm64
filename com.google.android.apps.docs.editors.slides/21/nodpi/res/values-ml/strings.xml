@@ -113,7 +113,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">ദുരുപയോഗ റിപ്പോർട്ട് സമർപ്പിച്ചിട്ടില്ല</string>
     <string name="announce_account_using">ഉപയോഗിക്കുന്ന അക്കൗണ്ട്: %1$s.</string>
-    <string name="announce_action_undone">പ്രവർത്തനം പഴയപടിയാക്കി.</string>
     <string name="announce_collection_removed">ഫോൾഡർ നീക്കംചെയ്‌തു.</string>
     <string name="announce_document_removed">ഫയൽ നീക്കംചെയ്‌തു.</string>
     <string name="announce_invalid_filename">പേര് അസാധുവാണ്. മറ്റൊരു പേര് നൽകുക.</string>
@@ -179,7 +178,7 @@
     <string name="camera_enabled_announcement">ക്യാമറ ഓണാക്കി</string>
     <string name="camera_image_insert_failed">ചിത്രം നൽകുന്നതിന് പരാജയപ്പെട്ടു. ബാഹ്യ സംഭരണം ലഭ്യമല്ല.</string>
     <string name="camera_settings">ക്യാമറ ക്രമീകരണം</string>
-    <string name="cannot_change_any_settings">"You don't have permission to change these settings"</string>
+    <string name="cannot_change_any_settings">ഈ ക്രമീകരണം മാറ്റാൻ നിങ്ങൾക്ക് അനുമതിയില്ല</string>
     <string name="cant_open_file">ഫയൽ തുറക്കാനായില്ല</string>
     <string name="cast_connected">കാസ്റ്റ് ഉപകരണങ്ങൾ നിയന്ത്രിക്കുക</string>
     <string name="cast_list_item_content_description">%1$s, %2$s</string>
@@ -988,13 +987,9 @@
     <string name="member_count_max">99+</string>
     <string name="menu_backup">ബായ്‌ക്കപ്പുകൾ</string>
     <string name="menu_copy_link">ലിങ്ക് പകർത്തുക</string>
-    <string name="menu_create_shortcut">ഹോം സ്ക്രീനിൽ ചേർക്കുക</string>
-    <string name="menu_delete">നീക്കംചെയ്യുക</string>
     <string name="menu_detail">വിശദാംശങ്ങൾ‌</string>
     <string name="menu_doc_view_grid_mode">ഗ്രിഡായി കാണുക</string>
     <string name="menu_doc_view_list_mode">ലിസ്‌റ്റായി കാണുക</string>
-    <string name="menu_download">ഡൗൺലോഡ്</string>
-    <string name="menu_dump_database">ഫീഡ്‌ബാക്ക് - പ്രാദേശിക പതിപ്പ് ഉപേഷിക്കുക</string>
     <string name="menu_edit">എഡിറ്റുചെയ്യുക</string>
     <string name="menu_empty_trash_too_many_items">ചില ഇനങ്ങൾ ശുന്യമാക്കാനായില്ല, ട്രാഷിൽ നിരവധി ഇനങ്ങളുണ്ട്.</string>
     <string name="menu_filter_by">ഇതുപ്രകാരം ഫിൽറ്റർ ചെയ്യുക</string>
@@ -1005,19 +1000,13 @@
     <string name="menu_keep_on_device">ഓഫ്‌ലൈനിൽ ലഭ്യമാണ്</string>
     <string name="menu_link_share">ലിങ്ക് പങ്കിടൽ</string>
     <string name="menu_more_options">കൂടുതൽ ഓ‌പ്‌ഷനുകൾ</string>
-    <string name="menu_move_to">നീക്കുക</string>
     <string name="menu_my_drive">എന്റെ ഡ്രൈവ്</string>
     <string name="menu_navigation_devices">കമ്പ്യൂട്ടറുകൾ</string>
     <string name="menu_notifications">അറിയിപ്പുകൾ</string>
-    <string name="menu_offline">ഓഫ്‌ലൈനിൽ ലഭ്യമാണ്</string>
-    <string name="menu_open_with">ഇത് ഉപയോഗിച്ച് തുറക്കുക</string>
-    <string name="menu_print">പ്രിന്റ്</string>
     <string name="menu_refresh">പുതുക്കുക</string>
-    <string name="menu_rename">പേരുമാറ്റുക</string>
     <string name="menu_save_to_drive">ഡ്രൈവിൽ സംരക്ഷിക്കുക</string>
     <string name="menu_search">തിരയുക</string>
     <string name="menu_selection_clear">തിരഞ്ഞെടുക്കൽ മായ്‌ക്കുക</string>
-    <string name="menu_send">അയയ്‌ക്കുക</string>
     <string name="menu_send_link">ലിങ്ക് പങ്കിടുക</string>
     <string name="menu_settings">ക്രമീകരണം</string>
     <string name="menu_share_print">പ്രിന്റുചെയ്യുക</string>
@@ -1049,9 +1038,6 @@
     <string name="menu_sort_recently_opened">ഞാൻ അവസാനം തുറന്നതുപ്രകാരം</string>
     <string name="menu_sort_title">പേര്</string>
     <string name="menu_title_button_describer">%1$s. %2$s. പേരുമാറ്റുക ബട്ടൺ</string>
-    <string name="menu_trash_delete_forever">ഇല്ലാതാക്കുക</string>
-    <string name="menu_trash_restore">പുനഃസ്ഥാപിക്കുക</string>
-    <string name="menu_unpin">ഉപകരണത്തിൽ നിന്ന് നീക്കംചെയ്യുക</string>
     <string name="menu_will_be_kept_offline">ഓഫ്‌ലൈനിൽ ലഭ്യമാക്കുന്നു…</string>
     <string name="menu_will_no_longer_be_kept_offline">അവതരണം ഇനി ഓഫ്‌ലൈനിൽ ലഭ്യമാകില്ല</string>
     <string name="message_drive_scope_blocked">Google ഡ്രൈവിൽ നിന്ന് %1$s ആക്‌സസ്സ് ചെയ്യാനാവുന്നില്ല. സഹായത്തിന് G Suite അഡ്‌മിനുമായി ബന്ധപ്പെടുക.</string>
@@ -1423,7 +1409,7 @@
     <string name="prioritydocs_promo_negative">വേണ്ട, നന്ദി</string>
     <string name="prioritydocs_promo_positive">ഇൻസ്റ്റാളുചെയ്യുക</string>
     <string name="promo_no_thanks_button">വേണ്ട, നന്ദി</string>
-    <string name="promo_snackbar_googledocs">നിങ്ങളുടെ ഫോണിൽ നിന്ന് മറ്റുള്ളവർക്കൊപ്പം അവതരണങ്ങൾ സൃഷ്‌ടിച്ച് എഡിറ്റുചെയ്യുക.</string>
+    <string name="promo_snackbar_googledocs_device">നിങ്ങളുടെ ഉപകരണത്തിൽ നിന്നുതന്നെ മറ്റുള്ളവർക്കൊപ്പം അവതരണങ്ങൾ സൃഷ്‌ടിച്ച് എഡിറ്റ് ചെയ്യുക.</string>
     <string name="promo_snackbar_got_it">മനസ്സിലായി</string>
     <string name="promo_snackbar_heading">Google സ്ലൈഡിലേക്ക് സ്വാഗതം</string>
     <string name="promo_snackbar_learn_more">കൂടുതലറിയുക</string>
@@ -1439,8 +1425,6 @@
     <string name="published_options_dialog_title">പ്രസിദ്ധീകരിച്ച സൈറ്റ് ക്രമീകരണം</string>
     <string name="punch_already_have_access_to_video">നിങ്ങൾക്ക് നിലവിൽ ഈ വീഡിയോയിലേക്ക് ആക്‌സസ് ഉണ്ട്.</string>
     <string name="punch_applying_theme">തീം പ്രയോഗിക്കുന്നു…</string>
-    <string name="punch_change_theme_promo_instructions">എവിടെയായിരുന്നാലും ഇപ്പോൾ തീം തിരഞ്ഞെടുക്കൽ ലഭ്യമാണ്</string>
-    <string name="punch_change_theme_promo_intro">പുതിയ സ്ലൈഡ് തീം ഉപയോഗിച്ച് കുറച്ച് നിറം ചേർക്കുക</string>
     <string name="punch_hangouts_call_exists">മുമ്പത്തെ മീറ്റിംഗ് അവസാനിക്കാതെ മറ്റൊരു ‌മീറ്റിംഗിൽ ചേരാനാവില്ല.</string>
     <string name="punch_hangouts_invite_email_body">ചുവടെയുള്ള മീറ്റിംഗ് ലിങ്ക് സന്ദർശിക്കുക:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[സ്ലൈഡ്] %1$s: എന്റെ തൽസമയ അവതരണത്തിൽ ചേരുക!</string>
@@ -1566,6 +1550,7 @@
     <string name="quota_range_small">1 MB-ക്ക് താഴെ</string>
     <string name="quota_range_undefined">സ്റ്റോറേജൊന്നും ഉപയോഗിച്ചില്ല</string>
     <string name="quota_zero">ഒന്നുമില്ല</string>
+    <string name="ratings_card_body">Play സ്‌റ്റോറിൽ ഈ ആപ്പ് റേറ്റുചെയ്യുക അല്ലെങ്കിൽ നിങ്ങളുടെ ഫീഡ്‌ബാക്ക് ഞങ്ങൾക്കയയ്‌ക്കുക.</string>
     <string name="ratings_card_feedback">ഫീഡ്‌ബാക്ക് അയയ്‌ക്കുക</string>
     <string name="ratings_card_header">സ്ലൈഡ് ആസ്വദിക്കുന്നോ?</string>
     <string name="ratings_card_rate">ആപ്പ് റേറ്റുചെയ്യുക</string>

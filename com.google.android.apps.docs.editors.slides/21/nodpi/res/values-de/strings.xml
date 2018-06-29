@@ -128,7 +128,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Missbrauchsmeldung nicht gesendet</string>
     <string name="announce_account_using">Das Konto \"%1$s\" wird verwendet.</string>
-    <string name="announce_action_undone">Vorgang wurde rückgängig gemacht.</string>
     <string name="announce_collection_removed">Ordner entfernt</string>
     <string name="announce_document_removed">Datei entfernt</string>
     <string name="announce_invalid_filename">Ungültiger Name. Geben Sie einen anderen Namen ein.</string>
@@ -224,9 +223,9 @@
     <string name="classification_phone">Telefon</string>
     <string name="classification_url">Öffnen</string>
     <string name="clear_cache">Cache leeren</string>
-    <string name="clear_cache_cleared_message">Dokumentencache wurde geleert.</string>
+    <string name="clear_cache_cleared_message">Dokumenten-Cache wurde geleert</string>
     <string name="clear_cache_clearing_message">Cache wird geleert</string>
-    <string name="clear_cache_message">Dokumentencache wird geleert.</string>
+    <string name="clear_cache_message">Dokumenten-Cache wird geleert.</string>
     <string name="close_menu">Menü schließen</string>
     <string name="color_palette_banding_background">Abwechselnde Farben</string>
     <string name="color_palette_basic">Standard</string>
@@ -710,7 +709,7 @@ Diese Aktion kann nicht rückgängig gemacht werden."</string>
 
 Wenn der Fehler ganz neu ist, sende bitte auch einen Fehlerbericht (Ein-/Aus- + Lauter- + Leiser-Taste).
 
-WICHTIG! Leere nach dem Senden des Berichts den Anwendungscache (\"Einstellungen\" > \"Anwendungen\" > \"Docs\"/\"Tabellen\"/\"Präsentationen\" > \"CACHE leeren\"). Anderenfalls könnten schädliche Apps auf die gesicherten Daten zugreifen. Fortfahren?"</string>
+WICHTIG! Leere nach dem Senden des Berichts den Anwendungs-Cache (\"Einstellungen\" > \"Anwendungen\" > \"Docs\"/\"Tabellen\"/\"Präsentationen\" > \"CACHE leeren\"). Anderenfalls könnten schädliche Apps auf die gesicherten Daten zugreifen. Fortfahren?"</string>
     <string name="dump_database_dialog_title">Dogfood-Feedback. Hilf uns, die App zu verbessern.</string>
     <string name="dump_database_menu_item">Feedback – lokale Version in Dump-Datei speichern</string>
     <string name="edit_link_menu_item">Link bearbeiten</string>
@@ -1023,13 +1022,9 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="member_count_max">99+</string>
     <string name="menu_backup">Sicherungen</string>
     <string name="menu_copy_link">Link kopieren</string>
-    <string name="menu_create_shortcut">Zu Startbildschirm</string>
-    <string name="menu_delete">Entfernen</string>
     <string name="menu_detail">Details</string>
     <string name="menu_doc_view_grid_mode">Rasteransicht</string>
     <string name="menu_doc_view_list_mode">Listenansicht</string>
-    <string name="menu_download">Herunterladen</string>
-    <string name="menu_dump_database">Feedback – lokale Version in Dump-Datei speichern</string>
     <string name="menu_edit">Bearbeiten</string>
     <string name="menu_empty_trash_too_many_items">Einige Elemente konnten nicht gelöscht werden. Im Papierkorb befinden sich zu viele Elemente.</string>
     <string name="menu_filter_by">Filtern nach</string>
@@ -1040,19 +1035,13 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="menu_keep_on_device">Offline verfügbar</string>
     <string name="menu_link_share">Linkfreigabe</string>
     <string name="menu_more_options">Weitere Optionen</string>
-    <string name="menu_move_to">Verschieben</string>
     <string name="menu_my_drive">Meine Ablage</string>
     <string name="menu_navigation_devices">Computer</string>
     <string name="menu_notifications">Benachrichtigungen</string>
-    <string name="menu_offline">Offline verfügbar</string>
-    <string name="menu_open_with">Öffnen mit</string>
-    <string name="menu_print">Drucken</string>
     <string name="menu_refresh">Aktualisieren</string>
-    <string name="menu_rename">Umbenennen</string>
     <string name="menu_save_to_drive">In Drive speichern</string>
     <string name="menu_search">Suche</string>
     <string name="menu_selection_clear">Auswahl löschen</string>
-    <string name="menu_send">Datei senden</string>
     <string name="menu_send_link">Link freigeben</string>
     <string name="menu_settings">Einstellungen</string>
     <string name="menu_share_print">Drucken</string>
@@ -1084,9 +1073,6 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="menu_sort_recently_opened">Zuletzt von mir geöffnet</string>
     <string name="menu_sort_title">Name</string>
     <string name="menu_title_button_describer">%1$s. %2$s. Schaltfläche \"Umbenennen\"</string>
-    <string name="menu_trash_delete_forever">Löschen</string>
-    <string name="menu_trash_restore">Wiederherstellen</string>
-    <string name="menu_unpin">Vom Gerät löschen</string>
     <string name="menu_will_be_kept_offline">Wird offline bereitgestellt…</string>
     <string name="menu_will_no_longer_be_kept_offline">Die Präsentation ist nicht mehr offline verfügbar.</string>
     <string name="message_drive_scope_blocked">Zugriff auf \"%1$s\" in Google Drive nicht möglich. Kontaktieren Sie Ihren G Suite-Administrator.</string>
@@ -1412,7 +1398,7 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="policy_terms">Bedingungen</string>
     <string name="preferences_license_title">Open Source-Lizenzen</string>
     <string name="prefs_abuse_program_policies">Programmrichtlinien</string>
-    <string name="prefs_cache_category_title">Dokumentencache</string>
+    <string name="prefs_cache_category_title">Dokumenten-Cache</string>
     <string name="prefs_category_content_description">Bereich, %1$s</string>
     <string name="prefs_clear_cache_summary">Alle Dokumente aus dem Cache entfernen</string>
     <string name="prefs_data_usage_category">Datennutzung</string>
@@ -1459,7 +1445,7 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="prioritydocs_promo_negative">NEIN DANKE</string>
     <string name="prioritydocs_promo_positive">INSTALLIEREN</string>
     <string name="promo_no_thanks_button">Nein danke</string>
-    <string name="promo_snackbar_googledocs">Erstellen und bearbeiten Sie Präsentationen gemeinsam mit anderen direkt über Ihr Smartphone.</string>
+    <string name="promo_snackbar_googledocs_device">Erstellen und bearbeiten Sie Präsentationen gemeinsam mit anderen direkt über Ihr Gerät.</string>
     <string name="promo_snackbar_got_it">OK</string>
     <string name="promo_snackbar_heading">Willkommen bei Google Präsentationen!</string>
     <string name="promo_snackbar_learn_more">Weitere Informationen</string>
@@ -1475,8 +1461,6 @@ Zum Erstellen einer Präsentation auf + klicken."</string>
     <string name="published_options_dialog_title">Einstellungen für veröffentlichte Websites</string>
     <string name="punch_already_have_access_to_video">Sie haben bereits Zugriff auf das Video.</string>
     <string name="punch_applying_theme">Design wird angewendet…</string>
-    <string name="punch_change_theme_promo_instructions">Designs können jetzt auch auf Mobilgeräten ausgewählt werden</string>
-    <string name="punch_change_theme_promo_intro">Bringen Sie Farbe ins Spiel – mit den neuen Google Präsentationen-Designs</string>
     <string name="punch_hangouts_call_exists">Die Teilnahme an einer Besprechung ist erst möglich, wenn die vorherige Besprechung beendet wurde.</string>
     <string name="punch_hangouts_invite_email_body">Rufen Sie den nachstehenden Besprechungslink auf:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[Google Slides] %1$s: Nehmen Sie an meiner Live-Präsentation teil!</string>
@@ -1602,6 +1586,7 @@ Warnung: Sie können diese Aktion nicht rückgängig machen."</string>
     <string name="quota_range_small">Weniger als 1 MB</string>
     <string name="quota_range_undefined">Kein Speicherplatz belegt</string>
     <string name="quota_zero">0 Byte</string>
+    <string name="ratings_card_body">Bewerten Sie diese App im Play Store oder senden Sie uns Ihr Feedback.</string>
     <string name="ratings_card_feedback">Feedback geben</string>
     <string name="ratings_card_header">Gefällt Ihnen Google Präsentationen?</string>
     <string name="ratings_card_rate">App bewerten</string>

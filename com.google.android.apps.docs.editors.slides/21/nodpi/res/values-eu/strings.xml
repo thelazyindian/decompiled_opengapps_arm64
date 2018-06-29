@@ -113,7 +113,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Ez da bidali erabilera okerraren txostena</string>
     <string name="announce_account_using">Kontu hau ari zara erabiltzen: %1$s.</string>
-    <string name="announce_action_undone">Desegin da ekintza.</string>
     <string name="announce_collection_removed">Kendu da karpeta.</string>
     <string name="announce_document_removed">Kendu da fitxategia.</string>
     <string name="announce_invalid_filename">Izenak ez du balio. Idatzi beste bat.</string>
@@ -988,13 +987,9 @@ kargatzen"</string>
     <string name="member_count_max">99 edo gehiago</string>
     <string name="menu_backup">Babeskopiak</string>
     <string name="menu_copy_link">Kopiatu esteka</string>
-    <string name="menu_create_shortcut">Gehitu hasieran</string>
-    <string name="menu_delete">Kendu</string>
     <string name="menu_detail">Xehetasunak</string>
     <string name="menu_doc_view_grid_mode">Ikusi sareta gisa</string>
     <string name="menu_doc_view_list_mode">Ikusi zerrendan</string>
-    <string name="menu_download">Deskargatu</string>
-    <string name="menu_dump_database">Iritzia - Irauli bertsio lokala</string>
     <string name="menu_edit">Editatu</string>
     <string name="menu_empty_trash_too_many_items">Ezin izan dira hustu elementu batzuk. Elementu gehiegi daude zaborrontzian.</string>
     <string name="menu_filter_by">Iragazteko irizpidea</string>
@@ -1005,19 +1000,13 @@ kargatzen"</string>
     <string name="menu_keep_on_device">Konexiorik gabe erabilgarri</string>
     <string name="menu_link_share">Estekekin partek.</string>
     <string name="menu_more_options">Aukera gehiago</string>
-    <string name="menu_move_to">Eraman</string>
     <string name="menu_my_drive">Nire unitatea</string>
     <string name="menu_navigation_devices">Ordenagailuak</string>
     <string name="menu_notifications">Jakinarazpenak</string>
-    <string name="menu_offline">Konexiorik gabe erabilgarri</string>
-    <string name="menu_open_with">Ireki honekin:</string>
-    <string name="menu_print">Inprimatu</string>
     <string name="menu_refresh">Freskatu</string>
-    <string name="menu_rename">Aldatu izena</string>
     <string name="menu_save_to_drive">Gorde Drive-n</string>
     <string name="menu_search">Bilatu</string>
     <string name="menu_selection_clear">Garbitu hautapena</string>
-    <string name="menu_send">Bidali fitxategia</string>
     <string name="menu_send_link">Partekatu esteka</string>
     <string name="menu_settings">Ezarpenak</string>
     <string name="menu_share_print">Inprimatu</string>
@@ -1049,9 +1038,6 @@ kargatzen"</string>
     <string name="menu_sort_recently_opened">Azkenekoz ireki dudaneko ordua</string>
     <string name="menu_sort_title">Izena</string>
     <string name="menu_title_button_describer">%1$s. %2$s. aldatu botoiaren izena</string>
-    <string name="menu_trash_delete_forever">Ezabatu</string>
-    <string name="menu_trash_restore">Leheneratu</string>
-    <string name="menu_unpin">Kendu gailutik</string>
     <string name="menu_will_be_kept_offline">Konexiorik gabe erabiltzeko gordetzen…</string>
     <string name="menu_will_no_longer_be_kept_offline">Aurkezpena ez da egongo konexiorik gabe erabilgarri</string>
     <string name="message_drive_scope_blocked">Ezin da atzitu Google Drive-ko %1$s. Laguntza lortzeko, jo G Suite administratzailengana.</string>
@@ -1422,7 +1408,7 @@ kargatzen"</string>
     <string name="prioritydocs_promo_negative">EZ, ESKERRIK ASKO</string>
     <string name="prioritydocs_promo_positive">INSTALATU</string>
     <string name="promo_no_thanks_button">EZ, ESKERRIK ASKO</string>
-    <string name="promo_snackbar_googledocs">Sortu eta editatu aurkezpenak besteekin telefonotik.</string>
+    <string name="promo_snackbar_googledocs_device">Sortu eta editatu aurkezpenak beste erabiltzaile batzuekin, gailua erabilita.</string>
     <string name="promo_snackbar_got_it">Ados</string>
     <string name="promo_snackbar_heading">Ongi etorri Google Aurkezpenak zerbitzura</string>
     <string name="promo_snackbar_learn_more">Lortu informazio gehiago</string>
@@ -1438,8 +1424,6 @@ kargatzen"</string>
     <string name="published_options_dialog_title">Argitaratutako webgunearen ezarpenak</string>
     <string name="punch_already_have_access_to_video">Dagoeneko sarbidea duzu bideo hau ikusteko.</string>
     <string name="punch_applying_theme">Gaia aplikatzen…</string>
-    <string name="punch_change_theme_promo_instructions">Orain, edonoiz eta edonon hauta dezakezu gaia</string>
-    <string name="punch_change_theme_promo_intro">Gehitu kolore apur bat Aurkezpenak zerbitzuko gaiak erabilita</string>
     <string name="punch_hangouts_call_exists">Aurreko bilera amaitu arte, ezin zara sartu bileran.</string>
     <string name="punch_hangouts_invite_email_body">Erabili esteka hau bileran sartzeko:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[Aurkezpenak] %1$s: sartu zuzeneko aurkezpenean!</string>
@@ -1565,6 +1549,7 @@ Abisua: ezin duzu desegin ekintza hau."</string>
     <string name="quota_range_small">1 MB baino gutxiago</string>
     <string name="quota_range_undefined">Ez du hartzen tokirik memorian</string>
     <string name="quota_zero">bat ere ez</string>
+    <string name="ratings_card_body">Rate this app in the Play Store or send us your feedback.</string>
     <string name="ratings_card_feedback">Bidali iritzia</string>
     <string name="ratings_card_header">Gustuko duzu Aurkezpenak zerbitzua?</string>
     <string name="ratings_card_rate">Baloratu aplikazioa</string>

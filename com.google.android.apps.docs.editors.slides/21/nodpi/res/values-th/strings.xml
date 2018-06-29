@@ -128,7 +128,6 @@
     <string name="alphabet_set">กขฃคฅฆงจฉชซฌญฎฏฐฑฒณดตถทธนบปผฝพฟภมยรลวศษสหฬอฮ๑๒๓๔๕๖๗๘๙๐</string>
     <string name="announce_abuse_undo">ไม่ได้ส่งรายงานการละเมิด</string>
     <string name="announce_account_using">ใช้บัญชี: %1$s</string>
-    <string name="announce_action_undone">เลิกทำการทำงานแล้ว</string>
     <string name="announce_collection_removed">นำโฟลเดอร์ออกแล้ว</string>
     <string name="announce_document_removed">นำไฟล์ออกแล้ว</string>
     <string name="announce_invalid_filename">ชื่อไม่ถูกต้อง โปรดป้อนชื่ออื่น</string>
@@ -1011,13 +1010,9 @@
     <string name="member_count_max">99+</string>
     <string name="menu_backup">ข้อมูลสำรอง</string>
     <string name="menu_copy_link">คัดลอกลิงก์</string>
-    <string name="menu_create_shortcut">เพิ่มลงในหน้าจอหลัก</string>
-    <string name="menu_delete">ลบ</string>
     <string name="menu_detail">รายละเอียด</string>
     <string name="menu_doc_view_grid_mode">ดูแบบตาราง</string>
     <string name="menu_doc_view_list_mode">ดูแบบรายการ</string>
-    <string name="menu_download">ดาวน์โหลด</string>
-    <string name="menu_dump_database">ความคิดเห็น - ลบเวอร์ชันที่อยู่ในเครื่อง</string>
     <string name="menu_edit">แก้ไข</string>
     <string name="menu_empty_trash_too_many_items">ไม่สามารถล้างบางรายการได้ มีรายการในถังขยะมากเกินไป</string>
     <string name="menu_filter_by">กรองตาม</string>
@@ -1028,19 +1023,13 @@
     <string name="menu_keep_on_device">ใช้งานแบบออฟไลน์ได้</string>
     <string name="menu_link_share">การแชร์ลิงก์</string>
     <string name="menu_more_options">ตัวเลือกอื่น</string>
-    <string name="menu_move_to">ย้าย</string>
     <string name="menu_my_drive">ไดรฟ์ของฉัน</string>
     <string name="menu_navigation_devices">คอมพิวเตอร์</string>
     <string name="menu_notifications">การแจ้งเตือน</string>
-    <string name="menu_offline">ใช้งานแบบออฟไลน์ได้</string>
-    <string name="menu_open_with">เปิดด้วย</string>
-    <string name="menu_print">พิมพ์</string>
     <string name="menu_refresh">รีเฟรช</string>
-    <string name="menu_rename">เปลี่ยนชื่อ</string>
     <string name="menu_save_to_drive">บันทึกลงในไดรฟ์</string>
     <string name="menu_search">ค้นหา</string>
     <string name="menu_selection_clear">ล้างสิ่งที่เลือก</string>
-    <string name="menu_send">ส่งไฟล์</string>
     <string name="menu_send_link">แชร์ลิงก์</string>
     <string name="menu_settings">การตั้งค่า</string>
     <string name="menu_share_print">พิมพ์</string>
@@ -1072,9 +1061,6 @@
     <string name="menu_sort_recently_opened">เปิดล่าสุดโดยฉัน</string>
     <string name="menu_sort_title">ชื่อ</string>
     <string name="menu_title_button_describer">ปุ่มเปลี่ยนชื่อ %1$s %2$s</string>
-    <string name="menu_trash_delete_forever">ลบ</string>
-    <string name="menu_trash_restore">กู้คืน</string>
-    <string name="menu_unpin">ลบจากอุปกรณ์</string>
     <string name="menu_will_be_kept_offline">กำลังทำให้ใช้งานแบบออฟไลน์ได้...</string>
     <string name="menu_will_no_longer_be_kept_offline">งานนำเสนอจะไม่สามารถใช้งานแบบออฟไลน์ได้อีก</string>
     <string name="message_drive_scope_blocked">ไม่สามารถเข้าถึง %1$s จาก Google ไดรฟ์ โปรดติดต่อขอความช่วยเหลือจากผู้ดูและระบบ G Suite</string>
@@ -1447,7 +1433,7 @@
     <string name="prioritydocs_promo_negative">ไม่เป็นไร</string>
     <string name="prioritydocs_promo_positive">ติดตั้ง</string>
     <string name="promo_no_thanks_button">ไม่เป็นไร</string>
-    <string name="promo_snackbar_googledocs">สร้างและแก้ไขงานนำเสนอร่วมกับคนอื่นๆ ได้จากโทรศัพท์ของคุณ</string>
+    <string name="promo_snackbar_googledocs_device">สร้างและแก้ไขงานนำเสนอร่วมกับคนอื่นๆ ได้จากอุปกรณ์ของคุณ</string>
     <string name="promo_snackbar_got_it">รับทราบ</string>
     <string name="promo_snackbar_heading">ยินดีต้อนรับสู่ Google สไลด์</string>
     <string name="promo_snackbar_learn_more">เรียนรู้เพิ่มเติม</string>
@@ -1463,8 +1449,6 @@
     <string name="published_options_dialog_title">การตั้งค่าไซต์ที่เผยแพร่แล้ว</string>
     <string name="punch_already_have_access_to_video">คุณมีสิทธิ์เข้าถึงวิดีโอนี้อยู่แล้ว</string>
     <string name="punch_applying_theme">กำลังใช้ธีม...</string>
-    <string name="punch_change_theme_promo_instructions">ขณะนี้ คุณสามารถเลือกธีมได้จากทุกที่แล้ว</string>
-    <string name="punch_change_theme_promo_intro">เพิ่มสีสันด้วยธีมสไลด์ใหม่ๆ</string>
     <string name="punch_hangouts_call_exists">ไม่สามารถเข้าร่วมการประชุมอื่นจนกว่าการประชุมก่อนหน้าจะเสร็จสิ้น</string>
     <string name="punch_hangouts_invite_email_body">ไปที่ลิงก์การประชุมด้านล่างนี้&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[สไลด์] %1$s: มาชมการนำเสนอของฉันสิ!</string>
@@ -1590,6 +1574,7 @@
     <string name="quota_range_small">น้อยกว่า 1 MB</string>
     <string name="quota_range_undefined">ไม่ได้ใช้พื้นที่เก็บข้อมูล</string>
     <string name="quota_zero">ไม่มี</string>
+    <string name="ratings_card_body">ให้คะแนนแอปนี้ใน Play Store หรือส่งความคิดเห็นถึงเรา</string>
     <string name="ratings_card_feedback">ส่งความคิดเห็น</string>
     <string name="ratings_card_header">ชอบสไลด์ใช่ไหม</string>
     <string name="ratings_card_rate">ให้คะแนนแอป</string>

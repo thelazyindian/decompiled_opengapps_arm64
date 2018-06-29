@@ -113,7 +113,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">தவறான பயன்பாடு குறித்த புகார் சமர்ப்பிக்கப்படவில்லை</string>
     <string name="announce_account_using">பயன்படுத்தும் கணக்கு: %1$s.</string>
-    <string name="announce_action_undone">செயல் தவிர்க்கப்பட்டது.</string>
     <string name="announce_collection_removed">கோப்புறை அகற்றப்பட்டது.</string>
     <string name="announce_document_removed">கோப்பு அகற்றப்பட்டது.</string>
     <string name="announce_invalid_filename">தவறான பெயர். வேறொரு பெயரை உள்ளிடவும்.</string>
@@ -988,13 +987,9 @@
     <string name="member_count_max">99+</string>
     <string name="menu_backup">காப்புப் பிரதிகள்</string>
     <string name="menu_copy_link">இணைப்பை நகலெடு</string>
-    <string name="menu_create_shortcut">முகப்பில் சேர்</string>
-    <string name="menu_delete">அகற்று</string>
     <string name="menu_detail">விவரங்கள்</string>
     <string name="menu_doc_view_grid_mode">கட்டமாகக் காட்டு</string>
     <string name="menu_doc_view_list_mode">பட்டியலில் காட்டு</string>
-    <string name="menu_download">பதிவிறக்கு</string>
-    <string name="menu_dump_database">கருத்து - அகப் பதிப்பை எழுதுக</string>
     <string name="menu_edit">திருத்து</string>
     <string name="menu_empty_trash_too_many_items">சிலவற்றை நீக்க முடியவில்லை, குப்பையில் மிக அதிகமான கோப்புகள்/கோப்புறைகள் உள்ளன.</string>
     <string name="menu_filter_by">வடிகட்டு</string>
@@ -1005,19 +1000,13 @@
     <string name="menu_keep_on_device">ஆஃப்லைனில் கிடைக்கும்படி செய்</string>
     <string name="menu_link_share">இணைப்புவழிப் பகிர்வு</string>
     <string name="menu_more_options">மேலும் விருப்பங்கள்</string>
-    <string name="menu_move_to">நகர்த்து</string>
     <string name="menu_my_drive">இயக்ககம்</string>
     <string name="menu_navigation_devices">கணினிகள்</string>
     <string name="menu_notifications">அறிவிப்புகள்</string>
-    <string name="menu_offline">ஆஃப்லைனில் கிடைக்கும்படி செய்</string>
-    <string name="menu_open_with">இதன்மூலம் திற</string>
-    <string name="menu_print">அச்சிடு</string>
     <string name="menu_refresh">புதுப்பி</string>
-    <string name="menu_rename">மறுபெயரிடு</string>
     <string name="menu_save_to_drive">இயக்ககத்தில் சேமி</string>
     <string name="menu_search">தேடு</string>
     <string name="menu_selection_clear">தேர்வை அழி</string>
-    <string name="menu_send">கோப்பை அனுப்பு</string>
     <string name="menu_send_link">இணைப்பைப் பகிர்</string>
     <string name="menu_settings">அமைப்புகள்</string>
     <string name="menu_share_print">அச்சிடு</string>
@@ -1049,9 +1038,6 @@
     <string name="menu_sort_recently_opened">நான் கடைசியாகத் திறந்தது</string>
     <string name="menu_sort_title">பெயர்</string>
     <string name="menu_title_button_describer">%1$s. %2$s. மறுபெயரிடுவதற்கான பொத்தான்</string>
-    <string name="menu_trash_delete_forever">நீக்கு</string>
-    <string name="menu_trash_restore">மீட்டெடு</string>
-    <string name="menu_unpin">சாதனத்திலிருந்து அகற்று</string>
     <string name="menu_will_be_kept_offline">ஆஃப்லைனில் கிடைக்கும்படி செய்கிறது…</string>
     <string name="menu_will_no_longer_be_kept_offline">விளக்கக்காட்சி இனி ஆஃப்லைனில் கிடைக்காது</string>
     <string name="message_drive_scope_blocked">Google இயக்ககத்திலிருந்து %1$sஐ அணுக முடியவில்லை. உதவிக்கு, G Suite நிர்வாகியைத் தொடர்புகொள்ளவும்.</string>
@@ -1423,7 +1409,7 @@
     <string name="prioritydocs_promo_negative">வேண்டாம்</string>
     <string name="prioritydocs_promo_positive">நிறுவு</string>
     <string name="promo_no_thanks_button">வேண்டாம், நன்றி</string>
-    <string name="promo_snackbar_googledocs">உங்கள் ஃபோனில் இருந்தே பிறருடன் சேர்ந்து விளக்கக்காட்சிகளை உருவாக்கலாம், திருத்தலாம்.</string>
+    <string name="promo_snackbar_googledocs_device">உங்கள் சாதனத்தில் இருந்தே பிறருடன் சேர்ந்து விளக்கக்காட்சிகளை உருவாக்கலாம், திருத்தலாம்.</string>
     <string name="promo_snackbar_got_it">புரிந்தது</string>
     <string name="promo_snackbar_heading">Google ஸ்லைடிற்கு வரவேற்கிறோம்</string>
     <string name="promo_snackbar_learn_more">மேலும் அறிக</string>
@@ -1439,8 +1425,6 @@
     <string name="published_options_dialog_title">வெளியிட்ட தள அமைப்புகள்</string>
     <string name="punch_already_have_access_to_video">இந்த வீடியோவிற்கான அணுகல் ஏற்கனவே உங்களிடம் உள்ளது.</string>
     <string name="punch_applying_theme">தீமினைப் பயன்படுத்துகிறது…</string>
-    <string name="punch_change_theme_promo_instructions">இப்போது மொபைல் சாதனத்திலும் விளக்கக்காட்சியின் தீமினை மாற்றலாம்</string>
-    <string name="punch_change_theme_promo_intro">புதிய ஸ்லைடு தீம் மூலம் விளக்கக்காட்சியின் அழகை அதிகரிக்கலாம்</string>
     <string name="punch_hangouts_call_exists">தற்போதைய சந்திப்பு முடியும் வரை, புதிய சந்திப்பில் சேர முடியாது.</string>
     <string name="punch_hangouts_invite_email_body">கீழே உள்ள சந்திப்பு இணைப்பிற்குச் செல்லவும்:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[ஸ்லைடு] %1$s: எனது நேரலை விளக்கக்காட்சியில் இணையவும்!</string>
@@ -1566,6 +1550,7 @@
     <string name="quota_range_small">&lt; 1 மெ.பை.</string>
     <string name="quota_range_undefined">சேமிப்பகத்தைப் பயன்படுத்தாதவை</string>
     <string name="quota_zero">ஏதுமில்லை</string>
+    <string name="ratings_card_body">Play Store இல் இந்தப் பயன்பாட்டை மதிப்பிடவும் அல்லது உங்கள் கருத்தை எங்களுக்கு அனுப்பவும்.</string>
     <string name="ratings_card_feedback">கருத்து தெரிவி</string>
     <string name="ratings_card_header">ஸ்லைடு பிடித்துள்ளதா?</string>
     <string name="ratings_card_rate">பயன்பாட்டை மதிப்பிடவும்</string>

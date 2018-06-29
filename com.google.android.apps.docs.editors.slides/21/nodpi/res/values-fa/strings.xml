@@ -128,7 +128,6 @@
     <string name="alphabet_set">۰۱۲۳۴۵۶۷۸۹آ ب پ ت ث ج چ ح خ د ذ ر ز ژ س ش ص ض ط ظ ع غ ف ق ک گ ل م ن و ه ی</string>
     <string name="announce_abuse_undo">گزارش سوء‌استفاده ارسال نشد</string>
     <string name="announce_account_using">حساب درحال استفاده: %1$s</string>
-    <string name="announce_action_undone">اقدام واگرد شد.</string>
     <string name="announce_collection_removed">پوشه حذف شد.</string>
     <string name="announce_document_removed">فایل حذف شد.</string>
     <string name="announce_invalid_filename">نام نامعتبر است. لطفاً نام دیگری را وارد کنید.</string>
@@ -1011,13 +1010,9 @@
     <string name="member_count_max">۹۹+</string>
     <string name="menu_backup">نسخه‌های پشتیبان</string>
     <string name="menu_copy_link">کپی کردن پیوند</string>
-    <string name="menu_create_shortcut">افزودن به صفحه اصلی</string>
-    <string name="menu_delete">حذف</string>
     <string name="menu_detail">جزئیات</string>
     <string name="menu_doc_view_grid_mode">مشاهده به‌صورت شبکه</string>
     <string name="menu_doc_view_list_mode">مشاهده به‌صورت فهرست</string>
-    <string name="menu_download">بارگیری</string>
-    <string name="menu_dump_database">بازخورد - نسخه‌برداری از نسخه محلی</string>
     <string name="menu_edit">ویرایش</string>
     <string name="menu_empty_trash_too_many_items">بعضی موارد خالی نشدند، چیزهای خیلی زیادی در حذف‌شده‌ها وجود دارد.</string>
     <string name="menu_filter_by">فیلتر براساس</string>
@@ -1028,19 +1023,13 @@
     <string name="menu_keep_on_device">در حالت آفلاین در دسترس باشد</string>
     <string name="menu_link_share">هم‌رسانی پیوند</string>
     <string name="menu_more_options">گزینه‌های بیشتر</string>
-    <string name="menu_move_to">انتقال</string>
     <string name="menu_my_drive">‏Drive من</string>
     <string name="menu_navigation_devices">رایانه</string>
     <string name="menu_notifications">اعلان‌ها</string>
-    <string name="menu_offline">در حالت آفلاین در دسترس باشد</string>
-    <string name="menu_open_with">باز کردن با</string>
-    <string name="menu_print">چاپ</string>
     <string name="menu_refresh">بازخوانی</string>
-    <string name="menu_rename">تغییر نام</string>
     <string name="menu_save_to_drive">‏ذخیره در Drive</string>
     <string name="menu_search">جستجو</string>
     <string name="menu_selection_clear">پاک کردن انتخاب</string>
-    <string name="menu_send">ارسال فایل</string>
     <string name="menu_send_link">اشتراک‌گذاری پیوند</string>
     <string name="menu_settings">تنظیمات</string>
     <string name="menu_share_print">چاپ</string>
@@ -1072,9 +1061,6 @@
     <string name="menu_sort_recently_opened">آخرین بار من باز کرده‌ام</string>
     <string name="menu_sort_title">نام</string>
     <string name="menu_title_button_describer">%1$s. %2$s. دکمه تغییر نام</string>
-    <string name="menu_trash_delete_forever">حذف</string>
-    <string name="menu_trash_restore">بازیابی</string>
-    <string name="menu_unpin">برداشتن از دستگاه</string>
     <string name="menu_will_be_kept_offline">دردسترس قرار دادن در حالت آفلاین…</string>
     <string name="menu_will_no_longer_be_kept_offline">ارائه دیگر در حالت آفلاین در دسترس نیست</string>
     <string name="message_drive_scope_blocked">‏نمی‌توان به %1$s از Google Drive دسترسی داشت. برای دریافت راهنمایی با سرپرست سیستم G Suite خود تماس بگیرید.</string>
@@ -1447,7 +1433,7 @@
     <string name="prioritydocs_promo_negative">نه متشکرم</string>
     <string name="prioritydocs_promo_positive">نصب</string>
     <string name="promo_no_thanks_button">نه متشکرم</string>
-    <string name="promo_snackbar_googledocs">مستقیماً از تلفنتان، ارائه‌هایی را ایجاد کرده و با دیگران ویرایش کنید.</string>
+    <string name="promo_snackbar_googledocs_device">مستقیماً از دستگاهتان، ارائه‌ها را همراه با دیگران ایجاد و ویرایش کنید.</string>
     <string name="promo_snackbar_got_it">متوجه شدم</string>
     <string name="promo_snackbar_heading">‏به اسلایدنگار Google خوش آمدید</string>
     <string name="promo_snackbar_learn_more">بیشتر بدانید</string>
@@ -1463,8 +1449,6 @@
     <string name="published_options_dialog_title">تنظیمات سایت منتشرشده</string>
     <string name="punch_already_have_access_to_video">از قبل به این ویدیو دسترسی دارید.</string>
     <string name="punch_applying_theme">در حال اعمال زمینه...</string>
-    <string name="punch_change_theme_promo_instructions">اکنون در حال حرکت می‌توانید طرح زمینه را انتخاب کنید</string>
-    <string name="punch_change_theme_promo_intro">با طرح زمینه اسلایدنگار جدید، رنگ اضافه کنید</string>
     <string name="punch_hangouts_call_exists">تا وقتی جلسه قبلی تمام نشده است، نمی‌توانید به جلسه دیگری بپیوندید.</string>
     <string name="punch_hangouts_invite_email_body">به پیوند جلسه در زیر بروید:&lt;br> %s</string>
     <string name="punch_hangouts_invite_email_title">[اسلایدنگار] %1$s: به ارائه زنده من ملحق شوید!</string>
@@ -1590,6 +1574,7 @@
     <string name="quota_range_small">کمتر از ۱ مگابایت</string>
     <string name="quota_range_undefined">هیچ فضای ذخیره‌سازی‌ای استفاده نشده است</string>
     <string name="quota_zero">هیچ‌کدام</string>
+    <string name="ratings_card_body">‏این برنامه را در Play Store رتبه‌بندی کنید یا بازخوردتان را برایمان ارسال کنید.</string>
     <string name="ratings_card_feedback">ارسال بازخورد</string>
     <string name="ratings_card_header">از «اسلایدنگار» لذت می‌برید؟</string>
     <string name="ratings_card_rate">به برنامه رتبه بدهید</string>
