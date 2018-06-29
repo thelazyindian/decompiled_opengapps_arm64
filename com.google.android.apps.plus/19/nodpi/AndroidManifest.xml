@@ -299,6 +299,7 @@
         <activity android:exported="false" android:label="@string/account_management_preference_title" android:logo="@drawable/actionbar_gplus_logo" android:name="com.google.android.apps.plus.settings.impl.GstsSettingsActivity" android:theme="@style/Theme.Settings.Preferences.Arkham"/>
         <activity android:exported="false" android:label="@string/sharebox_activity_name" android:name="com.google.android.apps.plus.sharebox.impl.PlusShareboxActivity" android:theme="@style/Theme.Sharekit"/>
         <activity android:exported="false" android:launchMode="singleTop" android:name="com.google.android.apps.plus.sharebox.reshare.ReshareChooserActivity" android:theme="@style/Theme.SharekitReshare.BottomSheet"/>
+        <activity android:exported="false" android:label="@string/sharebox_activity_label" android:name="com.google.android.apps.plus.sharebox.tiktok.ShareboxActivity" android:theme="@style/Theme.Sharekit"/>
         <activity android:exported="false" android:logo="@drawable/actionbar_gplus_logo" android:name="com.google.android.apps.plus.sharesheet.impl.StreamMiniShareActivity" android:parentActivityName="com.google.android.apps.plus.phone.HomeActivity" android:theme="@style/Theme.Host.FullScreenTransparent" android:windowSoftInputMode="stateHidden"/>
         <activity android:exported="false" android:logo="@mipmap/quantum_logo_photos_launcher_color_48" android:name="com.google.android.apps.plus.sharesheet.impl.MiniShareActivity" android:parentActivityName="com.google.android.apps.photos.phone.PhotosHomeActivity" android:theme="@style/Theme.Host.FullScreenTransparent" android:windowSoftInputMode="stateHidden"/>
         <activity android:exported="false" android:label="" android:name="com.google.android.apps.plus.smartprofile.SmartProfileTransitionalActivity" android:parentActivityName="com.google.android.apps.plus.phone.HomeActivity" android:theme="@style/Theme.Arkham.Transparent.Accent.NoActionBar"/>
@@ -543,12 +544,6 @@
             </intent-filter>
         </receiver>
         <receiver android:exported="false" android:name="com.google.apps.tiktok.logging.backends.clientlogging.ClientLoggingReceiver_Receiver" android:process=":client_logging"/>
-        <receiver android:enabled="false" android:exported="false" android:name="com.google.apps.tiktok.sync.constraints.onbatteryokay.OnBatteryOkayConstraintReceiver_Receiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BATTERY_OKAY"/>
-                <action android:name="android.intent.action.BATTERY_LOW"/>
-            </intent-filter>
-        </receiver>
         <receiver android:enabled="false" android:exported="true" android:name="com.google.apps.tiktok.sync.impl.gcm.SyncGmsPackageUpdatedReceiver_Receiver">
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REPLACED"/>

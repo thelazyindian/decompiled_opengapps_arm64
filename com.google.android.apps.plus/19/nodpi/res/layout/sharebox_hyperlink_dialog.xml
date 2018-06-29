@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="24.0dip" android:paddingTop="10.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/text_container" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/hyperlink_dialog_text_hint" android:layout_weight="1.0" android:inputType="text" android:labelFor="@id/text_edit_text">
+            <android.support.design.widget.TextInputEditText android:id="@id/text_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+        <ImageView android:id="@id/delete_text_button" android:background="@drawable/list_selector" android:padding="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_cancel_grey600_18" android:contentDescription="@string/clear_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/link_container" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/hyperlink_dialog_link_hint" android:layout_weight="1.0" android:inputType="text" android:labelFor="@id/link_edit_text">
+            <android.support.design.widget.TextInputEditText android:id="@id/link_edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="text">
+                <requestFocus />
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+        <ImageView android:id="@id/delete_link_button" android:background="@drawable/list_selector" android:padding="6.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_cancel_grey600_18" android:contentDescription="@string/clear_text" />
+    </LinearLayout>
+    <TextView android:textColor="@color/quantum_grey500" android:gravity="center" android:id="@id/noticeText" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>
