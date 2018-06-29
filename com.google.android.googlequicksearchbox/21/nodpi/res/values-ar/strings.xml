@@ -248,6 +248,10 @@
     <string name="agent_bookmark_error">حدث خطأ. يُرجى إعادة المحاولة لاحقًا.</string>
     <string name="agent_bookmark_removed">تمت الإزالة من الإشارات المرجعية.</string>
     <string name="agent_description_more">المزيد</string>
+    <string name="agent_details_add_routine_description">يمكنك إنجاز المزيد من المهام في سلاسل إجراءاتك من خلال تلقّي آخر المستجدّات من %1$s.</string>
+    <string name="agent_details_add_routine_item">إضافة</string>
+    <string name="agent_details_customize_routine">تخصيص سلسلة إجراءاتك</string>
+    <string name="agent_details_manage_routines">إدارة سلاسل الإجراءات</string>
     <string name="agent_details_splash_image_a11y">صورة تطبيق المساعد</string>
     <string name="agent_directory_a11y_back_button">رجوع</string>
     <string name="agent_directory_a11y_more_groups">المزيد</string>
@@ -489,7 +493,7 @@
 سيستخدم \"مساعد Google\" هذا الإعداد للإجابة عن الأسئلة المتعلقة بتنقلاتك"</string>
     <string name="assistant_settings_commute_walk">مشيًا</string>
     <string name="assistant_settings_commute_walk_key">طريقة التنقّل: المشي</string>
-    <string name="assistant_settings_contact_list_introduction">‏هذا هو ما طلبت من \"مساعد Google\" تذكُّره بشأن الأشخاص الذين تعرفهم.</string>
+    <string name="assistant_settings_contact_list_introduction">‏هذا هو ما طلبت من \"مساعد Google\" تذكُّره بشأن معارفك.</string>
     <string name="assistant_settings_custom_routines_description">‏يمكنك الاستعانة بـ \"مساعد Google\" الخاص بك في تنفيذ العديد من المهام بأمر واحد، وذلك باستخدام سلاسل إجراءات جاهزة يتم ضبطها بما يلائم طبيعة أنشطتك اليومية، أو إنشاء سلاسل إجراءات مخصّصة من البداية.</string>
     <string name="assistant_settings_default_record_button_text">تسجيل</string>
     <string name="assistant_settings_delete_button_label">حذف</string>
@@ -627,6 +631,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">‏يتطلب تشغيل تطبيق \"موسيقى Google Play\" على جهاز Google Home توفُّر اشتراك. يمكنك التسجيل في <a href="https://play.google.com/store/music">تطبيق \"موسيقى Play\"‏</a>، أو شراء <a href="https://support.google.com/googleplay?p=home_uploadmusic">المقاطع الموسيقية أو تحميلها</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">‏يلزم توفر اشتراك أو مكتبة في تطبيق \"موسيقى Play\"</string>
     <string name="assistant_settings_music_icon_text">رمز مزوِّد خدمة الموسيقى</string>
+    <string name="assistant_settings_music_link_dialog_text">‏يمكنك ربط حسابك على Google بحسابك على %1$s لتفعيل التشغيل على أجهزة متوافقة والوصول إلى قوائم التشغيل الخاصة بك. وعندما تتفاعل مع خدمة %1$s من خلال \"مُساعِد Google\"، يمكن أن يتم إرسال طلباتك إلى الخدمة %1$s، حتى يتسنى لهذه الخدمة استخدامها وفقًا لبيان الخصوصية لديها. ويمكن أن تزوّدك %1$s بنتائج شخصية واقتراحات مخصصة ويمكنك إلغاء ربط حسابك في أي وقت من خلال إعدادات \"مُساعِد Google\".</string>
     <string name="assistant_settings_music_no_preference_summary">استخدام تفضيلات الحسابات الأخرى على الأجهزة المشتركة</string>
     <string name="assistant_settings_music_no_preference_title">لم يتم اختيار مصدر الموسيقى التلقائي</string>
     <string name="assistant_settings_music_premium_dialog_button">موافق، حسنًا</string>
@@ -635,13 +640,15 @@
     <string name="assistant_settings_music_provider_category_title">سيستخدم المساعد مزوِّد خدمة الموسيقى هذا بشكل تلقائي عندما يُطلب منه تشغيل الموسيقى. وسيظل بإمكانك تشغيل الموسيقى باستخدام مزوِّدي الخدمة الآخرين المرتبطين عند تحديدهم.</string>
     <string name="assistant_settings_music_title">موسيقى</string>
     <string name="assistant_settings_music_unable_unlink_default">يتعذَّر إلغاء الربط بمزود خدمة الموسيقى التلقائي</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">‏يتطلب تطبيق YouTube للموسيقى توفر عضوية YouTube Red للتشغيل على Google Home. يمكنك الاشتراك على <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">‏عضوية YouTube Red مطلوبة</string>
+    <string name="assistant_settings_music_unlink_dialog_text">‏سيؤدي إلغاء ربط حسابك إلى إيقاف إمكانية تشغيل محتوى من %1$s من خلال \"مُساعِد Google\".</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">‏يتطلب تطبيق \"YouTube للموسيقى\" توفر عضوية YouTube Premium للتشغيل على Google Home. يمكنك الاشتراك على موقع <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">‏عضوية YouTube Premium مطلوبة</string>
     <string name="assistant_settings_news_provider_delete_button_description">إزالة %1$s من مصادرك الإخبارية المُختارة</string>
     <string name="assistant_settings_news_supports_video">‏يتوفر الفيديو على Smart Displays</string>
     <string name="assistant_settings_news_title">الأخبار</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">يحتوي لقبك على حرف لا يستطيع المساعد نطقه. يمكنك توضيح طريقة نطقه في القسم التالي.</string>
     <string name="assistant_settings_no_device_linked">‏من خلال ميزة \"Voice Match\"، يمكن للمساعد تقديم معلومات شخصية لك عند التعرّف على صوتك. ويمكن لـ 6 مستخدمين كحد أقصى الحصول على بيانات التقويم الخاصة بهم والموسيقى وغيرها.</string>
+    <string name="assistant_settings_no_language_summary">بلا اختيار</string>
     <string name="assistant_settings_no_language_title">إضافة لغة</string>
     <string name="assistant_settings_no_shopping_list">ليست لديك أي قائمة تسوق.</string>
     <string name="assistant_settings_notes_lists_title">الملاحظات والقوائم</string>
@@ -809,6 +816,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">‏تتوفّر \"المحادثة المتواصلة\" حاليًا للغة الإنجليزية (الولايات المتحدة). وإذا كنت تستخدم أجهزة Google Home غير معروضة هنا، يمكن للشخص صاحب الحساب الأساسي على هذه الأجهزة تشغيل ميزة \"المحادثة المتواصلة\" في إعدادات \"مساعد Google\".</string>
     <string name="assistant_settings_summer_time_mode_availability_description">‏يمكنك تغيير هذا الإعداد لهذه الأجهزة في Google Home</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">لا تتوفّر أجهزة</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">‏ستتم إعادة فتح ميكروفون جهازك بعد كل استجابة للاستماع إلى أسئلة المتابعة. وستظهر هذه الأسئلة في قسم \"نشاطي\" كالمعتاد. وسيتم حذف الصوت الذي لا يستجيب له \"مساعد Google\" من حسابك على Google.</string>
     <string name="assistant_settings_summer_time_mode_button_title">المحادثة المتواصلة</string>
     <string name="assistant_settings_summer_time_mode_title">المحادثة المتواصلة</string>
     <string name="assistant_settings_turn_off_voice_match">‏في حال إيقاف ميزة \"Voice Match\"، سيتم إلغاء ربط حسابك من هذا الجهاز. علمًا بأنه يلزم ربط حساب واحد على الأقل لاستخدام الجهاز الذي تم تفعيل مساعد Google عليه. هل أنت متأكد من أنك تريد إلغاء ربط حسابك؟ </string>
@@ -837,10 +845,10 @@
     <string name="assistant_settings_update_error_message">تعذر تحديث الإعداد. تحقق من اتصالك.</string>
     <string name="assistant_settings_video_calls_service_category_title">‏يمكن للمساعد إجراء مكالمات فيديو على بعض الأجهزة، مثل Google Smart Display، باستخدام الخدمة التي تفضلها. ولا تتوفّر إمكانية إجراء مكالمات إلى خدمات الطوارئ.</string>
     <string name="assistant_settings_video_icon_text">رمز جهة توفير الفيديو</string>
-    <string name="assistant_settings_video_link_dialog_text">‏يمكنك ربط حسابك في Google مع %1$s لتمكين التحكم والتشغيل الصوتي على الأجهزة المتوافقة. وعند التحكم في خدمة %1$s من خلال Google Home أو طلب الحصول على معلومات ذات صلة بـ %1$s، قد يتم إرسال هذه الطلبات إلى %1$s لاستخدامها وفقًا لبيان الخصوصية.</string>
+    <string name="assistant_settings_video_link_dialog_text">‏يمكنك ربط حسابك على Google بحسابك على %1$s لتفعيل التشغيل على أجهزة متوافقة. وعندما تتفاعل مع خدمة %1$s من خلال \"مُساعِد Google\"، يمكن أن يتم إرسال طلباتك إلى الخدمة %1$s، حتى يتسنى لهذه الخدمة استخدامها وفقًا لبيان الخصوصية لديها. ويمكن أن تزوّدك %1$s بنتائج شخصية واقتراحات مخصصة ويمكنك إلغاء ربط حسابك في أي وقت من خلال إعدادات \"مُساعِد Google\".</string>
     <string name="assistant_settings_video_provider_category_summary">يمكنك توجيه أوامر صوتية للمساعد لتشغيل البرامج والأفلام.</string>
     <string name="assistant_settings_video_provider_category_title">الفيديوهات</string>
-    <string name="assistant_settings_video_unlink_dialog_text">سيؤدي إلغاء ربط حسابك إلى إيقاف التحكم بالصوت.</string>
+    <string name="assistant_settings_video_unlink_dialog_text">‏سيؤدي إلغاء ربط حسابك إلى إيقاف إمكانية تشغيل محتوى من %1$s من خلال \"مُساعِد Google\".</string>
     <string name="assistant_settings_videos_photos_title">الفيديوهات والصور</string>
     <string name="assistant_settings_videosphotos_cast_destination">‏جهاز Chromecast أو تلفزيون متوافق مع Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">المكالمات الصوتية ومكالمات الفيديو</string>
@@ -859,14 +867,14 @@
     <string name="assistant_settings_your_people_email">البريد الإلكتروني: %1$s</string>
     <string name="assistant_settings_your_people_family_member_suggestion">تذكُّر فرد من العائلة</string>
     <string name="assistant_settings_your_people_forget_button">حذف</string>
-    <string name="assistant_settings_your_people_forget_dialog">‏سيؤدي ذلك إلى حذف أي تفاصيل طلبتَ من \"مساعد Google\" تذكُّرها بشأن %1$s.</string>
+    <string name="assistant_settings_your_people_forget_dialog">‏سيؤدي ذلك إلى حذف أي تفاصيل طلبت من \"مساعد Google\" تذكُّرها بشأن %1$s.</string>
     <string name="assistant_settings_your_people_forget_dialog_title">هل تريد حذف هذه التفاصيل؟</string>
     <string name="assistant_settings_your_people_forget_menu_option">حذف هذه التفاصيل</string>
     <string name="assistant_settings_your_people_phone">الهاتف: %1$s</string>
-    <string name="assistant_settings_your_people_splash">‏بعد ذلك، عند قول \"الاتصال بأمي\" أو \"متى يكون عيد ميلاد أخي؟\"، سيكون \"مساعد Google\" جاهزًا للمساعدة.</string>
-    <string name="assistant_settings_your_people_splash_title">‏إخبار \"مساعد Google\" بهوية الأشخاص</string>
+    <string name="assistant_settings_your_people_splash">‏بعد ذلك، عند قولك \"الاتصال بأمي\" أو \"متى عيد ميلاد أخي؟\"، سيكون \"مساعد Google\" جاهزًا للمساعدة.</string>
+    <string name="assistant_settings_your_people_splash_title">‏إخبار \"مساعد Google\" بهوية من يُهمّك أمرهم</string>
     <string name="assistant_settings_your_people_suggestion_introduction">‏ما يمكنك طلبه من \"مساعد Google\"</string>
-    <string name="assistant_settings_your_people_title">الأشخاص الذين يَهُمّك أمرهم</string>
+    <string name="assistant_settings_your_people_title">الأشخاص الذين يُهمّك أمرهم</string>
     <string name="assistant_speaker_id_default_category_summary">لن يوفر لك المساعد معلومات شخصية إلا عندما يتعرَّف على صوتك من خلال هذه الأجهزة.</string>
     <string name="assistant_speaker_id_default_category_title">‏الأجهزة المشتركة باستخدام ميزة \"Voice Match\"</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">يتعذَّر إكمال التسجيل.</string>
@@ -1025,7 +1033,7 @@
     <string name="cloud_search_history_summary_fetching">جارٍ استرداد الإعدادات...</string>
     <string name="collapse">تصغير</string>
     <string name="collapse_time_to_leave">إخفاء الخيارات لهذه الرحلة.</string>
-    <string name="collections">المجموعات</string>
+    <string name="collections">العناصر المحفوظة</string>
     <string name="comment_hint">تعليقات إضافية (اختيارية)</string>
     <string name="common_address_clear_button_label">محو</string>
     <string name="common_address_clear_confirm_button">حذف</string>
@@ -1100,7 +1108,7 @@
 بذلك سيكون بإمكان هذا الجهاز الوصول إلى حسابك على Google."</string>
     <string name="consent_my_activity">نشاطي</string>
     <string name="consent_partners_disclosures_body_collapsed">‏لدى شركاء Google علاقة عمل وثيقة بشركة Google وقد دفعوا لنا لإبراز منتجاتهم أو الترويج لها.</string>
-    <string name="consent_partners_disclosures_body_expanded">‏لدى شركاء Google علاقة عمل وثيقة بشركة Google وقد دفعوا لنا لإبراز منتجاتهم أو الترويج لها. وتساعدك هذه الأنشطة التجارية في إنجاز المهام سواء كانت شراء المناشف الورقية أو إصلاح المغسلة في المنزل. %1$s.</string>
+    <string name="consent_partners_disclosures_body_expanded">‏لدى شركاء Google علاقة عمل وثيقة بشركة Google وقد دفعوا لنا لإبراز منتجاتهم أو الترويج لها. وتساعدك هذه الأنشطة التجارية على إنجاز المهام سواء كانت شراء المناشف الورقية أو إصلاح المغسلة في المنزل. %1$s.</string>
     <string name="consent_partners_disclosures_title">‏شركاء Google</string>
     <string name="consent_services_disclosures_body_collapsed">‏للحفاظ على خصوصيتك، ترسل Google رمزًا فريدًا إلى الخدمات التي تتواصل معها.</string>
     <string name="consent_services_disclosures_body_expanded">"‏للحفاظ على خصوصيتك، ترسل Google رمزًا فريدًا إلى الخدمات التي تتواصل معها. وبتلك الطريقة، تستطيع الخدمات الاحتفاظ بمعلومات مثل تفضيلاتك أثناء المحادثات.
@@ -1259,6 +1267,10 @@
     <string name="device_setup_error_cancel_button">الحصول على مساعدة</string>
     <string name="device_setup_error_content">حدث خطأ</string>
     <string name="device_setup_error_title">قد تكون هناك مشكلة</string>
+    <string name="devices_scan_action_button">متابعة</string>
+    <string name="devices_scan_cancel_button">إلغاء</string>
+    <string name="devices_scan_explanation">اختيار الأجهزة</string>
+    <string name="devices_scan_title">إضافة أجهزة</string>
     <string name="directory_for_mall">دليل %1$s</string>
     <string name="disclaimer">إخلاء المسؤولية</string>
     <string name="dismiss_text">اسحب العنصر للأسفل لإخفائه</string>
@@ -1354,7 +1366,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">الحلقات المتوفرة</string>
     <string name="episode_page_section_title">الحلقة</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">حلقات مقدّمة خصيصًا لك</string>
     <string name="error">خطأ</string>
     <string name="error_adding_location_snackbar_text">حدث خطأ أثناء إضافة الموقع</string>
@@ -1421,7 +1432,6 @@
     <string name="eyes_donate_data_optin_ok">أوافق</string>
     <string name="eyes_donate_data_optin_title">‏المساهمة في تحسين صور \"عدسة Google\"</string>
     <string name="eyes_flash_button_description">التبديل بين تشغيل الفلاش وإيقافه</string>
-    <string name="eyes_initial_suggestion_0">ما الذي يمكنك التعرف عليه؟</string>
     <string name="eyes_launcher_description">‏عدسة Google</string>
     <string name="eyes_no_permission">لا أملكُ إذنًا لإجراء ذلك</string>
     <string name="eyes_no_permission_camera">لا أملكُ إذنًا لاستخدام الكاميرا</string>
@@ -1449,7 +1459,6 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="eyes_onboarding_title_text">مسح النص ضوئيًا</string>
     <string name="eyes_request_timed_out_message">‏يتعذَّر الوصول إلى Google في الوقت الحالي.</string>
     <string name="eyes_share_with">مشاركة مع</string>
-    <string name="eyes_unfreeze_image_description">الرجوع إلى الكاميرا</string>
     <string name="eyes_viewfinder_description">‏تفعيل \"عدسة Google\"</string>
     <string name="failed">تعذر تحميل الصورة</string>
     <string name="failed_to_open_webview">تعذّر فتح الصفحة</string>
@@ -1580,7 +1589,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="follow_world_cup_promo_detail">انقر هنا للاشتراك لتلقّي تذكيرات عن المباريات مع الأخبار والنتائج المباشرة لفِرَقك المفضَّلة.</string>
     <string name="follow_world_cup_promo_long_soccer_title">تعرَّف على مستجدّات مباريات كرة القدم.</string>
     <string name="follow_world_cup_promo_query">كأس العالم 2018</string>
-    <string name="follow_world_cup_promo_short_soccer_title">تشجيع كرة القدم والجنون بها هنا!</string>
+    <string name="follow_world_cup_promo_short_soccer_title">عشق كرة القدم هنا</string>
     <string name="forbid_download_removal">تتعذَّر إزالة الحلقة أثناء تشغيلها</string>
     <string name="fourth_quarter">الربع الرابع</string>
     <string name="fourth_quarter_abbrev">الربع الرابع</string>
@@ -1786,10 +1795,10 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">الرجوع</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">أنا متأكّد</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">هل أنت متأكد؟</string>
-    <string name="hotword_enrollment_google_home_share_message">"‏مرحبًا! لقد انتهيتُ للتو من تدريب مساعد Google على كيفية التعرّف إلى صوتي على Google Home حتى أتمكن من الحصول على نتائج ذات طابع شخصي.
+    <string name="hotword_enrollment_google_home_share_message">"‏مرحبًا! لقد انتهيتُ للتو من تدريب خدمة \"مساعد Google\" على كيفية التعرُّف على صوتي عبر Google Home حتى أتمكن من تلقي نتائج ذات طابع شخصي.
 
-يمكنك أيضًا الحصول على إجابات مقدّمة خصيصًا لك، وذلك من خلال تثبيت تطبيق Google Home: https://google.com/home/setup"</string>
-    <string name="hotword_enrollment_google_home_share_message_subject">تدريب المساعد على التعرّف إلى صوتك</string>
+يمكنك الحصول على إجابات مناسبة لك أيضًا، وذلك من خلال تثبيت تطبيق Google Home‏: https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_subject">تدريب المساعد للتعرُّف على صوتك</string>
     <string name="hotword_enrollment_google_home_share_screen_done">دعوة</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">‏يمكنك عرض النشاط الصوتي أو حذفه من خلال %1$s. ويمكنك أيضًا إيقاف ميزة \"Voice Match\" من إعدادات المساعد.</string>
     <string name="hotword_enrollment_google_home_summary_header_title">أنت الآن على أتم استعداد</string>
@@ -1920,7 +1929,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="hourly_forecast">نشرة جوية كل ساعة</string>
     <string name="hours">ساعات</string>
     <string name="how_can_i_help">كيف يمكنني تقديم المساعدة؟</string>
-    <string name="hq_a11y_bottom_bar_button">يمكنك فتح الميكروفون للمحادثة مع المساعد</string>
+    <string name="hq_a11y_bottom_bar_button">‏مساعد Google</string>
     <string name="hq_a11y_chatui_badge">فتح صفحة الاستكشاف والاطّلاع على بياناتك</string>
     <string name="hq_a11y_menu_button">القائمة</string>
     <string name="hq_account_switch_prompt">جارٍ تسجيل الدخول بحساب %1$s</string>
@@ -2028,7 +2037,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="ime_service_label">‏الكتابة بالصوت من Google</string>
     <string name="ime_settings_button">الإعدادات</string>
     <string name="ime_start_speaking">قُل أي شيء</string>
-    <string name="ime_unavailable_low_storage">‏لا تتوفر الكتابة بالصوت من Google بسبب انخفاض السعة التخزينية.</string>
+    <string name="ime_unavailable_low_storage">‏لا تتوفر الكتابة بالصوت من Google بسبب انخفاض سعة التخزين.</string>
     <string name="ime_undo_button">تراجع</string>
     <string name="ime_working">جارٍ التحميل</string>
     <string name="immersive_actions_add_relationship_done_card_primary_text">تمت إضافة لقب</string>
@@ -2050,7 +2059,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="info_target_label">معلومات عن التطبيق</string>
     <string name="install_google_podcasts">‏الحصول على تطبيق Google Podcasts</string>
     <string name="install_google_podcasts_accept">الحصول على التطبيق</string>
-    <string name="install_google_podcasts_message">‏احصل على تطبيق Google Podcast في \"متجر Play\" للدخول السريع.</string>
+    <string name="install_google_podcasts_message">‏الحصول على تطبيق Google Podcast من \"متجر Play\" للوصول السريع.</string>
     <string name="install_google_podcasts_reject">ليس الآن</string>
     <string name="installed_app_group_header">التطبيقات</string>
     <string name="installed_details">تم تثبيت الإصدار %1$s، الحجم على القرص %2$s</string>
@@ -2092,7 +2101,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="item_is_selected">تم تحديد %1$s</string>
     <string name="item_moved">تم نقل العنصر</string>
     <string name="item_removed">تم حذف العنصر</string>
-    <string name="jasper_duo_knock_knock_summary">‏يمكنك رؤية فيديو المتصل قبل استلام المكالمة. كما يمكنك السماح للأشخاص الذين تتصل بهم برؤية الفيديو التابع لك أثناء رنين الهاتف لديهم. &lt;a href=\"https://support.google.com/duo/answer/6376115\">مزيد من المعلومات&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">يمكنك الاطّلاع على فيديو المتصل قبل الردّ على المكالمة، كما يمكنك السماح للمستخدمين الذين تتصل بهم بالاطّلاع على الفيديو التابع لك أثناء إصدار رنين هواتفهم. %1$s</string>
     <string name="jasper_duo_knock_knock_title">ميزة المعاينة</string>
     <string name="jasper_duo_not_signed_in">لم يتم تسجيل الدخول</string>
     <string name="jasper_duo_signed_in">تمَّ تسجيل الدخول</string>
@@ -2166,6 +2175,14 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="lens_info_panel_opening_lens">‏جارٍ فتح ميزة \"عدسة Google\"…</string>
     <string name="lens_overflow_menu_description">الإعدادات</string>
     <string name="lens_quit_button_description">إنهاء</string>
+    <string name="lens_results_feedback_card_prompt">‏ما الذي تريد فعله باستخدام \"عدسة Google\"؟</string>
+    <string name="lens_results_feedback_card_title">‏ساعِدنا في تحسين \"عدسة Google\"</string>
+    <string name="lens_results_feedback_no">لا</string>
+    <string name="lens_results_feedback_prompt_text">هل أفادتكَ هذه النتائج؟</string>
+    <string name="lens_results_feedback_response_to_negative">‏نشكرك على مساعدتنا في تحسين \"عدسة Google\".</string>
+    <string name="lens_results_feedback_response_to_positive">ما هي الجوانب التي يمكن تحسينها؟</string>
+    <string name="lens_results_feedback_send_report">إرسال تعليقات</string>
+    <string name="lens_results_feedback_yes">نعم</string>
     <string name="lens_title">‏عدسة Google</string>
     <string name="less_contact_apps">عرض عدد أقل من تطبيقات الاتصال</string>
     <string name="libraries_material_featurehighlight_dismiss">رفض</string>
@@ -2188,10 +2205,10 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="location_service_required_title">احصل على بطاقات تستند إلى الموقع</string>
     <string name="lockscreen_mic_promo_notification_content">يمكنك إلغاء قفل هاتفك بقول \"%1$s\".</string>
     <string name="lockscreen_mic_promo_notification_title">إلغاء القفل بصوتك</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">انقر مرّتين مع الاستمرار لاختيار أداة أو استخدم الإجراءات المخصصة.</string>
     <string name="long_press_widget_to_add">المس مع الاستمرار لاختيار إحدى الأدوات.</string>
     <string name="longpress_menu_download">تنزيل الصورة</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">مشاركة الصورة</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">سحر إغلاق الأنوار</string>
@@ -2207,7 +2224,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="manage_search_history_authenticating_cancel">إلغاء</string>
     <string name="manage_search_history_authenticating_message">جارٍ تسجيل الدخول باسم %1$s…</string>
     <string name="manage_search_history_authenticating_title">جارٍ تسجيل الدخول</string>
-    <string name="manage_space_all_size_label">إجمالي السعة التخزينية</string>
+    <string name="manage_space_all_size_label">إجمالي سعة التخزين</string>
     <string name="manage_space_all_storage_descriptive_text">‏محو جميع بيانات \"بحث Google\" على هذا الجهاز، بما في ذلك سجلّ البحث وإعدادات الخلاصة</string>
     <string name="manage_space_clear_all_data">محو جميع البيانات</string>
     <string name="manage_space_clear_all_data_dlg_text">‏سيتم محو جميع بيانات \"بحث Google\" والخلاصة وGoogle Now Launcher على هذا الجهاز نهائيًا.</string>
@@ -2241,13 +2258,11 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="menu_overlay_feedback">إرسال تعليقات</string>
     <string name="menu_overlay_reset_to_default_style">إعادة الضبط على النمط التلقائي</string>
     <string name="menu_refresh">تحديث</string>
-    <string name="menu_search_by_image">البحث بحسب الصور</string>
     <string name="menu_send_button_content_description">زر الإرسال لإرسال تعليقات</string>
     <string name="menu_send_feedback">إرسال تعليقات</string>
     <string name="menu_settings">الإعدادات</string>
     <string name="menu_share">مشاركة</string>
     <string name="menu_view_in_browser">عرض في متصفح</string>
-    <string name="menu_view_original_image">عرض الصورة الأصلية</string>
     <string name="menu_visit_page">الانتقال إلى الصفحة</string>
     <string name="message_card_feedback">تعليقات</string>
     <string name="message_image">صورة</string>
@@ -2292,7 +2307,6 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="minus_one_header_settings">إعدادات</string>
     <string name="minute_picker_description">شريط التمرير الدائري للدقائق</string>
     <string name="minutes">دقائق</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">إشعارات متنوعة</string>
     <string name="mismatching_value_eir_code">يجب أن يطابق العنوان</string>
     <string name="mismatching_value_pin_code">يجب أن يطابق العنوان</string>
@@ -2373,7 +2387,6 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="network_error_fetching_weather_data_status_text">الشبكة غير متاحة حاليًا</string>
     <string name="network_error_no_connection_tts">لا يتوفر اتصال بالإنترنت في الوقت الحالي.</string>
     <string name="network_error_resend_audio">إعادة إرسال الصوت</string>
-    <string name="network_error_try_again">إعادة المحاولة</string>
     <string name="network_location_required_text">‏للاطلاع على بطاقات تستند إلى الموقع مثل الطقس المحلي وحركة مرور التنقل من وإلى العمل، شغّل خدمة الموقع عبر شبكة Wi‑Fi وشبكة الجوال</string>
     <string name="network_location_required_text_klp">للاطلاع على البطاقات التي تستند إلى الموقع مثل الطقس المحلي وحركة مرور رحلة التنقل، حدد وضع تحديد الموقع بدقة عالية أو مع توفير طاقة البطارية</string>
     <string name="never">مطلقًا</string>
@@ -2465,7 +2478,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="none">بدون</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">خدمات القوائم والملاحظات</string>
-    <string name="notes_lists_none_preference_summary">المعلومات الثانوية</string>
+    <string name="notes_lists_none_preference_summary">‏لن يجري \"مساعد Google\" مزامنةً لبياناتك مع أي خدمة.</string>
     <string name="notes_lists_none_preference_title">بلا</string>
     <string name="notes_lists_provider_changed_description">"‏لن يتم تحديث بيانات ملاحظات وقوائم \"مساعد Google\" بعد الآن باستخدام %1$s. ولن يتم حذف البيانات الحالية في %1$s.
 
@@ -2473,6 +2486,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="notes_lists_provider_changed_negative_button">إلغاء</string>
     <string name="notes_lists_provider_changed_positive_button">أوافق</string>
     <string name="notes_lists_provider_changed_title">قطع الاتصال بالخدمة التي يقدّمها %1$s</string>
+    <string name="notes_lists_title">‏سيعمل \"مُساعِد Google\" على مزامنة ملاحظاتك وقوائمك مع هذه الخدمات.</string>
     <string name="notification_access_link_text">إيقاف الوصول إلى الإشعارات</string>
     <string name="notification_accessable_apps_category_title">الوصول إلى الإشعارات</string>
     <string name="notification_cancel_text">‏لن يعيد محرك البحث Google عملية البحث هذه عند استعادة اتصالك بالإنترنت.</string>
@@ -2506,7 +2520,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="offline_error_card_explanation_text_airplane_mode_wifi_on">‏لا تتوفّر شبكة. جرِّب إيقاف وضع الطائرة أو الاتصال بشبكة Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_data_roaming_off_wifi_off">‏لا تتوفّر شبكة. جرِّب تشغيل تجوال البيانات أو تشغيل Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_data_roaming_off_wifi_on">‏لا تتوفّر شبكة. جرِّب تشغيل تجوال البيانات أو الاتصال بشبكة Wi-Fi.</string>
-    <string name="offline_error_card_explanation_text_general_offline_mode">يُرجى التحقّق من الاتصال وإعادة المحاولة.</string>
+    <string name="offline_error_card_explanation_text_general_offline_mode">يُرجى التحقّق من الاتصال بالإنترنت وإعادة المحاولة.</string>
     <string name="offline_error_card_explanation_text_mobile_data_off_wifi_off">‏لا يتوفّر اتصال بيانات. جرِّب تشغيل بيانات الجوّال أو تشغيل Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_mobile_data_off_wifi_on">‏لا يتوفّر اتصال بيانات. جرِّب تشغيل بيانات الجوّال أو الاتصال بشبكة Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_no_cell_support_wifi_off">‏لا تتوفّر شبكة. جرِّب تشغيل Wi-Fi.</string>
@@ -2517,7 +2531,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="offline_error_card_explanation_text_no_signal_wifi_on">‏لا تتوفّر شبكة. جرِّب الاتصال بشبكة Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_no_sim_card_wifi_off">‏لا تتوفّر شبكة. جرِّب إدخال شريحة SIM أو تشغيل شبكة Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_no_sim_card_wifi_on">‏لا تتوفَّر شبكة. جرِّب إدخال شريحة SIM أو الاتصال بشبكة Wi-Fi.</string>
-    <string name="offline_error_card_explanation_text_offline_opted_into_background_retry">ستتوفّر النتائج فور استعادة اتصالك بالإنترنت وسيصلك إشعار عند الوصول إلى هذه النتائج.</string>
+    <string name="offline_error_card_explanation_text_offline_opted_into_background_retry">ستتوفّر النتائج فور استعادة اتصالك بالإنترنت وستتلقّى إشعارًا عند الوصول إلى هذه النتائج.</string>
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_off">‏لا تتوفّر شبكة. جرِّب تشغيل Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_on">‏لا تتوفّر شبكة. جرِّب الاتصال بشبكة Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_suffix_opted_into_background_retry">ستتلقى إشعارًا عندما تكون النتائج جاهزة.</string>
@@ -2538,6 +2552,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="offline_eyesfree_install_language_pack_notification_body">يُرجى ترقية حزمة اللغة.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">تفعيل الصوت بلا اتصال</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">أنت غير متصل. لمواصلة استخدام الصوت عندما تكون غير متصل، ستحتاج إلى تثبيت أحدث حزمة لغة. عندما تتمكن من استخدام شاشتك بشكل آمن، انقر على الإشعار للقيام بذلك.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">جهازك غير متّصل بالإنترنت. لاستخدام الصوت بلا إنترنت، تحتاج إلى أحدث حزمة لغة وسيتم تثبيتها عند اتصالك بشبكة الإنترنت مجدّدًا.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">أنت غير متصل. لمواصلة استخدام الصوت عندما تكون غير متصل والحصول على الميزات الجديدة، ستحتاج إلى تثبيت أحدث حزمة لغة. عندما تتمكن من استخدام شاشتك بشكل آمن، انقر على الإشعار للقيام بذلك.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">‏أنت غير متصل، لذا يتعذر الوصول إلى Google الآن، ولكن ما زال بإمكاني تقديم الكثير من المساعدة. على سبيل المثال، جرِّب أن تقول \"إجراء مكالمة\" أو \"ماذا يمكن أن أقول؟\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">‏أنت غير متصل. لا يمكنني الوصول إلى Google حاليًا، ولكن ما زال بإمكاني مساعدتك كثيرًا. على سبيل المثال، حاول أن تقول %1$s أو \"ماذا يمكن أن أقول؟\"</string>
@@ -2592,6 +2607,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="opa_assist_app_screen_explanation">‏للوصول إلى مساعد Google، اختر تطبيق Google في إعدادات المساعد والإدخال الصوتي</string>
     <string name="opa_assist_app_screen_title">‏تطبيق Google ليس التطبيق المساعد التلقائي لديك</string>
     <string name="opa_assistant_logo_content_description">البحث الصوتي</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">‏الاطّلاع على آخر مستجدّات \"مساعد Google\"</string>
     <string name="opa_consent_check_error_button">إغلاق</string>
     <string name="opa_consent_check_error_button_notavailable">تبديل الحسابات</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">‏استنادًا إلى إعدادات حسابك، قد تقتصر تجربة استخدام \"مساعد Google\" على أمور مثل نتائج الويب والدُعابات والمعلومات المحلية.</string>
@@ -2668,7 +2684,6 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="opa_eyes_free_opt_in_speech">‏عندما يكون الوضع آمنًا، ستحتاج أولاً إلى النقر على الإشعار. وبعد ذلك يمكنك السماح لسماعة الرأس بالعمل مع مساعد Google.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">انقر للمتابعة</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">‏تفعيل مساعد Google من تقديم المساعدة لك</string>
-    <string name="opa_eyes_warm_welcome_chip_text">انقر للمتابعة</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">تنفيذ هذا لاحقًا</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">أوافق</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">بدء</string>
@@ -2729,6 +2744,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="opa_launcher_icon_text">المساعد</string>
     <string name="opa_lock_icon_description">رمز فتح القفل</string>
     <string name="opa_logo_content_desc">‏شعار مساعد Google</string>
+    <string name="opa_mark_content">مُساعِد</string>
     <string name="opa_marketplace_disclosure_description">‏يتعامل \"مساعد Google\" مع خدمات مختلفة ليساعدك على إنجاز المزيد من المهام.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">‏يمكن لمساعد Google العمل مع شركاء Google لمساعدتك في إنجاز المهام سواء عند شراء تذاكر السينما أو طلب إصلاح المغسلة في المنزل. &lt;a href=https://support.google.com/assistant/?p=google_partners>مزيد من المعلومات&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">‏شركاء Google هم عبارة عن مؤسّسات تربطها علاقة تجارية مع Google، وبإمكان \"مساعد Google\" التعاون مع شركاء Google لمساعدتك في إنجاز المهام، مثل شراء تذاكر السينما أو إصلاح المغسلة. <a href="https://support.google.com/assistant/?p=google_partners">مزيد من المعلومات</a></string>
@@ -2967,7 +2983,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
 جدير بالذكر أنَّ أيّ شخص يستخدم هذا الجهاز بإمكانه الحصول على نتائجك الشخصية أيضًا، لذا يمكنك إيقافها من إعدادات \"مساعد Google\"."</string>
     <string name="personal_results_title">الحصول على نتائج شخصية</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{‏تم إعداد ميّزة Voice Match‏.&lt;br>&lt;br>يمكنكَ الآن تفعيل النتائج الشخصية حتى يتمكّن {PERSON} من استخدام صوته في الوصول إلى التقويم وجهات الاتصال والتذكيرات وغيرها على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>يمكنكَ إيقاف النتائج الشخصية من خلال إعدادات \"مساعد Google\" أو Family Link.}female{‏تم إعداد ميّزة Voice Match‏.&lt;br>&lt;br>يمكنكِ الآن تفعيل النتائج الشخصية حتى تتمكّن {PERSON} من استخدام صوتها في الوصول إلى التقويم وجهات الاتصال والتذكيرات وغيرها على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>يمكنكِ إيقاف النتائج الشخصية من خلال إعدادات \"مساعد Google\" أو Family Link.}other{‏تم إعداد ميّزة Voice Match‏.&lt;br>&lt;br>يمكن الآن تفعيل النتائج الشخصية حتى يتمكّن {PERSON} من استخدام الصوت في الوصول إلى التقويم وجهات الاتصال والتذكيرات وغيرها على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>يمكن إيقاف النتائج الشخصية من خلال إعدادات \"مساعد Google\" أو Family Link.}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{‏تم إعداد ميّزة Voice Match‏.&lt;br>&lt;br>يمكنك الآن تفعيل \"النتائج الشخصية\" حتى يتمكّن {PERSON} من استخدام صوته للوصول إلى تقويمه وجهات اتصاله والتذكيرات الخاصة به وغير ذلك من البيانات على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>قد تظهر \"النتائج الشخصية\" أيضًا على الشاشة الرئيسية وعلى هيئة إشعارات، بدون أن يطلب {PERSON} ذلك. جدير بالذكر أنه من الممكن أن ينقر أِشخاص مجاورين لك على هذه النتائج والتعامل على أساسها.&lt;br>&lt;br>يمكنك إيقاف \"النتائج الشخصية\" من خلال إعدادات \"مُساعِد Google\" أو Family Link.}female{‏تم إعداد ميّزة Voice Match‏.&lt;br>&lt;br>يمكنك الآن تفعيل \"النتائج الشخصية\" حتى تتمكّن {PERSON} من استخدام صوتها للوصول إلى تقويمها وجهات اتصالها والتذكيرات الخاصة بها وغير ذلك من البيانات على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>قد تظهر \"النتائج الشخصية\" أيضًا على الشاشة الرئيسية وعلى هيئة إشعارات، بدون أن تطلب {PERSON} ذلك. جدير بالذكر أنه من الممكن أن ينقر أِشخاص مجاورين لك على هذه النتائج والتعامل على أساسها.&lt;br>&lt;br>يمكنك إيقاف \"النتائج الشخصية\" من خلال إعدادات \"مُساعِد Google\" أو Family Link.}other{‏تم إعداد ميّزة Voice Match‏.&lt;br>&lt;br>يمكنك الآن تفعيل \"النتائج الشخصية\" ليتسنى لـ {PERSON} استخدام الصوت للوصول إلى التقويم وجهات الاتصال والتذكيرات وغير ذلك من البيانات على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>قد تظهر \"النتائج الشخصية\" أيضًا على الشاشة الرئيسية وعلى هيئة إشعارات، بدون صدور طلب من {PERSON} بشأن ذلك. جدير بالذكر أنه من الممكن أن ينقر أِشخاص مجاورين لك على هذه النتائج والتعامل على أساسها.&lt;br>&lt;br>يمكنك إيقاف \"النتائج الشخصية\" من خلال إعدادات \"مُساعِد Google\" أو Family Link.}}</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{‏تم إعداد ميزة Voice Match‏.&lt;br>&lt;br>يمكنك الآن تفعيل \"النتائج الشخصية\" حتى يتمكّن {PERSON} من استخدام صوته للوصول إلى تقويمه وجهات اتصاله والتذكيرات الخاصة به وغير ذلك من البيانات على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>قد تظهر \"النتائج الشخصية\" أيضًا على الشاشة الرئيسية وعلى هيئة إشعارات، بدون أن يطلب {PERSON} ذلك. وجدير بالذكر أنّه من الممكن أن ينقر أِشخاص مجاورون على هذه النتائج والتعامل على أساسها.&lt;br>&lt;br>يمكنك إيقاف \"النتائج الشخصية\" من خلال إعدادات \"مُساعِد Google\" أو Family Link.}female{‏تم إعداد ميزة Voice Match‏.&lt;br>&lt;br>يمكنك الآن تفعيل \"النتائج الشخصية\" حتى تتمكّن {PERSON} من استخدام صوتها للوصول إلى تقويمها وجهات اتصالها والتذكيرات الخاصة بها وغير ذلك من البيانات على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>قد تظهر \"النتائج الشخصية\" أيضًا على الشاشة الرئيسية وعلى هيئة إشعارات، بدون أن تطلب {PERSON} ذلك. وجدير بالذكر أنه من الممكن أن ينقر أِشخاص مجاورون على هذه النتائج والتعامل على أساسها.&lt;br>&lt;br>يمكنك إيقاف \"النتائج الشخصية\" من خلال إعدادات \"مُساعِد Google\" أو Family Link.}other{‏تم إعداد ميزة Voice Match‏.&lt;br>&lt;br>يمكنك الآن تفعيل \"النتائج الشخصية\" حتى يتسنى لـ {PERSON} استخدام الصوت للوصول إلى التقويم وجهات الاتصال والتذكيرات وغير ذلك من البيانات على هذا الجهاز. &lt;a href=\"https://support.google.com/families/answer/7521263\">مزيد من المعلومات&lt;/a>&lt;br>&lt;br>قد تظهر \"النتائج الشخصية\" أيضًا على الشاشة الرئيسية وعلى هيئة إشعارات، بدون طلب من {PERSON}. وجدير بالذكر أنه من الممكن أن ينقر أِشخاص مجاورون على هذه النتائج والتعامل على أساسها.&lt;br>&lt;br>يمكنك إيقاف \"النتائج الشخصية\" من خلال إعدادات \"مُساعِد Google\" أو Family Link.}}</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{يمكن الحصول على نتائج شخصية باستخدام صوت {PERSON}.}male{يمكن الحصول على نتائج شخصية باستخدام صوت {PERSON}.}other{يمكن الحصول على نتائج شخصية باستخدام صوت {PERSON}.}}</string>
     <string name="personal_search">البحث الشخصي</string>
     <string name="phone_display_name">اتصال</string>
@@ -3156,6 +3172,7 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="recently_empty_state_read_later_body_text">سنحتفظ بالعناصر التي تم تنزيلها على جهازك لمدة 7 أيام.</string>
     <string name="recently_empty_state_read_later_title_text">إضافة صفحات لقراءتها لاحقًا</string>
     <string name="recently_entry_interaction_offline">يتعذر فتح الصفحة المطلوبة من دون اتصال بالإنترنت</string>
+    <string name="recently_entry_interaction_voice_query">يتعذَّر فتح البحث الصوتي المعلّق المطلوب.</string>
     <string name="recently_feed_entry">البطاقات</string>
     <string name="recently_google_doodle_for">‏رسومات الشعار المبتكرة من Google لـ %s</string>
     <string name="recently_keep_on_device_until">الحفظ على الجهاز حتى:</string>
@@ -3175,12 +3192,12 @@ Google تجدر الإشارة إلى أن \"عدسة Google\" لا تُلِم �
     <string name="recently_onboarding_search_on_message">"‏الصفحات المعروضة هنا هي الصفحات التي رأيتها على هذا الجهاز. ويتم تجميع صفحات عملية البحث نفسها معًا، بحيث يتم عرض أحدث هذه الصفحات أولاً.
 
 يمكنك الاستمرار في البحث والاطلاع مرة أخرى على النتائج التي عثرت عليها هنا."</string>
-    <string name="recently_onboarding_search_on_message_revamp">الصفحات المعروضة هنا هي الصفحات التي رأيتها على هذا الجهاز. ويمكنك الاستمرار في البحث والاطلاع مرة أخرى على النتائج التي عثرت عليها هنا.</string>
+    <string name="recently_onboarding_search_on_message_revamp">الصفحات المعروضة هنا هي تلك التي رأيتها على هذا الجهاز. ويمكنك الاستمرار في البحث والاطّلاع مرة أخرى على النتائج التي عثرت عليها هنا.</string>
     <string name="recently_onboarding_search_on_title">البحث في</string>
     <string name="recently_onboarding_swipe_up_message">"‏هل تريد إزالة صفحات عمليات البحث الحديثة؟ يمكنك التمرير بسرعة لأعلى لإزالتها.
 
 لن يؤدي هذا الإجراء إلى حذفها من حسابك في Google."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">‏هل تريد إزالة صفحات عمليات البحث الحديثة؟ يمكنك التمرير بسرعة لأعلى لإزالتها. ولن يؤدي هذا الإجراء إلى حذفها من حسابك على Google.</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">‏هل تريد إزالة صفحات عمليات البحث التي أجريتها مؤخّرًا؟ يمكنك التمرير بسرعة لأعلى لإزالتها. ولن يؤدي ذلك إلى حذفها من حسابك على Google.</string>
     <string name="recently_onboarding_swipe_up_title">التمرير للأعلى</string>
     <string name="recently_overflow_title">مزيد من الخيارات</string>
     <string name="recently_reading_reminder">تذكير القراءة:</string>
@@ -3212,6 +3229,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">الويب</string>
     <string name="recents_result_separate_group_header">عمليات البحث الأخيرة</string>
     <string name="recognizer_service_label">‏خدمة التعرف الأساسية من Google</string>
+    <string name="recommendation_header_text">المنتديات المقترَحة</string>
     <string name="reconnecting_loading_results">"جارٍ تحميل نتائجك
 "</string>
     <string name="reconnecting_title">جارٍ إعادة الاتصال…</string>
@@ -3284,7 +3302,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">الاسم</string>
     <string name="report_other_reason">غير ذلك</string>
     <string name="report_this">أبلِغ عن هذه النتيجة</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">‏لتنزيل الحلقات، يُرجى السماح بالوصول إلى سعة التخزين في أذونات تطبيق Google.</string>
     <string name="request_storage_permission_dialog_message">‏لتنزيل حلقات، يجب منح \"تطبيق Google\" إذنًا للوصول إلى سعة التخزين على جهازك.</string>
     <string name="request_storage_permission_dialog_title">السماح بالوصول إلى سعة التخزين</string>
     <string name="reservation_group_header">الحجوزات</string>
@@ -3369,6 +3387,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">تم نقل الشاشة</string>
     <string name="screenshot_srp_desc">البحث عن %s.</string>
     <string name="screenshot_srp_pending_desc">عملية بحث لم تُستكمل بعد عن %s</string>
+    <string name="screenshot_srp_voice_pending_desc">بحث صوتي معلّق</string>
+    <string name="screenshot_srp_voice_pending_title">البحث الصوتي</string>
     <string name="screenshot_web_desc">الانتقال إلى %s.</string>
     <string name="screenshot_webpage_pending_desc">تنزيل معلّق</string>
     <string name="scroll_left">التمرير لليسار</string>
@@ -3404,7 +3424,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_phone_or_tablet">البحث في الجهاز اللوحي</string>
     <string name="search_plate_accessibility_voice_search_button">بحث</string>
     <string name="search_queue_activity_title">إدارة عمليات البحث</string>
-    <string name="search_queue_is_full">لتلقي إشعار عندما تكون نتائجك متاحة، عليك محو \"عمليات البحث بلا إنترنت\".</string>
+    <string name="search_queue_is_full">لتلقّي إشعار عندما تكون نتائجك متاحة، عليك محو \"عمليات البحث بلا إنترنت\".</string>
     <string name="search_region">منطقة البحث</string>
     <string name="search_region_default">المنطقة الحالية (الإعداد التلقائي)</string>
     <string name="search_service_account_change_hotword_retraining_notification_content">انقر لتشغيل \"%1$s\" مرة أخرى.</string>
@@ -3485,6 +3505,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="settings_legal_notices_title">الإشعارات القانونية</string>
     <string name="settings_location_tos_title">بنود خدمة الموقع</string>
     <string name="settings_privacy_policy_title">سياسة الخصوصية</string>
+    <string name="settings_search_icon_title">إعدادات البحث</string>
     <string name="settings_tos_title">شروط الخدمة</string>
     <string name="setup_complete_explanation">‏سيستجيب جهاز %s الآن عند قولك \"Ok Google\"، وإليك بعض الأمور التي يمكنك تجربتها.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">‏عندما تبدأ الحديث مع %s ستتلقى ردًّا من مساعد Google الخاص بك. إليك بعض الأمور التي يمكنك تجربتها.</string>
@@ -3656,6 +3677,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="standalone_zs_back_content_desc">رجوع</string>
     <string name="standalone_zs_brick_content_desc">تعديلات شخصية</string>
     <string name="standalone_zs_explore_content_desc">فتح صفحة الاستكشاف والاطّلاع على بياناتك</string>
+    <string name="standalone_zs_opa_icon_desc">‏مساعد Google</string>
     <string name="star_rating_bar_content_description">التقييم بالنجوم: %1$s</string>
     <string name="starting_location_selector">%1$s. اختر موقع البدء.</string>
     <string name="starts_at">تبدأ المباراة الساعة</string>
@@ -3671,6 +3693,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="street_address_label">عنوان الشارع</string>
     <string name="subscribe_button_label">اشتراك</string>
     <string name="subscribe_to_see_new_episodes">يمكنك الاشتراك في حلقات البودكاست للاطّلاع على الحلقات الجديدة.</string>
+    <string name="success">تمّ تنفيذ الإجراء.</string>
     <string name="suggest">الإكمال التلقائي</string>
     <string name="suggest_contact_removal_body">‏سيؤدي هذا إلى إزالة &lt;b>%1$s&lt;/b> من قائمة \"أهم جهات الاتصال\". لا يزال بإمكانك العثور على &lt;b>%2$s&lt;/b> عن طريق البحث.</string>
     <string name="suggest_contact_removal_cancel">إلغاء</string>
@@ -4030,6 +4053,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_say_something_title">الردّ بعبارة معيّنة</string>
     <string name="user_defined_action_task_scene_control_title">المَشاهِد</string>
     <string name="user_defined_action_task_scene_control_which_scenes">اختيار أي من المشاهد تريد تضمينها في هذا النظام.</string>
+    <string name="user_defined_action_task_security_system_control_title">تفعيل نظام الأمان</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">ما الوضع الذي تود ضبطه؟</string>
     <string name="user_defined_action_task_send_text_content_summary">إنْ تركت حقل رقم المستلم أو حقل محتوى الرسالة خاليًا، فسيُطلب منك إضافته عند تشغيل سلسلة الإجراءات هذه.</string>
     <string name="user_defined_action_task_send_text_content_title">ما نص الرسالة التي تريد إرسالها؟</string>
     <string name="user_defined_action_task_send_text_recipient_title">ما الرقم الذي تريد إرسال رسالة نصية إليه؟</string>

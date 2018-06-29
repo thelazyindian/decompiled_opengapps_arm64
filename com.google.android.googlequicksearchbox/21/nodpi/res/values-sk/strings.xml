@@ -248,6 +248,10 @@
     <string name="agent_bookmark_error">Vyskytla sa chyba. Skúste to znova neskôr.</string>
     <string name="agent_bookmark_removed">Odstránené zo záložiek</string>
     <string name="agent_description_more">ďalšie</string>
+    <string name="agent_details_add_routine_description">Zvýšte produktivitu svojich postupov pomocou aktualizácií od agenta %1$s.</string>
+    <string name="agent_details_add_routine_item">Pridať</string>
+    <string name="agent_details_customize_routine">Prispôsobte si postup</string>
+    <string name="agent_details_manage_routines">Spravovať postupy</string>
     <string name="agent_details_splash_image_a11y">Obrázok aplikácie Asistent</string>
     <string name="agent_directory_a11y_back_button">Späť</string>
     <string name="agent_directory_a11y_more_groups">Viac</string>
@@ -635,13 +639,15 @@ Asistent použije toto nastavenie na otázky týkajúce sa vášho dochádzania.
     <string name="assistant_settings_music_provider_category_title">Keď Asistenta požiadate o prehranie hudby, predvolene použije tohto poskytovateľa hudby. Hudbu môžete aj naďalej prehrávať pomocou všetkých ostatných prepojených poskytovateľov, ktorých nastavíte.</string>
     <string name="assistant_settings_music_title">Hudba</string>
     <string name="assistant_settings_music_unable_unlink_default">Vášho predvoleného poskytovateľa hudby nie je možné odpojiť</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Ak si chcete prehrávať Hudbu YouTube na zariadení Google Home, musíte mať členstvo v službe YouTube Red. Môžete sa zaregistrovať na adrese <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Vyžaduje sa členstvo v službe YouTube Red</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Odpojením účtu deaktivujete prístup k prehrávaniu zo služby %1$s prostredníctvom Asistenta Google.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Ak chcete používať YouTube Music na zariadení Google Home, musíte mať členstvo v službe YouTube Premium. Zaregistrovať sa môžete na adrese <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Vyžaduje sa členstvo v službe YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Odstrániť %1$s z aktívnych spravodajských zdrojov</string>
     <string name="assistant_settings_news_supports_video">Video je k dispozícii na inteligentných displejoch</string>
     <string name="assistant_settings_news_title">Správy</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Vaša prezývka má znak, ktorý nedokáže Asistent vysloviť. Vyhláskujte jej výslovnosť v ďalšej sekcii.</string>
     <string name="assistant_settings_no_device_linked">Funkcia Voice Match umožňuje vášmu Asistentovi poskytovať osobné informácie, keď rozpozná váš hlas. Až 6 ľudí môže používať vlastný kalendár, hudbu a ďalší obsah.</string>
+    <string name="assistant_settings_no_language_summary">Žiadny</string>
     <string name="assistant_settings_no_language_title">Pridanie jazyka</string>
     <string name="assistant_settings_no_shopping_list">Nemáte žiadny nákupný zoznam.</string>
     <string name="assistant_settings_notes_lists_title">Poznámky a zoznamy</string>
@@ -809,6 +815,7 @@ Asistent použije toto nastavenie pri poskytovaní trás na iné miesta, ako je 
     <string name="assistant_settings_summer_time_mode_availability_clarification">Nadväzujúca konverzácia Google je momentálne k dispozícii v angličtine (USA). Ak používate zariadenia Google Home, ktoré sa tu nezobrazujú, osoba s primárnym účtom v týchto zariadeniach môže nadväzujúcu konverzáciu zapnúť alebo vypnúť v nastaveniach svojho Asistenta.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Túto predvoľbu môžete zmeniť pre nasledujúce zariadenia Google Home</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Nie sú k dispozícii žiadne zariadenia</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Mikrofón zariadenia sa po každej odpovedi znova spustí, aby si vypočul nasledujúcu otázku. Tá sa zobrazí ako zvyčajne v časti Moja aktivita. Zvukové záznamy, na ktoré váš Asistent neodpovie, sa z účtu Google odstránia.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Nadväzujúca konverzácia</string>
     <string name="assistant_settings_summer_time_mode_title">Nadväzujúca konverzácia</string>
     <string name="assistant_settings_turn_off_voice_match">Ak vypnete funkciu Voice Match, odpojíte svoj účet od tohto zariadenia. Na používanie zariadenia s aktivovaným Asistentom Google je potrebný aspoň jeden prepojený účet. Naozaj chcete účet odpojiť? </string>
@@ -837,10 +844,8 @@ Asistent použije toto nastavenie pri poskytovaní trás na iné miesta, ako je 
     <string name="assistant_settings_update_error_message">Nastavenie sa nepodarilo aktualizovať. Skontrolujte pripojenie.</string>
     <string name="assistant_settings_video_calls_service_category_title">Váš Asistent môže uskutočniť videohovory v niektorých zariadeniach, ako napríklad Google Smart Display, a to pomocou vami preferovanej služby. Hovory na tiesňové služby nie sú k dispozícii.</string>
     <string name="assistant_settings_video_icon_text">Ikona poskytovateľa videí</string>
-    <string name="assistant_settings_video_link_dialog_text">Prepojte svoj účet Google s poskytovateľom %1$s a získajte tak hlasové ovládanie a prehrávanie na kompatibilných zariadeniach. Ak službu od poskytovateľa %1$s ovládate prostredníctvom služby Google Home alebo požiadate o informácie týkajúce sa poskytovateľa %1$s, tieto dopyty môžu byť odoslané spoločnosti %1$s na použitie v súlade s jej vyhlásením týkajúcim sa ochrany súkromia.</string>
     <string name="assistant_settings_video_provider_category_summary">Prehrávajte relácie a filmy hlasovým povelom svojmu Asistentovi.</string>
     <string name="assistant_settings_video_provider_category_title">Videá</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Odpojením účtu vypnete ovládanie hlasom.</string>
     <string name="assistant_settings_videos_photos_title">Videá a fotky</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast alebo televízor so vstavaným Chromecastom</string>
     <string name="assistant_settings_voice_and_video_calls_title">Hlasové hovory a videohovory</string>
@@ -1025,7 +1030,7 @@ jazyky; môžu sa účtovať poplatky za dátový prenos"</string>
     <string name="cloud_search_history_summary_fetching">Prebieha načítavanie nastavení...</string>
     <string name="collapse">Zbaliť</string>
     <string name="collapse_time_to_leave">Skryť možnosti pre túto cestu.</string>
-    <string name="collections">Zbierky</string>
+    <string name="collections">Uložené</string>
     <string name="comment_hint">Ďalšie komentáre (voliteľné).</string>
     <string name="common_address_clear_button_label">Vymazať</string>
     <string name="common_address_clear_confirm_button">Odstrániť</string>
@@ -1101,7 +1106,7 @@ Toto zariadenie získa prístup do vášho účtu Google."</string>
     <string name="consent_my_activity">Moja aktivita</string>
     <string name="consent_partners_disclosures_body_collapsed">Partneri Googlu majú úzky obchodný vzťah so spoločnosťou Google a za odporúčanie alebo propagáciu nám zvyčajne platia.</string>
     <string name="consent_partners_disclosures_body_expanded">Partneri Googlu majú úzky obchodný vzťah so spoločnosťou Google a za odporúčanie alebo propagáciu nám zvyčajne platia. Tieto firmy vám pomôžu vykonať akcie, ako napríklad kúpiť vreckovky alebo opraviť umývadlo. %1$s</string>
-    <string name="consent_partners_disclosures_title">Certifikovaní partneri Google</string>
+    <string name="consent_partners_disclosures_title">Partneri Googlu</string>
     <string name="consent_services_disclosures_body_collapsed">Na ochranu vášho súkromia odosiela Google službám, s ktorými komunikujete, jedinečný kód.</string>
     <string name="consent_services_disclosures_body_expanded">"Google odosiela službám, s ktorými sa rozprávate, jedinečný kód, aby tak zaistil ochranu vášho súkromia. Služby si preto dokážu zapamätať informácie, ako napríklad predvoľby počas konverzácií.
 
@@ -1259,6 +1264,10 @@ Vašu približnú polohu budeme musieť odvodiť z iných informácií, ako je 
     <string name="device_setup_error_cancel_button">Získať pomoc</string>
     <string name="device_setup_error_content">Vyskytla sa chyba</string>
     <string name="device_setup_error_title">Mohol sa vyskytnúť problém</string>
+    <string name="devices_scan_action_button">Pokračovať</string>
+    <string name="devices_scan_cancel_button">Zrušiť</string>
+    <string name="devices_scan_explanation">Vybrať zariadenia</string>
+    <string name="devices_scan_title">Pridať zariadenia</string>
     <string name="directory_for_mall">Adresár pre obchodný dom %1$s</string>
     <string name="disclaimer">Vylúčenie zodpovednosti</string>
     <string name="dismiss_text">Zrušíte presunutím nadol</string>
@@ -1354,7 +1363,6 @@ dva týždne prázdny."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Dostupné epizódy</string>
     <string name="episode_page_section_title">Epizóda</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Pre vás</string>
     <string name="error">Chyba</string>
     <string name="error_adding_location_snackbar_text">Pri pridávaní miesta došlo k chybe</string>
@@ -1421,7 +1429,6 @@ Skontrolujte pripojenie a skúste to znova."</string>
     <string name="eyes_donate_data_optin_ok">OK</string>
     <string name="eyes_donate_data_optin_title">Poskytnite snímky služby Lens</string>
     <string name="eyes_flash_button_description">Zapnúť/vypnúť blesk</string>
-    <string name="eyes_initial_suggestion_0">Čo dokážeš rozpoznať?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">Nemám na to povolenie</string>
     <string name="eyes_no_permission_camera">Nemám povolenie na používanie fotoaparátu</string>
@@ -1449,7 +1456,6 @@ Funkcia Google Lens nie je vševedúca a rozpoznanie určitých objektov, výbe
     <string name="eyes_onboarding_title_text">Skenujte text</string>
     <string name="eyes_request_timed_out_message">Google je momentálne nedostupný</string>
     <string name="eyes_share_with">Zdieľanie s:</string>
-    <string name="eyes_unfreeze_image_description">Späť na fotoaparát</string>
     <string name="eyes_viewfinder_description">Aktivovať Google Lens</string>
     <string name="failed">Obrázok sa nepodarilo načítať</string>
     <string name="failed_to_open_webview">Stránku sa nepodarilo otvoriť</string>
@@ -1786,10 +1792,10 @@ Tieto predchádzajúce záznamy môžete použiť na vytvorenie hlasového model
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">prejsť späť</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Určite</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Naozaj?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Dobrý deň! Práve som naučil svojho Asistenta rozpoznávať môj hlas v aplikácii Google Home s cieľom získavať prispôsobené výsledky.
+    <string name="hotword_enrollment_google_home_share_message">"Ahoj! Práve som naučil Asistenta rozpoznávať môj hlas na zariadení Google Home s cieľom získavať prispôsobené výsledky.
 
-Tiež môžete získať osobné výsledky! Stačí si nainštalovať aplikáciu Google Home z adresy https://google.com/home/setup"</string>
-    <string name="hotword_enrollment_google_home_share_message_subject">Naučte Asistenta rozpoznať vás</string>
+Tiež môžeš získať osobné výsledky! Stačí si nainštalovať aplikáciu Google Home z adresy https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_subject">Naučte asistenta rozpoznať vás</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Pozvať</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Hlasovú aktivitu môžete zobraziť alebo odstrániť v časti %1$s. Funkciu Voice Match môžete tiež vypnúť v nastaveniach Asistenta.</string>
     <string name="hotword_enrollment_google_home_summary_header_title">Všetko je nastavené</string>
@@ -1920,7 +1926,7 @@ Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</
     <string name="hourly_forecast">Hodinová predpoveď</string>
     <string name="hours">Hodiny</string>
     <string name="how_can_i_help">Ako vám môžem pomôcť?</string>
-    <string name="hq_a11y_bottom_bar_button">Ak chcete četovať s Asistentom, otvorte mikrofón</string>
+    <string name="hq_a11y_bottom_bar_button">Asistent</string>
     <string name="hq_a11y_chatui_badge">Preskúmajte svoje položky</string>
     <string name="hq_a11y_menu_button">Ponuka</string>
     <string name="hq_account_switch_prompt">Prihlasujete sa ako %1$s</string>
@@ -2092,7 +2098,7 @@ Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</
     <string name="item_is_selected">Bola vybratá položka %1$s</string>
     <string name="item_moved">Položka bola presunutá</string>
     <string name="item_removed">Položka bola odstránená</string>
-    <string name="jasper_duo_knock_knock_summary">Zistite, kto vám volá, ešte než zdvihnete. Umožnite volaným ľuďom, aby sa im počas vyzváňania zobrazilo vaše video. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Ďalšie informácie&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Zistite, kto vám volá, ešte než zdvihnete. Umožnite volaným, aby sa im počas vyzváňania zobrazilo vaše video. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Klop klop</string>
     <string name="jasper_duo_not_signed_in">Nie ste prihlásený/-á</string>
     <string name="jasper_duo_signed_in">Ste prihlásený/-á</string>
@@ -2188,10 +2194,10 @@ Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</
     <string name="location_service_required_title">Získajte karty na základe polohy</string>
     <string name="lockscreen_mic_promo_notification_content">Odomknite svoj telefón vyslovením výrazu „%1$s“.</string>
     <string name="lockscreen_mic_promo_notification_title">Odomknutie hlasom</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Miniaplikáciu pridáte dvojitým klepnutím a pridržaním alebo pomocou vlastných akcií.</string>
     <string name="long_press_widget_to_add">Miniaplikáciu pridáte stlačením a podržaním.</string>
     <string name="longpress_menu_download">Stiahnuť obrázok</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Zdieľať obrázok</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2241,13 +2247,11 @@ Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</
     <string name="menu_overlay_feedback">Odoslať spätnú väzbu</string>
     <string name="menu_overlay_reset_to_default_style">Obnoviť predvolený štýl</string>
     <string name="menu_refresh">Obnoviť</string>
-    <string name="menu_search_by_image">Hľadať podľa obrázka</string>
     <string name="menu_send_button_content_description">Tlačidlo na odoslanie spätnej väzby.</string>
     <string name="menu_send_feedback">Odoslať spätnú väzbu</string>
     <string name="menu_settings">Nastavenia</string>
     <string name="menu_share">Zdieľanie</string>
     <string name="menu_view_in_browser">Zobraziť v prehliadači</string>
-    <string name="menu_view_original_image">Zobraziť pôvodný obrázok</string>
     <string name="menu_visit_page">Navštíviť stránku</string>
     <string name="message_card_feedback">Spätná väzba</string>
     <string name="message_image">Obrázok</string>
@@ -2292,7 +2296,6 @@ Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</
     <string name="minus_one_header_settings">Nastavenia</string>
     <string name="minute_picker_description">Kruhový posúvač minút</string>
     <string name="minutes">Minúty</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Rôzne</string>
     <string name="mismatching_value_eir_code">Musí zodpovedať adr.</string>
     <string name="mismatching_value_pin_code">Musí zodpovedať adr.</string>
@@ -2373,7 +2376,6 @@ Na stránke Moja aktivita máte k dispozícii všetky svoje vyhľadávania v G
     <string name="network_error_fetching_weather_data_status_text">Sieť momentálne nie je k dispozícii</string>
     <string name="network_error_no_connection_tts">Momentálne nemáte pripojenie k internetu.</string>
     <string name="network_error_resend_audio">Znova odoslať zvukový záznam</string>
-    <string name="network_error_try_again">Skúsiť znova</string>
     <string name="network_location_required_text">Ak chcete, aby sa zobrazovali karty na základe polohy (napríklad miestne počasie a premávka pri dochádzaní), zapnite funkciu Poloha podľa sietí Wi–Fi a mobilných sietí.</string>
     <string name="network_location_required_text_klp">Ak chcete zobraziť karty založené na polohe, ako sú miestne počasie alebo premávka na ceste do práce, vyberte režim určovania polohy Vysoká presnosť alebo Úspora batérie</string>
     <string name="never">Nikdy</string>
@@ -2465,7 +2467,7 @@ Na stránke Moja aktivita máte k dispozícii všetky svoje vyhľadávania v G
     <string name="none">Žiadna</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Služby na zoznamy a poznámky</string>
-    <string name="notes_lists_none_preference_summary">Sekundárne informácie</string>
+    <string name="notes_lists_none_preference_summary">Asistent vaše dáta nebude synchronizovať so žiadnymi službami.</string>
     <string name="notes_lists_none_preference_title">Žiadna</string>
     <string name="notes_lists_provider_changed_description">"Dáta poznámok a zoznamov Asistenta sa už ďalej nebudú aktualizovať prostredníctvom poskytovateľa %1$s. Súčasné dáta od poskytovateľa %1$s sa neodstránia.
 
@@ -2473,6 +2475,7 @@ Chcete pokračovať?"</string>
     <string name="notes_lists_provider_changed_negative_button">Zrušiť</string>
     <string name="notes_lists_provider_changed_positive_button">Súhlasím</string>
     <string name="notes_lists_provider_changed_title">Odpojiť od poskytovateľa %1$s</string>
+    <string name="notes_lists_title">Váš Asistent bude synchronizovať poznámky a zoznamy do týchto zariadení.</string>
     <string name="notification_access_link_text">Vypnúť prístup k upozorneniam</string>
     <string name="notification_accessable_apps_category_title">Prístup k upozorneniam</string>
     <string name="notification_cancel_text">Keď budete znova online, Google toto vyhľadávanie nezopakuje.</string>
@@ -2592,6 +2595,7 @@ Chcete pokračovať?"</string>
     <string name="opa_assist_app_screen_explanation">Ak chcete mať prístup k Asistentovi Google, vyberte aplikáciu Google v nastaveniach asistenčnej aplikácie a hlasového vstupu.</string>
     <string name="opa_assist_app_screen_title">Táto aplikácia Google nie je vašou predvolenou asistenčnou aplikáciou</string>
     <string name="opa_assistant_logo_content_description">Hlasové vyhľadávanie</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Zobraziť aktualizácie Asistenta Google</string>
     <string name="opa_consent_check_error_button">Zavrieť</string>
     <string name="opa_consent_check_error_button_notavailable">Prepnúť účty</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">V závislosti od nastavení účtu budú funkcie vášho Asistenta obmedzené na poskytovanie výsledkov z internetu, vtipy, miestne informácie a pod.</string>
@@ -2668,7 +2672,6 @@ Odstránenie z histórie Asistenta nebude mať vplyv na transakcie ani akcie vr
     <string name="opa_eyes_free_opt_in_speech">Keď to bude bezpečné, musíte najskôr klepnúť na upozornenie. Potom môžete povoliť spoluprácu náhlavných súprav s Asistentom Google.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Pokračujte klepnutím</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Udeľte Asistentovi Google povolenie, aby vám mohol pomôcť</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Pokračujte klepnutím</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Neskôr</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Súhlasím</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">ZAČÍNAME</string>
@@ -2729,6 +2732,7 @@ môžete zobraziť a spravovať v časti"</string>
     <string name="opa_launcher_icon_text">Asistent</string>
     <string name="opa_lock_icon_description">Ikona odomknutia</string>
     <string name="opa_logo_content_desc">Logo Asistenta Google</string>
+    <string name="opa_mark_content">Asistent</string>
     <string name="opa_marketplace_disclosure_description">Asistent Google dokáže využívať rôzne služby a pomôcť vám tak vykonať viac aktivít.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Asistent Google dokáže spolupracovať s partnermi Googlu a pomôcť vám tak vykonať akcie, ako je nákup vstupeniek do kina alebo oprava umývadla. &lt;a href=https://support.google.com/assistant/?p=google_partners>Ďalšie informácie&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Partneri spoločnosti Google sú firmy, ktoré majú s Googlom obchodný vzťah. Asistent Google dokáže spolupracovať s partnermi spoločnosti Google a pomôcť vám tak vykonať viac aktivít, ako je nakupovanie vstupeniek do kina alebo čistenie výleviek. <a href="https://support.google.com/assistant/?p=google_partners">Ďalšie informácie</a></string>
@@ -2967,7 +2971,7 @@ Upozorňujeme, že vaše osobné výsledky vyhľadávania môže získať aj ľu
 Upozorňujeme, že vaše osobné výsledky vyhľadávania môže získať aj ľubovoľná osoba používajúca toto zariadenie. Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</string>
     <string name="personal_results_title">Získanie osobných výsledkov</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Ak zapnete osobné výsledky, {PERSON} bude môcť hlasom získať prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo služby Family Link.}female{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Ak zapnete osobné výsledky, {PERSON} bude môcť hlasom získať prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo služby Family Link.}other{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Ak zapnete osobné výsledky, {PERSON} bude môcť hlasom získať prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo služby Family Link.}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Teraz môžete zapnúť osobné výsledky, aby mohol {PERSON} získať hlasom prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Môžu sa zobraziť aj osobné výsledky na ploche alebo ako upozornenia – bez toho, aby {PERSON} musel o ne žiadať. Upozorňujeme, že tieto výsledky uvidia a budú môcť použiť aj zvedaví okolostojaci.&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo aplikácii Family Link.}female{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Teraz môžete zapnúť osobné výsledky, aby mohla používateľka {PERSON} získať hlasom prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Môžu sa zobraziť aj osobné výsledky na ploche alebo ako upozornenia – bez toho, aby {PERSON} musela o ne žiadať. Upozorňujeme, že tieto výsledky uvidia a budú môcť použiť aj zvedaví okolostojaci.&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo aplikácii Family Link.}other{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Teraz môžete zapnúť osobné výsledky, aby mohol používateľ {PERSON} získať hlasom prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Môžu sa zobraziť aj osobné výsledky na ploche alebo ako upozornenia – bez toho, aby používateľ {PERSON} musel o ne žiadať. Upozorňujeme, že tieto výsledky uvidia a budú môcť použiť aj zvedaví okolostojaci.&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo aplikácii Family Link.}}</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Teraz môžete zapnúť osobné výsledky, aby mohol {PERSON} získať hlasom prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Môžu sa zobraziť aj osobné výsledky na ploche alebo ako upozornenia – bez toho, aby {PERSON} musel o ne žiadať. Upozorňujeme, že tieto výsledky uvidia a budú môcť použiť aj zvedaví okolostojaci.&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo aplikácii Family Link.}female{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Teraz môžete zapnúť osobné výsledky, aby mohla {PERSON} získať hlasom prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Môžu sa zobraziť aj osobné výsledky na ploche alebo ako upozornenia – bez toho, aby {PERSON} musela o ne žiadať. Upozorňujeme, že tieto výsledky uvidia a budú môcť použiť aj zvedaví okolostojaci.&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo aplikácii Family Link.}other{Funkcia Voice Match bola nastavená.&lt;br>&lt;br>Teraz môžete zapnúť osobné výsledky, aby mohol používateľ {PERSON} získať hlasom prístup ku kalendáru, kontaktom, pripomenutiam a ďalšiemu obsahu v tomto zariadení. &lt;a href=\"https://support.google.com/families/answer/7521263\">Ďalšie informácie&lt;/a>&lt;br>&lt;br>Môžu sa zobraziť aj osobné výsledky na ploche alebo ako upozornenia – bez toho, aby používateľ {PERSON} musel o ne žiadať. Upozorňujeme, že tieto výsledky uvidia a budú môcť použiť aj zvedaví okolostojaci.&lt;br>&lt;br>Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta alebo aplikácii Family Link.}}</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{Získajte osobné výsledky pomocou hlasu používateľa {PERSON}.}male{Získajte osobné výsledky pomocou hlasu používateľky {PERSON}.}other{Získajte osobné výsledky pomocou hlasu používateľa {PERSON}.}}</string>
     <string name="personal_search">Osobné vyhľadávanie</string>
     <string name="phone_display_name">Zavolať</string>
@@ -3156,6 +3160,7 @@ Odhadovaná veľkosť: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Stiahnuté položky ponecháme v zariadení sedem dní.</string>
     <string name="recently_empty_state_read_later_title_text">Pridanie stránok na čítanie neskôr</string>
     <string name="recently_entry_interaction_offline">Požadovaná stránka sa nedá otvoriť v režime offline.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Karty</string>
     <string name="recently_google_doodle_for">Sviatočné logo Google pre %s</string>
     <string name="recently_keep_on_device_until">Ponechať v zariadení do:</string>
@@ -3175,7 +3180,7 @@ Skupinu môžete zavrieť stiahnutím prstov."</string>
     <string name="recently_onboarding_search_on_message">"Stránky v tejto sekcii ste zobrazili v tomto zariadení. Stránky z rovnakého vyhľadávania sú zoskupené spolu, pričom ako prvé sa zobrazujú najnovšie.
 
 Keď objavíte ďalšie zaujímavé stránky, tu sa k ním môžete vrátiť."</string>
-    <string name="recently_onboarding_search_on_message_revamp">Stránky v tejto časti ste zobrazili v danom zariadení. Pokračujte vo vyhľadávaní a znova tu objavte stránky.</string>
+    <string name="recently_onboarding_search_on_message_revamp">Stránky v tejto časti ste zobrazili v danom zariadení. Pokračujte vo vyhľadávaní, tu ich máte odložené.</string>
     <string name="recently_onboarding_search_on_title">Hľadať na stránkach</string>
     <string name="recently_onboarding_swipe_up_message">"Chcete odstrániť nedávne stránky? Zavrite ich prejdením prstom nahor.
 
@@ -3212,6 +3217,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Web</string>
     <string name="recents_result_separate_group_header">Nedávne vyhľadávania</string>
     <string name="recognizer_service_label">Základné rozpoznávanie Google</string>
+    <string name="recommendation_header_text">Odporúčame vám</string>
     <string name="reconnecting_loading_results">"Načítavajú sa výsledky
 "</string>
     <string name="reconnecting_title">Obnovuje sa pripojenie…</string>
@@ -3284,7 +3290,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Meno</string>
     <string name="report_other_reason">Iné</string>
     <string name="report_this">Nahlásiť</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Ak chcete sťahovať epizódy, povoľte prístup k úložisku v povoleniach aplikácie Google</string>
     <string name="request_storage_permission_dialog_message">Na to, aby sa dali sťahovať epizódy, potrebuje Google prístup k úložisku zariadenia</string>
     <string name="request_storage_permission_dialog_title">Povoľte prístup k úložisku</string>
     <string name="reservation_group_header">Rezervácie</string>
@@ -3369,6 +3375,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Obrazovka bola posunutá</string>
     <string name="screenshot_srp_desc">Vyhľadať dopyt %s</string>
     <string name="screenshot_srp_pending_desc">Prebiehajúce vyhľadávanie pre dopyt %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Prebiehajúce hlasové vyhľadávanie</string>
+    <string name="screenshot_srp_voice_pending_title">hlasové vyhľadávanie</string>
     <string name="screenshot_web_desc">Prejdite na web %s.</string>
     <string name="screenshot_webpage_pending_desc">Čaká na stiahnutie</string>
     <string name="scroll_left">Posunúť doľava</string>
@@ -3656,6 +3664,7 @@ Táto relácia nie je momentálne k dispozícii."</string>
     <string name="standalone_zs_back_content_desc">Späť</string>
     <string name="standalone_zs_brick_content_desc">Osobné aktualizácie</string>
     <string name="standalone_zs_explore_content_desc">Preskúmajte svoje položky</string>
+    <string name="standalone_zs_opa_icon_desc">Asistent</string>
     <string name="star_rating_bar_content_description">Hodnotenie hviezdičkami: %1$s</string>
     <string name="starting_location_selector">%1$s. Zvoľte začiatočnú polohu.</string>
     <string name="starts_at">Začína sa o</string>
@@ -3671,6 +3680,7 @@ Táto relácia nie je momentálne k dispozícii."</string>
     <string name="street_address_label">Adresa</string>
     <string name="subscribe_button_label">Prihlásiť sa na odber</string>
     <string name="subscribe_to_see_new_episodes">Ak si chcete pozrieť nové epizódy, prihláste sa na odber podcastov</string>
+    <string name="success">Úspech</string>
     <string name="suggest">Automatické dopĺňanie</string>
     <string name="suggest_contact_removal_body">Táto akcia odstráni kontakt &lt;b>%1$s&lt;/b> zo zoznamu najčastejšie používaných kontaktov. Kontakt &lt;b>%2$s&lt;/b> budete stále môcť nájsť vyhľadávaním.</string>
     <string name="suggest_contact_removal_cancel">ZRUŠIŤ</string>
@@ -4029,6 +4039,8 @@ Prihlásený/-á ako %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Povedať</string>
     <string name="user_defined_action_task_scene_control_title">Scény</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Vyberte, ktoré zo scén chcete zahrnúť do tohto postupu.</string>
+    <string name="user_defined_action_task_security_system_control_title">Aktivovať bezpečnostný systém</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Ktorý režim chcete nastaviť?</string>
     <string name="user_defined_action_task_send_text_content_summary">Ak ponecháte číslo príjemcu alebo obsah správy prázdny a spustíte tento postup, zobrazí sa výzva na ich zadanie.</string>
     <string name="user_defined_action_task_send_text_content_title">Aký má byť obsah správy?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Na aké číslo by ste správu chceli poslať?</string>

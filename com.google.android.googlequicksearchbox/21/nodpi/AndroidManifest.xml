@@ -171,16 +171,7 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/assistant_settings" android:name="com.google.android.apps.gsa.assistant.settings.AssistantSettingsActivityInternal" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.AssistantSettings">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
         <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/assistant_settings" android:name="com.google.android.apps.gsa.assistant.settings.ResizeableAssistantSettingsActivity" android:process=":search" android:resizeableActivity="true" android:taskAffinity="" android:theme="@style/Theme.AssistantSettings">
-            <meta-data android:name="WindowManagerPreference:AppControlled" android:value="true"/>
-        </activity>
-        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/assistant_settings" android:name="com.google.android.apps.gsa.assistant.settings.ResizeableAssistantSettingsActivityInternal" android:process=":search" android:resizeableActivity="true" android:taskAffinity="" android:theme="@style/Theme.AssistantSettings">
             <meta-data android:name="WindowManagerPreference:AppControlled" android:value="true"/>
         </activity>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
@@ -224,6 +215,8 @@
         </receiver>
         <receiver android:exported="true" android:name="com.google.android.apps.gsa.broadcastreceiver.external.PixelLauncherBroadcastReceiver" android:permission="com.google.android.apps.nexuslauncher.permission.QSB" android:process=":search">
             <intent-filter>
+                <action android:name="com.google.android.apps.dreamliner.ENABLE_UPDATE"/>
+                <action android:name="com.google.android.apps.dreamliner.DISABLE_UPDATE"/>
                 <action android:name="com.google.android.apps.gsa.smartspace.ENABLE_UPDATE"/>
                 <action android:name="com.google.android.apps.gsa.smartspace.CLICK_EVENT"/>
                 <action android:name="com.google.android.apps.gsa.smartspace.EXPIRE_EVENT"/>
@@ -232,6 +225,13 @@
                 <action android:name="com.google.android.apps.gsa.weatherwidget.WEATHER_CLICK"/>
                 <action android:name="com.google.android.systemui.smartspace.CLICK_EVENT"/>
                 <action android:name="com.google.android.systemui.smartspace.EXPIRE_EVENT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="@bool/enable_pre_n_calendar_broadcast_receiver" android:exported="true" android:name="com.google.android.apps.gsa.broadcastreceiver.external.PreNCalendarBroadcastReceiver" android:process=":search">
+            <intent-filter>
+                <action android:name="android.intent.action.PROVIDER_CHANGED"/>
+                <data android:scheme="content"/>
+                <data android:host="com.android.calendar"/>
             </intent-filter>
         </receiver>
         <service android:exported="true" android:name="com.google.android.apps.gsa.clockwork.services.DispatchingWearableListenerService" android:process=":search">
@@ -404,11 +404,6 @@
         </service>
         <service android:exported="false" android:name="com.google.android.apps.gsa.proactive.RequestScheduleEvaluatorService" android:process=":search"/>
         <receiver android:exported="false" android:name="com.google.android.apps.gsa.proactive.RequestScheduleEvaluatorReceiver" android:process=":search"/>
-        <service android:exported="true" android:name="com.google.android.apps.gsa.proactive.ScheduledTaskService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" android:process=":search">
-            <intent-filter>
-                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
-            </intent-filter>
-        </service>
         <meta-data android:name="com.google.android.gms.car.application" android:resource="@xml/automotive_app_desc"/>
         <service android:exported="true" android:name="com.google.android.apps.gsa.projection.CarAssistantService" android:process=":search">
             <intent-filter>
@@ -859,6 +854,7 @@
         </activity>
         <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:icon="@drawable/opa_app_icon" android:label="@string/opa_title" android:launchMode="singleTask" android:name="com.google.android.apps.gsa.staticplugins.opa.OpaActivity" android:process=":search" android:resizeableActivity="false" android:taskAffinity="" android:theme="@style/Opa.Activity.Theme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden"/>
         <activity android:autoRemoveFromRecents="true" android:configChanges="orientation|screenSize" android:exported="false" android:label="@string/opa_title" android:launchMode="singleTask" android:name="com.google.android.apps.gsa.staticplugins.opa.youtube.YouTubePlayerActivity" android:process=":search" android:taskAffinity="" android:theme="@android:style/Theme.Black.NoTitleBar"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/opa_title" android:launchMode="singleTask" android:name="com.google.android.apps.gsa.staticplugins.opa.ZeroStateActivity" android:process=":search" android:resizeableActivity="false" android:taskAffinity="" android:theme="@style/StandaloneZeroState.Theme"/>
         <activity android:configChanges="keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize" android:excludeFromRecents="true" android:exported="false" android:icon="@drawable/opa_app_icon" android:label="@string/opa_title" android:launchMode="singleTask" android:name="com.google.android.apps.gsa.staticplugins.opa.ResizableOpaActivity" android:process=":search" android:resizeableActivity="true" android:screenOrientation="behind" android:taskAffinity="" android:theme="@style/Opa.Activity.Theme" android:windowSoftInputMode="adjustNothing|stateAlwaysHidden">
             <meta-data android:name="WindowManagerPreference:AppControlled" android:value="true"/>
         </activity>
@@ -939,7 +935,7 @@
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:label="@string/sharebear_screenshotter_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.ScreenshotterActivity" android:process=":search" android:taskAffinity="" android:theme="@style/ScreenshotterActivityTheme"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="@string/sharebear_crop_and_edit_screenshot_activity_label" android:name="com.google.android.apps.gsa.staticplugins.sharebear.CropAndEditScreenshotActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:configChanges="keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:exported="false" android:label="Storage permission explanation" android:name="com.google.android.apps.gsa.staticplugins.sharebear.StoragePermissionDialogActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.Velvet.Popup"/>
-        <receiver android:enabled="@bool/enable_smartspace_widget" android:label="@string/smartspacewidget_beta_name" android:name="com.google.android.apps.gsa.staticplugins.smartspace.widget.SmartspaceWidgetProvider" android:process=":search">
+        <receiver android:enabled="@bool/enable_smartspace_widget" android:label="@string/smartspacewidget_name" android:name="com.google.android.apps.gsa.staticplugins.smartspace.widget.SmartspaceWidgetProvider" android:process=":search">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>

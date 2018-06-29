@@ -181,7 +181,7 @@
     <string name="download_failed">Yuklab olinmadi</string>
     <string name="download_not_found">Yuklanma topilmadi</string>
     <string name="download_setting_message">Yuklab olingan qismlar 30 kundan keyin yoki tinglangandan 24 soatdan keyin o‘chirib tashlanadi</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Yuklab olindi</string>
     <string name="downloaded_episodes">Yuklab olingan qismlar</string>
     <string name="downloading">Yuklab olinmoqda…</string>
     <string name="downloads">Yuklanmalar</string>
@@ -194,7 +194,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Mavjud qismlar</string>
     <string name="episode_page_section_title">Qism</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Siz uchun</string>
     <string name="error">Xato</string>
     <string name="error_message">Qidirib bo‘lmadi. Keyinroq qaytadan urinib ko‘ring.</string>
@@ -369,10 +368,10 @@ Podkastni qayta qidirib ko‘ring."</string>
     <string name="image_viewer_visit_site">Tashrif buyurish</string>
     <string name="indexing_not_ready">Ko‘rsatish uchun hech qanday kontent yo‘q. Internetga ulanib, bir necha daqiqadan keyin qayting.</string>
     <string name="info_target_label">Ilova haqida</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Google Podcasts ilovasini yuklab oling</string>
+    <string name="install_google_podcasts_accept">Yuklab olish</string>
+    <string name="install_google_podcasts_message">Tezkor foydalanish uchun Play Market orqali Google Podcasts ilovasini yuklab oling</string>
+    <string name="install_google_podcasts_reject">Hozir emas</string>
     <string name="installed_app_group_header">Ilovalar</string>
     <string name="ipa_app_filter_content_description">%s orqali olingan natijalar.</string>
     <string name="ipa_app_filter_more_description">%s orqali olingan boshqa natijalarni ko‘rsatish.</string>
@@ -401,20 +400,17 @@ Podkastni qayta qidirib ko‘ring."</string>
     <string name="long_accessible_way_to_add">Ikki marta bosib va bosib turgan holatda vidjetni tanlang yoki maxsus amaldan foydalaning.</string>
     <string name="long_press_widget_to_add">Vidjetni tanlash uchun bosib turing.</string>
     <string name="longpress_menu_download">Rasmni yuklab olish</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Rasmni ulashish</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="mark_as_played">Tinglangan deb belgilash</string>
+    <string name="mark_as_unplayed">Tinglanmagan deb belgilash</string>
+    <string name="media_item_type_your_podcasts">Podkastlaringiz</string>
     <string name="media_route_chooser_dialog_title">Qurilmani tanlang</string>
     <string name="media_route_chooser_searching">Qurilmalar qidirilmoqda…</string>
     <string name="media_route_controller_cancel">Bekor qilish</string>
     <string name="media_route_controller_stop_casting">Translatsiyani to‘xtatish</string>
     <string name="menu_get_help">Yordam</string>
-    <string name="menu_search_by_image">Rasm bo‘yicha qidirish</string>
     <string name="menu_send_feedback">Fikr-mulohaza</string>
-    <string name="menu_view_original_image">Asl rasmni ko‘rish</string>
     <string name="message_image">Rasm</string>
     <string name="message_no_text">Matnsiz</string>
     <string name="message_sender_text_divider">·</string>
@@ -427,7 +423,6 @@ Podkastni qayta qidirib ko‘ring."</string>
     <string name="migration_cling_title">Ilovangiz nishonchalaridan nusxa olish</string>
     <string name="migration_cling_use_default">YANGIDAN BOSHLASH</string>
     <string name="minute_picker_description">Siferblatda daqiqani tanlash</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="mismatching_value_eir_code">Kod xato</string>
     <string name="mismatching_value_pin_code">Indeks noto‘g‘ri</string>
     <string name="mismatching_value_postal_code">Indeks noto‘g‘ri</string>
@@ -568,6 +563,7 @@ Taxminiy hajmi: %dKb"</string>
     <string name="recently_empty_state_read_later_body_text">Qurilmangizga yuklab olingan elementlar 7 kun saqlanadi.</string>
     <string name="recently_empty_state_read_later_title_text">Sahifalarni oflayn mutolaa uchun saqlab olish</string>
     <string name="recently_entry_interaction_offline">Bu sahifani ochish uchun internetga ulaning.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Tasma</string>
     <string name="recently_google_doodle_for">%s uchun Google Doodle</string>
     <string name="recently_keep_on_device_until">Qurilmada saqlash:</string>
@@ -582,17 +578,17 @@ Boshqa so‘rovlarni ko‘rish uchun bu sahifalar guruhini oching."</string>
     <string name="recently_onboarding_recent_message_2">"Yaqinda qidirilgan narsalarni Google ilovasi orqali ko‘ring.
 
 Bu guruhni yopish uchun ikki barmog‘ingiz bilan jipslashtiring."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Yaqinda qidirilgan narsalarni Google ilovasi orqali ko‘ring.</string>
     <string name="recently_onboarding_recent_title">Yaqinda qidirilgan narsalar</string>
     <string name="recently_onboarding_search_on_message">"Bu yerda ushbu qurilmada tashrif buyurilgan sahifalar ko‘rsatilgan. Ular so‘rovlar bo‘yicha guruhlangan va vaqt bo‘yicha tartiblangan.
 
 Keyingi so‘rovlaringiz ularni osongina topishingiz uchun bu yerda saqlanadi."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Bu yerda ushbu qurilmada tashrif buyurilgan sahifalar ko‘rsatilgan. Keyingi so‘rovlaringiz ularni osongina topishingiz uchun bu yerda saqlanadi.</string>
     <string name="recently_onboarding_search_on_title">Qidiruv tarixi</string>
     <string name="recently_onboarding_swipe_up_message">"Yaqinda tashrif buyurilgan sahifalarni berkitishni xohlaysizmi? Sahifani ro‘yxatdan olib tashlash uchun uni tepaga suring.
 
 Sahifa Google hisobidan o‘chirib tashlanmaydi."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Yaqinda tashrif buyurilgan sahifalarni berkitishni xohlaysizmi? Sahifani ro‘yxatdan olib tashlash uchun uni tepaga suring. Sahifa Google hisobidan o‘chirib tashlanmaydi.</string>
     <string name="recently_onboarding_swipe_up_title">Natijalarni berkitish</string>
     <string name="recently_overflow_title">Boshqa variantlar</string>
     <string name="recently_reading_reminder">O‘qish haqida eslatma:</string>
@@ -662,7 +658,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="remove_download">Yuklab olingan qismni olib tashlash</string>
     <string name="remove_downloaded_episode">Qismni olib tashlash</string>
     <string name="remove_unfinished_episodes">Tugallanmagan qismlarni o‘chirish</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Qismlarni yuklab olish uchun Google ilovasiga qurilma xotirasidan foydalanishga ruxsat bering</string>
     <string name="request_storage_permission_dialog_message">Qismlarni yuklab olish uchun Google uchun qurilma xotirasiga kirishiga ruxsat bering</string>
     <string name="request_storage_permission_dialog_title">Xotiraga kirishga ruxsat bering</string>
     <string name="reservation_group_header">Bandlovlar</string>
@@ -689,13 +685,15 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Ekran siljitildi</string>
     <string name="screenshot_srp_desc">“%s” so‘rovi bo‘yicha natijalar</string>
     <string name="screenshot_srp_pending_desc">%s – kutib turgan qidiruv</string>
+    <string name="screenshot_srp_voice_pending_desc">Kutilayotgan ovozli qidiruv</string>
+    <string name="screenshot_srp_voice_pending_title">ovozli qidiruv</string>
     <string name="screenshot_web_desc">“%s” so‘rovi bo‘yicha sahifalarga tashrif.</string>
     <string name="screenshot_webpage_pending_desc">Yuklab olinishi kutilmoqda</string>
     <string name="search_contact_on_web">Internetdan %s deb qidiring</string>
     <string name="search_error_message">"Nimadir xato ketdi.
 Podkastni qayta qidirib ko‘ring."</string>
     <string name="search_menu_title">Qidirish</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Internetdan qidirish</string>
     <string name="search_the_web_suggestion">Internetdan qidirish</string>
     <string name="searchbar_hint">Podkastlar ichidan qidirish</string>
     <string name="searchbox_hint">Oxirgilardan qidirish</string>

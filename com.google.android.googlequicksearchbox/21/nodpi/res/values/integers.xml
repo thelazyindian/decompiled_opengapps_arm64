@@ -250,6 +250,7 @@
     <integer name="AssistViewProductEntry">21473</integer>
     <integer name="AssistViewRestaurantEntry">21481</integer>
     <integer name="AssistantApiAutomated">42839</integer>
+    <integer name="AssistantCapabilitiesAddItemToRoutineButton">54257</integer>
     <integer name="AssistantCapabilitiesAgentDeveloperMail">38359</integer>
     <integer name="AssistantCapabilitiesAgentGroupAgent">35300</integer>
     <integer name="AssistantCapabilitiesAgentGroupAgentTryIt">46563</integer>
@@ -285,6 +286,8 @@
     <integer name="AssistantCapabilitiesDetailedAgentActionReset">47484</integer>
     <integer name="AssistantCapabilitiesDetailedAgentActionSendToDeviceCancel">51921</integer>
     <integer name="AssistantCapabilitiesDetailedAgentActionSendToDeviceConfirm">51922</integer>
+    <integer name="AssistantCapabilitiesDetailedAgentActionSendToDeviceDialogContainer">54565</integer>
+    <integer name="AssistantCapabilitiesDetailedAgentActionSendToDeviceSelectDevice">54566</integer>
     <integer name="AssistantCapabilitiesDetailedAgentActionViewUserProfileData">50778</integer>
     <integer name="AssistantCapabilitiesDetailedAgentAlphaBetaChannelConfigurationSetting">49910</integer>
     <integer name="AssistantCapabilitiesDetailedAgentAlphaBetaDialog">52551</integer>
@@ -320,6 +323,7 @@
     <integer name="AssistantCapabilitiesGroupedAgentSuggestionChip">35890</integer>
     <integer name="AssistantCapabilitiesGroupedAgentSuggestionChipsContainer">36640</integer>
     <integer name="AssistantCapabilitiesGroupedAgentToolbarSearch">48198</integer>
+    <integer name="AssistantCapabilitiesManageRoutinesButton">54256</integer>
     <integer name="AssistantCapabilitiesPrimaryActionLink">36846</integer>
     <integer name="AssistantCapabilitiesPrimaryActionSendToDevice">51923</integer>
     <integer name="AssistantCapabilitiesPrimaryActionSetUp">36847</integer>
@@ -343,6 +347,7 @@
     <integer name="AssistantCapabilitiesReviewFeedbackOverflowMenu">48611</integer>
     <integer name="AssistantCapabilitiesReviewFeedbackSpamButton">48612</integer>
     <integer name="AssistantCapabilitiesReviewReportAbuseButton">51221</integer>
+    <integer name="AssistantCapabilitiesRoutinesContainer">54255</integer>
     <integer name="AssistantCapabilitiesSearchCancelQueryButton">40741</integer>
     <integer name="AssistantCapabilitiesSearchPageBack">40742</integer>
     <integer name="AssistantCapabilitiesSearchPageRoot">40740</integer>
@@ -922,6 +927,9 @@
     <integer name="LensProductEntityCardLink">52156</integer>
     <integer name="LensProductSummaryCard">52153</integer>
     <integer name="LensProductSummaryCardLink">52155</integer>
+    <integer name="LensResultsNegativeButton">54629</integer>
+    <integer name="LensResultsPositiveButton">54628</integer>
+    <integer name="LensResultsSendReportButton">54630</integer>
     <integer name="LensRoot">51771</integer>
     <integer name="LensShoppingGridCard">52157</integer>
     <integer name="LensShoppingGridCardExpandButton">52158</integer>
@@ -937,7 +945,7 @@
     <integer name="LocalHotelsAdditionalPricesFetch">23435</integer>
     <integer name="LocalHotelsRoomRatesFetch">17330</integer>
     <integer name="LocationMap">7615</integer>
-    <integer name="LockhartRequestUnclassified">42540</integer>
+    <integer name="LockhartGwsSearchPrefetch">42540</integer>
     <integer name="LogoFeedButton">36302</integer>
     <integer name="LogsProcessingError">4185</integer>
     <integer name="ManageSearchesPage">53050</integer>
@@ -1054,6 +1062,7 @@
     <integer name="OffersRpc">4322</integer>
     <integer name="OffersUnclassified">4323</integer>
     <integer name="OfflineCard">12626</integer>
+    <integer name="OgenBooksEntityPage">54641</integer>
     <integer name="OleoHistoryNavigation">9836</integer>
     <integer name="OleoHistoryReloadNavigation">32082</integer>
     <integer name="OleoImmersiveInternalDataFetch">17990</integer>
@@ -1203,6 +1212,7 @@
     <integer name="OpaAndroidSuggestionChip3PAgent">44014</integer>
     <integer name="OpaAndroidSuggestionChipAggressiveDiscoveryWithPrompt">42471</integer>
     <integer name="OpaAndroidSuggestionChipAggressiveDiscoveryWithoutPrompt">44460</integer>
+    <integer name="OpaAndroidSuggestionChipAssistantSurvey">53716</integer>
     <integer name="OpaAndroidSuggestionChipBistoOobe">40571</integer>
     <integer name="OpaAndroidSuggestionChipBistoSettings">40812</integer>
     <integer name="OpaAndroidSuggestionChipCall">35586</integer>
@@ -1240,12 +1250,14 @@
     <integer name="OpaAndroidSuggestionChipEyesWarmWelcome">43560</integer>
     <integer name="OpaAndroidSuggestionChipIntentFollowup">53123</integer>
     <integer name="OpaAndroidSuggestionChipLaunchGta">34295</integer>
+    <integer name="OpaAndroidSuggestionChipLikelyIntentForSearchFallback">54169</integer>
     <integer name="OpaAndroidSuggestionChipPhoneBuddyCancel">43541</integer>
     <integer name="OpaAndroidSuggestionChipPhoneBuddyContactGoogle">43544</integer>
     <integer name="OpaAndroidSuggestionChipPhoneBuddySearch">43542</integer>
     <integer name="OpaAndroidSuggestionChipPhoneBuddyTakeMeThere">43543</integer>
     <integer name="OpaAndroidSuggestionChipPrivacyPolicy">43349</integer>
     <integer name="OpaAndroidSuggestionChipSearchResults">34729</integer>
+    <integer name="OpaAndroidSuggestionChipSendDaily">54349</integer>
     <integer name="OpaAndroidSuggestionChipSendFeedback">27187</integer>
     <integer name="OpaAndroidSuggestionChipShareResults">38320</integer>
     <integer name="OpaAndroidSuggestionChipShareScreenshot">27753</integer>
@@ -1291,6 +1303,7 @@
     <integer name="OpaAndroidUdcConsentValuePropWebViewContentContainer">38699</integer>
     <integer name="OpaAndroidUserBubble">27222</integer>
     <integer name="OpaAndroidValyrianDemandStateRoot">50602</integer>
+    <integer name="OpaAndroidValyrianHistoryDivider">54014</integer>
     <integer name="OpaAndroidValyrianHistoryStateRoot">50601</integer>
     <integer name="OpaAndroidValyrianRoots">51198</integer>
     <integer name="OpaAndroidWhatCanYouDoMenuItem">27103</integer>
@@ -1301,6 +1314,7 @@
     <integer name="OpaAndroidZeroStateAgendaSection">49929</integer>
     <integer name="OpaAndroidZeroStateCardGenericClickableItem">52421</integer>
     <integer name="OpaAndroidZeroStateContextualCardsSectionContainer">51793</integer>
+    <integer name="OpaAndroidZeroStateContextualGreetingSectionContainer">54802</integer>
     <integer name="OpaAndroidZeroStateContextualGreetingWeatherWidget">50834</integer>
     <integer name="OpaAndroidZeroStateConversationStartersSectionContainer">52135</integer>
     <integer name="OpaAndroidZeroStateExploreMoreLink">50438</integer>
@@ -1313,6 +1327,7 @@
     <integer name="OpaAndroidZeroStateInteractionSwipe">53093</integer>
     <integer name="OpaAndroidZeroStateKeepTrackSectionContainer">51680</integer>
     <integer name="OpaAndroidZeroStateOverflowMenu">52620</integer>
+    <integer name="OpaAndroidZeroStateRefreshButton">54732</integer>
     <integer name="OpaAndroidZeroStateRenderedCardExpandButton">51853</integer>
     <integer name="OpaAndroidZeroStateRootContainer">49852</integer>
     <integer name="OpaAndroidZeroStateStandaloneFooterContainer">53241</integer>
@@ -1581,6 +1596,7 @@
     <integer name="SupplierFinderProfilePage">5140</integer>
     <integer name="SupplierFinderSearch">4325</integer>
     <integer name="SupplierFinderUnclassified">4329</integer>
+    <integer name="SupportContentApiAnnouncementPage">53603</integer>
     <integer name="SupportContentApiAnswerPage">17502</integer>
     <integer name="SupportContentApiChecklistPage">17511</integer>
     <integer name="SupportContentApiContactFlow">17514</integer>
@@ -1597,6 +1613,7 @@
     <integer name="SupportContentApiTopicPage">17503</integer>
     <integer name="SupportContentApiTroubleshooterPage">17505</integer>
     <integer name="SupportContentApiUnclassified">6034</integer>
+    <integer name="SupportContentUiAnnouncementPage">53667</integer>
     <integer name="SupportContentUiAnswerPage">6036</integer>
     <integer name="SupportContentUiApis">6041</integer>
     <integer name="SupportContentUiChecklistPage">6046</integer>
@@ -1826,6 +1843,10 @@
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="build_type">1</integer>
     <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="canvas_logo_view_logo_height">40</integer>
+    <integer name="canvas_logo_view_logo_width">40</integer>
+    <integer name="canvas_logo_view_toggle_logo_height">48</integer>
+    <integer name="canvas_logo_view_toggle_logo_width">48</integer>
     <integer name="card_press_fade_duration">500</integer>
     <integer name="cards_column_count">1</integer>
     <integer name="cast_device_level_bluetooth">3</integer>
@@ -1907,7 +1928,6 @@
     <integer name="max_stat_age_hours">720</integer>
     <integer name="max_total_suggestions">7</integer>
     <integer name="max_web_suggestions">5</integer>
-    <integer name="mic_transition_duration">130</integer>
     <integer name="min_clicks_for_source_ranking">3</integer>
     <integer name="min_web_suggestions">3</integer>
     <integer name="min_widget_width_big_layout_dp">152</integer>
@@ -1957,4 +1977,5 @@
     <integer name="visibility_gone">2</integer>
     <integer name="visibility_invisible">1</integer>
     <integer name="visibility_visible">0</integer>
+    <integer name="zero_state_promo_bottom_margin_animation_duration_ms">200</integer>
 </resources>

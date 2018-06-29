@@ -222,7 +222,7 @@ Hvis du vil konfigurere assistenten senere, trykker og holder du på startsidekn
     <string name="download_failed">Nedlastingen mislyktes</string>
     <string name="download_not_found">Fant ikke nedlastingen</string>
     <string name="download_setting_message">Nedlastede episoder fjernes etter 30 dager eller 24 timer etter at de er hørt ferdig</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Lastet ned</string>
     <string name="downloaded_episodes">Nedlastede episoder</string>
     <string name="downloading">Laster ned …</string>
     <string name="downloads">Nedlastinger</string>
@@ -234,7 +234,6 @@ Hvis du vil konfigurere assistenten senere, trykker og holder du på startsidekn
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Tilgjengelige episoder</string>
     <string name="episode_page_section_title">Episode</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">For deg</string>
     <string name="error">Feil</string>
     <string name="error_message">Søket mislyktes. Prøv på nytt senere.</string>
@@ -453,10 +452,10 @@ Prøv å søke etter podcasten på nytt."</string>
     <string name="incoming_call_whatsapp">WhatsApp-anrop fra %1$s. %2$s</string>
     <string name="indexing_not_ready">Vi har ikke noe innhold å vise deg ennå. Koble til Internett og kom tilbake om noen minutter.</string>
     <string name="info_target_label">App-info</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Skaff deg Google Podcasts-appen</string>
+    <string name="install_google_podcasts_accept">Hent appen</string>
+    <string name="install_google_podcasts_message">Hent Google Podcasts-appen i Play-butikken for rask tilgang</string>
+    <string name="install_google_podcasts_reject">Ikke nå</string>
     <string name="installed_app_group_header">Apper</string>
     <string name="interruptive_group_and_sender_and_message_contents">%1$s. %2$s sier følgende %3$s.</string>
     <string name="interruptive_summary_group_messaging_1">Du har meldinger i %1$s. %2$s</string>
@@ -503,21 +502,18 @@ Prøv å søke etter podcasten på nytt."</string>
     <string name="long_accessible_way_to_add">Dobbelttrykk og hold inne for å velge en modul eller bruke tilpassede handlinger.</string>
     <string name="long_press_widget_to_add">Trykk og hold inne for å plukke opp en modul.</string>
     <string name="longpress_menu_download">Last ned bildet</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Del bildet</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_pairing_notification_title_generic">Google Assistent-hodetelefoner</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="mark_as_played">Merk som avspilt</string>
+    <string name="mark_as_unplayed">Merk som ikke avspilt</string>
+    <string name="media_item_type_your_podcasts">Podcastene dine</string>
     <string name="media_route_chooser_dialog_title">Cast til</string>
     <string name="media_route_chooser_searching">Søker etter enheter …</string>
     <string name="media_route_controller_cancel">Avbryt</string>
     <string name="media_route_controller_stop_casting">Stopp castingen</string>
     <string name="menu_get_help">Få hjelp</string>
-    <string name="menu_search_by_image">Søk med bilde</string>
     <string name="menu_send_feedback">Send tilbakemelding</string>
-    <string name="menu_view_original_image">Se originalbildet</string>
     <string name="message_image">Bilde</string>
     <string name="message_no_text">Ingen tekst</string>
     <string name="message_sender_text_divider">·</string>
@@ -533,7 +529,6 @@ Prøv å søke etter podcasten på nytt."</string>
     <string name="migration_cling_description">Vil du importere ikoner og mapper fra dine gamle startsider?</string>
     <string name="migration_cling_title">Kopiér appikonene dine</string>
     <string name="migration_cling_use_default">START PÅ NYTT</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="mismatching_value_eir_code">Må være lik adressen</string>
     <string name="mismatching_value_pin_code">Må være lik adressen</string>
     <string name="mismatching_value_postal_code">Må være lik adressen</string>
@@ -699,6 +694,7 @@ Anslått størrelse: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Elementer du laster ned, beholdes på enheten i 7 dager.</string>
     <string name="recently_empty_state_read_later_title_text">Legg til sider du vil lese senere</string>
     <string name="recently_entry_interaction_offline">Kan ikke åpne den forespurte siden uten nett.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Feed</string>
     <string name="recently_google_doodle_for">Google-doodle for %s</string>
     <string name="recently_keep_on_device_until">Behold på enheten frem til:</string>
@@ -713,17 +709,17 @@ Anslått størrelse: %d kB"</string>
     <string name="recently_onboarding_recent_message_2">"Gjenoppdag emner du nylig har sett etter med Google-appen.
 
 Klyp for å lukke denne gruppen."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Gjenoppdag emner du nylig har søkt etter i Google-appen.</string>
     <string name="recently_onboarding_recent_title">Se hva du har funnet</string>
     <string name="recently_onboarding_search_on_message">"Her er sidene du har sett med denne enheten. Sider fra samme søk er gruppert sammen, med de nyeste først.
 
 Fortsett å søke, og gjenoppdag funnene dine her."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Her er sidene du har besøkt på denne enheten. Fortsett å søke etter og gjenoppdage resultatene dine her.</string>
     <string name="recently_onboarding_search_on_title">Søk på</string>
     <string name="recently_onboarding_swipe_up_message">"Vil du bli kvitt nylig besøkte sider? Bare sveip opp for å fjerne dem.
 
 De blir ikke slettet fra Google-kontoen din."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Vil du fjerne sider du nylig har besøkt? Bare sveip opp for å fjerne dem. Dette sletter dem ikke fra Google-kontoen din.</string>
     <string name="recently_onboarding_swipe_up_title">Sveip opp</string>
     <string name="recently_overflow_title">Flere alternativer</string>
     <string name="recently_reading_reminder">Lesepåminnelse:</string>
@@ -786,7 +782,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="remove_download">Fjern nedlastingen</string>
     <string name="remove_downloaded_episode">Fjern den nedlastede episoden</string>
     <string name="remove_unfinished_episodes">Fjern episoder som ikke er hørt ferdig</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">For å laste ned episoder, gi tilgang til lagring gjennom tillatelser i Google-appen</string>
     <string name="request_storage_permission_dialog_message">For å laste ned episoder trenger Google tilgang til lagring på enheten</string>
     <string name="request_storage_permission_dialog_title">Tillat tilgang til lagring</string>
     <string name="reservation_group_header">Reservasjoner</string>
@@ -809,16 +805,18 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="save_saved_to">Lagret i</string>
     <string name="save_tray_change_list">Endre</string>
     <string name="save_unsave_confirmation">Lagringen er angret</string>
-    <string name="screen_locked_info">Your Assistant is available even when your phone is locked. You can turn this off in Assistant settings.</string>
+    <string name="screen_locked_info">Assistenten er tilgjengelig selv når telefonen er låst. Du kan slå av dette i Assistent-innstillingene.</string>
     <string name="screen_moved">Skjermen er flyttet</string>
     <string name="screenshot_srp_desc">Søk etter %s.</string>
     <string name="screenshot_srp_pending_desc">Søk under behandling for %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Ventende talesøk</string>
+    <string name="screenshot_srp_voice_pending_title">talesøk</string>
     <string name="screenshot_web_desc">Gå til %s.</string>
     <string name="screenshot_webpage_pending_desc">Venter på nedlasting</string>
     <string name="search_contact_on_web">Søk på nettet etter «%s»</string>
     <string name="search_error_message">"Noe gikk galt.
 Prøv å søke etter podcasten igjen."</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Søk på nettet</string>
     <string name="search_the_web_suggestion">Søk på nettet</string>
     <string name="searchbar_hint">Søk etter podcaster</string>
     <string name="searchbox_hint">Søk i nylige</string>

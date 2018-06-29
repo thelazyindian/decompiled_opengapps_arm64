@@ -118,6 +118,7 @@
     <string name="action_sms_who_tts">Ո՞ւմ եք ցանկանում հաղորդագրություն ուղարկել:</string>
     <string name="action_sound_search_get_song">Ներբեռնել Google Play-ից</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">Այս գործողությունն առնչվում է ձեր ներկայիս որոնմանը:</string>
     <string name="action_unlock_device_tts">Այս գործողությունն իրականացնելու համար անհրաժեշտ է ապակողպել սարքը:</string>
     <string name="action_who_is_relation_1_tts">Արտաբերեք կոնտակտի անունը կամ արտաբերեք «%2$s»:</string>
     <string name="action_who_is_relation_eyes_free_1_tts">Անհասկանալի է: Ո՞ւմ նկատի ունեք:</string>
@@ -172,6 +173,10 @@
     <string name="agent_bookmark_error">Սխալ առաջացավ: Փորձեք ավելի ուշ:</string>
     <string name="agent_bookmark_removed">Հեռացվեց էջանիշներից</string>
     <string name="agent_description_more">ավելին</string>
+    <string name="agent_details_add_routine_description">Ավելի շատ գործեր հասցրեք %1$s-ի ծանուցումների շնորհիվ:</string>
+    <string name="agent_details_add_routine_item">Ավելացնել</string>
+    <string name="agent_details_customize_routine">Կարգավորեք գործողությունների հերթականությունը</string>
+    <string name="agent_details_manage_routines">Կառավարել գործողությունների հերթականությունները</string>
     <string name="agent_details_splash_image_a11y">Օգնական հավելվածի պատկեր</string>
     <string name="agent_directory_a11y_back_button">Հետ</string>
     <string name="agent_directory_a11y_more_groups">Ավելի շատ</string>
@@ -391,6 +396,7 @@
 Օգնականը կօգտագործի այս կարգավորումը ձեր երթուղու հետ կապված ավելի լավ խորհուրդներ տալու համար"</string>
     <string name="assistant_settings_commute_walk">Ոտքով</string>
     <string name="assistant_settings_commute_walk_key">COMMUTE Ոտքով</string>
+    <string name="assistant_settings_contact_list_introduction">Ահա, թե ինչ գիտի Օգնականը ձեր ծանոթների մասին</string>
     <string name="assistant_settings_custom_routines_description">Մեկ հրահանգի միջոցով Օգնականը կարող է կատարել տարբեր գործողություններ: Օգտվեք անելիքների պատրաստի ցուցակից՝ այն հարմարեցնելով ձեր օրվան, կամ ստեղծեք նորը:</string>
     <string name="assistant_settings_default_record_button_text">Ձայնագրել</string>
     <string name="assistant_settings_delete_button_label">Ջնջել</string>
@@ -536,13 +542,15 @@
     <string name="assistant_settings_music_provider_category_title">Երբ Օգնականին խնդրեք երաժշտություն նվագարկել, ըստ կանխադրման կօգտագործվի այս ծառայությունը: Դուք կարող եք երաժշտություն լսել նաև մյուս միացված ծառայություններում, եթե ասեք դրանց անունը։</string>
     <string name="assistant_settings_music_title">Երաժշտություն</string>
     <string name="assistant_settings_music_unable_unlink_default">Չհաջողվեց ապակցել երաժշտության ձեր կանխադրված մատակարարին</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home-ում YouTube Երաժտությունն օգտագործելու համար անհրաժեշտ է YouTube Red-ի բաժանորդագրություն: Դուք կարող եք գրանցվել <a href="http://youtube.com/red">youtube.com/red</a> էջում:</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Անհրաժեշտ է YouTube Red-ի բաժանորդագրություն</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Հաշիվն ապակցելու դեպքում դուք չեք կարողանա նվագարկել %1$s-ի բովանդակությունը Google Օգնականի միջոցով:</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home-ում YouTube Music-ն օգտագործելու համար անհրաժեշտ է YouTube Premium-ի բաժանորդագրություն: Դուք կարող եք գրանցվել <a href="http://youtube.com/red">youtube.com/red</a> էջում:</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Անհրաժեշտ է YouTube Premium-ի բաժանորդագրություն</string>
     <string name="assistant_settings_news_provider_delete_button_description">Հեռացնել %1$s աղբյուրը նորությունների միացված աղբյուրների ցանկից</string>
     <string name="assistant_settings_news_supports_video">Խելացի էկրաններում հասանելի տեսանյութեր</string>
     <string name="assistant_settings_news_title">Լուրեր</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Ձեր կեղծանունն այնպիսի նիշ է պարունակում, որը չի կարող արտասանել Օգնականը: Հաջորդ բաժնում նշեք, թե ինչպես է այն արտասանվում:</string>
     <string name="assistant_settings_no_device_linked">Voice Match-ը թույլ է տալիս Օգնականին ճանաչել ձեր ձայնը և տրամադրել անձնական տեղեկություններ։ Առավելագույնը 6 օգտատեր կարող է ունենալ իր օրացույցը, երաժշտությունը և ավելին:</string>
+    <string name="assistant_settings_no_language_summary">Ընտրված չէ</string>
     <string name="assistant_settings_no_language_title">Ավելացնել լեզու</string>
     <string name="assistant_settings_no_shopping_list">Դուք գնումների ցուցակ չունեք:</string>
     <string name="assistant_settings_notes_lists_title">Նշումներ և ցուցակներ</string>
@@ -710,6 +718,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">«Անդադար զրույց» ռեժիմը ներկայումս հասանելի է անգլերենի (ԱՄՆ) համար։ Եթե դուք օգտագործում եք Google Home սարք, որն այստեղ նշված չէ, ապա այդ սարքի հիմնական հաշվի սեփականատերը կարող է միացնել և անջատել «Անդադար զրույց» ռեժիմը իր Օգնականի կարգավորումներում։</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Դուք կարող եք փոխել ձեր ընտրությունը այս Google Home սարքերի համար</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Հասանելի սարքեր չկան</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Սարքի խոսափողը ամեն պատասխանից հետո նորից կմիանա, որպեսզի Օգնականը լսի ձեր հաջորդ հարցերը։ Վերջիններս սովորաբար ցուցադրվում են «Իմ գործողությունները» բաժնում։ Ձայնային հարցումները, որոնց Օգնականը չի պատասխանում, կջնջվեն ձեր Google հաշվից։</string>
     <string name="assistant_settings_summer_time_mode_button_title">Անդադար զրույց</string>
     <string name="assistant_settings_summer_time_mode_title">Անդադար զրույց</string>
     <string name="assistant_settings_turn_off_voice_match">Voice Match-ն անջատելու դեպքում ձեր հաշիվը կապակցվի այս սարքից: Google Օգնականով սարք օգտագործելու համար անհրաժեշտ է առնվազն մեկ կցված հաշիվ: Իսկապե՞ս ապակցել հաշիվը: </string>
@@ -738,10 +747,8 @@
     <string name="assistant_settings_update_error_message">Չհաջողվեց թարմացնել կարգավորումը: Ստուգեք ինտերնետ կապը:</string>
     <string name="assistant_settings_video_calls_service_category_title">Ձեր Օգնականը կարող է տեսազանգեր կատարել Google Smart Display-ով կամ այլ աջակցվող սարքերով՝ ձեր նախընտրած ծառայության միջոցով: Արտակարգ իրավիճակների ծառայությունները հասանելի չեն:</string>
     <string name="assistant_settings_video_icon_text">Տեսանյութի մատակարարի պատկերակ</string>
-    <string name="assistant_settings_video_link_dialog_text">Կապեք ձեր Google հաշիվը %1$s-ի հետ՝ համատեղելի սարքերում ձայնային կառավարումն ու նվագարկման գործառույթը միացնելու համար: Երբ դուք %1$s ծառայությունը կառավարում եք Google Home-ի միջոցով, կամ %1$s-ի հետ կապված տեղեկություններ եք հայցում, այդ հարցումները հնարավոր է, որ ուղարկվում են %1$s-ին և օգտագործվում են համաձայն ծառայության գաղտնիության հայտարարության:</string>
     <string name="assistant_settings_video_provider_category_summary">Խնդրեք Օգնականին ցուցադրել հեռուստահաղորդումներ և ֆիլմեր:</string>
     <string name="assistant_settings_video_provider_category_title">Տեսանյութեր</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Հաշիվն ապակցելուց հետո ձայնային կառավարումը կանջատվի:</string>
     <string name="assistant_settings_videos_photos_title">Տեսանյութեր և լուսանկարներ</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast կամ ներկառուցված Chromecast սարքով հեռուստացույց</string>
     <string name="assistant_settings_voice_and_video_calls_title">Զանգեր և տեսազանգեր</string>
@@ -753,6 +760,21 @@
     <string name="assistant_settings_weather_title">Եղանակ</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Ջնջե՞լ աշխատավայրի հասցեն</string>
     <string name="assistant_settings_work_title">Աշխատավայրի հասցե</string>
+    <string name="assistant_settings_your_people_address">Հասցե՝ %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Ծննդյան օր՝ %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Հիշել ծննդյան օրը</string>
+    <string name="assistant_settings_your_people_deletion_failure">Սխալ առաջացավ: Փորձեք ավելի ուշ:</string>
+    <string name="assistant_settings_your_people_email">Էլփոստի հասցե՝ %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Հիշել ընտանիքի անդամին</string>
+    <string name="assistant_settings_your_people_forget_button">Հեռացնել</string>
+    <string name="assistant_settings_your_people_forget_dialog">%1$s կոնտակտի մասին Օգնականում պահված տվյալները կհեռացվեն</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Հեռացնե՞լ տվյալները</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Հեռացնել այս տվյալները</string>
+    <string name="assistant_settings_your_people_phone">Հեռախոսահամար՝ %1$s</string>
+    <string name="assistant_settings_your_people_splash">Այդպիսով Օգնականը կկարողանա օգնել ձեզ, երբ ասեք, օրինակ, «Զանգիր մայրիկիս» կամ «Ե՞րբ է եղբորս ծննդյան օրը»։</string>
+    <string name="assistant_settings_your_people_splash_title">Պատմեք Օգնականին ձեր կոնտակտների մասին</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Դուք կարող եք խնդրել Օգնականին՝</string>
+    <string name="assistant_settings_your_people_title">Մարդիկ, որոնք ձեզ հետաքրքրում են</string>
     <string name="assistant_speaker_id_default_category_summary">Օգնականը ձեր անձնական տեղեկությունները կտրամադրի միայն, երբ ճանաչի ձեր ձայնը այս սարքերում</string>
     <string name="assistant_speaker_id_default_category_title">Voice Match-ով ընդհանուր սարքեր</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Գրանցումը հնարավոր չէ ավարտել:</string>
@@ -894,7 +916,7 @@
     <string name="cloud_search_history_fetch_failed_toast">Չհաջողվեց առբերել կարգավորումները: Նորից փորձեք մի փոքր ուշ:</string>
     <string name="cloud_search_history_summary_fetching">Կարգավորումների արտածում...</string>
     <string name="collapse_time_to_leave">Թաքցնել այս ուղևորության ընտրանքները:</string>
-    <string name="collections">Հավաքածուներ</string>
+    <string name="collections">Պահված</string>
     <string name="comment_hint">Այլ մեկնաբանություններ (պարտադիր չէ)</string>
     <string name="common_address_clear_button_label">Մաքրել</string>
     <string name="common_address_clear_confirm_button">Ջնջել</string>
@@ -944,7 +966,7 @@
 Ձեր Google հաշիվը հասանելի կդառնա այս սարքին:"</string>
     <string name="consent_my_activity">Իմ գործողությունները</string>
     <string name="consent_partners_disclosures_body_collapsed">Google-ի գործընկերներն առևտրային հարաբերությունների մեջ են Google-ի հետ և կարող են վճարել մեզ գովազդի համար:</string>
-    <string name="consent_partners_disclosures_body_expanded">Google-ի գործընկերներն առևտրային հարաբերությունների մեջ են Google-ի հետ և կարող են վճարել մեզ գովազդի համար: Այս ընկերություններն օգնում են ձեզ տարատեսակ գործերում՝ սկսած անձեռոցիկ գնելուց մինչև լվացարանի նորոգում: %1$s։</string>
+    <string name="consent_partners_disclosures_body_expanded">Google-ի գործընկերներն առևտրային հարաբերությունների մեջ են Google-ի հետ և կարող են վճարել մեզ գովազդի համար: Այս ընկերություններն օգնում են ձեզ տարատեսակ գործերում՝ սկսած անձեռոցիկ գնելուց մինչև լվացարանի նորոգում: %1$s:</string>
     <string name="consent_partners_disclosures_title">Google-ի գործընկերներ</string>
     <string name="consent_services_disclosures_body_collapsed">Ձեր գաղտնիությունը պաշտպանելու համար Google-ը եզակի կոդ է ուղարկում ծառայություններին, որոնցից օգտվում եք:</string>
     <string name="consent_services_disclosures_body_expanded">"Ձեր գաղտնիությունը պաշտպանելու նպատակով Google-ը եզակի կոդ է ուղարկում ծառայություններին, որոնցից օգտվում եք Google Օգնականի միջոցով: Այդ կերպ ծառայությունները կարող են հիշել ձեր նախընտրանքները:
@@ -1076,6 +1098,10 @@
     <string name="device_setup_error_cancel_button">Օգնություն</string>
     <string name="device_setup_error_content">Սխալ առաջացավ</string>
     <string name="device_setup_error_title">Ինչ-որ խնդիր է առաջացել</string>
+    <string name="devices_scan_action_button">Շարունակել</string>
+    <string name="devices_scan_cancel_button">Չեղարկել</string>
+    <string name="devices_scan_explanation">Ընտրել սարքեր</string>
+    <string name="devices_scan_title">Սարքերի ավելացում</string>
     <string name="directory_for_mall">%1$s-ի տեղեկատու</string>
     <string name="disclaimer">Պատասխանատվության սահմանափակում</string>
     <string name="dismiss_text">Քաշեք վար՝ փակելու համար</string>
@@ -1148,6 +1174,7 @@
     <string name="enable_video_preview_autoplay_on_mobile_data">Թույլատրել բջջային ինտերնետի միջոցով</string>
     <string name="enable_web_history_toast">Վեբ պատմությունը միացված է</string>
     <string name="entity_suggestion_message">Այս հարցումն առնչվում է ձեր ներկայիս որոնմանը։</string>
+    <string name="error">Սխալ առաջացավ</string>
     <string name="error_adding_location_snackbar_text">Վայրն ավելացնելիս սխալ առաջացավ</string>
     <string name="error_authenticating_user">Մուտքի սխալ է տեղի ունեցել</string>
     <string name="error_captive_portal">Ստուգեք կապակցումը և փորձեք նորից:</string>
@@ -1205,7 +1232,6 @@
     <string name="eyes_donate_data_optin_ok">Եղավ</string>
     <string name="eyes_donate_data_optin_title">Կիսվեք Տեսապակու պատկերներով</string>
     <string name="eyes_flash_button_description">Միացնել/անջատել լուսաթարթիչը</string>
-    <string name="eyes_initial_suggestion_0">Ի՞նչ եք կարող ճանաչել</string>
     <string name="eyes_launcher_description">Google Տեսապակի</string>
     <string name="eyes_no_permission">Ես դա անելու թույլտվություն չունեմ</string>
     <string name="eyes_no_permission_camera">Ես տեսախցիկից օգտվելու թույլտվություն չունեմ</string>
@@ -1233,7 +1259,6 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="eyes_onboarding_title_text">Սկանավորեք տեքստ</string>
     <string name="eyes_request_timed_out_message">Google-ը այս պահին անհասանելի է</string>
     <string name="eyes_share_with">Ում հետ կիսվել՝</string>
-    <string name="eyes_unfreeze_image_description">Վերադառնալ տեսախցիկին</string>
     <string name="eyes_viewfinder_description">Ակտիվացնել Google Տեսապակին</string>
     <string name="failed">Չհաջողվեց բեռնել պատկերը</string>
     <string name="failed_to_open_webview">Չհաջողվեց բացել էջը</string>
@@ -1344,8 +1369,13 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="flight_stops">Վայրէջք՝ %1$s</string>
     <string name="flight_terminal">Տերմինալ</string>
     <string name="flights_mode_landing_text">Թռիչքների որոնում</string>
+    <string name="follow_soccer_promo_query">ֆուտբոլ 2018</string>
     <string name="follow_world_cup_promo">Հետևեք աշխարհի առաջնությանը</string>
     <string name="follow_world_cup_promo_content_description">Հետևեք աշխարհի առաջնությանը</string>
+    <string name="follow_world_cup_promo_detail">Հպեք այստեղ՝ ձեր սիրած թիմերի խաղերի, հաշիվների, ինչպես նաև նորությունների վերաբերյալ ծանուցումներին բաժանորդագրվելու համար</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Տեղեկացեք ֆուտբոլային վերջին նորություններին</string>
+    <string name="follow_world_cup_promo_query">ֆուտբոլի աշխարհի առաջնություն</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Ֆուտբոլային տենդը սկսվել է։</string>
     <string name="fourth_quarter">4-րդ քառորդ</string>
     <string name="fourth_quarter_abbrev">4-րդ քառորդ</string>
     <string name="full_time">Խաղի ողջ ժամանակահատված</string>
@@ -1470,10 +1500,10 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">հետ</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">այո</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Համոզվա՞ծ եք</string>
-    <string name="hotword_enrollment_google_home_share_message">"Ողջո՛ւյն: Հենց նոր սովորեցրի իմ Օգնականին ճանաչել ձայնս Google Home-ում՝ անհատականացված արդյունքներ ստանալու համար։
+    <string name="hotword_enrollment_google_home_share_message">"Ողջո՛ւյն: Ես հենց նոր սովորեցրի Օգնականին ճանաչել իմ ձայնը Google Home-ում, որպեսզի կարողանամ անհատականացված արդյունքներ ստանալ։
 
-Դու էլ կարող ես ստանալ պատասխաններ հենց քեզ համար։ Սկսելու համար տեղադրիր Google Home հավելվածը https://google.com/home/setup հղումով։"</string>
-    <string name="hotword_enrollment_google_home_share_message_subject">Սովորեցրեք Օգնականին ճանաչել Ձեր ձայնը</string>
+Դու ևս կարող ես ստանալ պատասխաններ հենց քեզ համար։ Սկսելու համար տեղադրիր Google Home հավելվածը՝ https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_subject">Սովորեցրեք Օգնականին ճանաչել ձեզ</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Հրավիրել</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Ձայնային հարցումների պատմությունը կարող եք դիտել կամ ջնջել «%1$s» բաժնում: Ինչպես նաև կարող եք անջատել Voice Match-ը Օգնականի կարգավորումներում:</string>
     <string name="hotword_enrollment_google_home_summary_header_title">Պատրաստ է</string>
@@ -1603,7 +1633,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="hourly_forecast">Ամենժամյա տեսություն</string>
     <string name="hours">Ժամ</string>
     <string name="how_can_i_help">Ինչո՞վ կարող եմ օգնել:</string>
-    <string name="hq_a11y_bottom_bar_button">Բացեք խոսափողը՝ Օգնականի հետ խոսելու համար</string>
+    <string name="hq_a11y_bottom_bar_button">Օգնական</string>
     <string name="hq_a11y_chatui_badge">Անցեք «Ուսումնասիրել» և «Իմ տվյալները» բաժիններ</string>
     <string name="hq_a11y_menu_button">Ընտրացանկ</string>
     <string name="hq_account_switch_prompt">Մուտք եք գործում որպես %1$s</string>
@@ -1681,7 +1711,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="ipa_personal_search_sources">Անձնական</string>
     <string name="ipa_search_result_page_message">%s Google Որոնում:</string>
     <string name="ipa_searchable_items_category_title">Ցուցադրել բովանդակություն հետևյալ կատեգորիաներից</string>
-    <string name="jasper_duo_knock_knock_summary">Այժմ տեսազանգ ստանալիս կարող եք տեսնել զանգողին մինչ զանգին պատասխանելը։ Դուք կարող եք նաև այդ հնարավորությունը տալ մարդկանց, ում զանգում եք։ &lt;a href=\"https://support.google.com/duo/answer/6376115\">Մանրամասն&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Այժմ տեսազանգ ստանալիս կարող եք տեսնել զանգողին մինչ զանգին պատասխանելը։ Դուք կարող եք նաև այդ հնարավորությունը տալ մարդկանց, ում զանգում եք։ %1$s</string>
     <string name="jasper_duo_knock_knock_title">Թըխկ-թըխկ</string>
     <string name="jasper_duo_not_signed_in">Մուտք չեք գործել</string>
     <string name="jasper_duo_signed_in">Մուտք եք գործել</string>
@@ -1773,6 +1803,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="location_service_required_title">Ստանալ տեղադրության վրա հիմնված քարտեր</string>
     <string name="lockscreen_mic_promo_notification_content">Ապակողպեք հեռախոսը՝ ասելով «%1$s»:</string>
     <string name="lockscreen_mic_promo_notification_title">Ձայնով ապակողպում</string>
+    <string name="logo_content_description">Google</string>
     <string name="magic_flashlight_off">Nox</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">Գտնել խանութներ և ծառայություններ</string>
@@ -1884,7 +1915,6 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="network_error_fetching_weather_data_status_text">Ցանցը ներկայումս անհասանելի է</string>
     <string name="network_error_no_connection_tts">Այս պահին ինտերնետ կապ չկա:</string>
     <string name="network_error_resend_audio">Կրկին ուղարկել ձայնանյութերը</string>
-    <string name="network_error_try_again">Կրկնել</string>
     <string name="network_location_required_text">Տեղադրության վրա հիմնված քարտերը, ինչպիսիք են տեղային եղանակը և երթևեկության ծանրաբեռնվածությունը, տեսնելու համար միացրեք Wi‑Fi-ը և շարժական ցանցի տեղադրությունը:</string>
     <string name="network_location_required_text_klp">Ընտրեք բարձր ճշգրտության կամ մարտկոցի խնայման ռեժիմը` տեսնելու համար տեղադրության վրա հիմնված քարտերը, ինչպիսիք են տեղային եղանակը և երթևեկության ծանրաբեռնվածությունը</string>
     <string name="nevermind_prompt">Շարունակել</string>
@@ -1960,7 +1990,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="none">Չկա</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Ցուցակների և նշումների ստեղծման ծառայություններ</string>
-    <string name="notes_lists_none_preference_summary">Երկրորդային տեղեկություններ</string>
+    <string name="notes_lists_none_preference_summary">Օգնականը չի համաժամեցնի ձեր տվյալներն այլ ծառայությունների հետ։</string>
     <string name="notes_lists_none_preference_title">Ընտրված չէ</string>
     <string name="notes_lists_provider_changed_description">"Օգնականի գրառումների և ցուցակների տվյալներն այլևս չեն թարմացվի «%1$s» ծառայության միջոցով։ «%1$s» ծառայության ընթացիկ տվյալները չեն ջնջվի։
 
@@ -1968,6 +1998,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="notes_lists_provider_changed_negative_button">Չեղարկել</string>
     <string name="notes_lists_provider_changed_positive_button">Ընդունել</string>
     <string name="notes_lists_provider_changed_title">Ապակցել «%1$s» ծառայությունը</string>
+    <string name="notes_lists_title">Օգնականը կպահի այս ծառայությունների հետ համաժամեցված նշումները և ցուցակները:</string>
     <string name="notification_access_link_text">Անջատել ծանուցումների հասանելիությունը</string>
     <string name="notification_accessable_apps_category_title">Ծանուցումների հասանելիություն</string>
     <string name="notification_cancel_text">Google-ը նորից չի որոնի, երբ միանաք համացանցին։</string>
@@ -2085,6 +2116,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="opa_assist_app_screen_explanation">Google օգնականն օգտագործելու համար Օգնականի և ձայնային ներածման կարգավորումներում ընտրեք Google հավելվածը</string>
     <string name="opa_assist_app_screen_title">Google հավելվածը ձեր կանխադրված Օգնականը չէ</string>
     <string name="opa_assistant_logo_content_description">Ձայնային որոնում</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Google Օգնականի թարմացումներ</string>
     <string name="opa_consent_check_error_button">Փակել</string>
     <string name="opa_consent_check_error_button_notavailable">Անցնել մյուս հաշիվ</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Օգնականի աշխատանքը կարող է սահմանափակվել, և այն կկարողանա ցուցադրել միայն արդյունքներ համացանցից, կատակներ ու տեղական տվյալներ՝ կախված ձեր հաշվի կարգավորումներից։</string>
@@ -2161,7 +2193,6 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="opa_eyes_free_opt_in_speech">Երբ հնարավորություն լինի, հպեք ծանուցմանը և թույլ տվեք ականջակալներին աշխատել Google Օգնականի հետ:</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Հպեք՝ շարունակելու համար</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Տրամադրեք անհրաժեշտ թույլտվությունները Google Օգնականին, որպեսզի այն կարողանա օգնել ձեզ</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Հպեք՝ շարունակելու համար</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Ավելի ուշ</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Համաձայն եմ</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">ՍԿՍԵԼ</string>
@@ -2222,6 +2253,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="opa_launcher_icon_text">Օգնական</string>
     <string name="opa_lock_icon_description">Ապակողպման պատկերակ</string>
     <string name="opa_logo_content_desc">Google Օգնականի լոգոն</string>
+    <string name="opa_mark_content">Օգնական</string>
     <string name="opa_marketplace_disclosure_description">Google Օգնականը աշխատում է տարբեր ծառայությունների հետ, որպեսզի առավելագույնս օգտակար լինի ձեզ:</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Օգնականն աշխատում է Google-ի գործընկերների հետ, որպեսզի օգնի ձեզ տարատեսակ գործերում՝ սկսած կինոյի տոմս գնելուց մինչև լվացարանի նորոգում: &lt;a href=https://support.google.com/assistant/?p=google_partners>Մանրամասն&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google-ի գործընկերներն այն ընկերություններն են, որոնք առևտրային հարաբերությունների մեջ են Google-ի հետ: Google օգնականն աշխատում է Google-ի գործընկերների հետ, որպեսզի առավելագույնս օգտակար լինի ձեզ, օրինակ` օգնի կինոյի տոմս գնել կամ սանհանգույցի խողովակ վերանորոգել: <a href="https://support.google.com/assistant/?p=google_partners">Իմանալ ավելին</a></string>
@@ -2367,6 +2399,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="order_not_found_snackbar_message">Պատվերը չի գտնվել:</string>
     <string name="other_comment">Պատճառը (պարտադիր է)</string>
     <string name="other_reason_not_fill_in_content_description">Ուղարկելուց առաջ նշեք նյութի մասին հաղորդելու մյուս պատճառը։ «Ուղարկել» կոճակ։</string>
+    <string name="overflow_menu_desc">Այլ ընտրանքներ</string>
     <string name="overtime">Արտաժամյա</string>
     <string name="package_location">Տեղադրություն</string>
     <string name="package_pickup_location">Փաթեթը վերցնելու վայրը</string>
@@ -2442,7 +2475,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
 Նկատի առեք, որ անհատական արդյունքները նաև կարող են հասանելի դառնալ այս սարքն օգտագործող այլ անձանց: Գործառույթը կարող եք անջատել Օգնականի կարգավորումներում:"</string>
     <string name="personal_results_title">Ստացեք անհատական արդյունքներ</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON} օգտատերը ձայնային հրահանգների օգնությամբ այս սարքում օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Մանրամասն&lt;/a>&lt;br>&lt;br>Գործառույթը կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}female{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON} օգտատերը ձայնային հրահանգների օգնությամբ այս սարքում օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Մանրամասն&lt;/a>&lt;br>&lt;br>Գործառույթը կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}other{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON} օգտատերը ձայնային հրահանգների օգնությամբ այս սարքում օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Մանրամասն&lt;/a>&lt;br>&lt;br>Գործառույթը կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON} օգտատերը ձայնային հրահանգների օգնությամբ այս սարքում օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Իմանալ ավելին&lt;/a>&lt;br>&lt;br>Գլխավոր էկրանին և ծանուցումներում անհատական արդյունքները կարող են հայտնվել առանց {PERSON} օգտատիրոջ իմացության։ Նկատի ունեցեք, որ արդյունքները կարող են տեսանելի լինել մոտակայքում գտնվող մարդկանց։&lt;br>&lt;br>Անհատական արդյունքները կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}female{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON} օգտատերը ձայնային հրահանգների օգնությամբ այս սարքում օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Իմանալ ավելին&lt;/a>&lt;br>&lt;br>Գլխավոր էկրանին և ծանուցումներում անհատական արդյունքները կարող են հայտնվել առանց {PERSON} օգտատիրոջ իմացության։ Նկատի ունեցեք, որ արդյունքները կարող են տեսանելի լինել մոտակայքում գտնվող մարդկանց։&lt;br>&lt;br>Անհատական արդյունքները կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}other{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON} օգտատերը ձայնային հրահանգների օգնությամբ այս սարքում օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Իմանալ ավելին&lt;/a>&lt;br>&lt;br>Գլխավոր էկրանին և ծանուցումներում անհատական արդյունքները կարող են հայտնվել առանց {PERSON} օգտատիրոջ իմացության։ Նկատի ունեցեք, որ արդյունքները կարող են տեսանելի լինել մոտակայքում գտնվող մարդկանց։&lt;br>&lt;br>Անհատական արդյունքները կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}}</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON}-ն այս սարքում ձայնային հրահանգների օգնությամբ օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Իմանալ ավելին&lt;/a>&lt;br>&lt;br>Գլխավոր էկրանին և ծանուցումներում անհատական արդյունքները կարող են հայտնվել առանց {PERSON} օգտատիրոջ իմացության։ Նկատի ունեցեք, որ արդյունքները կարող են տեսանելի լինել մոտակայքում գտնվող մարդկանց։&lt;br>&lt;br>Անհատական արդյունքները կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}female{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON}-ն այս սարքում ձայնային հրահանգների օգնությամբ օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Իմանալ ավելին&lt;/a>&lt;br>&lt;br>Գլխավոր էկրանին և ծանուցումներում անհատական արդյունքները կարող են հայտնվել առանց {PERSON} օգտատիրոջ իմացության։ Նկատի ունեցեք, որ արդյունքները կարող են տեսանելի լինել մոտակայքում գտնվող մարդկանց։&lt;br>&lt;br>Անհատական արդյունքները կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}other{Voice Match-ը կարգավորված է:&lt;br>&lt;br>Միացնելով անհատական արդյունքները՝ դուք թույլ կտաք, որ {PERSON}-ն այս սարքում ձայնային հրահանգների օգնությամբ օգտագործի օրացույցը, կոնտակտները, հիշեցումներն ու մյուս գործիքները։ &lt;a href=\"https://support.google.com/families/answer/7521263\">Իմանալ ավելին&lt;/a>&lt;br>&lt;br>Գլխավոր էկրանին և ծանուցումներում անհատական արդյունքները կարող են հայտնվել առանց {PERSON} օգտատիրոջ իմացության։ Նկատի ունեցեք, որ արդյունքները կարող են տեսանելի լինել մոտակայքում գտնվող մարդկանց։&lt;br>&lt;br>Անհատական արդյունքները կարող եք անջատել Օգնականի կարգավորումներում կամ Family Link-ում:}}</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{Voice Match-ի շնորհիվ {PERSON}-ին հասանելի կլինեն անհատական արդյունքները}male{Voice Match-ի շնորհիվ {PERSON}-ին հասանելի կլինեն անհատական արդյունքները}other{Voice Match-ի շնորհիվ {PERSON}-ին հասանելի կլինեն անհատական արդյունքները}}</string>
     <string name="personal_search">Անձնական որոնում</string>
     <string name="phone_display_name">Զանգ</string>
@@ -2570,6 +2603,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="reaction_text_more">Այլ</string>
     <string name="recently">Վերջին</string>
     <string name="recognizer_service_label">Հիմնական Google ճանաչում</string>
+    <string name="recommendation_header_text">Ձեզ առաջարկվող</string>
     <string name="reconnecting_loading_results">"Արդյունքների բեռնում
 "</string>
     <string name="reconnecting_title">Միացում…</string>
@@ -2911,7 +2945,9 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="sports_wins_header">W</string>
     <string name="sports_wins_header_full_length">Հաղթանակների քանակը</string>
     <string name="standalone_zs_back_content_desc">Հետ</string>
+    <string name="standalone_zs_brick_content_desc">Անհատական ծանուցումներ</string>
     <string name="standalone_zs_explore_content_desc">Անցեք «Ուսումնասիրել» և «Իմ տվյալները» բաժիններ</string>
+    <string name="standalone_zs_opa_icon_desc">Օգնական</string>
     <string name="star_rating_bar_content_description">Գնահատականը՝ %1$s</string>
     <string name="starting_location_selector">%1$s: Ընտրեք մեկնելու վայրը:</string>
     <string name="starts_at">Սկիզբը՝</string>
@@ -2924,6 +2960,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="stop_download_prompt">Դադարեցնել</string>
     <string name="streaming_text_recognizing">Ձայնի ճանաչում...</string>
     <string name="street_address_label">Հասցե</string>
+    <string name="success">Պատրաստ է</string>
     <string name="suggest">Ինքնալրացում</string>
     <string name="suggest_contact_removal_body">&lt;b>%1$s&lt;/b> կոնտակտը կհեռացվի հաճախակի օգտագործվող կոնտակտների ցանկից։ Դուք կկարողանաք գտնել &lt;b>%2$s&lt;/b>-ին՝ որոնելով նրան։</string>
     <string name="suggest_contact_removal_cancel">ՉԵՂԱՐԿԵԼ</string>
@@ -3258,6 +3295,8 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="user_defined_action_task_say_something_title">Մի բան ասել</string>
     <string name="user_defined_action_task_scene_control_title">Տեսարաններ</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Ընտրեք տեսարանները, որոնք ուզում եք ներառել անելիքների ցուցակում։</string>
+    <string name="user_defined_action_task_security_system_control_title">Միացնել անվտանգության համակարգը</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Ո՞ր ռեժիմն եք ուզում կարգավորել</string>
     <string name="user_defined_action_task_send_text_content_summary">Եթե դուք չնշեք ստացողի հեռախոսահամարը կամ հաղորդագրության տեքստը, ապա դա անհրաժեշտ կլինի կատարել անելիքների ցուցակը գործարկելու ժամանակ:</string>
     <string name="user_defined_action_task_send_text_content_title">Ի՞նչ պետք է լինի հաղորդագրության մեջ</string>
     <string name="user_defined_action_task_send_text_recipient_title">Ո՞ր համարին եք ուզում հաղորդագրություն ուղարկել</string>

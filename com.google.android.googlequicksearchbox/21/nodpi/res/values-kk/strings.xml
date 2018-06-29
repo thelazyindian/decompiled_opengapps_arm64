@@ -181,7 +181,7 @@
     <string name="download_failed">Жүктелмеді</string>
     <string name="download_not_found">Жүктеп алынған файл табылмады</string>
     <string name="download_setting_message">Сериялар жүктеп алынған соң 30 күннен кейін немесе тыңдалған соң 24 сағаттан кейін өшіріледі</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Жүктеп алынды</string>
     <string name="downloaded_episodes">Жүктеп алынған сериялар</string>
     <string name="downloading">Жүктелуде…</string>
     <string name="downloads">Жүктеп алынғандар</string>
@@ -194,7 +194,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Қолжетімді эпизодтар</string>
     <string name="episode_page_section_title">Эпизод</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Сіз үшін</string>
     <string name="error">Қате</string>
     <string name="error_message">Іздеу сәтсіз аяқталды. Әрекетті кейінірек қайталап көріңіз.</string>
@@ -369,10 +368,10 @@
     <string name="image_viewer_visit_site">Кіру</string>
     <string name="indexing_not_ready">Әзірге көрсетілетін мазмұн жоқ. Интернетке қосылып, бірнеше минуттан кейін қайта кіріп көріңіз.</string>
     <string name="info_target_label">Қолданба ақпары</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Google Podcasts қолданбасын алу</string>
+    <string name="install_google_podcasts_accept">Қолданба алу</string>
+    <string name="install_google_podcasts_message">Жылдам кіру үшін Play Store дүкенінен Google Podcasts қолданбасын алыңыз</string>
+    <string name="install_google_podcasts_reject">Қазір емес</string>
     <string name="installed_app_group_header">Қолданбалар</string>
     <string name="ipa_app_filter_content_description">%s қолданбасынан алынған нәтижелер.</string>
     <string name="ipa_app_filter_more_description">%s қолданбасынан алынған басқа да нәтижелерді көру.</string>
@@ -401,20 +400,17 @@
     <string name="long_accessible_way_to_add">Виджетті таңдау немесе арнаулы әрекеттерді таңдау үшін екі рет түртіп, ұстап тұрыңыз.</string>
     <string name="long_press_widget_to_add">Виджетті таңдау үшін түртіп, мықтап ұстаңыз.</string>
     <string name="longpress_menu_download">Суретті жүктеп алу</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Суретті бөлісу</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="mark_as_played">Ойнатылған деп белгілеу</string>
+    <string name="mark_as_unplayed">Ойнатылмаған деп белгілеу</string>
+    <string name="media_item_type_your_podcasts">Подкастар</string>
     <string name="media_route_chooser_dialog_title">Құрылғыға трансляциялау:</string>
     <string name="media_route_chooser_searching">Құрылғылар ізделуде…</string>
     <string name="media_route_controller_cancel">Бас тарту</string>
     <string name="media_route_controller_stop_casting">Трансляцияны тоқтату</string>
     <string name="menu_get_help">Анықтама алу</string>
-    <string name="menu_search_by_image">Кескін бойынша іздеу</string>
     <string name="menu_send_feedback">Пікір жіберу</string>
-    <string name="menu_view_original_image">Түпнұсқа кескінді көру</string>
     <string name="message_image">Кескін</string>
     <string name="message_no_text">Мәтінсіз</string>
     <string name="message_sender_text_divider">·</string>
@@ -427,7 +423,6 @@
     <string name="migration_cling_title">Қолданба таңбаларын көшіру</string>
     <string name="migration_cling_use_default">ЖАҢАДАН БАСТАУ</string>
     <string name="minute_picker_description">Минут тілі</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="mismatching_value_eir_code">Мекенжайға сәйкес келуі тиіс</string>
     <string name="mismatching_value_pin_code">Мекенжайға сәйкес келуі тиіс</string>
     <string name="mismatching_value_postal_code">Мекенжайға сәйкес келуі тиіс</string>
@@ -568,6 +563,7 @@
     <string name="recently_empty_state_read_later_body_text">Құрылғыға жүктелген файлдар 7 күн сақталады.</string>
     <string name="recently_empty_state_read_later_title_text">Кейінірек оқылатын беттерді енгізу</string>
     <string name="recently_entry_interaction_offline">Офлайн кезде сұралған бет ашылмайды.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Фид</string>
     <string name="recently_google_doodle_for">%s бойынша Google Doodle</string>
     <string name="recently_keep_on_device_until">Құрылғыда сақтау мерзімі:</string>
@@ -582,17 +578,17 @@
     <string name="recently_onboarding_recent_message_2">"Google қолданбасынан жақын арада іздеген тақырыптарды есіңізге түсіріңіз.
 
 Топты жабу үшін екі саусағыңызды қосыңыз."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Google қолданбасынан жақын арада іздеген тақырыптарды есіңізге түсіріңіз.</string>
     <string name="recently_onboarding_recent_title">Іздеу нәтижелерін көріңіз</string>
     <string name="recently_onboarding_search_on_message">"Мұнда осы құрылғыдан кірген беттер берілген. Олар сұраулар бойынша топталған және ең соңғысынан басталады.
 
 Кейінгі іздеу сұрауларыңыз осы жерге шығады."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Мұнда осы құрылғыдан кірген беттер берілген. Іздеуді жалғастырыңыз, сұрауларыңыз осы жерде шығады.</string>
     <string name="recently_onboarding_search_on_title">Іздей беріңіз</string>
     <string name="recently_onboarding_swipe_up_message">"Соңғы кірген беттерді жасырып қойғыңыз келе ме? Оларды өшіру үшін жай ғана саусақты жоғары қарай сырғытыңыз.
 
 Беттер Google есептік жазбасынан жойылмайды."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Соңғы кірген беттерді жасырып қойғыңыз келе ме? Оларды өшіру үшін жай ғана саусақты жоғары қарай сырғытыңыз. Беттер Google есептік жазбасынан жойылмайды.</string>
     <string name="recently_onboarding_swipe_up_title">Жасыру</string>
     <string name="recently_overflow_title">Басқа опциялар</string>
     <string name="recently_reading_reminder">Оқу еске салғышы:</string>
@@ -662,7 +658,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s сұрауы бойынша і
     <string name="remove_download">Жүктеп алынған эпизодты жою</string>
     <string name="remove_downloaded_episode">Жүктеп алынған серияны өшіру</string>
     <string name="remove_unfinished_episodes">Толық тыңдалмаған серияларды өшіру</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Эпизодтарды жүктеп алу үшін Google қолданба рұқсаттарында жадты пайдалануға рұқсат беріңіз</string>
     <string name="request_storage_permission_dialog_message">Серияларды жүктеп алу үшін Google құрылғыңыздың жадын пайдалануына рұқсат беріңіз</string>
     <string name="request_storage_permission_dialog_title">Жад пайдалануға рұқсат беріңіз</string>
     <string name="reservation_group_header">Тапсырыстар</string>
@@ -689,13 +685,15 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s сұрауы бойынша і
     <string name="screen_moved">Экран жылжытылды</string>
     <string name="screenshot_srp_desc">%s сұрауы бойынша іздеу.</string>
     <string name="screenshot_srp_pending_desc">%s іздеуі қарастырылуда</string>
+    <string name="screenshot_srp_voice_pending_desc">Дауыспен іздеу кезегінде тұр</string>
+    <string name="screenshot_srp_voice_pending_title">дауыспен іздеу</string>
     <string name="screenshot_web_desc">%s бетіне өту.</string>
     <string name="screenshot_webpage_pending_desc">Кезектегі жүктеп алу</string>
     <string name="search_contact_on_web">Интернеттен \"%s\" контактісін іздеу</string>
     <string name="search_error_message">"Бірдеңе дұрыс болмады.
 Подкастыны қайта іздеп көріңіз."</string>
     <string name="search_menu_title">Іздеу</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Интернеттен іздеу</string>
     <string name="search_the_web_suggestion">Интернеттен іздеу</string>
     <string name="searchbar_hint">Подкастілерді іздеу</string>
     <string name="searchbox_hint">Соңғыларынан іздеу</string>

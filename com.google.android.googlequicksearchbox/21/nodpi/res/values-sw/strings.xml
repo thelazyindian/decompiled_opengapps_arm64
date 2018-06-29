@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">Unataka kumtumia nani ujumbe?</string>
     <string name="action_sound_search_get_song">Jipatie kwenye Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">Kitendo hiki kinahusiana na maelezo unayoandika.</string>
     <string name="action_unlock_device_tts">Siwezi kufanya hilo wakati kifaa kimefungwa. Ili kuendelea, fungua kifaa chako.</string>
     <string name="action_video_call">Simu ya video</string>
     <string name="action_voice_call">Piga simu</string>
@@ -247,6 +248,10 @@
     <string name="agent_bookmark_error">Hitilafu imetokea. Tafadhali jaribu tena baadaye.</string>
     <string name="agent_bookmark_removed">Imeondolewa kwenye alamisho</string>
     <string name="agent_description_more">zaidi</string>
+    <string name="agent_details_add_routine_description">Tekeleza mengi zaidi kwenye Ratiba zako kwa kupokea taarifa kutoka kwa %1$s.</string>
+    <string name="agent_details_add_routine_item">Ongeza</string>
+    <string name="agent_details_customize_routine">Badilisha Ratiba Yako Upendavyo</string>
+    <string name="agent_details_manage_routines">Dhibiti Ratiba</string>
     <string name="agent_details_splash_image_a11y">Picha ya Programu ya Mratibu</string>
     <string name="agent_directory_a11y_back_button">Nyuma</string>
     <string name="agent_directory_a11y_more_groups">Zaidi</string>
@@ -267,7 +272,7 @@
     <string name="agent_directory_error_try_again">Jaribu tena</string>
     <string name="agent_directory_feedback_send">Tuma</string>
     <string name="agent_directory_link">Unganisha</string>
-    <string name="agent_directory_music_default_snackbar_text">%1$s ndiye mtoa huduma wako wa muziki katika mipangilio chaguo msingi.</string>
+    <string name="agent_directory_music_default_snackbar_text">%1$s ndiye mtoa huduma wako wa muziki katika mipangilio chaguomsingi.</string>
     <string name="agent_directory_music_unable_unlink_default">Huwezi kutenganisha mtoa huduma wako wa msingi wa muziki</string>
     <string name="agent_directory_no_results">Haikupata matokeo ya %1$s</string>
     <string name="agent_directory_no_thanks">Hapana, asante</string>
@@ -488,6 +493,7 @@ Ruhusu Google kuhifadhi na kuchanganua picha za skrini zako zinazotokana na utaf
 Mratibu wako atatumia mipangilio hii kukujibu maswali yanayohusiana na safari yako"</string>
     <string name="assistant_settings_commute_walk">Tembea</string>
     <string name="assistant_settings_commute_walk_key">KUSAFIRI Tembea</string>
+    <string name="assistant_settings_contact_list_introduction">Haya ndio mambo ambayo ungependa programu yako ya Mratibu ikumbuke kuhusu watu unaowajua.</string>
     <string name="assistant_settings_custom_routines_description">Toa amri moja tu na programu yako ya Mratibu itatekeleza shughuli kadhaa. Tumia ratiba ambazo tayari zipo kuunda ratiba mpya maalum.</string>
     <string name="assistant_settings_default_record_button_text">Rekodi</string>
     <string name="assistant_settings_delete_button_label">Futa</string>
@@ -621,7 +627,7 @@ Mratibu wako atatumia mipangilio hii kukujibu maswali yanayohusiana na safari ya
     <string name="assistant_settings_more_music_provider_category_title">Huduma zaidi za muziki</string>
     <string name="assistant_settings_music_deezer_premium_dialog_text">Unahitaji usajili wa Premium+ ili usikilize Deezer kwenye Google Home. Nenda kwenye <a href="http://www.deezer.com">deezer.com</a> ili upate toleo jipya.</string>
     <string name="assistant_settings_music_deezer_premium_dialog_title">Unahitaji akaunti ya Deezer Premium+</string>
-    <string name="assistant_settings_music_default_snackbar_text">%1$s ndiye mtoa huduma wako wa muziki katika mipangilio chaguo msingi.</string>
+    <string name="assistant_settings_music_default_snackbar_text">%1$s ndiye mtoa huduma wako wa muziki katika mipangilio chaguomsingi.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_text">Muziki wa Google Play unahitaji usajili ili ucheze kwenye Google Home. Unaweza kujisajili katika <a href="https://play.google.com/store/music">Programu ya Muziki wa Google Play</a>. Pia unaweza kununua au <a href="https://support.google.com/googleplay?p=home_uploadmusic">kupakia muziki</a> badala yake</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Unahitaji Kujisajili katika Muziki wa Google Play au kuwa na maktaba</string>
     <string name="assistant_settings_music_icon_text">Aikoni ya mtoa huduma ya muziki</string>
@@ -630,16 +636,18 @@ Mratibu wako atatumia mipangilio hii kukujibu maswali yanayohusiana na safari ya
     <string name="assistant_settings_music_premium_dialog_button">Sawa, nimeelewa</string>
     <string name="assistant_settings_music_premium_dialog_text">%1$s inahitaji akaunti ya kulipiwa ili kutumia Ukurasa wa Kwanza wa Google. Kwa sasa, tunapendekeza uchague mojawapo ya huduma zisizolipiwa.</string>
     <string name="assistant_settings_music_premium_dialog_title">%1$s inahitaji akaunti ya kulipiwa</string>
-    <string name="assistant_settings_music_provider_category_title">Mratibu atatumia mtoa huduma huyu wa muziki, kulingana na mipangilio chaguo msingi, akiagizwa kucheza muziki. Bado unaweza kucheza muziki kwa kutumia watoa huduma wengine waliounganishwa ikihitajika.</string>
+    <string name="assistant_settings_music_provider_category_title">Mratibu atatumia mtoa huduma huyu wa muziki, kulingana na mipangilio chaguomsingi, akiagizwa kucheza muziki. Bado unaweza kucheza muziki kwa kutumia watoa huduma wengine waliounganishwa ikihitajika.</string>
     <string name="assistant_settings_music_title">Muziki</string>
     <string name="assistant_settings_music_unable_unlink_default">Huwezi kutenganisha mtoa huduma wako wa msingi wa muziki</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Muziki inahitaji uanachama wa YouTube Red ili kucheza kwenye Google Home. Unaweza kujisajili katika <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Unahitaji Uanachama wa YouTube Red</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Ukitenganisha akaunti yako, hutaweza kucheza maudhui ya %1$s kupitia Mratibu wa Google.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Huduma ya Muziki kwenye YouTube inahitaji uwe mwanachama wa YouTube Premium ili uweze kucheza maudhui kwenye Google Home. Unaweza kujisajili kwenye <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Unahitaji kujisajili kuwa Mwanachama wa YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Ondoa %1$s kwenye vyanzo vya habari ulivyoweka</string>
     <string name="assistant_settings_news_supports_video">Video inapatikana kwenye Skrini Mahiri</string>
     <string name="assistant_settings_news_title">Habari</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Jina lako la utani lina herufi ambayo programu ya Mratibu haiwezi kutamka. Endeleza jina hilo katika sehemu inayofuata.</string>
     <string name="assistant_settings_no_device_linked">Kipengele cha Voice Match huruhusu programu ya Mratibu kutoa maelezo ya kibinafsi wakati inatambua sauti yako. Hadi watu 6 wanaweza kupata kalenda zao, muziki na mengineyo.</string>
+    <string name="assistant_settings_no_language_summary">Hamna</string>
     <string name="assistant_settings_no_language_title">Ongeza lugha nyingine</string>
     <string name="assistant_settings_no_shopping_list">Huna orodha ya ununuzi.</string>
     <string name="assistant_settings_notes_lists_title">Vidokezo na Orodha</string>
@@ -760,7 +768,7 @@ Mratibu wako atatumia mipangilio hii kukuelekeza unakoelekea kwingine tofauti na
     <string name="assistant_settings_preferred_provider_not_link_title">Nambari imeondolewa</string>
     <string name="assistant_settings_pronunciation_audio_learnt_summary">Rekodi jina lako ili ufunze Mratibu kulitamka.</string>
     <string name="assistant_settings_pronunciation_audio_learnt_title">Rekodi sauti yako mwenyewe</string>
-    <string name="assistant_settings_pronunciation_default_name_title">Tumia chaguo msingi</string>
+    <string name="assistant_settings_pronunciation_default_name_title">Tumia chaguomsingi</string>
     <string name="assistant_settings_pronunciation_spell_out_hint">Kwa mfano, E-va</string>
     <string name="assistant_settings_pronunciation_spell_out_summary">Tumia alfabeti ya Kiswahili kuendeleza matamshi ya jina hili. Kwa mfano, \"Eva\" inaweza kutamkwa kama \"E-va\".</string>
     <string name="assistant_settings_pronunciation_spell_out_title">Endeleza neno</string>
@@ -807,6 +815,7 @@ Mratibu wako atatumia mipangilio hii kukuelekeza unakoelekea kwingine tofauti na
     <string name="assistant_settings_summer_time_mode_availability_clarification">Hali ya Mazungumzo kwa sasa inapatikana kwa Kiingereza (cha Marekani). Ukitumia kifaa cha Google Home ambacho hakijaonyeshwa hapa, mmiliki wa akaunti ya msingi kwenye kifaa hicho anaweza kuwasha au kuzima Hali ya Mazungumzo kwenye mipangilio yake ya programu ya Mratibu.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Unaweza kubadilisha mipangilio hii katika vifaa hivi vya Google Home</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Hakuna vifaa vinavyopatikana</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Maikrofoni ya kifaa chako itafunguka upya baada ya kila jibu ili isikilize swali linalofuata. Shughuli hizi zitaonekana kwenye ukurasa wa Shughuli Zangu kama kawaida. Amri za kutamka ambazo hazitatekelezwa na programu yako ya Mratibu zitafutwa kwenye Akaunti yako ya Google.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Hali ya Mazungumzo</string>
     <string name="assistant_settings_summer_time_mode_title">Hali ya Mazungumzo</string>
     <string name="assistant_settings_turn_off_voice_match">Ukizima kipengele cha Voice Match, utatenganisha akaunti yako na kifaa hiki. Unatakiwa kuunganisha angalau akaunti moja ili kutumia kifaa chako kinachotumia programu ya Mratibu wa Google. Una uhakika kuwa ungependa kutenganisha akaunti yako? </string>
@@ -835,10 +844,8 @@ Mratibu wako atatumia mipangilio hii kukuelekeza unakoelekea kwingine tofauti na
     <string name="assistant_settings_update_error_message">Haikuweza kubadilisha mipangilo. Kagua muunganisho wako.</string>
     <string name="assistant_settings_video_calls_service_category_title">Programu yako ya Mratibu inaweza kupiga Hangout za Video kwenye baadhi ya vifaa kama vile Onyesho Mahiri la Google, kwa kutumia huduma unayopendelea. Programu yako ya Mratibu haiwezi kupiga simu kwa huduma za dharura.</string>
     <string name="assistant_settings_video_icon_text">Aikoni ya mtoa huduma wa video</string>
-    <string name="assistant_settings_video_link_dialog_text">Unganisha akaunti yako ya Google kwenye %1$s ili uwashe uchezaji na udhibiti wa matamshi kwenye vifaa vinavyotumia vipengele hivi. Ukidhibiti Huduma ya %1$s kupitia Google Home au ukiomba maelezo yanayohusiana na %1$s, huenda hoja hizo zikatumwa kwa %1$s ili kutumika kulingana na taarifa yake ya faragha.</string>
     <string name="assistant_settings_video_provider_category_summary">Cheza vipindi na filamu kwa kumuuliza Mratibu wako.</string>
     <string name="assistant_settings_video_provider_category_title">Video</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Hatua ya kutenganisha akaunti yako itazima kipengele cha kudhibiti sauti.</string>
     <string name="assistant_settings_videos_photos_title">Video na Picha</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast au TV iliyo na Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Simu za Sauti na Video</string>
@@ -850,6 +857,21 @@ Mratibu wako atatumia mipangilio hii kukuelekeza unakoelekea kwingine tofauti na
     <string name="assistant_settings_weather_title">Hali ya hewa</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Ungependa kufuta anwani ya kazini?</string>
     <string name="assistant_settings_work_title">Anwani ya kazini</string>
+    <string name="assistant_settings_your_people_address">Anwani: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Tarehe ya siku ya kuzaliwa: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Kukumbuka tarehe ya siku ya kuzaliwa</string>
+    <string name="assistant_settings_your_people_deletion_failure">Hitilafu fulani imetokea, tafadhali jaribu tena baadaye!</string>
+    <string name="assistant_settings_your_people_email">Anwani ya barua pepe: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Kukumbuka mwanafamilia</string>
+    <string name="assistant_settings_your_people_forget_button">Sahau</string>
+    <string name="assistant_settings_your_people_forget_dialog">Hatua hii itasababisha kufutwa kwa maelezo yoyote ambayo uliwekea programu yako ya Mratibu ikumbuke kuhusu %1$s</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Ungependa kusahau maelezo haya?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Sahau maelezo haya</string>
+    <string name="assistant_settings_your_people_phone">Nambari ya simu: %1$s</string>
+    <string name="assistant_settings_your_people_splash">Kisha unaposema “mpigie mama simu” au “je, tarehe ya siku ya kuzaliwa ya ndugu yangu ni gani?” programu yako ya Mratibu itatekeleza amri zako.</string>
+    <string name="assistant_settings_your_people_splash_title">Watambulishe watu wako kwa programu yako ya Mratibu</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Unaweza kutumia programu yako ya Mratibu kutekeleza mambo kama</string>
+    <string name="assistant_settings_your_people_title">Watu Wako</string>
     <string name="assistant_speaker_id_default_category_summary">Mratibu wako atatoa maelezo ya binafsi pindi anapotambua sauti yako kwenye vifaa hivi.</string>
     <string name="assistant_speaker_id_default_category_title">Vifaa vya kutumia pamoja vilivyo na kipengele cha Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Imeshindwa kukamilisha mchakato wa kujisajili.</string>
@@ -1008,7 +1030,7 @@ Unaweza kutozwa ada ya data."</string>
     <string name="cloud_search_history_summary_fetching">Inachukua mipangilio...</string>
     <string name="collapse">Kunja</string>
     <string name="collapse_time_to_leave">Ficha chaguo kwa safari hii.</string>
-    <string name="collections">Mikusanyiko</string>
+    <string name="collections">Vilivyohifadhiwa</string>
     <string name="comment_hint">Maoni ya ziada (Si lazima).</string>
     <string name="common_address_clear_button_label">Futa</string>
     <string name="common_address_clear_confirm_button">Futa</string>
@@ -1082,8 +1104,8 @@ Unaweza kutozwa ada ya data."</string>
 
 Kisha kifaa hiki kitaweza kufikia Akaunti yako ya Google."</string>
     <string name="consent_my_activity">Shughuli Zangu</string>
-    <string name="consent_partners_disclosures_body_collapsed">Washirika wa Google wana uhusiano wa karibu na Google na huenda wametulipa ili kuwaangazia au kuwatangaza.</string>
-    <string name="consent_partners_disclosures_body_expanded">Washirika wa Google wanahusiana kwa karibu na Google kibiashara na huenda wametulipa ili kuwaangazia au kuwatangaza. Huduma hizi za biashara zinakuwezesha kutekeleza mambo unayotaka kama vile kununua vitambaa au kukarabati mfereji. %1$s.</string>
+    <string name="consent_partners_disclosures_body_collapsed">Washirika wa Google wana uhusiano wa karibu wa kibiashara na Google na huenda wametulipa ili tuwaangazie au tuwatangaze.</string>
+    <string name="consent_partners_disclosures_body_expanded">Washirika wa Google wana uhusiano wa karibu wa kibiashara na Google na huenda wametulipa ili tuwaangazie au tuwatangaze. Huduma hii inakuwezesha kutekeleza mambo unayotaka kama vile kununua vitambaa au kukarabati mfereji. %1$s.</string>
     <string name="consent_partners_disclosures_title">Washirika wa Google</string>
     <string name="consent_services_disclosures_body_collapsed">Ili kulinda faragha yako, Google hutuma msimbo maalum kwa huduma unazowasiliana nazo.</string>
     <string name="consent_services_disclosures_body_expanded">"Ili kulinda faragha yako, Google hutuma nambari maalum ya kuthibitisha kwa huduma unazozungumza nazo. Hali hii hufanya huduma kukumbuka mambo kama vile mapendeleo yako wakati wa mazungumzo.
@@ -1242,6 +1264,10 @@ Tutalazimika kukadiria mahali ulipo kwa kutumia maelezo mengine kama vile anwani
     <string name="device_setup_error_cancel_button">Pata Usaidizi</string>
     <string name="device_setup_error_content">Hitilafu fulani imetokea</string>
     <string name="device_setup_error_title">Huenda kuna tatizo</string>
+    <string name="devices_scan_action_button">Endelea</string>
+    <string name="devices_scan_cancel_button">Ghairi</string>
+    <string name="devices_scan_explanation">Chagua vifaa</string>
+    <string name="devices_scan_title">Ongeza vifaa</string>
     <string name="directory_for_mall">Kitabu cha orodha ya bidhaa za %1$s</string>
     <string name="disclaimer">Kanusho</string>
     <string name="dismiss_text">Buruta chini ili uondoe</string>
@@ -1273,7 +1299,7 @@ Tutalazimika kukadiria mahali ulipo kwa kutumia maelezo mengine kama vile anwani
     <string name="download_not_found">Kipakuliwa hakipatikani</string>
     <string name="download_prompt">Pakua</string>
     <string name="download_setting_message">Vipindi ulivyopakua vitaondolewa baada ya siku 30 au saa 24 baada ya kuvisikiliza</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Kimepakuliwa</string>
     <string name="downloaded_episodes">Vipindi ulivyopakua</string>
     <string name="downloading">Inapakua...</string>
     <string name="downloads">Vipakuliwa</string>
@@ -1337,7 +1363,6 @@ wiki 2 zijazo."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Vipindi vinavyopatikana</string>
     <string name="episode_page_section_title">Kipindi</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Kwa ajili yako</string>
     <string name="error">Hitilafu</string>
     <string name="error_adding_location_snackbar_text">Hitilafu ya kuongeza mahali imetokea</string>
@@ -1404,7 +1429,6 @@ Kagua muunganisho wako kisha ujaribu tena"</string>
     <string name="eyes_donate_data_optin_ok">Sawa</string>
     <string name="eyes_donate_data_optin_title">Changa Picha za Lenzi</string>
     <string name="eyes_flash_button_description">Geuza mweko</string>
-    <string name="eyes_initial_suggestion_0">Je, unaweza kutambua nini?</string>
     <string name="eyes_launcher_description">Lenzi ya Google</string>
     <string name="eyes_no_permission">Sina ruhusa ya kufanya hivyo</string>
     <string name="eyes_no_permission_camera">Sina ruhusa ya kutumia kamera</string>
@@ -1432,7 +1456,6 @@ Huenda Lenzi ya Google isichakate mambo yote ambayo ungependa. Pia, huenda isich
     <string name="eyes_onboarding_title_text">Changanua maandishi</string>
     <string name="eyes_request_timed_out_message">Samahani, imeshindwa kuunganisha kwenye Google kwa wakati huu</string>
     <string name="eyes_share_with">Shiriki na</string>
-    <string name="eyes_unfreeze_image_description">Rejea kwenye kamera</string>
     <string name="eyes_viewfinder_description">Washa Lenzi ya Google</string>
     <string name="failed">Haikuweza kupakia picha</string>
     <string name="failed_to_open_webview">Imeshindwa kufungua ukurasa</string>
@@ -1557,8 +1580,13 @@ Huenda Lenzi ya Google isichakate mambo yote ambayo ungependa. Pia, huenda isich
     <string name="folder_renamed">Folda imebadilishwa jina kuwa %1$s</string>
     <string name="folder_tap_to_close">Gusa ili ufunge folda</string>
     <string name="folder_tap_to_rename">Gusa ili uhifadhi jina jipya</string>
+    <string name="follow_soccer_promo_query">mashindano ya soka ya 2018</string>
     <string name="follow_world_cup_promo">Fuatilia Kombe la Dunia</string>
     <string name="follow_world_cup_promo_content_description">Fuatilia Kombe la Dunia</string>
+    <string name="follow_world_cup_promo_detail">Gusa hapa ili ujisajili kupokea vikumbusho vya mechi, taarifa na matokeo ya moja kwa moja ya timu unazopenda</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Endelea kupokea taarifa kuhusu mechi za soka</string>
+    <string name="follow_world_cup_promo_query">mashindano ya kombe la dunia ya 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">"Kinyang'anyiro cha soka kimewadia!"</string>
     <string name="forbid_download_removal">Huwezi kuondoa kipindi kinapocheza</string>
     <string name="fourth_quarter">Robo ya 4</string>
     <string name="fourth_quarter_abbrev">Robo ya 4</string>
@@ -1764,15 +1792,15 @@ Rekodi hizi za awali zinaweza kutumika kuunda muundo maalum wa sauti kwenye kifa
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">rudi nyuma</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Nina uhakika</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Je, una uhakika?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Hujambo! Nimeifunza programu ya Mratibu kutambua sauti yangu kwenye Google Home ili niweze kupokea matokeo maalum.
+    <string name="hotword_enrollment_google_home_share_message">"Hujambo! Nimemfunza Mratibu kutambua sauti yangu kwenye Google Home ili niweze kupokea matokeo ya binafsi.
 
-Pia, unaweza kupokea majibu yanayokufaa tu! Anza kwa kusakinisha programu ya Google Home: https://google.com/home/setup"</string>
-    <string name="hotword_enrollment_google_home_share_message_subject">Ifunze programu yako ya Mratibu kukutambua</string>
+Pia, unaweza kupokea majibu yako pekee! Anza kwa kusakinisha programu ya Google Home: https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_subject">Mfunze Mratibu wako kukutambua</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Alika</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Unaweza kuangalia au kufuta shughuli za sauti katika %1$s yako. Pia unaweza kuzima kipengele cha Voice Match katika mipangilio ya Mratibu.</string>
     <string name="hotword_enrollment_google_home_summary_header_title">Uko tayari sasa</string>
     <string name="hotword_enrollment_google_home_waiting_screen_header_title">Tafadhali subiri...</string>
-    <string name="hotword_enrollment_google_not_default_assist">Hujaweka Programu ya Google kuwa Programu Chaguo msingi ya Usaidizi.</string>
+    <string name="hotword_enrollment_google_not_default_assist">Hujaweka Programu ya Google kuwa Programu Chaguomsingi ya Usaidizi.</string>
     <string name="hotword_enrollment_hotword_not_running">Mna hitilafu ya maikrofoni. Jaribu tena baada ya sekunde chache.</string>
     <string name="hotword_enrollment_intro_get_started">Endelea</string>
     <string name="hotword_enrollment_intro_header_title_glif_non_opa">Tafuta kwa kutamka wakati wowote</string>
@@ -1898,7 +1926,7 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="hourly_forecast">Utabiri wa hali ya hewa ya saa ijayo</string>
     <string name="hours">Saa</string>
     <string name="how_can_i_help">Nikusaidiaje?</string>
-    <string name="hq_a11y_bottom_bar_button">Washa maikrofoni ili upige gumzo na Mratibu wako</string>
+    <string name="hq_a11y_bottom_bar_button">Mratibu wa Google</string>
     <string name="hq_a11y_chatui_badge">"Fungua kipengele cha 'gundua vitu vyako'"</string>
     <string name="hq_a11y_menu_button">Menyu</string>
     <string name="hq_account_switch_prompt">Unaingia katika akaunti ukitumia %1$s</string>
@@ -2026,10 +2054,10 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="inferred_event_error">Imeshindwa kuunda tukio</string>
     <string name="inferred_from_gmail">Anayejulikana kama \"%1$s\"katika Gmail</string>
     <string name="info_target_label">Maelezo ya programu</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Sakinisha programu ya Google Podcasts</string>
+    <string name="install_google_podcasts_accept">Pata programu</string>
+    <string name="install_google_podcasts_message">Pakua Google Podcasts kutoka Google Play uifikie haraka</string>
+    <string name="install_google_podcasts_reject">Si sasa</string>
     <string name="installed_app_group_header">Programu</string>
     <string name="installed_details">Toleo la %1$s limesakinishwa, ukubwa kwenye diski %2$s</string>
     <string name="installed_language_packs">Imesakinishwa</string>
@@ -2070,7 +2098,7 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="item_is_selected">%1$s kimechaguliwa</string>
     <string name="item_moved">Kipengee kimesogezwa</string>
     <string name="item_removed">Kipengee kimeondolewa</string>
-    <string name="jasper_duo_knock_knock_summary">Ona video ya anayepiga kabla ya kuipokea. Ruhusu unayempigia kuona video yako wakati simu inalia. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Pata maelezo zaidi&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Ona video ya anayepiga kabla hujapokea simu. Ruhusu unayempigia aone video yako wakati simu inalia. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Hodi! Hodi!</string>
     <string name="jasper_duo_not_signed_in">Hujaingia</string>
     <string name="jasper_duo_signed_in">Umeingia</string>
@@ -2166,10 +2194,10 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="location_service_required_title">Pata kadi zinazohusiana na eneo</string>
     <string name="lockscreen_mic_promo_notification_content">Fungua simu yako kwa kusema \"%1$s\".</string>
     <string name="lockscreen_mic_promo_notification_title">Fungua ukitumia sauti yako</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Gusa mara mbili na ushikilie ile uchague wijeti au utumie vitendo maalum.</string>
     <string name="long_press_widget_to_add">Gusa na ushikilie ili kuteua wijeti.</string>
     <string name="longpress_menu_download">Pakua picha</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Shiriki picha</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2203,10 +2231,10 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="map_content_description">Ramani</string>
     <string name="map_route_content_description">Ramani ya kwenda %1$s</string>
     <string name="maps_mode_landing_text">Tafuta ramani</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Kitie alama kuonyesha umekicheza</string>
+    <string name="mark_as_unplayed">Kitie alama kuonyesha hujakicheza</string>
     <string name="media_content_image">Picha inayohusiana na maudhui ya media yanayoonyeshwa katika kadi hii</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Podcast zako</string>
     <string name="media_route_chooser_dialog_title">Tuma kwenye</string>
     <string name="media_route_chooser_searching">Inatafuta vifaa…</string>
     <string name="media_route_controller_cancel">Ghairi</string>
@@ -2217,15 +2245,13 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="menu_icon_description">Menyu</string>
     <string name="menu_overlay_customize">Weka mapendeleo</string>
     <string name="menu_overlay_feedback">Tuma maoni</string>
-    <string name="menu_overlay_reset_to_default_style">Rejesha mtindo chaguo msingi</string>
+    <string name="menu_overlay_reset_to_default_style">Rejesha mtindo chaguomsingi</string>
     <string name="menu_refresh">Onyesha upya</string>
-    <string name="menu_search_by_image">Tafuta kulingana na picha</string>
     <string name="menu_send_button_content_description">Kitufe cha kutuma ili kuwasilisha maoni.</string>
     <string name="menu_send_feedback">Tuma maoni</string>
     <string name="menu_settings">Mipangilio</string>
     <string name="menu_share">Shiriki</string>
     <string name="menu_view_in_browser">Angalia katika Kivinjari</string>
-    <string name="menu_view_original_image">Tazama picha ya awali</string>
     <string name="menu_visit_page">Tembelea Ukurasa</string>
     <string name="message_card_feedback">Maoni</string>
     <string name="message_image">Picha</string>
@@ -2270,7 +2296,6 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="minus_one_header_settings">Mipangilio</string>
     <string name="minute_picker_description">Kitelezi cha mviringo wa dakika</string>
     <string name="minutes">Dakika</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Anuai</string>
     <string name="mismatching_value_eir_code">Lazima ilingane na anwani</string>
     <string name="mismatching_value_pin_code">Lazima anwani ilingane</string>
@@ -2282,7 +2307,7 @@ Unaweza kuzima matokeo binafsi kwenye mipangilio ya Mratibu."</string>
     <string name="more_contact_apps">Onyesha programu zaidi za mawasiliano</string>
     <string name="more_description">Onyesha zaidi</string>
     <string name="more_episodes">Vipindi zaidi</string>
-    <string name="more_info_text">Takwimu, habari na wakati</string>
+    <string name="more_info_text">Takwimu, habari na ratiba</string>
     <string name="more_information">Maelezo zaidi</string>
     <string name="more_suggests_expansion_text">Zaidi</string>
     <string name="move_to_empty_cell">Hamishia safu mlalo %1$s safu wima %2$s</string>
@@ -2351,7 +2376,6 @@ Gundua na udhibiti maudhui yote uliyotafuta kwenye Google na zaidi katika Shughu
     <string name="network_error_fetching_weather_data_status_text">Mtandao haupatikani kwa sasa</string>
     <string name="network_error_no_connection_tts">Hakuna muunganisho wa Intaneti kwa sasa.</string>
     <string name="network_error_resend_audio">Tuma sauti upya</string>
-    <string name="network_error_try_again">Jaribu tena</string>
     <string name="network_location_required_text">Ili kuona kadi zinazohusiana na eneo kama vile hali ya hewa na trafiki ya safari, washa Wi-Fi na eneo la mtandao wa simu</string>
     <string name="network_location_required_text_klp">Ili uone kadi zinazohusiana na eneo unaloishi kama vile hali ya hewa na trafiki, chagua hali ya eneo yenye usahihi wa hali ya juu au ile inayookoa betri</string>
     <string name="never">Usiwahi Kuondoa</string>
@@ -2443,7 +2467,7 @@ Gundua na udhibiti maudhui yote uliyotafuta kwenye Google na zaidi katika Shughu
     <string name="none">Hamna</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Huduma za orodha na vidokezo</string>
-    <string name="notes_lists_none_preference_summary">Maelezo ya ziada</string>
+    <string name="notes_lists_none_preference_summary">Programu ya Mratibu haitasawazisha data yako kwa huduma yoyote.</string>
     <string name="notes_lists_none_preference_title">Hamna</string>
     <string name="notes_lists_provider_changed_description">"Data ya vidokezo na orodha kwenye programu ya Mratibu haitasasishwa tena na %1$s. Data iliyo kwenye %1$s haitafutwa.
 
@@ -2451,11 +2475,12 @@ Je, ungependa kuendelea?"</string>
     <string name="notes_lists_provider_changed_negative_button">Ghairi</string>
     <string name="notes_lists_provider_changed_positive_button">Kubali</string>
     <string name="notes_lists_provider_changed_title">Ondoa kwenye %1$s</string>
+    <string name="notes_lists_title">Programu yako ya Mratibu itaendelea kusawazisha orodha na vidokezo vyako kwenye huduma hizi.</string>
     <string name="notification_access_link_text">Zima kipengele cha kufikia arifa</string>
     <string name="notification_accessable_apps_category_title">Idhini ya kufikia arifa</string>
     <string name="notification_cancel_text">Google haitatafuta tena matokeo ya hoja yako ya utafutaji utakaporudi mtandaoni.</string>
     <string name="notification_cancel_title">Imeghairi shughuli ya utafutaji</string>
-    <string name="notification_dismiss">Ondoa</string>
+    <string name="notification_dismiss">Iondoe</string>
     <string name="notification_set_text">Google itatafuta tena matokeo ya hoja yako ya utafutaji utakaporudi mtandaoni.</string>
     <string name="notification_set_title">Utaarifiwa matokeo yatakapopatikana</string>
     <string name="notification_subtext">Mechi imebandikwa</string>
@@ -2568,8 +2593,9 @@ Je, ungependa kuendelea?"</string>
     <string name="opa_agent_menu_content_description">Menyu ya dalali.</string>
     <string name="opa_assist_app_screen_button">Mipangilio</string>
     <string name="opa_assist_app_screen_explanation">Ili kufikia Mratibu wa Google, chagua Programu ya Google katika mipangilio ya kuweka data kwa kutamka na Programu ya Usaidizi</string>
-    <string name="opa_assist_app_screen_title">Hujaweka Programu ya Google kuwa Programu chaguo msingi ya Usaidizi</string>
+    <string name="opa_assist_app_screen_title">Hujaweka Programu ya Google kuwa Programu chaguomsingi ya Usaidizi</string>
     <string name="opa_assistant_logo_content_description">Kutafuta kwa kutamka</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Pata masasisho ya programu yako ya Mratibu wa Google</string>
     <string name="opa_consent_check_error_button">Funga</string>
     <string name="opa_consent_check_error_button_notavailable">Badilisha Akaunti</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Programu yako ya Mratibu huenda ikaweza tu kutekeleza mambo kama vile kuonyesha matokeo ya wavuti, ucheshi na maelezo ya mahali ulipo kulingana na mipangilio yako ya akaunti.</string>
@@ -2646,7 +2672,6 @@ Hatua ya kufuta kwenye historia ya Mratibu haitaathiri shughuli au kutendua vite
     <string name="opa_eyes_free_opt_in_speech">Ikiwa ni salama, utahitaji kwanza kugonga kipengele cha arifa. Kisha, unaweza kuruhusu vifaa vya sauti kutumia Mratibu wa Google.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Gusa ili uendelee</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Iruhusu programu ya Mratibu wa Google ikusaidie</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Gusa ili uendelee</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Kamilisha baadaye</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Ninakubali</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">ANZA KUTUMIA PROGRAMU</string>
@@ -2707,6 +2732,7 @@ kwenye"</string>
     <string name="opa_launcher_icon_text">Mratibu</string>
     <string name="opa_lock_icon_description">Aikoni ya kufungua</string>
     <string name="opa_logo_content_desc">Nembo ya Mratibu wa Google</string>
+    <string name="opa_mark_content">Mratibu</string>
     <string name="opa_marketplace_disclosure_description">Mratibu wako wa Google anaweza kufanya kazi na huduma mbalimbali ili kukusaidia kutekeleza mambo mengi.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Programu ya Mratibu wa Google inaweza kufanya kazi na washirika wa Google ili kukuwezesha kufanya mambo unayotaka, kama vile kununua tiketi za filamu au kukarabati mfereji wako. &lt;a href=https://support.google.com/assistant/?p=google_partners>Pata maelezo zaidi&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Washirika wa Google ni mashirika ambayo yana uhusiano wa biashara na Google. Mratibu wa Google anaweza kufanya kazi na washirika wa Google ili kukusaidia kutekeleza mambo mengi, kama vile kununua tiketi za sinema au kurekebisha mfereji. <a href="https://support.google.com/assistant/?p=google_partners">Pata maelezo zaidi</a></string>
@@ -3030,8 +3056,8 @@ Kumbuka kuwa, mtu yeyote anayetumia kifaa hiki anaweza pia kupata matokeo yako b
     <string name="prefTitle_language">Lugha</string>
     <string name="prefTitle_profanityFilter">Zuia maneno yanayokera</string>
     <string name="prefTitle_ttsMode">Kusoma kwa sauti</string>
-    <string name="pref_default_expanded_additional">Lugha chaguo msingi: %1$s Zingine: %2$s</string>
-    <string name="pref_default_expanded_no_additional">Lugha chaguo msingi: %s</string>
+    <string name="pref_default_expanded_additional">Lugha chaguomsingi: %1$s Zingine: %2$s</string>
+    <string name="pref_default_expanded_no_additional">Lugha chaguomsingi: %s</string>
     <string name="pref_expanded_additional">Lugha ya msingi: %1$s Nyingine: %2$s</string>
     <string name="pref_expanded_no_additional">Lugha: %s</string>
     <string name="pref_multilang_override_detail_hotword">• \"Ok Google\" kutoka programu ya Google</string>
@@ -3134,6 +3160,7 @@ Kadirio la ukubwa: Kb %d"</string>
     <string name="recently_empty_state_read_later_body_text">Tutahifadhi kwa siku 7 vipengee unavyopakua kwenye kifaa chako.</string>
     <string name="recently_empty_state_read_later_title_text">Ongeza kurasa utakazosoma baadaye</string>
     <string name="recently_entry_interaction_offline">Huwezi kufungua ukurasa ulioomba ukiwa nje ya mtandao.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Mipasho</string>
     <string name="recently_google_doodle_for">Google Doodle ya %s</string>
     <string name="recently_keep_on_device_until">Usizime kifaa hadi:</string>
@@ -3148,17 +3175,17 @@ Fungua kundi hili la kurasa ili uone mada zaidi."</string>
     <string name="recently_onboarding_recent_message_2">"Jikumbushe mada ulizotafuta hivi majuzi katika programu ya Google.
 
 Unaweza kufunga kundi hili la kurasa kwa kubana."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Jikumbushe mada ulizotafuta hivi majuzi kwenye programu ya Google.</string>
     <string name="recently_onboarding_recent_title">Angalia matokeo uliyopata</string>
     <string name="recently_onboarding_search_on_message">"Kurasa zilizopo hapa ni zile ulizoziona kwenye kifaa hiki. Kurasa kutoka utafutaji sawa huwekwa katika kundi moja kwa kuanzia zile mpya. 
 
 Endelea kutafuta na kugundua upya kurasa ulizotafuta."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Kurasa zilizopo hapa ni zile ulizotembelea kwenye kifaa hiki. Endelea kutafuta ili uone kurasa ulizotembelea.</string>
     <string name="recently_onboarding_search_on_title">Tafuta kwenye</string>
     <string name="recently_onboarding_swipe_up_message">"Unataka kuondoa kurasa ulizotembelea hivi majuzi. Telezesha tu kidole juu ili uziondoe.
 
 Hatua hii haitazifuta kwenye akaunti yako ya Google."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Je, ungependa kuondoa kurasa ulizotembelea hivi majuzi? Telezesha tu kidole juu ili uziondoe. Hatua hii haitaziondoa kwenye Akaunti yako ya Google.</string>
     <string name="recently_onboarding_swipe_up_title">Telezesha kidole juu</string>
     <string name="recently_overflow_title">Chaguo Zaidi</string>
     <string name="recently_reading_reminder">Kikumbusho cha kusoma:</string>
@@ -3190,6 +3217,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Wavuti</string>
     <string name="recents_result_separate_group_header">Maudhui Uliyotafuta Hivi Majuzi</string>
     <string name="recognizer_service_label">Utambuzi msingi wa Google</string>
+    <string name="recommendation_header_text">Uliyopendekezewa</string>
     <string name="reconnecting_loading_results">"Tunapakia matokeo yako
 "</string>
     <string name="reconnecting_title">Inaunganisha upya...</string>
@@ -3262,7 +3290,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Jina</string>
     <string name="report_other_reason">Mengine</string>
     <string name="report_this">Iripoti</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Ili uweze kupakua vipindi, ruhusu hifadhi ya kifaa chako ifikiwe kwenye idhini ya programu ya Google</string>
     <string name="request_storage_permission_dialog_message">Ili uweze kupakua vipindi, ruhusu Google ifikie hifadhi ya kifaa chako</string>
     <string name="request_storage_permission_dialog_title">Ruhusu hifadhi ifikiwe</string>
     <string name="reservation_group_header">Nafasi zilizohifadhiwa</string>
@@ -3273,7 +3301,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="reset_to_default_style_alert_affirmative_action_text">BADILISHA</string>
     <string name="reset_to_default_style_alert_content_text">Hii inamaanisha kuwa mtindo wa wijeti utabadilika kuwa jinsi ulivyokuwa kabla ya kuuwekea mapendeleo yako.</string>
     <string name="reset_to_default_style_alert_dismiss_action_text">GHAIRI</string>
-    <string name="reset_to_default_style_alert_title_text">Ungependa kurejesha mtindo chaguo msingi?</string>
+    <string name="reset_to_default_style_alert_title_text">Ungependa kurejesha mtindo chaguomsingi?</string>
     <string name="resetting_now">Inabadilisha mapendeleo ya mipasho</string>
     <string name="results_from_ago">Matokeo ya %1$s iliyopita</string>
     <string name="retry">Jaribu tena</string>
@@ -3347,6 +3375,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Skrini imesogezwa</string>
     <string name="screenshot_srp_desc">Tafuta %s.</string>
     <string name="screenshot_srp_pending_desc">Haijakamilisha kutafuta %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Utafutaji wa kutamka ambao haujakamilika</string>
+    <string name="screenshot_srp_voice_pending_title">kutafuta kwa kutamka</string>
     <string name="screenshot_web_desc">Tembelea %s.</string>
     <string name="screenshot_webpage_pending_desc">Inasubiri kupakua</string>
     <string name="scroll_left">Sogeza kushoto</string>
@@ -3384,7 +3414,7 @@ Jaribu kutafuta podcast tena."</string>
     <string name="search_queue_activity_title">Dhibiti utafutaji</string>
     <string name="search_queue_is_full">Ili upate arifa matokeo yatakapopatikana, futa utafutaji wa nje ya mtandao.</string>
     <string name="search_region">Eneo la kutafuta</string>
-    <string name="search_region_default">Eneo Ulipo Sasa (chaguo msingi)</string>
+    <string name="search_region_default">Eneo Ulipo Sasa (chaguomsingi)</string>
     <string name="search_service_account_change_hotword_retraining_notification_content">Gusa uwashe \"%1$s\" tena.</string>
     <string name="search_service_account_change_hotword_retraining_notification_title">Umebadilisha akaunti</string>
     <string name="search_service_audio_history_disabled_hotword_retraining_notification_content">Gusa ili uwashe \"%1$s\" tena.</string>
@@ -3404,7 +3434,7 @@ Jaribu kutafuta podcast tena."</string>
     <string name="search_sources_tablet">Utafutaji katika kompyuta kibao</string>
     <string name="search_storage_label">Hifadhi ya Tafuta na Google</string>
     <string name="search_tablet">Tafuta katika Kompyuta Kibao</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Tafuta kwenye wavuti</string>
     <string name="search_the_web_menu_text">Tafuta kwenye wavuti</string>
     <string name="search_the_web_suggestion">Tafuta kwenye wavuti</string>
     <string name="search_widget_customization">Weka Mapendeleo kwenye Wijeti</string>
@@ -3632,7 +3662,9 @@ Kipindi hiki hakipatikani kwa sasa."</string>
     <string name="sports_wins_header">Ushindi</string>
     <string name="sports_wins_header_full_length">Ilizoshinda</string>
     <string name="standalone_zs_back_content_desc">Nyuma</string>
+    <string name="standalone_zs_brick_content_desc">Taarifa zako binafsi</string>
     <string name="standalone_zs_explore_content_desc">Fungua ukurasa wa gundua maudhui yako</string>
+    <string name="standalone_zs_opa_icon_desc">Mratibu</string>
     <string name="star_rating_bar_content_description">Ukadiriaji wa nyota: %1$s</string>
     <string name="starting_location_selector">%1$s. Chagua eneo la kuanzia.</string>
     <string name="starts_at">Inaanza saa</string>
@@ -3648,6 +3680,7 @@ Kipindi hiki hakipatikani kwa sasa."</string>
     <string name="street_address_label">Anwani ya mtaa</string>
     <string name="subscribe_button_label">Fuatilia</string>
     <string name="subscribe_to_see_new_episodes">Jisajili kwenye podcast ili uone vipindi vipya</string>
+    <string name="success">Imetuma</string>
     <string name="suggest">Kukamilisha kiotomatiki</string>
     <string name="suggest_contact_removal_body">Hii itamuondoa &lt;b>%1$s&lt;/b> kutoka katika orodha yako ya anuani mashuhuri. Bado unaweza kumpata &lt;b>%2$s&lt;/b> kwa kumtafuta.</string>
     <string name="suggest_contact_removal_cancel">GHAIRI</string>
@@ -3988,7 +4021,7 @@ Umeingia kama %1$s"</string>
     <string name="user_defined_action_task_light_title">Mwangaza</string>
     <string name="user_defined_action_task_music_duration_summary">Kipima muda cha kusitisha kucheza muziki kinapatikana kwenye Google Home pekee</string>
     <string name="user_defined_action_task_music_duration_title">Zima muziki baada ya…</string>
-    <string name="user_defined_action_task_music_example_list">Weka orodha ya kucheza, msanii, wimbo au aina. Kwa mfano, \"Orodha ya kucheza muziki taratibu\" au \"Sauti Sol\". Utaratibu huu utatumia &lt;a href=assistant-settings://?feature=music>huduma yako chaguo msingi ya muziki&lt;/a>.</string>
+    <string name="user_defined_action_task_music_example_list">Weka orodha ya kucheza, msanii, wimbo au aina. Kwa mfano, \"Orodha ya kucheza muziki taratibu\" au \"Sauti Sol\". Utaratibu huu utatumia &lt;a href=assistant-settings://?feature=music>huduma yako chaguomsingi ya muziki&lt;/a>.</string>
     <string name="user_defined_action_task_music_title">Cheza muziki</string>
     <string name="user_defined_action_task_music_what_music_title">Ungependa kucheza muziki gani?</string>
     <string name="user_defined_action_task_play_sound_main_category_title">Chagua nyimbo ambazo ungependa kuzisikiliza unapolala. Nyimbo hizi zitaacha kucheza kiotomatiki.</string>
@@ -4007,6 +4040,8 @@ Umeingia kama %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Sema kitu</string>
     <string name="user_defined_action_task_scene_control_title">Maonyesho</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Chagua maonyesho ambayo ungependa kujumuisha katika utaratibu huu.</string>
+    <string name="user_defined_action_task_security_system_control_title">Washa mfumo wa usalama</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Je, ungependa kutumia hali gani?</string>
     <string name="user_defined_action_task_send_text_content_summary">Usipojaza sehemu ya nambari ya mpokeaji au maudhui ya ujumbe, utaombwa uijaze wakati unatekeleza ratiba hii.</string>
     <string name="user_defined_action_task_send_text_content_title">Ungependa ujumbe useme nini?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Ungependa kutuma ujumbe kwenye nambari gani?</string>

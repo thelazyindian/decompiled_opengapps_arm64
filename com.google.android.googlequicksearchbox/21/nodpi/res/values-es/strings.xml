@@ -248,6 +248,10 @@
     <string name="agent_bookmark_error">Se produjo un error. Vuelve a intentarlo más tarde.</string>
     <string name="agent_bookmark_removed">Se quitó de favoritos</string>
     <string name="agent_description_more">más</string>
+    <string name="agent_details_add_routine_description">Aprovecha tus rutinas al máximo con actualizaciones de %1$s.</string>
+    <string name="agent_details_add_routine_item">Agregar</string>
+    <string name="agent_details_customize_routine">Personaliza tu rutina</string>
+    <string name="agent_details_manage_routines">Administra las rutinas</string>
     <string name="agent_details_splash_image_a11y">Imagen de la app de Asistente</string>
     <string name="agent_directory_a11y_back_button">Atrás</string>
     <string name="agent_directory_a11y_more_groups">Más</string>
@@ -651,13 +655,15 @@ El Asistente usará estas opciones de configuración para responder preguntas so
     <string name="assistant_settings_music_provider_category_title">El Asistente usará este proveedor para reproducir música de manera predeterminada. Sin embargo, podrás usar los demás proveedores vinculados cuando así lo indiques.</string>
     <string name="assistant_settings_music_title">Música</string>
     <string name="assistant_settings_music_unable_unlink_default">No se puede desvincular tu proveedor de música predeterminado</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Para reproducir contenido en Google Home, YouTube Music requiere una suscripción a YouTube Red. Puedes registrarte en <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Se requiere una suscripción a YouTube Red</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Si desvinculas tu cuenta, se desactivará el acceso a la reproducción desde %1$s mediante el Asistente de Google.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Para reproducir contenido en Google Home, YouTube Premium requiere una suscripción a YouTube Red. Regístrate en <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Se requiere una suscripción a YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Quita %1$s de las fuentes de noticias habilitadas</string>
     <string name="assistant_settings_news_supports_video">Video disponible en pantallas inteligentes</string>
     <string name="assistant_settings_news_title">Noticias</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Tu sobrenombre incluye un carácter que el Asistente no puede pronunciar. En la próxima sección, deletrea cómo suena.</string>
     <string name="assistant_settings_no_device_linked">Voice Match le permite al Asistente darte información personal cuando reconoce tu voz. Hasta 6 personas pueden obtener su propia agenda, música y más.</string>
+    <string name="assistant_settings_no_language_summary">Ninguno</string>
     <string name="assistant_settings_no_language_title">Agregar un idioma</string>
     <string name="assistant_settings_no_shopping_list">No tienes una lista de compras.</string>
     <string name="assistant_settings_notes_lists_title">Notas y listas</string>
@@ -825,6 +831,7 @@ El Asistente usará estas opciones de configuración para brindarte instruccione
     <string name="assistant_settings_summer_time_mode_availability_clarification">Conversación continua está disponible actualmente en inglés (EE.UU.). Si usas dispositivos Google Home que no se muestran aquí, la persona con la cuenta principal de esos dispositivos podrá activar y desactivar esta función en la configuración de su Asistente.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Puedes cambiar esta función para estos dispositivos de Google Home</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">No hay dispositivos disponibles</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">El micrófono del dispositivo volverá a encenderse después de cada respuesta para captar las preguntas de seguimiento, que aparecerán en la sección \"Mi actividad\", como siempre. Se borrará de la cuenta de Google el audio al que el Asistente no responda.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Conversación continua</string>
     <string name="assistant_settings_summer_time_mode_title">Conversación continua</string>
     <string name="assistant_settings_turn_off_voice_match">Si desactivas Voice Match, desvincularás tu cuenta de este dispositivo. Debe haber al menos una cuenta vinculada para usar el dispositivo compatible con el Asistente de Google. ¿Estás seguro de que quieres desvincular tu cuenta? </string>
@@ -853,10 +860,8 @@ El Asistente usará estas opciones de configuración para brindarte instruccione
     <string name="assistant_settings_update_error_message">No se pudo actualizar la configuración. Comprueba tu conexión.</string>
     <string name="assistant_settings_video_calls_service_category_title">El Asistente puede hacer videollamadas en algunos dispositivos, como Pantalla inteligente de Google, mediante tu servicio preferido. Por el momento, las llamadas a los servicios de emergencia no están disponibles.</string>
     <string name="assistant_settings_video_icon_text">Ícono del proveedor de video</string>
-    <string name="assistant_settings_video_link_dialog_text">Vincula tu cuenta de Google a %1$s para habilitar el control por voz y la reproducción en dispositivos compatibles. Cuando controlas el servicio de %1$s mediante Google Home o solicitas información relacionada con %1$s, esas consultas se envían a %1$s y el uso se lleva a cabo de conformidad con su declaración de privacidad.</string>
     <string name="assistant_settings_video_provider_category_summary">Pídele a tu Asistente que reproduzca programas y películas.</string>
     <string name="assistant_settings_video_provider_category_title">Videos</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Si desvinculas tu cuenta, se desactivará el control por voz.</string>
     <string name="assistant_settings_videos_photos_title">Videos y fotos</string>
     <string name="assistant_settings_videosphotos_cast_destination">un Chromecast o una TV con Chromecast integrado</string>
     <string name="assistant_settings_voice_and_video_calls_title">Videollamadas y llamadas de voz</string>
@@ -874,7 +879,7 @@ El Asistente usará estas opciones de configuración para brindarte instruccione
     <string name="assistant_settings_your_people_deletion_failure">Se produjo un problema. Vuelve a intentarlo más tarde.</string>
     <string name="assistant_settings_your_people_email">Correo electrónico: %1$s</string>
     <string name="assistant_settings_your_people_family_member_suggestion">Recordar a un miembro de la familia</string>
-    <string name="assistant_settings_your_people_forget_button">Borrar</string>
+    <string name="assistant_settings_your_people_forget_button">Olvidar</string>
     <string name="assistant_settings_your_people_forget_dialog">Esta acción quitará toda la información que le pediste al Asistente que recordara sobre %1$s</string>
     <string name="assistant_settings_your_people_forget_dialog_title">¿Olvidar esta información?</string>
     <string name="assistant_settings_your_people_forget_menu_option">Olvidar esta información</string>
@@ -1124,7 +1129,7 @@ Es posible que se cobren cargos por el uso de datos."</string>
     <string name="cloud_search_history_summary_fetching">Recuperando configuración…</string>
     <string name="collapse">Ocultar</string>
     <string name="collapse_time_to_leave">Ocultar opciones para este viaje</string>
-    <string name="collections">Colecciones</string>
+    <string name="collections">Guardados</string>
     <string name="comment_hint">Comentarios adicionales (opcional)</string>
     <string name="common_address_clear_button_label">Borrar</string>
     <string name="common_address_clear_confirm_button">Borrar</string>
@@ -1369,6 +1374,10 @@ Deduciremos tu ubicación aproximada por medio de otra información, como la dir
     <string name="device_setup_error_cancel_button">Obtener ayuda</string>
     <string name="device_setup_error_content">Se produjo un error</string>
     <string name="device_setup_error_title">Es posible que haya un problema</string>
+    <string name="devices_scan_action_button">Continuar</string>
+    <string name="devices_scan_cancel_button">Cancelar</string>
+    <string name="devices_scan_explanation">Elegir dispositivos</string>
+    <string name="devices_scan_title">Agregar dispositivos</string>
     <string name="directory_for_mall">Directorio de %1$s</string>
     <string name="disable_assistant_confirm_message">Tus auriculares no podrán acceder al Asistente de Google, de modo que no podrás escuchar los mensajes, los eventos del calendario ni otra información importante. Sin embargo, el uso de estos auriculares todavía está sujeto a las <a href="https://www.google.com/policies/terms/">condiciones de servicio</a>".
 
@@ -1405,7 +1414,7 @@ Para configurar el Asistente de Google más tarde, mantén pulsado el botón de 
     <string name="download_not_found">No se ha encontrado la descarga</string>
     <string name="download_prompt">Descargar</string>
     <string name="download_setting_message">Los episodios descargados se borrarán después de 30 días, o bien 24 horas después de haberse terminado</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Descargado</string>
     <string name="downloaded_episodes">Episodios descargados</string>
     <string name="downloading">Descargando...</string>
     <string name="downloads">Descargas</string>
@@ -1469,7 +1478,6 @@ durante las próximas 2 semanas."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Episodios disponibles</string>
     <string name="episode_page_section_title">Episodio</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Para ti</string>
     <string name="error">Error</string>
     <string name="error_adding_location_snackbar_text">Error al agregar la ubicación</string>
@@ -1546,7 +1554,6 @@ Verifica tu conexión y vuelve a intentarlo"</string>
     <string name="eyes_donate_data_optin_ok">Aceptar</string>
     <string name="eyes_donate_data_optin_title">Donar imágenes de Lens</string>
     <string name="eyes_flash_button_description">Activar o desactivar el flash</string>
-    <string name="eyes_initial_suggestion_0">¿Qué puedes reconocer?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">No tengo permiso para realizar esa acción</string>
     <string name="eyes_no_permission_camera">No tengo permiso para usar la cámara</string>
@@ -1574,7 +1581,6 @@ Google Lens no es infalible y no siempre reconoce determinados objetos, texto s
     <string name="eyes_onboarding_title_text">Analizar texto</string>
     <string name="eyes_request_timed_out_message">No se puede establecer conexión con Google en este momento</string>
     <string name="eyes_share_with">Compartir con</string>
-    <string name="eyes_unfreeze_image_description">Volver a la cámara</string>
     <string name="eyes_viewfinder_description">Activar Google Lens</string>
     <string name="failed">Error al cargar la imagen</string>
     <string name="failed_to_open_webview">Error al abrir la página</string>
@@ -1714,9 +1720,9 @@ Di \"¿Qué puedes hacer?\""</string>
     <string name="folder_tap_to_close">Toca para cerrar la carpeta</string>
     <string name="folder_tap_to_rename">Toca para cambiar el nuevo nombre</string>
     <string name="follow_soccer_promo_query">fútbol 2018</string>
-    <string name="follow_world_cup_promo">Sigue la Copa Mundial</string>
-    <string name="follow_world_cup_promo_content_description">Sigue la Copa Mundial</string>
-    <string name="follow_world_cup_promo_detail">Presiona aquí para registrarte y recibir recordatorios de partidos, noticias y puntuación en vivo de tus equipos favoritos</string>
+    <string name="follow_world_cup_promo">Sigue el Mundial</string>
+    <string name="follow_world_cup_promo_content_description">Sigue el Mundial</string>
+    <string name="follow_world_cup_promo_detail">Presiona aquí para registrarte y recibir recordatorios de partidos, noticias y resultados en vivo de tus equipos favoritos</string>
     <string name="follow_world_cup_promo_long_soccer_title">Recibe las novedades sobre los partidos</string>
     <string name="follow_world_cup_promo_query">copa mundial 2018</string>
     <string name="follow_world_cup_promo_short_soccer_title">Llegó la fiebre del fútbol</string>
@@ -1943,7 +1949,7 @@ Puedes usar esas grabaciones anteriores para crear un modelo de voz en este disp
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">volver</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Estoy seguro</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">¿Estás seguro?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Hola. Acabo de enseñarle al Asistente a reconocer mi voz en Google Home para poder recibir resultados personalizados.
+    <string name="hotword_enrollment_google_home_share_message">"Hola. Acabo de enseñar a mi Asistente a reconocer mi voz en Google Home para poder recibir resultados personalizados.
 
 Tú también puedes obtener las respuestas indicadas para ti. Instala la app de Google Home: https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Enséñale al Asistente a reconocerte</string>
@@ -2081,7 +2087,7 @@ Puedes desactivarlos en la configuración del Asistente."</string>
     <string name="how_to_fetch4_level_2">Cuando quieras escuchar las últimas notificaciones, pulsa el botón del Asistente de Google.</string>
     <string name="how_to_fetcht">Por cierto, puedes escuchar las notificaciones durante una hora como máximo. Para ello, toca dos veces el auricular derecho.</string>
     <string name="how_to_fetcht_level_2">Cuando quieras escuchar las últimas notificaciones, toca dos veces el auricular derecho.</string>
-    <string name="hq_a11y_bottom_bar_button">Abre el micrófono para chatear con tu Asistente</string>
+    <string name="hq_a11y_bottom_bar_button">Asistente</string>
     <string name="hq_a11y_chatui_badge">Abre y explora tu contenido</string>
     <string name="hq_a11y_menu_button">Menú</string>
     <string name="hq_account_switch_prompt">Accediendo como %1$s</string>
@@ -2212,10 +2218,10 @@ Puedes desactivarlos en la configuración del Asistente."</string>
     <string name="inferred_event_error">Error al crear el evento</string>
     <string name="inferred_from_gmail">En Gmail, aparece como \"%1$s\".</string>
     <string name="info_target_label">Info de la app</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Descargar Podcasts de Google</string>
+    <string name="install_google_podcasts_accept">Descargar aplicación</string>
+    <string name="install_google_podcasts_message">Descárgate Podcasts de Google en la Play Store para acceder rápidamente</string>
+    <string name="install_google_podcasts_reject">Ahora no</string>
     <string name="installed_app_group_header">Aplicaciones</string>
     <string name="installed_details">Versión %1$s instalada (tamaño en disco: %2$s</string>
     <string name="installed_language_packs">Instalados</string>
@@ -2268,7 +2274,7 @@ Puedes desactivarlos en la configuración del Asistente."</string>
     <string name="item_is_selected">%1$s seleccionado</string>
     <string name="item_moved">Elemento movido</string>
     <string name="item_removed">Elemento eliminado</string>
-    <string name="jasper_duo_knock_knock_summary">Mira el video del emisor antes de atender y permite que las personas a las que llamas te vean mientras suena su teléfono. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Más información&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Mira el video del emisor antes de atender y permite que las personas a las que llamas te vean mientras suena su teléfono. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Toc toc</string>
     <string name="jasper_duo_not_signed_in">No accediste a tu cuenta</string>
     <string name="jasper_duo_signed_in">Accediste a tu cuenta</string>
@@ -2372,10 +2378,10 @@ Puedes desactivarlos en la configuración del Asistente."</string>
     <string name="location_service_required_title">Obtener tarjetas basadas en la ubicación</string>
     <string name="lockscreen_mic_promo_notification_content">Di \"%1$s\" para desbloquear tu teléfono.</string>
     <string name="lockscreen_mic_promo_notification_title">Desbloquear con tu voz</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Toca dos veces y mantén pulsado el widget que quieras seleccionar o utiliza acciones personalizadas.</string>
     <string name="long_press_widget_to_add">Mantén pulsado el widget que quieras seleccionar.</string>
     <string name="longpress_menu_download">Descargar imagen</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Compartir imagen</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2410,10 +2416,10 @@ Puedes desactivarlos en la configuración del Asistente."</string>
     <string name="map_content_description">Mapa</string>
     <string name="map_route_content_description">Mapa a %1$s</string>
     <string name="maps_mode_landing_text">Buscar mapas</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Marcar como reproducido</string>
+    <string name="mark_as_unplayed">Marcar como no reproducido</string>
     <string name="media_content_image">Una imagen relacionada con el contenido de medios que aparece en esta tarjeta</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Tus podcasts</string>
     <string name="media_route_chooser_dialog_title">Enviar a</string>
     <string name="media_route_chooser_searching">Buscando dispositivos…</string>
     <string name="media_route_controller_cancel">Cancelar</string>
@@ -2426,13 +2432,11 @@ Puedes desactivarlos en la configuración del Asistente."</string>
     <string name="menu_overlay_feedback">Enviar comentarios</string>
     <string name="menu_overlay_reset_to_default_style">Restablecer al estilo predeterminado</string>
     <string name="menu_refresh">Actualizar</string>
-    <string name="menu_search_by_image">Buscar por imagen</string>
     <string name="menu_send_button_content_description">Botón para enviar comentarios.</string>
     <string name="menu_send_feedback">Enviar sugerencias</string>
     <string name="menu_settings">Configuración</string>
     <string name="menu_share">Compartir</string>
     <string name="menu_view_in_browser">Ver en el navegador</string>
-    <string name="menu_view_original_image">Ver imagen original</string>
     <string name="menu_visit_page">Visitar página</string>
     <string name="message_card_feedback">Comentarios</string>
     <string name="message_image">Imagen</string>
@@ -2481,7 +2485,6 @@ Puedes desactivarlos en la configuración del Asistente."</string>
     <string name="minus_one_header_settings">Configuración</string>
     <string name="minute_picker_description">Control deslizante circular de minutos</string>
     <string name="minutes">Minutos</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Varios</string>
     <string name="mismatching_value_eir_code">No coincide</string>
     <string name="mismatching_value_pin_code">No coincide</string>
@@ -2565,7 +2568,6 @@ Descubre y controla todas tus búsquedas de Google y mucho más en Mi Actividad.
     <string name="network_error_fetching_weather_data_status_text">La red no está disponible en este momento</string>
     <string name="network_error_no_connection_tts">En este momento, no tienes conexión a Internet.</string>
     <string name="network_error_resend_audio">Volver a enviar audio</string>
-    <string name="network_error_try_again">Volver a intentar</string>
     <string name="network_location_required_text">Para ver tarjetas basadas en la ubicación (por ejemplo, el estado del tiempo o el tráfico durante el viaje cotidiano del lugar), activa la ubicación de Wi-Fi y de red móvil.</string>
     <string name="network_location_required_text_klp">Para ver las tarjetas basadas en la ubicación, como el clima local y el estado del tráfico, selecciona el modo de ubicación de ahorro de batería o de precisión alta.</string>
     <string name="never">Nunca</string>
@@ -2668,7 +2670,7 @@ Descubre y controla todas tus búsquedas de Google y mucho más en Mi Actividad.
     <string name="not_access_toast">Activa el acceso a las notificaciones para %1$s.</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Servicios de listas y notas</string>
-    <string name="notes_lists_none_preference_summary">Información secundaria</string>
+    <string name="notes_lists_none_preference_summary">El Asistente no sincronizará tus datos con ningún servicio.</string>
     <string name="notes_lists_none_preference_title">Ninguno</string>
     <string name="notes_lists_provider_changed_description">"Los datos de las notas y listas del Asistente ya no se actualizarán con %1$s. No se borrarán los datos existentes de %1$s.
 
@@ -2676,6 +2678,7 @@ Descubre y controla todas tus búsquedas de Google y mucho más en Mi Actividad.
     <string name="notes_lists_provider_changed_negative_button">Cancelar</string>
     <string name="notes_lists_provider_changed_positive_button">Aceptar</string>
     <string name="notes_lists_provider_changed_title">Desconectarse de %1$s</string>
+    <string name="notes_lists_title">El Asistente sincronizará periódicamente tus notas y listas con estos servicios.</string>
     <string name="notification_access_link_text">Desactivar el acceso a las notificaciones</string>
     <string name="notification_accessable_apps_category_title">Acceso a las notificaciones</string>
     <string name="notification_cancel_text">Google no volverá a realizar esta búsqueda cuando estés en línea.</string>
@@ -2799,6 +2802,7 @@ Descubre y controla todas tus búsquedas de Google y mucho más en Mi Actividad.
     <string name="opa_assist_app_screen_explanation">Para acceder al Asistente de Google, elige la app de Google en las opciones de configuración de Asistencia y entrada de voz</string>
     <string name="opa_assist_app_screen_title">La app de Google no es tu app de asistencia predeterminada</string>
     <string name="opa_assistant_logo_content_description">Búsqueda por voz</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Ver actualizaciones del Asistente de Google</string>
     <string name="opa_consent_check_error_button">Cerrar</string>
     <string name="opa_consent_check_error_button_notavailable">Cambiar de cuenta</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Según la configuración de tu cuenta, es posible que tu experiencia con el Asistente solo incluya resultados de la Web, información local y chistes.</string>
@@ -2875,7 +2879,6 @@ Aunque borres actividad del historial de tu Asistente, tus transacciones no se v
     <string name="opa_eyes_free_opt_in_speech">Cuando sea seguro, primero deberás presionar la notificación. Luego, podrás usar tus auriculares con el Asistente de Google.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Presiona para continuar</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Otorga permiso a tu Asistente de Google para que te ayude</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Presiona para continuar</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Hacerlo en otro momento</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Acepto</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">COMENZAR</string>
@@ -2936,6 +2939,7 @@ todo el historial de tu cuenta de Google desde"</string>
     <string name="opa_launcher_icon_text">Asistente</string>
     <string name="opa_lock_icon_description">Desbloquear ícono</string>
     <string name="opa_logo_content_desc">Logotipo del Asistente de Google</string>
+    <string name="opa_mark_content">Asistente</string>
     <string name="opa_marketplace_disclosure_description">Tu Asistente de Google trabaja con distintos servicios para que puedas completar tus tareas de manera más eficaz.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">El Asistente de Google trabaja con los socios de Google para ayudarte a completar tareas, como comprar entradas para el cine o arreglar el lavabo. &lt;a href=https://support.google.com/assistant/?p=google_partners>Más información&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Los socios de Google son empresas que tienen una relación comercial con Google. El Asistente de Google puede trabajar con ellos para ayudarte a completar tareas, como comprar entradas para el cine o reparar artefactos. <a href="https://support.google.com/assistant/?p=google_partners">Más información</a></string>
@@ -3394,6 +3398,7 @@ Tamaño aproximado: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Los elementos descargados se guardan en el dispositivo durante 7 días.</string>
     <string name="recently_empty_state_read_later_title_text">Añade páginas para leer más tarde</string>
     <string name="recently_entry_interaction_offline">La página solicitada no se puede abrir sin conexión.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Tablón</string>
     <string name="recently_google_doodle_for">Doodle de Google de %s</string>
     <string name="recently_keep_on_device_until">Guardar hasta:</string>
@@ -3408,17 +3413,17 @@ Abre este grupo de páginas para ver más."</string>
     <string name="recently_onboarding_recent_message_2">"Redescubre temas que has buscado recientemente en la aplicación de Google.
 
 Para cerrar este grupo, pellízcalo."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Vuelve a descubrir temas que has consultado recientemente en la aplicación de Google.</string>
     <string name="recently_onboarding_recent_title">Consulta lo que has encontrado</string>
     <string name="recently_onboarding_search_on_message">"Estas son las páginas que has visitado desde este dispositivo. Las páginas de una misma búsqueda se agrupan, con las más recientes en primer lugar.
 
 Sigue buscando aquí y redescubre lo que has encontrado."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Has visitado estas páginas desde este dispositivo. Aquí puedes buscar más o revisar las que ya has encontrado.</string>
     <string name="recently_onboarding_search_on_title">Sigue buscando</string>
     <string name="recently_onboarding_swipe_up_message">"¿Quieres descartar páginas recientes? Desliza el dedo hacia arriba para quitarlas.
 
 Esta acción no las eliminará de tu cuenta de Google."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">¿Quieres descartar algunas páginas recientes? Desliza el dedo hacia arriba para quitarlas, aunque no se borrarán de tu cuenta de Google.</string>
     <string name="recently_onboarding_swipe_up_title">Desliza el dedo hacia arriba</string>
     <string name="recently_overflow_title">Más opciones</string>
     <string name="recently_reading_reminder">Recordatorio de lectura:</string>
@@ -3450,6 +3455,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Web</string>
     <string name="recents_result_separate_group_header">Búsquedas recientes</string>
     <string name="recognizer_service_label">Reconocimiento de Google</string>
+    <string name="recommendation_header_text">Recomendaciones para ti</string>
     <string name="reconnecting_loading_results">"Cargando tus resultados
 "</string>
     <string name="reconnecting_title">Volviendo a conectar…</string>
@@ -3522,7 +3528,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Nombre</string>
     <string name="report_other_reason">Otra</string>
     <string name="report_this">Enviar informe</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Para que puedan descargarse episodios, entra en los permisos de la aplicación de Google y da acceso al espacio de almacenamiento</string>
     <string name="request_storage_permission_dialog_message">Para descargar episodios, Google necesita acceso al almacenamiento de tu dispositivo</string>
     <string name="request_storage_permission_dialog_title">Permitir acceso al espacio de almacenamiento</string>
     <string name="reservation_group_header">Reservas</string>
@@ -3604,10 +3610,12 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_assist_translate">Traducir</string>
     <string name="screen_context_desc">Obtén sugerencias relevantes del Asistente relacionadas con lo que aparece en tu pantalla</string>
     <string name="screen_context_title">Obtén información sobre el contenido de tu pantalla</string>
-    <string name="screen_locked_info">Your Assistant is available even when your phone is locked. You can turn this off in Assistant settings.</string>
+    <string name="screen_locked_info">Tu Asistente estará disponible aunque el teléfono esté bloqueado. Puedes desactivar esta opción en los ajustes del Asistente.</string>
     <string name="screen_moved">Pantalla movida</string>
     <string name="screenshot_srp_desc">Buscar %s.</string>
     <string name="screenshot_srp_pending_desc">Búsqueda pendiente de %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Búsqueda por voz pendiente</string>
+    <string name="screenshot_srp_voice_pending_title">búsqueda por voz</string>
     <string name="screenshot_web_desc">Visitar %s.</string>
     <string name="screenshot_webpage_pending_desc">Descarga pendiente</string>
     <string name="scroll_left">Desplazar hacia la izquierda</string>
@@ -3665,7 +3673,7 @@ Vuelve a buscar el podcast."</string>
     <string name="search_sources_tablet">Búsqueda en la tablet</string>
     <string name="search_storage_label">Almacenamiento de la Búsqueda de Google</string>
     <string name="search_tablet">Buscar en la tablet</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Buscar en la Web</string>
     <string name="search_the_web_menu_text">Buscar en la Web</string>
     <string name="search_the_web_suggestion">Buscar en la Web</string>
     <string name="search_widget_customization">Personalizar widget</string>
@@ -3907,6 +3915,7 @@ Para ponerlos en modo de suspensión o activarlos manualmente, "<b>toca tres vec
     <string name="standalone_zs_back_content_desc">Atrás</string>
     <string name="standalone_zs_brick_content_desc">Actualizaciones personales</string>
     <string name="standalone_zs_explore_content_desc">Abre Explorar y Tu contenido</string>
+    <string name="standalone_zs_opa_icon_desc">Asistente</string>
     <string name="star_rating_bar_content_description">Calificación por estrellas: %1$s</string>
     <string name="starting_location_selector">%1$s. Elige una ubicación.</string>
     <string name="starts_at">Comienza a la(s)</string>
@@ -3922,6 +3931,7 @@ Para ponerlos en modo de suspensión o activarlos manualmente, "<b>toca tres vec
     <string name="street_address_label">Dirección</string>
     <string name="subscribe_button_label">Suscribirse</string>
     <string name="subscribe_to_see_new_episodes">Suscribirse a podcasts para saber si hay episodios nuevos</string>
+    <string name="success">Listo</string>
     <string name="suggest">Autocompletar</string>
     <string name="suggest_contact_removal_body">Esta acción quitará a &lt;b>%1$s&lt;/b> de tu lista de Contactos más frecuentes. Puedes encontrar a &lt;b>%2$s&lt;/b> mediante una búsqueda.</string>
     <string name="suggest_contact_removal_cancel">CANCELAR</string>
@@ -4305,6 +4315,8 @@ Accediste como %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Di algo</string>
     <string name="user_defined_action_task_scene_control_title">Escenas</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Elige cuál de las escenas te gustaría incluir en esta rutina.</string>
+    <string name="user_defined_action_task_security_system_control_title">Activar sistema de seguridad</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">¿Qué modo quieres configurar?</string>
     <string name="user_defined_action_task_send_text_content_summary">Si dejas el número del destinatario o el contenido del mensaje en blanco, se te solicitará que lo completes cuando ejecutes esta rutina.</string>
     <string name="user_defined_action_task_send_text_content_title">¿Qué debería decir el SMS?</string>
     <string name="user_defined_action_task_send_text_recipient_title">¿A qué número te gustaría enviar un SMS?</string>

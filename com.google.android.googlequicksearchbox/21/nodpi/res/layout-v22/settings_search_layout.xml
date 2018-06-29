@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/monet_ignore_layout" android:layout_height="@dimen/monet_ignore_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/settings_search_bar" android:layout_width="fill_parent" android:layout_height="60.0dip" android:hint="@string/settings_search_bar_hint" android:inputType="text" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" android:importantForAutofill="no" />
+    <ImageButton android:layout_gravity="end" android:id="@id/settings_search_clear_button" android:background="@android:color/transparent" android:padding="18.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_clear_black_24" android:contentDescription="@string/settings_search_clear_description" />
+</LinearLayout>

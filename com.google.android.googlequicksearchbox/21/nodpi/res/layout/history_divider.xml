@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/history_divider" android:background="@color/chatui_solid_background_fill_v2" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/history_divider_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.gsa.now.shared.ui.WebImageView android:layout_gravity="center_vertical" android:id="@id/divider_logo_view" android:layout_width="@dimen/divider_logo_width" android:layout_height="@dimen/divider_logo_height" android:layout_marginLeft="@dimen/divider_logo_margin" android:layout_marginRight="@dimen/divider_logo_margin" android:src="@drawable/opa_assistant_logo" />
+    <TextView android:id="@id/divider_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ChatUi.Bubble.Google.V3" />
+</LinearLayout>

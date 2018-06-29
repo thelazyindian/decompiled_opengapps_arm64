@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">您想發短訊給誰？</string>
     <string name="action_sound_search_get_song">從 Google Play 下載</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">此操作與您正在輸入的內容相關。</string>
     <string name="action_unlock_device_tts">其實，我唔可以喺裝置上咗鎖時執行呢個操作。如果要繼續，唔該幫裝置解鎖。</string>
     <string name="action_video_call">視像通話</string>
     <string name="action_voice_call">撥打電話</string>
@@ -247,6 +248,10 @@
     <string name="agent_bookmark_error">發生錯誤，請稍後再試。</string>
     <string name="agent_bookmark_removed">已從書籤中移除</string>
     <string name="agent_description_more">更多</string>
+    <string name="agent_details_add_routine_description">從 %1$s 獲取更新，更有效完成您的日常習慣。</string>
+    <string name="agent_details_add_routine_item">新增</string>
+    <string name="agent_details_customize_routine">自訂您的日常習慣</string>
+    <string name="agent_details_manage_routines">管理日常習慣</string>
     <string name="agent_details_splash_image_a11y">「助理」應用程式圖片</string>
     <string name="agent_directory_a11y_back_button">返回</string>
     <string name="agent_directory_a11y_more_groups">更多</string>
@@ -488,6 +493,7 @@
 「助理」會根據這項設定為解答您往返路程的問題"</string>
     <string name="assistant_settings_commute_walk">步行</string>
     <string name="assistant_settings_commute_walk_key">往返 - 步行</string>
+    <string name="assistant_settings_contact_list_introduction">這是您要求「Google 助理」記下的聯絡人相關資料。</string>
     <string name="assistant_settings_custom_routines_description">只需一個指令，「助理」就能協助您處理生活大小事。您可以使用預設的日常事務 (可根據自己的需要調整)，也可以從新自訂。</string>
     <string name="assistant_settings_default_record_button_text">錄音</string>
     <string name="assistant_settings_delete_button_label">刪除</string>
@@ -633,13 +639,15 @@
     <string name="assistant_settings_music_provider_category_title">要求播放音樂時，「助理」會根據預設使用此音樂供應商。您仍然可以指定使用其他已連結的供應商播放音樂。</string>
     <string name="assistant_settings_music_title">音樂</string>
     <string name="assistant_settings_music_unable_unlink_default">無法解除連結您的預設音樂供應商</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">「YouTube 音樂」需要 YouTube Red 會籍方可在 Google Home 上播放。您可以前往 <a href="http://youtube.com/red">youtube.com/red</a> 申請會籍。</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">需要 YouTube Red 會籍</string>
+    <string name="assistant_settings_music_unlink_dialog_text">解除連結帳戶後，「Google 助理」便無法再播放「%1$s」的內容。</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">「YouTube 音樂」必須配合 YouTube Premium 會籍，才能在 Google Home 上播放。您可以前往 <a href="http://youtube.com/red">youtube.com/red</a> 申請。</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">必須具備 YouTube Premium 會員資格</string>
     <string name="assistant_settings_news_provider_delete_button_description">從您已啟用的新聞來源中移除「%1$s」</string>
     <string name="assistant_settings_news_supports_video">支援 Smart Displays 的影片</string>
     <string name="assistant_settings_news_title">新聞</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">您的暱稱包含「助理」無法讀出的字元。請在下一部分拼寫讀音。</string>
     <string name="assistant_settings_no_device_linked">Voice Match 讓「助理」能夠辨識您的聲音，以便為您提供個人資訊。此功能最多可為 6 位使用者提供時間表、音樂等個人資訊。</string>
+    <string name="assistant_settings_no_language_summary">無</string>
     <string name="assistant_settings_no_language_title">新增語言</string>
     <string name="assistant_settings_no_shopping_list">您沒有購物清單。</string>
     <string name="assistant_settings_notes_lists_title">筆記和清單</string>
@@ -807,6 +815,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">「持續對話」目前支援英文 (美國)。如果您的 Google Home 裝置沒有在此顯示，即表示這些裝置的主要帳戶持有人才可在「助理」設定中開啟或關閉「持續對話」。</string>
     <string name="assistant_settings_summer_time_mode_availability_description">您可以為這些 Google Home 裝置變更此功能</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">沒有可用裝置</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">「Google 助理」會在每次回覆後重新開啟裝置的麥克風，以便持續聽取問題。這些對話記錄會如常在「我的活動」上顯示。「Google 助理」會從您的 Google 帳戶中刪除未回覆的音訊內容。</string>
     <string name="assistant_settings_summer_time_mode_button_title">持續對話</string>
     <string name="assistant_settings_summer_time_mode_title">持續對話</string>
     <string name="assistant_settings_turn_off_voice_match">如果關閉 Voice Match 功能，您的帳戶便會與此裝置解除連結。如要使用已啟用「Google 助理」的裝置，您需要至少連結一個帳戶。確定要解除帳戶連結嗎？</string>
@@ -835,10 +844,8 @@
     <string name="assistant_settings_update_error_message">無法更新設定。請檢查您的連線。</string>
     <string name="assistant_settings_video_calls_service_category_title">「助理」可在一些如 Google Smart Display 般的裝置上使用您偏好的服務進行視像通話。這項功能不支援緊急電話服務。</string>
     <string name="assistant_settings_video_icon_text">影片供應商圖示</string>
-    <string name="assistant_settings_video_link_dialog_text">將您的 Google 帳戶連結至 %1$s，即可在兼容的裝置上啟用語音控制和播放功能。當您透過 Google Home 控制 %1$s 服務或要求取得與 %1$s 相關的資訊時，系統可能會將這些查詢傳送至 %1$s，讓該服務依照其私隱權聲明使用這些內容。</string>
     <string name="assistant_settings_video_provider_category_summary">讓「助理」播放電視節目和電影。</string>
     <string name="assistant_settings_video_provider_category_title">影片</string>
-    <string name="assistant_settings_video_unlink_dialog_text">解除連結帳戶後，語音控制功能將會關閉。</string>
     <string name="assistant_settings_videos_photos_title">影片和相片</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast 或內置 Chromecast 的電視</string>
     <string name="assistant_settings_voice_and_video_calls_title">語音和視像通話</string>
@@ -850,6 +857,21 @@
     <string name="assistant_settings_weather_title">天氣</string>
     <string name="assistant_settings_work_address_clear_dialog_title">要刪除工作地址嗎？</string>
     <string name="assistant_settings_work_title">公司地址</string>
+    <string name="assistant_settings_your_people_address">地址：%1$s</string>
+    <string name="assistant_settings_your_people_birthday">生日日期：%1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">記住生日日期</string>
+    <string name="assistant_settings_your_people_deletion_failure">發生問題，請稍後再試！</string>
+    <string name="assistant_settings_your_people_email">電郵地址：%1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">記住家庭成員</string>
+    <string name="assistant_settings_your_people_forget_button">清除</string>
+    <string name="assistant_settings_your_people_forget_dialog">此操作將清除您要求「Google 助理」記住的有關%1$s的任何詳情</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">要清除這些詳情嗎？</string>
+    <string name="assistant_settings_your_people_forget_menu_option">清除這些詳情</string>
+    <string name="assistant_settings_your_people_phone">電話：%1$s</string>
+    <string name="assistant_settings_your_people_splash">之後，當您說「打俾媽咪」或「阿哥幾時生日」之類的指令時，「Google 助理」就能為您提供協助。</string>
+    <string name="assistant_settings_your_people_splash_title">告訴「Google 助理」聯絡人與您之間的關係</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">您可向「Google 助理」發出這些指令</string>
+    <string name="assistant_settings_your_people_title">您的聯絡人</string>
     <string name="assistant_speaker_id_default_category_summary">只有「助理」能夠在這些裝置上辨認出您的聲音時，才會提供您的個人資料</string>
     <string name="assistant_speaker_id_default_category_title">透過 Voice Match 共用裝置</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">無法完成註冊。</string>
@@ -888,7 +910,7 @@
     <string name="available_pick_up">可取貨</string>
     <string name="back">返回</string>
     <string name="back_of_card_close">關閉</string>
-    <string name="background_notification_onboarding">即使處於離線狀態也沒問題。Google 會記住您的搜尋，並在結果準備好時通知您。</string>
+    <string name="background_notification_onboarding">離線了？沒問題。Google 會記住您的搜尋，並在結果準備好時通知您。</string>
     <string name="background_notification_onboarding_accept">確定</string>
     <string name="background_notification_onboarding_decline">關閉</string>
     <string name="background_notification_ready">搜尋結果已準備就緒</string>
@@ -1008,7 +1030,7 @@
     <string name="cloud_search_history_summary_fetching">正在擷取設定...</string>
     <string name="collapse">收合</string>
     <string name="collapse_time_to_leave">隱藏這個班次的選項。</string>
-    <string name="collections">收藏</string>
+    <string name="collections">已儲存</string>
     <string name="comment_hint">其他評論 (選填)。</string>
     <string name="common_address_clear_button_label">清除</string>
     <string name="common_address_clear_confirm_button">刪除</string>
@@ -1242,6 +1264,10 @@
     <string name="device_setup_error_cancel_button">取得說明</string>
     <string name="device_setup_error_content">發生錯誤</string>
     <string name="device_setup_error_title">發生問題</string>
+    <string name="devices_scan_action_button">繼續</string>
+    <string name="devices_scan_cancel_button">取消</string>
+    <string name="devices_scan_explanation">選擇裝置</string>
+    <string name="devices_scan_title">新增裝置</string>
     <string name="directory_for_mall">「%1$s」的商場指南</string>
     <string name="disclaimer">免責聲明</string>
     <string name="dismiss_text">向下拖曳即可關閉</string>
@@ -1273,7 +1299,7 @@
     <string name="download_not_found">找不到下載內容</string>
     <string name="download_prompt">下載</string>
     <string name="download_setting_message">已下載的分集將於 30 天後或聽完 24 小時後移除</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">已下載</string>
     <string name="downloaded_episodes">已下載的分集</string>
     <string name="downloading">正在下載…</string>
     <string name="downloads">下載內容</string>
@@ -1315,7 +1341,7 @@
     <string name="email_subject">回覆：%1$s</string>
     <string name="empty_agenda">"您的待辦事項在
 未來 2 星期內沒有任何活動。"</string>
-    <string name="empty_agenda_image_description">圖片裡未顯示任何待辦事項。</string>
+    <string name="empty_agenda_image_description">空白待辦事項的圖片</string>
     <string name="empty_relationship_subtitle">您尚未設定任何暱稱。請嘗試在 Google app 或 Google 啟動器上的主畫面，輕按麥克風或說出「Ok Google」，然後說「打電話俾媽咪」。</string>
     <string name="empty_relationship_title">透過 Google 為您裝置上的聯絡人建立暱稱</string>
     <string name="empty_state_text">目前沒有可用的內容</string>
@@ -1337,7 +1363,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">可觀看的分集</string>
     <string name="episode_page_section_title">分集</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">為您推薦</string>
     <string name="error">錯誤</string>
     <string name="error_adding_location_snackbar_text">新增位置時發生錯誤</string>
@@ -1404,7 +1429,6 @@
     <string name="eyes_donate_data_optin_ok">確定</string>
     <string name="eyes_donate_data_optin_title">提供「智能鏡頭」所拍的圖片</string>
     <string name="eyes_flash_button_description">切換閃光燈</string>
-    <string name="eyes_initial_suggestion_0">您能識別哪些內容？</string>
     <string name="eyes_launcher_description">Google 智能鏡頭</string>
     <string name="eyes_no_permission">系統無權執行此操作</string>
     <string name="eyes_no_permission_camera">系統無權使用相機</string>
@@ -1432,7 +1456,6 @@
     <string name="eyes_onboarding_title_text">掃瞄文字</string>
     <string name="eyes_request_timed_out_message">抱歉，目前無法連線至 Google</string>
     <string name="eyes_share_with">分享對象</string>
-    <string name="eyes_unfreeze_image_description">番去相機</string>
     <string name="eyes_viewfinder_description">啟動 Google 智能鏡頭</string>
     <string name="failed">無法載入相片</string>
     <string name="failed_to_open_webview">無法開啟網頁</string>
@@ -1557,8 +1580,13 @@
     <string name="folder_renamed">資料夾已重新命名為「%1$s」</string>
     <string name="folder_tap_to_close">輕觸即可關閉資料夾</string>
     <string name="folder_tap_to_rename">輕觸即可儲存新改的名稱</string>
-    <string name="follow_world_cup_promo">追蹤世界盃</string>
-    <string name="follow_world_cup_promo_content_description">追蹤世界盃</string>
+    <string name="follow_soccer_promo_query">2018 年足球盛事</string>
+    <string name="follow_world_cup_promo">緊貼世界盃消息</string>
+    <string name="follow_world_cup_promo_content_description">緊貼世界盃消息</string>
+    <string name="follow_world_cup_promo_detail">輕按這裡即可申請接收喜愛球隊的賽事提醒和即時比數</string>
+    <string name="follow_world_cup_promo_long_soccer_title">緊貼足球賽事最新消息</string>
+    <string name="follow_world_cup_promo_query">2018 年世界盃</string>
+    <string name="follow_world_cup_promo_short_soccer_title">足球熱門消息一網打盡！</string>
     <string name="forbid_download_removal">無法移除正在播放的分集</string>
     <string name="fourth_quarter">第 4 節</string>
     <string name="fourth_quarter_abbrev">第 4 節</string>
@@ -1677,7 +1705,7 @@
     <string name="google_play_services_update_button">更新 Google Play 服務</string>
     <string name="google_play_services_update_required">如要繼續使用資訊提供，您必須更新 Google Play 服務</string>
     <string name="google_plus_profile_contact_label">Google+ 個人檔案</string>
-    <string name="google_podcasts">Google Podcast</string>
+    <string name="google_podcasts">Google Podcasts</string>
     <string name="google_search_disabled_toast">您沒有權限使用「Google 搜尋」。</string>
     <string name="goto_system_settings">設定</string>
     <string name="group_desc">第 %1$d 組，總共 %2$d 組。</string>
@@ -1764,9 +1792,9 @@
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">返回</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">我確定</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">您確定嗎？</string>
-    <string name="hotword_enrollment_google_home_share_message">"您好！我剛剛教導「助理」在 Google Home 上識別我的聲音，以便取得個人化結果。
+    <string name="hotword_enrollment_google_home_share_message">"您好！我剛剛教導我的「助理」在 Google Home 上識別我的語音，以便取得個人化結果。
 
-您也可以取得為您度身訂造的答案！請先安裝 Google Home 應用程式：https://google.com/home/setup"</string>
+您亦可以取得為您度身訂造的答案！只需安裝 Google Home 應用程式，即可開始使用：https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">教導「Google 助理」識別您</string>
     <string name="hotword_enrollment_google_home_share_screen_done">邀請</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">您可以在「%1$s」中查看或刪除語音活動，也可以在「助理」設定中關閉 Voice Match。</string>
@@ -1790,7 +1818,7 @@
     <string name="hotword_enrollment_optin_udc_summary_item2">這有助 Google 識別您的語音並提升語音及音訊識別效能，讓搜尋更快捷方便。</string>
     <string name="hotword_enrollment_optin_udc_summary_item3">您可以隨時前往 %1$s 變更此設定或管理您的私人資料。請謹記，「語音和音訊活動記錄」啟用後，系統可能會從任何您已登入的裝置中取得並儲存這些資料。</string>
     <string name="hotword_enrollment_optin_udc_title">儲存「語音及音訊活動記錄」</string>
-    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{Voice Match 可在這部裝置上為{PERSON}的聲音建立獨一無二的語音模型，協助「Google 助理」分辨其聲音。&lt;br>&lt;br>{PERSON}可利用「Google 助理」玩遊戲，或查看「Google 日曆」上的學校派對是什麼時候。雖然有些功能是專為兒童而設的，但大部分內容主要供一般大眾使用。&lt;a href=\"{LINK}\">瞭解詳情&lt;/a>&lt;br>&lt;br>&lt;b>注意事項&lt;/b>：如果有人與{PERSON}的聲音相似或有其錄音，便可能會存取到個人化結果。日後如需移除 Voice Match 存取權限，您只需在「Google 助理」設定或 Family Link 中關閉這項功能即可。}female{Voice Match 可在這部裝置上為{PERSON}的聲音建立獨一無二的語音模型，協助「Google 助理」分辨其聲音。&lt;br>&lt;br>{PERSON}可利用「Google 助理」玩遊戲，或查看「Google 日曆」上的學校派對是什麼時候。雖然有些功能是專為兒童而設的，但大部分內容主要供一般大眾使用。&lt;a href=\"{LINK}\">瞭解詳情&lt;/a>&lt;br>&lt;br>&lt;b>注意事項&lt;/b>：如果有人與{PERSON}的聲音相似或有其錄音，便可能會存取到個人化結果。日後如需移除 Voice Match 存取權限，您只需在「Google 助理」設定或 Family Link 中關閉這項功能即可。}other{Voice Match 可在這部裝置上為{PERSON}的聲音建立獨一無二的語音模型，協助「Google 助理」分辨其聲音。&lt;br>&lt;br>{PERSON}可利用「Google 助理」玩遊戲，或查看「Google 日曆」上的學校派對是什麼時候。雖然有些功能是專為兒童而設的，但大部分內容主要供一般大眾使用。&lt;a href=\"{LINK}\">瞭解詳情&lt;/a>&lt;br>&lt;br>&lt;b>注意事項&lt;/b>：如果有人與{PERSON}的聲音相似或有其錄音，便可能會存取到個人化結果。日後如需移除 Voice Match 存取權限，您只需在「Google 助理」設定或 Family Link 中關閉這項功能即可。}}</string>
+    <string name="hotword_enrollment_parent_intro_summary">{GENDER,select, male{Voice Match 可在這部裝置上為{PERSON}的聲音建立獨一無二的語音模型，協助「Google 助理」分辨。&lt;br>&lt;br>{PERSON}可透過「Google 助理」玩遊戲，或在「Google 日曆」上查看學校派對的舉行時間。雖然有些功能是專為兒童而設的，但大部分內容主要供一般大眾使用。&lt;a href=\"{LINK}\">瞭解詳情&lt;/a>&lt;br>&lt;br>&lt;b>注意事項&lt;/b>：如果有人與{PERSON}的聲音相似或有其錄音，便可能會存取到個人化結果。日後如需移除 Voice Match 存取權限，您只需在「Google 助理」設定或 Family Link 中關閉這項功能即可。}female{Voice Match 可在這部裝置上為{PERSON}的聲音建立獨一無二的語音模型，協助「Google 助理」分辨。&lt;br>&lt;br>{PERSON}可透過「Google 助理」玩遊戲，或在「Google 日曆」上查看學校派對的舉行時間。雖然有些功能是專為兒童而設的，但大部分內容主要供一般大眾使用。&lt;a href=\"{LINK}\">瞭解詳情&lt;/a>&lt;br>&lt;br>&lt;b>注意事項&lt;/b>：如果有人與{PERSON}的聲音相似或有其錄音，便可能會存取到個人化結果。日後如需移除 Voice Match 存取權限，您只需在「Google 助理」設定或 Family Link 中關閉這項功能即可。}other{Voice Match 可在這部裝置上為{PERSON}的聲音建立獨一無二的語音模型，協助「Google 助理」分辨其聲音。&lt;br>&lt;br>{PERSON}可透過「Google 助理」玩遊戲，或在「Google 日曆」上查看學校派對的舉行時間。雖然有些功能是專為兒童而設的，但大部分內容主要供一般大眾使用。&lt;a href=\"{LINK}\">瞭解詳情&lt;/a>&lt;br>&lt;br>&lt;b>注意事項&lt;/b>：如果有人與{PERSON}的聲音相似或有其錄音，便可能會存取到個人化結果。日後如需移除 Voice Match 存取權限，您只需在「Google 助理」設定或 Family Link 中關閉這項功能即可。}}</string>
     <string name="hotword_enrollment_parent_intro_summary_learn_more_link">https://support.google.com/families/answer/7521263</string>
     <string name="hotword_enrollment_parent_intro_title">教導 Google 助理識別%1$s的聲音</string>
     <string name="hotword_enrollment_parent_selector_family_fetch_failed">擷取家庭資訊時發生錯誤。</string>
@@ -1802,14 +1830,14 @@
 
 現在您只要啟用個人化結果，便可在這部裝置上透過您的聲音使用日曆、通訊錄、提醒等功能。
 
-即使您未有提出要求，個人化結果和 YouTube 個人化推薦內容亦可能會顯示在主畫面或以通知的形式顯示。請注意，裝置附近的人亦可出於好奇輕按這些結果來執行相關操作。
+個人化結果和和 YouTube 個人化推薦可在沒有您的指示下，在主畫面或以通知形式顯示。請注意，裝置附近的人也能輕按結果並執行相關操作。
 
-您可在「Google 助理」設定中停用個人化結果。"</string>
+您可在「Google 助理」設定中停用此功能。"</string>
     <string name="hotword_enrollment_personal_results_explanation_non_dragonglass">"Voice Match 已設定完成。
 
 現在您只要啟用個人化結果，便可在這部裝置上透過您的聲音使用日曆、通訊錄、提醒等功能。
 
-您可在「Google 助理」設定中停用個人化結果。"</string>
+您可在「Google 助理」設定中停用此功能。"</string>
     <string name="hotword_enrollment_personal_results_title">透過您的聲音取得個人化結果</string>
     <string name="hotword_enrollment_pref_category_voice_model">「Ok Google」語音模型</string>
     <string name="hotword_enrollment_retrain_voice_model">重新調校語音模型</string>
@@ -1898,7 +1926,7 @@
     <string name="hourly_forecast">每小時預測</string>
     <string name="hours">小時</string>
     <string name="how_can_i_help">需要什麼協助呢？</string>
-    <string name="hq_a11y_bottom_bar_button">開啟麥克風即可與「助理」交談</string>
+    <string name="hq_a11y_bottom_bar_button">Google 助理</string>
     <string name="hq_a11y_chatui_badge">開啟並探索您的事物</string>
     <string name="hq_a11y_menu_button">選單</string>
     <string name="hq_account_switch_prompt">正在以 %1$s 的身分登入</string>
@@ -2026,10 +2054,10 @@
     <string name="inferred_event_error">無法建立活動</string>
     <string name="inferred_from_gmail">在 Gmail 中稱為「%1$s」</string>
     <string name="info_target_label">應用程式資料</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">下載 Google Podcasts 應用程式</string>
+    <string name="install_google_podcasts_accept">下載應用程式</string>
+    <string name="install_google_podcasts_message">從「Play 商店」下載 Google Podcasts 應用程式，方便收聽喜愛的內容</string>
+    <string name="install_google_podcasts_reject">暫時不要</string>
     <string name="installed_app_group_header">應用程式</string>
     <string name="installed_details">已安裝版本 %1$s，大小為 %2$s</string>
     <string name="installed_language_packs">已安裝</string>
@@ -2070,7 +2098,7 @@
     <string name="item_is_selected">已選取 %1$s</string>
     <string name="item_moved">已移動項目</string>
     <string name="item_removed">項目已移除</string>
-    <string name="jasper_duo_knock_knock_summary">在接聽來電前，您會看到來電者的視訊影像，而對方也會在手機響起時看到您的視訊影像。&lt;a href=\"https://support.google.com/duo/answer/6376115\">瞭解詳情&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">在接聽來電前，您會看到來電者的視訊影像，而對方也會在手機響起時看到您的視訊影像。%1$s</string>
     <string name="jasper_duo_knock_knock_title">看看是誰</string>
     <string name="jasper_duo_not_signed_in">未登入</string>
     <string name="jasper_duo_signed_in">已登入</string>
@@ -2166,10 +2194,10 @@
     <string name="location_service_required_title">取得位置資訊卡</string>
     <string name="lockscreen_mic_promo_notification_content">說出「%1$s」以解鎖手機。</string>
     <string name="lockscreen_mic_promo_notification_title">使用語音解鎖</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">連扲兩下，然後扲住，就可以新增小工具，或者執行自訂操作。</string>
     <string name="long_press_widget_to_add">輕觸並按住小工具即可選取。</string>
     <string name="longpress_menu_download">下載圖片</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">分享圖片</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2186,7 +2214,7 @@
     <string name="manage_search_history_authenticating_message">正在以 %1$s 的身分登入...</string>
     <string name="manage_search_history_authenticating_title">登入中</string>
     <string name="manage_space_all_size_label">總儲存空間</string>
-    <string name="manage_space_all_storage_descriptive_text">清除所有「Google 搜尋」資料，包括這部裝置上的搜尋記錄和資訊提供設定</string>
+    <string name="manage_space_all_storage_descriptive_text">清除這部裝置上的所有「Google 搜尋」資料，包括搜尋記錄和資訊提供設定</string>
     <string name="manage_space_clear_all_data">清除所有資料</string>
     <string name="manage_space_clear_all_data_dlg_text">系統將永久刪除這部裝置上的所有「Google 搜尋」、資訊提供和「Google 即時資訊啟動器」資料</string>
     <string name="manage_space_clear_all_data_dlg_title">刪除所有資料？</string>
@@ -2203,10 +2231,10 @@
     <string name="map_content_description">地圖</string>
     <string name="map_route_content_description">前往%1$s的地圖</string>
     <string name="maps_mode_landing_text">搜尋地圖</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">標示為已播放</string>
+    <string name="mark_as_unplayed">標示為未播放</string>
     <string name="media_content_image">與資訊卡所顯示媒體內容相關的圖片</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">您的 Podcast</string>
     <string name="media_route_chooser_dialog_title">投放至</string>
     <string name="media_route_chooser_searching">正在搜尋裝置…</string>
     <string name="media_route_controller_cancel">取消</string>
@@ -2219,13 +2247,11 @@
     <string name="menu_overlay_feedback">傳送意見</string>
     <string name="menu_overlay_reset_to_default_style">重設為預設樣式</string>
     <string name="menu_refresh">重新整理</string>
-    <string name="menu_search_by_image">以圖搜尋</string>
     <string name="menu_send_button_content_description">用來提交意見的 [傳送] 按鈕。</string>
     <string name="menu_send_feedback">傳送意見</string>
     <string name="menu_settings">設定</string>
     <string name="menu_share">分享</string>
     <string name="menu_view_in_browser">在瀏覽器中查看</string>
-    <string name="menu_view_original_image">查看原圖</string>
     <string name="menu_visit_page">瀏覽網頁</string>
     <string name="message_card_feedback">意見反映</string>
     <string name="message_image">圖片</string>
@@ -2270,7 +2296,6 @@
     <string name="minus_one_header_settings">設定</string>
     <string name="minute_picker_description">分鐘環形滑桿</string>
     <string name="minutes">分鐘</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">其他</string>
     <string name="mismatching_value_eir_code">必須與地址相符</string>
     <string name="mismatching_value_pin_code">必須與地址相符</string>
@@ -2351,7 +2376,6 @@
     <string name="network_error_fetching_weather_data_status_text">目前沒有網絡</string>
     <string name="network_error_no_connection_tts">目前未連線至互聯網。</string>
     <string name="network_error_resend_audio">重新傳送語音</string>
-    <string name="network_error_try_again">重試</string>
     <string name="network_location_required_text">如要看到位置資訊卡 (例如本地天氣和往返路程交通)，請啟用 Wi-Fi 和流動網絡位置</string>
     <string name="network_location_required_text_klp">如要看到位置資訊卡 (例如本地天氣和往返路程交通)，請選取高精確度或省電定位模式</string>
     <string name="never">永不</string>
@@ -2443,7 +2467,7 @@
     <string name="none">無</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">清單和筆記服務</string>
-    <string name="notes_lists_none_preference_summary">次要資訊</string>
+    <string name="notes_lists_none_preference_summary">「Google 助理」將不會與任何服務同步您的資料。</string>
     <string name="notes_lists_none_preference_title">無</string>
     <string name="notes_lists_provider_changed_description">"%1$s 不會再更新「Google 助理」的筆記和清單資料。%1$s 的既有資料不會被刪除。
 
@@ -2451,6 +2475,7 @@
     <string name="notes_lists_provider_changed_negative_button">取消</string>
     <string name="notes_lists_provider_changed_positive_button">同意</string>
     <string name="notes_lists_provider_changed_title">解除連接 %1$s</string>
+    <string name="notes_lists_title">「Google 助理」會一直將您的筆記和清單同步至這些服務。</string>
     <string name="notification_access_link_text">關閉通知存取權</string>
     <string name="notification_accessable_apps_category_title">通知權限</string>
     <string name="notification_cancel_text">Google 不會在您恢復連線時重新搜尋此項目。</string>
@@ -2570,6 +2595,7 @@
     <string name="opa_assist_app_screen_explanation">如要使用「Google 助理」，請在「小幫手及語音輸入」設定中選擇 Google 應用程式</string>
     <string name="opa_assist_app_screen_title">Google 應用程式並非您的預設助理應用程式</string>
     <string name="opa_assistant_logo_content_description">語音搜尋</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">查看「Google 助理」的更新資訊</string>
     <string name="opa_consent_check_error_button">關閉</string>
     <string name="opa_consent_check_error_button_notavailable">切換帳戶</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">根據您的帳戶設定，您可使用的「Google 助理」功能或只限於網頁搜尋、講笑話和提供本地資訊等。</string>
@@ -2646,7 +2672,6 @@
     <string name="opa_eyes_free_opt_in_speech">喺安全情況下，您需要先扲一下通知，先可以透過耳機用「Google 助理」。</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">輕按以繼續</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">授權「Google 助理」協助您</string>
-    <string name="opa_eyes_warm_welcome_chip_text">輕按即可繼續</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">稍後</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">我同意</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">開始使用</string>
@@ -2707,6 +2732,7 @@
     <string name="opa_launcher_icon_text">助理</string>
     <string name="opa_lock_icon_description">解鎖圖示</string>
     <string name="opa_logo_content_desc">「Google 助理」標誌</string>
+    <string name="opa_mark_content">Google 助理</string>
     <string name="opa_marketplace_disclosure_description">您的「Google 助理」可配合不同的服務，助您完成更多事情。</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">「Google 助理」可配合 Google 合作商家，助您完成各項事情，由訂購電影門票，到找人維修洗手盆都沒有問題。&lt;a href=https://support.google.com/assistant/?p=google_partners>瞭解詳情&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google 合作夥伴是指與 Google 有商業往來的公司。「Google 助理」可配合 Google 合作夥伴，助您完成各項事情，由訂購電影門票，到找人維修洗手盆都沒有問題。<a href="https://support.google.com/assistant/?p=google_partners">瞭解詳情</a></string>
@@ -2937,15 +2963,15 @@
     <string name="personal_results_enabled_title">提高個人化結果的安全性</string>
     <string name="personal_results_explanation_dragonglass">"只要啟用個人化結果，即可在這部裝置上使用日曆、通訊錄和提醒等功能。
 
-即使您未有提出要求，個人化結果亦可能會顯示在主畫面或以通知的形式顯示。
+個人化結果可在沒有您的指示下，在主畫面或以通知形式顯示。
 
-請注意，這部裝置的其他使用者也可取得您的個人化結果。您可在「Google 助理」設定中停用個人化結果。"</string>
+請注意，這部裝置的其他使用者也會看到您的個人化結果。您可在「Google 助理」設定中停用此功能。"</string>
     <string name="personal_results_explanation_non_dragonglass">"只要啟用個人化結果，即可在這部裝置上使用日曆、通訊錄和提醒等功能。
 
-請注意，這部裝置的其他使用者也可取得您的個人化結果。您可在「Google 助理」設定中停用個人化結果。"</string>
+請注意，這部裝置的其他使用者也會看到您的個人化結果。您可在「Google 助理」設定中停用此功能。"</string>
     <string name="personal_results_title">取得個人化結果</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用個人化結果。}female{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用個人化結果。}other{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用個人化結果。}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>即使{PERSON}未有提出要求，個人化結果亦可能會顯示在主畫面或以通知的形式顯示。請注意，裝置附近的人亦可出於好奇輕按這些結果來執行相關操作。&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用個人化結果。}female{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>即使{PERSON}未有提出要求，個人化結果亦可能會顯示在主畫面或以通知的形式顯示。請注意，裝置附近的人亦可出於好奇輕按這些結果來執行相關操作。&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用個人化結果。}other{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>即使{PERSON}未有提出要求，個人化結果亦可能會顯示在主畫面或以通知的形式顯示。請注意，裝置附近的人亦可出於好奇輕按這些結果來執行相關操作。&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用個人化結果。}}</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>個人化結果可在沒有{PERSON}的指示下，在主畫面上以通知形式顯示。請注意，裝置附近的人也能輕按結果並執行相關操作。&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用此功能。}female{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>個人化結果可在沒有{PERSON}的指示下，在主畫面上以通知形式顯示請注意，裝置附近的人也能輕按結果並執行相關操作。&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用此功能。}other{Voice Match 已設定完成。&lt;br>&lt;br>現在您只要啟用個人化結果，{PERSON}便可在這部裝置上透過自己的聲音使用日曆、通訊錄和提醒等功能。&lt;a href=\"https://support.google.com/families/answer/7521263\">瞭解詳情&lt;/a>&lt;br>&lt;br>個人化結果可在沒有{PERSON}的指示下，在主畫面上以通知形式顯示請注意，裝置附近的人也能輕按結果並執行相關操作。&lt;br>&lt;br>您可在「Google 助理」設定或 Family Link 中停用此功能。}}</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{透過{PERSON}的聲音取得個人化結果。}male{透過{PERSON}的聲音取得個人化結果。}other{透過{PERSON}的聲音取得個人化結果。}}</string>
     <string name="personal_search">個人化搜尋</string>
     <string name="phone_display_name">撥號</string>
@@ -3132,6 +3158,7 @@
     <string name="recently_empty_state_read_later_body_text">系統會保留下載至裝置上的項目 7 天。</string>
     <string name="recently_empty_state_read_later_title_text">新增網頁以供稍後查看</string>
     <string name="recently_entry_interaction_offline">無法在離線時開啟要求的網頁。</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">資訊提供</string>
     <string name="recently_google_doodle_for">「%s」的 Google Doodle</string>
     <string name="recently_keep_on_device_until">保留在裝置上，直至：</string>
@@ -3146,17 +3173,17 @@
     <string name="recently_onboarding_recent_message_2">"重新探索您最近在 Google app 中尋找的主題。
 
 兩指縮放即可關閉群組。"</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">重新探索您最近在 Google app 中搜尋過的主題。</string>
     <string name="recently_onboarding_recent_title">查看您找到的內容</string>
     <string name="recently_onboarding_search_on_message">"這裡會顯示您曾在此裝置上瀏覽的網頁。在同一次搜尋中找到的網頁會組合起來，並由新至舊順序排列。
 
 請在這裡繼續搜尋和重新探索您找到的內容。"</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">這些是您曾在此裝置上瀏覽的網頁。請在這裡繼續搜尋和重新探索您找到的內容。</string>
     <string name="recently_onboarding_search_on_title">搜尋功能已開啟</string>
     <string name="recently_onboarding_swipe_up_message">"想刪除最近瀏覽的網頁嗎？只需向上快速滑動即可移除。
 
 此操作不會從 Google 帳戶中刪除這些網頁。"</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">想刪除最近瀏覽的網頁嗎？只需向上快速滑動即可移除。此操作不會從 Google 帳戶中刪除這些網頁。</string>
     <string name="recently_onboarding_swipe_up_title">向上快速滑動</string>
     <string name="recently_overflow_title">更多選項</string>
     <string name="recently_reading_reminder">閱讀提醒：</string>
@@ -3188,6 +3215,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s 的搜尋結果"</string>
     <string name="recents_result_group_header">網絡</string>
     <string name="recents_result_separate_group_header">最近的搜尋</string>
     <string name="recognizer_service_label">Google 基本語音識別</string>
+    <string name="recommendation_header_text">為您推薦</string>
     <string name="reconnecting_loading_results">"正在載入結果
 "</string>
     <string name="reconnecting_title">正在重新連接…</string>
@@ -3260,7 +3288,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s 的搜尋結果"</string>
     <string name="renter_name">名稱</string>
     <string name="report_other_reason">其他</string>
     <string name="report_this">舉報此內容</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">如要下載分集，請在「Google 應用程式權限」中授予儲存空間存取權</string>
     <string name="request_storage_permission_dialog_message">如要下載分集，Google 需要使用您裝置的儲存空間。</string>
     <string name="request_storage_permission_dialog_title">授予儲存空間的使用權限</string>
     <string name="reservation_group_header">預訂</string>
@@ -3345,6 +3373,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s 的搜尋結果"</string>
     <string name="screen_moved">已移動螢幕</string>
     <string name="screenshot_srp_desc">搜尋「%s」。</string>
     <string name="screenshot_srp_pending_desc">有待搜尋：%s</string>
+    <string name="screenshot_srp_voice_pending_desc">等待語音搜尋</string>
+    <string name="screenshot_srp_voice_pending_title">語音搜尋</string>
     <string name="screenshot_web_desc">瀏覽「%s」。</string>
     <string name="screenshot_webpage_pending_desc">正在等待下載</string>
     <string name="scroll_left">向左捲動</string>
@@ -3402,7 +3432,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s 的搜尋結果"</string>
     <string name="search_sources_tablet">平板電腦搜尋</string>
     <string name="search_storage_label">Google 搜尋儲存空間</string>
     <string name="search_tablet">搜尋平板電腦</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">搜尋網絡</string>
     <string name="search_the_web_menu_text">搜尋網絡</string>
     <string name="search_the_web_suggestion">搜尋網絡</string>
     <string name="search_widget_customization">自訂小工具</string>
@@ -3630,7 +3660,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s 的搜尋結果"</string>
     <string name="sports_wins_header">勝</string>
     <string name="sports_wins_header_full_length">勝</string>
     <string name="standalone_zs_back_content_desc">返回</string>
+    <string name="standalone_zs_brick_content_desc">個人資料更新</string>
     <string name="standalone_zs_explore_content_desc">開啟並探索您的事物</string>
+    <string name="standalone_zs_opa_icon_desc">Google 助理</string>
     <string name="star_rating_bar_content_description">星級評分：%1$s</string>
     <string name="starting_location_selector">%1$s。選擇出發地點。</string>
     <string name="starts_at">開始時間：</string>
@@ -3646,6 +3678,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s 的搜尋結果"</string>
     <string name="street_address_label">街道地址</string>
     <string name="subscribe_button_label">訂閱</string>
     <string name="subscribe_to_see_new_episodes">訂閱 Podcast 即可查看最新劇集</string>
+    <string name="success">成功</string>
     <string name="suggest">自動完成</string>
     <string name="suggest_contact_removal_body">&lt;b>%1$s&lt;/b>將會從「常用聯絡人」清單中移除。您仍可以搜尋&lt;b>%2$s&lt;/b>。</string>
     <string name="suggest_contact_removal_cancel">取消</string>
@@ -4005,6 +4038,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s 的搜尋結果"</string>
     <string name="user_defined_action_task_say_something_title">發出語音指令</string>
     <string name="user_defined_action_task_scene_control_title">場景</string>
     <string name="user_defined_action_task_scene_control_which_scenes">選擇您要在此日常事務中納入的場景。</string>
+    <string name="user_defined_action_task_security_system_control_title">啟動保安系統</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">您想設定哪種模式？</string>
     <string name="user_defined_action_task_send_text_content_summary">如果您將收件者號碼或訊息內容留空，系統會在您執行此日常事務時提示您填入內容。</string>
     <string name="user_defined_action_task_send_text_content_title">您要輸入什麼短訊內容？</string>
     <string name="user_defined_action_task_send_text_recipient_title">您要發短訊給哪個號碼？</string>

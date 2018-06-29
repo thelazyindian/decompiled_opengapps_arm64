@@ -181,7 +181,7 @@
     <string name="download_failed">Allalaadimine ebaõnnestus</string>
     <string name="download_not_found">Allalaaditud faili ei leitud</string>
     <string name="download_setting_message">Allalaaditud jaod eemaldatakse 30 päeva pärast või 24 tundi pärast lõpetamist</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Alla laaditud</string>
     <string name="downloaded_episodes">Allalaaditud jaod</string>
     <string name="downloading">Allalaadimine …</string>
     <string name="downloads">Allalaadimised</string>
@@ -194,7 +194,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Saadaolevad jaod</string>
     <string name="episode_page_section_title">Jagu</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Teile</string>
     <string name="error">Viga</string>
     <string name="error_message">Otsing ebaõnnestus. Proovige hiljem uuesti.</string>
@@ -369,10 +368,10 @@ Otsige podcasti uuesti."</string>
     <string name="image_viewer_visit_site">Külasta</string>
     <string name="indexing_not_ready">Meil ei ole veel sisu teile kuvamiseks. Looge Interneti-ühendus ja tulge mõne minuti pärast tagasi.</string>
     <string name="info_target_label">Rakenduse teave</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Hankige rakendus Google Podcasts</string>
+    <string name="install_google_podcasts_accept">Hangi rakendus</string>
+    <string name="install_google_podcasts_message">Kiireks juurdepääsuks hankige Play poest rakendus Google Podcasts</string>
+    <string name="install_google_podcasts_reject">Mitte praegu</string>
     <string name="installed_app_group_header">Rakendused</string>
     <string name="ipa_app_filter_content_description">Tulemused rakendusest %s.</string>
     <string name="ipa_app_filter_more_description">Vaadake rohkem tulemusi rakendusest %s.</string>
@@ -401,20 +400,17 @@ Otsige podcasti uuesti."</string>
     <string name="long_accessible_way_to_add">Topeltpuudutage ja hoidke vidina valimiseks või kohandatud toimingute kasutamiseks.</string>
     <string name="long_press_widget_to_add">Vidina valimiseks vajutage ja hoidke seda all.</string>
     <string name="longpress_menu_download">Laadi kujutis alla</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Jaga kujutist</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="mark_as_played">Märgi esitatuks</string>
+    <string name="mark_as_unplayed">Märgi mitteesitatuks</string>
+    <string name="media_item_type_your_podcasts">Teie podcastid</string>
     <string name="media_route_chooser_dialog_title">Ülekandmine seadmesse</string>
     <string name="media_route_chooser_searching">Seadmete otsimine …</string>
     <string name="media_route_controller_cancel">Tühista</string>
     <string name="media_route_controller_stop_casting">Peata ülekandmine</string>
     <string name="menu_get_help">Hankige abi</string>
-    <string name="menu_search_by_image">Otsi kujutise järgi</string>
     <string name="menu_send_feedback">Saada tagasiside</string>
-    <string name="menu_view_original_image">Kuva originaalkujutis</string>
     <string name="message_image">Kujutis</string>
     <string name="message_no_text">Tekst puudub</string>
     <string name="message_sender_text_divider">·</string>
@@ -427,7 +423,6 @@ Otsige podcasti uuesti."</string>
     <string name="migration_cling_title">Kopeerige rakenduste ikoonid</string>
     <string name="migration_cling_use_default">ALUSTA ALGUSEST</string>
     <string name="minute_picker_description">Ringikujuline minutiliugur</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="mismatching_value_eir_code">Peab vast. aadress.</string>
     <string name="mismatching_value_pin_code">Peab vast. aadress.</string>
     <string name="mismatching_value_postal_code">Peab vast. aadress.</string>
@@ -570,6 +565,7 @@ Prognoositav maht: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Säilitame teie seadmesse allalaaditud üksusi seitse päeva.</string>
     <string name="recently_empty_state_read_later_title_text">Lehtede lisamine hiljem lugemiseks</string>
     <string name="recently_entry_interaction_offline">Võrguühenduseta ei saa soovitud lehte avada.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Voog</string>
     <string name="recently_google_doodle_for">"Google'i Doodle'i vigurlogo: %s"</string>
     <string name="recently_keep_on_device_until">Hoia seadmes kuni:</string>
@@ -584,17 +580,17 @@ Lisateabe nägemiseks avage see lehtede grupp."</string>
     <string name="recently_onboarding_recent_message_2">"Avastage uuesti teemad, mida olete Google'i rakenduses hiljuti vaadanud.
 
 Grupi saate sulgeda sõrmi kokku liigutades."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">"Avastage uuesti teemad, mida olete Google'i rakenduses hiljuti vaadanud."</string>
     <string name="recently_onboarding_recent_title">Vaadake, mida olete leidnud</string>
     <string name="recently_onboarding_search_on_message">"Siin olevaid lehti olete selles seadmes vaadanud. Sama otsingu lehed on grupeeritud ja kõige uuemad on kõige ees.
 
 Jätkake otsimist ja avastage oma leiud siin uuesti."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Siin olevaid lehti olete selles seadmes vaadanud. Jätkake otsimist ja avastage oma leiud siin uuesti.</string>
     <string name="recently_onboarding_search_on_title">Otsimine</string>
     <string name="recently_onboarding_swipe_up_message">"Kas soovite hiljutistest lehtedest vabaneda? Pühkige nende eemaldamiseks lihtsalt üles.
 
 See ei kustuta neid teie Google'i kontolt."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">"Kas soovite hiljutistest lehtedest vabaneda? Pühkige nende eemaldamiseks lihtsalt üles. See ei kustuta neid teie Google'i kontolt."</string>
     <string name="recently_onboarding_swipe_up_title">Üles pühkimine</string>
     <string name="recently_overflow_title">Rohkem valikuid</string>
     <string name="recently_reading_reminder">Lugemise meeldetuletus:</string>
@@ -664,7 +660,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="remove_download">Eemalda allalaadimine</string>
     <string name="remove_downloaded_episode">Eemalda allalaaditud jagu</string>
     <string name="remove_unfinished_episodes">Eemalda lõpetamata jaod</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Jagude allalaadimiseks lubage Google’i rakenduse lubade jaotises juurdepääs salvestusruumile</string>
     <string name="request_storage_permission_dialog_message">Jagude allalaadimiseks vajab Google juurdepääsu teie seadme salvestusruumile</string>
     <string name="request_storage_permission_dialog_title">Lubage juurdepääs salvestusruumile</string>
     <string name="reservation_group_header">Reserveerimised</string>
@@ -691,13 +687,15 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Ekraan teisaldati</string>
     <string name="screenshot_srp_desc">Otsing päringuga %s.</string>
     <string name="screenshot_srp_pending_desc">Ootel otsing: %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Ootel häälotsing</string>
+    <string name="screenshot_srp_voice_pending_title">häälotsing</string>
     <string name="screenshot_web_desc">Külastus %s.</string>
     <string name="screenshot_webpage_pending_desc">Allalaadimine on ootel</string>
     <string name="search_contact_on_web">Otsi veebist: „%s”</string>
     <string name="search_error_message">"Midagi läks valesti.
 Proovige podcasti uuesti otsida."</string>
     <string name="search_menu_title">Otsing</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Otsige veebist</string>
     <string name="search_the_web_suggestion">Otsige veebist</string>
     <string name="searchbar_hint">Otsige podcaste</string>
     <string name="searchbox_hint">Otsi hiljutiste hulgast</string>

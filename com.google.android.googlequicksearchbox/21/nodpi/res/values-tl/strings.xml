@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">Sino ang gusto mong i-text?</string>
     <string name="action_sound_search_get_song">Kunin sa Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">Isa itong pagkilos na nauugnay sa kung ano ang tina-type mo.</string>
     <string name="action_unlock_device_tts">Hindi ko ito magagawa kapag naka-lock ang device. Upang magpatuloy, i-unlock muna ang iyong device.</string>
     <string name="action_video_call">Mag-video call</string>
     <string name="action_voice_call">Tumawag</string>
@@ -246,6 +247,10 @@
     <string name="agent_bookmark_error">Nagkaroon ng error. Pakisubukang muli sa ibang pagkakataon.</string>
     <string name="agent_bookmark_removed">Inalis mula sa mga bookmark</string>
     <string name="agent_description_more">higit pa</string>
+    <string name="agent_details_add_routine_description">Makatapos nang mas marami sa iyong Mga Routine gamit ang mga update mula sa %1$s.</string>
+    <string name="agent_details_add_routine_item">Magdagdag</string>
+    <string name="agent_details_customize_routine">I-customize ang Iyong Routine</string>
+    <string name="agent_details_manage_routines">Pamahalaan ang Mga Routine</string>
     <string name="agent_details_splash_image_a11y">Larawan ng Assistant App</string>
     <string name="agent_directory_a11y_back_button">Bumalik</string>
     <string name="agent_directory_a11y_more_groups">Higit pa</string>
@@ -487,6 +492,7 @@ Payagan ang Google na panatilihin at pag-aralan ang iyong mga screenshot ng pagh
 Gagamitin ng iyong Assistant ang setting na ito para sa mga tanong tungkol sa pag-commute mo"</string>
     <string name="assistant_settings_commute_walk">Maglakad</string>
     <string name="assistant_settings_commute_walk_key">COMMUTE Maglakad</string>
+    <string name="assistant_settings_contact_list_introduction">Ito ang hiniling mong tandaan ng iyong Assistant tungkol sa mga taong kilala mo.</string>
     <string name="assistant_settings_custom_routines_description">Pagawin ang iyong Assistant ng maraming bagay sa pamamagitan lang ng isang command. Gumamit ng mga gawa nang routine na aayusin mo para umangkop sa iyong araw, at gumawa ng mga custom na routine mula sa simula.</string>
     <string name="assistant_settings_default_record_button_text">I-record</string>
     <string name="assistant_settings_delete_button_label">I-delete</string>
@@ -624,6 +630,7 @@ Gagamitin ng iyong Assistant ang setting na ito para sa mga tanong tungkol sa pa
     <string name="assistant_settings_music_gpm_premium_dialog_text">Nangangailangan ang Google Play Music ng subscription upang mag-play sa Google Home. Maaari kang mag-sign up sa <a href="https://play.google.com/store/music">Play Music app</a>. Kung hindi naman, maaari ka ring bumili <a href="https://support.google.com/googleplay?p=home_uploadmusic">o mag-upload ng iyong musika</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Kailangan ang Subscription o library sa Play Music</string>
     <string name="assistant_settings_music_icon_text">Icon ng provider ng musika</string>
+    <string name="assistant_settings_music_link_dialog_text">I-link ang iyong Google Account sa %1$s para i-enable ang playback sa mga tugmang device at i-access ang mga playlist mo. Kapag nakipag-ugnayan ka sa serbisyo ng %1$s sa pamamagitan ng Google Assistant, maaaring ipadala ang iyong mga query sa %1$s para magamit alinsunod sa pahayag sa privacy nito. Maaaring magbigay ang %1$s ng mga personal na resulta at naka-personalize na rekomendasyon para sa iyo. Maaari mong i-unlink ang iyong account anumang oras sa mga setting ng Assistant.</string>
     <string name="assistant_settings_music_no_preference_summary">Gamitin ang mga kagustuhan ng iba pang account sa mga nakabahaging device</string>
     <string name="assistant_settings_music_no_preference_title">Walang default na provider</string>
     <string name="assistant_settings_music_premium_dialog_button">OK, nakuha ko</string>
@@ -632,13 +639,15 @@ Gagamitin ng iyong Assistant ang setting na ito para sa mga tanong tungkol sa pa
     <string name="assistant_settings_music_provider_category_title">Bilang default, gagamitin ng Assistant ang provider ng musika na ito kapag hiniling na magpatugtog ng musika. Maaari ka pa ring magpatugtog ng musika gamit ang lahat ng iba pang mga naka-link na provider kapag tinukoy.</string>
     <string name="assistant_settings_music_title">Musika</string>
     <string name="assistant_settings_music_unable_unlink_default">Hindi ma-unlink ang iyong default na provider ng musika</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Kailangan ng YouTube Music ng membership sa YouTube Red upang mag-play sa Google Home. Maaari kang mag-sign up sa <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Kailangan ng Membership sa YouTube Red</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Kapag na-unlink ang iyong account, mao-off ang access sa playback mula sa %1$s sa pamamagitan ng Google Assistant.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Kailangan ng YouTube Music ng membership sa YouTube Premium para mag-play sa Google Home. Maaari kang mag-sign up sa <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Kinakailangan ang Membership sa YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Alisin ang %1$s mula sa mga naka-enable na pinagkunan ng balita</string>
     <string name="assistant_settings_news_supports_video">Available ang video sa Mga Smart Display</string>
     <string name="assistant_settings_news_title">Balita</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">May character sa iyong palayaw na hindi mabigkas ng Assistant. Baybayin kung paano ito bigkasin sa susunod na seksyon.</string>
     <string name="assistant_settings_no_device_linked">Nagbibigay-daan sa iyong Assistant ang Voice Match na magbigay sa iyo ng personal na impormasyon, kapag nakilala nito ang boses mo. Hanggang 6 na tao ang maaaring makakuha ng kanilang sariling kalendaryo, musika, at higit pa.</string>
+    <string name="assistant_settings_no_language_summary">Wala</string>
     <string name="assistant_settings_no_language_title">Magdagdag ng wika</string>
     <string name="assistant_settings_no_shopping_list">Wala kang listahan ng bibilhin.</string>
     <string name="assistant_settings_notes_lists_title">Mga Tala at Listahan</string>
@@ -806,6 +815,7 @@ Gagamitin ng iyong Assistant ang setting na ito kapag nagbibigay sa iyo ng direk
     <string name="assistant_settings_summer_time_mode_availability_clarification">Kasalukuyang available ang Tuluy-tuloy na Pag-uusap para sa English (US). Kung gumagamit ka ng mga Google Home device na hindi ipinapakita rito, maaaring i-off o i-on ng taong may-ari ng pangunahing account sa mga naturang device ang Tuluy-tuloy na Pag-uusap sa mga setting ng kanilang Assistant.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Maaari mo itong baguhin para sa mga Google Home device na ito</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Walang available na device</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Muling bubukas ang mikropono ng iyong device pagkatapos ng bawat tugon para makinig kung may mga follow-up na tanong. Lalabas ang mga ito sa Aking Aktibidad gaya ng dati. Ide-delete mula sa Google Account mo ang audio kung saan hindi tumutugon ang iyong Assistant.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Tuluy-tuloy na Pag-uusap</string>
     <string name="assistant_settings_summer_time_mode_title">Tuluy-tuloy na Pag-uusap</string>
     <string name="assistant_settings_turn_off_voice_match">Kung io-off mo ang Voice Match, maa-unlink ang iyong account mula sa device na ito. Hindi bababa sa isang account ang kailangang i-link para magamit ang device na naka-enable ang iyong Google Assistant. Sigurado ka bang gusto mong i-unlink ang account mo? </string>
@@ -834,10 +844,10 @@ Gagamitin ng iyong Assistant ang setting na ito kapag nagbibigay sa iyo ng direk
     <string name="assistant_settings_update_error_message">Hindi ma-update ang setting. Suriin ang iyong koneksyon.</string>
     <string name="assistant_settings_video_calls_service_category_title">Maaaring mag-video call ang iyong Assistant sa ilang device, tulad ng Google Smart Display, gamit ang gusto mong serbisyo. Hindi available ang mga tawag sa mga serbisyong pang-emergency.</string>
     <string name="assistant_settings_video_icon_text">Icon ng provider ng video</string>
-    <string name="assistant_settings_video_link_dialog_text">I-link ang iyong Google account sa %1$s upang i-enable ang pagkontrol gamit ang boses at pag-playback sa mga compatible na device. Kapag kinokontrol mo ang Serbisyo ng %1$s sa pamamagitan ng Google Home o humihingi ka ng impormasyong nauugnay sa %1$s, maaaring ipadala ang mga query na iyon sa %1$s upang gamitin alinsunod sa pahayag ng privacy nito.</string>
+    <string name="assistant_settings_video_link_dialog_text">I-link ang iyong Google account sa %1$s para i-enable ang playback sa mga tugmang device. Kapag nakipag-ugnayan ka sa Serbisyo ng %1$s sa pamamagitan ng Google Assistant, maaaring ipadala ang mga query mo sa %1$s para magamit alinsunod sa patakaran sa privacy nito. Maaaring magbigay ang %1$s ng mga personal na resulta at naka-personalize na rekomendasyon sa iyo. Maaari mong i-unlink ang iyong account anumang oras sa mga setting ng Assistant.</string>
     <string name="assistant_settings_video_provider_category_summary">Mag-play ng mga palabas at pelikula sa pamamagitan ng paghiling sa iyong Assistant.</string>
     <string name="assistant_settings_video_provider_category_title">Mga Video</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Kapag na-unlink ang iyong account, mao-off ang pagkontrol sa boses.</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Kapag na-unlink ang iyong account, mao-off ang access sa playback mula sa %1$s sa pamamagitan ng Google Assistant.</string>
     <string name="assistant_settings_videos_photos_title">Mga Video at Larawan</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast o TV na may built in na Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Mga Voice at Video call</string>
@@ -849,6 +859,21 @@ Gagamitin ng iyong Assistant ang setting na ito kapag nagbibigay sa iyo ng direk
     <string name="assistant_settings_weather_title">Lagay ng Panahon</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Gusto mo bang i-delete ang address ng opisina?</string>
     <string name="assistant_settings_work_title">Address sa trabaho</string>
+    <string name="assistant_settings_your_people_address">Address: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Kaarawan: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Tandaan ang isang kaarawan</string>
+    <string name="assistant_settings_your_people_deletion_failure">Nagkaroon ng problema, pakisubukang muli sa ibang pagkakataon!</string>
+    <string name="assistant_settings_your_people_email">Email: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Tandaan ang isang miyembro ng pamilya</string>
+    <string name="assistant_settings_your_people_forget_button">Kalimutan</string>
+    <string name="assistant_settings_your_people_forget_dialog">Aalisin nito ang anumang detalyeng hiniling mong tandaan ng iyong Assistant tungkol kay %1$s</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Kalimutan ang mga detalyeng ito?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Kalimutan ang mga detalyeng ito</string>
+    <string name="assistant_settings_your_people_phone">Telepono: %1$s</string>
+    <string name="assistant_settings_your_people_splash">Handang tumulong ang Assistant mo sa iyo kapag sinabi mo naman ang “tawagan si nanay” o “kailan ang kaarawan ng aking kapatid na lalaki.”</string>
+    <string name="assistant_settings_your_people_splash_title">Ipaalam sa iyong Assistant kung sinu-sino ang mga tao</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Maaari mong hilingin ang iyong Assistant na</string>
+    <string name="assistant_settings_your_people_title">Iyong Mga Tao</string>
     <string name="assistant_speaker_id_default_category_summary">Ibibigay lang ng iyong Assistant ang personal na impormasyon mo kapag nakilala nito ang iyong boses sa mga device na ito</string>
     <string name="assistant_speaker_id_default_category_title">Mga nakabahaging device sa Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Hindi makumpleto ang enrollment.</string>
@@ -1007,7 +1032,7 @@ Maaaring magkaroon ng mga pagsingil sa data."</string>
     <string name="cloud_search_history_summary_fetching">Kinukuha ang mga setting…</string>
     <string name="collapse">I-collapse</string>
     <string name="collapse_time_to_leave">Itago ang mga opsyon para sa biyaheng ito.</string>
-    <string name="collections">Collections</string>
+    <string name="collections">Naka-save</string>
     <string name="comment_hint">Karagdagang komento (Opsyonal)</string>
     <string name="common_address_clear_button_label">I-clear</string>
     <string name="common_address_clear_confirm_button">I-delete</string>
@@ -1081,9 +1106,9 @@ Maaaring magkaroon ng mga pagsingil sa data."</string>
 
 Pagkatapos ay magkakaroon ng access ang device na ito sa iyong Google Account."</string>
     <string name="consent_my_activity">Aking Aktibidad</string>
-    <string name="consent_partners_disclosures_body_collapsed">Ang mga kasosyo sa Google ay may malapit na ugnayang pangnegosyo sa Google at maaaring nagbayad sa amin ang mga ito upang maitampok o ma-promote.</string>
-    <string name="consent_partners_disclosures_body_expanded">Ang mga kasosyo sa Google ay may malapit na ugnayang pangnegosyo sa Google at maaaring nagbayad sa amin ang mga ito upang maitampok o ma-promote. Nakakatulong sa iyo ang mga negosyong ito na gumawa ng mga bagay-bagay, pagbili man ito ng mga tisyu o pagpapaayos ng iyong lababo. %1$s.</string>
-    <string name="consent_partners_disclosures_title">Mga kasosyo ng Google</string>
+    <string name="consent_partners_disclosures_body_collapsed">Ang Mga Kasosyo sa Google ay may malapit na ugnayang pangnegosyo sa Google at maaaring nagbayad sa amin ang mga ito para maitampok o ma-promote.</string>
+    <string name="consent_partners_disclosures_body_expanded">Ang Mga Kasosyo sa Google ay may malapit na ugnayang pangnegosyo sa Google at maaaring nagbayad sa amin ang mga ito para maitampok o ma-promote. Nakakatulong sa iyo ang mga negosyong ito na gumawa ng mga bagay-bagay, pagbili man ito ng mga tisyu o pagpapaayos ng iyong lababo. %1$s.</string>
+    <string name="consent_partners_disclosures_title">Google Partners</string>
     <string name="consent_services_disclosures_body_collapsed">Upang maprotektahan ang iyong privacy, nagpapadala ang Google ng natatanging code sa mga serbisyong kinakausap mo.</string>
     <string name="consent_services_disclosures_body_expanded">"Upang maprotektahan ang iyong privacy, nagpapadala ang Google ng natatanging code sa mga serbisyong kinakausap mo. Sa ganoong paraan, matatandaan pa rin ng mga serbisyo ang mga bagay tulad ng mga kagustuhan mo habang nasa mga pag-uusap.
 
@@ -1241,6 +1266,10 @@ Kakailanganin naming tukuyin ang tinatayang lokasyon mo gamit ang iba pang impor
     <string name="device_setup_error_cancel_button">Humingi Tulong</string>
     <string name="device_setup_error_content">Nagkaproblema</string>
     <string name="device_setup_error_title">Maaaring may problema</string>
+    <string name="devices_scan_action_button">Magpatuloy</string>
+    <string name="devices_scan_cancel_button">Kanselahin</string>
+    <string name="devices_scan_explanation">Pumili ng mga device</string>
+    <string name="devices_scan_title">Magdagdag ng mga device</string>
     <string name="directory_for_mall">Direktoryo para sa %1$s</string>
     <string name="disclaimer">Disclaimer</string>
     <string name="dismiss_text">I-drag pababa para i-dismiss</string>
@@ -1272,7 +1301,7 @@ Kakailanganin naming tukuyin ang tinatayang lokasyon mo gamit ang iba pang impor
     <string name="download_not_found">Hindi nakita ang pag-download</string>
     <string name="download_prompt">I-download</string>
     <string name="download_setting_message">Inaalis ang mga na-download na episode pagkalipas ng 30 araw o 24 na oras pagkatapos makumpleto</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Na-download</string>
     <string name="downloaded_episodes">Mga na-download na episode</string>
     <string name="downloading">Nagda-download...</string>
     <string name="downloads">Mga Download</string>
@@ -1336,7 +1365,6 @@ susunod na 2 linggo."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Mga available na episode</string>
     <string name="episode_page_section_title">Episode</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Para sa iyo</string>
     <string name="error">Error</string>
     <string name="error_adding_location_snackbar_text">Error sa pagdaragdag ng lokasyon</string>
@@ -1403,7 +1431,6 @@ Pag-isipang tingnan ang iyong koneksyon at subukang muli"</string>
     <string name="eyes_donate_data_optin_ok">Ok</string>
     <string name="eyes_donate_data_optin_title">Mag-donate ng mga larawan ng Lens</string>
     <string name="eyes_flash_button_description">I-toggle ang flash</string>
-    <string name="eyes_initial_suggestion_0">Ano ang nakikilala mo?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">Wala akong pahintulot na gawin iyon</string>
     <string name="eyes_no_permission_camera">Wala akong pahintulot na gamitin ang camera</string>
@@ -1431,7 +1458,6 @@ Hindi pa alam ng Google Lens ang lahat, at hindi ito palaging tama sa pagtukoy n
     <string name="eyes_onboarding_title_text">I-scan ang text</string>
     <string name="eyes_request_timed_out_message">Paumanhin, hindi namin maabot ang Google sa ngayon</string>
     <string name="eyes_share_with">Ibahagi sa/kay</string>
-    <string name="eyes_unfreeze_image_description">Bumalik sa camera</string>
     <string name="eyes_viewfinder_description">I-activate ang Google Lens</string>
     <string name="failed">Hindi ma-load ang larawan</string>
     <string name="failed_to_open_webview">Nabigong buksan ang pahina</string>
@@ -1556,8 +1582,13 @@ Hindi pa alam ng Google Lens ang lahat, at hindi ito palaging tama sa pagtukoy n
     <string name="folder_renamed">Pinalitan ang pangalan ng folder ng %1$s</string>
     <string name="folder_tap_to_close">Pindutin upang isara ang folder</string>
     <string name="folder_tap_to_rename">Pindutin upang i-save ang pagpapalit ng pangalan</string>
+    <string name="follow_soccer_promo_query">soccer 2018</string>
     <string name="follow_world_cup_promo">Sundan ang World Cup</string>
     <string name="follow_world_cup_promo_content_description">Sundan ang World Cup</string>
+    <string name="follow_world_cup_promo_detail">Mag-tap dito para mag-sign up para sa mga paalala tungkol sa laban, balita at live na score para sa iyong mga paboritong team</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Manatiling updated sa mga laban ng soccer</string>
+    <string name="follow_world_cup_promo_query">world cup 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Narito na ang soccer fever!</string>
     <string name="forbid_download_removal">Hindi maaaring alisin ang episode habang nagpe-play ito</string>
     <string name="fourth_quarter">4th quarter</string>
     <string name="fourth_quarter_abbrev">4th qtr</string>
@@ -1699,7 +1730,7 @@ Magagamit ang mga nakaraang recording na ito para gumawa ng voice model sa devic
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">bumalik</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Sigurado ako</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Sigurado ka ba?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Kumusta! Kakaturo ko lang sa aking Assistant na makilala ang boses ko sa Google Home upang makakuha ako ng mga naka-personalize na resulta.
+    <string name="hotword_enrollment_google_home_share_message">"Kumusta! Kakaturo ko lang sa Assistant ko na tukuyin ang aking boses sa Google Home upang makakuha ako ng mga naka-personalize na resulta.
 
 Makakakuha ka rin ng mga sagot para sa iyo! Simulan sa pamamagitan ng pag-install sa Google Home app: https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Turuan ang iyong Assistant na makilala ka</string>
@@ -1833,7 +1864,7 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="hourly_forecast">Pagtataya ng panahon bawat oras</string>
     <string name="hours">Oras</string>
     <string name="how_can_i_help">Paano ako makakatulong?</string>
-    <string name="hq_a11y_bottom_bar_button">Buksan ang mikropono upang makipag-chat sa iyong assistant</string>
+    <string name="hq_a11y_bottom_bar_button">Assistant</string>
     <string name="hq_a11y_chatui_badge">Buksan ang i-explore at ang iyong mga bagay-bagay</string>
     <string name="hq_a11y_menu_button">Menu</string>
     <string name="hq_account_switch_prompt">Nagsa-sign in bilang %1$s</string>
@@ -1932,10 +1963,10 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="inferred_event_error">Hindi nagawa ang kaganapan</string>
     <string name="inferred_from_gmail">Tinutukoy bilang \"%1$s\" sa Gmail</string>
     <string name="info_target_label">Info ng app</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Kunin ang Google Podcasts app</string>
+    <string name="install_google_podcasts_accept">Kunin ang app</string>
+    <string name="install_google_podcasts_message">Kunin ang Google Podcasts app sa Play Store para sa mabilis na access</string>
+    <string name="install_google_podcasts_reject">Hindi ngayon</string>
     <string name="installed_app_group_header">Mga App</string>
     <string name="installed_details">Naka-install ang bersyon %1$s, laki sa disk %2$s</string>
     <string name="installed_language_packs">Naka-install</string>
@@ -1976,7 +2007,7 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="item_is_selected">Napili ang %1$s</string>
     <string name="item_moved">Nalipat ang item</string>
     <string name="item_removed">Naalis na ang item</string>
-    <string name="jasper_duo_knock_knock_summary">Makita ang video ng tumatawag bago mo ito sagutin. Hayaan ang mga taong tinatawagan mo na makita ang iyong video habang nagri-ring ang kanilang telepono. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Matuto pa&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Makita ang video ng tumatawag bago ka sumagot. Hayaang makita ng mga taong tinatawagan mo ang iyong video habang nagri-ring ang kanilang telepono. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knock-knock</string>
     <string name="jasper_duo_not_signed_in">Hindi naka-sign in</string>
     <string name="jasper_duo_signed_in">Naka-sign in</string>
@@ -2050,6 +2081,14 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="lens_info_panel_opening_lens">Binubuksan ang Lens…</string>
     <string name="lens_overflow_menu_description">Mga Setting</string>
     <string name="lens_quit_button_description">Umalis</string>
+    <string name="lens_results_feedback_card_prompt">Ano ang gusto mong gawin sa Lens?</string>
+    <string name="lens_results_feedback_card_title">Tulungan kaming mapahusay ang Lens</string>
+    <string name="lens_results_feedback_no">HINDI</string>
+    <string name="lens_results_feedback_prompt_text">Naging kapaki-pakinabang ba ang mga resultang ito?</string>
+    <string name="lens_results_feedback_response_to_negative">Salamat sa pagtulong sa aming mapahusay ang Lens.</string>
+    <string name="lens_results_feedback_response_to_positive">Ano ang maaari pang pahusayin?</string>
+    <string name="lens_results_feedback_send_report">MAGPADALA NG FEEDBACK</string>
+    <string name="lens_results_feedback_yes">OO</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Bawasan ang ipinapakitang mga contact app</string>
     <string name="libraries_material_featurehighlight_dismiss">I-dismiss</string>
@@ -2072,10 +2111,10 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="location_service_required_title">Kumuha ng mga card na batay sa lokasyon</string>
     <string name="lockscreen_mic_promo_notification_content">I-unlock sa pamamagitan ng pagsasabi ng \"%1$s\".</string>
     <string name="lockscreen_mic_promo_notification_title">I-unlock gamit ang iyong boses</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">I-double tap nang matagal upang pumili ng widget o gumamit ng mga custom na pagkilos.</string>
     <string name="long_press_widget_to_add">Pindutin nang matagal upang kumuha ng widget.</string>
     <string name="longpress_menu_download">I-download ang larawan</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Ibahagi ang larawan</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2109,10 +2148,10 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="map_content_description">Mapa</string>
     <string name="map_route_content_description">Mapa papuntang %1$s</string>
     <string name="maps_mode_landing_text">Maghanap ng mga mapa</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Markahan bilang na-play</string>
+    <string name="mark_as_unplayed">Markahan bilang hindi na-play</string>
     <string name="media_content_image">Isang larawang nauugnay sa nilalaman ng media na ipinapakita sa card na ito</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Iyong mga podcast</string>
     <string name="media_route_chooser_dialog_title">I-cast sa</string>
     <string name="media_route_chooser_searching">Naghahanap ng mga device…</string>
     <string name="media_route_controller_cancel">Kanselahin</string>
@@ -2125,13 +2164,11 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="menu_overlay_feedback">Magpadala ng feedback</string>
     <string name="menu_overlay_reset_to_default_style">I-reset sa default na istilo</string>
     <string name="menu_refresh">I-refresh</string>
-    <string name="menu_search_by_image">Maghanap ayon sa larawan</string>
     <string name="menu_send_button_content_description">Pindutin ang button na ipadala upang isumite ang feeback.</string>
     <string name="menu_send_feedback">Magpadala ng feedback</string>
     <string name="menu_settings">Mga Setting</string>
     <string name="menu_share">Ibahagi</string>
     <string name="menu_view_in_browser">Tingnan sa Browser</string>
-    <string name="menu_view_original_image">Tingnan ang orihinal na larawan</string>
     <string name="menu_visit_page">Bisitahin ang Pahina</string>
     <string name="message_card_feedback">Magpadala ng Feedback</string>
     <string name="message_image">Larawan</string>
@@ -2176,7 +2213,6 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="minus_one_header_settings">Mga Setting</string>
     <string name="minute_picker_description">Pabilog na slider ng mga minuto</string>
     <string name="minutes">Minuto</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Miscellaneous</string>
     <string name="momo_tab_description">Tab ng Google</string>
     <string name="more">Higit Pa</string>
@@ -2253,7 +2289,6 @@ Tuklasin at kontrolin ang lahat ng iyong paghahanap sa Google at higit pa sa Aki
     <string name="network_error_fetching_weather_data_status_text">Kasalukuyang hindi available ang network</string>
     <string name="network_error_no_connection_tts">Walang koneksyon sa Internet sa sandaling ito.</string>
     <string name="network_error_resend_audio">Ipadalang muli ang audio</string>
-    <string name="network_error_try_again">Subukang muli</string>
     <string name="network_location_required_text">Upang makakita ng mga card na batay sa lokasyon, gaya ng lokal na panahon at trapiko sa pag-commute, i-on ang Wi‑Fi at lokasyon ng mobile network</string>
     <string name="network_location_required_text_klp">Upang makakita ng mga card na batay sa lokasyon gaya ng lokal na panahon at trapiko sa pag-commute, piliin ang mode sa lokasyong napakatumpak o matipid sa baterya</string>
     <string name="never">Hindi kailanman</string>
@@ -2345,7 +2380,7 @@ Tuklasin at kontrolin ang lahat ng iyong paghahanap sa Google at higit pa sa Aki
     <string name="none">Wala</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Mga serbisyo ng mga listahan at tala</string>
-    <string name="notes_lists_none_preference_summary">Pangalawang impormasyon</string>
+    <string name="notes_lists_none_preference_summary">Hindi isi-sync ng Assistant ang iyong data sa anumang serbisyo.</string>
     <string name="notes_lists_none_preference_title">Wala</string>
     <string name="notes_lists_provider_changed_description">"Ang data ng Mga Tala ng Assistant at Listahan ay hindi na maa-update gamit ang %1$s. Hindi made-delete ang kasalukuyang data sa %1$s.
 
@@ -2353,6 +2388,7 @@ Gusto mo bang magpatuloy?"</string>
     <string name="notes_lists_provider_changed_negative_button">Kanselahin</string>
     <string name="notes_lists_provider_changed_positive_button">Sumang-ayon</string>
     <string name="notes_lists_provider_changed_title">Idiskonekta mula sa %1$s</string>
+    <string name="notes_lists_title">Papanatilihin ng iyong Assistant na naka-sync ang mga tala at listahan mo sa mga serbisyong ito.</string>
     <string name="notification_access_link_text">I-off ang access sa notification</string>
     <string name="notification_accessable_apps_category_title">Access sa notification</string>
     <string name="notification_cancel_text">Hindi susubukang muli ng Google ang paghahanap na ito kapag nag-online kang muli.</string>
@@ -2418,6 +2454,7 @@ Gusto mo bang magpatuloy?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">I-upgrade ang iyong language pack.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">I-enable ang offline na boses</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Offline ka. Upang patuloy na magamit ang boses kapag offline ka, kakailanganin mong i-install ang pinakabagong language pack. Kapag ligtas nang gamitin ang iyong screen, i-tap ang notification upang gawin iyon.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Offline ka. Para magamit ang boses habang offline, kailangan mo ang pinakabagong language pack na ii-install sa susunod na mayroon kang koneksyon sa network.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Offline ka. Upang patuloy na magamit ang boses kapag offline ka at makakuha ng mga bagong feature, kakailanganin mong i-install ang pinakabagong language pack. Kapag ligtas nang gamitin ang iyong screen, i-tap ang notification upang gawin iyon.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Offline ka. Hindi ko makaugnayan ang Google sa ngayon ngunit matutulungan pa rin kita sa maraming bagay. Halimbawa, subukang sabihin ang \"make a call\" o \"what can I say?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Offline ka. Hindi ko makaugnayan ang Google sa ngayon ngunit matutulungan pa rin kita sa maraming bagay. Halimbawa, subukang sabihin ang %1$s o \"what can I say?\"</string>
@@ -2472,6 +2509,7 @@ Gusto mo bang magpatuloy?"</string>
     <string name="opa_assist_app_screen_explanation">Upang i-access ang iyong Google Assistant, piliin ang Google App sa mga setting ng iyong Assist at input na boses</string>
     <string name="opa_assist_app_screen_title">Hindi mo default na Assist App ang Google App</string>
     <string name="opa_assistant_logo_content_description">Paghahanap gamit ang boses</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Makakita ng mga update para sa iyong Google Assistant</string>
     <string name="opa_consent_check_error_button">Isara</string>
     <string name="opa_consent_check_error_button_notavailable">Lumipat ng Account</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Depende sa mga setting ng iyong account, maaaring malimitahan ang karanasan mo sa Assistant sa mga bagay tulad ng mga resulta sa web, joke, at lokal na impormasyon.</string>
@@ -2548,7 +2586,6 @@ Hindi maaapektuhan ng pag-delete mula sa iyong history ng Assistant ang mga tran
     <string name="opa_eyes_free_opt_in_speech">Kapag ligtas na itong gawin, kailangan mo munang i-tap ang notification. Pagkatapos ay maaari mong paganahin sa Google Assistant ang mga headset.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">I-tap upang magpatuloy</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Bigyan ng pahintulot ang Google Assistant na tulungan ka</string>
-    <string name="opa_eyes_warm_welcome_chip_text">I-tap upang magpatuloy</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Gawin sa ibang pagkakataon</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Sumasang-ayon Ako</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">MAGSIMULA</string>
@@ -2609,6 +2646,7 @@ Account mula sa"</string>
     <string name="opa_launcher_icon_text">Assistant</string>
     <string name="opa_lock_icon_description">Icon sa pag-unlock</string>
     <string name="opa_logo_content_desc">Logo ng Google Assistant</string>
+    <string name="opa_mark_content">Assistant</string>
     <string name="opa_marketplace_disclosure_description">"Maaaring gumana ang iyong Google Assistant sa iba't ibang serbisyo upang makatulong sa iyong makagawa ng higit pa."</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Maaaring makipagtulungan ang Google Assistant sa mga partner sa Google upang makatulong sa iyong gumawa ng mga bagay-bagay, pagbili man ito ng mga ticket sa sinehan o pagpapaayos ng lababo mo. &lt;a href=https://support.google.com/assistant/?p=google_partners>Matuto pa&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Ang mga kasosyo ng Google ay mga negosyo na may komersyal na ugnayan sa Google. Gumagana ang Google Assistant sa mga kasosyo ng Google upang makatulong sa iyong magawa ang mga dapat gawin, ito man ay pagbili ng mga ticket sa sinehan o pagpapaayos ng iyong lababo. <a href="https://support.google.com/assistant/?p=google_partners">Matuto pa</a></string>
@@ -3035,6 +3073,7 @@ Tinatantyang laki: %dKb"</string>
     <string name="recently_empty_state_read_later_body_text">Papanatilihin namin ang mga item na na-download sa iyong device sa loob ng 7 araw.</string>
     <string name="recently_empty_state_read_later_title_text">Idagdag ang mga page na babasahin mamaya</string>
     <string name="recently_entry_interaction_offline">Hindi mabuksan ang hiniling na page habang offline.</string>
+    <string name="recently_entry_interaction_voice_query">Hindi mabuksan ang hiniling na nakabinbing paghahanap gamit ang boses.</string>
     <string name="recently_feed_entry">Feed</string>
     <string name="recently_google_doodle_for">Google Doodle para sa %s</string>
     <string name="recently_keep_on_device_until">Panatilihin sa device hanggang:</string>
@@ -3049,17 +3088,17 @@ Buksan ang pangkat na ito ng mga page upang makita ang higit pa."</string>
     <string name="recently_onboarding_recent_message_2">"Tuklasing muli ang mga paksa na hinanap mo kamakailan sa Google app.
 
 Maaari mong isara ang pangkat sa pamamagitan ng pag-pinch."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Muling tuklasin ang mga paksang hinanap mo sa Google app kamakailan.</string>
     <string name="recently_onboarding_recent_title">Tingnan kung ano ang nahanap mo</string>
     <string name="recently_onboarding_search_on_message">"Ang mga page dito ay ang mga tiningnan mo sa device na ito. Pinagsasama-sama ang mga page mula sa parehong paghahanap, nasa unahan ang mga pinakabago.
 
 Magpatuloy sa paghahanap at tuklasing muli ang mga nahanap mo rito."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Ang mga page dito ay ang mga nakita mo sa device na ito. Patuloy na maghanap at muling tuklasin ang mga nahanap mo rito.</string>
     <string name="recently_onboarding_search_on_title">Maghanap sa</string>
     <string name="recently_onboarding_swipe_up_message">"Gusto mo bang alisin ang mga kamakailang page? Mag-swipe lang pataas upang alisin ang mga ito.
 
 Kahit gawin ito, hindi made-delete ang mga naturang page sa iyong Google Account."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Gusto mo bang alisin ang mga kamakailang page? I-swipe lang pataas para alisin ang mga ito. Hindi nito ide-delete ang mga ito sa iyong Google Account.</string>
     <string name="recently_onboarding_swipe_up_title">Mag-swipe pataas</string>
     <string name="recently_overflow_title">Higit Pang Opsyon</string>
     <string name="recently_reading_reminder">Paalala sa pagbabasa:</string>
@@ -3091,6 +3130,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Web</string>
     <string name="recents_result_separate_group_header">Mga Kamakailang Paghahanap</string>
     <string name="recognizer_service_label">Pangunahing pagkilala ng Google</string>
+    <string name="recommendation_header_text">Inirerekomenda para sa iyo</string>
     <string name="reconnecting_loading_results">"Nilo-load ang iyong mga resulta
 "</string>
     <string name="reconnecting_title">Kumukonektang muli…</string>
@@ -3163,7 +3203,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Pangalan</string>
     <string name="report_other_reason">Iba pa</string>
     <string name="report_this">Iulat ito</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Para i-download ang mga episode, payagan ang pag-access sa storage sa mga pahintulot sa Google app</string>
     <string name="request_storage_permission_dialog_message">Para i-download ang mga episode, kailangan ng Google ng access sa storage ng iyong device</string>
     <string name="request_storage_permission_dialog_title">Bigyan ng access sa storage</string>
     <string name="reservation_group_header">Mga Pagpapareserba</string>
@@ -3248,6 +3288,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Nailipat ang screen</string>
     <string name="screenshot_srp_desc">Hanapin ang %s.</string>
     <string name="screenshot_srp_pending_desc">Nakabinbing paghahanap para sa %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Nakabinbing paghahanap gamit ang boses</string>
+    <string name="screenshot_srp_voice_pending_title">paghahanap gamit ang boses</string>
     <string name="screenshot_web_desc">Bisitahin ang %s.</string>
     <string name="screenshot_webpage_pending_desc">Nakabinbin ang pag-download</string>
     <string name="scroll_left">Mag-scroll pakaliwa</string>
@@ -3305,7 +3347,7 @@ Subukang hanaping muli ang podcast."</string>
     <string name="search_sources_tablet">Paghahanap sa tablet</string>
     <string name="search_storage_label">Storage ng Google Search</string>
     <string name="search_tablet">Hanapin ang Tablet</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Maghanap sa web</string>
     <string name="search_the_web_menu_text">Hanapin sa web</string>
     <string name="search_the_web_suggestion">Maghanap sa web</string>
     <string name="search_widget_customization">I-customize ang Widget</string>
@@ -3364,6 +3406,7 @@ Subukang hanaping muli ang podcast."</string>
     <string name="settings_legal_notices_title">Mga legal na notification</string>
     <string name="settings_location_tos_title">Tuntunin ng serbisyo ng lokasyon</string>
     <string name="settings_privacy_policy_title">Patakaran sa privacy</string>
+    <string name="settings_search_icon_title">Mga setting ng paghahanap</string>
     <string name="settings_tos_title">Mga tuntunin ng serbisyo</string>
     <string name="setup_complete_explanation">Tutugon na ang iyong %s kapag sinabi mo ang \"Ok Google.\" Ito ang ilang bagay na maaari mong subukan.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Tutugon na ngayon ang iyong Assistant kapag nakipag-usap ka sa %s. Ito ang ilang bagay na masusubukan mo.</string>
@@ -3532,7 +3575,9 @@ Hindi available sa ngayon ang palabas na ito."</string>
     <string name="sports_wins_header">W</string>
     <string name="sports_wins_header_full_length">Mga Panalo</string>
     <string name="standalone_zs_back_content_desc">Bumalik</string>
+    <string name="standalone_zs_brick_content_desc">Mga personal na update</string>
     <string name="standalone_zs_explore_content_desc">Buksan ang i-explore at ang iyong mga bagay-bagay</string>
+    <string name="standalone_zs_opa_icon_desc">Assistant</string>
     <string name="star_rating_bar_content_description">Star rating: %1$s</string>
     <string name="starting_location_selector">%1$s. Pumili ng panimulang lokasyon.</string>
     <string name="starts_at">Magsisimula nang</string>
@@ -3548,6 +3593,7 @@ Hindi available sa ngayon ang palabas na ito."</string>
     <string name="street_address_label">Address ng kalye</string>
     <string name="subscribe_button_label">Mag-subscribe</string>
     <string name="subscribe_to_see_new_episodes">Mag-subscribe sa mga podcast para makakita ng mga bagong episode</string>
+    <string name="success">Tagumpay</string>
     <string name="suggest">Autocomplete</string>
     <string name="suggest_contact_removal_body">Aalisin nito si &lt;b>%1$s&lt;/b> mula sa iyong listahan ng Mga Nangungunang Contact. Mahahanap mo pa rin si &lt;b>%2$s&lt;/b> sa pamamagitan ng paghahanap.</string>
     <string name="suggest_contact_removal_cancel">KANSELAHIN</string>
@@ -3902,6 +3948,8 @@ Naka-sign in na %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Magkomento</string>
     <string name="user_defined_action_task_scene_control_title">Mga Eksena</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Piliin kung aling mga eksena ang gusto mong isama sa routine na ito.</string>
+    <string name="user_defined_action_task_security_system_control_title">Lagyan ng security system</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Aling mode ang gusto mong itakda?</string>
     <string name="user_defined_action_task_send_text_content_summary">Kapag iniwan mong blangko ang numero ng tagatanggap o content ng mensahe, ipo-prompt ka tungkol dito kapag pinatakbo mo ang routine na ito.</string>
     <string name="user_defined_action_task_send_text_content_title">Ano ang sasabihin sa text?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Sa anong numero mo gustong magpadala ng text?</string>

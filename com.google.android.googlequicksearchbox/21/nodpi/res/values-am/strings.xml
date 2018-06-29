@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">ለማን ነው ጽሑፍ መላክ የሚፈልጉት?</string>
     <string name="action_sound_search_get_song">Google Playን ያግኙ</string>
     <string name="action_sound_search_result_content_description">%1$s፣%2$s፣%3$s</string>
+    <string name="action_suggestion_message">ይሄ እየተየቡት ካለው ነገር ጋር የሚዛመድ እርምጃ ነው።</string>
     <string name="action_unlock_device_tts">በእርግጥ፣ መሣሪያው ተቆልፎ ሳለ ያንን ማድረግ አልችልም። ወደፊት ለመቀጠል ይቀጥሉ እና የእርስዎን መሣሪያ እንዲከፈት ያድርጉ።</string>
     <string name="action_video_call">የቪዲዮ ጥሪ</string>
     <string name="action_voice_call">ደውል</string>
@@ -247,6 +248,10 @@
     <string name="agent_bookmark_error">አንድ ስህተት ተፈጥሯል። እባክዎ በኋላ እንደገና ይሞክሩ።</string>
     <string name="agent_bookmark_removed">ከዕልባቶች የተወገደ</string>
     <string name="agent_description_more">ተጨማሪ</string>
+    <string name="agent_details_add_routine_description">በእርስዎ የዕለት ተዕለት ተግባር ላይ ከ%1$s ጋር ዝማኔዎችን በማግኘት ተጨማሪ ያከናውኑ።</string>
+    <string name="agent_details_add_routine_item">ያክሉ</string>
+    <string name="agent_details_customize_routine">የእርስዎን የዕለት ተዕለት ተግባር ብጁ ያድርጉ</string>
+    <string name="agent_details_manage_routines">የዕለት ተዕለት ተግባርን ያስተዳድሩ</string>
     <string name="agent_details_splash_image_a11y">የረዳት መተግበሪያ ምስል</string>
     <string name="agent_directory_a11y_back_button">ተመለስ</string>
     <string name="agent_directory_a11y_more_groups">ተጨማሪ</string>
@@ -488,6 +493,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
 የእርስዎ ረዳት ስለመጓጓዣዎ ያሉ ጥያቄዎችን ለመመለስ ይህን ቅንብር ይጠቀማል"</string>
     <string name="assistant_settings_commute_walk">መራመድ</string>
     <string name="assistant_settings_commute_walk_key">መጓጓዣ መራመድ</string>
+    <string name="assistant_settings_contact_list_introduction">ይህ ረዳትዎ እርስዎ ስለሚያውቋቸው ሰዎች እንዲያስታውስ የጠየቁት ነገር ነው።</string>
     <string name="assistant_settings_custom_routines_description">የእርስዎ ረዳት በአንዲት ትዕዛዝ ብቻ በርካታ ነገሮችን እንዲያደርግ ያድርጉት። ከዕለት ውሎዎ ጋር እንዲጣጣሙ የሚያስተካክሏቸው ዝግጁ ዕለታዊ ተግባራትን ይጠቀሙ፣ እና ብጁዎችን ከባዶ ይፍጠሩ።</string>
     <string name="assistant_settings_default_record_button_text">ቅረጽ</string>
     <string name="assistant_settings_delete_button_label">ሰርዝ</string>
@@ -633,13 +639,15 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_music_provider_category_title">ረዳቱ ሙዚቃ እንዲያጫውት ሲጠየቅ በነባሪነት ይህን የሙዚቃ አቅራቢ ይጠቀማል። አሁንም ከተገለጸ ሌሎች የተገናኙ አቅራቢዎችን ሁሉ ተጠቅመው ሙዚቃን ማጫወት ይችላሉ።</string>
     <string name="assistant_settings_music_title">ሙዚቃ</string>
     <string name="assistant_settings_music_unable_unlink_default">የእርስዎን ነባሪ ሙዚቃ አቅራቢ እንዳይገናኝ ማድረግ አይቻልም</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">በGoogle Home ላይ YouTube ሙዚቃን ለማጫወት የYouTube Red አባልነት ያስፈልጋል። <a href="http://youtube.com/red">youtube.com/red</a> ላይ መመዝገብ ይችላሉ።</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">የYouTube Red አባልነት ያስፈልጋል</string>
+    <string name="assistant_settings_music_unlink_dialog_text">የእርስዎን መለያ እንዳይገናኝ ማድረግ ከ%1$s በGoogle ረዳት በኩል ለመልሶ ማጫወት ያለውን መዳረሻ ይጠፋዋል።</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">በGoogle Home ላይ YouTube ሙዚቃን ለማጫወት የYouTube ፕሪሚየም አባልነት ያስፈልጋል። <a href="http://youtube.com/red">youtube.com/red</a> ላይ መመዝገብ ይችላሉ።</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">የYouTube ፕሪሚየም አባልነት ያስፈልጋል</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$sን ከነቁ የዜና ምንጮችዎ ያስወግዱት</string>
     <string name="assistant_settings_news_supports_video">ቪዲዮ በዘመናዊ ማሳያዎች ላይ ይገኛል</string>
     <string name="assistant_settings_news_title">ዜና</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">የእርስዎ ቅጽል ስም ረዳቱ ሊነገረው የማይችለው ቁምፊን ይዟል። በሚቀጥለው ክፍል ውስጥ እንዴት ድምፁ እንደሚወጣ በፊደል ይጻፉት።</string>
     <string name="assistant_settings_no_device_linked">Voice Match ድምጽዎን ለይቶ ሲያውቅ ረዳትዎ ለእርስዎ የግል መረጃን እንዲሰጥ ያስችለዋል። እስከ 6 ሰዎች ድረስ የራሳቸውን ቀን መቁጠሪያ፣ ሙዚቃ እና ተጨማሪ ነገሮች ማግኘት ይችላሉ።</string>
+    <string name="assistant_settings_no_language_summary">ምንም</string>
     <string name="assistant_settings_no_language_title">ቋንቋ ያክሉ</string>
     <string name="assistant_settings_no_shopping_list">ምንም የሚገዙ ነገሮች ዝርዝር የለዎትም።</string>
     <string name="assistant_settings_notes_lists_title">ማስታወሻዎች እና ዝርዝሮች</string>
@@ -807,6 +815,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_summer_time_mode_availability_clarification">የቀጠለ ውይይት አሁን ላይ ለእንግሊዝኛ (አሜሪካ) ብቻ ይገኛል። እዚህ ላይ የማይታዩ የGoogle Home መሣሪያዎች የሚጠቀሙ ከሆነ፣ በእነዚያ መሣሪያዎች ላይ ያለው ተቀዳሚ መለያ ያለው ግለሰብ በእነርሱ ረዳት ቅንብሮች ውስጥ የቀጠለ ውይይትን ማብራትና ማጥፋት ይችላሉ።</string>
     <string name="assistant_settings_summer_time_mode_availability_description">ይህንን ለእነዚህ የGoogle Home መሣሪያዎች መለወጥ ይችላሉ</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">ምንም መሣሪያዎች የሉም</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">የእርስዎ መሣሪያ ማይክራፎን የክትትል ጥያቄዎችን ለማዳመጥ ከእያንዳንዱ ምላሽ በኋላ ዳግመኛ ይከፈታል። እነዚህ እንደተለመደው የእኔ እንቅስቃሴ ውስጥ ብቅ ይላሉ። የእርስዎ ረዳት ምላሽ የማይሰጠው ኦዲዮ ከእርስዎ የGoogle መለያ ላይ ይሰረዛል።</string>
     <string name="assistant_settings_summer_time_mode_button_title">የቀጠለ ውይይት</string>
     <string name="assistant_settings_summer_time_mode_title">የቀጠለ ውይይት</string>
     <string name="assistant_settings_turn_off_voice_match">Voice Matchን ካጠፉት መለያዎ ከዚህ መሣሪያ ጋር ያለውን ግንኙነት ያቋርጡታል። የእርስዎን የGoogle ረዳት የነቃለት መሣሪያዎን ለመጠቀም ቢያንስ አንድ መለያ መገናኘት አለበት። እርግጠኛ ነዎት የመለያዎን ግንኙነት ማቋረጥ ይፈልጋሉ? </string>
@@ -835,10 +844,8 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_update_error_message">ቅንብሩን ማዘመን አልተቻለም። ግንኙነትዎን ይፈትሹ።</string>
     <string name="assistant_settings_video_calls_service_category_title">የእርስዎ ረዳት እርስዎ የመረጡትን አገልግሎት በመጠቀም እንደ Google ዘመናዊ ማሳያ ባሉ አንዳንድ መሣሪያዎች ላይ ጥሪዎችን ማድረግ ይችላል። ወደ የአስቸኳይ አደጋ አገልግሎቶች የሚደረጉ ጥሪዎች አይገኙም።</string>
     <string name="assistant_settings_video_icon_text">የቪዲዮ አቅራቢ አዶ</string>
-    <string name="assistant_settings_video_link_dialog_text">የድምፅ ቁጥጥርን እና በተኳዃን መሣሪያዎች ላይ መልሶ ማጫወትን ለማንቃት የእርስዎን የGoogle መለያ ወደ %1$s ያገናኙት። የ%1$s አገልግሎትን በGoogle Home በኩል ሲቆጣጠሩ ወይም ከ%1$s ተዛማጅነት ያለው መረጃን ለማግኘት ጥያቄ ሲያቀርቡ፣ እነዚያ ጥያቄዎች በግላዊነት መግለጫው መሠረት ጥቅም ላይ እንዲውሉ ወደ %1$s ሊላኩ ይችላሉ።</string>
     <string name="assistant_settings_video_provider_category_summary">የእርስዎን ረዳት በመጠየቅ ትዕይንቶችን እና ፊልሞችን ያጫውቱ።</string>
     <string name="assistant_settings_video_provider_category_title">ቪዲዮዎች</string>
-    <string name="assistant_settings_video_unlink_dialog_text">የእርስዎን መለያ ግንኙነት ማቋረጥ የድምፅ ቁጥጥርን እንዲጠፋ ያደርገዋል።</string>
     <string name="assistant_settings_videos_photos_title">ቪዲዮዎች እና ፎቶዎች</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast ወይም Chromecast ውስጠ-ግንቡ ቲቪ</string>
     <string name="assistant_settings_voice_and_video_calls_title">የድምጽ እና የቪዲዮ ጥሪዎች</string>
@@ -850,6 +857,21 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="assistant_settings_weather_title">የአየር ሁኔታ</string>
     <string name="assistant_settings_work_address_clear_dialog_title">የሥራ አድራሻ ይሰረዝ?</string>
     <string name="assistant_settings_work_title">የሥራ አድራሻ</string>
+    <string name="assistant_settings_your_people_address">አድራሻ፦ %1$s</string>
+    <string name="assistant_settings_your_people_birthday">የልደት ቀን፦ %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">የልደት ቀን ማስታወስ</string>
+    <string name="assistant_settings_your_people_deletion_failure">አንድ ችግር ነበር፣ እባክዎ ቆይተው እንደገና ይሞክሩ!</string>
+    <string name="assistant_settings_your_people_email">ኢሜይል፦ %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">የቤተሰብ አባል ማስታወስ</string>
+    <string name="assistant_settings_your_people_forget_button">እርሳ</string>
+    <string name="assistant_settings_your_people_forget_dialog">ይህ ረዳትዎ ስለ%1$s እንዲያስታውስ የጠየቁትን ማንኛውም ዝርዝር ያስወግዳል</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">እነዚህ ዝርዝሮች ይረሱ?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">እነዚህ ዝርዝሮች እርሳ</string>
+    <string name="assistant_settings_your_people_phone">ስልክ፦ %1$s</string>
+    <string name="assistant_settings_your_people_splash">"ከዚያ «call mom» ወይም «when's my brother's birthday» ሲሉ ረዳትዎ ለማገዝ ዝግጁ ይሆናል።"</string>
+    <string name="assistant_settings_your_people_splash_title">ማን ማን እንደሆነ ለረዳትዎ ይንገሩት</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">ረዳትዎ እነዚህን እንዲያደርግ ሊጠይቁት ይችላሉ፦</string>
+    <string name="assistant_settings_your_people_title">የእርስዎ ሰዎች</string>
     <string name="assistant_speaker_id_default_category_summary">የእርስዎ ረዳት የእርስዎን ድምፅ በእነዚህ መሣሪያዎች ላይ ለይቶ ማወቅ ሲችል ብቻ ነው የግል መረጃዎን የሚያቀርበው</string>
     <string name="assistant_speaker_id_default_category_title">ከVoice Match ጋር የተጋሩ መሣሪያዎች</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">ምዝገባ ሊጠናቀቅ አልቻለም።</string>
@@ -1008,7 +1030,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="cloud_search_history_summary_fetching">ቅንብሮችን በማምጣት ላይ…</string>
     <string name="collapse">ሰብስብ</string>
     <string name="collapse_time_to_leave">የዚህ ጉዞ አማራጮችን ደብቅ።</string>
-    <string name="collections">ስብስቦች</string>
+    <string name="collections">የተቀመጡ</string>
     <string name="comment_hint">ተጨማሪ አስተያየቶች (ከተፈለጉ)።</string>
     <string name="common_address_clear_button_label">አጽዳ</string>
     <string name="common_address_clear_confirm_button">ሰርዝ</string>
@@ -1242,6 +1264,10 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="device_setup_error_cancel_button">እገዛ ያግኙ</string>
     <string name="device_setup_error_content">የሆነ ችግር ተፈጥሯል</string>
     <string name="device_setup_error_title">አንድ ችግር ሊኖር ይችላል</string>
+    <string name="devices_scan_action_button">ቀጥል</string>
+    <string name="devices_scan_cancel_button">ይቅር</string>
+    <string name="devices_scan_explanation">መሣሪያዎችን ይምረጡ</string>
+    <string name="devices_scan_title">መሣሪያዎችን ያክሉ</string>
     <string name="directory_for_mall">የ%1$s ማውጫ</string>
     <string name="disclaimer">የኃላፊነት ማስተባበያ</string>
     <string name="dismiss_text">ለማሰናበት ወደ ታች ይጎትቱት</string>
@@ -1273,7 +1299,7 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="download_not_found">ውርድ አልተገኘም</string>
     <string name="download_prompt">አውርድ</string>
     <string name="download_setting_message">የወረዱ ክፍሎች ከተጠናቀቁ ከ30 ቀኖች ወይም ከ24 ሰዓቶች በኋላ ይወገዳሉ</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">ወርዷል</string>
     <string name="downloaded_episodes">የወረዱ ክፍሎች</string>
     <string name="downloading">በማውረድ ላይ...</string>
     <string name="downloads">ውርዶች</string>
@@ -1337,7 +1363,6 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">የሚገኙ ክፍሎች</string>
     <string name="episode_page_section_title">የትዕይንት ክፍል</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">ለእርስዎ</string>
     <string name="error">ስህተት</string>
     <string name="error_adding_location_snackbar_text">አካባቢን ማከል ላይ ስህተት</string>
@@ -1404,7 +1429,6 @@ Google የማያ ገጽ ፍለጋ ቅጽበታዊ ገጽ እይታዎችዎን �
     <string name="eyes_donate_data_optin_ok">እሺ</string>
     <string name="eyes_donate_data_optin_title">የሌንስ ምስሎችን ይለግሱ</string>
     <string name="eyes_flash_button_description">ፍላሽ ቀይር</string>
-    <string name="eyes_initial_suggestion_0">ምን ለይተህ ማወቅ ትችላለህ?</string>
     <string name="eyes_launcher_description">Google ሌንስ</string>
     <string name="eyes_no_permission">ይህን ለማድረግ ፈቃድ የለኝም</string>
     <string name="eyes_no_permission_camera">ካሜራውን ለመጠቀም ፈቃድ የለኝም</string>
@@ -1432,7 +1456,6 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="eyes_onboarding_title_text">ጽሑፍን ይቃኙ</string>
     <string name="eyes_request_timed_out_message">ይቅርታ፣ አሁን ላይ Googleን መድረስ አንችልም</string>
     <string name="eyes_share_with">ያጋሩ ለ</string>
-    <string name="eyes_unfreeze_image_description">ወደ ካሜራ ተመለስ</string>
     <string name="eyes_viewfinder_description">Google ሌንስን አግብር</string>
     <string name="failed">ምስል መጫን አልተቻለም</string>
     <string name="failed_to_open_webview">ገጹን መክፈት አልተቻለም</string>
@@ -1557,8 +1580,13 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="folder_renamed">አቃፊ %1$s ተብሎ ዳግም ተሰይሟል</string>
     <string name="folder_tap_to_close">አቃፊን ለመዝጋት ይንኩ</string>
     <string name="folder_tap_to_rename">ዳግም የተሰየመውን ለማስቀመጥ ይንኩ</string>
+    <string name="follow_soccer_promo_query">እግር ኳስ 2018</string>
     <string name="follow_world_cup_promo">የዓለም ዋንጫን ይክታተሉ</string>
     <string name="follow_world_cup_promo_content_description">የዓለም ዋንጫን ይክታተሉ</string>
+    <string name="follow_world_cup_promo_detail">ለተወዳጆች ቡድኖችዎ የግጥሚያ አስታዋሾች፣ ዜና እና በቀጥታ የሚተላለፉ ውጤቶች ለመመዝገብ እዚህ መታ ያድርጉ</string>
+    <string name="follow_world_cup_promo_long_soccer_title">በእግር ኳስ ግጥሚያዎች እንደተዘመኑ ይቆዩ</string>
+    <string name="follow_world_cup_promo_query">የዓለም ዋንጫ 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">የእግር ኳስ ትኩሳት እዚህ መጥቷል!</string>
     <string name="forbid_download_removal">ተከታታይ ትዕይንት እየተጫወተ እያለ ማስወገድ አይቻልም</string>
     <string name="fourth_quarter">አራተኛ ሩብ</string>
     <string name="fourth_quarter_abbrev">4ኛ ሩብ</string>
@@ -1764,7 +1792,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">ተመለስ</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">እርግጠኛ ነኝ</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">እርግጠኛ ነዎት?</string>
-    <string name="hotword_enrollment_google_home_share_message">"ሠላም! ግላዊነት የተላበሱ ውጤቶችን ማግኘት እንድችል Google Home ላይ የእኔ ረዳት ድምጼን ለይቶ እንዲያውቅ አሁን አስተምሬዋለሁ።
+    <string name="hotword_enrollment_google_home_share_message">"ሰላም! ግላዊነት የተላበሱ ውጤቶችን ማግኘት እንድችል Google Home ላይ የእኔ ረዳት ድምጼን ለይቶ እንዲያውቅ አስተምሬዋለሁ።
 
 ለእርስዎ ብቻ የተዘጋጁ መልሶችን እርስዎም ማግኘት ይችላሉ! የGoogle Home መተግበሪያውን በማውረድ ይጀምሩ፦ https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">ረዳትዎ እርስዎን ለይቶ እንዲያውቀዎት ያስተምሩት</string>
@@ -1898,7 +1926,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="hourly_forecast">በየሰዓቱ ትንበያ</string>
     <string name="hours">ሰዓቶች</string>
     <string name="how_can_i_help">እንዴት ላግዝዎት እችላለሁ?</string>
-    <string name="hq_a11y_bottom_bar_button">ከእርስዎ ረዳት ጋር ለመወያየት ማይክሮፎኑን ይክፈቱ</string>
+    <string name="hq_a11y_bottom_bar_button">ረዳት</string>
     <string name="hq_a11y_chatui_badge">አስስን እና የእርስዎን ነገሮች ይክፈቱ</string>
     <string name="hq_a11y_menu_button">ምናሌ</string>
     <string name="hq_account_switch_prompt">እንደ %1$s ሆነው በመግባት ላይ</string>
@@ -2026,10 +2054,10 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="inferred_event_error">ክስተት መፍጠር አልተሳካም</string>
     <string name="inferred_from_gmail">በGmail ውስጥ «%1$s» ተብሎ የሚታወቅ</string>
     <string name="info_target_label">የመተግበሪያ መረጃ</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">የGoogle ፖድክስት መተግበሪያውን ያግኙ</string>
+    <string name="install_google_podcasts_accept">መተግበሪያውን አግኝ</string>
+    <string name="install_google_podcasts_message">ፈጣን መዳረሻ ለማግኘት የGoogle ፖድካስት መተግበሪያውን በPlay መደብር ውስጥ ያግኙ</string>
+    <string name="install_google_podcasts_reject">አሁን አይደለም</string>
     <string name="installed_app_group_header">መተግበሪያዎች</string>
     <string name="installed_details">ስሪት %1$s ተጭኗል፣ በዲስክ ላይ ያለ መጠን %2$s</string>
     <string name="installed_language_packs">ተጭኗል</string>
@@ -2070,7 +2098,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="item_is_selected">%1$s ተመርጧል</string>
     <string name="item_moved">ንጥል ተንቀሳቅሷል</string>
     <string name="item_removed">ንጥል ነገር ተንቀሳቅሷል</string>
-    <string name="jasper_duo_knock_knock_summary">ከማንሳትዎ በፊት የደዋዩን ቪዲዮ ይመልከቱ። እና የሚደውሉላቸው ሰዎች ስልካቸው ሲደውል የእርስዎ ቪዲዮ እንዲመለከቱ ይፍቀዱ። &lt;a href=\"https://support.google.com/duo/answer/6376115\">የበለጠ ለመረዳት&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">ከማንሳትዎ በፊት የደዋዩን ቪዲዮ ይመልከቱ። እና የሚደውሉላቸው ሰዎች ስልካቸው ሲደውል የእርስዎን ቪዲዮ እንዲመለከቱ ይፍቀዱ። %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knock-knock</string>
     <string name="jasper_duo_not_signed_in">አልገቡም</string>
     <string name="jasper_duo_signed_in">ወደ መለያ ገብተዋል</string>
@@ -2166,10 +2194,10 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="location_service_required_title">አካባቢ-ተኮር ካርዶችን ያግኙ</string>
     <string name="lockscreen_mic_promo_notification_content">«%1$s» በማለት ስልክዎን ይክፈቱት።</string>
     <string name="lockscreen_mic_promo_notification_title">በድምፅዎ ይክፈቱ</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">አንድ ንዑስ ፕሮግራም ለመምረጥ ወይም ብጁ እርምጃዎችን ለመጠቀም ሁለቴ መታ አድርገው ይያዙ።</string>
     <string name="long_press_widget_to_add">ፍርግም ለማንሳት ይንኩ እና ይያዙት</string>
     <string name="longpress_menu_download">ምስል አውርድ</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">ምስል አጋራ</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">ኖክስ</string>
@@ -2203,10 +2231,10 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="map_content_description">ካርታ</string>
     <string name="map_route_content_description">ወደ %1$s የሚወስድ ካርታ</string>
     <string name="maps_mode_landing_text">ካርታዎችን ይፈልጉ</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">እንደተጫወተ ምልክት አድርግበት</string>
+    <string name="mark_as_unplayed">እንዳልተጫወተ ምልክት አድርግበት</string>
     <string name="media_content_image">በዚህ ካርድ ላይ እየታየ ካለው ሚድያ ጋር የሚዛመድ ምስል</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">የእርስዎ ፖድካስቶች</string>
     <string name="media_route_chooser_dialog_title">Cast አድርግ ወደ</string>
     <string name="media_route_chooser_searching">መሣሪያዎችን በመፈለግ ላይ…</string>
     <string name="media_route_controller_cancel">ይቅር</string>
@@ -2219,13 +2247,11 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="menu_overlay_feedback">ግብረመልስ ላክ</string>
     <string name="menu_overlay_reset_to_default_style">ወደ ነባሪ ቅጥ ዳግም አስጀምር</string>
     <string name="menu_refresh">አድስ</string>
-    <string name="menu_search_by_image">በምስል ፈልግ</string>
     <string name="menu_send_button_content_description">ግብረመልስ የሚያስገቡበት የላክ አዝራር።</string>
     <string name="menu_send_feedback">ግብረመልስ ይላኩ</string>
     <string name="menu_settings">ቅንብሮች</string>
     <string name="menu_share">አጋራ</string>
     <string name="menu_view_in_browser">በአሳሽ ውስጥ ይመልከቱ</string>
-    <string name="menu_view_original_image">የመጀመሪያውን ምስል ይመልከቱ</string>
     <string name="menu_visit_page">ገጹን ይጎብኙ</string>
     <string name="message_card_feedback">ግብረመልስ</string>
     <string name="message_image">ምስል</string>
@@ -2270,7 +2296,6 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="minus_one_header_settings">ቅንብሮች</string>
     <string name="minute_picker_description">የደቂቃዎች ክብ ተንሸራታች</string>
     <string name="minutes">ደቂቃዎች</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">የተለያዩ</string>
     <string name="mismatching_value_eir_code">አድራሻ ጋር መዛመድ አለበት</string>
     <string name="mismatching_value_pin_code">አድራሻ ጋር መዛመድ አለበት</string>
@@ -2351,7 +2376,6 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="network_error_fetching_weather_data_status_text">አውታረ መረብ በአሁኑ ጊዜ አይገኝም</string>
     <string name="network_error_no_connection_tts">በአሁኑ ጊዜ ምንም የበይነመረብ ግንኙነት የለም።</string>
     <string name="network_error_resend_audio">ድምጽ ዳግም ላክ</string>
-    <string name="network_error_try_again">እንደገና ሞክር</string>
     <string name="network_location_required_text">እንደ የአካባቢያዊ የአየር ሁኔታ እና የመጓጓዣ ትራፊክ ያሉ አካባቢ-ተኮር ካርዶችን ለመመልከት Wi-Fi እና የተንቀሳቃሽ ስልክ አውታረ መረብ አካባቢን ያብሩ</string>
     <string name="network_location_required_text_klp">እንደ አካባቢያዊ የአየር ጠባይ እና የመጓጓዣ ትራፊክ የመሳሰሉ አካባቢ ላይ የተመሰረቱ ካርዶችን ለማየት ከፍተኛ ትክክለኝነትን ወይም የባትሪ ኃይል ቁጠባ አካባቢ ሁነታን ይምረጡ</string>
     <string name="never">በጭራሽ</string>
@@ -2443,7 +2467,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="none">ምንም</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">የዝርዝሮች እና ማስታወሻዎች አገልግሎቶች</string>
-    <string name="notes_lists_none_preference_summary">ሁለተኛ መረጃ</string>
+    <string name="notes_lists_none_preference_summary">ረዳቱ የእርስዎን ውሂብ ከማናቸውም አገልግሎት ጋር አያመሳስልም።</string>
     <string name="notes_lists_none_preference_title">ምንም</string>
     <string name="notes_lists_provider_changed_description">"የረዳት ማስታወሻዎች እና ዝርዝሮች ውሂብ ከእንግዲህ በ%1$s አይዘመኑም። %1$s ላይ ያለ ነባር ውሂብ አይሰረዝም።
 
@@ -2451,6 +2475,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="notes_lists_provider_changed_negative_button">ይቅር</string>
     <string name="notes_lists_provider_changed_positive_button">እስማማለሁ</string>
     <string name="notes_lists_provider_changed_title">ከ%1$s ጋር ያለውን ግንኙነት ያቋርጡ</string>
+    <string name="notes_lists_title">የእርስዎ ረዳት የእርስዎን ማስታወሻዎች እና ዝርዝሮች ወደ እነዚህ አገልግሎቶች እንደተመሳሰሉ ያቆያል።</string>
     <string name="notification_access_link_text">የማሳወቂያ መዳረሻን አጥፋ</string>
     <string name="notification_accessable_apps_category_title">የማሳወቂያ መዳረሻ</string>
     <string name="notification_cancel_text">እርስዎ ተመልሰው መስመር ላይ ሲሆኑ Google ይህን ፍለጋ ዳግም አይሞክረውም።</string>
@@ -2570,6 +2595,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="opa_assist_app_screen_explanation">የGoogle ረዳትዎን ለመድረስ በእርስዎ የረዳት እና የድምፅ ግቤት ቅንብሮች ውስጥ የGoogle መተግበሪያውን ይምረጡ።</string>
     <string name="opa_assist_app_screen_title">የGoogle መተግበሪያው የእርስዎ ነባሪ የረዳት መተግበሪያ አይደለም</string>
     <string name="opa_assistant_logo_content_description">የድምፅ ፍለጋ</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">ለእርስዎ የGoogle ረዳት ዝማኔዎችን ይመልከቱ</string>
     <string name="opa_consent_check_error_button">ዝጋ</string>
     <string name="opa_consent_check_error_button_notavailable">መለያዎችን ቀይር</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">በመለያ ቅንብሮችዎ ላይ የሚወሰን ሆኖ የእርስዎ ረዳት ተሞክሮ እንደ የድር ውጤቶች፣ ቀልዶች እና አካባቢያዊ መረጃ ባሉ ነገሮች ሊገደብ ይችላል።</string>
@@ -2646,7 +2672,6 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="opa_eyes_free_opt_in_speech">ለደህንነት አስተማማኝ ሲሆን በመጀመሪያ ማሳወቂያውን መታ ማድረግ ይኖርብዎታል። ከዚያ የጆሮ ማዳመጫዎች ከGoogle ረዳት ጋር እንዲሠሩ ሊፈቅዱላቸው ይችላሉ።</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">ለመቀጠል መታ ያድርጉ</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Google ረዳትዎን እንዲያግዘዎት ፈቃድ ይስጡት</string>
-    <string name="opa_eyes_warm_welcome_chip_text">ለመቀጠል መታ ያድርጉ</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">በኋላ ላይ አድርገው</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">ተስማምቼያለሁ</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">ይጀምሩ</string>
@@ -2675,7 +2700,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="opa_gmscore_unavailable_message_disabled">ከእርስዎ ረዳት ጋር መሥራት ለመጀመር የGoogle Play አገልግሎቶችን በመሣሪያ ቅንብሮች ውስጥ ማብራት ያስፈልግዎታል።</string>
     <string name="opa_gmscore_unavailable_message_invalid">Google Play አገልግሎቶች በእርስዎ መሳሪያዎች አይደገፍም።</string>
     <string name="opa_gmscore_unavailable_message_missing">ከረዳት ጋር መሥራት ለመጀመር፣ በመጀመሪያ የGoogle Play አገልግሎቶችን መጫን ያስፈልግዎታል።</string>
-    <string name="opa_gmscore_unavailable_message_permissions">የእርስዎ ረዳት ነገሮችን ለማከናወን በGoogle Play አገልግሎቶች ላይ ይመረኮዛል። የእርስዎን ፍቃዶች ያዘምኑ በዚህም ረዳት እርስዎን ማገዝ እንዲችል Google Play አገልግሎቶች የእርስዎን ቀን መቁጠሪያ፣ የመገኛ አካባቢ መረጃ፣ መልእክቶች እና ሌሎች ተግባራትን መጠቀም ይችላሉ።</string>
+    <string name="opa_gmscore_unavailable_message_permissions">የእርስዎ ረዳት ነገሮችን ለማከናወን በGoogle Play አገልግሎቶች ላይ ይመረኮዛል። የእርስዎን ፍቃዶች ያዘምኑ በዚህም ረዳት እርስዎን ማገዝ እንዲችል Google Play አገልግሎቶች የእርስዎን ቀን መቁጠሪያ፣ የመገኛ አካባቢ መረጃ፣ መልዕክቶች እና ሌሎች ተግባራትን መጠቀም ይችላሉ።</string>
     <string name="opa_gmscore_unavailable_message_unknown">ከGoogle Play አገልግሎቶች ጋር የሆነ ችግር ተከስቷል። እንደገና ይሞክሩ።</string>
     <string name="opa_gmscore_unavailable_message_update">ከረዳት ጋር መሥራት ለመጀመር የGoogle Play አገልግሎቶችን ማዘመን ይኖርብዎታል።</string>
     <string name="opa_gmscore_unavailable_title">የGoogle Play አገልግሎቶች ያስፈልጋሉ</string>
@@ -2707,6 +2732,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="opa_launcher_icon_text">ረዳት</string>
     <string name="opa_lock_icon_description">የመክፈቻ አዶ</string>
     <string name="opa_logo_content_desc">የGoogle ረዳት አርማ</string>
+    <string name="opa_mark_content">ረዳት</string>
     <string name="opa_marketplace_disclosure_description">የእርስዎ Google ረዳት ተጨማሪ ነገሮችን እንዲያከናውኑ ከተለያዩ አገልግሎቶች ጋር አብሮ መሥራት ይችላል።</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">ፊልም ትኬቶችን መግዛትም ሆነ ወይም የእርስዎ ዕቃ ማጠቢያ ማስጠገን ይሁን ነገሮችን እንዲከናወኑልዎ እርስዎን ለማገዝ የGoogle ረዳቱ ከGoogle አጋሮች ጋር ሊሠራ ይችላል። &lt;a href=https://support.google.com/assistant/?p=google_partners>የበለጠ ለመረዳት&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google አጋሮች ከGoogle ጋር የንግድ ግንኙነት ያላቸው የንግድ ድርጅቶች ናቸው። የGoogle ረዳት የፊልም ትኬቶችን መግዛትም ሆነ የዕቃ ማጠቢያ ገንዳዎን ማስጠገን የመሳሰሉትን የእርስዎን ነገሮች እንዲከናወኑ ለማገዝ ከGoogle አጋሮች ጋር ሊሰራ ይችላል። <a href="https://support.google.com/assistant/?p=google_partners">የበለጠ ለመረዳት</a></string>
@@ -2945,7 +2971,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
 ይህን መሣሪያ የሚጠቀም ማንኛውም ሰው እንዲሁም የግል ውጤቶችዎን ማግኘት እንደሚችል ልብ ይበሉ። የግል ውጤቶችን በረዳት ቅንብሮች ውስጥ ማጥፋት ይችላሉ።"</string>
     <string name="personal_results_title">የግል ውጤቶችን ያግኙ</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምጹን ተጠቅሞ በመሣሪያው ላይ የእሱን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንዲችል እርስዎ የግል ውጤቶችን ማብራት ይችላሉ። &lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ለመረዳት&lt;/a>&lt;br>&lt;br>የግል ውጤቶችን በረዳት ቅንብሮች ወይም በFamily Link ውስጥ ማጥፋት ይችላሉ።}female{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምጿን ተጠቅማ በመሣሪያዋ ላይ የእሷን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንድትችል እርስዎ የግል ውጤቶችን ማብራት ይችላሉ። &lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ለመረዳት&lt;/a>&lt;br>&lt;br>የግል ውጤቶችን በረዳት ቅንብሮች ወይም በFamily Link ውስጥ ማጥፋት ይችላሉ።}other{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምጻቸውን ተጠቅመው በመሣሪያቸው ላይ የእሳቸውን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንዲችል እርስዎ የግል ውጤቶችን ማብራት ይችላሉ። &lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ለመረዳት&lt;/a>&lt;br>&lt;br>የግል ውጤቶችን በረዳት ቅንብሮች ወይም በFamily Link ውስጥ ማጥፋት ይችላሉ።}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምፁን ተጠቅሞ በመሣሪያው ላይ የእሱን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንዲችል አንተ የግል ውጤቶችን ማብራት ትችላለህ።&lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ተረዳ&lt;/a>&lt;br>&lt;br>በHome ማያ ገጽ ላይ - {PERSON} እነሱን ለማግኘት ሳይጠይቅ - የግል ውጤቶች በተጨማሪ ብቅ ሊሉ ይችላሉ። በጣም ለማወቅ የጓጉ የጎን ተመልካቾች በእነዚህ ውጤቶች ላይ መታ ሊያደርጉ እና እርምጃ ሊወስዱ እንደሚችሉ ልብ በል።&lt;br>&lt;br>በረዳት ቅንብሮች ወይም Family Link ውስጥ የግል ውጤቶችን ማጥፋት ትችላለህ።}female{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምጿን ተጠቅማ በመሣሪያው ላይ የእሷን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንድትችል አንቺ የግል ውጤቶችን ማብራት ትችያለሽ። &lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ተረጂ&lt;/a>&lt;br>&lt;br>በHome ማያ ገጽ ላይ - {PERSON} እነሱን ለማግኘት ሳትጠይቅ - የግል ውጤቶች በተጨማሪ ብቅ ሊሉ ይችላሉ። በጣም ለማወቅ የጓጉ የጎን ተመልካቾች በእነዚህ ውጤቶች ላይ መታ ሊያደርጉ እና እርምጃ ሊወስዱ እንደሚችሉ ልብ በይ።&lt;br>&lt;br>በረዳት ቅንብሮች ወይም Family Link ውስጥ የግል ውጤቶችን ማጥፋት ትችያለሽ።}other{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምፃቸውን ተጠቅመው በመሣሪያው ላይ የእነርሱን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንዲችሉ እርስዎ የግል ውጤቶችን ማብራት ይችላሉ።&lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ይረዱ&lt;/a>&lt;br>&lt;br>በHome ማያ ገጽ ላይ - {PERSON} እነሱን ለማግኘት ሳይጠይቁ - የግል ውጤቶች በተጨማሪ ብቅ ሊሉ ይችላሉ። በጣም ለማወቅ የጓጉ የጎን ተመልካቾች በእነዚህ ውጤቶች ላይ መታ ሊያደርጉ እና እርምጃ ሊወስዱ እንደሚችሉ ልብ ይበሉ።&lt;br>&lt;br>በረዳት ቅንብሮች ወይም Family Link ውስጥ የግል ውጤቶችን ማጥፋት ይችላሉ።}}</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምፁን ተጠቅሞ በመሣሪያው ላይ የእሱን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንዲችል እርስዎ የግል ውጤቶችን ማብራት ይችላሉ። &lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ይረዱ&lt;/a>&lt;br>&lt;br>እንዲሁም የግል ውጤቶች በመነሻ ማያ ገጽ ላይ እና እንደ ማሳወቂያዎች ሆነው - {PERSON} እነሱን ለማግኘት ሳይጠይቅ ብቅ ሊሉ ይችላሉ። በጣም ለማወቅ የጓጉ የጎን ተመልካቾች በእነዚህ ውጤቶች ላይ መታ ሊያደርጉ እና እርምጃ ሊወስዱ እንደሚችሉ ልብ ይበሉ።&lt;br>&lt;br>በረዳት ቅንብሮች ወይም Family Link ውስጥ የግል ውጤቶችን ማጥፋት ይችላሉ።}female{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምጿን ተጠቅማ በመሣሪያው ላይ የእሷን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንድትችል እርስዎ የግል ውጤቶችን ማብራት ይችላሉ። &lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ይረዱ&lt;/a>&lt;br>&lt;br>እንዲሁም የግል ውጤቶች በመነሻ ማያ ገጽ ላይ እና እንደ ማሳወቂያዎች ሆነው - {PERSON} እነሱን ለማግኘት ሳትጠይቅ ብቅ ሊሉ ይችላሉ። በጣም ለማወቅ የጓጉ የጎን ተመልካቾች በእነዚህ ውጤቶች ላይ መታ ሊያደርጉ እና እርምጃ ሊወስዱ እንደሚችሉ ልብ ይበሉ።&lt;br>&lt;br>በረዳት ቅንብሮች ወይም Family Link ውስጥ የግል ውጤቶችን ማጥፋት ይችላሉ።}other{Voice Match ተቀናብሯል።&lt;br>&lt;br>አሁን {PERSON} ድምፃቸውን ተጠቅመው በመሣሪያው ላይ የእነርሱን ቀን መቁጠሪያ፣ እውቂያዎች፣ አስታዋሾች እና ተጨማሪ ነገሮችን መድረስ እንዲችሉ እርስዎ የግል ውጤቶችን ማብራት ይችላሉ።&lt;a href=\"https://support.google.com/families/answer/7521263\">የበለጠ ይረዱ&lt;/a>&lt;br>&lt;br>እንዲሁም የግል ውጤቶች በመነሻ ማያ ገጽ ላይ እና እንደ ማሳወቂያዎች ሆነው - {PERSON} እነሱን ለማግኘት ሳይጠይቁ ብቅ ሊሉ ይችላሉ። በጣም ለማወቅ የጓጉ የጎን ተመልካቾች በእነዚህ ውጤቶች ላይ መታ ሊያደርጉ እና እርምጃ ሊወስዱ እንደሚችሉ ልብ ይበሉ።&lt;br>&lt;br>በረዳት ቅንብሮች ወይም Family Link ውስጥ የግል ውጤቶችን ማጥፋት ይችላሉ።}}</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{ከ{PERSON} ድምፅ ጋር የግል ውጤቶችን አግኚ።}male{ከ{PERSON} ድምፅ ጋር የግል ውጤቶችን አግኝ።}other{ከ{PERSON} ድምፅ ጋር የግል ውጤቶችን ያግኙ።}}</string>
     <string name="personal_search">ለግል የተበጀ ፍለጋ</string>
     <string name="phone_display_name">ደውል</string>
@@ -3112,7 +3138,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="recent_web_history_group_header">የቅርብ ጊዜ ድረ-ገጾች</string>
     <string name="recent_webpage_category">ድረ-ገጽ</string>
     <string name="recently">የቅርብ ጊዜ</string>
-    <string name="recently_add_reading_reminder">አንባቢ አስታዋሽ ያክሉ</string>
+    <string name="recently_add_reading_reminder">የንባብ አስታዋሽ ያክሉ</string>
     <string name="recently_app_name">የቅርብ ጊዜ</string>
     <string name="recently_clear_data_button">ውሂብን አጽዳ</string>
     <string name="recently_clear_data_read_later_articles">በኋላ የሚነበቡ፦ %d ዘገባዎች</string>
@@ -3134,6 +3160,7 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="recently_empty_state_read_later_body_text">በመሣሪያዎ ላይ የወረዱ ንጥሎችን ለ7 ቀኖች እናቆያለን።</string>
     <string name="recently_empty_state_read_later_title_text">በኋላ ለማንበብ ገጾችን ያክሉ</string>
     <string name="recently_entry_interaction_offline">ከመስመር ውጭ ሆነው ሳለ የተጠየቀውን ገጽ መክፈት አይቻልም።</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">ምግብ</string>
     <string name="recently_google_doodle_for">የ%s Google Doodle</string>
     <string name="recently_keep_on_device_until">እስከዚህ ጊዜ ድረስ መሣሪያውን አቆይ፦</string>
@@ -3148,20 +3175,20 @@ Google ሌንስ ሁሉንም ነገር የሚያውቅ አይደለም፣ እ�
     <string name="recently_onboarding_recent_message_2">"በቅርቡ በGoogle መተግበሪያው ውስጥ የፈለጓቸውን ርዕሶች ዳግም ያግኟቸው።
 
 በመቆንጠጥ ቡድኑን መዝጋት ይችላሉ።"</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">በቅርቡ በGoogle መተግበሪያው ውስጥ ፍለጋ ያደረጉላቸውን ርዕሰ ጉዳዮች ዳግም ያግኙ።</string>
     <string name="recently_onboarding_recent_title">ምን እንዳገኙ ይመልከቱ</string>
     <string name="recently_onboarding_search_on_message">"እዚህ ያሉት ገጾች በዚህ መሣሪያ ላይ የሚያዩዋቸው ናቸው። ከተመሳሳዩ ፍለጋ የመጡ ገጾች በመጀመሪያ ከአዲሶቹ ጋር አንድ ላይ ይቦደናሉ።
 
 መፈለግዎን ይቀጥሉና ግኝቶችዎን እዚህ ዳግም ያግኟቸው።"</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">እዚህ ያሉት ገጾች በዚህ መሣሪያ ላይ የሚያዩዋቸው ናቸው። መፈለግዎን ይቀጥሉና ግኝቶችዎን እዚህ ዳግም ያግኟቸው።</string>
     <string name="recently_onboarding_search_on_title">እዚህ ላይ ይፈልጉ፦</string>
     <string name="recently_onboarding_swipe_up_message">"የቅርብ ጊዜ ገጾችን ማስወገድ ይፈልጋሉ? እነሱን ለማስወገድ ወደ ላይ ብቻ ጠረግ ያድርጉ።
 
 ይሄ ከእርስዎ የGoogle መለያ አይሰርዛቸውም።"</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">የቅርብ ጊዜ ገጾችን ማስወገድ ይፈልጋሉ? እነሱን ለማስወገድ ወደ ላይ ብቻ ጠረግ ያድርጉ። ይሄ ከእርስዎ የGoogle መለያ አይሰርዛቸውም።</string>
     <string name="recently_onboarding_swipe_up_title">ወደ ላይ ያንሸራትቱ</string>
     <string name="recently_overflow_title">ተጨማሪ አማራጮች</string>
-    <string name="recently_reading_reminder">አንባቢ አስታዋሽ፦</string>
+    <string name="recently_reading_reminder">የንባብ አስታዋሽ፦</string>
     <string name="recently_removed_item_dialog_message">"የእርስዎ ፍለጋ ከዚህ መሣሪያ ላይ ብቻ ተወግዷል። የእርስዎን የGoogle ታሪክ በእኔ እንቅስቃሴ ውስጥ ማቀናበር ይችላሉ።
 
 "<a href="http://myactivity.google.com">myactivity.google.com</a></string>
@@ -3190,6 +3217,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s ፍለጋ ውጤቶች"</strin
     <string name="recents_result_group_header">ድር</string>
     <string name="recents_result_separate_group_header">የቅርብ ጊዜ ፍለጋዎች</string>
     <string name="recognizer_service_label">መሠረታዊ የGoogle ማወቅ</string>
+    <string name="recommendation_header_text">ለእርስዎ የሚመከሩ</string>
     <string name="reconnecting_loading_results">"የእርስዎን ውጤቶች በመጫን ላይ
 "</string>
     <string name="reconnecting_title">ዳግም በማገናኘት ላይ…</string>
@@ -3262,7 +3290,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s ፍለጋ ውጤቶች"</strin
     <string name="renter_name">ስም</string>
     <string name="report_other_reason">ሌላ</string>
     <string name="report_this">ይህን ሪፖርት አድርግ</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">ክፍሎችን ለማውረድ በመተግበሪያ ፈቃዶች ውስጥ የማከምቻ መዳረሻን ይፍቀዱ</string>
     <string name="request_storage_permission_dialog_message">የትዕይንት ክፍሎችን ለማውረድ Google የመሣሪያዎን ማከማቻ መድረስ ይፈልጋል</string>
     <string name="request_storage_permission_dialog_title">የማከማቻ መዳረሻ ይፍቀዱ</string>
     <string name="reservation_group_header">ቦታ ማስያዣዎች</string>
@@ -3347,6 +3375,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s ፍለጋ ውጤቶች"</strin
     <string name="screen_moved">ማያ ገጽ ተንቀሳቅሷል</string>
     <string name="screenshot_srp_desc">%sን ይፈልጉ።</string>
     <string name="screenshot_srp_pending_desc">በመጠባበቅ ላይ ያለ የ%s ፍለጋ</string>
+    <string name="screenshot_srp_voice_pending_desc">በመጠባበቅ ላይ ያለ የድምፅ ፍለጋ</string>
+    <string name="screenshot_srp_voice_pending_title">የድምጽ ፍለጋ</string>
     <string name="screenshot_web_desc">%sን ይጎብኙ።</string>
     <string name="screenshot_webpage_pending_desc">ማውረድን በመጠባበቅ ላይ</string>
     <string name="scroll_left">ወደ ግራ ይሸብልሉ</string>
@@ -3404,7 +3434,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s ፍለጋ ውጤቶች"</strin
     <string name="search_sources_tablet">የጡባዊ ፍለጋ</string>
     <string name="search_storage_label">የGoogle ፍለጋ ማከማቻ</string>
     <string name="search_tablet">ጡባዊ ፈልግ</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">ድሩን ፈልግ</string>
     <string name="search_the_web_menu_text">ከድር ፈልግ</string>
     <string name="search_the_web_suggestion">ድሩን ፈልግ</string>
     <string name="search_widget_customization">ንዑስ ፕሮግራምን አብጅ</string>
@@ -3632,7 +3662,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s ፍለጋ ውጤቶች"</strin
     <string name="sports_wins_header">ድል</string>
     <string name="sports_wins_header_full_length">ድሎች</string>
     <string name="standalone_zs_back_content_desc">ተመለስ</string>
+    <string name="standalone_zs_brick_content_desc">ግላዊ ዝማኔዎች</string>
     <string name="standalone_zs_explore_content_desc">አስስን እና የእርስዎን ነገሮች ይክፈቱ</string>
+    <string name="standalone_zs_opa_icon_desc">ረዳት</string>
     <string name="star_rating_bar_content_description">የኮከብ ደረጃ አሰጣጥ፦ %1$s</string>
     <string name="starting_location_selector">%1$s። መነሻ አካባቢን ይምረጡ።</string>
     <string name="starts_at">እዚህ ላይ ይጀምራል</string>
@@ -3648,6 +3680,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s ፍለጋ ውጤቶች"</strin
     <string name="street_address_label">የጎዳና አድራሻ</string>
     <string name="subscribe_button_label">ለደንበኝነት ይመዝገቡ</string>
     <string name="subscribe_to_see_new_episodes">አዲስ ክፍሎችን ለመመልከት ለፖድካስቶች ደንበኝነት ይመዝገቡ</string>
+    <string name="success">ስኬት</string>
     <string name="suggest">በራስ-ሰር አጠናቅ</string>
     <string name="suggest_contact_removal_body">ይሄ &lt;b>%1$s&lt;/b>ን ከዋና እውቂያዎች ዝርዝርዎ ያስወግደዋል። አሁንም &lt;b>%2$s&lt;/b>ን በመፈለግ ሊያገኟቸው ይችላሉ።</string>
     <string name="suggest_contact_removal_cancel">ይቅር</string>
@@ -4007,6 +4040,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s ፍለጋ ውጤቶች"</strin
     <string name="user_defined_action_task_say_something_title">የሆነ ነገር ይበሉ</string>
     <string name="user_defined_action_task_scene_control_title">ትዕይንቶች</string>
     <string name="user_defined_action_task_scene_control_which_scenes">በዚህ የተለመደ እንቅስቃሴ ውስጥ የትኞቹን ትዕይንቶችዎን ማካተት እንደሚፈልጉ ይምረጡ።</string>
+    <string name="user_defined_action_task_security_system_control_title">የደህንነት ስርዓቱን ያስታጥቁት</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">የትኛውን ሁነታ ነው ማቀናበር የሚፈልጉት?</string>
     <string name="user_defined_action_task_send_text_content_summary">የተቀባይ ቁጥርን ወይም የመልዕክት ይዘትን ባዶ ከተውት፣ ይህን የተለመደ ዕለታዊ ተግባር በሚያሄዱበት ጊዜ ለዚህ ጥያቄ ይቀርብልዎታል።</string>
     <string name="user_defined_action_task_send_text_content_title">ጽሑፉ ምን ማለት አለበት?</string>
     <string name="user_defined_action_task_send_text_recipient_title">ወደትኛው ቁጥር ነው ጽሑፍ መላክ የሚፈልጉት?</string>

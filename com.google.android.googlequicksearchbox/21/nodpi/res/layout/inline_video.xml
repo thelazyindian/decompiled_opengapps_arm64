@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:id="@id/photo_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:thegoogle="http://schemas.android.com/apk/res-auto">
-    <FrameLayout android:id="@id/photo_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <com.google.android.apps.gsa.now.shared.ui.RoundedCornerFrameLayout android:tag="@string/video_rounded_corner_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/autoplay_video_description" android:alpha="0.0">
+    <com.google.android.apps.gsa.now.shared.ui.RoundedCornerFrameLayout android:id="@id/photo_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:tag="@string/video_rounded_corner_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/autoplay_video_description" android:alpha="0.0">
             <View android:id="@id/video_black_overlay_for_transition" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-        </com.google.android.apps.gsa.now.shared.ui.RoundedCornerFrameLayout>
+        </FrameLayout>
         <com.google.android.apps.gsa.now.shared.ui.CrossfadingWebImageView android:id="@id/photo" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@null" thegoogle:crossfadeDuration="@integer/image_crossfade_duration" thegoogle:pressedHighlightColor="@color/image_pressed_highlight" thegoogle:cornerRadius="@dimen/rounded_corner_radius" thegoogle:roundCorners="topLeft" />
         <View android:layout_gravity="center" android:id="@id/media_icon_fv2_shadow" android:visibility="gone" android:layout_width="@dimen/fv2_icon_shadow_size" android:layout_height="@dimen/fv2_icon_shadow_size" />
         <View android:layout_gravity="center" android:id="@id/media_icon_fv2" android:background="@drawable/quantum_ic_play_circle_fill_white_36" android:visibility="gone" android:layout_width="@dimen/fv2_icon_size" android:layout_height="@dimen/fv2_icon_size" />
@@ -16,5 +16,5 @@
             <ProgressBar android:layout_gravity="center" android:id="@id/load_indicator_progress_bar" android:background="@android:color/transparent" android:layout_width="@dimen/fv2_video_load_indicator_size" android:layout_height="@dimen/fv2_video_load_indicator_size" android:indeterminateDuration="1000" android:indeterminateTint="@android:color/white" />
         </FrameLayout>
         <View android:id="@id/video_interception_view" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </FrameLayout>
+    </com.google.android.apps.gsa.now.shared.ui.RoundedCornerFrameLayout>
 </FrameLayout>

@@ -173,6 +173,10 @@
     <string name="agent_bookmark_error">Terdapat ralat. Sila cuba sebentar lagi.</string>
     <string name="agent_bookmark_removed">Dialih keluar daripada penanda halaman</string>
     <string name="agent_description_more">lagi</string>
+    <string name="agent_details_add_routine_description">Selesaikan lebih banyak perkara dalam Rutin dengan kemas kini daripada %1$s.</string>
+    <string name="agent_details_add_routine_item">Tambah</string>
+    <string name="agent_details_customize_routine">Sesuaikan Rutin Anda</string>
+    <string name="agent_details_manage_routines">Urus Rutin</string>
     <string name="agent_details_splash_image_a11y">Imej Apl Assistant</string>
     <string name="agent_directory_a11y_back_button">Kembali</string>
     <string name="agent_directory_a11y_more_groups">Lagi</string>
@@ -392,7 +396,7 @@ Benarkan Google menyimpan dan menganalisis tangkapan skrin carian skrin anda unt
 Assistant anda akan menggunakan tetapan ini untuk soalan tentang perjalanan ulang-alik anda"</string>
     <string name="assistant_settings_commute_walk">Berjalan</string>
     <string name="assistant_settings_commute_walk_key">ULANG-ALIK Berjalan</string>
-    <string name="assistant_settings_contact_list_introduction">Berikut perkara yang anda minta Assistant anda ingati tentang orang yang anda kenali.</string>
+    <string name="assistant_settings_contact_list_introduction">Berikut adalah perkara yang anda minta Assistant anda ingati tentang orang yang anda kenali.</string>
     <string name="assistant_settings_custom_routines_description">Minta Assistant anda melakukan pelbagai perkara dengan satu arahan sahaja. Gunakan rutin tersedia yang anda laraskan agar sesuai dengan hari anda dan buat rutin tersuai yang serba baharu.</string>
     <string name="assistant_settings_default_record_button_text">Rakam</string>
     <string name="assistant_settings_delete_button_label">Padam</string>
@@ -530,6 +534,7 @@ Assistant anda akan menggunakan tetapan ini untuk soalan tentang perjalanan ulan
     <string name="assistant_settings_music_gpm_premium_dialog_text">Muzik Google Play memerlukan langganan untuk dimainkan di Google Home. Anda boleh mendaftar dalam <a href="https://play.google.com/store/music">apl Muzik Play</a>. Anda boleh membeli atau <a href="https://support.google.com/googleplay?p=home_uploadmusic">memuat naik muzik anda</a> juga</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Langganan atau pustaka Muzik Play diperlukan</string>
     <string name="assistant_settings_music_icon_text">Ikon penyedia muzik</string>
+    <string name="assistant_settings_music_link_dialog_text">Paut Akaun Google anda ke %1$s untuk mendayakan main balik pada peranti yang serasi dan mengakses senarai main anda. Apabila anda berinteraksi dengan Perkhidmatan %1$s melalui Google Assistant, pertanyaan anda mungkin dihantar kepada %1$s untuk digunakan menurut pernyataan privasinya. %1$s mungkin memberikan hasil carian peribadi dan syor yang diperibadikan untuk anda. Anda boleh menyahpaut akaun anda pada bila-bila masa dalam tetapan Assistant.</string>
     <string name="assistant_settings_music_no_preference_summary">Gunakan pilihan akaun lain pada peranti kongsi</string>
     <string name="assistant_settings_music_no_preference_title">Tiada penyedia lalai</string>
     <string name="assistant_settings_music_premium_dialog_button">OK, faham</string>
@@ -538,13 +543,15 @@ Assistant anda akan menggunakan tetapan ini untuk soalan tentang perjalanan ulan
     <string name="assistant_settings_music_provider_category_title">Pembantu akan menggunakan penyedia muzik ini secara lalai apabila diminta memainkan muzik. Anda masih boleh memainkan muzik menggunakan semua penyedia terpaut yang lain jika dinyatakan.</string>
     <string name="assistant_settings_music_title">Muzik</string>
     <string name="assistant_settings_music_unable_unlink_default">Tidak dapat menyahpaut penyedia muzik lalai anda</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Muzik memerlukan keahlian YouTube Red untuk dimainkan pada Google Home. Anda boleh mendaftar di <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Keahlian YouTube Red diperlukan</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Penyahpautan akaun anda akan mematikan akses kepada main balik daripada %1$s melalui Google Assistant.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Muzik memerlukan keahlian YouTube Premium untuk dimainkan pada Google Home. Anda boleh mendaftar di <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Keahlian YouTube Premium diperlukan</string>
     <string name="assistant_settings_news_provider_delete_button_description">Alih keluar %1$s daripada sumber berita anda yang didayakan</string>
     <string name="assistant_settings_news_supports_video">Video tersedia pada Paparan Pintar</string>
     <string name="assistant_settings_news_title">Berita</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Nama panggilan anda mempunyai aksara yang tidak dapat disebut oleh Pembantu. Eja bunyinya di bahagian yang seterusnya.</string>
     <string name="assistant_settings_no_device_linked">Voice Match membolehkan Assistant memberi anda maklumat peribadi apabila suara anda dikenal pasti. Sehingga 6 orang boleh mendapatkan kalendar serta muzik mereka sendiri &amp; pelbagai lagi.</string>
+    <string name="assistant_settings_no_language_summary">Tiada</string>
     <string name="assistant_settings_no_language_title">Tambah Bahasa</string>
     <string name="assistant_settings_no_shopping_list">Anda tidak mempunyai senarai beli-belah.</string>
     <string name="assistant_settings_notes_lists_title">Nota dan Senarai</string>
@@ -712,6 +719,7 @@ Assistant anda akan menggunakan tetapan ini apabila memberi anda arah ke tempat 
     <string name="assistant_settings_summer_time_mode_availability_clarification">Pada masa ini, Perbualan Berterusan tersedia dalam bahasa Inggeris (AS). Jika anda menggunakan peranti Google Home yang tidak ditunjukkan di sini, orang yang memegang akaun utama pada peranti tersebut boleh menghidupkan atau mematikan Perbualan Berterusan dalam tetapan Assistant mereka.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Anda boleh menukar tetapan ini untuk peranti Google Home ini</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Tiada peranti yang tersedia</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Mikrofon peranti anda akan dibuka semula selepas setiap balasan untuk mendengar soalan susulan. Soalan ini akan dipaparkan dalam Aktiviti Saya seperti biasa. Audio yang tidak menerima balasan daripada Assistant anda akan dipadamkan daripada Akaun Google anda.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Perbualan Berterusan</string>
     <string name="assistant_settings_summer_time_mode_title">Perbualan Berterusan</string>
     <string name="assistant_settings_turn_off_voice_match">Jika anda mematikan Voice Match, anda akan menyahpaut akaun anda daripada peranti ini. Sekurang-kurangnya satu akaun perlu dipautkan supaya peranti berdaya Google Assistant anda boleh digunakan. Adakah anda pasti mahu menyahpaut akaun anda? </string>
@@ -740,10 +748,10 @@ Assistant anda akan menggunakan tetapan ini apabila memberi anda arah ke tempat 
     <string name="assistant_settings_update_error_message">Tidak dapat mengemas kini tetapan. Semak sambungan anda.</string>
     <string name="assistant_settings_video_calls_service_category_title">Assistant anda boleh membuat panggilan pada sesetengah peranti, seperti Paparan Pintar Google, dengan menggunakan perkhidmatan pilihan anda. Panggilan ke perkhidmatan kecemasan tidak tersedia.</string>
     <string name="assistant_settings_video_icon_text">Ikon penyedia video</string>
-    <string name="assistant_settings_video_link_dialog_text">Pautkan akaun Google anda ke %1$s untuk membolehkan kawalan suara dan main balik pada peranti yang serasi. Apabila anda mengawal Perkhidmatan %1$s melalui Google Home atau meminta maklumat berkaitan %1$s, pertanyaan itu boleh dihantar ke %1$s untuk digunakan menurut pernyataan privasinya.</string>
+    <string name="assistant_settings_video_link_dialog_text">Paut Akaun Google anda ke %1$s untuk mendayakan main balik pada peranti yang serasi. Apabila anda berinteraksi dengan Perkhidmatan %1$s melalui Google Assistant, pertanyaan anda mungkin dihantar kepada %1$s untuk digunakan menurut dasar privasinya. %1$s mungkin memberikan hasil carian peribadi dan syor yang diperibadikan untuk anda. Anda boleh menyahpaut akaun anda pada bila-bila masa dalam tetapan Assistant.</string>
     <string name="assistant_settings_video_provider_category_summary">Mainkan rancangan dan filem dengan meminta Pembantu anda melakukannya.</string>
     <string name="assistant_settings_video_provider_category_title">Video</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Tindakan menyahpaut akaun anda akan mematikan kawalan suara.</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Penyahpautan akaun anda akan mematikan akses kepada main balik daripada %1$s melalui Google Assistant.</string>
     <string name="assistant_settings_videos_photos_title">Video dan Foto</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast atau Chromecast terbina dalam TV</string>
     <string name="assistant_settings_voice_and_video_calls_title">Panggilan Suara dan Video</string>
@@ -757,16 +765,16 @@ Assistant anda akan menggunakan tetapan ini apabila memberi anda arah ke tempat 
     <string name="assistant_settings_work_title">Alamat tempat kerja</string>
     <string name="assistant_settings_your_people_address">Alamat: %1$s</string>
     <string name="assistant_settings_your_people_birthday">Hari lahir: %1$s</string>
-    <string name="assistant_settings_your_people_birthday_suggestion">Mengingati hari lahir</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Ingati hari lahir</string>
     <string name="assistant_settings_your_people_deletion_failure">Terdapat masalah, sila cuba sebentar lagi!</string>
     <string name="assistant_settings_your_people_email">E-mel: %1$s</string>
-    <string name="assistant_settings_your_people_family_member_suggestion">Mengingati ahli keluarga</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Ingati ahli keluarga</string>
     <string name="assistant_settings_your_people_forget_button">Lupakan</string>
     <string name="assistant_settings_your_people_forget_dialog">Tindakan ini akan mengalih keluar sebarang butiran yang anda minta Assistant anda ingati tentang %1$s</string>
     <string name="assistant_settings_your_people_forget_dialog_title">Lupakan butiran ini?</string>
     <string name="assistant_settings_your_people_forget_menu_option">Lupakan butiran ini</string>
     <string name="assistant_settings_your_people_phone">Telefon: %1$s</string>
-    <string name="assistant_settings_your_people_splash">Jadi apabila anda menyebut \"hubungi ibu\" atau \"bila hari lahir abang saya\" Assistant anda bersedia untuk membantu.</string>
+    <string name="assistant_settings_your_people_splash">Jadi apabila anda menyebut \"hubungi ibu\" atau \"bila hari lahir abang saya\", Assistant anda bersedia untuk membantu.</string>
     <string name="assistant_settings_your_people_splash_title">Maklumkan Assistant tentang orang anda</string>
     <string name="assistant_settings_your_people_suggestion_introduction">Anda boleh meminta Assistant anda untuk</string>
     <string name="assistant_settings_your_people_title">Orang Anda</string>
@@ -911,7 +919,7 @@ Caj data mungkin dikenakan."</string>
     <string name="cloud_search_history_fetch_failed_toast">Tidak boleh mendapatkan kembali tetapan. Sila cuba lagi kemudian.</string>
     <string name="cloud_search_history_summary_fetching">Mengambil tetapan...</string>
     <string name="collapse_time_to_leave">Sembunyikan pilihan untuk perjalanan ini.</string>
-    <string name="collections">Koleksi</string>
+    <string name="collections">Disimpan</string>
     <string name="comment_hint">Ulasan tambahan (Pilihan).</string>
     <string name="common_address_clear_button_label">Kosongkan</string>
     <string name="common_address_clear_confirm_button">Padam</string>
@@ -960,9 +968,9 @@ Caj data mungkin dikenakan."</string>
 
 Kemudian, peranti ini akan dapat mengakses Akaun Google anda."</string>
     <string name="consent_my_activity">Aktiviti Saya</string>
-    <string name="consent_partners_disclosures_body_collapsed">Google partner mempunyai hubungan perniagaan yang rapat dengan Google dan mungkin telah membayar kami untuk ditampilkan atau dipromosikan.</string>
-    <string name="consent_partners_disclosures_body_expanded">Google partner mempunyai hubungan perniagaan yang rapat dengan Google dan mungkin telah membayar kami untuk ditampilkan atau dipromosikan. Perniagaan ini membantu anda menyelesaikan perkara, sama ada anda ingin membeli tisu atau membaiki singki. %1$s.</string>
-    <string name="consent_partners_disclosures_title">Rakan kongsi Google</string>
+    <string name="consent_partners_disclosures_body_collapsed">Google Partners mempunyai hubungan perniagaan yang rapat dengan Google dan mungkin telah membayar kami untuk ditampilkan atau dipromosikan.</string>
+    <string name="consent_partners_disclosures_body_expanded">Google Partners mempunyai hubungan perniagaan yang rapat dengan Google dan mungkin telah membayar kami untuk ditampilkan atau dipromosikan. Perniagaan ini membantu anda menyelesaikan perkara, sama ada anda ingin membeli tisu atau membaiki singki. %1$s.</string>
+    <string name="consent_partners_disclosures_title">Rakan Kongsi Google</string>
     <string name="consent_services_disclosures_body_collapsed">Untuk melindungi privasi anda, Google menghantar kod unik kepada perkhidmatan yang anda hubungi.</string>
     <string name="consent_services_disclosures_body_expanded">"Untuk melindungi privasi anda, Google menghantar kod unik kepada perkhidmatan yang anda hubungi. Dengan cara itu, pihak perkhidmatan masih boleh mengingati perkara seperti pilihan anda semasa dalam perbualan.
 
@@ -1093,6 +1101,10 @@ Kami tiada pilihan lain selain menganggarkan lokasi anda menggunakan maklumat la
     <string name="device_setup_error_cancel_button">Dapatkan Bantuan</string>
     <string name="device_setup_error_content">Ralat telah berlaku</string>
     <string name="device_setup_error_title">Mungkin terdapat masalah</string>
+    <string name="devices_scan_action_button">Teruskan</string>
+    <string name="devices_scan_cancel_button">Batal</string>
+    <string name="devices_scan_explanation">Pilih peranti</string>
+    <string name="devices_scan_title">Tambah peranti</string>
     <string name="directory_for_mall">Direktori untuk %1$s</string>
     <string name="disclaimer">Penafian</string>
     <string name="dismiss_text">Seret ke bawah untuk mengetepikan</string>
@@ -1165,6 +1177,7 @@ Kami tiada pilihan lain selain menganggarkan lokasi anda menggunakan maklumat la
     <string name="enable_video_preview_autoplay_on_mobile_data">Benarkan pada rangkaian mudah alih</string>
     <string name="enable_web_history_toast">Sejarah Web didayakan</string>
     <string name="entity_suggestion_message">Carian ini berkaitan dengan perkara yang anda taip.</string>
+    <string name="error">Kesilapan telah berlaku</string>
     <string name="error_adding_location_snackbar_text">Ralat menambahkan lokasi</string>
     <string name="error_authenticating_user">Ralat log masuk</string>
     <string name="error_captive_portal">Periksa sambungan anda, kemudian cuba lagi.</string>
@@ -1222,7 +1235,6 @@ Pertimbangkan untuk memeriksa sambungan anda dan cuba lagi"</string>
     <string name="eyes_donate_data_optin_ok">Ok</string>
     <string name="eyes_donate_data_optin_title">Sumbangkan imej Lens</string>
     <string name="eyes_flash_button_description">Togol denyar</string>
-    <string name="eyes_initial_suggestion_0">Apakah yang boleh anda kenali?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">Saya tiada kebenaran untuk melakukannya</string>
     <string name="eyes_no_permission_camera">Saya tiada kebenaran untuk menggunakan kamera</string>
@@ -1250,7 +1262,6 @@ Google Lens tidak mengetahui segala-galanya dan kami tidak semestinya betul apab
     <string name="eyes_onboarding_title_text">Imbas teks</string>
     <string name="eyes_request_timed_out_message">Maaf, kami tidak dapat menghubungi Google pada masa ini</string>
     <string name="eyes_share_with">Kongsi dengan</string>
-    <string name="eyes_unfreeze_image_description">Kembali ke kamera</string>
     <string name="eyes_viewfinder_description">Aktifkan Google Lens</string>
     <string name="failed">Tidak dapat memuatkan imej</string>
     <string name="failed_to_open_webview">Gagal membuka halaman</string>
@@ -1365,7 +1376,7 @@ Google Lens tidak mengetahui segala-galanya dan kami tidak semestinya betul apab
     <string name="follow_world_cup_promo">Ikuti Piala Dunia</string>
     <string name="follow_world_cup_promo_content_description">Ikuti Piala Dunia</string>
     <string name="follow_world_cup_promo_detail">Ketik di sini untuk mendaftar bagi mendapatkan peringatan perlawanan, berita dan markah langsung pasukan kegemaran anda</string>
-    <string name="follow_world_cup_promo_long_soccer_title">Kekal dikemas kini dengan perlawanan bola sepak</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Sentiasa dapatkan kemas kini perlawanan bola sepak</string>
     <string name="follow_world_cup_promo_query">piala dunia 2018</string>
     <string name="follow_world_cup_promo_short_soccer_title">Demam bola sudah tiba!</string>
     <string name="fourth_quarter">Suku keempat</string>
@@ -1492,7 +1503,7 @@ Rakaman terdahulu ini boleh digunakan untuk membuat model suara pada peranti ini
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">kembali</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Saya pasti</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Anda pasti?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Hai! Saya baru saja mengajar Assistant mengecam suara saya di Google Home supaya saya boleh mendapatkan hasil carian yang diperibadikan.
+    <string name="hotword_enrollment_google_home_share_message">"Hai! Saya baru saja mengajar Pembantu saya mengecam suara saya di Google Home supaya saya boleh mendapatkan hasil carian yang diperibadikan.
 
 Anda boleh mendapatkan jawapan yang khusus untuk anda juga! Mulakan dengan memasang apl Google Home: https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Ajar Assistant mengenali anda</string>
@@ -1625,7 +1636,7 @@ Matikan hasil carian peribadi dalam tetapan Assistant."</string>
     <string name="hourly_forecast">Ramalan setiap jam</string>
     <string name="hours">Jam</string>
     <string name="how_can_i_help">Bagaimana saya dapat membantu?</string>
-    <string name="hq_a11y_bottom_bar_button">Buka mikrofon untuk bersembang dengan assistant anda</string>
+    <string name="hq_a11y_bottom_bar_button">Assistant</string>
     <string name="hq_a11y_chatui_badge">Buka dan teroka bahan anda</string>
     <string name="hq_a11y_menu_button">Menu</string>
     <string name="hq_account_switch_prompt">Sedang log masuk sebagai %1$s</string>
@@ -1703,7 +1714,7 @@ Matikan hasil carian peribadi dalam tetapan Assistant."</string>
     <string name="ipa_personal_search_sources">Peribadi</string>
     <string name="ipa_search_result_page_message">Carian Google %s.</string>
     <string name="ipa_searchable_items_category_title">Tunjukkan kandungan daripada</string>
-    <string name="jasper_duo_knock_knock_summary">Lihat video pemanggil sebelum menjawab panggilan. Benarkan orang yang anda panggil melihat video anda semasa telefon mereka berdering. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Ketahui lebih lanjut&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Lihat video pemanggil sebelum menjawab panggilan. Benarkan orang yang anda panggil melihat video anda semasa telefon mereka berdering. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knock-knock</string>
     <string name="jasper_duo_not_signed_in">Tidak dilog masuk</string>
     <string name="jasper_duo_signed_in">Dilog masuk</string>
@@ -1776,6 +1787,14 @@ Matikan hasil carian peribadi dalam tetapan Assistant."</string>
     <string name="lens_info_panel_opening_lens">Membuka Lens...</string>
     <string name="lens_overflow_menu_description">Tetapan</string>
     <string name="lens_quit_button_description">Berhenti</string>
+    <string name="lens_results_feedback_card_prompt">Apa yang anda ingin lakukan dengan Lens?</string>
+    <string name="lens_results_feedback_card_title">Bantu kami memperbaik Lens</string>
+    <string name="lens_results_feedback_no">TIDAK</string>
+    <string name="lens_results_feedback_prompt_text">Adakah anda mendapati semua hasil carian ini berguna?</string>
+    <string name="lens_results_feedback_response_to_negative">Terima kasih kerana membantu kami memperbaik Lens.</string>
+    <string name="lens_results_feedback_response_to_positive">Ada cadangan agar perkhidmatan kami lebih baik?</string>
+    <string name="lens_results_feedback_send_report">HANTAR MAKLUM BALAS</string>
+    <string name="lens_results_feedback_yes">YA</string>
     <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">Lesen sumber terbuka</string>
     <string name="light_traffic">Trafik ringan</string>
@@ -1795,6 +1814,7 @@ Matikan hasil carian peribadi dalam tetapan Assistant."</string>
     <string name="location_service_required_title">Dapatkan kad berdasarkan lokasi</string>
     <string name="lockscreen_mic_promo_notification_content">Buka kunci telefon anda dengan menyebut \"%1$s\".</string>
     <string name="lockscreen_mic_promo_notification_title">Buka kunci dengan suara anda</string>
+    <string name="logo_content_description">Google</string>
     <string name="magic_flashlight_off">Nox</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">Cari kedai dan perkhidmatan</string>
@@ -1906,7 +1926,6 @@ Matikan hasil carian peribadi dalam tetapan Assistant."</string>
     <string name="network_error_fetching_weather_data_status_text">Rangkaian tidak tersedia pada masa ini</string>
     <string name="network_error_no_connection_tts">Tiada sambungan Internet pada masa ini.</string>
     <string name="network_error_resend_audio">Hantar semula audio</string>
-    <string name="network_error_try_again">Cuba semula</string>
     <string name="network_location_required_text">Untuk melihat kad berdasarkan lokasi seperti cuaca setempat dan trafik ulang-alik, hidupkan Wi-Fi &amp; lokasi rangkaian mudah alih</string>
     <string name="network_location_required_text_klp">Untuk melihat kad berdasarkan lokasi seperti cuaca setempat dan trafik ulang-alik, pilih mod lokasi kejituan tinggi atau penjimatan bateri</string>
     <string name="nevermind_prompt">Tidak mengapa</string>
@@ -1982,7 +2001,7 @@ Matikan hasil carian peribadi dalam tetapan Assistant."</string>
     <string name="none">Tiada</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Perkhidmatan senarai dan nota</string>
-    <string name="notes_lists_none_preference_summary">Maklumat sekunder</string>
+    <string name="notes_lists_none_preference_summary">Assistant tidak akan menyegerakkan data anda dengan mana-mana perkhidmatan.</string>
     <string name="notes_lists_none_preference_title">Tiada</string>
     <string name="notes_lists_provider_changed_description">"Data Nota dan Senarai Assistant tidak akan dikemas kini menggunakan %1$s lagi. Data yang sedia ada di %1$s tidak akan dipadamkan.
 
@@ -1990,6 +2009,7 @@ Adakah anda mahu meneruskan?"</string>
     <string name="notes_lists_provider_changed_negative_button">Batal</string>
     <string name="notes_lists_provider_changed_positive_button">Setuju</string>
     <string name="notes_lists_provider_changed_title">Putuskan sambungan daripada %1$s</string>
+    <string name="notes_lists_title">Assistant anda akan memastikan nota dan senarai anda disegerakkan dengan perkhidmatan ini.</string>
     <string name="notification_access_link_text">Matikan akses pemberitahuan</string>
     <string name="notification_accessable_apps_category_title">Akses pemberitahuan</string>
     <string name="notification_cancel_text">Google tidak akan mencuba semula carian ini apabila anda kembali ke dalam talian.</string>
@@ -2054,6 +2074,7 @@ Adakah anda mahu meneruskan?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Tingkatkan versi pek bahasa anda.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Dayakan suara luar talian</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Anda berada di luar talian. Untuk terus menggunakan suara semasa anda di luar talian, anda perlu memasang pek bahasa yang terbaharu. Apabila skrin anda boleh digunakan dengan selamat, ketik pada pemberitahuan untuk memasang pek tersebut.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Anda berada di luar talian. Untuk menggunakan suara semasa berada di luar talian, anda memerlukan pek bahasa terkini yang akan dipasang apabila anda mempunyai sambungan rangkaian lagi.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Anda berada di luar talian. Untuk terus menggunakan suara semasa anda di luar talian dan mendapatkan ciri baharu, anda perlu memasang pek bahasa yang terbaharu. Apabila skrin anda boleh digunakan dengan selamat, ketik pada pemberitahuan untuk memasang pek tersebut.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Sebenarnya, anda berada di luar talian. Saya tidak dapat mencapai Google sekarang tetapi saya masih boleh memberikan bantuan dalam pelbagai perkara. Contohnya, cuba sebut \"buat panggilan\" atau \"apakah yang boleh saya sebutkan?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Sebenarnya, anda berada di luar talian. Saya tidak dapat mencapai Google sekarang tetapi saya masih boleh memberikan bantuan dalam pelbagai perkara. Contohnya, cuba sebut %1$s atau \"apakah yang boleh saya sebutkan?\"</string>
@@ -2107,6 +2128,7 @@ Adakah anda mahu meneruskan?"</string>
     <string name="opa_assist_app_screen_explanation">Untuk mengakses Pembantu Google, pilih Apl Google dalam tetapan Bantu &amp; input suara anda</string>
     <string name="opa_assist_app_screen_title">Apl Google bukan Apl Bantu lalai anda</string>
     <string name="opa_assistant_logo_content_description">Carian suara</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Lihat kemas kini untuk Google Assistant anda</string>
     <string name="opa_consent_check_error_button">Tutup</string>
     <string name="opa_consent_check_error_button_notavailable">Tukar Akaun</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Bergantung pada tetapan akaun anda, pengalaman Assistant anda mungkin terhad kepada perkara seperti hasil carian web, jenaka dan maklumat setempat.</string>
@@ -2183,7 +2205,6 @@ Pemadaman sejarah Pembantu tidak akan memberikan kesan kepada transaksi atau mem
     <string name="opa_eyes_free_opt_in_speech">Apabila selamat, anda perlu mengetik pemberitahuan dahulu. Selepas itu, anda boleh membenarkan set kepala berfungsi dengan Pembantu Google.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Ketik untuk meneruskan</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Beri Pembantu Google kebenaran untuk membantu anda</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Ketik untuk meneruskan</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Lakukannya kemudian</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Saya Setuju</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">BERMULA</string>
@@ -2244,6 +2265,7 @@ Akaun Google anda daripada"</string>
     <string name="opa_launcher_icon_text">Pembantu</string>
     <string name="opa_lock_icon_description">Ikon buka kunci</string>
     <string name="opa_logo_content_desc">Logo Pembantu Google</string>
+    <string name="opa_mark_content">Assistant</string>
     <string name="opa_marketplace_disclosure_description">Pembantu Google anda boleh berfungsi dengan pelbagai perkhidmatan yang berbeza untuk membantu anda melakukan lebih banyak tugas.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google Assistant boleh bekerjasama dengan Google partner untuk membantu anda melakukan pelbagai tugas, sama ada membeli tiket wayang atau membaiki singki anda. &lt;a href=https://support.google.com/assistant/?p=google_partners>Ketahui lebih lanjut&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Rakan kongsi Google ialah perniagaan yang mempunyai hubungan komersil dengan Google. Pembantu Google boleh berfungsi dengan rakan kongsi Google untuk membantu anda melakukan pelbagai tugas, sama ada membeli tiket wayang atau membaiki sinki anda. <a href="https://support.google.com/assistant/?p=google_partners">Ketahui lebih lanjut</a></string>
@@ -2593,6 +2615,7 @@ Jika anda membuat perubahan ini, anda akan dapat:"</string>
     <string name="reaction_text_more">Lagi</string>
     <string name="recently">Baru-baru ini</string>
     <string name="recognizer_service_label">Pengiktirafan Google asas</string>
+    <string name="recommendation_header_text">Disyorkan untuk anda</string>
     <string name="reconnecting_loading_results">"Memuatkan hasil carian anda
 "</string>
     <string name="reconnecting_title">Menyambung semula...</string>
@@ -2785,6 +2808,7 @@ Jika anda membuat perubahan ini, anda akan dapat:"</string>
     <string name="settings_legal_notices_title">Notis undang-undang</string>
     <string name="settings_location_tos_title">Syarat perkhidmatan lokasi</string>
     <string name="settings_privacy_policy_title">Dasar privasi</string>
+    <string name="settings_search_icon_title">Tetapan carian</string>
     <string name="settings_tos_title">Syarat perkhidmatan</string>
     <string name="setup_complete_explanation">Kini %si anda akan bertindak balas apabila anda menyebut \"Ok Google\". Berikut ialah beberapa perkara yang boleh anda cuba.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Kini Assistant anda akan bertindak balas apabila anda bercakap dengan %s. Berikut ialah beberapa perkara yang boleh anda cuba.</string>
@@ -2936,6 +2960,7 @@ Jika anda membuat perubahan ini, anda akan dapat:"</string>
     <string name="standalone_zs_back_content_desc">Kembali</string>
     <string name="standalone_zs_brick_content_desc">Kemas kini peribadi</string>
     <string name="standalone_zs_explore_content_desc">Buka teroka dan bahan anda</string>
+    <string name="standalone_zs_opa_icon_desc">Pembantu</string>
     <string name="star_rating_bar_content_description">Penilaian bintang: %1$s</string>
     <string name="starting_location_selector">%1$s. Pilih lokasi permulaan.</string>
     <string name="starts_at">Bermula pada</string>
@@ -2948,6 +2973,7 @@ Jika anda membuat perubahan ini, anda akan dapat:"</string>
     <string name="stop_download_prompt">Hentikan muat turun</string>
     <string name="streaming_text_recognizing">Mengecam...</string>
     <string name="street_address_label">Alamat jalan</string>
+    <string name="success">Berjaya</string>
     <string name="suggest">Autolengkap</string>
     <string name="suggest_contact_removal_body">Tindakan ini akan mengalih keluar &lt;b>%1$s&lt;/b> daripada senarai Kenalan Teratas anda. Anda masih boleh menemui &lt;b>%2$s&lt;/b> dengan melakukan carian.</string>
     <string name="suggest_contact_removal_cancel">BATAL</string>
@@ -3282,6 +3308,8 @@ Log masuk sebagai %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Katakan sesuatu</string>
     <string name="user_defined_action_task_scene_control_title">Suasana</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Pilih salah satu daripada suasana anda yang ingin disertakan dalam rutin ini.</string>
+    <string name="user_defined_action_task_security_system_control_title">Sediakan sistem keselamatan</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Mod yang manakah yang ingin anda tetapkan?</string>
     <string name="user_defined_action_task_send_text_content_summary">Jika anda membiarkan nombor penerima atau kandungan mesej kosong, anda akan digesa supaya mengisinya apabila anda menjalankan rutin ini.</string>
     <string name="user_defined_action_task_send_text_content_title">Apakah yang ingin anda tuliskan dalam teks ini?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Apakah nombor penerima teks yang mahu dihantar?</string>

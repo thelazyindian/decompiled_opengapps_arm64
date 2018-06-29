@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/half_unit" android:layout_marginBottom="@dimen/half_unit" android:minHeight="@dimen/touch_target_min_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/routine_item_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/routine_item_add" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/touch_target_min_size">
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/agent_details_add_routine_item" style="@style/DetailedAgentPageV2SmallRoundedButton" />
+    </FrameLayout>
+</LinearLayout>

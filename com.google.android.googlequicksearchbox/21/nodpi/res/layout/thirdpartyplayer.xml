@@ -9,6 +9,7 @@
                 <View android:layout_gravity="center" android:background="@drawable/quantum_ic_error_outline_grey600_48" android:layout_width="48.0dip" android:layout_height="48.0dip" />
                 <FrameLayout android:layout_gravity="center" android:id="@id/error_message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
             </LinearLayout>
+            <com.google.android.apps.gsa.now.shared.ui.WebImageView android:id="@id/static_thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         </FrameLayout>
         <FrameLayout android:id="@id/title" android:paddingLeft="@dimen/one_tap_text_start_end_padding" android:paddingRight="@dimen/one_tap_text_start_end_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/one_tap_text_top_padding" android:isScrollContainer="true" android:paddingStart="@dimen/one_tap_text_start_end_padding" android:paddingEnd="@dimen/one_tap_text_start_end_padding" />
         <FrameLayout android:id="@id/attribution" android:paddingLeft="@dimen/one_tap_text_start_end_padding" android:paddingRight="@dimen/one_tap_text_start_end_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/one_tap_text_top_padding" android:paddingStart="@dimen/one_tap_text_start_end_padding" android:paddingEnd="@dimen/one_tap_text_start_end_padding" />

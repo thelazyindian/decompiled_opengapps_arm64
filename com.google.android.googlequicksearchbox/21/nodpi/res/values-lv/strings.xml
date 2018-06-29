@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">Kam vēlaties nosūtīt īsziņu?</string>
     <string name="action_sound_search_get_song">Atvērt vietni Google Play</string>
     <string name="action_sound_search_result_content_description">%3$s — %1$s (%2$s)</string>
+    <string name="action_suggestion_message">Šī darbība ir saistīta ar vaicājumu, ko ievadāt.</string>
     <string name="action_unlock_device_tts">Šo darbību nevar veikt, ja ierīce ir bloķēta. Lai turpinātu, atbloķējiet ierīci.</string>
     <string name="action_video_call">Videozvans</string>
     <string name="action_voice_call">Zvanīt</string>
@@ -247,6 +248,10 @@
     <string name="agent_bookmark_error">Radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
     <string name="agent_bookmark_removed">Noņemts no grāmatzīmēm</string>
     <string name="agent_description_more">vairāk</string>
+    <string name="agent_details_add_routine_description">Atvieglojiet darbus, izmantojot darbību secības ar atjauninājumiem no %1$s.</string>
+    <string name="agent_details_add_routine_item">Pievienot</string>
+    <string name="agent_details_customize_routine">Pielāgot darbību secības</string>
+    <string name="agent_details_manage_routines">Pārvaldīt darbību secības</string>
     <string name="agent_details_splash_image_a11y">Asistenta lietotnes attēls</string>
     <string name="agent_directory_a11y_back_button">Atpakaļ</string>
     <string name="agent_directory_a11y_more_groups">Vēl</string>
@@ -488,6 +493,7 @@ Atļaut Google neierobežoti ilgi glabāt un analizēt jūsu ekrānuzņēmumus n
 Jūsu Asistents izmantos šo iestatījumu jautājumiem par jūsu došanos uz darbu."</string>
     <string name="assistant_settings_commute_walk">Kājām</string>
     <string name="assistant_settings_commute_walk_key">COMMUTE: kājām</string>
+    <string name="assistant_settings_contact_list_introduction">Šī ir informācija, ko norādījāt Asistentam atcerēties par personām, kuras zināt.</string>
     <string name="assistant_settings_custom_routines_description">Norādiet Asistentam veikt vairākas darbības tikai ar vienu komandu. Izmantojiet gatavās rutīnas, ko varat pielāgot savai dienai, un izveidojiet pilnīgi jaunas pielāgotas rutīnas.</string>
     <string name="assistant_settings_default_record_button_text">Ierakstīt</string>
     <string name="assistant_settings_delete_button_label">Dzēst</string>
@@ -633,13 +639,15 @@ Jūsu Asistents izmantos šo iestatījumu jautājumiem par jūsu došanos uz dar
     <string name="assistant_settings_music_provider_category_title">Mūzikas atskaņošanai Asistents pēc noklusējuma izvēlēsies šo mūzikas pakalpojumu. Varat atskaņot mūziku, izmantojot visus saistītos pakalpojumus, ja tie ir norādīti.</string>
     <string name="assistant_settings_music_title">Mūzika</string>
     <string name="assistant_settings_music_unable_unlink_default">Nevar atsaistīt jūsu noklusējuma mūzikas pakalpojumu.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Lai Google Home ierīcē atskaņotu mūziku pakalpojumā YouTube mūzika, nepieciešams YouTube Red abonements. Varat reģistrēties vietnē <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Nepieciešams YouTube Red abonements</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Atsaistot kontu, tiks izslēgta piekļuve satura atskaņošanai no pakalpojuma %1$s, izmantojot Google asistentu.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Lai Google Home ierīcē atskaņotu mūziku pakalpojumā YouTube mūzika, nepieciešams YouTube Premium abonements. Varat reģistrēties vietnē <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Nepieciešams YouTube Premium abonements</string>
     <string name="assistant_settings_news_provider_delete_button_description">Noņemt avotu %1$s no iespējotajiem ziņu avotiem</string>
     <string name="assistant_settings_news_supports_video">Video pieejams viedajos displejos</string>
     <string name="assistant_settings_news_title">Ziņas</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Jūsu segvārdā ir rakstzīme, ko asistents nevar izrunāt. Izrunājiet savu segvārdu nākamajā sadaļā.</string>
     <string name="assistant_settings_no_device_linked">Izmantojot Voice Match, Asistents var sniegt jums personas informāciju, atpazīstot jūsu balsi. Līdz pat sešām personām var iegūt personalizētu kalendāru, mūziku un citu saturu.</string>
+    <string name="assistant_settings_no_language_summary">Nav</string>
     <string name="assistant_settings_no_language_title">Pievienot valodu</string>
     <string name="assistant_settings_no_shopping_list">Jums nav neviena iepirkumu saraksta.</string>
     <string name="assistant_settings_notes_lists_title">Piezīmes un saraksti</string>
@@ -807,6 +815,7 @@ Jūsu Asistents izmantos šo iestatījumu, sniedzot jums norādes, kā tikt uz v
     <string name="assistant_settings_summer_time_mode_availability_clarification">Nepārtrauktas sarunas režīms pašlaik ir pieejams angļu (ASV) valodai. Ja izmantojat Google Home ierīces, kas nav šeit norādītas, persona, kuras galvenais konts ir reģistrēts šajās ierīcēs, var ieslēgt vai izslēgt nepārtrauktas sarunas režīmu savos Asistenta iestatījumos.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Varat to mainīt šīm Google Home ierīcēm.</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Nav pieejama neviena ierīce.</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Pēc katras atbildes tiks atkārtoti atvērts jūsu ierīces mikrofons, lai klausītos turpmākos jautājumus. Šī darbība tiks parādīta sadaļā “Manas darbības” kā parasti. Audio, uz ko jūsu Asistents neatbild, tiks dzēsts no jūsu Google konta.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Nepārtraukta saruna</string>
     <string name="assistant_settings_summer_time_mode_title">Nepārtraukta saruna</string>
     <string name="assistant_settings_turn_off_voice_match">Ja izslēgsiet Voice Match, jūsu konts tiks atsaistīts no šīs ierīces. Lai izmantotu ierīci, kurā ir iespējots Google asistents, ar ierīci jābūt saistītam vismaz vienam kontam. Vai tiešām vēlaties atsaistīt kontu? </string>
@@ -835,10 +844,8 @@ Jūsu Asistents izmantos šo iestatījumu, sniedzot jums norādes, kā tikt uz v
     <string name="assistant_settings_update_error_message">Nevarēja atjaunināt iestatījumu. Pārbaudiet savienojumu.</string>
     <string name="assistant_settings_video_calls_service_category_title">Jūsu Asistents noteiktās ierīcēs, piemēram, Google viedais displejs, var veikt videozvanus, izmantojot jūsu iecienīto pakalpojumu. Zvani uz ārkārtas palīdzības dienestiem pašlaik nav pieejami.</string>
     <string name="assistant_settings_video_icon_text">Videoklipu nodrošinātāja ikona</string>
-    <string name="assistant_settings_video_link_dialog_text">Saistiet savu Google kontu ar pakalpojumu %1$s, lai iespējotu balss vadību un atskaņošanu saderīgās ierīcēs. Kad pārvaldāt pakalpojumu %1$s, lietojot Google Home, vai pieprasāt ar pakalpojumu %1$s saistītu informāciju, šie vaicājumi var tikt nosūtīti uz pakalpojumu %1$s izmantošanai saskaņā ar pakalpojuma konfidencialitātes paziņojumu.</string>
     <string name="assistant_settings_video_provider_category_summary">Atskaņojiet pārraides un filmas, vaicājot Asistentam.</string>
     <string name="assistant_settings_video_provider_category_title">Videoklipi</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Atsaistot kontu, tiks izslēgta balss vadība.</string>
     <string name="assistant_settings_videos_photos_title">Videoklipi un fotoattēli</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast vai TV ar iebūvētu Chromecast funkciju</string>
     <string name="assistant_settings_voice_and_video_calls_title">Balss zvani un videozvani</string>
@@ -850,6 +857,21 @@ Jūsu Asistents izmantos šo iestatījumu, sniedzot jums norādes, kā tikt uz v
     <string name="assistant_settings_weather_title">Laikapstākļi</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Vai dzēst darba adresi?</string>
     <string name="assistant_settings_work_title">Darba adrese</string>
+    <string name="assistant_settings_your_people_address">Adrese: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Dzimšanas diena: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Atcerēties dzimšanas dienu</string>
+    <string name="assistant_settings_your_people_deletion_failure">Radās problēma. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
+    <string name="assistant_settings_your_people_email">E-pasta adrese: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Atcerēties ģimenes locekli</string>
+    <string name="assistant_settings_your_people_forget_button">Aizmirst</string>
+    <string name="assistant_settings_your_people_forget_dialog">Tādējādi tiks noņemta visa informācija, ko likāt Asistentam atcerēties par kontaktpersonu %1$s.</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Vai aizmirst šo informāciju?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Aizmirst šo informāciju</string>
+    <string name="assistant_settings_your_people_phone">Tālruņa numurs: %1$s</string>
+    <string name="assistant_settings_your_people_splash">Tādējādi Asistents būs gatavs palīdzēt, ja izrunāsiet komandu “zvanīt mammai” vai vaicāsiet: “kad manam brālim ir dzimšanas diena”.</string>
+    <string name="assistant_settings_your_people_splash_title">Norādiet Asistentam kontaktpersonu lomas</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Ko var vaicāt Asistentam</string>
+    <string name="assistant_settings_your_people_title">Jūsu cilvēki</string>
     <string name="assistant_speaker_id_default_category_summary">Asistents sniegs jūsu personas datus tikai tad, ja atpazīs jūsu balsi šajās ierīcēs.</string>
     <string name="assistant_speaker_id_default_category_title">Koplietotās ierīces ar funkciju Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Reģistrāciju nevar pabeigt.</string>
@@ -888,7 +910,7 @@ Var tikt piemērota maksa par datu pārraidi."</string>
     <string name="available_pick_up">Pieejams saņemšanai</string>
     <string name="back">Atpakaļ</string>
     <string name="back_of_card_close">Aizvērt</string>
-    <string name="background_notification_onboarding">Bezsaistes režīms? Nekādu problēmu. Google saglabās jūsu meklēšanas vaicājumu, un jūs saņemsiet paziņojumu, kad rezultāti būs gatavi.</string>
+    <string name="background_notification_onboarding">Vai nav interneta savienojuma? Nekādu problēmu. Google saglabās jūsu meklēšanas vaicājumu, un jūs saņemsiet paziņojumu, kad rezultāti būs gatavi.</string>
     <string name="background_notification_onboarding_accept">Labi</string>
     <string name="background_notification_onboarding_decline">Izslēgt</string>
     <string name="background_notification_ready">Meklēšanas rezultāti ir gatavi</string>
@@ -1008,7 +1030,7 @@ Var tikt piemērota maksa par datu pārraidi."</string>
     <string name="cloud_search_history_summary_fetching">Notiek iestatījumu izgūšana...</string>
     <string name="collapse">Sakļaut</string>
     <string name="collapse_time_to_leave">Paslēpt šī brauciena iespējas.</string>
-    <string name="collections">Kolekcijas</string>
+    <string name="collections">Saglabātie vienumi</string>
     <string name="comment_hint">Papildu komentāri (neobligāti)</string>
     <string name="common_address_clear_button_label">Dzēst</string>
     <string name="common_address_clear_confirm_button">Dzēst</string>
@@ -1083,8 +1105,8 @@ Var tikt piemērota maksa par datu pārraidi."</string>
 Šai ierīcei būs piekļuve jūsu Google kontam."</string>
     <string name="consent_my_activity">Manas darbības</string>
     <string name="consent_partners_disclosures_body_collapsed">Google partneriem ir cieša uzņēmējdarbības saikne ar Google, un tie, iespējams, ir samaksājuši mums, lai tiktu izvēlēti vai reklamēti.</string>
-    <string name="consent_partners_disclosures_body_expanded">Google partneriem ir cieša saikne ar Google, un tie, iespējams, ir samaksājuši mums, lai tiktu izcelti vai reklamēti. Šie uzņēmumi var palīdzēt ikdienas darbā, piemēram, iegādāties papīra dvieļus vai novērst problēmas ar izlietni. %1$s.</string>
-    <string name="consent_partners_disclosures_title">Google partneri</string>
+    <string name="consent_partners_disclosures_body_expanded">Google partneriem ir cieša saikne ar Google, un tie, iespējams, ir samaksājuši mums, lai tiktu izvēlēti vai reklamēti. Šie uzņēmumi var palīdzēt ikdienas darbā, piemēram, iegādāties papīra dvieļus vai novērst problēmas ar izlietni. %1$s.</string>
+    <string name="consent_partners_disclosures_title">Google partneri</string>
     <string name="consent_services_disclosures_body_collapsed">Lai aizsargātu jūsu konfidencialitāti, Google nosūta unikālu kodu jūsu izmantotajiem saziņas pakalpojumiem.</string>
     <string name="consent_services_disclosures_body_expanded">"Lai aizsargātu jūsu konfidencialitāti, Google nosūta unikālu kodu jūsu izmantotajiem saziņas pakalpojumiem. Tādējādi pakalpojumos var iegaumēt noteiktu informāciju, piemēram, jūsu izvēlētās preferences sarunu laikā.
 
@@ -1242,6 +1264,10 @@ Lai iespējotu pamata funkcijas, tiks noteikta jūsu aptuvenā atrašanās vieta
     <string name="device_setup_error_cancel_button">Saņemt palīdzību</string>
     <string name="device_setup_error_content">Radās problēma.</string>
     <string name="device_setup_error_title">Iespējams, radusies problēma</string>
+    <string name="devices_scan_action_button">Turpināt</string>
+    <string name="devices_scan_cancel_button">Atcelt</string>
+    <string name="devices_scan_explanation">Izvēlieties ierīces</string>
+    <string name="devices_scan_title">Ierīču pievienošana</string>
     <string name="directory_for_mall">Direktorijs šim: %1$s</string>
     <string name="disclaimer">Atruna</string>
     <string name="dismiss_text">Velciet lejup, lai paslēptu</string>
@@ -1273,7 +1299,7 @@ Lai iespējotu pamata funkcijas, tiks noteikta jūsu aptuvenā atrašanās vieta
     <string name="download_not_found">Lejupielāde nav atrasta</string>
     <string name="download_prompt">Lejupielādēt</string>
     <string name="download_setting_message">Lejupielādētās sērijas tiek noņemtas pēc 30 dienām vai pēc 24 stundām, kad tās ir pabeigtas.</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Lejupielādēta</string>
     <string name="downloaded_episodes">Lejupielādētās sērijas</string>
     <string name="downloading">Notiek lejupielāde...</string>
     <string name="downloads">Lejupielādes</string>
@@ -1337,7 +1363,6 @@ nav neviena pasākuma."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Pieejamās sērijas</string>
     <string name="episode_page_section_title">Sērija</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Jums</string>
     <string name="error">Kļūda</string>
     <string name="error_adding_location_snackbar_text">Pievienojot atrašanās vietu, radās kļūda.</string>
@@ -1404,7 +1429,6 @@ Pārbaudiet savienojumu un mēģiniet vēlreiz."</string>
     <string name="eyes_donate_data_optin_ok">Labi</string>
     <string name="eyes_donate_data_optin_title">Ļaujiet Lens lietot jūsu attēlus</string>
     <string name="eyes_flash_button_description">Pārslēgt zibspuldzi</string>
-    <string name="eyes_initial_suggestion_0">Ko jūs varat atpazīt?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">Man nav atļaujas to darīt</string>
     <string name="eyes_no_permission_camera">Man nav atļaujas izmantot kameru</string>
@@ -1432,7 +1456,6 @@ Google Lens nav viszinoša tehnoloģija, un dažkārt tā nav precīza, atpazī
     <string name="eyes_onboarding_title_text">Skenējiet tekstu</string>
     <string name="eyes_request_timed_out_message">Diemžēl šobrīd nevar sasniegt Google serverus.</string>
     <string name="eyes_share_with">Kopīgot ar</string>
-    <string name="eyes_unfreeze_image_description">Atpakaļ uz kameru</string>
     <string name="eyes_viewfinder_description">Aktivizēt Google Lens</string>
     <string name="failed">Nevarēja ielādēt attēlu.</string>
     <string name="failed_to_open_webview">Neizdevās atvērt lapu.</string>
@@ -1557,8 +1580,13 @@ Google Lens nav viszinoša tehnoloģija, un dažkārt tā nav precīza, atpazī
     <string name="folder_renamed">Mape pārdēvēta par: %1$s</string>
     <string name="folder_tap_to_close">Pieskarieties, lai aizvērtu mapi.</string>
     <string name="folder_tap_to_rename">Pieskarieties, lai saglabātu pārdēvēto nosaukumu.</string>
+    <string name="follow_soccer_promo_query">futbols 2018</string>
     <string name="follow_world_cup_promo">Sekojiet informācijai par Pasaules kausu</string>
     <string name="follow_world_cup_promo_content_description">Sekojiet informācijai par Pasaules kausu</string>
+    <string name="follow_world_cup_promo_detail">Pieskarieties šeit, lai reģistrētos un saņemtu atgādinājumus par spēlēm, jaunumus un savu iecienītāko komandu rezultātus reāllaikā.</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Uzziniet jaunumus par futbola spēlēm</string>
+    <string name="follow_world_cup_promo_query">pasaules kauss 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Ir sācies futbola drudzis!</string>
     <string name="forbid_download_removal">Nevar noņemt sēriju tās atskaņošanas laikā.</string>
     <string name="fourth_quarter">4. ceturtdaļa</string>
     <string name="fourth_quarter_abbrev">4. ceturtdaļa</string>
@@ -1764,7 +1792,7 @@ Esošos ierakstus var izmantot balss modeļa izveidei šajā ierīcē. Uzgaidiet
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">Atpakaļ</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Esmu pārliecināts</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Vai esat pārliecināts?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Sveicināti! Es tikko iemācīju Asistentam atpazīt manu balsi Google Home ierīcē, lai varētu saņemt personalizētus rezultātus.
+    <string name="hotword_enrollment_google_home_share_message">"Sveicināti! Es tikko iemācīju savam Asistentam atpazīt manu balsi Google Home ierīcē, lai varētu saņemt personalizētus rezultātus.
 
 Arī jūs varat saņemt tieši jums paredzētas atbildes! Vispirms instalējiet lietotni Google Home: https://google.com/home/setup."</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Iemāciet Asistentam sevi atpazīt</string>
@@ -1898,7 +1926,7 @@ Varat ieslēgt personiskos meklēšanas rezultātus, lai šajā ierīcē ar bals
     <string name="hourly_forecast">Laika prognoze ik pēc stundas</string>
     <string name="hours">Stundas</string>
     <string name="how_can_i_help">Kā es varu palīdzēt?</string>
-    <string name="hq_a11y_bottom_bar_button">Atveriet mikrofonu, lai tērzētu ar Asistentu</string>
+    <string name="hq_a11y_bottom_bar_button">Asistents</string>
     <string name="hq_a11y_chatui_badge">Atveriet sadaļas “Izpēte” un “Jūsu saturs”</string>
     <string name="hq_a11y_menu_button">Izvēlne</string>
     <string name="hq_account_switch_prompt">Notiek pierakstīšanās kontā %1$s</string>
@@ -2026,10 +2054,10 @@ Varat ieslēgt personiskos meklēšanas rezultātus, lai šajā ierīcē ar bals
     <string name="inferred_event_error">Neizdevās izveidot notikumu.</string>
     <string name="inferred_from_gmail">Pakalpojumā Gmail tiek saukts par “%1$s”</string>
     <string name="info_target_label">Lietotnes informācija</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Iegūt lietotni Google Podcasts</string>
+    <string name="install_google_podcasts_accept">Iegūt lietotni</string>
+    <string name="install_google_podcasts_message">Ātrai piekļuvei iegūstiet lietotni Google Podcasts no Play veikala.</string>
+    <string name="install_google_podcasts_reject">Vēlāk</string>
     <string name="installed_app_group_header">Lietotnes</string>
     <string name="installed_details">Instalēta versija %1$s, aizņemtā vieta diskā: %2$s</string>
     <string name="installed_language_packs">Instalētas</string>
@@ -2070,7 +2098,7 @@ Varat ieslēgt personiskos meklēšanas rezultātus, lai šajā ierīcē ar bals
     <string name="item_is_selected">Atlasīts: %1$s</string>
     <string name="item_moved">Vienums pārvietots</string>
     <string name="item_removed">Vienums noņemts</string>
-    <string name="jasper_duo_knock_knock_summary">Skatiet zvanītāja video, pirms atbildat uz zvanu. Ļaujiet arī personām, kurām zvanāt, redzēt jūsu video, kamēr šo personu tālrunī tiek atskaņots signāls. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Uzziniet vairāk&lt;/a>.</string>
+    <string name="jasper_duo_knock_knock_summary">Skatiet zvanītāja video, pirms atbildat uz zvanu. Ļaujiet arī personām, kurām zvanāt, redzēt jūsu video, kamēr šo personu tālrunī tiek atskaņots signāls. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Tuk-tuk</string>
     <string name="jasper_duo_not_signed_in">Nav pierakstījies</string>
     <string name="jasper_duo_signed_in">Pierakstījies</string>
@@ -2166,10 +2194,10 @@ Varat ieslēgt personiskos meklēšanas rezultātus, lai šajā ierīcē ar bals
     <string name="location_service_required_title">Iegūt ar atrašanās vietu saistītas kartītes</string>
     <string name="lockscreen_mic_promo_notification_content">Atbloķējiet tālruni, sakot “%1$s”.</string>
     <string name="lockscreen_mic_promo_notification_title">Atbloķēšana ar balsi</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Lai atlasītu logrīku, veiciet dubultskārienu uz tā un turiet to vai arī veiciet pielāgotas darbības.</string>
     <string name="long_press_widget_to_add">Lai izvēlētos logrīku, pieskarieties un turiet to.</string>
     <string name="longpress_menu_download">Lejupielādēt attēlu</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Kopīgot attēlu</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2203,10 +2231,10 @@ Varat ieslēgt personiskos meklēšanas rezultātus, lai šajā ierīcē ar bals
     <string name="map_content_description">Karte</string>
     <string name="map_route_content_description">Karte nokļūšanai šajā vietā: %1$s</string>
     <string name="maps_mode_landing_text">Meklēt kartēs</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Atzīmēt kā atskaņotu</string>
+    <string name="mark_as_unplayed">Atzīmēt kā neatskaņotu</string>
     <string name="media_content_image">Attēls, kas saistīts ar šajā kartītē attēloto multivides saturu</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Jūsu aplādes</string>
     <string name="media_route_chooser_dialog_title">Apraides ierīces izvēle</string>
     <string name="media_route_chooser_searching">Notiek ierīču meklēšana…</string>
     <string name="media_route_controller_cancel">Atcelt</string>
@@ -2219,13 +2247,11 @@ Varat ieslēgt personiskos meklēšanas rezultātus, lai šajā ierīcē ar bals
     <string name="menu_overlay_feedback">Sūtīt atsauksmes</string>
     <string name="menu_overlay_reset_to_default_style">Atiestatīt noklusējuma stilu</string>
     <string name="menu_refresh">Atsvaidzināt</string>
-    <string name="menu_search_by_image">Meklēt pēc attēla</string>
     <string name="menu_send_button_content_description">Poga “Sūtīt” atsauksmju iesniegšanai.</string>
     <string name="menu_send_feedback">Sūtīt atsauksmes</string>
     <string name="menu_settings">Iestatījumi</string>
     <string name="menu_share">Kopīgot</string>
     <string name="menu_view_in_browser">Skatīt pārlūkprogrammā</string>
-    <string name="menu_view_original_image">Skatīt sākotnējo attēlu</string>
     <string name="menu_visit_page">Apmeklēt lapu</string>
     <string name="message_card_feedback">Atsauksmes</string>
     <string name="message_image">Attēls</string>
@@ -2270,7 +2296,6 @@ Varat ieslēgt personiskos meklēšanas rezultātus, lai šajā ierīcē ar bals
     <string name="minus_one_header_settings">Iestatījumi</string>
     <string name="minute_picker_description">Minūšu apļveida slīdnis</string>
     <string name="minutes">Minūtes</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Dažādi</string>
     <string name="mismatching_value_eir_code">Jāatbilst adresei</string>
     <string name="mismatching_value_pin_code">Jāatbilst adresei</string>
@@ -2351,7 +2376,6 @@ Skatiet un pārvaldiet Google tīklā izmantotos meklēšanas vaicājumus un dau
     <string name="network_error_fetching_weather_data_status_text">Tīkls pašlaik nav pieejams.</string>
     <string name="network_error_no_connection_tts">Šobrīd nav pieejams interneta savienojums.</string>
     <string name="network_error_resend_audio">Atkārtoti sūtīt audio</string>
-    <string name="network_error_try_again">Mēģināt vēlreiz</string>
     <string name="network_location_required_text">Lai skatītu ar atrašanās vietu saistītas kartītes, piemēram, vietējo laika prognozi un satiksmi ceļā uz darbu vai mājām, ieslēdziet Wi‑Fi un mobilā tīkla atrašanās vietu.</string>
     <string name="network_location_required_text_klp">Lai skatītu ar atrašanās vietu saistītas kartītes, piemēram, vietējo laika prognozi un satiksmi ceļā uz darbu vai mājām, atlasiet augstas precizitātes vai akumulatora jaudas taupīšanas atrašanās vietas režīmu.</string>
     <string name="never">Nekad</string>
@@ -2443,7 +2467,7 @@ Skatiet un pārvaldiet Google tīklā izmantotos meklēšanas vaicājumus un dau
     <string name="none">Nav</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Sarakstu un piezīmju pakalpojumi</string>
-    <string name="notes_lists_none_preference_summary">Sekundārā informācija</string>
+    <string name="notes_lists_none_preference_summary">Asistents nesinhronizēs jūsu datus ne ar vienu pakalpojumu.</string>
     <string name="notes_lists_none_preference_title">Nav</string>
     <string name="notes_lists_provider_changed_description">"Asistenta piezīmju un sarakstu dati vairs netiks atjaunināti ar %1$s. Pakalpojumu sniedzēja %1$s esošie dati netiks dzēsti.
 
@@ -2451,6 +2475,7 @@ Vai vēlaties turpināt?"</string>
     <string name="notes_lists_provider_changed_negative_button">Atcelt</string>
     <string name="notes_lists_provider_changed_positive_button">Piekrītu</string>
     <string name="notes_lists_provider_changed_title">Pārtraukt savienojumu ar %1$s</string>
+    <string name="notes_lists_title">Asistents sinhronizēs jūsu piezīmes un sarakstus ar šīm ierīcēm.</string>
     <string name="notification_access_link_text">Izslēgt piekļuvi paziņojumiem</string>
     <string name="notification_accessable_apps_category_title">Piekļuve paziņojumiem</string>
     <string name="notification_cancel_text">Google neatkārtos šo meklēšanas pieprasījumu, kad atkal būsiet tiešsaistē.</string>
@@ -2570,6 +2595,7 @@ Vai vēlaties turpināt?"</string>
     <string name="opa_assist_app_screen_explanation">Lai piekļūtu Google asistentam, palīga un balss ievades iestatījumos izvēlieties Google lietotni.</string>
     <string name="opa_assist_app_screen_title">Google lietotne nav jūsu noklusējuma Asistenta lietotne.</string>
     <string name="opa_assistant_logo_content_description">Balss meklēšana</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Skatiet Google asistentam pieejamos atjauninājumus</string>
     <string name="opa_consent_check_error_button">Aizvērt</string>
     <string name="opa_consent_check_error_button_notavailable">Pārslēgt kontus</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Atkarībā no jūsu konta iestatījumiem, iespējams, Asistents varēs jums nodrošināt tikai tādas funkcijas kā tīmekļa rezultātus, jokus un vietējo informāciju.</string>
@@ -2646,7 +2672,6 @@ Dzēšot darbības no Asistenta vēstures, darījumi netiks ietekmēti un darbī
     <string name="opa_eyes_free_opt_in_speech">Kad tas ir droši, vispirms pieskarieties paziņojumam. Pēc tam atļaujiet austiņām izmantot Google asistentu.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Pieskarieties, lai turpinātu</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Piešķiriet Google asistentam atļauju jums palīdzēt</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Pieskarieties, lai turpinātu</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Vēlāk</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Piekrītu</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">SĀKT DARBU</string>
@@ -2707,6 +2732,7 @@ varat skatīt un pārvaldīt šeit:"</string>
     <string name="opa_launcher_icon_text">Asistents</string>
     <string name="opa_lock_icon_description">Atbloķēšanas ikona</string>
     <string name="opa_logo_content_desc">Google asistenta logotips</string>
+    <string name="opa_mark_content">Asistents</string>
     <string name="opa_marketplace_disclosure_description">Varat izmantot Google asistentu kopā ar dažādiem pakalpojumiem, lai paveiktu vairāk.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google asistents var sadarboties ar Google partneriem, lai palīdzētu jums ikdienas darbā, piemēram, iegādāties kino biļetes vai novērst problēmu ar izlietni. &lt;a href=https://support.google.com/assistant/?p=google_partners>Uzziniet vairāk&lt;/a>.</string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google partneri ir uzņēmumi, kuriem ir komerciālas attiecības ar uzņēmumu Google. Varat izmantot Google asistentu kopā ar Google partneru pakalpojumiem, lai paveiktu visdažādākos uzdevumus, piemēram, iegādātos kino biļetes vai salabotu izlietni. <a href="https://support.google.com/assistant/?p=google_partners">Uzziniet vairāk</a></string>
@@ -3112,7 +3138,7 @@ Veicot šīs izmaiņas, saņemsiet:"</string>
     <string name="recent_web_history_group_header">Jaunākās tīmekļa lapas</string>
     <string name="recent_webpage_category">Tīmekļa lapa</string>
     <string name="recently">Pēdējās</string>
-    <string name="recently_add_reading_reminder">Lasīšanas atgādinājums</string>
+    <string name="recently_add_reading_reminder">Izveidot atgādinājumu</string>
     <string name="recently_app_name">Nesenās</string>
     <string name="recently_clear_data_button">Dzēst datus</string>
     <string name="recently_clear_data_read_later_articles">Lasīt vēlāk: %d raksti</string>
@@ -3134,6 +3160,7 @@ Aptuvenais lielums: %d Kb"</string>
     <string name="recently_empty_state_read_later_body_text">Vienumi tiks lejupielādēti jūsu ierīcē un glabāti 7 dienas.</string>
     <string name="recently_empty_state_read_later_title_text">Pievienojiet lapas, ko lasīt vēlāk</string>
     <string name="recently_entry_interaction_offline">Bezsaistē nevar atvērt pieprasīto lapu.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Plūsma</string>
     <string name="recently_google_doodle_for">Google svētku logotips: %s</string>
     <string name="recently_keep_on_device_until">Paturēt ierīcē līdz:</string>
@@ -3148,17 +3175,17 @@ Lai skatītu vairāk, atveriet šo lapu grupu."</string>
     <string name="recently_onboarding_recent_message_2">"Izpētiet vēlreiz tēmas, ko nesen meklējāt lietotnē Google.
 
 Grupu varat aizvērt, uz ekrāna savelkot ar pirkstiem."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Vēlreiz skatiet tēmas, ko nesen meklējāt Google lietotnē.</string>
     <string name="recently_onboarding_recent_title">Skatiet atrasto informāciju</string>
     <string name="recently_onboarding_search_on_message">"Šeit tiek rādītas lapas, ko skatījāt šajā ierīcē. Ar vienu meklēšanas vaicājumu iegūtās lapas tiek grupētas kopā, sākumā norādot jaunākās lapas.
 
 Turpiniet meklēt un skatiet atrasto vēlreiz šeit."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Šeit tiek rādītas lapas, ko skatījāt šajā ierīcē. Turpiniet meklēt un vēlreiz skatiet atrasto saturu šeit.</string>
     <string name="recently_onboarding_search_on_title">Meklēšana citur</string>
     <string name="recently_onboarding_swipe_up_message">"Vai vēlaties paslēpt nesen lietotās lapas? Velciet uz augšu, lai tās noņemtu.
 
 Šādi lapas netiek dzēstas no jūsu Google konta."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Vai vēlaties paslēpt nesen lietotās lapas? Velciet uz augšu, lai tās noņemtu. Šīs lapas netiks dzēstas no jūsu Google konta.</string>
     <string name="recently_onboarding_swipe_up_title">Vilkšana uz augšu</string>
     <string name="recently_overflow_title">Citas iespējas</string>
     <string name="recently_reading_reminder">Lasīšanas atgādinājums:</string>
@@ -3190,6 +3217,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Tīmeklis</string>
     <string name="recents_result_separate_group_header">Nesenie meklēšanas vaicājumi</string>
     <string name="recognizer_service_label">Pamata Google atpazīšana</string>
+    <string name="recommendation_header_text">Ieteikumi jums</string>
     <string name="reconnecting_loading_results">"Tiek ielādēti meklēšanas rezultāti
 "</string>
     <string name="reconnecting_title">Notiek atkārtota savienojuma izveide...</string>
@@ -3262,7 +3290,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Vārds</string>
     <string name="report_other_reason">Cits iemesls</string>
     <string name="report_this">Ziņot</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Lai varētu lejupielādēt sērijas, atļaujiet piekļuvi krātuvei Google lietotnes atļaujās.</string>
     <string name="request_storage_permission_dialog_message">Lai varētu lejupielādēt sērijas, piešķiriet Google lietotnei piekļuvi ierīces krātuvei</string>
     <string name="request_storage_permission_dialog_title">Atļauja piekļūt krātuvei</string>
     <string name="reservation_group_header">Rezervācijas</string>
@@ -3347,6 +3375,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Ekrāns pārvietots</string>
     <string name="screenshot_srp_desc">Meklēt: %s.</string>
     <string name="screenshot_srp_pending_desc">Neizpildīts meklēšanas vaicājums “%s”</string>
+    <string name="screenshot_srp_voice_pending_desc">Gaida balss meklēšanu</string>
+    <string name="screenshot_srp_voice_pending_title">Meklēšana ar balsi</string>
     <string name="screenshot_web_desc">Apmeklēt: %s.</string>
     <string name="screenshot_webpage_pending_desc">Notiek lejupielādes gaidīšana</string>
     <string name="scroll_left">Ritināt pa kreisi</string>
@@ -3404,7 +3434,7 @@ Mēģiniet meklēt aplādi vēlreiz."</string>
     <string name="search_sources_tablet">Meklēšana planšetdatorā</string>
     <string name="search_storage_label">Google meklēšanas krātuve</string>
     <string name="search_tablet">Meklēt planšetdatorā</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Meklēt tīmeklī</string>
     <string name="search_the_web_menu_text">Meklēt tīmeklī</string>
     <string name="search_the_web_suggestion">Meklēt tīmeklī</string>
     <string name="search_widget_customization">Pielāgot logrīku</string>
@@ -3632,7 +3662,9 @@ Mēģiniet meklēt aplādi vēlreiz."</string>
     <string name="sports_wins_header">Uzvaras</string>
     <string name="sports_wins_header_full_length">Uzvaras</string>
     <string name="standalone_zs_back_content_desc">Atpakaļ</string>
+    <string name="standalone_zs_brick_content_desc">Personiski atjauninājumi</string>
     <string name="standalone_zs_explore_content_desc">Atveriet sadaļas “Izpēte” un “Jūsu saturs”</string>
+    <string name="standalone_zs_opa_icon_desc">Asistents</string>
     <string name="star_rating_bar_content_description">Vērtējums zvaigznītēs: %1$s</string>
     <string name="starting_location_selector">%1$s. Izvēlieties sākuma atrašanās vietu.</string>
     <string name="starts_at">Sākas plkst.</string>
@@ -3648,6 +3680,7 @@ Mēģiniet meklēt aplādi vēlreiz."</string>
     <string name="street_address_label">Adrese</string>
     <string name="subscribe_button_label">Abonēt</string>
     <string name="subscribe_to_see_new_episodes">Abonējiet aplādes, lai skatītos jaunās sērijas.</string>
+    <string name="success">Gatavs</string>
     <string name="suggest">Automātiskā pabeigšana</string>
     <string name="suggest_contact_removal_body">Tādējādi kontaktpersona &lt;b>%1$s&lt;/b> tiks noņemta no svarīgāko kontaktpersonu saraksta. Jūs joprojām varēsiet atrast kontaktpersonu &lt;b>%2$s&lt;/b>, veicot meklēšanu.</string>
     <string name="suggest_contact_removal_cancel">ATCELT</string>
@@ -4006,6 +4039,8 @@ Pierakstījies kā: %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Sakiet kaut ko</string>
     <string name="user_defined_action_task_scene_control_title">Režīmi</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Izvēlieties, kurus režīmus ietvert šajā rutīnā.</string>
+    <string name="user_defined_action_task_security_system_control_title">Ieslēgt drošības sistēmu</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Kuru režīmu vēlaties iestatīt?</string>
     <string name="user_defined_action_task_send_text_content_summary">Ja atstāsiet adresāta numura vai ziņojuma satura lauku tukšu, tiksiet aicināts to aizpildīt, kad izpildīsiet šo rutīnu.</string>
     <string name="user_defined_action_task_send_text_content_title">Kādam tekstam ir jābūt ietvertam īsziņā?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Uz kādu numuru vēlaties nosūtīt īsziņu?</string>

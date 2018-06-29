@@ -181,7 +181,7 @@
     <string name="download_failed">Niðurhal mistókst</string>
     <string name="download_not_found">Niðurhal fannst ekki</string>
     <string name="download_setting_message">Sóttir þættir eru fjarlægðir 30 dögum eða 24 klukkustundum eftir að hlustað hefur verið á þá</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Sótt</string>
     <string name="downloaded_episodes">Sóttir þættir</string>
     <string name="downloading">Sækir...</string>
     <string name="downloads">Niðurhal</string>
@@ -194,7 +194,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Þættir í boði</string>
     <string name="episode_page_section_title">Þáttur</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Fyrir þig</string>
     <string name="error">Villa</string>
     <string name="error_message">Leit mistókst. Reyndu síðar.</string>
@@ -369,10 +368,10 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="image_viewer_visit_site">Opna</string>
     <string name="indexing_not_ready">Við erum ekki enn með efni til að sýna þér. Tengstu netinu og komdu aftur eftir nokkrar mínútur.</string>
     <string name="info_target_label">Upplýsingar um forrit</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Sækja forritið Google Podcasts</string>
+    <string name="install_google_podcasts_accept">Sækja forritið</string>
+    <string name="install_google_podcasts_message">Sæktu forritið Google Podcasts í Play Store til að hafa greiðan aðgang</string>
+    <string name="install_google_podcasts_reject">Ekki núna</string>
     <string name="installed_app_group_header">Forrit</string>
     <string name="ipa_app_filter_content_description">Niðurstöður úr %s.</string>
     <string name="ipa_app_filter_more_description">Birta fleiri niðurstöður úr %s.</string>
@@ -401,20 +400,17 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="long_accessible_way_to_add">Ýttu tvisvar og haltu fingri á græju til að grípa hana eða notaðu sérsniðnar aðgerðir.</string>
     <string name="long_press_widget_to_add">Haltu fingri á græju til að grípa hana.</string>
     <string name="longpress_menu_download">Sækja mynd</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Deila mynd</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="mark_as_played">Merkt sem spilað</string>
+    <string name="mark_as_unplayed">Merkt sem óspilað</string>
+    <string name="media_item_type_your_podcasts">Hlaðvarpið þitt</string>
     <string name="media_route_chooser_dialog_title">Senda út í</string>
     <string name="media_route_chooser_searching">Leitar að tækjum…</string>
     <string name="media_route_controller_cancel">Hætta við</string>
     <string name="media_route_controller_stop_casting">Stöðva útsendingu</string>
     <string name="menu_get_help">Fá hjálp</string>
-    <string name="menu_search_by_image">Leita eftir mynd</string>
     <string name="menu_send_feedback">Senda ábendingu</string>
-    <string name="menu_view_original_image">Skoða upprunalega mynd</string>
     <string name="message_image">Mynd</string>
     <string name="message_no_text">Enginn texti</string>
     <string name="message_sender_text_divider">·</string>
@@ -427,7 +423,6 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="migration_cling_title">Afritaðu forritatáknin þín</string>
     <string name="migration_cling_use_default">BYRJA UPP Á NÝTT</string>
     <string name="minute_picker_description">Valskífa fyrir mínútur</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="mismatching_value_eir_code">Skv. heimilisfangi</string>
     <string name="mismatching_value_pin_code">Skv. heimilisfangi</string>
     <string name="mismatching_value_postal_code">Skv. heimilisfangi</string>
@@ -570,6 +565,7 @@ Kannaðu og stjórnaðu allri Google leitinni þinni og fleiru í Mínum aðger�
     <string name="recently_empty_state_read_later_body_text">Við geymum sóttu atriðin í tækinu þínu í 7 daga.</string>
     <string name="recently_empty_state_read_later_title_text">Bæta við síðum til að lesa síðar</string>
     <string name="recently_entry_interaction_offline">Ekki er hægt að opna umbeðna síðu án nettengingar.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Straumur</string>
     <string name="recently_google_doodle_for">Google dúlla fyrir %s</string>
     <string name="recently_keep_on_device_until">Halda í tækinu til:</string>
@@ -584,17 +580,17 @@ Opnaðu þennan hóp af síðum til að sjá meira."</string>
     <string name="recently_onboarding_recent_message_2">"Uppgötvaðu efni sem þú leitaðir að nýlega í Google app.
 
 Þú getur lokað glugganum með því að færa fingur saman."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Sjáðu efnisatriði sem þú hefur nýlega leitað að í Google app</string>
     <string name="recently_onboarding_recent_title">Skoðaðu það sem þú fannst</string>
     <string name="recently_onboarding_search_on_message">"Síðurnar hér eru síður sem þú fannst á þessu tæki. Síður úr sömu leit eru flokkaðar saman og þær nýjustu birtast fyrst.
 
 Haltu áfram að leita og enduruppgötvaðu það sem þú finnur hér."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Þetta eru þær síður sem þú hefur séð í þessu tæki. Haltu áfram að leita – hér sérðu það sem þú finnur.</string>
     <string name="recently_onboarding_search_on_title">Leita á</string>
     <string name="recently_onboarding_swipe_up_message">"Viltu losa þig við nýlegar síður? Strjúktu einfaldlega upp til að fjarlægja þær.
 
 Þetta mun ekki eyða þeim á Google reikningnum þínum."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Viltu losna við nýlegar síður? Strjúktu upp til að fjarlægja þær. Þeim verður ekki eytt af Google reikningnum þínum.</string>
     <string name="recently_onboarding_swipe_up_title">Strjúktu upp</string>
     <string name="recently_overflow_title">Fleiri valkostir</string>
     <string name="recently_reading_reminder">Lestraráminning:</string>
@@ -664,7 +660,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="remove_download">Fjarlægja niðurhal</string>
     <string name="remove_downloaded_episode">Fjarlægja sóttan þátt</string>
     <string name="remove_unfinished_episodes">Fjarlægja ókláraða þætti</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Veittu aðgang að geymslurými í heimildum forrits til að sækja þætti</string>
     <string name="request_storage_permission_dialog_message">Google þarf að fá aðgang að geymslu tækisins til að sækja þætti</string>
     <string name="request_storage_permission_dialog_title">Veittu aðgang að geymslurými</string>
     <string name="reservation_group_header">Pantanir</string>
@@ -691,13 +687,15 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Skjár færður</string>
     <string name="screenshot_srp_desc">Leita að %s.</string>
     <string name="screenshot_srp_pending_desc">Leit í bið fyrir %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Raddleit í bið</string>
+    <string name="screenshot_srp_voice_pending_title">raddleit</string>
     <string name="screenshot_web_desc">Heimsækja %s.</string>
     <string name="screenshot_webpage_pending_desc">Bíður niðurhals</string>
     <string name="search_contact_on_web">Leita að „%s“ á vefnum</string>
     <string name="search_error_message">"Eitthvað fór úrskeiðis.
 Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="search_menu_title">Leita</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Leita á vefnum</string>
     <string name="search_the_web_suggestion">Leita á vefnum</string>
     <string name="searchbar_hint">Leita að hlaðvarpi</string>
     <string name="searchbox_hint">Leita í nýlegu</string>

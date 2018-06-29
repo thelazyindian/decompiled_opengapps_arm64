@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">A qui vols enviar un missatge?</string>
     <string name="action_sound_search_get_song">Baixa a Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s, %2$s, %3$s</string>
+    <string name="action_suggestion_message">Aquesta acció està relacionada amb el que estàs escrivint.</string>
     <string name="action_unlock_device_tts">No puc fer-ho amb el dispositiu bloquejat. Per continuar, desbloquegeu el dispositiu.</string>
     <string name="action_video_call">Videotrucada</string>
     <string name="action_voice_call">Truca</string>
@@ -247,6 +248,10 @@
     <string name="agent_bookmark_error">"S'ha produït un error. Torna-ho a provar més tard."</string>
     <string name="agent_bookmark_removed">"S'ha suprimit de les adreces d'interès"</string>
     <string name="agent_description_more">més</string>
+    <string name="agent_details_add_routine_description">"Fes més coses durant les rutines gràcies a la informació que t'ofereix %1$s."</string>
+    <string name="agent_details_add_routine_item">Afegeix</string>
+    <string name="agent_details_customize_routine">Personalitza la teva rutina</string>
+    <string name="agent_details_manage_routines">Gestiona les rutines</string>
     <string name="agent_details_splash_image_a11y">"Imatge de l'aplicació Assistent"</string>
     <string name="agent_directory_a11y_back_button">Enrere</string>
     <string name="agent_directory_a11y_more_groups">Més</string>
@@ -488,6 +493,7 @@ Permet que Google desi i analitzi indefinidament les teves captures de pantalla 
 L'Assistent utilitzarà aquesta configuració per a les preguntes sobre els teus desplaçaments diaris"</string>
     <string name="assistant_settings_commute_walk">A peu</string>
     <string name="assistant_settings_commute_walk_key">COMMUTE A peu</string>
+    <string name="assistant_settings_contact_list_introduction">"Aquestes són les dades que has demanat a l'Assistent que recordi sobre les persones que coneixes."</string>
     <string name="assistant_settings_custom_routines_description">"L'Assistent pot fer diverses coses amb una única ordre. Utilitza les rutines predefinides i adapta-les al teu dia a dia, o bé crea'n de personalitzades des de zero."</string>
     <string name="assistant_settings_default_record_button_text">Grava</string>
     <string name="assistant_settings_delete_button_label">Suprimeix</string>
@@ -633,13 +639,15 @@ L'Assistent utilitzarà aquesta configuració per a les preguntes sobre els teus
     <string name="assistant_settings_music_provider_category_title">"L'Assistent utilitzarà aquest proveïdor de música de manera predeterminada quan se li demani que reprodueixi música. De totes maneres, pots reproduir música mitjançant tots els altres proveïdors enllaçats si ho especifiques."</string>
     <string name="assistant_settings_music_title">Música</string>
     <string name="assistant_settings_music_unable_unlink_default">No es pot desenllaçar el teu proveïdor de música predeterminat</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music necessita una subscripció YouTube Red per reproduir contingut a Google Home. Pots registrar-te al servei a <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Cal una subscripció YouTube Red</string>
+    <string name="assistant_settings_music_unlink_dialog_text">"Si desenllaces el compte, es desactivarà l'accés per reproduir contingut a %1$s utilitzant l'Assistent de Google."</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music necessita una subscripció YouTube Premium per reproduir contingut a Google Home. Pots registrar-te al servei a <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Cal una subscripció YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Elimina %1$s de les fonts de notícies que tens activades</string>
     <string name="assistant_settings_news_supports_video">Vídeo disponible en pantalles intel·ligents</string>
     <string name="assistant_settings_news_title">Notícies</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">El teu àlies conté un caràcter que Assistent no sap pronunciar. Lletreja com sona a la secció següent.</string>
     <string name="assistant_settings_no_device_linked">"Voice Match permet a l'Assistent proporcionar-te informació personal quan et reconeix la veu. Fins a 6 persones poden obtenir els seus propis continguts, com ara el calendari i la música, entre d'altres."</string>
+    <string name="assistant_settings_no_language_summary">Cap</string>
     <string name="assistant_settings_no_language_title">Afegeix un idioma</string>
     <string name="assistant_settings_no_shopping_list">No tens cap llista de la compra.</string>
     <string name="assistant_settings_notes_lists_title">Notes i llistes</string>
@@ -807,6 +815,7 @@ L'Assistent utilitzarà aquesta configuració a l'hora de donar-te indicacions p
     <string name="assistant_settings_summer_time_mode_availability_clarification">"Actualment l'opció de conversa continua està disponible en anglès (EUA). Si utilitzes dispositius de Google Home que no es mostren aquí, la persona que tingui el compte principal en aquests dispositius pot activar o desactivar la conversa continua a la configuració de l'Assistent."</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Pots canviar aquesta configuració en aquests dispositius de Google Home</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">No hi ha cap dispositiu disponible</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">"El micròfon del dispositiu es tornarà a activar després de cada resposta per escoltar si es fa una altra pregunta. Tot es mostrarà, com sempre, a La meva activitat. Els àudios que l'Assistent no respongui se suprimiran del Compte de Google."</string>
     <string name="assistant_settings_summer_time_mode_button_title">Conversa continua</string>
     <string name="assistant_settings_summer_time_mode_title">Conversa continua</string>
     <string name="assistant_settings_turn_off_voice_match">"Si desactives Voice Match, desenllaçaràs el compte d'aquest dispositiu. Cal que hi hagi com a mínim un compte enllaçat per utilitzar el dispositiu compatible amb l'Assistent de Google. Confirmes que vols desenllaçar el compte? "</string>
@@ -835,10 +844,8 @@ L'Assistent utilitzarà aquesta configuració a l'hora de donar-te indicacions p
     <string name="assistant_settings_update_error_message">"No s'ha pogut actualitzar la configuració. Comprova la connexió."</string>
     <string name="assistant_settings_video_calls_service_category_title">"L'Assistent pot fer videotrucades des de determinats dispositius, com ara la Pantalla intel·ligent de Google, amb el servei que prefereixis. Les trucades d'emergència no estan disponibles."</string>
     <string name="assistant_settings_video_icon_text">Icona del proveïdor de vídeos</string>
-    <string name="assistant_settings_video_link_dialog_text">"Enllaça el teu compte de Google a %1$s per activar el control per veu i la reproducció en dispositius compatibles. Quan controlis el servei de %1$s amb Google Home o demanis informació relacionada amb %1$s, és possible que aquestes consultes s'enviïn a %1$s perquè les utilitzi d'acord amb el seu avís de privadesa."</string>
     <string name="assistant_settings_video_provider_category_summary">"Demana a l'Assistent que reprodueixi sèries i pel·lícules."</string>
     <string name="assistant_settings_video_provider_category_title">Vídeos</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Si desenllaces el teu compte, es desactivarà el control per veu.</string>
     <string name="assistant_settings_videos_photos_title">Vídeos i fotos</string>
     <string name="assistant_settings_videosphotos_cast_destination">un dispositiu Chromecast o un televisor amb Chromecast integrat</string>
     <string name="assistant_settings_voice_and_video_calls_title">Trucades de veu i videotrucades</string>
@@ -850,6 +857,21 @@ L'Assistent utilitzarà aquesta configuració a l'hora de donar-te indicacions p
     <string name="assistant_settings_weather_title">Temps</string>
     <string name="assistant_settings_work_address_clear_dialog_title">"Vols suprimir l'adreça de la feina?"</string>
     <string name="assistant_settings_work_title">Adreça de la feina</string>
+    <string name="assistant_settings_your_people_address">Adreça: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Aniversari: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Recordar un aniversari.</string>
+    <string name="assistant_settings_your_people_deletion_failure">Hi ha hagut un problema. Torna-ho a provar més tard.</string>
+    <string name="assistant_settings_your_people_email">Adreça electrònica: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Recordar un membre de la família.</string>
+    <string name="assistant_settings_your_people_forget_button">Oblida</string>
+    <string name="assistant_settings_your_people_forget_dialog">"Aquesta acció suprimirà tota la informació que hagis demanat a l'Assistent que recordi sobre %1$s"</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">"Vols que l'Assistent oblidi aquesta informació?"</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Oblida aquesta informació</string>
+    <string name="assistant_settings_your_people_phone">Telèfon: %1$s</string>
+    <string name="assistant_settings_your_people_splash">"Després, quan diguis \"Truca a la mare\" o \"Quan és l'aniversari del meu germà?\", l'Assistent estarà a punt per ajudar-te."</string>
+    <string name="assistant_settings_your_people_splash_title">"Digues a l'Assistent qui és cada persona"</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">"Pots demanar a l'Assistent que faci el següent:"</string>
+    <string name="assistant_settings_your_people_title">"Persones que t'importen"</string>
     <string name="assistant_speaker_id_default_category_summary">"L'Assistent només proporcionarà la teva informació personal quan et reconegui la veu en aquests dispositius"</string>
     <string name="assistant_speaker_id_default_category_title">Dispositius compartits amb Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">"No es pot completar l'activació."</string>
@@ -1008,7 +1030,7 @@ Es poden aplicar càrrecs de dades."</string>
     <string name="cloud_search_history_summary_fetching">"S'està recuperant la configuració..."</string>
     <string name="collapse">Replega</string>
     <string name="collapse_time_to_leave">Amaga les opcions per a aquest trajecte</string>
-    <string name="collections">Col·leccions</string>
+    <string name="collections">Desats</string>
     <string name="comment_hint">Comentaris addicionals (opcional)</string>
     <string name="common_address_clear_button_label">Esborra</string>
     <string name="common_address_clear_confirm_button">Suprimeix</string>
@@ -1084,7 +1106,7 @@ Aquest dispositiu tindrà accés al teu compte de Google."</string>
     <string name="consent_my_activity">La meva activitat</string>
     <string name="consent_partners_disclosures_body_collapsed">Els col·laboradors de Google mantenen una relació comercial estreta amb Google i és possible que ens hagin pagat perquè destaquem o promocionem el seu contingut.</string>
     <string name="consent_partners_disclosures_body_expanded">"Els col·laboradors de Google mantenen una relació comercial estreta amb Google i és possible que ens hagin pagat perquè destaquem o promocionem el seu contingut. Aquestes empreses t'ajuden a fer moltes coses, com ara comprar paper de cuina o trobar algú que et repari la pica. %1$s."</string>
-    <string name="consent_partners_disclosures_title">Partners de Google</string>
+    <string name="consent_partners_disclosures_title">Col·laboradors de Google</string>
     <string name="consent_services_disclosures_body_collapsed">Per protegir la teva privadesa, Google envia un codi únic als serveis amb els quals et comuniques.</string>
     <string name="consent_services_disclosures_body_expanded">"Per protegir la teva privadesa, Google envia un codi únic als serveis amb què et comuniques, de manera que puguin recordar informació (p. ex., preferències en les converses).
 
@@ -1242,6 +1264,10 @@ Haurem de deduir la teva ubicació aproximada a partir d'altres dades, com ara l
     <string name="device_setup_error_cancel_button">Obtén ajuda</string>
     <string name="device_setup_error_content">"S'ha produït un error"</string>
     <string name="device_setup_error_title">És possible que hi hagi un problema</string>
+    <string name="devices_scan_action_button">Continua</string>
+    <string name="devices_scan_cancel_button">Cancel·la</string>
+    <string name="devices_scan_explanation">Tria els dispositius</string>
+    <string name="devices_scan_title">Afegeix dispositius</string>
     <string name="directory_for_mall">Directori de: %1$s</string>
     <string name="disclaimer">Exempció de responsabilitat</string>
     <string name="dismiss_text">Arrossega cap avall per ignorar-ho</string>
@@ -1273,7 +1299,7 @@ Haurem de deduir la teva ubicació aproximada a partir d'altres dades, com ara l
     <string name="download_not_found">"No s'ha trobat el fitxer baixat"</string>
     <string name="download_prompt">Baixa</string>
     <string name="download_setting_message">Els episodis baixats se suprimiran quan hagin passat 30 dies o 24 hores des que es van escoltar sencers</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Baixat</string>
     <string name="downloaded_episodes">Episodis baixats</string>
     <string name="downloading">"S'està baixant..."</string>
     <string name="downloads">Baixades</string>
@@ -1337,7 +1363,6 @@ Haurem de deduir la teva ubicació aproximada a partir d'altres dades, com ara l
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Episodis disponibles</string>
     <string name="episode_page_section_title">Episodi</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Per a tu</string>
     <string name="error">Error</string>
     <string name="error_adding_location_snackbar_text">Error en afegir la ubicació</string>
@@ -1404,7 +1429,6 @@ Comprova la connexió i torna-ho a provar"</string>
     <string name="eyes_donate_data_optin_ok">"D'acord"</string>
     <string name="eyes_donate_data_optin_title">Dona les imatges de Lens</string>
     <string name="eyes_flash_button_description">Canvia el flaix</string>
-    <string name="eyes_initial_suggestion_0">Què pots reconèixer?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">No tinc permís per fer-ho</string>
     <string name="eyes_no_permission_camera">No tinc permís per utilitzar la càmera</string>
@@ -1432,7 +1456,6 @@ Google Lens no ho sap tot i no sempre l'encertem a l'hora de reconèixer determ
     <string name="eyes_onboarding_title_text">Escaneja text</string>
     <string name="eyes_request_timed_out_message">No es pot accedir a Google en aquests moments</string>
     <string name="eyes_share_with">Comparteix amb</string>
-    <string name="eyes_unfreeze_image_description">Torna a la càmera</string>
     <string name="eyes_viewfinder_description">Activa Google Lens</string>
     <string name="failed">"No s'ha pogut carregar la imatge"</string>
     <string name="failed_to_open_webview">"No s'ha pogut obrir la pàgina"</string>
@@ -1557,8 +1580,13 @@ Google Lens no ho sap tot i no sempre l'encertem a l'hora de reconèixer determ
     <string name="folder_renamed">"S'ha canviat el nom de la carpeta a %1$s"</string>
     <string name="folder_tap_to_close">Toca per tancar la carpeta</string>
     <string name="folder_tap_to_rename">Toca per desar el canvi de nom</string>
+    <string name="follow_soccer_promo_query">futbol 2018</string>
     <string name="follow_world_cup_promo">Segueix la Copa del Món</string>
     <string name="follow_world_cup_promo_content_description">Segueix la Copa del Món</string>
+    <string name="follow_world_cup_promo_detail">Toca aquí per registrar-te i rebràs recordatoris de partits, notícies i resultats en directe dels teus equips preferits</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Estigues al dia sobre els partits de futbol</string>
+    <string name="follow_world_cup_promo_query">copa del món 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Ja és aquí el futbol que genera més passions!</string>
     <string name="forbid_download_removal">"No es pot suprimir l'episodi mentre s'està reproduint"</string>
     <string name="fourth_quarter">Quart quart</string>
     <string name="fourth_quarter_abbrev">4t quart</string>
@@ -1766,7 +1794,7 @@ Aquestes gravacions anteriors es poden utilitzar per crear un model de veu en aq
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Vols continuar?</string>
     <string name="hotword_enrollment_google_home_share_message">"Hola! Acabo d'ensenyar l'Assistent a reconèixer la meva veu a Google Home per obtenir resultats personalitzats.
 
-Tu també pots rebre respostes personalitzades. Per començar, instal·la l'aplicació Google Home: https://google.com/home/setup"</string>
+Tu també pots rebre respostes personalitzades. Per començar, instal·la l'aplicació Google Home: https://google.com/home/setup."</string>
     <string name="hotword_enrollment_google_home_share_message_subject">"Ensenya l'Assistent a reconèixer-te"</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Convida</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">"Pots veure o suprimir l'activitat de veu a %1$s. També pots desactivar Voice Match des de la configuració de l'Assistent."</string>
@@ -1898,7 +1926,7 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="hourly_forecast">Predicció per hora</string>
     <string name="hours">Hores</string>
     <string name="how_can_i_help">En què et puc ajudar?</string>
-    <string name="hq_a11y_bottom_bar_button">"Obre el micròfon per parlar amb l'Assistent"</string>
+    <string name="hq_a11y_bottom_bar_button">Assistent</string>
     <string name="hq_a11y_chatui_badge">Obre Explora i Les teves coses</string>
     <string name="hq_a11y_menu_button">Menú</string>
     <string name="hq_account_switch_prompt">"S'està iniciant la sessió com a %1$s"</string>
@@ -2026,10 +2054,10 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="inferred_event_error">"No s'ha pogut crear l'esdeveniment."</string>
     <string name="inferred_from_gmail">A Gmail apareix com a %1$s</string>
     <string name="info_target_label">"Dades de l'aplicació"</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">"Baixa l'aplicació Google Podcasts"</string>
+    <string name="install_google_podcasts_accept">"Baixa l'aplicació"</string>
+    <string name="install_google_podcasts_message">"Baixa l'aplicació Google Podcasts des de Play Store per accedir-hi ràpidament"</string>
+    <string name="install_google_podcasts_reject">Ara no</string>
     <string name="installed_app_group_header">Aplicacions</string>
     <string name="installed_details">Versió %1$s instal·lada (mida al disc %2$s)</string>
     <string name="installed_language_packs">Instal·lats</string>
@@ -2070,7 +2098,7 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="item_is_selected">%1$s seleccionat</string>
     <string name="item_moved">Element desplaçat</string>
     <string name="item_removed">"S'ha suprimit l'element"</string>
-    <string name="jasper_duo_knock_knock_summary">"Pots veure en vídeo la persona que et truca abans de despenjar el telèfon, així com permetre que l'altra persona també et vegi mentre li sona el telèfon. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Més informació&lt;/a>"</string>
+    <string name="jasper_duo_knock_knock_summary">Pots veure en vídeo la persona que et truca abans de despenjar el telèfon, així com permetre que la persona a qui truques et vegi mentre li sona el telèfon. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Toc Toc</string>
     <string name="jasper_duo_not_signed_in">No has iniciat la sessió</string>
     <string name="jasper_duo_signed_in">Has iniciat la sessió</string>
@@ -2166,10 +2194,10 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="location_service_required_title">Obtén targetes basades en la ubicació</string>
     <string name="lockscreen_mic_promo_notification_content">Digues %1$s per desbloquejar el telèfon.</string>
     <string name="lockscreen_mic_promo_notification_title">Desbloqueja amb la veu</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Fes doble toc i mantén premut per seleccionar un widget o per utilitzar les accions personalitzades.</string>
     <string name="long_press_widget_to_add">Mantén premut un widget per triar-lo.</string>
     <string name="longpress_menu_download">Baixa la imatge</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Comparteix la imatge</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2203,10 +2231,10 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="map_content_description">Mapa</string>
     <string name="map_route_content_description">Mapa per arribar a %1$s</string>
     <string name="maps_mode_landing_text">Cerca mapes</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Marca com a reproduït</string>
+    <string name="mark_as_unplayed">Marca com a no reproduït</string>
     <string name="media_content_image">Una imatge relacionada amb el contingut multimèdia que es mostra en aquesta targeta</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Els teus podcasts</string>
     <string name="media_route_chooser_dialog_title">Emet contingut a</string>
     <string name="media_route_chooser_searching">"S'estan cercant dispositius…"</string>
     <string name="media_route_controller_cancel">Cancel·la</string>
@@ -2219,13 +2247,11 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="menu_overlay_feedback">Envia suggeriments</string>
     <string name="menu_overlay_reset_to_default_style">"Restableix l'estil predeterminat"</string>
     <string name="menu_refresh">Actualitza</string>
-    <string name="menu_search_by_image">Cerca per imatge</string>
     <string name="menu_send_button_content_description">Botó Envia per enviar suggeriments</string>
     <string name="menu_send_feedback">Envia suggeriments</string>
     <string name="menu_settings">Configuració</string>
     <string name="menu_share">Comparteix</string>
     <string name="menu_view_in_browser">Mostra al navegador</string>
-    <string name="menu_view_original_image">Mostra la imatge original</string>
     <string name="menu_visit_page">Visita la pàgina</string>
     <string name="message_card_feedback">Suggeriments</string>
     <string name="message_image">Imatge</string>
@@ -2270,7 +2296,6 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="minus_one_header_settings">Configuració</string>
     <string name="minute_picker_description">Control circular dels minuts</string>
     <string name="minutes">Minuts</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Diversos</string>
     <string name="mismatching_value_eir_code">No coincideix</string>
     <string name="mismatching_value_pin_code">No coincideix</string>
@@ -2351,7 +2376,6 @@ Descobreix i controla totes les teves cerques de Google i molt més a La meva ac
     <string name="network_error_fetching_weather_data_status_text">La xarxa no està disponible en aquest moment</string>
     <string name="network_error_no_connection_tts">En aquest moment no hi ha connexió a Internet.</string>
     <string name="network_error_resend_audio">"Torna a enviar l'àudio"</string>
-    <string name="network_error_try_again">Torna-ho a provar</string>
     <string name="network_location_required_text">Per veure targetes basades en la ubicació, com ara el temps local i el trànsit del desplaçament diari a la feina, activa la ubicació de la xarxa mòbil i Wi-Fi</string>
     <string name="network_location_required_text_klp">"Per veure targetes basades en la ubicació, com ara la informació meteorològica local i l'estat del trànsit, selecciona el mode d'ubicació d'estalvi de bateria o d'alta precisió."</string>
     <string name="never">Mai</string>
@@ -2443,7 +2467,7 @@ Descobreix i controla totes les teves cerques de Google i molt més a La meva ac
     <string name="none">Cap</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Serveis de llistes i notes</string>
-    <string name="notes_lists_none_preference_summary">Informació secundària</string>
+    <string name="notes_lists_none_preference_summary">"L'Assistent no sincronitzarà les teves dades amb cap servei."</string>
     <string name="notes_lists_none_preference_title">Cap</string>
     <string name="notes_lists_provider_changed_description">"Les dades de notes i llistes de l'Assistent ja no s'actualitzaran amb %1$s. Les dades existents a %1$s no se suprimiran.
 
@@ -2451,6 +2475,7 @@ Vols continuar?"</string>
     <string name="notes_lists_provider_changed_negative_button">Cancel·la</string>
     <string name="notes_lists_provider_changed_positive_button">Accepto</string>
     <string name="notes_lists_provider_changed_title">Desconnecta de: %1$s</string>
+    <string name="notes_lists_title">"L'Assistent mantindrà les teves notes i llistes sincronitzades amb aquests serveis."</string>
     <string name="notification_access_link_text">"Desactiva l'accés a les notificacions"</string>
     <string name="notification_accessable_apps_category_title">Accés a les notificacions</string>
     <string name="notification_cancel_text">Google no tornarà a provar de fer aquesta cerca quan tornis a tenir connexió.</string>
@@ -2570,6 +2595,7 @@ Vols continuar?"</string>
     <string name="opa_assist_app_screen_explanation">"Per accedir a l'Assistent de Google, selecciona l'aplicació Google a la configuració d'Assistència i entrada veu"</string>
     <string name="opa_assist_app_screen_title">"L'aplicació Google no és la teva aplicació d'assistència predeterminada"</string>
     <string name="opa_assistant_logo_content_description">Cerca per veu</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">"Mostra les actualitzacions de l'Assistent de Google"</string>
     <string name="opa_consent_check_error_button">Tanca</string>
     <string name="opa_consent_check_error_button_notavailable">Canvia de compte</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">"En funció de la configuració del compte, la teva experiència a l'Assistent es pot veure limitada a contingut com ara resultats web, acudits i informació local."</string>
@@ -2646,7 +2672,6 @@ El fet de suprimir dades de l'historial de l'Assistent no afecta les transaccion
     <string name="opa_eyes_free_opt_in_speech">"Quan sigui segur, primer hauràs de tocar la notificació. A continuació, podràs permetre l'ús d'auriculars amb micro amb l'Assistent de Google."</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Toca per continuar</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">"Dona permís a l'Assistent de Google perquè t'ajudi"</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Toca per continuar</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Més tard</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Accepto</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">COMENÇA</string>
@@ -2707,6 +2732,7 @@ compte de Google des de"</string>
     <string name="opa_launcher_icon_text">Assistent</string>
     <string name="opa_lock_icon_description">Icona de desbloqueig</string>
     <string name="opa_logo_content_desc">"Logotip de l'Assistent de Google"</string>
+    <string name="opa_mark_content">Assistent</string>
     <string name="opa_marketplace_disclosure_description">"L'Assistent de Google funciona amb diversos serveis per ajudar-te a fer més coses."</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">"L'Assistent de Google pot treballar amb els col·laboradors de Google per ajudar-te a fer moltes coses, com ara comprar entrades per veure una pel·lícula o trobar algú que et repari la pica. &lt;a href=https://support.google.com/assistant/?p=google_partners>Més informació&lt;/a>"</string>
     <string name="opa_marketplace_disclosure_google_partners_description">"Els partners de Google són negocis que mantenen una relació comercial amb Google. L'Assistent de Google pot col·laborar amb els partners de Google per ajudar-te a fer moltes coses, com ara comprar entrades per veure una pel·lícula o trobar algú que et repari la pica. "<a href="https://support.google.com/assistant/?p=google_partners">Més informació</a></string>
@@ -3112,7 +3138,7 @@ Si fas aquest canvi, obtindràs:"</string>
     <string name="recent_web_history_group_header">Pàgines web recents</string>
     <string name="recent_webpage_category">Pàgina web</string>
     <string name="recently">Recents</string>
-    <string name="recently_add_reading_reminder">Afegeix recordatori lectura</string>
+    <string name="recently_add_reading_reminder">Afegeix un recordatori de lectura</string>
     <string name="recently_app_name">Recents</string>
     <string name="recently_clear_data_button">Esborra les dades</string>
     <string name="recently_clear_data_read_later_articles">Articles per llegir més tard: %d </string>
@@ -3134,6 +3160,7 @@ Mida estimada: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Desarem els elements baixats al dispositiu durant 7 dies.</string>
     <string name="recently_empty_state_read_later_title_text">Afegeix pàgines per llegir-les més tard</string>
     <string name="recently_entry_interaction_offline">No es pot obrir la pàgina sol·licitada sense connexió.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">El meu tauler</string>
     <string name="recently_google_doodle_for">Doodle de Google per a %s</string>
     <string name="recently_keep_on_device_until">Desa al dispositiu fins:</string>
@@ -3148,17 +3175,17 @@ Obre aquest grup de pàgines per veure'n més."</string>
     <string name="recently_onboarding_recent_message_2">"Torna a descobrir temes que has cercat recentment a l'aplicació de Google.
 
 Pots tancar el grup pinçant la pantalla."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">"Torna a descobrir temes que has cercat fa poc a l'aplicació Google."</string>
     <string name="recently_onboarding_recent_title">Consulta què has trobat</string>
     <string name="recently_onboarding_search_on_message">"Aquestes pàgines són les que has consultat en aquest dispositiu. Les pàgines s'agrupen segons la cerca i les més recents es mostren primer.
 
 Continua fent cerques i torna a descobrir els resultats aquí."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Les pàgines que es mostren aquí són les que has vist en aquest dispositiu. Segueix cercant i torna a descobrir aquí les que has trobat.</string>
     <string name="recently_onboarding_search_on_title">Cerca activada</string>
-    <string name="recently_onboarding_swipe_up_message">"Vols eliminar les pàgines cercades fa poc? Només cal que llisquis cap amunt.
+    <string name="recently_onboarding_swipe_up_message">"Vols deixar de veure les pàgines recents? Només cal que llisquis cap amunt.
 
-No se surpimiran del teu compte de Google."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+Aquesta acció no les suprimirà del Compte de Google."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Vols deixar de veure les pàgines recents? Només cal que llisquis cap amunt. Aquesta acció no les suprimirà del Compte de Google.</string>
     <string name="recently_onboarding_swipe_up_title">Llisca cap amunt</string>
     <string name="recently_overflow_title">Més opcions</string>
     <string name="recently_reading_reminder">Recordatori de lectura:</string>
@@ -3190,6 +3217,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Web</string>
     <string name="recents_result_separate_group_header">Cerques recents</string>
     <string name="recognizer_service_label">Reconeixment Google bàsic</string>
+    <string name="recommendation_header_text">Recomanacions personalitzades</string>
     <string name="reconnecting_loading_results">"S'estan carregant els resultats
 "</string>
     <string name="reconnecting_title">"S'està tornant a connectar…"</string>
@@ -3262,7 +3290,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Nom</string>
     <string name="report_other_reason">Altres</string>
     <string name="report_this">"Informa d'això"</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">"Per baixar episodis, ves als permisos de l'aplicació Google i permet que accedeixi a l'emmagatzematge"</string>
     <string name="request_storage_permission_dialog_message">"Per baixar episodis, Google necessita accedir a l'emmagatzematge del dispositiu"</string>
     <string name="request_storage_permission_dialog_title">"Permet l'accés a l'emmagatzematge"</string>
     <string name="reservation_group_header">Reserves</string>
@@ -3347,6 +3375,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">"S'ha desplaçat la pantalla"</string>
     <string name="screenshot_srp_desc">Cerca %s.</string>
     <string name="screenshot_srp_pending_desc">Hi ha una cerca pendent per a %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Cerca per veu pendent</string>
+    <string name="screenshot_srp_voice_pending_title">cerca per veu</string>
     <string name="screenshot_web_desc">Ves a %s.</string>
     <string name="screenshot_webpage_pending_desc">Baixada pendent</string>
     <string name="scroll_left">"Desplaça cap a l'esquerra"</string>
@@ -3404,7 +3434,7 @@ Prova de tornar a cercar el podcast."</string>
     <string name="search_sources_tablet">Cerca de la tauleta</string>
     <string name="search_storage_label">Emmagatzematge de Cerca de Google</string>
     <string name="search_tablet">Cerca a la tauleta</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Cerca al web</string>
     <string name="search_the_web_menu_text">Fes una cerca al web</string>
     <string name="search_the_web_suggestion">Cerca-ho al web</string>
     <string name="search_widget_customization">Personalitza el widget</string>
@@ -3632,7 +3662,9 @@ Aquest programa no està disponible en aquests moments."</string>
     <string name="sports_wins_header">G</string>
     <string name="sports_wins_header_full_length">Victòries</string>
     <string name="standalone_zs_back_content_desc">Enrere</string>
+    <string name="standalone_zs_brick_content_desc">Informació personal</string>
     <string name="standalone_zs_explore_content_desc">Obre Explora i Les teves coses</string>
+    <string name="standalone_zs_opa_icon_desc">Assistent</string>
     <string name="star_rating_bar_content_description">Puntuació en estrelles: %1$s</string>
     <string name="starting_location_selector">%1$s. Tria una ubicació de partida.</string>
     <string name="starts_at">"Hora d'inici:"</string>
@@ -3648,6 +3680,7 @@ Aquest programa no està disponible en aquests moments."</string>
     <string name="street_address_label">Adreça postal</string>
     <string name="subscribe_button_label">"Subscriu-m'hi"</string>
     <string name="subscribe_to_see_new_episodes">Subscriu-te als podcasts per veure episodis nous</string>
+    <string name="success">Fet</string>
     <string name="suggest">Compleció automàtica</string>
     <string name="suggest_contact_removal_body">Aquesta acció suprimirà &lt;b>%1$s&lt;/b> de la teva llista de contactes principals. Per tornar a trobar el contacte &lt;b>%2$s&lt;/b>, només caldrà que el cerquis.</string>
     <string name="suggest_contact_removal_cancel">CANCEL·LA</string>
@@ -4007,6 +4040,8 @@ Sessió iniciada com a %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Digues alguna cosa</string>
     <string name="user_defined_action_task_scene_control_title">Escenaris</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Tria quins dels teus escenaris vols incloure en aquesta rutina.</string>
+    <string name="user_defined_action_task_security_system_control_title">Activa el sistema de seguretat</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Quin mode vols establir?</string>
     <string name="user_defined_action_task_send_text_content_summary">"Si deixes el número del destinatari o el contingut del missatge en blanc, quan executis aquesta rutina se't demanarà que els introdueixis."</string>
     <string name="user_defined_action_task_send_text_content_title">Quin contingut ha de tenir el missatge de text?</string>
     <string name="user_defined_action_task_send_text_recipient_title">A quin número vols enviar un missatge de text?</string>

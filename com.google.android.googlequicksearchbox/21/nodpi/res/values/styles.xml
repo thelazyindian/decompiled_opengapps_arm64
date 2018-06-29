@@ -497,6 +497,12 @@
         <item name="android:textSize">@dimen/google_chip_suggestive_text_size</item>
         <item name="android:textColor">@color/google_chip_suggestive_text_color</item>
     </style>
+    <style name="Base.TextAppearance.GoogleMaterial.OpenSearch" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
+        <item name="android:textColor">@color/google_opensearchbar_text_color</item>
+        <item name="android:textColorHint">@color/google_opensearchbar_hint_text_color</item>
+        <item name="fontFamily">@font/google_sans</item>
+    </style>
     <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@android:style/TextAppearance.Medium">
         <item name="android:textColor">?android:textColorPrimaryDisableOnly</item>
     </style>
@@ -2420,6 +2426,17 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
     </style>
+    <style name="DetailedAgentPageV2SmallRoundedButton">
+        <item name="android:textSize">@dimen/v2_try_it_button_text_size</item>
+        <item name="android:textColor">@color/quantum_googblue500</item>
+        <item name="android:background">@drawable/try_it_button_background</item>
+        <item name="android:paddingLeft">@dimen/small_units_4</item>
+        <item name="android:paddingTop">@dimen/quarter_unit</item>
+        <item name="android:paddingRight">@dimen/small_units_4</item>
+        <item name="android:paddingBottom">@dimen/quarter_unit</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@string/headline_font_family</item>
+    </style>
     <style name="DetailsPagePrimaryAction">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@android:color/white</item>
@@ -2446,8 +2463,8 @@
         <item name="android:textAppearance">?textAppearanceSubhead2</item>
         <item name="android:textColor">@color/google_blue500</item>
         <item name="android:text">@string/donate_button_label</item>
-        <item name="android:drawableLeft">@drawable/quantum_ic_attach_money_googblue_18</item>
-        <item name="android:drawableStart">@drawable/quantum_ic_attach_money_googblue_18</item>
+        <item name="android:drawableLeft">@drawable/quantum_gm_ic_attach_money_googblue_18</item>
+        <item name="android:drawableStart">@drawable/quantum_gm_ic_attach_money_googblue_18</item>
     </style>
     <style name="DonateButtonBackwardOverride" parent="@style/DonateButton">
         <item name="android:textSize">12.0dip</item>
@@ -3261,6 +3278,15 @@
         <item name="iconDisplay">folder</item>
         <item name="customShadows">false</item>
     </style>
+    <style name="ImageSearchVisitLink" parent="@style/Quartz.Text.T12">
+        <item name="android:textColor">@color/quartz_image_search_visit_link_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:drawableLeft">@drawable/quantum_ic_public_vd_theme_24</item>
+        <item name="android:drawablePadding">@dimen/quartz_image_search_visit_link_drawable_padding</item>
+    </style>
     <style name="ImageTitleText">
         <item name="android:textSize">@dimen/line_one_text_size</item>
         <item name="android:textColor">@color/image_suggestion_title_text</item>
@@ -3730,11 +3756,10 @@
         <item name="android:paddingRight">@dimen/opa_error_margin</item>
     </style>
     <style name="OpaErrorLogo">
-        <item name="android:layout_width">@dimen/opa_error_small_logo_size</item>
+        <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/opa_error_small_logo_size</item>
         <item name="android:layout_marginTop">@dimen/opa_error_small_logo_margin_top</item>
         <item name="android:layout_marginBottom">@dimen/opa_error_small_logo_margin_bottom</item>
-        <item name="android:src">@drawable/opa_logo</item>
         <item name="android:contentDescription">@string/opa_logo_content_desc</item>
     </style>
     <style name="OpaFooter">
@@ -4075,12 +4100,7 @@
     </style>
     <style name="Platform.Widget.AppCompat.Spinner" parent="@android:style/Widget.Holo.Spinner" />
     <style name="PlaybackPanelCollapsedArrowDown">
-        <item name="android:src">@drawable/quantum_gm_ic_keyboard_arrow_down_black_24</item>
-        <item name="android:tint">@color/google_grey700</item>
-    </style>
-    <style name="PlaybackPanelCollapsedArrowDownBackwardOverride">
-        <item name="android:src">@drawable/quantum_ic_keyboard_arrow_down_grey600_24</item>
-        <item name="android:scaleType">centerInside</item>
+        <item name="android:src">@drawable/quantum_gm_ic_keyboard_arrow_down_grey600_24</item>
     </style>
     <style name="PlaybackPanelCollapsedContainer">
         <item name="android:background">@color/google_grey50</item>
@@ -4151,7 +4171,7 @@
     <style name="PlaybackPanelRewindBackwardOverride">
         <item name="android:background">@drawable/ripple_light</item>
         <item name="android:layout_marginRight">24.0dip</item>
-        <item name="android:src">@drawable/quantum_ic_replay_10_white_48</item>
+        <item name="android:src">@drawable/quantum_gm_ic_replay_10_white_48</item>
     </style>
     <style name="PlaybackPanelSeekbarCollapsed" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/collapsed_seekbar_background_gm2</item>
@@ -4186,7 +4206,7 @@
         <item name="android:padding">@dimen/icon_extra_padding</item>
         <item name="android:layout_width">@dimen/playback_panel_expanded_icon_size</item>
         <item name="android:layout_height">@dimen/playback_panel_expanded_icon_size</item>
-        <item name="android:src">@drawable/quantum_ic_list_grey600_24</item>
+        <item name="android:src">@drawable/quantum_gm_ic_list_grey600_24</item>
     </style>
     <style name="PlaybackPanelSpeedSelector">
         <item name="googleMaterialEnabled">true</item>
@@ -4563,24 +4583,30 @@
     </style>
     <style name="Quartz.HomeRecommended.List.Subtitle" parent="@style/Quartz.HomeRecommended.List.Text">
         <item name="android:textColor">@color/quartz_text_color_secondary</item>
-        <item name="android:gravity">top</item>
-        <item name="android:paddingTop">@dimen/quartz_12sdp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">0.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.0</item>
+    </style>
+    <style name="Quartz.HomeRecommended.List.Subtitle.Container" parent="">
+        <item name="android:orientation">vertical</item>
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">@dimen/quartz_8sdp</item>
     </style>
     <style name="Quartz.HomeRecommended.List.Text" parent="@style/Quartz.Text.T12">
         <item name="android:textColor">@color/quartz_text_color_primary</item>
         <item name="android:ellipsize">end</item>
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">wrap_content</item>
+        <item name="android:includeFontPadding">false</item>
         <item name="android:layout_marginStart">@dimen/quartz_24sdp</item>
     </style>
     <style name="Quartz.HomeRecommended.List.Title" parent="@style/Quartz.HomeRecommended.List.Text">
         <item name="android:layout_width">0.0dip</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:maxLines">2</item>
-        <item name="lineSpacing">@dimen/quartz_32sdp</item>
+        <item name="lineSpacing">@dimen/quartz_28sdp</item>
     </style>
     <style name="Quartz.HomeRecommended.Subtitle" parent="@style/Quartz.Text.T10">
         <item name="android:textColor">@color/quartz_text_color_secondary_dark</item>
@@ -4643,17 +4669,6 @@
         <item name="android:fontFamily">@font/google_sans_medium</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
-    <style name="Quartz.Slideshow.Chip" parent="@style/Widget.MaterialComponents.Chip.Action">
-        <item name="android:textAppearance">@style/Quartz.Slideshow.Chip.Text</item>
-        <item name="android:paddingLeft">@dimen/quartz_32sdp</item>
-        <item name="android:paddingTop">@dimen/quartz_16sdp</item>
-        <item name="android:paddingRight">@dimen/quartz_32sdp</item>
-        <item name="android:paddingBottom">@dimen/quartz_16sdp</item>
-        <item name="android:singleLine">true</item>
-        <item name="chipCornerRadius">@dimen/quartz_40sdp</item>
-        <item name="chipStrokeWidth">@dimen/quartz_2sdp</item>
-    </style>
-    <style name="Quartz.Slideshow.Chip.Text" parent="@style/Quartz.Text.T8" />
     <style name="Quartz.Suggestions.Suggestion.Photos" parent="@style/Widget.MaterialComponents.Chip.Action">
         <item name="android:textAppearance">@style/Quartz.Suggestions.Suggestion.Photos.Text</item>
         <item name="android:paddingTop">@dimen/quartz_16sdp</item>
@@ -4708,26 +4723,6 @@
     </style>
     <style name="Quartz.Text.Ambient.Secondary" parent="@style/Quartz.Text.Ambient">
         <item name="android:textSize">@dimen/quartz_48sdp</item>
-    </style>
-    <style name="Quartz.Text.AmbientScreen.BuildInfo" parent="@style/Quartz.Text.T16">
-        <item name="android:textColor">@color/quartz_white_80p</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:padding">10.0dip</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:shadowColor">@color/quartz_build_info_text_shadow_color</item>
-        <item name="android:shadowDx">0.0</item>
-        <item name="android:shadowDy">2.0</item>
-        <item name="android:shadowRadius">2.0</item>
-    </style>
-    <style name="Quartz.Text.AmbientScreen.UpdateStatus" parent="@style/Quartz.Text.T12">
-        <item name="android:textColor">@color/quartz_red_500</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:padding">10.0dip</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:shadowColor">@color/quartz_build_info_text_shadow_color</item>
-        <item name="android:shadowDx">0.0</item>
-        <item name="android:shadowDy">2.0</item>
-        <item name="android:shadowRadius">2.0</item>
     </style>
     <style name="Quartz.Text.D1" parent="@style/Quartz.Text">
         <item name="android:textSize">@dimen/quartz_text_display_size_1</item>
@@ -5202,7 +5197,7 @@
     <style name="StandaloneZeroState.Theme.Base" parent="@style/Theme.Velvet">
         <item name="android:backgroundDimAmount">0.58</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsTranslucent">false</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
@@ -5913,6 +5908,8 @@
     <style name="TextAppearance.GoogleMaterial.MaterialButton.Secondary" parent="@style/TextAppearance.GoogleMaterial.MaterialButton">
         <item name="android:textColor">@color/google_btn_text_color_selector_secondary</item>
     </style>
+    <style name="TextAppearance.GoogleMaterial.OpenSearchBar" parent="@style/Base.TextAppearance.GoogleMaterial.OpenSearch" />
+    <style name="TextAppearance.GoogleMaterial.OpenSearchView" parent="@style/Base.TextAppearance.GoogleMaterial.OpenSearch" />
     <style name="TextAppearance.GoogleMaterial.OpenSearchView.Prefix" parent="@style/TextAppearance.AppCompat.Small">
         <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
         <item name="fontFamily">@font/google_sans</item>
@@ -6276,7 +6273,6 @@
         <item name="stylePlaybackPanelTitle">@style/PlaybackPanelTitle</item>
         <item name="stylePlaybackPanelSubtitle">@style/PlaybackPanelSubtitle</item>
         <item name="stylePlaybackPanelCollapsedPause">@style/PlaybackPanelCollapsedPause</item>
-        <item name="stylePlaybackPanelCollapsedArrowDown">@style/PlaybackPanelCollapsedArrowDown</item>
         <item name="stylePlaybackPanelExpandedContainer">@style/PlaybackPanelExpandedContainer</item>
         <item name="stylePlaybackPanelSeekbarExpanded">@style/PlaybackPanelSeekbarExpanded</item>
         <item name="stylePlaybackPanelSeekbarCollapsed">@style/PlaybackPanelSeekbarCollapsed</item>
@@ -6303,7 +6299,6 @@
         <item name="stylePlaybackPanelTitle">@style/PlaybackPanelTitleBackwardOverride</item>
         <item name="stylePlaybackPanelSubtitle">@style/PlaybackPanelSubtitleBackwardOverride</item>
         <item name="stylePlaybackPanelCollapsedPause">@style/PlaybackPanelCollapsedPauseBackwardOverride</item>
-        <item name="stylePlaybackPanelCollapsedArrowDown">@style/PlaybackPanelCollapsedArrowDownBackwardOverride</item>
         <item name="stylePlaybackPanelExpandedContainer">@style/PlaybackPanelExpandedContainerBackwardOverride</item>
         <item name="stylePlaybackPanelSeekbarExpanded">@style/PlaybackPanelSeekbarExpandedBackwardOverride</item>
         <item name="stylePlaybackPanelSeekbarCollapsed">@style/PlaybackPanelSeekbarCollapsedBackwardOverride</item>
@@ -7105,6 +7100,9 @@
     <style name="Widget.GoogleLib.Progress.Linear.QueryIndeterminateDeterminate" parent="@style/Widget.GoogleLib.Progress.Linear">
         <item name="mtrlIndeterminateProgressStyle">linearReverse</item>
     </style>
+    <style name="Widget.GoogleMaterial.AnimatableLogoView" parent="@android:style/Widget">
+        <item name="minIntervalSeconds">600</item>
+    </style>
     <style name="Widget.GoogleMaterial.AnimatableProductLockupView" parent="@style/Widget.GoogleMaterial.ProductLockupView">
         <item name="minIntervalSeconds">600</item>
     </style>
@@ -7233,9 +7231,7 @@
     </style>
     <style name="Widget.GoogleMaterial.NavigationView" parent="@style/Widget.MaterialComponents.NavigationView" />
     <style name="Widget.GoogleMaterial.OpenSearchBar" parent="@android:style/Widget">
-        <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
-        <item name="android:textColor">@color/google_opensearchbar_text_color</item>
-        <item name="android:textColorHint">@color/google_opensearchbar_hint_text_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.OpenSearchBar</item>
         <item name="android:background">@drawable/open_search_bar_background</item>
         <item name="android:minHeight">@dimen/google_opensearchbar_height</item>
         <item name="android:elevation">@dimen/google_opensearchbar_elevation</item>
@@ -7243,9 +7239,7 @@
         <item name="hideNavigationIcon">false</item>
     </style>
     <style name="Widget.GoogleMaterial.OpenSearchView" parent="@android:style/Widget">
-        <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
-        <item name="android:textColor">@color/google_opensearchbar_text_color</item>
-        <item name="android:textColorHint">@color/google_opensearchbar_hint_text_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.OpenSearchView</item>
         <item name="android:elevation">@dimen/google_opensearchbar_elevation</item>
     </style>
     <style name="Widget.GoogleMaterial.OpenSearchView.Prefix" parent="@android:style/Widget.TextView">
@@ -7323,7 +7317,6 @@
         <item name="subtitleTextAppearance">@style/TextAppearance.GoogleMaterial.Toolbar.Subtitle</item>
     </style>
     <style name="Widget.MaterialComponents.BottomAppBar" parent="@style/Widget.AppCompat.Toolbar">
-        <item name="fabAttached">true</item>
         <item name="fabCradleMargin">@dimen/mtrl_bottomappbar_fab_cradle_margin</item>
         <item name="fabCradleRoundedCornerRadius">@dimen/mtrl_bottomappbar_fab_cradle_rounded_corner_radius</item>
         <item name="fabCradleVerticalOffset">@dimen/mtrl_bottomappbar_fab_cradle_vertical_offset</item>
@@ -7646,8 +7639,8 @@
         <item name="android:textAllCaps">true</item>
     </style>
     <style name="action_card_filled_valyrian_immersive_actions" parent="@style/action_card_h2_immersive_actions">
-        <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">@color/valyrian_immersive_actions_text_dynamic_medium_grey</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/valyrian_immersive_actions_text_dynamic_bold_grey</item>
         <item name="android:fontFamily">google_sans_medium</item>
     </style>
     <style name="action_card_focused_valyrian_immersive_actions" parent="@style/action_card_h2_immersive_actions">
@@ -7769,8 +7762,8 @@
         <item name="android:fontFamily">roboto-regular</item>
     </style>
     <style name="action_card_t4_valyrian_immersive_actions" parent="@style/immersive_action_card_text">
-        <item name="android:textSize">28.0sp</item>
-        <item name="android:textColor">@color/immersive_actions_text_dynamic_medium_grey</item>
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/google_grey_600</item>
         <item name="android:fontFamily">google_sans_medium</item>
     </style>
     <style name="action_card_text">
@@ -7798,7 +7791,7 @@
         <item name="android:fontFamily">google_sans_medium</item>
     </style>
     <style name="action_card_unfilled_valyrian_immersive_actions" parent="@style/action_card_h2_immersive_actions">
-        <item name="android:textSize">18.0sp</item>
+        <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/valyrian_immersive_actions_text_dynamic_medium_grey</item>
         <item name="android:fontFamily">google_sans_medium</item>
     </style>
@@ -8038,7 +8031,7 @@
     <style name="eames_container_title">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/eames_black</item>
+        <item name="android:textColor">@color/google_grey900</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
@@ -8049,7 +8042,7 @@
     </style>
     <style name="eames_title">
         <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/eames_black</item>
+        <item name="android:textColor">@color/google_grey900</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
     <style name="episode_description" parent="@style/PodcastDescription" />
@@ -8202,7 +8195,7 @@
         <item name="android:paddingEnd">@dimen/qp_gutter_icon_end_margin</item>
     </style>
     <style name="highlighted_button" parent="@style/quantum_text_button_black">
-        <item name="android:textColor">@color/primary_highlight</item>
+        <item name="android:textColor">@color/google_blue500</item>
         <item name="android:textAlignment">center</item>
     </style>
     <style name="home_automation_card_image_button_style">
@@ -8257,7 +8250,7 @@
     <style name="homebase_section_title">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/eames_black</item>
+        <item name="android:textColor">@color/google_grey900</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
@@ -8781,11 +8774,6 @@
     <style name="qp_card_question_icon" parent="@style/qp_card_question_icon_base" />
     <style name="qp_card_question_icon_base">
         <item name="android:paddingLeft">@dimen/qp_card_question_icon_padding_start</item>
-    </style>
-    <style name="qp_drawer_status_text">
-        <item name="android:textSize">@dimen/qp_h5_text_size</item>
-        <item name="android:textColor">@color/qp_drawer_status_text</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="qp_drawer_text">
         <item name="android:textSize">@dimen/qp_h5_text_size</item>
@@ -9654,7 +9642,7 @@
     </style>
     <style name="update_tip_description_style">
         <item name="android:textSize">@dimen/qp_h6_text_size</item>
-        <item name="android:textColor">@color/qp_drawer_status_text</item>
+        <item name="android:textColor">@color/update_tip_description</item>
         <item name="android:lineSpacingExtra">@dimen/update_tip_description_line_spacing</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>

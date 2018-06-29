@@ -209,6 +209,13 @@
         <flag name="all" value="0x00000002" />
         <flag name="one" value="0x00000001" />
     </attr>
+    <attr name="resize_mode">
+        <enum name="fill" value="3" />
+        <enum name="fit" value="0" />
+        <enum name="fixed_height" value="2" />
+        <enum name="fixed_width" value="1" />
+        <enum name="zoom" value="4" />
+    </attr>
     <attr name="rewind_increment" format="integer" />
     <attr name="rippleColor" format="color" />
     <attr name="scmContentPaddingTop" format="dimension" />
@@ -356,6 +363,9 @@
     <attr name="showTitle" format="boolean" />
     <attr name="buttonIconDimen" format="dimension" />
     <attr name="minIntervalSeconds" format="integer" />
+    <attr name="logoSpriteDrawable" format="reference" />
+    <attr name="frameCount" format="integer" />
+    <attr name="durationMillis" format="integer" />
     <attr name="expanded" format="boolean" />
     <attr name="liftOnScroll" format="boolean" />
     <attr name="state_collapsed" format="boolean" />
@@ -562,7 +572,6 @@
         <enum name="end" value="1" />
         <enum name="center" value="0" />
     </attr>
-    <attr name="fabAttached" format="boolean" />
     <attr name="fabCradleMargin" format="dimension" />
     <attr name="fabCradleRoundedCornerRadius" format="dimension" />
     <attr name="fabCradleVerticalOffset" format="dimension" />
@@ -725,6 +734,7 @@
     <attr name="layout_keyline" format="integer" />
     <attr name="layout_anchorGravity">
         <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="fill_horizontal" value="0x00000007" />
         <flag name="left" value="0x00000003" />
@@ -737,7 +747,6 @@
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="clip_horizontal" value="0x00000008" />
         <flag name="clip_vertical" value="0x00000080" />
-        <flag name="fill" value="0x00000077" />
     </attr>
     <attr name="layout_insetEdge">
         <enum name="none" value="0" />
@@ -1074,6 +1083,7 @@
     <attr name="layout_columnWeight" format="float" />
     <attr name="layout_gravity">
         <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
         <flag name="center_horizontal" value="0x00000001" />
         <flag name="fill_horizontal" value="0x00000007" />
         <flag name="left" value="0x00000003" />
@@ -1086,10 +1096,10 @@
         <flag name="fill_vertical" value="0x00000070" />
         <flag name="clip_horizontal" value="0x00000008" />
         <flag name="clip_vertical" value="0x00000080" />
-        <flag name="fill" value="0x00000077" />
     </attr>
     <attr name="headerTitle" format="reference" />
     <attr name="headerMessage" format="reference" />
+    <attr name="headerIcon" format="reference" />
     <attr name="inputEnabled" format="boolean" />
     <attr name="sourceClass">
         <enum name="contact" value="1" />
@@ -1253,6 +1263,7 @@
     <attr name="hideNavigationIcon" format="boolean" />
     <attr name="searchPrefixText" format="string" />
     <attr name="useDrawerArrowDrawable" format="boolean" />
+    <attr name="fadeThroughMenuItems" format="boolean" />
     <attr name="autoShowKeyboard" format="boolean" />
     <attr name="selectionDarkBackground" format="reference|color" />
     <attr name="selectionDarkForeground" format="reference|color" />
@@ -1566,8 +1577,8 @@
         <enum name="scrollable" value="0" />
     </attr>
     <attr name="tabGravity">
-        <enum name="center" value="1" />
         <enum name="fill" value="0" />
+        <enum name="center" value="1" />
     </attr>
     <attr name="tabInlineLabel" format="boolean" />
     <attr name="tabMinWidth" format="dimension" />

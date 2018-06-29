@@ -78,6 +78,16 @@
         <item name="android:navigationBarColor">@android:color/black</item>
         <item name="android:windowLightStatusBar">false</item>
     </style>
+    <style name="ImageSearchVisitLink" parent="@style/Quartz.Text.T12">
+        <item name="android:textColor">@color/quartz_image_search_visit_link_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:drawableLeft">@drawable/quantum_ic_public_vd_theme_24</item>
+        <item name="android:drawablePadding">@dimen/quartz_image_search_visit_link_drawable_padding</item>
+        <item name="android:drawableTint">@color/quartz_image_search_visit_link_color</item>
+    </style>
     <style name="MetadataBadge" parent="@style/Quartz.Text.T14">
         <item name="android:background">@drawable/quartz_image_search_card_label</item>
         <item name="android:paddingTop">@dimen/quartz_image_search_label_padding_top</item>
@@ -115,7 +125,7 @@
     <style name="StandaloneZeroState.Theme.Base" parent="@style/Theme.Velvet">
         <item name="android:backgroundDimAmount">0.58</item>
         <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowIsTranslucent">false</item>
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowAnimationStyle">@null</item>
         <item name="android:backgroundDimEnabled">true</item>

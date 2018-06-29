@@ -248,6 +248,10 @@
     <string name="agent_bookmark_error">קרתה שגיאה. צריך לנסות שוב מאוחר יותר.</string>
     <string name="agent_bookmark_removed">הוסר מהסימניות</string>
     <string name="agent_description_more">עוד</string>
+    <string name="agent_details_add_routine_description">אפשר להשיג יותר עם רצפי הפעולות בעזרת עדכונים מ-%1$s.</string>
+    <string name="agent_details_add_routine_item">הוספה</string>
+    <string name="agent_details_customize_routine">התאמה אישית של רצף פעולות</string>
+    <string name="agent_details_manage_routines">ניהול של רצפי פעולות</string>
     <string name="agent_details_splash_image_a11y">‏תמונה של אפליקציית Assistant</string>
     <string name="agent_directory_a11y_back_button">הקודם</string>
     <string name="agent_directory_a11y_more_groups">עוד</string>
@@ -635,13 +639,15 @@
     <string name="assistant_settings_music_provider_category_title">‏ה-Assistant ישתמש בספק המוזיקה הזה כברירת מחדל כשיתבקש להשמיע מוזיקה. אתה עדיין יכול להשמיע מוזיקה באמצעות כל הספקים המקושרים האחרים שצוינו.</string>
     <string name="assistant_settings_music_title">מוזיקה</string>
     <string name="assistant_settings_music_unable_unlink_default">לא ניתן לבטל את הקישור לספק המוזיקה המוגדר כברירת מחדל</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">‏נדרש מינוי ל-YouTube Red כדי לנגן מוזיקה מ-YouTube מוזיקה ב-Google Home. ניתן להירשם בכתובת <a href="http://youtube.com/red">youtube.com/red‏</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">‏נדרש מינוי ל-YouTube Red</string>
+    <string name="assistant_settings_music_unlink_dialog_text">‏ביטול הקישור של החשבון תכבה את הגישה לאפשרות ההפעלה מ-%1$s באמצעות Google Assistant.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">‏נדרש מינוי ל-YouTube Premium כדי לנגן מוזיקה מ-YouTube מוזיקה ב-Google Home. ניתן להירשם בכתובת <a href="http://youtube.com/red">youtube.com/red‏</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">‏נדרש מינוי ל-YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">הסר את %1$s מהמקורות החדשותיים המופעלים</string>
     <string name="assistant_settings_news_supports_video">סרטון זמין בתצוגות חכמות</string>
     <string name="assistant_settings_news_title">חדשות</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">‏הכינוי שלך מכיל תו שה-Assistant אינו יכול לבטא. איית את הצליל שלו בקטע הבא.</string>
     <string name="assistant_settings_no_device_linked">‏Voice Match מאפשר ל-Assistant למסור לך מידע אישי כשהוא מזהה את קולך. עד 6 אנשים יכולים לגשת ליומן שלהם, למוזיקה שלהם ועוד.</string>
+    <string name="assistant_settings_no_language_summary">ללא</string>
     <string name="assistant_settings_no_language_title">הוספת שפה</string>
     <string name="assistant_settings_no_shopping_list">אין לך רשימת קניות.</string>
     <string name="assistant_settings_notes_lists_title">הערות ורשימות</string>
@@ -809,6 +815,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">"‏מצב 'שיחה מתמשכת' זמין בשלב זה באנגלית (ארה\"ב). אם נעשה שימוש במכשירי Google Home שלא מופיעים פה, האדם שהוא בעל החשבון העיקרי במכשירים אלה יכול להפעיל את מצב 'שיחה מתמשכת' או לכבות אותו בהגדרות ה-Assistant."</string>
     <string name="assistant_settings_summer_time_mode_availability_description">‏ניתן לשנות את ההגדרה הזו למכשירי Google Home הבאים</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">אין מכשירים זמינים</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">"‏המיקרופון במכשיר ייפתח מחדש לאחר כל תגובה כדי להאזין לשאלות המשך. השאלות יופיעו כרגיל בקטע 'הפעילות שלי'. קטעי אודיו שה-Assistant לא יגיב עליהם יימחקו מחשבון Google שלך."</string>
     <string name="assistant_settings_summer_time_mode_button_title">שיחה מתמשכת</string>
     <string name="assistant_settings_summer_time_mode_title">שיחה מתמשכת</string>
     <string name="assistant_settings_turn_off_voice_match">‏אם מכבים את Voice Match, הקישור בין החשבון למכשיר מתבטל. חשבון אחד לפחות צריך להיות מקושר כדי שניתן יהיה להשתמש במכשיר התומך ב-Google Assistant. להמשיך? </string>
@@ -837,10 +844,8 @@
     <string name="assistant_settings_update_error_message">אין אפשרות לעדכן את ההגדרה. בדוק את החיבור.</string>
     <string name="assistant_settings_video_calls_service_category_title">‏ה-Assistant יכול לבצע שיחות וידאו באמצעות השירות המועדף עליך ממכשירים מסוימים, כמו Google Smart Display‏. לא ניתן להתקשר לשירותי חירום.</string>
     <string name="assistant_settings_video_icon_text">סמל ספק הסרטון</string>
-    <string name="assistant_settings_video_link_dialog_text">‏קשר את חשבון Google שלך אל %1$s כדי לאפשר שליטה קולית והפעלה במכשירים תואמים. כשתשלוט בשירות של %1$s מ-Google Home וכשתבקש מידע מ-%1$s, ייתכן ששאילתות אלה יישלחו אל %1$s וייעשה בהן שימוש בכפוף למדיניות הפרטיות של ספק זה.</string>
     <string name="assistant_settings_video_provider_category_summary">‏כדי להפעיל תוכניות וסרטים, אפשר פשוט לבקש מה-Assistant לעשות זאת.</string>
     <string name="assistant_settings_video_provider_category_title">סרטונים</string>
-    <string name="assistant_settings_video_unlink_dialog_text">ביטול הקישור של החשבון יכבה את השליטה הקולית.</string>
     <string name="assistant_settings_videos_photos_title">סרטונים ותמונות</string>
     <string name="assistant_settings_videosphotos_cast_destination">‏Chromecast או טלוויזיה בעלת Chromecast מובנה</string>
     <string name="assistant_settings_voice_and_video_calls_title">שיחות קוליות ושיחות וידאו</string>
@@ -1025,7 +1030,7 @@
     <string name="cloud_search_history_summary_fetching">מאחזר הגדרות…</string>
     <string name="collapse">כיווץ</string>
     <string name="collapse_time_to_leave">הסתר אפשרויות עבור נסיעה זו.</string>
-    <string name="collections">אוספים</string>
+    <string name="collections">פריטים שנשמרו</string>
     <string name="comment_hint">הערות נוספות (אופציונלי)</string>
     <string name="common_address_clear_button_label">הסר</string>
     <string name="common_address_clear_confirm_button">מחק</string>
@@ -1101,7 +1106,7 @@
     <string name="consent_my_activity">הפעילות שלי</string>
     <string name="consent_partners_disclosures_body_collapsed">‏לשותפים של Google יש קשרים עסקיים עם Google, ולפעמים הם משלמים לנו כדי שנציג או נקדם אותם.</string>
     <string name="consent_partners_disclosures_body_expanded">‏לשותפים של Google יש קשרים עסקיים עם Google, ולפעמים הם משלמים לנו כדי שנציג או נקדם אותם. העסקים האלה עוזרים לך במשימות שונות, כמו קניית מגבות נייר או תיקון הכיור. %1$s</string>
-    <string name="consent_partners_disclosures_title">‏המשתתפים בתוכנית Google Partners</string>
+    <string name="consent_partners_disclosures_title">‏שותפים של Google</string>
     <string name="consent_services_disclosures_body_collapsed">‏כדי להגן על פרטיות המשתמשים, Google שולחת קוד ייחודי לכל שירות שפונים אליו.</string>
     <string name="consent_services_disclosures_body_expanded">"‏כדי להגן על פרטיות המשתמשים, Google שולחת קוד ייחודי לכל שירות שפונים אליו. כך השירותים יכולים לזכור את ההעדפות שלך ופרטים אחרים במהלך השיחה.
 
@@ -1259,6 +1264,10 @@
     <string name="device_setup_error_cancel_button">דרושה לך עזרה?</string>
     <string name="device_setup_error_content">משהו השתבש</string>
     <string name="device_setup_error_title">ייתכן שיש בעיה</string>
+    <string name="devices_scan_action_button">המשך</string>
+    <string name="devices_scan_cancel_button">ביטול</string>
+    <string name="devices_scan_explanation">בחירת מכשירים</string>
+    <string name="devices_scan_title">הוספת מכשירים</string>
     <string name="directory_for_mall">מדריך עבור %1$s</string>
     <string name="disclaimer">כתב ויתור</string>
     <string name="dismiss_text">יש לגרור מטה כדי לסגור</string>
@@ -1354,7 +1363,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">הפרקים הזמינים</string>
     <string name="episode_page_section_title">פרק</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">בשבילך</string>
     <string name="error">שגיאה</string>
     <string name="error_adding_location_snackbar_text">שגיאה בהוספת המיקום</string>
@@ -1421,7 +1429,6 @@
     <string name="eyes_donate_data_optin_ok">אישור</string>
     <string name="eyes_donate_data_optin_title">‏תרומת תמונות של Lens</string>
     <string name="eyes_flash_button_description">החלפת מצב פלאש</string>
-    <string name="eyes_initial_suggestion_0">מה אפשר לזהות?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">אין לי הרשאה לכך</string>
     <string name="eyes_no_permission_camera">אין לי הרשאה להשתמש במצלמה</string>
@@ -1449,7 +1456,6 @@
     <string name="eyes_onboarding_title_text">בדיקת טקסט</string>
     <string name="eyes_request_timed_out_message">‏לצערנו לא ניתן לתקשר עם Google כרגע.</string>
     <string name="eyes_share_with">שיתוף עם</string>
-    <string name="eyes_unfreeze_image_description">בחזרה למצלמה</string>
     <string name="eyes_viewfinder_description">‏הפעלת Google Lens</string>
     <string name="failed">לא ניתן היה לטעון את התמונה</string>
     <string name="failed_to_open_webview">פתיחת הדף נכשלה</string>
@@ -1575,11 +1581,11 @@
     <string name="folder_tap_to_close">גע כדי לסגור את התיקיה</string>
     <string name="folder_tap_to_rename">גע כדי לשמור את שינוי השם</string>
     <string name="follow_soccer_promo_query">כדורגל 2018</string>
-    <string name="follow_world_cup_promo">קבלת תוצאות משחקים במונדיאל</string>
-    <string name="follow_world_cup_promo_content_description">קבלת תוצאות משחקים במונדיאל</string>
-    <string name="follow_world_cup_promo_detail">הקשה כאן תרשום אותך לקבלת תזכורות לגבי משחקים, חדשות ותוצאות בזמן אמת בשביל הנבחרות המועדפות עליך</string>
-    <string name="follow_world_cup_promo_long_soccer_title">נעדכן אותך לגבי תוצאות בכדורגל</string>
-    <string name="follow_world_cup_promo_query">גביע העולם 2018</string>
+    <string name="follow_world_cup_promo">תוצאות משחקים במונדיאל</string>
+    <string name="follow_world_cup_promo_content_description">תוצאות משחקים במונדיאל</string>
+    <string name="follow_world_cup_promo_detail">הקשה כאן תרשום אותך לקבלת תזכורות לגבי משחקים של הנבחרות האהובות עליך, חדשות ותוצאות בזמן אמת</string>
+    <string name="follow_world_cup_promo_long_soccer_title">נעדכן אותך לגבי משחקי כדורגל</string>
+    <string name="follow_world_cup_promo_query">מונדיאל 2018</string>
     <string name="follow_world_cup_promo_short_soccer_title">שיגעון הכדורגל הגיע!</string>
     <string name="forbid_download_removal">לא ניתן להסיר את הפרק בזמן ההפעלה</string>
     <string name="fourth_quarter">רבע שני</string>
@@ -1786,9 +1792,9 @@
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">חזור</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">אני בטוח</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">בטוח?</string>
-    <string name="hotword_enrollment_google_home_share_message">"‏היי, כרגע לימדתי את ה-Assistant שלי לזהות את הקול שלי באפליקציית Google Home כדי שאוכל לקבל תוצאות מותאמות אישית.
+    <string name="hotword_enrollment_google_home_share_message">"‏היי, כרגע לימדתי את ה-Assistant שלי לזהות את הקול שלי באמצעות אפליקציית Google Home, כדי שאוכל לקבל תוצאות מותאמות אישית.
 
-רוצה תשובות שהותאמו במיוחד בשבילך? הצעד הראשון הוא להתקין את אפליקציית ‏Google Home‏: https://google.com/home/setup"</string>
+רוצה תשובות שהותאמו במיוחד בשבילך? הצעד הראשון הוא להתקין את אפליקציית ‏Google Home:‏ https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">‏רוצה ללמד את ה-Assistant לזהות את הקול שלך?</string>
     <string name="hotword_enrollment_google_home_share_screen_done">הזמן</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">‏ניתן להציג או למחוק את הפעילות הקולית ב-%1$s. ניתן גם להשבית את Voice Match בהגדרות של ה-Assistant.</string>
@@ -1920,7 +1926,7 @@
     <string name="hourly_forecast">תחזית שעתית</string>
     <string name="hours">שעות</string>
     <string name="how_can_i_help">איך אפשר לעזור?</string>
-    <string name="hq_a11y_bottom_bar_button">‏פתח את המיקרופון כדי לדבר עם ה-Assistant</string>
+    <string name="hq_a11y_bottom_bar_button">Assistant</string>
     <string name="hq_a11y_chatui_badge">"פתיחת הכרטיסיות 'מידע נוסף' ו'הדברים שלך'"</string>
     <string name="hq_a11y_menu_button">תפריט</string>
     <string name="hq_account_switch_prompt">נכנס כ-%1$s</string>
@@ -2092,7 +2098,7 @@
     <string name="item_is_selected">%1$s נבחר</string>
     <string name="item_moved">הפריט הועבר</string>
     <string name="item_removed">הפריט הוסר</string>
-    <string name="jasper_duo_knock_knock_summary">‏אפשר לראות את הסרטון של המתקשר לפני שעונים ולאפשר לאנשים שמתקשרים אליהם לראות את הסרטון שלך כשהטלפון שלהם מצלצל. &lt;a href=\"https://support.google.com/duo/answer/6376115\">מידע נוסף&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">אפשר לראות את הסרטון של המתקשר לפני שעונים ולאפשר לאנשים שמתקשרים אליהם לראות את הסרטון שלך כשהטלפון שלהם מצלצל. %1$s</string>
     <string name="jasper_duo_knock_knock_title">מי זה דופק בדלת?</string>
     <string name="jasper_duo_not_signed_in">לא מחובר</string>
     <string name="jasper_duo_signed_in">מחובר</string>
@@ -2188,10 +2194,10 @@
     <string name="location_service_required_title">קבל כרטיסים המבוססים על מיקום</string>
     <string name="lockscreen_mic_promo_notification_content">בטל את נעילת הטלפון שלך על ידי אמירת \"%1$s\".</string>
     <string name="lockscreen_mic_promo_notification_title">ביטול נעילה באמצעות קולך</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">"הקש פעמיים וגע נגיעה רציפה בווידג'ט כדי לבחור בו, או השתמש בפעולות מותאמות אישית."</string>
     <string name="long_press_widget_to_add">"אפשר לבחור את הווידג'ט אם נוגעים בו נגיעה רציפה."</string>
     <string name="longpress_menu_download">הורד את התמונה</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">שתף את התמונה</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">נוקס</string>
@@ -2241,13 +2247,11 @@
     <string name="menu_overlay_feedback">שליחת משוב</string>
     <string name="menu_overlay_reset_to_default_style">איפוס לסגנון בברירת המחדל</string>
     <string name="menu_refresh">רענן</string>
-    <string name="menu_search_by_image">חיפוש לפי תמונה</string>
     <string name="menu_send_button_content_description">לחצן שליחה לשליחת משוב.</string>
     <string name="menu_send_feedback">שליחת משוב</string>
     <string name="menu_settings">הגדרות</string>
     <string name="menu_share">שתף</string>
     <string name="menu_view_in_browser">הצג בדפדפן</string>
-    <string name="menu_view_original_image">הצג תמונה מקורית</string>
     <string name="menu_visit_page">היכנס לדף</string>
     <string name="message_card_feedback">משוב</string>
     <string name="message_image">תמונה</string>
@@ -2292,7 +2296,6 @@
     <string name="minus_one_header_settings">הגדרות</string>
     <string name="minute_picker_description">חוגת דקות</string>
     <string name="minutes">דקות</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">שונות</string>
     <string name="mismatching_value_eir_code">חייב להתאים לכתובת</string>
     <string name="mismatching_value_pin_code">חייב להתאים לכתובת</string>
@@ -2373,7 +2376,6 @@
     <string name="network_error_fetching_weather_data_status_text">הרשת אינה זמינה כעת</string>
     <string name="network_error_no_connection_tts">אין כרגע חיבור אינטרנט.</string>
     <string name="network_error_resend_audio">שלח אודיו מחדש</string>
-    <string name="network_error_try_again">נסה שוב</string>
     <string name="network_location_required_text">‏כדי לראות כרטיסים המבוססים על מיקום, כמו מזג-אוויר מקומי ותנועה במסלול הנסיעה לעבודה, הפעל את המיקום באמצעות Wi-Fi ורשת סלולרית</string>
     <string name="network_location_required_text_klp">כדי לראות כרטיסים המבוססים על מיקום, כמו מזג-אוויר מקומי ותנועה במסלול הנסיעה לעבודה, בחר רמת דיוק גבוהה או מצב חיסכון בסוללה</string>
     <string name="never">אף פעם</string>
@@ -2465,7 +2467,7 @@
     <string name="none">ללא</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">שירותי רשימות והערות</string>
-    <string name="notes_lists_none_preference_summary">מידע משני</string>
+    <string name="notes_lists_none_preference_summary">‏ה-Assistant לא יסנכרן את הנתונים שלך עם אף שירות.</string>
     <string name="notes_lists_none_preference_title">ללא</string>
     <string name="notes_lists_provider_changed_description">"‏נתוני ההערות והרשימות של Assistant לא יעודכנו עוד עם %1$s. הנתונים הקיימים אצל %1$s לא יימחקו.
 
@@ -2473,6 +2475,7 @@
     <string name="notes_lists_provider_changed_negative_button">ביטול</string>
     <string name="notes_lists_provider_changed_positive_button">מסכים/ה</string>
     <string name="notes_lists_provider_changed_title">התנתקות מ-%1$s</string>
+    <string name="notes_lists_title">‏ה-Assistant ישמור את ההערות והרשימות שלך מסונכרנות לשירותים האלה.</string>
     <string name="notification_access_link_text">כבה את הגישה להתראות</string>
     <string name="notification_accessable_apps_category_title">גישה להתראות</string>
     <string name="notification_cancel_text">‏Google לא תנסה לבצע שוב את החיפוש כשהחיבור לאינטרנט יתחדש.</string>
@@ -2592,6 +2595,7 @@
     <string name="opa_assist_app_screen_explanation">"‏כדי לגשת ל-Google Assistant, בחר באפליקציית חיפוש Google בהגדרות 'קלט Assistant וקלט קולי'"</string>
     <string name="opa_assist_app_screen_title">‏אפליקציית חיפוש Google היא לא אפליקציית Assistant המוגדרת כברירת מחדל</string>
     <string name="opa_assistant_logo_content_description">חיפוש קולי</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">‏הצגת עדכונים ל-Google Assistant</string>
     <string name="opa_consent_check_error_button">סגירה</string>
     <string name="opa_consent_check_error_button_notavailable">החלפת חשבונות</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">‏בהתאם להגדרות החשבון שלך, חוויית השימוש ב-Assistant עשויה להיות מוגבלת בגישה לפריטים כמו תוצאות חיפוש באינטרנט, בדיחות ומידע מקומי.</string>
@@ -2668,7 +2672,6 @@
     <string name="opa_eyes_free_opt_in_speech">‏כשיהיה בטוח לעשות זאת, תצטרך להקיש על ההודעה תחילה. לאחר מכן תוכל לאפשר לאוזניות לפעול עם Google Assistant.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">הקש כדי להמשיך</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">‏הענקת הרשאה ל-Google Assistant כדי שתעזור לך</string>
-    <string name="opa_eyes_warm_welcome_chip_text">להמשיך?</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">עשה זאת מאוחר יותר</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">אני מסכים/ה</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">התחל</string>
@@ -2729,6 +2732,7 @@
     <string name="opa_launcher_icon_text">Assistant</string>
     <string name="opa_lock_icon_description">סמל ביטול הנעילה</string>
     <string name="opa_logo_content_desc">‏הלוגו של Google Assistant</string>
+    <string name="opa_mark_content">Assistant</string>
     <string name="opa_marketplace_disclosure_description">‏Google Assistant יכול לפעול בשילוב עם שירותים שונים כדי לעזור לך להספיק יותר.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">‏Google Assistant יכול לפעול עם שותפים של Google כדי לעזור לך במשימות שונות, כמו קניית כרטיסים לקולנוע או תיקון דליפה בכיור. &lt;a href=https://support.google.com/assistant/?p=google_partners>למידע נוסף&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">‏השותפים של Google הם עסקים שמנהלים יחסים מסחריים עם Google‏. Google Assistant יכול להיעזר בשותפים של Google כדי לעזור לך להשלים משימות שונות, מקניית כרטיסים לסרט ועד תיקון הדליפה בכיור. <a href="https://support.google.com/assistant/?p=google_partners">למידע נוסף</a></string>
@@ -2967,7 +2971,7 @@
 חשוב לזכור שגם לכל אחד שישתמש במכשיר זה תהיה גישה אל התוצאות האישיות שלך. אפשר להשבית את התוצאות האישיות בהגדרות ה-Assistant."</string>
     <string name="personal_results_title">קבלת תוצאות אישיות</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות כך ש-{PERSON} יוכל להשתמש בקולו כדי לגשת ליומן, לאנשי הקשר, לתזכורות ועוד ממכשיר זה. &lt;a href=\"https://support.google.com/families/answer/7521263\">למידע נוסף&lt;/a>&lt;br>&lt;br>אפשר להשבית את התוצאות האישיות בהגדרות של Assistant או ב-Family Link.}female{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות כך ש-{PERSON} תוכל להשתמש בקולה כדי לגשת ליומן, לאנשי הקשר, לתזכורות ועוד ממכשיר זה. &lt;a href=\"https://support.google.com/families/answer/7521263\">למידע נוסף&lt;/a>&lt;br>&lt;br>אפשר להשבית את התוצאות האישיות בהגדרות של Assistant או ב-Family Link.}other{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות כך ש-{PERSON} יוכל להשתמש בקולו כדי לגשת ליומן, לאנשי הקשר, לתזכורות ועוד ממכשיר זה. &lt;a href=\"https://support.google.com/families/answer/7521263\">למידע נוסף&lt;/a>&lt;br>&lt;br>אפשר להשבית את התוצאות האישיות בהגדרות של Assistant או ב-Family Link.}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות ואז {PERSON} יוכל להשתמש בקולו כדי לגשת ליומן, לאנשי הקשר, לתזכורות ולנתונים נוספים במכשיר הזה. &lt;a href=\"https://support.google.com/families/answer/7521263\">מידע נוסף&lt;/a>&lt;br>&lt;br>תוצאות אישיות יכולות להופיע במסך דף הבית וכהודעות, גם בלי בקשה ישירה של {PERSON}. חשוב לזכור שכל סקרן יכול להקיש על התוצאות האלה ולבצע לגביהן פעולות.&lt;br>&lt;br>אפשר להשבית תוצאות אישיות בהגדרות Assistant או דרך Family Link.}female{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות ואז {PERSON} תוכל להשתמש בקולה כדי לגשת ליומן, לאנשי הקשר, לתזכורות ולנתונים נוספים במכשיר הזה. &lt;a href=\"https://support.google.com/families/answer/7521263\">מידע נוסף&lt;/a>&lt;br>&lt;br>תוצאות אישיות יכולות להופיע במסך דף הבית וכהודעות, גם בלי בקשה ישירה של {PERSON}. חשוב לזכור שכל סקרן יכול להקיש על התוצאות האלה ולבצע לגביהן פעולות.&lt;br>&lt;br>אפשר להשבית תוצאות אישיות בהגדרות Assistant או דרך Family Link.}other{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות ואז {PERSON} יוכל להשתמש בקולו כדי לגשת ליומן, לאנשי הקשר, לתזכורות ולנתונים נוספים במכשיר הזה. &lt;a href=\"https://support.google.com/families/answer/7521263\">מידע נוסף&lt;/a>&lt;br>&lt;br>תוצאות אישיות יכולות להופיע במסך דף הבית וכהודעות, גם בלי בקשה ישירה של {PERSON}. חשוב לזכור שכל סקרן יכול להקיש על התוצאות האלה ולבצע לגביהן פעולות.&lt;br>&lt;br>אפשר להשבית תוצאות אישיות בהגדרות Assistant או דרך Family Link.}}</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות ואז {PERSON} יוכל להשתמש בקולו כדי לגשת ליומן, לאנשי הקשר, לתזכורות ולנתונים נוספים במכשיר הזה. &lt;a href=\"https://support.google.com/families/answer/7521263\">מידע נוסף&lt;/a>&lt;br>&lt;br>תוצאות אישיות יכולות להופיע במסך דף הבית וכהודעות, גם בלי בקשה ישירה של {PERSON}. חשוב לזכור שכל מי שסקרן לגבי התוצאות האלה יכול להקיש עליהן ולבצע פעולות לגביהן.&lt;br>&lt;br>אפשר להשבית תוצאות אישיות בהגדרות Assistant או דרך Family Link.}female{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות ואז {PERSON} תוכל להשתמש בקולה כדי לגשת ליומן, לאנשי הקשר, לתזכורות ולנתונים נוספים במכשיר הזה. &lt;a href=\"https://support.google.com/families/answer/7521263\">מידע נוסף&lt;/a>&lt;br>&lt;br>תוצאות אישיות יכולות להופיע במסך דף הבית וכהודעות, גם בלי בקשה ישירה של {PERSON}. חשוב לזכור שכל מי שסקרן לגבי התוצאות האלה יכול להקיש עליהן ולבצע פעולות לגביהן.&lt;br>&lt;br>אפשר להשבית תוצאות אישיות בהגדרות Assistant או דרך Family Link.}other{‏התכונה Voice Match הוגדרה.&lt;br>&lt;br>עכשיו אפשר להפעיל את התוצאות האישיות ואז {PERSON} יוכל להשתמש בקולו כדי לגשת ליומן, לאנשי הקשר, לתזכורות ולנתונים נוספים במכשיר הזה. &lt;a href=\"https://support.google.com/families/answer/7521263\">מידע נוסף&lt;/a>&lt;br>&lt;br>תוצאות אישיות יכולות להופיע במסך דף הבית וכהודעות, גם בלי בקשה ישירה של {PERSON}. חשוב לזכור שכל מי שסקרן לגבי התוצאות האלה יכול להקיש עליהן ולבצע פעולות לגביהן.&lt;br>&lt;br>אפשר להשבית תוצאות אישיות בהגדרות Assistant או דרך Family Link.}}</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{קבלת תוצאות אישיות בעזרת הקול של {PERSON}.}male{קבלת תוצאות אישיות בעזרת הקול של {PERSON}.}other{קבלת תוצאות אישיות בעזרת הקול של {PERSON}.}}</string>
     <string name="personal_search">חיפוש אישי</string>
     <string name="phone_display_name">התקשר</string>
@@ -3156,6 +3160,7 @@
     <string name="recently_empty_state_read_later_body_text">הפריטים שהורדו יישמרו במכשיר שלך במשך 7 ימים.</string>
     <string name="recently_empty_state_read_later_title_text">הוספת דפים לקריאה במועד מאוחר יותר</string>
     <string name="recently_entry_interaction_offline">לא ניתן לפתוח את הדף המבוקש במצב לא מקוון.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">פיד</string>
     <string name="recently_google_doodle_for">‏דודל של Google לכבוד %s</string>
     <string name="recently_keep_on_device_until">שמירה במכשיר עד:</string>
@@ -3212,6 +3217,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">אינטרנט</string>
     <string name="recents_result_separate_group_header">חיפושים אחרונים</string>
     <string name="recognizer_service_label">‏זיהוי בסיסי של Google</string>
+    <string name="recommendation_header_text">מומלץ עבורך</string>
     <string name="reconnecting_loading_results">"טוען את התוצאות שלך
 "</string>
     <string name="reconnecting_title">מתחבר מחדש...</string>
@@ -3284,7 +3290,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">שם</string>
     <string name="report_other_reason">אחר</string>
     <string name="report_this">דיווח על כך</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">‏כדי להוריד פרקים, יש להתיר גישה לאחסון דרך ההרשאות הניתנות ל-Google app</string>
     <string name="request_storage_permission_dialog_message">‏להורדת פרקים, Google צריכה גישה לאחסון של המכשיר</string>
     <string name="request_storage_permission_dialog_title">הענקת גישה לאחסון</string>
     <string name="reservation_group_header">הזמנות במסעדות</string>
@@ -3369,6 +3375,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">המסך הועבר</string>
     <string name="screenshot_srp_desc">חיפוש של %s.</string>
     <string name="screenshot_srp_pending_desc">חיפוש של %s בהמתנה</string>
+    <string name="screenshot_srp_voice_pending_desc">בהמתנה לחיפוש קולי</string>
+    <string name="screenshot_srp_voice_pending_title">חיפוש קולי</string>
     <string name="screenshot_web_desc">כניסה אל %s.</string>
     <string name="screenshot_webpage_pending_desc">הורדה בהמתנה</string>
     <string name="scroll_left">גלול שמאלה</string>
@@ -3404,7 +3412,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_phone_or_tablet">חיפוש בטאבלט</string>
     <string name="search_plate_accessibility_voice_search_button">חפש</string>
     <string name="search_queue_activity_title">ניהול חיפושים</string>
-    <string name="search_queue_is_full">כדי לקבל הודעה כשהתוצאות יהיו זמינות, יש לנקות את החיפושים המקוונים.</string>
+    <string name="search_queue_is_full">כדי לקבל הודעה כשהתוצאות יהיו זמינות, יש לנקות את החיפושים הלא-מקוונים.</string>
     <string name="search_region">אזור חיפוש</string>
     <string name="search_region_default">האזור הנוכחי (ברירת מחדל)</string>
     <string name="search_service_account_change_hotword_retraining_notification_content">הקש כדי להפעיל את %1$s מחדש.</string>
@@ -3444,7 +3452,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="see_results_on_google">‏הצגת תוצאות ב-Google</string>
     <string name="select_day">בחר חודש ויום</string>
     <string name="select_google_account">‏חשבון Google</string>
-    <string name="select_google_account_add_account">הוסף חשבון</string>
+    <string name="select_google_account_add_account">הוספת חשבון</string>
     <string name="select_google_account_sign_out">יציאה</string>
     <string name="select_google_account_summary_no_accounts">לא הוגדרו חשבונות</string>
     <string name="select_google_account_summary_signed_in">‏שימוש ב-%1$s לחיפוש Google וכרטיסי העדכון</string>
@@ -3655,6 +3663,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="standalone_zs_back_content_desc">חזרה</string>
     <string name="standalone_zs_brick_content_desc">עדכונים אישיים</string>
     <string name="standalone_zs_explore_content_desc">"פתיחת הכרטיסיות 'המלצות והצעות' ו'הפריטים שלך'"</string>
+    <string name="standalone_zs_opa_icon_desc">Assistant</string>
     <string name="star_rating_bar_content_description">דירוג כוכבים: %1$s</string>
     <string name="starting_location_selector">%1$s. בחר מיקום התחלה.</string>
     <string name="starts_at">מתחיל בשעה</string>
@@ -3670,6 +3679,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="street_address_label">רחוב</string>
     <string name="subscribe_button_label">להרשמה</string>
     <string name="subscribe_to_see_new_episodes">הרשמה לפודקאסטים להצגת פרקים חדשים</string>
+    <string name="success">בוצע בהצלחה</string>
     <string name="suggest">השלמה אוטומטית</string>
     <string name="suggest_contact_removal_body">‏פעולה זו תסיר את &lt;b>%1$s&lt;/b> מרשימת אנשי הקשר המובילים שלך. עדיין יהיה ניתן למצוא את &lt;b>%2$s&lt;/b> באמצעות חיפוש.</string>
     <string name="suggest_contact_removal_cancel">ביטול</string>
@@ -4029,6 +4039,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_say_something_title">אמור משהו</string>
     <string name="user_defined_action_task_scene_control_title">סצנות</string>
     <string name="user_defined_action_task_scene_control_which_scenes">יש לבחור אילו סצנות לכלול ברצף הפעולות הזה.</string>
+    <string name="user_defined_action_task_security_system_control_title">דריכת מערכת האבטחה</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">איזה מצב לקבוע?</string>
     <string name="user_defined_action_task_send_text_content_summary">אם משאירים את שדה המספר של הנמען או את תוכן ההודעה ריק, תתקבל בקשה למלא אותם בהרצת רצף פעולות זה.</string>
     <string name="user_defined_action_task_send_text_content_title">מה יהיה תוכן ההודעה?</string>
     <string name="user_defined_action_task_send_text_recipient_title">לאיזה מספר לשלוח הודעת טקסט?</string>

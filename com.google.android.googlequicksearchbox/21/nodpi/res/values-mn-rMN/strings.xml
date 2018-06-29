@@ -118,6 +118,7 @@
     <string name="action_sms_who_tts">Та хэн рүү мессежлэх вэ?</string>
     <string name="action_sound_search_get_song">Google Play дээрээс авах</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">Энэ үйлдэл нь таны бичиж байгаа зүйлтэй холбоотой.</string>
     <string name="action_unlock_device_tts">Үнэндээ, төхөөрөмж түгжээтэй үед би юу ч хийж чадахгүй. Үргэлжлүүлэхийн тулд, эхлээд төхөөрөмжийн түгжээг тайлна уу.</string>
     <string name="action_who_is_relation_1_tts">Харилцагчийн нэрийг хэлэх буюу \"%2$s \".</string>
     <string name="action_who_is_relation_eyes_free_1_tts">Ойлгосонгүй. Та хэнийг хэлсэн бэ?</string>
@@ -172,6 +173,10 @@
     <string name="agent_bookmark_error">Алдаа гарсан байна. Дараа дахин оролдоно уу.</string>
     <string name="agent_bookmark_removed">Хавчуургаас хассан</string>
     <string name="agent_description_more">бусад</string>
+    <string name="agent_details_add_routine_description">Та %1$s-н шинэчлэлтээр Хэвшилдээ илүү ихийг хийгээрэй.</string>
+    <string name="agent_details_add_routine_item">Нэмэх</string>
+    <string name="agent_details_customize_routine">Хэвшлээ өөрчлөх</string>
+    <string name="agent_details_manage_routines">Хэвшлээ удирдах</string>
     <string name="agent_details_splash_image_a11y">Туслах аппын зураг</string>
     <string name="agent_directory_a11y_back_button">Буцах</string>
     <string name="agent_directory_a11y_more_groups">Дэлгэрэнгүй</string>
@@ -391,6 +396,7 @@
 Таны Туслах таны ажилдаа явдаг замын талаарх асуултад энэ тохиргоог ашиглан хариулна"</string>
     <string name="assistant_settings_commute_walk">Алхдаг</string>
     <string name="assistant_settings_commute_walk_key">АЖИЛДАА ЯВАХ Алхдаг</string>
+    <string name="assistant_settings_contact_list_introduction">Эдгээр нь таны Туслахаасаа таньдаг хүмүүсийнхээ талаар санахыг хүссэн зүйлс юм.</string>
     <string name="assistant_settings_custom_routines_description">Зөвхөн нэг тушаалаар Туслахаараа олон үйлдэл хийлгэнэ үү. Өдрийн хуваарьтаа тохирох бэлэн байгаа хэвшлийг ашиглах эсвэл шинэ хэвшил тохируулна уу.</string>
     <string name="assistant_settings_default_record_button_text">Бичих</string>
     <string name="assistant_settings_delete_button_label">Устгах</string>
@@ -536,13 +542,15 @@
     <string name="assistant_settings_music_provider_category_title">Хөгжим тоглуулахыг хүссэн үед туслах энэ хөгжим тоглуулагчийг өгөгдмөлөөр ашиглана. Холбосон тоглуулагчийг тогтоосон тохиолдолд тэдгээрээр хөгжим тоглуулах боломжтой.</string>
     <string name="assistant_settings_music_title">Хөгжим</string>
     <string name="assistant_settings_music_unable_unlink_default">Таны өгөгдмөл хөгжим тоглуулагчийг салгах боломжгүй</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Хөгжмийг Google Нүүрэнд тоглуулахын тулд YouTube Red-н гишүүнчлэл шаардлагатай. <a href="http://youtube.com/red">youtube.com/red</a> холбоосоор бүртгүүлнэ үү.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Red-н гишүүнчлэл шаардлагатай</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Таны бүртгэлийг салгаснаар Google Туслахаар %1$s-с дахин тоглуулах хандалтыг унтраах болно.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Хөгжмийг Google Нүүрэнд тоглуулахын тулд YouTube Premium-н гишүүнчлэл шаардлагатай. Ta <a href="http://youtube.com/red">youtube.com/red</a> холбоосоор бүртгүүлэх боломжтой.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium-н гишүүнчлэл шаардлагатай</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s-г идэвхжүүлсэн мэдээний эх сурвалжаас устгах</string>
     <string name="assistant_settings_news_supports_video">Ухаалаг дэлгэцэд боломжтой видео</string>
     <string name="assistant_settings_news_title">Мэдээ</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Таны хочинд туслахын хэлж чадахгүй тэмдэгт байна. Үүнийг хэрхэн дуудахыг дараагийн хэсэгт үсэглэж өгнө үү.</string>
     <string name="assistant_settings_no_device_linked">Voice Match нь таны Туслах таны дуу хоолойг таньсан тохиолдолд хувийн мэдээлэл олгохыг зөвшөөрдөг. Хамгийн ихдээ 6 хүн өөрсдийн календарь, хөгжим болон бусад зүйлийг авах боломжтой.</string>
+    <string name="assistant_settings_no_language_summary">Байхгүй</string>
     <string name="assistant_settings_no_language_title">Хэл нэмэх</string>
     <string name="assistant_settings_no_shopping_list">Танд авах зүйлийн жагсаалт алга.</string>
     <string name="assistant_settings_notes_lists_title">Тэмдэглэл, жагсаалт</string>
@@ -710,6 +718,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">Үргэлжилсэн харилцан яриа нь одоогоор Англи хэлээр (АНУ) боломжтой. Та энд харагдахгүй байгаа Google Нүүр төхөөрөмж ашигласан тохиолдолд энэ төхөөрөмжийн үндсэн бүртгэлийг эзэмшдэг хэрэглэгч Үргэлжилсэн харилцан яриаг Туслахын тохиргоо хэсэгт унтраах буюу эсвэл асааж болзошгүй.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Та үүнийг эдгээр Google Нүүр төхөөрөмжид өөрчлөх боломжтой</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Боломжтой төхөөрөмж алга</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Таны төхөөрөмжийн микрофон таныг дараагийн асуултыг сонсох хүсэлт гаргах болгонд дахин нээгдэх болно. Эдгээр нь Миний үйл ажиллагаанд хэвийн байдлаар харагдана. Таны Туслахын хариулдаггүй дууг таны Google Бүртгэлээс устгах болно.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Үргэлжилсэн харилцан яриа</string>
     <string name="assistant_settings_summer_time_mode_title">Үргэлжилсэн харилцан яриа</string>
     <string name="assistant_settings_turn_off_voice_match">Хэрэв та Voice Match-г унтраавал бүртгэлээ энэ төхөөрөмжөөс салгана. Та Google Туслахыг идэвхжүүлсэн төхөөрөмжөө ашиглахын тулд хамгийн багадаа нэг бүртгэл холбосон байх ёстой. Бүртгэлээ салгах уу? </string>
@@ -738,10 +747,8 @@
     <string name="assistant_settings_update_error_message">Тохиргоог шинэчилж чадсангүй. Холболтоо шалгана уу.</string>
     <string name="assistant_settings_video_calls_service_category_title">Таны Туслах таны сонгосон үйлчилгээг ашиглан Google-н ухаалаг дэлгэц зэрэг зарим төхөөрөмжид видео дуудлага хийх боломжтой. Яаралтай тусламжийн үйлчилгээний дуудлага боломжгүй байна.</string>
     <string name="assistant_settings_video_icon_text">Видео тоглуулагч дүрс тэмдэг</string>
-    <string name="assistant_settings_video_link_dialog_text">Дуун хяналт, дахин тоглуулахыг нийцтэй төхөөрөмжид идэвхжүүлэхийн тулд Google бүртгэлээ %1$s-д холбоно уу. Та %1$s үйлчилгээг Google Нүүрээр хянах эсвэл %1$s-тай холбоотой мэдээллийг асуух үед тэдгээр асуулгыг нууцлалын мэдэгдлийн дагуу %1$s руу илгээнэ.</string>
     <string name="assistant_settings_video_provider_category_summary">Туслахаасаа асууж кино, шоу тоглуулах</string>
     <string name="assistant_settings_video_provider_category_title">Видео</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Бүртгэлээ салгаснаар дуут тушаалыг унтраана.</string>
     <string name="assistant_settings_videos_photos_title">Видео, зураг</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast, Chromecast бүрэлдэхүүн хэсэгтэй ТВ</string>
     <string name="assistant_settings_voice_and_video_calls_title">Дуут болон Видео дуудлага</string>
@@ -753,6 +760,21 @@
     <string name="assistant_settings_weather_title">Цаг агаар</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Ажлын хаягийг устгах уу?</string>
     <string name="assistant_settings_work_title">Ажлын хаяг</string>
+    <string name="assistant_settings_your_people_address">Хаяг: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Төрсөн өдөр: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Төрсөн өдөр санах</string>
+    <string name="assistant_settings_your_people_deletion_failure">Асуудал гарсан тул дараа дахин оролдоно уу!</string>
+    <string name="assistant_settings_your_people_email">Имэйл: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Гэр бүлийн гишүүнийг санах</string>
+    <string name="assistant_settings_your_people_forget_button">Мартах</string>
+    <string name="assistant_settings_your_people_forget_dialog">Энэ нь таны Туслахаасаа %1$s-н тухай санахыг хүссэн бүх нарийвчилсан мэдээллийг устгах болно</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Эдгээр дэлгэрэнгүй мэдээллийг мартах уу?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Эдгээр дэлгэрэнгүй мэдээллийг мартах</string>
+    <string name="assistant_settings_your_people_phone">Утас: %1$s</string>
+    <string name="assistant_settings_your_people_splash">Дараа нь таныг \"ээж рүү залгах\" эсвэл \"ахын төрсөн өдөр хэзээ вэ\" гэж хэлэхэд Туслах тань туслахад бэлэн байх болно.</string>
+    <string name="assistant_settings_your_people_splash_title">Туслахдаа хэн нь хэн бэ гэдгийг мэдэгдэнэ үү</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Та Туслахaaраа дараах зүйлсийг хийлгэх боломжтой</string>
+    <string name="assistant_settings_your_people_title">Таны хүмүүс</string>
     <string name="assistant_speaker_id_default_category_summary">Таны Туслах таны дуу хоолойг эдгээр төхөөрөмжид таньсны дараа таны хувийн мэдээллийг олгоно</string>
     <string name="assistant_speaker_id_default_category_title">Voice Match-тай хуваалцсан төхөөрөмж</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Элсүүлэх боломжгүй байна.</string>
@@ -894,7 +916,7 @@
     <string name="cloud_search_history_fetch_failed_toast">Тохиргоог сэргээж чадсангүй. Дараа дахин оролдоно уу.</string>
     <string name="cloud_search_history_summary_fetching">Тохиргоог дуудаж байна…</string>
     <string name="collapse_time_to_leave">Аялалын сонголтуудыг нуух</string>
-    <string name="collections">Цуглуулга</string>
+    <string name="collections">Хадгалсан</string>
     <string name="comment_hint">Нэмэлт сэтгэгдэл (Заавал биш).</string>
     <string name="common_address_clear_button_label">Устгах</string>
     <string name="common_address_clear_confirm_button">Устгах</string>
@@ -943,9 +965,9 @@
 
 Энэ төхөөрөмж таны Google Бүртгэлд хандах эрхтэй болно."</string>
     <string name="consent_my_activity">Миний үйл ажиллагаа</string>
-    <string name="consent_partners_disclosures_body_collapsed">Google түнш нь Google-тэй бизнесийн шугамаар дотно харилцдаг бөгөөд Google-р бизнесээ онцлуулах эсвэл сурталчлуулахын тулд төлбөр төлдөг.</string>
-    <string name="consent_partners_disclosures_body_expanded">Google түнш нь Google-тэй бизнесийн шугамаар дотно харилцдаг бөгөөд Google-р бизнесээ онцлуулах эсвэл сурталчлуулахын тулд төлбөр төлдөг. Эдгээр бизнесийн байгууллага нь танд цаасан алчуур авах эсвэл угаалтуур засах зэрэг ажлаа амжуулахад тусалдаг. %1$s.</string>
-    <string name="consent_partners_disclosures_title">Google түнш</string>
+    <string name="consent_partners_disclosures_body_collapsed">Google Түнш нь Google-тэй бизнесийн шугамаар дотно харилцдаг бөгөөд Google-р бизнесээ онцлуулах эсвэл сурталчлуулахын тулд төлбөр төлдөг.</string>
+    <string name="consent_partners_disclosures_body_expanded">Google Түнш нь Google-тэй бизнесийн шугамаар дотно харилцдаг бөгөөд Google-р бизнесээ онцлуулах эсвэл сурталчлуулахын тулд төлбөр төлдөг. Эдгээр бизнесийн байгууллага нь танд цаасан алчуур авах эсвэл угаалтуур засахаас авахуулаад ажлаа амжуулахад тусалдаг. %1$s.</string>
+    <string name="consent_partners_disclosures_title">Google Түнш</string>
     <string name="consent_services_disclosures_body_collapsed">Таны нууцлалыг хамгаалахын тулд Google таны ярьдаг үйлчилгээг өвөрмөц код руу илгээдэг.</string>
     <string name="consent_services_disclosures_body_expanded">"Таны нууцлалыг хамгаалахын тулд Google таны ярьдаг үйлчилгээг өвөрмөц код руу илгээдэг. Ингэснээр үйлчилгээ нь таны харилцан ярианы үед тохиргоо зэрэг зүйлсийг санах болно.
 
@@ -1076,6 +1098,10 @@
     <string name="device_setup_error_cancel_button">Тусламж авах</string>
     <string name="device_setup_error_content">Алдаа гарлаа</string>
     <string name="device_setup_error_title">Асуудал гарсан байж болзошгүй</string>
+    <string name="devices_scan_action_button">Үргэлжлүүлэх</string>
+    <string name="devices_scan_cancel_button">Цуцлах</string>
+    <string name="devices_scan_explanation">Төхөөрөмж сонгох</string>
+    <string name="devices_scan_title">Төхөөрөмж нэмэх</string>
     <string name="directory_for_mall">%1$s-н лавлах</string>
     <string name="disclaimer">Эрхээс татгалзах тухай</string>
     <string name="dismiss_text">Үл хэрэгсэхийн тулд доош чирэх</string>
@@ -1148,6 +1174,7 @@
     <string name="enable_video_preview_autoplay_on_mobile_data">Мобайл сүлжээнд зөвшөөрөх</string>
     <string name="enable_web_history_toast">Вэб Түүх идэвхжсэн</string>
     <string name="entity_suggestion_message">Энэ хайлт нь таны бичиж байгаа зүйлтэй холбоотой.</string>
+    <string name="error">Алдаа гарлаа</string>
     <string name="error_adding_location_snackbar_text">Байршил нэмэхэд алдаа гарлаа</string>
     <string name="error_authenticating_user">Нэвтрэлтийн алдаа</string>
     <string name="error_captive_portal">Холболтоо шалгаад, дахин оролдоно уу.</string>
@@ -1205,7 +1232,6 @@
     <string name="eyes_donate_data_optin_ok">Ок</string>
     <string name="eyes_donate_data_optin_title">Дурангийн зураг хандивлах</string>
     <string name="eyes_flash_button_description">Камерын гэрлийг унтраах/асаах</string>
-    <string name="eyes_initial_suggestion_0">Та юу таних боломжтой вэ?</string>
     <string name="eyes_launcher_description">Google дуран</string>
     <string name="eyes_no_permission">Надад үүнийг хийх зөвшөөрөл байхгүй</string>
     <string name="eyes_no_permission_camera">Надад камер ашиглах зөвшөөрөл байхгүй</string>
@@ -1233,7 +1259,6 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="eyes_onboarding_title_text">Текстийг скан хийх</string>
     <string name="eyes_request_timed_out_message">Уучлаарай, бид одоогоор Google-д холбогдох боломжгүй байна</string>
     <string name="eyes_share_with">Хуваалцах</string>
-    <string name="eyes_unfreeze_image_description">Камер руу буцах</string>
     <string name="eyes_viewfinder_description">Google дуранг идэвхжүүлэх</string>
     <string name="failed">Зургийг ачааллаж чадсангүй</string>
     <string name="failed_to_open_webview">Хуудсыг нээж чадсангүй</string>
@@ -1344,8 +1369,13 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="flight_stops">%1$s-д зогсоно</string>
     <string name="flight_terminal">Терминал</string>
     <string name="flights_mode_landing_text">Нислэг хайх</string>
+    <string name="follow_soccer_promo_query">2018 оны хөлбөмбөг</string>
     <string name="follow_world_cup_promo">Хөлбөмбөгийн дэлхийн аварга шалгаруулах тэмцээнийг дагах</string>
     <string name="follow_world_cup_promo_content_description">Хөлбөмбөгийн дэлхийн аварга шалгаруулах тэмцээнийг дагах</string>
+    <string name="follow_world_cup_promo_detail">Дуртай багийнхаа тоглолтын сануулга, мэдээ болон онооны шууд дамжуулалтыг харахаар бүртгүүлэхийн тулд энд товшино уу</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Хөлбөмбөгийн тэмцээний мэдээллээс бүү хоцроорой</string>
+    <string name="follow_world_cup_promo_query">2018 оны Хөлбөмбөгийн ДАШТ</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Хөлбөмбөгийн эрин үе эхэллээ!</string>
     <string name="fourth_quarter">4-р дөрөвний нэг</string>
     <string name="fourth_quarter_abbrev">4-р үе</string>
     <string name="full_time">Бүтэн цагийн</string>
@@ -1470,9 +1500,9 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">буцах</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Би итгэлтэй байна</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Итгэлтэй байна уу?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Сайн уу, би Туслахдаа Google Нүүр хэсэгт дуу хоолойгоо таниулсан бөгөөд ингэснээр хувийн илэрц авах боломжтой боллоо.
+    <string name="hotword_enrollment_google_home_share_message">"Сайн уу, би Туслахдаа дуу хоолойгоо таниулсан бөгөөд ингэснээр Google Нүүрээс хувийн илэрц авах боломжтой боллоо.
 
-Та өөрт тохирох хариултыг мөн авах боломжтой! Google Нүүр аппыг https://google.com/home/setup-с суулгаж эхэлнэ үү."</string>
+Та өөрт тохирох хариултыг мөн авах боломжтой! Google Нүүр аппыг https://google.com/home/setup-с суулгана уу"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Туслахдаа таныг танихад сургана уу</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Урих</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Та дуу хоолойны үйл ажиллагааг %1$s-с харах эсвэл устгах боломжтой. Мөн та Туслахын тохиргоо хэсэгт Voice Match-г унтрааж болно.</string>
@@ -1603,7 +1633,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="hourly_forecast">Цаг тутмын тойм</string>
     <string name="hours">Цаг</string>
     <string name="how_can_i_help">Би хэрхэн туслах вэ?</string>
-    <string name="hq_a11y_bottom_bar_button">Туслахтайгаа чатлах бол микрофоноо нээнэ үү</string>
+    <string name="hq_a11y_bottom_bar_button">Туслах</string>
     <string name="hq_a11y_chatui_badge">Судлах болон өөрийн зүйлийг нээх</string>
     <string name="hq_a11y_menu_button">Цэс</string>
     <string name="hq_account_switch_prompt">%1$s-р нэвтэрч байна</string>
@@ -1681,7 +1711,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="ipa_personal_search_sources">Хувийн</string>
     <string name="ipa_search_result_page_message">%s Google Хайлт.</string>
     <string name="ipa_searchable_items_category_title">Дараахаас агуулга харуулах</string>
-    <string name="jasper_duo_knock_knock_summary">Дуудлага авахаасаа өмнө дуудлага хийгчийн видеог үзээрэй. Залгаж буй хүмүүсээ утас нь дуугарч байх үед таны видеог үздэг болгоорой. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Дэлгэрэнгүй үзэх&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Дуудлага авахаасаа өмнө дуудлага хийгчийн видеог үзээрэй. Залгаж буй хүмүүсээ утас нь дуугарч байх үед таны видеог үздэг болгоорой. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knock-knock</string>
     <string name="jasper_duo_not_signed_in">Нэвтрээгүй</string>
     <string name="jasper_duo_signed_in">Нэвтэрсэн</string>
@@ -1773,6 +1803,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="location_service_required_title">Байршилд суурилсан карт харах</string>
     <string name="lockscreen_mic_promo_notification_content">Утасныхаа түгжээг тайлахын тулд \"%1$s\" гэж хэлнэ үү.</string>
     <string name="lockscreen_mic_promo_notification_title">Түгжээг дуу хоолойгоороо тайлах</string>
+    <string name="logo_content_description">Google</string>
     <string name="magic_flashlight_off">Nox</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">Дэлгүүр, үйлчилгээний газар хайх</string>
@@ -1884,7 +1915,6 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="network_error_fetching_weather_data_status_text">Одоогоор сүлжээ байхгүй</string>
     <string name="network_error_no_connection_tts">Одоогоор интернэт холболт байхгүй байна.</string>
     <string name="network_error_resend_audio">Аудиог дахин илгээх</string>
-    <string name="network_error_try_again">Дахин оролдох</string>
     <string name="network_location_required_text">Цаг агаар, замын хөдөлгөөний мэдээлэл зэрэг байршилд суурилсан картыг харах бол Wi‑Fi &amp; мобайл сүлжээний байршлыг асаана уу</string>
     <string name="network_location_required_text_klp">Цаг агаар, замын хөдөлгөөний мэдээлэл зэрэг байршилд суурилсан картыг харах бол өндөр нарийвчлалтай буюу батерей хэмнэх байршлын горимыг сонгоно уу</string>
     <string name="nevermind_prompt">Санаа зоволтгүй</string>
@@ -1960,7 +1990,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="none">Байхгүй</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Жагсаалт болон тэмдэглэлийн үйлчилгээ</string>
-    <string name="notes_lists_none_preference_summary">Хоёрдогч мэдээлэл</string>
+    <string name="notes_lists_none_preference_summary">Таны Туслах таны өгөгдлийг ямар ч үйлчилгээтэй синк хийхгүй.</string>
     <string name="notes_lists_none_preference_title">Байхгүй</string>
     <string name="notes_lists_provider_changed_description">"Туслах тэмдэглэл болон жагсаалтын өгөгдлийг цаашид %1$s-р шинэчлэхгүй бөгөөд %1$s-д байгаа өгөгдлийг устгахгүй.
 
@@ -1968,6 +1998,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="notes_lists_provider_changed_negative_button">Цуцлах</string>
     <string name="notes_lists_provider_changed_positive_button">Зөвшөөрөх</string>
     <string name="notes_lists_provider_changed_title">%1$s-с салгах</string>
+    <string name="notes_lists_title">Таны Туслах эдгээр үйлчилгээнд таны тэмдэглэл болон жагсаалтыг синк хийх болно.</string>
     <string name="notification_access_link_text">Мэдэгдлийн хандалтыг унтраах</string>
     <string name="notification_accessable_apps_category_title">Мэдэгдлийн хандалт</string>
     <string name="notification_cancel_text">Таныг дахин онлайн болох үед Google энэ хайлтыг дахин хийхгүй.</string>
@@ -2085,6 +2116,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_assist_app_screen_explanation">Google туслахдаа хандахын тулд туслах болон дуут оролтын тохиргоо хэсэгт Google аппыг сонгоно уу</string>
     <string name="opa_assist_app_screen_title">Google апп таны өгөгдмөл туслах апп биш</string>
     <string name="opa_assistant_logo_content_description">Дуун хайлт</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Google Туслахынхаа шинэчлэлтийг харах</string>
     <string name="opa_consent_check_error_button">Хаах</string>
     <string name="opa_consent_check_error_button_notavailable">Бүртгэл сэлгэх</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Таны бүртгэлийн тохиргооноос шалтгаалан та Туслахаа вэбийн илэрц, хошигнол болон дотоод мэдээлэл авах зэргээр ашиглах боломжгүй.</string>
@@ -2161,7 +2193,6 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_eyes_free_opt_in_speech">Та аюулгүй үед мэдэгдлийг товшсоноор Google туслахтай ашиглах чихэвчийг зөвшөөрөх боломжтой.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Үргэлжлүүлэхийн тулд товшино уу</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Google Туслахдаа танд туслах зөвшөөрөл олгоно уу</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Үргэлжлүүлэхийн тулд товшино уу</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Дараа хийнэ</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Би зөвшөөрч байна</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">ЭХЛЭХ</string>
@@ -2222,6 +2253,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="opa_launcher_icon_text">Туслах</string>
     <string name="opa_lock_icon_description">Түгжээ тайлах дүрс тэмдэг</string>
     <string name="opa_logo_content_desc">Google туслахын лого</string>
+    <string name="opa_mark_content">Туслах</string>
     <string name="opa_marketplace_disclosure_description">Таны Google Туслах илүү олон зүйл хийхэд туслахын тулд өөр үйлчилгээтэй ажиллах боломжтой.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google Туслах танд киноны тасалбар авах, угаалтуураа засах зэрэг ажлаа амжуулахад туслахын тулд Google түнштэй хамтран ажиллах боломжтой. &lt;a href=https://support.google.com/assistant/?p=google_partners>Дэлгэрэнгүй үзэх&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google хамтрагчид нь Google-тэй арилжааны зорилгоор түншилдэг бизнесийн байгууллагууд юм. Google Туслах киноны тасалбар авах, эсвэл угаалтуураа янзлах зэрэг зүйлсийг тань хийхэд туслахын тулд Google-н хамтрагчидтай ажиллах боломжтой. <a href="https://support.google.com/assistant/?p=google_partners">Дэлгэрэнгүй үзэх</a></string>
@@ -2367,6 +2399,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="order_not_found_snackbar_message">Захиалга олдсонгүй.</string>
     <string name="other_comment">Шалтгаан (Шаардлагатай)</string>
     <string name="other_reason_not_fill_in_content_description">Санал хүсэлт илгээхээс өмнө энэ зүйлийг репорт хийж буй бусад шалтгааныг оруулна уу. Илгээх товчлуур.</string>
+    <string name="overflow_menu_desc">Нэмэлт сонголт</string>
     <string name="overtime">Сунгалтын цаг</string>
     <string name="package_location">Байршил</string>
     <string name="package_pickup_location">Хүлээж авах байршил</string>
@@ -2570,6 +2603,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="reaction_text_more">Дэлгэрэнгүй</string>
     <string name="recently">Сүүлийн үеийн</string>
     <string name="recognizer_service_label">Google-н үндсэн дуу танилт</string>
+    <string name="recommendation_header_text">Танд санал болгосон</string>
     <string name="reconnecting_loading_results">"Таны илэрцийг ачаалж байна
 "</string>
     <string name="reconnecting_title">Дахин холбож байна…</string>
@@ -2911,7 +2945,9 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="sports_wins_header">W</string>
     <string name="sports_wins_header_full_length">Ялалт</string>
     <string name="standalone_zs_back_content_desc">Буцах</string>
+    <string name="standalone_zs_brick_content_desc">Хувийн шинэчлэлт</string>
     <string name="standalone_zs_explore_content_desc">Судлах болон өөрийн зүйлийг нээх</string>
+    <string name="standalone_zs_opa_icon_desc">Туслах</string>
     <string name="star_rating_bar_content_description">Одоор үнэлэх: %1$s</string>
     <string name="starting_location_selector">%1$s. Эхлэх цэгийг сонгох.</string>
     <string name="starts_at">Эхлэх цаг</string>
@@ -2924,6 +2960,7 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="stop_download_prompt">Татан авалтыг зогсоох</string>
     <string name="streaming_text_recognizing">Таниулж байна…</string>
     <string name="street_address_label">Гудамжны хаяг</string>
+    <string name="success">Амжилттай</string>
     <string name="suggest">Автомат гүйцээлт</string>
     <string name="suggest_contact_removal_body">&lt;b>%1$s&lt;/b>-г таны Шилдэг харилцагчийн жагсаалтаас устгана. Та &lt;b>%2$s&lt;/b>-г хайж олох боломжтой хэвээр байна.</string>
     <string name="suggest_contact_removal_cancel">ЦУЦЛАХ</string>
@@ -3258,6 +3295,8 @@ Google Дуран нь төгс биш бөгөөд бид үүнийг боло
     <string name="user_defined_action_task_say_something_title">Ямар нэгэн зүйл хэлэх</string>
     <string name="user_defined_action_task_scene_control_title">Үзэгдэл</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Та энэ хэвшилд аль үзэгдлийг нэмэхээ сонгоно уу.</string>
+    <string name="user_defined_action_task_security_system_control_title">Хамгаалалтын системийг идэвхжүүлэх</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Та аль горимыг тохируулах хүсэлтэй байна вэ?</string>
     <string name="user_defined_action_task_send_text_content_summary">Хэрэв та хүлээн авагчийн дугаар эсвэл зурвасын агуулгыг хоосон орхивол энэ хэвшлийг ажиллуулах үед тэдгээрийг оруулах шаардлагатай.</string>
     <string name="user_defined_action_task_send_text_content_title">Текст ямар агуулгатай байх вэ?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Ямар тоог текстээр илгээх вэ?</string>

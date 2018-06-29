@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OpaErrorContentContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.gsa.opaonboarding.ui.HeaderLayout android:id="@id/opa_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView android:id="@id/opa_error_recycler_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/opa_error_content_separator" />
+</LinearLayout>

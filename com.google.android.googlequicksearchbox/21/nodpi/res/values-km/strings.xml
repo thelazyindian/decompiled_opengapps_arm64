@@ -181,7 +181,7 @@
     <string name="download_failed">មិន​អាច​ទាញ​យក​បាន​ទេ</string>
     <string name="download_not_found">រកមិនឃើញ​ការទាញយក​ទេ</string>
     <string name="download_setting_message">ភាគ​​ដែល​បាន​ទាញ​យក​ត្រូវបាន​លុប​ បន្ទាប់ពី​រយៈពេល 30 ថ្ងៃ ឬ 24 ម៉ោង​ បន្ទាប់ពី​បញ្ចប់</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">បាន​ទាញ​យក</string>
     <string name="downloaded_episodes">ភាគ​ដែល​បាន​ទាញ​យក</string>
     <string name="downloading">កំពុងទាញយក...</string>
     <string name="downloads">ឯកសារ​ទាញ​យក</string>
@@ -194,7 +194,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">ភាគ​ដែលមាន</string>
     <string name="episode_page_section_title">ភាគ</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">សម្រាប់អ្នក</string>
     <string name="error">បញ្ហា</string>
     <string name="error_message">ការស្វែងរកបានបរាជ័យ សូមព្យាយាមនៅពេលក្រោយ។</string>
@@ -369,10 +368,10 @@
     <string name="image_viewer_visit_site">ចូលទៅកាន់</string>
     <string name="indexing_not_ready">យើង​មិនទាន់​មាន​ខ្លឹមសារ​ដើម្បី​បង្ហាញ​អ្នក​នៅឡើយទេ។ សូមភ្ជាប់​អ៊ីនធឺណិត ហើយ​ត្រឡប់មក​ម្ដងទៀត​ក្នុងរយៈពេល​ពីរបី​នាទី​ក្រោយ។</string>
     <string name="info_target_label">ព័ត៌មាន​កម្មវិធី</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">ទាញយក​កម្មវិធី Google ផតខាស</string>
+    <string name="install_google_podcasts_accept">ទាញយកកម្មវិធី</string>
+    <string name="install_google_podcasts_message">ទាញយក​កម្មវិធី Google ផតខាសនៅក្នុង Play Store សម្រាប់​ការ​ចូល​ប្រើ​រហ័ស</string>
+    <string name="install_google_podcasts_reject">កុំទាន់</string>
     <string name="installed_app_group_header">កម្មវិធី</string>
     <string name="ipa_app_filter_content_description">លទ្ធផលពី %s</string>
     <string name="ipa_app_filter_more_description">មើលលទ្ធផលច្រើនទៀតពី %s</string>
@@ -401,20 +400,17 @@
     <string name="long_accessible_way_to_add">ប៉ះពីរដង ហើយចុចឲ្យជាប់ដើម្បីជ្រើសយកធាតុក្រាហ្វិក ឬប្រើសកម្មភាពផ្ទាល់ខ្លួន។</string>
     <string name="long_press_widget_to_add">ប៉ះ &amp; សង្កត់ ដើម្បី​ជ្រើស​ធាតុ​ក្រាហ្វិក។</string>
     <string name="longpress_menu_download">ទាញយករូបភាព</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">ចែករំលែករូបភាព</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="mark_as_played">សម្គាល់​ថាបាន​ចាក់</string>
+    <string name="mark_as_unplayed">សម្គាល់​ថាមិនបាន​ចាក់</string>
+    <string name="media_item_type_your_podcasts">ផតខាស​របស់​អ្នក</string>
     <string name="media_route_chooser_dialog_title">បញ្ជូន​ទៅ</string>
     <string name="media_route_chooser_searching">កំពុង​ស្វែងរក​ឧបករណ៍…</string>
     <string name="media_route_controller_cancel">បោះបង់</string>
     <string name="media_route_controller_stop_casting">បញ្ឈប់​ការបញ្ជូន</string>
     <string name="menu_get_help">ទទួល​ជំនួយ</string>
-    <string name="menu_search_by_image">ស្វែងរក​តាម​រយៈ​រូបភាព</string>
     <string name="menu_send_feedback">ផ្ញើមតិ</string>
-    <string name="menu_view_original_image">មើលរូបភាពដើម</string>
     <string name="message_image">រូបភាព</string>
     <string name="message_no_text">គ្មានអត្ថបទ</string>
     <string name="message_sender_text_divider">៖</string>
@@ -427,7 +423,6 @@
     <string name="migration_cling_title">ចម្លង​រូបតំណាង​កម្មវិធី​របស់​អ្នក</string>
     <string name="migration_cling_use_default">ចាប់ផ្ដើម​ធ្វើ​ឲ្យ​ស្រស់</string>
     <string name="minute_picker_description">គ្រាប់​រំកិល​រង្វង់​នាទី</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="mismatching_value_eir_code">ត្រូវតែផ្គូផ្គងជាមួយអាសយដ្ឋាន</string>
     <string name="mismatching_value_pin_code">ត្រូវតែផ្គូផ្គងជាមួយអាសយដ្ឋាន</string>
     <string name="mismatching_value_postal_code">ត្រូវតែផ្គូផ្គងជាមួយអាសយដ្ឋាន</string>
@@ -568,6 +563,7 @@
     <string name="recently_empty_state_read_later_body_text">យើង​នឹងរក្សា​ធាតុដែល​បានទាញយក​នៅលើ​ឧបករណ៍​របស់អ្នក​រយៈពេល 7 ថ្ងៃ។</string>
     <string name="recently_empty_state_read_later_title_text">បញ្ចូល​ទំព័រសម្រាប់អានពេលក្រោយ</string>
     <string name="recently_entry_interaction_offline">មិនអាច​បើក​ទំព័រ​ដែលបាន​ស្នើសុំ​នៅពេល​គ្មាន​អ៊ីនធឺណិត​បានទេ។</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">ព័ត៌មាន</string>
     <string name="recently_google_doodle_for">Google Doodle សម្រាប់ %s</string>
     <string name="recently_keep_on_device_until">រក្សាទុក​នៅលើ​ឧបករណ៍​រហូតដល់៖</string>
@@ -582,17 +578,17 @@
     <string name="recently_onboarding_recent_message_2">"ស្វែងរក​ប្រធានបទ​ដែល​អ្នក​បាន​ស្វែងរក​នៅក្នុង​កម្មវិធី Google កាល​ពីពេល​ថ្មីៗ​ឡើងវិញ​។
 
 អ្នក​អាច​បិទ​ក្រុម​នេះ​ដោយ​ច្បិចលើអេក្រង់។"</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">ស្វែងរកប្រធានបទ​ដែល​អ្នក​បាន​ស្វែងរកនៅក្នុង​កម្មវិធី Google កាល​ពី​ពេល​ថ្មីៗ​ឡើងវិញ​​។</string>
     <string name="recently_onboarding_recent_title">មើល​អ្វី​ដែល​អ្នក​បាន​រកឃើញ</string>
     <string name="recently_onboarding_search_on_message">"ទាំង​នេះ​គឺ​ជា​ទំព័រ​ដែល​អ្នក​បាន​ឃើញ​នៅលើ​ឧបករណ៍​នេះ។ ទំព័រ​ដែល​បាន​មក​ពី​ការ​ស្វែងរក​ដូចគ្នា​នឹង​ត្រូវ​បាន​ដាក់​ក្នុង​ក្រុម​ជាមួយ​ទំព័រ​ថ្មី​បំផុត​ជាមុនសិន។
 
 បន្ត​ស្វែងរក និង​រក​អ្វីដែលអ្នកបាន​រកឃើញ​​នៅ​ទីនេះ​ឡើងវិញ។"</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">​ទំព័រ​ទាំងនេះ​គឺជាទំព័រដែល​អ្នក​បាន​ឃើញ​នៅលើ​ឧបករណ៍​នេះ។ បន្ត​ស្វែងរក និង​រក​អ្វីដែលអ្នកបាន​ស្វែងរក​ឡើងវិញនៅ​ទីនេះ​។</string>
     <string name="recently_onboarding_search_on_title">ស្វែងរក​នៅលើ​</string>
     <string name="recently_onboarding_swipe_up_message">"ចង់លុបទំព័រថ្មីៗមែនទេ? ដើម្បីលុបពួកវា អ្នកគ្រាន់តែអូសទៅលើជាការស្រេច។
 
 វានឹងមិនលុបពួកវាចេញពីគណនី Google របស់អ្នកទេ។"</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">ចង់លុបទំព័រថ្មីៗមែនទេ? គ្រាន់តែអូសទៅលើ ដើម្បីលុបពួកវាជាការស្រេច។ សកម្មភាព​នេះនឹងមិនលុបពួកវាចេញពីគណនី Google របស់អ្នកទេ។</string>
     <string name="recently_onboarding_swipe_up_title">អូសទៅលើ</string>
     <string name="recently_overflow_title">ជម្រើស​ច្រើនទៀត</string>
     <string name="recently_reading_reminder">ការរំលឹកអំពីការអាន៖</string>
@@ -662,7 +658,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="remove_download">លុប​ការទាញយក</string>
     <string name="remove_downloaded_episode">លុបភាគ​ដែល​បាន​ទាញ​យក</string>
     <string name="remove_unfinished_episodes">លុប​ភាគ​ដែល​មិន​ទាន់​បញ្ចប់​</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">ដើម្បី​ទាញ​យក​ភាគ សូមអនុញ្ញាត​ការចូល​ប្រើ​ទំហំផ្ទុក​នៅក្នុង​ការអនុញ្ញាត​កម្មវិធី Google</string>
     <string name="request_storage_permission_dialog_message">ដើម្បីទាញ​យកភាគ​នានា Google ត្រូវការ​ចូល​ប្រើ​ទំហំ​ផ្ទុក​ឧបករណ៍​របស់អ្នក</string>
     <string name="request_storage_permission_dialog_title">អនុញ្ញាត​ឱ្យចូល​ប្រើ​ទំហំ​ផ្ទុក</string>
     <string name="reservation_group_header">ការ​កក់</string>
@@ -689,13 +685,15 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">អេក្រង់ដែលបានផ្លាស់ទី</string>
     <string name="screenshot_srp_desc">ស្វែងរក %s ។</string>
     <string name="screenshot_srp_pending_desc">ការស្វែងរក %s ដែលមិនទាន់បញ្ចប់</string>
+    <string name="screenshot_srp_voice_pending_desc">ការ​​ស្វែងរក​តាមសំឡេង​ដែលមិនទាន់​សម្រេច</string>
+    <string name="screenshot_srp_voice_pending_title">ស្វែងរក​តាម​សំឡេង</string>
     <string name="screenshot_web_desc">ចូល​ទៅកាន់ %s ។</string>
     <string name="screenshot_webpage_pending_desc">ការទាញយកដែល​មិនទាន់​សម្រេច</string>
     <string name="search_contact_on_web">"ស្វែងរក​គេហទំព័រសម្រាប់ '%s'"</string>
     <string name="search_error_message">"មាន​អ្វី​មួយ​ខុសប្រកតី។
 សូម​សាកល្បង​ស្វែងរក​ផតខាស​ម្តង​ទៀត។"</string>
     <string name="search_menu_title">ស្វែងរក</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">ស្វែងរក​លើ​អ៊ីនធឺណិត</string>
     <string name="search_the_web_suggestion">ស្វែងរក​លើ​អ៊ីនធឺណិត</string>
     <string name="searchbar_hint">ស្វែងរក​ផតខាស</string>
     <string name="searchbox_hint">ស្វែងរក​មាតិកា​ថ្មីៗ</string>

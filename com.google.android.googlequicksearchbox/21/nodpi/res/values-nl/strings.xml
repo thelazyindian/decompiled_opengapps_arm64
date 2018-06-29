@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">Aan wie wil je een sms verzenden?</string>
     <string name="action_sound_search_get_song">Ga naar Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">Dit is een actie die is gerelateerd aan wat je typt.</string>
     <string name="action_unlock_device_tts">Ik kan dit niet doen terwijl het apparaat is vergrendeld. Ontgrendel je apparaat om door te gaan.</string>
     <string name="action_video_call">Videogesprek</string>
     <string name="action_voice_call">Bellen</string>
@@ -247,6 +248,10 @@
     <string name="agent_bookmark_error">Er is een fout opgetreden. Probeer het later opnieuw.</string>
     <string name="agent_bookmark_removed">Verwijderd uit bladwijzers</string>
     <string name="agent_description_more">meer</string>
+    <string name="agent_details_add_routine_description">Krijg meer gedaan via je routines met updates van %1$s.</string>
+    <string name="agent_details_add_routine_item">Toevoegen</string>
+    <string name="agent_details_customize_routine">Je routine aanpassen</string>
+    <string name="agent_details_manage_routines">Routines beheren</string>
     <string name="agent_details_splash_image_a11y">Afbeelding van Assistent-app</string>
     <string name="agent_directory_a11y_back_button">Terug</string>
     <string name="agent_directory_a11y_more_groups">Meer</string>
@@ -503,6 +508,7 @@ Toestaan dat Google je screenshots van 'Scherm doorzoeken' voor onbepaalde tijd 
 De Assistent gebruikt deze instelling voor vragen over je woon-werkverkeer"</string>
     <string name="assistant_settings_commute_walk">Lopen</string>
     <string name="assistant_settings_commute_walk_key">WOON-WERKVERKEER Lopen</string>
+    <string name="assistant_settings_contact_list_introduction">Dit is wat je de Assistent hebt gevraagd te onthouden over mensen die je kent.</string>
     <string name="assistant_settings_custom_routines_description">Laat je Assistent meerdere taken tegelijk uitvoeren met één opdracht. Gebruik vooraf gegenereerde routines die je kunt aanpassen aan je dag of maak zelf aangepaste routines.</string>
     <string name="assistant_settings_default_record_button_text">Opnemen</string>
     <string name="assistant_settings_delete_button_label">Verwijderen</string>
@@ -649,13 +655,15 @@ De Assistent gebruikt deze instelling voor vragen over je woon-werkverkeer"</str
     <string name="assistant_settings_music_provider_category_title">De assistent maakt standaard gebruik van deze muziekprovider wanneer wordt gevraagd om muziek af te spelen. Je kunt nog steeds muziek afspelen via alle andere gelinkte providers, indien ze zijn gespecificeerd.</string>
     <string name="assistant_settings_music_title">Muziek</string>
     <string name="assistant_settings_music_unable_unlink_default">Kan de link met je standaardmuziekprovider niet verwijderen</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Je hebt een YouTube Red-lidmaatschap nodig om naar YouTube Music te luisteren via Google Home. Je kunt je aanmelden op <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Red-lidmaatschap is vereist</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Als je je account ontkoppelt, kun je %1$s niet meer afspelen via de Google Assistent.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Je hebt een YouTube Premium-lidmaatschap nodig om naar YouTube Music te luisteren via de Google Home. Je kunt je aanmelden op <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Er is een YouTube Premium-lidmaatschap vereist</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s verwijderen uit je ingeschakelde nieuwsbronnen</string>
     <string name="assistant_settings_news_supports_video">Video beschikbaar op Smart Displays</string>
     <string name="assistant_settings_news_title">Nieuws</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">In je bijnaam zit een teken dat de Assistent niet kan uitspreken. Spel hoe dit teken klinkt in het volgende gedeelte.</string>
     <string name="assistant_settings_no_device_linked">Met Voice Match kan de Assistent je persoonlijke gegevens verstrekken wanneer je stem wordt herkend. Maximaal zes mensen kunnen hun eigen planning, muziek en meer krijgen.</string>
+    <string name="assistant_settings_no_language_summary">Geen</string>
     <string name="assistant_settings_no_language_title">Een taal toevoegen</string>
     <string name="assistant_settings_no_shopping_list">Je hebt geen shoppinglijst.</string>
     <string name="assistant_settings_notes_lists_title">Notities en lijsten</string>
@@ -823,6 +831,7 @@ De Assistent gebruikt deze instelling om je een routebeschrijving te geven naar 
     <string name="assistant_settings_summer_time_mode_availability_clarification">Gespreksmodus is momenteel alleen beschikbaar voor Engels (VS). Als je Google Home-apparaten gebruikt die hier niet worden weergegeven, kan de persoon met het primaire account voor die apparaten Gespreksmodus in- of uitschakelen in de instellingen voor de Assistent.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Je kunt dit wijzigen voor deze Google Home-apparaten</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Geen apparaten beschikbaar</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">"De microfoon van je apparaat wordt na elke reactie opnieuw geopend om te luisteren of er vervolgvragen zijn. Deze worden zoals gebruikelijk weergegeven in 'Mijn activiteit'. Audio waarop de Assistent niet reageert, wordt verwijderd uit je Google-account."</string>
     <string name="assistant_settings_summer_time_mode_button_title">Gespreksmodus</string>
     <string name="assistant_settings_summer_time_mode_title">Gespreksmodus</string>
     <string name="assistant_settings_turn_off_voice_match">Als je Voice Match uitschakelt, verwijder je de link tussen je account en dit apparaat. Er moet ten minste één account zijn gelinkt om je apparaat met Google Assistent-functionaliteit te gebruiken. Weet je zeker dat je de link met je account wilt verwijderen? </string>
@@ -851,10 +860,8 @@ De Assistent gebruikt deze instelling om je een routebeschrijving te geven naar 
     <string name="assistant_settings_update_error_message">Kan de instelling niet updaten. Controleer je verbinding.</string>
     <string name="assistant_settings_video_calls_service_category_title">De Assistent kan via je voorkeursservice bellen vanaf bepaalde apparaten, zoals de Google Smart Display. Bellen naar noodnummers is niet mogelijk.</string>
     <string name="assistant_settings_video_icon_text">Pictogram van videoprovider</string>
-    <string name="assistant_settings_video_link_dialog_text">Link je Google-account aan %1$s om spraakbediening en afspelen op geschikte apparaten mogelijk te maken. Wanneer je de %1$s-service bedient via Google Home of om informatie vraagt met betrekking tot %1$s, kunnen die vragen worden verzonden naar %1$s voor gebruik in overeenstemming met het privacybeleid van die service.</string>
     <string name="assistant_settings_video_provider_category_summary">"Speel tv-programma's en films af door dit aan de Assistent te vragen."</string>
     <string name="assistant_settings_video_provider_category_title">"Video's"</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Als je de link voor je account verwijdert, wordt spraakbediening uitgeschakeld.</string>
     <string name="assistant_settings_videos_photos_title">"Video's en foto's"</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast of tv met ingebouwde Chromecast-functionaliteit</string>
     <string name="assistant_settings_voice_and_video_calls_title">Spraakoproepen en videogesprekken</string>
@@ -866,6 +873,21 @@ De Assistent gebruikt deze instelling om je een routebeschrijving te geven naar 
     <string name="assistant_settings_weather_title">Weer</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Werkadres verwijderen?</string>
     <string name="assistant_settings_work_title">Werkadres</string>
+    <string name="assistant_settings_your_people_address">Adres: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Verjaardag: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Een verjaardag onthouden</string>
+    <string name="assistant_settings_your_people_deletion_failure">Er is een probleem opgetreden. Probeer het later opnieuw.</string>
+    <string name="assistant_settings_your_people_email">E-mail: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Een gezinslid onthouden</string>
+    <string name="assistant_settings_your_people_forget_button">Vergeten</string>
+    <string name="assistant_settings_your_people_forget_dialog">Hiermee worden alle gegevens verwijderd die je de Assistent hebt gevraagd te onthouden over %1$s</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Deze gegevens vergeten?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Deze gegevens vergeten</string>
+    <string name="assistant_settings_your_people_phone">Telefoon: %1$s</string>
+    <string name="assistant_settings_your_people_splash">"Als je vervolgens 'Bel mama' of 'Wanneer is mijn broer jarig' zegt, staat de Assistent klaar om te helpen."</string>
+    <string name="assistant_settings_your_people_splash_title">Vertel de Assistent wie wie is</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Je kunt de Assistent het volgende vragen:</string>
+    <string name="assistant_settings_your_people_title">Je mensen</string>
     <string name="assistant_speaker_id_default_category_summary">Je Assistent geeft alleen jouw persoonlijke informatie wanneer deze je stem herkent op deze apparaten</string>
     <string name="assistant_speaker_id_default_category_title">Gedeelde apparaten met Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Registratie kan niet worden voltooid.</string>
@@ -1107,7 +1129,7 @@ Er kunnen gegevenskosten in rekening worden gebracht."</string>
     <string name="cloud_search_history_summary_fetching">Instellingen ophalen…</string>
     <string name="collapse">Samenvouwen</string>
     <string name="collapse_time_to_leave">Opties voor deze reis verbergen.</string>
-    <string name="collections">Collecties</string>
+    <string name="collections">Opgeslagen</string>
     <string name="comment_hint">Aanvullende opmerkingen (optioneel).</string>
     <string name="common_address_clear_button_label">Wissen</string>
     <string name="common_address_clear_confirm_button">Verwijderen</string>
@@ -1352,6 +1374,10 @@ We moeten dan je geschatte locatie afleiden uit andere informatie (zoals het IP-
     <string name="device_setup_error_cancel_button">Hulp vragen</string>
     <string name="device_setup_error_content">Er is iets misgegaan</string>
     <string name="device_setup_error_title">Er is mogelijk een probleem</string>
+    <string name="devices_scan_action_button">Doorgaan</string>
+    <string name="devices_scan_cancel_button">Annuleren</string>
+    <string name="devices_scan_explanation">Apparaten kiezen</string>
+    <string name="devices_scan_title">Apparaten toevoegen</string>
     <string name="directory_for_mall">Winkels in %1$s</string>
     <string name="disable_assistant_confirm_message">Je hoofdtelefoon heeft geen toegang tot de Google Assistent, dus je hoort je berichten, agenda-afspraken en andere belangrijke informatie niet. Op het gebruik van deze hoofdtelefoon zijn echter wel de <a href="https://www.google.com/policies/terms/">servicevoorwaarden</a> van toepassing. Als je de Assistent later wilt instellen, tik je op de startknop van je telefoon en houd je de knop ingedrukt.</string>
     <string name="disclaimer">Disclaimer</string>
@@ -1386,7 +1412,7 @@ We moeten dan je geschatte locatie afleiden uit andere informatie (zoals het IP-
     <string name="download_not_found">Download niet gevonden</string>
     <string name="download_prompt">Downloaden</string>
     <string name="download_setting_message">Gedownloade afleveringen worden na 30 dagen verwijderd, of 24 uur nadat ze zijn voltooid</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Gedownload</string>
     <string name="downloaded_episodes">Gedownloade afleveringen</string>
     <string name="downloading">Downloaden...</string>
     <string name="downloads">Downloads</string>
@@ -1450,7 +1476,6 @@ komende twee weken."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Beschikbare afleveringen</string>
     <string name="episode_page_section_title">Aflevering</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Voor jou</string>
     <string name="error">Fout</string>
     <string name="error_adding_location_snackbar_text">Fout bij toevoegen van locatie</string>
@@ -1527,7 +1552,6 @@ Controleer je verbinding en probeer het opnieuw."</string>
     <string name="eyes_donate_data_optin_ok">OK</string>
     <string name="eyes_donate_data_optin_title">Lens-afbeeldingen doneren</string>
     <string name="eyes_flash_button_description">Flitser in-/uitschakelen</string>
-    <string name="eyes_initial_suggestion_0">Wat kun je herkennen?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">Ik heb geen toestemming daarvoor</string>
     <string name="eyes_no_permission_camera">Ik heb geen toestemming om de camera te gebruiken</string>
@@ -1555,7 +1579,6 @@ Google Lens is niet alwetend en we hebben het niet altijd bij het juiste eind al
     <string name="eyes_onboarding_title_text">Tekst scannen</string>
     <string name="eyes_request_timed_out_message">Google kan momenteel niet worden bereikt</string>
     <string name="eyes_share_with">Delen met</string>
-    <string name="eyes_unfreeze_image_description">Terug naar camera</string>
     <string name="eyes_viewfinder_description">Google Lens activeren</string>
     <string name="failed">Kan afbeelding niet laden</string>
     <string name="failed_to_open_webview">Kan pagina niet openen</string>
@@ -1692,8 +1715,13 @@ Zeg bijvoorbeeld 'Wat kun je doen?'"</string>
     <string name="folder_renamed">De naam van de map is gewijzigd in %1$s</string>
     <string name="folder_tap_to_close">Raak dit aan om de map te sluiten</string>
     <string name="folder_tap_to_rename">Raak dit aan om de gewijzigde naam op te slaan</string>
+    <string name="follow_soccer_promo_query">voetbal 2018</string>
     <string name="follow_world_cup_promo">Volg het WK</string>
     <string name="follow_world_cup_promo_content_description">Volg het WK</string>
+    <string name="follow_world_cup_promo_detail">Tik hier om je aan te melden voor wedstrijdherinneringen, nieuws en live scores voor je favoriete teams</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Blijf op de hoogte van voetbalwedstrijden</string>
+    <string name="follow_world_cup_promo_query">WK 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">De voetbalkoorts is begonnen!</string>
     <string name="forbid_download_removal">Kan aflevering niet verwijderen tijdens het afspelen</string>
     <string name="foreground_notification_text">De Google Assistent voor je hoofdtelefoon is actief op de achtergrond.</string>
     <string name="foreground_notification_title">Google Assistent-hoofdtelefoon</string>
@@ -2055,7 +2083,7 @@ Je kunt persoonlijke resultaten uitschakelen in de instellingen voor de Assisten
     <string name="how_to_fetch4_level_2">Wanneer je je nieuwste meldingen wilt beluisteren, druk je op de Google Assistent-knop.</string>
     <string name="how_to_fetcht">Je kunt je meldingen trouwens maximaal een uur lang afluisteren. Tik twee keer op de rechteroordop om je meldingen te beluisteren.</string>
     <string name="how_to_fetcht_level_2">Tik gewoon twee keer op de rechteroordop wanneer je je laatste meldingen wilt beluisteren.</string>
-    <string name="hq_a11y_bottom_bar_button">Activeer de microfoon om te chatten met de Assistent</string>
+    <string name="hq_a11y_bottom_bar_button">Assistent</string>
     <string name="hq_a11y_chatui_badge">Je bestanden en gegevens openen en verkennen</string>
     <string name="hq_a11y_menu_button">Menu</string>
     <string name="hq_account_switch_prompt">Inloggen als %1$s</string>
@@ -2186,10 +2214,10 @@ Je kunt persoonlijke resultaten uitschakelen in de instellingen voor de Assisten
     <string name="inferred_event_error">Kan evenement niet maken</string>
     <string name="inferred_from_gmail">"Wordt '%1$s' genoemd in Gmail"</string>
     <string name="info_target_label">App-info</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">De Google Podcasts-app downloaden</string>
+    <string name="install_google_podcasts_accept">De app downloaden</string>
+    <string name="install_google_podcasts_message">Download de Google Podcasts-app via de Play Store voor snelle toegang</string>
+    <string name="install_google_podcasts_reject">Niet nu</string>
     <string name="installed_app_group_header">Apps</string>
     <string name="installed_details">Versie %1$s geïnstalleerd, grootte op schijf %2$s</string>
     <string name="installed_language_packs">Geïnstalleerd</string>
@@ -2242,7 +2270,7 @@ Je kunt persoonlijke resultaten uitschakelen in de instellingen voor de Assisten
     <string name="item_is_selected">%1$s geselecteerd</string>
     <string name="item_moved">Item verplaatst</string>
     <string name="item_removed">Item verwijderd</string>
-    <string name="jasper_duo_knock_knock_summary">Bekijk het videobeeld van de beller voordat je opneemt en laat mensen die jij belt jouw videobeeld zien terwijl hun telefoon overgaat. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Meer informatie&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Bekijk het videobeeld van de beller voordat je opneemt en laat mensen die jij belt jouw videobeeld zien terwijl hun telefoon overgaat. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Klop Klop</string>
     <string name="jasper_duo_not_signed_in">Niet ingelogd</string>
     <string name="jasper_duo_signed_in">Ingelogd</string>
@@ -2346,10 +2374,10 @@ Je kunt persoonlijke resultaten uitschakelen in de instellingen voor de Assisten
     <string name="location_service_required_title">Bekijk locatiegebaseerde kaarten</string>
     <string name="lockscreen_mic_promo_notification_content">Ontgrendel je telefoon door %1$s te zeggen.</string>
     <string name="lockscreen_mic_promo_notification_title">Ontgrendelen met je stem</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Dubbeltik en blijf aanraken om een widget toe te voegen of aangepaste acties te gebruiken.</string>
     <string name="long_press_widget_to_add">Blijf aanraken om een widget toe te voegen.</string>
     <string name="longpress_menu_download">Afbeelding downloaden</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Afbeelding delen</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2384,10 +2412,10 @@ Je kunt persoonlijke resultaten uitschakelen in de instellingen voor de Assisten
     <string name="map_content_description">Kaart</string>
     <string name="map_route_content_description">Kaart naar %1$s</string>
     <string name="maps_mode_landing_text">Kaarten zoeken</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Markeren als afgespeeld</string>
+    <string name="mark_as_unplayed">Markeren als niet-afgespeeld</string>
     <string name="media_content_image">Een afbeelding die relevant is voor de media-content die op deze kaart wordt weergegeven</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Je podcasts</string>
     <string name="media_route_chooser_dialog_title">Casten naar</string>
     <string name="media_route_chooser_searching">Zoeken naar apparaten…</string>
     <string name="media_route_controller_cancel">Annuleren</string>
@@ -2400,13 +2428,11 @@ Je kunt persoonlijke resultaten uitschakelen in de instellingen voor de Assisten
     <string name="menu_overlay_feedback">Feedback verzenden</string>
     <string name="menu_overlay_reset_to_default_style">Standaardstijl resetten</string>
     <string name="menu_refresh">Vernieuwen</string>
-    <string name="menu_search_by_image">Zoeken op afbeelding</string>
     <string name="menu_send_button_content_description">Knop Verzenden om feedback te verzenden.</string>
     <string name="menu_send_feedback">Feedback verzenden</string>
     <string name="menu_settings">Instellingen</string>
     <string name="menu_share">Delen</string>
     <string name="menu_view_in_browser">Bekijken in browser</string>
-    <string name="menu_view_original_image">Oorspronkelijke afbeelding bekijken</string>
     <string name="menu_visit_page">Pagina bezoeken</string>
     <string name="message_card_feedback">Feedback</string>
     <string name="message_image">Afbeelding</string>
@@ -2455,7 +2481,6 @@ Je kunt persoonlijke resultaten uitschakelen in de instellingen voor de Assisten
     <string name="minus_one_header_settings">Instellingen</string>
     <string name="minute_picker_description">Ronde schuifregelaar voor minuten</string>
     <string name="minutes">Minuten</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Diversen</string>
     <string name="mismatching_value_eir_code">Moet overeenkomen met adres</string>
     <string name="mismatching_value_pin_code">Moet overeenkomen met het adres</string>
@@ -2539,7 +2564,6 @@ Je kunt al je Google-zoekopdrachten en meer vinden en beheren via 'Mijn activite
     <string name="network_error_fetching_weather_data_status_text">Netwerk momenteel niet beschikbaar</string>
     <string name="network_error_no_connection_tts">Er is momenteel geen verbinding met internet.</string>
     <string name="network_error_resend_audio">Audio opnieuw verzenden</string>
-    <string name="network_error_try_again">Opnieuw proberen</string>
     <string name="network_location_required_text">Als je locatiegebaseerde kaarten wilt bekijken zoals het lokale weerbericht en verkeersinformatie, kun je wifi en mobiele netwerklocatie inschakelen.</string>
     <string name="network_location_required_text_klp">Als je locatiegebaseerde kaarten, zoals het lokale weerbericht en verkeersinformatie, wilt bekijken, kun je de locatiemodus met hoge nauwkeurigheid of die voor accubesparing inschakelen.</string>
     <string name="never">Nooit</string>
@@ -2642,7 +2666,7 @@ Je kunt al je Google-zoekopdrachten en meer vinden en beheren via 'Mijn activite
     <string name="not_access_toast">Toegang tot meldingen inschakelen voor %1$s.</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Services voor lijsten en notities</string>
-    <string name="notes_lists_none_preference_summary">Secundaire gegevens</string>
+    <string name="notes_lists_none_preference_summary">De Assistent synchroniseert je gegevens niet met services.</string>
     <string name="notes_lists_none_preference_title">Geen</string>
     <string name="notes_lists_provider_changed_description">"Assistent-gegevens voor notities en lijsten worden niet meer geüpdatet met %1$s. Bestaande gegevens die zijn opgeslagen bij %1$s, worden niet verwijderd.
 
@@ -2650,6 +2674,7 @@ Wil je doorgaan?"</string>
     <string name="notes_lists_provider_changed_negative_button">Annuleren</string>
     <string name="notes_lists_provider_changed_positive_button">Akkoord</string>
     <string name="notes_lists_provider_changed_title">Ontkoppelen van %1$s</string>
+    <string name="notes_lists_title">Je Assistent zorgt dat je notities en lijsten worden gesynchroniseerd met deze services.</string>
     <string name="notification_access_link_text">Meldingstoegang uitschakelen</string>
     <string name="notification_accessable_apps_category_title">Meldingstoegang</string>
     <string name="notification_cancel_text">Google probeert deze zoekopdracht niet opnieuw wanneer je weer online bent.</string>
@@ -2773,6 +2798,7 @@ Wil je doorgaan?"</string>
     <string name="opa_assist_app_screen_explanation">"Voor toegang tot de Google Assistent kies je de Google-app in de instellingen voor 'Assistent en spraakinvoer'"</string>
     <string name="opa_assist_app_screen_title">De Google-app is niet je standaard assistent-app</string>
     <string name="opa_assistant_logo_content_description">Gesproken zoekopdracht</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Bekijk updates voor je Google Assistent</string>
     <string name="opa_consent_check_error_button">Sluiten</string>
     <string name="opa_consent_check_error_button_notavailable">Schakelen tussen accounts</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Afhankelijk van je accountinstellingen kan de Assistent beperkt zijn tot functies zoals internetresultaten, grappen en lokale informatie.</string>
@@ -2849,7 +2875,6 @@ Als je activiteit verwijdert uit de geschiedenis van de Google Assistent, is dit
     <string name="opa_eyes_free_opt_in_speech">Tik op de melding zodra u dit veilig kunt doen. Vervolgens kunt u headsets laten werken met de Google Assistent.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Tik om door te gaan</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Verleen de Google Assistent toestemming om je te helpen</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Tik om door te gaan</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Later doen</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Ik ga akkoord</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">AAN DE SLAG</string>
@@ -2910,6 +2935,7 @@ bekijken en beheren via"</string>
     <string name="opa_launcher_icon_text">Assistent</string>
     <string name="opa_lock_icon_description">Ontgrendelingspictogram</string>
     <string name="opa_logo_content_desc">Google Assistent-logo</string>
+    <string name="opa_mark_content">Assistent</string>
     <string name="opa_marketplace_disclosure_description">Je Google Assistent kan samenwerken met verschillende services om meer verschillende dingen te doen.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">De Google Assistent kan samenwerken met Google-partners om je te helpen met je takenlijst, zoals bioscoopkaartjes kopen of je gootsteen laten repareren. &lt;a href=https://support.google.com/assistant/?p=google_partners>Meer informatie&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google-partners zijn bedrijven die een commerciële relatie hebben met Google. De Google Assistent kan samenwerken met Google-partners om meer taken te kunnen uitvoeren, zoals filmkaartjes reserveren of je gootsteen laten repareren. <a href="https://support.google.com/assistant/?p=google_partners">Meer informatie</a></string>
@@ -3368,6 +3394,7 @@ Geschatte grootte: %d KB"</string>
     <string name="recently_empty_state_read_later_body_text">We bewaren de gedownloade items zeven dagen op je apparaat.</string>
     <string name="recently_empty_state_read_later_title_text">"Pagina's toevoegen om later te lezen"</string>
     <string name="recently_entry_interaction_offline">Kan de gevraagde pagina niet openen terwijl je offline bent.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Feed</string>
     <string name="recently_google_doodle_for">Google-doodle voor %s</string>
     <string name="recently_keep_on_device_until">Op apparaat laten tot:</string>
@@ -3382,17 +3409,17 @@ Open deze groep pagina's om meer te bekijken."</string>
     <string name="recently_onboarding_recent_message_2">"Herontdek onderwerpen die je onlangs hebt gezocht in de Google-app.
 
 Je kunt de groep sluiten met een knijpbeweging."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Herontdek onderwerpen waarnaar je recent hebt gezocht in de Google-app.</string>
     <string name="recently_onboarding_recent_title">Bekijk wat je hebt gevonden</string>
     <string name="recently_onboarding_search_on_message">"De pagina's hier zijn pagina's die je hebt bekeken op dit apparaat. Pagina's van dezelfde zoekopdracht zijn bij elkaar gegroepeerd en de nieuwste worden als eerste weergegeven.
 
 Blijf zoeken en herontdek je gevonden pagina's hier."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">"Deze pagina's heb je eerder bekeken op dit apparaat. Zoek gerust door, en bekijk je gevonden pagina's later hier terug."</string>
     <string name="recently_onboarding_search_on_title">Zoeken op</string>
     <string name="recently_onboarding_swipe_up_message">"Wil je recente pagina's niet meer zien? Veeg omhoog om ze te verwijderen.
 
 Ze worden niet verwijderd uit je Google-account."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">"Wil je recente pagina's niet meer zien? Veeg omhoog om ze te verwijderen. Hiermee worden ze niet uit je Google-account verwijderd."</string>
     <string name="recently_onboarding_swipe_up_title">Omhoog vegen</string>
     <string name="recently_overflow_title">Meer opties</string>
     <string name="recently_reading_reminder">Leesherinnering:</string>
@@ -3424,6 +3451,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Web</string>
     <string name="recents_result_separate_group_header">Recente zoekopdrachten</string>
     <string name="recognizer_service_label">Basale Google-herkenning</string>
+    <string name="recommendation_header_text">Aanbevolen voor jou</string>
     <string name="reconnecting_loading_results">"Je resultaten worden geladen
 "</string>
     <string name="reconnecting_title">Opnieuw verbinding maken...</string>
@@ -3496,7 +3524,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Naam</string>
     <string name="report_other_reason">Anders</string>
     <string name="report_this">Dit melden</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Sta toegang tot je opslag toe via de machtigingen voor de Google-app als je afleveringen wilt downloaden</string>
     <string name="request_storage_permission_dialog_message">Google heeft toegang tot je apparaatopslag nodig om afleveringen te downloaden</string>
     <string name="request_storage_permission_dialog_title">Toegang tot opslag toestaan</string>
     <string name="reservation_group_header">Reserveringen</string>
@@ -3578,10 +3606,12 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_assist_translate">Vertalen</string>
     <string name="screen_context_desc">Bekijk relevante suggesties van de Assistent over wat je op je scherm ziet</string>
     <string name="screen_context_title">Ontvang informatie over wat je op je scherm ziet</string>
-    <string name="screen_locked_info">Your Assistant is available even when your phone is locked. You can turn this off in Assistant settings.</string>
+    <string name="screen_locked_info">Je Assistent is ook beschikbaar wanneer de telefoon is vergrendeld. Je kunt dit uitschakelen in de instellingen voor de Assistent.</string>
     <string name="screen_moved">Scherm verplaatst</string>
     <string name="screenshot_srp_desc">Zoekopdracht naar %s.</string>
     <string name="screenshot_srp_pending_desc">Zoekopdracht in behandeling voor %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Gesproken zoekopdracht in behandeling</string>
+    <string name="screenshot_srp_voice_pending_title">gesproken zoekopdracht</string>
     <string name="screenshot_web_desc">Bezoek %s.</string>
     <string name="screenshot_webpage_pending_desc">Download in behandeling</string>
     <string name="scroll_left">Naar links scrollen</string>
@@ -3639,7 +3669,7 @@ Zoek opnieuw naar de podcast."</string>
     <string name="search_sources_tablet">Zoeken op tablet</string>
     <string name="search_storage_label">Google Zoeken-opslag</string>
     <string name="search_tablet">Zoeken op tablet</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Zoeken op internet</string>
     <string name="search_the_web_menu_text">Zoeken op internet</string>
     <string name="search_the_web_suggestion">Zoeken op internet</string>
     <string name="search_widget_customization">Widget aanpassen</string>
@@ -3879,7 +3909,9 @@ Dit programma is momenteel niet beschikbaar."</string>
     <string name="sports_wins_header">W</string>
     <string name="sports_wins_header_full_length">Wedstrijden gewonnen</string>
     <string name="standalone_zs_back_content_desc">Terug</string>
+    <string name="standalone_zs_brick_content_desc">Persoonlijke updates</string>
     <string name="standalone_zs_explore_content_desc">Je bestanden en gegevens openen en verkennen</string>
+    <string name="standalone_zs_opa_icon_desc">Assistent</string>
     <string name="star_rating_bar_content_description">Sterbeoordeling: %1$s</string>
     <string name="starting_location_selector">%1$s. Kies een startlocatie.</string>
     <string name="starts_at">Begint om</string>
@@ -3895,6 +3927,7 @@ Dit programma is momenteel niet beschikbaar."</string>
     <string name="street_address_label">Adres</string>
     <string name="subscribe_button_label">Abonneren</string>
     <string name="subscribe_to_see_new_episodes">Abonneer je op podcasts om nieuwe afleveringen te zien</string>
+    <string name="success">Geslaagd</string>
     <string name="suggest">Automatisch aanvullen</string>
     <string name="suggest_contact_removal_body">Hierdoor wordt &lt;b>%1$s&lt;/b> uit je lijst met topcontacten verwijderd. Je kunt &lt;b>%2$s&lt;/b> nog steeds vinden via de zoekfunctie.</string>
     <string name="suggest_contact_removal_cancel">ANNULEREN</string>
@@ -4276,6 +4309,8 @@ Ingelogd als %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Zeg iets</string>
     <string name="user_defined_action_task_scene_control_title">Scènes</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Kies welke van je scènes je aan deze routine wilt toevoegen.</string>
+    <string name="user_defined_action_task_security_system_control_title">Beveiligingssysteem activeren</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Welke modus wil je instellen?</string>
     <string name="user_defined_action_task_send_text_content_summary">Als je het nummer van de ontvanger of de ruimte voor het bericht leeg laat, wordt je gevraagd dit in te vullen wanneer je deze routine start.</string>
     <string name="user_defined_action_task_send_text_content_title">Wat moet er in de sms staan?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Naar welk nummer wil je een sms sturen?</string>

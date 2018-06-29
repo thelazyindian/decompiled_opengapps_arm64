@@ -118,6 +118,7 @@
     <string name="action_sms_who_tts">آپ کس کو متن بھیجنا چاہتے ہیں؟</string>
     <string name="action_sound_search_get_song">‏Google Play پر جائیں</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">آپ جو ٹائپ کر رہے ہیں یہ اس سے متعلق ایک کارروائی ہے۔</string>
     <string name="action_unlock_device_tts">دراصل، آلہ مقفل ہوتے ہوئے میں یہ نہیں کر سکتا۔ جاری رکھنے کیلئے، آگے بڑھیں اور اپنا آلہ غیر مقفل کریں۔</string>
     <string name="action_who_is_relation_1_tts">آپ رابطے کا نام لیں یا \"%2$s\" بولیں۔</string>
     <string name="action_who_is_relation_eyes_free_1_tts">سمجھ نہیں آیا۔ آپ کی مراد کون ہے؟</string>
@@ -172,6 +173,10 @@
     <string name="agent_bookmark_error">ایک خرابی تھی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
     <string name="agent_bookmark_removed">بُک مارکس سے ہٹا دیا گیا</string>
     <string name="agent_description_more">مزید</string>
+    <string name="agent_details_add_routine_description">%1$s سے حاصل ہونے والے اپ ڈیٹس کے ساتھ اپنی روٹینز میں مزید کام مکمل کریں۔</string>
+    <string name="agent_details_add_routine_item">شامل کریں</string>
+    <string name="agent_details_customize_routine">اپنی روٹین کو حسب ضرورت بنائیں</string>
+    <string name="agent_details_manage_routines">روٹینز کا نظم کریں</string>
     <string name="agent_details_splash_image_a11y">اسسٹنٹ ایپ کی تصویر</string>
     <string name="agent_directory_a11y_back_button">پیچھے</string>
     <string name="agent_directory_a11y_more_groups">مزید</string>
@@ -391,6 +396,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
 آپ کا اسسٹنٹ  آپ کے روزانہ کے سفر کے بارے میں سوالات کیلئے اس ترتیب کا استعمال کرے گا"</string>
     <string name="assistant_settings_commute_walk">پیدل</string>
     <string name="assistant_settings_commute_walk_key">پیدل چل کر روزانہ کا سفر کریں</string>
+    <string name="assistant_settings_contact_list_introduction">آپ جن لوگوں کو جانتے ہیں ان کے بارے میں اپنی اسسٹنٹ سے آپ نے جو معلومات یاد رکھنے کے لیے کہی ہے وہ یہ ہے</string>
     <string name="assistant_settings_custom_routines_description">صرف ایک کمانڈ کے ساتھ اپنے اسسٹنٹ سے متعدد کام کرائیں۔ پہلے سے تیار شدہ روٹینز استعمال کریں جنہیں آپ اپنے دن کے مطابق ڈھالنے کیلئے ایڈجسٹ کر سکتے ہیں، اور بالکل نئے سرے سے حسب ضرورت تخلیق کریں۔</string>
     <string name="assistant_settings_default_record_button_text">ریکارڈ کریں</string>
     <string name="assistant_settings_delete_button_label">حذف کریں</string>
@@ -536,13 +542,15 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="assistant_settings_music_provider_category_title">جب موسیقی چلانے کا کہا جائے گا تو اسسٹنٹ بذریعہ ڈیفالٹ اس موسیقی فراہم کنندہ کو استعمال کرے گا۔ آپ اب بھی متعین کرکے دیگر تمام لنک کردہ فراہم کنندگان استعمال کر کے موسیقی چلا سکتے ہیں۔</string>
     <string name="assistant_settings_music_title">موسیقی</string>
     <string name="assistant_settings_music_unable_unlink_default">آپ کے ڈیفالٹ موسیقی فراہم کنندہ کا لنک ختم نہیں ہو سکتا</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">‏Google ہوم پر YouTube موسیقی چلانے کیلئے YouTube Red کی رکنیت درکار ہے۔ آپ <a href="http://youtube.com/red">youtube.com/red</a>‎ پرسائن اپ کر سکتے ہیں۔</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">‏YouTube Red کی رکنیت درکار ہے</string>
+    <string name="assistant_settings_music_unlink_dialog_text">‏آپ کے اکاؤنٹ کا لنک ختم کرنے سے Google اسسٹنٹ کے ذریعے %1$s سے پلے بیک تک رسائی آف ہو جائے گی۔</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">‏Google ہوم پر YouTube موسیقی چلانے کے لیے YouTube Premium کی رکنیت درکار ہے۔ آپ <a href="http://youtube.com/red">youtube.com/red</a> پرسائن اپ کر سکتے ہیں۔</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">‏YouTube Premium کی رکنیت درکار ہے</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s کو اپنے فعال کردہ خبروں کے ذرائع سے ہٹائیں</string>
     <string name="assistant_settings_news_supports_video">ویڈیو اسمارٹ ڈسپلیز پر دستیاب ہے</string>
     <string name="assistant_settings_news_title">خبریں</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">آپ کے عرفی نام میں ایک کریکٹر ہے جو اسسٹنٹ ادا نہیں کر سکتا۔ اگلے سیکشن میں ہجے کر کے بتائیں کہ اسے کیسے بولا جاتا ہے۔</string>
     <string name="assistant_settings_no_device_linked">‏آپ کی آواز کی شناخت کرنے پر، Voice Match آپ کے اسسٹنٹ کو اس بات کی اجازت دیتی ہے کہ وہ آپ کو ذاتی معلومات فراہم کرے۔ زیادہ سے زیادہ 6 لوگ کو اپنا ذاتی کیلنڈر اور موسیقی وغیرہ حاصل ہو سکتا ہے۔</string>
+    <string name="assistant_settings_no_language_summary">کوئی نہیں</string>
     <string name="assistant_settings_no_language_title">ایک زبان شامل کریں</string>
     <string name="assistant_settings_no_shopping_list">آپ کے پاس خریداری کی کوئی فہرست نہیں ہے۔</string>
     <string name="assistant_settings_notes_lists_title">نوٹس اور فہرستیں</string>
@@ -710,6 +718,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="assistant_settings_summer_time_mode_availability_clarification">"‏'جاری گفتگو' فی الحال انگریزی (امریکی) کے لیے دستیاب ہے۔ اگر آپ یہاں ظاہر نہ ہونے والے Google Home آلات استعمال کرتے ہیں، تو ان آلات پر موجود بنیادی اکاؤنٹ والا شخص 'جاری گفتگو کو اپنے 'اسسٹنٹ' کی ترتیبات میں آن یا آف کر سکتا ہے۔"</string>
     <string name="assistant_settings_summer_time_mode_availability_description">‏آپ ان Google Home آلات کے لیے اسے تبدیل کر سکتے ہیں</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">کوئی آلہ دستیاب نہیں</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">"‏ہر جواب کے بعد آپ کے آلہ کا مائیکروفون فالو اپ کے سوالات سننے کیلئے دوبارہ کھل جائے گا۔ یہ معمول کے مطابق 'میری سرگرمی' میں ظاہر ہوں گی۔ آپ کے 'اسسٹنٹ' کا جواب نہ دینے والی آڈیو آپ کے Google اکاؤنٹ سے حذف ہو جائے گی۔"</string>
     <string name="assistant_settings_summer_time_mode_button_title">جاری گفتگو</string>
     <string name="assistant_settings_summer_time_mode_title">جاری گفتگو</string>
     <string name="assistant_settings_turn_off_voice_match">‏اگر آپ Voice Match کو بند کرتے ہیں تو آپ اس آلہ سے اپنے اکاؤنٹ کا لنک ختم کر دیں گے۔ اپنے Google اسسٹنٹ فعال شدہ آلہ کا استعمال کرنے کیلئے، کم از کم ایک اکاؤنٹ لنک ہونا ضروری ہے۔ کیا آپ واقعی اپنے اکاؤنٹ کا لنک ختم کرنا چاہتے ہیں؟ </string>
@@ -738,10 +747,8 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="assistant_settings_update_error_message">ترتیب کو اپ ڈیٹ نہیں کیا جا سکا۔ اپنا کنکشن چیک کریں۔</string>
     <string name="assistant_settings_video_calls_service_category_title">‏آپ کا اسسٹنٹ آپ کی ترجیحی سروس کا استعمال کر کے Google اسمارٹ ڈسپلے جیسے چند آلات پر ویڈیو کالز کر سکتا ہے۔ ہنگامی سروسز پر کالز دستیاب نہیں ہیں۔</string>
     <string name="assistant_settings_video_icon_text">ویڈیو فراہم کنندہ آئیکن</string>
-    <string name="assistant_settings_video_link_dialog_text">‏جب آپ %1$s کو Google Home سروس کہ ذریعے کنٹرول کرتے ہیں یا %1$s سے متعلق معلومات کیلئے پوچھتے ہیں تو صوتی کنٹرول اور پلے بیک کو موافق آلات پر فعال کرنے کیلے اپنے Google اکاؤنٹ سے %1$s کو لنک کریں، %1$s کی رازداری کے بیان کی مطابقت میں استعمال کرنے کیلئے وہ استفسارات اسے بھیجے جا سکتے ہیں۔</string>
     <string name="assistant_settings_video_provider_category_summary">اپنے اسسٹنٹ کو کہہ کر شوز اور موویز چلائیں۔</string>
     <string name="assistant_settings_video_provider_category_title">ویڈیوز</string>
-    <string name="assistant_settings_video_unlink_dialog_text">آپ کے اکاؤنٹ کا لنک ختم کرنے سے صوتی کنٹرول غیر فعال ہو جائے گا۔</string>
     <string name="assistant_settings_videos_photos_title">ویڈیوز اور تصاویر</string>
     <string name="assistant_settings_videosphotos_cast_destination">‏Chromecast یا TV میں پہلے سے شامل Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">صوتی اور ویڈیو کالز</string>
@@ -753,6 +760,21 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="assistant_settings_weather_title">موسم</string>
     <string name="assistant_settings_work_address_clear_dialog_title">دفتر کا پتہ حذف کریں؟</string>
     <string name="assistant_settings_work_title">دفتر کا پتہ</string>
+    <string name="assistant_settings_your_people_address">پتہ: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">یوم پیدائش: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">یوم پیدائش یار رکھیں</string>
+    <string name="assistant_settings_your_people_deletion_failure">ایک مسئلہ پیش آ گیا، براہ کرم بعد میں دوبارہ کوشش کریں!</string>
+    <string name="assistant_settings_your_people_email">ای میل: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">فیملی رکن یاد رکھیں</string>
+    <string name="assistant_settings_your_people_forget_button">بھول جائیں</string>
+    <string name="assistant_settings_your_people_forget_dialog">اس سے %1$s کے بارے میں ہر وہ تفصیل ہٹا دی جائے گی جو آپ نے اپنی اسسٹنٹ سے یاد رکھنے کے لیے کہی ہے</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">یہ تفصیلات بھول جائیں؟</string>
+    <string name="assistant_settings_your_people_forget_menu_option">یہ تفصیلات بھول جائیں</string>
+    <string name="assistant_settings_your_people_phone">فون: %1$s</string>
+    <string name="assistant_settings_your_people_splash">پھر جب آپ \"امی کو کال کریں\" یا \"میرے بھائی کا یوم پیدائش کب ہے\" بولیں گے تو آپ کی اسسٹنٹ مدد کے لیے تیار ہوگی۔</string>
+    <string name="assistant_settings_your_people_splash_title">اپنی اسسٹنٹ کو اپنے لوگوں کے بارے میں بتائيں</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">آپ اپنی اسسٹنٹ سے یہ کام کرنے کے لیے کہہ سکتے ہیں</string>
+    <string name="assistant_settings_your_people_title">آپ کے لوگ</string>
     <string name="assistant_speaker_id_default_category_summary">آپ کا اسسٹنٹ صرف اس وقت آپ کی ذاتی معلومات فراہم کرے گا جب وہ ان آلات پر آپ کی آواز کو پہچانے گا</string>
     <string name="assistant_speaker_id_default_category_title">‏Voice Match کے ساتھ اشتراک کردہ آلات</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">اندراج مکمل نہیں ہو سکتا۔</string>
@@ -894,7 +916,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="cloud_search_history_fetch_failed_toast">ترتیبات بازیافت نہیں ہو سکیں۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
     <string name="cloud_search_history_summary_fetching">ترتیبات بازیافت ہو رہی ہیں…</string>
     <string name="collapse_time_to_leave">اس سفر کیلئے اختیارات کو چھپائیں۔</string>
-    <string name="collections">مجموعے</string>
+    <string name="collections">محفوظ کردہ</string>
     <string name="comment_hint">اضافی تبصرے (اختیاری)۔</string>
     <string name="common_address_clear_button_label">صاف کریں</string>
     <string name="common_address_clear_confirm_button">حذف کریں</string>
@@ -943,8 +965,8 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
 
 اس آلہ کو تب آپ کے Google اکاؤنٹ تک رسائی حاصل ہوگی۔"</string>
     <string name="consent_my_activity">میری سرگرمی</string>
-    <string name="consent_partners_disclosures_body_collapsed">‏Google پارٹنرز کا Google کے ساتھ قریبی کاروباری تعلق ہے اور ممکن ہے کہ انہوں نے نمایاں مقامات پر دکھائے جانے یا پروموٹ کیے جانے کیلئے ہمیں معاوضہ دیا ہو۔</string>
-    <string name="consent_partners_disclosures_body_expanded">"Google partners have a close business relationship with Google and may have paid us to be featured or promoted. These business help you get things done, whether it's buying paper towels or getting your sink repaired. %1$s."</string>
+    <string name="consent_partners_disclosures_body_collapsed">‏Google پارٹنرز کا Google کے ساتھ قریبی کاروباری تعلق ہے اور ممکن ہے کہ انہوں نے نمایاں مقامات پر دکھائے جانے یا پروموٹ کیے جانے کے لیے ہمیں معاوضہ دیا ہو۔</string>
+    <string name="consent_partners_disclosures_body_expanded">‏Google پارٹنرز کا Google کے ساتھ قریبی کاروباری تعلق ہے اور ممکن ہے کہ انہوں نے نمایاں مقامات پر دکھائے جانے یا پروموٹ کیے جانے کے لیے ہمیں معاوضہ دیا ہو۔ یہ کاروبار مختلف کام کرنے میں آپ کی مدد کرتے ہیں، خواہ کاغذی تولیے خریدنے ہوں یا آپ کے سنک کی مرمت کرانے ہوں۔ %1$s</string>
     <string name="consent_partners_disclosures_title">‏Google پارٹنرز</string>
     <string name="consent_services_disclosures_body_collapsed">‏آپ کی رازداری کے تحفظ کیلئے، Google آپ کو ایسی سروسز بھیجتا ہے جن پر آپ منفرد کوڈ سے بات کرتے ہیں۔</string>
     <string name="consent_services_disclosures_body_expanded">"‏رازداری کے تحفظ کیلئے، Google آپ کو سروسز بھیجتا ہے جن پر آپ منفرد کوڈ سے بات کرتے ہیں۔ اس طرح، سروسز گفتگوؤں کے دوران آپ کی ترجیحات جیسی چیزوں کو اب بھی یاد رکھ سکتی ہیں۔
@@ -1076,6 +1098,10 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="device_setup_error_cancel_button">مدد حاصل کریں</string>
     <string name="device_setup_error_content">کچھ غلط ہو گیا</string>
     <string name="device_setup_error_title">کوئی مسئلہ درپیش ہو سکتا ہے</string>
+    <string name="devices_scan_action_button">جاری رکھیں</string>
+    <string name="devices_scan_cancel_button">منسوخ کریں</string>
+    <string name="devices_scan_explanation">آلات منتخب کریں</string>
+    <string name="devices_scan_title">آلات شامل کریں</string>
     <string name="directory_for_mall">%1$s کیلئے ڈائریکٹری</string>
     <string name="disclaimer">اعلان دستبرداری</string>
     <string name="dismiss_text">برخاست کرنے کیلئے نیچے گھسیٹیں</string>
@@ -1148,6 +1174,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="enable_video_preview_autoplay_on_mobile_data">موبائل نیٹ ورکس پر اجازت دیں</string>
     <string name="enable_web_history_toast">ویب سرگزشت فعال ہے</string>
     <string name="entity_suggestion_message">آپ جو ٹائپ کر رہے ہیں یہ تلاش اس سے متعلق ہے۔</string>
+    <string name="error">کچھ غلط ہو گیا</string>
     <string name="error_adding_location_snackbar_text">مقام شامل کرنے میں خرابی</string>
     <string name="error_authenticating_user">سائن ان کی خرابی</string>
     <string name="error_captive_portal">اپنا کنکشن چیک کریں اور دوبارہ کوشش کریں۔</string>
@@ -1205,7 +1232,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="eyes_donate_data_optin_ok">ٹھیک ہے</string>
     <string name="eyes_donate_data_optin_title">لینز کی تصاویر عطیہ کریں</string>
     <string name="eyes_flash_button_description">فلیش ٹوگل کریں</string>
-    <string name="eyes_initial_suggestion_0">آپ کس چیز کی شناخت کر سکتے ہیں؟</string>
     <string name="eyes_launcher_description">‏Google لینز</string>
     <string name="eyes_no_permission">مجھے ایسا کرنے کی اجازت نہیں ہے</string>
     <string name="eyes_no_permission_camera">مجھے کیمرا استعمال کرنے کی اجازت نہیں ہے</string>
@@ -1233,7 +1259,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="eyes_onboarding_title_text">متن اسکین کریں</string>
     <string name="eyes_request_timed_out_message">‏معذرت، ہم اس وقت Google تک نہیں پہنچ سکتے</string>
     <string name="eyes_share_with">اس کے ساتھ اشتراک کریں</string>
-    <string name="eyes_unfreeze_image_description">کیمرے پر واپس</string>
     <string name="eyes_viewfinder_description">‏Google لینز فعال کریں</string>
     <string name="failed">تصویر لوڈ نہیں ہو سکی</string>
     <string name="failed_to_open_webview">صفحہ کھولنے میں ناکام ہو گیا</string>
@@ -1344,8 +1369,13 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="flight_stops">%1$s پر رکتی ہے</string>
     <string name="flight_terminal">ٹرمنل</string>
     <string name="flights_mode_landing_text">پروازیں تلاش کریں</string>
+    <string name="follow_soccer_promo_query">فٹبال 2018</string>
     <string name="follow_world_cup_promo">عالمی کپ کی پیروی کریں</string>
     <string name="follow_world_cup_promo_content_description">عالمی کپ کی پیروی کریں</string>
+    <string name="follow_world_cup_promo_detail">میچ کی یاددہانیوں، خبروں اور اپنی پسندیدہ ٹیموں کے لائیو اسکورز کی خاطر سائن اپ کرنے کے لیے یہاں تھپتھپائيں</string>
+    <string name="follow_world_cup_promo_long_soccer_title">فٹبال میچوں سے اپ ٹو ڈیٹ رہیں</string>
+    <string name="follow_world_cup_promo_query">عالمی کپ 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">فٹبال کا بخار اپنے عروج پر!</string>
     <string name="fourth_quarter">چوتها کوارٹر</string>
     <string name="fourth_quarter_abbrev">چوتھا کوارٹر</string>
     <string name="full_time">فل ٹائم</string>
@@ -1470,10 +1500,10 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">واپس جائیں</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">میں تیار ہوں</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">کیا آپ واقعی ایسا کرنا چاہتے ہیں؟</string>
-    <string name="hotword_enrollment_google_home_share_message">"‏آداب! میں نے ابھی اپنے اسسٹنٹ کو Google Home پر اپنی آواز پہچاننا سکھایا ہے تاکہ مجھے ذاتی نو‏عیت کے بنائے گئے نتائج حاصل ہوں۔
+    <string name="hotword_enrollment_google_home_share_message">"‏ہائے! میں نے ابھی اپنے اسسٹنٹ کو Google Home پر اپنی آواز پہچاننا سکھایا ہے تاکہ مجھے ذاتی نوعیت کے تتائج حاصل ہوں۔
 
-آپ بھی صرف اپنے لئے جوابات حاصل کر سکتے ہیں! Google Home ایپ انسٹال کر کے شروع کریں: https://google.com/home/setup"</string>
-    <string name="hotword_enrollment_google_home_share_message_subject">اپنے اسسٹنٹ کو اپنی شناخت کرنا سکھائیں</string>
+آپ بھی صرف اپنے لئے، جوابات حاصل کر سکتے ہیں!Google Home ایپ انسٹال کرکے شروع کریں: https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_subject">"اپنے 'اسسٹنٹ' کو اپنی شناخت کرنا سکھائیں"</string>
     <string name="hotword_enrollment_google_home_share_screen_done">مدعو کریں</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">‏آپ اپنے %1$s میں صوتی سرگرمی دیکھ یا حذف کر سکتے ہیں۔ آپ Voice Match کو اسسٹنٹ کی ترتیبات میں بند کر سکتے ہیں۔</string>
     <string name="hotword_enrollment_google_home_summary_header_title">آپ بالکل تیار ہیں</string>
@@ -1603,7 +1633,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="hourly_forecast">گھنٹے وار پیشین گوئی</string>
     <string name="hours">گھنٹے</string>
     <string name="how_can_i_help">میں کیسے آپ کی مدد کر سکتا ہوں؟</string>
-    <string name="hq_a11y_bottom_bar_button">اپنے اسسٹنٹ کے ساتھ چیٹ کرنے کے لئے مائکروفون کھولیں</string>
+    <string name="hq_a11y_bottom_bar_button">اسسٹنٹ</string>
     <string name="hq_a11y_chatui_badge">"'دریافت کریں' اور 'آپ کا مواد' کو کھولیں"</string>
     <string name="hq_a11y_menu_button">مینو</string>
     <string name="hq_account_switch_prompt">بطور %1$s سائن ان ہو رہا ہے</string>
@@ -1681,7 +1711,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="ipa_personal_search_sources">ذاتی</string>
     <string name="ipa_search_result_page_message">‏%s کے بارے میں Google تلاش۔</string>
     <string name="ipa_searchable_items_category_title">مواد دکھائيں منجانب:</string>
-    <string name="jasper_duo_knock_knock_summary">‏فون اٹھانے سے پہلے کال کرنے والے کی ویڈیو دیکھیں۔ اور جن لوگوں کو آپ کال کرتے ہیں انہیں ان کے فون کی گھنٹی بجنے کے دوران آپ کی ویڈیو دیکھنے دیں۔ &lt;a href=\"https://support.google.com/duo/answer/6376115\">مزید جانیں&lt;‎/a></string>
+    <string name="jasper_duo_knock_knock_summary">فون اٹھانے سے پہلے کال کرنے والے کی ویڈیو دیکھیں۔ اور جن لوگوں کو آپ کال کرتے ہیں انہیں ان کے فون کی گھنٹی بجنے کے دوران آپ کی ویڈیو دیکھنے دیں۔ %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knock-knock</string>
     <string name="jasper_duo_not_signed_in">سائن ان نہیں ہے</string>
     <string name="jasper_duo_signed_in">سائن ان ہے</string>
@@ -1773,6 +1803,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="location_service_required_title">مقام پر مبنی کارڈز حاصل کریں</string>
     <string name="lockscreen_mic_promo_notification_content">\"%1$s\" کہہ کر اپنا فون غیر مقفل کریں</string>
     <string name="lockscreen_mic_promo_notification_title">اپنی آواز سے غیر مقفل کریں</string>
+    <string name="logo_content_description">Google</string>
     <string name="magic_flashlight_off">نوکس</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">اسٹورز اور سروسز تلاش کریں</string>
@@ -1884,7 +1915,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="network_error_fetching_weather_data_status_text">نیٹ ورک فی الحال غیر دستیاب ہے</string>
     <string name="network_error_no_connection_tts">اس وقت کوئی انٹرنیٹ کنکشن موجود نہیں ہے۔</string>
     <string name="network_error_resend_audio">آڈیو دوبارہ بھیجیں</string>
-    <string name="network_error_try_again">دوبارہ کوشش کریں</string>
     <string name="network_location_required_text">‏مقام پر مبنی کارڈز جیسے مقامی موسم اور سفر کا ٹریفک دیکھنے کیلئے، Wi‑Fi اور موبائل نیٹ ورک مقام کو آن کریں</string>
     <string name="network_location_required_text_klp">مقام پر مبنی کارڈز جیسے مقامی موسم اور سفر کا ٹریفک دیکھنے کیلئے، زیادہ قطعیت یا بیٹری کی بچت کرنے والے مقام کا طرز منتخب کریں</string>
     <string name="nevermind_prompt">نہ کریں</string>
@@ -1960,7 +1990,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="none">کوئی نہیں</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">فہرستوں اور نوٹس کی سروسز</string>
-    <string name="notes_lists_none_preference_summary">ثانوی معلومات</string>
+    <string name="notes_lists_none_preference_summary">اسسٹنٹ کسی بھی سروس کے ساتھ آپ کے ڈیٹا کی مطابقت پذیری نہیں کرے گا۔</string>
     <string name="notes_lists_none_preference_title">کوئی نہیں</string>
     <string name="notes_lists_provider_changed_description">"اسسٹنٹ نوٹس اور فہرستوں کا ڈیٹا اب %1$s کے ساتھ اپ ڈیٹ نہيں ہوں گے۔ %1$s پر موجود ڈیٹا کو حذف نہيں کیا جائے گا۔
 
@@ -1968,6 +1998,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="notes_lists_provider_changed_negative_button">منسوخ کریں</string>
     <string name="notes_lists_provider_changed_positive_button">اتفاق کریں</string>
     <string name="notes_lists_provider_changed_title">%1$s سے غیر منسلک کریں</string>
+    <string name="notes_lists_title">"آپ کی 'اسسٹنٹ' آپ کے نوٹس اور فہرستوں کو ان سروسز سے مطابقت پزیر بنائے رکھے گی۔"</string>
     <string name="notification_access_link_text">اطلاع کی رسائی آف کریں</string>
     <string name="notification_accessable_apps_category_title">اطلاع کی رسائی</string>
     <string name="notification_cancel_text">‏آپ کے دوبارہ آن لائن ہونے پر Google اس تلاش کو دوبارہ نہيں آزمائے گا۔</string>
@@ -2085,6 +2116,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="opa_assist_app_screen_explanation">‏اپنے Google اسسٹنٹ تک رسائی کیلئے، اپنی اسسٹنٹ اور صوتی ان پٹ ترتیبات میں Google ایپ منتخب کریں</string>
     <string name="opa_assist_app_screen_title">‏Google ایپ آپ کی ڈیفالٹ معاون ایپ نہیں ہے</string>
     <string name="opa_assistant_logo_content_description">صوتی تلاش</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">‏اپنے Google اسسٹنٹ کیلئے اپ ڈیٹس دیکھیں</string>
     <string name="opa_consent_check_error_button">بند کریں</string>
     <string name="opa_consent_check_error_button_notavailable">اکاؤنٹس سوئچ کریں</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">آپ کے اکاؤنٹ کی ترتیبات کی بنیاد پر، آپ کے اسسٹنٹ تجربے کو ویب کے نتائج، لطیفوں اور مقامی معلومات جیسی چیزوں تک محدود کیا جا سکتا ہے۔</string>
@@ -2161,7 +2193,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="opa_eyes_free_opt_in_speech">‏جب یہ محفوظ ہو تو پہلے آپ کو اطلاع کو تھپتھپانا ہو گا۔ پھر آپ ہیڈ سیٹس کو Google اسسٹنٹ کے ساتھ کام کرنے دے سکتے ہیں۔</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">جاری رکھنے کیلئے تھپتھپائیں</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">‏Google اسسٹنٹ کو اپنی مدد کرنے کی اجازت دیں</string>
-    <string name="opa_eyes_warm_welcome_chip_text">جاری رکھنے کیلئے تھپتھپائیں</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">یہ بعد میں کریں</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">میں متفق ہوں</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">شروع ہو جائیں</string>
@@ -2222,6 +2253,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="opa_launcher_icon_text">اسسٹنٹ</string>
     <string name="opa_lock_icon_description">آئیکن غیر مقفل کریں</string>
     <string name="opa_logo_content_desc">‏Google اسسٹنٹ کا لوگو</string>
+    <string name="opa_mark_content">اسسٹنٹ</string>
     <string name="opa_marketplace_disclosure_description">‏آپ کا Google اسسٹنٹ مختلف سروسز کے ساتھ کام کرکے آپ کو زیادہ سے زیادہ کام کرنے میں مدد کر سکتا ہے۔</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">"The Google Assistant can work with Google partners to help you get things done, whether it's buying movie tickets or getting your sink repaired. &lt;a href=https://support.google.com/assistant/?p=google_partners>Learn more&lt;/a>"</string>
     <string name="opa_marketplace_disclosure_google_partners_description">‏Google پارٹنرز وہ کاروبار ہیں جن کا Google کے ساتھ تجارتی رشتہ ہے۔ Google اسسٹنٹ Google پارٹنرز کے ساتھ کام کرکے آپ کو چیزیں مکمل کرنے میں مدد کر سکتا ہے، چاہے مووی کے ٹکٹ خریدنا ہو یا آپ کے بیسن کی مرمت کرنا۔ <a href="https://support.google.com/assistant/?p=google_partners">مزید جانیں</a></string>
@@ -2367,6 +2399,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="order_not_found_snackbar_message">آرڈر نہیں ملا۔</string>
     <string name="other_comment">وجہ (مطلوب ہے)</string>
     <string name="other_reason_not_fill_in_content_description">براہ کرم تاثرات بھیجنے سے پہلے اس آئٹم کی اطلاع دینے کی ایک وجہ فراہم کریں۔ بھیجیں بٹن۔</string>
+    <string name="overflow_menu_desc">مزید اختیارات</string>
     <string name="overtime">اضافی وقت</string>
     <string name="package_location">مقام</string>
     <string name="package_pickup_location">پک اپ کا مقام</string>
@@ -2570,6 +2603,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="reaction_text_more">مزید</string>
     <string name="recently">حالیہ</string>
     <string name="recognizer_service_label">‏بنیادی Google شناخت</string>
+    <string name="recommendation_header_text">آپ کے لیے تجویز کردہ</string>
     <string name="reconnecting_loading_results">"آپ کے نتائج لوڈ ہو رہے ہیں
 "</string>
     <string name="reconnecting_title">دوبارہ منسلک ہو رہا ہے…</string>
@@ -2910,7 +2944,9 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="sports_wins_header">جیت</string>
     <string name="sports_wins_header_full_length">جیتیں</string>
     <string name="standalone_zs_back_content_desc">پیچھے جائیں</string>
+    <string name="standalone_zs_brick_content_desc">ذاتی اپ ڈیٹس</string>
     <string name="standalone_zs_explore_content_desc">"'دریافت کریں' اور 'اپنا مواد' کھولیں"</string>
+    <string name="standalone_zs_opa_icon_desc">اسسٹنٹ</string>
     <string name="star_rating_bar_content_description">ستارہ درجہ بندی: %1$s</string>
     <string name="starting_location_selector">%1$s۔ ایک مقامِ آغاز منتخب کریں۔</string>
     <string name="starts_at">وقت آغاز</string>
@@ -2923,6 +2959,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="stop_download_prompt">ڈاؤن لوڈ روکیں</string>
     <string name="streaming_text_recognizing">شناخت کی جا رہی ہے…</string>
     <string name="street_address_label">گلی کا پتہ</string>
+    <string name="success">کامیاب</string>
     <string name="suggest">خودکار تکمیل</string>
     <string name="suggest_contact_removal_body">‏اس سے &lt;b>%1$s&lt;/b> آپ کے سرفہرست رابطوں کی فہرست سے خارج ہو جائے گا۔ آپ پھر بھی &lt;b>%2$s&lt;/b> کو تلاش کر سکتے ہیں۔</string>
     <string name="suggest_contact_removal_cancel">منسوخ کریں</string>
@@ -3257,6 +3294,8 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="user_defined_action_task_say_something_title">کچھ کہیں</string>
     <string name="user_defined_action_task_scene_control_title">مناظر</string>
     <string name="user_defined_action_task_scene_control_which_scenes">منتخب کریں کہ آپ اپنی روٹین میں اپنا کون سا منظر شامل کرنا چاہتے ہیں۔</string>
+    <string name="user_defined_action_task_security_system_control_title">سیکیورٹی سسٹم کو مضبوط بنائیں</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">آپ کون سا موڈ سیٹ کرنا چاہیں گے؟</string>
     <string name="user_defined_action_task_send_text_content_summary">اگر آپ موصول کنندہ نمبر یا پیغام کا مواد خالی چھوڑ دیتے ہیں تو اس روٹین کو چلانے کے وقت آپ سے اسے پُر کرنے کیلئے کہا جائے گا۔</string>
     <string name="user_defined_action_task_send_text_content_title">متن میں کیا ہونا چاہئے؟</string>
     <string name="user_defined_action_task_send_text_recipient_title">آپ کس نمبر پر متنی پیغام بھیجنا چاہتے ہیں؟</string>

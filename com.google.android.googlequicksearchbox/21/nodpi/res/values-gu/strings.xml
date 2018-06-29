@@ -178,6 +178,7 @@
     <string name="action_sms_who_tts">તમે કોને ટેક્સ્ટ કરવા માંગો છો?</string>
     <string name="action_sound_search_get_song">Google Play પર જાઓ</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">આ તમે જે ટાઇપ કરી રહ્યાં છો તેનાથી સંબંધિત એક ક્રિયા છે.</string>
     <string name="action_unlock_device_tts">વાસ્તવમાં, ઉપકરણ લૉક કરેલ હોય તે સમયે મારાથી તે કરી શકાતું નથી. ચાલુ રાખવા માટે, આગળ વધો અને તમારા ઉપકરણને અનલૉક કરો.</string>
     <string name="action_video_call">વીડિઓ કૉલ</string>
     <string name="action_voice_call">કૉલ કરો</string>
@@ -244,6 +245,10 @@
     <string name="agent_bookmark_error">તેમાં ભૂલ આવી હતી. કૃપા કરીને થોડા સમય પછી ફરી પ્રયાસ કરો.</string>
     <string name="agent_bookmark_removed">બુકમાર્કમાંથી કાઢી નાખ્યું</string>
     <string name="agent_description_more">વધુ</string>
+    <string name="agent_details_add_routine_description">%1$sના અપડેટની મદદથી તમારા નિત્યક્રમનાં વધુ કાર્યોને પૂર્ણ કરો.</string>
+    <string name="agent_details_add_routine_item">ઉમેરો</string>
+    <string name="agent_details_customize_routine">તમારો નિત્યક્રમ કસ્ટમાઇઝ કરો</string>
+    <string name="agent_details_manage_routines">નિત્યક્રમ મેનેજ કરો</string>
     <string name="agent_details_splash_image_a11y">સહાયક ઍપની છબી</string>
     <string name="agent_directory_a11y_back_button">પાછળ</string>
     <string name="agent_directory_a11y_more_groups">વધુ</string>
@@ -485,6 +490,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
 તમારું સહાયક તમારી સફર વિશેના આ પ્રશ્નો માટે આ સેટિંગનો ઉપયોગ કરશે"</string>
     <string name="assistant_settings_commute_walk">ચાલતાં</string>
     <string name="assistant_settings_commute_walk_key">સફર કરો ચાલતાં</string>
+    <string name="assistant_settings_contact_list_introduction">તમારા જાણીતા લોકો વિશે તમે આસિસ્ટંટને નીચેની જાણકારી યાદ રાખવા માટે કહ્યું છે.</string>
     <string name="assistant_settings_custom_routines_description">માત્ર એક આદેશ વડે તમારા આસિસ્ટંટને એકથી વધુ ક્રિયાઓ કરવા કહો. તમારા દિવસની દિનચર્યાઓ તૈયાર જવાબોમાં બંધબેસતી ગોઠવીને ઉપયોગ કરો અને સ્ક્રૅચમાંથી કસ્ટમ દિનચર્યાઓ બનાવો.</string>
     <string name="assistant_settings_default_record_button_text">રેકોર્ડ કરો</string>
     <string name="assistant_settings_delete_button_label">ડિલીટ કરો</string>
@@ -630,13 +636,15 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="assistant_settings_music_provider_category_title">સંગીત ચલાવવા માટે કહેવામાં આવે ત્યારે સહાયક, ડિફૉલ્ટ તરીકે આ સંગીત પ્રદાતાનો ઉપયોગ કરશે. ઉલ્લેખ કરવા પર તમે અન્ય તમામ લિંક કરેલ પ્રદાતાનો ઉપયોગ કરીને હજી પણ સંગીત ચલાવી શકો છો.</string>
     <string name="assistant_settings_music_title">સંગીત</string>
     <string name="assistant_settings_music_unable_unlink_default">તમારા ડિફૉલ્ટ સંગીત પ્રદાતાને અનલિંક કરી શકતાં નથી</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube સંગીત માટે Google હોમ પર ચલાવવા હેતુ YouTube Red સભ્યપદ આવશ્યક છે. તમે <a href="http://youtube.com/red">youtube.com/red</a> પર સાઇન અપ કરી શકો છો.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Red સભ્યપદ આવશ્યક છે</string>
+    <string name="assistant_settings_music_unlink_dialog_text">તમારા એકાઉન્ટને અનલિંક કરવાથી Google આસિસ્ટંટ મારફતે %1$sનો ઍક્સેસ બંધ કરવામાં આવશે.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube સંગીત માટે Google હોમ પર ચલાવવા હેતુ YouTube Premium સભ્યપદ આવશ્યક છે. તમે <a href="http://youtube.com/red">youtube.com/red</a> પર સાઇન અપ કરી શકો છો.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium સભ્યપદ આવશ્યક છે</string>
     <string name="assistant_settings_news_provider_delete_button_description">તમારા સક્ષમ કરેલ સમાચાર સ્રોતોમાંથી %1$s ને દૂર કરો</string>
     <string name="assistant_settings_news_supports_video">સ્માર્ટ ડિસ્પ્લે પર વીડિઓ ઉપલબ્ધ છે</string>
     <string name="assistant_settings_news_title">સમાચાર</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">તમારા ઉપનામમાં એવા અક્ષરો છે કે જેનું સહાયક ઉચ્ચારણ કરી શકતું નથી. આગલા ભાગમાં તેનું ઉચ્ચારણ બતાવતી જોડણી કરો.</string>
     <string name="assistant_settings_no_device_linked">જ્યારે voice match તમારો અવાજ ઓળખે ત્યારે તમારા સહાયકને તમારી વ્યક્તિગત માહિતી તમને આપવા દે છે. વધુમાં વધુ 6 વ્યક્તિ તેમના પોતાના કૅલેન્ડર, સંગીત અને ઘણું બધું મેળવી શકે છે.</string>
+    <string name="assistant_settings_no_language_summary">ના</string>
     <string name="assistant_settings_no_language_title">ભાષા ઉમેરો</string>
     <string name="assistant_settings_no_shopping_list">તમારી પાસે કોઈ શોપિંગ સૂચિ નથી.</string>
     <string name="assistant_settings_notes_lists_title">નોંધ અને સૂચિઓ</string>
@@ -804,6 +812,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="assistant_settings_summer_time_mode_availability_clarification">ચાલુ વાર્તાલાપ હાલમાં અંગ્રેજી (US) માટે ઉપલબ્ધ છે. જો તમે અહીં બતાવેલ નથી તે Google હોમ ઉપકરણોનો ઉપયોગ કરતા હોય, તો તે ઉપકરણો પર પ્રાથમિક એકાઉન્ટ ધરાવતી વ્યક્તિ તેની આસિસ્ટંટ સેટિંગમાં ચાલુ વાર્તાલાપને ચાલુ અથવા બંધ કરી શકશે.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">તમે આ Google હોમ ઉપકરણો માટે આને બદલી શકો છો</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">કોઈ ઉપકરણો ઉપલબ્ધ નથી</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">તમારા ઉપકરણનું માઇક્રોફોન આગળના પ્રશ્નો સાંભળવા માટે દરેક પ્રતિસાદ પછી ફરીથી ચાલુ થશે. આ મારી પ્રવૃત્તિમાં સામાન્યની જેમ જ દેખાશે. તમારું આસિસ્ટંટ જે ઑડિઓનો જવાબ નથી આપતું તેને તમારા Google એકાઉન્ટમાંથી ડિલીટ કરવામાં આવશે.</string>
     <string name="assistant_settings_summer_time_mode_button_title">ચાલુ વાતચીત</string>
     <string name="assistant_settings_summer_time_mode_title">ચાલુ વાતચીત</string>
     <string name="assistant_settings_turn_off_voice_match">જો તમે voice match બંધ કરશો, તો તમે આ ઉપકરણમાંથી તમારું એકાઉન્ટ અનલિંક કરશો. Google સહાયક ચાલુ કરેલું હોય તેવું તમારું ઉપકરણ ઉપયોગમાં લેવા માટે ઓછામાં ઓછું એક એકાઉન્ટ લિંક કરેલું હોવું જરૂરી છે. શું તમારે ખરેખર તમારું એકાઉન્ટ અનલિંક કરવું છે? </string>
@@ -832,10 +841,8 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="assistant_settings_update_error_message">સેટિંગ અપડેટ કરી શકાઈ નથી. તમારું કનેક્શન તપાસો.</string>
     <string name="assistant_settings_video_calls_service_category_title">તમારી પસંદગીની સેવાનો ઉપયોગ કરીને તમારું સહાયક Google સ્માર્ટ ડિસ્પ્લે જેવા અમુક ઉપકરણો પર વીડિઓ કૉલ કરી શકે છે. કટોકટીની સેવાઓ માટે કૉલ ઉપલબ્ધ નથી.</string>
     <string name="assistant_settings_video_icon_text">વીડિઓ પ્રદાતા આઇકન</string>
-    <string name="assistant_settings_video_link_dialog_text">વૉઇસ નિયંત્રણ અને સુસંગત ઉપકરણો પર પ્લેબૅક ચાલુ કરવા માટે તમારા Google એકાઉન્ટને %1$s સાથે લિંક કરો. જ્યારે તમે Google હોમ મારફતે %1$s સેવાનું નિયંત્રણ કરો અથવા %1$s ને સંબંધિત માહિતી માટે પૂછો, ત્યારે તે ક્વેરીઓ ગોપનીયતા વિધાન અનુસાર ઉપયોગ માટે %1$s ને મોકલવામાં આવી શકે છે.</string>
     <string name="assistant_settings_video_provider_category_summary">તમારા સહાયકને પૂછીને શો અને મૂવી ચલાવો.</string>
     <string name="assistant_settings_video_provider_category_title">વિડિઓઝ</string>
-    <string name="assistant_settings_video_unlink_dialog_text">તમારા એકાઉન્ટને અનલિંક કરવાથી વૉઇસ નિયંત્રણ બંધ થઈ જશે.</string>
     <string name="assistant_settings_videos_photos_title">વિડિઓઝ અને ફોટો</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast અથવા Chromecast બિલ્ટ-ઇન ટીવી</string>
     <string name="assistant_settings_voice_and_video_calls_title">વૉઇસ અને વીડિઓ કૉલ</string>
@@ -847,6 +854,21 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="assistant_settings_weather_title">હવામાન</string>
     <string name="assistant_settings_work_address_clear_dialog_title">કાર્યાલયનું સરનામું ડિલીટ કરીએ?</string>
     <string name="assistant_settings_work_title">કાર્યાલયનું સરનામું</string>
+    <string name="assistant_settings_your_people_address">સરનામું: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">જન્મદિવસ: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">જન્મદિવસ યાદ રાખો</string>
+    <string name="assistant_settings_your_people_deletion_failure">એક સમસ્યા આવી હતી, કૃપા કરીને થોડા સમય પછી ફરી પ્રયાસ કરો!</string>
+    <string name="assistant_settings_your_people_email">ઇમેઇલ: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">પરિવારના સભ્યને યાદ રાખો</string>
+    <string name="assistant_settings_your_people_forget_button">ભૂલી જાઓ</string>
+    <string name="assistant_settings_your_people_forget_dialog">આ તમે %1$s વિશે તમારા આસિસ્ટંટને યાદ રાખવા માટે કહ્યું છે તે કોઈપણ વિગતોને કાઢી નાખશે</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">આ વિગતો ભૂલી ગયા છો?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">આ વિગતો ભૂલી જાઓ</string>
+    <string name="assistant_settings_your_people_phone">ફોન: %1$s</string>
+    <string name="assistant_settings_your_people_splash">અને જ્યારે તમે બોલશો કે “મમ્મીને કૉલ કરો” અથવા “મારા ભાઈનો જન્મદિવસ ક્યારે છે” ત્યારે તમારું આસિસ્ટંટ સહાય માટે તૈયાર હશે.</string>
+    <string name="assistant_settings_your_people_splash_title">તમારા આસિસ્ટંટને કોની સાથે શું સંબંધ છે તે જણાવો</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">તમે તમારા આસિસ્ટંટને આ કરવાનું કહી શકો છો</string>
+    <string name="assistant_settings_your_people_title">તમારા સંબંધિત લોકો</string>
     <string name="assistant_speaker_id_default_category_summary">આ ઉપકરણો પર તમારો અવાજ ઓળખીને તમારું સહાયક માત્ર તમારી વ્યક્તિગત માહિતી જ પ્રદાન કરશે</string>
     <string name="assistant_speaker_id_default_category_title">voice match સાથે શેર કરેલા ઉપકરણો</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">નોંધણી પૂર્ણ કરી શકાતી નથી.</string>
@@ -1005,7 +1027,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="cloud_search_history_summary_fetching">સેટિંગ પાછી મેળવી રહ્યાં છીએ…</string>
     <string name="collapse">સંકુચિત કરો</string>
     <string name="collapse_time_to_leave">આ સહેલ માટે વિકલ્પો છુપાવો.</string>
-    <string name="collections">સંગ્રહો</string>
+    <string name="collections">સાચવેલી આઇટમ</string>
     <string name="comment_hint">વધારાની ટિપ્પણીઓ (વૈકલ્પિક).</string>
     <string name="common_address_clear_button_label">સાફ કરો</string>
     <string name="common_address_clear_confirm_button">ડિલીટ કરો</string>
@@ -1080,7 +1102,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
 પછી આ ઉપકરણ તમારા Google એકાઉન્ટને ઍક્સેસ કરી શકશે."</string>
     <string name="consent_my_activity">મારી પ્રવૃત્તિ</string>
     <string name="consent_partners_disclosures_body_collapsed">Googleના પાર્ટનર Google સાથે ઘનિષ્ઠ વ્યાવસાયિક સંબંધ ધરાવે છે અને તેમણે પ્રસિદ્ધ થવા અથવા પ્રચાર માટે અમને ચુકવણી કરી હોઈ શકે છે.</string>
-    <string name="consent_partners_disclosures_body_expanded">Googleના પાર્ટનર Google સાથે ઘનિષ્ઠ વ્યાવસાયિક સંબંધ ધરાવે છે અને તેમણે પ્રસિદ્ધ થવા અથવા પ્રચાર માટે અમને ચુકવણી કરી હોઈ શકે છે. આ વ્યવસાય તમને Tasks પાર પાડવા માટે સહાય કરે છે, પછી ભલે ને તે પેપર ટૉવેલ ખરીદવાના હોય કે પછી તમારા સિંકનું સમારકામ કરાવવાનું હોય. %1$s.</string>
+    <string name="consent_partners_disclosures_body_expanded">Googleના પાર્ટનર Google સાથે ઘનિષ્ઠ વ્યાવસાયિક સંબંધ ધરાવે છે અને તેમણે પ્રસિદ્ધ થવા અથવા પ્રચાર માટે અમને ચુકવણી કરી હોઈ શકે છે. આ વ્યવસાય તમને કાર્યો પાર પાડવા માટે સહાય કરે છે, પછી ભલેને તે પેપર ટૉવેલ ખરીદવાના હોય કે પછી તમારા સિંકનું સમારકામ કરાવવાનું હોય. %1$s.</string>
     <string name="consent_partners_disclosures_title">Googleના પાર્ટનર</string>
     <string name="consent_services_disclosures_body_collapsed">તમારી ગોપનીયતાની સુરક્ષા કરવા માટે, તમે વાત કરો છો તે સેવાઓ પર Google એક વિશેષ કોડ મોકલે છે.</string>
     <string name="consent_services_disclosures_body_expanded">"તમારી ગોપનીયતાની સુરક્ષા માટે, તમે વાત કરો છો તે સેવાઓ પર Google એક વિશેષ કોડ મોકલે છે. તે રીતે, સેવાઓ વાર્તાલાપ દરમ્યાનની તમારી પસંદગીઓ જેવી વસ્તુઓને હજુ પણ યાદ રાખી શકે છે.
@@ -1239,6 +1261,10 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="device_setup_error_cancel_button">સહાય મેળવો</string>
     <string name="device_setup_error_content">કંઈક ખોટું થયું</string>
     <string name="device_setup_error_title">અહીં એક સમસ્યા હોઈ શકે છે</string>
+    <string name="devices_scan_action_button">આગળ વધો</string>
+    <string name="devices_scan_cancel_button">રદ કરો</string>
+    <string name="devices_scan_explanation">ઉપકરણો પસંદ કરો</string>
+    <string name="devices_scan_title">ઉપકરણો ઉમેરો</string>
     <string name="directory_for_mall">%1$s માટેની ડિરેક્ટરી</string>
     <string name="disclaimer">અસ્વીકૃત</string>
     <string name="dismiss_text">છોડી દેવા માટે નીચે ખેંચો</string>
@@ -1270,7 +1296,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="download_not_found">ડાઉનલોડ મળ્યું નથી</string>
     <string name="download_prompt">ડાઉનલોડ કરો</string>
     <string name="download_setting_message">ડાઉનલોડ કરેલા એપિસોડ 30 દિવસ પછી અથવા પૂરા સાંભળ્યા પછીના 24 કલાક પછી કાઢી નાખવામાં આવે છે</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">ડાઉનલોડ કરેલ છે</string>
     <string name="downloaded_episodes">ડાઉનલોડ કરેલા એપિસોડ</string>
     <string name="downloading">ડાઉનલોડ થઈ રહ્યો છે…</string>
     <string name="downloads">ડાઉનલોડ</string>
@@ -1334,7 +1360,6 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">ઉપલબ્ધ એપિસોડ</string>
     <string name="episode_page_section_title">એપિસોડ</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">ખાસ તમારા માટે</string>
     <string name="error">ભૂલ</string>
     <string name="error_adding_location_snackbar_text">સ્થાન ઉમેરવામાં ભૂલ</string>
@@ -1401,7 +1426,6 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="eyes_donate_data_optin_ok">ઓકે</string>
     <string name="eyes_donate_data_optin_title">લેન્સ છબીઓનું દાન કરો</string>
     <string name="eyes_flash_button_description">ફ્લૅશને ટૉગલ કરો</string>
-    <string name="eyes_initial_suggestion_0">તમે શું ઓળખી શકો?</string>
     <string name="eyes_launcher_description">Google લેન્સ</string>
     <string name="eyes_no_permission">મને તે કરવાની પરવાનગી નથી</string>
     <string name="eyes_no_permission_camera">મને કૅમેરાનો ઉપયોગ કરવાની પરવાનગી નથી</string>
@@ -1429,7 +1453,6 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="eyes_onboarding_title_text">ટેક્સ્ટ તપાસો</string>
     <string name="eyes_request_timed_out_message">માફ કરશો, અમે આ પળે Googleથી કનેક્ટ થઈ શકતા નથી</string>
     <string name="eyes_share_with">આની સાથે શેર કરો</string>
-    <string name="eyes_unfreeze_image_description">કૅમેરા પર પાછા જાઓ</string>
     <string name="eyes_viewfinder_description">Google લેન્સને સક્રિય કરો</string>
     <string name="failed_to_open_webview">પૃષ્ઠ ખોલવામાં નિષ્ફળ</string>
     <string name="failure_to_load_cards">કાર્ડ લોડ થવામાં નિષ્ફળ</string>
@@ -1553,8 +1576,13 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="folder_renamed">ફોલ્ડરનું નામ બદલીને %1$s કર્યું</string>
     <string name="folder_tap_to_close">ફોલ્ડર બંધ કરવા માટે સ્પર્શ કરો</string>
     <string name="folder_tap_to_rename">નામ બદલવાનું સાચવવા માટે સ્પર્શ કરો</string>
+    <string name="follow_soccer_promo_query">સૉકર 2018</string>
     <string name="follow_world_cup_promo">વર્લ્ડ કપ ફૉલો કરો</string>
     <string name="follow_world_cup_promo_content_description">વર્લ્ડ કપ ફૉલો કરો</string>
+    <string name="follow_world_cup_promo_detail">તમારી મનપસંદ ટીમનાં મેચ રિમાઇન્ડર, સમાચાર અને લાઇવ સ્કોર માટે સાઇન અપ કરવા માટે અહીં ટૅપ કરો</string>
+    <string name="follow_world_cup_promo_long_soccer_title">સૉકર મેચ વિશે અપડેટ મેળવતા રહો</string>
+    <string name="follow_world_cup_promo_query">વર્લ્ડ કપ 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">અહીં લોકોમાં સૉકરનો અત્યંત ઉત્સાહ છે!</string>
     <string name="forbid_download_removal">એપિસોડ ચાલતો હોય ત્યારે તેને કાઢી શકાતો નથી</string>
     <string name="fourth_quarter">4થો ક્વાર્ટર</string>
     <string name="fourth_quarter_abbrev">4થો ક્વાર્ટર</string>
@@ -1759,9 +1787,9 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">પાછા જાઓ</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">મને ખાતરી છે</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">શું તમને ખાતરી છે?</string>
-    <string name="hotword_enrollment_google_home_share_message">"નમસ્કાર! મેં હમણાં જ મારા સહાયકને Google હોમ પર મારો અવાજ ઓળખવાનું શીખવ્યું છે, જેથી હું વ્યક્તિગત પરિણામો મેળવી શકું.
+    <string name="hotword_enrollment_google_home_share_message">"નમસ્કાર! મેં હમણાં જ મારા સહાયકને Google હોમ પર મારો અવાજ ઓળખવાનું શીખવ્યું છે, જેથી હું વ્યક્તિગત પરિણામો મેળવી શકુ છું.
 
-તમે પણ માત્ર તમારા માટેના જવાબો મેળવી શકો છો! Google હોમ ઍપ ઇન્સ્ટૉલ કરીને શરૂઆત કરો: https://google.com/home/setup"</string>
+તમે માત્ર તમારા માટેના પણ જવાબો મેળવી શકો છો! Google હોમ ઍપ્લિકેશન ઇન્સ્ટૉલ કરીને શરૂઆત કરો: https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">તમારા સહાયકને તમને ઓળખવાનું શીખવો</string>
     <string name="hotword_enrollment_google_home_share_screen_done">આમંત્રિત કરો</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">તમે તમારા %1$sમાં વૉઇસ પ્રવૃત્તિ જોઈ અથવા ડિલીટ કરી શકો છો. તમે સહાયકની સેટિંગમાં જઈને voice match બંધ પણ કરી શકો છો.</string>
@@ -1893,7 +1921,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="hourly_forecast">કલાક દીઠ આગાહી</string>
     <string name="hours">કલાક</string>
     <string name="how_can_i_help">હું કેવી રીતે સહાય કરી શકું?</string>
-    <string name="hq_a11y_bottom_bar_button">તમારા સહાયક સાથે ચૅટ કરવા માટે માઇક્રોફોનનો ઉપયોગ કરો</string>
+    <string name="hq_a11y_bottom_bar_button">આસિસ્ટંટ</string>
     <string name="hq_a11y_chatui_badge">અન્વેષણ અને તમારી સામગ્રી ખોલો</string>
     <string name="hq_a11y_menu_button">મેનૂ</string>
     <string name="hq_account_switch_prompt">%1$s તરીકે સાઇન ઇન કરી રહ્યાં છીએ</string>
@@ -2021,10 +2049,10 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="inferred_event_error">ઇવેન્ટ બનાવવામાં નિષ્ફળ</string>
     <string name="inferred_from_gmail">Gmail માં \"%1$s\" તરીકે સંદર્ભિત</string>
     <string name="info_target_label">ઍપ્લિકેશન માહિતી</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Google પૉડકાસ્ટ ઍપ મેળવો</string>
+    <string name="install_google_podcasts_accept">ઍપ મેળવો</string>
+    <string name="install_google_podcasts_message">ઝડપી ઍક્સેસ માટે Play Storeમાંથી Google પૉડકાસ્ટ ઍપ મેળવો</string>
+    <string name="install_google_podcasts_reject">હમણાં નહીં</string>
     <string name="installed_app_group_header">ઍપ્લિકેશનો</string>
     <string name="installed_details">વર્ઝન %1$s ઇન્સ્ટોલ થયું, ડિસ્ક પર કદ %2$s</string>
     <string name="installed_language_packs">ઇન્સ્ટોલ કરેલું</string>
@@ -2065,7 +2093,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="item_is_selected">%1$s પસંદ કરી</string>
     <string name="item_moved">આઇટમ ખસેડી</string>
     <string name="item_removed">આઇટમ દૂર કરી</string>
-    <string name="jasper_duo_knock_knock_summary">તમે કૉલ ઉપાડો તે પહેલાં કૉલરનો વીડિઓ જુઓ. અને તમે જે લોકોને કૉલ કરો છો, તેમને તેમના ફોનની રિંગ વાગે ત્યારે તમારો વીડિઓ જોવા દો. &lt;a href=\"https://support.google.com/duo/answer/6376115\">વધુ જાણો&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">તમે કૉલ ઉપાડો તે પહેલાં કૉલરનો વીડિઓ જુઓ. અને તમે જે લોકોને કૉલ કરો છો, તેમને તેમના ફોનની રિંગ વાગે ત્યારે તમારો વીડિઓ જોવા દો. %1$s</string>
     <string name="jasper_duo_knock_knock_title">વીડિઓનું પૂર્વાવલોકન</string>
     <string name="jasper_duo_not_signed_in">સાઇન ઇન કર્યું નથી</string>
     <string name="jasper_duo_signed_in">સાઇન ઇન કર્યું</string>
@@ -2161,10 +2189,10 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="location_service_required_title">સ્થાન-આધારિત કાર્ડ્સ મેળવો</string>
     <string name="lockscreen_mic_promo_notification_content">\"%1$s\" કહીને તમારા ફોનને અનલૉક કરો.</string>
     <string name="lockscreen_mic_promo_notification_title">તમારા અવાજ સાથે અનલૉક કરો</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">વિજેટ ચૂંટવા અથવા કસ્ટમ ક્રિયાઓનો ઉપયોગ કરવા માટે બે વાર ટેપ કરો અને પકડી રાખો.</string>
     <string name="long_press_widget_to_add">વિજેટ ચૂંટવા માટે સ્પર્શ કરો અને પકડી રાખો.</string>
     <string name="longpress_menu_download">છબી ડાઉનલોડ કરો</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">છબી શેર કરો</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2197,10 +2225,10 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="map_content_description">નકશો</string>
     <string name="map_route_content_description">%1$s નો નકશો</string>
     <string name="maps_mode_landing_text">નકશા શોધો</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">ચલાવેલ તરીકે ચિહ્નિત કરો</string>
+    <string name="mark_as_unplayed">ચલાવવાનું બાકી તરીકે ચિહ્નિત કરો</string>
     <string name="media_content_image">મીડિયા કન્ટેન્ટ સંબંધિત છબી આ કાર્ડમાં ડિસ્પ્લે કરવામાં આવી રહી છે</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">તમારા પૉડકાસ્ટ</string>
     <string name="media_route_chooser_dialog_title">આના પર કાસ્ટ કરો</string>
     <string name="media_route_chooser_searching">ઉપકરણો માટે શોધી રહ્યાં છીએ…</string>
     <string name="media_route_controller_cancel">રદ કરો</string>
@@ -2213,13 +2241,11 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="menu_overlay_feedback">પ્રતિસાદ મોકલો</string>
     <string name="menu_overlay_reset_to_default_style">રીસેટ કરીને ડિફૉલ્ટ ફૉર્મેટ કરો</string>
     <string name="menu_refresh">રિફ્રેશ કરો</string>
-    <string name="menu_search_by_image">છબી દ્વારા શોધો</string>
     <string name="menu_send_button_content_description">પ્રતિસાદ સબમિટ કરવા માટે મોકલો બટન.</string>
     <string name="menu_send_feedback">પ્રતિસાદ મોકલો</string>
     <string name="menu_settings">સેટિંગ</string>
     <string name="menu_share">શેર કરો</string>
     <string name="menu_view_in_browser">બ્રાઉઝરમાં જુઓ</string>
-    <string name="menu_view_original_image">ઑરિજિનલ છબી જુઓ</string>
     <string name="menu_visit_page">પૃષ્ઠની મુલાકાત લો</string>
     <string name="message_card_feedback">પ્રતિસાદ આપો</string>
     <string name="message_image">છબી</string>
@@ -2264,7 +2290,6 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="minus_one_header_settings">સેટિંગ</string>
     <string name="minute_picker_description">મિનિટનું વર્તુળાકાર સ્લાઇડર</string>
     <string name="minutes">મિનિટ</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">વિવિધ</string>
     <string name="mismatching_value_eir_code">સરનામું મેળ ખાવું જોઇએ</string>
     <string name="mismatching_value_pin_code">સરનામું મેળ ખાવું આવશ્યક છે</string>
@@ -2345,7 +2370,6 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="network_error_fetching_weather_data_status_text">હાલમાં નેટવર્ક અનુપલબ્ધ</string>
     <string name="network_error_no_connection_tts">આ ક્ષણે કોઈ ઇન્ટરનેટ કનેક્શન નથી.</string>
     <string name="network_error_resend_audio">ઑડિઓ ફરીથી મોકલો</string>
-    <string name="network_error_try_again">ફરી પ્રયાસ કરો</string>
     <string name="network_location_required_text">સ્થાનિક હવામાન અને સફરમાં ટ્રાફિક જેવા સ્થાન આધારિત કાર્ડ જોવા માટે, વાઇ-ફાઇ અને મોબાઇલ નેટવર્ક સ્થાન ચાલુ કરો</string>
     <string name="network_location_required_text_klp">સ્થાનિક હવામાન અને સફરમાં ટ્રાફિક જેવા સ્થાન આધારિત કાર્ડ્સ જોવા માટે, ઉચ્ચ સચોટતા અથવા બૅટરી બચત સ્થાન મોડ પસંદ કરો</string>
     <string name="never">ક્યારેય નહીં</string>
@@ -2437,7 +2461,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="none">કોઈ નહીં</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">સૂચિ અને નોંધ સેવાઓ</string>
-    <string name="notes_lists_none_preference_summary">ગૌણ માહિતી</string>
+    <string name="notes_lists_none_preference_summary">આસિસ્ટંટ તમારો ડેટા કોઈપણ સેવાની સાથે સિંક કરશે નહીં.</string>
     <string name="notes_lists_none_preference_title">કંઈ નહીં</string>
     <string name="notes_lists_provider_changed_description">"આસિસ્ટંટનો નોંધ અને સૂચિઓનો ડેટા હવે %1$s વડે અપડેટ થશે નહીં. %1$s પર અસ્તિત્વમાં છે તે ડેટા ડિલીટ કરવામાં આવશે.
 
@@ -2445,6 +2469,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="notes_lists_provider_changed_negative_button">રદ કરો</string>
     <string name="notes_lists_provider_changed_positive_button">સંમત</string>
     <string name="notes_lists_provider_changed_title">%1$sથી ડિસ્કનેક્ટ કરો</string>
+    <string name="notes_lists_title">તમારું આસિસ્ટંટ તમારી નોંધ અને સૂચિઓને આ સેવાઓ પર સિંક કરેલ રાખશે.</string>
     <string name="notification_access_link_text">નોટિફિકેશનને ઍક્સેસ કરવાનું બંધ કરો</string>
     <string name="notification_accessable_apps_category_title">નોટિફિકેશન ઍક્સેસ</string>
     <string name="notification_cancel_text">તમે પાછા ઑનલાઇન થશો ત્યારે Google આ શોધ માટે ફરી પ્રયાસ કરશે નહીં.</string>
@@ -2564,6 +2589,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="opa_assist_app_screen_explanation">તમારા Google સહાયકને ઍક્સેસ કરવા માટે, તમારી મદદ અને વૉઇસ ઇનપુટ સેટિંગમાં Google ઍપ પસંદ કરો</string>
     <string name="opa_assist_app_screen_title">Google ઍપ્લિકેશન એ તમારી ડિફૉલ્ટ મદદ ઍપ્લિકેશન નથી</string>
     <string name="opa_assistant_logo_content_description">વૉઇસ શોધ</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">તમારા Google આસિસ્ટંટ માટે અપડેટ જુઓ</string>
     <string name="opa_consent_check_error_button">બંધ કરો</string>
     <string name="opa_consent_check_error_button_notavailable">એકાઉન્ટ સ્વિચ કરો</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">તમારી એકાઉન્ટ સેટિંગના આધારે, તમારો આસિસ્ટંટ અનુભવ વેબ પરિણામો, ટુચકાઓ અને સ્થાનિક માહિતી જેવી વસ્તુઓ સુધી મર્યાદિત હોઈ શકે.</string>
@@ -2640,7 +2666,6 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="opa_eyes_free_opt_in_speech">જ્યારે તે સુરક્ષિત હોય, ત્યારે તમારે પહેલા નોટિફિકેશનને ટૅપ કરવું પડશે. પછી તમે Google સહાયક સાથે હૅડસેટને કાર્ય કરવા દઈ શકો છો.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">ચાલુ રાખવા માટે ટૅપ કરો</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Google સહાયકને તમને સહાય કરવાની પરવાનગી આપો</string>
-    <string name="opa_eyes_warm_welcome_chip_text">ચાલુ રાખવા માટે ટૅપ કરો</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">તે પછીથી કરો</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">હું સંમત છું</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">પ્રારંભ કરો</string>
@@ -2701,6 +2726,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="opa_launcher_icon_text">સહાયક</string>
     <string name="opa_lock_icon_description">આઇકન અનલૉક કરો</string>
     <string name="opa_logo_content_desc">Google સહાયક લૉગો</string>
+    <string name="opa_mark_content">આસિસ્ટંટ</string>
     <string name="opa_marketplace_disclosure_description">તમારું Google સહાયક તમને સૌથી વધુ કામ કરવામાં સહાય કરવા માટે વિવિધ સેવાઓ સાથે કામ કરે છે.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google સહાયક તમારું કાર્ય પૂર્ણ કરવામાં સહાય માટે Googleના પાર્ટનર સાથે કાર્ય કરી શકે છે, પછી ભલેને તે કાર્ય મૂવી ટિકિટ ખરીદવાનું કે તમારા સિંકનું સમારકામ કરાવવાનું હોય. &lt;a href=https://support.google.com/assistant/?p=google_partners>વધુ જાણો&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google ભાગીદારો એ વ્યવસાયો છે કે જેને Google સાથે વેપારી સંબંધ છે. Google સહાયક વસ્તુઓ પૂર્ણ કરવા માટે Google ભાગીદારો સાથે કામ કરી શકે છે, પછી ભલે તે મૂવી ટિકિટ ખરીદવા ખરીદવા વિશે હોય કે તમારી સિંક રીપેર કરવા વિશે. <a href="https://support.google.com/assistant/?p=google_partners">વધુ જાણો</a></string>
@@ -2937,7 +2963,7 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
 નોંધો કે આ ઉપકરણનો ઉપયોગ કરનાર કોઈપણ વ્યક્તિ તમારા વ્યક્તિગત પરિણામો પણ મેળવી શકે છે. તમે આસિસ્ટંટ સેટિંગમાં વ્યક્તિગત પરિણામોને બંધ કરી શકો છો."</string>
     <string name="personal_results_title">વ્યક્તિગત પરિણામો મેળવો</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો જેથી {PERSON} આ ઉપકરણ પર તેના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને વધુને ઍક્સેસ કરવા માટે પોતાના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Linkમાં વ્યક્તિગત પરિણામો બંધ કરી શકો છો.}female{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો જેથી {PERSON} આ ઉપકરણ પર તેના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને વધુને ઍક્સેસ કરવા માટે પોતાના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Linkમાં વ્યક્તિગત પરિણામો બંધ કરી શકો છો.}other{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો જેથી {PERSON} આ ઉપકરણ પર તેમના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને વધુને ઍક્સેસ કરવા માટે તેઓના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Linkમાં વ્યક્તિગત પરિણામો બંધ કરી શકો છો}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો, જેથી {PERSON} આ ઉપકરણ પર તેના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને ઘણું બધું ઍક્સેસ કરવા માટે પોતાના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>વ્યક્તિગત પરિણામો - {PERSON}ની પરવાનગીની જરૂરિયાત વિના - હોમ સ્ક્રીન પર અને નોટિફિકેશન તરીકે પણ પ્રદર્શિત થઈ શકે છે. ધ્યાનમાં રાખો કે શ્રેષ્ઠ દર્શકો પણ આ પરિણામોને ટૅપ કરી અને તેના પર કાર્ય કરી શકે છે.&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Link માં વ્યક્તિગત પરિણામોને બંધ કરી શકો છો.}female{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો, જેથી {PERSON} આ ઉપકરણ પર તેના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને ઘણું બધું ઍક્સેસ કરવા માટે પોતાના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>વ્યક્તિગત પરિણામો - {PERSON}ની પરવાનગીની જરૂરિયાત વિના - હોમ સ્ક્રીન પર અને નોટિફિકેશન તરીકે પણ પ્રદર્શિત થઈ શકે છે. ધ્યાનમાં રાખો કે શ્રેષ્ઠ દર્શકો પણ આ પરિણામોને ટૅપ કરી અને તેના પર કાર્ય કરી શકે છે.&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Link માં વ્યક્તિગત પરિણામોને બંધ કરી શકો છો.}other{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો, જેથી {PERSON} આ ઉપકરણ પર તેમના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને ઘણું બધું ઍક્સેસ કરવા માટે તેઓના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>વ્યક્તિગત પરિણામો - {PERSON}ની પરવાનગીની જરૂરિયાત વિના - હોમ સ્ક્રીન પર અને નોટિફિકેશન તરીકે પણ પ્રદર્શિત થઈ શકે છે. ધ્યાનમાં રાખો કે શ્રેષ્ઠ દર્શકો પણ આ પરિણામોને ટૅપ કરી અને તેના પર કાર્ય કરી શકે છે.&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Link માં વ્યક્તિગત પરિણામોને બંધ કરી શકો છો.}}</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">{GENDER,select, male{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો, જેથી {PERSON} આ ઉપકરણ પર તેના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને ઘણું બધું ઍક્સેસ કરવા માટે પોતાના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>વ્યક્તિગત પરિણામો - {PERSON}ની પરવાનગીની જરૂરિયાત વિના - હોમ સ્ક્રીન પર અને નોટિફિકેશન તરીકે પણ પ્રદર્શિત થઈ શકે છે. ધ્યાનમાં રાખો કે શ્રેષ્ઠ દર્શકો પણ આ પરિણામોને ટૅપ કરી અને તેના પર કાર્ય કરી શકે છે.&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Link માં વ્યક્તિગત પરિણામોને બંધ કરી શકો છો.}female{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો, જેથી {PERSON} આ ઉપકરણ પર તેના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને ઘણું બધું ઍક્સેસ કરવા માટે પોતાના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>વ્યક્તિગત પરિણામો - {PERSON}ની પરવાનગીની જરૂરિયાત વિના - હોમ સ્ક્રીન પર અને નોટિફિકેશન તરીકે પણ પ્રદર્શિત થઈ શકે છે. ધ્યાનમાં રાખો કે ઉત્સુક દર્શકો પણ આ પરિણામોને ટૅપ કરી અને તેના પર કાર્ય કરી શકે છે.&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Link માં વ્યક્તિગત પરિણામોને બંધ કરી શકો છો.}other{Voice Matchનું સેટ અપ થઈ ગયું છે.&lt;br>&lt;br>તમે હવે વ્યક્તિગત પરિણામો ચાલુ કરી શકો છો, જેથી {PERSON} આ ઉપકરણ પર તેમના કૅલેન્ડર, સંપર્કો, રિમાઇન્ડર અને ઘણું બધું ઍક્સેસ કરવા માટે તેઓના વૉઇસનો ઉપયોગ કરી શકે. &lt;a href=\"https://support.google.com/families/answer/7521263\">વધુ જાણો&lt;/a>&lt;br>&lt;br>વ્યક્તિગત પરિણામો - {PERSON}ની પરવાનગીની જરૂરિયાત વિના - હોમ સ્ક્રીન પર અને નોટિફિકેશન તરીકે પણ પ્રદર્શિત થઈ શકે છે. ધ્યાનમાં રાખો કે ઉત્સુક દર્શકો પણ આ પરિણામોને ટૅપ કરી અને તેના પર કાર્ય કરી શકે છે.&lt;br>&lt;br>તમે આસિસ્ટંટ સેટિંગ અથવા Family Link માં વ્યક્તિગત પરિણામોને બંધ કરી શકો છો.}}</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{{PERSON} ના અવાજ વડે વ્યક્તિગત પરિણામો મેળવો.}male{{PERSON}ના અવાજ વડે વ્યક્તિગત પરિણામો મેળવો.}other{{PERSON}ના અવાજ વડે વ્યક્તિગત પરિણામો મેળવો.}}</string>
     <string name="personal_search">વ્યક્તિગત શોધ</string>
     <string name="phone_display_name">કૉલ કરો</string>
@@ -3125,9 +3151,10 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="recently_empty_state_read_later_body_text">અમે 7 દિવસ સુધી તમારા ઉપકરણમાં ડાઉનલોડ થયેલી આઇટમોને રાખીશું.</string>
     <string name="recently_empty_state_read_later_title_text">પછીથી વાંચવા માટેનાં પેજ ઉમેરો</string>
     <string name="recently_entry_interaction_offline">ઑફલાઇન હોવા પર વિનંતી કરેલ પેજ શોધી શકતાં નથી.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">ફીડ</string>
     <string name="recently_google_doodle_for">%s માટે Google ડૂડલ</string>
-    <string name="recently_keep_on_device_until">આ સુધી ઉપકરણ ચાલુ રાખો:</string>
+    <string name="recently_keep_on_device_until">આ સમય સુધી ઉપકરણ પર રાખો:</string>
     <string name="recently_onboarding_compare_message">શું ખરીદવું તે નક્કી કરી શકતાં નથી? તમને મળેલા વિકલ્પોની સાથે-સાથે તુલના કરો.</string>
     <string name="recently_onboarding_compare_title">તુલના કરો</string>
     <string name="recently_onboarding_find_that_page_message">થોડા દિવસ પહેલાંની તે રૅસિપિ, લેખ અથવા સાઇટ જોઈએ છે? શોધ કરવાનો સમય બચાવો અને પહેલા તેને અહીં મેળવો.</string>
@@ -3139,17 +3166,17 @@ Googleને તમારા સ્ક્રીન શોધ સ્ક્રી�
     <string name="recently_onboarding_recent_message_2">"Google ઍપમાં તમે તાજેતરમાં શોધેલા મુદ્દાને ફરીથી શોધો.
 
 તમે જૂથને એક પિંચ વડે બંધ કરી શકો છો."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Google ઍપમાં તમે તાજેતરમાં શોધેલા વિષયોને ફરીથી શોધો.</string>
     <string name="recently_onboarding_recent_title">તમને શું મળ્યું છે તે જુઓ</string>
     <string name="recently_onboarding_search_on_message">"અહીં રહેલા પૃષ્ઠો તે છે કે જે તમે આ ઉપકરણ પર જોયા છે. સમાન શોધના પૃષ્ઠને એકસાથે જૂથબદ્ધ કરવામાં આવે છે અને નવીનત્તમ પૃષ્ઠને સૌથી પહેલાં રાખવામાં આવે છે.
 
 શોધ કરવાનું ચાલુ રાખો અને તમારા પરિણામોને અહીં ફરીથી શોધો."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">અહીં તમે આ ઉપકરણ પર જોયા છે તે પેજ છે. શોધવાનું ચાલુ રાખો અને તમારી શોધને અહીં ફરી શોધો.</string>
     <string name="recently_onboarding_search_on_title">આ પર શોધો</string>
     <string name="recently_onboarding_swipe_up_message">"તાજેતરના પેજથી છૂટકારો મેળવવા માગો છો? તેને દૂર કરવા માટે માત્ર ઉપર સ્વાઇપ કરો.
 
 આ તેને તમારા Google એકાઉન્ટમાંથી ડિલીટ કરશે નહીં."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">તાજેતરના પેજથી છૂટકારો મેળવવા માગો છો? તેને કાઢી નાખવા માટે માત્ર ઉપર સ્વાઇપ કરો. આ તેને તમારા Google એકાઉન્ટમાંથી ડિલીટ કરશે નહીં.</string>
     <string name="recently_onboarding_swipe_up_title">ઉપર સ્વાઇપ કરો</string>
     <string name="recently_overflow_title">વધુ વિકલ્પો</string>
     <string name="recently_reading_reminder">રીડિંગ રિમાઇન્ડર:</string>
@@ -3181,6 +3208,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s માટે શોધ પર�
     <string name="recents_result_group_header">વેબ</string>
     <string name="recents_result_separate_group_header">તાજેતરની શોધો</string>
     <string name="recognizer_service_label">મૂળભૂત Google ઓળખાણ</string>
+    <string name="recommendation_header_text">ખાસ તમારા માટે</string>
     <string name="reconnecting_loading_results">"તમારા પરિણામો લોડ કરી રહ્યાં છે
 "</string>
     <string name="reconnecting_title">ફરીથી કનેક્ટ કરી રહ્યાં છે…</string>
@@ -3227,7 +3255,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s માટે શોધ પર�
     <string name="renter_name">નામ</string>
     <string name="report_other_reason">અન્ય</string>
     <string name="report_this">આની જાણ કરો</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">એપિસોડ ડાઉનલોડ કરવા માટે, Google ઍપ પરવાનગીઓમાં સ્ટોરેજના ઍક્સેસની મંજૂરી આપો</string>
     <string name="request_storage_permission_dialog_message">એપિસોડ ડાઉનલોડ કરવા માટે, Googleને તમારા ઉપકરણના સ્ટોરેજના ઍક્સેસની મંજૂરી આપો</string>
     <string name="request_storage_permission_dialog_title">સ્ટોરેજના ઍક્સેસની મંજૂરી આપો</string>
     <string name="reservation_group_header">આરક્ષણો</string>
@@ -3312,6 +3340,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s માટે શોધ પર�
     <string name="screen_moved">સ્ક્રીન ખસેડી</string>
     <string name="screenshot_srp_desc">%sને શોધો.</string>
     <string name="screenshot_srp_pending_desc">%s માટે શોધ બાકી</string>
+    <string name="screenshot_srp_voice_pending_desc">બાકી વૉઇસ શોધ</string>
+    <string name="screenshot_srp_voice_pending_title">વૉઇસ શોધ</string>
     <string name="screenshot_web_desc">%sની મુલાકાત લો.</string>
     <string name="screenshot_webpage_pending_desc">બાકી ડાઉનલોડ</string>
     <string name="scroll_left">ડાબે સ્ક્રૉલ કરો</string>
@@ -3369,7 +3399,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s માટે શોધ પર�
     <string name="search_sources_tablet">ટૅબ્લેટ શોધ</string>
     <string name="search_storage_label">Google શોધ સંગ્રહ</string>
     <string name="search_tablet">ટૅબ્લેટ શોધો</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">વેબ પર શોધો</string>
     <string name="search_the_web_menu_text">વેબ પર શોધો</string>
     <string name="search_the_web_suggestion">વેબ પર શોધો</string>
     <string name="search_widget_customization">વિજેટ કસ્ટમાઇઝ કરો</string>
@@ -3594,7 +3624,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s માટે શોધ પર�
     <string name="sports_wins_header">W</string>
     <string name="sports_wins_header_full_length">જીતે છે</string>
     <string name="standalone_zs_back_content_desc">પાછળ</string>
+    <string name="standalone_zs_brick_content_desc">વ્યક્તિગત અપડેટ</string>
     <string name="standalone_zs_explore_content_desc">અન્વેષણ અને તમારી સામગ્રી ખોલો</string>
+    <string name="standalone_zs_opa_icon_desc">આસિસ્ટંટ</string>
     <string name="star_rating_bar_content_description">સ્ટાર રેટિંગ: %1$s</string>
     <string name="starting_location_selector">%1$s. પ્રારંભિક સ્થાન પસંદ કરો.</string>
     <string name="starts_at">પ્રારંભ થવાનો સમય</string>
@@ -3610,6 +3642,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s માટે શોધ પર�
     <string name="street_address_label">શેરીનું સરનામું</string>
     <string name="subscribe_button_label">સબસ્ક્રાઇબ કરો</string>
     <string name="subscribe_to_see_new_episodes">નવા એપિસોડ જોવા માટે પોડકાસ્ટમાં સબસ્ક્રાઇબ કરો</string>
+    <string name="success">સફળ</string>
     <string name="suggest">આપમેળે પૂર્ણ</string>
     <string name="suggest_contact_removal_body">આ તમારા ટોચના સંપર્કોની સૂચિમાંથી &lt;b>%1$s&lt;/b>ને કાઢી નાખશે. છતાં, તમે શોધ કરીને &lt;b>%2$s&lt;/b>ને મેળવી શકો છો.</string>
     <string name="suggest_contact_removal_cancel">રદ કરો</string>
@@ -3968,6 +4001,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s માટે શોધ પર�
     <string name="user_defined_action_task_say_something_title">કંઈક કહો</string>
     <string name="user_defined_action_task_scene_control_title">દૃશ્યો</string>
     <string name="user_defined_action_task_scene_control_which_scenes">આ દિનચર્યામાં તમે તમારા કયાં દૃશ્યો શામેલ કરવા માગો છો તે પસંદ કરો.</string>
+    <string name="user_defined_action_task_security_system_control_title">આર્મ સુરક્ષા સિસ્ટમ</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">તમે કયો મોડ સેટ કરવા માગો છો?</string>
     <string name="user_defined_action_task_send_text_content_summary">જો તમે પ્રાપ્તકર્તાનો નંબર અથવા સંદેશનું કન્ટેન્ટ દાખલ નહીં કરો, તો જ્યારે તમે આ રુટિન ચલાવશો ત્યારે તમને તે દાખલ કરવાનું કહેવામાં આવશે.</string>
     <string name="user_defined_action_task_send_text_content_title">ટેક્સ્ટ સંદેશ શું કહેતો હોવો જોઈએ?</string>
     <string name="user_defined_action_task_send_text_recipient_title">તમે કયા નંબર પર ટેક્સ્ટ મોકલવા માગો છો?</string>

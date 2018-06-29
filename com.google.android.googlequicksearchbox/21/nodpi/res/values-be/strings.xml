@@ -178,6 +178,7 @@
     <string name="action_sms_who_tts">Каму вы хочаце адправіць тэкставае паведамленне?</string>
     <string name="action_sound_search_get_song">Атрымаць у Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">Гэта дзеянне звязана з тым, што вы набіраеце.</string>
     <string name="action_unlock_device_tts">На самой справе, я не магу зрабіць гэтага, пакуль прылада заблакіравана. Каб працягваць, калі ласка, разблакіруйце прыладу.</string>
     <string name="action_video_call">Відэавыклік</string>
     <string name="action_voice_call">Выклік</string>
@@ -244,6 +245,10 @@
     <string name="agent_bookmark_error">Узнікла памылка. Паўтарыце спробу пазней.</string>
     <string name="agent_bookmark_removed">Выдалена з закладак</string>
     <string name="agent_description_more">яшчэ</string>
+    <string name="agent_details_add_routine_description">Усталюйце абнаўленні з %1$s і атрымайце больш магчымасцей у паслядоўнасцях дзеянняў.</string>
+    <string name="agent_details_add_routine_item">Дадаць</string>
+    <string name="agent_details_customize_routine">Наладзіць паслядоўнасць дзеянняў</string>
+    <string name="agent_details_manage_routines">Кіраваць паслядоўнасцямі дзеянняў</string>
     <string name="agent_details_splash_image_a11y">Відарыс Памочніка</string>
     <string name="agent_directory_a11y_back_button">Назад</string>
     <string name="agent_directory_a11y_more_groups">Яшчэ</string>
@@ -485,6 +490,7 @@
 Ваш Памочнік будзе выкарыстоўваць гэту наладу для адказаў на пытанні пра вашу дарогу на працу"</string>
     <string name="assistant_settings_commute_walk">Пяшком</string>
     <string name="assistant_settings_commute_walk_key">ДАРОГА НА ПРАЦУ Пяшком</string>
+    <string name="assistant_settings_contact_list_introduction">Вы папрасілі Памочніка запомніць вашых знаёмых, і вось што ён пра іх запомніў.</string>
     <string name="assistant_settings_custom_routines_description">Памочніку дастаткова адной каманды, каб выканаць некалькі дзеянняў. Вы можаце карыстацца гатовымі паслядоўнасцямі дзеянняў, змяняючы іх пад свае патрэбы, або ствараць уласныя.</string>
     <string name="assistant_settings_default_record_button_text">Запісаць</string>
     <string name="assistant_settings_delete_button_label">Выдаліць</string>
@@ -630,13 +636,15 @@
     <string name="assistant_settings_music_provider_category_title">Памочнік будзе выкарыстоўваць гэтага пастаўшчыка музыкі стандартна, калі атрымлівае запыт на прайграванне музыкі. Вы па-ранейшаму можаце прайграваць музыку з дапамогай усіх іншых звязаных пастаўшчыкоў, калі пазначыце адпаведнага пастаўшчыка.</string>
     <string name="assistant_settings_music_title">Музыка</string>
     <string name="assistant_settings_music_unable_unlink_default">Немагчыма выдаліць сувязь з вашым стандартным пастаўшчыком музыкі</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Для прайгравання Музыкі YouTube у Google Home патрабуецца членства ў YouTube Red. Вы можаце выканаць уваход па адрасе <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Патрабуецца членства ў YouTube Red</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Выдаленне сувязі вашага ўліковага запісу прывядзе да адключэння прайгравання з %1$s праз Памочніка Google.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Для прайгравання Музыкі YouTube у Google Home патрабуецца падпіска YouTube Premium. Зарэгістравацца можна па адрасе <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Патрабуецца падпіска YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Выдаліць %1$s з крыніц навін</string>
     <string name="assistant_settings_news_supports_video">Відэа даступнае для разумных дысплэяў</string>
     <string name="assistant_settings_news_title">Навіны</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Ваш псеўданім змяшчае сімвал, які Памочнік не можа вымавіць. Напішыце, як ён вымаўляецца, у наступным раздзеле.</string>
     <string name="assistant_settings_no_device_linked">Voice Match дазваляе Памочніку перадаваць вам асабістую інфармацыю, калі пазнае ваш голас. Да 6 чалавек могуць атрымліваць свой каляндар, музыку і іншае.</string>
+    <string name="assistant_settings_no_language_summary">Няма</string>
     <string name="assistant_settings_no_language_title">Дадаць мову</string>
     <string name="assistant_settings_no_shopping_list">У вас няма спіса пакупак.</string>
     <string name="assistant_settings_notes_lists_title">Нататкі і спісы</string>
@@ -804,6 +812,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">Функцыя \"Бесперапынная размова\" пакуль даступная для англійскай мовы (ЗША). Калі вы карыстаецеся прыладамі Google Home, якія тут не паказаны, асоба з асноўным уліковым запісам на гэтых прыладах можа ўключыць або выключыць функцыю \"Бесперапынная размова\" ў наладах свайго Памочніка.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Гэтыя налады можна змяніць для прылад Google Home</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Няма даступных прылад</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">"Мікрафон вашай прылады будзе паўторна ўключацца пасля кожнага адказу, каб вы маглі задаць наступныя пытанні. Яны, як звычайна, будуць з'яўляцца ў раздзеле \"Мае дзеянні\". Фрагменты аўдыя, на якія ваш Памочнік не адкажа, будуць выдалены з вашага ўліковага запісу Google."</string>
     <string name="assistant_settings_summer_time_mode_button_title">Бесперапынная размова</string>
     <string name="assistant_settings_summer_time_mode_title">Бесперапынная размова</string>
     <string name="assistant_settings_turn_off_voice_match">Калі вы выключыце Voice Match, то адключыце свой уліковы запіс ад гэтай прылады. Каб карыстацца прыладай з усталяваным Памочнікам Google, трэба мець прынамсі адзін падключаны ўліковы запіс. Вы ўпэўненыя, што хочаце адключыць уліковы запіс? </string>
@@ -832,10 +841,8 @@
     <string name="assistant_settings_update_error_message">Не атрымалася абнавіць налады. Праверце падключэнне.</string>
     <string name="assistant_settings_video_calls_service_category_title">Памочнік можа рабіць відэавыклікі на некаторыя прылады, напрыклад Разумны дысплэй Google, з дапамогай абранага сэрвісу. Званкі ў экстранныя службы недаступныя.</string>
     <string name="assistant_settings_video_icon_text">Значок пастаўшчыка відэа</string>
-    <string name="assistant_settings_video_link_dialog_text">Звяжыце свой уліковы запіс Google з %1$s, каб уключыць галасавое кіраванне і прайграванне на сумяшчальных прыладах. Калі вы кіруеце сэрвісам %1$s з дапамогай Google Home або запытваеце інфармацыю, звязаную з наступным: %1$s, вашы запыты могуць адпраўляцца пастаўшчыку %1$s для выкарыстання ў адпаведнасці з яго заявай аб прыватнасці.</string>
     <string name="assistant_settings_video_provider_category_summary">Прасіце свайго Памочінка прайграваць шоу і фільмы.</string>
     <string name="assistant_settings_video_provider_category_title">Відэа</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Выдаленне сувязі вашага ўліковага запісу прывядзе да адключэння галасавога кіравання.</string>
     <string name="assistant_settings_videos_photos_title">Відэа і фота</string>
     <string name="assistant_settings_videosphotos_cast_destination">Тэлевізар Chromecast ці тэлевізар з убудаваным Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Галасавыя і відэавыклікі</string>
@@ -847,6 +854,21 @@
     <string name="assistant_settings_weather_title">"Надвор'е"</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Выдаліць працоўны адрас?</string>
     <string name="assistant_settings_work_title">Працоўны адрас</string>
+    <string name="assistant_settings_your_people_address">Адрас: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Дзень нараджэння: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Запомніць дату нараджэння</string>
+    <string name="assistant_settings_your_people_deletion_failure">Узнікла праблема. Паўтарыце спробу пазней.</string>
+    <string name="assistant_settings_your_people_email">Электронная пошта: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">"Запомніць члена сям'і"</string>
+    <string name="assistant_settings_your_people_forget_button">Забыць</string>
+    <string name="assistant_settings_your_people_forget_dialog">Будуць выдалены ўсе звесткі, якія Памочнік запомніў пра карыстальніка %1$s</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Забыць гэтыя звесткі?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Забыць гэтыя звесткі</string>
+    <string name="assistant_settings_your_people_phone">Тэлефон: %1$s</string>
+    <string name="assistant_settings_your_people_splash">А калі сказаць \"пазваніць маме\" або \"калі дзень нараджэння майго брата\", Памочнік навядзе даведкі.</string>
+    <string name="assistant_settings_your_people_splash_title">Раскажыце Памочніку, хто ёсць хто</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Можна папрасіць Памочніка</string>
+    <string name="assistant_settings_your_people_title">Вашы людзі</string>
     <string name="assistant_speaker_id_default_category_summary">Ваш Памочнік будзе даваць вашу асабістую інфармацыю толькі тады, калі распазнае ваш голас на гэтых прыладах</string>
     <string name="assistant_speaker_id_default_category_title">Абагуленыя прылады з функцыяй Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Немагчыма завяршыць рэгістрацыю.</string>
@@ -1005,7 +1027,7 @@
     <string name="cloud_search_history_summary_fetching">Атрыманне налад...</string>
     <string name="collapse">Згарнуць</string>
     <string name="collapse_time_to_leave">Схаваць параметры для гэтай паездкі.</string>
-    <string name="collections">Калекцыі</string>
+    <string name="collections">Захаваныя</string>
     <string name="comment_hint">Дадатковыя каментарыі (неабавязкова).</string>
     <string name="common_address_clear_button_label">Ачысціць</string>
     <string name="common_address_clear_confirm_button">Выдаліць</string>
@@ -1079,8 +1101,8 @@
 
 Гэта прылада будзе мець доступ да вашага ўліковага запісу Google."</string>
     <string name="consent_my_activity">Мая дзейнасць</string>
-    <string name="consent_partners_disclosures_body_collapsed">Партнёры Google знаходзяцца ў блізкіх камерцыйных зносінах з Google і могуць плаціць нам за рэкламу ці прасоўванне.</string>
-    <string name="consent_partners_disclosures_body_expanded">Партнёры Google знаходзяцца ў блізкіх камерцыйных зносінах з кампаніяй і могуць плаціць нам за рэкламу ці прасоўванне. У сваю чаргу гэтыя сэрвісы дапамагаюць вам вырашаць шматлікія задачы: ад куплі сурвэтак да рамонту ракавіны. %1$s.</string>
+    <string name="consent_partners_disclosures_body_collapsed">Партнёры Google знаходзяцца ў блізкіх камерцыйных адносінах з Google і могуць плаціць нам за рэкламу ці прасоўванне.</string>
+    <string name="consent_partners_disclosures_body_expanded">Партнёры Google знаходзяцца ў блізкіх камерцыйных адносінах з Google і могуць плаціць нам за рэкламу ці прасоўванне. У сваю чаргу гэтыя сэрвісы дапамагаюць вам вырашаць шматлікія задачы: ад куплі сурвэтак да рамонту ракавіны. %1$s.</string>
     <string name="consent_partners_disclosures_title">Партнёры Google</string>
     <string name="consent_services_disclosures_body_collapsed">У мэтах аховы вашай прыватнасці Google адпраўляе сэрвісам, з якімі вы размаўляеце, унікальны код.</string>
     <string name="consent_services_disclosures_body_expanded">"У мэтах аховы вашай прыватнасці Google адпраўляе сэрвісам, з якімі вы размаўляеце, унікальны код. Такім чынам сэрвісы могуць запамінаць вашы ўпадабанні ў размовах.
@@ -1239,6 +1261,10 @@
     <string name="device_setup_error_cancel_button">Даведка</string>
     <string name="device_setup_error_content">Нешта пайшло не так</string>
     <string name="device_setup_error_title">Магчыма, узнікла праблема</string>
+    <string name="devices_scan_action_button">Працягнуць</string>
+    <string name="devices_scan_cancel_button">Скасаваць</string>
+    <string name="devices_scan_explanation">Выбраць прылады</string>
+    <string name="devices_scan_title">Дадаць прылады</string>
     <string name="directory_for_mall">Каталог %1$s</string>
     <string name="disclaimer">Адмова ад абавязацельстваў</string>
     <string name="dismiss_text">Перацягніце ўніз, каб адхіліць</string>
@@ -1270,7 +1296,7 @@
     <string name="download_not_found">Спампоўка не знойдзена</string>
     <string name="download_prompt">Спампаваць</string>
     <string name="download_setting_message">Спампаваныя выпускі выдаляюцца праз 30 дзён або праз 24 гадзіны пасля праслухоўвання</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Спампаваны</string>
     <string name="downloaded_episodes">Спампаваныя выпускі</string>
     <string name="downloading">Ідзе спампоўванне...</string>
     <string name="downloads">Спампоўкі</string>
@@ -1334,7 +1360,6 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Даступныя выпускі</string>
     <string name="episode_page_section_title">Серыя</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">Для вас</string>
     <string name="error">Памылка</string>
     <string name="error_adding_location_snackbar_text">Памылка падчас дадання месца</string>
@@ -1401,7 +1426,6 @@
     <string name="eyes_donate_data_optin_ok">ОК</string>
     <string name="eyes_donate_data_optin_title">"Перадаць відарысы з Аб'ектыва"</string>
     <string name="eyes_flash_button_description">Уключыць або выключыць успышку</string>
-    <string name="eyes_initial_suggestion_0">Што вы пазнаяце?</string>
     <string name="eyes_launcher_description">"Google Аб'ектыў"</string>
     <string name="eyes_no_permission">У мяне няма дазволу на гэта</string>
     <string name="eyes_no_permission_camera">У мяне няма дазволу на карыстанне камерай</string>
@@ -1429,7 +1453,6 @@
     <string name="eyes_onboarding_title_text">Сканіруйце тэкст</string>
     <string name="eyes_request_timed_out_message">Google зараз недаступны</string>
     <string name="eyes_share_with">Абагуліць з</string>
-    <string name="eyes_unfreeze_image_description">Назад да камеры</string>
     <string name="eyes_viewfinder_description">"Актываваць Google Аб'ектыў"</string>
     <string name="failed_to_open_webview">Не атрымлiваецца адкрыць старонку</string>
     <string name="failure_to_load_cards">Не атрымалася загрузіць Падказкі</string>
@@ -1553,8 +1576,13 @@
     <string name="folder_renamed">Папка перайменавана ў %1$s</string>
     <string name="folder_tap_to_close">Дакраніцеся, каб закрыць папку</string>
     <string name="folder_tap_to_rename">Дакраніцеся, каб захаваць новую назву</string>
+    <string name="follow_soccer_promo_query">футбол 2018</string>
     <string name="follow_world_cup_promo">Сачыце за Чэмпіянатам свету</string>
     <string name="follow_world_cup_promo_content_description">Сачыце за Чэмпіянатам свету</string>
+    <string name="follow_world_cup_promo_detail">Каб падпісацца на напаміны пра матчы, атрымліваць навіны і актуальны лік гульні з удзелам улюбёнай каманды, націсніце тут</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Будзьце ў курсе футбольных матчаў</string>
+    <string name="follow_world_cup_promo_query">чэмпіянат свету 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Футбольная ліхаманка!</string>
     <string name="forbid_download_removal">Нельга выдаліць выпуск падчас прайгравання</string>
     <string name="fourth_quarter">4-я чвэрць</string>
     <string name="fourth_quarter_abbrev">4-я чвэрць</string>
@@ -1695,9 +1723,9 @@
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_negative_button">назад</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_positive_button">Так</string>
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Вы ўпэўненыя?</string>
-    <string name="hotword_enrollment_google_home_share_message">"Прывітанне! Памочнік цяпер пазнае мой голас у Google Home, і я атрымліваю персаналізаваныя вынікі.
+    <string name="hotword_enrollment_google_home_share_message">"Прывітанне! Я толькі што навучыў(-ла) Памочінк пазнаваць мой голас у Google Home, каб атрымліваць персаналізаваныя вынікі.
 
-Вы таксама можаце скарыстацца гэтай магчымасцю і атрымліваць персаналізаваныя адказы! Для гэтага трэба ўсталяваць праграму Google Home: https://google.com/home/setup"</string>
+Вы таксама можаце атрымліваць адказы, прызначаныя спецыяльна для вас! Для гэтага трэба ўсталяваць праграму Google Home: https://google.com/home/setup"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Навучыце Памочніка пазнаваць вас</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Запрасіць</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Праглядзець або выдаліць галасавую дзейнасць можна ў раздзеле %1$s. Выключыць Voice Match можна ў наладах Памочніка.</string>
@@ -1829,7 +1857,7 @@
     <string name="hourly_forecast">Пагадзінавы прагноз</string>
     <string name="hours">Гадзіны</string>
     <string name="how_can_i_help">Чым магу дапамагчы?</string>
-    <string name="hq_a11y_bottom_bar_button">Адкрыйце мікрафон, каб паразмаўляць з памочнікам</string>
+    <string name="hq_a11y_bottom_bar_button">Памочнік</string>
     <string name="hq_a11y_chatui_badge">Адкрыйце змесціва і азнаёмцеся з ім</string>
     <string name="hq_a11y_menu_button">Меню</string>
     <string name="hq_account_switch_prompt">Уваход ва ўліковы запіс %1$s</string>
@@ -1957,10 +1985,10 @@
     <string name="inferred_event_error">Не атрымалася стварыць падзею</string>
     <string name="inferred_from_gmail">Называецца «%1$s» у Gmail</string>
     <string name="info_target_label">Звесткі пра праграмы</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Усталяваць праграму \"Падкасты Google\"</string>
+    <string name="install_google_podcasts_accept">Усталяваць праграму</string>
+    <string name="install_google_podcasts_message">Для хуткага доступу ўсталюйце праграму \"Падкасты Google\" з Крамы Play</string>
+    <string name="install_google_podcasts_reject">Не зараз</string>
     <string name="installed_app_group_header">Праграмы</string>
     <string name="installed_details">Версія %1$s усталявана, памер на дыску – %2$s</string>
     <string name="installed_language_packs">Усталявана</string>
@@ -2001,7 +2029,7 @@
     <string name="item_is_selected">Выбраны элемент %1$s</string>
     <string name="item_moved">Элемент перамешчаны</string>
     <string name="item_removed">Элемент выдалены</string>
-    <string name="jasper_duo_knock_knock_summary">Убачце абанента да таго, як адказаць на выклік. Тыя, каго вы выклікаеце, таксама будуць бачыць вас, перш чым паднімуць трубку. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Даведацца больш&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Убачце абанента да таго, як адказаць на выклік. Тыя, каго вы выклікаеце, таксама будуць бачыць вас, перш чым паднімуць трубку. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Функцыя \"Грук-грук\"</string>
     <string name="jasper_duo_not_signed_in">Уваход не выкананы</string>
     <string name="jasper_duo_signed_in">Уваход выкананы</string>
@@ -2097,10 +2125,10 @@
     <string name="location_service_required_title">Атрымаць Падказкі на аснове вызначэння месцазнаходжання</string>
     <string name="lockscreen_mic_promo_notification_content">Каб разблакіраваць тэлефон, скажыце \"%1$s\".</string>
     <string name="lockscreen_mic_promo_notification_title">Разблакіруйце сваім голасам</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Дакраніцеся двойчы і ўтрымлівайце, каб выбраць віджэт або выкарыстоўваць карыстальніцкія дзеянні.</string>
     <string name="long_press_widget_to_add">Дакраніцеся і ўтрымлiвайце віджэт, каб выбр. яго.</string>
     <string name="longpress_menu_download">Спампаваць відарыс</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Абагуліць відарыс</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Нокс</string>
@@ -2133,10 +2161,10 @@
     <string name="map_content_description">Мапа</string>
     <string name="map_route_content_description">Мапа да %1$s</string>
     <string name="maps_mode_landing_text">Пошук па картах</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Пазначыць як праслуханы</string>
+    <string name="mark_as_unplayed">Пазначыць як непраслуханы</string>
     <string name="media_content_image">На гэтай карце адлюстроўваецца выява, звязаная з мультымедыйным змесцiвам</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Вашы падкасты</string>
     <string name="media_route_chooser_dialog_title">Трансліраваць на</string>
     <string name="media_route_chooser_searching">Пошук прылад…</string>
     <string name="media_route_controller_cancel">Скасаваць</string>
@@ -2149,13 +2177,11 @@
     <string name="menu_overlay_feedback">Адправіць водгук</string>
     <string name="menu_overlay_reset_to_default_style">Скінуць да стандартнага стылю</string>
     <string name="menu_refresh">Абнавіць</string>
-    <string name="menu_search_by_image">Пошук па відарысе</string>
     <string name="menu_send_button_content_description">Кнопка \"Адправіць\" для адпраўкі водгукаў.</string>
     <string name="menu_send_feedback">Адправіць водгук</string>
     <string name="menu_settings">Налады</string>
     <string name="menu_share">Абагуліць</string>
     <string name="menu_view_in_browser">Паглядзець у браўзеры</string>
-    <string name="menu_view_original_image">Праглядзець зыходны відарыс</string>
     <string name="menu_visit_page">Наведаць старонку</string>
     <string name="message_card_feedback">Адправіць водгук</string>
     <string name="message_image">Відарыс</string>
@@ -2200,7 +2226,6 @@
     <string name="minus_one_header_settings">Налады</string>
     <string name="minute_picker_description">Кругавы паўзунок хвілін</string>
     <string name="minutes">Хвіліны</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Рознае</string>
     <string name="mismatching_value_eir_code">Павін. адпав. адрасу</string>
     <string name="mismatching_value_pin_code">Павін. адпав. адрасу</string>
@@ -2281,7 +2306,6 @@
     <string name="network_error_fetching_weather_data_status_text">Зараз сетка недаступна</string>
     <string name="network_error_no_connection_tts">Няма падлучэння да інтэрнэту.</string>
     <string name="network_error_resend_audio">Паўторна адправiць аўдыё</string>
-    <string name="network_error_try_again">Паўтарыць спробу</string>
     <string name="network_location_required_text">"Каб убачыць Падказкі на аснове вызначэння месцазнаходжання, такія як мясцовае надвор'е і трафік на штодзённым маршруце, уключыце Wi-Fi і месцазнаходжанне мабільнай сеткі"</string>
     <string name="network_location_required_text_klp">"Каб убачыць Падказкі на аснове вызначэння месцазнаходжання, такія як мясцовае надвор'е і трафік на штодзённым маршруце, выберыце высокую дакладнасць або рэжым энергазберажэння для месцазнаходжання"</string>
     <string name="never">Ніколі</string>
@@ -2373,7 +2397,7 @@
     <string name="none">Ніякі</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Сэрвісы спісаў і нататак</string>
-    <string name="notes_lists_none_preference_summary">Другасная інфармацыя</string>
+    <string name="notes_lists_none_preference_summary">Памочнік не будзе сінхранізаваць даныя з сэрвісамі.</string>
     <string name="notes_lists_none_preference_title">Няма</string>
     <string name="notes_lists_provider_changed_description">"Даныя нататак і спісаў Памочніка больш не будуць абнаўляцца з дапамогай сэрвісу %1$s. Даныя, якія ўжо захаваны ў %1$s, выдаляцца не будуць.
 
@@ -2381,6 +2405,7 @@
     <string name="notes_lists_provider_changed_negative_button">Скасаваць</string>
     <string name="notes_lists_provider_changed_positive_button">Згадзіцца</string>
     <string name="notes_lists_provider_changed_title">Адключыцца ад сэрвісу %1$s</string>
+    <string name="notes_lists_title">Ваш Памочнік будзе сінхранізаваць вашы нататкі і спісы з гэтымі сэрвісамі.</string>
     <string name="notification_access_link_text">Адключыць доступ да апавяшчэнняў</string>
     <string name="notification_accessable_apps_category_title">Доступ да апавяшчэнняў</string>
     <string name="notification_cancel_text">Google не будзе спрабаваць выканаць пошукавы запыт, калі вы будзеце ў сетцы.</string>
@@ -2425,7 +2450,7 @@
     <string name="offline_error_card_explanation_text_no_signal_wifi_on">Даступных сетак няма. Паспрабуйце падключыцца да сеткі Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_no_sim_card_wifi_off">Даступных сетак няма. Паспрабуйце ўставіць SIM-карту або ўключыць Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_no_sim_card_wifi_on">Даступных сетак няма. Паспрабуйце ўставіць SIM-карту або падключыцца да сеткі Wi-Fi.</string>
-    <string name="offline_error_card_explanation_text_offline_opted_into_background_retry">"Вынікі з'явяцца, калі вы будзеце ў сетцы, і вы адразу атрымаеце апавяшчэнне."</string>
+    <string name="offline_error_card_explanation_text_offline_opted_into_background_retry">"Вынікі з'явяцца, калі вы будзеце ў сетцы. Вам адразу прыйдзе апавяшчэнне."</string>
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_off">Даступных сетак няма. Паспрабуйце ўключыць Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_on">Даступных сетак няма. Паспрабуйце падключыцца да сеткі Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_suffix_opted_into_background_retry">Вы атрымаеце апавяшчэнне, калі вынікі будуць гатовыя.</string>
@@ -2500,6 +2525,7 @@
     <string name="opa_assist_app_screen_explanation">Каб атрымаць доступ да Памочніка Google, выберыце праграму Google у наладах Памочніка і галасавога ўводу</string>
     <string name="opa_assist_app_screen_title">"Праграма Google не з'яўляецца вашай стандартнай праграмай-памочнікам"</string>
     <string name="opa_assistant_logo_content_description">Галасавы пошук</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Праглядзець абнаўленні Памочніка Google</string>
     <string name="opa_consent_check_error_button">Закрыць</string>
     <string name="opa_consent_check_error_button_notavailable">Пераключыцца на іншы ўліковы запіс</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">У залежнасці ад налад вашага ўліковага запісу Памочніку могуць быць даступныя толькі вынікі пошуку ў інтэрнэце, жарты і мясцовая інфармацыя.</string>
@@ -2576,7 +2602,6 @@
     <string name="opa_eyes_free_opt_in_speech">Калі гэта бяспечна, спачатку вам трэба будзе дакрануцца да апавяшчэння. Тады вы зможаце дазволіць гарнітуры ўзаемадзейнічаць з Памочнікам Google.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Дакраніцеся, каб працягнуць</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Дазвольце свайму Памочніку Google дапамагчы вам</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Націсніце, каб працягнуць</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Зрабіць гэта пазней</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Я згаджаюся</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">ПАЧАЦЬ</string>
@@ -2637,6 +2662,7 @@
     <string name="opa_launcher_icon_text">Памочнік</string>
     <string name="opa_lock_icon_description">Значок разблакіроўкі</string>
     <string name="opa_logo_content_desc">Лагатып Памочніка Google</string>
+    <string name="opa_mark_content">Памочнік</string>
     <string name="opa_marketplace_disclosure_description">Ваш Памочнік Google можа працаваць з рознымі сэрвісамі, каб дапамагаць вам выконваць больш задач.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Памочнік можа ўзаемадзейнічаць з партнёрамі Google, каб дапамагаць вам выконваць розныя задачы: ад куплі білетаў у кіно да рамонту ракавіны.&lt;a href=https://support.google.com/assistant/?p=google_partners>Даведацца больш&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Партнёры Google – гэта кампаніі, якія маюць камерцыйныя зносіны з Google. Памочнік Google можа працаваць з партнёрамі Google, каб дапамагаць вам выконваць больш задач: ад куплі білетаў да рамонту ракавіны. <a href="https://support.google.com/assistant/?p=google_partners">Даведацца больш</a></string>
@@ -2873,7 +2899,7 @@
 Памятайце, што кожны, хто выкарыстоўвае гэту прыладу, можа атрымаць доступ да вашых асабістых даных. Гэту функцыю можна адключыць у наладах Памочніка."</string>
     <string name="personal_results_title">Уключыце асабістыя вынікі</string>
     <string name="personal_results_unicorn_explanation">{GENDER,select, male{Функцыя Voice Match наладжана.&lt;br>&lt;br>Цяпер можна ўключыць асабістыя вынікі, каб карыстальнік {PERSON} мог звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. &lt;a href=\"https://support.google.com/families/answer/7521263\">Даведацца больш&lt;/a>&lt;br>&lt;br>Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}female{Функцыя Voice Match наладжана.&lt;br>&lt;br>Цяпер можна ўключыць асабістыя вынікі, каб карыстальнік {PERSON} мог звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. &lt;a href=\"https://support.google.com/families/answer/7521263\">Даведацца больш&lt;/a>&lt;br>&lt;br>Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}other{Функцыя Voice Match наладжана.&lt;br>&lt;br>Цяпер можна ўключыць асабістыя вынікі, каб карыстальнік {PERSON} мог звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. &lt;a href=\"https://support.google.com/families/answer/7521263\">Даведацца больш&lt;/a>&lt;br>&lt;br>Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}}</string>
-    <string name="personal_results_unicorn_explanation_dragonglass">"{GENDER,select, male{Функцыя Voice Match наладжана.Цяпер можна ўключыць асабістыя вынікі, каб {PERSON} мог звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. Даведацца большАсабістыя вынікі могуць таксама з'яўляцца на галоўным экране і ў апавяшчэннях, нават калі {PERSON} іх не запытвае. Калі побач будуць іншыя людзі, яны могуць зацікавіцца і адрэагаваць на гэтыя вынікі і рэкамендацыі.Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}female{Функцыя Voice Match наладжана.Цяпер можна ўключыць асабістыя вынікі, каб {PERSON} магла звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. Даведацца большАсабістыя вынікі могуць таксама з'яўляцца на галоўным экране і ў апавяшчэннях, нават калі {PERSON} іх не запытвае. Калі побач будуць іншыя людзі, яны могуць зацікавіцца і адрэагаваць на гэтыя вынікі і рэкамендацыі.Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}other{Функцыя Voice Match наладжана.Цяпер можна ўключыць асабістыя вынікі, каб карыстальнік {PERSON} мог звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. Даведацца большАсабістыя вынікі могуць таксама з'яўляцца на галоўным экране і ў апавяшчэннях, нават калі {PERSON} іх не запытвае. Калі побач будуць іншыя людзі, яны могуць зацікавіцца і адрэагаваць на гэтыя вынікі і рэкамендацыі.Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}}"</string>
+    <string name="personal_results_unicorn_explanation_dragonglass">"{GENDER,select, male{Функцыя Voice Match наладжана.&lt;br>&lt;br>Цяпер можна ўключыць асабістыя вынікі, каб {PERSON} мог звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. &lt;a href=\"https://support.google.com/families/answer/7521263\">Даведацца больш&lt;/a>&lt;br>&lt;br>Асабістыя вынікі могуць таксама з'яўляцца на галоўным экране і ў апавяшчэннях, нават калі {PERSON} іх не запытвае. Калі побач будуць іншыя людзі, яны могуць зацікавіцца і адрэагаваць на гэтыя вынікі і рэкамендацыі.&lt;br>&lt;br>Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}female{Функцыя Voice Match наладжана.&lt;br>&lt;br>Цяпер можна ўключыць асабістыя вынікі, каб {PERSON} магла звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. &lt;a href=\"https://support.google.com/families/answer/7521263\">Даведацца больш&lt;/a>&lt;br>&lt;br>Асабістыя вынікі могуць таксама з'яўляцца на галоўным экране і ў апавяшчэннях, нават калі {PERSON} іх не запытвае. Калі побач будуць іншыя людзі, яны могуць зацікавіцца і адрэагаваць на гэтыя вынікі і рэкамендацыі.&lt;br>&lt;br>Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}other{Функцыя Voice Match наладжана.&lt;br>&lt;br>Цяпер можна ўключыць асабістыя вынікі, каб карыстальнік {PERSON} мог звяртацца да свайго календара, кантактаў, напамінаў і іншых функцый на гэтай прыладзе з дапамогай галасавых каманд. &lt;a href=\"https://support.google.com/families/answer/7521263\">Даведацца больш&lt;/a>&lt;br>&lt;br>Асабістыя вынікі могуць таксама з'яўляцца на галоўным экране і ў апавяшчэннях, нават калі {PERSON} іх не запытвае. Калі побач будуць іншыя людзі, яны могуць зацікавіцца і адрэагаваць на гэтыя вынікі і рэкамендацыі.&lt;br>&lt;br>Гэту функцыю можна адключыць у наладах Памочніка або ў Family Link.}}"</string>
     <string name="personal_results_unicorn_title">{GENDER,select, female{Атрымлівайце асабістыя вынікі з дапамогай галасавых каманд карыстальніка {PERSON}.}male{Атрымлівайце асабістыя вынікі з дапамогай галасавых каманд карыстальніка {PERSON}.}other{Атрымлівайце асабістыя вынікі з дапамогай галасавых каманд карыстальніка {PERSON}.}}</string>
     <string name="personal_search">Персаналізаваны пошук</string>
     <string name="phone_display_name">Тэлефанаванне</string>
@@ -3059,9 +3085,10 @@
     <string name="recently_empty_state_read_later_body_text">Мы будзем захоўваць спампаванае на прыладзе на працягу 7 дзён.</string>
     <string name="recently_empty_state_read_later_title_text">Дадаць старонкі ў спіс адкладзеных</string>
     <string name="recently_entry_interaction_offline">Немагчыма адкрыць запытаную старонку па-за сеткай.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Канал</string>
     <string name="recently_google_doodle_for">Дудл Google для: %s</string>
-    <string name="recently_keep_on_device_until">Трымаць на прыладзе да:</string>
+    <string name="recently_keep_on_device_until">Захоўваць на прыладзе да:</string>
     <string name="recently_onboarding_compare_message">Не можаце вырашыць, што купіць? Параўноўвайце параметры, якія вы знайшлі, праглядваючы іх побач адзін з адным.</string>
     <string name="recently_onboarding_compare_title">Параўноўвайце</string>
     <string name="recently_onboarding_find_that_page_message">Хочаце праглядзець той рэцэпт, артыкул ці сайт, якія бачылі некалькі дзён таму? Не марнуйце час, шукаючы, і знайдзіце іх тут.</string>
@@ -3073,17 +3100,17 @@
     <string name="recently_onboarding_recent_message_2">"Зноў праглядзіце тэмы, якія вы нядаўна шукалі ў праграме Google.
 
 Вы можаце закрыць групу, звёўшы пальцы разам."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Праглядзіце тэмы, якія вы нядаўна шукалі ў праграме Google.</string>
     <string name="recently_onboarding_recent_title">Паглядзіце, што вы знайшлі</string>
     <string name="recently_onboarding_search_on_message">"Старонкі, якія паказваюцца тут, – гэта тыя старонкі, якія вы праглядалі на гэтай прыладзе. Старонкі, што былі выдадзены для аднаго і таго ж пошукавага запыту, групуюцца разам (навейшыя спачатку).
 
 Працягвайце пошук і паўторна праглядайце вынікі тут."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">Тут паказваюцца старонкі, якія вы ўжо праглядалі на гэтай прыладзе. Працягвайце пошук і паўторна праглядайце знойдзеныя старонкі тут.</string>
     <string name="recently_onboarding_search_on_title">Працягвайце пошук</string>
     <string name="recently_onboarding_swipe_up_message">"Хочаце пазбавіцца апошніх старонак? Каб выдаліць іх, проста правядзіце пальцам уверх.
 
 Гэта не прывядзе да іх выдалення з вашага ўліковага запісу Google."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Хочаце пазбавіцца апошніх старонак? Каб выдаліць іх, проста правядзіце пальцам уверх. Гэта не прывядзе да іх выдалення з вашага ўліковага запісу Google.</string>
     <string name="recently_onboarding_swipe_up_title">Правядзіце пальцам уверх</string>
     <string name="recently_overflow_title">Дадатковыя параметры</string>
     <string name="recently_reading_reminder">Напамін аб чытанні:</string>
@@ -3115,6 +3142,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Нядаўнія дзеянні ў інтэрнэце</string>
     <string name="recents_result_separate_group_header">Апошнія пошукавыя запыты</string>
     <string name="recognizer_service_label">Асноўнае распазнан. Google</string>
+    <string name="recommendation_header_text">Рэкамендавана для вас</string>
     <string name="reconnecting_loading_results">"Ідзе загрузка вынікаў
 "</string>
     <string name="reconnecting_title">Ідзе паўторнае падключэнне…</string>
@@ -3161,7 +3189,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Імя</string>
     <string name="report_other_reason">Іншае</string>
     <string name="report_this">Паскардзіцца</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Каб спампоўваць выпускі, дайце доступ да сховішча ў дазволах праграмы Google</string>
     <string name="request_storage_permission_dialog_message">Каб спампоўваць серыі, дайце Google доступ да сховішча прылады</string>
     <string name="request_storage_permission_dialog_title">Даць доступ да сховішча</string>
     <string name="reservation_group_header">Браніраванні</string>
@@ -3246,6 +3274,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_moved">Экран перамешчаны</string>
     <string name="screenshot_srp_desc">Шукаць наступнае: %s.</string>
     <string name="screenshot_srp_pending_desc">Пошукавы запыт \"%s\" у стане чакання</string>
+    <string name="screenshot_srp_voice_pending_desc">Галасавы пошук у чаканні</string>
+    <string name="screenshot_srp_voice_pending_title">галасавы пошук</string>
     <string name="screenshot_web_desc">Наведаць наступнае: %s.</string>
     <string name="screenshot_webpage_pending_desc">Чакаецца спампоўка</string>
     <string name="scroll_left">Пракрутка налева</string>
@@ -3303,7 +3333,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_sources_tablet">Пошук на планшэце</string>
     <string name="search_storage_label">Памяць пошуку Googlе</string>
     <string name="search_tablet">Пошук на планшэце</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Шукаць у інтэрнэце</string>
     <string name="search_the_web_menu_text">Пошук па ўсім сеціве</string>
     <string name="search_the_web_suggestion">Шукаць у інтэрнэце</string>
     <string name="search_widget_customization">Наладзіць віджэт</string>
@@ -3527,7 +3557,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="sports_wins_header">В</string>
     <string name="sports_wins_header_full_length">Выйгрышы</string>
     <string name="standalone_zs_back_content_desc">Назад</string>
+    <string name="standalone_zs_brick_content_desc">Асабістыя абнаўленні</string>
     <string name="standalone_zs_explore_content_desc">Перайсці да вашай інфармацыі і агляду</string>
+    <string name="standalone_zs_opa_icon_desc">Памочнік</string>
     <string name="star_rating_bar_content_description">Ацэнка: %1$s</string>
     <string name="starting_location_selector">%1$s. Выберыце пачатковую кропку.</string>
     <string name="starts_at">Пачынаецца ў</string>
@@ -3543,6 +3575,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="street_address_label">Вуліца, дом</string>
     <string name="subscribe_button_label">Падпісацца</string>
     <string name="subscribe_to_see_new_episodes">Падпішыцеся на падкасты, каб убачыць новыя выпускі</string>
+    <string name="success">Паспяхова</string>
     <string name="suggest">Аўтазапаўненне</string>
     <string name="suggest_contact_removal_body">Кантакт &lt;b>%1$s&lt;/b> будзе выдалены са спіса часта выкарыстаных кантактаў. Кантакт &lt;b>%2$s&lt;/b> можна знайсці пошукам.</string>
     <string name="suggest_contact_removal_cancel">СКАСАВАЦЬ</string>
@@ -3901,6 +3934,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_say_something_title">Скажыце што-небудзь</string>
     <string name="user_defined_action_task_scene_control_title">Сцэны</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Выберыце сцэны, якія хочаце ўключыць у гэты працоўны працэс.</string>
+    <string name="user_defined_action_task_security_system_control_title">Уключыць сістэму бяспекі</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Які рэжым трэба задаць?</string>
     <string name="user_defined_action_task_send_text_content_summary">Калі вы не ўведзяце нумар атрымальніка або тэкст паведамлення, вам будзе прапанавана зрабіць гэта пры выкананні дадзенай паслядоўнасці дзеянняў.</string>
     <string name="user_defined_action_task_send_text_content_title">Што павінна быць у тэксце?</string>
     <string name="user_defined_action_task_send_text_recipient_title">На які нумар вы хочаце адправіць тэкст?</string>

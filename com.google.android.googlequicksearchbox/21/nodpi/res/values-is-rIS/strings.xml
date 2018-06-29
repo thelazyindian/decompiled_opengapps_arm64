@@ -118,6 +118,7 @@
     <string name="action_sms_who_tts">Hverjum viltu senda skilaboð?</string>
     <string name="action_sound_search_get_song">Sækja á Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s,%2$s,%3$s</string>
+    <string name="action_suggestion_message">Þetta er aðgerð sem tengist því sem þú ert að slá inn.</string>
     <string name="action_unlock_device_tts">Það er reyndar ekki hægt að gera þegar tækið er í lás. Til að halda áfram skaltu taka tækið úr lás.</string>
     <string name="action_who_is_relation_1_tts">Segðu nafn tengiliðarins eða segðu „%2$s“.</string>
     <string name="action_who_is_relation_eyes_free_1_tts">Náði þessu ekki. Hvern áttirðu við?</string>
@@ -172,6 +173,10 @@
     <string name="agent_bookmark_error">Villa kom upp. Reyndu aftur síðar.</string>
     <string name="agent_bookmark_removed">Fjarlægt úr bókamerkjum</string>
     <string name="agent_description_more">meira</string>
+    <string name="agent_details_add_routine_description">Komdu fleiri rútínum í verk með uppfærslum frá %1$s.</string>
+    <string name="agent_details_add_routine_item">Bæta við</string>
+    <string name="agent_details_customize_routine">Sérsníddu rútínuna þína</string>
+    <string name="agent_details_manage_routines">Stjórna rútínum</string>
     <string name="agent_details_splash_image_a11y">Mynd af hjálparaforriti</string>
     <string name="agent_directory_a11y_back_button">Til baka</string>
     <string name="agent_directory_a11y_more_groups">Meira</string>
@@ -391,6 +396,7 @@ Leyfa Google að geyma og greina skjámyndir úr skjáleitinni í ótakmarkaðan
 Aðstoðarmaðurinn þinn mun nota þessa stillingu fyrir spurningar um ferðamáta þinn"</string>
     <string name="assistant_settings_commute_walk">Ganga</string>
     <string name="assistant_settings_commute_walk_key">TIL OG FRÁ VINNU gangandi</string>
+    <string name="assistant_settings_contact_list_introduction">Þetta er það sem þú hefur beðið hjálparann um að muna um fólkið sem þú þekkir.</string>
     <string name="assistant_settings_custom_routines_description">Láttu hjálparann sjá um ýmsa hluti með aðeins einni skipun. Notaðu tilbúnar rútínur sem þú getur lagað að þínum þörfum og búðu til nýjar frá grunni.</string>
     <string name="assistant_settings_default_record_button_text">Taka upp</string>
     <string name="assistant_settings_delete_button_label">Eyða</string>
@@ -536,13 +542,15 @@ Aðstoðarmaðurinn þinn mun nota þessa stillingu fyrir spurningar um ferðam�
     <string name="assistant_settings_music_provider_category_title">Aðstoðarmaðurinn mun nota þessa tónlistarveitu að sjálfgefnu þegar hann er beðinn um að spila tónlist. Þú getur enn spilað tónlist með öllum öðrum tengdum veitum þegar þær eru tilgreindar.</string>
     <string name="assistant_settings_music_title">Tónlist</string>
     <string name="assistant_settings_music_unable_unlink_default">Ekki er hægt að aftengja sjálfgefna tónlistarveitu</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music þarf áskrift að YouTube Red til að spila með Google Home. Þú getur skráð þig á <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Áskriftar að YouTube Red er krafist</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Ef þú aftengir reikninginn verður lokað á aðgang að spilun frá %1$s í gegnum Google hjálparann.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Áskrift að YouTube Premium er nauðsynleg til að YouTube Music geti spilað á Google Home. Þú getur stofnað reikning á <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">Áskrift að YouTube Premium er nauðsynleg</string>
     <string name="assistant_settings_news_provider_delete_button_description">Fjarlægja %1$s úr virkum fréttaveitum</string>
     <string name="assistant_settings_news_supports_video">Myndskeið í boði á snjallskjám</string>
     <string name="assistant_settings_news_title">Fréttir</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Gælunafnið þitt er með staf sem aðstoðarmaðurinn getur ekki borið fram. Stafaðu framburðinn í næsta hluta.</string>
     <string name="assistant_settings_no_device_linked">Voice Match gerir hjálparanum kleift að veita þér sérsniðnar upplýsingar þegar hann ber kennsl á rödd þína. Allt að 6 einstaklingar geta notað sitt eigið dagatal, tónlist og fleira.</string>
+    <string name="assistant_settings_no_language_summary">Engin</string>
     <string name="assistant_settings_no_language_title">Bæta við tungumáli</string>
     <string name="assistant_settings_no_shopping_list">Þú ert ekki með neina innkaupalista.</string>
     <string name="assistant_settings_notes_lists_title">Glósur og listar</string>
@@ -710,6 +718,7 @@ Aðstoðarmaðurinn þinn notar þessa stillingu þegar hann veitir þér leiðs
     <string name="assistant_settings_summer_time_mode_availability_clarification">Áframhaldandi samtal er sem stendur í boði fyrir ensku (Bandaríkin). Ef þú notar Google Home tæki sem ekki sjást hér getur sá sem á aðalreikninginn í þeim tækjum kveikt og slökkt á Áframhaldandi samtali í stillingum hjálparans hjá sér.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Þú getur breytt þessu fyrir þessi Google Home tæki</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Engin tæki í boði</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Kveikt verður á hljóðnema tækisins þíns eftir hvert svar til að hlusta eftir viðbótarspurningum. Þær munu birtast í „Mínar aðgerðir“ eins og venjulega. Hljóði sem hjálparinn þinn bregst ekki við verður eytt af Google reikningnum þínum.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Áframhaldandi samtal</string>
     <string name="assistant_settings_summer_time_mode_title">Áframhaldandi samtal</string>
     <string name="assistant_settings_turn_off_voice_match">Ef þú slekkur á Voice Match verður reikningurinn ekki tengdur við þetta tæki. Að minnsta kosti einn reikningur þarf að vera tengdur til að þú getir notað tæki með Google hjálparanum. Ertu viss um að þú viljir aftengja reikninginn? </string>
@@ -738,10 +747,8 @@ Aðstoðarmaðurinn þinn notar þessa stillingu þegar hann veitir þér leiðs
     <string name="assistant_settings_update_error_message">Ekki tókst að uppfært stillinguna. Athugaðu tenginguna.</string>
     <string name="assistant_settings_video_calls_service_category_title">Hjálparinn getur hringt myndsímtöl úr ákveðnum tækjum, eins og Google Smart Display, með þjónustu að þínu vali. Neyðarsímtöl eru ekki í boði.</string>
     <string name="assistant_settings_video_icon_text">Tákn myndskeiðsveitu</string>
-    <string name="assistant_settings_video_link_dialog_text">Tengdu Google reikninginn við %1$s til að virkja raddstýringu og spilun á samhæfum tækjum. Þegar þú stýrir þjónustu %1$s með Google Home eða biður um upplýsingar sem tengjast %1$s gætu þær beiðnir verið sendar til %1$s, til notkunar í samræmi við yfirlýsingu þeirra um persónuvernd.</string>
     <string name="assistant_settings_video_provider_category_summary">Spilaðu þætti og kvikmyndir með því að spyrja aðstoðarmanninn.</string>
     <string name="assistant_settings_video_provider_category_title">Myndskeið</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Ef þú aftengir reikninginn verður slökkt á raddstýringu.</string>
     <string name="assistant_settings_videos_photos_title">Myndskeið og myndir</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast eða sjónvarp með innbyggðu Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Símtöl og myndsímtöl</string>
@@ -753,6 +760,21 @@ Aðstoðarmaðurinn þinn notar þessa stillingu þegar hann veitir þér leiðs
     <string name="assistant_settings_weather_title">Veður</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Eyða heimilisfangi vinnu?</string>
     <string name="assistant_settings_work_title">Heimilisfang vinnu</string>
+    <string name="assistant_settings_your_people_address">Heimilisfang: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Afmæli: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">Muna eftir afmæli</string>
+    <string name="assistant_settings_your_people_deletion_failure">Vandamál kom upp. Reyndu aftur síðar.</string>
+    <string name="assistant_settings_your_people_email">Netfang: %1$s.</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">Muna eftir fjölskyldumeðlim</string>
+    <string name="assistant_settings_your_people_forget_button">Gleyma</string>
+    <string name="assistant_settings_your_people_forget_dialog">Allar upplýsingar sem þú hefur beðið hjálparann um að muna um %1$s verða fjarlægðar</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Gleyma þessum upplýsingum?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Gleyma þessum upplýsingum</string>
+    <string name="assistant_settings_your_people_phone">Símanúmer: %1$s</string>
+    <string name="assistant_settings_your_people_splash">Segðu svo eitthvað eins og „hringja í mömmu“ eða „hvenær á bróðir minn afmæli“ og hjálparinn aðstoðar þig.</string>
+    <string name="assistant_settings_your_people_splash_title">Segðu hjálparanum deili á fólki</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Þú getur beðið hjálparann um að</string>
+    <string name="assistant_settings_your_people_title">Fólkið þitt</string>
     <string name="assistant_speaker_id_default_category_summary">Hjálparinn gefur aðeins upp persónulegar upplýsingar þegar hann ber kennsl á rödd þína í þessum tækjum</string>
     <string name="assistant_speaker_id_default_category_title">Samnýtt tæki með Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Ekki er hægt að ljúka við skráningu.</string>
@@ -894,7 +916,7 @@ Gjöld fyrir gagnaflutning kunna að eiga við."</string>
     <string name="cloud_search_history_fetch_failed_toast">Ekki tókst að sækja stillingar. Reyndu aftur síðar.</string>
     <string name="cloud_search_history_summary_fetching">Sækir stillingar…</string>
     <string name="collapse_time_to_leave">Fela valkosti fyrir þessa ferð.</string>
-    <string name="collections">Söfn</string>
+    <string name="collections">Vistað</string>
     <string name="comment_hint">Viðbótarummæli (valfrjálst).</string>
     <string name="common_address_clear_button_label">Hreinsa</string>
     <string name="common_address_clear_confirm_button">Eyða</string>
@@ -944,7 +966,7 @@ Gjöld fyrir gagnaflutning kunna að eiga við."</string>
 Þetta tæki fær fá aðgang að Google reikningnum þínum."</string>
     <string name="consent_my_activity">Mínar aðgerðir</string>
     <string name="consent_partners_disclosures_body_collapsed">Samstarfsaðilar Google eru fyrirtæki sem eru í nánu viðskiptasambandi við Google og kunna að hafa greitt fyrir sérstaka birtingu eða kynningu.</string>
-    <string name="consent_partners_disclosures_body_expanded">Samstarfsaðilar Google eru í nánu viðskiptasambandi við Google og kunna að hafa greitt fyrir sérstaka birtingu eða kynningu. Þessi fyrirtæki hjálpa þér að koma hlutum í verk, t.d. kaupa eldhúsrúllur eða laga vaskinn. %1$s.</string>
+    <string name="consent_partners_disclosures_body_expanded">Samstarfsaðilar Google eru í nánu viðskiptasambandi við Google og kunna að hafa greitt fyrir sérstaka birtingu eða kynningu. Þeir hjálpa þér að koma hlutum í verk, t.d. kaupa eldhúsrúllur eða laga vaskinn. %1$s.</string>
     <string name="consent_partners_disclosures_title">Samstarfsaðilar Google</string>
     <string name="consent_services_disclosures_body_collapsed">Til að tryggja persónuvernd þína sendir Google einkvæman kóða til þjónustu sem þú talar við.</string>
     <string name="consent_services_disclosures_body_expanded">"Til að tryggja persónuvernd þína sendir Google einkvæman kóða til þjónustu sem þú talar við. Þannig getur þjónustan munað eftir hlutum eins og hvað þú velur í samtölum.
@@ -1076,6 +1098,10 @@ Við þurfum að áætla staðsetninguna með öðrum upplýsingum, t.d. IP-töl
     <string name="device_setup_error_cancel_button">Fá hjálp</string>
     <string name="device_setup_error_content">Eitthvað fór úrskeiðis</string>
     <string name="device_setup_error_title">Hugsanlegt vandamál</string>
+    <string name="devices_scan_action_button">Áfram</string>
+    <string name="devices_scan_cancel_button">Hætta við</string>
+    <string name="devices_scan_explanation">Velja tæki</string>
+    <string name="devices_scan_title">Bæta við tækjum</string>
     <string name="directory_for_mall">Skrá fyrir %1$s</string>
     <string name="disclaimer">Fyrirvari</string>
     <string name="dismiss_text">Dragðu niður til að hunsa</string>
@@ -1148,6 +1174,7 @@ næstu 2 vikur."</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Leyfa á farsímaneti</string>
     <string name="enable_web_history_toast">Kveikt á vefferli</string>
     <string name="entity_suggestion_message">Þetta leitaratriði tengist því sem þú ert að skrifa.</string>
+    <string name="error">Eitthvað fór úrskeiðis</string>
     <string name="error_adding_location_snackbar_text">Villa við að bæta staðsetningu við</string>
     <string name="error_authenticating_user">Villa við innskráningu</string>
     <string name="error_captive_portal">Athugaðu nettenginguna og reyndu aftur.</string>
@@ -1205,7 +1232,6 @@ Athugaðu nettenginguna og reyndu aftur"</string>
     <string name="eyes_donate_data_optin_ok">Í lagi</string>
     <string name="eyes_donate_data_optin_title">Gefa myndir úr Linsu</string>
     <string name="eyes_flash_button_description">Kveikja eða slökkva á flassi</string>
-    <string name="eyes_initial_suggestion_0">Hvað geturðu borið kennsl á?</string>
     <string name="eyes_launcher_description">Google linsa</string>
     <string name="eyes_no_permission">Ég hef ekki heimild til að gera þetta</string>
     <string name="eyes_no_permission_camera">Ég hef ekki heimild til að nota myndavélina</string>
@@ -1233,7 +1259,6 @@ Google linsan er enn í þróun og ekki er víst að hún greini hluti, texta og
     <string name="eyes_onboarding_title_text">Skanna texta</string>
     <string name="eyes_request_timed_out_message">Því miður næst ekki samband við Google í augnablikinu</string>
     <string name="eyes_share_with">Deila með</string>
-    <string name="eyes_unfreeze_image_description">Aftur í myndavél</string>
     <string name="eyes_viewfinder_description">Virkja Google linsu</string>
     <string name="failed">Ekki var hægt að hlaða mynd</string>
     <string name="failed_to_open_webview">Mistókst að opna síðu</string>
@@ -1344,8 +1369,13 @@ Google linsan er enn í þróun og ekki er víst að hún greini hluti, texta og
     <string name="flight_stops">Millilendir á %1$s</string>
     <string name="flight_terminal">Flugstöð</string>
     <string name="flights_mode_landing_text">Leita að flugi</string>
+    <string name="follow_soccer_promo_query">fótbolti 2018</string>
     <string name="follow_world_cup_promo">Fylgstu með HM í fótbolta</string>
     <string name="follow_world_cup_promo_content_description">Fylgstu með HM í fótbolta</string>
+    <string name="follow_world_cup_promo_detail">Ýttu hér til að fá áminningar um leiki og tilkynningar um stöðu í leikjum uppáhaldsliðanna þinna</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Fáðu nýjustu upplýsingar um leiki</string>
+    <string name="follow_world_cup_promo_query">heimsmeistarakeppnin í knattspyrnu 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Nú snýst allt um fótbolta!</string>
     <string name="fourth_quarter">4. fjórðungur</string>
     <string name="fourth_quarter_abbrev">4. fjórðungur</string>
     <string name="full_time">Lokatölur</string>
@@ -1472,8 +1502,8 @@ Hægt er að nota þessar upptökur til að búa til raddlíkan í þessu tæki.
     <string name="hotword_enrollment_google_home_oobe_skip_dialog_title">Ertu alveg viss?</string>
     <string name="hotword_enrollment_google_home_share_message">"Hæ! Ég var að kenna hjálparanum mínum að bera kennsl á röddina mína í Google Home svo ég geti fengið sérsniðnar niðurstöður.
 
-Þú getur líka fengið svör sem eru sérsniðin fyrir þig! Byrjaðu á því að setja upp forritið Google Home: https://google.com/home/setup"</string>
-    <string name="hotword_enrollment_google_home_share_message_subject">Kenndu hjálparanum að þekkja þig</string>
+Þú getur líka fengið svör sem eru sérsniðin fyrir þig! Byrjaðu á því að setja upp forrit Google Home: https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_subject">Kenndu aðstoðarmanninum að þekkja þig</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Bjóða</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Þú getur skoðað eða eytt raddvirkni þinni í %1$s. Einnig er hægt að slökkva á Voice Match í stillingum hjálparans.</string>
     <string name="hotword_enrollment_google_home_summary_header_title">Þá er allt klárt</string>
@@ -1603,7 +1633,7 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="hourly_forecast">Klukkustundarspá</string>
     <string name="hours">Klukkustundir</string>
     <string name="how_can_i_help">Hvernig get ég aðstoðað?</string>
-    <string name="hq_a11y_bottom_bar_button">Opnaðu hljóðnemann til að spjalla við aðstoðarmanninn</string>
+    <string name="hq_a11y_bottom_bar_button">Hálpari</string>
     <string name="hq_a11y_chatui_badge">Opnaðu „Kanna“ og „Dótið þitt“</string>
     <string name="hq_a11y_menu_button">Valmynd</string>
     <string name="hq_account_switch_prompt">Skráir inn sem %1$s</string>
@@ -1681,7 +1711,7 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="ipa_personal_search_sources">Eigin</string>
     <string name="ipa_search_result_page_message">%s Google leit.</string>
     <string name="ipa_searchable_items_category_title">Sýna efni úr</string>
-    <string name="jasper_duo_knock_knock_summary">Sjáðu myndina hjá þeim sem hringir áður en þú svarar. Leyfðu líka fólkinu sem þú hringir í að sjá myndina þína um leið og sími þess hringir. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Frekari upplýsingar&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Sjáðu myndina hjá þeim sem hringir áður en þú svarar. Leyfðu líka fólkinu sem þú hringir í að sjá myndina þína um leið og sími þess hringir. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knock-knock</string>
     <string name="jasper_duo_not_signed_in">Ekki innskráð(ur)</string>
     <string name="jasper_duo_signed_in">Innskráð(ur)</string>
@@ -1773,6 +1803,7 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="location_service_required_title">Fá spjöld sem byggja á staðsetningu</string>
     <string name="lockscreen_mic_promo_notification_content">Taktu símann úr lás með því að segja „%1$s“.</string>
     <string name="lockscreen_mic_promo_notification_title">Taktu úr lás með röddinni</string>
+    <string name="logo_content_description">Google</string>
     <string name="magic_flashlight_off">Nox</string>
     <string name="magic_flashlight_on">Lumos</string>
     <string name="mall_lookup_hint_text">Leitaðu að verslunum og þjónustu</string>
@@ -1884,7 +1915,6 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="network_error_fetching_weather_data_status_text">Netkerfi ekki í boði í augnablikinu</string>
     <string name="network_error_no_connection_tts">Engin tenging er við internetið sem stendur.</string>
     <string name="network_error_resend_audio">Endursenda hljóð</string>
-    <string name="network_error_try_again">Reyna aftur</string>
     <string name="network_location_required_text">Til að sjá spjöld sem byggja á staðsetningu, t.d. um veðrið á hverjum stað og umferð, skaltu kveikja á staðsetningu frá Wi-Fi og farsímakerfi.</string>
     <string name="network_location_required_text_klp">Til að sjá spjöld sem byggja á staðsetningu, t.d. um veðrið á hverjum stað og umferð, skaltu velja mikla nákvæmni eða orkusparnað sem staðsetningarstillingu.</string>
     <string name="nevermind_prompt">Nei, annars</string>
@@ -1960,7 +1990,7 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="none">Engin</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Lista- og glósuþjónusta</string>
-    <string name="notes_lists_none_preference_summary">Aukaupplýsingar</string>
+    <string name="notes_lists_none_preference_summary">Hjálparinn mun ekki samstilla gögnin þín við neina þjónustu.</string>
     <string name="notes_lists_none_preference_title">Engin</string>
     <string name="notes_lists_provider_changed_description">"Upplýsingar um glósur og lista hjálparans verða ekki lengur uppfærðar hjá %1$s. Fyrirliggjandi upplýsingum hjá %1$s verður ekki eytt.
 
@@ -1968,6 +1998,7 @@ Viltu halda áfram?"</string>
     <string name="notes_lists_provider_changed_negative_button">Hætta við</string>
     <string name="notes_lists_provider_changed_positive_button">Samþykkja</string>
     <string name="notes_lists_provider_changed_title">Aftengjast %1$s</string>
+    <string name="notes_lists_title">Hjálparinn þinn mun halda glósum þínum og listum samstilltum við þessa þjónustu.</string>
     <string name="notification_access_link_text">Slökkva á aðgangi að tilkynningum</string>
     <string name="notification_accessable_apps_category_title">Aðgangur að tilkynningum</string>
     <string name="notification_cancel_text">Google reynir ekki að leita að þessu aftur þegar þú kemst í nettengingu.</string>
@@ -2085,6 +2116,7 @@ Viltu halda áfram?"</string>
     <string name="opa_assist_app_screen_explanation">Til að fá aðgang að Google hjálpara skaltu velja Google App í stillingum fyrir „Aðstoð og raddinntak“</string>
     <string name="opa_assist_app_screen_title">Google App er ekki sjálfgefið aðstoðarforrit</string>
     <string name="opa_assistant_logo_content_description">Raddleit</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Sjáðu uppfærslur fyrir Google hjálparann</string>
     <string name="opa_consent_check_error_button">Loka</string>
     <string name="opa_consent_check_error_button_notavailable">Skipta milli reikninga</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Notkun hjálparans kann að vera takmörkuð við hluti eins og vefniðurstöður, brandara og staðbundnar upplýsingar og fer það eftir reikningsstillingum þínum.</string>
@@ -2161,7 +2193,6 @@ Ef þú eyðir virkni úr ferli aðstoðarmannsins hefur það ekki áhrif á f�
     <string name="opa_eyes_free_opt_in_speech">Þegar það er óhætt þarftu fyrst að ýta á tilkynninguna. Eftir það geturðu notað höfuðtól með Google hjálparanum.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Ýttu til að halda áfram</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Gefðu Google hjálparanum leyfi til að hjálpa þér</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Ýttu til að halda áfram</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Gera þetta síðar</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Ég samþykki</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">HEFJAST HANDA</string>
@@ -2222,6 +2253,7 @@ reikningsins á"</string>
     <string name="opa_launcher_icon_text">Aðstoðarmaður</string>
     <string name="opa_lock_icon_description">Opnunartákn</string>
     <string name="opa_logo_content_desc">Merki Google hjálparans</string>
+    <string name="opa_mark_content">Hálpari</string>
     <string name="opa_marketplace_disclosure_description">Google hjálparinn getur notað mismunandi þjónustu til að aðstoða þig við að koma fleiru í verk.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google hjálparinn vinnur með samstarfsaðilum Google og hjálpar þér að koma hlutum í verk, t.d. kaupa bíómiða eða láta laga vaskinn. &lt;a href=https://support.google.com/assistant/?p=google_partners>Frekari upplýsingar&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Samstarfsaðilar Google eru fyrirtæki sem eiga í viðskiptasambandi við Google. Google hjálparinn getur unnið með samstarfsaðilum Google til að aðstoða þig við að koma hlutunum í verk, hvort sem það er að kaupa miða í bíó eða gera við eldhúsvaskinn. <a href="https://support.google.com/assistant/?p=google_partners">Frekari upplýsingar</a></string>
@@ -2367,6 +2399,7 @@ reikningsins á"</string>
     <string name="order_not_found_snackbar_message">Pöntun fannst ekki.</string>
     <string name="other_comment">Ástæða (krafist)</string>
     <string name="other_reason_not_fill_in_content_description">Gefðu upp aðra ástæðu þess að þú tilkynnir þetta atriði áður en þú sendir inn ábendingu. Sendingarhnappur.</string>
+    <string name="overflow_menu_desc">Fleiri valkostir</string>
     <string name="overtime">Framlenging</string>
     <string name="package_location">Staðsetning</string>
     <string name="package_pickup_location">Afhendingarstaður</string>
@@ -2570,6 +2603,7 @@ Með því að breyta þessu færðu:"</string>
     <string name="reaction_text_more">Meira</string>
     <string name="recently">Nýlegar</string>
     <string name="recognizer_service_label">Grunngreining Google</string>
+    <string name="recommendation_header_text">Mælt með fyrir þig</string>
     <string name="reconnecting_loading_results">"Hleður niðurstöðum
 "</string>
     <string name="reconnecting_title">Tengist aftur…</string>
@@ -2911,7 +2945,9 @@ Með því að breyta þessu færðu:"</string>
     <string name="sports_wins_header">S</string>
     <string name="sports_wins_header_full_length">Unnið</string>
     <string name="standalone_zs_back_content_desc">Til baka</string>
+    <string name="standalone_zs_brick_content_desc">Persónulegar uppfærslur</string>
     <string name="standalone_zs_explore_content_desc">Opna „Kanna“ og „Dótið þitt“</string>
+    <string name="standalone_zs_opa_icon_desc">Hjálpari</string>
     <string name="star_rating_bar_content_description">Stjörnugjöf: %1$s</string>
     <string name="starting_location_selector">%1$s. Veldu brottfararstað.</string>
     <string name="starts_at">Hefst kl.</string>
@@ -2924,6 +2960,7 @@ Með því að breyta þessu færðu:"</string>
     <string name="stop_download_prompt">Stöðva niðurhal</string>
     <string name="streaming_text_recognizing">Greinir…</string>
     <string name="street_address_label">Gata og húsnúmer</string>
+    <string name="success">Tókst</string>
     <string name="suggest">Sjálfvirk útfylling</string>
     <string name="suggest_contact_removal_body">Með þessu verður &lt;b>%1$s_0&lt;/b> fjarlægð(ur) af listanum yfir helstu tengiliði. &lt;b>%2$s&lt;/b> finnst áfram með leit.</string>
     <string name="suggest_contact_removal_cancel">HÆTTA VIÐ</string>
@@ -3258,6 +3295,8 @@ Skráð(ur) inn sem %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Segðu eitthvað</string>
     <string name="user_defined_action_task_scene_control_title">Aðstæður</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Veldu hvaða aðstæður þú vilt hafa með í þessari rútínu.</string>
+    <string name="user_defined_action_task_security_system_control_title">Virkja öryggiskerfi</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Hvaða stillingu viltu nota?</string>
     <string name="user_defined_action_task_send_text_content_summary">Ef númer viðtakanda eða innihald skilaboða er haft autt verður beðið um það þegar þú keyrir þetta verkflæði.</string>
     <string name="user_defined_action_task_send_text_content_title">Hvernig eiga skilaboðin að hljóða?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Í hvaða númer á að senda skilaboðin?</string>

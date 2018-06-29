@@ -180,6 +180,7 @@
     <string name="action_sms_who_tts">Vem vill du skicka sms till?</string>
     <string name="action_sound_search_get_song">Kom igång med Google Play</string>
     <string name="action_sound_search_result_content_description">%1$s, %2$s, %3$s</string>
+    <string name="action_suggestion_message">Detta är en åtgärd som är relaterad till det du skriver.</string>
     <string name="action_unlock_device_tts">Det går inte att göra detta medan enheten är låst. Lås upp enheten om du vill fortsätta.</string>
     <string name="action_video_call">Videosamtal</string>
     <string name="action_voice_call">Ring</string>
@@ -247,6 +248,10 @@
     <string name="agent_bookmark_error">Ett fel uppstod. Försök igen senare.</string>
     <string name="agent_bookmark_removed">Har tagits bort från bokmärkena</string>
     <string name="agent_description_more">mer</string>
+    <string name="agent_details_add_routine_description">Få mer gjort i rutinerna med uppdateringar från %1$s.</string>
+    <string name="agent_details_add_routine_item">Lägg till</string>
+    <string name="agent_details_customize_routine">Anpassa rutinen</string>
+    <string name="agent_details_manage_routines">Hantera rutiner</string>
     <string name="agent_details_splash_image_a11y">Bild på Assistent-appen</string>
     <string name="agent_directory_a11y_back_button">Föregående</string>
     <string name="agent_directory_a11y_more_groups">Mer</string>
@@ -503,6 +508,7 @@ Ge Google tillstånd att lagra och analysera dina skärmdumpar från skärmsökn
 Den här inställningen används om du frågar assistenten om pendlingstrafiken"</string>
     <string name="assistant_settings_commute_walk">Gå</string>
     <string name="assistant_settings_commute_walk_key">PENDLA Gå</string>
+    <string name="assistant_settings_contact_list_introduction">Det här har du bett assistenten komma ihåg om personer du känner.</string>
     <string name="assistant_settings_custom_routines_description">Låt assistenten göra flera saker med bara ett kommando. Använd förinställda rutiner som du anpassar efter din dag eller skapa helt nya.</string>
     <string name="assistant_settings_default_record_button_text">Spela in</string>
     <string name="assistant_settings_delete_button_label">Radera</string>
@@ -649,13 +655,15 @@ Den här inställningen används om du frågar assistenten om pendlingstrafiken"
     <string name="assistant_settings_music_provider_category_title">Assistenten använder den här musikleverantören som standard när du ber den spela musik. Du kan fortfarande spela musik från andra länkade leverantörer när det anges.</string>
     <string name="assistant_settings_music_title">Musik</string>
     <string name="assistant_settings_music_unable_unlink_default">Det går inte att ta bort länken till standardleverantören för musik</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Det krävs ett YouTube Red-medlemskap om du vill använda YouTube Musik med Google Home. Du kan registrera dig på <a href="http://youtube.com/red">youtube.com/red</a>.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_title">Ett YouTube Red-medlemskap krävs</string>
+    <string name="assistant_settings_music_unlink_dialog_text">Om du tar bort länken till kontot inaktiveras åtkomst till uppspelning från %1$s via Google-assistenten.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text">Det krävs ett YouTube Premium-medlemskap om du vill använda YouTube Musik med Google Home. Du kan registrera dig på <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium-medlemskap krävs</string>
     <string name="assistant_settings_news_provider_delete_button_description">Ta bort %1$s från dina aktiverade nyhetskällor</string>
     <string name="assistant_settings_news_supports_video">Video är tillgängligt på Smart Displays</string>
     <string name="assistant_settings_news_title">Nyheter</string>
     <string name="assistant_settings_nick_name_not_pronounceable_message">Ditt smeknamn innehåller ett tecken som assistenten inte kan uttala Assistant. Skriv hur det uttalas i nästa avsnitt.</string>
     <string name="assistant_settings_no_device_linked">Med Voice Match kan assistenten ge dig personliga uppgifter när den känner igen din röst. Upp till sex personer kan komma åt sin kalender, musik med mera.</string>
+    <string name="assistant_settings_no_language_summary">Inget</string>
     <string name="assistant_settings_no_language_title">Lägga till ett språk</string>
     <string name="assistant_settings_no_shopping_list">Du har ingen inköpslista.</string>
     <string name="assistant_settings_notes_lists_title">Anteckningar och listor</string>
@@ -823,6 +831,7 @@ Den här inställningen används om assistenten beskriver vägen någon annansta
     <string name="assistant_settings_summer_time_mode_availability_clarification">Kontinuerlig konversation är för närvarande tillgängligt på engelska (USA). Om du använder några Google Home-enheter som inte visas här kan den person som har det primära kontot på enheterna aktivera eller inaktivera Kontinuerlig konversation i inställningarna för assistenten.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Du kan ändra inställningen för dessa Google Home-enheter</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Inga enheter är tillgängliga</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Enhetens mikrofon slås på efter varje svar för att fånga upp följdfrågor. Sådana följdfrågor visas som vanligt i Min aktivitet. Ljud som assistenten inte svarar på tas bort från Google-kontot.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Kontinuerlig konversation</string>
     <string name="assistant_settings_summer_time_mode_title">Kontinuerlig konversation</string>
     <string name="assistant_settings_turn_off_voice_match">Om du inaktiverar Voice Match tas länken till kontot bort från den här enheten. Du måste ha länkat minst ett konto för att kunna använda enheten med Google Assistent. Vill du ta bort länken till kontot? </string>
@@ -851,10 +860,8 @@ Den här inställningen används om assistenten beskriver vägen någon annansta
     <string name="assistant_settings_update_error_message">Det gick inte att uppdatera inställningen. Kontrollera anslutningen.</string>
     <string name="assistant_settings_video_calls_service_category_title">Assistenten kan ringa videosamtal med din föredragna tjänst på vissa enheter, till exempel Google Smart Display. Det går inte att ringa nödsamtal.</string>
     <string name="assistant_settings_video_icon_text">Ikon för videoleverantör</string>
-    <string name="assistant_settings_video_link_dialog_text">Länka Google-kontot till %1$s om du vill aktivera styrning och uppspelning med rösten på kompatibla enheter. När du styr %1$s-tjänsten via Google Home eller begär information om %1$s kan dessa frågor skickas till %1$s för användning i enlighet med deras sekretessmeddelande.</string>
     <string name="assistant_settings_video_provider_category_summary">Spela upp TV-program och filmer med hjälp av assistenten.</string>
     <string name="assistant_settings_video_provider_category_title">Videor</string>
-    <string name="assistant_settings_video_unlink_dialog_text">Röststyrning inaktiveras om du tar bort länken från kontot.</string>
     <string name="assistant_settings_videos_photos_title">Videor och foton</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast eller TV med Chromecast built-in</string>
     <string name="assistant_settings_voice_and_video_calls_title">Röst- och videosamtal</string>
@@ -866,6 +873,21 @@ Den här inställningen används om assistenten beskriver vägen någon annansta
     <string name="assistant_settings_weather_title">Väder</string>
     <string name="assistant_settings_work_address_clear_dialog_title">Vill du radera jobbadressen?</string>
     <string name="assistant_settings_work_title">Jobbadress</string>
+    <string name="assistant_settings_your_people_address">Adress: %1$s</string>
+    <string name="assistant_settings_your_people_birthday">Födelsedag: %1$s</string>
+    <string name="assistant_settings_your_people_birthday_suggestion">komma ihåg födelsedagar</string>
+    <string name="assistant_settings_your_people_deletion_failure">Ett problem uppstod. Försök igen senare.</string>
+    <string name="assistant_settings_your_people_email">E-post: %1$s</string>
+    <string name="assistant_settings_your_people_family_member_suggestion">komma ihåg familjemedlemmar</string>
+    <string name="assistant_settings_your_people_forget_button">Glöm</string>
+    <string name="assistant_settings_your_people_forget_dialog">Om du gör detta raderas alla uppgifter som du bad assistenten att komma ihåg om %1$s</string>
+    <string name="assistant_settings_your_people_forget_dialog_title">Vill du att assistenten ska glömma uppgifterna?</string>
+    <string name="assistant_settings_your_people_forget_menu_option">Glöm bort uppgifterna</string>
+    <string name="assistant_settings_your_people_phone">Telefon: %1$s</string>
+    <string name="assistant_settings_your_people_splash">Om du sedan säger ”Ring mamma” eller ”När fyller min bror år?” så kan assistenten hjälpa dig.</string>
+    <string name="assistant_settings_your_people_splash_title">Berätta vem som är vem för assistenten</string>
+    <string name="assistant_settings_your_people_suggestion_introduction">Du kan be assistenten att</string>
+    <string name="assistant_settings_your_people_title">Dina personer</string>
     <string name="assistant_speaker_id_default_category_summary">Assistenten uppger bara personliga uppgifter när den känner igen din röst på dessa enheter</string>
     <string name="assistant_speaker_id_default_category_title">Delade enheter med Voice Match</string>
     <string name="assistant_speaker_id_enrollment_cannot_complete_toast">Det gick inte att slutföra registreringen.</string>
@@ -1107,7 +1129,7 @@ Avgifter kan tillkomma."</string>
     <string name="cloud_search_history_summary_fetching">Inställningarna hämtas …</string>
     <string name="collapse">Komprimera</string>
     <string name="collapse_time_to_leave">Dölj alternativen för den här resan.</string>
-    <string name="collections">Samlingar</string>
+    <string name="collections">Sparade objekt</string>
     <string name="comment_hint">Ytterligare kommentarer (valfritt)</string>
     <string name="common_address_clear_button_label">Rensa</string>
     <string name="common_address_clear_confirm_button">Radera</string>
@@ -1193,7 +1215,7 @@ Enheten har sedan tillgång till Google-kontot."</string>
     <string name="consent_my_activity">Min aktivitet</string>
     <string name="consent_partners_disclosures_body_collapsed">Google-partner har en nära affärsförbindelse med Google och kan ha betalat oss att lyfta fram och marknadsföra dem.</string>
     <string name="consent_partners_disclosures_body_expanded">Google-partner har en nära affärsförbindelse med Google och kan ha betalat oss för att lyfta fram och marknadsföra dem. De här företagen kan hjälpa dig med allt ifrån att köpa hushållspapper till att hitta en rörmokare. %1$s</string>
-    <string name="consent_partners_disclosures_title">Google-partner</string>
+    <string name="consent_partners_disclosures_title">Google Partners</string>
     <string name="consent_services_disclosures_body_collapsed">Google skyddar din integritet genom att skicka en unik kod till de tjänster du pratar med.</string>
     <string name="consent_services_disclosures_body_expanded">"Google skyddar din integritet genom att skicka en unik kod till tjänster du pratar med. På så sätt kan saker sparas i tjänstens minne när ni pratar, t.ex. inställningar.
 
@@ -1352,6 +1374,10 @@ Visa och hantera konversationerna i avsnittet %1$s i inställningarna för Googl
     <string name="device_setup_error_cancel_button">Få hjälp</string>
     <string name="device_setup_error_content">Ett fel uppstod</string>
     <string name="device_setup_error_title">Det kan ha uppstått ett problem</string>
+    <string name="devices_scan_action_button">Fortsätt</string>
+    <string name="devices_scan_cancel_button">Avbryt</string>
+    <string name="devices_scan_explanation">Välj enheter</string>
+    <string name="devices_scan_title">Lägg till enheter</string>
     <string name="directory_for_mall">Katalog för %1$s</string>
     <string name="disable_assistant_confirm_message">Dina hörlurar har inte åtkomst till Google Assistent, så du hör inte meddelanden, kalenderhändelser och annan viktig information. Du måste ändå följa <a href="https://www.google.com/policies/terms/">användarvillkoren</a>" när du använder hörlurarna.
 
@@ -1388,7 +1414,7 @@ Om du vill konfigurera Assistenten senare trycker du länge på hemknappen på m
     <string name="download_not_found">Nedladdningen hittades inte</string>
     <string name="download_prompt">Ladda ned</string>
     <string name="download_setting_message">Nedladdade avsnitt tas bort efter 30 dagar eller 24 timmar efter att de är färdigspelade</string>
-    <string name="downloaded">Downloaded</string>
+    <string name="downloaded">Nedladdat</string>
     <string name="downloaded_episodes">Nedladdade avsnitt</string>
     <string name="downloading">Laddar ned …</string>
     <string name="downloads">Nedladdningar</string>
@@ -1452,7 +1478,6 @@ de kommande två veckorna."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Tillgängliga avsnitt</string>
     <string name="episode_page_section_title">Avsnitt</string>
-    <string name="episode_subtitle_format">%1$s ⸱ %2$s</string>
     <string name="episodes_for_you">För dig</string>
     <string name="error">Fel</string>
     <string name="error_adding_location_snackbar_text">Ett fel uppstod när platsen skulle läggas till</string>
@@ -1529,7 +1554,6 @@ de kommande två veckorna."</string>
     <string name="eyes_donate_data_optin_ok">OK</string>
     <string name="eyes_donate_data_optin_title">Donera Lens-bilder</string>
     <string name="eyes_flash_button_description">Aktivera och inaktivera blixt</string>
-    <string name="eyes_initial_suggestion_0">Vad känner du igen?</string>
     <string name="eyes_launcher_description">Google Lens</string>
     <string name="eyes_no_permission">Jag har inte behörighet att göra det</string>
     <string name="eyes_no_permission_camera">Jag har inte behörighet att använda kameran</string>
@@ -1557,7 +1581,6 @@ Google Lens är inte allvetande och ibland gör vi fel när vi identifierar viss
     <string name="eyes_onboarding_title_text">Skanna text</string>
     <string name="eyes_request_timed_out_message">Det går tyvärr inte att nå Google just nu</string>
     <string name="eyes_share_with">Dela med</string>
-    <string name="eyes_unfreeze_image_description">Tillbaka till kameran</string>
     <string name="eyes_viewfinder_description">Aktivera Google Lens</string>
     <string name="failed">Bilden gick inte att läsa in</string>
     <string name="failed_to_open_webview">Det gick inte att öppna sidan</string>
@@ -1696,8 +1719,13 @@ Testa att säga ”Vad kan du göra?”"</string>
     <string name="folder_renamed">Mappen har bytt namn till %1$s</string>
     <string name="folder_tap_to_close">Tryck för att stänga mappen</string>
     <string name="folder_tap_to_rename">Tryck om du vill spara det nya namnet</string>
+    <string name="follow_soccer_promo_query">fotboll 2018</string>
     <string name="follow_world_cup_promo">Följ VM</string>
     <string name="follow_world_cup_promo_content_description">Följ VM</string>
+    <string name="follow_world_cup_promo_detail">Tryck här om du vill registrera dig för matchpåminnelser, nyheter och liveresultat för dina favoritlag</string>
+    <string name="follow_world_cup_promo_long_soccer_title">Håll koll på alla fotbollsmatcher</string>
+    <string name="follow_world_cup_promo_query">VM 2018</string>
+    <string name="follow_world_cup_promo_short_soccer_title">Dags för fotbollsfeber!</string>
     <string name="forbid_download_removal">Det går inte att ta bort avsnittet medan det spelas upp</string>
     <string name="foreground_notification_text">Google Assistent för hörlurarna körs i bakgrunden</string>
     <string name="foreground_notification_title">Hörlurar för Google Assistent</string>
@@ -1969,7 +1997,7 @@ Nu kan du aktivera personliga resultat och komma åt kalender, kontakter, påmin
 Du kan inaktivera personliga resultat i inställningarna för assistenten."</string>
     <string name="hotword_enrollment_personal_results_title">Få personliga resultat med hjälp av rösten</string>
     <string name="hotword_enrollment_pref_category_voice_model">Röstmodellen ”Ok Google”</string>
-    <string name="hotword_enrollment_retrain_voice_model">Trimma om röstmodellen</string>
+    <string name="hotword_enrollment_retrain_voice_model">Träna om röstmodellen</string>
     <string name="hotword_enrollment_retry_enroll">Ett fel uppstod. Vi börjar om.</string>
     <string name="hotword_enrollment_summary_finish">Slutför</string>
     <string name="hotword_enrollment_summary_finish_assistant_device">Fortsätt</string>
@@ -2059,7 +2087,7 @@ Du kan inaktivera personliga resultat i inställningarna för assistenten."</str
     <string name="how_to_fetch4_level_2">Tryck bara på Google Assistent-knappen när du vill lyssna på de senaste aviseringarna.</string>
     <string name="how_to_fetcht">Bara så du vet kan du lyssna på den senaste timmens aviseringar genom att trycka snabbt två gånger på den högra hörsnäckan.</string>
     <string name="how_to_fetcht_level_2">Tryck snabbt två gånger på den högra hörsnäckan när du vill lyssna på de senaste aviseringarna.</string>
-    <string name="hq_a11y_bottom_bar_button">Öppna mikrofonen om du vill chatta med assistenten</string>
+    <string name="hq_a11y_bottom_bar_button">Assistent</string>
     <string name="hq_a11y_chatui_badge">Utforska och öppna innehåll för dig</string>
     <string name="hq_a11y_menu_button">Meny</string>
     <string name="hq_account_switch_prompt">Loggar in som %1$s</string>
@@ -2190,10 +2218,10 @@ Du kan inaktivera personliga resultat i inställningarna för assistenten."</str
     <string name="inferred_event_error">Det gick inte att skapa händelsen</string>
     <string name="inferred_from_gmail">Går under namnet %1$s i Gmail</string>
     <string name="info_target_label">Info om appen</string>
-    <string name="install_google_podcasts">Get the Google Podcasts app</string>
-    <string name="install_google_podcasts_accept">Get the app</string>
-    <string name="install_google_podcasts_message">Get the Google Podcasts app in the Play Store for quick access</string>
-    <string name="install_google_podcasts_reject">Not now</string>
+    <string name="install_google_podcasts">Ladda ned appen Google Podcasts</string>
+    <string name="install_google_podcasts_accept">Ladda ned appen</string>
+    <string name="install_google_podcasts_message">Ladda ned appen Google Podcasts i Play Butik för snabb åtkomst</string>
+    <string name="install_google_podcasts_reject">Inte nu</string>
     <string name="installed_app_group_header">Appar</string>
     <string name="installed_details">Version %1$s är installerad, storlek på hårddisken: %2$s</string>
     <string name="installed_language_packs">Installerade</string>
@@ -2246,7 +2274,7 @@ Du kan inaktivera personliga resultat i inställningarna för assistenten."</str
     <string name="item_is_selected">%1$s har markerats</string>
     <string name="item_moved">Objektet har flyttats</string>
     <string name="item_removed">Objektet har tagits bort</string>
-    <string name="jasper_duo_knock_knock_summary">Se den som ringer på video innan du svarar. Och låt andra se en videosändning med dig när du ringer till dem. &lt;a href=\"https://support.google.com/duo/answer/6376115\">Läs mer&lt;/a></string>
+    <string name="jasper_duo_knock_knock_summary">Se den som ringer på video innan du svarar. Och låt andra se en videosändning med dig när du ringer till dem. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knack-knack</string>
     <string name="jasper_duo_not_signed_in">Inte inloggad</string>
     <string name="jasper_duo_signed_in">Inloggad</string>
@@ -2350,10 +2378,10 @@ Du kan inaktivera personliga resultat i inställningarna för assistenten."</str
     <string name="location_service_required_title">Få platsbaserade kort</string>
     <string name="lockscreen_mic_promo_notification_content">Lås upp mobilen genom att säga %1$s.</string>
     <string name="lockscreen_mic_promo_notification_title">Lås upp med rösten</string>
+    <string name="logo_content_description">Google</string>
     <string name="long_accessible_way_to_add">Tryck två gånger och håll kvar om du vill ta upp en widget eller använda anpassade åtgärder.</string>
     <string name="long_press_widget_to_add">Tryck länge om du vill flytta en widget.</string>
     <string name="longpress_menu_download">Ladda ned bild</string>
-    <string name="longpress_menu_search_by_image">@string/menu_search_by_image</string>
     <string name="longpress_menu_share">Dela bild</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="magic_flashlight_off">Nox</string>
@@ -2388,10 +2416,10 @@ Du kan inaktivera personliga resultat i inställningarna för assistenten."</str
     <string name="map_content_description">Karta</string>
     <string name="map_route_content_description">Karta till %1$s</string>
     <string name="maps_mode_landing_text">Sök på kartor</string>
-    <string name="mark_as_played">Mark as played</string>
-    <string name="mark_as_unplayed">Mark as unplayed</string>
+    <string name="mark_as_played">Markera som spelat</string>
+    <string name="mark_as_unplayed">Markera som ospelat</string>
     <string name="media_content_image">En bild med koppling till medieinnehållet som visas i det här kortet</string>
-    <string name="media_item_type_your_podcasts">Your podcasts</string>
+    <string name="media_item_type_your_podcasts">Dina podcaster</string>
     <string name="media_route_chooser_dialog_title">Casta till</string>
     <string name="media_route_chooser_searching">Söker efter enheter …</string>
     <string name="media_route_controller_cancel">Avbryt</string>
@@ -2404,13 +2432,11 @@ Du kan inaktivera personliga resultat i inställningarna för assistenten."</str
     <string name="menu_overlay_feedback">Skicka feedback</string>
     <string name="menu_overlay_reset_to_default_style">Återställ till standardformatet</string>
     <string name="menu_refresh">Uppdatera</string>
-    <string name="menu_search_by_image">Sök med bild</string>
     <string name="menu_send_button_content_description">Knappen Skicka för att skicka feedback.</string>
     <string name="menu_send_feedback">Skicka feedback</string>
     <string name="menu_settings">Inställningar</string>
     <string name="menu_share">Dela</string>
     <string name="menu_view_in_browser">Visa i webbläsaren</string>
-    <string name="menu_view_original_image">Visa originalbilden</string>
     <string name="menu_visit_page">Besök sidan</string>
     <string name="message_card_feedback">Feedback</string>
     <string name="message_image">Bild</string>
@@ -2459,7 +2485,6 @@ Du kan inaktivera personliga resultat i inställningarna för assistenten."</str
     <string name="minus_one_header_settings">Inställningar</string>
     <string name="minute_picker_description">Cirkelreglage för minuter</string>
     <string name="minutes">Minuter</string>
-    <string name="minutes_symbol">%1$sm</string>
     <string name="miscellaneous_notification_channel">Övrigt</string>
     <string name="mismatching_value_eir_code">Fel postnr för adr.</string>
     <string name="mismatching_value_pin_code">Måste matcha adress</string>
@@ -2543,7 +2568,6 @@ Under Min aktivitet kan du nu se och styra alla dina sökningar på Google och m
     <string name="network_error_fetching_weather_data_status_text">Nätverket är inte tillgängligt för närvarande</string>
     <string name="network_error_no_connection_tts">Det finns ingen internetanslutning för närvarande.</string>
     <string name="network_error_resend_audio">Skicka ljud igen</string>
-    <string name="network_error_try_again">Försök igen</string>
     <string name="network_location_required_text">Om du vill visa platsbaserade kort, för till exempel vädret eller kollektivtrafiken, aktiverar du Plats från Wi-Fi/mobilnätverk</string>
     <string name="network_location_required_text_klp">Om du vill visa platsbaserade kort, för till exempel vädret eller kollektivtrafiken, väljer du hög precision eller batterisparläge för plats</string>
     <string name="never">Aldrig</string>
@@ -2646,7 +2670,7 @@ Under Min aktivitet kan du nu se och styra alla dina sökningar på Google och m
     <string name="not_access_toast">Aktivera åtkomst till aviseringar för %1$s.</string>
     <string name="notes_and_lists_icon_text" />
     <string name="notes_lists_category_title">Tjänster för listor och anteckningar</string>
-    <string name="notes_lists_none_preference_summary">Andrahandsuppgifter</string>
+    <string name="notes_lists_none_preference_summary">Assistenten synkroniserar inte din data med några tjänster.</string>
     <string name="notes_lists_none_preference_title">Inga</string>
     <string name="notes_lists_provider_changed_description">"Data från anteckningar och listor i assistenten uppdateras inte längre med %1$s. Befintlig data hos %1$s raderas inte.
 
@@ -2654,6 +2678,7 @@ Vill du fortsätta?"</string>
     <string name="notes_lists_provider_changed_negative_button">Avbryt</string>
     <string name="notes_lists_provider_changed_positive_button">Jag godkänner</string>
     <string name="notes_lists_provider_changed_title">Koppla från %1$s</string>
+    <string name="notes_lists_title">Assistenten synkroniserar anteckningar och listor med dessa tjänster.</string>
     <string name="notification_access_link_text">Inaktivera åtkomst till aviseringar</string>
     <string name="notification_accessable_apps_category_title">Åtkomst till aviseringar</string>
     <string name="notification_cancel_text">Google gör inte om sökningen när du är online igen.</string>
@@ -2777,6 +2802,7 @@ Vill du fortsätta?"</string>
     <string name="opa_assist_app_screen_explanation">Om du vill ha tillgång till Google Assistent väljer du Google-appen i inställningarna under Assistent och röstinmatning</string>
     <string name="opa_assist_app_screen_title">Google-appen är inte standardappen för assistans</string>
     <string name="opa_assistant_logo_content_description">Röstsökning</string>
+    <string name="opa_bottom_bar_tooltip_text_v1">Visa uppdateringar för Google-assistenten</string>
     <string name="opa_consent_check_error_button">Stäng</string>
     <string name="opa_consent_check_error_button_notavailable">Byt konto</string>
     <string name="opa_consent_check_error_confirmreject_not_personalize_radio_content">Beroende på kontoinställningarna kan användningen av assistenten begränsas till sådant som webbresultat, skämt och lokal information.</string>
@@ -2853,7 +2879,6 @@ Transaktioner påverkas inte och åtgärder ångras inte om du raderar aktivitet
     <string name="opa_eyes_free_opt_in_speech">När det är säkert trycker du på aviseringen så att Google Assistent fungerar med headset.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Tryck för att fortsätta</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Ge Google Assistent behörighet att hjälpa dig</string>
-    <string name="opa_eyes_warm_welcome_chip_text">Tryck för att fortsätta</string>
     <string name="opa_first_screen_hotword_transition_cancel_button_text">Gör det senare</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Jag godkänner</string>
     <string name="opa_first_screen_hotword_transition_confirm_button_text">KOM IGÅNG</string>
@@ -2914,6 +2939,7 @@ Google-kontot i"</string>
     <string name="opa_launcher_icon_text">Assistent</string>
     <string name="opa_lock_icon_description">Upplåsningsikon</string>
     <string name="opa_logo_content_desc">Logotyp för Google Assistent</string>
+    <string name="opa_mark_content">Assistent</string>
     <string name="opa_marketplace_disclosure_description">Du kan använda Google Assistent med olika tjänster och få mer gjort.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google Assistent kan användas tillsammans med Google-partner och hjälpa dig med allt möjligt – från att köpa biobiljetter till att kontakta en rörmokare. &lt;a href=https://support.google.com/assistant/?p=google_partners>Läs mer&lt;/a></string>
     <string name="opa_marketplace_disclosure_google_partners_description">Google-partner är företag som har en affärsrelation med Google. Med hjälp av Google Assistent kan Google-partner få saker gjorda på ett smidigare sätt, vare sig det gäller köp av biobiljetter eller att hitta en rörmokare. <a href="https://support.google.com/assistant/?p=google_partners">Läs mer</a></string>
@@ -3372,6 +3398,7 @@ Uppskattad storlek: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Objekten finns kvar nedladdade på enheten i sju dagar.</string>
     <string name="recently_empty_state_read_later_title_text">Lägg till sidor att läsa senare</string>
     <string name="recently_entry_interaction_offline">Det går inte att öppna den begärda sidan när enheten är offline.</string>
+    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
     <string name="recently_feed_entry">Flöde</string>
     <string name="recently_google_doodle_for">Google Doodle för %s</string>
     <string name="recently_keep_on_device_until">Behåll på enheten tills:</string>
@@ -3386,17 +3413,17 @@ Uppskattad storlek: %d kB"</string>
     <string name="recently_onboarding_recent_message_2">"Återupptäck de ämnen du sökte på senast i Google-appen.
 
 Stäng gruppen genom att nypa."</string>
-    <string name="recently_onboarding_recent_message_revamp">Rediscover topics you looked for in the Google app recently.</string>
+    <string name="recently_onboarding_recent_message_revamp">Återupptäck de ämnen du sökte på senast i Google-appen.</string>
     <string name="recently_onboarding_recent_title">Visa vad du har hittat</string>
     <string name="recently_onboarding_search_on_message">"De sidor som visas här har du öppnat på den här enheten. Sidor från samma sökning är grupperade tillsammans den nyaste först.
 
 Fortsätt att söka och återupptäck det du hittat här."</string>
-    <string name="recently_onboarding_search_on_message_revamp">"Pages here are ones you've seen on this device. Keep searching and rediscover your finds here."</string>
+    <string name="recently_onboarding_search_on_message_revamp">De sidor som visas här har du öppnat på den här enheten. Fortsätt att söka och återupptäck det du hittat här.</string>
     <string name="recently_onboarding_search_on_title">Sök på</string>
     <string name="recently_onboarding_swipe_up_message">"Vill du inte visa de senaste sidorna? Svep uppåt för att ta bort dem.
 
 De tas inte bort från Google-kontot."</string>
-    <string name="recently_onboarding_swipe_up_message_revamp">"Want to get rid of recent pages? Just swipe up to remove them. This won't delete them from your Google Account."</string>
+    <string name="recently_onboarding_swipe_up_message_revamp">Vill du inte visa de senaste sidorna? Svep uppåt för att ta bort dem. De tas inte bort från Google-kontot.</string>
     <string name="recently_onboarding_swipe_up_title">Svep uppåt</string>
     <string name="recently_overflow_title">Fler alternativ</string>
     <string name="recently_reading_reminder">Läspåminnelse:</string>
@@ -3428,6 +3455,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="recents_result_group_header">Webb</string>
     <string name="recents_result_separate_group_header">Senaste sökningar</string>
     <string name="recognizer_service_label">Vanlig Google-igenkänning</string>
+    <string name="recommendation_header_text">Rekommenderas för dig</string>
     <string name="reconnecting_loading_results">"Resultaten läses in
 "</string>
     <string name="reconnecting_title">Återansluter …</string>
@@ -3500,7 +3528,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="renter_name">Namn</string>
     <string name="report_other_reason">Annat</string>
     <string name="report_this">Rapportera det här</string>
-    <string name="request_storage_message">To download episodes, allow access to your device storage</string>
+    <string name="request_storage_message">Ge Google-appen åtkomst till lagringsutrymmet om du vill ladda ned avsnitt</string>
     <string name="request_storage_permission_dialog_message">Om du vill ladda ned avsnitt måste du ge Google åtkomst till enhetens lagringsutrymme</string>
     <string name="request_storage_permission_dialog_title">Tillåt åtkomst till lagringsutrymmet</string>
     <string name="reservation_group_header">Bokningar</string>
@@ -3582,10 +3610,12 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_assist_translate">Översätt</string>
     <string name="screen_context_desc">Visa relevanta förslag från assistenten som är relaterade till innehållet på skärmen</string>
     <string name="screen_context_title">Få information om innehållet på skärmen</string>
-    <string name="screen_locked_info">Your Assistant is available even when your phone is locked. You can turn this off in Assistant settings.</string>
+    <string name="screen_locked_info">Assistenten är tillgänglig även när mobilen är låst. Du kan inaktivera den här funktionen i inställningarna för assistenten.</string>
     <string name="screen_moved">Skärmen har flyttats</string>
     <string name="screenshot_srp_desc">Sök efter %s.</string>
     <string name="screenshot_srp_pending_desc">Väntande sökning på %s</string>
+    <string name="screenshot_srp_voice_pending_desc">Väntande röstsökning</string>
+    <string name="screenshot_srp_voice_pending_title">röstsökning</string>
     <string name="screenshot_web_desc">Besök %s.</string>
     <string name="screenshot_webpage_pending_desc">Väntande nedladdning</string>
     <string name="scroll_left">Rulla åt vänster</string>
@@ -3629,7 +3659,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_service_audio_history_disabled_hotword_retraining_notification_content">Tryck här om du vill återaktivera %1$s.</string>
     <string name="search_service_audio_history_disabled_hotword_retraining_notification_title">Röst- och ljudaktiviteten är inaktiverad</string>
     <string name="search_service_hotword_retraining_notification_content">Tryck här för att komma igång.</string>
-    <string name="search_service_hotword_retraining_notification_title">Trimma om röstmodellen för ”%1$s”</string>
+    <string name="search_service_hotword_retraining_notification_title">Träna om röstmodellen för ”%1$s”</string>
     <string name="search_service_hotword_upgrade_retraining_notification_content">Träna assistenten för att komma igång.</string>
     <string name="search_service_hotword_upgrade_retraining_notification_title">Nu är ”%1$s” tillgängligt</string>
     <string name="search_service_language_change_hotword_retraining_notification_content">Tryck här om du vill återaktivera %1$s.</string>
@@ -3643,7 +3673,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_sources_tablet">Sökning på surfplattan</string>
     <string name="search_storage_label">Google Söks lagring</string>
     <string name="search_tablet">Sök på surfplattan</string>
-    <string name="search_the_web">Search the web</string>
+    <string name="search_the_web">Sök på webben</string>
     <string name="search_the_web_menu_text">Sök på webben</string>
     <string name="search_the_web_suggestion">Sök på webben</string>
     <string name="search_widget_customization">Anpassa widget</string>
@@ -3883,7 +3913,9 @@ Du kan väcka Pixel Buds eller ställa in viloläget manuellt genom att "<b>tryc
     <string name="sports_wins_header">V</string>
     <string name="sports_wins_header_full_length">Vinster</string>
     <string name="standalone_zs_back_content_desc">Tillbaka</string>
+    <string name="standalone_zs_brick_content_desc">Personliga uppdateringar</string>
     <string name="standalone_zs_explore_content_desc">Öppna Utforska och ditt innehåll</string>
+    <string name="standalone_zs_opa_icon_desc">Assistent</string>
     <string name="star_rating_bar_content_description">Betyg: %1$s</string>
     <string name="starting_location_selector">%1$s. Välj en startplats.</string>
     <string name="starts_at">Börjar kl.</string>
@@ -3899,6 +3931,7 @@ Du kan väcka Pixel Buds eller ställa in viloläget manuellt genom att "<b>tryc
     <string name="street_address_label">Gatuadress</string>
     <string name="subscribe_button_label">Prenumerera</string>
     <string name="subscribe_to_see_new_episodes">Prenumerera på podcaster så visas nya avsnitt</string>
+    <string name="success">Klart</string>
     <string name="suggest">Autoslutför</string>
     <string name="suggest_contact_removal_body">Du tar bort &lt;b>%1$s&lt;/b> från listan över de mest använda kontakterna. Du kan hitta &lt;b>%2$s&lt;/b> igen genom att söka.</string>
     <string name="suggest_contact_removal_cancel">AVBRYT</string>
@@ -4282,6 +4315,8 @@ Inloggad som %1$s"</string>
     <string name="user_defined_action_task_say_something_title">Säg något</string>
     <string name="user_defined_action_task_scene_control_title">Scener</string>
     <string name="user_defined_action_task_scene_control_which_scenes">Välj vilka scener du vill inkludera i rutinen</string>
+    <string name="user_defined_action_task_security_system_control_title">Aktivera säkerhetssystemet</string>
+    <string name="user_defined_action_task_security_system_control_which_mode">Vilket läge vill du ange?</string>
     <string name="user_defined_action_task_send_text_content_summary">Om du inte anger mottagarens nummer eller skriver ett meddelande blir du ombedd att göra så när du startar den här rutinen.</string>
     <string name="user_defined_action_task_send_text_content_title">Vad ska det stå i sms:et?</string>
     <string name="user_defined_action_task_send_text_recipient_title">Vilket nummer vill du skicka sms till?</string>

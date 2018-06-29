@@ -29,7 +29,7 @@
     <color name="active_tab_color">#ff4285f4</color>
     <color name="activity_background">@android:color/white</color>
     <color name="add_accounts_text_color">@color/manage_accounts_text_color</color>
-    <color name="added_to_favorite_text">@color/quantum_white_100</color>
+    <color name="advertiser_name_color">#df000000</color>
     <color name="all_apps_grid_section_text_color">#ff009688</color>
     <color name="all_apps_search_market_button_focused_bg_color">#ffdddddd</color>
     <color name="ampm_text_color">#ff8c8c8c</color>
@@ -98,11 +98,13 @@
     <color name="background_flare_color_array_item_7">#1800b4f2</color>
     <color name="background_flare_color_array_item_8">#20ec3e3b</color>
     <color name="background_flare_color_array_item_9">#204c72cd</color>
+    <color name="background_flare_color_default">#149aa0a6</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <color name="badge_new_episodes_available_background">@color/quantum_googblue500</color>
+    <color name="background_text">#ff9aa0a6</color>
+    <color name="background_text_side_line">#ffdadce0</color>
     <color name="beta_color">#ff747474</color>
     <color name="birthday_doodle_background_color">#ffa3d6d9</color>
     <color name="birthday_overlay_blue">#ff95b9ff</color>
@@ -131,8 +133,10 @@
     <color name="browser_actions_text_color">#de000000</color>
     <color name="browser_actions_title_color">#ff646464</color>
     <color name="bubble_snackbar_background">#ff4285f4</color>
+    <color name="bullet_color">#ff000000</color>
     <color name="buttonBlueText">@color/quantum_googblue500</color>
     <color name="button_border_stroke">#29000000</color>
+    <color name="button_font_color">#ff4285f4</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="button_pressed_color">#fff2f2f2</color>
@@ -150,8 +154,12 @@
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
     <color name="carousel_arrow_background">#ffffffff</color>
+    <color name="carousel_pagination_indicator_active_color">#ff757575</color>
+    <color name="carousel_pagination_indicator_inactive_color">#ffdddddd</color>
     <color name="change_wallpaper_background">#66000000</color>
     <color name="change_wallpaper_text">#ffffffff</color>
+    <color name="chatUi_background_gradient_end">#00f1f3f4</color>
+    <color name="chatUi_background_gradient_start">#fff1f3f4</color>
     <color name="chatui_bubble_outline">#ffdadce0</color>
     <color name="chatui_bubble_pending_text">#ff70757a</color>
     <color name="chatui_bubble_text">#ff202124</color>
@@ -171,6 +179,7 @@
     <color name="chatui_scrim_background_translucent">#00f2f2f2</color>
     <color name="chatui_selection_color">#804285f4</color>
     <color name="chatui_solid_background_fill">#fff5f5f5</color>
+    <color name="chatui_solid_background_fill_dark_mode">@android:color/black</color>
     <color name="chatui_solid_background_fill_v2">#ffffffff</color>
     <color name="chatui_status_bar_opaque">#fff5f5f5</color>
     <color name="chatui_status_bar_opaque_v2">@android:color/white</color>
@@ -261,6 +270,7 @@
     <color name="date_picker_view_animator">#fff2f2f2</color>
     <color name="default_account_details_color">@android:color/black</color>
     <color name="default_list_icon_tint">#ffe60050</color>
+    <color name="default_text_dark_theme_color">#fff8f9fa</color>
     <color name="delete_target_hover_tint">#ffc1c1c1</color>
     <color name="departure_info_module_background">#ffe0f7fa</color>
     <color name="description_label">#ff5f636b</color>
@@ -276,6 +286,7 @@
     <color name="design_fab_stroke_top_outer_color">#2effffff</color>
     <color name="design_snackbar_background_color">#ff323232</color>
     <color name="device_action_card_drawable_tint">#ff9e9e9e</color>
+    <color name="dialog_fill_color">#ffffffff</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -297,15 +308,12 @@
     <color name="duration_picker_gray">#ff757575</color>
     <color name="eames_action_button">#ff4285f4</color>
     <color name="eames_action_button_border">#ffdfe1e5</color>
-    <color name="eames_black">#ff202124</color>
     <color name="eames_divider">#ffdfe1e5</color>
     <color name="eames_grey">#ff70757a</color>
-    <color name="eames_hint">#ff9aa0a6</color>
     <color name="eames_metadata_text">#ff3c4043</color>
     <color name="eames_rich_metadata_values">#ff70757a</color>
     <color name="eames_section_heading">#ff202124</color>
     <color name="embedded_module_background">#ffececec</color>
-    <color name="episodes_background">@color/quantum_white_100</color>
     <color name="equalizer_fill_color">#fff2f2f2</color>
     <color name="error_color_material_dark">#ffff7043</color>
     <color name="error_color_material_light">#ffff5722</color>
@@ -461,6 +469,8 @@
     <color name="google_grey700">#ff5f6368</color>
     <color name="google_grey800">#ff3c4043</color>
     <color name="google_grey900">#ff202124</color>
+    <color name="google_grey_500">#ff9aa0a6</color>
+    <color name="google_grey_600">#ff80868b</color>
     <color name="google_grey_900">#ff202124</color>
     <color name="google_opensearchbar_background_color">@color/google_white</color>
     <color name="google_opensearchbar_hint_text_color">@color/google_grey600</color>
@@ -534,7 +544,6 @@
     <color name="home_automation_grey_color">@color/quantum_grey600</color>
     <color name="home_automation_light_grey_color">@color/quantum_grey200</color>
     <color name="home_automation_temperature_card_color">@color/quantum_deeporange300</color>
-    <color name="homebase_background">#fff2f2f2</color>
     <color name="horizontal_bar_separator">#ffe5e5e5</color>
     <color name="hotword_enrollment_button_background">#0f000000</color>
     <color name="hotword_enrollment_disabled_color">#61000000</color>
@@ -567,7 +576,6 @@
     <color name="ic_orb_listening">#ffff3e3e</color>
     <color name="ic_orb_loading">#ffffffff</color>
     <color name="ic_orb_tts">#ff4285f4</color>
-    <color name="icon_disabled">#8080868b</color>
     <color name="icon_notification_background">#ff9e9e9e</color>
     <color name="image_action_indicator_background">#e6ffffff</color>
     <color name="image_pressed_highlight">#07000000</color>
@@ -640,10 +648,12 @@
     <color name="lightGreyBackground">@color/quantum_grey100</color>
     <color name="light_gray">#ff404040</color>
     <color name="line_background">#ffcccccc</color>
+    <color name="line_color">#ffdfe1e5</color>
     <color name="line_dark">#ff808080</color>
     <color name="linkTextColor">@color/quantum_googblue700</color>
     <color name="link_text">#ff4285f4</color>
     <color name="link_text_other_state">#42000000</color>
+    <color name="list_color">#ff5f6368</color>
     <color name="list_popup_tap_highlight">#ffeeeeee</color>
     <color name="list_primary_color">@color/neutral_900</color>
     <color name="list_primary_selected_color">@color/google_blue_500</color>
@@ -665,6 +675,7 @@
     <color name="lotic_swipe_background">#ff9e9e9e</color>
     <color name="lotic_training_card_bg">#fff7f7f7</color>
     <color name="manage_accounts_text_color">#ff212121</color>
+    <color name="mask">#99000000</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -691,6 +702,8 @@
     <color name="message_notification_primary_action_button_text_color">#ff4285f4</color>
     <color name="message_notification_sender_name_text_color">#ff202124</color>
     <color name="message_notification_sent_to_name_text_color">#ff80868b</color>
+    <color name="message_notification_transparent_white_color">#80ffffff</color>
+    <color name="mic_plate_separator">#ffe0e0e0</color>
     <color name="mini_card_reminder">#ff80cbc4</color>
     <color name="mini_card_reminders_text">#80000000</color>
     <color name="mini_card_text">#57000000</color>
@@ -788,7 +801,6 @@
     <color name="place_autocomplete_search_text">#ff212121</color>
     <color name="place_autocomplete_separator">#1f000000</color>
     <color name="playback_panel_expanded_content">#ff212121</color>
-    <color name="playback_panel_mask">#99000000</color>
     <color name="playback_panel_top">#ff424242</color>
     <color name="preference_fallback_accent_color">@color/assistant_settings_preference_category_text_color</color>
     <color name="primary">@color/quantum_googblue500</color>
@@ -796,7 +808,6 @@
     <color name="primary_dark">@color/quantum_googblue700</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
-    <color name="primary_highlight">@color/quantum_googblue500</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
     <color name="primary_material_light">@color/material_grey_100</color>
     <color name="primary_text_color">#de000000</color>
@@ -806,7 +817,6 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="progress_bar_blue">#ff4285f4</color>
     <color name="progress_bar_color">#ff4285f4</color>
-    <color name="progress_bar_gray">#89000000</color>
     <color name="progress_bar_green">#ff0f9d58</color>
     <color name="progress_bar_red">#ffdb4437</color>
     <color name="progress_bar_yellow">#fff4b400</color>
@@ -816,7 +826,6 @@
     <color name="promo_chip_selected_title_color">#ffffffff</color>
     <color name="promo_chip_title_color">#ff3c4043</color>
     <color name="promotion_card_background">@android:color/white</color>
-    <color name="promotion_card_sign_in_or_waa_background">#fff8f9fa</color>
     <color name="promotion_highlight_background">#f54082ee</color>
     <color name="promotion_subtext">#deffffff</color>
     <color name="promotion_text">#ffffffff</color>
@@ -830,7 +839,6 @@
     <color name="qp_drawer_icon">#84000000</color>
     <color name="qp_drawer_icon_disabled">#16000000</color>
     <color name="qp_drawer_selected">#ff4285f4</color>
-    <color name="qp_drawer_status_text">#ff757575</color>
     <color name="qp_drawer_text">#de000000</color>
     <color name="qp_drawer_text_disabled">#43000000</color>
     <color name="qp_feedback_overlay">#0d000000</color>
@@ -877,7 +885,6 @@
     <color name="quantum_black_70">#b3000000</color>
     <color name="quantum_black_divider">#1f000000</color>
     <color name="quantum_black_hint_text">#61000000</color>
-    <color name="quantum_black_middle_divider">#0c000000</color>
     <color name="quantum_black_secondary_text">#89000000</color>
     <color name="quantum_black_text">#dd000000</color>
     <color name="quantum_bluegrey100">#ffcfd8dc</color>
@@ -1248,7 +1255,6 @@
     <color name="quartz_blue_700">#ff1967d2</color>
     <color name="quartz_blue_800">#ff185abc</color>
     <color name="quartz_blue_900">#ff174ea6</color>
-    <color name="quartz_build_info_text_shadow_color">@android:color/black</color>
     <color name="quartz_color_set_primary_1">#ff1a73e8</color>
     <color name="quartz_color_set_primary_2">#ff1a73e8</color>
     <color name="quartz_color_set_primary_3">#ff1a73e8</color>
@@ -1340,7 +1346,6 @@
     <color name="quartz_rich_suggestions_scrim_color">#99212121</color>
     <color name="quartz_shopping_cart_distance_to_free_delivery_color">#ff34a853</color>
     <color name="quartz_shopping_cart_empty_cart_text_color">@color/quartz_grey_600</color>
-    <color name="quartz_shopping_cart_header_background">@android:color/white</color>
     <color name="quartz_shopping_cart_header_divider_color">@color/quartz_grey_300</color>
     <color name="quartz_shopping_cart_item_normal_price_color">@color/quartz_text_color_primary</color>
     <color name="quartz_shopping_cart_item_normal_qty_color">@color/quartz_text_color_secondary</color>
@@ -1479,7 +1484,6 @@
     <color name="search_box_click_color">#4d999999</color>
     <color name="search_box_click_darker_color">#ff999999</color>
     <color name="search_overlay_background">#fff2f2f2</color>
-    <color name="search_overlay_mask">#99000000</color>
     <color name="search_plate_circular_qsb_hint_color">#ff9e9e9e</color>
     <color name="search_plate_color">#ffffffff</color>
     <color name="search_plate_hint_color">#ffb2b2b2</color>
@@ -1550,6 +1554,7 @@
     <color name="small_icon_notification_background_branding_v2">#ff455a64</color>
     <color name="snackbar_action_text_color">#ff7baaf7</color>
     <color name="snackbar_background">#ff323232</color>
+    <color name="snackbar_bubble_background_color">@color/quantum_googblue</color>
     <color name="snowman_color">#ff8f8f8f</color>
     <color name="solid_black">#ff000000</color>
     <color name="spinner_color">#ffd9d9d9</color>
@@ -1661,6 +1666,7 @@
     <color name="transparent_black">#7f000000</color>
     <color name="tutorial_card_title">#ff535353</color>
     <color name="uninstall_target_hover_tint">#fff0592b</color>
+    <color name="update_tip_description">#ff757575</color>
     <color name="user_list_icon_tint">#ff00abc2</color>
     <color name="value_selector_mask_center">#00212121</color>
     <color name="value_selector_mask_ends">#ff212121</color>
@@ -1712,6 +1718,7 @@
     <color name="zero_state_card_border_color">@color/quantum_grey300</color>
     <color name="zero_state_explore_suggestion_border_color">@color/quantum_googblue</color>
     <color name="zero_state_hint_text_color">#ffffffff</color>
+    <color name="zero_state_loading_card_color">@color/quantum_grey100</color>
     <color name="zero_state_promo_default_color">#ff4285f4</color>
     <color name="zero_state_promo_title_color">#ffffffff</color>
     <color name="zero_state_suggestion_border_color">@color/quantum_grey300</color>
