@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789АБВГҐДЕЄЖЗІЇЙКЛМНОПРСТУФХЦЧШЩЮЯ</string>
     <string name="announce_abuse_undo">Повідомлення про порушення не надіслано</string>
     <string name="announce_account_using">Використовується обліковий запис %1$s.</string>
-    <string name="announce_action_undone">Дію відмінено.</string>
     <string name="announce_collection_removed">Папку вилучено.</string>
     <string name="announce_document_removed">Файл вилучено.</string>
     <string name="announce_invalid_filename">Недійсна назва. Введіть іншу.</string>
@@ -889,13 +888,9 @@
     <string name="management_data_loading_failed">Не вдається завантажити цю сторінку</string>
     <string name="menu_backup">Резервні копії</string>
     <string name="menu_copy_link">Копія посилання</string>
-    <string name="menu_create_shortcut">На Головний екран</string>
-    <string name="menu_delete">Вилучити</string>
     <string name="menu_detail">Деталі</string>
     <string name="menu_doc_view_grid_mode">У вигляді таблиці</string>
     <string name="menu_doc_view_list_mode">У вигляді списку</string>
-    <string name="menu_download">Завантажити</string>
-    <string name="menu_dump_database">Відгук про створення дампу локальної версії</string>
     <string name="menu_edit">Редагувати</string>
     <string name="menu_empty_trash_too_many_items">У Кошику забагато елементів, деякі не вдалося видалити.</string>
     <string name="menu_filter_by">Фільтрувати</string>
@@ -906,19 +901,13 @@
     <string name="menu_keep_on_device">Доступний офлайн</string>
     <string name="menu_link_share">Доступ за посиланням</string>
     <string name="menu_more_options">Більше варіантів</string>
-    <string name="menu_move_to">Перемістити</string>
     <string name="menu_my_drive">Мій диск</string>
     <string name="menu_navigation_devices">Комп’ютери</string>
     <string name="menu_notifications">Сповіщення</string>
-    <string name="menu_offline">Доступний офлайн</string>
-    <string name="menu_open_with">Відкрити за допомогою</string>
-    <string name="menu_print">Надрукувати</string>
     <string name="menu_refresh">Оновити</string>
-    <string name="menu_rename">Перейменувати</string>
     <string name="menu_save_to_drive">Зберегти на Диску</string>
     <string name="menu_search">Пошук</string>
     <string name="menu_selection_clear">Скасувати вибір</string>
-    <string name="menu_send">Надіслати файл</string>
     <string name="menu_send_link">Надати посилання</string>
     <string name="menu_settings">Налаштування</string>
     <string name="menu_share_print">Друк</string>
@@ -950,9 +939,6 @@
     <string name="menu_sort_recently_opened">Останні відкриті мною</string>
     <string name="menu_sort_title">Назва</string>
     <string name="menu_title_button_describer">%1$s. %2$s. Кнопка \"Перейменувати\"</string>
-    <string name="menu_trash_delete_forever">Видалити</string>
-    <string name="menu_trash_restore">Відновити</string>
-    <string name="menu_unpin">Вилуч. із пристрою</string>
     <string name="menu_will_be_kept_offline">Зберігання на пристрої…</string>
     <string name="menu_will_no_longer_be_kept_offline">Таблиця більше не зберігатиметься на пристрої</string>
     <string name="message_drive_scope_blocked">Не вдається отримати доступ до \"%1$s\" з Google Диска. Зверніться до свого адміністратора G Suite.</string>
@@ -1285,7 +1271,7 @@
     <string name="prioritydocs_promo_negative">НІ, ДЯКУЮ</string>
     <string name="prioritydocs_promo_positive">УСТАНОВИТИ</string>
     <string name="promo_no_thanks_button">НІ, ДЯКУЮ</string>
-    <string name="promo_snackbar_googledocs">Створюйте та редагуйте таблиці разом з іншими прямо на своєму телефоні.</string>
+    <string name="promo_snackbar_googledocs_device">Створюйте та редагуйте таблиці разом з іншими прямо на своєму пристрої.</string>
     <string name="promo_snackbar_got_it">Зрозуміло</string>
     <string name="promo_snackbar_heading">Вітаємо в Google Таблицях!</string>
     <string name="promo_snackbar_learn_more">Докладніше</string>
@@ -1319,6 +1305,7 @@
     <string name="quota_range_small">Менше 1 МБ</string>
     <string name="quota_range_undefined">Не використовують пам’ять</string>
     <string name="quota_zero">немає</string>
+    <string name="ratings_card_body">Оцініть цей додаток у магазині Play або надішліть нам свій відгук.</string>
     <string name="ratings_card_feedback">Надіслати відгук</string>
     <string name="ratings_card_header">Задоволені Таблицями?</string>
     <string name="ratings_card_rate">Оцінити додаток</string>
@@ -1540,6 +1527,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">Не можна створити групу для рядка 1, коли кнопка \"+/-\" угорі. Перемістіть її донизу та повторіть спробу.</string>
     <string name="ritz_categories_heading">Категорії</string>
     <string name="ritz_cell_character_limit_exceeded">У введених даних кількість символів перевищує максимально допустиму в окремій клітинці (%1$s).</string>
+    <string name="ritz_cell_does_not_contain_image">У вибраній клітинці немає зображення.</string>
     <string name="ritz_cell_editor_hint">Введіть текст або формулу</string>
     <string name="ritz_cell_formatting_button_label">Форматування клітинки</string>
     <string name="ritz_cell_limit_exceeded">Унаслідок цієї дії кількість клітинок у книзі збільшиться й перевищить максимально допустиму (%1$s).</string>
@@ -1792,6 +1780,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">Введіть дійсну електронну адресу</string>
     <string name="ritz_conditional_option_text_is_url">Є дійсною URL-адресою</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Введіть дійсну URL-адресу</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Поміщено над сіткою</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Зображення в %1$s перетворено на зображення над сіткою.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Курсор розміщено після знака рівності</string>
     <string name="ritz_custom_angle_description">Обернено на %1$s°</string>
     <string name="ritz_custom_delimiter_name">спеціальний роздільник</string>

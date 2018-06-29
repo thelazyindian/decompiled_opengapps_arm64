@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ</string>
     <string name="announce_abuse_undo">Rapport om krænkelse blev ikke indsendt</string>
     <string name="announce_account_using">Bruger kontoen: %1$s.</string>
-    <string name="announce_action_undone">Handlingen blev fortrudt.</string>
     <string name="announce_collection_removed">Mappen blev fjernet.</string>
     <string name="announce_document_removed">Filen blev fjernet.</string>
     <string name="announce_invalid_filename">Navnet er ugyldigt. Angiv et andet navn.</string>
@@ -901,13 +900,9 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="management_data_loading_failed">Siden kunne ikke indlæses</string>
     <string name="menu_backup">Backups</string>
     <string name="menu_copy_link">Kopiér link</string>
-    <string name="menu_create_shortcut">Føj til startskærm</string>
-    <string name="menu_delete">Fjern</string>
     <string name="menu_detail">Info</string>
     <string name="menu_doc_view_grid_mode">Vis som gitter</string>
     <string name="menu_doc_view_list_mode">Vis som liste</string>
-    <string name="menu_download">Download</string>
-    <string name="menu_dump_database">Feedback - opret dump af lokal version</string>
     <string name="menu_edit">Rediger</string>
     <string name="menu_empty_trash_too_many_items">Papirkurven kunne ikke tømmes for nogle elementer. Der er for mange elementer i papirkurven.</string>
     <string name="menu_filter_by">Filtrér efter</string>
@@ -918,19 +913,13 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="menu_keep_on_device">Tilgængelig offline</string>
     <string name="menu_link_share">Linkdeling</string>
     <string name="menu_more_options">Flere valgmuligheder</string>
-    <string name="menu_move_to">Flyt</string>
     <string name="menu_my_drive">Mit drev</string>
     <string name="menu_navigation_devices">Computere</string>
     <string name="menu_notifications">Underretninger</string>
-    <string name="menu_offline">Tilgængelig offline</string>
-    <string name="menu_open_with">Åbn med</string>
-    <string name="menu_print">Udskriv</string>
     <string name="menu_refresh">Opdater</string>
-    <string name="menu_rename">Omdøb</string>
     <string name="menu_save_to_drive">Gem i Drev</string>
     <string name="menu_search">Søg</string>
     <string name="menu_selection_clear">Ryd markeringen</string>
-    <string name="menu_send">Send fil</string>
     <string name="menu_send_link">Del link</string>
     <string name="menu_settings">Indstillinger</string>
     <string name="menu_share_print">Udskriv</string>
@@ -962,9 +951,6 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="menu_sort_recently_opened">Senest åbnet af mig</string>
     <string name="menu_sort_title">Navn</string>
     <string name="menu_title_button_describer">%1$s. %2$s. knappen Omdøb</string>
-    <string name="menu_trash_delete_forever">Slet</string>
-    <string name="menu_trash_restore">Gendan</string>
-    <string name="menu_unpin">Fjern fra enheden</string>
     <string name="menu_will_be_kept_offline">Gør filen tilgængelig offline…</string>
     <string name="menu_will_no_longer_be_kept_offline">Regnearket er ikke længere tilgængeligt offline</string>
     <string name="message_drive_scope_blocked">Du kan ikke få adgang til %1$s via Google Drev. Kontakt din G Suite-administrator for at få hjælp.</string>
@@ -1297,7 +1283,7 @@ Klik på + for at oprette et nyt regneark."</string>
     <string name="prioritydocs_promo_negative">NEJ TAK</string>
     <string name="prioritydocs_promo_positive">INSTALLER</string>
     <string name="promo_no_thanks_button">NEJ TAK</string>
-    <string name="promo_snackbar_googledocs">Opret og rediger regneark sammen med andre – direkte på din telefon.</string>
+    <string name="promo_snackbar_googledocs_device">Opret og rediger regneark sammen med andre – direkte på din enhed.</string>
     <string name="promo_snackbar_got_it">Ok, det er forstået</string>
     <string name="promo_snackbar_heading">Velkommen til Google Sheets</string>
     <string name="promo_snackbar_learn_more">Få flere oplysninger</string>
@@ -1331,6 +1317,7 @@ Advarsel! Handlingen kan ikke fortrydes."</string>
     <string name="quota_range_small">Under 1 MB</string>
     <string name="quota_range_undefined">Anvender ikke lagerplads</string>
     <string name="quota_zero">ingen</string>
+    <string name="ratings_card_body">Bedøm denne app i Play Butik, eller send din feedback til os.</string>
     <string name="ratings_card_feedback">Send feedback</string>
     <string name="ratings_card_header">Er du tilfreds med Sheets?</string>
     <string name="ratings_card_rate">Bedøm appen</string>
@@ -1552,6 +1539,7 @@ Advarsel! Handlingen kan ikke fortrydes."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Det er ikke muligt at oprette en gruppe for Række 1, når knappen \"+/-\" er ovenover. Flyt knappen \"+/-\" nedenunder, og prøv igen.</string>
     <string name="ritz_categories_heading">Kategorier</string>
     <string name="ritz_cell_character_limit_exceeded">Din indtastning indeholder flere end de maksimale %1$s tegn i en enkelt celle.</string>
+    <string name="ritz_cell_does_not_contain_image">Der er ikke noget billede i den valgte celle.</string>
     <string name="ritz_cell_editor_hint">Angiv tekst eller formel</string>
     <string name="ritz_cell_formatting_button_label">Celleformatering</string>
     <string name="ritz_cell_limit_exceeded">Denne handling forøger antallet af celler i projektmappen til et antal, der overstiger grænsen på %1$s celler.</string>
@@ -1804,6 +1792,8 @@ Advarsel! Handlingen kan ikke fortrydes."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Angiv en gyldig mail</string>
     <string name="ritz_conditional_option_text_is_url">Er en gyldig webadresse</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Angiv en gyldig webadresse</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Flyd oven på gitter</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Billedet i %1$s er konverteret til et billede over gitteret.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Markøren er placeret efter lighedstegnet</string>
     <string name="ritz_custom_angle_description">Roteret %1$s grader</string>
     <string name="ritz_custom_delimiter_name">tilpasset skilletegn</string>

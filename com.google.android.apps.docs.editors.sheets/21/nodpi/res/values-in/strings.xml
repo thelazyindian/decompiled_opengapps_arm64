@@ -114,7 +114,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Laporan penyalahgunaan tidak diajukan</string>
     <string name="announce_account_using">Menggunakan akun: %1$s.</string>
-    <string name="announce_action_undone">Tindakan diurungkan.</string>
     <string name="announce_collection_removed">Folder dihapus.</string>
     <string name="announce_document_removed">File dihapus.</string>
     <string name="announce_invalid_filename">Nama tidak valid. Masukkan nama yang lain.</string>
@@ -879,13 +878,9 @@ Klik + untuk membuat spreadsheet baru."</string>
     <string name="manage_members_dialog_title">Akses anggota</string>
     <string name="menu_backup">Cadangan</string>
     <string name="menu_copy_link">Salin link</string>
-    <string name="menu_create_shortcut">Tambahkan ke Layar Utama</string>
-    <string name="menu_delete">Hapus</string>
     <string name="menu_detail">Detail</string>
     <string name="menu_doc_view_grid_mode">Lihat sebagai kisi</string>
     <string name="menu_doc_view_list_mode">Lihat sebagai daftar</string>
-    <string name="menu_download">Download</string>
-    <string name="menu_dump_database">Masukan - Buang versi lokal</string>
     <string name="menu_edit">Ubah</string>
     <string name="menu_empty_trash_too_many_items">Beberapa item tidak dapat dikosongkan, terlalu banyak item di Sampah.</string>
     <string name="menu_filter_by">Filter menurut</string>
@@ -896,19 +891,13 @@ Klik + untuk membuat spreadsheet baru."</string>
     <string name="menu_keep_on_device">Tersedia offline</string>
     <string name="menu_link_share">Berbagi link</string>
     <string name="menu_more_options">Opsi lainnya</string>
-    <string name="menu_move_to">Pindahkan</string>
     <string name="menu_my_drive">Drive saya</string>
     <string name="menu_navigation_devices">Komputer</string>
     <string name="menu_notifications">Notifikasi</string>
-    <string name="menu_offline">Tersedia offline</string>
-    <string name="menu_open_with">Buka dengan</string>
-    <string name="menu_print">Cetak</string>
     <string name="menu_refresh">Segarkan</string>
-    <string name="menu_rename">Ganti nama</string>
     <string name="menu_save_to_drive">Simpan ke Drive</string>
     <string name="menu_search">Telusuri</string>
     <string name="menu_selection_clear">Hapus pilihan</string>
-    <string name="menu_send">Kirim file</string>
     <string name="menu_send_link">Bagikan link</string>
     <string name="menu_settings">Setelan</string>
     <string name="menu_share_print">Cetak</string>
@@ -940,9 +929,6 @@ Klik + untuk membuat spreadsheet baru."</string>
     <string name="menu_sort_recently_opened">Terakhir dibuka oleh saya</string>
     <string name="menu_sort_title">Nama</string>
     <string name="menu_title_button_describer">%1$s. %2$s. tombol ganti nama</string>
-    <string name="menu_trash_delete_forever">Hapus</string>
-    <string name="menu_trash_restore">Pulihkan</string>
-    <string name="menu_unpin">Tanpa offline</string>
     <string name="menu_will_be_kept_offline">Jadikan tersedia saat offline…</string>
     <string name="menu_will_no_longer_be_kept_offline">Spreadsheet tidak akan tersedia lagi saat offline</string>
     <string name="message_drive_scope_blocked">Tidak dapat mengakses %1$s dari Google Drive. Hubungi admin G Suite Anda untuk mendapatkan bantuan.</string>
@@ -1274,7 +1260,7 @@ Klik + untuk membuat spreadsheet baru."</string>
     <string name="prioritydocs_promo_negative">LAIN KALI</string>
     <string name="prioritydocs_promo_positive">INSTAL</string>
     <string name="promo_no_thanks_button">LAIN KALI</string>
-    <string name="promo_snackbar_googledocs">Buat dan edit spreadsheet bersama orang lain langsung dari ponsel Anda.</string>
+    <string name="promo_snackbar_googledocs_device">Buat dan edit spreadsheet bersama orang lain langsung dari perangkat Anda.</string>
     <string name="promo_snackbar_got_it">Mengerti</string>
     <string name="promo_snackbar_heading">Selamat datang di Google Spreadsheet</string>
     <string name="promo_snackbar_learn_more">Pelajari Lebih Lanjut</string>
@@ -1308,6 +1294,7 @@ Peringatan: Anda tidak dapat mengurungkan tindakan ini."</string>
     <string name="quota_range_small">Di bawah 1 MB</string>
     <string name="quota_range_undefined">Tidak Menggunakan Penyimpanan</string>
     <string name="quota_zero">tidak ada</string>
+    <string name="ratings_card_body">Beri nilai aplikasi ini di Play Store atau kirimkan masukan Anda.</string>
     <string name="ratings_card_feedback">Kirim Masukan</string>
     <string name="ratings_card_header">Menikmati Spreadsheet?</string>
     <string name="ratings_card_rate">Beri Peringkat Aplikasi</string>
@@ -1529,6 +1516,7 @@ Peringatan: Anda tidak dapat mengurungkan tindakan ini."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Tidak dapat membuat grup untuk Baris 1 saat tombol +/- berada di atas. Harap pindahkan tombol +/- ke bawah, lalu coba lagi.</string>
     <string name="ritz_categories_heading">Kategori</string>
     <string name="ritz_cell_character_limit_exceeded">Masukan Anda melebihi jumlah maksimum %1$s karakter dalam satu sel.</string>
+    <string name="ritz_cell_does_not_contain_image">Tidak ada gambar di sel yang dipilih.</string>
     <string name="ritz_cell_editor_hint">Masukkan teks atau formula</string>
     <string name="ritz_cell_formatting_button_label">Pemformatan sel</string>
     <string name="ritz_cell_limit_exceeded">Tindakan ini akan meningkatkan jumlah sel dalam workbook melebihi batas %1$s sel.</string>
@@ -1781,6 +1769,8 @@ Peringatan: Anda tidak dapat mengurungkan tindakan ini."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Masukkan email yang valid</string>
     <string name="ritz_conditional_option_text_is_url">Adalah URL yang valid</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Masukkan URL yang valid</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Mengapung di atas grid</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Gambar di %1$s dikonversi ke gambar petak.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Kursor diposisikan setelah tanda sama dengan</string>
     <string name="ritz_custom_angle_description">Diputar %1$s derajat</string>
     <string name="ritz_custom_delimiter_name">pembatas khusus</string>

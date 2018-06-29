@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">የአላግባብ መጠቀም ሪፖርት አልገባም</string>
     <string name="announce_account_using">ስራ ላይ የዋለው መለያ፦ %1$s።</string>
-    <string name="announce_action_undone">እርምጃ ተቀልብሷል።</string>
     <string name="announce_collection_removed">አቃፊ ተወግዷል።</string>
     <string name="announce_document_removed">ፋይል ተወግዷል።</string>
     <string name="announce_invalid_filename">ልክ ያልሆነ ስም። እባክዎ የተለየ ስም ያስገቡ።</string>
@@ -889,13 +888,9 @@
     <string name="management_data_loading_failed">ይህን ገጽ መጫን አልተቻለም</string>
     <string name="menu_backup">ምትኬዎች</string>
     <string name="menu_copy_link">አገናኝ ቅዳ</string>
-    <string name="menu_create_shortcut">ወደ መነሻ ማያ ገጽ አክል</string>
-    <string name="menu_delete">አስወግድ</string>
     <string name="menu_detail">ዝርዝሮች</string>
     <string name="menu_doc_view_grid_mode">እንደ ፍርግርግ ይመልከቱ</string>
     <string name="menu_doc_view_list_mode">እንደ ዝርዝር ይመልከቱ</string>
-    <string name="menu_download">አውርድ</string>
-    <string name="menu_dump_database">ግብረመልስ - አካባቢያዊ ስሪት አራግፍ</string>
     <string name="menu_edit">አርትዕ</string>
     <string name="menu_empty_trash_too_many_items">አንዳንድ ንጥሎች ባዶ ሊሆኑ አልቻሉም፣ በመጣያ ውስጥ በጣም ብዙ ንጥሎች አሉ።</string>
     <string name="menu_filter_by">አጣራ በ</string>
@@ -906,19 +901,13 @@
     <string name="menu_keep_on_device">ከመስመር ውጪ ይገኛል</string>
     <string name="menu_link_share">አገናኝ ማጋራት</string>
     <string name="menu_more_options">ተጨማሪ አማራጮች</string>
-    <string name="menu_move_to">ውሰድ</string>
     <string name="menu_my_drive">የእኔ Drive</string>
     <string name="menu_navigation_devices">ኮምፒውተሮች</string>
     <string name="menu_notifications">ማሳወቂያዎች</string>
-    <string name="menu_offline">ከመስመር ውጪ ይገኛል</string>
-    <string name="menu_open_with">ይክፈቱ በ</string>
-    <string name="menu_print">አትም</string>
     <string name="menu_refresh">አድስ</string>
-    <string name="menu_rename">ዳግም ሰይም</string>
     <string name="menu_save_to_drive">Drive ላይ አስቀምጥ</string>
     <string name="menu_search">ፈልግ</string>
     <string name="menu_selection_clear">ምርጫን አጽዳ</string>
-    <string name="menu_send">ፋይል ላክ</string>
     <string name="menu_send_link">አገናኝ አጋራ</string>
     <string name="menu_settings">ቅንብሮች</string>
     <string name="menu_share_print">አትም</string>
@@ -950,9 +939,6 @@
     <string name="menu_sort_recently_opened">መጨረሻ በእኔ የተከፈቱበት ቀን</string>
     <string name="menu_sort_title">ስም</string>
     <string name="menu_title_button_describer">%1$s። %2$s። የዳግም ሰይም አዝራር</string>
-    <string name="menu_trash_delete_forever">ሰርዝ</string>
-    <string name="menu_trash_restore">ወደነበረበት መልስ</string>
-    <string name="menu_unpin">ከመሳሪያ አስወግድ</string>
     <string name="menu_will_be_kept_offline">ከመስመር ውጪ እንዲገኝ በማድረግ ላይ…</string>
     <string name="menu_will_no_longer_be_kept_offline">ተመን ሉህ ከአሁን በኋላ ከመስመር ውጪ አይገኝም</string>
     <string name="message_drive_scope_blocked">%1$sን ከGoogle Drive መድረስ አልተቻለም። እርዳታ ለማግኘት የG Suite አስተዳዳሪዎን ያነጋግሩ።</string>
@@ -1285,7 +1271,7 @@
     <string name="prioritydocs_promo_negative">አይ፣ አመሰግናለሁ</string>
     <string name="prioritydocs_promo_positive">ጫን</string>
     <string name="promo_no_thanks_button">አይ፣ አመሰግናለሁ</string>
-    <string name="promo_snackbar_googledocs">ከእርስዎ ስልክ ላይ ሆነው ከሌሎች ጋር አብረው ተመን ሉሆችን ይፍጠሩና ያርትዑ።</string>
+    <string name="promo_snackbar_googledocs_device">ከእርስዎ መሣሪያ ላይ ሆነው ከሌሎች ጋር አብረው ተመን ሉሆችን ይፍጠሩ እና ያርትዑ።</string>
     <string name="promo_snackbar_got_it">ገባኝ</string>
     <string name="promo_snackbar_heading">እንኳን ወደ Google ሉሆች በደህና መጡ</string>
     <string name="promo_snackbar_learn_more">የበለጠ ለመረዳት</string>
@@ -1319,6 +1305,7 @@
     <string name="quota_range_small">ከ1 ሜባ በታች</string>
     <string name="quota_range_undefined">ዜሮ ማከማቻ ጥቅም ላይ ውሏል</string>
     <string name="quota_zero">ምንም</string>
+    <string name="ratings_card_body">በPlay መደብር ውስጥ ለዚህ መተግበሪያ ደረጃ ይስጡት ወይም ግብረመልስዎን ይላኩልን።</string>
     <string name="ratings_card_feedback">ግብረመልስ ላክ</string>
     <string name="ratings_card_header">በሉሆች እየተደሰቱ ነው?</string>
     <string name="ratings_card_rate">ለመተግበሪያ ደረጃ ስጥ</string>
@@ -1540,6 +1527,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">የ+/- አዝራሩ ከላይ ሲሆን ለረድፍ 1 ቡድን መፍጠር አይቻልም። እባክው የ+/- አዝራሩን ወደ ታች ይውሰዱትና እንደገና ይሞክሩ።</string>
     <string name="ritz_categories_heading">ምድቦች</string>
     <string name="ritz_cell_character_limit_exceeded">የእርስዎ ግብዓት በአንድ ህዋስ ውስጥ ከከፍተኛው %1$s ቁምፊዎች በላይ አካትቷል።</string>
+    <string name="ritz_cell_does_not_contain_image">በተመረጠው ሕዋስ ውስጥ ምስል የለም።</string>
     <string name="ritz_cell_editor_hint">ጽሑፍ ወይም ቀመር ያስገቡ</string>
     <string name="ritz_cell_formatting_button_label">የሕዋስ ቅርጸት</string>
     <string name="ritz_cell_limit_exceeded">ይህ እርምጃ በመዝገበ ቀመር ውስጥ ያለው የህዋሳት ብዛት ከ%1$s የህዋሳት ገደብ በላይ ይጨምራል።</string>
@@ -1792,6 +1780,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">የሚሰራ ኢሜይል ያስገቡ</string>
     <string name="ritz_conditional_option_text_is_url">የሚሰራ ዩአርኤል ነው</string>
     <string name="ritz_conditional_option_text_is_url_instruction">እባከዎ የሚሰራ ዩአርኤል ያስገቡ</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">በፍርግርግ ላይ ተንሳፋፊ</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">በ%1$s ውስጥ ያለ ምስል ወደ የፍርግርግ-ላይ ምስል ተቀይሯል።</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">ጠቋሚው ከእኩል ምልክት በኋላ ላይ ነው የተቀመጠው</string>
     <string name="ritz_custom_angle_description">%1$s ዲግሪ የዞረ</string>
     <string name="ritz_custom_delimiter_name">ብጁ ገዳቢ</string>

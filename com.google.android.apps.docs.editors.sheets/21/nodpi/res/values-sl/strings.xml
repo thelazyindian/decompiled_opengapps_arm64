@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCČDEFGHIJKLMNOPQRSŠTUVWXYZŽ</string>
     <string name="announce_abuse_undo">Poročilo o zlorabi ni poslano</string>
     <string name="announce_account_using">Uporabljate račun: %1$s.</string>
-    <string name="announce_action_undone">Dejanje je razveljavljeno.</string>
     <string name="announce_collection_removed">Mapa je odstranjena.</string>
     <string name="announce_document_removed">Datoteka je odstranjena.</string>
     <string name="announce_invalid_filename">Neveljavno ime. Vnesite drugo ime.</string>
@@ -889,13 +888,9 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="management_data_loading_failed">Te strani ni mogoče naložiti</string>
     <string name="menu_backup">Varnostne kopije</string>
     <string name="menu_copy_link">Kopiraj povezavo</string>
-    <string name="menu_create_shortcut">Dodaj na zač. zas.</string>
-    <string name="menu_delete">Odstrani</string>
     <string name="menu_detail">Podrobno</string>
     <string name="menu_doc_view_grid_mode">Kot mreža</string>
     <string name="menu_doc_view_list_mode">Kot seznam</string>
-    <string name="menu_download">Prenos</string>
-    <string name="menu_dump_database">Povratne informacije – izvoz lokalne različice</string>
     <string name="menu_edit">Uredi</string>
     <string name="menu_empty_trash_too_many_items">Smetnjaka ni bilo mogoče do konca izprazniti, ker je bilo v njem preveč elementov.</string>
     <string name="menu_filter_by">Filtriraj po</string>
@@ -906,19 +901,13 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="menu_keep_on_device">Na voljo brez povezave</string>
     <string name="menu_link_share">Skupna raba povezav</string>
     <string name="menu_more_options">Več možnosti</string>
-    <string name="menu_move_to">Premakni</string>
     <string name="menu_my_drive">Moj disk</string>
     <string name="menu_navigation_devices">Računalniki</string>
     <string name="menu_notifications">Obvestila</string>
-    <string name="menu_offline">Na voljo brez povezave</string>
-    <string name="menu_open_with">Za odp. uporabi</string>
-    <string name="menu_print">Natisni</string>
     <string name="menu_refresh">Osveži</string>
-    <string name="menu_rename">Preimenuj</string>
     <string name="menu_save_to_drive">Shrani v Drive</string>
     <string name="menu_search">Iskanje</string>
     <string name="menu_selection_clear">Počisti izbor</string>
-    <string name="menu_send">Pošlji datoteko</string>
     <string name="menu_send_link">Skupna raba povezave</string>
     <string name="menu_settings">Nastavitve</string>
     <string name="menu_share_print">Natisni</string>
@@ -950,9 +939,6 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="menu_sort_recently_opened">Nazadnje odprl: jaz</string>
     <string name="menu_sort_title">Ime</string>
     <string name="menu_title_button_describer">%1$s. %2$s. gumb za preimenovanje</string>
-    <string name="menu_trash_delete_forever">Izbriši</string>
-    <string name="menu_trash_restore">Obnovi</string>
-    <string name="menu_unpin">Odstrani iz napr.</string>
     <string name="menu_will_be_kept_offline">Priprava za dostop brez povezave …</string>
     <string name="menu_will_no_longer_be_kept_offline">Preglednica ne bo več na voljo brez povezave</string>
     <string name="message_drive_scope_blocked">Dostop do datoteke %1$s v storitvi Google Drive ni mogoč. Za pomoč se obrnite na skrbnika za G Suite.</string>
@@ -1285,7 +1271,7 @@ Kliknite +, da ustvarite novo preglednico."</string>
     <string name="prioritydocs_promo_negative">NE, HVALA</string>
     <string name="prioritydocs_promo_positive">NAMESTI</string>
     <string name="promo_no_thanks_button">NE, HVALA</string>
-    <string name="promo_snackbar_googledocs">Ustvarjajte in urejajte preglednice skupaj z drugimi v telefonu.</string>
+    <string name="promo_snackbar_googledocs_device">Ustvarjajte in urejajte preglednice skupaj z drugimi v napravi.</string>
     <string name="promo_snackbar_got_it">Že vem</string>
     <string name="promo_snackbar_heading">Pozdravljeni v aplikaciji Google Preglednice</string>
     <string name="promo_snackbar_learn_more">Več o tem</string>
@@ -1319,6 +1305,7 @@ Opozorilo: tega dejanja ni mogoče razveljaviti."</string>
     <string name="quota_range_small">Manj kot 1 MB</string>
     <string name="quota_range_undefined">Nič prostora ni uporabljenega</string>
     <string name="quota_zero">brez</string>
+    <string name="ratings_card_body">Ocenite to aplikacijo v Trgovini Play ali nam pošljite povratne informacije.</string>
     <string name="ratings_card_feedback">Pošlji povratne informacije</string>
     <string name="ratings_card_header">So vam všeč Preglednice?</string>
     <string name="ratings_card_rate">Ocenite aplikacijo</string>
@@ -1540,6 +1527,7 @@ Opozorilo: tega dejanja ni mogoče razveljaviti."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Skupine za vrstico 1 ni mogoče ustvariti, ko je gumb +/- na vrhu. Premaknite gumb +/- na dno in poskusite znova.</string>
     <string name="ritz_categories_heading">Kategorije</string>
     <string name="ritz_cell_character_limit_exceeded">Vaš vnos vsebuje več kot največje dovoljeno število %1$s znakov v posamezni celici.</string>
+    <string name="ritz_cell_does_not_contain_image">V izbrani celici ni slike.</string>
     <string name="ritz_cell_editor_hint">Vnesite besedilo ali formulo</string>
     <string name="ritz_cell_formatting_button_label">Oblikovanje celic</string>
     <string name="ritz_cell_limit_exceeded">To dejanje bi povečalo število celic v zvezku nad omejitev %1$s celic.</string>
@@ -1792,6 +1780,8 @@ Opozorilo: tega dejanja ni mogoče razveljaviti."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Vnesite veljaven e-poštni naslov.</string>
     <string name="ritz_conditional_option_text_is_url">Je veljaven naslov URL</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Vnesite veljaven URL.</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Lebdeče nad mrežo</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Slika v celici %1$s je bila pretvorjena v sliko prek mreže.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Kazalec je postavljen za znakom za enačaj</string>
     <string name="ritz_custom_angle_description">Zasukano za %1$s stopinj</string>
     <string name="ritz_custom_delimiter_name">ločilo po meri</string>

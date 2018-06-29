@@ -114,7 +114,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Denúncia de abuso não enviada</string>
     <string name="announce_account_using">Conta em uso: %1$s.</string>
-    <string name="announce_action_undone">Ação desfeita.</string>
     <string name="announce_collection_removed">Pasta removida.</string>
     <string name="announce_document_removed">Arquivo removido.</string>
     <string name="announce_invalid_filename">Nome inválido. Insira um nome diferente.</string>
@@ -872,13 +871,9 @@ Clique em \"+\" para criar uma nova planilha."</string>
     <string name="manage_members_dialog_title">Acesso de membro</string>
     <string name="menu_backup">Backups</string>
     <string name="menu_copy_link">Copiar link</string>
-    <string name="menu_create_shortcut">+ à tela inicial</string>
-    <string name="menu_delete">Remover</string>
     <string name="menu_detail">Detalhes</string>
     <string name="menu_doc_view_grid_mode">Ver como grade</string>
     <string name="menu_doc_view_list_mode">Ver como lista</string>
-    <string name="menu_download">Fazer o download</string>
-    <string name="menu_dump_database">Feedback: descartar versão local</string>
     <string name="menu_edit">Editar</string>
     <string name="menu_empty_trash_too_many_items">Muitos itens na lixeira, não foi possível remover alguns itens.</string>
     <string name="menu_filter_by">Filtrar por</string>
@@ -889,19 +884,13 @@ Clique em \"+\" para criar uma nova planilha."</string>
     <string name="menu_keep_on_device">Disponível off-line</string>
     <string name="menu_link_share">Compart. de link</string>
     <string name="menu_more_options">Mais opções</string>
-    <string name="menu_move_to">Mover</string>
     <string name="menu_my_drive">Meu Drive</string>
     <string name="menu_navigation_devices">Computadores</string>
     <string name="menu_notifications">Notificações</string>
-    <string name="menu_offline">Disponível off-line</string>
-    <string name="menu_open_with">Abrir com</string>
-    <string name="menu_print">Imprimir</string>
     <string name="menu_refresh">Atualizar</string>
-    <string name="menu_rename">Renomear</string>
     <string name="menu_save_to_drive">Salvar no Drive</string>
     <string name="menu_search">Pesquisar</string>
     <string name="menu_selection_clear">Limpar seleção</string>
-    <string name="menu_send">Enviar arquivo</string>
     <string name="menu_send_link">Compartilhar link</string>
     <string name="menu_settings">Configurações</string>
     <string name="menu_share_print">Imprimir</string>
@@ -933,9 +922,6 @@ Clique em \"+\" para criar uma nova planilha."</string>
     <string name="menu_sort_recently_opened">Aberto por último por mim</string>
     <string name="menu_sort_title">Nome</string>
     <string name="menu_title_button_describer">%1$s. %2$s. botão \"Renomear\"</string>
-    <string name="menu_trash_delete_forever">Excluir</string>
-    <string name="menu_trash_restore">Restaurar</string>
-    <string name="menu_unpin">Remover do disp.</string>
     <string name="menu_will_be_kept_offline">Tornando disponível off-line…</string>
     <string name="menu_will_no_longer_be_kept_offline">A planilha não estará mais disponível off-line</string>
     <string name="message_drive_scope_blocked">Não é possível acessar %1$s do Google Drive. Entre em contato com o administrador do G Suite.</string>
@@ -1267,7 +1253,7 @@ Clique em \"+\" para criar uma nova planilha."</string>
     <string name="prioritydocs_promo_negative">NÃO, OBRIGADO</string>
     <string name="prioritydocs_promo_positive">INSTALAR</string>
     <string name="promo_no_thanks_button">NÃO, OBRIGADO</string>
-    <string name="promo_snackbar_googledocs">Crie e edite planilhas junto com outras pessoas no seu smartphone.</string>
+    <string name="promo_snackbar_googledocs_device">Crie e edite planilhas junto com outras pessoas no seu dispositivo.</string>
     <string name="promo_snackbar_got_it">Entendi</string>
     <string name="promo_snackbar_heading">Bem-vindo ao Planilhas Google</string>
     <string name="promo_snackbar_learn_more">Saber mais</string>
@@ -1301,6 +1287,7 @@ Atenção: não é possível desfazer essa ação."</string>
     <string name="quota_range_small">Abaixo de 1 MB</string>
     <string name="quota_range_undefined">Nenhum armazenamento usado</string>
     <string name="quota_zero">nenhum</string>
+    <string name="ratings_card_body">Classifique este app na Play Store ou envie seu feedback.</string>
     <string name="ratings_card_feedback">Enviar feedback</string>
     <string name="ratings_card_header">Você está gostando do Planilhas Google?</string>
     <string name="ratings_card_rate">Avaliar o app</string>
@@ -1522,6 +1509,7 @@ Atenção: não é possível desfazer essa ação."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Não é possível criar um grupo para a Linha 1 quando o botão +/- está acima. Mova o botão +/- para baixo e tente novamente.</string>
     <string name="ritz_categories_heading">Categorias</string>
     <string name="ritz_cell_character_limit_exceeded">A entrada contém mais que o limite máximo de %1$s caracteres em uma única célula.</string>
+    <string name="ritz_cell_does_not_contain_image">Não há uma imagem na célula selecionada.</string>
     <string name="ritz_cell_editor_hint">Digitar texto ou fórmula</string>
     <string name="ritz_cell_formatting_button_label">Formatação da célula</string>
     <string name="ritz_cell_limit_exceeded">Essa ação aumentaria o número de células na pasta de trabalho acima do limite de %1$s células.</string>
@@ -1774,6 +1762,8 @@ Atenção: não é possível desfazer essa ação."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Digite um e-mail válido</string>
     <string name="ritz_conditional_option_text_is_url">É um URL válido</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Digite um URL válido</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Flutuar sobre a grade</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">A imagem na célula %1$s foi convertida em uma imagem sobre a grade.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">O cursor está posicionado após o sinal de igual</string>
     <string name="ritz_custom_angle_description">Girado %1$s graus</string>
     <string name="ritz_custom_delimiter_name">delimitador personalizado</string>

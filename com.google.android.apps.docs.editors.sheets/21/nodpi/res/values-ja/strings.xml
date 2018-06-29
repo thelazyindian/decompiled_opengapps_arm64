@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">不正行為の報告を送信しました</string>
     <string name="announce_account_using">アカウント %1$s を使用しています。</string>
-    <string name="announce_action_undone">操作を元に戻しました。</string>
     <string name="announce_collection_removed">フォルダを削除しました。</string>
     <string name="announce_document_removed">ファイルを削除しました。</string>
     <string name="announce_invalid_filename">名前が無効です。別の名前を入力してください。</string>
@@ -901,13 +900,9 @@
     <string name="management_data_loading_failed">ページを読み込めません</string>
     <string name="menu_backup">バックアップ</string>
     <string name="menu_copy_link">リンクをコピー</string>
-    <string name="menu_create_shortcut">ホーム画面に追加</string>
-    <string name="menu_delete">削除</string>
     <string name="menu_detail">詳細</string>
     <string name="menu_doc_view_grid_mode">ギャラリー表示</string>
     <string name="menu_doc_view_list_mode">リスト表示</string>
-    <string name="menu_download">ダウンロード</string>
-    <string name="menu_dump_database">フィードバック - ローカル版をダンプ</string>
     <string name="menu_edit">編集</string>
     <string name="menu_empty_trash_too_many_items">ゴミ箱内のアイテムが多すぎたため、一部のアイテムがまだ残っています。</string>
     <string name="menu_filter_by">フィルタ条件</string>
@@ -918,19 +913,13 @@
     <string name="menu_keep_on_device">オフラインで使用可</string>
     <string name="menu_link_share">リンクの共有</string>
     <string name="menu_more_options">その他のオプション</string>
-    <string name="menu_move_to">移動</string>
     <string name="menu_my_drive">マイドライブ</string>
     <string name="menu_navigation_devices">パソコン</string>
     <string name="menu_notifications">通知</string>
-    <string name="menu_offline">オフラインで使用可能にする</string>
-    <string name="menu_open_with">アプリで開く</string>
-    <string name="menu_print">印刷</string>
     <string name="menu_refresh">更新</string>
-    <string name="menu_rename">名前を変更</string>
     <string name="menu_save_to_drive">ドライブに保存</string>
     <string name="menu_search">検索</string>
     <string name="menu_selection_clear">選択を解除</string>
-    <string name="menu_send">ファイルを送信</string>
     <string name="menu_send_link">リンクを共有</string>
     <string name="menu_settings">設定</string>
     <string name="menu_share_print">印刷</string>
@@ -962,9 +951,6 @@
     <string name="menu_sort_recently_opened">最終閲覧（自分）</string>
     <string name="menu_sort_title">名前</string>
     <string name="menu_title_button_describer">%1$s。%2$s。名前変更ボタン</string>
-    <string name="menu_trash_delete_forever">削除</string>
-    <string name="menu_trash_restore">復元</string>
-    <string name="menu_unpin">端末から削除</string>
     <string name="menu_will_be_kept_offline">オフラインで使用できるようにしています…</string>
     <string name="menu_will_no_longer_be_kept_offline">このスプレッドシートはオフラインで使用できなくなります</string>
     <string name="message_drive_scope_blocked">Google ドライブから %1$s にアクセスできません。G Suite 管理者にお問い合わせください。</string>
@@ -1297,7 +1283,7 @@
     <string name="prioritydocs_promo_negative">インストールしない</string>
     <string name="prioritydocs_promo_positive">インストール</string>
     <string name="promo_no_thanks_button">今はしない</string>
-    <string name="promo_snackbar_googledocs">スマートフォンから直接、他のユーザーと共同でスプレッドシートを作成、編集できます。</string>
+    <string name="promo_snackbar_googledocs_device">端末から直接、他のユーザーと共同でスプレッドシートを作成、編集できます。</string>
     <string name="promo_snackbar_got_it">OK</string>
     <string name="promo_snackbar_heading">Googleスプレッドシートへようこそ</string>
     <string name="promo_snackbar_learn_more">詳細</string>
@@ -1331,6 +1317,7 @@
     <string name="quota_range_small">1 MB 未満</string>
     <string name="quota_range_undefined">使用容量なし</string>
     <string name="quota_zero">なし</string>
+    <string name="ratings_card_body">Play ストアでこのアプリを評価するか、フィードバックをお送りください。</string>
     <string name="ratings_card_feedback">フィードバックを送信</string>
     <string name="ratings_card_header">スプレッドシートについての感想をお聞かせください。</string>
     <string name="ratings_card_rate">アプリを評価</string>
@@ -1552,6 +1539,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">[+] / [-] ボタンが上にある場合、行 1 のグループは作成できません。[+] / [-] ボタンを下に移動してからもう一度お試しください。</string>
     <string name="ritz_categories_heading">カテゴリ</string>
     <string name="ritz_cell_character_limit_exceeded">入力内容が1つのセルに最大%1$s文字の制限を超えています。</string>
+    <string name="ritz_cell_does_not_contain_image">選択したセルに画像がありません。</string>
     <string name="ritz_cell_editor_hint">テキストか数式を入力</string>
     <string name="ritz_cell_formatting_button_label">セルの書式設定</string>
     <string name="ritz_cell_limit_exceeded">この操作を行うと、ワークブック内のセル数が%1$sの制限を超えてしまいます。</string>
@@ -1804,6 +1792,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">有効なメールアドレスを入力してください</string>
     <string name="ritz_conditional_option_text_is_url">有効な URL</string>
     <string name="ritz_conditional_option_text_is_url_instruction">有効な URL を入力してください</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">グリッド上にフローティング</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">%1$s の画像をグリッド上の画像に変換しました。</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">カーソルは等号の後ろにあります</string>
     <string name="ritz_custom_angle_description">%1$s 度回転しました</string>
     <string name="ritz_custom_delimiter_name">カスタムの区切り文字</string>

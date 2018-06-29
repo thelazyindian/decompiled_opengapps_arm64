@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Segnalazione abuso non inviata</string>
     <string name="announce_account_using">Account in uso: %1$s.</string>
-    <string name="announce_action_undone">Azione annullata.</string>
     <string name="announce_collection_removed">Cartella rimossa.</string>
     <string name="announce_document_removed">File rimosso.</string>
     <string name="announce_invalid_filename">Nome non valido. Inserisci un altro nome.</string>
@@ -901,13 +900,9 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="management_data_loading_failed">Impossibile caricare la pagina</string>
     <string name="menu_backup">Backup</string>
     <string name="menu_copy_link">Copia link</string>
-    <string name="menu_create_shortcut">Aggiungi a Home</string>
-    <string name="menu_delete">Rimuovi</string>
     <string name="menu_detail">Dettagli</string>
     <string name="menu_doc_view_grid_mode">Visualizza come griglia</string>
     <string name="menu_doc_view_list_mode">Visualizza come elenco</string>
-    <string name="menu_download">Scarica</string>
-    <string name="menu_dump_database">Feedback - Esegui il dump della versione locale</string>
     <string name="menu_edit">Modifica</string>
     <string name="menu_empty_trash_too_many_items">Impossibile eliminare alcuni elementi. Troppi elementi nel cestino.</string>
     <string name="menu_filter_by">Filtra per</string>
@@ -918,19 +913,13 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="menu_keep_on_device">Disponibile offline</string>
     <string name="menu_link_share">Condivisione tramite link</string>
     <string name="menu_more_options">Altre opzioni</string>
-    <string name="menu_move_to">Sposta</string>
     <string name="menu_my_drive">Il mio Drive</string>
     <string name="menu_navigation_devices">Computer</string>
     <string name="menu_notifications">Notifiche</string>
-    <string name="menu_offline">Disponibile offline</string>
-    <string name="menu_open_with">Apri con</string>
-    <string name="menu_print">Stampa</string>
     <string name="menu_refresh">Aggiorna</string>
-    <string name="menu_rename">Rinomina</string>
     <string name="menu_save_to_drive">Salva in Drive</string>
     <string name="menu_search">Cerca</string>
     <string name="menu_selection_clear">Cancella selezione</string>
-    <string name="menu_send">Invia file</string>
     <string name="menu_send_link">Condividi link</string>
     <string name="menu_settings">Impostazioni</string>
     <string name="menu_share_print">Stampa</string>
@@ -962,9 +951,6 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="menu_sort_recently_opened">Ultimi aperti da me</string>
     <string name="menu_sort_title">Nome</string>
     <string name="menu_title_button_describer">%1$s. %2$s. pulsante rinomina</string>
-    <string name="menu_trash_delete_forever">Elimina</string>
-    <string name="menu_trash_restore">Ripristina</string>
-    <string name="menu_unpin">Rimuovi da dispos.</string>
     <string name="menu_will_be_kept_offline">Preparazione per la visualizzazione offline in corso…</string>
     <string name="menu_will_no_longer_be_kept_offline">Il foglio di lavoro non sarà più disponibile offline</string>
     <string name="message_drive_scope_blocked">"Impossibile accedere a %1$s da Google Drive. Contatta l'amministratore di G Suite per assistenza."</string>
@@ -1297,7 +1283,7 @@ Fai clic su + per creare un nuovo foglio di lavoro."</string>
     <string name="prioritydocs_promo_negative">NO, GRAZIE</string>
     <string name="prioritydocs_promo_positive">INSTALLA</string>
     <string name="promo_no_thanks_button">NO, GRAZIE</string>
-    <string name="promo_snackbar_googledocs">Crea e modifica fogli di lavoro insieme ad altre persone direttamente dal telefono.</string>
+    <string name="promo_snackbar_googledocs_device">Crea e modifica fogli di lavoro insieme ad altre persone direttamente dal tuo dispositivo.</string>
     <string name="promo_snackbar_got_it">OK</string>
     <string name="promo_snackbar_heading">Benvenuto in Fogli Google</string>
     <string name="promo_snackbar_learn_more">Ulteriori informazioni</string>
@@ -1331,6 +1317,7 @@ Attenzione. Questa azione non può essere annullata."</string>
     <string name="quota_range_small">Meno di 1 MB</string>
     <string name="quota_range_undefined">Nessuno spazio di archiviazione utilizzato</string>
     <string name="quota_zero">nessuna</string>
+    <string name="ratings_card_body">"Valuta l'app in Play Store o inviaci il tuo feedback."</string>
     <string name="ratings_card_feedback">Invia feedback</string>
     <string name="ratings_card_header">Ti piace Fogli?</string>
     <string name="ratings_card_rate">Valuta app</string>
@@ -1552,6 +1539,7 @@ Attenzione. Questa azione non può essere annullata."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Non è possibile creare un gruppo per la riga 1, quando il pulsante +/- si trova nella parte superiore. Sposta il pulsante +/- nella parte inferiore e riprova.</string>
     <string name="ritz_categories_heading">Categorie</string>
     <string name="ritz_cell_character_limit_exceeded">"L'input contiene più dei %1$s caratteri consentiti in una cella singola."</string>
+    <string name="ritz_cell_does_not_contain_image">"Non c'è un'immagine nella cella selezionata."</string>
     <string name="ritz_cell_editor_hint">Inserisci il testo o la formula</string>
     <string name="ritz_cell_formatting_button_label">Formattazione delle celle</string>
     <string name="ritz_cell_limit_exceeded">Questa azione aumenterà il numero di celle nella cartella di lavoro oltre il limite di %1$s celle.</string>
@@ -1804,6 +1792,8 @@ Attenzione. Questa azione non può essere annullata."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Inserisci un indirizzo email valido</string>
     <string name="ritz_conditional_option_text_is_url">È un URL valido</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Inserisci un URL valido</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Mobile sopra la griglia</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">"Immagine in %1$s convertita in un'immagine sopra la griglia."</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Il cursore è posizionato dopo il simbolo di uguale</string>
     <string name="ritz_custom_angle_description">Ruotato di %1$s gradi</string>
     <string name="ritz_custom_delimiter_name">delimitatore personalizzato</string>

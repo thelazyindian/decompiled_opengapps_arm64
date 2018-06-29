@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩ</string>
     <string name="announce_abuse_undo">Η αναφορά κατάχρησης δεν υποβλήθηκε</string>
     <string name="announce_account_using">Χρησιμοποιείται ο λογαριασμός: %1$s.</string>
-    <string name="announce_action_undone">Η ενέργεια αναιρέθηκε.</string>
     <string name="announce_collection_removed">Ο φάκελος καταργήθηκε.</string>
     <string name="announce_document_removed">Το αρχείο καταργήθηκε.</string>
     <string name="announce_invalid_filename">Μη έγκυρο όνομα. Καταχωρίστε άλλο όνομα.</string>
@@ -889,13 +888,9 @@
     <string name="management_data_loading_failed">Δεν είναι δυνατή η φόρτωση αυτής της σελίδας</string>
     <string name="menu_backup">Αντίγραφα ασφαλείας</string>
     <string name="menu_copy_link">Αντιγραφή συνδέσμου</string>
-    <string name="menu_create_shortcut">Προσθ. στην αρχική</string>
-    <string name="menu_delete">Κατάργηση</string>
     <string name="menu_detail">Λεπτομέρειες</string>
     <string name="menu_doc_view_grid_mode">Προβολή ως πλέγμα</string>
     <string name="menu_doc_view_list_mode">Προβολή ως λίστα</string>
-    <string name="menu_download">Λήψη</string>
-    <string name="menu_dump_database">Σχόλια - Απόρριψη τοπικής έκδοσης</string>
     <string name="menu_edit">Επεξεργασία</string>
     <string name="menu_empty_trash_too_many_items">Δεν ήταν δυνατή η διαγραφή ορισμένων στοιχείων. Υπάρχουν πάρα πολλά στοιχεία στον Κάδο απορριμμάτων.</string>
     <string name="menu_filter_by">Φιλτράρισμα κατά</string>
@@ -906,19 +901,13 @@
     <string name="menu_keep_on_device">Διαθέσιμο εκτός σύνδεσης</string>
     <string name="menu_link_share">Κοινοποίηση συνδ.</string>
     <string name="menu_more_options">Περισσότερες επιλογές</string>
-    <string name="menu_move_to">Μετακίνηση</string>
     <string name="menu_my_drive">Το Drive μου</string>
     <string name="menu_navigation_devices">Υπολογιστές</string>
     <string name="menu_notifications">Ειδοποιήσεις</string>
-    <string name="menu_offline">Διαθέσιμο εκτός σύνδεσης</string>
-    <string name="menu_open_with">Άνοιγμα με</string>
-    <string name="menu_print">Εκτύπωση</string>
     <string name="menu_refresh">Ανανέωση</string>
-    <string name="menu_rename">Μετονομασία</string>
     <string name="menu_save_to_drive">Αποθ. στο Drive</string>
     <string name="menu_search">Αναζήτηση</string>
     <string name="menu_selection_clear">Διαγραφή επιλογής</string>
-    <string name="menu_send">Αποστολή αρχείου</string>
     <string name="menu_send_link">Κοινοπ. συνδέσμου</string>
     <string name="menu_settings">Ρυθμίσεις</string>
     <string name="menu_share_print">Εκτύπωση</string>
@@ -950,9 +939,6 @@
     <string name="menu_sort_recently_opened">Τελευταίο άνοιγμα από εμένα</string>
     <string name="menu_sort_title">Όνομα</string>
     <string name="menu_title_button_describer">Κουμπί μετονομασίας %1$s. %2$s.</string>
-    <string name="menu_trash_delete_forever">Διαγραφή</string>
-    <string name="menu_trash_restore">Επαναφορά</string>
-    <string name="menu_unpin">Κατάρ. από συσκευή</string>
     <string name="menu_will_be_kept_offline">Γίνεται διαθέσιμο εκτός σύνδεσης…</string>
     <string name="menu_will_no_longer_be_kept_offline">Το υπολογιστικό φύλλο δεν θα είναι πλέον διαθέσιμο εκτός σύνδεσης</string>
     <string name="message_drive_scope_blocked">Μη δυνατή πρόσβαση στο %1$s από το Google Drive. Επικοινωνήστε με τον διαχειριστή G Suite για βοήθεια.</string>
@@ -1285,7 +1271,7 @@
     <string name="prioritydocs_promo_negative">ΟΧΙ, ΕΥΧΑΡΙΣΤΩ</string>
     <string name="prioritydocs_promo_positive">ΕΓΚΑΤΑΣΤΑΣΗ</string>
     <string name="promo_no_thanks_button">ΟΧΙ, ΕΥΧΑΡΙΣΤΩ</string>
-    <string name="promo_snackbar_googledocs">Δημιουργήστε και επεξεργαστείτε υπολογιστικά φύλλα με άλλους χρήστες απευθείας από το τηλέφωνό σας.</string>
+    <string name="promo_snackbar_googledocs_device">Δημιουργήστε και επεξεργαστείτε υπολογιστικά φύλλα με άλλους χρήστες απευθείας από τη συσκευή σας.</string>
     <string name="promo_snackbar_got_it">Έγινε</string>
     <string name="promo_snackbar_heading">Καλώς ορίσατε στα Υπολογιστικά φύλλα Google</string>
     <string name="promo_snackbar_learn_more">Μάθετε περισσότερα</string>
@@ -1319,6 +1305,7 @@
     <string name="quota_range_small">Κάτω από 1 MB</string>
     <string name="quota_range_undefined">Δεν χρησιμοποιήθηκε καθόλου αποθηκευτικός χώρος</string>
     <string name="quota_zero">κανένα</string>
+    <string name="ratings_card_body">Αξιολογήστε αυτήν την εφαρμογή στο Play Store ή στείλτε μας τα σχόλιά σας.</string>
     <string name="ratings_card_feedback">Αποστολή σχολίων</string>
     <string name="ratings_card_header">Σας αρέσουν τα Υπολογιστικά φύλλα;</string>
     <string name="ratings_card_rate">Αξιολόγηση εφαρμογής</string>
@@ -1540,6 +1527,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">Δεν είναι δυνατή η δημιουργία ομάδας για τη Σειρά 1 όταν το κουμπί +/- βρίσκεται στην κορυφή. Μετακινήστε το κουμπί +/- στο κάτω μέρος και δοκιμάστε ξανά.</string>
     <string name="ritz_categories_heading">Κατηγορίες</string>
     <string name="ritz_cell_character_limit_exceeded">Τα δεδομένα που έχετε εισαγάγει περιέχουν πάνω από το επιτρεπόμενο μέγιστο %1$s χαρακτήρων σε μεμονωμένο κελί.</string>
+    <string name="ritz_cell_does_not_contain_image">Δεν υπάρχει εικόνα στο επιλεγμένο κελί.</string>
     <string name="ritz_cell_editor_hint">Καταχωρίστε κείμενο ή τύπο</string>
     <string name="ritz_cell_formatting_button_label">Μορφοποίηση κελιού</string>
     <string name="ritz_cell_limit_exceeded">Αυτή η ενέργεια θα αυξήσει τον αριθμό κελιών στο βιβλίο εργασίας πάνω από το όριο των %1$s κελιών.</string>
@@ -1792,6 +1780,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">Εισαγωγή έγκυρης διεύθυνσης ηλεκτρονικού ταχυδρομείου</string>
     <string name="ritz_conditional_option_text_is_url">Είναι έγκυρο URL</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Εισαγωγή έγκυρου URL</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Κίνηση πάνω από το πλέγμα</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Η εικόνα στο %1$s μετατράπηκε σε μια εικόνα πάνω από το πλέγμα.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Ο δείκτης ποντικιού τοποθετείται μετά το σύμβολο \"ίσον\"</string>
     <string name="ritz_custom_angle_description">Με περιστροφή %1$s μοιρών</string>
     <string name="ritz_custom_delimiter_name">προσαρμοσμένο διαχωριστικό</string>

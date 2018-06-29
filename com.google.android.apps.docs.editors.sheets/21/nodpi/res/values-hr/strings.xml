@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCČĆDDŽĐEFGHIJKLLJMNNJOPRSŠTUVZŽ</string>
     <string name="announce_abuse_undo">Prijava o zloupotrebi nije poslana</string>
     <string name="announce_account_using">Upotreba računa: %1$s.</string>
-    <string name="announce_action_undone">Radnja je poništena.</string>
     <string name="announce_collection_removed">Mapa je uklonjena.</string>
     <string name="announce_document_removed">Datoteka je uklonjena.</string>
     <string name="announce_invalid_filename">Naziv nije važeći. Unesite neki drugi naziv.</string>
@@ -889,13 +888,9 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="management_data_loading_failed">Učitavanje stranice nije uspjelo</string>
     <string name="menu_backup">Sigurnosne kopije</string>
     <string name="menu_copy_link">Kopiraj vezu</string>
-    <string name="menu_create_shortcut">Na početni zaslon</string>
-    <string name="menu_delete">Uklanjanje</string>
     <string name="menu_detail">Pojedinosti</string>
     <string name="menu_doc_view_grid_mode">Prikaži kao mrežu</string>
     <string name="menu_doc_view_list_mode">Prikaži kao popis</string>
-    <string name="menu_download">Preuzmi</string>
-    <string name="menu_dump_database">Povratne informacije – sig. kopija lokalne verzije</string>
     <string name="menu_edit">Uredi</string>
     <string name="menu_empty_trash_too_many_items">Neke se stavke nisu mogle isprazniti, u Otpadu se nalazi previše stavki.</string>
     <string name="menu_filter_by">Filtriraj</string>
@@ -906,19 +901,13 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="menu_keep_on_device">Dostupno izvan mreže</string>
     <string name="menu_link_share">Dijeljenje veze</string>
     <string name="menu_more_options">Dodatne opcije</string>
-    <string name="menu_move_to">Premjesti</string>
     <string name="menu_my_drive">Moj disk</string>
     <string name="menu_navigation_devices">Računala</string>
     <string name="menu_notifications">Obavijesti</string>
-    <string name="menu_offline">Dostupno izvan mreže</string>
-    <string name="menu_open_with">Otvori pomoću aplikacije</string>
-    <string name="menu_print">Ispis</string>
     <string name="menu_refresh">Osvježi</string>
-    <string name="menu_rename">Promijeni naziv</string>
     <string name="menu_save_to_drive">Spremi na Disk</string>
     <string name="menu_search">Pretraživanje</string>
     <string name="menu_selection_clear">Izbriši odabir</string>
-    <string name="menu_send">Pošalji datoteku</string>
     <string name="menu_send_link">Dijeli vezu</string>
     <string name="menu_settings">Postavke</string>
     <string name="menu_share_print">Ispiši</string>
@@ -950,9 +939,6 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="menu_sort_recently_opened">Moje zadnje otvaranje</string>
     <string name="menu_sort_title">Naziv</string>
     <string name="menu_title_button_describer">Gumb za preimenovanje %1$s. %2$s.</string>
-    <string name="menu_trash_delete_forever">Izbriši</string>
-    <string name="menu_trash_restore">Vrati</string>
-    <string name="menu_unpin">Ukloni s uređaja</string>
     <string name="menu_will_be_kept_offline">Izvanmrežna dostupnost…</string>
     <string name="menu_will_no_longer_be_kept_offline">Proračunska tablica više neće biti dostupna izvan mreže</string>
     <string name="message_drive_scope_blocked">Pristup datoteci %1$s s Google diska nije moguć. Obratite se za pomoć administratoru za G Suite.</string>
@@ -1285,7 +1271,7 @@ Kliknite + za izradu nove proračunske tablice."</string>
     <string name="prioritydocs_promo_negative">NE, HVALA</string>
     <string name="prioritydocs_promo_positive">INSTALIRAJ</string>
     <string name="promo_no_thanks_button">NE, HVALA</string>
-    <string name="promo_snackbar_googledocs">Izrada i uređivanje proračunskih tablica s drugima izravno s telefona.</string>
+    <string name="promo_snackbar_googledocs_device">Izrada i uređivanje proračunskih tablica s drugima izravno s vašeg uređaja.</string>
     <string name="promo_snackbar_got_it">Shvaćam</string>
     <string name="promo_snackbar_heading">Dobro došli u Google tablice</string>
     <string name="promo_snackbar_learn_more">Saznajte više</string>
@@ -1319,6 +1305,7 @@ Upozorenje: radnju ne možete poništiti."</string>
     <string name="quota_range_small">Manje od 1 MB</string>
     <string name="quota_range_undefined">Upotrebljava se pohrana bez kvote</string>
     <string name="quota_zero">ništa</string>
+    <string name="ratings_card_body">Ocijenite aplikaciju u Trgovini Play ili nam pošaljite povratne informacije.</string>
     <string name="ratings_card_feedback">Pošalji povratne informacije</string>
     <string name="ratings_card_header">Uživate li u Tablicama?</string>
     <string name="ratings_card_rate">Ocijeni aplikaciju</string>
@@ -1540,6 +1527,7 @@ Upozorenje: radnju ne možete poništiti."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Nije moguće izraditi grupu za Redak 1 kada je gumb +/- pri vrhu. Pomaknite gumb +/- na dno i pokušajte ponovno.</string>
     <string name="ritz_categories_heading">Kategorije</string>
     <string name="ritz_cell_character_limit_exceeded">Vaš unos premašuje najveći dopušteni broj znakova u jednoj ćeliji (%1$s).</string>
+    <string name="ritz_cell_does_not_contain_image">U odabranoj ćeliji nema slike.</string>
     <string name="ritz_cell_editor_hint">Unesite tekst ili formulu</string>
     <string name="ritz_cell_formatting_button_label">Oblikovanje ćelija</string>
     <string name="ritz_cell_limit_exceeded">Ovom bi radnjom broj ćelija u radnom listu premašio najveći dopušteni broj ćelija (%1$s).</string>
@@ -1792,6 +1780,8 @@ Upozorenje: radnju ne možete poništiti."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Unesite važeću e-adresu</string>
     <string name="ritz_conditional_option_text_is_url">Je važeći URL</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Unesite važeći URL</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Lebdi iznad rešetke</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Slika u ćeliji %1$s pretvorena je u sliku iznad rešetke.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Pokazivač je postavljen iza znaka jednakosti</string>
     <string name="ritz_custom_angle_description">Zakrenuto za %1$s stup.</string>
     <string name="ritz_custom_delimiter_name">prilagođeni graničnik</string>

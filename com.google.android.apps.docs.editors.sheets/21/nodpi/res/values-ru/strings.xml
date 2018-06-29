@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ</string>
     <string name="announce_abuse_undo">Отчет о нарушении не отправлен</string>
     <string name="announce_account_using">Используется аккаунт %1$s.</string>
-    <string name="announce_action_undone">Действие отменено.</string>
     <string name="announce_collection_removed">Папка удалена.</string>
     <string name="announce_document_removed">Файл удален.</string>
     <string name="announce_invalid_filename">Недопустимое название. Введите другое.</string>
@@ -901,13 +900,9 @@
     <string name="management_data_loading_failed">Не удалось загрузить страницу</string>
     <string name="menu_backup">Резервные копии</string>
     <string name="menu_copy_link">Копировать ссылку</string>
-    <string name="menu_create_shortcut">На главный экран</string>
-    <string name="menu_delete">Удалить</string>
     <string name="menu_detail">Свойства</string>
     <string name="menu_doc_view_grid_mode">Сетка</string>
     <string name="menu_doc_view_list_mode">Список</string>
-    <string name="menu_download">Скачать</string>
-    <string name="menu_dump_database">Отзыв – сброс локальной версии</string>
     <string name="menu_edit">Редактировать</string>
     <string name="menu_empty_trash_too_many_items">Не удалось полностью очистить корзину. Слишком много объектов.</string>
     <string name="menu_filter_by">Фильтр</string>
@@ -918,19 +913,13 @@
     <string name="menu_keep_on_device">Офлайн-доступ</string>
     <string name="menu_link_share">Доступ по ссылке</string>
     <string name="menu_more_options">Другие параметры</string>
-    <string name="menu_move_to">Переместить</string>
     <string name="menu_my_drive">Мой диск</string>
     <string name="menu_navigation_devices">Компьютеры</string>
     <string name="menu_notifications">Уведомления</string>
-    <string name="menu_offline">Офлайн-доступ</string>
-    <string name="menu_open_with">Открыть с помощью</string>
-    <string name="menu_print">Печать</string>
     <string name="menu_refresh">Обновить</string>
-    <string name="menu_rename">Переименовать</string>
     <string name="menu_save_to_drive">Сохранить на Диск</string>
     <string name="menu_search">Поиск</string>
     <string name="menu_selection_clear">Отменить выбор</string>
-    <string name="menu_send">Отправить файл</string>
     <string name="menu_send_link">Отправить ссылку</string>
     <string name="menu_settings">Настройки</string>
     <string name="menu_share_print">Печать</string>
@@ -962,9 +951,6 @@
     <string name="menu_sort_recently_opened">По дате моего просмотра</string>
     <string name="menu_sort_title">По названию</string>
     <string name="menu_title_button_describer">%1$s. %2$s. кнопка Переименовать</string>
-    <string name="menu_trash_delete_forever">Удалить</string>
-    <string name="menu_trash_restore">Восстановить</string>
-    <string name="menu_unpin">Удалить из памяти</string>
     <string name="menu_will_be_kept_offline">Скачивание файла…</string>
     <string name="menu_will_no_longer_be_kept_offline">Таблица больше не доступна офлайн</string>
     <string name="message_drive_scope_blocked">Невозможно открыть объекты с Google Диска (%1$s). Обратитесь к своему администратору G Suite.</string>
@@ -1297,7 +1283,7 @@
     <string name="prioritydocs_promo_negative">НЕТ, СПАСИБО</string>
     <string name="prioritydocs_promo_positive">УСТАНОВИТЬ</string>
     <string name="promo_no_thanks_button">НЕТ, СПАСИБО</string>
-    <string name="promo_snackbar_googledocs">Создавайте таблицы и редактируйте их вместе с другими пользователями прямо с телефона.</string>
+    <string name="promo_snackbar_googledocs_device">Создавайте таблицы и редактируйте их вместе с другими пользователями прямо со своего устройства Android.</string>
     <string name="promo_snackbar_got_it">Закрыть</string>
     <string name="promo_snackbar_heading">Добро пожаловать в Google Таблицы</string>
     <string name="promo_snackbar_learn_more">Подробнее...</string>
@@ -1331,6 +1317,7 @@
     <string name="quota_range_small">До 1 МБ</string>
     <string name="quota_range_undefined">Не занимают пространства</string>
     <string name="quota_zero">нет</string>
+    <string name="ratings_card_body">Оцените приложение в Play Маркете или оставьте отзыв.</string>
     <string name="ratings_card_feedback">Отправить отзыв</string>
     <string name="ratings_card_header">Вам нравится приложение \"Google Таблицы\"?</string>
     <string name="ratings_card_rate">Оценить</string>
@@ -1552,6 +1539,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">Нельзя создать группу для строки 1, когда кнопка \"Развернуть/свернуть\" расположена сверху. Переместите кнопку вниз и повторите попытку.</string>
     <string name="ritz_categories_heading">Категории</string>
     <string name="ritz_cell_character_limit_exceeded">Введенный текст содержит слишком много символов. Максимальное количество символов в одной ячейке – %1$s.</string>
+    <string name="ritz_cell_does_not_contain_image">В выбранной ячейке нет изображения.</string>
     <string name="ritz_cell_editor_hint">Введите текст или формулу</string>
     <string name="ritz_cell_formatting_button_label">Форматирование ячеек</string>
     <string name="ritz_cell_limit_exceeded">В результате этого действия количество ячеек в книге превысит максимально допустимое (%1$s).</string>
@@ -1804,6 +1792,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">Введите действительный адрес электронной почты</string>
     <string name="ritz_conditional_option_text_is_url">Допустимый URL</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Введите действительный URL</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Поместить изображение поверх сетки</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Изображение в ячейке %1$s преобразовано в изображение поверх сетки.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Курсор установлен после знака равенства</string>
     <string name="ritz_custom_angle_description">Поворот на несколько градусов (%1$s)</string>
     <string name="ritz_custom_delimiter_name">пользовательский разделитель</string>

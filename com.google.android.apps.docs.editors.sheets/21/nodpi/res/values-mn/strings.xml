@@ -106,7 +106,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Зохисгүй үйлдлийн мэдээллийг илгээгээгүй</string>
     <string name="announce_account_using">Ашиглаж буй бүртгэл: %1$s.</string>
-    <string name="announce_action_undone">Үйлдлийг буцаасан.</string>
     <string name="announce_collection_removed">Фолдерыг хассан.</string>
     <string name="announce_document_removed">Файлыг хассан.</string>
     <string name="announce_invalid_filename">Буруу нэр. Өөр нэр оруулна уу.</string>
@@ -866,13 +865,9 @@
     <string name="management_data_loading_failed">Энэ хуудсыг ачаалах боломжгүй</string>
     <string name="menu_backup">Нөөцлөлт</string>
     <string name="menu_copy_link">Холбоосыг хуулах</string>
-    <string name="menu_create_shortcut">Нүүр дэлгэцэнд нэмэх</string>
-    <string name="menu_delete">Хасах</string>
     <string name="menu_detail">Дэлгэрэнгүй</string>
     <string name="menu_doc_view_grid_mode">Эгнээгээр харах</string>
     <string name="menu_doc_view_list_mode">Жагсаалтаар харах</string>
-    <string name="menu_download">Татаж авах</string>
-    <string name="menu_dump_database">Санал хүсэлт - Локал хувилбарыг гаргах</string>
     <string name="menu_edit">Засах</string>
     <string name="menu_empty_trash_too_many_items">Зарим зүйлийг устгах боломжгүй, Хогийн саванд хэт олон зүйл байна.</string>
     <string name="menu_filter_by">Шүүлтүүр</string>
@@ -883,19 +878,13 @@
     <string name="menu_keep_on_device">Офлайнаар ашиглах боломжтой</string>
     <string name="menu_link_share">Холбоос хуваалцах</string>
     <string name="menu_more_options">Нэмэлт сонголтууд</string>
-    <string name="menu_move_to">Зөөх</string>
     <string name="menu_my_drive">Миний Драйв</string>
     <string name="menu_navigation_devices">Компьютер</string>
     <string name="menu_notifications">Мэдэгдэл</string>
-    <string name="menu_offline">Офлайнаар ашиглах боломжтой</string>
-    <string name="menu_open_with">Дараахаар нээх</string>
-    <string name="menu_print">Хэвлэх</string>
     <string name="menu_refresh">Дахин шинэчлэх</string>
-    <string name="menu_rename">Нэр солих</string>
     <string name="menu_save_to_drive">Драйвд хадгалах</string>
     <string name="menu_search">Хайлт</string>
     <string name="menu_selection_clear">Сонголтуудыг болих</string>
-    <string name="menu_send">Файлыг илгээх</string>
     <string name="menu_send_link">Холбоос хуваалцах</string>
     <string name="menu_settings">Тохиргоо</string>
     <string name="menu_share_print">Хэвлэх</string>
@@ -927,9 +916,6 @@
     <string name="menu_sort_recently_opened">Миний сүүлд нээсэн</string>
     <string name="menu_sort_title">Нэр</string>
     <string name="menu_title_button_describer">%1$s. %2$s. нэр өөрчлөх товчлуур</string>
-    <string name="menu_trash_delete_forever">Устгах</string>
-    <string name="menu_trash_restore">Сэргээх</string>
-    <string name="menu_unpin">Төхөөрөмжөөс хасах</string>
     <string name="menu_will_be_kept_offline">Офлайнаар ашиглах боломжтой болгож байна...</string>
     <string name="menu_will_no_longer_be_kept_offline">Хүснэгтийг офлайнаар ашиглах боломжгүй болсон</string>
     <string name="message_drive_scope_blocked">Google Драйваас %1$s-д хандах боломжгүй. Өөрийн G Suite админтай холбогдож тусламж авна уу.</string>
@@ -1260,7 +1246,7 @@
     <string name="prioritydocs_promo_negative">ҮГҮЙ, БАЯРЛАЛАА</string>
     <string name="prioritydocs_promo_positive">СУУЛГАХ</string>
     <string name="promo_no_thanks_button">ҮГҮЙ, БАЯРЛАЛАА</string>
-    <string name="promo_snackbar_googledocs">Утаснаасаа бусадтай хамтран хүснэгт шууд үүсгэх, засах боломжтой.</string>
+    <string name="promo_snackbar_googledocs_device">Төхөөрөмжөөсөө хүснэгтийг бусадтай шууд үүсгэх болон засварлана уу.</string>
     <string name="promo_snackbar_got_it">Ойлголоо</string>
     <string name="promo_snackbar_heading">Google Шийтэд тавтай морилно уу</string>
     <string name="promo_snackbar_learn_more">Дэлгэрэнгүй үзэх</string>
@@ -1294,6 +1280,7 @@
     <string name="quota_range_small">1 МБ-с бага</string>
     <string name="quota_range_undefined">Ашигласан сангийн хэмжээ тэг</string>
     <string name="quota_zero">хоосон</string>
+    <string name="ratings_card_body">Энэ аппыг Play Store дээр үнэлэх буюу эсвэл бидэнд санал хүсэлтээ илгээнэ үү.</string>
     <string name="ratings_card_feedback">Санал хүсэлт илгээх</string>
     <string name="ratings_card_header">Хүснэгт таалагдаж байна уу?</string>
     <string name="ratings_card_rate">Аппыг үнэлэх</string>
@@ -1515,6 +1502,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">Дээр нь +/- товч байгаа үед 1-р мөр дээр групп үүсгэх боломжгүй. +/- товчийг доош зөөгөөд дахин оролдоно уу.</string>
     <string name="ritz_categories_heading">Ангилал</string>
     <string name="ritz_cell_character_limit_exceeded">Таны оруулсан утга нэг нүдэнд зөвшөөрөгдсөн %1$s тэмдэгтийн уртаас хэтэрсэн байна.</string>
+    <string name="ritz_cell_does_not_contain_image">Сонгосон нүдэнд зураг алга.</string>
     <string name="ritz_cell_editor_hint">Текст буюу томъёо оруулна уу</string>
     <string name="ritz_cell_formatting_button_label">Хүснэгтийг форматад оруулж байна</string>
     <string name="ritz_cell_limit_exceeded">Энэ үйлдлийг хийснээр хүснэгт доторх нүдний тооны зөвшөөрөгдөх дээд хэмжээ %1$s-с хэтрэх болно.</string>
@@ -1767,6 +1755,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">Зөв имэйл оруулна уу</string>
     <string name="ritz_conditional_option_text_is_url">Зөв url байна</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Зөв URL оруулна уу</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Хүснэгтээс хэтрэх</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">%1$s-н зургийг хүрээнээс гадуурх зурганд хувиргасан.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Курсор тэнцүүгийн тэмдгийн ард байрласан</string>
     <string name="ritz_custom_angle_description">%1$s хэм эргүүлсэн</string>
     <string name="ritz_custom_delimiter_name">тусгай зааглагч</string>

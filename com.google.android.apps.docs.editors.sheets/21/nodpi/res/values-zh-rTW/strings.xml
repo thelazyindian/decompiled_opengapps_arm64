@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">未提交濫用回報</string>
     <string name="announce_account_using">目前使用的帳戶：%1$s。</string>
-    <string name="announce_action_undone">已復原動作。</string>
     <string name="announce_collection_removed">已移除資料夾。</string>
     <string name="announce_document_removed">已移除檔案。</string>
     <string name="announce_invalid_filename">名稱無效，請輸入其他名稱。</string>
@@ -901,13 +900,9 @@
     <string name="management_data_loading_failed">無法載入這個頁面</string>
     <string name="menu_backup">備份</string>
     <string name="menu_copy_link">複製連結</string>
-    <string name="menu_create_shortcut">新增至主畫面</string>
-    <string name="menu_delete">移除</string>
     <string name="menu_detail">詳細資料</string>
     <string name="menu_doc_view_grid_mode">以格狀顯示</string>
     <string name="menu_doc_view_list_mode">以清單顯示</string>
-    <string name="menu_download">下載</string>
-    <string name="menu_dump_database">意見回饋 - 傾印本機版本</string>
     <string name="menu_edit">編輯</string>
     <string name="menu_empty_trash_too_many_items">垃圾桶中有太多檔案，無法完全清空。</string>
     <string name="menu_filter_by">篩選條件</string>
@@ -918,19 +913,13 @@
     <string name="menu_keep_on_device">可離線存取</string>
     <string name="menu_link_share">連結共用設定</string>
     <string name="menu_more_options">更多選項</string>
-    <string name="menu_move_to">移動</string>
     <string name="menu_my_drive">我的雲端硬碟</string>
     <string name="menu_navigation_devices">電腦</string>
     <string name="menu_notifications">通知</string>
-    <string name="menu_offline">可離線存取</string>
-    <string name="menu_open_with">選擇開啟工具</string>
-    <string name="menu_print">列印</string>
     <string name="menu_refresh">重新整理</string>
-    <string name="menu_rename">重新命名</string>
     <string name="menu_save_to_drive">儲存至雲端硬碟</string>
     <string name="menu_search">搜尋</string>
     <string name="menu_selection_clear">清除選取的項目</string>
-    <string name="menu_send">傳送檔案</string>
     <string name="menu_send_link">共用連結</string>
     <string name="menu_settings">設定</string>
     <string name="menu_share_print">列印</string>
@@ -962,9 +951,6 @@
     <string name="menu_sort_recently_opened">我上次開啟的時間</string>
     <string name="menu_sort_title">名稱</string>
     <string name="menu_title_button_describer">%1$s。%2$s。重新命名按鈕</string>
-    <string name="menu_trash_delete_forever">刪除</string>
-    <string name="menu_trash_restore">還原</string>
-    <string name="menu_unpin">從裝置中移除</string>
     <string name="menu_will_be_kept_offline">正在設為可離線存取…</string>
     <string name="menu_will_no_longer_be_kept_offline">日後將無法再離線存取試算表</string>
     <string name="message_drive_scope_blocked">無法從 Google 雲端硬碟存取 %1$s。請向你的 G Suite 管理員尋求協助。</string>
@@ -1297,7 +1283,7 @@
     <string name="prioritydocs_promo_negative">不用了，謝謝</string>
     <string name="prioritydocs_promo_positive">安裝</string>
     <string name="promo_no_thanks_button">不用了，謝謝</string>
-    <string name="promo_snackbar_googledocs">直接透過手機建立試算表，並與他人一同編輯。</string>
+    <string name="promo_snackbar_googledocs_device">直接透過裝置建立試算表，並與他人一同編輯。</string>
     <string name="promo_snackbar_got_it">我瞭解了</string>
     <string name="promo_snackbar_heading">歡迎使用 Google 試算表</string>
     <string name="promo_snackbar_learn_more">瞭解詳情</string>
@@ -1331,6 +1317,7 @@
     <string name="quota_range_small">1 MB 以下</string>
     <string name="quota_range_undefined">尚未使用儲存空間</string>
     <string name="quota_zero">無</string>
+    <string name="ratings_card_body">前往 Play 商店為這個應用程式評分，或是提供你的寶貴意見。</string>
     <string name="ratings_card_feedback">提供意見</string>
     <string name="ratings_card_header">覺得 Google 試算表好用嗎？</string>
     <string name="ratings_card_rate">為應用程式評分</string>
@@ -1552,6 +1539,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">[+/-] 按鈕在頂端時無法為第 1 列建立群組。請將 [+/-] 按鈕移到底部，然後再試一次。</string>
     <string name="ritz_categories_heading">類別</string>
     <string name="ritz_cell_character_limit_exceeded">您輸入的內容已超過每個儲存格 %1$s 字元的上限。</string>
+    <string name="ritz_cell_does_not_contain_image">所選儲存格中沒有圖片。</string>
     <string name="ritz_cell_editor_hint">輸入文字或公式</string>
     <string name="ritz_cell_formatting_button_label">設定儲存格格式</string>
     <string name="ritz_cell_limit_exceeded">如果您執行這項操作，這個工作簿的儲存格數量將會超過系統上限 (%1$s 個)。</string>
@@ -1804,6 +1792,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">請輸入有效的電子郵件</string>
     <string name="ritz_conditional_option_text_is_url">是有效的網址</string>
     <string name="ritz_conditional_option_text_is_url_instruction">請輸入有效的網址</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">浮在格線上方</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">%1$s 中的圖片已轉換成格線上方圖片。</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">游標位於等號後面</string>
     <string name="ritz_custom_angle_description">旋轉 %1$s 度</string>
     <string name="ritz_custom_delimiter_name">自訂分隔符號</string>

@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPQRSŠTUŪVWXZŽ</string>
     <string name="announce_abuse_undo">Ziņojums par ļaunprātīgu izmantošanu nav iesniegts</string>
     <string name="announce_account_using">Tiek izmantots šis konts: %1$s.</string>
-    <string name="announce_action_undone">Darbība ir atsaukta.</string>
     <string name="announce_collection_removed">Mape ir noņemta.</string>
     <string name="announce_document_removed">Fails ir noņemts.</string>
     <string name="announce_invalid_filename">Nederīgs nosaukums. Lūdzu, ievadiet citu nosaukumu.</string>
@@ -889,13 +888,9 @@ Noklikšķiniet uz +, lai izveidotu jaunu izklājlapu."</string>
     <string name="management_data_loading_failed">Šo lapu nevar ielādēt</string>
     <string name="menu_backup">Dublējumi</string>
     <string name="menu_copy_link">Kopēt saiti</string>
-    <string name="menu_create_shortcut">Pievienot sākuma ekrānam</string>
-    <string name="menu_delete">Noņemt</string>
     <string name="menu_detail">Detalizēta informācija</string>
     <string name="menu_doc_view_grid_mode">Skatīt kā režģi</string>
     <string name="menu_doc_view_list_mode">Skatīt kā sarakstu</string>
-    <string name="menu_download">Lejupielādēt</string>
-    <string name="menu_dump_database">Atsauksmes — izrakstīt vietējo versiju</string>
     <string name="menu_edit">Rediģēt</string>
     <string name="menu_empty_trash_too_many_items">Dažus vienumus nevarēja izņemt. Atkritnē ir pārāk daudz vienumu.</string>
     <string name="menu_filter_by">Filtrēt pēc</string>
@@ -906,19 +901,13 @@ Noklikšķiniet uz +, lai izveidotu jaunu izklājlapu."</string>
     <string name="menu_keep_on_device">Pieejams bezsaistē</string>
     <string name="menu_link_share">Saites kopīgošana</string>
     <string name="menu_more_options">Citas opcijas</string>
-    <string name="menu_move_to">Pārvietot</string>
     <string name="menu_my_drive">Mans disks</string>
     <string name="menu_navigation_devices">Datori</string>
     <string name="menu_notifications">Paziņojumi</string>
-    <string name="menu_offline">Pieejams bezsaistē</string>
-    <string name="menu_open_with">Atvērt lietotnē</string>
-    <string name="menu_print">Drukāt</string>
     <string name="menu_refresh">Atsvaidzināt</string>
-    <string name="menu_rename">Pārdēvēt</string>
     <string name="menu_save_to_drive">Saglabāt Diskā</string>
     <string name="menu_search">Meklēt</string>
     <string name="menu_selection_clear">Notīrīt atlasi</string>
-    <string name="menu_send">Nosūtīt failu</string>
     <string name="menu_send_link">Kopīgot saiti</string>
     <string name="menu_settings">Iestatījumi</string>
     <string name="menu_share_print">Drukāt</string>
@@ -950,9 +939,6 @@ Noklikšķiniet uz +, lai izveidotu jaunu izklājlapu."</string>
     <string name="menu_sort_recently_opened">Pēdējoreiz atvēru</string>
     <string name="menu_sort_title">Nosaukums</string>
     <string name="menu_title_button_describer">%1$s. %2$s. Pārdēvēšanas poga</string>
-    <string name="menu_trash_delete_forever">Dzēst</string>
-    <string name="menu_trash_restore">Atjaunot</string>
-    <string name="menu_unpin">Noņemt no ierīces</string>
     <string name="menu_will_be_kept_offline">Notiek faila iestatīšana darbam bezsaistē...</string>
     <string name="menu_will_no_longer_be_kept_offline">Izklājlapa vairs nebūs pieejama bezsaistē</string>
     <string name="message_drive_scope_blocked">Nevar piekļūt failam %1$s no Google diska. Lūdziet palīdzību savam G Suite administratoram.</string>
@@ -1285,7 +1271,7 @@ Noklikšķiniet uz +, lai izveidotu jaunu izklājlapu."</string>
     <string name="prioritydocs_promo_negative">NĒ, PALDIES</string>
     <string name="prioritydocs_promo_positive">INSTALĒT</string>
     <string name="promo_no_thanks_button">NĒ, PALDIES</string>
-    <string name="promo_snackbar_googledocs">Izveidojiet izklājlapas un rediģējiet tās kopā ar citiem lietotājiem tieši savā tālrunī.</string>
+    <string name="promo_snackbar_googledocs_device">Izveidojiet izklājlapas un rediģējiet tās kopā ar citiem lietotājiem tieši savā ierīcē.</string>
     <string name="promo_snackbar_got_it">Labi</string>
     <string name="promo_snackbar_heading">Laipni lūdzam Google izklājlapās!</string>
     <string name="promo_snackbar_learn_more">Uzzināt vairāk</string>
@@ -1319,6 +1305,7 @@ Brīdinājums: šo darbību nevar atsaukt."</string>
     <string name="quota_range_small">Mazāk par 1 MB</string>
     <string name="quota_range_undefined">Krātuves vieta nav izmantota</string>
     <string name="quota_zero">nav</string>
+    <string name="ratings_card_body">Novērtējiet šo lietotni veikalā Play Store vai nosūtiet mums savas atsauksmes.</string>
     <string name="ratings_card_feedback">Sūtīt atsauksmes</string>
     <string name="ratings_card_header">Vai jums patīk pakalpojums Izklājlapas?</string>
     <string name="ratings_card_rate">Novērtēt lietotni</string>
@@ -1540,6 +1527,7 @@ Brīdinājums: šo darbību nevar atsaukt."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Nevar izveidot grupu 1. rindai, ja poga +/- atrodas augšā. Lūdzu, pārvietojiet pogu +/- uz apakšu un mēģiniet vēlreiz.</string>
     <string name="ritz_categories_heading">Kategorijas</string>
     <string name="ritz_cell_character_limit_exceeded">Jūsu ievadītā virkne pārsniedz vienā šūnā atļauto rakstzīmju skaita maksimālo ierobežojumu (%1$s).</string>
+    <string name="ritz_cell_does_not_contain_image">Atlasītajā šūnā nav attēla.</string>
     <string name="ritz_cell_editor_hint">Ievadiet tekstu vai formulu</string>
     <string name="ritz_cell_formatting_button_label">Šūnu formatēšana</string>
     <string name="ritz_cell_limit_exceeded">Ja veiksiet šo darbību, palielināsies darblapā esošo šūnu skaits, pārsniedzot šūnu maksimālo ierobežojumu (%1$s).</string>
@@ -1792,6 +1780,8 @@ Brīdinājums: šo darbību nevar atsaukt."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Ievadiet derīgu e-pasta adresi</string>
     <string name="ritz_conditional_option_text_is_url">Ir derīgs vietrādis URL</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Ievadiet derīgu URL</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Peldināt virs režģa</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Attēls šūnā %1$s ir pārveidots par attēlu virs režģa.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Kursors atrodas aiz vienādības zīmes</string>
     <string name="ritz_custom_angle_description">Pagriezts par %1$s grādiem</string>
     <string name="ritz_custom_delimiter_name">pielāgots atdalītājs</string>

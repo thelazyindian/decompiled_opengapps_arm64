@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">O relatório de abuso não foi enviado</string>
     <string name="announce_account_using">A utilizar a conta: %1$s.</string>
-    <string name="announce_action_undone">Ação anulada.</string>
     <string name="announce_collection_removed">A pasta foi removida.</string>
     <string name="announce_document_removed">O ficheiro foi removido.</string>
     <string name="announce_invalid_filename">O nome é inválido. Introduza um nome diferente.</string>
@@ -889,13 +888,9 @@ Clique em + para criar uma folha de cálculo nova."</string>
     <string name="management_data_loading_failed">Não é possível carregar esta página.</string>
     <string name="menu_backup">Cópias de segurança</string>
     <string name="menu_copy_link">Copiar link</string>
-    <string name="menu_create_shortcut">Adic. ecrã princi.</string>
-    <string name="menu_delete">Remover</string>
     <string name="menu_detail">Detalhes</string>
     <string name="menu_doc_view_grid_mode">Ver como grelha</string>
     <string name="menu_doc_view_list_mode">Ver como lista</string>
-    <string name="menu_download">Transferir</string>
-    <string name="menu_dump_database">Comentários – Descarregar versão local</string>
     <string name="menu_edit">Editar</string>
     <string name="menu_empty_trash_too_many_items">Não foi possível esvaziar alguns itens, existem demasiados itens no lixo.</string>
     <string name="menu_filter_by">Filtrar por</string>
@@ -906,19 +901,13 @@ Clique em + para criar uma folha de cálculo nova."</string>
     <string name="menu_keep_on_device">Disponível offline</string>
     <string name="menu_link_share">Partilha de links</string>
     <string name="menu_more_options">Mais opções</string>
-    <string name="menu_move_to">Mover</string>
     <string name="menu_my_drive">O meu disco</string>
     <string name="menu_navigation_devices">Computadores</string>
     <string name="menu_notifications">Notificações</string>
-    <string name="menu_offline">Disponível offline</string>
-    <string name="menu_open_with">Abrir com</string>
-    <string name="menu_print">Imprimir</string>
     <string name="menu_refresh">Atualizar</string>
-    <string name="menu_rename">Mudar nome</string>
     <string name="menu_save_to_drive">Guardar no Drive</string>
     <string name="menu_search">Pesquisar</string>
     <string name="menu_selection_clear">Limpar seleção</string>
-    <string name="menu_send">Enviar ficheiro</string>
     <string name="menu_send_link">Partilhar link</string>
     <string name="menu_settings">Definições</string>
     <string name="menu_share_print">Imprimir</string>
@@ -950,9 +939,6 @@ Clique em + para criar uma folha de cálculo nova."</string>
     <string name="menu_sort_recently_opened">Abertos pela última vez p/ mim</string>
     <string name="menu_sort_title">Nome</string>
     <string name="menu_title_button_describer">%1$s. %2$s. Botão Mudar o nome</string>
-    <string name="menu_trash_delete_forever">Eliminar</string>
-    <string name="menu_trash_restore">Restaurar</string>
-    <string name="menu_unpin">Remover do disp.</string>
     <string name="menu_will_be_kept_offline">A disponibilizar offline...</string>
     <string name="menu_will_no_longer_be_kept_offline">A folha de cálculo deixará de estar disponível offline</string>
     <string name="message_drive_scope_blocked">Não é possível aceder a %1$s a partir do Google Drive. Contacte o gestor do seu G Suite.</string>
@@ -1285,7 +1271,7 @@ Clique em + para criar uma folha de cálculo nova."</string>
     <string name="prioritydocs_promo_negative">NÃO, OBRIGADO</string>
     <string name="prioritydocs_promo_positive">INSTALAR</string>
     <string name="promo_no_thanks_button">NÃO, OBRIGADO</string>
-    <string name="promo_snackbar_googledocs">Crie e edite folhas de cálculo com outras pessoas a partir do seu telemóvel.</string>
+    <string name="promo_snackbar_googledocs_device">Crie e edite folhas de cálculo com outras pessoas a partir do seu dispositivo.</string>
     <string name="promo_snackbar_got_it">Compreendi</string>
     <string name="promo_snackbar_heading">Bem-vindo ao Folhas de cálculo do Google</string>
     <string name="promo_snackbar_learn_more">Saiba mais</string>
@@ -1319,6 +1305,7 @@ Aviso: não é possível anular esta ação."</string>
     <string name="quota_range_small">Inferior a 1 MB</string>
     <string name="quota_range_undefined">Não utilizam quotas de armazenamento</string>
     <string name="quota_zero">nenhum</string>
+    <string name="ratings_card_body">Classifique esta aplicação na Play Store ou envie-nos os seus comentários.</string>
     <string name="ratings_card_feedback">Enviar comentário</string>
     <string name="ratings_card_header">Está satisfeito com o Folhas de cálculo?</string>
     <string name="ratings_card_rate">Classificar aplicação</string>
@@ -1540,6 +1527,7 @@ Aviso: não é possível anular esta ação."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Não é possível criar um grupo para a linha 1 quando o botão +/- está na parte superior. Mova o botão +/- para a parte inferior e tente novamente.</string>
     <string name="ritz_categories_heading">Categorias</string>
     <string name="ritz_cell_character_limit_exceeded">A sua entrada passou o limite máximo de %1$s caracteres por célula.</string>
+    <string name="ritz_cell_does_not_contain_image">Não existe uma imagem na célula selecionada.</string>
     <string name="ritz_cell_editor_hint">Introduzir o texto ou a fórmula</string>
     <string name="ritz_cell_formatting_button_label">Formatação de células</string>
     <string name="ritz_cell_limit_exceeded">Esta ação aumentaria o número de células no livro, ultrapassando o limite de %1$s células.</string>
@@ -1792,6 +1780,8 @@ Aviso: não é possível anular esta ação."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Introduza um email válido</string>
     <string name="ritz_conditional_option_text_is_url">É um URL válido</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Introduza um URL válido</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Colocar acima da grelha</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Imagem na célula %1$s convertida numa imagem acima da grelha.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">O cursor está posicionado após o sinal de igual</string>
     <string name="ritz_custom_angle_description">Rodada %1$s graus</string>
     <string name="ritz_custom_delimiter_name">delimitador personalizado</string>

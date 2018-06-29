@@ -44,7 +44,7 @@
     <string name="accessibility_showing_share_menu">শেয়ার করার মেনু</string>
     <string name="account_not_logged_in">এই শর্টকাটের অ্যাকাউন্ট এই ডিভাইসে প্রবেশ করা অবস্থায় নেই। হয় ফিরে গিয়ে %1$s -এ প্রবেশ করুন বা আবার \"নতুন দস্তাবেজ\" উইজেট যোগ করুন।</string>
     <string name="acl_changed_ketchup_text">আপনার অনুমতিগুলি পরিবর্তন করা হয়েছে৷ অনুগ্রহ করে পুনরায় লোড করুন৷</string>
-    <string name="acl_changed_with_pending_changes_ketchup_text">আপনার এই দস্তাবেজটিতে অ্যাক্সেস করার আর অনুমতি নেই, তাই আপনার পরিবর্তনগুলিকে সংরক্ষণ করা যাবে না৷ আপনি যদি এটিকে ত্রুটি হিসেবে বিশ্বাস করেন তবে দস্তাবেজের মালিকের সাথে যোগাযোগ করুন৷ আপনার অ্যাক্সেসটিকে পুনরুদ্ধার করা হলে আপনি কাজ চালিয়ে যেতে পারবেন৷ অন্যথায় সমস্ত সাম্প্র তিক পরিবর্তনগুলি প্রতিলিপি করুন, তারপর আগের সংস্করণে ফিরিয়ে নিয়ে যান।</string>
+    <string name="acl_changed_with_pending_changes_ketchup_text">আপনার এই দস্তাবেজটিতে অ্যাক্সেস করার আর অনুমতি নেই, তাই আপনার পরিবর্তনগুলিকে সংরক্ষণ করা যাবে না৷ আপনি যদি এটিকে ত্রুটি হিসেবে বিশ্বাস করেন তবে দস্তাবেজের মালিকের সাথে যোগাযোগ করুন৷ আপনার অ্যাক্সেসটিকে পুনরুদ্ধার করা হলে আপনি কাজ চালিয়ে যেতে পারবেন৷ অন্যথায় সমস্ত সাম্প্র তিক পরিবর্তনগুলি কপি করুন, তারপর আগের সংস্করণে ফিরিয়ে নিয়ে যান।</string>
     <string name="acl_dismiss_button_content_desc">খারিজ করুন</string>
     <string name="acl_fix_option_domain_visibility_details">Anyone in %1$s who receives it can access it and share it with others.</string>
     <string name="acl_fix_option_domain_visibility_label">%1$s (login required)</string>
@@ -96,8 +96,8 @@
     <string name="add_collaborators_acl_list_title">যার অ্যাক্সেস রয়েছে</string>
     <string name="add_collaborators_send_button_content_desc">শেয়ার করা নিশ্চিত করুন এবং সহযোগীদের পাঠান</string>
     <string name="add_collaborators_textbox_title">লোকজন</string>
-    <string name="add_confirm_dialog_message_share_files_and_folders">Adding these files and folders will share them with everyone who can access the shared folder %1$s</string>
-    <string name="add_confirm_dialog_title_share_files_and_folders">Share these files and folders?</string>
+    <string name="add_confirm_dialog_message_share_files_and_folders">এই ফাইল এবং ফোল্ডারগুলি সরানো হলে শেয়ার করা ফোল্ডার %1$s যারা অ্যাক্সেস করতে পারেন তাদের সবার সাথে শেয়ার করে হবে।</string>
+    <string name="add_confirm_dialog_title_share_files_and_folders">এই ফাইল এবং ফোল্ডারগুলি শেয়ার করবেন?</string>
     <string name="add_members_acl_list_title">%1$s এর সদস্য</string>
     <string name="add_members_dialog_title">নতুন সদস্যদের যোগ করুন</string>
     <string name="add_members_send_button_content_desc">সদস্যদের যোগ করা নিশ্চিত করুন এবং তা সদস্যদের পাঠান</string>
@@ -106,7 +106,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">অপব্যবহারের অভিযোগ জমা দেওয়া হয়নি</string>
     <string name="announce_account_using">এই অ্যাকাউন্ট ব্যবহার করা হচ্ছে: %1$s৷</string>
-    <string name="announce_action_undone">কাজটিকে পূর্বাবস্থায় ফেরানো হয়েছে৷</string>
     <string name="announce_collection_removed">ফোল্ডার সরানো হয়েছে</string>
     <string name="announce_document_removed">ফাইল সরানো হয়েছে৷</string>
     <string name="announce_invalid_filename">অবৈধ নাম৷ অনুগ্রহ করে একটি আলাদা নাম লিখুন৷</string>
@@ -588,7 +587,7 @@
     <string name="download_message_download_manager_disabled">ডাউনলোড করতে ডাউনলোড ম্যানেজার সক্ষম করুন</string>
     <string name="download_message_download_manager_enable">সক্ষম করুন</string>
     <string name="download_message_download_manager_unavailable">ডাউনলোড করা যাচ্ছে না৷ ডাউনলোড ম্যানেজার অনুপলব্ধ</string>
-    <string name="download_message_failures">%1$d of %2$d items will be downloaded. See notification for details</string>
+    <string name="download_message_failures">%2$dটি আইটেমের মধ্যে %1$dটি ডাউনলোড করা হবে৷ বিবরণের জন্য বিজ্ঞপ্তি দেখুন</string>
     <string name="download_notification_complete_text">ডাউনলোড করা হয়েছে, %1$s</string>
     <string name="download_notification_error_already_exists">ফাইল আগে থেকেই আছে</string>
     <string name="download_notification_error_cannot_resume">ডাউনলোড আবার শুরু করা যায়নি</string>
@@ -723,7 +722,7 @@
     <string name="fab_new_document_menu_announce">নতুন স্প্রেডশীট মেনু</string>
     <string name="fab_office_document">নতুন Excel ফাইল</string>
     <string name="fast_scroll_month_and_year_grouped">%1$s %2$d</string>
-    <string name="fast_scroll_search_result_grouper">অনুসন্ধানের ফলাফল</string>
+    <string name="fast_scroll_search_result_grouper">সার্চের ফলাফল</string>
     <string name="fast_scroll_size_grouper_b">B</string>
     <string name="fast_scroll_size_grouper_empty">----</string>
     <string name="fast_scroll_size_grouper_gb">GB</string>
@@ -855,7 +854,7 @@
     <string name="make_copy_failure_dialog">%1$s এর একটি প্রতিলিপি তৈরী করতে অক্ষম হয়েছে৷</string>
     <string name="make_copy_failure_toast">প্রতিলিপি তৈরী করতে ব্যর্থ হয়েছে৷</string>
     <string name="make_copy_folder">ফোল্ডার</string>
-    <string name="make_copy_item_title">একটি প্রতিলিপি করুন</string>
+    <string name="make_copy_item_title">একটি কপি করুন</string>
     <string name="make_copy_menu_my_drive">আমার ড্রাইভ</string>
     <string name="make_copy_notification_failure_no_retry_title">প্রতিলিপি করা ব্যর্থ হয়েছে</string>
     <string name="make_copy_opening_snackbar_message">%1$s এ কপি করা হয়েছে</string>
@@ -866,13 +865,9 @@
     <string name="management_data_loading_failed">পৃষ্ঠাটি লোড করা যাচ্ছে না</string>
     <string name="menu_backup">ব্যাকআপ</string>
     <string name="menu_copy_link">লিঙ্ক কপি করুন</string>
-    <string name="menu_create_shortcut">হোম স্ক্রীনে যোগ করুন</string>
-    <string name="menu_delete">সরান</string>
     <string name="menu_detail">বিশদ বিবরণ</string>
     <string name="menu_doc_view_grid_mode">গ্রিড হিসেবে দেখুন</string>
     <string name="menu_doc_view_list_mode">তালিকা হিসেবে দেখুন</string>
-    <string name="menu_download">ডাউনলোড করুন</string>
-    <string name="menu_dump_database">প্রতিক্রিয়া - স্থানীয় সংস্করণটি খুবই বাজে</string>
     <string name="menu_edit">সম্পাদনা করুন</string>
     <string name="menu_empty_trash_too_many_items">কিছু আইটেম খালি করা যায়নি, ট্র্যাশে অনেকগুলি আইটেম রয়েছে৷</string>
     <string name="menu_filter_by">দ্বারা ফিল্টার করুন</string>
@@ -883,19 +878,13 @@
     <string name="menu_keep_on_device">অফলাইনে উপলব্ধ</string>
     <string name="menu_link_share">লিঙ্ক শেয়ার করা</string>
     <string name="menu_more_options">আরও বিকল্প</string>
-    <string name="menu_move_to">সরান</string>
     <string name="menu_my_drive">আমার ড্রাইভ</string>
     <string name="menu_navigation_devices">কম্পিউটার</string>
     <string name="menu_notifications">বিজ্ঞপ্তিগুলি</string>
-    <string name="menu_offline">অফলাইনে উপলব্ধ</string>
-    <string name="menu_open_with">এর সাথে খুলুন</string>
-    <string name="menu_print">প্রিন্ট</string>
     <string name="menu_refresh">রিফ্রেশ</string>
-    <string name="menu_rename">পুনঃনামকরণ করুন</string>
     <string name="menu_save_to_drive">ড্রাইভে সেভ করুন</string>
     <string name="menu_search">খুঁজুন</string>
     <string name="menu_selection_clear">নির্বাচন মুক্ত করুন</string>
-    <string name="menu_send">ফাইল পাঠান</string>
     <string name="menu_send_link">লিঙ্ক শেয়ার করুন</string>
     <string name="menu_settings">সেটিংস</string>
     <string name="menu_share_print">প্রিন্ট</string>
@@ -927,9 +916,6 @@
     <string name="menu_sort_recently_opened">শেষ বার আমি খুলেছি</string>
     <string name="menu_sort_title">নাম</string>
     <string name="menu_title_button_describer">%1$s. %2$s. বোতামের আবার নাম দিন</string>
-    <string name="menu_trash_delete_forever">মুছুন</string>
-    <string name="menu_trash_restore">পুনরুদ্ধার করুন</string>
-    <string name="menu_unpin">ডিভাইস থেকে সরান</string>
     <string name="menu_will_be_kept_offline">অফলাইনে উপলব্ধ করা হচ্ছে…</string>
     <string name="menu_will_no_longer_be_kept_offline">স্প্রেডশীট আর অফলাইনে উপলব্ধ হবে না</string>
     <string name="message_drive_scope_blocked">Google ড্রাইভ থেকে %1$s অ্যাক্সেস করা যাচ্ছে না। G Suite প্রশাসকের থেকে সহায়তা চাইতে পারেন।</string>
@@ -944,13 +930,13 @@
     <string name="move_confirm_dialog_message_protected_td_domain">এই টিম ড্রাইভে অতিরিক্ত নিষেধাজ্ঞা জারি করা আছে। %1$s এর বাইরের ব্যক্তিরা এগুলি আর অ্যাক্সেস করতে পারবেন না।</string>
     <string name="move_confirm_dialog_message_protected_td_domain_and_td_members">এই টিম ড্রাইভে অতিরিক্ত নিষেধাজ্ঞা জারি করা আছে। %1$s এর বাইরের ব্যক্তিরা এবং যারা এই টিম ড্রাইভের সদস্য নন তারা এগুলি আর অ্যাক্সেস করতে পারবেন না।</string>
     <string name="move_confirm_dialog_message_protected_td_team_members">এই টিম ড্রাইভে অতিরিক্ত নিষেধাজ্ঞা জারি করা আছে। যারা টিম ড্রাইভের সদস্য নন তারা এগুলি আর অ্যাক্সেস করতে পারবেন না।</string>
-    <string name="move_confirm_dialog_message_share_files_and_folders">Moving these files and folders will share them with everyone who can access the shared folder %1$s</string>
+    <string name="move_confirm_dialog_message_share_files_and_folders">এই ফাইল এবং ফোল্ডারগুলি সরানো হলে শেয়ার করা ফোল্ডার %1$s যারা অ্যাক্সেস করতে পারেন তাদের সবার সাথে শেয়ার করে হবে</string>
     <string name="move_confirm_dialog_title_between_tds">টিম ড্রাইভগুলির মধ্যে একটি থেকে অন্যটিতে সরাবেন?</string>
     <string name="move_confirm_dialog_title_cannot_undo">আপনি এই কাজটিকে পূর্বাবস্থায় ফেরাতে পারবেন না</string>
     <string name="move_confirm_dialog_title_from_td_to_my_drive">আমার ড্রাইভে সরাবেন?</string>
     <string name="move_confirm_dialog_title_into_td">টিম ড্রাইভে সরাবেন?</string>
     <string name="move_confirm_dialog_title_lose_access">কিছু লোকজন অ্যাক্সেস হারাবেন</string>
-    <string name="move_confirm_dialog_title_share_files_and_folders">Share these files and folders?</string>
+    <string name="move_confirm_dialog_title_share_files_and_folders">এই ফাইল এবং ফোল্ডারগুলি শেয়ার করবেন?</string>
     <string name="move_confirm_dialog_title_unshare">শেয়ার করা ফোল্ডার থেকে সরাবেন?</string>
     <string name="move_dialog_title">গন্তব্য বেছে নিন</string>
     <string name="move_error_cannot_move_in_folders">ফোল্ডারগুলিকে এখনও টিম ড্রাইভগুলিতে সরানো যায়নি৷</string>
@@ -1162,7 +1148,7 @@
     <string name="palette_selected_subtab_content_description">%1$s এর সাব-ট্যাব, %3$d এর %2$d, নির্বাচন করা হয়েছে</string>
     <string name="palette_selected_tab_content_description">নির্বাচিত, %1$s এর ট্যাব, %3$d এর মধ্যে %2$d</string>
     <string name="palette_shape_border">সীমানা</string>
-    <string name="palette_submenu_button_circle_color_display">Current selected color %1$s</string>
+    <string name="palette_submenu_button_circle_color_display">এখন %1$s বেছে নেওয়া হয়েছে</string>
     <string name="palette_subtab_content_description">%1$s উপ-ট্যাব, %2$d of %3$d</string>
     <string name="palette_tab_content_description">%1$s ট্যাব, %3$dটির মধ্যে %2$d নম্বর</string>
     <string name="palette_text_rotation">পাঠ্য ঘূর্ণন</string>
@@ -1261,7 +1247,7 @@
     <string name="prioritydocs_promo_negative">না থাক</string>
     <string name="prioritydocs_promo_positive">ইনস্টল করুন</string>
     <string name="promo_no_thanks_button">না থাক</string>
-    <string name="promo_snackbar_googledocs">সরাসরি আপনার ফোন থেকেই অন্যদের সঙ্গে আপনার স্প্রেডশীটগুলি তৈরি ও সম্পাদনা করুন।</string>
+    <string name="promo_snackbar_googledocs_device">আপনার ডিভাইস থেকে সরাসরি অন্যদের সাথে স্প্রেডশিটগুলি তৈরি ও এডিট করুন।</string>
     <string name="promo_snackbar_got_it">বুঝেছি</string>
     <string name="promo_snackbar_heading">Google পত্রক -এ স্বাগতম</string>
     <string name="promo_snackbar_learn_more">আরও জানুন</string>
@@ -1295,6 +1281,7 @@
     <string name="quota_range_small">১ MB এর মধ্যে</string>
     <string name="quota_range_undefined">কোনো সঞ্চয়স্থান ব্যবহৃত হয়নি</string>
     <string name="quota_zero">কোনো কিছুই নয়</string>
+    <string name="ratings_card_body">Play Store এ এই অ্যাপ্লিকেশানকে রেট দিন অথবা আমাদের আপনার প্রতিক্রিয়া পাঠান৷</string>
     <string name="ratings_card_feedback">মতামত জানান</string>
     <string name="ratings_card_header">পত্রক উপভোগ করছেন?</string>
     <string name="ratings_card_rate">অ্যাপে রেট দিন</string>
@@ -1516,6 +1503,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">+/- বোতামটি যখন উপরে থাকে তখন সারি ১ এর জন্য গ্রুপ তৈরি করতে পারবেন না। অনুগ্রহ করে +/- বোতামটি নিচে সরিয়ে দিয়ে আবার চেষ্টা করুন।</string>
     <string name="ritz_categories_heading">বিভাগগুলি</string>
     <string name="ritz_cell_character_limit_exceeded">আপনার ইনপুটে একটি কক্ষের জন্য বরাদ্দ সর্বোচ্চ %1$sটি অক্ষরের সীমার চেয়ে বেশি অক্ষর রয়েছে৷</string>
+    <string name="ritz_cell_does_not_contain_image">বেছে নেওয়া কক্ষে কোনও ছবি নেই।</string>
     <string name="ritz_cell_editor_hint">পাঠ্য বা সূত্র লিখুন</string>
     <string name="ritz_cell_formatting_button_label">কক্ষ বিন্যাসন</string>
     <string name="ritz_cell_limit_exceeded">এই ক্রিয়াটি অনুশীলনপুস্তিকার জন্য %1$sটি কক্ষের যে সীমা রয়েছে তার থেকে বেশি কক্ষ সংখ্যা তৈরি করবে৷</string>
@@ -1768,6 +1756,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">একটি বৈধ ইমেল দিন</string>
     <string name="ritz_conditional_option_text_is_url">"হ'ল বৈধ URL"</string>
     <string name="ritz_conditional_option_text_is_url_instruction">একটি বৈধ URL দিন</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">গ্রিডের উপর ফ্লোটিং</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">%1$s-এ ছবিটি ওভার-গ্রিড ছবিতে রূপান্তর করা হয়েছে।</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">কার্সারটি সমান চিহ্নের পরে লোকেশন করে</string>
     <string name="ritz_custom_angle_description">%1$s ডিগ্রি ঘোরানো হয়েছে</string>
     <string name="ritz_custom_delimiter_name">কাস্টম বিভেদক</string>
@@ -1995,7 +1985,7 @@
     <string name="ritz_filter_reference_within_filter">কক্ষ %1$s এর সূত্রটি একই সারিতে নেই এমন একটি সক্রিয় ফিল্টার ব্যাপ্তির উল্লেখ করছে৷</string>
     <string name="ritz_filter_search_button_hint">খুঁজুন</string>
     <string name="ritz_filter_search_cleared_text_message">সার্চ দন্ডের পাঠ্য মোছা হয়েছে</string>
-    <string name="ritz_filter_search_dialog_closed">ফিল্টার অনুসন্ধানের ডায়ালগ বন্ধ করা হয়েছে</string>
+    <string name="ritz_filter_search_dialog_closed">ফিল্টার সার্চের ডায়ালগ বন্ধ করা হয়েছে</string>
     <string name="ritz_filter_search_dialog_opened">ফিল্টার সার্চ ডায়লগ খোলা হয়েছে</string>
     <string name="ritz_filter_search_no_options_description">কোনো বিকল্প খুঁজে পাওয়া যায়নি</string>
     <string name="ritz_filter_select_all_button_text">সবগুলি বেছে নিন</string>
@@ -2305,9 +2295,9 @@
     <string name="ritz_parameter_should_be_less_than_or_equal_to">%1$s মান হল %2$s৷ এটিকে %3$s এর থেকে কম বা এর সমান হতে হবে৷</string>
     <string name="ritz_parameter_should_be_less_than_or_equal_to_other_param">%1$s মান হল %3$s৷ এটিকে %2$s এর %4$s মানের থেকে কম বা এর সমান হতে হবে৷</string>
     <string name="ritz_parameter_should_be_less_than_other_param">%1$s এর মান হল %3$s৷ এটিকে %2$s এর মান %4$s থেকে ছোট হতে হবে৷</string>
-    <string name="ritz_parameter_should_be_negative_or_zero">%1$s value is positive. It should be negative or zero.</string>
+    <string name="ritz_parameter_should_be_negative_or_zero">%1$s প্যারামিটারের মান ইতিবাচক। এটি নেগেটিভ বা শূন্য হওয়া উচিত।</string>
     <string name="ritz_parameter_should_be_non_blank">%1$s মান খালি রাখা যাবে না৷</string>
-    <string name="ritz_parameter_should_be_positive_or_zero">%1$s value is negative. It should be positive or zero.</string>
+    <string name="ritz_parameter_should_be_positive_or_zero">%1$s প্যারামিটারের মান নেতিবাচক। এটি ইতিবাচক বা শূন্য হওয়া উচিত।</string>
     <string name="ritz_parameter_sum_should_be_less_than">%1$s এবং %2$s এর সমষ্টি হল %3$s৷ সমষ্টি অবশ্যই %4$s এর কম হতে হবে৷</string>
     <string name="ritz_parameter_value_not_in_list">%1$s মান হল %2$s৷ এটিকে এর মধ্যে একটি হতে হবে: %3$s৷</string>
     <string name="ritz_parameter_value_not_url">"%1$s মান '%2$s' একটি বৈধ url নয়৷"</string>
@@ -2329,10 +2319,10 @@
     <string name="ritz_paste_transposed">ট্রান্সপোজ করে পেস্ট করুন</string>
     <string name="ritz_paste_values">শুধুমাত্র মানগুলি আটকান</string>
     <string name="ritz_paste_without_borders">সীমানা ছাড়া সবকিছু আটকান</string>
-    <string name="ritz_pivot_breakout_collapse">Collapse</string>
-    <string name="ritz_pivot_breakout_collapse_all">Collapse all</string>
-    <string name="ritz_pivot_breakout_expand">Expand</string>
-    <string name="ritz_pivot_breakout_expand_all">Expand all</string>
+    <string name="ritz_pivot_breakout_collapse">লুকান করুন</string>
+    <string name="ritz_pivot_breakout_collapse_all">সবকটি লুকান</string>
+    <string name="ritz_pivot_breakout_expand">বড় করুন</string>
+    <string name="ritz_pivot_breakout_expand_all">সবকটি বড় করুন</string>
     <string name="ritz_pivot_table_invalid_aggregation_function">"পিভট সারণীতে 'এর দ্বারা সংক্ষিপ্ত করা:' কোনো মান অবৈধ নির্বাচন করে, তা এর মাধ্যমে সংক্ষেপ করার জন্য %1$s একটি বৈধ ফাংশন নয়৷"</string>
     <string name="ritz_pivot_table_zippy_collapsed">পিভট সারণীর ফিল্ড লুকান</string>
     <string name="ritz_pivot_table_zippy_collapsed_all">পিভট সারণীর ফিল্ডের সব ডেটা লুকান হয়েছে</string>
@@ -3072,7 +3062,7 @@
     <string name="verbal_outliers_at_x_value">%1$s এ আউটলায়িং মান</string>
     <string name="verbal_outliers_for_item">{NUM_OUTLIERS,plural,offset:0 =1{{ITEM} এর আউটলায়িং মান}one{{ITEM} এর আউটলায়িং মান}other{{ITEM} এর আউটলায়িং মান}}</string>
     <string name="verbal_pareto">%1$s থেকে %3$s পর্যন্ত ব্যাপ্তি, তবে অধিকাংশ মানগুলি %2$s এর কম বা সমান।</string>
-    <string name="verbal_pareto_alt">Ranges from %1$s to %3$s, but 80%% of values are less than or equal to %2$s.</string>
+    <string name="verbal_pareto_alt">%1$s থেকে %3$s রেঞ্জ অবধি ব্যপ্তি , কিন্তু ৮০%% বা তার কম মান %2$s এর সমান।</string>
     <string name="verbal_product_of_two_trends">%1$s এ দুইটি ট্রেন্ড গুণ করা আছে।</string>
     <string name="verbal_quarterly_cycle">%1$s এ একটি ত্রৈমাসিক চক্র রয়েছে</string>
     <string name="verbal_quote_string">“%1$s”</string>

@@ -106,7 +106,6 @@
     <string name="alphabet_set">0123456789AÁBCDÐEÉFGHIÍJKLMNOÓPQRSTUÚVWXYÝZÞÆÖ</string>
     <string name="announce_abuse_undo">Misnotkunartilkynning ekki send inn</string>
     <string name="announce_account_using">Þú ert að nota reikninginn: %1$s.</string>
-    <string name="announce_action_undone">Aðgerð afturkölluð.</string>
     <string name="announce_collection_removed">Mappa fjarlægð.</string>
     <string name="announce_document_removed">Skrá fjarlægð.</string>
     <string name="announce_invalid_filename">Ógilt heiti. Sláðu inn annað heiti.</string>
@@ -866,13 +865,9 @@ Smelltu á + til að búa til nýjan töflureikni."</string>
     <string name="management_data_loading_failed">Ekki hægt að hlaða þessa síðu</string>
     <string name="menu_backup">Öryggisafrit</string>
     <string name="menu_copy_link">Afrita tengil</string>
-    <string name="menu_create_shortcut">Bæta á heimaskjá</string>
-    <string name="menu_delete">Fjarlægja</string>
     <string name="menu_detail">Upplýsingar</string>
     <string name="menu_doc_view_grid_mode">Skoða sem töflu</string>
     <string name="menu_doc_view_list_mode">Skoða sem lista</string>
-    <string name="menu_download">Sækja</string>
-    <string name="menu_dump_database">Ábending – Senda inn útgáfu úr tækinu</string>
     <string name="menu_edit">Breyta</string>
     <string name="menu_empty_trash_too_many_items">Ekki var hægt að eyða öllum atriðum; of mörg atriði í ruslinu.</string>
     <string name="menu_filter_by">Sía eftir</string>
@@ -883,19 +878,13 @@ Smelltu á + til að búa til nýjan töflureikni."</string>
     <string name="menu_keep_on_device">Í boði án nettengingar</string>
     <string name="menu_link_share">Deiling með tengli</string>
     <string name="menu_more_options">Fleiri valkostir</string>
-    <string name="menu_move_to">Færa</string>
     <string name="menu_my_drive">Drifið mitt</string>
     <string name="menu_navigation_devices">Tölvur</string>
     <string name="menu_notifications">Tilkynningar</string>
-    <string name="menu_offline">Tiltækt án nettengingar</string>
-    <string name="menu_open_with">Opna með</string>
-    <string name="menu_print">Prenta</string>
     <string name="menu_refresh">Endurnýja</string>
-    <string name="menu_rename">Endurnefna</string>
     <string name="menu_save_to_drive">Vista á Drive</string>
     <string name="menu_search">Leita</string>
     <string name="menu_selection_clear">Hreinsa val</string>
-    <string name="menu_send">Senda skrá</string>
     <string name="menu_send_link">Deila tengli</string>
     <string name="menu_settings">Stillingar</string>
     <string name="menu_share_print">Prenta</string>
@@ -927,9 +916,6 @@ Smelltu á + til að búa til nýjan töflureikni."</string>
     <string name="menu_sort_recently_opened">Ég opnaði síðast</string>
     <string name="menu_sort_title">Heiti</string>
     <string name="menu_title_button_describer">%1$s. %2$s. hnappur til að endurnefna</string>
-    <string name="menu_trash_delete_forever">Eyða</string>
-    <string name="menu_trash_restore">Endurheimta</string>
-    <string name="menu_unpin">Fjarlægja úr tækinu</string>
     <string name="menu_will_be_kept_offline">Gerir skrá tiltæka án nettengingar…</string>
     <string name="menu_will_no_longer_be_kept_offline">Töflureiknirinn verður ekki lengur í boði án nettengingar</string>
     <string name="message_drive_scope_blocked">Ekki tókst að opna %1$s úr Google Drive. Hafðu samband við stjórnanda G Suite til að fá hjálp.</string>
@@ -1261,7 +1247,7 @@ Smelltu á + til að búa til nýjan töflureikni."</string>
     <string name="prioritydocs_promo_negative">NEI, TAKK</string>
     <string name="prioritydocs_promo_positive">SETJA UPP</string>
     <string name="promo_no_thanks_button">NEI, TAKK</string>
-    <string name="promo_snackbar_googledocs">Búðu til og breyttu töflureiknum í samvinnu við aðra beint úr símanum.</string>
+    <string name="promo_snackbar_googledocs_device">Búðu til og breyttu töflureiknum í samvinnu við aðra beint úr tækinu þínu.</string>
     <string name="promo_snackbar_got_it">Ég skil</string>
     <string name="promo_snackbar_heading">Velkomin(n) í Google töflureikna</string>
     <string name="promo_snackbar_learn_more">Frekari upplýsingar</string>
@@ -1295,6 +1281,7 @@ Viðvörun: Ekki er hægt að afturkalla þessa aðgerð."</string>
     <string name="quota_range_small">Undir 1 MB</string>
     <string name="quota_range_undefined">Ekkert geymslurými notað</string>
     <string name="quota_zero">engin</string>
+    <string name="ratings_card_body">Gefðu þessu forriti einkunn í Play Store eða sendu okkur þitt álit.</string>
     <string name="ratings_card_feedback">Senda inn ábendingu</string>
     <string name="ratings_card_header">Líst þér vel á Töflureikna?</string>
     <string name="ratings_card_rate">Gefa forriti einkunn</string>
@@ -1516,6 +1503,7 @@ Viðvörun: Ekki er hægt að afturkalla þessa aðgerð."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Ekki er hægt að búa til hóp fyrir línu 1 þegar +/- hnappurinn er efst. Færðu +/- hnappinn neðst og reyndu aftur.</string>
     <string name="ritz_categories_heading">Flokkar</string>
     <string name="ritz_cell_character_limit_exceeded">Það sem þú slóst inn er lengra en þeir %1$s stafir sem eru að hámarki leyfðir í einu hólfi.</string>
+    <string name="ritz_cell_does_not_contain_image">Engin mynd er í völdu hólfi.</string>
     <string name="ritz_cell_editor_hint">Sláðu inn texta eða formúlu</string>
     <string name="ritz_cell_formatting_button_label">Snið hólfa</string>
     <string name="ritz_cell_limit_exceeded">Þessi aðgerð myndi auka fjölda hólfa í vinnubókinni umfram hámarkið sem er %1$s hólf.</string>
@@ -1768,6 +1756,8 @@ Viðvörun: Ekki er hægt að afturkalla þessa aðgerð."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Færðu inn gilt netfang</string>
     <string name="ritz_conditional_option_text_is_url">Er gild vefslóð</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Færðu inn gilda vefslóð</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Fljóta yfir neti</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Mynd í %1$s breytt í mynd yfir neti.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">Bendillinn kemur á eftir samasemmerkinu</string>
     <string name="ritz_custom_angle_description">Snúið um %1$s gráður</string>
     <string name="ritz_custom_delimiter_name">sérsniðið skiltákn</string>

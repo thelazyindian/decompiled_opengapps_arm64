@@ -121,7 +121,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">악용사례 보고서가 제출되지 않았습니다.</string>
     <string name="announce_account_using">사용 중인 계정: %1$s.</string>
-    <string name="announce_action_undone">작업이 실행취소되었습니다.</string>
     <string name="announce_collection_removed">폴더가 삭제되었습니다.</string>
     <string name="announce_document_removed">파일이 삭제되었습니다.</string>
     <string name="announce_invalid_filename">잘못된 이름입니다. 다른 이름을 입력하세요.</string>
@@ -901,13 +900,9 @@
     <string name="management_data_loading_failed">이 페이지를 로드할 수 없습니다.</string>
     <string name="menu_backup">백업</string>
     <string name="menu_copy_link">링크 복사</string>
-    <string name="menu_create_shortcut">홈 화면에 추가</string>
-    <string name="menu_delete">삭제</string>
     <string name="menu_detail">세부정보</string>
     <string name="menu_doc_view_grid_mode">바둑판으로 보기</string>
     <string name="menu_doc_view_list_mode">목록으로 보기</string>
-    <string name="menu_download">다운로드</string>
-    <string name="menu_dump_database">의견 - 로컬 버전 삭제</string>
     <string name="menu_edit">수정</string>
     <string name="menu_empty_trash_too_many_items">휴지통에 항목이 너무 많아서 일부 항목은 비울 수 없습니다.</string>
     <string name="menu_filter_by">필터링 기준</string>
@@ -918,19 +913,13 @@
     <string name="menu_keep_on_device">오프라인으로 사용</string>
     <string name="menu_link_share">링크 공유</string>
     <string name="menu_more_options">옵션 더보기</string>
-    <string name="menu_move_to">이동</string>
     <string name="menu_my_drive">내 드라이브</string>
     <string name="menu_navigation_devices">컴퓨터</string>
     <string name="menu_notifications">알림</string>
-    <string name="menu_offline">오프라인으로 사용</string>
-    <string name="menu_open_with">연결 프로그램:</string>
-    <string name="menu_print">인쇄</string>
     <string name="menu_refresh">새로고침</string>
-    <string name="menu_rename">이름 바꾸기</string>
     <string name="menu_save_to_drive">드라이브에 저장</string>
     <string name="menu_search">검색</string>
     <string name="menu_selection_clear">선택 취소</string>
-    <string name="menu_send">파일 보내기</string>
     <string name="menu_send_link">링크 공유</string>
     <string name="menu_settings">설정</string>
     <string name="menu_share_print">인쇄</string>
@@ -962,9 +951,6 @@
     <string name="menu_sort_recently_opened">내가 마지막으로 열어본 날짜</string>
     <string name="menu_sort_title">이름</string>
     <string name="menu_title_button_describer">%1$s. %2$s. 이름 변경 버튼</string>
-    <string name="menu_trash_delete_forever">삭제</string>
-    <string name="menu_trash_restore">복원</string>
-    <string name="menu_unpin">기기에서 삭제</string>
     <string name="menu_will_be_kept_offline">오프라인으로 사용 가능하도록 설정하는 중...</string>
     <string name="menu_will_no_longer_be_kept_offline">스프레드시트를 더 이상 오프라인에서 사용할 수 없습니다.</string>
     <string name="message_drive_scope_blocked">Google 드라이브에서 %1$s에 액세스할 수 없습니다. 도움이 필요하면 G Suite 관리자에게 문의하세요.</string>
@@ -1297,7 +1283,7 @@
     <string name="prioritydocs_promo_negative">아니요</string>
     <string name="prioritydocs_promo_positive">설치</string>
     <string name="promo_no_thanks_button">아니요</string>
-    <string name="promo_snackbar_googledocs">스마트폰에서 바로 다른 사용자와 함께 스프레드시트를 만들고 수정하세요.</string>
+    <string name="promo_snackbar_googledocs_device">기기에서 바로 다른 사용자와 함께 스프레드시트를 만들고 수정하세요.</string>
     <string name="promo_snackbar_got_it">확인</string>
     <string name="promo_snackbar_heading">Google 스프레드시트에 오신 것을 환영합니다.</string>
     <string name="promo_snackbar_learn_more">자세히 알아보기</string>
@@ -1331,6 +1317,7 @@
     <string name="quota_range_small">1MB 미만</string>
     <string name="quota_range_undefined">사용한 저장용량이 없습니다.</string>
     <string name="quota_zero">없음</string>
+    <string name="ratings_card_body">Play 스토어에서 앱을 평가하거나 의견을 보내 주세요.</string>
     <string name="ratings_card_feedback">의견 보내기</string>
     <string name="ratings_card_header">스프레드시트를 잘 활용하고 계시나요?</string>
     <string name="ratings_card_rate">앱 평가</string>
@@ -1552,6 +1539,7 @@
     <string name="ritz_cant_group_row1_with_button_on_top">+/- 버튼이 상단에 있으면 1행에 그룹을 만들 수 없습니다. +/- 버튼을 하단으로 옮기고 다시 시도하세요.</string>
     <string name="ritz_categories_heading">카테고리</string>
     <string name="ritz_cell_character_limit_exceeded">단일 셀에 최대 문자수 %1$s개를 초과해서 입력했습니다.</string>
+    <string name="ritz_cell_does_not_contain_image">선택한 셀에 이미지가 없습니다.</string>
     <string name="ritz_cell_editor_hint">텍스트 또는 수식 입력</string>
     <string name="ritz_cell_formatting_button_label">셀 서식 지정</string>
     <string name="ritz_cell_limit_exceeded">이 작업을 수행하면 통합문서의 셀 개수가 한도 %1$s개를 초과합니다.</string>
@@ -1804,6 +1792,8 @@
     <string name="ritz_conditional_option_text_is_email_instruction">올바른 이메일을 입력하세요.</string>
     <string name="ritz_conditional_option_text_is_url">올바른 URL</string>
     <string name="ritz_conditional_option_text_is_url_instruction">올바른 URL을 입력하세요.</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">이미지를 그리드 위로 올리기</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">%1$s의 이미지가 오버 그리드 이미지로 변환되었습니다.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">커서가 등호(=) 뒤에 있습니다.</string>
     <string name="ritz_custom_angle_description">%1$s도 회전됨</string>
     <string name="ritz_custom_delimiter_name">맞춤설정 구분자</string>

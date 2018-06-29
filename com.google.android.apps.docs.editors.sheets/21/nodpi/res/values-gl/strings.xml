@@ -106,7 +106,6 @@
     <string name="alphabet_set">0123456789ABCDEFGHIJKLMNÑOPQRSTUVWXYZ</string>
     <string name="announce_abuse_undo">Non se enviou o informe de uso inadecuado</string>
     <string name="announce_account_using">Conta utilizada: %1$s.</string>
-    <string name="announce_action_undone">Desfíxose a acción.</string>
     <string name="announce_collection_removed">Quitouse o cartafol.</string>
     <string name="announce_document_removed">Quitouse o ficheiro.</string>
     <string name="announce_invalid_filename">O nome non é valido. Introduce un nome diferente.</string>
@@ -866,13 +865,9 @@ Fai clic en + para crear unha nova folla de cálculo."</string>
     <string name="management_data_loading_failed">Non se puido cargar esta páxina</string>
     <string name="menu_backup">Copias de seguranza</string>
     <string name="menu_copy_link">Copiar ligazón</string>
-    <string name="menu_create_shortcut">Engadir á pantalla de inicio</string>
-    <string name="menu_delete">Eliminar</string>
     <string name="menu_detail">Detalles</string>
     <string name="menu_doc_view_grid_mode">Vista como grade</string>
     <string name="menu_doc_view_list_mode">Vista como lista</string>
-    <string name="menu_download">Descargar</string>
-    <string name="menu_dump_database">Comentarios: baleirado de versión local</string>
     <string name="menu_edit">Editar</string>
     <string name="menu_empty_trash_too_many_items">Non se puideron baleirar algúns elementos porque había demasiados na Papeleira.</string>
     <string name="menu_filter_by">Filtrar por</string>
@@ -883,19 +878,13 @@ Fai clic en + para crear unha nova folla de cálculo."</string>
     <string name="menu_keep_on_device">Dispoñible sen conexión</string>
     <string name="menu_link_share">Compartir ligazón</string>
     <string name="menu_more_options">Máis opcións</string>
-    <string name="menu_move_to">Mover</string>
     <string name="menu_my_drive">A miña unidade</string>
     <string name="menu_navigation_devices">Ordenadores</string>
     <string name="menu_notifications">Notificacións</string>
-    <string name="menu_offline">Dispoñible sen conexión</string>
-    <string name="menu_open_with">Abrir con</string>
-    <string name="menu_print">Imprimir</string>
     <string name="menu_refresh">Actualizar</string>
-    <string name="menu_rename">Cambiar nome</string>
     <string name="menu_save_to_drive">Gardar en Drive</string>
     <string name="menu_search">Buscar</string>
     <string name="menu_selection_clear">Eliminar selección</string>
-    <string name="menu_send">Enviar ficheiro</string>
     <string name="menu_send_link">Compartir a ligazón</string>
     <string name="menu_settings">Configuración</string>
     <string name="menu_share_print">Imprimir</string>
@@ -927,9 +916,6 @@ Fai clic en + para crear unha nova folla de cálculo."</string>
     <string name="menu_sort_recently_opened">Última vez aberto por min</string>
     <string name="menu_sort_title">Nome</string>
     <string name="menu_title_button_describer">%1$s. %2$s. Botón para cambiar o nome</string>
-    <string name="menu_trash_delete_forever">Eliminar</string>
-    <string name="menu_trash_restore">Restaurar</string>
-    <string name="menu_unpin">Eliminar do dispositivo</string>
     <string name="menu_will_be_kept_offline">Gardando para que estea dispoñible sen conexión…</string>
     <string name="menu_will_no_longer_be_kept_offline">A folla de cálculo deixará de estar dispoñible sen conexión</string>
     <string name="message_drive_scope_blocked">Non se puido acceder a %1$s desde Drive. Contacta co teu administrador de G suite para obter axuda.</string>
@@ -1260,7 +1246,7 @@ Fai clic en + para crear unha nova folla de cálculo."</string>
     <string name="prioritydocs_promo_negative">NON, GRAZAS</string>
     <string name="prioritydocs_promo_positive">INSTALAR</string>
     <string name="promo_no_thanks_button">NON, GRAZAS</string>
-    <string name="promo_snackbar_googledocs">Crea e edita follas de cálculo con outras persoas desde o teu teléfono.</string>
+    <string name="promo_snackbar_googledocs_device">Crea e edita follas de cálculo con outros usuarios directamente desde o teu dispositivo.</string>
     <string name="promo_snackbar_got_it">De acordo</string>
     <string name="promo_snackbar_heading">Dámosche a benvida a Follas de cálculo de Google</string>
     <string name="promo_snackbar_learn_more">Máis información</string>
@@ -1294,6 +1280,7 @@ Aviso: Esta acción non se pode desfacer."</string>
     <string name="quota_range_small">Menos de 1 MB</string>
     <string name="quota_range_undefined">Non se utilizou espazo de almacenamento</string>
     <string name="quota_zero">ningunha</string>
+    <string name="ratings_card_body">Valora esta aplicación en Play Store ou envíanos os teus comentarios.</string>
     <string name="ratings_card_feedback">Envía as túas suxestións</string>
     <string name="ratings_card_header">Que che parece Follas de cálculo?</string>
     <string name="ratings_card_rate">Valorar a aplicación</string>
@@ -1515,6 +1502,7 @@ Aviso: Esta acción non se pode desfacer."</string>
     <string name="ritz_cant_group_row1_with_button_on_top">Non se pode crear ningún grupo na fila 1 cando os botóns +/- están situados na parte superior. Móveos á parte inferior e téntao de novo.</string>
     <string name="ritz_categories_heading">Categorías</string>
     <string name="ritz_cell_character_limit_exceeded">A túa entrada contén máis dos %1$s caracteres máximos nunha única cela.</string>
+    <string name="ritz_cell_does_not_contain_image">Non hai ningunha imaxe na cela seleccionada.</string>
     <string name="ritz_cell_editor_hint">Introduce texto ou fórmula</string>
     <string name="ritz_cell_formatting_button_label">Formato de cela</string>
     <string name="ritz_cell_limit_exceeded">Esta acción incrementaría o número de celas no libro por riba do límite de %1$s celas.</string>
@@ -1767,6 +1755,8 @@ Aviso: Esta acción non se pode desfacer."</string>
     <string name="ritz_conditional_option_text_is_email_instruction">Escribe un correo electrónico válido</string>
     <string name="ritz_conditional_option_text_is_url">É un URL válido</string>
     <string name="ritz_conditional_option_text_is_url_instruction">Escribe un URL válido</string>
+    <string name="ritz_convert_in_cell_image_to_over_grid_image">Facer flotar a imaxe sobre a grade</string>
+    <string name="ritz_converted_image_in_cell_to_over_grid_image">Converteuse a imaxe da cela %1$s nunha imaxe sobre grade.</string>
     <string name="ritz_cursor_is_positioned_after_the_equals_sign">O cursor está situado despois do signo igual</string>
     <string name="ritz_custom_angle_description">Xirado %1$s graos</string>
     <string name="ritz_custom_delimiter_name">delimitador personalizado</string>
