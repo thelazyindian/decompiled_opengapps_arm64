@@ -533,11 +533,18 @@
     <string name="assistant_settings_duo_calls_unlink_duo_title">Duo アカウントのリンクを解除</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Duo 通話の発着信ができなくなります</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Duo アカウントのリンクを解除しますか？</string>
+    <string name="assistant_settings_duo_consent_summary">この電話番号を確認するためのコードが Google から SMS で届きます。通常のデータ通信料がかかることがあります。あなたの電話番号や Google アカウントを知っているユーザーが、Google のサービスであなたと連絡が取れるようになります。</string>
+    <string name="assistant_settings_duo_consent_title">Google Duo アプリを使用する誰とでもスマートディスプレイで高画質のビデオ通話を始められます。まず、お使いの電話番号を確認して、Duo アカウントを作成します。それによって、電話番号は Google アカウントともリンクされます。</string>
     <string name="assistant_settings_email_notification_summary">アシスタントに関する最新のニュースや機能をメールでお知らせします</string>
     <string name="assistant_settings_email_notification_title">Google アシスタントのメール配信</string>
     <string name="assistant_settings_enable_google_assistant_title">Google アシスタントの有効化</string>
     <string name="assistant_settings_enabled_news_explanation">Google アシスタントに「ニュースを聞く」と話しかけるか、ルーティンにニュースを追加すると、このニュース提供元のニュースが再生されます。</string>
     <string name="assistant_settings_enabled_news_list">ニュース提供元</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">後で</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Duo を使用</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"マートディスプレイでのビデオ通話に既存の Duo アカウントを使用します。友だちや家族があなたに電話する場合の番号は %1$s です。
+Duo アカウントとこの端末のリンクの解除は、アシスタントの設定でいつでも行えます。"</string>
+    <string name="assistant_settings_existing_duo_dialog_title">ビデオ通話</string>
     <string name="assistant_settings_feature_availability">%1$sでご利用いただけます</string>
     <string name="assistant_settings_float_action_button_label">端末を追加</string>
     <string name="assistant_settings_header_title">設定</string>
@@ -647,6 +654,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Home で再生するには、Google Play Music の定期購入が必要です。お申し込みは <a href="https://play.google.com/store/music">Play Music アプリ</a>で行えます。または、音楽を購入するか<a href="https://support.google.com/googleplay?p=home_uploadmusic">音楽をアップロード</a>して再生することもできます</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play Music の定期購入またはライブラリが必要です</string>
     <string name="assistant_settings_music_icon_text">音楽プロバイダのアイコン</string>
+    <string name="assistant_settings_music_link_dialog_text">Google アカウントを %1$s にリンクすると、対応するデバイスでの再生や再生リストへのアクセスが可能になります。Google アシスタントを利用して %1$s サービスを操作すると、そのクエリが %1$s に送信され、プライバシー ステートメントに基づいて使用されることがあります。たとえば、%1$s からアカウントに基づく情報やカスタマイズされたおすすめなどが送信されます。アカウントのリンクはいつでもアシスタントの設定で解除できます。</string>
     <string name="assistant_settings_music_no_preference_summary">共有デバイスで使っている他のアカウントの設定を使用する</string>
     <string name="assistant_settings_music_no_preference_title">デフォルトのプロバイダはありません</string>
     <string name="assistant_settings_music_premium_dialog_button">OK</string>
@@ -657,6 +665,7 @@
     <string name="assistant_settings_music_unable_unlink_default">デフォルトの音楽プロバイダのリンクは解除できません</string>
     <string name="assistant_settings_music_unlink_dialog_text">アカウントのリンクを解除すると、Google アシスタントを利用して %1$s を再生できなくなります。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music が配信する音楽を Google Home で再生するには、YouTube Premium のメンバーシップが必要です。登録は <a href="http://youtube.com/red">youtube.com/red</a> から行えます。</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music が配信する音楽を Google Home で再生するには、YouTube Premium のメンバーシップが必要です。登録は <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> から行えます。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium のメンバーシップが必要です</string>
     <string name="assistant_settings_news_provider_delete_button_description">有効にしたニュース提供元から %1$s を削除します</string>
     <string name="assistant_settings_news_supports_video">スマートディスプレイで視聴できる動画です</string>
@@ -860,8 +869,10 @@
     <string name="assistant_settings_update_error_message">設定を更新できませんでした。接続をご確認ください。</string>
     <string name="assistant_settings_video_calls_service_category_title">アシスタントは Google スマートディスプレイなど一部のデバイスから優先サービスを使って、ビデオ通話をすることができます。なお、緊急通報は利用できません。</string>
     <string name="assistant_settings_video_icon_text">動画プロバイダのアイコン</string>
+    <string name="assistant_settings_video_link_dialog_text">Google アカウントを %1$s にリンクすると、対応するデバイスでの再生が可能になります。Google アシスタントを利用して %1$s サービスを操作すると、そのクエリが %1$s に送信され、プライバシー ポリシーに基づいて使用されることがあります。たとえば、%1$s からアカウントに基づく情報やカスタマイズされたおすすめなどが送信されます。アカウントのリンクはアシスタントの設定でいつでも解除できます。</string>
     <string name="assistant_settings_video_provider_category_summary">アシスタントの音声操作でテレビ番組や映画を再生します。</string>
     <string name="assistant_settings_video_provider_category_title">動画</string>
+    <string name="assistant_settings_video_unlink_dialog_text">アカウントのリンクを解除すると、Google アシスタントを利用して %1$s を再生できなくなります。</string>
     <string name="assistant_settings_videos_photos_title">動画と写真</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast または Chromecast built-in TV</string>
     <string name="assistant_settings_voice_and_video_calls_title">音声通話とビデオ通話</string>
@@ -1087,7 +1098,6 @@
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">詳細ページに移動</string>
     <string name="captive_portal_error_card_cell_title_text">データ接続に問題があります</string>
     <string name="captive_portal_error_card_explanation_text">この Wi-Fi ネットワークではログインが必要です。安全性の低い Wi-Fi ポータルもあるため、信頼できるネットワークにのみログインしてください。接続の確立後、もう一度検索をお試しください。</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">ネットワークにログイン</string>
     <string name="captive_portal_error_card_title_text">Wi-Fi を使用するにはログインしてください</string>
     <string name="car_rental_cartype">車のタイプ</string>
     <string name="car_rental_dropoff">返却</string>
@@ -1311,6 +1321,7 @@
     <string name="current_search_base_url_local">ローカルドメイン（%1$s）を使用する</string>
     <string name="current_status">現在の状況を確認</string>
     <string name="custom">カスタム（端末ではカスタマイズ不可）</string>
+    <string name="custom_tabs_explore_action_button_desc">関連ページを表示</string>
     <string name="custom_tabs_link_copied">リンクをクリップボードにコピーしました</string>
     <string name="custom_tabs_menu_item_copy_link">リンクをコピー</string>
     <string name="custom_tabs_menu_item_help">ヘルプ</string>
@@ -1850,7 +1861,6 @@ Google アシスタントのボタンを"<b>押したまま</b>話しかけ、�
     <string name="google_play_services_update_required">引き続きマイフィードを使用するには、Google Play 開発者サービスを更新する必要があります</string>
     <string name="google_plus_profile_contact_label">Google+プロフィール</string>
     <string name="google_podcasts">Google ポッドキャスト</string>
-    <string name="google_search_disabled_toast">Google検索を使用する権限がありません。</string>
     <string name="goto_system_settings">設定</string>
     <string name="group_desc">グループ: %1$d/%2$d。</string>
     <string name="gsa_home">ホーム</string>
@@ -2351,6 +2361,14 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="lens_info_panel_opening_lens">レンズを開いています…</string>
     <string name="lens_overflow_menu_description">設定</string>
     <string name="lens_quit_button_description">終了</string>
+    <string name="lens_results_feedback_card_prompt">レンズにどのような機能が欲しいですか？</string>
+    <string name="lens_results_feedback_card_title">レンズの改善にご協力ください</string>
+    <string name="lens_results_feedback_no">いいえ</string>
+    <string name="lens_results_feedback_prompt_text">この検索結果は役に立ちましたか？</string>
+    <string name="lens_results_feedback_response_to_negative">レンズの改善にご協力いただきありがとうございました。</string>
+    <string name="lens_results_feedback_response_to_positive">どのような点を改善できると思いますか？</string>
+    <string name="lens_results_feedback_send_report">フィードバックを送信</string>
+    <string name="lens_results_feedback_yes">はい</string>
     <string name="lens_title">Google レンズ</string>
     <string name="less_contact_apps">連絡先アプリの一部を表示</string>
     <string name="libraries_material_featurehighlight_dismiss">閉じる</string>
@@ -2434,7 +2452,6 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="menu_refresh">更新</string>
     <string name="menu_send_button_content_description">フィードバックを送信するための [送信] ボタン。</string>
     <string name="menu_send_feedback">フィードバックを送信</string>
-    <string name="menu_settings">設定</string>
     <string name="menu_share">共有</string>
     <string name="menu_view_in_browser">ブラウザで表示</string>
     <string name="menu_visit_page">ページを表示</string>
@@ -2560,7 +2577,6 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="navigation_home_label">ホーム</string>
     <string name="navigation_recently_label">最近</string>
     <string name="navigation_search_label">検索</string>
-    <string name="navigation_updates_label">今後</string>
     <string name="nearby_attractions">周辺の観光スポット</string>
     <string name="nearby_events_title">付近のイベント</string>
     <string name="network_error">現在Googleに接続できません。</string>
@@ -2568,6 +2584,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="network_error_fetching_weather_data_status_text">現在ネットワークを​利用できません</string>
     <string name="network_error_no_connection_tts">現在インターネットに接続できません。</string>
     <string name="network_error_resend_audio">音声を再送信</string>
+    <string name="network_error_try_again">再試行</string>
     <string name="network_location_required_text">位置情報に基づくカード（地域の天気情報や通勤経路の交通情報など）を表示するには、Wi-Fi/モバイル接続時に位置情報をONにしてください</string>
     <string name="network_location_required_text_klp">位置情報に基づくカード（地域の天気情報や通勤経路の交通情報など）を表示するには、高精度またはバッテリー節約の位置情報モードを選択してください</string>
     <string name="never">削除しない</string>
@@ -2747,6 +2764,7 @@ Google Home アプリ（https://google.com/home/setup）をインストールし
     <string name="offline_eyesfree_install_language_pack_notification_body">言語パックをアップグレードしてください。</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">オフライン音声を有効にする</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">オフラインで利用しています。オフラインのときに引き続き音声を使用するには、最新の言語パックをインストールする必要があります。画面を使用しても差し支えがないときに、通知をタップしてインストールしてください。</string>
+    <string name="offline_eyesfree_install_language_pack_tts">オフラインで利用しています。オフラインのときに音声を使用するには、最新の言語パックが必要です。この言語パックは、次回ネットワークに接続したときにインストールされます。</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">オフラインで利用しています。オフラインのときに引き続き音声を使用し、新機能を取得するには、最新の言語パックをインストールする必要があります。画面を使用しても差し支えがないときに、通知をタップしてインストールしてください。</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">オフラインで利用しています。現在は Google にアクセスできませんが、ご利用いただける機能があります。たとえば、「発信する」や「検索できるもの」と言ってみてください</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">オフラインで利用しています。現在は Google にアクセスできませんが、ご利用いただける機能があります。たとえば、「%1$s」や「検索できるもの」と言ってみてください。</string>
@@ -3398,7 +3416,7 @@ Wi-Fi がオフの場合は、アップデート（5 MB）のダウンロード�
     <string name="recently_empty_state_read_later_body_text">端末にダウンロードしたアイテムは 7 日間保存されます。</string>
     <string name="recently_empty_state_read_later_title_text">後で読むページの追加</string>
     <string name="recently_entry_interaction_offline">オフラインの間はリクエストしたページを開けません。</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">リクエストされた保留中の音声検索を開けません。</string>
     <string name="recently_feed_entry">マイフィード</string>
     <string name="recently_google_doodle_for">%s の Google Doodle</string>
     <string name="recently_keep_on_device_until">端末への保存期限:</string>
@@ -3676,6 +3694,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s の検索結果"</string>
     <string name="search_the_web">ウェブを検索</string>
     <string name="search_the_web_menu_text">ウェブ全体から検索</string>
     <string name="search_the_web_suggestion">ウェブを検索</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">接続が改善されると通知が届きます。</string>
+    <string name="search_timed_out_card_explanation_text">ネットワーク接続の遅さが原因と思われます。</string>
+    <string name="search_timed_out_card_title_text">検索のタイムアウト</string>
     <string name="search_widget_customization">ウィジェットのカスタマイズ</string>
     <string name="searchbar_hint">ポッドキャストを検索</string>
     <string name="searchbox_hint">最近行った検索</string>
@@ -3733,6 +3754,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s の検索結果"</string>
     <string name="settings_legal_notices_title">法的通知</string>
     <string name="settings_location_tos_title">位置情報の利用規約</string>
     <string name="settings_privacy_policy_title">プライバシーポリシー</string>
+    <string name="settings_search_icon_title">検索の設定</string>
     <string name="settings_tos_title">利用規約</string>
     <string name="setup_complete_explanation">「OK Google」と話しかけると、%s が応答します。次のことをお手伝いできます。</string>
     <string name="setup_complete_explanation_for_assistant_sdk">「%s」に話しかけると、アシスタントが応答します。次のことをお手伝いできます。</string>
@@ -4097,7 +4119,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s の検索結果"</string>
     <string name="transcript_timeout_2">下書きを削除するには、Googleアシスタントのボタンを2回押してください。</string>
     <string name="transcript_timeoutt_1">メッセージを送信するには、右のイヤフォンをタップしてください。録音し直すには、右のイヤフォンを押したまま話しかけてください。</string>
     <string name="transcript_timeoutt_2">下書きを削除するには、右のイヤフォンをダブルタップしてください。</string>
-    <string name="transient_optin_text">検索結果が準備できると通知が届くので、待っている必要はありません。</string>
     <string name="transit_alarm_notification_subtitle_template">%1$sに到着します（%2$s）</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">%1$sに到着します</string>
     <string name="transit_alarm_vog_text">%1$sで%2$sに下車</string>
@@ -4294,6 +4315,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s の検索結果"</string>
     <string name="user_defined_action_task_devices_to_adjust">どのデバイスを調整しますか？</string>
     <string name="user_defined_action_task_home_control_settings">スマートホームの設定</string>
     <string name="user_defined_action_task_light_title">ライト</string>
+    <string name="user_defined_action_task_lock_control_which_doors">どちらのドアをロックしますか？</string>
+    <string name="user_defined_action_task_lock_title">ドアのロック</string>
     <string name="user_defined_action_task_music_duration_summary">音楽停止のタイマーは Google Home でのみ利用できます</string>
     <string name="user_defined_action_task_music_duration_title">音楽を停止する時間…</string>
     <string name="user_defined_action_task_music_example_list">プレイリスト、アーティスト、曲、またはジャンルを入力します（「リラックス用のプレイリスト」、「浜崎あゆみ」など）。このルーティンでは、&lt;a href=assistant-settings://?feature=music>デフォルトの音楽サービス&lt;/a>を使用します。</string>

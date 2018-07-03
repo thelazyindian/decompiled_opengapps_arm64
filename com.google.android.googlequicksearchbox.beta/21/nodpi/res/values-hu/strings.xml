@@ -517,11 +517,18 @@ Segédje ezt a beállítást használja majd az ingázással kapcsolatos kérdé
     <string name="assistant_settings_duo_calls_unlink_duo_title">Duo-fiók társításának megszüntetése</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Ezt követően nem tud Duo-hívásokat kezdeményezni és fogadni</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Megszünteti a Duo-fiók társítását?</string>
+    <string name="assistant_settings_duo_consent_summary">A Google SMS-ben kódot küld Önnek a telefonszám igazolásához. A szolgáltató az SMS-ért díjat számíthat fel. Azok, akik ismerik az Ön telefonszámát vagy Google-fiókjának címét, felvehetik Önnel a kapcsolatot a Google szolgáltatásain keresztül.</string>
+    <string name="assistant_settings_duo_consent_title">Kezdeményezzen jó minőségű videohívásokat a Smart Displayen bárkivel, aki rendelkezik a Google Duo alkalmazással. Duo-fiók létrehozásához igazolja telefonszámát. Ezzel egyúttal társítja is Google-fiókjához.</string>
     <string name="assistant_settings_email_notification_summary">Rendszeresen kaphat értesítéseket a Segéd legfrissebb híreiről és funkcióiról.</string>
     <string name="assistant_settings_email_notification_title">A Google Segéddel kapcsolatos e-mailek</string>
     <string name="assistant_settings_enable_google_assistant_title">A Google Segéd bekapcsolása</string>
     <string name="assistant_settings_enabled_news_explanation">Ha Ön azt mondja, „hírek meghallgatása”, vagy híreket ad hozzá valamelyik rutinhoz, akkor Segédje ezekből a forrásokból játssza le a híreket.</string>
     <string name="assistant_settings_enabled_news_list">Saját hírforrások</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Most nem</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">A Duo használata</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Létező Duo-fiókjával videohívásokat folytathat a Smart Displayen. Ismerősei és családtagjai a következő számon érhetik el: %1$s.
+ Duo-fiókját bármikor leválaszthatja erről az eszközről a Segéd beállításaiban."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videohívás</string>
     <string name="assistant_settings_feature_availability">A következő eszközökön áll rendelkezésre: %1$s</string>
     <string name="assistant_settings_float_action_button_label">Eszközök hozzáadása</string>
     <string name="assistant_settings_header_title">Beállítások</string>
@@ -631,6 +638,7 @@ Segédje ezt a beállítást használja majd az ingázással kapcsolatos kérdé
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Play Zene-előfizetésre van szükség ahhoz, hogy zenéket játszhasson le Google Home eszközén. Ehhez a <a href="https://play.google.com/store/music">Play Zene alkalmazásban</a> regisztrálva juthat hozzá. Zenéket vásárolhat, vagy <a href="https://support.google.com/googleplay?p=home_uploadmusic">feltöltheti saját számait</a> is a zenelejátszáshoz.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play Zene-előfizetésre vagy -könyvtárra van szükség</string>
     <string name="assistant_settings_music_icon_text">A zeneszolgáltatás ikonja</string>
+    <string name="assistant_settings_music_link_dialog_text">Kapcsolja össze Google-fiókját a(z) %1$s szolgáltatással a lejátszási listák eléréséhez és a lejátszás kompatibilis eszközökön való engedélyezéséhez. Amikor a Google Segéden keresztül használja a(z) %1$s szolgáltatást, előfordulhat, hogy a rendszer a lekérdezéseket elküldi a(z) %1$s számára feldolgozás céljából a szolgáltatás adatvédelmi nyilatkozatának megfelelően. A(z) %1$s személyes találatokat és személyre szabott javaslatokat küldhet Önnek. A fiókok összekapcsolását bármikor megszüntetheti a Segéd beállításai között.</string>
     <string name="assistant_settings_music_no_preference_summary">Másik fiókok közösen használt eszközökre vonatkozó beállításainak használata</string>
     <string name="assistant_settings_music_no_preference_title">Nincs alapértelmezett szolgáltató</string>
     <string name="assistant_settings_music_premium_dialog_button">Rendben, értem</string>
@@ -641,6 +649,7 @@ Segédje ezt a beállítást használja majd az ingázással kapcsolatos kérdé
     <string name="assistant_settings_music_unable_unlink_default">Nem lehet leválasztani az alapértelmezett zeneszolgáltatást</string>
     <string name="assistant_settings_music_unlink_dialog_text">A fiók leválasztásával kikapcsolja a Google Segéden keresztüli lejátszást a(z) %1$s szolgáltatásból.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Premium-tagságra van szüksége, hogy a Google Home-on használhassa a YouTube Music szolgáltatást. A szolgáltatásra a <a href="http://youtube.com/red">youtube.com/red</a> oldalon regisztrálhat.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music Premium-tagságra van szüksége, hogy a Google Home-on használhassa a YouTube Music szolgáltatást. A szolgáltatásra a <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> oldalon regisztrálhat.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium-tagságra van szükség</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s eltávolítása az engedélyezett hírforrások közül</string>
     <string name="assistant_settings_news_supports_video">A videó hozzáférhető intelligens kijelzőkön</string>
@@ -844,8 +853,10 @@ Segédje ezt a beállítást használja majd, amikor útvonaltervet ajánl az ot
     <string name="assistant_settings_update_error_message">Nem sikerült frissíteni a beállítást. Ellenőrizze a kapcsolatot.</string>
     <string name="assistant_settings_video_calls_service_category_title">Segédje képes videohívásokat indítani néhány eszközről, például Google Smart Displayről a választott szolgáltatón keresztül. Segélyhívószámokhoz nem használható.</string>
     <string name="assistant_settings_video_icon_text">A videószolgáltató ikonja</string>
+    <string name="assistant_settings_video_link_dialog_text">Kapcsolja össze Google-fiókját a(z) %1$s szolgáltatással a lejátszás kompatibilis eszközökön való engedélyezéséhez. Amikor Ön a Google Segéden keresztül használja a(z) %1$s szolgáltatást, előfordulhat, hogy a rendszer a lekérdezéseket elküldi a(z) %1$s számára feldolgozás céljából a szolgáltatás adatvédelmi nyilatkozatának megfelelően. A(z) %1$s személyes találatokat és személyre szabott javaslatokat küldhet Önnek. A fiókok összekapcsolását bármikor megszüntetheti a Segéd beállításai között.</string>
     <string name="assistant_settings_video_provider_category_summary">Tévéműsorok és filmek lejátszása Segédje segítségével.</string>
     <string name="assistant_settings_video_provider_category_title">Videók</string>
+    <string name="assistant_settings_video_unlink_dialog_text">A fiók leválasztásával kikapcsolja a Google Segéden keresztüli lejátszást a(z) %1$s szolgáltatásból.</string>
     <string name="assistant_settings_videos_photos_title">Videók és fotók</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast vagy beépített Chromecasttal rendelkező tévé</string>
     <string name="assistant_settings_voice_and_video_calls_title">Hang- és videohívások</string>
@@ -988,7 +999,6 @@ A szolgáltató adatforgalmi díjat számíthat fel."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Részleteket tartalmazó oldal megnyitása</string>
     <string name="captive_portal_error_card_cell_title_text">Adatkapcsolati probléma</string>
     <string name="captive_portal_error_card_explanation_text">A Wi-Fi-hálózat használatához be kell jelentkeznie. Csak olyan hálózatokra jelentkezzen be, amelyekben megbízik, ugyanis előfordul, hogy egyes Wi-Fi-portálok kevésbé biztonságosak. A csatlakozás után ismételje meg a keresést.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Bejelentkezés a hálózatra</string>
     <string name="captive_portal_error_card_title_text">Jelentkezzen be a Wi-Fi használatához</string>
     <string name="car_rental_cartype">Autó típusa</string>
     <string name="car_rental_dropoff">Leadás</string>
@@ -1202,6 +1212,7 @@ Ezeket a beszélgetéseket a Google-fiók beállításainak %1$s részében teki
     <string name="current_search_base_url_local">Helyi domaint használ (%1$s)</string>
     <string name="current_status">Jelenlegi állapot ellenőrzése</string>
     <string name="custom">Egyéni… (telefonon nem állítható be)</string>
+    <string name="custom_tabs_explore_action_button_desc">Kapcsolódó oldalak</string>
     <string name="custom_tabs_link_copied">Link átmásolva a vágólapra</string>
     <string name="custom_tabs_menu_item_copy_link">Link másolása</string>
     <string name="custom_tabs_menu_item_help">Súgó</string>
@@ -1706,7 +1717,6 @@ Keressen rá ismét a podcastra."</string>
     <string name="google_play_services_update_required">Ha továbbra is használni szeretné a hírcsatornát, frissítenie kell a Google Play-szolgáltatásokat</string>
     <string name="google_plus_profile_contact_label">Google+-profil</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">Nincs engedélye a Google Keresés használatára.</string>
     <string name="goto_system_settings">Beállítások</string>
     <string name="group_desc">%2$d/%1$d. csoport.</string>
     <string name="gsa_home">Főoldal</string>
@@ -2172,6 +2182,14 @@ A személyes találatokat a Segéd beállításaiban kapcsolhatja ki."</string>
     <string name="lens_info_panel_opening_lens">A Lens megnyitása…</string>
     <string name="lens_overflow_menu_description">Beállítások</string>
     <string name="lens_quit_button_description">Kilépés</string>
+    <string name="lens_results_feedback_card_prompt">Mire használná a Lenst?</string>
+    <string name="lens_results_feedback_card_title">Segíthet a Lens továbbfejlesztésében</string>
+    <string name="lens_results_feedback_no">NEM</string>
+    <string name="lens_results_feedback_prompt_text">Hasznosnak találta a találatokat?</string>
+    <string name="lens_results_feedback_response_to_negative">Köszönjük, hogy segít a Lens továbbfejlesztésében.</string>
+    <string name="lens_results_feedback_response_to_positive">Min lehetett volna javítani?</string>
+    <string name="lens_results_feedback_send_report">VISSZAJELZÉS KÜLDÉSE</string>
+    <string name="lens_results_feedback_yes">IGEN</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Kevesebb kapcsolatfelvételi alkalmazás megjelenítése</string>
     <string name="libraries_material_featurehighlight_dismiss">Elvetés</string>
@@ -2249,7 +2267,6 @@ A személyes találatokat a Segéd beállításaiban kapcsolhatja ki."</string>
     <string name="menu_refresh">Frissítés</string>
     <string name="menu_send_button_content_description">Küldés gomb a visszajelzés elküldéséhez.</string>
     <string name="menu_send_feedback">Visszajelzés küldése</string>
-    <string name="menu_settings">Beállítások</string>
     <string name="menu_share">Megosztás</string>
     <string name="menu_view_in_browser">Megtekintés böngészőben</string>
     <string name="menu_visit_page">Oldal megnyitása</string>
@@ -2368,7 +2385,6 @@ Tekintse meg és kezelje összes Google-keresését a Saját tevékenységek kö
     <string name="navigation_home_label">Főoldal</string>
     <string name="navigation_recently_label">Legújabb</string>
     <string name="navigation_search_label">Keresés</string>
-    <string name="navigation_updates_label">Közelgő</string>
     <string name="nearby_attractions">Közeli látnivalók</string>
     <string name="nearby_events_title">Események a közelben</string>
     <string name="network_error">A Google jelenleg nem érhető el.</string>
@@ -2376,6 +2392,7 @@ Tekintse meg és kezelje összes Google-keresését a Saját tevékenységek kö
     <string name="network_error_fetching_weather_data_status_text">A hálózat jelenleg nem áll rendelkezésre</string>
     <string name="network_error_no_connection_tts">Jelenleg nincs internetkapcsolat.</string>
     <string name="network_error_resend_audio">Hanganyag újraküldése</string>
+    <string name="network_error_try_again">Újrapróbálkozás</string>
     <string name="network_location_required_text">A helyalapú kártyák – például a helyi időjárás vagy az ingázási forgalom – megtekintéséhez kapcsolja be a Wi-Fi és mobilhálózat-alapú helymeghatározást.</string>
     <string name="network_location_required_text_klp">A helyalapú kártyák – például a helyi időjárás vagy az ingázási forgalom – megtekintéséhez válassza a nagyon pontos vagy az energiatakarékos helyhozzáférési módot</string>
     <string name="never">Soha</string>
@@ -2541,6 +2558,7 @@ Biztosan folytatja?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Frissítse a nyelvi csomagot.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Az offline hang engedélyezése</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Ön jelenleg offline állapotban van. Ha továbbra is használni szeretné a hangvezérlést offline állapotban, akkor telepítenie kell a legfrissebb nyelvi csomagot. Amikor nem jelent problémát a képernyő használata, koppintson az értesítésre a telepítés megkezdéséhez.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Ön jelenleg offline állapotban van. Ha offline állapotban szeretné használni a hangvezérlést, a legújabb nyelvi csomagra van szüksége. Ezt akkor telepíti a rendszer, amikor legközelebb csatlakozik az internethez.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Ön jelenleg offline állapotban van. Ha továbbra is használni szeretné a hangvezérlést offline állapotban, és szeretne új funkciókhoz jutni, telepítenie kell a legfrissebb nyelvi csomagot. Amikor nem jelent problémát a képernyő használata, koppintson az értesítésre a telepítés megkezdéséhez.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Ön jelenleg offline állapotban van. Jelenleg nem tudom elérni a Google-t, azonban sok más dologban továbbra is segíteni tudok. Próbálkozzon a „make a call” (hívás indítása) vagy a „what can I say?” (mit mondhatok?) kimondásával.</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Ön jelenleg offline állapotban van. Jelenleg nem tudom elérni a Google-t, azonban sok más dologban még mindig segíteni tudok. Próbálkozzon a „what can I say?” (mit mondhatok?) kérdéssel vagy a következő kimondásával: %1$s.</string>
@@ -3160,7 +3178,7 @@ Becsült méret: %dKb"</string>
     <string name="recently_empty_state_read_later_body_text">Az eszközre letöltött elemeket hét napig őrizzük meg.</string>
     <string name="recently_empty_state_read_later_title_text">Oldalak hozzáadása későbbi olvasáshoz</string>
     <string name="recently_entry_interaction_offline">A kívánt oldal nem nyitható meg offline állapotban.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">A függőben lévő keresés nem nyitható meg.</string>
     <string name="recently_feed_entry">Hírcsatorna</string>
     <string name="recently_google_doodle_for">%s Google ünnepi emblémája</string>
     <string name="recently_keep_on_device_until">Megtartás eddig:</string>
@@ -3437,6 +3455,9 @@ Próbáljon meg újra rákeresni a podcastra."</string>
     <string name="search_the_web">Keresés az interneten</string>
     <string name="search_the_web_menu_text">Keresés az interneten</string>
     <string name="search_the_web_suggestion">Keresés az interneten</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Értesítést küldünk a találatokról, amint javul a kapcsolat minősége.</string>
+    <string name="search_timed_out_card_explanation_text">Lassú hálózati kapcsolat miatt történhetett.</string>
+    <string name="search_timed_out_card_title_text">A keresés túllépte az időkorlátot</string>
     <string name="search_widget_customization">Modul testreszabása</string>
     <string name="searchbar_hint">Podcastok keresése</string>
     <string name="searchbox_hint">Legutóbbi keresések</string>
@@ -3493,6 +3514,7 @@ Próbáljon meg újra rákeresni a podcastra."</string>
     <string name="settings_legal_notices_title">Jogi közlemények</string>
     <string name="settings_location_tos_title">Helyadatok – Szerződési Feltételek</string>
     <string name="settings_privacy_policy_title">Adatvédelmi irányelvek</string>
+    <string name="settings_search_icon_title">Keresési beállítások</string>
     <string name="settings_tos_title">Szerződési Feltételek</string>
     <string name="setup_complete_explanation">A(z) %s eszköz most már válaszol, ha Ön azt mondja, hogy „Ok Google”. Íme néhány lehetőség, amit kipróbálhat.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Segédje mostantól válaszol, ha Ön a következőhöz beszél: %s. Íme néhány lehetőség, amit kipróbálhat.</string>
@@ -3828,7 +3850,6 @@ Ehhez a műsorhoz jelenleg nem lehet hozzáférni."</string>
     <string name="training_button_yes">IGEN</string>
     <string name="training_closet_error">A beállítások betöltése sikertelen</string>
     <string name="training_more_questions">TOVÁBBI KÉRDÉSEK</string>
-    <string name="transient_optin_text">Nem kell várakoznia – értesítést kap, amikor készen állnak a találatok.</string>
     <string name="transit_alarm_notification_subtitle_template">Érkezési idő: %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Érkezési idő: %1$s</string>
     <string name="transit_alarm_vog_text">Leszállás itt: %1$s, ekkor: %2$s</string>
@@ -4019,6 +4040,8 @@ Bejelentkezve mint %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Mely eszközöket szeretné módosítani?</string>
     <string name="user_defined_action_task_home_control_settings">Otthon vezérlésének beállításai</string>
     <string name="user_defined_action_task_light_title">Világítás</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Melyik ajtót szeretné bezárni?</string>
+    <string name="user_defined_action_task_lock_title">Ajtók bezárása</string>
     <string name="user_defined_action_task_music_duration_summary">A zene kikapcsolásának időzítése csak a Google Home-on áll rendelkezésre</string>
     <string name="user_defined_action_task_music_duration_title">Zene kikapcsolása ennyi idő után…</string>
     <string name="user_defined_action_task_music_example_list">Adja meg a kívánt lejátszási listát, előadót, dalt vagy műfajt. Például azt, hogy „Nyugis lista” vagy hogy „The Beatles”. Ez a rutin az &lt;a href=assistant-settings://?feature=music>alapértelmezés szerinti zeneszolgáltatást&lt;/a> használja majd.</string>

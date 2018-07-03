@@ -517,11 +517,18 @@ Assistant käyttää tätä asetusta työmatkojasi koskeviin kysymyksiin."</stri
     <string name="assistant_settings_duo_calls_unlink_duo_title">Poista Duo-tilin linkitys</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Et voi enää soittaa tai vastaanottaa Duo-puheluita.</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Poistetaanko Duon linkitys?</string>
+    <string name="assistant_settings_duo_consent_summary">Google vahvistaa numeron lähettämällä koodin tekstiviestinä. Operaattori voi veloittaa viestistä. Puhelinnumerosi tai Google-tilisi nimen tuntevat käyttäjät saavat sinuun yhteyden kaikissa Googlen palveluissa.</string>
+    <string name="assistant_settings_duo_consent_title">Soita Smart Displaylla laadukkaita videopuheluita kenelle tahansa Google Duo ‑sovelluksen käyttäjälle. Vahvista numerosi, niin voit luoda Duo-tilin. Samalla numero linkitetään Google-tiliisi.</string>
     <string name="assistant_settings_email_notification_summary">Lue uusimmista Assistantin uutisista ja ominaisuuksista, niin pysyt ajan tasalla</string>
     <string name="assistant_settings_email_notification_title">Google Assistant ‑sähköpostit</string>
     <string name="assistant_settings_enable_google_assistant_title">Ota Google Assistant käyttöön</string>
     <string name="assistant_settings_enabled_news_explanation">Assistant käyttää seuraavia uutislähteitä, kun sanot Kuuntele uutisia tai lisäät uutiset ohjelmaan.</string>
     <string name="assistant_settings_enabled_news_list">Uutislähteesi</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ei nyt</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Käytä Duoa</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Soita videopuheluita Smart Displaylla aiemmin luodun Duo-tilin kautta. Ystävät ja perheenjäsenet saavat sinuun yhteyden numerosta %1$s.
+Voit poistaa Duo-tilin ja tämän laitteen linkityksen koska vain Assistantin asetuksista."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videopuhelut</string>
     <string name="assistant_settings_feature_availability">Saatavilla näillä: %1$s</string>
     <string name="assistant_settings_float_action_button_label">Lisää laitteita</string>
     <string name="assistant_settings_header_title">Asetukset</string>
@@ -631,6 +638,7 @@ Assistant käyttää tätä asetusta työmatkojasi koskeviin kysymyksiin."</stri
     <string name="assistant_settings_music_gpm_premium_dialog_text">Sinun on tilattava Google Play Musiikki, jotta voit toistaa sitä Google Homella. Tee tilaus <a href="https://play.google.com/store/music">Play Musiikki ‑sovelluksessa</a>. Voit myös ostaa tai <a href="https://support.google.com/googleplay?p=home_uploadmusic">lähettää musiikkia</a>.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Edellyttää Play Musiikin tilausta tai kirjastoa</string>
     <string name="assistant_settings_music_icon_text">Musiikkipalvelun kuvake</string>
+    <string name="assistant_settings_music_link_dialog_text">Linkitä Google-tilisi ja %1$s, niin voit toistaa musiikkia yhteensopivilla laitteilla ja käyttää soittolistojasi. Kun %1$s on käytössä Google Assistantin kautta, %1$s voi saada kyselysi käsiteltäväksi palvelun tietosuojailmoituksen mukaisesti. %1$s voi tarjota sinulle omia hakutuloksia ja yksilöllisiä suosituksia. Voit poistaa tilisi linkityksen koska tahansa Assistantin asetuksista.</string>
     <string name="assistant_settings_music_no_preference_summary">Käytä muiden tilien asetuksia jaetuilla laitteilla</string>
     <string name="assistant_settings_music_no_preference_title">Ei oletuspalvelua</string>
     <string name="assistant_settings_music_premium_dialog_button">Selvä!</string>
@@ -641,6 +649,7 @@ Assistant käyttää tätä asetusta työmatkojasi koskeviin kysymyksiin."</stri
     <string name="assistant_settings_music_unable_unlink_default">Oletusmusiikkipalvelun linkitystä ei voi poistaa.</string>
     <string name="assistant_settings_music_unlink_dialog_text">Jos poistat tilin linkityksen, %1$s ‑toisto Google Assistantilla ei ole enää käytettävissä.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Musicin toistaminen Google Homella edellyttää YouTube Premium ‑jäsenyyttä. Rekisteröidy osoitteessa <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Musicin toistaminen Google Homella edellyttää YouTube Music Premium ‑jäsenyyttä. Rekisteröidy osoitteessa <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium ‑jäsenyys vaaditaan</string>
     <string name="assistant_settings_news_provider_delete_button_description">Poista %1$s uutislähteidesi joukosta.</string>
     <string name="assistant_settings_news_supports_video">Smart Displayt tukevat videoiden toistoa</string>
@@ -844,8 +853,10 @@ Assistant käyttää tätä asetusta antaessaan reittiohjeita kodin ja työpaika
     <string name="assistant_settings_update_error_message">Asetusta ei voitu päivittää. Tarkista yhteys.</string>
     <string name="assistant_settings_video_calls_service_category_title">Assistant voi soittaa videopuheluja valitsemallasi palvelulla Google Smart Displaysta ja tietyistä muista laitteista. Hätäpuhelut eivät ole käytettävissä.</string>
     <string name="assistant_settings_video_icon_text">Videopalvelun kuvake</string>
+    <string name="assistant_settings_video_link_dialog_text">Linkitä Google-tilisi ja %1$s, niin voit toistaa sisältöä yhteensopivilla laitteilla. Kun %1$s on käytössä Google Assistantin avulla, %1$s voi saada kyselysi käsiteltäväksi palvelun tietosuojakäytännön mukaisesti. %1$s voi tarjota sinulle omia hakutuloksia ja yksilöllisiä suosituksia. Voit poistaa tilisi linkityksen koska tahansa Assistantin asetuksista.</string>
     <string name="assistant_settings_video_provider_category_summary">Toista sarjoja ja elokuvia pyytämällä niitä Assistantilta.</string>
     <string name="assistant_settings_video_provider_category_title">Videot</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Jos poistat tilin linkityksen, %1$s ei ole enää toistettavissa Google Assistantilla.</string>
     <string name="assistant_settings_videos_photos_title">Videot ja valokuvat</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast tai Chromecast Built-In -TV</string>
     <string name="assistant_settings_voice_and_video_calls_title">Ääni- ja videopuhelut</string>
@@ -988,7 +999,6 @@ Tiedonsiirrosta voidaan veloittaa."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Siirry tietosivulle</string>
     <string name="captive_portal_error_card_cell_title_text">Datayhteysongelma</string>
     <string name="captive_portal_error_card_explanation_text">Tämä Wi-Fi-verkko edellyttää kirjautumista. Jotkin Wi-Fi-portaalit voivat olla heikosti suojattuja, joten kirjaudu vain luotettaviin verkkoihin. Kun olet muodostanut yhteyden, tee haku uudelleen.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Kirjaudu verkkoon</string>
     <string name="captive_portal_error_card_title_text">Käytä Wi-Fiä kirjautumalla sisään</string>
     <string name="car_rental_cartype">Autotyyppi</string>
     <string name="car_rental_dropoff">Palautusaika</string>
@@ -1202,6 +1212,7 @@ Voit katsella ja hallinnoida näitä keskusteluja Google-tilin asetusten %1$s �
     <string name="current_search_base_url_local">Käytössä paikallinen verkkotunnus (%1$s)</string>
     <string name="current_status">Tarkista nykyinen tila</string>
     <string name="custom">Muokattu (ei voi muokata puhelimessa)</string>
+    <string name="custom_tabs_explore_action_button_desc">Näytä tähän liittyvät sivut</string>
     <string name="custom_tabs_link_copied">Linkki kopioitiin leikepöydälle.</string>
     <string name="custom_tabs_menu_item_copy_link">Kopioi linkki</string>
     <string name="custom_tabs_menu_item_help">Ohje</string>
@@ -1706,7 +1717,6 @@ Yritä etsiä podcast uudelleen."</string>
     <string name="google_play_services_update_required">Päivitä Google Play Palvelut, jos haluat jatkaa syötteen käyttöä.</string>
     <string name="google_plus_profile_contact_label">Google+ -profiili</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">Sinulla ei ole lupaa käyttää Google-hakua.</string>
     <string name="goto_system_settings">Asetukset</string>
     <string name="group_desc">Ryhmä %1$d/%2$d.</string>
     <string name="gsa_home">Koti</string>
@@ -2172,6 +2182,14 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="lens_info_panel_opening_lens">Avataan Lensiä…</string>
     <string name="lens_overflow_menu_description">Asetukset</string>
     <string name="lens_quit_button_description">Lopeta</string>
+    <string name="lens_results_feedback_card_prompt">Mitä haluat tehdä Lensillä?</string>
+    <string name="lens_results_feedback_card_title">Auta meitä kehittämään Lensiä</string>
+    <string name="lens_results_feedback_no">EI</string>
+    <string name="lens_results_feedback_prompt_text">Olivatko tulokset hyödyllisiä?</string>
+    <string name="lens_results_feedback_response_to_negative">Kiitos, että autat meitä kehittämään Lensiä.</string>
+    <string name="lens_results_feedback_response_to_positive">Missä on parantamisen varaa?</string>
+    <string name="lens_results_feedback_send_report">LÄHETÄ PALAUTETTA</string>
+    <string name="lens_results_feedback_yes">KYLLÄ</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Näytä vähemmän yhteystietosovelluksia</string>
     <string name="libraries_material_featurehighlight_dismiss">Hylkää</string>
@@ -2249,7 +2267,6 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="menu_refresh">Päivitä</string>
     <string name="menu_send_button_content_description">Lähetä-painike palautteen lähettämistä varten</string>
     <string name="menu_send_feedback">Lähetä palautetta</string>
-    <string name="menu_settings">Asetukset</string>
     <string name="menu_share">Jaa</string>
     <string name="menu_view_in_browser">Näytä selaimessa</string>
     <string name="menu_visit_page">Käy sivulla</string>
@@ -2368,7 +2385,6 @@ Omissa tapahtumissa näet esimerkiksi kaikki Google-hakusi ja voit hallita niit�
     <string name="navigation_home_label">Etusivu</string>
     <string name="navigation_recently_label">Viimeisimmät</string>
     <string name="navigation_search_label">Hae</string>
-    <string name="navigation_updates_label">Tulevat</string>
     <string name="nearby_attractions">Lähellä sijaitsevia nähtävyyksiä</string>
     <string name="nearby_events_title">Lähistön tapahtumat</string>
     <string name="network_error">Ei yhteyttä Googleen.</string>
@@ -2376,6 +2392,7 @@ Omissa tapahtumissa näet esimerkiksi kaikki Google-hakusi ja voit hallita niit�
     <string name="network_error_fetching_weather_data_status_text">Verkkoon ei juuri nyt saada yhteyttä.</string>
     <string name="network_error_no_connection_tts">Internetyhteyttä ei ole juuri nyt.</string>
     <string name="network_error_resend_audio">Lähetä äänimateriaali uudelleen</string>
+    <string name="network_error_try_again">Yritä uudelleen</string>
     <string name="network_location_required_text">Jos haluat nähdä sijaintiin perustuvia kortteja, kuten paikallinen sää ja työmatkan liikenne, ota käyttöön Wi-Fi- ja matkapuhelinverkon sijainti</string>
     <string name="network_location_required_text_klp">Jos haluat nähdä sijaintiin perustuvia kortteja, kuten paikallinen sää ja työmatkan liikenne, valitse sijainnin tunnistuksen suuri tarkkuus- tai virransäästötila</string>
     <string name="never">Ei koskaan</string>
@@ -2541,6 +2558,7 @@ Haluatko jatkaa?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Päivitä kielipaketti.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Ota offline-puhe käyttöön</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Olet offline-tilassa. Jos haluat edelleen käyttää puhetoimintoja offline-tilassa, asenna uusin kielipaketti. Aloita asennus koskettamalla ilmoitusta, kun näytön käyttö on turvallista.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Olet offline-tilassa. Jos haluat käyttää puhetoimintoja offline-tilassa, tarvitset uusimman kielipaketin. Se asennetaan, kun olet taas yhteydessä verkkoon.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Olet offline-tilassa. Jos haluat edelleen käyttää puhetoimintoja offline-tilassa ja saada uusia ominaisuuksia, asenna uusin kielipaketti. Aloita asennus koskettamalla ilmoitusta, kun näytön käyttö on turvallista.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Olet offline-tilassa. En saa yhteyttä Googleen juuri nyt, mutta voin auttaa muissa asioissa. Sano vaikkapa ”soita puhelu” tai ”mitä voin sanoa?”</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Olet offline-tilassa. En saa yhteyttä Googleen juuri nyt, mutta voin auttaa muissa asioissa. Sano vaikkapa %1$s tai Mitä voin sanoa?</string>
@@ -3160,7 +3178,7 @@ Arvioitu koko: %d kt"</string>
     <string name="recently_empty_state_read_later_body_text">Pidämme kohteet ladattuna laitteellasi 7 päivän ajan.</string>
     <string name="recently_empty_state_read_later_title_text">Lisää sivuja myöhemmin luettavaksi</string>
     <string name="recently_entry_interaction_offline">Pyydettyä sivua ei voi avata offline-tilassa.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Pyydettyä odottavaa puhehakua ei voi avata.</string>
     <string name="recently_feed_entry">Fiidi</string>
     <string name="recently_google_doodle_for">Google Doodle: %s</string>
     <string name="recently_keep_on_device_until">Laitesäilytyksen aikaraja</string>
@@ -3437,6 +3455,9 @@ Yritä hakea podcastia uudelleen."</string>
     <string name="search_the_web">Verkkohaku</string>
     <string name="search_the_web_menu_text">Verkkohaku</string>
     <string name="search_the_web_suggestion">Verkkohaku</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Saat ilmoituksen tuloksista, kun yhteys paranee.</string>
+    <string name="search_timed_out_card_explanation_text">Ongelma voi johtua hitaasta verkkoyhteydestä.</string>
+    <string name="search_timed_out_card_title_text">Haku aikakatkaistiin</string>
     <string name="search_widget_customization">Muokkaa widgetiä</string>
     <string name="searchbar_hint">Hae podcasteja</string>
     <string name="searchbox_hint">Hae viimeaikaisia</string>
@@ -3493,6 +3514,7 @@ Yritä hakea podcastia uudelleen."</string>
     <string name="settings_legal_notices_title">Oikeudelliset ilmoitukset</string>
     <string name="settings_location_tos_title">Paikkatietojen käyttöehdot</string>
     <string name="settings_privacy_policy_title">Tietosuojakäytäntö</string>
+    <string name="settings_search_icon_title">Hakuasetukset</string>
     <string name="settings_tos_title">Käyttöehdot</string>
     <string name="setup_complete_explanation">Jatkossa %s vastaa, kun sanot Ok Google. Voit kokeilla esimerkiksi seuraavia komentoja.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Jatkossa Assistant vastaa, kun puhut laitteelle %s. Voit kokeilla esimerkiksi seuraavia komentoja.</string>
@@ -3828,7 +3850,6 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="training_button_yes">KYLLÄ</string>
     <string name="training_closet_error">Asetusten lataus epäonnistui</string>
     <string name="training_more_questions">LISÄÄ KYSYMYKSIÄ</string>
-    <string name="transient_optin_text">Sinun ei tarvitse odotella – saat ilmoituksen, kun tulokset ovat valmiit.</string>
     <string name="transit_alarm_notification_subtitle_template">Saavut klo %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Saavut klo %1$s</string>
     <string name="transit_alarm_vog_text">Poistu kyydistä %1$s klo %2$s</string>
@@ -4019,6 +4040,8 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="user_defined_action_task_devices_to_adjust">Mitä laitteita haluat säätää?</string>
     <string name="user_defined_action_task_home_control_settings">Kodin ohjausasetukset</string>
     <string name="user_defined_action_task_light_title">Valot</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Mitkä ovet haluat lukita?</string>
+    <string name="user_defined_action_task_lock_title">Lukitse ovet</string>
     <string name="user_defined_action_task_music_duration_summary">Musiikin toiston lopettamisajastin käytettävissä vain Google Homessa</string>
     <string name="user_defined_action_task_music_duration_title">Lopeta musiikin toisto tämän ajan kuluttua…</string>
     <string name="user_defined_action_task_music_example_list">Kirjoita soittolistan, kappaleen tai tyylilajin nimi, esimerkiksi Rentouttava soittolista tai Beatles. &lt;a href=assistant-settings://?feature=music>Oletusmusiikkipalvelusi&lt;/a> toteuttaa komennon.</string>

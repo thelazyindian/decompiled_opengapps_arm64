@@ -2,49 +2,97 @@
 u
 
 buildWeatherGraph*1
-how about this weekendweather this weekendØ6*+
-how about next weekweather next weekØ6
+how about this weekendweather this weekend¨F*+
+how about next weekweather next week¨F
 ª
 
 La Liga.*Full-time.*Barcelona*&
-lionel messiPlayer of the matchˆ'*4
-fc barcelona next matchBarcelona's next matchØ6*)
-la liga standingsLa Liga Standings¨F
+lionel messiPlayer of the matchØ6*4
+fc barcelona next matchBarcelona's next match¨F*)
+la liga standingsLa Liga StandingsøU
 ­
 
 Deadpool 2(Release|release)*D
-*what movie theaters are showing deadpool 2Cinemas & Showtimes¨F*%
-director of deadpool 2Directorˆ'*
-cast of deadpool 2CastØ6
+*what movie theaters are showing deadpool 2Cinemas & ShowtimesøU*%
+director of deadpool 2DirectorØ6*
+cast of deadpool 2Cast¨F
 Š
 Prince Harry* 
-prince harry spouseSpouseˆ'*,
-prince harry wedding dateWedding dateˆ'*(
+prince harry spouseSpouseØ6*,
+prince harry wedding dateWedding dateØ6*(
 prince harry profession
-Professionˆ'
+ProfessionØ6
 „"
 Attractions in Barcelona*,
-placa de catalunyaPlaÃ§a de CatalunyaØ6*
-montjuic castle	MontjuÃ¯cØ6*
-camp nouCamp NouØ6
-Á
+placa de catalunyaPlaÃ§a de Catalunya¨F*
+montjuic castle	MontjuÃ¯c¨F*
+camp nouCamp Nou¨F
+Í
 u
-sq48GPb cgNUWc\"><div><span>(?<league>[^<]+)<.*team_name_left\">(?<team1>[^<]+)<.*team_name_right\">(?<team2>[^<]+)<*
-$team1 roster$team1 roster*
-$team2 roster$team2 roster*
-$team1 coach$team1 coach*
-$team2 coach$team2 coach*&
-$league standings$league standings*$
-$league schedule$league schedule
-æ%
-(?<movieName>.*)(Release|release)*
-cast of $movieNameCastØ6*%
-director of $movieNameDirectorˆ'*1
-movies similar to $movieNameSimilar moviesØ6*D
-*what movie theaters are showing $movieNameCinemas & Showtimes¨F
-£)
-(?<actorName>.*)\b[aA](ctor|ctress)\b*
-$actorName moviesMovies*
-$actorName tv showsTV shows*
-$actorName awardsAwards*
-$actorName familyFamily
+sq48GPb cgNUWc\"><div><span>(?<league>[^<]+)<.*team_name_left\">(?<team1>[^<]+)<.*team_name_right\">(?<team2>[^<]+)<* 
+'$team1' roster$team1 roster* 
+'$team2' roster$team2 roster*
+'$team1' coach$team1 coach*
+'$team2' coach$team2 coach*(
+'$league' standings$league standings*&
+'$league' schedule$league schedule
+î%
+(?<movieName>.*)(Release|release)*
+cast of '$movieName'Cast¨F*'
+director of '$movieName'DirectorØ6*3
+movies similar to '$movieName'Similar movies¨F*F
+,what movie theaters are showing '$movieName'Cinemas & ShowtimesøU
+ä€
+(?<artistName>.*)k\b(architect|Architect|designer|Designer|graphic artist|Graphic artist|painter|Painter|sculptor|Sculptor)\b*
+'$artistName' ageAgeˆ'*
+'$artistName' worksWorksØ6*!
+'$artistName' familyFamilyØ6
+Ú\
+(?<playerName>.*)G\b(athlete|boxer|cricketer|driver|golfer|player|quarterback|wrestler)\b*
+'$playerName' winsWins*$
+'$playerName' net worth	Net Worth*
+'$playerName' ageAge*
+'$playerName' familyFamily
+«)
+(?<actorName>.*)\b[aA](ctor|ctress)\b*
+'$actorName' moviesMovies*!
+'$actorName' tv showsTV shows*
+'$actorName' awardsAwards*
+'$actorName' familyFamily
+§M
+(?<artistName>.*)8\b(composer|Composer|DJ|drummer|Drummer|singer|Singer)\b*
+'$artistName' songsSongs*
+'$artistName' ageAge*
+'$artistName' familyFamily
+r4
+(?<bandName>.*)!\b(band|Band|duo|Duo|trio|Trio)\b*
+'$bandName' songsSongs*
+'$bandName' membersMembers
+ÎU
+(?<aristocratName>.*)<\b(king|King|prince|Prince|princess|Princess|queen|Queen|)\b*
+'$aristocratName' ageAgeˆ'*-
+'$aristocratName' profession
+Professionˆ'*%
+'$aristocratName' familyFamilyˆ'
+‡"u
+s(Attractions|Destinations) in (?<location>.+) include (?<place1>[^,]+), (?<place2>[^,]+), (?<place3>.+) and others.*.
+#show me information about '$place1'$place1*.
+#show me information about '$place2'$place2*.
+#show me information about '$place3'$place3
+´&
+(?<countryName>.*)\b(Country in)\b*!
+'$countryName' capitalCapital*&
+'$countryName' languageLanguageˆ'*!
+'$countryName' climateClimate**
+'$countryName' population
+Populationˆ'*%
+'$countryName' economics	Economics*&
+'$countryName' currencyCurrencyˆ'*!
+'$countryName' historyHistory
+Ò+
+(?<cityName>.*)\b(Capital of|City in)\b*6
+'$cityName' tourist attractionsTourist attractions*
+'$cityName' climateClimate*'
+'$cityName' population
+Populationˆ'*"
+'$cityName' economics	Economics

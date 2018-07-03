@@ -6,6 +6,6 @@
             <android.support.v7.widget.AppCompatImageView android:id="@id/quartz_ganache_ingredient_card_selector_bullet" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/quartz_ganache_ingredient_bullet" />
             <View android:id="@id/quartz_ganache_ingredient_card_selector_stroke" android:background="@color/quartz_meals_list_text_color_dark_theme_active" android:visibility="invisible" android:layout_width="@dimen/quartz_ganache_ingredient_selector_stroke_size" android:layout_height="fill_parent" android:layout_marginStart="@dimen/quartz_ganache_ingredient_selector_stroke_margin_start" android:elevation="1.0dip" />
         </FrameLayout>
-        <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:id="@id/quartz_ganache_ingredient_card_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/quartz_ganache_line_spacing" style="@style/Quartz.Text.Meals.Ingredients.Inactive" />
+        <com.google.assistant.display.android.libraries.baselinetextview.BaselineTextView android:id="@id/quartz_ganache_ingredient_card_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/quartz_ganache_line_spacing" style="@style/Quartz.Text.Meals.Ingredients.Inactive" />
     </LinearLayout>
 </LinearLayout>

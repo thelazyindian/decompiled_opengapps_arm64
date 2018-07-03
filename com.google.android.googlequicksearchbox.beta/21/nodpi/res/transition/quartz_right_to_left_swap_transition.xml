@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <transition android:interpolator="@interpolator/quartz_0_0_0_1_bezier" android:duration="300" app:directionMode="direction_decrease" app:dimension="x" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.TranslationTransition">
+        <targets>
+            <target android:targetName="@string/quartz_canvas_left_transition_name" />
+            <target android:targetName="@string/quartz_canvas_old_left_transition_name" />
+        </targets>
+    </transition>
+    <transition android:interpolator="@interpolator/quartz_0_0_0_1_bezier" android:duration="300" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.PaddingTransition">
+        <targets>
+            <target android:targetName="@string/quartz_canvas_left_transition_name" />
+        </targets>
+    </transition>
+</transitionSet>

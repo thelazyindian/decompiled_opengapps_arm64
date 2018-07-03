@@ -517,11 +517,18 @@
     <string name="assistant_settings_duo_calls_unlink_duo_title">取消連結 Duo 帳戶</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">你將無法再透過 Duo 撥打電話或接聽來電</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">要取消連結 Duo 帳戶嗎？</string>
+    <string name="assistant_settings_duo_consent_summary">Google 會透過簡訊傳送驗證碼給你，以便驗證這組號碼。電信業者可能會向你收取行動通訊費用。知道你的電話號碼或 Google 帳戶的使用者將可透過各項 Google 服務與你聯絡。</string>
+    <string name="assistant_settings_duo_consent_title">在智慧螢幕上與任何 Google Duo 應用程式使用者進行高品質的視訊通話。只要驗證你的電話號碼即可建立 Duo 帳戶。完成驗證後，系統也會將該帳戶與你的 Google 帳戶建立連結。</string>
     <string name="assistant_settings_email_notification_summary">隨時掌握與 Google 助理相關的最新消息和功能</string>
     <string name="assistant_settings_email_notification_title">Google 助理電子郵件</string>
     <string name="assistant_settings_enable_google_assistant_title">啟用 Google 助理</string>
     <string name="assistant_settings_enabled_news_explanation">當你說出「收聽新聞」或將新聞加入日常事務後，你的 Google 助理將會播放這些來源的新聞。</string>
     <string name="assistant_settings_enabled_news_list">你的新聞來源</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">暫時不要</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">使用 Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"在智慧螢幕上使用現有的 Duo 帳戶進行視訊通話。你的親朋好友可透過以下號碼與你聯絡：%1$s。
+你隨時可以前往 Google 助理設定取消 Duo 帳戶與這個裝置的連結。"</string>
+    <string name="assistant_settings_existing_duo_dialog_title">進行視訊通話</string>
     <string name="assistant_settings_feature_availability">適用於：%1$s</string>
     <string name="assistant_settings_float_action_button_label">新增裝置</string>
     <string name="assistant_settings_header_title">設定</string>
@@ -631,6 +638,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">必須訂閱 Google Play 音樂才能透過 Google Home 播放內容。你可以註冊 <a href="https://play.google.com/store/music">Play 音樂應用程式</a>，也可以改為購買或<a href="https://support.google.com/googleplay?p=home_uploadmusic">上傳自己的音樂</a>。</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">必須搭配 Play 音樂訂閱服務或媒體庫</string>
     <string name="assistant_settings_music_icon_text">音樂供應商圖示</string>
+    <string name="assistant_settings_music_link_dialog_text">將你的 Google 帳戶連結至「%1$s」，即可在相容裝置上播放該服務中的內容及存取自己的播放清單。當你要求 Google 助理與「%1$s」服務進行互動時，系統會將要求內容傳送到「%1$s」，並在符合隱私權聲明的情況下使用這些內容，以便「%1$s」為你提供個人化搜尋結果和個人化推薦內容。你隨時可以在 Google 助理設定中取消連結你的帳戶。</string>
     <string name="assistant_settings_music_no_preference_summary">使用共用裝置上其他帳戶的偏好設定</string>
     <string name="assistant_settings_music_no_preference_title">沒有預設的供應商</string>
     <string name="assistant_settings_music_premium_dialog_button">好，我知道了</string>
@@ -641,6 +649,7 @@
     <string name="assistant_settings_music_unable_unlink_default">無法取消連結你的預設音樂供應商</string>
     <string name="assistant_settings_music_unlink_dialog_text">取消連結帳戶將會停用 Google 助理存取「%1$s」播放內容的權限。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">你必須是 YouTube 音樂的 YouTube Premium 會員，才能在 Google Home 裝置上播放內容。如要申請成為會員，請前往以下網頁：<a href="http://youtube.com/red">youtube.com/red</a>。</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">你必須是 YouTube 音樂 Premium 會員才能在 Google Home 上播放 YouTube 音樂的內容。如要申請成為會員，請前往以下網址：<a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">必須申請成為 YouTube Premium 會員</string>
     <string name="assistant_settings_news_provider_delete_button_description">將「%1$s」從你已啟用的新聞來源中移除</string>
     <string name="assistant_settings_news_supports_video">可在智慧螢幕上觀看影片</string>
@@ -835,8 +844,10 @@
     <string name="assistant_settings_update_error_message">無法更新設定，請檢查網路連線。</string>
     <string name="assistant_settings_video_calls_service_category_title">當你使用某些裝置 (例如 Google 智慧型顯示器) 時，Google 助理可以透過你偏好的服務發起視訊通話。這項功能不支援撥打緊急救援電話。</string>
     <string name="assistant_settings_video_icon_text">影片供應來源圖示</string>
+    <string name="assistant_settings_video_link_dialog_text">將你的 Google 帳戶連結至「%1$s」，即可在相容裝置上播放該服務中的內容。當你要求 Google 助理與「%1$s」服務進行互動時，系統會將要求內容傳送到「%1$s」，並在符合隱私權政策的情況下使用這些內容，以便「%1$s」為你提供個人化搜尋結果和個人化推薦內容。你隨時可以在 Google 助理設定中取消連結你的帳戶。</string>
     <string name="assistant_settings_video_provider_category_summary">要求 Google 助理播放電視節目和電影。</string>
     <string name="assistant_settings_video_provider_category_title">影片</string>
+    <string name="assistant_settings_video_unlink_dialog_text">取消連結帳戶將會停用 Google 助理存取「%1$s」播放內容的權限。</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast 或內建 Chromecast 的電視</string>
     <string name="assistant_settings_voice_and_video_calls_title">語音和視訊通話</string>
     <string name="assistant_settings_voice_selection_availability_text">視你的 Google 助理語言設定而定，Google 助理語音選項可能無法在部分裝置上使用</string>
@@ -978,7 +989,6 @@
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">前往詳細資料頁面</string>
     <string name="captive_portal_error_card_cell_title_text">數據連線發生問題</string>
     <string name="captive_portal_error_card_explanation_text">你必須登入才能使用這個 Wi-Fi 網路。某些 Wi-Fi 入口網站的安全性較低，因此請務必只登入你信任的網路。連上網路後，請再次嘗試執行搜尋。</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">登入網路</string>
     <string name="captive_portal_error_card_title_text">登入以使用 Wi-Fi 網路</string>
     <string name="car_rental_cartype">車輛類型</string>
     <string name="car_rental_dropoff">還車時間</string>
@@ -1192,6 +1202,7 @@
     <string name="current_search_base_url_local">使用您的內部網域 (%1$s)</string>
     <string name="current_status">查看目前狀態</string>
     <string name="custom">自訂 (無法在手機上自訂)</string>
+    <string name="custom_tabs_explore_action_button_desc">查看相關頁面</string>
     <string name="custom_tabs_link_copied">已將連結複製到剪貼簿</string>
     <string name="custom_tabs_menu_item_copy_link">複製連結</string>
     <string name="custom_tabs_menu_item_help">說明</string>
@@ -1351,7 +1362,7 @@
     <string name="entry_desc">項目 %1$d/%2$d。</string>
     <string name="episode_completed">已結束</string>
     <string name="episode_date">%1$s</string>
-    <string name="episode_list_title_text">可觀看的集數</string>
+    <string name="episode_list_title_text">可觀看的劇集</string>
     <string name="episode_page_section_title">劇集</string>
     <string name="episodes_for_you">為你推薦</string>
     <string name="error">錯誤</string>
@@ -1430,7 +1441,7 @@
     <string name="eyes_onboarding_camera_permission_denied_message">智慧鏡頭需要拍照及錄影才能正常運作，請前往設定頁面授予相關權限。</string>
     <string name="eyes_onboarding_camera_permission_denied_settings_button">設定</string>
     <string name="eyes_onboarding_camera_permission_denied_title">智慧鏡頭發生錯誤</string>
-    <string name="eyes_onboarding_legal_body">"當你開啟 Google 智慧鏡頭取景器後，智慧鏡頭將繼續分析畫面上顯示的內容，以即時為你顯示搜尋結果。
+    <string name="eyes_onboarding_legal_body">"當你開啟 Google 智慧鏡頭取景器後，智慧鏡頭將持續分析畫面內容，以即時為你顯示搜尋結果。
 
 如果你已開啟「網路和應用程式活動」設定，無論你是在 Google 相簿、Google 助理或其他產品中使用智慧鏡頭，你的 Google 智慧鏡頭活動 (包括透過智慧鏡頭使用的圖片) 將會儲存至 Google 帳戶。你可以前往 account.google.com 查看及刪除資料，以及變更帳戶設定。
 
@@ -1632,7 +1643,6 @@ Google 智慧鏡頭並非無所不知，而且我們無法完全正確辨識特�
     <string name="google_play_services_update_required">如要繼續使用資訊提供，請更新 Google Play 服務</string>
     <string name="google_plus_profile_contact_label">Google+ 個人資料</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">您的權限不足，無法使用 Google 搜尋。</string>
     <string name="goto_system_settings">設定</string>
     <string name="group_desc">群組 %1$d/%2$d。</string>
     <string name="gsa_home">住家</string>
@@ -2111,6 +2121,14 @@ Google 智慧鏡頭並非無所不知，而且我們無法完全正確辨識特�
     <string name="lens_info_panel_opening_lens">正在開啟智慧鏡頭…</string>
     <string name="lens_overflow_menu_description">設定</string>
     <string name="lens_quit_button_description">結束</string>
+    <string name="lens_results_feedback_card_prompt">你希望智慧鏡頭具有哪些功能？</string>
+    <string name="lens_results_feedback_card_title">協助我們改善智慧鏡頭</string>
+    <string name="lens_results_feedback_no">否</string>
+    <string name="lens_results_feedback_prompt_text">你認為這些搜尋結果實用嗎？</string>
+    <string name="lens_results_feedback_response_to_negative">感謝你協助我們改善智慧鏡頭。</string>
+    <string name="lens_results_feedback_response_to_positive">請問有哪些需要改進的地方？</string>
+    <string name="lens_results_feedback_send_report">提供意見</string>
+    <string name="lens_results_feedback_yes">是</string>
     <string name="lens_title">Google 智慧鏡頭</string>
     <string name="less_contact_apps">顯示較少聯絡人應用程式</string>
     <string name="libraries_material_featurehighlight_dismiss">關閉</string>
@@ -2188,7 +2206,6 @@ Google 智慧鏡頭並非無所不知，而且我們無法完全正確辨識特�
     <string name="menu_refresh">重新整理</string>
     <string name="menu_send_button_content_description">用來提交意見的 [傳送] 按鈕。</string>
     <string name="menu_send_feedback">提供意見</string>
-    <string name="menu_settings">設定</string>
     <string name="menu_share">分享</string>
     <string name="menu_view_in_browser">在瀏覽器中查看</string>
     <string name="menu_visit_page">造訪網頁</string>
@@ -2307,7 +2324,6 @@ Google 智慧鏡頭並非無所不知，而且我們無法完全正確辨識特�
     <string name="navigation_home_label">首頁</string>
     <string name="navigation_recently_label">最近</string>
     <string name="navigation_search_label">搜尋</string>
-    <string name="navigation_updates_label">最新</string>
     <string name="nearby_attractions">附近景點</string>
     <string name="nearby_events_title">附近的活動</string>
     <string name="network_error">暫時無法連線到 Google。</string>
@@ -2315,6 +2331,7 @@ Google 智慧鏡頭並非無所不知，而且我們無法完全正確辨識特�
     <string name="network_error_fetching_weather_data_status_text">目前無法連上網路</string>
     <string name="network_error_no_connection_tts">目前未連線至網際網路。</string>
     <string name="network_error_resend_audio">重新傳送語音</string>
+    <string name="network_error_try_again">再試一次</string>
     <string name="network_location_required_text">如要查看跟所在位置有關的卡片 (例如當地天氣和通勤路況)，請開啟 Wi-Fi 和行動網路位置資訊</string>
     <string name="network_location_required_text_klp">如要查看跟所在位置有關的卡片 (例如當地天氣和通勤路況)，請選取高精確度或節約耗電量定位模式</string>
     <string name="never">永不</string>
@@ -2480,6 +2497,7 @@ Google 智慧鏡頭並非無所不知，而且我們無法完全正確辨識特�
     <string name="offline_eyesfree_install_language_pack_notification_body">升級語言套件。</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">啟用離線語音功能</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">你目前未連上網路。如要在離線狀態下繼續使用語音功能，你必須安裝最新版語言套件。請在不影響安全的情況下，在螢幕上輕觸相關通知進行安裝。</string>
+    <string name="offline_eyesfree_install_language_pack_tts">你目前未連上網路。如要在離線狀態下使用語音功能，你必須安裝最新版語言套件。系統會在你下次連上網路時進行安裝。</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">你目前未連上網路。如要在離線狀態下繼續使用語音功能以及取得新功能，你必須安裝最新版語言套件。請在不影響安全的情況下，在螢幕上輕觸相關通知進行安裝。</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">請注意，您目前未連上網路，因此系統無法連線至 Google，但仍可以協助您完成許多大小事。例如，您可以說出「撥打電話」或「我可以說什麼？」</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">請注意，您目前未連上網路，因此系統無法連線至 Google，但仍可以協助您完成許多大小事。例如，您可以說出「%1$s」或「我可以說什麼？」</string>
@@ -3097,7 +3115,7 @@ Google 智慧鏡頭並非無所不知，而且我們無法完全正確辨識特�
     <string name="recently_empty_state_read_later_body_text">系統會保留下載到裝置上的項目 7 天。</string>
     <string name="recently_empty_state_read_later_title_text">新增網頁以供稍後閱讀</string>
     <string name="recently_entry_interaction_offline">無法在離線時開啟要求的網頁。</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">無法開啟要求的待處理語音搜尋。</string>
     <string name="recently_feed_entry">即時資訊</string>
     <string name="recently_google_doodle_for">「%s」的 Google Doodle</string>
     <string name="recently_keep_on_device_until">保留在裝置上，直到：</string>
@@ -3374,6 +3392,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_the_web">搜尋網路</string>
     <string name="search_the_web_menu_text">搜尋網路</string>
     <string name="search_the_web_suggestion">搜尋網路</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">網路連線速度恢復正常後，系統就會傳送搜尋結果通知給你。</string>
+    <string name="search_timed_out_card_explanation_text">這可能是因為網路速度緩慢所致。</string>
+    <string name="search_timed_out_card_title_text">搜尋作業逾時</string>
     <string name="search_widget_customization">自訂小工具</string>
     <string name="searchbar_hint">搜尋 Podcast</string>
     <string name="searchbox_hint">搜尋最近的搜尋記錄</string>
@@ -3430,6 +3451,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="settings_legal_notices_title">法律聲明</string>
     <string name="settings_location_tos_title">位置資訊服務條款</string>
     <string name="settings_privacy_policy_title">隱私權政策</string>
+    <string name="settings_search_icon_title">搜尋設定</string>
     <string name="settings_tos_title">服務條款</string>
     <string name="setup_complete_explanation">你的「%s」現在會在你說出「Ok Google」時回應。你可以試試以下指令。</string>
     <string name="setup_complete_explanation_for_assistant_sdk">" Google 助理現在會在你與「%s」交談時回應。你可以試試以下指令。"</string>
@@ -3764,7 +3786,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="training_button_yes">是</string>
     <string name="training_closet_error">無法載入設定</string>
     <string name="training_more_questions">其他問題</string>
-    <string name="transient_optin_text">系統會在搜尋結果就緒時通知您，讓您不必一直等候。</string>
     <string name="transit_alarm_notification_subtitle_template">抵達目的地時間：%1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">抵達目的地時間：%1$s</string>
     <string name="transit_alarm_vog_text">%2$s 在%1$s下車</string>
@@ -3955,6 +3976,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">你要調整哪些裝置？</string>
     <string name="user_defined_action_task_home_control_settings">居家控制系統設定</string>
     <string name="user_defined_action_task_light_title">燈光</string>
+    <string name="user_defined_action_task_lock_control_which_doors">你想鎖上哪幾扇門？</string>
+    <string name="user_defined_action_task_lock_title">鎖門</string>
     <string name="user_defined_action_task_music_duration_summary">停止播放音樂的計時器僅支援 Google Home</string>
     <string name="user_defined_action_task_music_duration_title">在指定時間後關閉音樂...</string>
     <string name="user_defined_action_task_music_example_list">請輸入播放清單、演出者、歌曲或類型，例如「令人放鬆的音樂播放清單」或「披頭四」。這項日常事務會透過你的&lt;a href=assistant-settings://?feature=music>預設音樂服務&lt;/a>進行。</string>

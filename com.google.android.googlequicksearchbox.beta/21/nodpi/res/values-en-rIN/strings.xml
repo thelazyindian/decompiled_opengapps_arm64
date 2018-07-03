@@ -523,11 +523,18 @@ Your Assistant will use this setting for questions about your commute"</string>
     <string name="assistant_settings_duo_calls_unlink_duo_title">Unlink Duo account</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">You will no longer be able to start or receive calls on Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Unlink Duo account?</string>
+    <string name="assistant_settings_duo_consent_summary">Google will send a code via SMS to verify this number. Operator rates may apply. People who know your phone number or Google Account will be able to reach you across Google services.</string>
+    <string name="assistant_settings_duo_consent_title">Start high quality video calls on your Smart Display to anyone who has the Google Duo app. Verify your phone number to create a Duo account. This will also link it with your Google Account.</string>
     <string name="assistant_settings_email_notification_summary">Stay connected with latest news and features related to your Assistant</string>
     <string name="assistant_settings_email_notification_title">Google Assistant emails</string>
     <string name="assistant_settings_enable_google_assistant_title">Enable Google Assistant</string>
     <string name="assistant_settings_enabled_news_explanation">Your Assistant will play the news from these sources when you say, \"listen to the news\" or \"add news to a routine.\"</string>
     <string name="assistant_settings_enabled_news_list">Your news sources</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Not Now</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Use Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Use your existing Duo account for video calls on your Smart Display. Your friends and family can reach you at %1$s.
+You can unlink your Duo account from this device at any time in Assistant settings."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Video calling</string>
     <string name="assistant_settings_feature_availability">Available on %1$s</string>
     <string name="assistant_settings_float_action_button_label">Add devices</string>
     <string name="assistant_settings_header_title">Settings</string>
@@ -648,6 +655,7 @@ Your Assistant will use this setting for questions about your commute"</string>
     <string name="assistant_settings_music_unable_unlink_default">Cannot unlink your default music provider</string>
     <string name="assistant_settings_music_unlink_dialog_text">Unlinking your account will turn off access to playback from %1$s through the Google Assistant.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music requires a YouTube Premium membership to play on Google Home. You can sign-up at <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music requires a YouTube Music Premium membership to play on Google Home. You can sign up at <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium membership is required</string>
     <string name="assistant_settings_news_provider_delete_button_description">Remove %1$s from your enabled news sources</string>
     <string name="assistant_settings_news_supports_video">Video available on Smart Displays</string>
@@ -1080,7 +1088,6 @@ Data charges may apply."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Go to details page</string>
     <string name="captive_portal_error_card_cell_title_text">Data connection issue</string>
     <string name="captive_portal_error_card_explanation_text">This Wi-Fi network requires you to sign in. Only sign in to networks that you trust as some Wi-Fi portals may be less secure. When connected, try your search again.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Sign in to network</string>
     <string name="captive_portal_error_card_title_text">Sign in to use Wi-Fi</string>
     <string name="car_rental_cartype">Car type</string>
     <string name="car_rental_dropoff">Drop off</string>
@@ -1282,6 +1289,7 @@ You can view and manage these conversations in the %1$s section of your Google A
     <string name="current_search_base_url_local">Using your local domain (%1$s)</string>
     <string name="current_status">Check your current status</string>
     <string name="custom">"Customise (can't customise on phone)"</string>
+    <string name="custom_tabs_explore_action_button_desc">View related pages</string>
     <string name="custom_tabs_link_copied">Link copied to clipboard</string>
     <string name="custom_tabs_menu_item_copy_link">Copy link</string>
     <string name="custom_tabs_menu_item_help">Help</string>
@@ -1756,7 +1764,6 @@ Try searching for the podcast again."</string>
     <string name="google_play_services_update_required">To continue using the feed, you need to update Google Play services</string>
     <string name="google_plus_profile_contact_label">Google Profile</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">"You don't have permission to use Google Search."</string>
     <string name="goto_system_settings">Settings</string>
     <string name="group_desc">Group %1$d of %2$d.</string>
     <string name="gsa_home">Home</string>
@@ -2305,7 +2312,6 @@ You can turn off personal results in Assistant settings."</string>
     <string name="menu_refresh">Refresh</string>
     <string name="menu_send_button_content_description">Send button to submit feedback.</string>
     <string name="menu_send_feedback">Send feedback</string>
-    <string name="menu_settings">Settings</string>
     <string name="menu_share">Share</string>
     <string name="menu_view_in_browser">View in Browser</string>
     <string name="menu_visit_page">Visit Page</string>
@@ -2427,7 +2433,6 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="navigation_home_label">Home</string>
     <string name="navigation_recently_label">Recent</string>
     <string name="navigation_search_label">Search</string>
-    <string name="navigation_updates_label">Upcoming</string>
     <string name="nearby_attractions">Nearby attractions</string>
     <string name="nearby_events_title">Nearby events</string>
     <string name="network_error">"Can't reach Google at the moment."</string>
@@ -2435,6 +2440,7 @@ Discover and control all your Google searches and more in My Activity."</string>
     <string name="network_error_fetching_weather_data_status_text">Network currently unavailable</string>
     <string name="network_error_no_connection_tts">"There's no Internet connection at the moment."</string>
     <string name="network_error_resend_audio">Resend audio</string>
+    <string name="network_error_try_again">Try again</string>
     <string name="network_location_required_text">To see location-based cards such as local weather and commuter traffic, turn on Wi‑Fi &amp; mobile network location</string>
     <string name="network_location_required_text_klp">To see location-based cards such as local weather and commuting traffic, select high-accuracy or battery-saving location mode</string>
     <string name="never">Never</string>
@@ -3539,6 +3545,9 @@ Try searching for the podcast again."</string>
     <string name="search_the_web">Search the web</string>
     <string name="search_the_web_menu_text">Search the web</string>
     <string name="search_the_web_suggestion">Search the web</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">"You'll be notified with results once the connection improves."</string>
+    <string name="search_timed_out_card_explanation_text">This could be due to a slow network connection.</string>
+    <string name="search_timed_out_card_title_text">Your search timed out</string>
     <string name="search_widget_customization">Customise Widget</string>
     <string name="searchbar_hint">Search for podcasts</string>
     <string name="searchbox_hint">Search recents</string>
@@ -3960,7 +3969,6 @@ Improve your headphone experience by sending headphone diagnostics, usage data a
     <string name="transcript_timeout_2">If you want to delete the draft, just double-press the Google Assistant button.</string>
     <string name="transcript_timeoutt_1">To send your message, tap the right earbud. Or to record again, touch and hold the right earbud while talking.</string>
     <string name="transcript_timeoutt_2">If you want to delete the draft, just double tap the right earbud.</string>
-    <string name="transient_optin_text">"No need to wait – you'll be notified when your results are ready."</string>
     <string name="transit_alarm_notification_subtitle_template">You will arrive at %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">You will arrive at %1$s</string>
     <string name="transit_alarm_vog_text">Get off at %1$s at %2$s</string>
@@ -4152,6 +4160,8 @@ Signed in as %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Which devices would you like to adjust?</string>
     <string name="user_defined_action_task_home_control_settings">Home control settings</string>
     <string name="user_defined_action_task_light_title">Lights</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Which doors would you like to lock?</string>
+    <string name="user_defined_action_task_lock_title">Lock doors</string>
     <string name="user_defined_action_task_music_duration_summary">Timer to stop music is only available on Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Turn off music after…</string>
     <string name="user_defined_action_task_music_example_list">Enter a playlist, artist, song or genre. For example, \"Relaxing playlist\" or \"The Beatles\". This routine will use your &lt;a href=assistant-settings://?feature=music>default music service&lt;/a>.</string>

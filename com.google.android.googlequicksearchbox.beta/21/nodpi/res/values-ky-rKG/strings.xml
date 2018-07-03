@@ -420,11 +420,18 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="assistant_settings_duo_calls_unlink_duo_title">Duo аккаунтун ажыратуу</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Duo аркылуу мындан ары чалып, сүйлөшө албайсыз</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Duo аккаунту ажыратылсынбы?</string>
+    <string name="assistant_settings_duo_consent_summary">Бул номерди ырастоо үчүн Google SMS аркылуу код жөнөтөт. Байланыш операторунун тарифине жараша акы төлөшүңүз мүмкүн. Телефонуңуздун номерин же Google аккаунтуңузду билген адамдар Google кызматтарында сизге байланыша алышат.</string>
+    <string name="assistant_settings_duo_consent_title">Акылдуу мониторуңуз аркылуу жогорку сапаттагы видео режиминдеги чалууларды баштап, Google Duo колдонмосу бар бардык адамдар менен сүйлөшүңүз. Duo аккаунтун түзүү үчүн телефонуңуздун номерин ырастаңыз. Андан кийин, ал номериңиз Google аккаунтуңузга да байланышып калат.</string>
     <string name="assistant_settings_email_notification_summary">Жардамчыга байланыштуу акыркы жаңылыктарды жана жаңыртууларды алып туруңуз</string>
     <string name="assistant_settings_email_notification_title">Google Жардамчы тууралуу жаңылыктар</string>
     <string name="assistant_settings_enable_google_assistant_title">Google Жардамчыны иштетүү</string>
     <string name="assistant_settings_enabled_news_explanation">\"Жаңылыктарды угуу\" деп айтканыңызда же күнүмдүк жасалуучу жумуштарга жаңылыктарды кошконуңузда Жардамчыңыз ушул булактардагы жаңылыктарды ойнотот.</string>
     <string name="assistant_settings_enabled_news_list">Жаңылыктар булактарыңыз</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Азыр эмес</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">"Duo'ну колдонуу"</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Учурдагы Duo аккаунтуңузду Акылдуу монитордогу видео режиминдеги чалуулар үчүн колдонуңуз. Досторуңуз жана үй-бүлөңүз сиз менен %1$s номери аркылуу байланыша алышат.
+Жардамчынын жөндөөлөрүнө кирип, Duo аккаунтуңузду каалаган убакта бул түзмөктөн ажыратсаңыз болот."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Видео режиминде чалуу</string>
     <string name="assistant_settings_feature_availability">%1$s түзмөктөрүндө бар</string>
     <string name="assistant_settings_float_action_button_label">Түзмөктөрдү кошуу</string>
     <string name="assistant_settings_header_title">Жөндөөлөр</string>
@@ -534,6 +541,7 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="assistant_settings_music_gpm_premium_dialog_text">"Google Home'до Google Play Музыканы ойнотуу үчүн жазылуу керек. "<a href="https://play.google.com/store/music">Play Музыка колдонмосунан</a> катталсаңыз болот. Же болбосо, <a href="https://support.google.com/googleplay?p=home_uploadmusic">музыкаңызды жүктөп берип</a> же сатып алсаңыз болот</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play Музыка кызматына жазылуу же медиатека талап кылынат</string>
     <string name="assistant_settings_music_icon_text">Музыка менен жабдуучунун сөлөкөтү</string>
+    <string name="assistant_settings_music_link_dialog_text">Ойнотмо тизмелериңизди жана ырларды шайкеш түзмөктөрдө угуу үчүн Google аккаунтуңузду %1$s кызматына байланыштырыңыз. %1$s кызматынан Google Жардамчысы аркылуу музыка ойнотконуңузда, ал сурамдар %1$s кызматына жөнөтүлүп, анын купуялык саясатына ылайык колдонулат. %1$s жеке натыйжаларды жана жекелештирилген сунуштарды көрсөтүп турат. Жөндөөлөргө өтүп, аккаунтуңузду каалаган убакта ажыратып алсаңыз болот.</string>
     <string name="assistant_settings_music_no_preference_summary">Бөлүшүлгөн түзмөктөрдө башка каттоо эсептеринин жеке жөндөөлөрү колдонулсун</string>
     <string name="assistant_settings_music_no_preference_title">Демейки жабдуучу жок</string>
     <string name="assistant_settings_music_premium_dialog_button">Жарайт, түшүндүм</string>
@@ -544,6 +552,7 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="assistant_settings_music_unable_unlink_default">Демейки музыка менен жабдуучуну ажыратуу мүмкүн болбой жатат</string>
     <string name="assistant_settings_music_unlink_dialog_text">Аккаунтуңузду ажыратсаңыз, Google Жардамчы аркылуу %1$s кызматындагы музыканы уга албай каласыз.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">"Google Home'до YouTube Музыканы ойнотуу үчүн YouTube Premium'га мүчөлүк талап кылынат. Ага катталуу үчүн "<a href="http://youtube.com/red">youtube.com/red</a> сайтына өтүңүз.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">"Google Home'до YouTube Музыканы ойнотуу үчүн YouTube Music Premium'га мүчөлүк талап кылынат. Ага катталуу үчүн "<a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> сайтына өтүңүз.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">"YouTube Premium'га мүчөлүк талап кылынат"</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s жаңылыктар булагын иштетилген булактардын тизмесинен алып салуу</string>
     <string name="assistant_settings_news_supports_video">Видеону Акылдуу дисплейлерде көрүүгө болот</string>
@@ -747,8 +756,10 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="assistant_settings_update_error_message">Жөндөө жаңыртылган жок. Туташууңузду текшериңиз.</string>
     <string name="assistant_settings_video_calls_service_category_title">Тандаган кызматыңыз аркылуу Google Жардамчыңыз Google Smart Display сыяктуу түзмөктөрүнөн видео чалууларды аткара алат. Өзгөчө кырдаалда куткаруу кызматтарына чалуулар аткарылбайт.</string>
     <string name="assistant_settings_video_icon_text">Видео менен жабдуучунун сөлөкөтү</string>
+    <string name="assistant_settings_video_link_dialog_text">Ырларды шайкеш түзмөктөрдө угуу үчүн Google аккаунтуңузду %1$s кызматына байланыштырыңыз. %1$s кызматынан Google Жардамчысы аркылуу музыка ойнотконуңузда, ал сурамдар %1$s кызматына жөнөтүлүп, анын купуялык саясатына ылайык колдонулат. %1$s жеке натыйжаларды жана жекелештирилген сунуштарды көрсөтүп турат. Жөндөөлөргө өтүп, аккаунтуңузду каалаган убакта ажыратып алсаңыз болот.</string>
     <string name="assistant_settings_video_provider_category_summary">Жардамчыңыздан сурап, шоу жана тасмаларды ойнотуңуз.</string>
     <string name="assistant_settings_video_provider_category_title">Видеолор</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Аккаунтуңузду ажыратсаңыз, Google Жардамчы аркылуу %1$s кызматындагы музыканы уга албай каласыз.</string>
     <string name="assistant_settings_videos_photos_title">Видеолор жана Фотолор</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast же Chromecast орнотулган сыналгы</string>
     <string name="assistant_settings_voice_and_video_calls_title">Аудио жана видео чалуулар</string>
@@ -884,7 +895,6 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Маалымат баракчасына өтүү</string>
     <string name="captive_portal_error_card_cell_title_text">Мобилдик туташуу көйгөйү</string>
     <string name="captive_portal_error_card_explanation_text">Бул Wi-Fi тармагын колдонуу үчүн кирүү талап кылынат. Кээ бир Wi-Fi порталдары кооптуу болгондуктан, ишенген тармактарга гана кириңиз. Туташканда, кайра издеп көрүңүз.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Тармакка кирүү</string>
     <string name="captive_portal_error_card_title_text">"Wi-Fi'ды колдонуу үчүн кириңиз"</string>
     <string name="car_rental_cartype">Унаа түрү</string>
     <string name="car_rental_dropoff">Кайтарып берүү</string>
@@ -1045,6 +1055,7 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="current_period">%1$d-мезгил</string>
     <string name="current_status">Учурдагы абалыңызды текшерүү</string>
     <string name="custom">Өзгөчөлөштүрүлгөн (телефондон өзгөчөлөштүрүү болбойт)</string>
+    <string name="custom_tabs_explore_action_button_desc">Окшош барактарды көрүү</string>
     <string name="custom_tabs_link_copied">Шилтеме буферге көчүрүлдү</string>
     <string name="custom_tabs_menu_item_copy_link">Шилтемени көчүрүү</string>
     <string name="custom_tabs_menu_item_help">Жардам</string>
@@ -1418,7 +1429,6 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="google_play_services_update_button">Google Play кызматтарын жаңыртуу</string>
     <string name="google_play_services_update_required">Түрмөктү колдоно берүү үчүн Google Play кызматтарын жаңыртуу керек</string>
     <string name="google_plus_profile_contact_label">Google+ профили</string>
-    <string name="google_search_disabled_toast">Google Издөөнү колдонууга уруксатыңыз жок.</string>
     <string name="gsa_home">Үй</string>
     <string name="ha_card_title">Үйүңүз</string>
     <string name="hands_free_unlock_device_bluetooth">Коопсуз жагдай пайда болгондо, адегенде эскертмени таптап, Bluetooth түзмөктөрүнө телефонуңуз кулпуланып турганда иштөөгө уруксат бериңиз.</string>
@@ -1782,6 +1792,14 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="lens_info_panel_opening_lens">Lens ачылууда…</string>
     <string name="lens_overflow_menu_description">Жөндөөлөр</string>
     <string name="lens_quit_button_description">Чыгуу</string>
+    <string name="lens_results_feedback_card_prompt">"Lens'те эмне кылганы жатасыз?"</string>
+    <string name="lens_results_feedback_card_title">"Lens'ти жакшыртууга жардам бериңиз"</string>
+    <string name="lens_results_feedback_no">ЖОК</string>
+    <string name="lens_results_feedback_prompt_text">Бул издөө жыйынтыктарынын пайдасы тийдиби?</string>
+    <string name="lens_results_feedback_response_to_negative">"Lens'ти жакшыртууга жардам бергениңиз үчүн рахмат."</string>
+    <string name="lens_results_feedback_response_to_positive">Дагы эмнени жакшыртса болот?</string>
+    <string name="lens_results_feedback_send_report">ПИКИР БИЛДИРҮҮ</string>
+    <string name="lens_results_feedback_yes">ООБА</string>
     <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">Ачык программа уруксаттамалары</string>
     <string name="light_traffic">Жолдо унаалар аз</string>
@@ -1840,7 +1858,6 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="menu_overlay_reset_to_default_style">Демейки стилди коюу</string>
     <string name="menu_refresh">Жаңылоо</string>
     <string name="menu_send_button_content_description">Пикир тапшыруу үчүн \"Жөнөтүү\" баскычы.</string>
-    <string name="menu_settings">Жөндөөлөр</string>
     <string name="menu_share">Бөлүшүү</string>
     <string name="menu_view_in_browser">Серепчиде карап көрүү</string>
     <string name="menu_visit_page">Баракчаны карап көрүү</string>
@@ -1903,7 +1920,6 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="navigation_home_label">Башкы бет</string>
     <string name="navigation_recently_label">Акыркылар</string>
     <string name="navigation_search_label">Издөө</string>
-    <string name="navigation_updates_label">Алдыдагылар</string>
     <string name="nearby_attractions">Жакын арадагы кызыктуу жерлер</string>
     <string name="nearby_events_title">Жакын жердеги окуялар</string>
     <string name="network_error">Учурда Google ачылбай жатат.</string>
@@ -1911,6 +1927,7 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="network_error_fetching_weather_data_status_text">Учурда тармак жеткиликсиз</string>
     <string name="network_error_no_connection_tts">Учурда Интернет туташуусу жок.</string>
     <string name="network_error_resend_audio">Аудио файлды кайра жөнөтүү</string>
+    <string name="network_error_try_again">Дагы аракет кылуу</string>
     <string name="network_location_required_text">Жергиликтүү аба-ырайы жана жол кыймылы сыяктуу нерселерге байланышкан, жайгашкан жериңизге негизделген эскерткичтерди көрүү үчүн, Wi‑Fi &amp; мобилдик тармактын жайгашкан жерин күйгүзүңүз</string>
     <string name="network_location_required_text_klp">Жергиликтүү аба-ырайы жана жол кыймылы сыяктуу нерселерге байланышкан, жайгашкан жериңизге негизделген эскерткичтерди көрүү үчүн, жайгашкан жерди аныктоо режиминин жогорку тактык же батареянын кубатын үнөмдөө мүмкүнчүлүктөрүн иштетиңиз.</string>
     <string name="nevermind_prompt">Эчтеке эмес</string>
@@ -2059,6 +2076,7 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="offline_eyesfree_install_language_pack_notification_body">Тил топтомун кийинки версияга көтөрүңүз.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Оффлайн үндү иштетүү</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Сиз оффлайндасыз. Кийинки жолу оффлайнда үн буйруктарын колдонуу үчүн, англис тилинин эң акыркы топтомун орнотуңуз. Экраныңызды колдонуу коопсуз болгон кезде, эскертмени басып, орнотуп алыңыз.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Сиз оффлайндасыз. Оффлайн режиминде түзмөгүңүзгө оозеки кайрылуу үчүн эң акыркы тил топтому керек. Ал кийинки жолу Интернетке киргениңизде орнотулат.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Сиз оффлайндасыз. Кийинки жолу оффлайнда үн буйруктарын колдонуу үчүн, англис тилинин эң акыркы топтомун орнотуңуз. Экраныңызды колдонуу коопсуз болгон кезде, эскертмени басып, орнотуп алыңыз.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying \"make a call\" or \"what can I say?\""</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying %1$s or \"what can I say?\""</string>
@@ -2743,6 +2761,9 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="search_storage_label">Google Издөө сактагычы</string>
     <string name="search_tablet">Планшет издөө</string>
     <string name="search_the_web_menu_text">Интернеттен издөө</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Интернеттин ылдамдыгы жакшырып, жыйынтыктар даяр болгондо, билдирме аласыз.</string>
+    <string name="search_timed_out_card_explanation_text">Бул Интернет байланышынын начарлыгынан улам болушу мүмкүн.</string>
+    <string name="search_timed_out_card_title_text">Издөө аракетинин күтүү убакыты аяктады</string>
     <string name="search_widget_customization">Виджетти ыңгайлаштыруу</string>
     <string name="searching_as_account">%1$s катары издөөдө</string>
     <string name="second_half">2-тайм</string>
@@ -2790,6 +2811,7 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="settings_legal_notices_title">Юридикалык жоболор</string>
     <string name="settings_location_tos_title">Жайгашк. жерд. аныкт. кызмат. шарты</string>
     <string name="settings_privacy_policy_title">Купуялуулук саясаты</string>
+    <string name="settings_search_icon_title">Издөө жөндөөлөрү</string>
     <string name="settings_tos_title">Тейлөө шарттары</string>
     <string name="setup_complete_explanation">Эми \"Ok Google\" деп айтканыңызда %s түзмөгүңүз жооп берет. Бул жердеги нерселерди карап көрүңүз.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Эми %s түзмөгүнө кайрылганыңызда, Жардамчы жооп берет. Бул жердеги бир катар нерселерди айтып көрсөңүз болот.</string>
@@ -3091,7 +3113,6 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="training_button_yes">ООБА</string>
     <string name="training_closet_error">Жөндөөлөр жүктөлгөн жок</string>
     <string name="training_more_questions">ДАГЫ СУРООЛОР</string>
-    <string name="transient_optin_text">Күтүүнүн кажети жок. Изделген нерселер табылганда сизге кабар берилет.</string>
     <string name="transit_alarm_notification_subtitle_template">Саат %1$s (%2$s) келесиз</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Саат %1$s келесиз</string>
     <string name="transit_alarm_vog_text">%1$s саат %2$s түшүп калуу</string>
@@ -3268,6 +3289,8 @@ Google'га скриншотторуңузду сактап, талдаганг�
     <string name="user_defined_action_task_devices_to_adjust">Кайсы түзмөктөрдү тууралайсыз?</string>
     <string name="user_defined_action_task_home_control_settings">Үйдү көзөмөлдөөнүн жөндөөлөрү</string>
     <string name="user_defined_action_task_light_title">Жарык</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Кайсы эшиктерди кулпулагыңыз келет?</string>
+    <string name="user_defined_action_task_lock_title">Эшиктерди кулпулоо</string>
     <string name="user_defined_action_task_music_duration_summary">Музыканы токтотуучу таймер Google Home түзмөгүндө гана иштейт</string>
     <string name="user_defined_action_task_music_duration_title">Музыка төмөнкү убакыттан кийин өчүрүлсүн…</string>
     <string name="user_defined_action_task_music_example_list">Ойнотмо тизмесин, аткаруучуну, ырды же жанрын киргизиңиз. Мисалы, \"Эс алдыруучу ойнотмо тизме\" же \"Битлз тобу\" деп көрүңүз. Бул көнүмүш жумушта &lt;a href=assistant-settings://?feature=music>демейки музыкалык кызматыңыз&lt;/a> колдонулат.</string>

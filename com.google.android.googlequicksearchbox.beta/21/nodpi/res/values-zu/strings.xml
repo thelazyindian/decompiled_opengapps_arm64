@@ -517,11 +517,18 @@ Umsizi wakho uzosebenzisa lesi silungiselelo ngemibuzo mayelana nokuhamba kwakho
     <string name="assistant_settings_duo_calls_unlink_duo_title">Susa ukuxhumanisa kwe-akhawunti ye-Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Ngeke usakwazi ukuqala noma ukwamukela amakholi ku-Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Susa ukuxhumanisa kwe-akhawunti ye-Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">I-Google izothumela ikhodi nge-SMS ukuqinisekisa le nombolo. Izindleko zenkampani yenethiwekhi zingasebenza. Abantu abazi inombolo yakho noma i-akhawunti yakho ye-Google bazokwazi ukukuthola kuwo wonke amasevisi e-Google.</string>
+    <string name="assistant_settings_duo_consent_title">Qala amakholi evidiyo ekhwalithi ephezulu ku-Smart Display yakho kuya kunoma yimuphi onohlelo lokusebenza le-Google Duo. Qinisekisa inombolo yakho yefoni ukudala i-akhawunti ye-Duo. Lokhu futhi kuzoyixhuma ne-akhawunti yakho ye-Google</string>
     <string name="assistant_settings_email_notification_summary">Hlala uxhumekile ngezindaba zakamuva nezici ezihlobene nomsizi wakho</string>
     <string name="assistant_settings_email_notification_title">Ama-imeyili omsizi we-Google</string>
     <string name="assistant_settings_enable_google_assistant_title">Nika amandla umsizi we-Google</string>
     <string name="assistant_settings_enabled_news_explanation">Umsizi wakho uzodlala izindaba kusukela kule mithombo uma uthi \"lalela izindaba\" noma engeza izindaba kumzila.</string>
     <string name="assistant_settings_enabled_news_list">Imithombo yakho yezindaba</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Hhayi manje</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Sebenzisa i-Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Sebenzisa i-akhawunti yakho ekhona ye-Duo ngamakholi evidiyo ku-Smart Display yakho. Abangani bakho nomndeni bangakuthola ku-%1$s.
+Ungasususa ukuxhuma ku-akhawunti yakho ye-Duo kusuka kule sevisi noma kunini kumzilungiselelo zomsizi."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Ikholi yevidiyo</string>
     <string name="assistant_settings_feature_availability">Kutholakala ku-%1$s</string>
     <string name="assistant_settings_float_action_button_label">Engeza amadivayisi</string>
     <string name="assistant_settings_header_title">Izisetho</string>
@@ -631,6 +638,7 @@ Umsizi wakho uzosebenzisa lesi silungiselelo ngemibuzo mayelana nokuhamba kwakho
     <string name="assistant_settings_music_gpm_premium_dialog_text">I-Google Play Umculo idinga ukubhaliswa ukuze idlale ku-Google Home. Ungabhalisa <a href="https://play.google.com/store/music">kuhlelo lokusebenza lwe-Google Play Umculo</a>". Ungaphinda uthenge noma  "<a href="https://support.google.com/googleplay?p=home_uploadmusic">ulayishe umculo wakho</a> kunalokho</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Okubhalisile kwe-Google Play Umculo noma ilabhulali iyadingeka</string>
     <string name="assistant_settings_music_icon_text">Isithonjana somhlinzeki womculo</string>
+    <string name="assistant_settings_music_link_dialog_text">Xhumanisa i-akhawunti yakho ye-Google ku-%1$s ukuze unike amandla ukudlalwa kumadivayisi ahambisanayo uphinde ufinyelele kuhlu lwakho oludlalayo. Uma uhlanganyela nesevisi ye-%1$s ngomsizi we-Google, imibuzo yakho ingathunyelwa ku-%1$s ukuze isetshenziswe nesitatimende sayo sobumfihlo. I-%1$s inganikeza imiphumela yomuntu siqu nezincomo ezenziwe zaba ngezakho. Ungasusa ukuxhumana kwe-akhawunti yakho noma kunini kuzilungiselelo zomsizi.</string>
     <string name="assistant_settings_music_no_preference_summary">Sebenzisa izintandokazi ze-akhawunti kumadivayisi abiwe</string>
     <string name="assistant_settings_music_no_preference_title">Akekho umhlinzeki ozenzakalelayo</string>
     <string name="assistant_settings_music_premium_dialog_button">KULUNGILE, ngiyezwa</string>
@@ -641,6 +649,7 @@ Umsizi wakho uzosebenzisa lesi silungiselelo ngemibuzo mayelana nokuhamba kwakho
     <string name="assistant_settings_music_unable_unlink_default">Ayikwazi ukususa ukuxhumeka komhlinzeki wakho womculo ozenzakalelayo</string>
     <string name="assistant_settings_music_unlink_dialog_text">Ukususa ukuxhumanisa i-akhawunti yakho kuzovala ukufinyelela ekudlaleni kuska ku-%1$s ngomsizi we-Google.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">I-YouTube Umculo idinga ubulungu be-YouTube Premium ukuze idlale ku-Google Home. Ungabhalisa ku-<a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">I-YouTube Umculo idinga ubulungu be-YouTube Umculo Premium ukuze idlale ku-Google Home. Ungabhalisa ku-<a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Kudingeka ubulungu be-YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Susa i-%1$s kusuka kumithombo yezindaba evunyelwe</string>
     <string name="assistant_settings_news_supports_video">Ividiyo iyatholakala kuma-Smart Display</string>
@@ -844,8 +853,10 @@ Umsizi wakho uzosebenzisa lesi silungiselelo uma akunika izinkomba ezinya ezinda
     <string name="assistant_settings_update_error_message">Ayikwazanga ukubuyekeza isilungiselelo. Hlola uxhumo lwakho.</string>
     <string name="assistant_settings_video_calls_service_category_title">Umsizi wakho angenza amakholi evidiyo kwamanye amadivayisi, afana nesibono esihlakaniphile se-Google, usebenzisa isevisi yakho encanyelwayo. Amakholi aya kumasevisi esimo esiphuthumayo awatholakali.</string>
     <string name="assistant_settings_video_icon_text">Isithonjana somhlinzeki wevidiyo</string>
+    <string name="assistant_settings_video_link_dialog_text">Xhuma i-akhawunti yakho ye-Google ku-%1$s ukuze unike amandla ukudlalwa kumadivayisi ahambisanayo. Uma uhlanganyela nesevisi ye-%1$s ngomsizi we-Google, imibuzo yakho ingathunyelwa ku-%1$s ukuze isetshenziswe ngokuya ngenqubomgomo yayo yobumfihlo. I-%1$s inganikeza imiphumela yomuntu siqu kanye nezincomo ezenziwe zaba ngezakho kuwe. Ungasusa ukuxhumanisa i-akhawunti yakho noma kunini kuzilungiselelo zomsizi.</string>
     <string name="assistant_settings_video_provider_category_summary">Dlala imibukiso nama-movie ngokucela umsizi wakho.</string>
     <string name="assistant_settings_video_provider_category_title">Amavidiyo</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Ukususa ukuxhumanisa i-akhawunti yakho kuzovala ukufinyelela ekudlaleni kuska ku-%1$s ngomsizi we-Google.</string>
     <string name="assistant_settings_videos_photos_title">Amavidiyo nezithombe</string>
     <string name="assistant_settings_videosphotos_cast_destination">I-Chromecast noma i-TV eyakhelwe ngaphakathi ye-Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Amakholi ezwi nawevidiyo</string>
@@ -988,7 +999,6 @@ Izindleko zedatha zingasebenza."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Hamba kukhasi lemininingwane</string>
     <string name="captive_portal_error_card_cell_title_text">Inkinga yokuxhumeka kwedatha</string>
     <string name="captive_portal_error_card_explanation_text">Le nethiwekhi ye-Wi-Fi idinga ukuthi ungene ngemvume. Ngena ngemvume kuphela kumanethiwekhi owathembayo njengoba amanye amaphothali e-Wi-Fi angavikeleka kancane. Uma kuxhunyiwe, zama usesho lwakho futhi.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Ngena ngemvume kunethiwekhi</string>
     <string name="captive_portal_error_card_title_text">Ngena ngemvume ukuze usebenzise i-Wi-Fi</string>
     <string name="car_rental_cartype">Uhlobo lwemoto</string>
     <string name="car_rental_dropoff">Ukushiya</string>
@@ -1202,6 +1212,7 @@ Ungabuka futhi uphathe lezi zingxoxo esigabeni sokuthi %1$s sezilungiselelo ze-a
     <string name="current_search_base_url_local">Isebenzisa ukwetha nokuqamba kwasendaweni (%1$s)</string>
     <string name="current_status">Hlola isimo sakho samanje</string>
     <string name="custom">Ngokwezifiso (ayikwazi ukwenza ngokwezifiso kufoni)</string>
+    <string name="custom_tabs_explore_action_button_desc">Buka amakhasi ahlobene</string>
     <string name="custom_tabs_link_copied">Isixhumanisi sikopishelwe kubhodi lokunamathisela</string>
     <string name="custom_tabs_menu_item_copy_link">Kopisha isixhumanisi</string>
     <string name="custom_tabs_menu_item_help">Usizo</string>
@@ -1642,7 +1653,6 @@ Zama ukusesha i-podcast futhi."</string>
     <string name="google_play_services_update_required">Ukuze uqhubeke usebenzise i-Google, kuzomele ubuyekeze amasevisi we-Google Play</string>
     <string name="google_plus_profile_contact_label">Iphrofayela ye-Google+</string>
     <string name="google_podcasts">Ama-Google Podcast</string>
-    <string name="google_search_disabled_toast">Awunayo imvume yokusebenzisa Usesho lwe-Google.</string>
     <string name="goto_system_settings">Izilungiselelo</string>
     <string name="group_desc">Iqembu elingu-%1$d kwangu-%2$d.</string>
     <string name="gsa_home">Ikhaya</string>
@@ -2108,6 +2118,14 @@ Ungavala imiphumela yomuntu siqu kuzilungiselelo zomsizi."</string>
     <string name="lens_info_panel_opening_lens">Ivula amalensi…</string>
     <string name="lens_overflow_menu_description">Izilungiselelo</string>
     <string name="lens_quit_button_description">Yeka</string>
+    <string name="lens_results_feedback_card_prompt">Yini ofuna ukuyenza ngamalensi?</string>
+    <string name="lens_results_feedback_card_title">Sisize sithuthukise ilensi</string>
+    <string name="lens_results_feedback_no">CHA</string>
+    <string name="lens_results_feedback_prompt_text">Uye wathola le miphumela isebenziseka?</string>
+    <string name="lens_results_feedback_response_to_negative">Siyabonga ngokusisiza sithuthukise ilensi.</string>
+    <string name="lens_results_feedback_response_to_positive">Yini ebingaba ngcono?</string>
+    <string name="lens_results_feedback_send_report">THUMELA IMPENDULO</string>
+    <string name="lens_results_feedback_yes">YEBO</string>
     <string name="lens_title">Amalensi eGoogle</string>
     <string name="less_contact_apps">Bonisa izinhlelo zokusebenza zoxhumana naye ezincane</string>
     <string name="libraries_material_featurehighlight_dismiss">Cashisa</string>
@@ -2185,7 +2203,6 @@ Ungavala imiphumela yomuntu siqu kuzilungiselelo zomsizi."</string>
     <string name="menu_refresh">Vuselela</string>
     <string name="menu_send_button_content_description">Inkinobho yokuthumela ukuze uhambise impendulo.</string>
     <string name="menu_send_feedback">Thumela impendulo</string>
-    <string name="menu_settings">Izilungiselelo</string>
     <string name="menu_share">Yabelana</string>
     <string name="menu_view_in_browser">Buka kusiphequluli</string>
     <string name="menu_visit_page">Vakashela ikhasi</string>
@@ -2304,7 +2321,6 @@ Thola futhi ulawule lonke usesho lwakho lwe-Google nokuningi kokuthi Umsebenzi W
     <string name="navigation_home_label">Ekhaya</string>
     <string name="navigation_recently_label">Okwakamuva</string>
     <string name="navigation_search_label">Sesha</string>
-    <string name="navigation_updates_label">Okuseza</string>
     <string name="nearby_attractions">Iziheho eziseduze</string>
     <string name="nearby_events_title">Imicimbi eseduze</string>
     <string name="network_error">Ayikwazi ukuthola i-Google okwamanje.</string>
@@ -2312,6 +2328,7 @@ Thola futhi ulawule lonke usesho lwakho lwe-Google nokuningi kokuthi Umsebenzi W
     <string name="network_error_fetching_weather_data_status_text">Inethiwekhi okwamanje ayitholakali</string>
     <string name="network_error_no_connection_tts">Alukho uxhumo le-inthanethi okwamanje.</string>
     <string name="network_error_resend_audio">Phinda uthumele umsindo</string>
+    <string name="network_error_try_again">Zama futhi</string>
     <string name="network_location_required_text">Ukuze ubone amakhadi asekelwe kwindawo njengesimo sezulu sendawo nethrafikhi yohambo lokuya emsebenzini, vula i-Wi-Fi nendawo yenethiwekhi yeselula</string>
     <string name="network_location_required_text_klp">Ukuze ubone amakhadi asuselwa kwindawo njengesimo sezulu sasendaweni nethrafikhi yohambo lokuya emsebenzini, khetha ukunemba okuphezulu noma imodi yendawo yokulondoloza ibhetri</string>
     <string name="never">Ngeke</string>
@@ -2477,6 +2494,7 @@ Uyafuna ukuqhubeka?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Thuthukisa iphekhi yakho yolimi.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Nika amandla izwi elingaxhunyiwe kwi-inthanethi</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Awuxhumekile ku-inthanethi. Ukuze uqhubeka nokusebenzisa izwi uma ungaxhumekile ku-inthanethi, uzodinga ukufaka iphekhi yolimi yakamuva. Uma kuphephile ukusebenzisa isikrini sakho, thepha kusiziso ukuze wenze kanjalo.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Awuxhunyiwe kwi-inthanethi. Ukuze usebenzise izwi ngenkathi ungaxhunyiwe kwi-inthanethi udinga iphekhi lakamuva lolimi elizofakwa ngesikhathi esilandelayo uma unokuxhumeka kwenethiwekhi.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Awuxhumekile ku-inthanethi. Ukuze uqhubeke nokusebenzisa izwi uma ungaxhumekile ku-inthanethi, futhi uthole izici ezintsha, uzodinga ukufaka iphekhi yoliimi. Uma kuphephile ukusebenzisa isikrini sakho, thepha kusaziso ukuze wenze kanjalo.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Empeleni, awuxhumekile ku-inthanethi. Angikwazi ukufinyelela i-Google manje kodwa ngingasiza ngezinto eziningi. Isibonelo, zama ukuthi \"yenza ikholi\" noma \"ngingathini?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Empeleni, awuxhumekile ku-inthanethi. Angikwazi ukufinyelela i-Google manje kodwa ngingasiza ngezinto eziningi. Isibonelo, zama ukuthi %1$s noma \"ngingathini?\"</string>
@@ -3094,7 +3112,7 @@ Usayizi olinganiselwe: %dKb"</string>
     <string name="recently_empty_state_read_later_body_text">Sizogcina izinto zilandiwe kudivayisi yakho izinsuku ezingu-7.</string>
     <string name="recently_empty_state_read_later_title_text">Engeza amakhasi ukuze uwafunde kamuva</string>
     <string name="recently_entry_interaction_offline">Ayikwazi ukuvula ikhasi eliceliwe ngenkathi ingaxhunyiwe ku-inthanethi.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Ayikwazi ukuvula usesho lwezwi olulindile.</string>
     <string name="recently_feed_entry">Okuphakelayo</string>
     <string name="recently_google_doodle_for">I-Google Doodle ye-%s</string>
     <string name="recently_keep_on_device_until">Gcina kudivayisi kube kube:</string>
@@ -3345,6 +3363,9 @@ Zama ukuseshela i-podcast futhi."</string>
     <string name="search_the_web">Sesha iwebhu</string>
     <string name="search_the_web_menu_text">Sesha iwebhu</string>
     <string name="search_the_web_suggestion">Sesha iwebhu</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Uzokwaziswa ngemiphumela uma ukuxhumeka sokuthuthuka.</string>
+    <string name="search_timed_out_card_explanation_text">Lokhu kungabangelwa ukuxhumeka okuhamba kancane kwenethiwekhi.</string>
+    <string name="search_timed_out_card_title_text">Usesho lwakho luphelelwe isikhathi</string>
     <string name="search_widget_customization">Enza ngendlela oyifisayo iwijethi</string>
     <string name="searchbar_hint">Sesha ama-podcasts</string>
     <string name="searchbox_hint">Sesha okwakamuva</string>
@@ -3401,6 +3422,7 @@ Zama ukuseshela i-podcast futhi."</string>
     <string name="settings_legal_notices_title">Izaziso zezomthetho</string>
     <string name="settings_location_tos_title">Imigomo yesevisi yendawo</string>
     <string name="settings_privacy_policy_title">Inqubomgomo yemfihlo</string>
+    <string name="settings_search_icon_title">Izilungiselelo zokusesha</string>
     <string name="settings_tos_title">Imigomo yesevisi</string>
     <string name="setup_complete_explanation">I-%s yakho manje izophendula uma uthi \"Ok Google\". Nazi ezinye izinto ongazizama.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Umsizi wakho manje uzophendula uma ukhuluma ne-%s. Nazi izinto ongazizama.</string>
@@ -3735,7 +3757,6 @@ Lo mbukiso awutholakali khona manje."</string>
     <string name="training_button_yes">YEBO</string>
     <string name="training_closet_error">Ayiphumelelanga ukulayisha izilungiselelo</string>
     <string name="training_more_questions">IMIBUZO EMININGI</string>
-    <string name="transient_optin_text">Asikho isidingo sokulinda, uzokwaziswa uma imiphumela yakho isilungile.</string>
     <string name="transit_alarm_notification_subtitle_template">Uzofika ngo-%1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Uzofika ngo-%1$s</string>
     <string name="transit_alarm_vog_text">Hlika e-%1$s ngo-%2$s</string>
@@ -3926,6 +3947,8 @@ Ungene ngemvume njengo-%1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Imaphi amadivayisi ongathanda ukuwalungisa?</string>
     <string name="user_defined_action_task_home_control_settings">Izilungiselelo zokulawula kwasekhaya</string>
     <string name="user_defined_action_task_light_title">Izibani</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Imiphi iminyango othanda ukuyikhiya?</string>
+    <string name="user_defined_action_task_lock_title">Khiya iminyango</string>
     <string name="user_defined_action_task_music_duration_summary">Isibali sikhathi sokumisa umculo sitholakala kuphela kukhasi lasekhaya le-Google</string>
     <string name="user_defined_action_task_music_duration_title">Vala umculo ngemuva…</string>
     <string name="user_defined_action_task_music_example_list">Faka uhlu lwadlalwayo, umculi, ingoma, noma uhlobo. Isibonelo, \"Uhlu lwadlalwayo lokuphumula\" noma i-\"Beatles\". Lo mkhuba uzosebenzisa &lt;a href=assistant-settings://?feature=music>isevisi yakho yomculo ezenzakalelayo&lt;/a>.</string>

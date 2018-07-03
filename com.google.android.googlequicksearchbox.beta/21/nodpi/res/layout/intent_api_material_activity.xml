@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/Theme.VoiceIme" android:orientation="vertical" android:id="@id/intent_api_main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:id="@id/intent_api_recognizer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="24.0dip" android:keepScreenOn="true">
+        <ImageView android:id="@id/google_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_google_logo_ime" android:scaleType="center" android:contentDescription="@string/common_google_logo" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout android:id="@id/ime_mic_container" android:layout_width="@dimen/intent_api_mic_area_size" android:layout_height="@dimen/intent_api_mic_area_size" android:layout_marginTop="32.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/google_logo">
+            <include layout="@layout/ime_material_mic_indicator" />
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatTextView android:textSize="@dimen/ime_state_text_size" android:id="@id/intent_api_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="center" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/ime_mic_container" app:fontFamily="@font/google_sans" />
+        <TextView android:textSize="@dimen/ime_retry_text_size" android:textColor="@color/ime_retry_text" android:gravity="center" android:id="@id/retry_text" android:paddingTop="2.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/try_action_again" android:layout_below="@id/intent_api_text" android:layout_centerHorizontal="true" app:layout_constraintTop_toBottomOf="@id/intent_api_text" />
+        <android.support.v7.widget.AppCompatTextView android:id="@id/intent_api_language" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/retry_text" app:fontFamily="@font/google_sans" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

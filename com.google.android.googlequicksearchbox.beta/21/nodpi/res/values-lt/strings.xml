@@ -517,11 +517,18 @@ Padėjėjas naudos šį nustatymą klausimams apie kasdienę kelionę į darbą 
     <string name="assistant_settings_duo_calls_unlink_duo_title">Atsieti „Duo“ paskyrą</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Nebegalėsite pradėti ar gauti skambučių naudodami „Duo“</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Atsieti „Duo“ paskyrą?</string>
+    <string name="assistant_settings_duo_consent_summary">„Google“ SMS pranešimu atsiųs kodą, kad galėtumėte patvirtinti telefono numerį. Gali būti taikomi operatoriaus įkainiai. Asmenys, žinantys jūsų telefono numerį arba „Google“ paskyrą, galės su jumis susisiekti „Google“ paslaugose.</string>
+    <string name="assistant_settings_duo_consent_title">Išmaniajame ekrane pradėkite aukštos kokybės vaizdo skambučius su bet kuriuo asmeniu, turinčiu programą „Google Duo“. Kad galėtumėte sukurti „Duo“ paskyrą, patvirtinkite telefono numerį. Tai atlikus, „Duo“ paskyra taip pat bus susieta su „Google“ paskyra.</string>
     <string name="assistant_settings_email_notification_summary">Nuolat gaukite paskutines naujienas ir funkcijas, susijusias su Padėjėju</string>
     <string name="assistant_settings_email_notification_title">„Google“ padėjėjo el. laiškai</string>
     <string name="assistant_settings_enable_google_assistant_title">Įgalinti „Google“ padėjėją</string>
     <string name="assistant_settings_enabled_news_explanation">Padėjėjas leis naujienas iš šių šaltinių, kai pasakysite „Listen to news“ (klausyti naujienų) arba pridėsite naujienas prie veiksmų sekos.</string>
     <string name="assistant_settings_enabled_news_list">Jūsų naujienų šaltiniai</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ne dabar</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Naudoti „Duo“</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Naudokite turimą „Duo“ paskyrą norėdami atlikti vaizdo skambučius išmaniajame ekrane. Draugai ir šeimos nariai gali su jumis susisiekti numeriu %1$s.
+Galite bet kuriuo metu atsieti „Duo“ paskyrą nuo šio įrenginio Padėjėjo nustatymuose."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Vaizdo skambučiai</string>
     <string name="assistant_settings_feature_availability">Pasiekiama %1$s</string>
     <string name="assistant_settings_float_action_button_label">Pridėti įrenginių</string>
     <string name="assistant_settings_header_title">Nustatymai</string>
@@ -631,6 +638,7 @@ Padėjėjas naudos šį nustatymą klausimams apie kasdienę kelionę į darbą 
     <string name="assistant_settings_music_gpm_premium_dialog_text">Reikalinga „Google Play“ muzikos prenumerata, norint leisti sistemoje „Google Home“. Galite prisiregistruoti <a href="https://play.google.com/store/music">„Play“ muzikos programoje</a>. Be to, galite įsigyti ar <a href="https://support.google.com/googleplay?p=home_uploadmusic">įkelti muzikos</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Reikalinga „Play“ muzikos prenumerata arba biblioteka</string>
     <string name="assistant_settings_music_icon_text">Muzikos teikėjo piktograma</string>
+    <string name="assistant_settings_music_link_dialog_text">Susiekite „Google“ paskyrą su %1$s, kad įgalintumėte atkūrimo funkciją suderinamuose įrenginiuose ir pasiektumėte savo grojaraščius. Kai sąveikaujate su paslauga %1$s naudodami „Google“ padėjėją, užklausos gali būti išsiųstos į sistemą %1$s ir naudojamos atsižvelgiant į jos privatumo pranešimą. %1$s gali pateikti jums asmeninio turinio rezultatų ir suasmenintų rekomendacijų. Paskyrą visada galite atsieti Padėjėjo nustatymuose.</string>
     <string name="assistant_settings_music_no_preference_summary">Naudoti kitų paskyrų nuostatas bendrinamuose įrenginiuose</string>
     <string name="assistant_settings_music_no_preference_title">Nėra numatytojo teikėjo</string>
     <string name="assistant_settings_music_premium_dialog_button">Gerai, supratau</string>
@@ -641,6 +649,7 @@ Padėjėjas naudos šį nustatymą klausimams apie kasdienę kelionę į darbą 
     <string name="assistant_settings_music_unable_unlink_default">Neįmanoma atsieti numatytojo muzikos paslaugų teikėjo</string>
     <string name="assistant_settings_music_unlink_dialog_text">Atsiejus paskyrą bus išjungta galimybė pasiekti turinio iš sistemos %1$s atkūrimo funkciją naudojant „Google“ padėjėją.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Jei „Google Home“ įrenginyje norite leisti „YouTube“ muziką, būtina „YouTube Premium“ narystė. Prisiregistruoti galite adresu <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Jei „Google Home“ įrenginyje norite leisti „YouTube“ muziką, būtina „YouTube“ muzikos „Premium“ narystė. Prisiregistruoti galite adresu <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Būtina „YouTube Premium“ narystė</string>
     <string name="assistant_settings_news_provider_delete_button_description">Pašalinkite %1$s iš įgalintų naujienų šaltinių</string>
     <string name="assistant_settings_news_supports_video">Vaizdo įrašas pasiekiamas išmaniuosiuose ekranuose</string>
@@ -844,8 +853,10 @@ Padėjėjas naudos šį nustatymą nuorodoms į kitas vietas nei darbas ir namai
     <string name="assistant_settings_update_error_message">Nepavyko atnaujinti nustatymo. Patikrinkite ryšį.</string>
     <string name="assistant_settings_video_calls_service_category_title">Padėjėjas gali atlikti vaizdo skambučius iš kai kurių įrenginių, pvz., „Google“ išmaniojo ekrano, naudodamas jūsų pageidaujamą paslaugą. Skambučiai pagalbos numeriais negalimi.</string>
     <string name="assistant_settings_video_icon_text">Vaizdo įrašo teikėjo piktograma</string>
+    <string name="assistant_settings_video_link_dialog_text">Susiekite „Google“ paskyrą su „%1$s“, kad įgalintumėte atkūrimo funkciją suderinamuose įrenginiuose. Kai sąveikaujate su paslauga „%1$s“ naudodami „Google“ padėjėją, užklausos gali būti išsiųstos į sistemą „%1$s“ ir naudojamos atsižvelgiant jos privatumo politiką. „%1$s“ gali pateikti jums asmeninio turinio rezultatų ir suasmenintų rekomendacijų. Paskyrą visada galite atsieti Padėjėjo nustatymuose.</string>
     <string name="assistant_settings_video_provider_category_summary">Leiskite serialus ir filmus paprašę Padėjėjo.</string>
     <string name="assistant_settings_video_provider_category_title">Vaizdo įrašai</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Atsiejus paskyrą bus išjungta galimybė pasiekti turinio iš sistemos „%1$s“ atkūrimo funkciją naudojant „Google“ padėjėją.</string>
     <string name="assistant_settings_videos_photos_title">Vaizdo įrašai ir nuotraukos</string>
     <string name="assistant_settings_videosphotos_cast_destination">„Chromecast“ arba TV, kuriame integruotas „Chromecast“</string>
     <string name="assistant_settings_voice_and_video_calls_title">Balso ir vaizdo skambučiai</string>
@@ -988,7 +999,6 @@ Gali būti taikomi duomenų mokesčiai."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Eiti į išsamios informacijos puslapį.</string>
     <string name="captive_portal_error_card_cell_title_text">Duomenų ryšio problema</string>
     <string name="captive_portal_error_card_explanation_text">Norint naudoti šį „Wi-Fi“ tinklą būtina prisijungti. Prisijunkite tik prie patikimų tinklų, nes kai kurie „Wi-Fi“ portalai gali būti ne tokie saugūs. Kai būsite prisijungę, pabandykite dar kartą atlikti paiešką.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Prisijungti prie tinklo</string>
     <string name="captive_portal_error_card_title_text">Prisijunkite, kad galėtumėte naudoti „Wi-Fi“</string>
     <string name="car_rental_cartype">Automobilio tipas</string>
     <string name="car_rental_dropoff">Grąžinimas</string>
@@ -1202,6 +1212,7 @@ Gali būti taikomi duomenų mokesčiai."</string>
     <string name="current_search_base_url_local">Naudojamas vietinis domenas (%1$s)</string>
     <string name="current_status">Patikrinkite savo dabartinę būseną</string>
     <string name="custom">Tinkintas (negalima tinkinti telefonu)</string>
+    <string name="custom_tabs_explore_action_button_desc">Žr. susijusius puslapius</string>
     <string name="custom_tabs_link_copied">Nuoroda nukopijuota į iškarpinę</string>
     <string name="custom_tabs_menu_item_copy_link">Kopijuoti nuorodą</string>
     <string name="custom_tabs_menu_item_help">Pagalba</string>
@@ -1706,7 +1717,6 @@ Dar kartą bandykite ieškoti tinklalaidės."</string>
     <string name="google_play_services_update_required">Jei norite toliau naudoti sklaidos kanalą, turite atnaujinti „Google Play“ paslaugas</string>
     <string name="google_plus_profile_contact_label">„Google+“ profilis</string>
     <string name="google_podcasts">„Google“ tinklalaidės</string>
-    <string name="google_search_disabled_toast">Neturite leidimo naudoti „Google“ paieškos.</string>
     <string name="goto_system_settings">Nustatymai</string>
     <string name="group_desc">%1$d grupė iš %2$d.</string>
     <string name="gsa_home">Namai</string>
@@ -2172,6 +2182,14 @@ Rezultatus išjungsite Padėjėjo nustatymuose."</string>
     <string name="lens_info_panel_opening_lens">Atidaroma „Lens“…</string>
     <string name="lens_overflow_menu_description">Nustatymai</string>
     <string name="lens_quit_button_description">Išeiti</string>
+    <string name="lens_results_feedback_card_prompt">Ką norite daryti su „Lens“?</string>
+    <string name="lens_results_feedback_card_title">Padėkite mums tobulinti „Lens“</string>
+    <string name="lens_results_feedback_no">NE</string>
+    <string name="lens_results_feedback_prompt_text">Ar šie rezultatai buvo naudingi?</string>
+    <string name="lens_results_feedback_response_to_negative">Dėkojame, kad padedate tobulinti „Lens“.</string>
+    <string name="lens_results_feedback_response_to_positive">Kas galėjo būti geriau?</string>
+    <string name="lens_results_feedback_send_report">SIŲSTI ATSILIEPIMĄ</string>
+    <string name="lens_results_feedback_yes">TAIP</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Rodyti mažiau susisiekimo programų</string>
     <string name="libraries_material_featurehighlight_dismiss">Atsisakyti</string>
@@ -2249,7 +2267,6 @@ Rezultatus išjungsite Padėjėjo nustatymuose."</string>
     <string name="menu_refresh">Atnaujinti</string>
     <string name="menu_send_button_content_description">Siuntimo mygtukas atsiliepimui pateikti.</string>
     <string name="menu_send_feedback">Siųsti atsiliepimą</string>
-    <string name="menu_settings">Nustatymai</string>
     <string name="menu_share">Bendrinti</string>
     <string name="menu_view_in_browser">Žiūrėti naršyklėje</string>
     <string name="menu_visit_page">Apsilankyti puslapyje</string>
@@ -2368,7 +2385,6 @@ Atraskite ir valdykite visas „Google“ paieškas ir daugiau puslapyje „Mano
     <string name="navigation_home_label">Pagr. psl.</string>
     <string name="navigation_recently_label">Naujausi</string>
     <string name="navigation_search_label">Paieška</string>
-    <string name="navigation_updates_label">Būsimi</string>
     <string name="nearby_attractions">Netoliese esančios patrauklios vietos</string>
     <string name="nearby_events_title">Įvykiai netoliese</string>
     <string name="network_error">Šiuo metu neįmanoma pasiekti „Google“.</string>
@@ -2376,6 +2392,7 @@ Atraskite ir valdykite visas „Google“ paieškas ir daugiau puslapyje „Mano
     <string name="network_error_fetching_weather_data_status_text">Tinklas šiuo metu nepasiekiamas</string>
     <string name="network_error_no_connection_tts">Šiuo metu nėra interneto ryšio.</string>
     <string name="network_error_resend_audio">Iš naujo atsiųsti garso įrašą</string>
+    <string name="network_error_try_again">Bandyti dar kartą</string>
     <string name="network_location_required_text">Kad matytumėte korteles pagal vietą, pvz., vietinio orų ir kasdienės kelionės į darbą ir atgal eismo korteles, įjunkite „Wi-Fi“ ir tinklo mobiliesiems vietą</string>
     <string name="network_location_required_text_klp">Kad matytumėte korteles pagal vietovę, pvz., vietinių orų ir kasdienės kelionės į darbą ir atgal eismo korteles, pasirinkite didelio tikslumo ar akumuliatoriaus tausojimo vietovės režimą</string>
     <string name="never">Niekada</string>
@@ -2541,6 +2558,7 @@ Ar norite tęsti?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Atnaujinkite kalbos paketą.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Įgalinkite neprisijungus naudojamą balsą</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Esate neprisijungę. Kad galėtumėte toliau naudoti balso funkciją, kai esate neprisijungę, turite įdiegti naujausią kalbos paketą. Kai bus saugu naudoti ekraną, palieskite pranešimą, kad galėtumėte tai atlikti.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Esate neprisijungę. Kad galėtumėte naudoti balso funkciją neprisijungę, turite įdiegti naujausią kalbos paketą, kuris bus įdiegtas, kai kitą kartą veiks tinklo ryšys.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Esate neprisijungę. Kad galėtumėte toliau naudoti balso funkciją, kai esate neprisijungę, ir gauti naujas funkcijas, turite įdiegti naujausią kalbos paketą. Kai bus saugu naudoti ekraną, palieskite pranešimą, kad galėtumėte tai atlikti.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Esate neprisijungę. Dabar negaliu pasiekti „Google“, bet vis tiek galiu padėti daugeliu klausimų. Pavyzdžiui, pabandykite pasakyti „Make a call“ (Skambinti) arba „What can I say?“ (Ką galiu pasakyti?)</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Esate neprisijungę. Dabar negaliu pasiekti „Google“, bet vis tiek galiu padėti daugeliu klausimų. Pavyzdžiui, pabandykite pasakyti „%1$s“ arba „What can I say?“ (Ką galiu pasakyti?)</string>
@@ -3160,7 +3178,7 @@ Numatomas dydis: %d KB"</string>
     <string name="recently_empty_state_read_later_body_text">Saugosime į jūsų įrenginį atsisiųstus elementus 7 dienas.</string>
     <string name="recently_empty_state_read_later_title_text">Pridėkite puslapių skaityti vėliau</string>
     <string name="recently_entry_interaction_offline">Neprisijungus negalima atidaryti puslapio, dėl kurio pateikta užklausa.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Nepavyko atidaryti pageid. lauk. paieškos balsu.</string>
     <string name="recently_feed_entry">Sklaidos kanalas</string>
     <string name="recently_google_doodle_for">„Google“ logotipų puošyba – %s</string>
     <string name="recently_keep_on_device_until">Palikti įrenginyje iki:</string>
@@ -3437,6 +3455,9 @@ Bandykite ieškoti tinklalaidės dar kartą."</string>
     <string name="search_the_web">Ieškoti žiniatinklyje</string>
     <string name="search_the_web_menu_text">Ieškoti žiniatinklyje</string>
     <string name="search_the_web_suggestion">Ieškoti žiniatinklyje</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Jums bus pranešta apie rezultatus, kai ryšys pagerės.</string>
+    <string name="search_timed_out_card_explanation_text">Taip galėjo nutikti dėl lėto tinklo ryšio.</string>
+    <string name="search_timed_out_card_title_text">Baigėsi skirtasis paieškos laikas</string>
     <string name="search_widget_customization">Tinkinti valdiklį</string>
     <string name="searchbar_hint">Ieškokite tinklalaidžių</string>
     <string name="searchbox_hint">Ieškoti naujausių</string>
@@ -3493,6 +3514,7 @@ Bandykite ieškoti tinklalaidės dar kartą."</string>
     <string name="settings_legal_notices_title">Teisinė informacija</string>
     <string name="settings_location_tos_title">Vietovių paslaugų teikimo sąlygos</string>
     <string name="settings_privacy_policy_title">Privatumo politika</string>
+    <string name="settings_search_icon_title">Paieškos nustatymai</string>
     <string name="settings_tos_title">Paslaugos teikimo sąlygos</string>
     <string name="setup_complete_explanation">„%s“ dabar reaguos, kai pasakysite „Ok Google“. Toliau nurodyti keli dalykai, kuriuos galite išbandyti.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Padėjėjas dabar reaguos, kai kalbėsite su „%s“ įrenginiu. Toliau nurodyti keli dalykai, kuriuos galite išbandyti.</string>
@@ -3828,7 +3850,6 @@ Bandykite ieškoti tinklalaidės dar kartą."</string>
     <string name="training_button_yes">TAIP</string>
     <string name="training_closet_error">Nepavyko įkelti nustatymų</string>
     <string name="training_more_questions">DAUGIAU KLAUSIMŲ</string>
-    <string name="transient_optin_text">Nereikia laukti, jums bus pranešta, kai rezultatai bus paruošti.</string>
     <string name="transit_alarm_notification_subtitle_template">Atvyksite %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Atvyksite %1$s</string>
     <string name="transit_alarm_vog_text">Išlipkite „%1$s“ %2$s</string>
@@ -4019,6 +4040,8 @@ Prisijungta kaip %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Kuriuos įrenginius norėtumėte reguliuoti?</string>
     <string name="user_defined_action_task_home_control_settings">Namų sistemos valdymo nustatymai</string>
     <string name="user_defined_action_task_light_title">Šviesos</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Kurias duris norėtumėte užrakinti?</string>
+    <string name="user_defined_action_task_lock_title">Užrakinti duris</string>
     <string name="user_defined_action_task_music_duration_summary">Muzikos sustabdymo laikmatis pasiekiamas tik naudojant „Google Home“</string>
     <string name="user_defined_action_task_music_duration_title">Po to išjungti muziką…</string>
     <string name="user_defined_action_task_music_example_list">Įveskite grojaraštį, atlikėją, dainą ar žanrą. Pavyzdžiui, „atsipalaidavimas“ arba „Foje“. Atliekant šią veiksmų seką bus naudojama &lt;a href=assistant-settings://?feature=music>numatytoji muzikos paslauga&lt;/a>.</string>

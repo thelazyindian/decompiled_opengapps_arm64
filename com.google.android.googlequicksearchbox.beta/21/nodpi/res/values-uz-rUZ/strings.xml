@@ -420,11 +420,18 @@ Bu ma’lumot asosida Assistent sizga marshrutingiz haqida foydali maslahatlar b
     <string name="assistant_settings_duo_calls_unlink_duo_title">Duo hisobini uzish</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Endi Duo orqali chaqiruvlarini boshlash yoki qabul qilish imkonsiz</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Duo hisobi uzilsinmi?</string>
+    <string name="assistant_settings_duo_consent_summary">Google bu raqamni tasdiqlash uchun kodni SMS orqali yuboradi. Buning uchun aloqa operatoringiz haq olishi mumkin. Telefon raqamingiz yoki Google hisobingizni biladiganlar Google xizmatlari orqali siz bilan aloqaga chiqishlari mumkin.</string>
+    <string name="assistant_settings_duo_consent_title">Smart displeyda Google Duo ilovasi borlar bilan yuqori sifatli videomuloqot boshlang. Duo hisobini yaratish uchun telefon raqamingizni tasdiqlang. U Google hisobingizga ham ulanadi.</string>
     <string name="assistant_settings_email_notification_summary">Assistentga oid eng so‘nggi yangiliklar va funksiyalaridan xabardor bo‘ling</string>
     <string name="assistant_settings_email_notification_title">Google Assistent haqidagi yangiliklar</string>
     <string name="assistant_settings_enable_google_assistant_title">Google Assistentni yoqish</string>
     <string name="assistant_settings_enabled_news_explanation">Assistent “yangiliklar o‘qib berilsin” deyilganda yoki ishlarga yangiliklar qo‘shilganda ushbu manbalardan yangiliklarni o‘qib beradi.</string>
     <string name="assistant_settings_enabled_news_list">Yangilik manbalari</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Hozir emas</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Duo ishlatish</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Smart displey orqali videomuloqot uchun mavjud Duo hisobingizdan foydalaning. Tanishlar va oila a’zolaringiz %1$s raqami orqali siz bilan bog‘lanishlari mumkin.
+Istalgan vaqt Assistent sozlamalari orqali Duo hisobingizni uzishingiz mumkin."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Video chaqiruv</string>
     <string name="assistant_settings_feature_availability">%1$s bilan ishlaydi</string>
     <string name="assistant_settings_float_action_button_label">Qurilma qo‘shish</string>
     <string name="assistant_settings_header_title">Sozlamalar</string>
@@ -534,6 +541,7 @@ Bu ma’lumot asosida Assistent sizga marshrutingiz haqida foydali maslahatlar b
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Home qurilmasida musiqa tinglash uchun Google Play Musiqa obunasi zarur. Uni <a href="https://play.google.com/store/music">Play Musiqa ilovasi</a> orqali rasmiylashtirish, xarid qilish yoki <a href="https://support.google.com/googleplay?p=home_uploadmusic">musiqalaringizni yuklashingiz mumkin</a>.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play Musiqa obunasi yoki kutubxonasi zarur</string>
     <string name="assistant_settings_music_icon_text">Musiqiy xizmat nishonchasi</string>
+    <string name="assistant_settings_music_link_dialog_text">Mos qurilmalarda tinglash va pleylistlaringizga kirish uchun %1$s xizmatiga Google hisobingizni ulang. Google Assistent orqali %1$s xizmatidan foydalanganingizda, talablaringiz %1$s maxfiylik bayonnomasiga muvofiq unga yuborilishi mumkin. %1$s moslashtirilgan natijalar va tavsiyalar berishi mumkin. Istalgan vaqt Assistent sozlamalari orqali hisobingizni uzishingiz mumkin.</string>
     <string name="assistant_settings_music_no_preference_summary">Umumiy qurilmalardagi boshqalarning hisob sozlamalaridan foydalanish</string>
     <string name="assistant_settings_music_no_preference_title">Asosiy xizmat tanlanmagan</string>
     <string name="assistant_settings_music_premium_dialog_button">OK</string>
@@ -544,6 +552,7 @@ Bu ma’lumot asosida Assistent sizga marshrutingiz haqida foydali maslahatlar b
     <string name="assistant_settings_music_unable_unlink_default">Asosiy musiq xizmatini uzib bo‘lmadi</string>
     <string name="assistant_settings_music_unlink_dialog_text">Hisob uzilgandan keyin Google Assistent yordamida %1$s xizmatidagi kontentni ijro qilish imkonsiz.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home qurilmasida YouTube Music xizmatidan foydalanish uchun YouTube Premium obunasi zarur. Registratsiya uchun: <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Google Home qurilmasida YouTube Music xizmatidan foydalanish uchun YouTube Music Premium obunasi zarur. Registratsiya uchun: <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium obunasi zarur</string>
     <string name="assistant_settings_news_provider_delete_button_description">Yangilik manbalaridan %1$s saytini olib tashlash</string>
     <string name="assistant_settings_news_supports_video">Smart displeylarda video chiqdi</string>
@@ -747,8 +756,10 @@ Bu ma’lumot asosida Assistent uyga ham, ishga ham bormayotganingizda sizga mar
     <string name="assistant_settings_update_error_message">Parametrni yangilab bo‘lmadi. Aloqani tekshiring.</string>
     <string name="assistant_settings_video_calls_service_category_title">Assistent tanlangan xizmat yordamida Google Smart displey kabi ayrim qurilmalar orqali video chaqiruvlarni amalga oshira oladi. Tez yordam xizmatlariga chaqiruv hozirda ishlamaydi.</string>
     <string name="assistant_settings_video_icon_text">Video ta’minotchisi belgisi</string>
+    <string name="assistant_settings_video_link_dialog_text">Mos qurilmalarda tomosha qilish uchun %1$s xizmatiga Google hisobingizni ulang. Google Assistent orqali %1$s xizmatidan foydalanganingizda, talablaringiz %1$s maxfiylik siyosatiga muvofiq unga yuborilishi mumkin. %1$s moslashtirilgan natijalar va tavsiyalar berishi mumkin. Istalgan vaqt Assistent sozlamalari orqali hisobingizni uzishingiz mumkin.</string>
     <string name="assistant_settings_video_provider_category_summary">Assistent yordamida ko‘rsatuv va filmlarni tomosha qiling.</string>
     <string name="assistant_settings_video_provider_category_title">Videolar</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Hisob uzilgandan keyin Google Assistent yordamida %1$s xizmatidagi kontentni ijro qilish imkonsiz.</string>
     <string name="assistant_settings_videos_photos_title">Video va suratlar</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast yoki Chromecast xususiyatli TV</string>
     <string name="assistant_settings_voice_and_video_calls_title">Ovozli va video chaqiruvlar</string>
@@ -884,7 +895,6 @@ Sarflangan trafik uchun to‘lov olinishi mumkin."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Tafsilotlar sahifasiga o‘tish</string>
     <string name="captive_portal_error_card_cell_title_text">Internet aloqasida xato</string>
     <string name="captive_portal_error_card_explanation_text">Ushbu Wi-Fi tarmog‘idan foydalanish uchun tizimga kirish talab etiladi. Faqat ishonchli Wi-Fi tarmoqlari uchun hisobingizga kiring. Ba’zi Wi-Fi portallari xavfsiz bo‘lmasligi mumkin. Ulanganingizdan so‘ng, qaytadan qidirib ko‘ring.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Tizimga kiring</string>
     <string name="captive_portal_error_card_title_text">Wi-Fi tarmog‘idan foydalanish uchun tizimga kiring</string>
     <string name="car_rental_cartype">Mashina turi</string>
     <string name="car_rental_dropoff">Qaytarish vaqti</string>
@@ -1047,6 +1057,7 @@ Ushbu suhbatlarni Google hisobingiz sozlamalaridagi %1$s sahifasi orqali ko‘ri
     <string name="current_search_base_url_local">Mahalliy domendan (%1$s) foydalanilmoqda</string>
     <string name="current_status">Hozirgi holatni tekshiring</string>
     <string name="custom">Maxsus (telefonda sozlab bo‘lmaydi)</string>
+    <string name="custom_tabs_explore_action_button_desc">Aloqador sahifalarni ochish</string>
     <string name="custom_tabs_link_copied">Vaqtinchalik xotiraga nusxa olindi</string>
     <string name="custom_tabs_menu_item_copy_link">Havoladan nusxa olish</string>
     <string name="custom_tabs_menu_item_help">Yordam</string>
@@ -1420,7 +1431,6 @@ Google Lens hamma narsani ham bilmasligi mumkin hamda muayyan obyektlar, belgila
     <string name="google_play_services_update_button">Google Play xizmatlarini yangilash</string>
     <string name="google_play_services_update_required">Tasmadan foydalanishni davom ettirish uchun Google Play xizmatlari ilovasini yangilashingiz lozim</string>
     <string name="google_plus_profile_contact_label">Google+ profili</string>
-    <string name="google_search_disabled_toast">Sizda Google Qidiruvdan foydalanish vakolati yo‘q.</string>
     <string name="gsa_home">Uy</string>
     <string name="ha_card_title">Uyingiz</string>
     <string name="hands_free_unlock_device_bluetooth">Avval bildirishnoma ustiga bosing. Keyin, Bluetooth qurilmalarga telefoningiz qulf ekanligida ham u bilan ishlashiga ruxsat berishingiz mumkin.</string>
@@ -1784,6 +1794,14 @@ Assistent sozlamalari orqali moslashtirilgan natijalarni faolsizlantirishingiz m
     <string name="lens_info_panel_opening_lens">Lens ochilmoqda…</string>
     <string name="lens_overflow_menu_description">Sozlamalar</string>
     <string name="lens_quit_button_description">Chiqish</string>
+    <string name="lens_results_feedback_card_prompt">Google Lens xizmatidan nima maqsadda foydalanmoqchisiz?</string>
+    <string name="lens_results_feedback_card_title">Google Lens xizmatini yanada yaxshilashga yordam bering</string>
+    <string name="lens_results_feedback_no">YO‘Q</string>
+    <string name="lens_results_feedback_prompt_text">Bu natijalarning foydasi tegdimi?</string>
+    <string name="lens_results_feedback_response_to_negative">Lens xizmatini yaxshilashga yordamingiz uchun tashakkur.</string>
+    <string name="lens_results_feedback_response_to_positive">Nimani yaxshilash mumkin?</string>
+    <string name="lens_results_feedback_send_report">FIKR-MULOHAZA YUBORISH</string>
+    <string name="lens_results_feedback_yes">HA</string>
     <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">Ochiq kodli DT litsenziyalari</string>
     <string name="light_traffic">Yengil yo‘l harakati</string>
@@ -1844,7 +1862,6 @@ Assistent sozlamalari orqali moslashtirilgan natijalarni faolsizlantirishingiz m
     <string name="menu_overlay_reset_to_default_style">Asl uslubini qaytarish</string>
     <string name="menu_refresh">Yangilash</string>
     <string name="menu_send_button_content_description">Fikr-mulohaza yuborish uchun Yuborish tugmasi.</string>
-    <string name="menu_settings">Sozlamalar</string>
     <string name="menu_share">Ulashish</string>
     <string name="menu_view_in_browser">Brauzerda ko‘rish</string>
     <string name="menu_visit_page">Sahifaga kirish</string>
@@ -1907,7 +1924,6 @@ Assistent sozlamalari orqali moslashtirilgan natijalarni faolsizlantirishingiz m
     <string name="navigation_home_label">Bosh sahifa</string>
     <string name="navigation_recently_label">Oxirgilar</string>
     <string name="navigation_search_label">Qidiruv</string>
-    <string name="navigation_updates_label">Kelgusi</string>
     <string name="nearby_attractions">Yaqin atrofdagi diqqatga sazovor joylar</string>
     <string name="nearby_events_title">Yaqin atrofdagi tadbirlar</string>
     <string name="network_error">Google bilan aloqa o‘rnatib bo‘lmayapti.</string>
@@ -1915,6 +1931,7 @@ Assistent sozlamalari orqali moslashtirilgan natijalarni faolsizlantirishingiz m
     <string name="network_error_fetching_weather_data_status_text">Tarmoqqa ulanib bo‘lmayapti</string>
     <string name="network_error_no_connection_tts">Hozirda internetga ulanish mavjud emas.</string>
     <string name="network_error_resend_audio">Qidiruvni takrorlash</string>
+    <string name="network_error_try_again">Qayta urinish</string>
     <string name="network_location_required_text">Joylashuv ma’lumotlariga asoslangan (m-n, mahalliy ob-havo va qatnovlardagi harakat) ma’lumot kartalarini ko‘rish uchun Wi-Fi va mobil tarmoq orqali joylashuvni aniqlash funksiyasini yoqing</string>
     <string name="network_location_required_text_klp">Muayyan joy uchun mahalliy ob-havo, yo‘llardagi harakat kabi ma’lumotlarni olish uchun joylashuvni aniqlashda yuqori aniqlikdagi yoki energiya tejovchi rejimni tanlang</string>
     <string name="nevermind_prompt">Davom etish</string>
@@ -2063,6 +2080,7 @@ Davom ettirilsinmi?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Til paketini yangilang.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Oflayn ovozni yoqish</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Oflaynsiz. Oflaynda ovozli buyruqdan foydalanish uchun oxirgi til paketini o‘rnating. Buning uchun telefon ekranidan foydalanib, bildirishnoma ustiga bosing.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Internetga ulanmagan. Ovozli boshqaruvdan oflaynda foydalanish uchun eng oxirgi til paketi versiyasi zarur. Internetga ulanishi bilan o‘rnatiladi.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Oflaynsiz. Oflaynda ovozli buyruq va yangi funksiyalardan foydalanish uchun oxirgi til paketini o‘rnating. Buning uchun telefon ekranidan foydalanib, bildirishnoma ustiga bosing.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying \"make a call\" or \"what can I say?\""</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying %1$s or \"what can I say?\""</string>
@@ -2748,6 +2766,9 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="search_storage_label">Google Qidiruv xotirasi</string>
     <string name="search_tablet">Planshet bo‘yicha qidirish</string>
     <string name="search_the_web_menu_text">Vebdan izlash</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Aloqa barqarorlashgandan keyin bildirishnoma olasiz.</string>
+    <string name="search_timed_out_card_explanation_text">Internet aloqasi tezligi juda sekin.</string>
+    <string name="search_timed_out_card_title_text">Kutish vaqti tugadi</string>
     <string name="search_widget_customization">Vidjetni moslashtirish</string>
     <string name="searching_as_account">%1$s sifatida qidirmoqda</string>
     <string name="second_half">2-bo‘lim</string>
@@ -2796,6 +2817,7 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="settings_legal_notices_title">Huquqiy eslatmalar</string>
     <string name="settings_location_tos_title">Joylashuvdan foydalanish shartlari</string>
     <string name="settings_privacy_policy_title">Maxfiylik siyosati</string>
+    <string name="settings_search_icon_title">Qidiruv sozlamalari</string>
     <string name="settings_tos_title">Foydalanish shartlari</string>
     <string name="setup_complete_explanation">“Ok Google” deyishingiz bilan %s javob qaytaradi. Bu maslahatlar siz uchun.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Endi Assistent “%s” qurilmasida ovozli buyruqlarga javob qaytaradi. Quyida ayrim ovozli buyruqlar namunalari keltirilgan.</string>
@@ -3097,7 +3119,6 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="training_button_yes">HA</string>
     <string name="training_closet_error">Sozlamalarni yuklab bo‘lmadi</string>
     <string name="training_more_questions">BOSHQA SAVOLLAR</string>
-    <string name="transient_optin_text">Kutish shart emas, natijalar tayyor bo‘lgach sizga xabar qilinadi.</string>
     <string name="transit_alarm_notification_subtitle_template">Ushbu vaqtda yetib kelasiz: %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Ushbu vaqtda yetib kelasiz: %1$s</string>
     <string name="transit_alarm_vog_text">Quyidagi bekatda tushing: %1$s (%2$s)</string>
@@ -3274,6 +3295,8 @@ Bu o‘zgarishni amalga oshirsangiz, siz quyidagilarni olasiz:"</string>
     <string name="user_defined_action_task_devices_to_adjust">Qaysi qurilmalarni sozlashni xohlaysiz?</string>
     <string name="user_defined_action_task_home_control_settings">Uyni avtomatlashtirish sozlamalari</string>
     <string name="user_defined_action_task_light_title">Chiroqlar</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Qaysi eshiklar qulflansin?</string>
+    <string name="user_defined_action_task_lock_title">Eshiklarni qulflash</string>
     <string name="user_defined_action_task_music_duration_summary">Musiqani to‘xtatish uchun taymer faqat Google Home qurilmalarida ishlaydi</string>
     <string name="user_defined_action_task_music_duration_title">Bundan keyin musiqa o‘chirilsin…</string>
     <string name="user_defined_action_task_music_example_list">Pleylist, san’atkor, qo‘shiq yoki janr nomini kiriting. Masalan, “Hordiq chiqarish uchun pleylist” yoki “The Beatles”. Bu ishlar &lt;a href=assistant-settings://?feature=music>asosiy musiqa xizmatidan&lt;/a> foydalanadi.</string>

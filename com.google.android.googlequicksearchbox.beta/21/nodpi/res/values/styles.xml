@@ -501,6 +501,7 @@
         <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
         <item name="android:textColor">@color/google_opensearchbar_text_color</item>
         <item name="android:textColorHint">@color/google_opensearchbar_hint_text_color</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="Base.TextAppearance.Widget.AppCompat.ExpandedMenu.Item" parent="@android:style/TextAppearance.Medium">
@@ -787,6 +788,7 @@
         <item name="textAppearanceSubtitleAlt1">@style/TextAppearance.GoogleMaterial.SubtitleAlt1</item>
         <item name="textAppearanceSubtitleAlt2">@style/TextAppearance.GoogleMaterial.SubtitleAlt2</item>
         <item name="textAppearanceButtonAlt">@style/TextAppearance.GoogleMaterial.ButtonAlt</item>
+        <item name="snackbarStyle">@style/Widget.GoogleMaterial.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Widget.GoogleMaterial.TextButton.Snackbar</item>
     </style>
     <style name="Base.V14.Theme.GoogleMaterial.Dark.Dialog" parent="@style/Platform.GoogleMaterial.Dark.Dialog">
@@ -853,6 +855,7 @@
         <item name="textAppearanceSubtitleAlt1">@style/TextAppearance.GoogleMaterial.SubtitleAlt1</item>
         <item name="textAppearanceSubtitleAlt2">@style/TextAppearance.GoogleMaterial.SubtitleAlt2</item>
         <item name="textAppearanceButtonAlt">@style/TextAppearance.GoogleMaterial.ButtonAlt</item>
+        <item name="snackbarStyle">@style/Widget.GoogleMaterial.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Widget.GoogleMaterial.TextButton.Snackbar</item>
     </style>
     <style name="Base.V14.Theme.GoogleMaterial.Light" parent="@style/Platform.GoogleMaterial.Light">
@@ -921,6 +924,7 @@
         <item name="textAppearanceSubtitleAlt1">@style/TextAppearance.GoogleMaterial.SubtitleAlt1</item>
         <item name="textAppearanceSubtitleAlt2">@style/TextAppearance.GoogleMaterial.SubtitleAlt2</item>
         <item name="textAppearanceButtonAlt">@style/TextAppearance.GoogleMaterial.ButtonAlt</item>
+        <item name="snackbarStyle">@style/Widget.GoogleMaterial.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Widget.GoogleMaterial.TextButton.Snackbar</item>
     </style>
     <style name="Base.V14.Theme.GoogleMaterial.Light.Dialog" parent="@style/Platform.GoogleMaterial.Light.Dialog">
@@ -987,6 +991,7 @@
         <item name="textAppearanceSubtitleAlt1">@style/TextAppearance.GoogleMaterial.SubtitleAlt1</item>
         <item name="textAppearanceSubtitleAlt2">@style/TextAppearance.GoogleMaterial.SubtitleAlt2</item>
         <item name="textAppearanceButtonAlt">@style/TextAppearance.GoogleMaterial.ButtonAlt</item>
+        <item name="snackbarStyle">@style/Widget.GoogleMaterial.Snackbar</item>
         <item name="snackbarButtonStyle">@style/Widget.GoogleMaterial.TextButton.Snackbar</item>
     </style>
     <style name="Base.V14.Theme.MaterialComponents" parent="@style/Platform.MaterialComponents">
@@ -1024,6 +1029,7 @@
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
         <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
         <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+        <item name="snackbarStyle">@style/Widget.MaterialComponents.Snackbar</item>
         <item name="snackbarButtonStyle">?borderlessButtonStyle</item>
     </style>
     <style name="Base.V14.Theme.MaterialComponents.Dialog" parent="@style/Platform.MaterialComponents.Dialog">
@@ -1060,6 +1066,7 @@
         <item name="colorAccent">?colorSecondary</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_dark</item>
         <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+        <item name="snackbarStyle">@style/Widget.MaterialComponents.Snackbar</item>
         <item name="snackbarButtonStyle">?borderlessButtonStyle</item>
     </style>
     <style name="Base.V14.Theme.MaterialComponents.Light" parent="@style/Platform.MaterialComponents.Light">
@@ -1097,6 +1104,7 @@
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
         <item name="alertDialogTheme">@style/ThemeOverlay.MaterialComponents.Dialog.Alert</item>
         <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+        <item name="snackbarStyle">@style/Widget.MaterialComponents.Snackbar</item>
         <item name="snackbarButtonStyle">?borderlessButtonStyle</item>
     </style>
     <style name="Base.V14.Theme.MaterialComponents.Light.Dialog" parent="@style/Platform.MaterialComponents.Light.Dialog">
@@ -1133,6 +1141,7 @@
         <item name="colorAccent">?colorSecondary</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
         <item name="viewInflaterClass">android.support.design.theme.MaterialComponentsViewInflater</item>
+        <item name="snackbarStyle">@style/Widget.MaterialComponents.Snackbar</item>
         <item name="snackbarButtonStyle">?borderlessButtonStyle</item>
     </style>
     <style name="Base.V14.ThemeOverlay.GoogleMaterial.Dialog" parent="@style/ThemeOverlay.MaterialComponents.Dialog">
@@ -1893,7 +1902,6 @@
     <style name="CardFooterText">
         <item name="android:textAppearance">?textAppearanceSubhead2</item>
         <item name="android:textColor">@color/google_blue600</item>
-        <item name="android:textAllCaps">true</item>
     </style>
     <style name="CardFooterTextBackwardOverride" parent="@style/CardFooterText">
         <item name="android:textSize">12.0sp</item>
@@ -2330,12 +2338,12 @@
         <item name="android:layout_height">32.0dip</item>
     </style>
     <style name="ConversationStartersHqSuggestionText">
-        <item name="android:textSize">14.0dip</item>
+        <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/quantum_googblue</item>
         <item name="android:fontFamily">google-sans-medium</item>
     </style>
     <style name="ConversationStartersSuggestionText">
-        <item name="android:textSize">14.0dip</item>
+        <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/quantum_grey900</item>
         <item name="android:fontFamily">google-sans-medium</item>
     </style>
@@ -5795,15 +5803,17 @@
     <style name="TextAppearance.GoogleMaterial.Body1" parent="@style/TextAppearance.MaterialComponents.Body1">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Body2" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.BottomNavigationView" parent="@style/Base.TextAppearance.GoogleMaterial.BottomNavigationView" />
@@ -5811,22 +5821,25 @@
     <style name="TextAppearance.GoogleMaterial.Button" parent="@style/TextAppearance.MaterialComponents.Button">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.ButtonAlt" parent="@style/TextAppearance.MaterialComponents.Button">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Caption" parent="@style/TextAppearance.MaterialComponents.Caption">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Chip.Assistive" parent="@style/TextAppearance.GoogleMaterial.Chip.Suggestive">
@@ -5841,64 +5854,73 @@
     <style name="TextAppearance.GoogleMaterial.Display1" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">64.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans_display</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans_display</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Display2" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">56.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans_display</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans_display</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Display3" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">44.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans_display</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans_display</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Headline1" parent="@style/TextAppearance.MaterialComponents.Headline1">
         <item name="android:textSize">36.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Headline2" parent="@style/TextAppearance.MaterialComponents.Headline2">
         <item name="android:textSize">32.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Headline3" parent="@style/TextAppearance.MaterialComponents.Headline3">
         <item name="android:textSize">28.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Headline4" parent="@style/TextAppearance.MaterialComponents.Headline4">
         <item name="android:textSize">24.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Headline5" parent="@style/TextAppearance.MaterialComponents.Headline5">
         <item name="android:textSize">22.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Headline6" parent="@style/TextAppearance.MaterialComponents.Headline6">
         <item name="android:textSize">18.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.MaterialButton" parent="@style/TextAppearance.GoogleMaterial.ButtonAlt">
@@ -5912,41 +5934,47 @@
     <style name="TextAppearance.GoogleMaterial.OpenSearchView" parent="@style/Base.TextAppearance.GoogleMaterial.OpenSearch" />
     <style name="TextAppearance.GoogleMaterial.OpenSearchView.Prefix" parent="@style/TextAppearance.AppCompat.Small">
         <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
+        <item name="android:fontFamily">@font/google_sans</item>
         <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Overline" parent="@style/TextAppearance.MaterialComponents.Overline">
         <item name="android:textSize">11.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.02</item>
-        <item name="textAllCaps">true</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Subhead1" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Subhead2" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Subtitle1" parent="@style/TextAppearance.MaterialComponents.Subtitle1">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">-0.02</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Subtitle2" parent="@style/TextAppearance.MaterialComponents.Subtitle2">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.SubtitleAlt1" parent="@style/TextAppearance.GoogleMaterial.Subhead1" />
@@ -5967,15 +5995,17 @@
     <style name="TextAppearance.MaterialComponents.Body1" parent="@style/TextAppearance.AppCompat.Body2">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.03125</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Body2" parent="@style/TextAppearance.AppCompat.Body1">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.017857144</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.MaterialComponents.BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
@@ -5989,15 +6019,17 @@
     <style name="TextAppearance.MaterialComponents.Button" parent="@style/TextAppearance.AppCompat.Button">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.08928572</item>
-        <item name="textAllCaps">true</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Caption" parent="@style/TextAppearance.AppCompat.Caption">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.033333335</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Chip" parent="@style/TextAppearance.AppCompat">
@@ -6007,64 +6039,73 @@
     <style name="TextAppearance.MaterialComponents.Headline1" parent="@style/TextAppearance.AppCompat.Display4">
         <item name="android:textSize">96.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:letterSpacing">-0.015625</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-light</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Headline2" parent="@style/TextAppearance.AppCompat.Display3">
         <item name="android:textSize">60.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:letterSpacing">-0.008333334</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-light</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Headline3" parent="@style/TextAppearance.AppCompat.Display2">
         <item name="android:textSize">48.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Headline4" parent="@style/TextAppearance.AppCompat.Display1">
         <item name="android:textSize">34.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.007352941</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Headline5" parent="@style/TextAppearance.AppCompat.Headline">
         <item name="android:textSize">24.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.0</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Headline6" parent="@style/TextAppearance.AppCompat.Title">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.0125</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Overline" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.16666667</item>
-        <item name="textAllCaps">true</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Subtitle1" parent="@style/TextAppearance.AppCompat.Subhead">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif</item>
         <item name="android:letterSpacing">0.009375</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Subtitle2" parent="@style/TextAppearance.AppCompat.Subhead">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
         <item name="android:letterSpacing">0.007142857</item>
-        <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
     <style name="TextAppearance.MaterialComponents.Tab" parent="@style/TextAppearance.Design.Tab">
@@ -7266,6 +7307,7 @@
         <item name="iconTint">@color/google_btn_text_color_selector_secondary</item>
         <item name="backgroundTint">@color/google_btn_protected_btn_bg_color_selector</item>
     </style>
+    <style name="Widget.GoogleMaterial.Snackbar" parent="@style/Widget.MaterialComponents.Snackbar.FullWidth" />
     <style name="Widget.GoogleMaterial.StrokedButton" parent="@style/Widget.GoogleMaterial.TextButton">
         <item name="android:stateListAnimator">@animator/google_btn_stroked_btn_state_list_anim</item>
         <item name="strokeColor">@color/google_btn_stroke_color_selector</item>
@@ -7422,6 +7464,11 @@
         <item name="itemHorizontalPadding">@dimen/mtrl_navigation_item_horizontal_padding</item>
         <item name="itemIconPadding">@dimen/mtrl_navigation_item_icon_padding</item>
     </style>
+    <style name="Widget.MaterialComponents.Snackbar" parent="@style/Widget.Design.Snackbar">
+        <item name="android:background">@drawable/mtrl_snackbar_background</item>
+        <item name="android:layout_margin">@dimen/mtrl_snackbar_margin</item>
+    </style>
+    <style name="Widget.MaterialComponents.Snackbar.FullWidth" parent="@style/Widget.Design.Snackbar" />
     <style name="Widget.MaterialComponents.TabLayout" parent="@style/Widget.Design.TabLayout">
         <item name="android:background">@android:color/white</item>
         <item name="tabIndicatorColor">?colorAccent</item>
@@ -7570,37 +7617,37 @@
         <item name="android:fontFamily">roboto-medium</item>
     </style>
     <style name="ZeroStateAgendaDayText">
-        <item name="android:textSize">14.0dip</item>
+        <item name="android:textSize">12.0sp</item>
         <item name="android:textColor">@color/quantum_grey900</item>
         <item name="android:fontFamily">sans-serif-regular</item>
     </style>
     <style name="ZeroStateAgendaEmptyStateText">
-        <item name="android:textSize">18.0dip</item>
+        <item name="android:textSize">18.0sp</item>
         <item name="android:textColor">@color/quantum_grey500</item>
         <item name="android:fontFamily">google-sans-regular</item>
     </style>
     <style name="ZeroStateAgendaItemDescriptionText">
-        <item name="android:textSize">16.0dip</item>
-        <item name="android:textColor">@color/quantum_grey700</item>
-        <item name="android:fontFamily">google-sans-regular</item>
-    </style>
-    <style name="ZeroStateAgendaItemText">
-        <item name="android:textSize">18.0dip</item>
-        <item name="android:textColor">@color/quantum_grey900</item>
-        <item name="android:fontFamily">google-sans-medium</item>
-    </style>
-    <style name="ZeroStateAgendaSubItemText">
-        <item name="android:textSize">14.0dip</item>
+        <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/quantum_grey700</item>
         <item name="android:fontFamily">sans-serif-regular</item>
     </style>
+    <style name="ZeroStateAgendaItemText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/quantum_grey900</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+    </style>
+    <style name="ZeroStateAgendaSeeAllText">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/quantum_googblue</item>
+        <item name="android:fontFamily">google-sans-regular</item>
+    </style>
     <style name="ZeroStateContextualGreetingText">
-        <item name="android:textSize">28.0dip</item>
+        <item name="android:textSize">28.0sp</item>
         <item name="android:textColor">@color/quantum_grey900</item>
         <item name="android:fontFamily">google-sans-medium</item>
     </style>
     <style name="ZeroStateContextualWeatherText">
-        <item name="android:textSize">16.0dip</item>
+        <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/quantum_grey900</item>
         <item name="android:fontFamily">google-sans</item>
     </style>
@@ -7627,7 +7674,7 @@
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="ZeroStateSuggestionChipText">
-        <item name="android:textSize">16.0dip</item>
+        <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/quantum_grey900</item>
         <item name="android:fontFamily">google-sans</item>
     </style>

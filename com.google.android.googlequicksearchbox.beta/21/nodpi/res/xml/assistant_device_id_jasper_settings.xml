@@ -8,6 +8,7 @@
             <com.google.android.apps.gsa.assistant.settings.devices.shared.PersonalInfoScreenfulSwitchPreference android:persistent="false" android:key="jasperPersonalInfoPermission" android:defaultValue="true" />
             <com.google.android.apps.gsa.assistant.settings.devices.shared.PersonalSuggestionSwitchPreference android:persistent="false" android:key="jasperPersonalSuggestionsPermission" android:defaultValue="true" />
             <SwitchPreferenceCompat android:persistent="false" android:title="@string/common_device_youtube_restricted_mode_title" android:key="jasperYoutubeRestrictedMode" android:summary="@string/common_device_youtube_restricted_mode_summary" android:defaultValue="true" />
+            <SwitchPreferenceCompat android:persistent="false" android:title="@string/common_device_disable_youTube_for_guests_title" android:key="jasperDisableYoutubeForGuests" android:summary="@string/common_device_disable_youTube_for_guests_summary" android:defaultValue="false" />
             <PreferenceScreen android:persistent="false" android:title="@string/duo_preference_title" android:key="jasperDuo" />
             <ListPreference android:persistent="false" android:title="@string/common_device_assistant_language_title" android:key="jasperAssistantLanguage" android:summary="%s" android:widgetLayout="@layout/preference_widget_next" android:dialogTitle="@string/common_device_assistant_language_title" />
             <Preference android:persistent="false" android:key="jasperRemoveDevice" android:widgetLayout="@layout/preference_widget_clear" />

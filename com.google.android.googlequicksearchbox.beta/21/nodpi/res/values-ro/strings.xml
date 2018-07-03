@@ -517,11 +517,18 @@ Asistentul va folosi această setare pentru întrebările despre navetă"</strin
     <string name="assistant_settings_duo_calls_unlink_duo_title">Deconectați contul Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Nu veți mai putea iniția sau primi apeluri în Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Deconectați contul Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Google va trimite un cod prin SMS pentru a verifica numărul. Operatorul poate aplica taxe. Persoanele care vă cunosc numărul de telefon sau Contul Google vă pot contacta în serviciile Google.</string>
+    <string name="assistant_settings_duo_consent_title">Inițiați apeluri video de calitate înaltă pe ecranul inteligent către orice utilizator Google Duo. Confirmați numărul de telefon pentru a crea un cont Duo. Astfel, îl veți conecta și la Contul dvs. Google.</string>
     <string name="assistant_settings_email_notification_summary">Fiți la curent cu ultimele noutăți și funcții în privința Asistentului</string>
     <string name="assistant_settings_email_notification_title">E-mailuri privind Asistentul Google</string>
     <string name="assistant_settings_enable_google_assistant_title">Activați Asistentul Google</string>
     <string name="assistant_settings_enabled_news_explanation">Asistentul va reda știri din aceste surse atunci când spuneți „Vreau să ascult știrile” sau când adăugați știri într-o rutină.</string>
     <string name="assistant_settings_enabled_news_list">Sursele dvs. de știri</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Nu acum</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Folosiți Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Folosiți contul Duo existent pentru apeluri video pe ecranul inteligent. Prietenii și familia vă pot contacta la %1$s.
+Vă puteți deconecta oricând contul Duo de pe dispozitiv în setările Asistentului."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Apelare video</string>
     <string name="assistant_settings_feature_availability">Disponibil pe %1$s</string>
     <string name="assistant_settings_float_action_button_label">Adăugați dispozitive</string>
     <string name="assistant_settings_header_title">Setări</string>
@@ -631,6 +638,7 @@ Asistentul va folosi această setare pentru întrebările despre navetă"</strin
     <string name="assistant_settings_music_gpm_premium_dialog_text">Pentru a reda conținut din Muzică Google Play pe Google Home este necesar un abonament. Vă puteți înscrie în <a href="https://play.google.com/store/music">aplicația Muzică Play</a>. Sau puteți să cumpărați ori să <a href="https://support.google.com/googleplay?p=home_uploadmusic">încărcați propria muzică</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Este necesară o bibliotecă sau un abonament la Muzică Play</string>
     <string name="assistant_settings_music_icon_text">Pictograma furnizorului de muzică</string>
+    <string name="assistant_settings_music_link_dialog_text">Conectați Contul Google la %1$s pentru a activa redarea pe dispozitivele compatibile și a vă accesa playlisturile. Când interacționați cu serviciul %1$s prin Asistentul Google, este posibil ca interogările să fie trimise la %1$s pentru a fi folosite în conformitate cu declarația sa de confidențialitate. %1$s vă poate oferi rezultate personale și recomandări personalizate. Vă puteți deconecta oricând contul din setările Asistentului.</string>
     <string name="assistant_settings_music_no_preference_summary">Folosiți preferințele altor conturi pe dispozitivele comune</string>
     <string name="assistant_settings_music_no_preference_title">Niciun furnizor prestabilit</string>
     <string name="assistant_settings_music_premium_dialog_button">OK, am înțeles</string>
@@ -641,6 +649,7 @@ Asistentul va folosi această setare pentru întrebările despre navetă"</strin
     <string name="assistant_settings_music_unable_unlink_default">Nu se poate deconecta furnizorul prestabilit de muzică</string>
     <string name="assistant_settings_music_unlink_dialog_text">Dacă deconectați contul se va dezactiva accesul la redare de la %1$s prin Asistentul Google.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Muzică YouTube necesită calitatea de membru YouTube Premium pentru a reda muzică cu Google Home. Vă puteți înscrie la <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Muzică YouTube necesită calitatea de membru YouTube Premium pentru a reda muzică cu Google Home. Vă puteți înscrie la <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Este necesară calitatea de membru YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Eliminați %1$s din sursele de știri activate</string>
     <string name="assistant_settings_news_supports_video">Videoclip disponibil pe ecranele inteligente</string>
@@ -844,8 +853,10 @@ Asistentul va folosi această setare ca să vă ofere indicații de orientare c�
     <string name="assistant_settings_update_error_message">Nu s-a putut actualiza setarea. Verificați conexiunea.</string>
     <string name="assistant_settings_video_calls_service_category_title">Asistentul poate iniția apeluri video de pe unele dispozitive, cum ar fi Ecranul inteligent Google, folosind serviciul dvs. preferat. Serviciile de urgență nu se pot apela.</string>
     <string name="assistant_settings_video_icon_text">Pictograma furnizorului de conținut video</string>
+    <string name="assistant_settings_video_link_dialog_text">Conectați Contul Google la %1$s pentru a activa redarea pe dispozitivele compatibile. Când interacționați cu serviciul %1$s prin Asistentul Google, este posibil ca interogările să fie trimise la %1$s pentru a fi folosite în conformitate cu politica sa de confidențialitate. %1$s vă poate oferi rezultate personale și recomandări personalizate. Vă puteți deconecta oricând contul din setările Asistentului.</string>
     <string name="assistant_settings_video_provider_category_summary">Redați emisiuni și filme solicitând acest lucru Asistentului.</string>
     <string name="assistant_settings_video_provider_category_title">Videoclipuri</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Dacă deconectați contul se va dezactiva accesul la redare de la %1$s prin Asistentul Google.</string>
     <string name="assistant_settings_videos_photos_title">Videoclipuri și fotografii</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast sau TV cu Chromecast încorporat</string>
     <string name="assistant_settings_voice_and_video_calls_title">Apeluri vocale și video</string>
@@ -988,7 +999,6 @@ Se pot aplica taxe pentru date."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Accesați pagina cu detalii</string>
     <string name="captive_portal_error_card_cell_title_text">Problemă privind conexiunea de date</string>
     <string name="captive_portal_error_card_explanation_text">Pentru această rețea Wi-Fi este necesar să vă conectați. Conectați-vă numai la rețelele de încredere, deoarece este posibil ca unele portaluri Wi-Fi să fie mai puțin sigure. După ce vă conectați, încercați să căutați din nou.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Conectați-vă la rețea</string>
     <string name="captive_portal_error_card_title_text">Conectați-vă pentru a folosi rețeaua Wi-Fi</string>
     <string name="car_rental_cartype">Tipul mașinii</string>
     <string name="car_rental_dropoff">Predare</string>
@@ -1202,6 +1212,7 @@ Puteți să vedeți și să gestionați aceste conversații în secțiunea %1$s 
     <string name="current_search_base_url_local">Se utilizează domeniul dvs. local (%1$s)</string>
     <string name="current_status">Verificați starea actuală</string>
     <string name="custom">Personalizat (nu se poate personaliza pe telefon)</string>
+    <string name="custom_tabs_explore_action_button_desc">Vedeți paginile conexe</string>
     <string name="custom_tabs_link_copied">Linkul a fost copiat în clipboard</string>
     <string name="custom_tabs_menu_item_copy_link">Copiați linkul</string>
     <string name="custom_tabs_menu_item_help">Ajutor</string>
@@ -1706,7 +1717,6 @@ Google Lens nu este atotștiutor și nu identificăm întotdeauna corect anumite
     <string name="google_play_services_update_required">Pentru a folosi feedul în continuare, trebuie să actualizați serviciile Google Play</string>
     <string name="google_plus_profile_contact_label">Profil Google+</string>
     <string name="google_podcasts">Podcasturi Google</string>
-    <string name="google_search_disabled_toast">Nu aveți permisiunea de a utiliza Căutare Google.</string>
     <string name="goto_system_settings">Setări</string>
     <string name="group_desc">Grupul %1$d din %2$d.</string>
     <string name="gsa_home">Acasă</string>
@@ -2172,6 +2182,14 @@ Rezultatele personale se dezactivează în setările Asistentului."</string>
     <string name="lens_info_panel_opening_lens">Se deschide Lens…</string>
     <string name="lens_overflow_menu_description">Setări</string>
     <string name="lens_quit_button_description">Ieșiți</string>
+    <string name="lens_results_feedback_card_prompt">Ce doriți să faceți cu Lens?</string>
+    <string name="lens_results_feedback_card_title">Ajutați-ne să îmbunătățim Lens</string>
+    <string name="lens_results_feedback_no">NU</string>
+    <string name="lens_results_feedback_prompt_text">Considerați că aceste rezultate v-au fost utile?</string>
+    <string name="lens_results_feedback_response_to_negative">Vă mulțumim pentru că ne ajutați să îmbunătățim Lens.</string>
+    <string name="lens_results_feedback_response_to_positive">Ce ar fi putut fi mai bine?</string>
+    <string name="lens_results_feedback_send_report">TRIMITEȚI FEEDBACK</string>
+    <string name="lens_results_feedback_yes">DA</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Vedeți mai puține aplicații pentru contact</string>
     <string name="libraries_material_featurehighlight_dismiss">Închideți</string>
@@ -2249,7 +2267,6 @@ Rezultatele personale se dezactivează în setările Asistentului."</string>
     <string name="menu_refresh">Actualizați</string>
     <string name="menu_send_button_content_description">Butonul Trimiteți pentru a trimite feedback.</string>
     <string name="menu_send_feedback">Trimiteți feedback</string>
-    <string name="menu_settings">Setări</string>
     <string name="menu_share">Distribuiți</string>
     <string name="menu_view_in_browser">Afișați în browser</string>
     <string name="menu_visit_page">Accesați pagina</string>
@@ -2368,7 +2385,6 @@ Descoperiți și controlați toate căutările dvs. pe Google și altele din Act
     <string name="navigation_home_label">Pagină de start</string>
     <string name="navigation_recently_label">Recente</string>
     <string name="navigation_search_label">Căutați</string>
-    <string name="navigation_updates_label">Viitoare</string>
     <string name="nearby_attractions">Atracții în apropiere</string>
     <string name="nearby_events_title">Evenimente în apropiere</string>
     <string name="network_error">Nu se poate accesa Google în acest moment.</string>
@@ -2376,6 +2392,7 @@ Descoperiți și controlați toate căutările dvs. pe Google și altele din Act
     <string name="network_error_fetching_weather_data_status_text">Rețeaua nu este disponibilă momentan</string>
     <string name="network_error_no_connection_tts">Momentan nu există conexiune la internet.</string>
     <string name="network_error_resend_audio">Retrimiteți conținutul audio</string>
+    <string name="network_error_try_again">Încercați din nou</string>
     <string name="network_location_required_text">Pentru a vedea cardurile bazate pe locație, cum ar fi informațiile meteo locale și traficul pe traseul obișnuit al navetei dvs., activați localizarea prin rețele Wi-Fi și mobile</string>
     <string name="network_location_required_text_klp">Pentru a vedea cardurile bazate pe locație, cum ar fi informațiile meteo locale și traficul pe traseul navetei dvs., selectați modul de localizare „precizie ridicată” sau „economisirea bateriei”.</string>
     <string name="never">Niciodată</string>
@@ -2541,6 +2558,7 @@ Doriți să continuați?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Faceți upgrade pentru pachetul de limbă.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Activați vocea offline</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Sunteți offline. Pentru a folosi în continuare vocea când sunteți offline, va trebui să instalați cel mai recent pachet de limbă. Când puteți folosi ecranul în siguranță, atingeți notificarea pentru a face acest lucru.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Sunteți offline. Pentru a folosi vocea când sunteți offline, trebuie să instalați cel mai recent pachet de limbă după ce vă conectați la rețea.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Sunteți offline. Pentru a folosi în continuare vocea când sunteți offline și pentru a beneficia de funcții noi, va trebui să instalați cel mai recent pachet de limbă. Când puteți folosi ecranul în siguranță, atingeți notificarea pentru a face acest lucru.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">De fapt, sunteți offline. Nu pot să contactez Google chiar acum, însă tot vă pot ajuta cu multe lucruri. De exemplu, încercați să rostiți „apelează” sau „ce pot să rostesc”?</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">De fapt, sunteți offline. Nu pot să contactez Google chiar acum, însă tot vă pot ajuta cu multe lucruri. De exemplu, încercați să rostiți %1$s sau „ce pot să rostesc”?</string>
@@ -3160,7 +3178,7 @@ Dimensiune estimată: %d Kb"</string>
     <string name="recently_empty_state_read_later_body_text">Vom păstra elementele descărcate pe dispozitiv timp de 7 zile.</string>
     <string name="recently_empty_state_read_later_title_text">Adăugați pagini și citiți-le mai târziu</string>
     <string name="recently_entry_interaction_offline">Pagina solicitată nu poate fi deschisă offline.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Căutarea vocală în așteptare solicitată nu se deschide.</string>
     <string name="recently_feed_entry">Feed</string>
     <string name="recently_google_doodle_for">Doodle Google pentru %s</string>
     <string name="recently_keep_on_device_until">Păstrați până pe:</string>
@@ -3437,6 +3455,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_the_web">Căutați pe web</string>
     <string name="search_the_web_menu_text">Căutați pe web</string>
     <string name="search_the_web_suggestion">Căutați pe web</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Veți primi o notificare privind rezultatele după îmbunătățirea conexiunii.</string>
+    <string name="search_timed_out_card_explanation_text">Acest lucru poate fi cauzat de o conexiune lentă la rețea.</string>
+    <string name="search_timed_out_card_title_text">Căutarea a expirat</string>
     <string name="search_widget_customization">Personalizați widgetul</string>
     <string name="searchbar_hint">Căutați podcasturi</string>
     <string name="searchbox_hint">Căutați în recente</string>
@@ -3493,6 +3514,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="settings_legal_notices_title">Mențiuni legale</string>
     <string name="settings_location_tos_title">Termeni și condiții pentru locație</string>
     <string name="settings_privacy_policy_title">Confidențialitate</string>
+    <string name="settings_search_icon_title">Setările căutării</string>
     <string name="settings_tos_title">Termeni și condiții</string>
     <string name="setup_complete_explanation">%s va răspunde atunci când rostiți „Ok Google”. Iată câteva lucruri pe care le puteți încerca.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Asistentul va răspunde atunci când vorbiți cu %s. Iată câteva lucruri pe care le puteți încerca.</string>
@@ -3827,7 +3849,6 @@ Această emisiune nu este disponibilă acum."</string>
     <string name="training_button_yes">DA</string>
     <string name="training_closet_error">Setările nu s-au putut încărca</string>
     <string name="training_more_questions">MAI MULTE ÎNTREBĂRI</string>
-    <string name="transient_optin_text">Nu este nevoie să așteptați. Veți primi o notificare când sunt gata rezultatele.</string>
     <string name="transit_alarm_notification_subtitle_template">Ajungeți la %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Ajungeți la %1$s</string>
     <string name="transit_alarm_vog_text">Coborâți la %1$s la ora %2$s</string>
@@ -4017,6 +4038,8 @@ V-ați conectat ca %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Ce dispozitive doriți să ajustați?</string>
     <string name="user_defined_action_task_home_control_settings">Setări pentru controlul locuinței</string>
     <string name="user_defined_action_task_light_title">Lumini</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Ce uși doriți să încuiați?</string>
+    <string name="user_defined_action_task_lock_title">Încuie ușile</string>
     <string name="user_defined_action_task_music_duration_summary">Temporizatorul pentru oprirea muzicii este disponibil numai în Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Opriți muzica după…</string>
     <string name="user_defined_action_task_music_example_list">Introduceți numele unui playlist, artist, cântec sau gen. De exemplu, „Playlist relaxant” sau „The Beatles”. Această rutină va folosi &lt;a href=assistant-settings://?feature=music>serviciul de muzică prestabilit&lt;/a>.</string>

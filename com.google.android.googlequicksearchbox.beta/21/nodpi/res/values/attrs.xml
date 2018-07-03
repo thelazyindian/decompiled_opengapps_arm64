@@ -1492,6 +1492,7 @@
     <attr name="gridTextVerticalPadding" format="dimension" />
     <attr name="gridTopPadding" format="dimension" />
     <attr name="gridBottomPadding" format="dimension" />
+    <attr name="snackbarStyle" format="reference" />
     <attr name="snackbarButtonStyle" format="reference" />
     <attr name="maxActionInlineWidth" format="dimension" />
     <attr name="maxSize" format="dimension" />
@@ -1666,6 +1667,16 @@
     <attr name="logoDescription" format="string" />
     <attr name="titleTextColor" format="color" />
     <attr name="subtitleTextColor" format="color" />
+    <attr name="directionMode">
+        <enum name="direction_decrease" value="1" />
+        <enum name="direction_increase" value="0" />
+        <enum name="direction_increase_decrease" value="2" />
+    </attr>
+    <attr name="dimension">
+        <enum name="x" value="0" />
+        <enum name="xy" value="2" />
+        <enum name="y" value="1" />
+    </attr>
     <attr name="textInDuration" format="integer" />
     <attr name="textOutDuration" format="integer" />
     <attr name="paddingStart" format="dimension" />

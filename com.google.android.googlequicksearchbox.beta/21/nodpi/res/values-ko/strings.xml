@@ -533,11 +533,18 @@ Google에서 화면 검색 스크린샷을 무기한으로 보관하고 분석�
     <string name="assistant_settings_duo_calls_unlink_duo_title">Duo 계정 연결 해제</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">더 이상 Duo에서 전화를 걸거나 받을 수 없게 됩니다.</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Duo 계정을 연결 해제하시겠습니까?</string>
+    <string name="assistant_settings_duo_consent_summary">Google에서 이 번호를 인증하기 위해 SMS로 코드를 전송합니다. 이동통신사 요금이 부과될 수 있습니다. 내 전화번호 또는 Google 계정을 아는 사용자가 Google 서비스를 통해 나에게 연락할 수 있습니다.</string>
+    <string name="assistant_settings_duo_consent_title">스마트 디스플레이에서 Google Duo 앱을 사용하는 모든 사람과 고화질 화상 통화를 시작할 수 있습니다. Duo 계정을 만들려면 전화번호를 인증하세요. 인증된 전화번호는 Google 계정과도 연결됩니다.</string>
     <string name="assistant_settings_email_notification_summary">어시스턴트와 관련된 최신 소식과 기능을 받아보세요.</string>
     <string name="assistant_settings_email_notification_title">Google 어시스턴트 이메일</string>
     <string name="assistant_settings_enable_google_assistant_title">Google 어시스턴트 사용</string>
     <string name="assistant_settings_enabled_news_explanation">\"뉴스 듣기\"라고 말하거나 루틴에 뉴스를 추가하면 어시스턴트가 이 매체에서 뉴스를 재생합니다.</string>
     <string name="assistant_settings_enabled_news_list">내 뉴스 매체</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">나중에</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Duo 사용</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"스마트 디스플레이에서 기존 Duo 계정으로 화상 통화를 이용하시겠습니까? 친구와 가족이 %1$s번으로 나에게 연락할 수 있습니다.
+어시스턴트 설정에서 언제든지 Duo 계정을 이 기기에서 연결 해제할 수 있습니다."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">화상 통화</string>
     <string name="assistant_settings_feature_availability">%1$s에서 사용 가능</string>
     <string name="assistant_settings_float_action_button_label">기기 추가</string>
     <string name="assistant_settings_header_title">설정</string>
@@ -647,6 +654,7 @@ Google에서 화면 검색 스크린샷을 무기한으로 보관하고 분석�
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Home에서 음악을 재생하려면 Google Play 뮤직을 구독해야 합니다. <a href="https://play.google.com/store/music">Play 뮤직 앱</a>에서 가입하세요. 음악을 구매하거나 <a href="https://support.google.com/googleplay?p=home_uploadmusic">업로드</a>할 수도 있습니다.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play 뮤직 구독이나 라이브러리가 필요함</string>
     <string name="assistant_settings_music_icon_text">음악 제공업체 아이콘</string>
+    <string name="assistant_settings_music_link_dialog_text">Google 계정을 %1$s에 연결하여 호환되는 기기에서 재생하고 재생목록에 액세스하세요. Google 어시스턴트를 통해 %1$s 서비스를 이용할 경우 검색어가 %1$s에 전송되어 개인정보 보호 관련 안내에 따라 사용될 수 있으며 %1$s에서 개인정보 검색결과 및 맞춤 추천을 제공할 수 있습니다. 계정은 언제든지 어시스턴트 설정에서 연결 해제할 수 있습니다.</string>
     <string name="assistant_settings_music_no_preference_summary">공유 기기에 있는 다른 계정의 환경설정 사용</string>
     <string name="assistant_settings_music_no_preference_title">기본 제공업체 없음</string>
     <string name="assistant_settings_music_premium_dialog_button">확인</string>
@@ -657,6 +665,7 @@ Google에서 화면 검색 스크린샷을 무기한으로 보관하고 분석�
     <string name="assistant_settings_music_unable_unlink_default">기본 음악 제공업체는 연결 해제할 수 없습니다.</string>
     <string name="assistant_settings_music_unlink_dialog_text">계정을 연결 해제하면 Google 어시스턴트를 통한 %1$s의 재생 액세스 권한이 사용 중지됩니다.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home으로 YouTube Music을 재생하려면 YouTube Premium 멤버십이 필요합니다. <a href="http://youtube.com/red">youtube.com/red</a>에서 가입할 수 있습니다.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Google Home으로 YouTube Music을 재생하려면 YouTube Premium 멤버십이 필요합니다. <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>에서 가입할 수 있습니다.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium 멤버십 필요</string>
     <string name="assistant_settings_news_provider_delete_button_description">사용 설정된 뉴스 매체에서 %1$s 삭제</string>
     <string name="assistant_settings_news_supports_video">스마트 디스플레이에서 동영상 시청 가능</string>
@@ -860,8 +869,10 @@ Google에서 화면 검색 스크린샷을 무기한으로 보관하고 분석�
     <string name="assistant_settings_update_error_message">설정을 업데이트할 수 없습니다. 연결을 확인해 주세요.</string>
     <string name="assistant_settings_video_calls_service_category_title">어시스턴트는 내가 선호하는 서비스를 사용하여 Google Smart Display와 같은 일부 기기에 화상 통화를 걸 수 있습니다. 응급 서비스로는 전화를 걸 수 없습니다.</string>
     <string name="assistant_settings_video_icon_text">동영상 제공업체 아이콘</string>
+    <string name="assistant_settings_video_link_dialog_text">Google 계정을 %1$s에 연결하여 호환되는 기기에서 재생하세요. Google 어시스턴트를 통해 %1$s 서비스를 이용할 경우 검색어가 %1$s에 전송되어 개인정보처리방침에 따라 사용될 수 있으며 %1$s에서 개인정보 검색결과 및 맞춤 추천을 제공할 수 있습니다. 계정은 언제든지 어시스턴트 설정에서 연결 해제할 수 있습니다.</string>
     <string name="assistant_settings_video_provider_category_summary">어시스턴트에게 요청하여 TV 프로그램 및 영화를 재생합니다.</string>
     <string name="assistant_settings_video_provider_category_title">동영상</string>
+    <string name="assistant_settings_video_unlink_dialog_text">계정을 연결 해제하면 Google 어시스턴트를 통한 %1$s의 재생 액세스 권한이 사용 중지됩니다.</string>
     <string name="assistant_settings_videos_photos_title">동영상 및 사진</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast 또는 Chromecast 내장 TV</string>
     <string name="assistant_settings_voice_and_video_calls_title">음성 및 화상 통화</string>
@@ -1087,7 +1098,6 @@ Google에서 화면 검색 스크린샷을 무기한으로 보관하고 분석�
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">세부정보 페이지로 이동</string>
     <string name="captive_portal_error_card_cell_title_text">데이터 연결 문제</string>
     <string name="captive_portal_error_card_explanation_text">이 Wi-Fi 네트워크는 로그인이 필요합니다. 일부 Wi-Fi 포털은 안전성이 떨어질 수 있으므로 신뢰할 수 있는 네트워크에만 로그인하세요. 인터넷에 연결되면 검색을 다시 시도하세요.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">네트워크에 로그인</string>
     <string name="captive_portal_error_card_title_text">로그인하여 Wi-Fi 사용하기</string>
     <string name="car_rental_cartype">자동차 유형</string>
     <string name="car_rental_dropoff">반납 일시</string>
@@ -1311,6 +1321,7 @@ Google 계정 설정의 %1$s 섹션에서 이러한 대화를 확인하고 관�
     <string name="current_search_base_url_local">로컬 도메인(%1$s) 사용 중</string>
     <string name="current_status">현재 상태 확인</string>
     <string name="custom">맞춤설정(휴대전화에서는 할 수 없음)</string>
+    <string name="custom_tabs_explore_action_button_desc">관련 페이지 보기</string>
     <string name="custom_tabs_link_copied">링크를 클립보드에 복사했습니다.</string>
     <string name="custom_tabs_menu_item_copy_link">링크 복사</string>
     <string name="custom_tabs_menu_item_help">도움말</string>
@@ -1850,7 +1861,6 @@ Google 렌즈는 모든 정보를 제공할 수 없으며 특정 사물, 텍스�
     <string name="google_play_services_update_required">피드를 계속 사용하려면 Google Play 서비스를 업데이트해야 합니다.</string>
     <string name="google_plus_profile_contact_label">Google+ 프로필</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">Google 검색을 사용할 수 있는 권한이 없습니다.</string>
     <string name="goto_system_settings">설정</string>
     <string name="group_desc">그룹 %2$d개 중 %1$d번째입니다.</string>
     <string name="gsa_home">집</string>
@@ -2351,6 +2361,14 @@ Google 렌즈는 모든 정보를 제공할 수 없으며 특정 사물, 텍스�
     <string name="lens_info_panel_opening_lens">렌즈 여는 중...</string>
     <string name="lens_overflow_menu_description">설정</string>
     <string name="lens_quit_button_description">종료</string>
+    <string name="lens_results_feedback_card_prompt">렌즈로 무엇을 하고 싶으세요?</string>
+    <string name="lens_results_feedback_card_title">렌즈 개선에 도움을 주세요</string>
+    <string name="lens_results_feedback_no">아니요</string>
+    <string name="lens_results_feedback_prompt_text">이 결과가 도움이 되었습니까?</string>
+    <string name="lens_results_feedback_response_to_negative">렌즈를 개선하는 데 도움을 주셔서 감사합니다.</string>
+    <string name="lens_results_feedback_response_to_positive">어떤 점을 개선할 수 있을까요?</string>
+    <string name="lens_results_feedback_send_report">의견 보내기</string>
+    <string name="lens_results_feedback_yes">예</string>
     <string name="lens_title">Google 렌즈</string>
     <string name="less_contact_apps">연락처 앱 간략히</string>
     <string name="libraries_material_featurehighlight_dismiss">취소</string>
@@ -2434,7 +2452,6 @@ Google 렌즈는 모든 정보를 제공할 수 없으며 특정 사물, 텍스�
     <string name="menu_refresh">새로고침</string>
     <string name="menu_send_button_content_description">의견 제출용 전송 버튼입니다.</string>
     <string name="menu_send_feedback">의견 보내기</string>
-    <string name="menu_settings">설정</string>
     <string name="menu_share">공유하기</string>
     <string name="menu_view_in_browser">브라우저로 보기</string>
     <string name="menu_visit_page">페이지 방문</string>
@@ -2560,7 +2577,6 @@ Google 렌즈는 모든 정보를 제공할 수 없으며 특정 사물, 텍스�
     <string name="navigation_home_label">홈</string>
     <string name="navigation_recently_label">최근 항목</string>
     <string name="navigation_search_label">검색</string>
-    <string name="navigation_updates_label">예정된 업데이트</string>
     <string name="nearby_attractions">주변 명소</string>
     <string name="nearby_events_title">주변 이벤트</string>
     <string name="network_error">현재 Google에 접속할 수 없습니다.</string>
@@ -2568,6 +2584,7 @@ Google 렌즈는 모든 정보를 제공할 수 없으며 특정 사물, 텍스�
     <string name="network_error_fetching_weather_data_status_text">현재 네트워크를 사용할 수 없습니다.</string>
     <string name="network_error_no_connection_tts">현재 인터넷에 연결되어 있지 않습니다.</string>
     <string name="network_error_resend_audio">오디오 재전송</string>
+    <string name="network_error_try_again">다시 시도</string>
     <string name="network_location_required_text">지역 날씨 및 출퇴근길 교통 정보와 같은 위치 기반 카드를 표시하려면 Wi‑Fi 및 모바일 네트워크 위치를 사용 설정하세요.</string>
     <string name="network_location_required_text_klp">현지 날씨 및 출퇴근길 교통 정보와 같은 위치 기반 카드를 표시하려면 높은 정확성 또는 배터리 절약 위치 모드를 선택하세요.</string>
     <string name="never">삭제 안함</string>
@@ -2747,6 +2764,7 @@ Google 렌즈는 모든 정보를 제공할 수 없으며 특정 사물, 텍스�
     <string name="offline_eyesfree_install_language_pack_notification_body">언어 팩을 업그레이드합니다.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">오프라인 음성 사용</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">오프라인 상태입니다. 오프라인 상태에서 음성을 계속 사용하려면 최신 언어 팩을 설치해야 합니다. 화면 사용이 안전할 때 알림을 탭하여 설치하세요.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">오프라인 상태입니다. 오프라인 상태에서 음성을 사용하려면 최신 언어 팩이 필요합니다. 다음번에 네트워크에 연결되면 최신 언어 팩이 설치됩니다.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">오프라인 상태입니다. 오프라인 상태에서 음성을 계속 사용하고 새 기능을 받으려면 최신 언어 팩을 설치해야 합니다. 화면 사용이 안전할 때 알림을 탭하여 설치하세요.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">오프라인 상태입니다. 현재 Google에 접속할 수 없지만 많은 작업에 도움을 드릴 수 있습니다. 예를 들어 \"전화 걸기\" 또는 \"내가 뭐라고 말해야 하지?\"라고 말해보세요.</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">오프라인 상태입니다. 현재 Google에 접속할 수 없지만 많은 작업에 도움을 드릴 수 있습니다. 예를 들어 %1$s 또는 \"내가 뭐라고 말해야 하지?\"라고 말해보세요.</string>
@@ -3398,7 +3416,7 @@ Wi-Fi가 꺼져 있으면 모바일 데이터를 사용하여 5MB 업데이트�
     <string name="recently_empty_state_read_later_body_text">기기에 다운로드한 항목은 7일 동안 저장됩니다.</string>
     <string name="recently_empty_state_read_later_title_text">페이지를 추가하여 나중에 읽기</string>
     <string name="recently_entry_interaction_offline">오프라인 상태에서는 요청한 페이지를 열 수 없습니다.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">요청한 대기 중인 음성 검색을 열 수 없습니다.</string>
     <string name="recently_feed_entry">피드</string>
     <string name="recently_google_doodle_for">%s 관련 Google 기념일 로고</string>
     <string name="recently_keep_on_device_until">기기에 보관할 기한</string>
@@ -3676,6 +3694,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_the_web">웹 검색</string>
     <string name="search_the_web_menu_text">웹 검색</string>
     <string name="search_the_web_suggestion">웹 검색</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">연결이 개선되면 결과 알림을 보내드립니다.</string>
+    <string name="search_timed_out_card_explanation_text">느린 네트워크 연결이 원인일 수 있습니다.</string>
+    <string name="search_timed_out_card_title_text">검색 시간 초과됨</string>
     <string name="search_widget_customization">위젯 맞춤설정</string>
     <string name="searchbar_hint">팟캐스트 검색</string>
     <string name="searchbox_hint">최근 검색어로 검색</string>
@@ -3733,6 +3754,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="settings_legal_notices_title">법적 고지</string>
     <string name="settings_location_tos_title">위치 서비스 약관</string>
     <string name="settings_privacy_policy_title">개인정보처리방침</string>
+    <string name="settings_search_icon_title">검색 설정</string>
     <string name="settings_tos_title">서비스 약관</string>
     <string name="setup_complete_explanation">이제 \"Ok Google\"이라고 말하면 %s에서 응답합니다. 사용해 볼 수 있는 음성 명령은 다음과 같습니다.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">이제 %s에 말을 걸면 어시스턴트가 응답합니다. 사용해 볼 수 있는 음성 명령은 다음과 같습니다.</string>
@@ -4097,7 +4119,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="transcript_timeout_2">초안을 삭제하려면 Google 어시스턴트 버튼을 두 번 누르면 됩니다.</string>
     <string name="transcript_timeoutt_1">메시지를 보내려면 오른쪽 이어폰을 탭하세요. 다시 녹음하려면 오른쪽 이어폰을 길게 누르면서 말하세요.</string>
     <string name="transcript_timeoutt_2">초안을 삭제하려면 오른쪽 이어폰을 두 번 탭하세요.</string>
-    <string name="transient_optin_text">기다리지 않아도 됩니다. 결과가 준비되면 알림을 보내 드립니다.</string>
     <string name="transit_alarm_notification_subtitle_template">%1$s(%2$s)에 도착합니다.</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">%1$s에 도착합니다.</string>
     <string name="transit_alarm_vog_text">%1$s에서 %2$s에 하차</string>
@@ -4294,6 +4315,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">어떤 기기를 조정하시겠습니까?</string>
     <string name="user_defined_action_task_home_control_settings">홈 컨트롤 설정</string>
     <string name="user_defined_action_task_light_title">조명</string>
+    <string name="user_defined_action_task_lock_control_which_doors">어떤 문을 잠그시겠습니까?</string>
+    <string name="user_defined_action_task_lock_title">문 잠그기</string>
     <string name="user_defined_action_task_music_duration_summary">음악 끄기 타이머는 Google Home에서만 사용할 수 있습니다</string>
     <string name="user_defined_action_task_music_duration_title">음악 끄기 타이머 시간…</string>
     <string name="user_defined_action_task_music_example_list">"재생목록, 아티스트, 노래 또는 장르를 입력합니다(예: '휴식을 위한 재생목록', '비틀즈'). 이 루틴에는 &lt;a href=assistant-settings://?feature=music>기본 음악 서비스&lt;/a>가 사용됩니다."</string>

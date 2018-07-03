@@ -517,11 +517,18 @@ L'Assistent utilitzarà aquesta configuració per a les preguntes sobre els teus
     <string name="assistant_settings_duo_calls_unlink_duo_title">Desenllaça el compte de Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Ja no podràs fer ni rebre trucades amb Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Vols desenllaçar el compte de Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">"Google t'enviarà un codi per SMS per verificar aquest número. L'operador de telefonia mòbil pot aplicar càrrecs. Les persones que tinguin el teu número de telèfon o la teva adreça electrònica de Google podran contactar amb tu en tots els serveis de Google."</string>
+    <string name="assistant_settings_duo_consent_title">"Inicia videotrucades d'alta qualitat a la pantalla intel·ligent amb qualsevol persona que tingui l'aplicació Google Duo. Verifica el número de telèfon per crear un compte de Duo. També s'enllaçarà amb el teu Compte de Google."</string>
     <string name="assistant_settings_email_notification_summary">"Estigues al cas de les últimes novetats i funcions relacionades amb l'Assistent"</string>
     <string name="assistant_settings_email_notification_title">"Correus electr. de l'Assistent de Google"</string>
     <string name="assistant_settings_enable_google_assistant_title">"Activa l'Assistent de Google"</string>
     <string name="assistant_settings_enabled_news_explanation">"L'Assistent emetrà les notícies d'aquestes fonts quan diguis \"vull escoltar les notícies\" o afegeixis notícies a una rutina."</string>
     <string name="assistant_settings_enabled_news_list">Les teves fonts de notícies</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ara no</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Fes servir Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Fes servir el teu compte de Duo per fer videotrucades des de la pantalla intel·ligent. Els teus amics i familiars podran contactar amb tu a través del número %1$s.
+Pots desenllaçar el compte de Duo d'aquest dispositiu sempre que vulguis des de la configuració de l'Assistent."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videotrucades</string>
     <string name="assistant_settings_feature_availability">Disponible a %1$s</string>
     <string name="assistant_settings_float_action_button_label">Afegeix dispositius</string>
     <string name="assistant_settings_header_title">Configuració</string>
@@ -631,6 +638,7 @@ L'Assistent utilitzarà aquesta configuració per a les preguntes sobre els teus
     <string name="assistant_settings_music_gpm_premium_dialog_text">"Per reproduir contingut de Google Play Música a Google Home, abans t'hi has de subscriure. Pots registrar-te a l'"<a href="https://play.google.com/store/music">aplicació Play Música</a> o, si ho prefereixes, també pots comprar música o <a href="https://support.google.com/googleplay?p=home_uploadmusic">penjar-hi la teva</a>.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Cal una biblioteca o una subscripció a Play Música</string>
     <string name="assistant_settings_music_icon_text">Icona del proveïdor de música</string>
+    <string name="assistant_settings_music_link_dialog_text">"Enllaça el teu compte de Google a %1$s per activar la reproducció en dispositius compatibles i accedir a les teves llistes de reproducció. Quan facis servir l'Assistent de Google per interaccionar amb %1$s, és possible que les teves consultes s'enviïn a %1$s i s'utilitzin d'acord amb el seu avís de privadesa. Pot ser que %1$s et proporcioni resultats personals i recomanacions personalitzades. Pots desenllaçar el compte en qualsevol moment des de la configuració de l'Assistent."</string>
     <string name="assistant_settings_music_no_preference_summary">"Utilitza les preferències d'altres comptes en els dispositius compartits"</string>
     <string name="assistant_settings_music_no_preference_title">No hi ha cap proveïdor predeterminat</string>
     <string name="assistant_settings_music_premium_dialog_button">"D'acord"</string>
@@ -641,6 +649,7 @@ L'Assistent utilitzarà aquesta configuració per a les preguntes sobre els teus
     <string name="assistant_settings_music_unable_unlink_default">No es pot desenllaçar el teu proveïdor de música predeterminat</string>
     <string name="assistant_settings_music_unlink_dialog_text">"Si desenllaces el compte, es desactivarà l'accés per reproduir contingut a %1$s utilitzant l'Assistent de Google."</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music necessita una subscripció YouTube Premium per reproduir contingut a Google Home. Pots registrar-te al servei a <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music necessita una subscripció YouTube Music Premium per reproduir contingut a Google Home. Pots registrar-te al servei a <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Cal una subscripció YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Elimina %1$s de les fonts de notícies que tens activades</string>
     <string name="assistant_settings_news_supports_video">Vídeo disponible en pantalles intel·ligents</string>
@@ -844,8 +853,10 @@ L'Assistent utilitzarà aquesta configuració a l'hora de donar-te indicacions p
     <string name="assistant_settings_update_error_message">"No s'ha pogut actualitzar la configuració. Comprova la connexió."</string>
     <string name="assistant_settings_video_calls_service_category_title">"L'Assistent pot fer videotrucades des de determinats dispositius, com ara la Pantalla intel·ligent de Google, amb el servei que prefereixis. Les trucades d'emergència no estan disponibles."</string>
     <string name="assistant_settings_video_icon_text">Icona del proveïdor de vídeos</string>
+    <string name="assistant_settings_video_link_dialog_text">"Enllaça el teu compte de Google a %1$s per activar la reproducció en dispositius compatibles. Quan facis servir l'Assistent de Google per interaccionar amb %1$s, és possible que les teves consultes s'enviïn a %1$s i s'utilitzin d'acord amb la seva política de privadesa. Pot ser que %1$s et proporcioni resultats personals i recomanacions personalitzades. Pots desenllaçar el compte en qualsevol moment des de la configuració de l'Assistent."</string>
     <string name="assistant_settings_video_provider_category_summary">"Demana a l'Assistent que reprodueixi sèries i pel·lícules."</string>
     <string name="assistant_settings_video_provider_category_title">Vídeos</string>
+    <string name="assistant_settings_video_unlink_dialog_text">"Si desenllaces el compte, es desactivarà l'accés per reproduir contingut a %1$s utilitzant l'Assistent de Google."</string>
     <string name="assistant_settings_videos_photos_title">Vídeos i fotos</string>
     <string name="assistant_settings_videosphotos_cast_destination">un dispositiu Chromecast o un televisor amb Chromecast integrat</string>
     <string name="assistant_settings_voice_and_video_calls_title">Trucades de veu i videotrucades</string>
@@ -988,7 +999,6 @@ Es poden aplicar càrrecs de dades."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Ves a la pàgina de detalls</string>
     <string name="captive_portal_error_card_cell_title_text">Problema de connexió de dades</string>
     <string name="captive_portal_error_card_explanation_text">"Cal que iniciïs la sessió per accedir a aquesta xarxa Wi-Fi. Inicia la sessió només en xarxes de confiança, ja que alguns portals Wi-Fi són menys segurs. Quan t'hagis connectat, torna a provar de fer la cerca."</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Inicia la sessió a la xarxa</string>
     <string name="captive_portal_error_card_title_text">Inicia la sessió per utilitzar la Wi-Fi</string>
     <string name="car_rental_cartype">Tipus de cotxe</string>
     <string name="car_rental_dropoff">Devolució</string>
@@ -1202,6 +1212,7 @@ Pots consultar i gestionar les converses a la secció %1$s de la configuració d
     <string name="current_search_base_url_local">Utilitza el domini local (%1$s)</string>
     <string name="current_status">"Comprova l'estat actual."</string>
     <string name="custom">Personalitzat (no es pot personalitzar al telèfon)</string>
+    <string name="custom_tabs_explore_action_button_desc">Mostra pàgines relacionades</string>
     <string name="custom_tabs_link_copied">"S'ha copiat l'enllaç al porta-retalls"</string>
     <string name="custom_tabs_menu_item_copy_link">"Copia l'enllaç"</string>
     <string name="custom_tabs_menu_item_help">Ajuda</string>
@@ -1706,7 +1717,6 @@ Prova de tornar a cercar el podcast."</string>
     <string name="google_play_services_update_required">"Has d'actualitzar Serveis de Google Play per continuar utilitzant el tauler"</string>
     <string name="google_plus_profile_contact_label">Perfil de Google+</string>
     <string name="google_podcasts">Podcasts de Google</string>
-    <string name="google_search_disabled_toast">No tens permís per fer servir Cerca de Google.</string>
     <string name="goto_system_settings">Configuració</string>
     <string name="group_desc">Grup %1$d de %2$d.</string>
     <string name="gsa_home">Casa</string>
@@ -2172,6 +2182,14 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="lens_info_panel_opening_lens">"S'està obrint Lens…"</string>
     <string name="lens_overflow_menu_description">Configuració</string>
     <string name="lens_quit_button_description">Surt</string>
+    <string name="lens_results_feedback_card_prompt">Què vols fer amb Lens?</string>
+    <string name="lens_results_feedback_card_title">"Ajuda'ns a millorar Lens"</string>
+    <string name="lens_results_feedback_no">NO</string>
+    <string name="lens_results_feedback_prompt_text">Has trobat útils aquests resultats?</string>
+    <string name="lens_results_feedback_response_to_negative">Gràcies per ajudar-nos a millorar Lens.</string>
+    <string name="lens_results_feedback_response_to_positive">Què es podria millorar?</string>
+    <string name="lens_results_feedback_send_report">ENVIA SUGGERIMENTS</string>
+    <string name="lens_results_feedback_yes">SÍ</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Mostra menys aplicacions del contacte</string>
     <string name="libraries_material_featurehighlight_dismiss">Ignora</string>
@@ -2249,7 +2267,6 @@ Pots desactivar-los a la configuració de l'Assistent."</string>
     <string name="menu_refresh">Actualitza</string>
     <string name="menu_send_button_content_description">Botó Envia per enviar suggeriments</string>
     <string name="menu_send_feedback">Envia suggeriments</string>
-    <string name="menu_settings">Configuració</string>
     <string name="menu_share">Comparteix</string>
     <string name="menu_view_in_browser">Mostra al navegador</string>
     <string name="menu_visit_page">Visita la pàgina</string>
@@ -2368,7 +2385,6 @@ Descobreix i controla totes les teves cerques de Google i molt més a La meva ac
     <string name="navigation_home_label">"Pàgina d'inici"</string>
     <string name="navigation_recently_label">Recents</string>
     <string name="navigation_search_label">Cerca</string>
-    <string name="navigation_updates_label">Pròximament</string>
     <string name="nearby_attractions">"Punts d'interès propers"</string>
     <string name="nearby_events_title">Esdeveniments a prop</string>
     <string name="network_error">No es pot accedir a Google en aquests moments.</string>
@@ -2376,6 +2392,7 @@ Descobreix i controla totes les teves cerques de Google i molt més a La meva ac
     <string name="network_error_fetching_weather_data_status_text">La xarxa no està disponible en aquest moment</string>
     <string name="network_error_no_connection_tts">En aquest moment no hi ha connexió a Internet.</string>
     <string name="network_error_resend_audio">"Torna a enviar l'àudio"</string>
+    <string name="network_error_try_again">Torna-ho a provar</string>
     <string name="network_location_required_text">Per veure targetes basades en la ubicació, com ara el temps local i el trànsit del desplaçament diari a la feina, activa la ubicació de la xarxa mòbil i Wi-Fi</string>
     <string name="network_location_required_text_klp">"Per veure targetes basades en la ubicació, com ara la informació meteorològica local i l'estat del trànsit, selecciona el mode d'ubicació d'estalvi de bateria o d'alta precisió."</string>
     <string name="never">Mai</string>
@@ -2541,6 +2558,7 @@ Vols continuar?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">"Actualitza el paquet d'idioma."</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Activa la veu sense connexió</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">"No tens connexió. Has d'instal·lar el paquet d'idioma més recent per continuar utilitzant les opcions de veu sense connexió. Per fer-ho, toca la notificació quan sigui segur fer servir la pantalla."</string>
+    <string name="offline_eyesfree_install_language_pack_tts">"No tens connexió. Per fer servir la veu sense connexió, necessites el paquet d'idioma més recent, que s'instal·larà quan tornis a tenir connexió de xarxa."</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">"No tens connexió. Has d'instal·lar el paquet d'idioma més recent per continuar utilitzant les opcions de veu sense connexió i per obtenir funcions noves. Per fer-ho, toca la notificació quan sigui segur fer servir la pantalla."</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">No tens connexió. Tot i que ara mateix no puc accedir a Google, puc ajudar-te a fer moltes coses. Per exemple, digues \"Fes una trucada\" o \"Què puc dir\"?</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">No tens connexió. Tot i que ara mateix no puc accedir a Google, puc ajudar-te a fer moltes coses. Per exemple, digues \"%1$s\" o \"Què puc dir?\".</string>
@@ -3160,7 +3178,7 @@ Mida estimada: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Desarem els elements baixats al dispositiu durant 7 dies.</string>
     <string name="recently_empty_state_read_later_title_text">Afegeix pàgines per llegir-les més tard</string>
     <string name="recently_entry_interaction_offline">No es pot obrir la pàgina sol·licitada sense connexió.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">No es pot obrir la cerca de veu sol·licitada.</string>
     <string name="recently_feed_entry">El meu tauler</string>
     <string name="recently_google_doodle_for">Doodle de Google per a %s</string>
     <string name="recently_keep_on_device_until">Desa al dispositiu fins:</string>
@@ -3437,6 +3455,9 @@ Prova de tornar a cercar el podcast."</string>
     <string name="search_the_web">Cerca al web</string>
     <string name="search_the_web_menu_text">Fes una cerca al web</string>
     <string name="search_the_web_suggestion">Cerca-ho al web</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Rebràs una notificació amb els resultats quan millori la connexió.</string>
+    <string name="search_timed_out_card_explanation_text">"Podria ser a causa d'una connexió lenta a la xarxa."</string>
+    <string name="search_timed_out_card_title_text">"S'ha esgotat el temps d'espera per a la cerca"</string>
     <string name="search_widget_customization">Personalitza el widget</string>
     <string name="searchbar_hint">Cerca podcasts</string>
     <string name="searchbox_hint">Cerca a Recents</string>
@@ -3493,6 +3514,7 @@ Prova de tornar a cercar el podcast."</string>
     <string name="settings_legal_notices_title">Avisos legals</string>
     <string name="settings_location_tos_title">"Termes i condicions d'ubicació"</string>
     <string name="settings_privacy_policy_title">Política de privadesa</string>
+    <string name="settings_search_icon_title">Configuració de la cerca</string>
     <string name="settings_tos_title">Termes i condicions</string>
     <string name="setup_complete_explanation">El teu dispositiu %s ara respondrà quan diguis \"Ok Google\". A continuació tens uns quants exemples que pots provar de posar en pràctica.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">"A partir d'ara, l'Assistent respondrà quan parlis amb el dispositiu %s. A continuació tens uns quants exemples que pots provar de posar en pràctica."</string>
@@ -3828,7 +3850,6 @@ Aquest programa no està disponible en aquests moments."</string>
     <string name="training_button_yes">SÍ</string>
     <string name="training_closet_error">"No s'ha pogut carregar la configuració"</string>
     <string name="training_more_questions">MÉS PREGUNTES</string>
-    <string name="transient_optin_text">"No cal que t'esperis: rebràs una notificació quan els resultats estiguin a punt."</string>
     <string name="transit_alarm_notification_subtitle_template">Arribaràs a les %1$s (%2$s).</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Arribaràs a les %1$s.</string>
     <string name="transit_alarm_vog_text">Baixa a %1$s a les %2$s.</string>
@@ -3920,7 +3941,7 @@ Aquest programa no està disponible en aquests moments."</string>
     <string name="unreplied_emails_group_header">Correus electrònics prioritaris</string>
     <string name="unreplied_group_header">Converses prioritàries</string>
     <string name="unreplied_messages_group_header">Missatges prioritaris</string>
-    <string name="unsubscribe_button_label">"T'hi has subscrit"</string>
+    <string name="unsubscribe_button_label">Subscrit</string>
     <string name="unsupported_action">"El dispositiu no pot dur a terme l'acció que has sol·licitat"</string>
     <string name="uos_account_picker_content_description">%1$s. Menú desplegable per seleccionar el compte.</string>
     <string name="uos_account_picker_header_text">Selecciona un compte</string>
@@ -4019,6 +4040,8 @@ Sessió iniciada com a %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Quins dispositius vols ajustar?</string>
     <string name="user_defined_action_task_home_control_settings">Configuració de la domòtica</string>
     <string name="user_defined_action_task_light_title">Llums</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Quines portes vols bloquejar?</string>
+    <string name="user_defined_action_task_lock_title">Bloqueja les portes</string>
     <string name="user_defined_action_task_music_duration_summary">El temporitzador per aturar la música només està disponible a Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Deixa de reproduir música després de…</string>
     <string name="user_defined_action_task_music_example_list">Introdueix una llista de reproducció, un artista, una cançó o un gènere. Per exemple, \"Llista de reproducció relaxant\" o \"els Beatles\". Aquesta rutina utilitzarà el teu &lt;a href=assistant-settings://?feature=music>servei de música predeterminat&lt;/a>.</string>

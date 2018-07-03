@@ -514,11 +514,18 @@ Lejo që Google të mbajë dhe të analizojë pamjet e ekranit për kërkimin e 
     <string name="assistant_settings_duo_calls_unlink_duo_title">Shkëput llogarinë Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Nuk do të jesh më në gjendje të kryesh ose të marrësh telefonata në Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Të shkëputet llogaria Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Google do të dërgojë një kod me SMS për të verifikuar këtë numër. Mund të zbatohen tarifat e operatorit celular. Personat që e dinë numrin tënd të telefonit ose llogarinë tënde të Google do të mund të të kontaktojnë nëpër shërbimet e Google.</string>
+    <string name="assistant_settings_duo_consent_title">Nis telefonata me video me cilësi të lartë në \"Ekranin inteligjent\" me këdo që ka aplikacionin Google Duo. Verifiko numrin e telefonit për të krijuar një llogari të Duo. Kjo do ta lidhë atë edhe me llogarinë tënde të Google.</string>
     <string name="assistant_settings_email_notification_summary">Qëndro i lidhur me të rejat dhe funksionet më të fundit në lidhje me \"Asistentin\" tënd</string>
     <string name="assistant_settings_email_notification_title">Mail-et e \"Asistentit të Google\"</string>
     <string name="assistant_settings_enable_google_assistant_title">Aktivizo asistentin e Google</string>
     <string name="assistant_settings_enabled_news_explanation">"\"Asistenti\" yt do të lexojë lajmet nga këto burime kur të thuash \"dëgjo lajmet\" ose kur t'i shtosh lajmet te një rutinë."</string>
     <string name="assistant_settings_enabled_news_list">Burimet e tua të lajmeve</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Jo tani</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Përdor Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Përdor llogarinë tënde ekzistuese të Duo për telefonata me video në \"Ekranin inteligjent\". Shokët dhe familja jote mund të të kontaktojnë në %1$s.
+Mund ta shkëpusësh llogarinë tënde të Duo nga kjo pajisje në çdo kohë te cilësimet e \"Asistentit\"."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Telefonatë me video</string>
     <string name="assistant_settings_feature_availability">Ofrohet në %1$s</string>
     <string name="assistant_settings_float_action_button_label">Shto pajisjet</string>
     <string name="assistant_settings_header_title">Cilësimet</string>
@@ -628,6 +635,7 @@ Lejo që Google të mbajë dhe të analizojë pamjet e ekranit për kërkimin e 
     <string name="assistant_settings_music_gpm_premium_dialog_text">\"Muzika\" e Google Play kërkon një abonim për të luajtur në Google Home. Mund të regjistrohesh në <a href="https://play.google.com/store/music">ap. \"Muzika\" të Play</a>. Gjithashtu në vend të kësaj mund të blesh ose <a href="https://support.google.com/googleplay?p=home_uploadmusic">të ngarkosh muzikën tënde</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Nevojitet abonimi ose biblioteka e \"Muzikës\" së Play</string>
     <string name="assistant_settings_music_icon_text">Ikona e ofruesit të muzikës</string>
+    <string name="assistant_settings_music_link_dialog_text">"Lidh llogarinë tënde të Google me %1$s për të aktivizuar luajtjen në pajisjet e përputhshme dhe për të hapur listat e luajtjes. Kur bashkëvepron me shërbimin %1$s përmes \"Asistentit të Google\", kërkesat e tua mund t'i dërgohen %1$s për përdorim në përputhje me politikën e vet të privatësisë. %1$s mund të ofrojë rezultate personale dhe rekomandime të personalizuara për ty. Mund ta shkëputësh llogarinë në çdo kohë te cilësimet e \"Asistentit\"."</string>
     <string name="assistant_settings_music_no_preference_summary">Përdor preferencat e llogarive të tjera në pajisjet e ndara</string>
     <string name="assistant_settings_music_no_preference_title">Nuk ka asnjë ofrues të parazgjedhur</string>
     <string name="assistant_settings_music_premium_dialog_button">Në rregull, e kuptova</string>
@@ -638,6 +646,7 @@ Lejo që Google të mbajë dhe të analizojë pamjet e ekranit për kërkimin e 
     <string name="assistant_settings_music_unable_unlink_default">Nuk mund të shkëputet ofruesi i parazgjedhur i muzikës</string>
     <string name="assistant_settings_music_unlink_dialog_text">Shkëputja e llogarisë tënde do të çaktivizojë qasjen për luajtjen nga %1$s nëpërmjet \"Asistentit të Google\".</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music kërkon një anëtarësim të YouTube Premium që të luhet në Google Home. Mund të regjistrohesh në <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music kërkon një anëtarësim të YouTube Music Premium që të luhet në Google Home. Mund të regjistrohesh në <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Kërkohet një anëtarësim i YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Hiq %1$s nga burimet e aktivizuara të lajmeve</string>
     <string name="assistant_settings_news_supports_video">Videoja ofrohet në ekranet inteligjente</string>
@@ -841,8 +850,10 @@ Lejo që Google të mbajë dhe të analizojë pamjet e ekranit për kërkimin e 
     <string name="assistant_settings_update_error_message">Cilësimi nuk mund të përditësohej. Kontrollo lidhjen tënde.</string>
     <string name="assistant_settings_video_calls_service_category_title">\"Asistenti\" yt mund të kryejë telefonata në disa pajisje, si p.sh. \"Ekrani inteligjent i Google\", duke përdorur shërbimin tënd të preferuar. Telefonatat drejt shërbimeve të urgjencës nuk ofrohen.</string>
     <string name="assistant_settings_video_icon_text">Ikona e ofruesit të videos</string>
+    <string name="assistant_settings_video_link_dialog_text">"Lidh llogarinë tënde të Google me %1$s për të aktivizuar luajtjen në pajisjet e përputhshme. Kur bashkëvepron me shërbimin %1$s përmes \"Asistentit të Google\", kërkesat e tua mund t'i dërgohen %1$s për përdorim në përputhje me politikën e vet të privatësisë. %1$s mund të ofrojë rezultate personale dhe rekomandime të personalizuara për ty. Mund ta shkëputësh llogarinë në çdo kohë te cilësimet e \"Asistentit\"."</string>
     <string name="assistant_settings_video_provider_category_summary">Luaj shfaqjet dhe filmat duke i kërkuar \"Asistentit\" tënd.</string>
     <string name="assistant_settings_video_provider_category_title">Videot</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Shkëputja e llogarisë tënde do të çaktivizojë qasjen për luajtjen nga %1$s nëpërmjet \"Asistentit të Google\".</string>
     <string name="assistant_settings_videos_photos_title">Videot dhe fotografitë</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast ose televizori me Chromecast të integruar</string>
     <string name="assistant_settings_voice_and_video_calls_title">Telefonata zanore dhe me video</string>
@@ -985,7 +996,6 @@ Mund të zbatohen tarifa për të dhënat."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Shko te faqja e detajeve</string>
     <string name="captive_portal_error_card_cell_title_text">Problem me lidhjen e të dhënave</string>
     <string name="captive_portal_error_card_explanation_text">Ky rrjet Wi-Fi kërkon që të identifikohesh. Identifikohu vetëm në rrjetet që i beson, pasi disa portale Wi-Fi mund të jenë më pak të sigurta. Kur të lidhesh, provoje përsëri kërkimin.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Identifikohu te rrjeti</string>
     <string name="captive_portal_error_card_title_text">Identifikohu për të përdorur Wi-Fi</string>
     <string name="car_rental_cartype">Lloji i makinës</string>
     <string name="car_rental_dropoff">Kthimi</string>
@@ -1199,6 +1209,7 @@ Këto biseda mund t'i shikosh dhe t'i menaxhosh në seksionin %1$s të cilësime
     <string name="current_search_base_url_local">Po përdor domenin tënd lokal (%1$s)</string>
     <string name="current_status">Kontrollo statusin aktual</string>
     <string name="custom">Personalizim (nuk mund të personalizoj nga telefoni)</string>
+    <string name="custom_tabs_explore_action_button_desc">Shiko faqe të ngjashme</string>
     <string name="custom_tabs_link_copied">Lidhja u kopjua në memorien e fragmenteve</string>
     <string name="custom_tabs_menu_item_copy_link">Kopjo lidhjen</string>
     <string name="custom_tabs_menu_item_help">Ndihma</string>
@@ -1702,7 +1713,6 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="google_play_services_update_required">Për të vazhduar përdorimin e furnizimit, nevojitet të përditësosh shërbimet e Google Play</string>
     <string name="google_plus_profile_contact_label">Profili në Google+</string>
     <string name="google_podcasts">Podkastet e Google</string>
-    <string name="google_search_disabled_toast">Nuk ke leje për të përdorur \"Kërko me Google\".</string>
     <string name="goto_system_settings">Cilësimet</string>
     <string name="group_desc">Grupi %1$d nga %2$d.</string>
     <string name="gsa_home">Shtëpia</string>
@@ -2167,6 +2177,14 @@ Rezultatet personale mund t'i çaktivizosh te cilësimet e \"Asistentit\"."</str
     <string name="lens_info_panel_opening_lens">Po hapet \"Lentja\"…</string>
     <string name="lens_overflow_menu_description">Cilësimet</string>
     <string name="lens_quit_button_description">Dil</string>
+    <string name="lens_results_feedback_card_prompt">Çfarë dëshiron të bësh me \"Lenten\"?</string>
+    <string name="lens_results_feedback_card_title">Na ndihmo të përmirësojmë \"Lenten\"</string>
+    <string name="lens_results_feedback_no">JO</string>
+    <string name="lens_results_feedback_prompt_text">A ishin të dobishme këto rezultate?</string>
+    <string name="lens_results_feedback_response_to_negative">Faleminderit për ndihmën në përmirësimin e \"Lentes\".</string>
+    <string name="lens_results_feedback_response_to_positive">Çfarë mund të kishte qenë më mirë?</string>
+    <string name="lens_results_feedback_send_report">DËRGO KOMENTIN</string>
+    <string name="lens_results_feedback_yes">PO</string>
     <string name="lens_title">Lentja e Google</string>
     <string name="less_contact_apps">Shfaq më pak aplikacione të kontakteve</string>
     <string name="libraries_material_featurehighlight_dismiss">Injoro</string>
@@ -2243,7 +2261,6 @@ Rezultatet personale mund t'i çaktivizosh te cilësimet e \"Asistentit\"."</str
     <string name="menu_refresh">Rifresko</string>
     <string name="menu_send_button_content_description">Butoni \"Dërgo\" për të dërguar komentet.</string>
     <string name="menu_send_feedback">Dërgo koment</string>
-    <string name="menu_settings">Cilësimet</string>
     <string name="menu_share">Shpërnda publikisht</string>
     <string name="menu_view_in_browser">Shiko në shfletues</string>
     <string name="menu_visit_page">Vizito faqen</string>
@@ -2362,7 +2379,6 @@ Zbulo dhe kontrollo të gjitha kërkimet e tua në Google dhe më shumë tek \"A
     <string name="navigation_home_label">Kreu</string>
     <string name="navigation_recently_label">Të fundit</string>
     <string name="navigation_search_label">Kërko</string>
-    <string name="navigation_updates_label">Të ardhshme</string>
     <string name="nearby_attractions">Pikat turistike në afërsi</string>
     <string name="nearby_events_title">Ngjarjet në afërsi</string>
     <string name="network_error">Google nuk mund të arrihet në këtë moment.</string>
@@ -2370,6 +2386,7 @@ Zbulo dhe kontrollo të gjitha kërkimet e tua në Google dhe më shumë tek \"A
     <string name="network_error_fetching_weather_data_status_text">Rrjeti aktualisht i padisponueshëm</string>
     <string name="network_error_no_connection_tts">Nuk ka lidhje interneti për momentin.</string>
     <string name="network_error_resend_audio">Dërgo përsëri audion</string>
+    <string name="network_error_try_again">Provo sërish</string>
     <string name="network_location_required_text">Për të parë kartat që bazohen tek vendndodhja, si p.sh. është moti lokal dhe qarkullimi rrugor, aktivizo vendndodhjen e rrjetit Wi‑Fi apo atë celular.</string>
     <string name="network_location_required_text_klp">Për të parë kartat në bazë të vendndodhjes, sikurse motin lokal dhe trafikun e udhëtimit, përzgjidh modalitetin me saktësi të lartë ose modalitetin e vendndodhjes së kursimit të baterisë</string>
     <string name="never">Asnjëherë</string>
@@ -2535,6 +2552,7 @@ Dëshiron që të vazhdosh?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Përmirëso paketën gjuhësore.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Aktivizo zërin jashtë linje</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Je jashtë linje. Për të vazhduar përdorimin e zërit gjatë kohës që je jashtë linje, duhet të instalosh paketën më të fundit gjuhësore. Kur përdorimi i ekranit të jetë i parrezikshëm, trokit te njoftimi për ta bërë këtë.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Je jashtë linje. Për të përdorur zërin kur je jashtë linje, të duhet paketa e fundit gjuhësore që do të instalohet herën tjetër kur të kesh lidhje rrjeti.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Je jashtë linje. Për të vazhduar përdorimin e zërit gjatë kohës që je jashtë linje, si dhe për të marrë funksione të reja, duhet të instalosh paketën më të fundit gjuhësore. Kur përdorimi i ekranit të jetë i parrezikshëm, trokit te njoftimi për ta bërë këtë.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Aktualisht je jashtë linje. Google nuk mund të arrihet tani, por mund të të ndihmoj akoma me shumë gjëra. Për shembull, provo të thuash \"make e call\" ose \"what can I say?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Aktualisht je jashtë linje. Google nuk mund të arrihet tani, por mund të të ndihmoj akoma me shumë gjëra. Për shembull, provo të thuash %1$s ose \"what can I say?\"</string>
@@ -3151,7 +3169,7 @@ Madhësia e përafërt: %d Kb"</string>
     <string name="recently_empty_state_read_later_body_text">"Do t'i mbajmë artikujt të shkarkuar në pajisjen tënde për 7 ditë."</string>
     <string name="recently_empty_state_read_later_title_text">"Shto faqe për t'i lexuar më vonë"</string>
     <string name="recently_entry_interaction_offline">Faqja e kërkuar nuk mund të hapet kur je jashtë linje.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Kërkimi zanor në pritje nuk mund të hapet.</string>
     <string name="recently_feed_entry">Furnizimi</string>
     <string name="recently_google_doodle_for">Google Doodle për %s</string>
     <string name="recently_keep_on_device_until">Mbaje në pajisje deri në:</string>
@@ -3428,6 +3446,9 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="search_the_web">Kërko në ueb</string>
     <string name="search_the_web_menu_text">Kërko në ueb</string>
     <string name="search_the_web_suggestion">Kërko në ueb</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Do të njoftohesh për rezultatet sapo të përmirësohet lidhja.</string>
+    <string name="search_timed_out_card_explanation_text">Mund të ketë ndodhur për shkak të lidhjes së ngadaltë të rrjetit.</string>
+    <string name="search_timed_out_card_title_text">Kërkimi yt skadoi</string>
     <string name="search_widget_customization">Personalizo widget-in</string>
     <string name="searchbar_hint">Kërko për podkaste</string>
     <string name="searchbox_hint">Kërko te më të fundit</string>
@@ -3483,6 +3504,7 @@ Provo të kërkosh përsëri për podkastin."</string>
     <string name="settings_legal_notices_title">Njoftimet ligjore</string>
     <string name="settings_location_tos_title">Kushtet e shërbimit të vendndodhjes</string>
     <string name="settings_privacy_policy_title">Politika e privatësisë</string>
+    <string name="settings_search_icon_title">Cilësimet e kërkimit</string>
     <string name="settings_tos_title">Kushtet e shërbimit</string>
     <string name="setup_complete_explanation">Pajisja jote %s do të përgjigjet tani kur thua \"Ok Google\". Ja disa gjëra që mund të provosh.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">\"Asistenti\" yt tani do të përgjigjet kur të bisedosh me %s. Ja disa gjëra që mund të provosh.</string>
@@ -3815,7 +3837,6 @@ Kjo shfaqje nuk ofrohet për momentin."</string>
     <string name="training_button_yes">PO</string>
     <string name="training_closet_error">Ngarkimi i cilësimeve dështoi</string>
     <string name="training_more_questions">MË SHUMË PYETJE</string>
-    <string name="transient_optin_text">Nuk është nevoja të presësh, do të njoftohesh rezultatet të jenë gati.</string>
     <string name="transit_alarm_notification_subtitle_template">Do të mbërrish në %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Do të mbërrish në %1$s</string>
     <string name="transit_alarm_vog_text">Zbrit në %1$s në %2$s</string>
@@ -4006,6 +4027,8 @@ I identifikuar si %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Cilat pajisje dëshiron të rregullosh?</string>
     <string name="user_defined_action_task_home_control_settings">Cilësimet e kontrollit të shtëpisë</string>
     <string name="user_defined_action_task_light_title">Dritat</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Cilat dyer dëshiron të kyçësh?</string>
+    <string name="user_defined_action_task_lock_title">Kyç dyert</string>
     <string name="user_defined_action_task_music_duration_summary">Kohëmatësi për ndalimin e muzikës ofrohet vetëm në Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Çaktivizo muzikën pas…</string>
     <string name="user_defined_action_task_music_example_list">Fut një listë luajtjeje, një artist, këngë ose zhanër. Për shembull, \"Lista e luajtjes për çlodhje\" ose \"Beatles\". Kjo rutinë do të përdorë &lt;a href=assistant-settings://?feature=music>shërbimin tënd muzikor të parazgjedhur&lt;/a>.</string>

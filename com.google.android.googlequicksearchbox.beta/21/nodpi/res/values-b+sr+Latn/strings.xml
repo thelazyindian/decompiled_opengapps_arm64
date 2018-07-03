@@ -507,11 +507,18 @@ Pomoćnik će koristiti ovo podešavanje za pitanja o redovnom putovanju"</strin
     <string name="assistant_settings_duo_calls_unlink_duo_title">Opozovite vezu sa Duo nalogom</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Više nećete moći da započinjete ili primate pozive pomoću aplikacije Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Želite li da opozovete vezu sa Duo nalogom?</string>
+    <string name="assistant_settings_duo_consent_summary">Google će vam poslati kôd SMS-om da bi verifikovao ovaj broj. Mogu da važe tarife mobilnog operatera. Ljudi koji imaju vaš broj telefona ili Google nalog mogu da stupe u kontakt sa vama u Google uslugama.</string>
+    <string name="assistant_settings_duo_consent_title">Započinjite video pozive visokog kvaliteta na pametnom ekranu sa bilo kojim korisnikom aplikacije Google Duo. Verifikujte broj telefona da biste otvorili Duo nalog. Ovim ćete ga i povezati sa Google nalogom.</string>
     <string name="assistant_settings_email_notification_summary">Budite u toku sa najnovijim vestima i funkcijama u vezi sa Pomoćnikom</string>
     <string name="assistant_settings_email_notification_title">Imejlovi Google pomoćnika</string>
     <string name="assistant_settings_enable_google_assistant_title">Omogući Google pomoćnik</string>
     <string name="assistant_settings_enabled_news_explanation">Pomoćnik će puštati vesti iz ovih izvora kada kažete „slušaj vesti“ ili dodate vesti u rutinu.</string>
     <string name="assistant_settings_enabled_news_list">Izvori vesti</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ne sada</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Koristi Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Koristite postojeći Duo nalog za video pozive na pametnom ekranu. Prijatelji i porodica mogu da vas kontaktiraju na %1$s.
+Vezu Duo naloga sa ovim uređajem možete da opozovete u svakom trenutku u podešavanjima Pomoćnika."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Video pozivanje</string>
     <string name="assistant_settings_feature_availability">Dostupno na: %1$s</string>
     <string name="assistant_settings_float_action_button_label">Dodaj uređaje</string>
     <string name="assistant_settings_header_title">Podešavanja</string>
@@ -621,6 +628,7 @@ Pomoćnik će koristiti ovo podešavanje za pitanja o redovnom putovanju"</strin
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Play muzika zahteva pretplatu da biste je puštali na Google Home-u. Možete da se registrujete u <a href="https://play.google.com/store/music">aplikaciji Play muzika</a>. A možete i da kupite ili <a href="https://support.google.com/googleplay?p=home_uploadmusic">otpremite muziku</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Potrebna je pretplata na Play muziku ili fonoteka</string>
     <string name="assistant_settings_music_icon_text">Ikona usluge za muziku</string>
+    <string name="assistant_settings_music_link_dialog_text">Povežite Google nalog sa uslugom %1$s da biste omogućili reprodukciju na kompatibilnim uređajima i pristupili plejlistama. Kad imate interakciju sa uslugom %1$s preko Google pomoćnika, upite možemo da pošaljemo usluzi %1$s da ih koristi u skladu sa svojom izjavom o privatnosti. %1$s može da vam obezbedi lične rezultate i personalizovane preporuke. U bilo kom trenutku možete da opozovete vezu sa nalogom u podešavanjima Pomoćnika.</string>
     <string name="assistant_settings_music_no_preference_summary">Koristi podešavanja drugih naloga na deljenim uređajima</string>
     <string name="assistant_settings_music_no_preference_title">Nema podrazumevanog dobavljača usluge</string>
     <string name="assistant_settings_music_premium_dialog_button">Važi</string>
@@ -631,6 +639,7 @@ Pomoćnik će koristiti ovo podešavanje za pitanja o redovnom putovanju"</strin
     <string name="assistant_settings_music_unable_unlink_default">Opozivanje veze sa podrazumevanom uslugom za muziku nije uspelo</string>
     <string name="assistant_settings_music_unlink_dialog_text">Ako opozovete vezu sa nalogom, isključićete pristup za reprodukciju iz usluge %1$s preko Google pomoćnika.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube muzika zahteva članstvo u YouTube Premium-u da biste mogli da je puštate na Google Home-u. Možete da se registrujete na <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube muzika zahteva članstvo u YouTube Premium-u da biste mogli da je puštate na Google Home-u. Možete da se registrujete na <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Obavezno je članstvo u YouTube Premium-u</string>
     <string name="assistant_settings_news_provider_delete_button_description">Uklonite %1$s iz izabranih izvora vesti</string>
     <string name="assistant_settings_news_supports_video">Video dostupan na pametnim ekranima</string>
@@ -834,8 +843,10 @@ Pomoćnik će koristiti ovo podešavanje kada vam daje uputstva do mesta koja ni
     <string name="assistant_settings_update_error_message">Ažuriranje podešavanja nije uspelo. Proverite vezu.</string>
     <string name="assistant_settings_video_calls_service_category_title">Pomoćnik može da upućuje video pozive preko nekih uređaja, poput Google pametnog ekrana, pomoću željene usluge. Pozivi hitnim službama nisu dostupni.</string>
     <string name="assistant_settings_video_icon_text">Ikona usluge za video snimke</string>
+    <string name="assistant_settings_video_link_dialog_text">Povežite Google nalog sa uslugom %1$s da biste omogućili reprodukciju na kompatibilnim uređajima. Kad imate interakciju sa uslugom %1$s preko Google pomoćnika, upite možemo da pošaljemo usluzi %1$s da ih koristi u skladu sa svojom politikom privatnosti. %1$s može da vam obezbedi lične rezultate i personalizovane preporuke. U bilo kom trenutku možete da opozovete vezu sa nalogom u podešavanjima Pomoćnika.</string>
     <string name="assistant_settings_video_provider_category_summary">Zatražite od Pomoćnika da pušta emisije i filmove.</string>
     <string name="assistant_settings_video_provider_category_title">Video snimci</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Ako opozovete vezu sa nalogom, isključićete pristup za reprodukciju iz usluge %1$s preko Google pomoćnika.</string>
     <string name="assistant_settings_videos_photos_title">Video snimci i slike</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast ili TV sa ugrađenim Chromecast-om</string>
     <string name="assistant_settings_voice_and_video_calls_title">Glasovni i video pozivi</string>
@@ -978,7 +989,6 @@ Možda će biti naplaćeni troškovi za prenos podataka."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Idi na stranicu sa detaljima</string>
     <string name="captive_portal_error_card_cell_title_text">Problem sa vezom za prenos podataka</string>
     <string name="captive_portal_error_card_explanation_text">Ova Wi-Fi mreža zahteva da se prijavite. Prijavljujte se samo na pouzdane mreže jer su neki Wi-Fi portali manje bezbedni. Kada se povežete, ponovite pretragu.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Prijavi me na mrežu</string>
     <string name="captive_portal_error_card_title_text">Prijavite se da biste koristili Wi-Fi</string>
     <string name="car_rental_cartype">Tip automobila</string>
     <string name="car_rental_dropoff">Predaja</string>
@@ -1192,6 +1202,7 @@ Možete da pregledate te razgovore i da upravljate njima u odeljku %1$s u podeš
     <string name="current_search_base_url_local">Koristite lokalni domen (%1$s)</string>
     <string name="current_status">Proverite trenutni status</string>
     <string name="custom">Prilagođeno (nije moguće prilagoditi na telefonu)</string>
+    <string name="custom_tabs_explore_action_button_desc">Prikaži srodne stranice</string>
     <string name="custom_tabs_link_copied">Link je kopiran u privremenu memoriju</string>
     <string name="custom_tabs_menu_item_copy_link">Kopiraj link</string>
     <string name="custom_tabs_menu_item_help">Pomoć</string>
@@ -1632,7 +1643,6 @@ Probajte ponovo da potražite potkast."</string>
     <string name="google_play_services_update_required">Da biste nastavili da koristite fid, treba da ažurirate Google Play usluge</string>
     <string name="google_plus_profile_contact_label">Google+ profil</string>
     <string name="google_podcasts">Google potkasti</string>
-    <string name="google_search_disabled_toast">Nemate dozvolu da koristite Google pretragu.</string>
     <string name="goto_system_settings">Podešavanja</string>
     <string name="group_desc">%1$d. grupa od %2$d.</string>
     <string name="gsa_home">Kuća</string>
@@ -1646,7 +1656,7 @@ Probajte ponovo da potražite potkast."</string>
     <string name="hateful">Govor mržnje</string>
     <string name="header_category_search_and_now">Pretraži</string>
     <string name="heavy_traffic">Gust saobraćaj</string>
-    <string name="help">Pomoć</string>
+    <string name="help">Pomoć</string>
     <string name="help_and_feedback">Pomoć i povratne informacije</string>
     <string name="help_card_instruction">Dodirnite mikrofon ili recite „Ok Google“, pa recite:</string>
     <string name="help_quoted_example_query">„%s“</string>
@@ -2069,6 +2079,14 @@ Lične rezultate možete da isključite u podešavanjima Pomoćnika."</string>
     <string name="lens_info_panel_opening_lens">Objektiv se otvara…</string>
     <string name="lens_overflow_menu_description">Podešavanja</string>
     <string name="lens_quit_button_description">Zatvori</string>
+    <string name="lens_results_feedback_card_prompt">Šta želite da uradite u vezi sa Objektivom?</string>
+    <string name="lens_results_feedback_card_title">Pomozite nam da poboljšamo Objektiv</string>
+    <string name="lens_results_feedback_no">NE</string>
+    <string name="lens_results_feedback_prompt_text">Da li su vam ovi predlozi korisni?</string>
+    <string name="lens_results_feedback_response_to_negative">Hvala vam što nam pomažete da poboljšamo Objektiv.</string>
+    <string name="lens_results_feedback_response_to_positive">Šta možemo da poboljšamo?</string>
+    <string name="lens_results_feedback_send_report">POŠALJI POVRATNE INFORMACIJE</string>
+    <string name="lens_results_feedback_yes">DA</string>
     <string name="lens_title">Google objektiv</string>
     <string name="less_contact_apps">Prikaži manje aplikacija za kontakt</string>
     <string name="license_activity_title">Licence otvorenog koda</string>
@@ -2145,7 +2163,6 @@ Lične rezultate možete da isključite u podešavanjima Pomoćnika."</string>
     <string name="menu_refresh">Osveži</string>
     <string name="menu_send_button_content_description">Dugme Pošalji za slanje povratnih informacija.</string>
     <string name="menu_send_feedback">Pošalji povratne informacije</string>
-    <string name="menu_settings">Podešavanja</string>
     <string name="menu_share">Deli</string>
     <string name="menu_view_in_browser">Prikaži u pregledaču</string>
     <string name="menu_visit_page">Poseti stranicu</string>
@@ -2260,7 +2277,6 @@ Otkrijte i kontrolišite sve Google pretrage i još više u Mojim aktivnostima."
     <string name="navigation_home_label">Početna</string>
     <string name="navigation_recently_label">Nedavno</string>
     <string name="navigation_search_label">Pretraga</string>
-    <string name="navigation_updates_label">Predstojeće</string>
     <string name="nearby_attractions">Obližnje atrakcije</string>
     <string name="nearby_events_title">Događaji u okolini</string>
     <string name="network_error">Trenutno nije moguće kontaktirati Google.</string>
@@ -2268,6 +2284,7 @@ Otkrijte i kontrolišite sve Google pretrage i još više u Mojim aktivnostima."
     <string name="network_error_fetching_weather_data_status_text">Mreža trenutno nije dostupna</string>
     <string name="network_error_no_connection_tts">Trenutno nema internet veze.</string>
     <string name="network_error_resend_audio">Ponovo pošalji audio</string>
+    <string name="network_error_try_again">Probaj ponovo</string>
     <string name="network_location_required_text">Da biste videli kartice zasnovane na lokaciji, kao što su lokalno vreme i saobraćaj pri uobičajenoj vožnji, uključite lociranje na osnovu Wi‑Fi i mobilne mreže</string>
     <string name="network_location_required_text_klp">Da biste videli kartice zasnovane na lokaciji, kao što su lokalno vreme i saobraćaj pri redovnom putovanju, izaberite režim lokacije sa velikom preciznošću ili uštedom baterije</string>
     <string name="never">Nikad</string>
@@ -2433,6 +2450,7 @@ Otkrijte i kontrolišite sve Google pretrage i još više u Mojim aktivnostima."
     <string name="offline_eyesfree_install_language_pack_notification_body">Nadogradite jezički paket.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Omogućite oflajn glas</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Oflajn ste. Da biste nastavili da koristite glas kada ste oflajn, treba da instalirate najnoviji jezički paket. Kada budete mogli bezbedno da koristite ekran, dodirnite obaveštenje da biste to uradili.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Oflajn ste. Da biste koristili glas kad ste oflajn, treba vam najnoviji jezički paket koji će se instalirati sledeći put kad se povežete na mrežu.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Oflajn ste. Da biste nastavili da koristite glas kada ste oflajn i da biste dobili nove funkcije, treba da instalirate najnoviji jezički paket. Kada budete mogli bezbedno da koristite ekran, dodirnite obaveštenje da biste to uradili.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">U stvari, oflajn ste. Trenutno ne mogu da kontaktiram Google, ali i dalje mogu da vam pomognem sa mnogim stvarima. Na primer, pokušajte da kažete „make a call“ (uputi poziv) ili „what can I say?“ (šta mogu da kažem?)</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">U stvari, oflajn ste. Trenutno ne mogu da kontaktiram Google, ali i dalje mogu da vam pomognem sa mnogim stvarima. Na primer, pokušajte da kažete %1$s ili „what can I say?“ (šta mogu da kažem?)</string>
@@ -3047,7 +3065,7 @@ Procenjena veličina: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Zadržaćemo stavke preuzete na uređaju 7 dana.</string>
     <string name="recently_empty_state_read_later_title_text">Dodajte stranice za kasnije čitanje</string>
     <string name="recently_entry_interaction_offline">Zahtevana stranica ne može da se otvori dok ste oflajn.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Otvaranje zatražene glasovne pretrage na čekanju nije uspelo.</string>
     <string name="recently_feed_entry">Fid</string>
     <string name="recently_google_doodle_for">Google Doodle logotip za: %s</string>
     <string name="recently_keep_on_device_until">Zadrži na uređaju do:</string>
@@ -3298,6 +3316,9 @@ Probajte ponovo da potražite potkast."</string>
     <string name="search_the_web">Pretraži veb</string>
     <string name="search_the_web_menu_text">Pretražite veb</string>
     <string name="search_the_web_suggestion">Pretraži veb</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Dobićete obaveštenje o rezultatima kad se veza poboljša.</string>
+    <string name="search_timed_out_card_explanation_text">Razlog za to može da bude slaba mrežna veza.</string>
+    <string name="search_timed_out_card_title_text">Vreme za pretragu je isteklo</string>
     <string name="search_widget_customization">Prilagodite vidžet</string>
     <string name="searchbar_hint">Tražite potkaste</string>
     <string name="searchbox_hint">Pretražite odeljak Nedavno</string>
@@ -3354,6 +3375,7 @@ Probajte ponovo da potražite potkast."</string>
     <string name="settings_legal_notices_title">Pravna obaveštenja</string>
     <string name="settings_location_tos_title">Uslovi korišćenja usluge Lokacija</string>
     <string name="settings_privacy_policy_title">Politika privatnosti</string>
+    <string name="settings_search_icon_title">Podešavanja pretrage</string>
     <string name="settings_tos_title">Uslovi korišćenja usluge</string>
     <string name="setup_complete_explanation">%s će sada reagovati kada kažete „Ok Google“. Evo nekih stvari koje možete da isprobate.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Pomoćnik će sada reagovati kada pričate sa: %s. Evo nekih stvari koje možete da isprobate.</string>
@@ -3688,7 +3710,6 @@ Ova emisija trenutno nije dostupna."</string>
     <string name="training_button_yes">DA</string>
     <string name="training_closet_error">Učitavanje podešavanja nije uspelo</string>
     <string name="training_more_questions">JOŠ PITANJA</string>
-    <string name="transient_optin_text">Ne morate da čekate. Dobićete obaveštenje kada rezultati budu spremni.</string>
     <string name="transit_alarm_notification_subtitle_template">Stižete u %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Stižete u %1$s</string>
     <string name="transit_alarm_vog_text">Siđite na %1$s u %2$s</string>
@@ -3874,6 +3895,8 @@ Prijavljeni ste kao %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Koje uređaje želite da prilagodite?</string>
     <string name="user_defined_action_task_home_control_settings">Podešavanja upravljanja kućom</string>
     <string name="user_defined_action_task_light_title">Svetla</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Koja vrata želite da zaključate?</string>
+    <string name="user_defined_action_task_lock_title">Zaključavanje vrata</string>
     <string name="user_defined_action_task_music_duration_summary">Tajmer za isključivanje muzike je dostupan samo na Google Home-u</string>
     <string name="user_defined_action_task_music_duration_title">Isključi muziku posle…</string>
     <string name="user_defined_action_task_music_example_list">Unesite plejlistu, izvođača, pesmu ili žanr. Na primer, „plejlista za opuštanje“ ili „Partibrejkers“. Ova rutina koristi &lt;a href=assistant-settings://?feature=music>podrazumevanu muzičku uslugu&lt;/a>.</string>

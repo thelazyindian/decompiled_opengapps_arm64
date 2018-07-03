@@ -517,11 +517,18 @@ Asistent použije toto nastavenie na otázky týkajúce sa vášho dochádzania.
     <string name="assistant_settings_duo_calls_unlink_duo_title">Odpojenie účtu Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Už nebudete môcť volať ani prijímať hovory v aplikácii Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Odpojiť účet Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Google odošle v správe SMS kód na overenie tohto čísla. Môžu sa účtovať poplatky operátora. Ľudia, ktorí poznajú vaše telefónne číslo alebo účet Google, vás budú môcť kontaktovať v službách Googlu.</string>
+    <string name="assistant_settings_duo_consent_title">Začnite videohovory vo vysokej kvalite na inteligentnom displeji s kýmkoľvek, kto má aplikáciu Google Duo. Overte svoje telefónne číslo a vytvorte si účet Duo. Zároveň sa tým prepojí s vaším účtom Google.</string>
     <string name="assistant_settings_email_notification_summary">Nechajte si posielať e-maily s najnovšími správami a funkciami súvisiacimi s Asistentom</string>
     <string name="assistant_settings_email_notification_title">E-maily Asistenta Google</string>
     <string name="assistant_settings_enable_google_assistant_title">Aktivovať Asistenta Google</string>
     <string name="assistant_settings_enabled_news_explanation">Asistent prehrá správy z týchto zdrojov, keď poviete „Listen to the news“ (Prehrať správy) alebo pridáte správy do postupu.</string>
     <string name="assistant_settings_enabled_news_list">Vaše spravodajské zdroje</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Teraz nie</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Použiť účet Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Použite svoj existujúci účet Duo na videohovory na inteligentnom displeji. Priatelia a rodina vás môžu kontaktovať na čísle %1$s.
+Svoj účet Duo môžete kedykoľvek odpojiť od zariadenia v nastaveniach Asistenta."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videohovory</string>
     <string name="assistant_settings_feature_availability">K dispozícii na zariadeniach %1$s</string>
     <string name="assistant_settings_float_action_button_label">Pridať zariadenia</string>
     <string name="assistant_settings_header_title">Nastavenia</string>
@@ -631,6 +638,7 @@ Asistent použije toto nastavenie na otázky týkajúce sa vášho dochádzania.
     <string name="assistant_settings_music_gpm_premium_dialog_text">Ak chcete používať Hudbu Google Play v zariadení Google Home, musíte mať aktívny odber. Môžete sa zaregistrovať v <a href="https://play.google.com/store/music">aplikácii Hudba Play</a>. Môžete tiež namiesto toho kúpiť alebo <a href="https://support.google.com/googleplay?p=home_uploadmusic">nahrať svoju hudbu</a>.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Vyžaduje sa odber alebo knižnica Hudby Play</string>
     <string name="assistant_settings_music_icon_text">Ikona poskytovateľa hudby</string>
+    <string name="assistant_settings_music_link_dialog_text">Prepojte svoj účet Google so službou %1$s. Aktivujete tak prehrávanie v kompatibilných zariadeniach a prístup k zoznamom skladieb. Ak službu %1$s používate prostredníctvom Asistenta Google, vaše dopyty môžu byť odoslané službe %1$s na použitie v súlade s jej vyhlásením o ochrane súkromia. %1$s vám môže poskytovať osobné výsledky a prispôsobené odporúčania. Účet môžete kedykoľvek odpojiť v nastaveniach Asistenta.</string>
     <string name="assistant_settings_music_no_preference_summary">Používať predvoľby iných účtov v zdieľaných zariadeniach</string>
     <string name="assistant_settings_music_no_preference_title">Žiadny predvolený poskytovateľ</string>
     <string name="assistant_settings_music_premium_dialog_button">Dobre</string>
@@ -641,6 +649,7 @@ Asistent použije toto nastavenie na otázky týkajúce sa vášho dochádzania.
     <string name="assistant_settings_music_unable_unlink_default">Vášho predvoleného poskytovateľa hudby nie je možné odpojiť</string>
     <string name="assistant_settings_music_unlink_dialog_text">Odpojením účtu deaktivujete prístup k prehrávaniu zo služby %1$s prostredníctvom Asistenta Google.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Ak chcete používať YouTube Music na zariadení Google Home, musíte mať členstvo v službe YouTube Premium. Zaregistrovať sa môžete na adrese <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Ak chcete používať YouTube Music v zariadení Google Home, musíte mať členstvo v službe YouTube Music Premium. Zaregistrovať sa môžete na adrese <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Vyžaduje sa členstvo v službe YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Odstrániť %1$s z aktívnych spravodajských zdrojov</string>
     <string name="assistant_settings_news_supports_video">Video je k dispozícii na inteligentných displejoch</string>
@@ -844,8 +853,10 @@ Asistent použije toto nastavenie pri poskytovaní trás na iné miesta, ako je 
     <string name="assistant_settings_update_error_message">Nastavenie sa nepodarilo aktualizovať. Skontrolujte pripojenie.</string>
     <string name="assistant_settings_video_calls_service_category_title">Váš Asistent môže uskutočniť videohovory v niektorých zariadeniach, ako napríklad Google Smart Display, a to pomocou vami preferovanej služby. Hovory na tiesňové služby nie sú k dispozícii.</string>
     <string name="assistant_settings_video_icon_text">Ikona poskytovateľa videí</string>
+    <string name="assistant_settings_video_link_dialog_text">Prepojte svoj účet Google so službou %1$s a aktivujte tak prehrávanie v kompatibilných zariadeniach. Ak službu %1$s používate prostredníctvom Asistenta Google, vaše dopyty môžu byť odoslané spoločnosti %1$s na použitie v súlade s jej pravidlami ochrany súkromia. %1$s vám môže poskytovať osobné výsledky a prispôsobené odporúčania. Účet môžete kedykoľvek odpojiť v nastaveniach Asistenta.</string>
     <string name="assistant_settings_video_provider_category_summary">Prehrávajte relácie a filmy hlasovým povelom svojmu Asistentovi.</string>
     <string name="assistant_settings_video_provider_category_title">Videá</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Odpojením účtu deaktivujete prístup k prehrávaniu zo služby %1$s prostredníctvom Asistenta Google.</string>
     <string name="assistant_settings_videos_photos_title">Videá a fotky</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast alebo televízor so vstavaným Chromecastom</string>
     <string name="assistant_settings_voice_and_video_calls_title">Hlasové hovory a videohovory</string>
@@ -988,7 +999,6 @@ jazyky; môžu sa účtovať poplatky za dátový prenos"</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Prejsť na stránku s podrobnosťami</string>
     <string name="captive_portal_error_card_cell_title_text">Problém s dátovým pripojením</string>
     <string name="captive_portal_error_card_explanation_text">Ak chcete použiť túto sieť Wi‑Fi, musíte sa prihlásiť. Prihlasujte sa však iba do sietí, ktorým dôverujete, pretože niektoré portály Wi‑Fi môžu byť menej bezpečné. Po pripojení dopyt znova vyhľadajte.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Prihlásiť sa do siete</string>
     <string name="captive_portal_error_card_title_text">Ak chcete použiť Wi‑Fi, prihláste sa</string>
     <string name="car_rental_cartype">Typ auta</string>
     <string name="car_rental_dropoff">Čas vrátenia</string>
@@ -1202,6 +1212,7 @@ Tieto konverzácie môžete zobraziť a spravovať v nastaveniach účtu Googl
     <string name="current_search_base_url_local">Používa sa miestna doména (%1$s)</string>
     <string name="current_status">Skontrolujte aktuálny stav</string>
     <string name="custom">Vlastné (nie je možné prispôsobiť na telefóne)</string>
+    <string name="custom_tabs_explore_action_button_desc">Zobraziť súvisiace stránky</string>
     <string name="custom_tabs_link_copied">Odkaz bol skopírovaný do schránky</string>
     <string name="custom_tabs_menu_item_copy_link">Kopírovať odkaz</string>
     <string name="custom_tabs_menu_item_help">Pomocník</string>
@@ -1706,7 +1717,6 @@ Skúste podcast znova vyhľadať."</string>
     <string name="google_play_services_update_required">Ak chcete pokračovať v používaní informačného kanála, musíte aktualizovať Služby Google Play</string>
     <string name="google_plus_profile_contact_label">Profil Google+</string>
     <string name="google_podcasts">Podcasty Google</string>
-    <string name="google_search_disabled_toast">Na používanie Vyhľadávania Google nemáte povolenie.</string>
     <string name="goto_system_settings">Nastavenia</string>
     <string name="group_desc">%1$d. skupina z %2$d.</string>
     <string name="gsa_home">Domovská stránka</string>
@@ -2172,6 +2182,14 @@ Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</
     <string name="lens_info_panel_opening_lens">Otvára sa aplikácia Lens…</string>
     <string name="lens_overflow_menu_description">Nastavenia</string>
     <string name="lens_quit_button_description">Ukončiť</string>
+    <string name="lens_results_feedback_card_prompt">Čo chcete so službou Lens robiť?</string>
+    <string name="lens_results_feedback_card_title">Pomôžte nám zlepšiť službu Lens</string>
+    <string name="lens_results_feedback_no">NIE</string>
+    <string name="lens_results_feedback_prompt_text">Boli tieto výsledky užitočné?</string>
+    <string name="lens_results_feedback_response_to_negative">Ďakujeme vám za pomoc pri zlepšovaní služby Lens.</string>
+    <string name="lens_results_feedback_response_to_positive">Čo môžeme zlepšiť?</string>
+    <string name="lens_results_feedback_send_report">ODOSLAŤ SPÄTNÚ VÄZBU</string>
+    <string name="lens_results_feedback_yes">ÁNO</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Zobraziť menej aplikácií s kontaktmi</string>
     <string name="libraries_material_featurehighlight_dismiss">Zrušiť</string>
@@ -2249,7 +2267,6 @@ Osobné výsledky vyhľadávania môžete vypnúť v nastaveniach Asistenta."</
     <string name="menu_refresh">Obnoviť</string>
     <string name="menu_send_button_content_description">Tlačidlo na odoslanie spätnej väzby.</string>
     <string name="menu_send_feedback">Odoslať spätnú väzbu</string>
-    <string name="menu_settings">Nastavenia</string>
     <string name="menu_share">Zdieľanie</string>
     <string name="menu_view_in_browser">Zobraziť v prehliadači</string>
     <string name="menu_visit_page">Navštíviť stránku</string>
@@ -2368,7 +2385,6 @@ Na stránke Moja aktivita máte k dispozícii všetky svoje vyhľadávania v G
     <string name="navigation_home_label">Domov</string>
     <string name="navigation_recently_label">Nedávne</string>
     <string name="navigation_search_label">Vyhľadávanie</string>
-    <string name="navigation_updates_label">Nadchádzajúce</string>
     <string name="nearby_attractions">Zaujímavosti v okolí</string>
     <string name="nearby_events_title">Udalosti v okolí</string>
     <string name="network_error">Služba Google je momentálne nedostupná.</string>
@@ -2376,6 +2392,7 @@ Na stránke Moja aktivita máte k dispozícii všetky svoje vyhľadávania v G
     <string name="network_error_fetching_weather_data_status_text">Sieť momentálne nie je k dispozícii</string>
     <string name="network_error_no_connection_tts">Momentálne nemáte pripojenie k internetu.</string>
     <string name="network_error_resend_audio">Znova odoslať zvukový záznam</string>
+    <string name="network_error_try_again">Skúsiť znova</string>
     <string name="network_location_required_text">Ak chcete, aby sa zobrazovali karty na základe polohy (napríklad miestne počasie a premávka pri dochádzaní), zapnite funkciu Poloha podľa sietí Wi–Fi a mobilných sietí.</string>
     <string name="network_location_required_text_klp">Ak chcete zobraziť karty založené na polohe, ako sú miestne počasie alebo premávka na ceste do práce, vyberte režim určovania polohy Vysoká presnosť alebo Úspora batérie</string>
     <string name="never">Nikdy</string>
@@ -2541,6 +2558,7 @@ Chcete pokračovať?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Inovujte jazykový balík.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Povolenie offline hlasových povelov</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Ste v režime offline. Ak chcete používať hlas v režime offline, musíte si nainštalovať najnovší jazykový balík. Keď bude bezpečné použiť obrazovku, začnite ju používať klepnutím na upozornenie.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Ste v režime offline. Ak chcete používať hlas v režime offline, potrebujete najnovší jazykový balík, ktorý sa nainštaluje pri ďalšom pripojení k sieti.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Ste v režime offline. Ak chcete používať hlas v režime offline a získavať nové funkcie, musíte si nainštalovať najnovší jazykový balík. Keď bude bezpečné použiť obrazovku, začnite ju používať klepnutím na upozornenie.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Ste v režime offline. Momentálne nie je možné nadviazať spojenie s Googlom, ale môžem vám pomôcť s viacerými vecami. Skúste napríklad povedať „zavolať“ alebo „čo môžem povedať?“</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Ste v režime offline. Momentálne nie je možné nadviazať spojenie s Googlom, ale môžem vám pomôcť s viacerými vecami. Skúste napríklad povedať „%1$s“ alebo „čo môžem povedať?“</string>
@@ -3160,7 +3178,7 @@ Odhadovaná veľkosť: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Stiahnuté položky ponecháme v zariadení sedem dní.</string>
     <string name="recently_empty_state_read_later_title_text">Pridanie stránok na čítanie neskôr</string>
     <string name="recently_entry_interaction_offline">Požadovaná stránka sa nedá otvoriť v režime offline.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Požadované hlasové vyhľadávanie sa nedá otvoriť.</string>
     <string name="recently_feed_entry">Karty</string>
     <string name="recently_google_doodle_for">Sviatočné logo Google pre %s</string>
     <string name="recently_keep_on_device_until">Ponechať v zariadení do:</string>
@@ -3437,6 +3455,9 @@ Skúste podcast znova vyhľadať."</string>
     <string name="search_the_web">Hľadať na webe</string>
     <string name="search_the_web_menu_text">Hľadať na webe</string>
     <string name="search_the_web_suggestion">Hľadať na webe</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Keď sa pripojenie zlepší, oznámime vám výsledky.</string>
+    <string name="search_timed_out_card_explanation_text">Môže to byť z dôvodu pomalého sieťového pripojenia.</string>
+    <string name="search_timed_out_card_title_text">Časový limit vyhľadávania vypršal</string>
     <string name="search_widget_customization">Prispôsobiť miniaplikáciu</string>
     <string name="searchbar_hint">Vyhľadajte podcasty</string>
     <string name="searchbox_hint">Hľadajte v nedávnych</string>
@@ -3493,6 +3514,7 @@ Skúste podcast znova vyhľadať."</string>
     <string name="settings_legal_notices_title">Právne vyhlásenia</string>
     <string name="settings_location_tos_title">Zmluvné podmienky služby určenia polohy</string>
     <string name="settings_privacy_policy_title">Ochrana údajov</string>
+    <string name="settings_search_icon_title">Nastavenia vyhľadávania</string>
     <string name="settings_tos_title">Zmluvné podmienky</string>
     <string name="setup_complete_explanation">Vaše zariadenie %s bude odteraz reagovať, keď poviete „Ok, Google“. Nižšie uvádzame niekoľko príkladov, ktoré môžete vyskúšať.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Váš Asistent bude reagovať, keď niečo poviete zariadeniu %s. Nižšie uvádzame niekoľko príkladov, ktoré môžete vyskúšať.</string>
@@ -3828,7 +3850,6 @@ Táto relácia nie je momentálne k dispozícii."</string>
     <string name="training_button_yes">ÁNO</string>
     <string name="training_closet_error">Nastavenia sa nepodarilo načítať</string>
     <string name="training_more_questions">ĎALŠIE OTÁZKY</string>
-    <string name="transient_optin_text">Nečakajte. Keď budú výsledky k dispozícii, dostanete upozornenie.</string>
     <string name="transit_alarm_notification_subtitle_template">Prídete o %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Prídete o %1$s</string>
     <string name="transit_alarm_vog_text">Vystúpte na stanici %1$s o %2$s</string>
@@ -4018,6 +4039,8 @@ Prihlásený/-á ako %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Ktoré zariadenia chcete upraviť?</string>
     <string name="user_defined_action_task_home_control_settings">Nastavenia automatizácie domácnosti</string>
     <string name="user_defined_action_task_light_title">Osvetlenie</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Ktoré dvere chcete zamknúť?</string>
+    <string name="user_defined_action_task_lock_title">Zamknutie dverí</string>
     <string name="user_defined_action_task_music_duration_summary">Časovač zastavenia hudby je k dispozícii iba v zariadení Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Vypnúť hudbu po...</string>
     <string name="user_defined_action_task_music_example_list">Zadajte zoznam skladieb, interpreta, skladbu alebo žáner. Môžete napríklad zadať „zoznam skladieb na relax“ alebo „The Beatles“. Tento postup použije &lt;a href=assistant-settings://?feature=music>predvolenú hudobnú službu&lt;/a>.</string>

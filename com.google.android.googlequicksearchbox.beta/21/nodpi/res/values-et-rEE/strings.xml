@@ -420,11 +420,18 @@ Teie assistent kasutab seda seadet edasi-tagasireisimisega seotud küsimuste puh
     <string name="assistant_settings_duo_calls_unlink_duo_title">Duo konto linkimise tühistamine</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Teil pole enam võimalik Duos kõnesid alustada ega vastu võtta</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Kas tühistada Duo konto linkimine?</string>
+    <string name="assistant_settings_duo_consent_summary">"Google saadab selle numbri kinnitamiseks SMS-i teel koodi. Lisanduda võivad operaatoritasud. Inimesed, kes teavad teie numbrit või Google'i kontot, saavad teiega Google'i teenustes ühendust võtta."</string>
+    <string name="assistant_settings_duo_consent_title">"Alustage nutiekraanil kvaliteetseid videokõnesid kõigiga, kellel on Google Duo rakendus. Kinnitage Duo konto loomiseks oma telefoninumber. See lingib selle ka teie Google'i kontoga."</string>
     <string name="assistant_settings_email_notification_summary">Olge kursis teie assistenti puudutavate viimaste uudiste ja funktsioonidega</string>
     <string name="assistant_settings_email_notification_title">"Google'i assistendi meilid"</string>
     <string name="assistant_settings_enable_google_assistant_title">"Google'i abimehe lubamine"</string>
     <string name="assistant_settings_enabled_news_explanation">Teie assistent esitab uudiseid nendest allikatest, kui lisate uudised rutiini või annate käsu „kuula uudiseid”.</string>
     <string name="assistant_settings_enabled_news_list">Teie uudisteallikad</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Mitte praegu</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Kasuta Duot</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Kasutage nutiekraanil videokõnede tegemiseks oma olemasolevat Duo kontot. Teie sõbrad ja pereliikmed saavad teiega ühendust võtta numbril %1$s.
+Võite oma Duo konto linkimise selle seadmega assistendi seadetes alati tühistada."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videokõned</string>
     <string name="assistant_settings_feature_availability">Saadaval seadmetes %1$s</string>
     <string name="assistant_settings_float_action_button_label">Lisa seadmed</string>
     <string name="assistant_settings_header_title">Seaded</string>
@@ -534,6 +541,7 @@ Teie assistent kasutab seda seadet edasi-tagasireisimisega seotud küsimuste puh
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Play muusika nõuab seadmes Google Home esitamiseks tellimust. Registreeruda saate <a href="https://play.google.com/store/music">Play muusika rakenduses</a>. Selle asemel võite muusikat ka osta või <a href="https://support.google.com/googleplay?p=home_uploadmusic">üles laadida</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Vaja on Play muusika tellimust või kogu</string>
     <string name="assistant_settings_music_icon_text">Muusikapakkuja ikoon</string>
+    <string name="assistant_settings_music_link_dialog_text">"Linkige oma Google’i konto teenusega %1$s, et lubada taasesitus ühilduvates seadmetes ja pääseda juurde oma esitusloenditele. Teenusega %1$s Google'i assistendi kaudu suheldes võidakse teie päringud saata teenusele %1$s, kus neid kasutatakse teenuse privaatsusavalduse järgi. %1$s võib teile pakkuda personaalseid tulemusi ja isikupärastatud soovitusi. Oma konto linkimise saate assistendi seadetes alati tühistada."</string>
     <string name="assistant_settings_music_no_preference_summary">Jagatud seadmetes kasutatakse teiste kontode eelistusi</string>
     <string name="assistant_settings_music_no_preference_title">Vaiketeenusepakkujat ei ole</string>
     <string name="assistant_settings_music_premium_dialog_button">Selge, sain aru</string>
@@ -544,6 +552,7 @@ Teie assistent kasutab seda seadet edasi-tagasireisimisega seotud küsimuste puh
     <string name="assistant_settings_music_unable_unlink_default">Teie vaikemuusikapakkuja linkimist ei saa tühistada</string>
     <string name="assistant_settings_music_unlink_dialog_text">Kui tühistate konto linkimise, ei pääse te enam Google’i assistendi kaudu juurde teenuse %1$s taasesitusele.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music nõuab seadmes Google Home esitamiseks YouTube Premiumi liikmesust. Registreeruda saab saidil <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music nõuab seadmes Google Home esitamiseks YouTube Music Premiumi liikmesust. Registreeruda saab saidil <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Nõutav on YouTube Premiumi liikmesus</string>
     <string name="assistant_settings_news_provider_delete_button_description">Eemaldage %1$s oma lubatud uudisteallikate hulgast</string>
     <string name="assistant_settings_news_supports_video">Video on saadaval nutiekraanidel</string>
@@ -747,8 +756,10 @@ Teie assistent kasutab seda seadet juhiste pakkumiseks teistesse kohtadesse peal
     <string name="assistant_settings_update_error_message">Seadet ei saanud värskendada. Kontrollige ühendust.</string>
     <string name="assistant_settings_video_calls_service_category_title">Teie assistent saab teatud seadmetes teha videokõnesid, kasutades teie eelistatud teenust. Kõned hädaabiteenustele ei ole saadaval.</string>
     <string name="assistant_settings_video_icon_text">Video teenusepakkuja ikoon</string>
+    <string name="assistant_settings_video_link_dialog_text">"Linkige oma Google’i konto teenusega %1$s, et lubada taasesitus ühilduvates seadmetes. Teenusega %1$s Google'i assistendi kaudu suheldes võidakse teie päringud saata teenusele %1$s, kus neid kasutatakse teenuse privaatsusavalduse järgi. %1$s võib teile pakkuda personaalseid tulemusi ja isikupärastatud soovitusi. Oma konto linkimise saate assistendi seadetes alati tühistada."</string>
     <string name="assistant_settings_video_provider_category_summary">Esitage assistendi abiga telesaateid ja filme.</string>
     <string name="assistant_settings_video_provider_category_title">Videod</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Kui tühistate konto linkimise, ei pääse te enam Google’i assistendi kaudu juurde teenuse %1$s taasesitusele.</string>
     <string name="assistant_settings_videos_photos_title">Videod ja fotod</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast või Chromecasti sisseehitatud teler</string>
     <string name="assistant_settings_voice_and_video_calls_title">Hääl- ja videokõned</string>
@@ -884,7 +895,6 @@ Lisanduda võivad andmeside tasud."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Ava üksikasjade leht</string>
     <string name="captive_portal_error_card_cell_title_text">Probleem andmesideühendusega</string>
     <string name="captive_portal_error_card_explanation_text">WiFi-võrgu kasutamiseks tuleb teil sisse logida. Logige sisse ainult usaldusväärsetesse võrkudesse, kuna teatud WiFi-portaalid võivad olla ebaturvalised. Pärast ühenduse loomist proovige uuesti otsida.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Logi võrku sisse</string>
     <string name="captive_portal_error_card_title_text">WiFi kasutamiseks logige sisse</string>
     <string name="car_rental_cartype">Auto tüüp</string>
     <string name="car_rental_dropoff">Tagastamine</string>
@@ -1047,6 +1057,7 @@ Neid vestlusi saab vaadata ja hallata Google'i konto seadete jaotises %1$s. Goog
     <string name="current_search_base_url_local">Kohaliku domeeni (%1$s) kasutamine</string>
     <string name="current_status">Kontrollige praegust olekut</string>
     <string name="custom">Kohandatud (ei saa kohandada telefonis)</string>
+    <string name="custom_tabs_explore_action_button_desc">Seotud lehtede kuvamine</string>
     <string name="custom_tabs_link_copied">Link on lõikelauale kopeeritud</string>
     <string name="custom_tabs_menu_item_copy_link">Lingi kopeerimine</string>
     <string name="custom_tabs_menu_item_help">Abi</string>
@@ -1420,7 +1431,6 @@ Google Lens ei tea kõike ja vahel võime teatud objektide, teksti või muu tuva
     <string name="google_play_services_update_button">Värskenda Google Play teenuseid</string>
     <string name="google_play_services_update_required">Voo kasutamise jätkamiseks peate värskendama Google Play teenuseid</string>
     <string name="google_plus_profile_contact_label">Google+ profiil</string>
-    <string name="google_search_disabled_toast">"Teil ei ole Google'i otsingu kasutamiseks luba."</string>
     <string name="gsa_home">Kodu</string>
     <string name="ha_card_title">Teie kodu</string>
     <string name="hands_free_unlock_device_bluetooth">Kui see on turvaline, tuleb teil esmalt puudutada märguannet. Seejärel saate lubada Bluetooth-seadmetel telefoniga töötada ka siis, kui see on lukustatud.</string>
@@ -1784,6 +1794,14 @@ Personaalsed tulemused saab assistendi seadetes välja lülitada."</string>
     <string name="lens_info_panel_opening_lens">Rakenduse Lens avamine …</string>
     <string name="lens_overflow_menu_description">Seaded</string>
     <string name="lens_quit_button_description">Välju</string>
+    <string name="lens_results_feedback_card_prompt">Mida soovite Lensiga teha?</string>
+    <string name="lens_results_feedback_card_title">Aidake meil Lensi täiustada</string>
+    <string name="lens_results_feedback_no">EI</string>
+    <string name="lens_results_feedback_prompt_text">Kas need tulemused olid kasulikud?</string>
+    <string name="lens_results_feedback_response_to_negative">Täname, et aitate meil Lensi täiustada.</string>
+    <string name="lens_results_feedback_response_to_positive">Mis oleks võinud parem olla?</string>
+    <string name="lens_results_feedback_send_report">SAADA TAGASISIDET</string>
+    <string name="lens_results_feedback_yes">JAH</string>
     <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">Avatud lähtekoodi litsentsid</string>
     <string name="light_traffic">Hõre liiklus</string>
@@ -1844,7 +1862,6 @@ Personaalsed tulemused saab assistendi seadetes välja lülitada."</string>
     <string name="menu_overlay_reset_to_default_style">Vaikestiilile lähtestamine</string>
     <string name="menu_refresh">Värskenda</string>
     <string name="menu_send_button_content_description">Nupp Saada tagasiside esitamiseks.</string>
-    <string name="menu_settings">Seaded</string>
     <string name="menu_share">Jaga</string>
     <string name="menu_view_in_browser">Kuva brauseris</string>
     <string name="menu_visit_page">Külasta lehte</string>
@@ -1907,7 +1924,6 @@ Personaalsed tulemused saab assistendi seadetes välja lülitada."</string>
     <string name="navigation_home_label">Avaleht</string>
     <string name="navigation_recently_label">Hiljutised</string>
     <string name="navigation_search_label">Otsi</string>
-    <string name="navigation_updates_label">Tulevased</string>
     <string name="nearby_attractions">Lähedal asuvad vaatamisväärsused</string>
     <string name="nearby_events_title">Sündmused läheduses</string>
     <string name="network_error">Google ei ole praegu saadaval.</string>
@@ -1915,6 +1931,7 @@ Personaalsed tulemused saab assistendi seadetes välja lülitada."</string>
     <string name="network_error_fetching_weather_data_status_text">Võrk pole praegu saadaval</string>
     <string name="network_error_no_connection_tts">Praegu pole Interneti-ühendust.</string>
     <string name="network_error_resend_audio">Saada heli uuesti</string>
+    <string name="network_error_try_again">Proovi uuesti</string>
     <string name="network_location_required_text">Lülitage sisse WiFi ja mobiilsidevõrgu asukoht, et näha asukohapõhiseid kaarte, nagu Kohalik ilm ja Edasi-tagasireisimise liiklusteave.</string>
     <string name="network_location_required_text_klp">Valige väga täpne või akut säästev asukoharežiim, et näha asukohapõhiseid kaarte, nagu Kohalik ilm ja Edasi-tagasireisimise liiklusteave</string>
     <string name="nevermind_prompt">Las olla</string>
@@ -2063,6 +2080,7 @@ Kas soovite jätkata?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Viige keelepakett üle uuemale versioonile.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Võrguühenduseta hääle lubamine</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Te pole võrguga ühendatud. Kui soovite endiselt võrguühenduseta häält kasutada, peate installima uusima keelepaketi. Selleks puudutage ekraanil märguannet, kui see on ohutu.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Te pole võrguga ühendatud. Hääle kasutamiseks võrguühenduseta on teil vaja uusimat keelepaketti, mis installitakse järgmisel korral, kui olete võrguga ühendatud.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Te pole võrguga ühendatud. Kui soovite endiselt võrguühenduseta häält kasutada ja uusi funktsioone hankida, peate installima uusima keelepaketi. Selleks puudutage ekraanil märguannet, kui see on ohutu.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying \"make a call\" or \"what can I say?\""</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying %1$s or \"what can I say?\""</string>
@@ -2748,6 +2766,9 @@ Selle muudatuse tegemise hüved on järgmised:"</string>
     <string name="search_storage_label">"Google'i otsingu talletusruum"</string>
     <string name="search_tablet">Otsi tahvelarvutist</string>
     <string name="search_the_web_menu_text">Otsige veebist</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Kui ühendus paraneb, saate märguande koos tulemustega.</string>
+    <string name="search_timed_out_card_explanation_text">Põhjuseks võib olla aeglane võrguühendus.</string>
+    <string name="search_timed_out_card_title_text">Otsing aegus</string>
     <string name="search_widget_customization">Vidina kohandamine</string>
     <string name="searching_as_account">Otsimine, kasutades kontot %1$s</string>
     <string name="second_half">2. poolaeg</string>
@@ -2796,6 +2817,7 @@ Selle muudatuse tegemise hüved on järgmised:"</string>
     <string name="settings_legal_notices_title">Õigusalane teave</string>
     <string name="settings_location_tos_title">Asukoha teenusetingimused</string>
     <string name="settings_privacy_policy_title">Privaatsuseeskirjad</string>
+    <string name="settings_search_icon_title">Otsinguseaded</string>
     <string name="settings_tos_title">Teenusetingimused</string>
     <string name="setup_complete_explanation">Kui ütlete otsetee sõna „Ok Google”, vastab seade %s nüüd teile. Võite proovida järgmist.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Teie assistent vastab nüüd, kui räägite seadmega %s. Siin on mõned asjad, mida võite proovida.</string>
@@ -3097,7 +3119,6 @@ Selle muudatuse tegemise hüved on järgmised:"</string>
     <string name="training_button_yes">JAH</string>
     <string name="training_closet_error">Seadete laadimine ebaõnnestus</string>
     <string name="training_more_questions">ROHKEM KÜSIMUSI</string>
-    <string name="transient_optin_text">Teil ei ole vaja oodata, tulemuste saabumisel saadetakse teile märguanne.</string>
     <string name="transit_alarm_notification_subtitle_template">Saabute kell %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Saabute kell %1$s</string>
     <string name="transit_alarm_vog_text">Minge peatuses %1$s kell %2$s maha</string>
@@ -3274,6 +3295,8 @@ Sisse logitud kontoga %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Millist seadet soovite kohandada?</string>
     <string name="user_defined_action_task_home_control_settings">Kodu juhtimise seaded</string>
     <string name="user_defined_action_task_light_title">Tuled</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Millised uksed soovite lukustada?</string>
+    <string name="user_defined_action_task_lock_title">Uste lukustamine</string>
     <string name="user_defined_action_task_music_duration_summary">"Taimer muusika peatamiseks on saadaval ainult Google Home'is"</string>
     <string name="user_defined_action_task_music_duration_title">Lülita muusika välja pärast …</string>
     <string name="user_defined_action_task_music_example_list">Sisestage esitusloend, esitaja, lugu või žanr. Näiteks „Lõõgastav esitusloend” või „Curly Strings”. See rutiin kasutab teie &lt;a href=assistant-settings://?feature=music>vaikemuusikateenust&lt;/a>.</string>

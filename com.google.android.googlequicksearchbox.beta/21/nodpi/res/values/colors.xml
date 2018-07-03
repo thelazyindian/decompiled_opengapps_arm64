@@ -99,6 +99,7 @@
     <color name="background_flare_color_array_item_8">#20ec3e3b</color>
     <color name="background_flare_color_array_item_9">#204c72cd</color>
     <color name="background_flare_color_default">#149aa0a6</color>
+    <color name="background_flare_dark_color_default">#b3000000</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -261,8 +262,22 @@
     <color name="countdown_confirm_button_pressed_color">#ff3a76d8</color>
     <color name="custom_tabs_toolbar_button_color">#ff595959</color>
     <color name="custom_tabs_toolbar_color">#fffafafa</color>
+    <color name="dark_divider_color">#ff424346</color>
+    <color name="dark_done_color_text">#ff6b96ed</color>
     <color name="dark_gray">#ff363636</color>
     <color name="dark_overlay_background">#99000000</color>
+    <color name="dark_question_color_pill_fill">#ff202124</color>
+    <color name="dark_question_color_pill_fill_selected">#ff343e4d</color>
+    <color name="dark_question_color_pill_outline">#ff424346</color>
+    <color name="dark_question_color_pill_outline_selected">#ff343e4d</color>
+    <color name="dark_question_color_text">#fff8f9fa</color>
+    <color name="dark_question_color_text_selected">#ffb9d4f6</color>
+    <color name="dark_reaction_flare">#b3000000</color>
+    <color name="dark_reaction_mid_line">#ff424346</color>
+    <color name="dark_reaction_text_color">#fff8f9fa</color>
+    <color name="dark_see_less_color_text">#ffbdc1c6</color>
+    <color name="dark_theme_body_color">#ffbdc1c6</color>
+    <color name="dark_theme_header_color">#fff8f9fa</color>
     <color name="darker_blue">#ff0099cc</color>
     <color name="darker_gray">#ffaaaaaa</color>
     <color name="date_picker_text_disabled">#ffcccccc</color>
@@ -459,6 +474,7 @@
     <color name="google_green700">#ff188038</color>
     <color name="google_green800">#ff137333</color>
     <color name="google_green900">#ff0d652d</color>
+    <color name="google_green_500">#ff34a853</color>
     <color name="google_grey100">#fff1f3f4</color>
     <color name="google_grey200">#ffe8eaed</color>
     <color name="google_grey300">#ffdadce0</color>
@@ -469,6 +485,7 @@
     <color name="google_grey700">#ff5f6368</color>
     <color name="google_grey800">#ff3c4043</color>
     <color name="google_grey900">#ff202124</color>
+    <color name="google_grey_300">#ffdadce0</color>
     <color name="google_grey_500">#ff9aa0a6</color>
     <color name="google_grey_600">#ff80868b</color>
     <color name="google_grey_900">#ff202124</color>
@@ -500,6 +517,7 @@
     <color name="google_red700">#ffc5221f</color>
     <color name="google_red800">#ffb31412</color>
     <color name="google_red900">#ffa50e0e</color>
+    <color name="google_red_500">#ffea4335</color>
     <color name="google_scrim">#99000000</color>
     <color name="google_transparent">#00000000</color>
     <color name="google_white">#ffffffff</color>
@@ -585,10 +603,10 @@
     <color name="image_viewer_product_in_stock">#ff0f9d58</color>
     <color name="image_viewer_product_unavailable">#ffa40418</color>
     <color name="image_viewer_tap_highlight">#1a000000</color>
-    <color name="ime_level_enabled_background">#66ffffff</color>
     <color name="ime_level_primary">#4c999999</color>
     <color name="ime_mic_levels">#ff444444</color>
     <color name="ime_retry_text">#ffdfdfdf</color>
+    <color name="ime_semi_transparent_background">#66ffffff</color>
     <color name="ime_text">#dfffffff</color>
     <color name="immersive_actions_black">#ff212121</color>
     <color name="immersive_actions_blue">#ff3367d6</color>
@@ -1404,7 +1422,6 @@
     <color name="quick_action_separator_white">#4dffffff</color>
     <color name="reaction_flare">#149aa0a6</color>
     <color name="reaction_mid_line">#ffdfe1e5</color>
-    <color name="reaction_pill_gray">#ff757575</color>
     <color name="reaction_text_color">#ff202124</color>
     <color name="recently_accent_color">#ff4285f4</color>
     <color name="recently_background_color">#ffffffff</color>
@@ -1495,7 +1512,6 @@
     <color name="search_scrim">#9e000000</color>
     <color name="search_scrim_in_apps_search">#66000000</color>
     <color name="search_suggestion_divider">#0f000000</color>
-    <color name="search_tools_bar_background_color">#fff8f8f8</color>
     <color name="searchbox_background">#ffffffff</color>
     <color name="searchbox_border_color">#22000000</color>
     <color name="searchbox_suggestion_divider_background">#ffe0e0e0</color>
@@ -1556,6 +1572,7 @@
     <color name="snackbar_background">#ff323232</color>
     <color name="snackbar_bubble_background_color">@color/quantum_googblue</color>
     <color name="snowman_color">#ff8f8f8f</color>
+    <color name="snowman_dark_theme_color">#ffbdc1c6</color>
     <color name="solid_black">#ff000000</color>
     <color name="spinner_color">#ffd9d9d9</color>
     <color name="spinner_primary_text_color">#99000000</color>
@@ -1575,7 +1592,6 @@
     <color name="suggestion_background_pressed">#fff7f7f7</color>
     <color name="suggestion_container_footer_text">#ff4285f4</color>
     <color name="suggestion_container_header_text">#ff707070</color>
-    <color name="suggestion_divider_background">#ffe0e0e0</color>
     <color name="suggestion_focus_border">#994285f4</color>
     <color name="suggestion_item_background">#ffffffff</color>
     <color name="suggestion_item_stroke">#ffdfe1e5</color>

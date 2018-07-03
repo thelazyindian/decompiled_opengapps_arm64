@@ -517,11 +517,18 @@
     <string name="assistant_settings_duo_calls_unlink_duo_title">取消关联 Duo 帐号</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">您将无法再通过 Duo 拨打电话或接听来电</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">要取消关联 Duo 帐号吗？</string>
+    <string name="assistant_settings_duo_consent_summary">Google 会以短信形式向您发送验证码来验证此电话号码（运营商可能会收取相应费用）。知道您的电话号码或 Google 帐号的用户将可以通过各种 Google 服务与您联系。</string>
+    <string name="assistant_settings_duo_consent_title">在您的智能显示屏上向任何已在设备上安装 Google Duo 应用的用户发起高质量视频通话。请验证您的电话号码，以创建 Duo 帐号。该操作还会将您的电话号码与您的 Google 帐号关联起来。</string>
     <string name="assistant_settings_email_notification_summary">及时了解与您的智能助理相关的最新资讯和功能</string>
     <string name="assistant_settings_email_notification_title">Google 智能助理电子邮件</string>
     <string name="assistant_settings_enable_google_assistant_title">启用 Google 智能助理</string>
     <string name="assistant_settings_enabled_news_explanation">当您说“收听新闻”或向日常事务中添加新闻时，智能助理将播放这些媒体的新闻。</string>
     <string name="assistant_settings_enabled_news_list">您的新闻媒体</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">以后再说</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">使用 Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"使用您现有的 Duo 帐号在智能显示屏上进行视频通话。您的亲友可通过拨打 %1$s 与您联系。
+您可以随时在 Google 助理设置中取消 Duo 帐号与这台设备的关联。"</string>
+    <string name="assistant_settings_existing_duo_dialog_title">视频通话</string>
     <string name="assistant_settings_feature_availability">适用于%1$s</string>
     <string name="assistant_settings_float_action_button_label">添加设备</string>
     <string name="assistant_settings_header_title">设置</string>
@@ -631,6 +638,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">您必须订阅 Google Play 音乐才能在 Google Home 上播放内容。您可以在 <a href="https://play.google.com/store/music">Play 音乐应用</a>中进行注册；也可以购买音乐或<a href="https://support.google.com/googleplay?p=home_uploadmusic">上传您的音乐</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">必须搭配 Play 音乐订阅服务或音乐库</string>
     <string name="assistant_settings_music_icon_text">音乐提供商图标</string>
+    <string name="assistant_settings_music_link_dialog_text">将您的 Google 帐号与%1$s相关联，即可在兼容的设备上播放内容以及访问自己的播放列表。当您通过 Google 助理与%1$s服务互动时，系统可能会将相关查询发送给%1$s，以便该服务在遵守其隐私权声明的情况下使用这些查询。%1$s可能会为您提供个性化搜索结果和推荐。您可以随时在 Google 助理设置中取消关联您的帐号。</string>
     <string name="assistant_settings_music_no_preference_summary">使用共用设备上其他帐号的偏好设置</string>
     <string name="assistant_settings_music_no_preference_title">没有默认提供商平台</string>
     <string name="assistant_settings_music_premium_dialog_button">知道了</string>
@@ -641,6 +649,7 @@
     <string name="assistant_settings_music_unable_unlink_default">无法取消关联您的默认音乐提供商</string>
     <string name="assistant_settings_music_unlink_dialog_text">取消关联帐号将会停用通过 Google 助理播放%1$s内容的权限。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">您需要成为 Tube Premium 会员才能在 Google Home 设备上播放 YouTube 音乐。您可以前往 <a href="http://youtube.com/red">youtube.com/red</a> 注册会员。</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">您需要成为 YouTube Music Premium 会员才能在 Google Home 设备上播放 YouTube 音乐。您可以前往 <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> 注册成为会员。</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">需要成为 YouTube Premium 会员</string>
     <string name="assistant_settings_news_provider_delete_button_description">从您已启用的新闻媒体中移除%1$s</string>
     <string name="assistant_settings_news_supports_video">支持智能显示屏的视频</string>
@@ -844,8 +853,10 @@
     <string name="assistant_settings_update_error_message">无法更新此设置。请检查您的网络连接。</string>
     <string name="assistant_settings_video_calls_service_category_title">在某些设备（例如 Google 智能显示设备）上，智能助理可以使用您的首选服务发起视频通话。这项功能不支持拨打紧急呼救电话。</string>
     <string name="assistant_settings_video_icon_text">视频提供方图标</string>
+    <string name="assistant_settings_video_link_dialog_text">将您的 Google 帐号与%1$s相关联，即可在兼容的设备上播放内容。当您通过 Google 助理与%1$s服务互动时，系统可能会将相关查询发送给%1$s，以便该服务在遵守其隐私权政策的情况下使用这些查询。%1$s可能会为您提供个性化搜索结果和推荐。您可以随时在 Google 助理设置中取消关联您的帐号。</string>
     <string name="assistant_settings_video_provider_category_summary">让智能助理播放电视节目和电影。</string>
     <string name="assistant_settings_video_provider_category_title">视频</string>
+    <string name="assistant_settings_video_unlink_dialog_text">取消关联帐号将会停用通过 Google 助理播放%1$s内容的权限。</string>
     <string name="assistant_settings_videos_photos_title">视频和照片</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast 或内置 Chromecast 的电视</string>
     <string name="assistant_settings_voice_and_video_calls_title">语音通话和视频通话</string>
@@ -988,7 +999,6 @@
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">转到详情页面</string>
     <string name="captive_portal_error_card_cell_title_text">数据网络连接问题</string>
     <string name="captive_portal_error_card_explanation_text">您必须登录才能使用此 WLAN 网络。某些 WLAN 门户的安全性较低，因此请务必只登录您信任的网络。连接到网络后，请再次尝试搜索。</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">登录到网络</string>
     <string name="captive_portal_error_card_title_text">需登录才能使用 WLAN 网络</string>
     <string name="car_rental_cartype">汽车类型</string>
     <string name="car_rental_dropoff">还车时间</string>
@@ -1202,6 +1212,7 @@
     <string name="current_search_base_url_local">正在使用本地域 (%1$s)</string>
     <string name="current_status">查看当前状态</string>
     <string name="custom">自定义（无法在手机上自定义）</string>
+    <string name="custom_tabs_explore_action_button_desc">查看相关页面</string>
     <string name="custom_tabs_link_copied">链接已复制到剪贴板</string>
     <string name="custom_tabs_menu_item_copy_link">复制链接</string>
     <string name="custom_tabs_menu_item_help">帮助</string>
@@ -1706,7 +1717,6 @@ Google 智能镜头并非无所不知，而且我们并不总是能正确识别�
     <string name="google_play_services_update_required">要继续使用 Feed，您需要更新 Google Play 服务</string>
     <string name="google_plus_profile_contact_label">Google+ 个人资料</string>
     <string name="google_podcasts">Google 播客</string>
-    <string name="google_search_disabled_toast">您无权使用Google搜索。</string>
     <string name="goto_system_settings">设置</string>
     <string name="group_desc">第 %1$d 组，共 %2$d 组。</string>
     <string name="gsa_home">家</string>
@@ -2185,6 +2195,14 @@ Google 智能镜头并非无所不知，而且我们并不总是能正确识别�
     <string name="lens_info_panel_opening_lens">正在打开智能镜头…</string>
     <string name="lens_overflow_menu_description">设置</string>
     <string name="lens_quit_button_description">退出</string>
+    <string name="lens_results_feedback_card_prompt">您希望智能镜头具有哪些功能？</string>
+    <string name="lens_results_feedback_card_title">帮助我们改进智能镜头</string>
+    <string name="lens_results_feedback_no">否</string>
+    <string name="lens_results_feedback_prompt_text">您觉得这些搜索结果实用吗？</string>
+    <string name="lens_results_feedback_response_to_negative">感谢您帮助我们改进智能镜头。</string>
+    <string name="lens_results_feedback_response_to_positive">请问有哪些需要改进的地方？</string>
+    <string name="lens_results_feedback_send_report">发送反馈</string>
+    <string name="lens_results_feedback_yes">是</string>
     <string name="lens_title">Google 智能镜头</string>
     <string name="less_contact_apps">隐藏部分“通讯录”应用</string>
     <string name="libraries_material_featurehighlight_dismiss">关闭</string>
@@ -2262,7 +2280,6 @@ Google 智能镜头并非无所不知，而且我们并不总是能正确识别�
     <string name="menu_refresh">刷新</string>
     <string name="menu_send_button_content_description">用于提交反馈的“发送”按钮。</string>
     <string name="menu_send_feedback">发送反馈</string>
-    <string name="menu_settings">设置</string>
     <string name="menu_share">分享</string>
     <string name="menu_view_in_browser">在浏览器中查看</string>
     <string name="menu_visit_page">访问页面</string>
@@ -2381,7 +2398,6 @@ Google 智能镜头并非无所不知，而且我们并不总是能正确识别�
     <string name="navigation_home_label">首页</string>
     <string name="navigation_recently_label">最近</string>
     <string name="navigation_search_label">搜索</string>
-    <string name="navigation_updates_label">近期</string>
     <string name="nearby_attractions">附近景点</string>
     <string name="nearby_events_title">附近的活动</string>
     <string name="network_error">暂时无法连接到Google。</string>
@@ -2389,6 +2405,7 @@ Google 智能镜头并非无所不知，而且我们并不总是能正确识别�
     <string name="network_error_fetching_weather_data_status_text">当前无法连接到网络</string>
     <string name="network_error_no_connection_tts">目前未连接到互联网。</string>
     <string name="network_error_resend_audio">重新发送录音</string>
+    <string name="network_error_try_again">重试</string>
     <string name="network_location_required_text">要查看基于位置的即时贴（例如本地天气和上下班交通路况），请开启WLAN和移动网络位置信息</string>
     <string name="network_location_required_text_klp">要查看基于地点的即时贴（例如本地天气和上下班交通路况），请选择“高精确度”或“节电”位置信息模式</string>
     <string name="never">永不</string>
@@ -2554,6 +2571,7 @@ Google 智能镜头并非无所不知，而且我们并不总是能正确识别�
     <string name="offline_eyesfree_install_language_pack_notification_body">升级您的语言包。</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">启用离线语音功能</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">您目前处于离线状态。要在离线状态下继续使用语音功能，您需要安装最新版的语言包。请在不影响安全的情况下，在屏幕上点按相关通知进行安装。</string>
+    <string name="offline_eyesfree_install_language_pack_tts">您目前处于离线状态。要在离线状态下使用语音功能，您需要安装最新的语言包。系统会在您下次连接到网络时进行安装。</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">您目前处于离线状态。要在离线状态下继续使用语音功能，并获取新的功能，您需要安装最新版的语言包。请在不影响安全的情况下，在屏幕上点按相关通知进行安装。</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">抱歉，您处于离线状态，因此系统目前无法连接到 Google，但仍然可以帮助您完成众多操作。例如，您可以尝试说“拨打电话”或“我可以说什么？”</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">抱歉，您处于离线状态，因此系统目前无法连接到 Google，但仍然可以帮助您完成各种操作。例如，您可以尝试说“%1$s”或“我可以说什么？”</string>
@@ -3173,7 +3191,7 @@ Google 智能镜头并非无所不知，而且我们并不总是能正确识别�
     <string name="recently_empty_state_read_later_body_text">我们会将在设备上下载的内容保留 7 天。</string>
     <string name="recently_empty_state_read_later_title_text">添加网页以供稍后阅读</string>
     <string name="recently_entry_interaction_offline">无法在离线状态下打开请求的网页。</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">无法打开请求的待处理语音搜索。</string>
     <string name="recently_feed_entry">资讯流</string>
     <string name="recently_google_doodle_for">“%s”的 Google 涂鸦</string>
     <string name="recently_keep_on_device_until">保留在设备上，直到：</string>
@@ -3450,6 +3468,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_the_web">在网络上搜索</string>
     <string name="search_the_web_menu_text">搜索网页</string>
     <string name="search_the_web_suggestion">在网络上搜索</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">网络连接恢复正常后，系统就会发送搜索结果通知给您。</string>
+    <string name="search_timed_out_card_explanation_text">这可能是由网络连接速度太慢所致。</string>
+    <string name="search_timed_out_card_title_text">您的搜索操作超时</string>
     <string name="search_widget_customization">自定义微件</string>
     <string name="searchbar_hint">搜索播客</string>
     <string name="searchbox_hint">搜索近期内容</string>
@@ -3506,6 +3527,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="settings_legal_notices_title">法律声明</string>
     <string name="settings_location_tos_title">位置信息服务条款</string>
     <string name="settings_privacy_policy_title">隐私权政策</string>
+    <string name="settings_search_icon_title">搜索设置</string>
     <string name="settings_tos_title">服务条款</string>
     <string name="setup_complete_explanation">现在，只要您说“Ok Google”，%s就能回应您。您可以尝试说出以下指令。</string>
     <string name="setup_complete_explanation_for_assistant_sdk">现在，只要您与%s交谈，智能助理就能回应您。您可以尝试说出以下指令。</string>
@@ -3841,7 +3863,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="training_button_yes">是</string>
     <string name="training_closet_error">无法加载设置</string>
     <string name="training_more_questions">更多问题</string>
-    <string name="transient_optin_text">无需等待！搜索结果就绪后，系统会向您发送通知。</string>
     <string name="transit_alarm_notification_subtitle_template">您将于%1$s 到达（%2$s）</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">您将于%1$s 到达</string>
     <string name="transit_alarm_vog_text">%2$s在%1$s下车</string>
@@ -4032,6 +4053,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">您想调控哪些设备？</string>
     <string name="user_defined_action_task_home_control_settings">家居控制设置</string>
     <string name="user_defined_action_task_light_title">灯具</string>
+    <string name="user_defined_action_task_lock_control_which_doors">您想锁上哪些门？</string>
+    <string name="user_defined_action_task_lock_title">锁门</string>
     <string name="user_defined_action_task_music_duration_summary">用于停止音乐播放的定时器仅适用于 Google Home</string>
     <string name="user_defined_action_task_music_duration_title">在指定时间后关闭音乐…</string>
     <string name="user_defined_action_task_music_example_list">输入播放列表、音乐人、歌曲或类型。例如，“放松音乐播放列表”或“五月天”。该日常事务将使用您的&lt;a href=assistant-settings://?feature=music>默认音乐服务&lt;/a>。</string>

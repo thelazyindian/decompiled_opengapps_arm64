@@ -25,7 +25,7 @@
     <string name="accessibility_notification_voice_search_button">Ձայնային որոնում</string>
     <string name="accessibility_pick_recurrence">Փոփոխել պարբերականության ընտրանքները</string>
     <string name="accessibility_query_refinement">Ճշտել «%1$s» հարցումը</string>
-    <string name="accessibility_save">Պահել էկրանի պատկերը</string>
+    <string name="accessibility_save">Պահել սքրինշոթը</string>
     <string name="accessibility_search_plate_back_button">Հետ</string>
     <string name="accessibility_search_plate_menu_button">Ցանկ</string>
     <string name="accessibility_see_results_on_google">Google-ում որոնման արդյունքները</string>
@@ -290,7 +290,7 @@
     <string name="assist_optin_accept">Միացնել</string>
     <string name="assist_optin_body">Հպեք և պահեք «Սկիզբ» կոճակը, որպեսզի Google-ը ցուցադրի տեղեկություններ, հավելվածներ և գործողություններ ձեր էկրանին ցուցադրվող բովանդակության վերաբերյալ:</string>
     <string name="assist_optin_decline">Չեմ ցանկանում</string>
-    <string name="assist_optin_donate_screenshot">"Ուղարկեք էկրանի պատկերները էկրանի որոնման միջոցով
+    <string name="assist_optin_donate_screenshot">"Ուղարկեք սքրինշոթները էկրանի որոնման միջոցով
 Թույլատրեք Google-ին ընդմիշտ պահել և վերլուծել էկրանի որոնման պատկերները"</string>
     <string name="assist_optin_get_started">Սկսել</string>
     <string name="assist_optin_learn_more_text">Իմանալ ավելին</string>
@@ -420,11 +420,18 @@
     <string name="assistant_settings_duo_calls_unlink_duo_title">Ապակցել Duo հաշիվը</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Դուք այլևս չեք կարողանա զանգեր կատարել ու ընդունել Duo-ի միջոցով</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Ապակցե՞լ Duo հաշիվը</string>
+    <string name="assistant_settings_duo_consent_summary">Google-ը SMS-ի միջոցով ձեզ կոդ կուղարկի՝ այս համարը հաստատելու համար: Կապի օպերատորը հնարավոր է վճար գանձի: Մարդիկ, որոնք գիտեն ձեր հեռախոսահամարը կամ Google հաշիվը, կկարողանան կապվել ձեզ հետ Google-ի ծառայություններում:</string>
+    <string name="assistant_settings_duo_consent_title">Շփվեք Google Duo-ի օգտատերերի հետ՝ կատարելով բարձր որակի տեսազանգեր խելացի էկրանին: Duo հաշիվ ստեղծելու համար հաստատեք ձեր հեռախոսահամարը: Այն նաև կկցվի ձեր Google հաշվին:</string>
     <string name="assistant_settings_email_notification_summary">Միշտ տեղեկացված եղեք ձեր Օգնականի հետ կապված վերջին նորությունների և գործառույթների մասին</string>
     <string name="assistant_settings_email_notification_title">Նամակներ Google օգնականից</string>
     <string name="assistant_settings_enable_google_assistant_title">Միացնել Google Օգնականը</string>
     <string name="assistant_settings_enabled_news_explanation">Ձեր Օգնականը կհայտնի լուրերն այս աղբյուրներից, եթե ասեք «լսել նորությունները» կամ ավելացնեք դրանք անելիքների ցուցակում:</string>
     <string name="assistant_settings_enabled_news_list">Նորությունների աղբյուրներ</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ոչ հիմա</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Օգտագործել Duo-ն</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Օգտագործեք ձեր Duo հաշիվը խելացի էկրանին տեսազանգեր կատարելու համար: Ընտանիքի անդամները և ընկերները կարող են կապվել ձեզ հետ %1$s համարով։
+Դուք ցանկացած ժամանակ կարող եք ապակցել ձեր Duo հաշիվը այս սարքից Օգնականի կարգավորումներում:"</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Տեսազանգեր</string>
     <string name="assistant_settings_feature_availability">Հասանելի է հետևյալ սարքերում՝ %1$s</string>
     <string name="assistant_settings_float_action_button_label">Ավելացնել սարքեր</string>
     <string name="assistant_settings_header_title">Կարգավորումներ</string>
@@ -534,6 +541,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Home-ում երաժշտություն լսելու համար անհրաժեշտ է ունենալ Google Play Երաժշտության բաժանորդագրություն: Դուք կարող եք բաժանորդագրվել <a href="https://play.google.com/store/music">Play Երաժշտություն հավելվածի</a> միջոցով: Բացի այդ, կարող եք նաև գնել կամ <a href="https://support.google.com/googleplay?p=home_uploadmusic">վերբեռնել ձեր երաժշտությունը</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Պահանջվում է Play Երաժշտության բաժանորդագրություն կամ դարան</string>
     <string name="assistant_settings_music_icon_text">Երաժշտության մատակարարի պատկերակ</string>
+    <string name="assistant_settings_music_link_dialog_text">Կցելով ձեր Google հաշիվը %1$s ծառայությանը՝ դուք կկարողանաք երաժշտություն նվագարկել համատեղելի սարքերում և տեսնել ձեր երգացանկերը: Google Օգնականի միջոցով %1$s-ն օգտագործելու դեպքում ձեր հարցումները կուղարկվեն %1$s-ին և կօգտագործվեն համաձայն այդ ծառայության գաղտնիության քաղաքականության: %1$s ծառայությունը կարող է տրամադրել ձեզ անհատական արդյունքներ և անհատականացված առաջարկություններ: Դուք ցանկացած ժամանակ կարող եք ապակցել ձեր հաշիվը Օգնականի կարգավորումներում։</string>
     <string name="assistant_settings_music_no_preference_summary">Օգտագործել այլ հաշիվների կարգավորումներն ընդհանուր սարքերում</string>
     <string name="assistant_settings_music_no_preference_title">Կանխադրված ծառայություն չկա</string>
     <string name="assistant_settings_music_premium_dialog_button">Եղավ</string>
@@ -544,6 +552,7 @@
     <string name="assistant_settings_music_unable_unlink_default">Չհաջողվեց ապակցել երաժշտության ձեր կանխադրված մատակարարին</string>
     <string name="assistant_settings_music_unlink_dialog_text">Հաշիվն ապակցելու դեպքում դուք չեք կարողանա նվագարկել %1$s-ի բովանդակությունը Google Օգնականի միջոցով:</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Google Home-ում YouTube Music-ն օգտագործելու համար անհրաժեշտ է YouTube Premium-ի բաժանորդագրություն: Դուք կարող եք գրանցվել <a href="http://youtube.com/red">youtube.com/red</a> էջում:</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Google Home-ում YouTube Music-ն օգտագործելու համար անհրաժեշտ է YouTube Premium-ի բաժանորդագրություն: Դուք կարող եք գրանցվել <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> էջում:</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Անհրաժեշտ է YouTube Premium-ի բաժանորդագրություն</string>
     <string name="assistant_settings_news_provider_delete_button_description">Հեռացնել %1$s աղբյուրը նորությունների միացված աղբյուրների ցանկից</string>
     <string name="assistant_settings_news_supports_video">Խելացի էկրաններում հասանելի տեսանյութեր</string>
@@ -747,8 +756,10 @@
     <string name="assistant_settings_update_error_message">Չհաջողվեց թարմացնել կարգավորումը: Ստուգեք ինտերնետ կապը:</string>
     <string name="assistant_settings_video_calls_service_category_title">Ձեր Օգնականը կարող է տեսազանգեր կատարել Google Smart Display-ով կամ այլ աջակցվող սարքերով՝ ձեր նախընտրած ծառայության միջոցով: Արտակարգ իրավիճակների ծառայությունները հասանելի չեն:</string>
     <string name="assistant_settings_video_icon_text">Տեսանյութի մատակարարի պատկերակ</string>
+    <string name="assistant_settings_video_link_dialog_text">Կցելով ձեր Google հաշիվը %1$s ծառայությանը՝ դուք կկարողանաք բովանդակություն նվագարկել համատեղելի սարքերում։ Google Օգնականի միջոցով %1$s-ն օգտագործելու դեպքում ձեր հարցումները կուղարկվեն %1$s-ին և կօգտագործվեն համաձայն այդ ծառայության գաղտնիության քաղաքականության: %1$s ծառայությունը կարող է տրամադրել ձեզ անհատական արդյունքներ և անհատականացված առաջարկություններ: Դուք ցանկացած ժամանակ կարող եք ապակցել ձեր հաշիվը Օգնականի կարգավորումներում։</string>
     <string name="assistant_settings_video_provider_category_summary">Խնդրեք Օգնականին ցուցադրել հեռուստահաղորդումներ և ֆիլմեր:</string>
     <string name="assistant_settings_video_provider_category_title">Տեսանյութեր</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Հաշիվն ապակցելու դեպքում դուք չեք կարողանա նվագարկել %1$s-ի բովանդակությունը Google Օգնականի միջոցով:</string>
     <string name="assistant_settings_videos_photos_title">Տեսանյութեր և լուսանկարներ</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast կամ ներկառուցված Chromecast սարքով հեռուստացույց</string>
     <string name="assistant_settings_voice_and_video_calls_title">Զանգեր և տեսազանգեր</string>
@@ -884,7 +895,6 @@
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Անցնել մանրամասների էջ</string>
     <string name="captive_portal_error_card_cell_title_text">Բջջային ինտերնետի խնդիր</string>
     <string name="captive_portal_error_card_explanation_text">Այս Wi-Fi ցանցին միանալու համար հարկավոր է մուտք գործել: Մուտք գործեք միայն վստահելի ցանցեր, քանի որ որոշ Wi-Fi պորտալներ այնքան էլ անվտանգ չեն: Ցանցին միանալուց հետո նորից փորձեք որոնել:</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Մուտք գործել ցանց</string>
     <string name="captive_portal_error_card_title_text">Մուտք գործեք՝ Wi-Fi-ն օգտագործելու համար</string>
     <string name="car_rental_cartype">Մեքենայի տեսակը</string>
     <string name="car_rental_dropoff">Վերադարձնել</string>
@@ -1047,6 +1057,7 @@
     <string name="current_search_base_url_local">Օգտագործվում է ձեր տեղային (%1$s) տիրույթը</string>
     <string name="current_status">Ստուգեք ձեր ներկա կարգավիճակը</string>
     <string name="custom">Հատուկ (հնարավոր չէ հարմարեցնել հեռախոսում)</string>
+    <string name="custom_tabs_explore_action_button_desc">Դիտել նման էջեր</string>
     <string name="custom_tabs_link_copied">Հղումը պատճենվեց սեղմատախտակին</string>
     <string name="custom_tabs_menu_item_copy_link">Պատճենել հղումը</string>
     <string name="custom_tabs_menu_item_help">Օգնություն</string>
@@ -1111,7 +1122,7 @@
     <string name="distance_kilometers_accessible">Distance: %1$.1f կիլոմետր</string>
     <string name="distance_miles">%1$.1f մղ</string>
     <string name="distance_miles_accessible">Distance: %1$.1f մղոն</string>
-    <string name="donate_screenshot_summary">Թույլ տվեք Google-ին պահել ձեր էկրանի պատկերները և գնահատել դրանք՝ էկրանի որոնումը կատարելագործելու համար: Գնահատողները պարտավոր են խստորեն հետևել գաղտնիության կանոններին: Էկրանի պատկերներում առկա անձնական տվյալները, օրինակ՝ էլեկտրոնային նամակներն ու զրույցները, գաղտնի կպահվեն։</string>
+    <string name="donate_screenshot_summary">Թույլ տվեք Google-ին պահել ձեր սքրինշոթները և գնահատել դրանք՝ էկրանի որոնումը կատարելագործելու համար: Գնահատողները պարտավոր են խստորեն հետևել գաղտնիության կանոններին: Էկրանի պատկերներում առկա անձնական տվյալները, օրինակ՝ էլեկտրոնային նամակներն ու զրույցները, գաղտնի կպահվեն։</string>
     <string name="donate_screenshot_title">Օգնեք լավացնել էկրանի որոնումը</string>
     <string name="done">Պատրաստ է</string>
     <string name="done_button_text">Պատրաստ է</string>
@@ -1420,7 +1431,6 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="google_play_services_update_button">Թարմացնել Google Play ծառայությունները</string>
     <string name="google_play_services_update_required">Լրահոսն օգտագործելու համար պետք է թարմացնեք Google Play ծառայությունները</string>
     <string name="google_plus_profile_contact_label">Google+ պրոֆիլ</string>
-    <string name="google_search_disabled_toast">Դուք չունեք թույլտվություն Google Որոնումից օգտվելու համար:</string>
     <string name="gsa_home">Տուն</string>
     <string name="ha_card_title">Ձեր տունը</string>
     <string name="hands_free_unlock_device_bluetooth">Երբ հնարավորություն լինի, հպեք ծանուցմանը և թույլ տվեք Bluetooth սարքերին աշխատել ձեր հեռախոսի հետ, երբ այն կողպված է:</string>
@@ -1784,6 +1794,14 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="lens_info_panel_opening_lens">Տեսապակին բացվում է…</string>
     <string name="lens_overflow_menu_description">Կարգավորումներ</string>
     <string name="lens_quit_button_description">Դուրս գալ</string>
+    <string name="lens_results_feedback_card_prompt">Ի՞նչ եք ուզում անել Տեսապակու օգնությամբ։</string>
+    <string name="lens_results_feedback_card_title">Օգնեք մեզ ավելի լավը դարձնել Տեսապակին</string>
+    <string name="lens_results_feedback_no">ՈՉ</string>
+    <string name="lens_results_feedback_prompt_text">Օգտակա՞ր էին այս արդյունքները։</string>
+    <string name="lens_results_feedback_response_to_negative">Շնորհակալություն, որ օգնում եք Google Տեսապակին ավելի լավը դարձնել:</string>
+    <string name="lens_results_feedback_response_to_positive">Ի՞նչը կարելի է լավացնել։</string>
+    <string name="lens_results_feedback_send_report">ԿԱՐԾԻՔ ՀԱՅՏՆԵԼ</string>
+    <string name="lens_results_feedback_yes">ԱՅՈ</string>
     <string name="lens_title">Google Տեսապակի</string>
     <string name="license_activity_title">Բաց կոդով ծրագրաշարի արտոնագրեր</string>
     <string name="light_traffic">Թեթև երթևեկություն</string>
@@ -1844,7 +1862,6 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="menu_overlay_reset_to_default_style">Վերականգնել կանխադրված ոճը</string>
     <string name="menu_refresh">Թարմացնել</string>
     <string name="menu_send_button_content_description">Սեղմեք «Ուղարկել» կոճակը՝ կարծիք հայտնելու համար</string>
-    <string name="menu_settings">Կարգավորումներ</string>
     <string name="menu_share">Կիսվել</string>
     <string name="menu_view_in_browser">Դիտել դիտարկիչում</string>
     <string name="menu_visit_page">Այցելել էջ</string>
@@ -1907,7 +1924,6 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="navigation_home_label">Գլխավոր էջ</string>
     <string name="navigation_recently_label">Վերջինները</string>
     <string name="navigation_search_label">Որոնել</string>
-    <string name="navigation_updates_label">Թարմացումներ</string>
     <string name="nearby_attractions">Մոտակա տեսարժան վայրերը</string>
     <string name="nearby_events_title">Մոտակա իրադարձությունները</string>
     <string name="network_error">Հնարավոր չէ միանալ Google-ին այս պահին</string>
@@ -1915,6 +1931,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="network_error_fetching_weather_data_status_text">Ցանցը ներկայումս անհասանելի է</string>
     <string name="network_error_no_connection_tts">Այս պահին ինտերնետ կապ չկա:</string>
     <string name="network_error_resend_audio">Կրկին ուղարկել ձայնանյութերը</string>
+    <string name="network_error_try_again">Փորձել նորից</string>
     <string name="network_location_required_text">Տեղադրության վրա հիմնված քարտերը, ինչպիսիք են տեղային եղանակը և երթևեկության ծանրաբեռնվածությունը, տեսնելու համար միացրեք Wi‑Fi-ը և շարժական ցանցի տեղադրությունը:</string>
     <string name="network_location_required_text_klp">Ընտրեք բարձր ճշգրտության կամ մարտկոցի խնայման ռեժիմը` տեսնելու համար տեղադրության վրա հիմնված քարտերը, ինչպիսիք են տեղային եղանակը և երթևեկության ծանրաբեռնվածությունը</string>
     <string name="nevermind_prompt">Շարունակել</string>
@@ -2063,6 +2080,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="offline_eyesfree_install_language_pack_notification_body">Նորացրեք ձեր լեզվի փաթեթը:</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Ցանցից դուրս ձայնային ռեժիմի ակտիվացում</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Կապ չկա։ Անցանց ռեժիմում ձայնային հրամաններից օգտվելու համար պետք է տեղադրեք լեզվի վերջին փաթեթը: Դրա համար հպեք ծանուցմանը, երբ կարողանաք անվտանգ օգտագործել ձեր էկրանը:</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Կապ չկա։ Անցանց ռեժիմում ձայնային հրահանգներից օգտվելու համար պետք է տեղադրեք լեզվի վերջին փաթեթը: Երբ միանաք համացանցին, անհրաժեշտ լեզվի փաթեթը կտեղադրվի:</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Կապ չկա։ Անցանց ռեժիմում ձայնային հրամաններից օգտվելու և նոր գործառույթներ ստանալու համար պետք է տեղադրեք լեզվի վերջին փաթեթը: Դրա համար հպեք ծանուցմանը, երբ կարողանաք անվտանգ օգտագործել ձեր էկրանը:</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Google-ի հետ հնարավոր չէ կապվել, քանի որ դուք միացած չեք ցանցին, սակայն կարող եք օգնություն ստանալ այլ հարցերի հետ կապված: Փորձեք ասել «make a call» կամ «what can I say?»:</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Ներկայումս դուք անցանց եք: Այս պահին հնարավոր չէ կապվել Google-ի հետ, սակայն բազմաթիվ հարցերի հետ կապված կարող եք օգնություն ստանալ: Օրինակ՝ փորձեք ասել «%1$s» կամ «what can I say?»:</string>
@@ -2161,7 +2179,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="opa_email_optin_screen_title">Առավելագույնս օգտագործեք Google Օգնականի հնարավորությունները</string>
     <string name="opa_email_optin_screen_toggle_explanation">Ստացեք խորհուրդներ էլփոստով</string>
     <string name="opa_email_optin_screen_unsubscribe">Ցանկացած ժամանակ կարող եք չեղարկել բաժանորդագրությունը՝ փոխելով էլփոստի կարգավորումները հավելվածում: Google Inc., 1600 Amphitheatre Parkway, Mountain View CA 94043 www.google.com</string>
-    <string name="opa_enable_screenshot_setting_prompt">Այս գործառույթից օգտվելու համար միացրեք «էկրանի պատկեր» կարգավորումը:</string>
+    <string name="opa_enable_screenshot_setting_prompt">Այս գործառույթից օգտվելու համար միացրեք «սքրինշոթ» կարգավորումը:</string>
     <string name="opa_error_consent_retry_message">Սխալ առաջացավ: Փորձեք ավելի ուշ:</string>
     <string name="opa_error_consent_retry_message_conn_error">Ստուգեք կապը և նորից փորձեք</string>
     <string name="opa_error_consent_retry_negative">Չեղարկել</string>
@@ -2308,7 +2326,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="opa_screenless_nav_opt_in_notification_body">Նավիգացիայի ռեժիմում կարող եք ձայնային հրահանգներ տալ Google Օգնականին</string>
     <string name="opa_screenless_nav_opt_in_notification_title">Օգտագործեք Google Օգնականը նավիգացիայի ռեժիմում</string>
     <string name="opa_screenless_nav_opt_in_speech">Հնարավորության դեպքում հպեք ծանուցմանը և օգտագործեք Google Օգնականը նավիգացիայի ռեժիմում:</string>
-    <string name="opa_screenshot_captured">Էկրանի պատկերը պահվել է</string>
+    <string name="opa_screenshot_captured">Սքրինշոթը պահվել է</string>
     <string name="opa_search_hint">Մուտքագրեք որևէ բան</string>
     <string name="opa_search_plate_keyboard_icon_description">Անցնել ստեղնաշարի ռեժիմին</string>
     <string name="opa_search_plate_mic_logo_description">Ձայնային որոնման կոճակ</string>
@@ -2682,15 +2700,15 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="screen_assist_battery_saver_prompt">Google-ը չի կարող միանալ ցանցին, երբ ձեր սարքը մարտկոցի տնտեսման ռեժիմում է</string>
     <string name="screen_assist_connection_timed_out">Կապակցման ժամանակը սպառվել է</string>
     <string name="screen_assist_crop_screenshot">Եզրատել</string>
-    <string name="screen_assist_enable_screenshot_prompt">Էկրանի որոնման մեջ այս գործառույթից օգտվելու համար միացրեք «էկրանի պատկեր» կարգավորումը</string>
+    <string name="screen_assist_enable_screenshot_prompt">Էկրանի որոնման մեջ այս գործառույթից օգտվելու համար միացրեք «սքրինշոթ» կարգավորումը</string>
     <string name="screen_assist_network_not_ready">Մի քանի րոպեից նորից փորձեք</string>
     <string name="screen_assist_network_unavailable_title">Ցանցը ներկայումս անհասանելի է</string>
     <string name="screen_assist_nothing_on_tap">Ձեր էկրանին ոչինչ չի գտնվել</string>
     <string name="screen_assist_now_stream_text">Ստորև տեսեք ձեր վահանակի քարտերը</string>
     <string name="screen_assist_save_screenshot">Պահել</string>
     <string name="screen_assist_saving_screenshot">Պահվում է ցուցասրահում</string>
-    <string name="screen_assist_screenshot_saved">Էկրանի պատկերը պահվեց</string>
-    <string name="screen_assist_screenshot_unavailable_prompt">Չհաջողվեց լուսանկարել էկրանի պատկեր</string>
+    <string name="screen_assist_screenshot_saved">Սքրինշոթը պահվեց</string>
+    <string name="screen_assist_screenshot_unavailable_prompt">Չհաջողվեց լուսանկարել սքրինշոթ</string>
     <string name="screen_assist_share_title">Էկրանի պատկերի փոփոխում կամ տարածում</string>
     <string name="screen_assist_sharing_screenshot">Էկրանի պատկերի տարածում</string>
     <string name="screen_assist_translate">Թարգմանել</string>
@@ -2748,6 +2766,9 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="search_storage_label">Google Որոնման պահոց</string>
     <string name="search_tablet">Որոնել պլանշետում</string>
     <string name="search_the_web_menu_text">Որոնել համացանցում</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Դուք ծանուցում կստանաք արդյունքների վերաբերյալ, երբ կապը կայունանա։</string>
+    <string name="search_timed_out_card_explanation_text">Հնարավոր է՝ ձեր ինտերնետի արագությունը բավարար չէ։</string>
+    <string name="search_timed_out_card_title_text">Որոնման ժամանակը սպառվել է</string>
     <string name="search_widget_customization">Կարգավորել վիջեթը</string>
     <string name="searching_as_account">Որոնում է, որպես՝ %1$s</string>
     <string name="second_half">2-րդ խաղակես</string>
@@ -2796,6 +2817,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="settings_legal_notices_title">Իրավական ծանուցումներ</string>
     <string name="settings_location_tos_title">Տեղադրության ծառայությունների մատուցման պայմաններ</string>
     <string name="settings_privacy_policy_title">Գաղտնիության քաղաքականություն</string>
+    <string name="settings_search_icon_title">Որոնման կարգավորումներ</string>
     <string name="settings_tos_title">Ծառայությունների մատուցման պայմաններ</string>
     <string name="setup_complete_explanation">%s սարքը կարձագանքի, երբ ասեք «Ok Google»: Մի քանի բան, որոնք կարող եք փորձել:</string>
     <string name="setup_complete_explanation_for_assistant_sdk">«%s» սարքի Օգնականն այժմ կարձագանքի ձեր հրահանգներին։ Մի քանի օրինակ, որոնք կարող եք փորձել:</string>
@@ -2812,7 +2834,7 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="sharebear_chooser_pane_share">Կիսվել</string>
     <string name="sharebear_chooser_pane_subtitle">Փոփոխեք էկրանի պատկերն ու կիսվեք դրանով</string>
     <string name="sharebear_chooser_pane_subtitle_with_collections">Ստեղծեք սքրինշոթ, փոփոխեք այն և ավելացրեք ձեր հավաքածուին</string>
-    <string name="sharebear_chooser_pane_title">Էկրանի պատկերը պահվեց</string>
+    <string name="sharebear_chooser_pane_title">Սքրինշոթը պահվեց</string>
     <string name="sharebear_color_black">Սև գույն</string>
     <string name="sharebear_color_blue">Կապույտ գույն</string>
     <string name="sharebear_color_current">Ներկայիս գույնը</string>
@@ -2821,18 +2843,18 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="sharebear_color_red">Կարմիր գույն</string>
     <string name="sharebear_color_white">Սպիտակ գույն</string>
     <string name="sharebear_color_yellow">Դեղին գույն</string>
-    <string name="sharebear_crop_and_edit_screenshot_activity_label">Փոփոխել էկրանի պատկերը</string>
+    <string name="sharebear_crop_and_edit_screenshot_activity_label">Փոփոխել սքրինշոթը</string>
     <string name="sharebear_done_button_description">Պատրաստ է</string>
     <string name="sharebear_edit_undo">Հետարկել</string>
     <string name="sharebear_edit_undo_no_effect">Հետարկելու ոչինչ չկա</string>
-    <string name="sharebear_link">Էկրանի պատկեր %s էջից</string>
+    <string name="sharebear_link">Սքրինշոթ %s էջից</string>
     <string name="sharebear_screenshotter_activity_label">Կիսվել էկրանի պատկերով</string>
-    <string name="sharebear_share_saved_screenshot_chooser_title">Փոփոխել և ուղարկել էկրանի պատկերը</string>
+    <string name="sharebear_share_saved_screenshot_chooser_title">Փոփոխել և ուղարկել սքրինշոթը</string>
     <string name="sharebear_share_subject">Էկրանի պատկերն ուղարկվել է Google-ի միջոցով</string>
     <string name="sharebear_storage_permission_denied_toast">Պատկերում արված փոփոխությունները չեն պահվի:</string>
     <string name="sharebear_storage_permission_request_info_not_now">Ոչ հիմա</string>
-    <string name="sharebear_storage_permission_request_info_part1">Հաճա՞խ եք էկրանի պատկերներ պահում:</string>
-    <string name="sharebear_storage_permission_request_info_part2">Google հավելվածը կօգնի խմբագրել էկրանի պատկերներ և կիսվել դրանցով</string>
+    <string name="sharebear_storage_permission_request_info_part1">Հաճա՞խ եք սքրինշոթներ պահում:</string>
+    <string name="sharebear_storage_permission_request_info_part2">Google հավելվածը կօգնի խմբագրել սքրինշոթներ և կիսվել դրանցով</string>
     <string name="sharebear_storage_permission_request_info_yes">Այո, համաձայն եմ</string>
     <string name="shared_links_desc">Հղումներ, որոնք ուղարկել և ստացել եք էլփոստի կամ հաղորդագրութան միջոցով</string>
     <string name="shared_links_title">Հղումներ, որոնցով կիսվել եք</string>
@@ -3097,7 +3119,6 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="training_button_yes">Այո</string>
     <string name="training_closet_error">Չհաջողվեց բեռնել կարգավորումները</string>
     <string name="training_more_questions">Ավելի շատ հարցեր</string>
-    <string name="transient_optin_text">Սպասելու կարիք չկա․ դուք ծանուցում կստանաք, երբ արդյունքները պատրաստ լինեն:</string>
     <string name="transit_alarm_notification_subtitle_template">Ձեր ժամանումը՝ %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Ձեր ժամանումը՝ %1$s</string>
     <string name="transit_alarm_vog_text">Իջնել %1$s կայարանում ժամը %2$s</string>
@@ -3221,8 +3242,8 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="use_recently_dialog_title">«Վերջերս բացած»՝ անջատել</string>
     <string name="use_recently_subtitle_when_disabled">Ձեր այցելած կայքէջերը չեն պահվի Google հավելվածում</string>
     <string name="use_recently_subtitle_when_enabled">Ձեր այցելած կայքէջերը կպահվեն Google հավելվածում</string>
-    <string name="use_sharebear">Խմբագրեք էկրանի պատկերներ և կիսվեք դրանցով</string>
-    <string name="use_sharebear_subtitle_when_disabled">Հավելվածը էկրանի պատկերներ չի մշակի</string>
+    <string name="use_sharebear">Խմբագրեք սքրինշոթներ և կիսվեք դրանցով</string>
+    <string name="use_sharebear_subtitle_when_disabled">Հավելվածը սքրինշոթներ չի մշակի</string>
     <string name="use_sharebear_subtitle_when_enabled">Ստացեք էկրանի պատկերների հետ կապված օգնություն հավելվածում</string>
     <string name="user_defined_action_action_editor_title_do">Ավելացնել դյուրանցում</string>
     <string name="user_defined_action_action_editor_title_do_existing">Փոխել դյուրանցումը</string>
@@ -3274,6 +3295,8 @@ Google Տեսապակին կատարյալ չէ, և մենք աշխատում ե
     <string name="user_defined_action_task_devices_to_adjust">Ո՞ր սարքերն եք ուզում կարգավորել</string>
     <string name="user_defined_action_task_home_control_settings">Տան կառավարման կարգավորումներ</string>
     <string name="user_defined_action_task_light_title">Լույսեր</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Ո՞ր դռներն եք ուզում կողպել</string>
+    <string name="user_defined_action_task_lock_title">Կողպել դռները</string>
     <string name="user_defined_action_task_music_duration_summary">Երաժշտության դադարեցման ժամաչափը հասանելի է միայն Google Home-ում</string>
     <string name="user_defined_action_task_music_duration_title">Անջատել երաժշտությունը նշված ժամանակից հետո</string>
     <string name="user_defined_action_task_music_example_list">Մուտքագրեք երգացանկ, կատարող, երգ կամ ժանր, օրինակ՝ «Հանգիստ երաժշտություն» կամ «Սիրուշո»: Որոնման համար կօգտագործվի ձեր &lt;a href=assistant-settings://?feature=music>կանխադրված երաժշտական ծառայությունը&lt;/a>:</string>

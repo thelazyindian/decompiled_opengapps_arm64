@@ -533,11 +533,18 @@ Asystent będzie używać tego ustawienia, by pomagać Ci w dojazdach"</string>
     <string name="assistant_settings_duo_calls_unlink_duo_title">Odłącz konto Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Nie będzie już można nawiązywać ani odbierać połączeń w Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Odłączyć konto Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Google wyśle SMS-em kod, by zweryfikować ten numer. Operator może naliczyć za to opłatę. Osoby, które znają Twój numer telefonu lub Twoje konto Google, będą mogły kontaktować się z Tobą w usługach Google.</string>
+    <string name="assistant_settings_duo_consent_title">Prowadź rozmowy wideo wysokiej jakości na inteligentnym ekranie z innymi użytkownikami aplikacji Google Duo. Zweryfikuj swój numer telefonu, by utworzyć konto Duo. Zostanie on też połączony z Twoim kontem Google.</string>
     <string name="assistant_settings_email_notification_summary">Bądź na bieżąco z wiadomościami i funkcjami związanymi z Asystentem</string>
     <string name="assistant_settings_email_notification_title">E-maile o Asystencie Google</string>
     <string name="assistant_settings_enable_google_assistant_title">Włącz Asystenta Google</string>
     <string name="assistant_settings_enabled_news_explanation">Asystent odtworzy wiadomości z tych źródeł, gdy powiesz „włącz wiadomości” lub dodasz wiadomości do procedury.</string>
     <string name="assistant_settings_enabled_news_list">Twoje źródła wiadomości</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Nie teraz</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Użyj Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Prowadź rozmowy wideo na inteligentnym ekranie ze swojego dotychczasowego konta Duo. Znajomi i rodzina mogą dzwonić do Ciebie pod numer %1$s.
+W ustawieniach Asystenta możesz w każdej chwili odłączyć swoje konto Duo na tym urządzeniu."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Rozmowy wideo</string>
     <string name="assistant_settings_feature_availability">Funkcja dostępna na %1$s</string>
     <string name="assistant_settings_float_action_button_label">Dodaj urządzenia</string>
     <string name="assistant_settings_header_title">Ustawienia</string>
@@ -647,6 +654,7 @@ Asystent będzie używać tego ustawienia, by pomagać Ci w dojazdach"</string>
     <string name="assistant_settings_music_gpm_premium_dialog_text">Muzyka Google Play wymaga subskrypcji, by odtwarzać utwory w Google Home. Zarejestruj się w aplikacji <a href="https://play.google.com/store/music">Muzyka Play</a>. Możesz też kupić lub <a href="https://support.google.com/googleplay?p=home_uploadmusic">pobrać swoją muzykę</a>.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Wymagana jest subskrypcja Muzyki Play lub biblioteka w tej usłudze</string>
     <string name="assistant_settings_music_icon_text">Ikona dostawcy muzyki</string>
+    <string name="assistant_settings_music_link_dialog_text">Połącz swoje konto Google z usługą %1$s, by odtwarzać treści i korzystać z playlist na zgodnych urządzeniach. Gdy korzystasz z usługi %1$s przy użyciu Asystenta Google, Twoje zapytania mogę być wysyłane do usługi %1$s i wykorzystywane zgodnie z obowiązującą w niej polityką prywatności. Usługa %1$s może dostarczać Ci spersonalizowane wyniki i rekomendacje. W dowolnej chwili możesz odłączyć swoje konto w ustawieniach Asystenta.</string>
     <string name="assistant_settings_music_no_preference_summary">Użyj ustawień innych kont na udostępnionych urządzeniach</string>
     <string name="assistant_settings_music_no_preference_title">Brak usługi domyślnej</string>
     <string name="assistant_settings_music_premium_dialog_button">OK</string>
@@ -657,6 +665,7 @@ Asystent będzie używać tego ustawienia, by pomagać Ci w dojazdach"</string>
     <string name="assistant_settings_music_unable_unlink_default">Nie można odłączyć domyślnego dostawcy muzyki</string>
     <string name="assistant_settings_music_unlink_dialog_text">Gdy odłączysz swoje konto, stracisz dostęp do funkcji odtwarzania treści z usługi %1$s przy użyciu Asystenta Google.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Aby słuchać Muzyki YouTube przez Google Home, musisz mieć subskrypcję YouTube Premium. Możesz ją wykupić na stronie <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Aby słuchać Muzyki YouTube przez Google Home, musisz mieć subskrypcję Muzyki YouTube Premium. Możesz ją wykupić na stronie <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Wymagana subskrypcja YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Usuń pozycję %1$s z aktywnych źródeł wiadomości</string>
     <string name="assistant_settings_news_supports_video">Film dostępny na inteligentnych ekranach</string>
@@ -860,8 +869,10 @@ Asystent będzie używać tego ustawienia, by dawać Ci wskazówki dojazdu do mi
     <string name="assistant_settings_update_error_message">Nie udało się zaktualizować ustawienia. Sprawdź połączenie.</string>
     <string name="assistant_settings_video_calls_service_category_title">Na niektórych urządzeniach, np. na inteligentnym ekranie Google, Twój Asystent może obsługiwać rozmowy wideo. Pamiętaj, że w ten sposób nie można dzwonić pod numery służb ratunkowych.</string>
     <string name="assistant_settings_video_icon_text">Ikona dostawcy filmu</string>
+    <string name="assistant_settings_video_link_dialog_text">Połącz swoje konto Google z usługą %1$s, by odtwarzać treści na zgodnych urządzeniach. Gdy korzystasz z usługi %1$s przy użyciu Asystenta Google, Twoje zapytania mogę być wysyłane do usługi %1$s i wykorzystywane zgodnie z obowiązującą w niej polityką prywatności. Usługa %1$s może dostarczać Ci spersonalizowane wyniki i rekomendacje. W dowolnej chwili możesz odłączyć swoje konto w ustawieniach Asystenta.</string>
     <string name="assistant_settings_video_provider_category_summary">Odtwarzaj programy i filmy, wydając polecenia Asystentowi.</string>
     <string name="assistant_settings_video_provider_category_title">Filmy</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Gdy odłączysz swoje konto, stracisz dostęp do funkcji odtwarzania treści z usługi %1$s przy użyciu Asystenta Google.</string>
     <string name="assistant_settings_videos_photos_title">Filmy i zdjęcia</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast lub telewizor z wbudowanym Chromecastem</string>
     <string name="assistant_settings_voice_and_video_calls_title">Rozmowy głosowe i wideo</string>
@@ -1087,7 +1098,6 @@ Mogą być naliczane opłaty za przesyłanie danych."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Otwórz stronę ze szczegółami</string>
     <string name="captive_portal_error_card_cell_title_text">Problem z połączeniem transmisji danych</string>
     <string name="captive_portal_error_card_explanation_text">Ta sieć Wi-Fi wymaga zalogowania się. Loguj się tylko do sieci, którym ufasz, ponieważ niektóre portale Wi-Fi mogą być mniej bezpieczne. Gdy nawiążesz połączenie, spróbuj wyszukać ponownie.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Zaloguj się do sieci</string>
     <string name="captive_portal_error_card_title_text">Zaloguj się, by korzystać z Wi-Fi</string>
     <string name="car_rental_cartype">Typ samochodu</string>
     <string name="car_rental_dropoff">Zwrot</string>
@@ -1311,6 +1321,7 @@ W sekcji %1$s w ustawieniach konta Google możesz wyświetlać te rozmowy i z
     <string name="current_search_base_url_local">Używana jest domena lokalna: %1$s</string>
     <string name="current_status">Sprawdź bieżący stan</string>
     <string name="custom">Niestandardowo (nie można dostosować na telefonie)</string>
+    <string name="custom_tabs_explore_action_button_desc">Wyświetl powiązane strony</string>
     <string name="custom_tabs_link_copied">Link został skopiowany do schowka</string>
     <string name="custom_tabs_menu_item_copy_link">Skopiuj link</string>
     <string name="custom_tabs_menu_item_help">Pomoc</string>
@@ -1850,7 +1861,6 @@ Wyszukaj podcast ponownie."</string>
     <string name="google_play_services_update_required">Aby dalej używać kart, musisz zaktualizować Usługi Google Play</string>
     <string name="google_plus_profile_contact_label">Profil Google+</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">Nie masz uprawnień do korzystania z wyszukiwarki Google.</string>
     <string name="goto_system_settings">Ustawienia</string>
     <string name="group_desc">Grupa %1$d z %2$d.</string>
     <string name="gsa_home">Dom</string>
@@ -2351,6 +2361,14 @@ Twoje wyniki możesz wyłączyć w ustawieniach Asystenta."</string>
     <string name="lens_info_panel_opening_lens">Otwieram Obiektyw…</string>
     <string name="lens_overflow_menu_description">Ustawienia</string>
     <string name="lens_quit_button_description">Zakończ</string>
+    <string name="lens_results_feedback_card_prompt">Co chcesz robić przy użyciu Obiektywu?</string>
+    <string name="lens_results_feedback_card_title">Pomóż nam ulepszyć Obiektyw</string>
+    <string name="lens_results_feedback_no">NIE</string>
+    <string name="lens_results_feedback_prompt_text">Czy te wyniki są przydatne?</string>
+    <string name="lens_results_feedback_response_to_negative">Dziękujemy za pomoc w ulepszaniu Obiektywu.</string>
+    <string name="lens_results_feedback_response_to_positive">Co można poprawić?</string>
+    <string name="lens_results_feedback_send_report">PRZEŚLIJ OPINIĘ</string>
+    <string name="lens_results_feedback_yes">TAK</string>
     <string name="lens_title">Obiektyw Google</string>
     <string name="less_contact_apps">Pokaż mniej aplikacji do kontaktów</string>
     <string name="libraries_material_featurehighlight_dismiss">Zamknij</string>
@@ -2434,7 +2452,6 @@ Twoje wyniki możesz wyłączyć w ustawieniach Asystenta."</string>
     <string name="menu_refresh">Odśwież</string>
     <string name="menu_send_button_content_description">Przycisk Wyślij, by przesłać opinię.</string>
     <string name="menu_send_feedback">Prześlij opinię</string>
-    <string name="menu_settings">Ustawienia</string>
     <string name="menu_share">Udostępnij</string>
     <string name="menu_view_in_browser">Wyświetl w przeglądarce</string>
     <string name="menu_visit_page">Odwiedź stronę</string>
@@ -2560,7 +2577,6 @@ Możesz przejrzeć wyszukiwania w Google i zarządzać nimi na stronie Moja ak
     <string name="navigation_home_label">Strona główna</string>
     <string name="navigation_recently_label">Ostatnie</string>
     <string name="navigation_search_label">Szukaj</string>
-    <string name="navigation_updates_label">Nadchodzące</string>
     <string name="nearby_attractions">Atrakcje w pobliżu</string>
     <string name="nearby_events_title">Wydarzenia w pobliżu</string>
     <string name="network_error">W tej chwili nie można nawiązać połączenia z Google.</string>
@@ -2568,6 +2584,7 @@ Możesz przejrzeć wyszukiwania w Google i zarządzać nimi na stronie Moja ak
     <string name="network_error_fetching_weather_data_status_text">Sieć jest teraz niedostępna</string>
     <string name="network_error_no_connection_tts">W tej chwili nie ma połączenia z internetem.</string>
     <string name="network_error_resend_audio">Prześlij ponownie głos</string>
+    <string name="network_error_try_again">Spróbuj ponownie</string>
     <string name="network_location_required_text">Aby zobaczyć karty oparte na lokalizacji, takie jak lokalna pogoda czy ruch na drodze do pracy, włącz lokalizację Wi-Fi i sieci komórkowej</string>
     <string name="network_location_required_text_klp">Aby zobaczyć karty oparte na lokalizacji, takie jak lokalna pogoda czy ruch na drodze do pracy, wybierz tryb lokalizacji „Wysoka dokładność” lub „Oszczędzanie baterii”</string>
     <string name="never">Nigdy</string>
@@ -2747,6 +2764,7 @@ Czy chcesz kontynuować?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Uaktualnij pakiet językowy.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Włącz głos w trybie offline</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Jesteś offline. Aby korzystać w tym trybie z komend głosowych, musisz zainstalować najnowszy pakiet językowy. Kliknij powiadomienie, by to zrobić, gdy będzie można bezpiecznie użyć ekranu.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Jesteś offline. Aby używać głosu bez połączenia z internetem, potrzebujesz najnowszej wersji pakietu językowego. Zostanie on zainstalowany po przywróceniu połączenia sieciowego.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Jesteś offline. Aby korzystać w tym trybie z komend głosowych i nowych funkcji, musisz zainstalować najnowszy pakiet językowy. Kliknij powiadomienie, by to zrobić, gdy będzie można bezpiecznie użyć ekranu.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Jesteś offline. Nie mam teraz łączności z Google, ale mimo to w wielu rzeczach mogę Ci pomóc. Na przykład powiedz „zadzwoń” lub spytaj „co mogę powiedzieć”?</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Jesteś offline. Nie mam teraz łączności z Google, ale mimo to w wielu rzeczach mogę Ci pomóc. Na przykład powiedz %1$s lub spytaj „co mogę powiedzieć?”</string>
@@ -2810,7 +2828,7 @@ Czy chcesz kontynuować?"</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_less">Pokaż mniej</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_button_show_more">Pokaż więcej</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_content">Aby pomagać Ci w korzystaniu z kalendarza, przypomnień, informacji o lotach i innych funkcji, Asystent potrzebuje dostępu do ustawień Aktywność w internecie i aplikacjach, Informacje o urządzeniu oraz Aktywność związana z głosem i dźwiękiem.</string>
-    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">Uwaga: dane kontrolowane przez te ustawienia mogą być zapisywane i używane we wszystkich usługach Google, w których się logujesz, w celu personalizacji tych usług i wyświetlania bardziej przydatnych reklam. Na account.google.com możesz przejrzeć i usunąć swoje dane oraz zmienić ustawienia.</string>
+    <string name="opa_consent_check_error_confirmreject_personalize_radio_content_expanded">Uwaga: Uwaga: dane kontrolowane przez te ustawienia mogą być zapisywane i używane w dowolnej usłudze Google, w której się zalogujesz. Dzięki temu usługi i reklamy będą dostosowane do Twoich potrzeb. Możesz zobaczyć i usunąć dane oraz zmienić swoje ustawienia na stronie account.google.com</string>
     <string name="opa_consent_check_error_confirmreject_personalize_radio_text">Tak, zgadzam się</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">Asystent ma problem ze sprawdzeniem Twoich ustawień aktywności. Spróbuj później.</string>
@@ -2819,7 +2837,7 @@ Czy chcesz kontynuować?"</string>
     <string name="opa_consent_check_error_message_notavailable">Asystent Google potrzebuje ustawień aktywności, które administrator urządzenia wyłączył na tym koncie. Skontaktuj się ze swoim administratorem lub przełącz się na inne konto i spróbuj jeszcze raz.</string>
     <string name="opa_consent_check_error_title">Coś poszło nie tak</string>
     <string name="opa_consent_check_error_title_autherror">Nie można uwierzytelnić Twojego konta</string>
-    <string name="opa_consent_check_error_title_confirmreject">Zaakceptuj te ustawienia, by korzystać ze wszystkich funkcji Asystenta</string>
+    <string name="opa_consent_check_error_title_confirmreject">Wykorzystaj te ustawienia, a Asystent będzie jeszcze bardziej przydatny</string>
     <string name="opa_consent_check_error_title_notavailable">Asystent Google jest niedostępny na tym koncie</string>
     <string name="opa_consent_error_timeout_message">Wystąpił błąd sieci. Sprawdź połączenie i spróbuj ponownie.</string>
     <string name="opa_contextual_cards_found_message">Oto kilka informacji dotyczących tego ekranu:</string>
@@ -3398,7 +3416,7 @@ Szacowany rozmiar: %d KB"</string>
     <string name="recently_empty_state_read_later_body_text">Pobrane elementy pozostaną zapisane na urządzeniu przez 7 dni.</string>
     <string name="recently_empty_state_read_later_title_text">Dodaj strony do przeczytania później</string>
     <string name="recently_entry_interaction_offline">Nie można otworzyć tej strony, gdy jesteś offline.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Nie można otworzyć tego wyszukiwania głosowego.</string>
     <string name="recently_feed_entry">Karty</string>
     <string name="recently_google_doodle_for">Doodle Google dla hasła %s</string>
     <string name="recently_keep_on_device_until">Zostaw na urządzeniu do:</string>
@@ -3676,6 +3694,9 @@ Spróbuj ponownie wyszukać podcast."</string>
     <string name="search_the_web">Szukaj w internecie</string>
     <string name="search_the_web_menu_text">Szukaj w internecie</string>
     <string name="search_the_web_suggestion">Szukaj w internecie</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Gdy jakość połączenia się poprawi, otrzymasz powiadomienie o wynikach.</string>
+    <string name="search_timed_out_card_explanation_text">Przyczyną może być wolne połączenie sieciowe.</string>
+    <string name="search_timed_out_card_title_text">Przekroczono limit czasu wyszukiwania</string>
     <string name="search_widget_customization">Dostosuj widżet</string>
     <string name="searchbar_hint">Szukaj podcastów</string>
     <string name="searchbox_hint">Szukaj w ostatnich</string>
@@ -3733,6 +3754,7 @@ Spróbuj ponownie wyszukać podcast."</string>
     <string name="settings_legal_notices_title">Informacje prawne</string>
     <string name="settings_location_tos_title">Warunki usługi lokalizacji</string>
     <string name="settings_privacy_policy_title">Polityka prywatności</string>
+    <string name="settings_search_icon_title">Ustawienia wyszukiwania</string>
     <string name="settings_tos_title">Warunki korzystania z usługi</string>
     <string name="setup_complete_explanation">Urządzenie %s będzie teraz reagować, gdy powiesz „OK Google”. Oto polecenia, które możesz wypróbować.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Teraz możesz porozmawiać z Asystentem, mówiąc do urządzenia %s. Oto polecenia, które warto wypróbować.</string>
@@ -4097,7 +4119,6 @@ na "<a href="https://www.google.com/policies/terms/">Warunki korzystania z usł
     <string name="transcript_timeout_2">Aby usunąć wersję roboczą, naciśnij dwukrotnie przycisk Asystenta Google.</string>
     <string name="transcript_timeoutt_1">Aby wysłać wiadomość, dotknij prawej słuchawki. Jeśli chcesz nagrać ją ponownie, podczas mówienia naciśnij i przytrzymaj prawą słuchawkę.</string>
     <string name="transcript_timeoutt_2">Aby usunąć wersję roboczą, dotknij dwukrotnie prawej słuchawki.</string>
-    <string name="transient_optin_text">Nie musisz tu czekać. Dostaniesz powiadomienie, gdy wyniki będą gotowe.</string>
     <string name="transit_alarm_notification_subtitle_template">Na miejscu będziesz o %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Na miejscu będziesz o %1$s</string>
     <string name="transit_alarm_vog_text">Wysiądź na przystanku %1$s %2$s</string>
@@ -4294,6 +4315,8 @@ Bieżące konto: %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Ustawienie którego urządzenia chcesz zmienić?</string>
     <string name="user_defined_action_task_home_control_settings">Ustawienia sterowania domem</string>
     <string name="user_defined_action_task_light_title">Oświetlenie</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Które drzwi chcesz zamknąć?</string>
+    <string name="user_defined_action_task_lock_title">Zamykanie drzwi</string>
     <string name="user_defined_action_task_music_duration_summary">Wyłącznik czasowy muzyki jest dostępny tylko w Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Wyłącz muzykę po…</string>
     <string name="user_defined_action_task_music_example_list">Wpisz tytuł playlisty lub utworu, nazwę wykonawcy albo gatunek. Na przykład: „Playlista do relaksu” lub „The Beatles”. Ta procedura używa Twojej &lt;a href=assistant-settings://?feature=music>domyślnej usługi muzycznej&lt;/a>.</string>

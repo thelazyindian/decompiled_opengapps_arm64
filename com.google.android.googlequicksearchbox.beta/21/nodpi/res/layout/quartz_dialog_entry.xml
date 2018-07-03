@@ -5,6 +5,6 @@
         <ImageView android:layout_gravity="center_vertical" android:id="@id/quartz_dialog_entry_icon" android:layout_width="@dimen/quartz_dialog_entry_icon_size" android:layout_height="@dimen/quartz_dialog_entry_icon_size" android:contentDescription="@null" />
     </FrameLayout>
     <FrameLayout android:id="@id/quartz_dialog_entry_text_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:textSize="@dimen/quartz_dialog_entry_text_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/quartz_dialog_entry_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/Quartz.Text.T2" />
+        <com.google.assistant.display.android.libraries.baselinetextview.BaselineTextView android:textSize="@dimen/quartz_dialog_entry_text_size" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/quartz_dialog_entry_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/Quartz.Text.T2" />
     </FrameLayout>
 </LinearLayout>

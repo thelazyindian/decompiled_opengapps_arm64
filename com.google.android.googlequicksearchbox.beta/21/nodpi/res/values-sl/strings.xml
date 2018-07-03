@@ -517,11 +517,18 @@ Pomočnik bo uporabil to nastavitev za vprašanja o vaši poti v službo"</strin
     <string name="assistant_settings_duo_calls_unlink_duo_title">Prekinitev povezave z računom za Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Ne boste mogli več začeti ali prejemati klicev v storitvi Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Želite prekiniti povezavo z računom za Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Google bo zaradi preverjanja te številke poslal kodo prek sporočila SMS. Morda bodo nastali stroški v skladu s cenikom operaterja. Osebe, ki poznajo vašo številko ali Google Račun, bodo lahko stopile v stik z vami v Googlovih storitvah.</string>
+    <string name="assistant_settings_duo_consent_title">S pametnim zaslonom začnite videoklice visoke kakovosti in z njimi pokličite vse, ki imajo aplikacijo Google Duo. Preverite telefonsko številko, če želite ustvariti račun za Google Duo. S tem bo prav tako povezan z Google Računom.</string>
     <string name="assistant_settings_email_notification_summary">Ostanite na tekočem z najnovejšimi novicami in funkcijami, povezanimi s Pomočnikom</string>
     <string name="assistant_settings_email_notification_title">E-poštna sporočila Pomočnika Google</string>
     <string name="assistant_settings_enable_google_assistant_title">Omogočanje Pomočnika Google</string>
     <string name="assistant_settings_enabled_news_explanation">Pomočnik bo predvajal novice iz teh virov, ko izgovorite »listen to the news« (poslušanje novic) ali dodate novice v rutino.</string>
     <string name="assistant_settings_enabled_news_list">Viri novic</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ne zdaj</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Uporabi Google Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Uporabite obstoječi račun za Google Duo za videoklice s pametnim zaslonom. Za prijatelje in sorodnike ste dosegljivi na številki %1$s.
+Povezavo računa za Google Duo s to napravo lahko kadar koli prekinete v nastavitvah Pomočnika."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videoklicanje</string>
     <string name="assistant_settings_feature_availability">Na voljo v %1$s</string>
     <string name="assistant_settings_float_action_button_label">Dodaj naprave</string>
     <string name="assistant_settings_header_title">Nastavitve</string>
@@ -642,6 +649,7 @@ Pomočnik bo uporabil to nastavitev za vprašanja o vaši poti v službo"</strin
     <string name="assistant_settings_music_unable_unlink_default">Povezave s privzetim ponudnikom glasbe ni mogoče prekiniti</string>
     <string name="assistant_settings_music_unlink_dialog_text">Če prekličete povezavo z računom, bo izklopljen dostop do predvajanja vsebine pri ponudniku %1$s s Pomočnikom Google.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Če želite predvajati glasbo v storitvi YouTube Music prek Googla Home, potrebujete naročnino za YouTube Premium. Registrirate se lahko na <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Če želite predvajati glasbo v storitvi YouTube Music prek Googla Home, potrebujete naročnino za YouTube Music Premium. Registrirate se lahko na <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Potrebujete naročnino za YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Odstrani %1$s iz omogočenih virov novic</string>
     <string name="assistant_settings_news_supports_video">Video je na voljo na pametnih zaslonih</string>
@@ -991,7 +999,6 @@ Morda vam bo zaračunan prenos podatkov."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Na stran s podrobnostmi</string>
     <string name="captive_portal_error_card_cell_title_text">Težava s podatkovno povezavo</string>
     <string name="captive_portal_error_card_explanation_text">To omrežje Wi-Fi zahteva prijavo. Prijavite se samo v omrežja, ki jim zaupate, saj so nekateri portali Wi-Fi manj varni. Ko boste povezani, poskusite znova iskati.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Prijava v omrežje</string>
     <string name="captive_portal_error_card_title_text">Če želite uporabljati Wi-Fi, se prijavite</string>
     <string name="car_rental_cartype">Vrsta avtomobila</string>
     <string name="car_rental_dropoff">Vračilo</string>
@@ -1205,6 +1212,7 @@ Te pogovore si lahko ogledate in jih upravljate v razdelku %1$s v nastavitvah Go
     <string name="current_search_base_url_local">Uporaba lokalne domene (%1$s)</string>
     <string name="current_status">Preverite trenutno stanje</string>
     <string name="custom">Po meri (prilagajanje ni mogoče v telefonu)</string>
+    <string name="custom_tabs_explore_action_button_desc">Ogled sorodnih strani</string>
     <string name="custom_tabs_link_copied">Povezava je bila kopirana v odložišče</string>
     <string name="custom_tabs_menu_item_copy_link">Kopiraj povezavo</string>
     <string name="custom_tabs_menu_item_help">Pomoč</string>
@@ -1709,7 +1717,6 @@ Poskusite znova poiskati poddajo."</string>
     <string name="google_play_services_update_required">Če želite še naprej uporabljati vir, morate posodobiti Storitve Google Play</string>
     <string name="google_plus_profile_contact_label">Profil v Googlu+</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">Nimate dovoljenja za uporabo Iskanja Google.</string>
     <string name="goto_system_settings">Nastavitve</string>
     <string name="group_desc">Skupina %1$d od %2$d.</string>
     <string name="gsa_home">Začetni zaslon</string>
@@ -2260,7 +2267,6 @@ Osebne rezultate lahko izklopite v nastavitvah Pomočnika."</string>
     <string name="menu_refresh">Osveži</string>
     <string name="menu_send_button_content_description">Gumb za pošiljanje povratnih informacij.</string>
     <string name="menu_send_feedback">Pošiljanje povratnih informacij</string>
-    <string name="menu_settings">Nastavitve</string>
     <string name="menu_share">Deli z drugimi</string>
     <string name="menu_view_in_browser">Prikaži v brskalniku</string>
     <string name="menu_visit_page">Obišči stran</string>
@@ -2379,7 +2385,6 @@ Odkrijte in nadzirajte vsa iskanja v Googlu ter drugo v Moji dejavnosti."</strin
     <string name="navigation_home_label">Začetna stran</string>
     <string name="navigation_recently_label">Nedavno</string>
     <string name="navigation_search_label">Iskanje</string>
-    <string name="navigation_updates_label">Prihodnje</string>
     <string name="nearby_attractions">Znamenitosti v bližini</string>
     <string name="nearby_events_title">Dogodki v bližini</string>
     <string name="network_error">Googla trenutno ni mogoče doseči.</string>
@@ -2387,6 +2392,7 @@ Odkrijte in nadzirajte vsa iskanja v Googlu ter drugo v Moji dejavnosti."</strin
     <string name="network_error_fetching_weather_data_status_text">Omrežje trenutno ni na voljo</string>
     <string name="network_error_no_connection_tts">Trenutno ni povezave z internetom.</string>
     <string name="network_error_resend_audio">Znova pošlji zvok</string>
+    <string name="network_error_try_again">Poskusi znova</string>
     <string name="network_location_required_text">Če želite prikazati kartice v zvezi z lokacijo, na primer o krajevnem vremenu in prometu v času vožnje v službo/iz službe, vklopite določanje lokacije z omrežjem Wi-Fi in mobilnim omrežjem</string>
     <string name="network_location_required_text_klp">Če želite videti kartice na podlagi lokacije, na primer lokalno vreme in gostoto prometa, vklopite dostop do lokacijskih podatkov v načinu visoke natančnosti ali varčevanja z energijo akumulatorja</string>
     <string name="never">Nikoli</string>
@@ -3449,6 +3455,9 @@ Poskusite znova poiskati poddajo."</string>
     <string name="search_the_web">Iskanje v spletu</string>
     <string name="search_the_web_menu_text">Iskanje v spletu</string>
     <string name="search_the_web_suggestion">Iskanje v spletu</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Ko bo povezava boljša, boste obveščeni, da so rezultati na voljo.</string>
+    <string name="search_timed_out_card_explanation_text">Razlog je lahko počasna omrežna povezava.</string>
+    <string name="search_timed_out_card_title_text">Časovna omejitev iskanja je potekla</string>
     <string name="search_widget_customization">Prilagodi pripomoček</string>
     <string name="searchbar_hint">Iskanje poddaj</string>
     <string name="searchbox_hint">Nedavna iskanja</string>
@@ -3841,7 +3850,6 @@ Ta oddaja trenutno ni na voljo."</string>
     <string name="training_button_yes">DA</string>
     <string name="training_closet_error">Nastavitev ni bilo mogoče naložiti</string>
     <string name="training_more_questions">VEČ VPRAŠANJ</string>
-    <string name="transient_optin_text">Ni treba čakati. Obveščeni boste, ko bodo rezultati pripravljeni.</string>
     <string name="transit_alarm_notification_subtitle_template">Prispeli boste ob %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Prispeli boste ob %1$s</string>
     <string name="transit_alarm_vog_text">Izstopite na postaji %1$s ob %2$s</string>
@@ -4031,6 +4039,8 @@ Prijavljeni ste kot %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Katere naprave želite prilagoditi?</string>
     <string name="user_defined_action_task_home_control_settings">Nastavitve nadzora doma</string>
     <string name="user_defined_action_task_light_title">Luči</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Katera vrata želite zakleniti?</string>
+    <string name="user_defined_action_task_lock_title">Zaklepanje vrat</string>
     <string name="user_defined_action_task_music_duration_summary">Časovnik za izklop glasbe je na voljo samo v Googlu Home</string>
     <string name="user_defined_action_task_music_duration_title">Izklop glasbe po …</string>
     <string name="user_defined_action_task_music_example_list">Vnesite seznam predvajanja, izvajalca, skladbo ali zvrst. Na primer »Pomirjajoč seznam predvajanja« ali »Siddharta«. Ta rutina bo uporabljala vašo &lt;a href=assistant-settings://?feature=music>privzeto glasbeno storitev&lt;/a>.</string>

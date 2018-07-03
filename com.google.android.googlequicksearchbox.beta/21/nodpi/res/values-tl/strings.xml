@@ -516,11 +516,18 @@ Gagamitin ng iyong Assistant ang setting na ito para sa mga tanong tungkol sa pa
     <string name="assistant_settings_duo_calls_unlink_duo_title">I-unlink ang Duo account</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Hindi ka na makakapagsimula o makakatanggap ng mga tawag sa Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">I-unlink ang Duo account?</string>
+    <string name="assistant_settings_duo_consent_summary">Magpapadala ang Google ng code sa pamamagitan ng SMS para i-verify ang numerong ito. Maaaring may nalalapat na mga rate ng carrier. Magagawang makipag-ugnayan sa iyo ng mga taong alam ang numero ng telepono o Google Account mo sa lahat ng serbisyo ng Google.</string>
+    <string name="assistant_settings_duo_consent_title">Magsimula ng mga video call na mataas ang kalidad sa iyong Smart Display sa sinumang may Google Duo app. I-verify ang numero ng telepono mo para makagawa ng Duo account. Ili-link din nito ito sa iyong Google Account.</string>
     <string name="assistant_settings_email_notification_summary">Manatiling konektado tungkol sa mga pinakabagong balita at feature na may kinalaman sa iyong Assistant</string>
     <string name="assistant_settings_email_notification_title">Mga email ng Google Assistant</string>
     <string name="assistant_settings_enable_google_assistant_title">I-enable ang Google Assistant</string>
     <string name="assistant_settings_enabled_news_explanation">Ipe-play ng iyong Assistant ang balita mula sa mga source na ito kapag sinabi mo ang \"makinig sa balita\" o nagdagdag ka ng balita sa isang routine.</string>
     <string name="assistant_settings_enabled_news_list">Ang iyong mga pinagkunan ng balita</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Hindi Ngayon</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Gamitin ang Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Gamitin ang iyong kasalukuyang Duo account para sa mga video call sa Smart Display mo. Magagawang makipag-ugnayan sa iyo ng mga kaibigan at kapamilya mo sa %1$s.
+Maaari mong i-unlink ang iyong Duo account mula sa device na ito anumang oras sa mga setting ng Assistant."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Pakikipag-video call</string>
     <string name="assistant_settings_feature_availability">Available sa %1$s</string>
     <string name="assistant_settings_float_action_button_label">Magdagdag ng mga device</string>
     <string name="assistant_settings_header_title">Mga Setting</string>
@@ -641,6 +648,7 @@ Gagamitin ng iyong Assistant ang setting na ito para sa mga tanong tungkol sa pa
     <string name="assistant_settings_music_unable_unlink_default">Hindi ma-unlink ang iyong default na provider ng musika</string>
     <string name="assistant_settings_music_unlink_dialog_text">Kapag na-unlink ang iyong account, mao-off ang access sa playback mula sa %1$s sa pamamagitan ng Google Assistant.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Kailangan ng YouTube Music ng membership sa YouTube Premium para mag-play sa Google Home. Maaari kang mag-sign up sa <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Kailangan ng YouTube Music ng membership sa YouTube Music Premium para mag-play sa Google Home. Maaari kang mag-sign up sa <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Kinakailangan ang Membership sa YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Alisin ang %1$s mula sa mga naka-enable na pinagkunan ng balita</string>
     <string name="assistant_settings_news_supports_video">Available ang video sa Mga Smart Display</string>
@@ -990,7 +998,6 @@ Maaaring magkaroon ng mga pagsingil sa data."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Pumunta sa page ng mga detalye</string>
     <string name="captive_portal_error_card_cell_title_text">Isyu ng koneksyon sa data</string>
     <string name="captive_portal_error_card_explanation_text">Hinihiling sa iyo ng Wi-Fi network na ito na mag-sign in. Mag-sign in lang sa mga network na pinagkakatiwalaan mo dahil maaaring hindi gaanong secure ang ilang Wi-Fi portal. Kapag nakakonekta na, subukang muli ang iyong paghahanap.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Mag-sign in sa network</string>
     <string name="captive_portal_error_card_title_text">Mag-sign in upang magamit ang Wi-Fi</string>
     <string name="car_rental_cartype">Uri ng kotse</string>
     <string name="car_rental_dropoff">Drop off</string>
@@ -1204,6 +1211,7 @@ Maaari mong tingnan at pamahalaan ang mga pag-uusap na ito sa seksyong %1$s ng m
     <string name="current_search_base_url_local">Ginagamit ang iyong lokal na domain (%1$s)</string>
     <string name="current_status">Tingnan ang status</string>
     <string name="custom">Custom (hindi mako-customize sa telepono)</string>
+    <string name="custom_tabs_explore_action_button_desc">Tingnan ang kaugnay na page</string>
     <string name="custom_tabs_link_copied">Nakopya ang link sa clipboard</string>
     <string name="custom_tabs_menu_item_copy_link">Kopyahin ang link</string>
     <string name="custom_tabs_menu_item_help">Tulong</string>
@@ -1644,7 +1652,6 @@ Subukang muling hanapin ang podcast."</string>
     <string name="google_play_services_update_required">Upang patuloy na magamit ang feed, kailangan mong i-update ang mga serbisyo ng Google Play</string>
     <string name="google_plus_profile_contact_label">Profile sa Google+</string>
     <string name="google_podcasts">Mga Podcast sa Google</string>
-    <string name="google_search_disabled_toast">Wala kang pahintulot na gamitin ang Google Search.</string>
     <string name="goto_system_settings">Mga Setting</string>
     <string name="group_desc">Pangkat na %1$d ng %2$d.</string>
     <string name="gsa_home">Bahay</string>
@@ -2166,7 +2173,6 @@ Maaari mong i-off ang mga personal na resulta sa mga setting ng Assistant."</str
     <string name="menu_refresh">I-refresh</string>
     <string name="menu_send_button_content_description">Pindutin ang button na ipadala upang isumite ang feeback.</string>
     <string name="menu_send_feedback">Magpadala ng feedback</string>
-    <string name="menu_settings">Mga Setting</string>
     <string name="menu_share">Ibahagi</string>
     <string name="menu_view_in_browser">Tingnan sa Browser</string>
     <string name="menu_visit_page">Bisitahin ang Pahina</string>
@@ -2281,7 +2287,6 @@ Tuklasin at kontrolin ang lahat ng iyong paghahanap sa Google at higit pa sa Aki
     <string name="navigation_home_label">Home</string>
     <string name="navigation_recently_label">Kamakailan</string>
     <string name="navigation_search_label">Maghanap</string>
-    <string name="navigation_updates_label">Paparating</string>
     <string name="nearby_attractions">Mga kalapit na atraksyon</string>
     <string name="nearby_events_title">Mga kalapit na kaganapan</string>
     <string name="network_error">Hindi maaabot ang Google sa ngayon.</string>
@@ -2289,6 +2294,7 @@ Tuklasin at kontrolin ang lahat ng iyong paghahanap sa Google at higit pa sa Aki
     <string name="network_error_fetching_weather_data_status_text">Kasalukuyang hindi available ang network</string>
     <string name="network_error_no_connection_tts">Walang koneksyon sa Internet sa sandaling ito.</string>
     <string name="network_error_resend_audio">Ipadalang muli ang audio</string>
+    <string name="network_error_try_again">Subukang muli</string>
     <string name="network_location_required_text">Upang makakita ng mga card na batay sa lokasyon, gaya ng lokal na panahon at trapiko sa pag-commute, i-on ang Wi‑Fi at lokasyon ng mobile network</string>
     <string name="network_location_required_text_klp">Upang makakita ng mga card na batay sa lokasyon gaya ng lokal na panahon at trapiko sa pag-commute, piliin ang mode sa lokasyong napakatumpak o matipid sa baterya</string>
     <string name="never">Hindi kailanman</string>
@@ -3350,6 +3356,9 @@ Subukang hanaping muli ang podcast."</string>
     <string name="search_the_web">Maghanap sa web</string>
     <string name="search_the_web_menu_text">Hanapin sa web</string>
     <string name="search_the_web_suggestion">Maghanap sa web</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Aabisuhan ka tungkol sa mga resulta kapag gumanda ang koneksyon.</string>
+    <string name="search_timed_out_card_explanation_text">Maaaring dahil ito sa mabagal na koneksyon sa network.</string>
+    <string name="search_timed_out_card_title_text">Nag-time out ang iyong paghahanap</string>
     <string name="search_widget_customization">I-customize ang Widget</string>
     <string name="searchbar_hint">Maghanap ng mga podcast</string>
     <string name="searchbox_hint">Maghanap sa mga kamakailan</string>
@@ -3741,7 +3750,6 @@ Hindi available sa ngayon ang palabas na ito."</string>
     <string name="training_button_yes">OO</string>
     <string name="training_closet_error">Hindi na-load ang mga setting</string>
     <string name="training_more_questions">HIGIT PANG MGA TANONG</string>
-    <string name="transient_optin_text">Hindi mo na kailangang maghintay, aabisuhan ka kapag matitingnan na ang iyong mga resulta.</string>
     <string name="transit_alarm_notification_subtitle_template">Darating ka ng %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Darating ka ng %1$s</string>
     <string name="transit_alarm_vog_text">Bumaba sa %1$s ng %2$s</string>
@@ -3927,6 +3935,8 @@ Naka-sign in na %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Aling mga device ang gusto mong isaayos</string>
     <string name="user_defined_action_task_home_control_settings">Mga setting ng home control</string>
     <string name="user_defined_action_task_light_title">Magagaan</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Aling mga pinto ang gusto mong i-lock?</string>
+    <string name="user_defined_action_task_lock_title">I-lock ang mga pinto</string>
     <string name="user_defined_action_task_music_duration_summary">Available lang sa Google Home ang timer upang ihinto ang musika</string>
     <string name="user_defined_action_task_music_duration_title">I-off ang musika pagkalipas ng…</string>
     <string name="user_defined_action_task_music_example_list">Maglagay ng playlist, artist, kanta, o genre. Halimbawa, \"Nakaka-relax na playlist\" o \"The Beatles.\" Gagamitin ng routine na ito ang iyong &lt;a href=assistant-settings://?feature=music>default na serbisyo ng musika&lt;/a>.</string>

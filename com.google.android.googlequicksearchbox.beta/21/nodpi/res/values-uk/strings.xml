@@ -517,11 +517,18 @@
     <string name="assistant_settings_duo_calls_unlink_duo_title">Від’єднати обліковий запис Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Ви більше не зможете робити чи отримувати виклики в Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Від’єднати обліковий запис Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Google надішле вам код у SMS, щоб підтвердити цей номер. Може стягуватися плата за тарифами оператора. Люди, які знають ваш номер телефону або обліковий запис, зможуть зв’язуватися з вами в сервісах Google.</string>
+    <string name="assistant_settings_duo_consent_title">"Здійснюйте на розумному екрані відеовиклики високої якості з  усіма, хто має додаток Google Duo. Підтвердьте номер телефону, щоб створити обліковий запис Duo. Його також буде зв’язано з обліковим записом Google."</string>
     <string name="assistant_settings_email_notification_summary">Отримуйте сповіщення про останні новини та функції, пов’язані з Асистентом</string>
     <string name="assistant_settings_email_notification_title">Електронні листи Google Асистента</string>
     <string name="assistant_settings_enable_google_assistant_title">Увімкнути Google Асистент</string>
     <string name="assistant_settings_enabled_news_explanation">Асистент озвучить новини з цих джерел, якщо ви скажете \"слухати новини\" або додасте новини в список дій.</string>
     <string name="assistant_settings_enabled_news_list">Ваші джерела новин</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Не зараз</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Використовувати Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Використовуйте обліковий запис Duo для відеовикликів на розумному екрані. Друзі та члени сім’ї можуть телефонувати вам на номер %1$s.
+Ви можете будь-коли від’єднати обліковий запис Duo від цього пристрою в налаштуваннях Асистента."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Відеовиклики</string>
     <string name="assistant_settings_feature_availability">Доступно на пристроях %1$s</string>
     <string name="assistant_settings_float_action_button_label">Додати пристрої</string>
     <string name="assistant_settings_header_title">Налаштування</string>
@@ -631,6 +638,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">Щоб відтворювати вміст на пристрої Google Home, потрібно підписатися на Google Play Музику. Підписатися можна в <a href="https://play.google.com/store/music">додатку Play Музика</a>. Також ви можете придбати або <a href="https://support.google.com/googleplay?p=home_uploadmusic">додати музику</a>.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Потрібна підписка на Play Музику або бібліотека</string>
     <string name="assistant_settings_music_icon_text">Значок постачальника музики</string>
+    <string name="assistant_settings_music_link_dialog_text">Зв’яжіть обліковий запис Google із сервісом %1$s, щоб вмикати вміст на сумісних пристроях і мати доступ до своїх списків відтворення. Коли ви взаємодієте із сервісом %1$s через Google Асистент, %1$s зможе отримувати запити й обробляти їх відповідно до своєї політики конфіденційності. %1$s може надавати вам персональні результати й рекомендації. Ви можете будь-коли від’єднати обліковий запис у налаштуваннях Асистента.</string>
     <string name="assistant_settings_music_no_preference_summary">Використовувати параметри інших облікових записів на спільних пристроях</string>
     <string name="assistant_settings_music_no_preference_title">Немає постачальника за умовчанням</string>
     <string name="assistant_settings_music_premium_dialog_button">OK</string>
@@ -641,6 +649,7 @@
     <string name="assistant_settings_music_unable_unlink_default">Не вдалося від’єднати постачальника музики за умовчанням</string>
     <string name="assistant_settings_music_unlink_dialog_text">Якщо від’єднати обліковий запис, ви не зможете відтворювати вміст із сервісу %1$s через Google Асистент.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Щоб слухати вміст із YouTube Музики на пристрої Google Home, потрібна підписка на YouTube Premium. Ви можете зареєструватися на сторінці <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Щоб слухати вміст із YouTube Музики на пристрої Google Home, потрібна підписка на YouTube Music Premium. Ви можете зареєструватися на сторінці <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Потрібна підписка на YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Видалити %1$s з увімкнених джерел новин</string>
     <string name="assistant_settings_news_supports_video">Відео доступне на розумних дисплеях</string>
@@ -844,8 +853,10 @@
     <string name="assistant_settings_update_error_message">Не вдалось оновити налаштування. Перевірте з’єднання.</string>
     <string name="assistant_settings_video_calls_service_category_title">Асистент може здійснювати відеовиклики на деякі пристрої (як-от Розумний дисплей Google) через вибраний сервіс. Екстрені виклики недоступні.</string>
     <string name="assistant_settings_video_icon_text">Значок постачальника відео</string>
+    <string name="assistant_settings_video_link_dialog_text">Зв’яжіть обліковий запис Google із сервісом %1$s, щоб вмикати вміст на сумісних пристроях. Коли ви взаємодієте із сервісом %1$s через Google Асистент, %1$s зможе отримувати запити й обробляти їх відповідно до своєї політики конфіденційності. %1$s може надавати вам персональні результати й рекомендації. Ви можете будь-коли від’єднати обліковий запис у налаштуваннях Асистента.</string>
     <string name="assistant_settings_video_provider_category_summary">Дивіться серіали та фільми за допомогою Помічника.</string>
     <string name="assistant_settings_video_provider_category_title">Відео</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Якщо від’єднати обліковий запис, ви не зможете відтворювати вміст із сервісу %1$s через Google Асистент.</string>
     <string name="assistant_settings_videos_photos_title">Відео й фото</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast або телевізор із вбудованою технологією Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Голосові й відеовиклики</string>
@@ -988,7 +999,6 @@
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Перейти на сторінку інформації</string>
     <string name="captive_portal_error_card_cell_title_text">Проблема з під’єднанням до Інтернету</string>
     <string name="captive_portal_error_card_explanation_text">Щоб користуватися цією мережею Wi-Fi, потрібно ввійти в обліковий запис. Під’єднуйтеся лише до мереж, яким довіряєте, оскільки деякі портали Wi-Fi можуть бути ненадійними. Коли під’єднаєтеся, виконайте пошук ще раз.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Увійти в мережу</string>
     <string name="captive_portal_error_card_title_text">Увійдіть, щоб користуватися Wi-Fi</string>
     <string name="car_rental_cartype">Тип автомобіля</string>
     <string name="car_rental_dropoff">Час повернення</string>
@@ -1202,6 +1212,7 @@
     <string name="current_search_base_url_local">Використання локального домену (%1$s)</string>
     <string name="current_status">Перевірте поточний статус</string>
     <string name="custom">Спеціальне (не можна налаштувати в телефоні)</string>
+    <string name="custom_tabs_explore_action_button_desc">Переглянути схожі сторінки</string>
     <string name="custom_tabs_link_copied">Посилання скопійовано в буфер</string>
     <string name="custom_tabs_menu_item_copy_link">Копіювати посилання</string>
     <string name="custom_tabs_menu_item_help">Довідка</string>
@@ -1706,7 +1717,6 @@ Google Об’єктив ще не все знає, і ми не завжди п
     <string name="google_play_services_update_required">Щоб продовжити користуватися підказками, потрібно оновити сервіси Google Play</string>
     <string name="google_plus_profile_contact_label">Профіль Google+</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">У вас немає дозволу користуватися Пошуком Google.</string>
     <string name="goto_system_settings">Налаштування</string>
     <string name="group_desc">Група %1$d з %2$d.</string>
     <string name="gsa_home">Домашня адреса</string>
@@ -2172,6 +2182,14 @@ Google Об’єктив ще не все знає, і ми не завжди п
     <string name="lens_info_panel_opening_lens">Відкривається Об’єктив…</string>
     <string name="lens_overflow_menu_description">Налаштування</string>
     <string name="lens_quit_button_description">Вийти</string>
+    <string name="lens_results_feedback_card_prompt">Що ви хочете робити з Об’єктивом?</string>
+    <string name="lens_results_feedback_card_title">Допоможіть нам покращити Об’єктив</string>
+    <string name="lens_results_feedback_no">НІ</string>
+    <string name="lens_results_feedback_prompt_text">Чи були ці результати корисними?</string>
+    <string name="lens_results_feedback_response_to_negative">Дякуємо, що допомагаєте покращити Об’єктив.</string>
+    <string name="lens_results_feedback_response_to_positive">Що можна покращити?</string>
+    <string name="lens_results_feedback_send_report">НАДІСЛАТИ ВІДГУК</string>
+    <string name="lens_results_feedback_yes">ТАК</string>
     <string name="lens_title">Google Об’єктив</string>
     <string name="less_contact_apps">Показати менше додатків для контактів</string>
     <string name="libraries_material_featurehighlight_dismiss">Закрити</string>
@@ -2249,7 +2267,6 @@ Google Об’єктив ще не все знає, і ми не завжди п
     <string name="menu_refresh">Оновити</string>
     <string name="menu_send_button_content_description">Натисніть кнопку \"Надіслати\", щоб надіслати відгук.</string>
     <string name="menu_send_feedback">Надіслати відгук</string>
-    <string name="menu_settings">Налаштування</string>
     <string name="menu_share">Надіслати</string>
     <string name="menu_view_in_browser">Відкрити у веб-переглядачі</string>
     <string name="menu_visit_page">Переглянути сторінку</string>
@@ -2368,7 +2385,6 @@ Google Об’єктив ще не все знає, і ми не завжди п
     <string name="navigation_home_label">Головна</string>
     <string name="navigation_recently_label">Останні</string>
     <string name="navigation_search_label">Пошук</string>
-    <string name="navigation_updates_label">Майбутні</string>
     <string name="nearby_attractions">Цікаві місця поруч</string>
     <string name="nearby_events_title">Події поблизу</string>
     <string name="network_error">Неможливо зараз з’єднатися з Google.</string>
@@ -2376,6 +2392,7 @@ Google Об’єктив ще не все знає, і ми не завжди п
     <string name="network_error_fetching_weather_data_status_text">Мережа зараз недоступна</string>
     <string name="network_error_no_connection_tts">Зараз немає з’єднання з Інтернетом.</string>
     <string name="network_error_resend_audio">Повторно надіслати аудіо</string>
+    <string name="network_error_try_again">Повторити спробу</string>
     <string name="network_location_required_text">Щоб переглянути підказки на основі місцезнаходження, як-от дані про місцеву погоду чи щоденні затори, увімкніть локацію мережі Wi‑Fi і мобільної мережі.</string>
     <string name="network_location_required_text_klp">Щоб отримувати підказки на основі місцезнаходження, як-от дані про місцеву погоду чи щоденні затори, виберіть режим високої точності місцезнаходження чи економії заряду акумулятора</string>
     <string name="never">Ніколи</string>
@@ -2541,6 +2558,7 @@ Google Об’єктив ще не все знає, і ми не завжди п
     <string name="offline_eyesfree_install_language_pack_notification_body">Оновіть мовний пакет.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Увімкнути функцію розпізнавання голосу в режимі офлайн</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Ваш пристрій у режимі офлайн. Щоб диктувати команди в режимі офлайн, установіть найновіший мовний пакет. Для цього торкніться сповіщення, коли зможете безпечно користуватись екраном.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Ваш пристрій не в мережі. Щоб користуватися голосом офлайн, потрібен найновіший мовний пакет. Його буде встановлено, коли з’явиться з’єднання з мережею.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Ваш пристрій у режимі офлайн. Щоб диктувати команди в режимі офлайн і користуватися новими функціями, установіть найновіший мовний пакет. Для цього торкніться сповіщення, коли зможете безпечно користуватись екраном.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Зараз немає з’єднання з Інтернетом. Не вдається під’єднатися до Google, однак ви можете користуватись іншими функціями. Наприклад, скажіть \"зателефонувати\" або \"що я можу сказати?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Зараз немає з’єднання з Інтернетом. Не вдається під’єднатися до Google, однак ви можете користуватись іншими функціями. Наприклад, скажіть \"%1$s\" або \"що я можу сказати?\"</string>
@@ -3160,7 +3178,7 @@ Google і керувати нею тут:"</string>
     <string name="recently_empty_state_read_later_body_text">Завантажені на пристрій елементи зберігатимуться 7 днів.</string>
     <string name="recently_empty_state_read_later_title_text">Додайте сторінки на потім</string>
     <string name="recently_entry_interaction_offline">Цю сторінку не можна відкрити в режимі офлайн.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Не вдалося відкрити вказаний голосовий пошук.</string>
     <string name="recently_feed_entry">Стрічка</string>
     <string name="recently_google_doodle_for">Дудл Google за запитом \"%s\"</string>
     <string name="recently_keep_on_device_until">Зберігати на пристрої до:</string>
@@ -3437,6 +3455,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_the_web">Пошук в Інтернеті</string>
     <string name="search_the_web_menu_text">Пошук в Інтернеті</string>
     <string name="search_the_web_suggestion">Пошук в Інтернеті</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Ви отримаєте сповіщення, коли з’єднання покращиться.</string>
+    <string name="search_timed_out_card_explanation_text">Можливо, це сталося через повільне з’єднання з мережею.</string>
+    <string name="search_timed_out_card_title_text">Час очікування пошукового запиту минув</string>
     <string name="search_widget_customization">Налаштувати віджет</string>
     <string name="searchbar_hint">Шукати подкасти</string>
     <string name="searchbox_hint">Останні пошукові запити</string>
@@ -3493,6 +3514,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="settings_legal_notices_title">Офіційне повідомлення</string>
     <string name="settings_location_tos_title">Умови використання служби локації</string>
     <string name="settings_privacy_policy_title">Політика конфіденційності</string>
+    <string name="settings_search_icon_title">Налаштування пошуку</string>
     <string name="settings_tos_title">Умови використання</string>
     <string name="setup_complete_explanation">Тепер ваш пристрій %s реагуватиме на команду \"Ok Google\". Ось кілька порад для вас.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Тепер Асистент відповідатиме, коли ви будете говорити з пристроєм %s. Ось що можна спробувати.</string>
@@ -3828,7 +3850,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="training_button_yes">ТАК</string>
     <string name="training_closet_error">Не вдалося завантажити налаштування</string>
     <string name="training_more_questions">ІНШІ ЗАПИТАННЯ</string>
-    <string name="transient_optin_text">Не потрібно чекати. Ви отримаєте сповіщення, коли результати будуть готові.</string>
     <string name="transit_alarm_notification_subtitle_template">Ви прибудете о %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Ви прибудете о %1$s</string>
     <string name="transit_alarm_vog_text">Зійти на станції \"%1$s\" о %2$s</string>
@@ -4019,6 +4040,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Які пристрої ви хочете налаштувати?</string>
     <string name="user_defined_action_task_home_control_settings">Параметри керування домом</string>
     <string name="user_defined_action_task_light_title">Світло</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Які двері замкнути?</string>
+    <string name="user_defined_action_task_lock_title">Замкнути двері</string>
     <string name="user_defined_action_task_music_duration_summary">Таймер для припинення музики доступний лише на пристрої Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Вимкнути музику через…</string>
     <string name="user_defined_action_task_music_example_list">Введіть ім’я виконавця або назву списку відтворення, пісні чи жанру. Наприклад, \"Музика для релаксу\" чи \"Океан Ельзи\". Відкриється &lt;a href=assistant-settings://?feature=music>музичний сервіс за умовчанням&lt;/a>.</string>

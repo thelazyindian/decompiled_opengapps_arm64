@@ -533,11 +533,18 @@ Asistanınız, işe gidip gelmenizle ilgili sorularda bu ayarı kullanır"</stri
     <string name="assistant_settings_duo_calls_unlink_duo_title">Duo hesabının bağlantısını kaldır</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">"Artık Duo'da çağrı başlatamayacak veya gelen çağrıları alamayacaksınız"</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Duo hesabının bağlantısı kaldırılsın mı?</string>
+    <string name="assistant_settings_duo_consent_summary">Google bu numarayı doğrulamak için SMS ile bir kod gönderecektir. Operatör ücretleri geçerli olabilir. Telefon numaranızı veya Google Hesabınızı bilen kişiler, Google hizmetlerinde size ulaşabilirler.</string>
+    <string name="assistant_settings_duo_consent_title">Akıllı Ekranınızdan Google Duo uygulamasına sahip herkesle yüksek kaliteli görüntülü görüşmeler başlatın. Duo hesabı oluşturmak için telefon numaranızı doğrulayın. Bu işlem, Duo hesabınızı Google Hesabınıza da bağlar.</string>
     <string name="assistant_settings_email_notification_summary">Asistanınızla ilgili en son haberler ve özelliklerle bağlantınızı koruyun</string>
     <string name="assistant_settings_email_notification_title">Google Asistan e-postaları</string>
     <string name="assistant_settings_enable_google_assistant_title">"Google Asistan'ı etkinleştir"</string>
     <string name="assistant_settings_enabled_news_explanation">\"Haberleri dinle\" dediğinizde veya bir rutine haber eklediğinizde Asistanınız bu kaynaklardan haberleri dinletir.</string>
     <string name="assistant_settings_enabled_news_list">Haber kaynaklarınız</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Şimdi Değil</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">"Duo'yu kullan"</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Akıllı Ekranınızda görüntülü görüşmeler yapmak için mevcut Duo hesabınızı kullanın. Arkadaşlarınız ve aileniz size %1$s numaralı telefondan ulaşabilirler.
+Bu cihazdaki Duo hesabınızın bağlantısını istediğiniz zaman Asistan ayarlarından kaldırabilirsiniz."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Görüntülü görüşme</string>
     <string name="assistant_settings_feature_availability">%1$s ile kullanılabilir</string>
     <string name="assistant_settings_float_action_button_label">Cihaz ekle</string>
     <string name="assistant_settings_header_title">Ayarlar</string>
@@ -647,6 +654,7 @@ Asistanınız, işe gidip gelmenizle ilgili sorularda bu ayarı kullanır"</stri
     <string name="assistant_settings_music_gpm_premium_dialog_text">"Google Play Müzik'in Google Home'da çalınabilmesi için abonelik gerekir. "<a href="https://play.google.com/store/music">Play Müzik uygulamasına</a> kaydolabilirsiniz. Ayrıca, müziklerinizi satın alabilir veya bunun yerine <a href="https://support.google.com/googleplay?p=home_uploadmusic">kendiniz yükleyebilirsiniz</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play Müzik Aboneliği veya kitaplık gereklidir</string>
     <string name="assistant_settings_music_icon_text">Müzik sağlayıcı simgesi</string>
+    <string name="assistant_settings_music_link_dialog_text">"Uyumlu cihazlarda çalmayı ve şarkı listelerinize erişimi etkinleştirmek için Google hesabınızı %1$s hizmetine bağlayın. Google Asistan'ı kullanarak %1$s ile etkileşimde bulunduğunuzda sorgularınız, sağlayıcının gizlilik beyanına uygun şekilde kullanılmak üzere %1$s hizmetine gönderilebilir. %1$s sizin için kişisel sonuçlar ve kişiselleştirilmiş öneriler sağlayabilir. Hesabınızın bağlantısını istediğiniz zaman Ayarlar'dan kaldırabilirsiniz."</string>
     <string name="assistant_settings_music_no_preference_summary">Paylaşılan cihazlardaki diğer hesapların tercihlerini kullan</string>
     <string name="assistant_settings_music_no_preference_title">Varsayılan sağlayıcı yok</string>
     <string name="assistant_settings_music_premium_dialog_button">Evet, anladım</string>
@@ -657,6 +665,7 @@ Asistanınız, işe gidip gelmenizle ilgili sorularda bu ayarı kullanır"</stri
     <string name="assistant_settings_music_unable_unlink_default">Varsayılan müzik sağlayıcınızın bağlantısı kaldırılamıyor</string>
     <string name="assistant_settings_music_unlink_dialog_text">Hesabınızın bağlantısını kaldırmak, %1$s hizmetindeki içeriklerin Google Asistan üzerinden çalınması için erişimi kapatacaktır.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">"YouTube Müzik'in Google Home'da çalması için YouTube Premium üyeliğinizin olması gerekir. "<a href="http://youtube.com/red">youtube.com/red</a> adresinden kaydolabilirsiniz.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">"YouTube Müzik'in Google Home'da çalması için YouTube Müzik Premium üyeliğinizin olması gerekir. "<a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> adresinden kaydolabilirsiniz.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium Üyeliği gerekli</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s adlı kaynağı etkin haber kaynaklarınızdan kaldırın</string>
     <string name="assistant_settings_news_supports_video">Video Akıllı Ekranlarda kullanılabilir</string>
@@ -860,8 +869,10 @@ Asistanınız, ev ve iş dışındaki yerler için size yol tarifi verirken bu a
     <string name="assistant_settings_update_error_message">Ayar güncellenemedi. Bağlantınızı kontrol edin.</string>
     <string name="assistant_settings_video_calls_service_category_title">Asistanınız, tercih ettiğiniz hizmeti kullanarak Google Smart Display gibi bazı cihazlardan görüntülü görüşmeler yapabilir. Acil durum çağrıları yapılamaz.</string>
     <string name="assistant_settings_video_icon_text">Video sağlayıcısı simgesi</string>
+    <string name="assistant_settings_video_link_dialog_text">"Uyumlu cihazlarda oynatmayı etkinleştirmek için Google hesabınızı %1$s hizmetine bağlayın. Google Asistan'ı kullanarak %1$s ile etkileşimde bulunduğunuzda sorgularınız, sağlayıcının gizlilik beyanına uygun şekilde kullanılmak üzere %1$s hizmetine gönderilebilir. %1$s sizin için kişisel sonuçlar ve kişiselleştirilmiş öneriler sağlayabilir. Hesabınızın bağlantısını istediğiniz zaman Asistan ayarlarından kaldırabilirsiniz."</string>
     <string name="assistant_settings_video_provider_category_summary">Asistanınızdan dizileri ve filmleri oynatmasını isteyin.</string>
     <string name="assistant_settings_video_provider_category_title">Videolar</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Hesabınızın bağlantısını kaldırmak, %1$s hizmetindeki içeriklerin Google Asistan üzerinden çalınması için erişimi kapatacaktır.</string>
     <string name="assistant_settings_videos_photos_title">Videolar ve Fotoğraflar</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast veya Chromecast özellikli TV</string>
     <string name="assistant_settings_voice_and_video_calls_title">Sesli ve Görüntülü görüşmeler</string>
@@ -1087,7 +1098,6 @@ Veri ücreti alınabilir."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Ayrıntılar sayfasına git</string>
     <string name="captive_portal_error_card_cell_title_text">Veri bağlantısı sorunu</string>
     <string name="captive_portal_error_card_explanation_text">Bu kablosuz ağ için oturum açmanız gerekiyor. Bazı kablosuz ağ portalları daha az güvenli olacağından yalnızca güvendiğiniz ağlarda oturum açın. Bağlandığınızda aramanızı tekrar yapmayı deneyin.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Ağda oturum aç</string>
     <string name="captive_portal_error_card_title_text">Kablosuz bağlantıyı kullanmak için oturum açın</string>
     <string name="car_rental_cartype">Araç tipi</string>
     <string name="car_rental_dropoff">İade saati</string>
@@ -1311,6 +1321,7 @@ Bu sohbetleri Google Hesabı ayarlarınızın %1$s bölümünde görüntüleyip 
     <string name="current_search_base_url_local">Yerel alan adınız (%1$s) kullanılarak</string>
     <string name="current_status">Mevcut durumunuzu kontrol edin</string>
     <string name="custom">Özel (telefonda özelleştirilemez)</string>
+    <string name="custom_tabs_explore_action_button_desc">İlgili sayfaları göster</string>
     <string name="custom_tabs_link_copied">Bağlantı panoya kopyalandı</string>
     <string name="custom_tabs_menu_item_copy_link">Bağlantıyı kopyala</string>
     <string name="custom_tabs_menu_item_help">Yardım</string>
@@ -1850,7 +1861,6 @@ Podcast'i tekrar aramayı deneyin."</string>
     <string name="google_play_services_update_required">Özet akışını kullanmaya devam etmek için Google Play hizmetlerini güncellemeniz gerekir</string>
     <string name="google_plus_profile_contact_label">Google+ Profili</string>
     <string name="google_podcasts">"Google Podcast'leri"</string>
-    <string name="google_search_disabled_toast">"Google Arama'yı kullanma izniniz yok."</string>
     <string name="goto_system_settings">Ayarlar</string>
     <string name="group_desc">Grup %1$d / %2$d.</string>
     <string name="gsa_home">Ana ekran</string>
@@ -2351,6 +2361,14 @@ Kişisel sonuçları Asistan ayarlarında kapatabilirsiniz."</string>
     <string name="lens_info_panel_opening_lens">Lens açılıyor…</string>
     <string name="lens_overflow_menu_description">Ayarlar</string>
     <string name="lens_quit_button_description">Çık</string>
+    <string name="lens_results_feedback_card_prompt">Lens ile ne yapmak istersiniz?</string>
+    <string name="lens_results_feedback_card_title">"Lens'i iyileştirmemize yardım edin"</string>
+    <string name="lens_results_feedback_no">HAYIR</string>
+    <string name="lens_results_feedback_prompt_text">Bu sonuçları faydalı buldunuz mu?</string>
+    <string name="lens_results_feedback_response_to_negative">"Lens'i iyileştirmemize yardımcı olduğunuz için teşekkür ederiz."</string>
+    <string name="lens_results_feedback_response_to_positive">Neler daha iyi olabilirdi?</string>
+    <string name="lens_results_feedback_send_report">GERİ BİLDİRİM GÖNDER</string>
+    <string name="lens_results_feedback_yes">EVET</string>
     <string name="lens_title">Google Lens</string>
     <string name="less_contact_apps">Daha az kişi uygulaması göster</string>
     <string name="libraries_material_featurehighlight_dismiss">Kapat</string>
@@ -2434,7 +2452,6 @@ Kişisel sonuçları Asistan ayarlarında kapatabilirsiniz."</string>
     <string name="menu_refresh">Yenile</string>
     <string name="menu_send_button_content_description">Geri bildirim göndermek için Gönder düğmesi.</string>
     <string name="menu_send_feedback">Geri bildirim gönder</string>
-    <string name="menu_settings">Ayarlar</string>
     <string name="menu_share">Paylaş</string>
     <string name="menu_view_in_browser">Tarayıcıda görüntüle</string>
     <string name="menu_visit_page">Sayfayı Ziyaret Et</string>
@@ -2560,7 +2577,6 @@ Etkinliğim'de, tüm Google aramalarınızı ve daha fazlasını keşfedip kontr
     <string name="navigation_home_label">Ana sayfa</string>
     <string name="navigation_recently_label">Son</string>
     <string name="navigation_search_label">Ara</string>
-    <string name="navigation_updates_label">Yakında</string>
     <string name="nearby_attractions">Yakınlardaki eğlence merkezleri</string>
     <string name="nearby_events_title">Yakındaki etkinlikler</string>
     <string name="network_error">"Şu anda Google'a erişilemiyor."</string>
@@ -2568,6 +2584,7 @@ Etkinliğim'de, tüm Google aramalarınızı ve daha fazlasını keşfedip kontr
     <string name="network_error_fetching_weather_data_status_text">Seçili ağ şu anda mevcut değil</string>
     <string name="network_error_no_connection_tts">Şu anda İnternet bağlantısı yok.</string>
     <string name="network_error_resend_audio">Sesi tekrar gönder</string>
+    <string name="network_error_try_again">Tekrar dene</string>
     <string name="network_location_required_text">Bulunduğunuz konuma göre hava durumu ve işe gidiş geliş trafiği gibi kartlar görmek için kablosuz ve mobil ağ konumunu açın</string>
     <string name="network_location_required_text_klp">Bulunduğunuz konuma göre hava durumu ve işe gidiş geliş trafiği gibi kartları görmek için yüksek doğruluk veya pil tasarrufu konum modunu seçin</string>
     <string name="never">Hiçbir zaman</string>
@@ -2747,6 +2764,7 @@ Devam etmek istiyor musunuz?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Dil paketinizi yeni sürümüne geçirin.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Çevrimdışı sesi etkinleştir</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Çevrimdışısınız. Ses özelliğini çevrimdışıyken kullanmaya devam etmek için en son dil paketini yüklemeniz gerekir. Ekranınızı güvenle kullanabileceğiniz zaman, bunu yapmak için bildirime hafifçe dokunun.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">İnternete bağlı değilsiniz. Çevrimdışıyken ses özelliğini kullanabilmek için en son dil paketini yüklemeniz gerekir. En son dil paketi tekrar ağ bağlantınız olduğunda yüklenecektir.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Çevrimdışısınız. Ses özelliğini çevrimdışıyken kullanmaya devam etmek ve yeni özellikler edinmek için en son dil paketini yüklemeniz gerekir. Ekranınızı güvenle kullanabileceğiniz zaman, bunu yapmak için bildirime hafifçe dokunun.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">"Maalesef çevrimdışısınız. Şu an Google'a erişemiyorum, ancak birçok konuda size yardımcı olmaya devam edebilirim. Örneğin, \"telefon et\" veya \"neler söyleyebilirim?\" demeyi deneyin"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">"Maalesef çevrimdışısınız. Şu an Google'a erişemiyorum, ancak birçok konuda size yardımcı olmaya devam edebilirim. Örneğin, %1$s veya \"neler söyleyebilirim?\" demeyi deneyin"</string>
@@ -3398,7 +3416,7 @@ Tahmini boyut: %d Kb"</string>
     <string name="recently_empty_state_read_later_body_text">Cihazınıza indirilen öğeler 7 gün süreyle cihazda tutulur.</string>
     <string name="recently_empty_state_read_later_title_text">Sayfaları sonra okunacaklara ekleyin</string>
     <string name="recently_entry_interaction_offline">Çevrimdışıyken, istenen sayfa açılamıyor.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">İstenen beklemedeki sesli arama açılamıyor.</string>
     <string name="recently_feed_entry">Kartlar</string>
     <string name="recently_google_doodle_for">%s için Google Doodle</string>
     <string name="recently_keep_on_device_until">Şu tarihe kadar cihazda tut:</string>
@@ -3676,6 +3694,9 @@ Podcast'i tekrar aramayı deneyin."</string>
     <string name="search_the_web">"Web'de ara"</string>
     <string name="search_the_web_menu_text">Web’de ara</string>
     <string name="search_the_web_suggestion">"Web'de ara"</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Bağlantı iyileştiğinde sonuçlarla ilgili bildirim alacaksınız.</string>
+    <string name="search_timed_out_card_explanation_text">Bu durum, ağ bağlantısının yavaşlığından kaynaklanıyor olabilir.</string>
+    <string name="search_timed_out_card_title_text">Aramanız zaman aşımına uğradı</string>
     <string name="search_widget_customization">"Widget'ı Özelleştir"</string>
     <string name="searchbar_hint">Podcast ara</string>
     <string name="searchbox_hint">Son öğelerde ara</string>
@@ -3733,6 +3754,7 @@ Podcast'i tekrar aramayı deneyin."</string>
     <string name="settings_legal_notices_title">Yasal uyarılar</string>
     <string name="settings_location_tos_title">Konum hizmet şartları</string>
     <string name="settings_privacy_policy_title">Gizlilik politikası</string>
+    <string name="settings_search_icon_title">Arama ayarları</string>
     <string name="settings_tos_title">Hizmet şartları</string>
     <string name="setup_complete_explanation">\"Ok Google\" dediğinizde %s artık yanıt verecek. Şunları deneyebilirsiniz:</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Asistanınız artık %s ile konuştuğunuzda yanıt verecek. Şunları deneyebilirsiniz.</string>
@@ -4097,7 +4119,6 @@ Kulaklık teşhisini, kullanım verilerini ve kilitlenme raporlarını Google'a 
     <string name="transcript_timeout_2">Taslağı silmek istersen Google Asistan düğmesine iki kez basman yeterli.</string>
     <string name="transcript_timeoutt_1">Mesajını göndermek için sağ kulaklığa dokun. Tekrar kaydetmek istersen, konuşurken sağ kulaklığa dokunup basılı tut.</string>
     <string name="transcript_timeoutt_2">Taslağı silmek istersen sağ kulaklığa iki kez dokunman yeterli.</string>
-    <string name="transient_optin_text">Beklemenize gerek yok, sonuçlarınız hazır olduğunda bildirim alacaksınız.</string>
     <string name="transit_alarm_notification_subtitle_template">Varış saatiniz: %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Varış saatiniz: %1$s</string>
     <string name="transit_alarm_vog_text">Şu istasyonda inin: %1$s (%2$s)</string>
@@ -4294,6 +4315,8 @@ Kulaklık teşhisini, kullanım verilerini ve kilitlenme raporlarını Google'a 
     <string name="user_defined_action_task_devices_to_adjust">Hangi cihazı ayarlamak istiyorsunuz?</string>
     <string name="user_defined_action_task_home_control_settings">Ev kontrolü ayarları</string>
     <string name="user_defined_action_task_light_title">Işıklar</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Hangi kapıları kilitlemek istiyorsunuz?</string>
+    <string name="user_defined_action_task_lock_title">Kapıları kilitle</string>
     <string name="user_defined_action_task_music_duration_summary">"Müziği durdurma zamanlayıcısı sadece Google Home'da kullanılabilir"</string>
     <string name="user_defined_action_task_music_duration_title">Belirtilen süre sonunda müziği kapa</string>
     <string name="user_defined_action_task_music_example_list">Bir şarkı listesi, şarkı veya tür girin. Örneğin, \"Dinlendirici şarkı listesi\" veya \"The Beatles\". Bu rutin &lt;a href=assistant-settings://?feature=music>varsayılan müzik hizmetinizi&lt;/a> kullanacaktır.</string>

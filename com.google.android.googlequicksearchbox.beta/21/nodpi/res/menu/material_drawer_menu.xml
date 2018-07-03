@@ -3,6 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:id="@id/top_items">
         <item android:id="@id/recently" android:actionLayout="@layout/drawer_entry" app:showAsAction="always" app:actionViewClass="com.google.android.apps.gsa.shared.ui.drawer.DrawerEntry" />
+        <item android:id="@id/top_apps" android:actionLayout="@layout/drawer_entry" app:showAsAction="always" app:actionViewClass="com.google.android.apps.gsa.shared.ui.drawer.DrawerEntry" />
         <item android:id="@id/saves" android:actionLayout="@layout/drawer_entry" app:showAsAction="always" app:actionViewClass="com.google.android.apps.gsa.shared.ui.drawer.DrawerEntry" />
         <item android:id="@id/personal_search" android:actionLayout="@layout/drawer_entry" app:showAsAction="always" app:actionViewClass="com.google.android.apps.gsa.shared.ui.drawer.DrawerEntry" />
         <item android:id="@id/reminders" android:actionLayout="@layout/drawer_entry" app:showAsAction="always" app:actionViewClass="com.google.android.apps.gsa.shared.ui.drawer.DrawerEntry" />

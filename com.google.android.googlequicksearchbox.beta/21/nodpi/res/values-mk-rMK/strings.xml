@@ -420,11 +420,18 @@
     <string name="assistant_settings_duo_calls_unlink_duo_title">Прекинување врска со сметката на Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Веќе нема да може да започнувате ниту да примате повици преку Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Да се прекине врската со сметката на Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Google ќе ви испрати код по SMS за да го потврди бројов. Операторот може да ви наплати. Луѓето што го знаат вашиот телефонски број или сметката на Google Account ќе можат да контактираат со вас на услугите на Google.</string>
+    <string name="assistant_settings_duo_consent_title">Остварувајте видеоповици со висок квалитет на вашиот паметен екран со секој што ја има апликацијата Google Duo. Потврдете го телефонскиот број за да создадете сметка на Duo. Ова ќе ја поврзе и со вашата сметка на Google.</string>
     <string name="assistant_settings_email_notification_summary">Бидете во тек со најновите вести и функции за вашиот „Помошник“</string>
     <string name="assistant_settings_email_notification_title">Е-пораки од „Помошникот на Google“</string>
     <string name="assistant_settings_enable_google_assistant_title">Овозможете го „Помошникот на Google“</string>
     <string name="assistant_settings_enabled_news_explanation">Вашиот „Помошник“ ќе ги пушти вестите од овие извори кога ќе кажете „listen to the news“ (слушај вести) или ќе додаде вести во рутина.</string>
     <string name="assistant_settings_enabled_news_list">Вашите извори на вести</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Не сега</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Користи Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Користете ја постоечката сметка на Duo за видеоповици на паметниот екран. Вашите пријатели и семејството може да ве добијат на %1$s.
+Може да ја прекинете врската со вашата сметка на Duo од уредов во секое време во поставките за „Помошникот“."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Видеоповикување</string>
     <string name="assistant_settings_feature_availability">Достапно на %1$s</string>
     <string name="assistant_settings_float_action_button_label">Додај уреди</string>
     <string name="assistant_settings_header_title">Поставки</string>
@@ -534,6 +541,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">Мора да се претплатите на Google Play Music за да пуштате содржини на Google Home. Регистрирајте се на <a href="https://play.google.com/store/music">апликацијата Play Music</a>. Исто така, може да купувате музика или да ја <a href="https://support.google.com/googleplay?p=home_uploadmusic">прикачите вашата музика</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Претплатата на Play Music или збирка е задолжителна</string>
     <string name="assistant_settings_music_icon_text">Икона на музичката услуга</string>
+    <string name="assistant_settings_music_link_dialog_text">Поврзете ја вашата сметка на Google со %1$s за да овозможите репродукција на компатибилни уреди и да пристапувате до вашите плејлисти. При интеракција со услугата %1$s преку „Помошникот на Google“, вашите барања може да се испратат до %1$s и ќе се користат во согласност со нивната изјава за приватност. %1$s може да обезбедува лични резултати и персонализирани препораки за вас. Може да ја прекинете врската со сметката во секое време во поставки за „Помошникот“.</string>
     <string name="assistant_settings_music_no_preference_summary">Користете ги поставките на другата сметка на споделени уреди</string>
     <string name="assistant_settings_music_no_preference_title">Нема стандарден давател</string>
     <string name="assistant_settings_music_premium_dialog_button">Во ред, разбрав</string>
@@ -544,6 +552,7 @@
     <string name="assistant_settings_music_unable_unlink_default">Не може да се прекине врската со вашата стандардна музичка услуга</string>
     <string name="assistant_settings_music_unlink_dialog_text">Со прекинување на врската со сметката, ќе го исклучите пристапот до репродукцијата од %1$s преку „Помошникот на Google“.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">За „YouTube Музика“ потребно е членство на YouTube Premium за да се репродуцира на Google Home. Може да се регистрирате на <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">За „YouTube Музика“ потребно е членство на YouTube Music Premium за да се репродуцира на Google Home. Може да се регистрирате на <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Потребно е членство на YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Отстранете го %1$s од вашите овозможени извори на вести</string>
     <string name="assistant_settings_news_supports_video">Видеото е достапно на паметни екрани</string>
@@ -747,8 +756,10 @@
     <string name="assistant_settings_update_error_message">Не можеше да се ажурира поставката. Проверете ја врската.</string>
     <string name="assistant_settings_video_calls_service_category_title">Вашиот „Помошник“ може да остварува видеоповици на некои уреди, како на пр., Google Smart Display, со помош на вашата претпочитана услуга. Повиците до итните служби не се достапни.</string>
     <string name="assistant_settings_video_icon_text">Икона за давател на видео услуги</string>
+    <string name="assistant_settings_video_link_dialog_text">Поврзете ја вашата сметка на Google со %1$s за да овозможите репродукција на компатибилни уреди. При интеракција со услугата %1$s преку „Помошникот на Google“, вашите барања може да се испратат до %1$s и ќе се користат во согласност со нивната политика за приватност. %1$s може да обезбедува лични резултати и персонализирани препораки за вас. Може да ја прекинете врската со сметката во секое време во поставки за „Помошникот“.</string>
     <string name="assistant_settings_video_provider_category_summary">Пуштајте серии и филмови со помош на вашиот „Помошник“.</string>
     <string name="assistant_settings_video_provider_category_title">Видеа</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Со прекинување на врската со сметката, ќе го исклучите пристапот до репродукцијата од %1$s преку „Помошникот на Google“.</string>
     <string name="assistant_settings_videos_photos_title">Видеа и фотографии</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast или телевизор со вграден Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Гласовни и видеоповици</string>
@@ -884,7 +895,6 @@
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Оди на страницата со детали</string>
     <string name="captive_portal_error_card_cell_title_text">Проблем при побрзувањето со мобилниот интернет</string>
     <string name="captive_portal_error_card_explanation_text">Оваа Wi-Fi мрежа бара да се најавите. Најавувајте се само на мрежи во кои имате доверба бидејќи некои Wi-Fi портали може да не се безбедни. Кога ќе се поврзете, обидете се да пребарате повторно.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Најавете се на мрежа</string>
     <string name="captive_portal_error_card_title_text">Најавете се за да користите Wi-Fi</string>
     <string name="car_rental_cartype">Тип автомобил</string>
     <string name="car_rental_dropoff">Враќање</string>
@@ -1047,6 +1057,7 @@
     <string name="current_search_base_url_local">Се користи вашиот локален домен (%1$s)</string>
     <string name="current_status">Проверете го тековниот статус</string>
     <string name="custom">Приспособено (не може да се приспособува на телефон)</string>
+    <string name="custom_tabs_explore_action_button_desc">Погледнете слични страници</string>
     <string name="custom_tabs_link_copied">Линкот е копиран во таблата со исечоци</string>
     <string name="custom_tabs_menu_item_copy_link">Копирајте го линкот</string>
     <string name="custom_tabs_menu_item_help">Помош</string>
@@ -1420,7 +1431,6 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="google_play_services_update_button">Ажурирај ги услугите на Google Play</string>
     <string name="google_play_services_update_required">За да продолжите со користење на активноста, треба да ги ажурирате услугите на Google Play</string>
     <string name="google_plus_profile_contact_label">Профил на Google+</string>
-    <string name="google_search_disabled_toast">Немате дозвола за користење Пребарување на Google.</string>
     <string name="gsa_home">Дома</string>
     <string name="ha_card_title">Вашиот дом</string>
     <string name="hands_free_unlock_device_bluetooth">Кога е безбедно, прво ќе треба да го допрете известувањето. Потоа може да им дозволите на уредите со Bluetooth да работат со телефонот кога е заклучен.</string>
@@ -1784,6 +1794,14 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="lens_info_panel_opening_lens">Се отвора Lens…</string>
     <string name="lens_overflow_menu_description">Поставки</string>
     <string name="lens_quit_button_description">Излези</string>
+    <string name="lens_results_feedback_card_prompt">Што сакате да направите со Lens?</string>
+    <string name="lens_results_feedback_card_title">Помогнете ни да ја подобриме Lens</string>
+    <string name="lens_results_feedback_no">НЕ</string>
+    <string name="lens_results_feedback_prompt_text">Дали ви беа корисни резултативе?</string>
+    <string name="lens_results_feedback_response_to_negative">Благодариме што ни помогнавте да ја подобриме Lens.</string>
+    <string name="lens_results_feedback_response_to_positive">Што можеше да биде подобро?</string>
+    <string name="lens_results_feedback_send_report">ИСПРАТИ КОМЕНТАР</string>
+    <string name="lens_results_feedback_yes">ДА</string>
     <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">Лиценци на софтвер со отворен код</string>
     <string name="light_traffic">Слаб сообраќај</string>
@@ -1844,7 +1862,6 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="menu_overlay_reset_to_default_style">Ресетирај на стандардниот стил</string>
     <string name="menu_refresh">Освежи</string>
     <string name="menu_send_button_content_description">Копче „Испрати“ за испраќање повратни информации.</string>
-    <string name="menu_settings">Поставки</string>
     <string name="menu_share">Сподели</string>
     <string name="menu_view_in_browser">Прикажи во пребарувач</string>
     <string name="menu_visit_page">Посетете страница</string>
@@ -1907,7 +1924,6 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="navigation_home_label">Почетна</string>
     <string name="navigation_recently_label">Неодамнешни</string>
     <string name="navigation_search_label">Пребарување</string>
-    <string name="navigation_updates_label">Претстојни</string>
     <string name="nearby_attractions">Атракции во близина</string>
     <string name="nearby_events_title">Настани во близина</string>
     <string name="network_error">Во моментов не може да се дојде до Google.</string>
@@ -1915,6 +1931,7 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="network_error_fetching_weather_data_status_text">Мрежата не е достапна во моментов</string>
     <string name="network_error_no_connection_tts">Нема врска со интернет во моментов.</string>
     <string name="network_error_resend_audio">Повторно прати аудио</string>
+    <string name="network_error_try_again">Обиди се пак</string>
     <string name="network_location_required_text">За да видите картички засновани на вашата локација, како на пример локално време и сообраќај до работа, вклучете Wi‑Fi и локација на мобилна мрежа</string>
     <string name="network_location_required_text_klp">За да гледате картички според локацијата како на пример локално време и сообраќај до работа, одберете голема прецизност или режим на локација за заштеда на батерија.</string>
     <string name="nevermind_prompt">Не е важно</string>
@@ -2063,6 +2080,7 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="offline_eyesfree_install_language_pack_notification_body">Надградете го јазичниот пакет.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Овозможете офлајн глас</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Офлајн сте. За да продолжите да го користите Google Voice кога ќе бидете офлајн, ќе треба да го инсталирате најновиот јазичен пакет. Кога ќе биде безбедно да го користите екранот, допрете на известувањето за да го направите тоа.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Офлајн сте. За да користите глас додека сте офлајн, потребен ви е најновиот јазичен пакет што ќе се инсталира следниот пат кога ќе имате мрежна врска.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Офлајн сте. За да продолжите да го користите Google Voice кога ќе бидете офлајн и да добивате нови функции, ќе треба да го инсталирате најновиот јазичен пакет. Кога ќе биде безбедно да го користите екранот, допрете на известувањето за да го направите тоа.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Всушност, вие сте офлајн. Не може да го добиеме Google во моментов, но сепак може да ви помогнеме со многу нешта. На пример, обидете се да кажете „Make a call“ (Повикај) или „What can I say?“(„Што можам да кажам?“).</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Всушност, вие сте офлајн. Не може да го добиеме Google во моментов, но сепак може да ви помогнеме со многу нешта. На пример, обидете се да кажете %1$s или „What can I say?“(„Што можам да кажам?“).</string>
@@ -2748,6 +2766,9 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="search_storage_label">Склад на Пребарување на Google</string>
     <string name="search_tablet">Пребарувајте го таблетот</string>
     <string name="search_the_web_menu_text">Пребарајте на интернет</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Ќе добиете известување за резултатите кога ќе се подобри врската.</string>
+    <string name="search_timed_out_card_explanation_text">Ова може да се должи на бавна мрежна врска.</string>
+    <string name="search_timed_out_card_title_text">Истече времето за пребарување</string>
     <string name="search_widget_customization">Приспособете го виџетот</string>
     <string name="searching_as_account">Пребарување како %1$s</string>
     <string name="second_half">Второ полувреме</string>
@@ -2796,6 +2817,7 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="settings_legal_notices_title">Правни напомени</string>
     <string name="settings_location_tos_title">Услови на користење локација</string>
     <string name="settings_privacy_policy_title">Политика за приватност</string>
+    <string name="settings_search_icon_title">Поставки за пребарување</string>
     <string name="settings_tos_title">Услови на користење</string>
     <string name="setup_complete_explanation">Вашиот %s сега ќе одговори кога ќе кажете „Ok Google“. Еве неколку работи што може да ги пробате.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Отсега, вашиот „Помошник“ ќе одговара кога ќе зборувате со %s. Еве неколку работи што може да ги пробате.</string>
@@ -3097,7 +3119,6 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="training_button_yes">ДА</string>
     <string name="training_closet_error">Не успеаја да се вчитаат поставките</string>
     <string name="training_more_questions">ПОВЕЌЕ ПРАШАЊА</string>
-    <string name="transient_optin_text">Нема потреба од чекање. Ќе добиете известување кога ќе бидат готови резултатите.</string>
     <string name="transit_alarm_notification_subtitle_template">Ќе пристигнете во %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Ќе пристигнете во %1$s</string>
     <string name="transit_alarm_vog_text">Симнете се на %1$s во %2$s</string>
@@ -3273,6 +3294,8 @@ Google Lens не знае сѐ и не сме секогаш во право к�
     <string name="user_defined_action_task_devices_to_adjust">Кои уреди сакате да ги приспособите?</string>
     <string name="user_defined_action_task_home_control_settings">Поставки за контрола на Home</string>
     <string name="user_defined_action_task_light_title">Светла</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Кои врати би сакале да ги заклучите?</string>
+    <string name="user_defined_action_task_lock_title">Заклучи ги вратите</string>
     <string name="user_defined_action_task_music_duration_summary">Тајмерот за сопирање на музиката е достапен само на Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Исклучи ја музиката по…</string>
     <string name="user_defined_action_task_music_example_list">Внесете плејлиста, изведувач, песна или жанр. На пример, „Плејлиста за релаксација“ или „Леб и сол“. Рутинава ќе ја користи вашата &lt;a href=assistant-settings://?feature=music>стандардна музичка услуга&lt;/a>.</string>

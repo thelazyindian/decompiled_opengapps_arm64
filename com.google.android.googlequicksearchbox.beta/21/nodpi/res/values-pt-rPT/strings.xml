@@ -517,11 +517,18 @@ O Assistente utiliza esta definição para perguntas acerca das suas viagens reg
     <string name="assistant_settings_duo_calls_unlink_duo_title">Desassociar a conta do Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Deixa de poder fazer ou receber chamadas no Duo.</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Pretende desassociar a conta do Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">A Google irá enviar um código por SMS para validar este número. Podem aplicar-se taxas do operador. As pessoas que conhecem o seu número de telefone ou a sua Conta Google podem contactá-lo através dos serviços Google.</string>
+    <string name="assistant_settings_duo_consent_title">Inicie videochamadas de alta qualidade no seu Smart Display com alguém que tenha a aplicação Google Duo. Valide o seu número de telefone para criar uma conta do Duo. Deste modo, também o associa à sua Conta Google.</string>
     <string name="assistant_settings_email_notification_summary">Mantenha-se ligado com as notícias e as funcionalidades mais recentes relacionadas com o seu Assistente</string>
     <string name="assistant_settings_email_notification_title">Emails do Assistente Google</string>
     <string name="assistant_settings_enable_google_assistant_title">Ativar o Assistente Google</string>
     <string name="assistant_settings_enabled_news_explanation">O Assistente reproduz as notícias destas fontes quando diz \"ouvir as notícias\" ou adiciona notícias a uma rotina.</string>
     <string name="assistant_settings_enabled_news_list">As suas fontes de notícias</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Agora não</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Utilizar Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Utilize a sua conta do Duo existente para efetuar videochamadas no seu Smart Display. Os seus amigos e familiares podem contactá-lo através do número %1$s.
+Pode desassociar a sua conta do Duo deste dispositivo em qualquer altura nas definições do Assistente."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videochamadas</string>
     <string name="assistant_settings_feature_availability">Disponível no %1$s</string>
     <string name="assistant_settings_float_action_button_label">Adicionar dispositivos</string>
     <string name="assistant_settings_header_title">Definições</string>
@@ -631,6 +638,7 @@ O Assistente utiliza esta definição para perguntas acerca das suas viagens reg
     <string name="assistant_settings_music_gpm_premium_dialog_text">O Google Play Música necessita de uma subscrição para reproduzir no Google Home. Pode inscrever-se na <a href="https://play.google.com/store/music">aplicação Play Música</a>. Em alternativa, também pode comprar ou <a href="https://support.google.com/googleplay?p=home_uploadmusic">carregar a sua música</a></string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">É necessária uma subscrição ou uma biblioteca do Play Música</string>
     <string name="assistant_settings_music_icon_text">Ícone do fornecedor de música</string>
+    <string name="assistant_settings_music_link_dialog_text">Associe a sua Conta Google ao serviço %1$s para ativar a reprodução em dispositivos compatíveis e aceder às suas listas de reprodução. Quando interagir com o serviço %1$s através do Assistente Google, as suas consultas podem ser enviadas para o serviço %1$s para utilização de acordo com a respetiva declaração de privacidade. O serviço %1$s pode fornecer-lhe resultados pessoais e recomendações personalizadas. Pode desassociar a sua conta em qualquer momento nas definições do Assistente.</string>
     <string name="assistant_settings_music_no_preference_summary">Utilizar preferências de outras contas em dispositivos partilhados</string>
     <string name="assistant_settings_music_no_preference_title">Nenhum fornecedor predefinido</string>
     <string name="assistant_settings_music_premium_dialog_button">OK, compreendi</string>
@@ -641,6 +649,7 @@ O Assistente utiliza esta definição para perguntas acerca das suas viagens reg
     <string name="assistant_settings_music_unable_unlink_default">Não é possível desassociar o seu fornecedor de música predefinido</string>
     <string name="assistant_settings_music_unlink_dialog_text">A desassociação da sua conta desativa o acesso à reprodução a partir do serviço %1$s através do Assistente Google.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">O YouTube Music requer uma subscrição do YouTube Premium para ser reproduzido no Google Home. Pode inscrever-se em <a href="http://youtube.com/red">youtube.com/premium</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">O YouTube Music requer uma subscrição do YouTube Music Premium para ser reproduzido no Google Home. Pode inscrever-se em <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Subscrição do YouTube Premium obrigatória</string>
     <string name="assistant_settings_news_provider_delete_button_description">Remover o(a) %1$s das suas fontes de notícias ativadas</string>
     <string name="assistant_settings_news_supports_video">Vídeo disponível em Smart Displays</string>
@@ -844,8 +853,10 @@ O Assistente utiliza esta definição ao dar-lhe direções para locais sem ser 
     <string name="assistant_settings_update_error_message">Não foi possível atualizar a definição. Verifique a ligação.</string>
     <string name="assistant_settings_video_calls_service_category_title">O seu Assistente pode efetuar videochamadas em alguns dispositivos, como o Google Smart Display, através do seu serviço preferido. As chamadas para o serviço de emergência não estão disponíveis.</string>
     <string name="assistant_settings_video_icon_text">Ícone do fornecedor de vídeo</string>
+    <string name="assistant_settings_video_link_dialog_text">Associe a sua Conta Google ao serviço %1$s para ativar a reprodução em dispositivos compatíveis. Quando interagir com o serviço %1$s através do Assistente Google, as suas consultas podem ser enviadas para o serviço %1$s para utilização de acordo com a respetiva Política de Privacidade. O serviço %1$s pode fornecer-lhe resultados pessoais e recomendações personalizadas. Pode desassociar a sua conta a qualquer momento nas definições do Assistente.</string>
     <string name="assistant_settings_video_provider_category_summary">Reproduza programas de TV e filmes através de um pedido ao seu Assistente.</string>
     <string name="assistant_settings_video_provider_category_title">Vídeos</string>
+    <string name="assistant_settings_video_unlink_dialog_text">A desassociação da sua conta desativa o acesso à reprodução a partir do serviço %1$s através do Assistente Google.</string>
     <string name="assistant_settings_videos_photos_title">Vídeos e fotos</string>
     <string name="assistant_settings_videosphotos_cast_destination">um Chromecast ou uma TV com o Chromecast built-in</string>
     <string name="assistant_settings_voice_and_video_calls_title">Chamadas de voz e videochamadas</string>
@@ -988,7 +999,6 @@ Poderão ser aplicadas taxas de dados."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Aceder à página de detalhes</string>
     <string name="captive_portal_error_card_cell_title_text">Problema de ligação de dados</string>
     <string name="captive_portal_error_card_explanation_text">Esta rede Wi-Fi requer que inicie sessão. Apenas inicie sessão em redes nas quais confia, uma vez que alguns portais Wi-Fi podem ser menos seguros. Quando estiver ligado, experimente pesquisar novamente.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Iniciar sessão na rede</string>
     <string name="captive_portal_error_card_title_text">Iniciar sessão para utilizar o Wi-Fi</string>
     <string name="car_rental_cartype">Tipo de automóvel</string>
     <string name="car_rental_dropoff">Entrega</string>
@@ -1202,6 +1212,7 @@ Pode ver e gerir estas conversas na secção %1$s nas definições da sua Conta 
     <string name="current_search_base_url_local">Utilizar o seu domínio local (%1$s)</string>
     <string name="current_status">Verifique o seu estado atual</string>
     <string name="custom">Personalizado (não é possível personalizar no telemóvel)</string>
+    <string name="custom_tabs_explore_action_button_desc">Ver páginas relacionadas</string>
     <string name="custom_tabs_link_copied">Link copiado para área de transferência</string>
     <string name="custom_tabs_menu_item_copy_link">Copiar link</string>
     <string name="custom_tabs_menu_item_help">Ajuda</string>
@@ -1706,7 +1717,6 @@ Experimente pesquisar novamente o podcast."</string>
     <string name="google_play_services_update_required">Para continuar a utilizar o feed, precisa de atualizar os Serviços do Google Play</string>
     <string name="google_plus_profile_contact_label">Perfil do Google+</string>
     <string name="google_podcasts">Podcasts da Google</string>
-    <string name="google_search_disabled_toast">Não tem autorização para utilizar a Pesquisa Google.</string>
     <string name="goto_system_settings">Definições</string>
     <string name="group_desc">Grupo %1$d de %2$d.</string>
     <string name="gsa_home">Casa</string>
@@ -2172,6 +2182,14 @@ Pode desativar os resultados pessoais nas definições do Assistente."</string>
     <string name="lens_info_panel_opening_lens">A abrir a Lente…</string>
     <string name="lens_overflow_menu_description">Definições</string>
     <string name="lens_quit_button_description">Sair</string>
+    <string name="lens_results_feedback_card_prompt">O que pretende fazer com a Lente?</string>
+    <string name="lens_results_feedback_card_title">Ajude-nos a melhorar a Lente</string>
+    <string name="lens_results_feedback_no">NÃO</string>
+    <string name="lens_results_feedback_prompt_text">Estes resultados foram úteis?</string>
+    <string name="lens_results_feedback_response_to_negative">Obrigado por nos ajudar a melhorar a Lente.</string>
+    <string name="lens_results_feedback_response_to_positive">O que poderia ter sido melhor?</string>
+    <string name="lens_results_feedback_send_report">ENVIAR COMENTÁRIOS</string>
+    <string name="lens_results_feedback_yes">SIM</string>
     <string name="lens_title">Lente do Google</string>
     <string name="less_contact_apps">Mostrar menos aplicações de contactos</string>
     <string name="libraries_material_featurehighlight_dismiss">Ignorar</string>
@@ -2249,7 +2267,6 @@ Pode desativar os resultados pessoais nas definições do Assistente."</string>
     <string name="menu_refresh">Atualizar</string>
     <string name="menu_send_button_content_description">Botão Enviar para enviar comentários.</string>
     <string name="menu_send_feedback">Enviar comentários</string>
-    <string name="menu_settings">Definições</string>
     <string name="menu_share">Partilhar</string>
     <string name="menu_view_in_browser">Ver no navegador</string>
     <string name="menu_visit_page">Visitar página</string>
@@ -2368,7 +2385,6 @@ Descubra e controle todas as suas pesquisas do Google e muito mais em A minha at
     <string name="navigation_home_label">Página inicial</string>
     <string name="navigation_recently_label">Recentes</string>
     <string name="navigation_search_label">Pesquisar</string>
-    <string name="navigation_updates_label">Próximos</string>
     <string name="nearby_attractions">Atrações nas proximidades</string>
     <string name="nearby_events_title">Eventos próximos</string>
     <string name="network_error">Não é possível aceder ao Google neste momento.</string>
@@ -2376,6 +2392,7 @@ Descubra e controle todas as suas pesquisas do Google e muito mais em A minha at
     <string name="network_error_fetching_weather_data_status_text">Rede atualmente indisponível</string>
     <string name="network_error_no_connection_tts">De momento, não há ligação à Internet.</string>
     <string name="network_error_resend_audio">Reenviar áudio</string>
+    <string name="network_error_try_again">Tente novamente</string>
     <string name="network_location_required_text">Para ver cartões baseados na localização, como o clima local e o trânsito da viagem regular de e para o trabalho, ligue a Wi-Fi e a localização de rede móvel</string>
     <string name="network_location_required_text_klp">Para ver cartões baseados em localizações, tais como a meteorologia local e o trânsito da viagem regular de e para o trabalho, selecione o modo de localização de poupança de bateria ou de alta precisão</string>
     <string name="never">Nunca</string>
@@ -2541,6 +2558,7 @@ Pretende continuar?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Atualize o pacote de idiomas.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Ativar voz offline</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Está offline. Para continuar a utilizar a voz quando estiver offline, tem de instalar o pacote de idiomas mais recente. Quando puder utilizar o ecrã em segurança, toque na notificação para o fazer.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Está offline. Para utilizar a voz enquanto está offline, necessita do pacote de idiomas mais recente que será instalado da próxima vez que tiver uma ligação à rede.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Está offline. Para continuar a utilizar a voz quando estiver offline e obter novas funcionalidades, tem de instalar o pacote de idiomas mais recente. Quando puder utilizar o ecrã em segurança, toque na notificação para o fazer.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Na verdade, está offline. Não é possível estabelecer ligação à Google de momento, mas ainda posso ajudar com muitas coisas. Por exemplo, experimente dizer \"fazer uma chamada\" ou \"o que posso dizer?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Está efetivamente offline. Não é possível estabelecer ligação à Google de momento, mas ainda posso ajudar com muitas coisas. Por exemplo, experimente dizer %1$s ou \"o que posso dizer?\".</string>
@@ -3160,7 +3178,7 @@ Estimativa de tamanho: %d Kb"</string>
     <string name="recently_empty_state_read_later_body_text">Mantemos os itens transferidos no seu dispositivo durante 7 dias.</string>
     <string name="recently_empty_state_read_later_title_text">Adicionar páginas para ler mais tarde</string>
     <string name="recently_entry_interaction_offline">Não é possível abrir a página solicitada enquanto está offline.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Não é possível abrir a pesquisa por voz pendente solicitada.</string>
     <string name="recently_feed_entry">Feed</string>
     <string name="recently_google_doodle_for">Doodle da Google para %s.</string>
     <string name="recently_keep_on_device_until">Manter no dispositivo até:</string>
@@ -3437,6 +3455,9 @@ Experimente pesquisar novamente o podcast."</string>
     <string name="search_the_web">Pesquisar na Web</string>
     <string name="search_the_web_menu_text">Pesquisar na Web</string>
     <string name="search_the_web_suggestion">Pesquisar na Web</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Recebe uma notificação com os resultados quando a ligação melhorar.</string>
+    <string name="search_timed_out_card_explanation_text">Isto pode dever-se a uma ligação à rede lenta.</string>
+    <string name="search_timed_out_card_title_text">O tempo limite da sua pesquisa foi excedido</string>
     <string name="search_widget_customization">Personalizar widget</string>
     <string name="searchbar_hint">Pesquisar podcasts</string>
     <string name="searchbox_hint">Pesquisar recentes</string>
@@ -3493,6 +3514,7 @@ Experimente pesquisar novamente o podcast."</string>
     <string name="settings_legal_notices_title">Avisos legais</string>
     <string name="settings_location_tos_title">Termos de Utilização de localização</string>
     <string name="settings_privacy_policy_title">Política de privacidade</string>
+    <string name="settings_search_icon_title">Definições de pesquisa</string>
     <string name="settings_tos_title">Termos de Utilização</string>
     <string name="setup_complete_explanation">O seu %s responderá agora quando disser \"Ok Google\". Eis algumas coisas que pode experimentar.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Agora, o seu Assistente responde quando falar com o %s. Eis algumas coisas que pode experimentar.</string>
@@ -3828,7 +3850,6 @@ Este programa não está disponível neste momento."</string>
     <string name="training_button_yes">SIM</string>
     <string name="training_closet_error">Falha ao carregar as definições</string>
     <string name="training_more_questions">MAIS QUESTÕES</string>
-    <string name="transient_optin_text">Não precisa de esperar. Recebe uma notificação quando os resultados estiverem prontos.</string>
     <string name="transit_alarm_notification_subtitle_template">Chega às %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Chega às %1$s</string>
     <string name="transit_alarm_vog_text">Sair em %1$s às %2$s</string>
@@ -4019,6 +4040,8 @@ Sessão iniciada como %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Que dispositivos pretende ajustar?</string>
     <string name="user_defined_action_task_home_control_settings">Definições de controlo doméstico</string>
     <string name="user_defined_action_task_light_title">Luzes</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Que portas pretende trancar?</string>
+    <string name="user_defined_action_task_lock_title">Trancar portas</string>
     <string name="user_defined_action_task_music_duration_summary">O temporizador para parar a música apenas está disponível no Google Home.</string>
     <string name="user_defined_action_task_music_duration_title">Desligar a música após…</string>
     <string name="user_defined_action_task_music_example_list">Introduza uma lista de reprodução, um artista, uma música ou um género. Por exemplo, \"Lista de reprodução relaxante\" ou \"The Beatles\". Esta rotina utilizará o seu &lt;a href=assistant-settings://?feature=music>serviço de música predefinido&lt;/a>.</string>

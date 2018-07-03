@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout android:id="@id/quartz_slideshow" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <com.google.android.apps.gsa.shared.ui.TouchInterceptingFrameLayout android:id="@id/quartz_slideshow_slide_child_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Space android:id="@id/quartz_slideshow_preview_bounds" android:layout_width="0.0dip" android:layout_height="@dimen/quartz_236sdp" android:layout_marginBottom="@dimen/quartz_164sdp" android:layout_marginStart="@dimen/quartz_60sdp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.google.android.libraries.gsa.monet.tools.childstub.ui.ChildStub android:id="@id/quartz_slideshow_suggestions_child" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" />
 </android.support.constraint.ConstraintLayout>

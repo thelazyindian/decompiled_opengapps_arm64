@@ -533,11 +533,18 @@
     <string name="assistant_settings_duo_calls_unlink_duo_title">Отмена связи с аккаунтом Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Вы больше не сможете использовать Duo для видеозвонков.</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Отменить связь с аккаунтом Duo?</string>
+    <string name="assistant_settings_duo_consent_summary">Мы отправим вам SMS с проверочным кодом. Может взиматься плата согласно тарифам вашего оператора связи. Пользователи, которые знают ваш номер или аккаунт Google, смогут связываться с вами и в других сервисах Google.</string>
+    <string name="assistant_settings_duo_consent_title">Вы можете общаться по видеосвязи с любым, у кого есть приложение Google Duo. Подтвердите свой номер телефона, чтобы создать аккаунт Duo. Подтвержденный номер также будет привязан к аккаунту Google.</string>
     <string name="assistant_settings_email_notification_summary">Подпишитесь на электронную рассылку новостей, связанных с Google Ассистентом</string>
     <string name="assistant_settings_email_notification_title">Новости о Google Ассистенте</string>
     <string name="assistant_settings_enable_google_assistant_title">Включить Google Ассистента</string>
     <string name="assistant_settings_enabled_news_explanation">Если вы скажете \"Слушать новости\" или добавите прослушивание новостей в последовательность действий, Ассистент будет включать материалы из этих источников.</string>
     <string name="assistant_settings_enabled_news_list">Ваши источники новостей</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Не сейчас</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Использовать Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Аккаунт Duo позволит вам использовать умный дисплей для видеозвонков. Родственники и друзья смогут связаться с вами по номеру %1$s.
+Связь устройства с аккаунтом Duo можно в любой момент отменить в настройках Ассистента."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Видеовстречи</string>
     <string name="assistant_settings_feature_availability">Поддерживаемые устройства: %1$s</string>
     <string name="assistant_settings_float_action_button_label">Добавить устройства</string>
     <string name="assistant_settings_header_title">Настройки</string>
@@ -647,6 +654,7 @@
     <string name="assistant_settings_music_gpm_premium_dialog_text">Чтобы включать музыку на устройстве Google Home, необходима подписка на Google Play Музыку. Вы можете оформить ее в приложении <a href="https://play.google.com/store/music">Play Музыка</a> либо купить или <a href="https://support.google.com/googleplay?p=home_uploadmusic">загрузить музыку</a>.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Требуется подписка на Play Музыку или фонотека</string>
     <string name="assistant_settings_music_icon_text">Значок музыкального сервиса</string>
+    <string name="assistant_settings_music_link_dialog_text">Свяжите аккаунт Google с сервисом \"%1$s\", чтобы воспроизводить контент на совместимых устройствах и получать доступ к своим плейлистам. Если вы попросите Ассистента выполнить какие-либо действия в сервисе \"%1$s\", ваш запрос может быть отправлен в сервис \"%1$s\" и использован в соответствии с его политикой конфиденциальности. Не исключено, что в сервисе \"%1$s\" для вас будут подбираться персональные результаты и рекомендации. Отменить связь с аккаунтом можно в любое время в настройках Google Ассистента.</string>
     <string name="assistant_settings_music_no_preference_summary">Использовать настройки других аккаунтов на общих устройствах</string>
     <string name="assistant_settings_music_no_preference_title">Сервис по умолчанию не выбран</string>
     <string name="assistant_settings_music_premium_dialog_button">ОК</string>
@@ -657,6 +665,7 @@
     <string name="assistant_settings_music_unable_unlink_default">Музыкальный сервис по умолчанию нельзя отключить</string>
     <string name="assistant_settings_music_unlink_dialog_text">После отключения аккаунта вы не сможете воспроизводить контент из сервиса \"%1$s\" с помощью Google Ассистента.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Чтобы пользоваться YouTube Музыкой на устройстве Google Home, необходим аккаунт YouTube Premium. Зарегистрироваться можно на странице <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Чтобы пользоваться YouTube Музыкой на устройстве Google Home, необходим аккаунт YouTube Music Premium. Зарегистрироваться можно на странице <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Требуется подписка YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Удалить этот источник новостей из числа включенных: %1$s</string>
     <string name="assistant_settings_news_supports_video">Видео доступно для умных дисплеев.</string>
@@ -848,7 +857,7 @@
     <string name="assistant_settings_uda_workflow_delete_confirmation_delete_button">Удалить последовательность действий</string>
     <string name="assistant_settings_uda_workflow_delete_confirmation_message">Удалить эту последовательность действий?</string>
     <string name="assistant_settings_uda_workflow_savable_back_confirmation_message">Сохранить изменения в этой последовательности действий?</string>
-    <string name="assistant_settings_uda_workflow_unsavable_back_confirmation_message">"Чтобы сохранить последовательность, задайте для нее хотя бы одну команду \"О'кей, Google\"."</string>
+    <string name="assistant_settings_uda_workflow_unsavable_back_confirmation_message">Чтобы сохранить последовательность, задайте для нее хотя бы одну команду \"Окей, Google\".</string>
     <string name="assistant_settings_udc_consent_title">Представляем Google Ассистент</string>
     <string name="assistant_settings_unlink">Отключить</string>
     <string name="assistant_settings_unlink_cast_devices_learn_more_text">Подробнее…</string>
@@ -860,8 +869,10 @@
     <string name="assistant_settings_update_error_message">Не удалось обновить настройки. Проверьте подключение.</string>
     <string name="assistant_settings_video_calls_service_category_title">Используя некоторые устройства (например, Google Smart Display), Ассистент может совершать видеозвонки через выбранный вами сервис. Вызов экстренных служб недоступен.</string>
     <string name="assistant_settings_video_icon_text">Значок поставщика видео</string>
+    <string name="assistant_settings_video_link_dialog_text">Свяжите аккаунт Google с сервисом \"%1$s\", чтобы воспроизводить контент на совместимых устройствах. Если вы попросите Ассистента выполнить какие-либо действия в сервисе \"%1$s\", ваш запрос может быть отправлен в сервис \"%1$s\" и использован в соответствии с его политикой конфиденциальности. Не исключено, что в сервисе \"%1$s\" для вас будут подбираться персональные результаты и рекомендации. Отменить связь с аккаунтом можно в любое время в настройках Google Ассистента.</string>
     <string name="assistant_settings_video_provider_category_summary">Просите Ассистента включить фильм или телешоу.</string>
     <string name="assistant_settings_video_provider_category_title">Видео</string>
+    <string name="assistant_settings_video_unlink_dialog_text">После отмены связи с аккаунтом вы не сможете воспроизводить контент из сервиса \"%1$s\" с помощью Google Ассистента.</string>
     <string name="assistant_settings_videos_photos_title">Видео и фото</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast или телевизор с встроенным устройством Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Голосовые звонки и видеовстречи</string>
@@ -1087,7 +1098,6 @@
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Подробнее</string>
     <string name="captive_portal_error_card_cell_title_text">Нет мобильного Интернета</string>
     <string name="captive_portal_error_card_explanation_text">Необходимо войти, чтобы использовать эту сеть Wi-Fi. Входите только в те сети, которым вы доверяете – некоторые сети могут быть небезопасны. После подключения повторите поиск.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Войти</string>
     <string name="captive_portal_error_card_title_text">Войдите, чтобы использовать Wi-Fi</string>
     <string name="car_rental_cartype">Тип автомобиля</string>
     <string name="car_rental_dropoff">Время возврата</string>
@@ -1111,7 +1121,7 @@
     <string name="change_wallpaper">СМЕНИТЬ ОБОИ</string>
     <string name="checkin_date_today">Дата заезда: сегодня</string>
     <string name="choose_account_to_use">Выберите аккаунт</string>
-    <string name="chrome_os_opa_ready_screen_explanation">"Когда настройка Chromebook будет завершена, вы сможете обращаться к Ассистенту за помощью. Для этого нажмите соответствующую кнопку или скажите \"О'кей, Google\"."</string>
+    <string name="chrome_os_opa_ready_screen_explanation">Когда настройка Chromebook будет завершена, вы сможете обращаться к Ассистенту за помощью. Для этого нажмите соответствующую кнопку или скажите \"Окей, Google\".</string>
     <string name="chrome_os_opa_value_proposition_cancel">Нет</string>
     <string name="chrome_os_opa_value_proposition_continue">Продолжить</string>
     <string name="chrome_os_opa_value_proposition_title_loading">Подождите…</string>
@@ -1311,6 +1321,7 @@
     <string name="current_search_base_url_local">Включите, чтобы выбрать www.google.com вместо %1$s</string>
     <string name="current_status">Текущий статус</string>
     <string name="custom">Другое (настраивается только на сайте)</string>
+    <string name="custom_tabs_explore_action_button_desc">Показать статьи по теме</string>
     <string name="custom_tabs_link_copied">Ссылка скопирована в буфер обмена</string>
     <string name="custom_tabs_menu_item_copy_link">Скопировать ссылку</string>
     <string name="custom_tabs_menu_item_help">Справка</string>
@@ -1846,7 +1857,6 @@
     <string name="google_play_services_update_required">Чтобы использовать фид, обновите сервисы Google Play</string>
     <string name="google_plus_profile_contact_label">Профиль Google+</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">У вас нет разрешения на использование Google Поиска</string>
     <string name="goto_system_settings">Настройки</string>
     <string name="group_desc">Группа %1$d из %2$d.</string>
     <string name="gsa_home">Дом</string>
@@ -1875,7 +1885,7 @@
     <string name="heavy_traffic">высокая загруженность</string>
     <string name="help">Справка</string>
     <string name="help_and_feedback">Справка/отзыв</string>
-    <string name="help_card_instruction">"Нажмите на значок микрофона или скажите \"О'кей, Google\", а затем произнесите:"</string>
+    <string name="help_card_instruction">Нажмите на значок микрофона или скажите \"Окей, Google\", а затем произнесите:</string>
     <string name="help_quoted_example_query">“%s”</string>
     <string name="heres_the_message">Текст сообщения.</string>
     <string name="hide_account_list">Скрыть аккаунты</string>
@@ -2072,7 +2082,7 @@
     <string name="hotword_setup_wizard_dismiss_button">Закрыть</string>
     <string name="hotword_setup_wizard_low_ram_device_message">Команда не поддерживается на этом устройстве. Для поиска нажмите на значок микрофона.</string>
     <string name="hotword_setup_wizard_low_ram_device_title">Команда \"%1$s\" не поддерживается</string>
-    <string name="hotword_setup_wizard_summary">"Говорите \"О'кей, Google\", чтобы искать в Интернете и выполнять команды"</string>
+    <string name="hotword_setup_wizard_summary">Говорите \"Окей, Google\", чтобы искать в Интернете и выполнять команды</string>
     <string name="hotword_setup_wizard_title">Настройте голосовое управление</string>
     <string name="hotword_setup_wizard_try_again_button">Повторить</string>
     <string name="hour_picker_description">Выбор часов на циферблате</string>
@@ -2347,6 +2357,14 @@
     <string name="lens_info_panel_opening_lens">Google Объектив открывается…</string>
     <string name="lens_overflow_menu_description">Настройки</string>
     <string name="lens_quit_button_description">Выйти</string>
+    <string name="lens_results_feedback_card_prompt">Для чего вы хотели бы использовать Google Объектив?</string>
+    <string name="lens_results_feedback_card_title">Помогите сделать Google Объектив ещё лучше</string>
+    <string name="lens_results_feedback_no">НЕТ</string>
+    <string name="lens_results_feedback_prompt_text">Эти результаты были полезны?</string>
+    <string name="lens_results_feedback_response_to_negative">Спасибо, что помогаете сделать Google Объектив ещё лучше!</string>
+    <string name="lens_results_feedback_response_to_positive">Что можно улучшить?</string>
+    <string name="lens_results_feedback_send_report">ОТПРАВИТЬ ОТЗЫВ</string>
+    <string name="lens_results_feedback_yes">ДА</string>
     <string name="lens_title">Google Объектив</string>
     <string name="less_contact_apps">Показать меньше приложений для контактов</string>
     <string name="libraries_material_featurehighlight_dismiss">Закрыть</string>
@@ -2430,7 +2448,6 @@
     <string name="menu_refresh">Обновить</string>
     <string name="menu_send_button_content_description">Кнопка для отправки отзыва.</string>
     <string name="menu_send_feedback">Оставить отзыв</string>
-    <string name="menu_settings">Настройки</string>
     <string name="menu_share">Поделиться</string>
     <string name="menu_view_in_browser">Открыть в браузере</string>
     <string name="menu_visit_page">Просмотреть профиль</string>
@@ -2457,7 +2474,7 @@
     <string name="mini_card_aiport_code_1">SVX</string>
     <string name="mini_card_aiport_code_2">SVO</string>
     <string name="mini_card_flight_delayed">Z206: задержка</string>
-    <string name="mini_card_ok_google">"\"О'кей, Google\""</string>
+    <string name="mini_card_ok_google">\"Окей, Google\"</string>
     <string name="mini_card_parking_location">Место парковки</string>
     <string name="mini_card_sample_score">2</string>
     <string name="mini_card_set_a_reminder">Напоминание</string>
@@ -2556,7 +2573,6 @@
     <string name="navigation_home_label">На главную</string>
     <string name="navigation_recently_label">Недавние</string>
     <string name="navigation_search_label">Поиск</string>
-    <string name="navigation_updates_label">Обновления</string>
     <string name="nearby_attractions">Куда сходить</string>
     <string name="nearby_events_title">Мероприятия рядом</string>
     <string name="network_error">Не удается подключиться к Google.</string>
@@ -2564,6 +2580,7 @@
     <string name="network_error_fetching_weather_data_status_text">Сеть недоступна</string>
     <string name="network_error_no_connection_tts">Подключение к Интернету отсутствует.</string>
     <string name="network_error_resend_audio">Повторить поиск</string>
+    <string name="network_error_try_again">Повторить попытку</string>
     <string name="network_location_required_text">Чтобы получать подсказки, например о местной погоде или о пробках, включите определение местоположения по координатам сети</string>
     <string name="network_location_required_text_klp">Чтобы получать подсказки, актуальные для определенного места, например прогноз погоды или сведения о пробках, включите энергосберегающий или высокоточный режим определения местоположения</string>
     <string name="never">Никогда</string>
@@ -2743,6 +2760,7 @@
     <string name="offline_eyesfree_install_language_pack_notification_body">Обновите языковой пакет.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Включите голосовое управление офлайн</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Нет подключения к Интернету. Чтобы использовать голосовое управление офлайн, скачайте последний языковой пакет. Для этого нажмите на уведомление.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Нет подключения к Интернету. Чтобы использовать голосовое управление офлайн, необходима последняя версия языкового пакета. Она будет установлена, как только появится интернет-соединение.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Нет подключения к Интернету. Чтобы использовать голосовое управление офлайн и другие функции, скачайте последний языковой пакет. Для этого нажмите на уведомление.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Нет подключения к Интернету, поэтому выполнить запрос нельзя. Вы можете использовать другую команду, например \"Позвонить\" или \"Что сказать?\".</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Нет подключения к Интернету, поэтому выполнить запрос нельзя. Вы можете использовать другую команду, например %1$s или Что сказать?</string>
@@ -2755,7 +2773,7 @@
     <string name="offline_on_start_cue_cards_header_listening">Офлайн</string>
     <string name="offline_on_start_cue_cards_header_timeout">Советы по поиску</string>
     <string name="offline_on_start_cue_cards_second_header_listening">Скажите...</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout">"Скажите \"О'кей, Google\" и..."</string>
+    <string name="offline_on_start_cue_cards_second_header_timeout">Скажите \"Окей, Google\" и...</string>
     <string name="offline_on_start_cue_cards_second_header_timeout_without_hotword">Нажмите на значок микрофона и скажите</string>
     <string name="offline_options_start_hotword_disabled">Нажмите на значок микрофона и скажите</string>
     <string name="offline_searchbox_hint">“%%s, %s”</string>
@@ -3044,7 +3062,7 @@
     <string name="opt_in_clockwork_punt_action_description">Нажмите, чтобы открыть на телефоне.</string>
     <string name="opt_in_description_page_1">Google может показывать вам нужную информацию в нужный момент</string>
     <string name="opt_in_description_page_2">Актуальные подсказки о самых важных вещах</string>
-    <string name="opt_in_description_page_3">"Неважно, какой экран открыт, – просто скажите \"О'кей, Google\""</string>
+    <string name="opt_in_description_page_3">Неважно, какой экран открыт, – просто скажите \"Окей, Google\"</string>
     <string name="opt_in_description_page_3_no_hotword">Управляйте устройством с помощью голосовых команд</string>
     <string name="opt_in_more">Начать</string>
     <string name="opt_in_more_marketing">ВКЛЮЧИТЬ</string>
@@ -3294,7 +3312,7 @@
     <string name="pref_default_expanded_no_additional">Основной: %s</string>
     <string name="pref_expanded_additional">Основной: %1$s. Дополнительно: %2$s</string>
     <string name="pref_expanded_no_additional">Язык: %s</string>
-    <string name="pref_multilang_override_detail_hotword">"• Распознавание \"О'кей Google\" только в приложении Google"</string>
+    <string name="pref_multilang_override_detail_hotword">• Распознавание \"Окей, Google\" только в приложении Google</string>
     <string name="pref_multilang_override_detail_speakerid">"• Распознавание \"O'кей Google\" при любом открытом экране"</string>
     <string name="pref_multilang_override_dialog_title">Изменить основной язык?</string>
     <string name="pref_multilang_override_doit">Да, изменить</string>
@@ -3394,7 +3412,7 @@
     <string name="recently_empty_state_read_later_body_text">Скачанные объекты будут храниться на устройстве в течение 7 дней.</string>
     <string name="recently_empty_state_read_later_title_text">Отложенные страницы</string>
     <string name="recently_entry_interaction_offline">Чтобы открыть эту страницу, подключитесь к Интернету.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Не удалось открыть результаты голосового поиска</string>
     <string name="recently_feed_entry">Лента</string>
     <string name="recently_google_doodle_for">Дудл Google по этому случаю: %s</string>
     <string name="recently_keep_on_device_until">Хранить на устройстве до:</string>
@@ -3672,6 +3690,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="search_the_web">Искать в Интернете</string>
     <string name="search_the_web_menu_text">Поиск в Интернете</string>
     <string name="search_the_web_suggestion">Искать в Интернете</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Вы получите уведомление, когда будет установлено стабильное соединение.</string>
+    <string name="search_timed_out_card_explanation_text">Возможно, у вас слишком низкая скорость подключения к Интернету.</string>
+    <string name="search_timed_out_card_title_text">Время ожидания истекло</string>
     <string name="search_widget_customization">Настроить виджет</string>
     <string name="searchbar_hint">Искать подкасты</string>
     <string name="searchbox_hint">Искать в недавних</string>
@@ -3729,8 +3750,9 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="settings_legal_notices_title">Юридическая информация</string>
     <string name="settings_location_tos_title">Условия использования геоданных</string>
     <string name="settings_privacy_policy_title">Конфиденциальность</string>
+    <string name="settings_search_icon_title">Настройки поиска</string>
     <string name="settings_tos_title">Условия использования</string>
-    <string name="setup_complete_explanation">"Теперь устройство %s будет реагировать на команду \"О'кей, Google\". Вот примеры голосовых команд:"</string>
+    <string name="setup_complete_explanation">Теперь устройство %s будет реагировать на команду \"Окей, Google\". Вот примеры голосовых команд:</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Теперь Ассистент на устройстве \"%s\" будет реагировать на голосовые команды. Вот несколько примеров того, что можно сказать:</string>
     <string name="setup_complete_get_answer_category_name">Находите ответы</string>
     <string name="setup_complete_home_control_category_name">Управляйте домом</string>
@@ -4093,7 +4115,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="transcript_timeout_2">Чтобы удалить черновик, нажмите кнопку Google Ассистента два раза.</string>
     <string name="transcript_timeoutt_1">Чтобы отправить сообщение, нажмите на правый наушник. Для повторной записи нажмите на тот же наушник и удерживайте его, пока говорите.</string>
     <string name="transcript_timeoutt_2">Чтобы удалить черновик, нажмите на правый наушник два раза.</string>
-    <string name="transient_optin_text">Когда результаты будут доступны, вы получите уведомление.</string>
     <string name="transit_alarm_notification_subtitle_template">Время прибытия: %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Время прибытия: %1$s</string>
     <string name="transit_alarm_vog_text">Выйти на станции \"%1$s\" в %2$s</string>
@@ -4290,6 +4311,8 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Какие устройства вы хотите настроить?</string>
     <string name="user_defined_action_task_home_control_settings">Настройки автоматизации дома</string>
     <string name="user_defined_action_task_light_title">Светильники</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Какую дверь нужно запереть?</string>
+    <string name="user_defined_action_task_lock_title">Запереть двери</string>
     <string name="user_defined_action_task_music_duration_summary">Таймер выключения музыки доступен только в Google Home.</string>
     <string name="user_defined_action_task_music_duration_title">Отключить музыку через…</string>
     <string name="user_defined_action_task_music_example_list">Введите название плейлиста, группы, трека, имя исполнителя или жанр. Например, \"Плейлист для расслабления\" или \"Филипп Киркоров\". Будет использован &lt;a href=assistant-settings://?feature=music>музыкальный сервис, выбранный по умолчанию&lt;/a>.</string>

@@ -420,11 +420,18 @@ Eguneroko joan-etorriei buruzko galderei erantzuteko erabiliko du ezarpen hori L
     <string name="assistant_settings_duo_calls_unlink_duo_title">Kendu lotura Duo kontuari</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Aurrerantzean, ezingo duzu egin edo jaso deirik Duo zerbitzuan</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Kendu egin nahi diozu lotura Duo kontuari?</string>
+    <string name="assistant_settings_duo_consent_summary">Google-k kode bat bidaliko du SMS bidez zenbaki hau egiaztatzeko. Baliteke operadoreak zerbait kobratzea. Google zerbitzuen bidez jarri ahalko dira zurekin harremanetan zure Google kontua edo telefono-zenbakia ezagutzen dutenak.</string>
+    <string name="assistant_settings_duo_consent_title">Egin kalitate handiko bideo-deiak pantaila adimendunean Google Duo aplikazioa duen edonorekin. Duo kontua sortzeko, egiaztatu telefono-zenbakia. Horrela, Google kontuarekin ere lotuko da zenbakia.</string>
     <string name="assistant_settings_email_notification_summary">Ezagutu Laguntzailea eginbidearekin erlazionatutako azken albisteak eta eginbideak</string>
     <string name="assistant_settings_email_notification_title">Google Laguntzailea mezu elektronikoak</string>
     <string name="assistant_settings_enable_google_assistant_title">Gaitu Google Laguntzailea</string>
     <string name="assistant_settings_enabled_news_explanation">\"Albisteak entzun\" agindua erabiltzen duzunean edo ohitura batean albisteak gehitzen dituzunean, iturburu hauetako albisteak erreproduzituko ditu Laguntzailea eginbideak.</string>
     <string name="assistant_settings_enabled_news_list">Zure albiste-iturburuak</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Orain ez</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Erabili Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Pantaila adimendunean bideo-deiak egiteko, erabili Duo kontua. Lagunak eta familia %1$s telefonoaren bidez jar daitezke zurekin harremanetan.
+Laguntzailea eginbidearen ezarpenetan ken dezakezu Duo kontuaren eta gailu honen arteko lotura."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Bideo-deiak</string>
     <string name="assistant_settings_feature_availability">Gailu hauetan dago erabilgarri: %1$s</string>
     <string name="assistant_settings_float_action_button_label">Gehitu gailuak</string>
     <string name="assistant_settings_header_title">Ezarpenak</string>
@@ -534,6 +541,7 @@ Eguneroko joan-etorriei buruzko galderei erantzuteko erabiliko du ezarpen hori L
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Play Musika zerbitzura harpidetu behar zara zerbitzu horretako edukia Google Home zerbitzuan erreproduzitzeko. <a href="https://play.google.com/store/music">Play Musika aplikazioan</a> bertan erregistra zaitezke. Bestela, <a href="https://support.google.com/googleplay?p=home_uploadmusic">musika kargatzeko</a> edo erosteko aukera ere baduzu.</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Play Musika zerbitzurako harpidetza edo haren liburutegia behar da</string>
     <string name="assistant_settings_music_icon_text">Musika-hornitzailearen ikonoa</string>
+    <string name="assistant_settings_music_link_dialog_text">Lotu Google kontua %1$s zerbitzuarekin gailu bateragarrietan edukia erreproduzitu eta erreprodukzio-zerrendak atzitu ahal izateko. Google Laguntzailea eginbidearen bidez erabiltzen baduzu %1$s zerbitzua, eginbideari egindako eskaerak %1$s zerbitzura bidaliko ditugu, bere pribatutasun-adierazpenari jarraikiz erabil ditzan. Baliteke %1$s zerbitzuak emaitza pertsonalak eta gomendio pertsonalizatuak ematea. Kontuari lotura kentzeko, joan Laguntzailea eginbidearen ezarpenetara.</string>
     <string name="assistant_settings_music_no_preference_summary">Erabili beste kontuetako hobespenak gailu partekatuetan</string>
     <string name="assistant_settings_music_no_preference_title">Ez dago hornitzaile lehenetsirik</string>
     <string name="assistant_settings_music_premium_dialog_button">Ados</string>
@@ -544,6 +552,7 @@ Eguneroko joan-etorriei buruzko galderei erantzuteko erabiliko du ezarpen hori L
     <string name="assistant_settings_music_unable_unlink_default">Ezin zaio kendu lotura musika-hornitzaile lehenetsiari</string>
     <string name="assistant_settings_music_unlink_dialog_text">Kontuari lotura kenduz gero ezingo duzu erreproduzitu %1$s zerbitzuko edukia Google Laguntzailea eginbidearen bidez.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Premium harpidetza behar duzu Google Home-rekin YouTube Music erabiltzeko. Eman izena <a href="http://youtube.com/red">youtube.com/red</a> webgunean.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music Premium harpidetza behar duzu Google Home-rekin YouTube Music erabiltzeko. Eman izena <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> webgunean.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium kidetza behar duzu</string>
     <string name="assistant_settings_news_provider_delete_button_description">Kendu %1$s gaituta dituzun albiste-iturburuetatik</string>
     <string name="assistant_settings_news_supports_video">Pantaila adimendunetan dago erabilgarri bideoa</string>
@@ -747,8 +756,10 @@ Etxera edo lantokira ez beste tokietara joateko jarraibideak emateko erabiliko d
     <string name="assistant_settings_update_error_message">Ezin izan da eguneratu ezarpena. Egiaztatu konektatuta zaudela.</string>
     <string name="assistant_settings_video_calls_service_category_title">Laguntzailea eginbideak bideo-deiak egin ditzake zenbait gailutan (adibidez, Google Pantaila adimenduna) zure zerbitzu hobetsia erabilita. Hala ere, ezin du deitu larrialdi-zerbitzuetara.</string>
     <string name="assistant_settings_video_icon_text">Bideo-hornitzailearen ikonoa</string>
+    <string name="assistant_settings_video_link_dialog_text">Lotu Google kontua %1$s zerbitzuarekin gailu bateragarrietan edukia erreproduzitu ahal izateko. Google Laguntzailea eginbidearen bidez erabiltzen baduzu %1$s zerbitzua, eginbideari egindako eskaerak %1$s zerbitzura bidaliko ditugu, bere pribatutasun-gidalerroei jarraikiz erabil ditzan. Baliteke %1$s zerbitzuak emaitza pertsonalak eta gomendio pertsonalizatuak ematea. Kontuari lotura kentzeko, joan Laguntzailea eginbidearen ezarpenetara.</string>
     <string name="assistant_settings_video_provider_category_summary">Eskatu Laguntzailea eginbideari saioak eta filmak erreproduzi ditzala.</string>
     <string name="assistant_settings_video_provider_category_title">Bideoak</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Kontuari lotura kenduz gero ezingo duzu erreproduzitu %1$s zerbitzuko edukia Google Laguntzailea eginbidearen bidez.</string>
     <string name="assistant_settings_videos_photos_title">Bideoak eta argazkiak</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast bat edo Chromecast integratuta duen telebista bat</string>
     <string name="assistant_settings_voice_and_video_calls_title">Ahots- eta bideo-deiak</string>
@@ -884,7 +895,6 @@ Datu-kostuak aplika daitezke."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Joan xehetasunen orrira</string>
     <string name="captive_portal_error_card_cell_title_text">Datu-konexioaren arazoa</string>
     <string name="captive_portal_error_card_explanation_text">Saioa hasi behar duzu Wi-Fi sarea erabili ahal izateko. Sare fidagarrietan soilik hasi saioa, Wi-Fi atari batzuk ez baitira horren seguruak. Konektatu ondoren, egin bilaketa berriro.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Hasi saioa sarean</string>
     <string name="captive_portal_error_card_title_text">Hasi saioa Wi-Fi sarea erabili ahal izateko</string>
     <string name="car_rental_cartype">Auto mota</string>
     <string name="car_rental_dropoff">Autoa itzultzeko ordua</string>
@@ -1047,6 +1057,7 @@ Elkarrizketa horiek ikusteko eta kudeatzeko, zoaz Google kontuaren ezarpenetako 
     <string name="current_search_base_url_local">Tokiko domeinua erabiltzen ari zara (%1$s)</string>
     <string name="current_status">Egiaztatu uneko egoera</string>
     <string name="custom">Pertsonalizatua (ezin da telefonoan pertsonalizatu)</string>
+    <string name="custom_tabs_explore_action_button_desc">Ikusi erlazionatutako orriak</string>
     <string name="custom_tabs_link_copied">Arbelean kopiatu da esteka</string>
     <string name="custom_tabs_menu_item_copy_link">Kopiatu esteka</string>
     <string name="custom_tabs_menu_item_help">Laguntza</string>
@@ -1082,7 +1093,7 @@ Elkarrizketa horiek ikusteko eta kudeatzeko, zoaz Google kontuaren ezarpenetako 
     <string name="departure_time_and_express_class">%1$s (%2$s)</string>
     <string name="departure_time_and_express_class_with_relative_time">%1$s (%2$s - %%s)</string>
     <string name="departure_time_with_relative_time">%1$s (%%s)</string>
-    <string name="description">Legezko arrazoiak direla-eta edukian aldaketak eskatzeko, joan <a href="https://support.google.com/legal/answer/3110420">legezko gaien laguntza-orrira</a>.</string>
+    <string name="description">Legezko arrazoiak direla-eta edukian aldaketak eskatzeko, joan <a href="https://support.google.com/legal/answer/3110420">legezko laguntzari buruzko orrira</a>.</string>
     <string name="device_id_add_device_address_summary">Gailuak kokapen zehatza zein den jakin behar du inguruko eguraldiari, trafikoari, enpresei eta beste hainbat gauzari buruzko erantzun zehatzak emateko.</string>
     <string name="device_id_device_address_clear_dialog_message">"Gailuak kokapen zehatza zein den jakin behar du inguruko eguraldiari, trafikoari, enpresei eta beste hainbat gauzari buruzko erantzun zehatzak emateko. Kokapen zehatza zein den ez badaki, gailuak ez du funtzionatuko espero bezala.
 Oinarrizko eginbideek funtziona dezaten, kokapena gutxi gorabehera zein den ondorioztatu beharko dugu beste datu batzuetan oinarrituta, hala nola gailuaren IP helbidean."</string>
@@ -1267,7 +1278,7 @@ Google Lens ez da guztiaren jakitun, eta ez ditu beti hautematen ongi objektuak,
     <string name="feedback">Bidali iritzia</string>
     <string name="feedback_composed_legalese_text">Zoaz %1$s atalera arrazoi legalen ondoriozko eduki-aldaketak eskatzera.&lt;br />Zure sistemaren informazioa bidaliko zaio Google-ri. Ikusi %2$s eta %3$s.</string>
     <string name="feedback_edittext_hint">Iritzia</string>
-    <string name="feedback_legal_help_text">Legezko laguntza-orria</string>
+    <string name="feedback_legal_help_text">Legezko laguntzari buruzko orria</string>
     <string name="feedback_legal_help_url">https://support.google.com/legal/answer/3110420</string>
     <string name="feedback_link">Iritzia</string>
     <string name="feedback_no_text_entered">Idatzi iritzia txostena prestatu aurretik.</string>
@@ -1420,7 +1431,6 @@ Google Lens ez da guztiaren jakitun, eta ez ditu beti hautematen ongi objektuak,
     <string name="google_play_services_update_button">Eguneratu Google Play zerbitzuak</string>
     <string name="google_play_services_update_required">Jarioa erabiltzen jarraitzeko, Google Play zerbitzuak eguneratu behar dituzu</string>
     <string name="google_plus_profile_contact_label">Google+ profila</string>
-    <string name="google_search_disabled_toast">Google Bilaketa erabiltzeko baimenik.</string>
     <string name="gsa_home">Hasiera</string>
     <string name="ha_card_title">Zure etxea</string>
     <string name="hands_free_unlock_device_bluetooth">Segurua denean, lehenik, jakinarazpena sakatu beharko duzu. Ondoren, Bluetooth gailuek telefonoarekin funtziona dezaten utz dezakezu, telefonoa blokeatuta dagoenean.</string>
@@ -1784,6 +1794,14 @@ Desaktibatu egin nahi badituzu, joan Laguntzailea eginbidearen ezarpenetara."</s
     <string name="lens_info_panel_opening_lens">Lens irekitzen…</string>
     <string name="lens_overflow_menu_description">Ezarpenak</string>
     <string name="lens_quit_button_description">Irten</string>
+    <string name="lens_results_feedback_card_prompt">Zertarako erabili nahi duzu Lens?</string>
+    <string name="lens_results_feedback_card_title">Lagun iezaguzu Lens hobetzen</string>
+    <string name="lens_results_feedback_no">EZ</string>
+    <string name="lens_results_feedback_prompt_text">Baliagarriak izan al dira emaitzak?</string>
+    <string name="lens_results_feedback_response_to_negative">Eskerrik asko Lens hobetzen laguntzeagatik.</string>
+    <string name="lens_results_feedback_response_to_positive">Zer hobe dezakegu?</string>
+    <string name="lens_results_feedback_send_report">BIDALI IRITZIA</string>
+    <string name="lens_results_feedback_yes">BAI</string>
     <string name="lens_title">Google Lens</string>
     <string name="license_activity_title">Kode irekiko lizentziak</string>
     <string name="light_traffic">Trafiko gutxi</string>
@@ -1844,7 +1862,6 @@ Desaktibatu egin nahi badituzu, joan Laguntzailea eginbidearen ezarpenetara."</s
     <string name="menu_overlay_reset_to_default_style">Berrezarri estilo lehenetsia</string>
     <string name="menu_refresh">Freskatu</string>
     <string name="menu_send_button_content_description">Oharrak bidaltzeko botoia.</string>
-    <string name="menu_settings">Ezarpenak</string>
     <string name="menu_share">Partekatu</string>
     <string name="menu_view_in_browser">Ikusi arakatzailean</string>
     <string name="menu_visit_page">Bisitatu orria</string>
@@ -1907,7 +1924,6 @@ Desaktibatu egin nahi badituzu, joan Laguntzailea eginbidearen ezarpenetara."</s
     <string name="navigation_home_label">Orri nagusia</string>
     <string name="navigation_recently_label">Azkenak</string>
     <string name="navigation_search_label">Bilaketa</string>
-    <string name="navigation_updates_label">Datozenak</string>
     <string name="nearby_attractions">Inguruko erakargarri turistikoak</string>
     <string name="nearby_events_title">Inguruko gertaerak</string>
     <string name="network_error">Une honetan ezin da konektatu Google-ra</string>
@@ -1915,6 +1931,7 @@ Desaktibatu egin nahi badituzu, joan Laguntzailea eginbidearen ezarpenetara."</s
     <string name="network_error_fetching_weather_data_status_text">Une honetan ez dago erabilgarri sarea</string>
     <string name="network_error_no_connection_tts">Une honetan ez dago Interneteko konexiorik.</string>
     <string name="network_error_resend_audio">Bidali berriro audioa</string>
+    <string name="network_error_try_again">Saiatu berriro</string>
     <string name="network_location_required_text">Kokapenean oinarritutako txartelak ikusteko, esaterako, tokiko eguraldiari edota eguneroko joan-etorrietan aurki dezakezun trafikoari buruzko txartelak ikusteko, Wi-Fi eta sare mugikor bidezko kokapena aktibatu behar duzu</string>
     <string name="network_location_required_text_klp">Kokapenean oinarritutako txartelak ikusteko, esaterako, tokiko eguraldiari edota eguneroko joan-etorrietan aurki dezakezun trafikoari buruzko txartelak ikusteko, hautatu zehaztasun handiko edo bateria aurrezteko kokapen modua</string>
     <string name="nevermind_prompt">Berdin dio</string>
@@ -2063,6 +2080,7 @@ Aurrera egin nahi duzu?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Bertsio-berritu hizkuntza-paketea.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Gaitu ahozko aginduak konexiorik gabe erabiltzeko aukera</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Ez zaude konektatuta sarera. Konexiorik gabe aginduak ahoz eman ahal izateko, hizkuntza-paketerik berriena instalatu beharko duzu. Pantaila erabiltzeko aukera duzunean, saka ezazu instalatzeko jakinarazpena.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Ez duzu konexiorik. Ahotsa erabili ahal izateko, hizkuntza-paketearen azken bertsioa behar duzu; sarera konektatzen zaren hurrengo aldian instalatuko da.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Ez zaude konektatuta sarera. Konexiorik gabe aginduak ahoz eman ahal izateko eta eginbide berriak eskuratzeko, hizkuntza-paketerik berriena instalatu beharko duzu. Pantaila erabiltzeko aukera duzunean, saka ezazu instalatzeko jakinarazpena.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Ez zaude sarera konektatuta. Ezin dut Google erabili, baina beste gauza asko egiten lagun diezazuket. Nondik hasi ez badakizu, esazu \"make a call\" edo \"what can I say?\".</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Ez zaude sarera konektatuta. Ezin dut Google erabili, baina beste gauza asko egiten lagun diezazuket. Nondik hasi ez badakizu, esazu %1$s edo \"what can I say?\".</string>
@@ -2748,6 +2766,9 @@ Aldaketa hori eginez gero, hau lortuko duzu:"</string>
     <string name="search_storage_label">Google Bilaketak erabilitako memoria</string>
     <string name="search_tablet">Bilatu tabletan</string>
     <string name="search_the_web_menu_text">Bilatu sarean</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Konexioa hobetu bezain laster emango dizugu emaitzen berri.</string>
+    <string name="search_timed_out_card_explanation_text">Baliteke sareko konexioa motelegia izatea.</string>
+    <string name="search_timed_out_card_title_text">Bilaketaren denbora-muga gainditu da</string>
     <string name="search_widget_customization">Pertsonalizatu widgeta</string>
     <string name="searching_as_account">%1$s kontuarekin bilatzen</string>
     <string name="second_half">2. zatia</string>
@@ -2796,6 +2817,7 @@ Aldaketa hori eginez gero, hau lortuko duzu:"</string>
     <string name="settings_legal_notices_title">Lege-oharrak</string>
     <string name="settings_location_tos_title">Kokapenaren Zerbitzu-baldintzak</string>
     <string name="settings_privacy_policy_title">Pribatutasun-gidalerroak</string>
+    <string name="settings_search_icon_title">Bilaketa-ezarpenak</string>
     <string name="settings_tos_title">Zerbitzu-baldintzak</string>
     <string name="setup_complete_explanation">Aurrerantzean, %s gailuak erantzun egingo dizu \"Ok Google\" esaten diozunean. Hona hemen proba ditzakezun gauza batzuk.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Aurrerantzean, Laguntzailea eginbideak erantzun egingo du %s gailuari hitz egiten diozunean. Hona hemen proba ditzakezun zenbait gauza.</string>
@@ -3097,7 +3119,6 @@ Aldaketa hori eginez gero, hau lortuko duzu:"</string>
     <string name="training_button_yes">BAI</string>
     <string name="training_closet_error">Ezin izan dira kargatu ezarpenak</string>
     <string name="training_more_questions">GALDERA GEHIAGO</string>
-    <string name="transient_optin_text">Ez duzu itxaron beharrik: jakinarazpen bat jasoko duzu emaitzak prest daudenean.</string>
     <string name="transit_alarm_notification_subtitle_template">Iritsiera-ordua: %1$s (atzerapena: %2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Iritsiera-ordua: %1$s</string>
     <string name="transit_alarm_vog_text">Jaitsi %1$s geltokian, ordu honetan: %2$s</string>
@@ -3274,6 +3295,8 @@ Aldaketa hori eginez gero, hau lortuko duzu:"</string>
     <string name="user_defined_action_task_devices_to_adjust">Zeintzuk dira doitu nahi dituzun gailuak?</string>
     <string name="user_defined_action_task_home_control_settings">Etxeko gailuak kontrolatzeko aukeren ezarpenak</string>
     <string name="user_defined_action_task_light_title">Argiak</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Zein ate itxi nahi dituzu giltzarrapoz?</string>
+    <string name="user_defined_action_task_lock_title">Itxi ateak giltzarrapoz</string>
     <string name="user_defined_action_task_music_duration_summary">Google Home-kin bakarrik erabil daiteke musika automatikoki itzaltzeko tenporizadorea</string>
     <string name="user_defined_action_task_music_duration_title">Itzali musika tarte hau igarotakoan:</string>
     <string name="user_defined_action_task_music_example_list">Idatzi erreprodukzio-zerrenda, artista, abesti edo genero baten izena. Adibidez, idatzi \"Kirola egiteko erreprodukzio-zerrenda\" edo \"The Beatles\". &lt;a href=assistant-settings://?feature=music>Lehenetsita daukazun musika-zerbitzua&lt;/a> erabiliko da ohituran zehaztutakoa erreproduzitzeko.</string>

@@ -420,11 +420,18 @@ Aðstoðarmaðurinn þinn mun nota þessa stillingu fyrir spurningar um ferðam�
     <string name="assistant_settings_duo_calls_unlink_duo_title">Aftengja Duo reikning</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Þú munt ekki lengur geta hringt eða svarað símtölum með Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Viltu aftengja Duo reikning?</string>
+    <string name="assistant_settings_duo_consent_summary">Google sendir kóða með SMS til að staðfesta þetta númer. Símafyrirtækið kann að innheimta gjöld. Fólk sem er með símanúmerið þitt eða Google reikninginn getur haft samband við þig í gegnum þjónustu Google.</string>
+    <string name="assistant_settings_duo_consent_title">Hringdu hágæðamyndsímtöl á snjallskjánum þínum í alla sem eru með Google Duo forritið. Staðfestu símanúmerið þitt til að stofna Duo reikning. Þetta tengir það einnig við Google reikninginn þinn.</string>
     <string name="assistant_settings_email_notification_summary">Fylgstu með nýjustu fréttum og eiginleikum aðstoðarmannsins</string>
     <string name="assistant_settings_email_notification_title">Tölvupóstur Google hjálparans</string>
     <string name="assistant_settings_enable_google_assistant_title">Virkja Google hjálparann</string>
     <string name="assistant_settings_enabled_news_explanation">Aðstoðarmaðurinn þinn spilar fréttir frá þessum veitum þegar þú segir: „hlusta á fréttir“ eða bætir fréttum við verkflæði.</string>
     <string name="assistant_settings_enabled_news_list">Fréttaveiturnar þínar</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ekki núna</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Nota Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Notaðu núverandi Duo reikninginn þinn til að hringja myndsímtöl á snjallskjánum þínum. Vinir þínir og fjölskylda geta náð í þig í %1$s.
+Þú getur aftengt Duo reikninginn þinn frá þessu tæki hvenær sem er í stillingum hjálparans."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Myndsímtal</string>
     <string name="assistant_settings_feature_availability">Í boði á %1$s</string>
     <string name="assistant_settings_float_action_button_label">Bæta við tækjum</string>
     <string name="assistant_settings_header_title">Stillingar</string>
@@ -534,6 +541,7 @@ Aðstoðarmaðurinn þinn mun nota þessa stillingu fyrir spurningar um ferðam�
     <string name="assistant_settings_music_gpm_premium_dialog_text">Google Play Music krefst áskriftar til að hægt sé að spila í Google Home. Þú getur skráð þig í <a href="https://play.google.com/store/music">Play Music forritinu</a>. Einnig geturðu keypt eða <a href="https://support.google.com/googleplay?p=home_uploadmusic">hlaðið upp þinni tónlist</a> í staðinn</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Áskrift eða safn hjá Play Music er áskilið</string>
     <string name="assistant_settings_music_icon_text">Tákn tónlistarveitu</string>
+    <string name="assistant_settings_music_link_dialog_text">Tengdu Google reikninginn þinn við %1$s til að virkja spilun í samhæfum tækjum og fá aðgang að spilunarlistunum þínum. Þegar þú hefur samskipti við %1$s þjónustuna í gegnum Google hjálparann verða beiðnir þínar sendar til %1$s og notaðar í samræmi við yfirlýsingu um persónuvernd. %1$s getur veitt þér sérsniðnar niðurstöður og tillögur. Þú getur alltaf aftengt reikninginn þinn í stillingunum.</string>
     <string name="assistant_settings_music_no_preference_summary">Nota kjörstillingar annarra reikninga í samnýttum tækjum</string>
     <string name="assistant_settings_music_no_preference_title">Engin sjálfgefin veita</string>
     <string name="assistant_settings_music_premium_dialog_button">Ég skil</string>
@@ -544,6 +552,7 @@ Aðstoðarmaðurinn þinn mun nota þessa stillingu fyrir spurningar um ferðam�
     <string name="assistant_settings_music_unable_unlink_default">Ekki er hægt að aftengja sjálfgefna tónlistarveitu</string>
     <string name="assistant_settings_music_unlink_dialog_text">Ef þú aftengir reikninginn verður lokað á aðgang að spilun frá %1$s í gegnum Google hjálparann.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">Áskrift að YouTube Premium er nauðsynleg til að YouTube Music geti spilað á Google Home. Þú getur stofnað reikning á <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Áskrift að YouTube Premium er nauðsynleg til að YouTube Music geti spilað á Google Home. Þú getur stofnað reikning á <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Áskrift að YouTube Premium er nauðsynleg</string>
     <string name="assistant_settings_news_provider_delete_button_description">Fjarlægja %1$s úr virkum fréttaveitum</string>
     <string name="assistant_settings_news_supports_video">Myndskeið í boði á snjallskjám</string>
@@ -747,8 +756,10 @@ Aðstoðarmaðurinn þinn notar þessa stillingu þegar hann veitir þér leiðs
     <string name="assistant_settings_update_error_message">Ekki tókst að uppfært stillinguna. Athugaðu tenginguna.</string>
     <string name="assistant_settings_video_calls_service_category_title">Hjálparinn getur hringt myndsímtöl úr ákveðnum tækjum, eins og Google Smart Display, með þjónustu að þínu vali. Neyðarsímtöl eru ekki í boði.</string>
     <string name="assistant_settings_video_icon_text">Tákn myndskeiðsveitu</string>
+    <string name="assistant_settings_video_link_dialog_text">Tengdu Google reikninginn þinn við %1$s til að virkja spilun í samhæfum tækjum. Þegar þú átt samskipti við þjónustu %1$s í gegnum Google hjálparann verða beiðnir þínar sendar til %1$s og notaðar í samræmi við persónuverndarstefnu þess. %1$s getur veitt þér sérsniðnar niðurstöður og tillögur. Þú getur alltaf aftengt reikninginn þinn í stillingunum.</string>
     <string name="assistant_settings_video_provider_category_summary">Spilaðu þætti og kvikmyndir með því að spyrja aðstoðarmanninn.</string>
     <string name="assistant_settings_video_provider_category_title">Myndskeið</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Ef þú aftengir reikninginn verður lokað á aðgang að spilun frá %1$s í gegnum Google hjálparann.</string>
     <string name="assistant_settings_videos_photos_title">Myndskeið og myndir</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast eða sjónvarp með innbyggðu Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Símtöl og myndsímtöl</string>
@@ -884,7 +895,6 @@ Gjöld fyrir gagnaflutning kunna að eiga við."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Opna upplýsingasíðu</string>
     <string name="captive_portal_error_card_cell_title_text">Vandamál með gagnatengingu</string>
     <string name="captive_portal_error_card_explanation_text">Þetta Wi-Fi net krefst þess að þú skráir þig inn. Skráðu þig aðeins inn á net sem þú treystir þar sem sumar Wi-Fi gáttir geta verið óöruggar. Prófaðu að leita aftur eftir að þú hefur tengst.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Skrá inn á net</string>
     <string name="captive_portal_error_card_title_text">Skráðu þig inn til að nota Wi-Fi</string>
     <string name="car_rental_cartype">Gerð bíls</string>
     <string name="car_rental_dropoff">Skil</string>
@@ -1047,6 +1057,7 @@ Gjöld fyrir gagnaflutning kunna að eiga við."</string>
     <string name="current_search_base_url_local">Notar lénið þitt (%1$s)</string>
     <string name="current_status">Athugaðu núverandi stöðu</string>
     <string name="custom">Sérsniðið (ekki er hægt að sérsníða í síma)</string>
+    <string name="custom_tabs_explore_action_button_desc">Skoða tengdar síður</string>
     <string name="custom_tabs_link_copied">Tengill afritaður á klippiborð</string>
     <string name="custom_tabs_menu_item_copy_link">Afrita tengil</string>
     <string name="custom_tabs_menu_item_help">Hjálp</string>
@@ -1420,7 +1431,6 @@ Google linsan er enn í þróun og ekki er víst að hún greini hluti, texta og
     <string name="google_play_services_update_button">Uppfæra þjónustu Google Play</string>
     <string name="google_play_services_update_required">Þú þarft að uppfæra þjónustu Google Play til að halda áfram að nota strauminn</string>
     <string name="google_plus_profile_contact_label">Google+ prófíll</string>
-    <string name="google_search_disabled_toast">Þú hefur ekki heimild til að nota Google leit.</string>
     <string name="gsa_home">Heimili</string>
     <string name="ha_card_title">Heimilið þitt</string>
     <string name="hands_free_unlock_device_bluetooth">Þegar það er öruggt þarftu fyrst að ýta á tilkynninguna. Þá geturðu látið Bluetooth-tæki virka með símanum þótt hann sé í lás.</string>
@@ -1784,6 +1794,14 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="lens_info_panel_opening_lens">Opnar Linsu…</string>
     <string name="lens_overflow_menu_description">Stillingar</string>
     <string name="lens_quit_button_description">Hætta</string>
+    <string name="lens_results_feedback_card_prompt">Hvað viltu gera við Linsu?</string>
+    <string name="lens_results_feedback_card_title">Hjálpaðu okkur að bæta Linsu</string>
+    <string name="lens_results_feedback_no">NEI</string>
+    <string name="lens_results_feedback_prompt_text">Voru þessar niðurstöður gagnlegar?</string>
+    <string name="lens_results_feedback_response_to_negative">Takk fyrir að hjálpa okkur að bæta Linsu.</string>
+    <string name="lens_results_feedback_response_to_positive">Hvað gæti hafa verið betra?</string>
+    <string name="lens_results_feedback_send_report">SENDA ÁBENDINGU</string>
+    <string name="lens_results_feedback_yes">JÁ</string>
     <string name="lens_title">Google linsa</string>
     <string name="license_activity_title">Leyfi opins kóða</string>
     <string name="light_traffic">Lítil umferð</string>
@@ -1844,7 +1862,6 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="menu_overlay_reset_to_default_style">Stilla á sjálfgefinn stíl</string>
     <string name="menu_refresh">Endurnýja</string>
     <string name="menu_send_button_content_description">Sendingarhnappur til að senda inn ábendingu.</string>
-    <string name="menu_settings">Stillingar</string>
     <string name="menu_share">Deila</string>
     <string name="menu_view_in_browser">Skoða í vafra</string>
     <string name="menu_visit_page">Fara á síðu</string>
@@ -1907,7 +1924,6 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="navigation_home_label">Heim</string>
     <string name="navigation_recently_label">Nýlegt</string>
     <string name="navigation_search_label">Leit</string>
-    <string name="navigation_updates_label">Framundan</string>
     <string name="nearby_attractions">Áhugaverðir staðir í nágrenninu</string>
     <string name="nearby_events_title">Nálægir viðburðir</string>
     <string name="network_error">Ekki næst í Google í augnablikinu.</string>
@@ -1915,6 +1931,7 @@ Nú geturðu kveikt á persónulegum niðurstöðum til að nota röddina til a�
     <string name="network_error_fetching_weather_data_status_text">Netkerfi ekki í boði í augnablikinu</string>
     <string name="network_error_no_connection_tts">Engin tenging er við internetið sem stendur.</string>
     <string name="network_error_resend_audio">Endursenda hljóð</string>
+    <string name="network_error_try_again">Reyna aftur</string>
     <string name="network_location_required_text">Til að sjá spjöld sem byggja á staðsetningu, t.d. um veðrið á hverjum stað og umferð, skaltu kveikja á staðsetningu frá Wi-Fi og farsímakerfi.</string>
     <string name="network_location_required_text_klp">Til að sjá spjöld sem byggja á staðsetningu, t.d. um veðrið á hverjum stað og umferð, skaltu velja mikla nákvæmni eða orkusparnað sem staðsetningarstillingu.</string>
     <string name="nevermind_prompt">Nei, annars</string>
@@ -2063,6 +2080,7 @@ Viltu halda áfram?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Uppfærðu tungumálapakkann.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Virkja rödd án nettengingar</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Þú ert ekki á netinu. Til að halda áfram að nota röddina án nettengingar þarftu að setja upp nýjasta tungumálapakkann. Þegar þú getur notað skjáinn aftur skaltu ýta á tilkynninguna um að gera það.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Þú ert ekki á netinu. Til að nota röddina án nettengingar þarftu nýjasta tungumálapakkann, sem verður settur upp næst þegar þú kemst í nettengingu.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Þú ert ekki á netinu. Til að halda áfram að nota röddina án nettengingar og sækja nýjustu eiginleikana þarftu að setja upp nýjasta tungumálapakkann. Þegar þú getur notað skjáinn aftur skaltu ýta á tilkynninguna um að gera það.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Reyndar ertu ekki á netinu. Ég get ekki tengst Google í augnablikinu en ég get samt aðstoðað þig við eitt og annað. Til dæmis geturðu prófað að segja: „make a call“ eða „what can I say?“</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Reyndar ertu ekki á netinu. Ég get ekki tengst Google í augnablikinu en ég get samt aðstoðað þig við eitt og annað. Til dæmis geturðu prófað að segja: %1$s eða „what can I say?“</string>
@@ -2748,6 +2766,9 @@ Með því að breyta þessu færðu:"</string>
     <string name="search_storage_label">Geymsla Google leitar</string>
     <string name="search_tablet">Leita í spjaldtölvu</string>
     <string name="search_the_web_menu_text">Leita á vefnum</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Þú færð tilkynningu um niðurstöður þegar tengingin batnar.</string>
+    <string name="search_timed_out_card_explanation_text">Ástæðan gæti verið hæg nettenging.</string>
+    <string name="search_timed_out_card_title_text">Leitin þín rann út á tíma</string>
     <string name="search_widget_customization">Sérsníða græju</string>
     <string name="searching_as_account">Leitar sem %1$s</string>
     <string name="second_half">Seinni hálfleikur</string>
@@ -2796,6 +2817,7 @@ Með því að breyta þessu færðu:"</string>
     <string name="settings_legal_notices_title">Lagalegir skilmálar</string>
     <string name="settings_location_tos_title">Þjónustuskilmálar fyrir staðsetningu</string>
     <string name="settings_privacy_policy_title">Persónuverndarstefna</string>
+    <string name="settings_search_icon_title">Leitarstillingar</string>
     <string name="settings_tos_title">Þjónustuskilmálar</string>
     <string name="setup_complete_explanation">%s bregst núna við ef þú segir: „Ok Google“. Hér eru nokkur atriði sem þú getur prófað.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Hjálparinn svarar núna þegar þú talar við %s. Hér eru nokkrir hlutir sem þú getur prófað.</string>
@@ -3097,7 +3119,6 @@ Með því að breyta þessu færðu:"</string>
     <string name="training_button_yes">JÁ</string>
     <string name="training_closet_error">Ekki tókst að hlaða stillingar</string>
     <string name="training_more_questions">FLEIRI SPURNINGAR</string>
-    <string name="transient_optin_text">Engin þörf á að bíða, þú færð tilkynningu þegar niðurstöðurnar eru komnar.</string>
     <string name="transit_alarm_notification_subtitle_template">Þú kemur á áfangastað %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Þú kemur á áfangastað %1$s</string>
     <string name="transit_alarm_vog_text">Farðu út hjá %1$s kl. %2$s</string>
@@ -3274,6 +3295,8 @@ Skráð(ur) inn sem %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Hvaða tæki viltu stilla?</string>
     <string name="user_defined_action_task_home_control_settings">Stillingar heimastýringar</string>
     <string name="user_defined_action_task_light_title">Ljós</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Hvaða hurðum viltu læsa?</string>
+    <string name="user_defined_action_task_lock_title">Læsa hurðum</string>
     <string name="user_defined_action_task_music_duration_summary">Aðeins er hægt að nota tímamæli til að stöðva tónlist í Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Slökkva á tónlist eftir…</string>
     <string name="user_defined_action_task_music_example_list">Sláðu inn spilunarlista, flytjanda, lag eða stefnu. Dæmi eru „Afslappandi spilunarlisti“ eða „Bítlarnir“. Þessi rútína notar &lt;a href=assistant-settings://?feature=music>sjálfgefnu tónlistarþjónustuna&lt;/a> þína.</string>

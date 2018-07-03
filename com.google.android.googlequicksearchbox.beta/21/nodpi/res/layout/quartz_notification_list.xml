@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <android.support.v4.widget.NestedScrollView android:paddingTop="@dimen/quartz_52sdp" android:paddingBottom="@dimen/quartz_default_gap" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never">
         <LinearLayout android:orientation="vertical" android:id="@id/quartz_notification_list_container" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
-            <com.google.android.apps.gsa.staticplugins.quartz.monet.shared.ui.baselinetextview.BaselineTextView android:textColor="@color/quartz_text_color_secondary" android:ellipsize="end" android:id="@id/quartz_notification_list_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quartz_notification_list_title" android:maxLines="1" android:paddingStart="@dimen/quartz_56sdp" android:paddingEnd="@dimen/quartz_56sdp" style="@style/Quartz.Notification.ListTitle" />
+            <com.google.assistant.display.android.libraries.baselinetextview.BaselineTextView android:textColor="@color/quartz_text_color_secondary" android:ellipsize="end" android:id="@id/quartz_notification_list_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quartz_notification_list_title" android:maxLines="1" android:paddingStart="@dimen/quartz_56sdp" android:paddingEnd="@dimen/quartz_56sdp" style="@style/Quartz.Notification.ListTitle" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </FrameLayout>

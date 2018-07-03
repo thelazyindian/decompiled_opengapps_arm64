@@ -374,8 +374,6 @@
                 <action android:name="android.content.pm.action.CONFIRM_PIN_APPWIDGET"/>
             </intent-filter>
         </activity>
-        <activity android:allowTaskReparenting="@string/velvet_activity_allow_task_reparenting" android:exported="false" android:label="@string/search_activity_name" android:launchMode="singleTop" android:name="com.google.android.apps.gsa.legacyui.VelvetActivity" android:process=":search" android:taskAffinity="@string/velvet_activity_task_affinity" android:theme="@style/Theme.Velvet"/>
-        <activity android:exported="false" android:label="@string/search_activity_name" android:launchMode="standard" android:name="com.google.android.apps.gsa.legacyui.VelvetLockscreenActivity" android:process=":search" android:theme="@style/Theme.Velvet"/>
         <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.apps.gsa.lockscreenentry.LockscreenEntryActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.Velvet"/>
         <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.apps.gsa.lockscreenentry.LockscreenUnlockPausedActivity" android:noHistory="true" android:process=":search" android:taskAffinity="" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <activity android:autoRemoveFromRecents="true" android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.apps.gsa.lockscreensearch.LockscreenSearchActivity" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.Velvet"/>

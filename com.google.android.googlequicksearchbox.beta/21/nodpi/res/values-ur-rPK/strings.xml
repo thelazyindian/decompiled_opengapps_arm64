@@ -420,11 +420,18 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="assistant_settings_duo_calls_unlink_duo_title">‏Duo اکاؤنٹ کا لنک ختم کریں</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">‏اب آپ Duo پر کالز شروع یا موصول نہیں کر سکیں گے</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">‏Duo اکاؤنٹ کا لنک ختم کریں؟</string>
+    <string name="assistant_settings_duo_consent_summary">‏Google اس نمبر کی توثیق کے لئے SMS کے ذریعے ایک کوڈ بھیجے گا۔ کیریئر کی قیمتیں لاگو ہو سکتی ہیں۔ جن لوگوں کے پاس آپ کا فون نمبر یا Google اکاؤنٹ ہے وہ Google سروسز پر آپ تک رسائی حاصل کر سکتے ہیں۔</string>
+    <string name="assistant_settings_duo_consent_title">"‏جن لوگوں کے پاس Google Duo ایپ ہے ان سے اپنے 'اسمارٹ ڈسپلے' پر اعلی معیار کی ویڈیو کالز شروع کریں۔ Duo اکاؤنٹ تخلیق کرنے کے لیے اپنے فون نمبر کی توثیق کریں۔ یہ اس کو آپ کے Google اکاؤنٹ سے بھی لنک کر دے گا"</string>
     <string name="assistant_settings_email_notification_summary">اپنے اسسٹنٹ سے متعلقہ تازہ ترین خبروں اور خصوصیات کے ذریعے باخبر رہیں</string>
     <string name="assistant_settings_email_notification_title">‏Google اسسٹنٹ ای میلز</string>
     <string name="assistant_settings_enable_google_assistant_title">‏Google اسسٹنٹ کو فعال کریں</string>
     <string name="assistant_settings_enabled_news_explanation">"آپ کا اسسٹنٹ ان مآخذات سے خبریں چلائے گا جب آپ 'خبریں سنیں' یا روٹین میں خبریں شامل کریں' کہتے ہیں۔"</string>
     <string name="assistant_settings_enabled_news_list">آپ کے خبروں کے ذرائع</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">ابھی نہیں</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">‏Duo استعمال کریں</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"‏اپنے 'اسمارٹ ڈسپلے' پر ویڈیو کالز کے لیے اپنا موجودہ Duo اکاؤنٹ استعمال کریں۔ آپ کے دوست اور فیملی %1$s پر آپ سے رابطہ کر سکتے ہیں۔
+ آپ اسسٹنٹ کی ترتیبات میں کسی بھی وقت اس آلہ سے اپنے Duo اکاؤنٹ کا لنک ختم کر سکتے ہیں۔"</string>
+    <string name="assistant_settings_existing_duo_dialog_title">ویڈیو کالنگ</string>
     <string name="assistant_settings_feature_availability">%1$s پر دستیاب ہے</string>
     <string name="assistant_settings_float_action_button_label">آلات شامل کریں</string>
     <string name="assistant_settings_header_title">ترتیبات</string>
@@ -544,6 +551,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="assistant_settings_music_unable_unlink_default">آپ کے ڈیفالٹ موسیقی فراہم کنندہ کا لنک ختم نہیں ہو سکتا</string>
     <string name="assistant_settings_music_unlink_dialog_text">‏آپ کے اکاؤنٹ کا لنک ختم کرنے سے Google اسسٹنٹ کے ذریعے %1$s سے پلے بیک تک رسائی آف ہو جائے گی۔</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">‏Google ہوم پر YouTube موسیقی چلانے کے لیے YouTube Premium کی رکنیت درکار ہے۔ آپ <a href="http://youtube.com/red">youtube.com/red</a> پرسائن اپ کر سکتے ہیں۔</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">‏Google ہوم پر YouTube موسیقی چلانے کے لیے YouTube Premium کی رکنیت درکار ہے۔ آپ <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a> پرسائن اپ کر سکتے ہیں۔</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">‏YouTube Premium کی رکنیت درکار ہے</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s کو اپنے فعال کردہ خبروں کے ذرائع سے ہٹائیں</string>
     <string name="assistant_settings_news_supports_video">ویڈیو اسمارٹ ڈسپلیز پر دستیاب ہے</string>
@@ -884,7 +892,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">تفصیلات کے صفحے پر جائیں</string>
     <string name="captive_portal_error_card_cell_title_text">ڈیٹا کنکشن میں مسئلہ</string>
     <string name="captive_portal_error_card_explanation_text">‏اس Wi-Fi نیٹ ورک کو آپ کا سائن ہونا درکار ہے۔ صرف ان نیٹ ورکس میں سائن ان کریں جن پر آپ اعتماد کرتے ہیں کیونکہ کچھ Wi-Fi پورٹلز کم محفوظ ہو سکتے ہیں۔ جب منسلک ہو جائیں، تو اپنی تلاش دوبارہ آزمائیں۔</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">نیٹ ورک میں سائن ان کریں</string>
     <string name="captive_portal_error_card_title_text">‏Wi-Fi استعمال کرنے کیلئے سائن ان کریں</string>
     <string name="car_rental_cartype">کار کی قسم</string>
     <string name="car_rental_dropoff">ڈراپ آف</string>
@@ -1047,6 +1054,7 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="current_search_base_url_local">آپ کے مقامی ڈومین (%1$s) کا استعمال کر رہا ہے</string>
     <string name="current_status">اپنی موجودہ صورتحال چیک کریں</string>
     <string name="custom">حسب ضرورت (فون پر حسب ضرورت نہیں بنا سکتے ہیں)</string>
+    <string name="custom_tabs_explore_action_button_desc">متعلقہ صفحات دیکھیں</string>
     <string name="custom_tabs_link_copied">لنک کلپ بورڈ پر کاپی ہوگیا</string>
     <string name="custom_tabs_menu_item_copy_link">لنک کاپی کریں</string>
     <string name="custom_tabs_menu_item_help">مدد</string>
@@ -1420,7 +1428,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="google_play_services_update_button">‏Google Play سروسز اپ ڈیٹ کریں</string>
     <string name="google_play_services_update_required">‏فیڈ کا استعمال جاری رکھنے کیلئے آپ کو Google Play سروسز کو اپ ڈیٹ کرنے کی ضرورت ہے</string>
     <string name="google_plus_profile_contact_label">‏‎Google+‎ پروفائل</string>
-    <string name="google_search_disabled_toast">‏آپ کو Google تلاش استعمال کرنے کی اجازت نہیں ہے۔</string>
     <string name="gsa_home">ہوم</string>
     <string name="ha_card_title">آپ کا گھر</string>
     <string name="hands_free_unlock_device_bluetooth">جب یہ محفوظ ہو تو پہلے آپ کو اطلاع کو تھتھپانا ہو گا۔ پھر آپ اپنے فون کے مقفل ہوتے ہوئے بلوٹوتھ آلات کو اس کے ساتھ کام کرنے دے سکتے ہیں۔</string>
@@ -1844,7 +1851,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="menu_overlay_reset_to_default_style">ڈیفالٹ طرز پر دوبارہ ترتیب دیں</string>
     <string name="menu_refresh">ریفریش کریں</string>
     <string name="menu_send_button_content_description">تاثرات جمع کرانے کیلئے بھیجیں بٹن۔</string>
-    <string name="menu_settings">ترتیبات</string>
     <string name="menu_share">اشتراک کریں</string>
     <string name="menu_view_in_browser">براؤزر میں دیکھیں</string>
     <string name="menu_visit_page">صفحہ ملاحظہ کریں</string>
@@ -1907,7 +1913,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="navigation_home_label">ہوم</string>
     <string name="navigation_recently_label">حالیہ</string>
     <string name="navigation_search_label">تلاش کریں</string>
-    <string name="navigation_updates_label">آنے والا</string>
     <string name="nearby_attractions">قریبی پرکشش مقامات</string>
     <string name="nearby_events_title">قریبی ایونٹس</string>
     <string name="network_error">‏اس وقت Google تک نہیں پہنچ سکتا ہے</string>
@@ -3096,7 +3101,6 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="training_button_yes">ہاں</string>
     <string name="training_closet_error">ترتیبات لوڈ کرنے میں ناکام</string>
     <string name="training_more_questions">مزید سوالات</string>
-    <string name="transient_optin_text">انتظار کرنے کی ضرورت نہیں، جب آپ کے نتائج تیار ہونگے تو آپ کو اطلاع کر دی جائے گی۔</string>
     <string name="transit_alarm_notification_subtitle_template">‏آپ بوقت ‎%1$s (%2$s)‎ پہنچیں گے</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">آپ بوقت %1$s پہنچیں گے</string>
     <string name="transit_alarm_vog_text">%1$s پر %2$s پر اتریں</string>
@@ -3273,6 +3277,8 @@ Google کو اپنے اسکرین شاٹس ہمیشہ کیلئے رکھنے او
     <string name="user_defined_action_task_devices_to_adjust">آپ کون سے آلات ایڈجسٹ کرنا چاہیں گے؟</string>
     <string name="user_defined_action_task_home_control_settings">ہوم کنٹرول کی ترتیبات</string>
     <string name="user_defined_action_task_light_title">لائٹس</string>
+    <string name="user_defined_action_task_lock_control_which_doors">آپ کس دروازے کو مقفل کرنا چاہتے ہیں؟</string>
+    <string name="user_defined_action_task_lock_title">دروازے مقفل کریں</string>
     <string name="user_defined_action_task_music_duration_summary">‏موسیقی بند کرنے کا ٹائمر صرف Google Home پر دستیاب ہے</string>
     <string name="user_defined_action_task_music_duration_title">اس کے بعد موسیقی بند کریں…</string>
     <string name="user_defined_action_task_music_example_list">"‏کوئی پلے لسٹ، فنکار، موسیقی یا قسم درج کریں۔ مثال کے طور پر، 'مناسب پلے لسٹ' یا 'دی بیٹلز'۔ یہ روٹین آپ کی &lt;a href=assistant-settings://?feature=music>موسیقی کی ڈیفالٹ سروس&lt;/a> استعمال کرے گی۔"</string>

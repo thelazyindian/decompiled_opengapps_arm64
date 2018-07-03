@@ -533,11 +533,18 @@ Din Google-assistent bruger denne indstilling til at besvare spørgsmål om din 
     <string name="assistant_settings_duo_calls_unlink_duo_title">Fjern tilknytning til Duo-konto</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_summary">Du vil ikke længere kunne foretage eller modtage opkald via Duo</string>
     <string name="assistant_settings_duo_calls_unlink_duo_warning_dialog_title">Vil du fjerne tilknytningen til Duo-kontoen?</string>
+    <string name="assistant_settings_duo_consent_summary">Google sender en kode via sms for at bekræfte dette nummer. Dit mobilselskab opkræver muligvis et gebyr. Folk, som kender dit nummer eller din Google-konto, kan komme i kontakt med dig via Google-tjenester.</string>
+    <string name="assistant_settings_duo_consent_title">Foretag videoopkald i høj kvalitet på din smartskærm med alle, der har Google Duo-appen. Bekræft dit telefonnummer for at oprette en Duo-konto. Denne handling knytter også telefonnummeret til din Google-konto.</string>
     <string name="assistant_settings_email_notification_summary">Hold forbindelsen med de seneste nyheder og funktioner relateret til din assistent</string>
     <string name="assistant_settings_email_notification_title">E-mails i Google Assistent</string>
     <string name="assistant_settings_enable_google_assistant_title">Aktivér Google Assistent</string>
     <string name="assistant_settings_enabled_news_explanation">Din Google-assistent afspiller nyheder fra disse kilder, når du siger \"lyt til nyhederne\" eller føjer nyheder til en rutine.</string>
     <string name="assistant_settings_enabled_news_list">Dine nyhedskilder</string>
+    <string name="assistant_settings_existing_duo_dialog_negative_button">Ikke nu</string>
+    <string name="assistant_settings_existing_duo_dialog_positive_button">Brug Duo</string>
+    <string name="assistant_settings_existing_duo_dialog_summary">"Brug din eksisterende Duo-konto til at foretage videoopkald på din smartskærm. Dine venner og din familie kan få fat i dig på %1$s.
+Du kan til enhver tid fjerne tilknytningen mellem din Duo-konto og denne enhed i indstillingerne for Assistent."</string>
+    <string name="assistant_settings_existing_duo_dialog_title">Videoopkald</string>
     <string name="assistant_settings_feature_availability">Tilgængelig på %1$s</string>
     <string name="assistant_settings_float_action_button_label">Tilføj enheder</string>
     <string name="assistant_settings_header_title">Indstillinger</string>
@@ -647,6 +654,7 @@ Din Google-assistent bruger denne indstilling til at besvare spørgsmål om din 
     <string name="assistant_settings_music_gpm_premium_dialog_text">Du skal have abonnement på Google Play Musik for at kunne afspille indhold derfra i Google Home. Du kan oprette et abonnement i <a href="https://play.google.com/store/music">appen Play Musik</a>. Du kan også vælge at købe eller <a href="https://support.google.com/googleplay?p=home_uploadmusic">uploade din musik</a> i stedet</string>
     <string name="assistant_settings_music_gpm_premium_dialog_title">Du skal have et Play Musik-abonnement eller en Play Musik-samling</string>
     <string name="assistant_settings_music_icon_text">Ikon for musikudbyder</string>
+    <string name="assistant_settings_music_link_dialog_text">Knyt din Google-konto til %1$s for at aktivere afspilning på kompatible enheder og få adgang til dine playlister. Når du interagerer med %1$s-tjenesten via Google Assistent, sendes dine forespørgsler muligvis til %1$s, og de bruges i henhold til tjenestens privatlivspolitik. %1$s kan levere personlige resultater og tilpassede anbefalinger til dig. Du kan til enhver tid fjerne tilknytningen af din konto i indstillingerne for Assistent.</string>
     <string name="assistant_settings_music_no_preference_summary">Brug præferencerne for andre konti på delte enheder</string>
     <string name="assistant_settings_music_no_preference_title">Ingen standardudbyder</string>
     <string name="assistant_settings_music_premium_dialog_button">OK</string>
@@ -657,6 +665,7 @@ Din Google-assistent bruger denne indstilling til at besvare spørgsmål om din 
     <string name="assistant_settings_music_unable_unlink_default">Linket til din standardmusikudbyder kan ikke fjernes</string>
     <string name="assistant_settings_music_unlink_dialog_text">Når du fjerner tilknytningen til din konto, kan du ikke længere afspille indhold fra %1$s via Google Assistent.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Music kræver et YouTube Premium-medlemskab for at kunne afspille via Google Home. Du kan tilmelde dig på <a href="http://youtube.com/red">youtube.com/red</a>.</string>
+    <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Music kræver et YouTube Music Premium-medlemskab for at kunne afspilles via Google Home. Du kan tilmelde dig på <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Dette kræver et YouTube Premium-medlemskab</string>
     <string name="assistant_settings_news_provider_delete_button_description">Fjern %1$s fra dine aktiverede nyhedskilder</string>
     <string name="assistant_settings_news_supports_video">Videoen kan afspilles på smartskærme</string>
@@ -860,8 +869,10 @@ Din Google-assistent bruger denne indstilling til at besvare spørgsmål om din 
     <string name="assistant_settings_update_error_message">Indstillingen kunne ikke opdateres. Kontrollér din forbindelse.</string>
     <string name="assistant_settings_video_calls_service_category_title">Din assistent kan foretage videoopkald fra nogle enheder, f.eks. Google Smart Display, via din foretrukne tjeneste. Du kan ikke ringe til nødtjenester.</string>
     <string name="assistant_settings_video_icon_text">Ikon for videoudbyder</string>
+    <string name="assistant_settings_video_link_dialog_text">Knyt din Google-konto til %1$s for at aktivere afspilning på kompatible enheder. Når du interagerer med %1$s-tjenesten via Google Assistent, sendes dine forespørgsler muligvis til %1$s, og de bruges i henhold til tjenestens privatlivspolitik. %1$s kan levere personlige resultater og tilpassede anbefalinger til dig. Du kan til enhver tid fjerne tilknytningen af din konto i indstillinger for Assistent.</string>
     <string name="assistant_settings_video_provider_category_summary">Afspil tv-serier og film ved at spørge din Google-assistent.</string>
     <string name="assistant_settings_video_provider_category_title">Videoer</string>
+    <string name="assistant_settings_video_unlink_dialog_text">Når du fjerner tilknytningen af din konto, kan du ikke længere afspille indhold fra %1$s via Google Assistent.</string>
     <string name="assistant_settings_videos_photos_title">Videoer og billeder</string>
     <string name="assistant_settings_videosphotos_cast_destination">Chromecast eller et fjernsyn med indbygget Chromecast</string>
     <string name="assistant_settings_voice_and_video_calls_title">Tale- og videoopkald</string>
@@ -1087,7 +1098,6 @@ Dette kan give ekstra dataudgifter."</string>
     <string name="captive_portal_error_card_cell_open_captive_portal_page_button_text">Gå til siden med oplysninger</string>
     <string name="captive_portal_error_card_cell_title_text">Problemer med dataforbindelsen</string>
     <string name="captive_portal_error_card_explanation_text">Dette Wi-Fi-netværk kræver, at du logger ind. Log kun ind på netværk, du har tillid til, da nogle Wi-Fi-portaler kan være mindre sikre. Når der er oprettet forbindelse, kan du prøve din søgning igen.</string>
-    <string name="captive_portal_error_card_open_captive_portal_page_button_text">Log ind på netværket</string>
     <string name="captive_portal_error_card_title_text">Log ind for at bruge Wi-Fi</string>
     <string name="car_rental_cartype">Biltype</string>
     <string name="car_rental_dropoff">Aflevering</string>
@@ -1311,6 +1321,7 @@ Du kan se og administrere disse samtaler i sektionen %1$s under indstillingerne 
     <string name="current_search_base_url_local">Bruger dit lokale domæne (%1$s)</string>
     <string name="current_status">Tjek din nuværende status</string>
     <string name="custom">Tilpasset (kan ikke tilpasses på telefon)</string>
+    <string name="custom_tabs_explore_action_button_desc">Se relaterede sider</string>
     <string name="custom_tabs_link_copied">Linket blev kopieret til udklipsholderen</string>
     <string name="custom_tabs_menu_item_copy_link">Kopiér linket</string>
     <string name="custom_tabs_menu_item_help">Hjælp</string>
@@ -1850,7 +1861,6 @@ Prøv at søge efter podcasten igen."</string>
     <string name="google_play_services_update_required">Hvis du vil fortsætte med at bruge feedet, skal du opdatere Google Play-tjenester</string>
     <string name="google_plus_profile_contact_label">Google+ profil</string>
     <string name="google_podcasts">Google Podcasts</string>
-    <string name="google_search_disabled_toast">Du har ikke tilladelse til at bruge Google Søgning.</string>
     <string name="goto_system_settings">Indstillinger</string>
     <string name="group_desc">Gruppe %1$d af %2$d.</string>
     <string name="gsa_home">Hjem</string>
@@ -2351,6 +2361,14 @@ Du kan deaktivere funktionen i indstillingerne for Assistent."</string>
     <string name="lens_info_panel_opening_lens">Åbner Zoom…</string>
     <string name="lens_overflow_menu_description">Indstillinger</string>
     <string name="lens_quit_button_description">Afslut</string>
+    <string name="lens_results_feedback_card_prompt">Hvad vil du bruge Zoom til?</string>
+    <string name="lens_results_feedback_card_title">Hjælp os med at forbedre Zoom</string>
+    <string name="lens_results_feedback_no">NEJ</string>
+    <string name="lens_results_feedback_prompt_text">Var disse resultater relevante for dig?</string>
+    <string name="lens_results_feedback_response_to_negative">Tak, fordi du hjælper os med at forbedre Zoom.</string>
+    <string name="lens_results_feedback_response_to_positive">Hvad kunne have været bedre?</string>
+    <string name="lens_results_feedback_send_report">SEND FEEDBACK</string>
+    <string name="lens_results_feedback_yes">JA</string>
     <string name="lens_title">Google Zoom</string>
     <string name="less_contact_apps">Vis færre apps til kontaktpersoner</string>
     <string name="libraries_material_featurehighlight_dismiss">Afvis</string>
@@ -2434,7 +2452,6 @@ Du kan deaktivere funktionen i indstillingerne for Assistent."</string>
     <string name="menu_refresh">Opdater</string>
     <string name="menu_send_button_content_description">Send-knap til at give feedback.</string>
     <string name="menu_send_feedback">Send feedback</string>
-    <string name="menu_settings">Indstillinger</string>
     <string name="menu_share">Del</string>
     <string name="menu_view_in_browser">Se i browser</string>
     <string name="menu_visit_page">Besøg siden</string>
@@ -2560,7 +2577,6 @@ Du kan finde og administrere alle dine Google-søgninger og meget mere i Min akt
     <string name="navigation_home_label">Hjem</string>
     <string name="navigation_recently_label">Seneste</string>
     <string name="navigation_search_label">Søg</string>
-    <string name="navigation_updates_label">Kommende</string>
     <string name="nearby_attractions">Seværdigheder i nærheden</string>
     <string name="nearby_events_title">Begivenheder i nærheden</string>
     <string name="network_error">Det er ikke muligt at få kontakt til Google i øjeblikket.</string>
@@ -2568,6 +2584,7 @@ Du kan finde og administrere alle dine Google-søgninger og meget mere i Min akt
     <string name="network_error_fetching_weather_data_status_text">Netværket er ikke tilgængeligt i øjeblikket</string>
     <string name="network_error_no_connection_tts">Der er ingen internetforbindelse i øjeblikket.</string>
     <string name="network_error_resend_audio">Send lyd igen</string>
+    <string name="network_error_try_again">Prøv igen</string>
     <string name="network_location_required_text">Hvis du vil se placeringssbaserede kort, som f.eks. lokalt vejr og pendlertrafik, skal du slå Wi-Fi og mobilnetværksplacering til</string>
     <string name="network_location_required_text_klp">Hvis du vil se placeringsbaserede kort, f.eks. lokalt vejr eller pendlertrafik, skal du vælge en høj nøjagtighed eller den batteribesparende placeringstilstand</string>
     <string name="never">Aldrig</string>
@@ -2747,6 +2764,7 @@ Vil du fortsætte?"</string>
     <string name="offline_eyesfree_install_language_pack_notification_body">Opgrader din sprogpakke.</string>
     <string name="offline_eyesfree_install_language_pack_notification_title">Aktivér indtaling offline</string>
     <string name="offline_eyesfree_install_language_pack_notification_tts">Du er offline. Hvis du vil fortsætte med at bruge stemmen, når du er offline, skal du installere den nyeste sprogpakke. Du kan gøre dette ved at trykke på underretningen, når det er sikkert at bruge skærmen.</string>
+    <string name="offline_eyesfree_install_language_pack_tts">Du er offline. Hvis du vil bruge stemmen, når du er offline, skal du have den nyeste sprogpakke, som installeres, næste gang du har netværksforbindelse.</string>
     <string name="offline_eyesfree_lp_need_update_fallback_tts">Du er offline. Hvis du vil fortsætte med at bruge stemmen, når du er offline, og få nye funktioner, skal du installere den nyeste sprogpakke. Du kan gøre dette ved at trykke på underretningen, når det er sikkert at bruge skærmen.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Du er offline. Jeg kan ikke få forbindelse til Google lige nu, men jeg kan stadig hjælpe dig med en masse andet. Prøv f.eks. at sige \"Foretag opkald\" eller \"Hvad skal jeg sige?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Du er offline. Jeg kan ikke få forbindelse til Google lige nu, men jeg kan stadig hjælpe dig med en masse andet. Prøv f.eks. at sige %1$s eller \"Hvad skal jeg sige?\"</string>
@@ -3397,7 +3415,7 @@ Estimeret størrelse: %d kB"</string>
     <string name="recently_empty_state_read_later_body_text">Vi gemmer dine downloadede elementer på din enhed i 7 dage.</string>
     <string name="recently_empty_state_read_later_title_text">Tilføj sider, du vil læse senere</string>
     <string name="recently_entry_interaction_offline">Den side, der anmodes om, kan ikke åbnes, når du er offline.</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">Den afventende talesøgning kan ikke åbnes.</string>
     <string name="recently_feed_entry">Feed</string>
     <string name="recently_google_doodle_for">Google-doodle til %s</string>
     <string name="recently_keep_on_device_until">Gem på enheden indtil:</string>
@@ -3675,6 +3693,9 @@ Prøv at søge efter podcasten igen."</string>
     <string name="search_the_web">Søg på nettet</string>
     <string name="search_the_web_menu_text">Søg på nettet</string>
     <string name="search_the_web_suggestion">Søg på nettet</string>
+    <string name="search_timed_out_card_explanation_suffix_opted_into_background_retry">Du får besked om resultaterne, når forbindelsen er bedre.</string>
+    <string name="search_timed_out_card_explanation_text">Det kan skyldes en langsom netværksforbindelse.</string>
+    <string name="search_timed_out_card_title_text">Der opstod timeout for din søgning</string>
     <string name="search_widget_customization">Tilpas widget</string>
     <string name="searchbar_hint">Søg efter podcasts</string>
     <string name="searchbox_hint">Søg i Seneste</string>
@@ -3732,6 +3753,7 @@ Prøv at søge efter podcasten igen."</string>
     <string name="settings_legal_notices_title">Juridiske oplysninger</string>
     <string name="settings_location_tos_title">Servicevilkår for placering</string>
     <string name="settings_privacy_policy_title">Privatlivspolitik</string>
+    <string name="settings_search_icon_title">Søgeindstillinger</string>
     <string name="settings_tos_title">Servicevilkår</string>
     <string name="setup_complete_explanation">Din %s vil nu svare, når du siger \"Ok Google\". Her er nogle ting, du kan prøve.</string>
     <string name="setup_complete_explanation_for_assistant_sdk">Nu svarer din assistent, når du taler til %s. Her er nogle ting, du kan prøve.</string>
@@ -4096,7 +4118,6 @@ Få en bedre oplevelse med dine høretelefoner ved at sende diagnostik, brugsdat
     <string name="transcript_timeout_2">Hvis du vil slette kladden, skal du bare trykke to gange på Google Assistent-knappen.</string>
     <string name="transcript_timeoutt_1">Tryk på den højre øretelefon for at sende beskeden. Du kan også optage en ny ved at holde højre øretelefon nede, mens du taler.</string>
     <string name="transcript_timeoutt_2">Hvis du vil slette kladden, skal du bare trykke to gange på den højre øretelefon.</string>
-    <string name="transient_optin_text">Du behøver ikke vente Vi giver dig besked, når dine resultater er klar.</string>
     <string name="transit_alarm_notification_subtitle_template">Du ankommer kl. %1$s (%2$s)</string>
     <string name="transit_alarm_notification_subtitle_template_no_delay">Du ankommer kl. %1$s</string>
     <string name="transit_alarm_vog_text">Stå af på %1$s kl. %2$s</string>
@@ -4293,6 +4314,8 @@ Logget ind som %1$s"</string>
     <string name="user_defined_action_task_devices_to_adjust">Hvilke enheder skal justeres?</string>
     <string name="user_defined_action_task_home_control_settings">Indstillinger for Styring af smartenheder i hjemmet</string>
     <string name="user_defined_action_task_light_title">Lys</string>
+    <string name="user_defined_action_task_lock_control_which_doors">Hvilke døre skal låses?</string>
+    <string name="user_defined_action_task_lock_title">Lås dørene</string>
     <string name="user_defined_action_task_music_duration_summary">Du kan kun indstille en timer til at slukke musikken i Google Home</string>
     <string name="user_defined_action_task_music_duration_title">Sluk musikken efter…</string>
     <string name="user_defined_action_task_music_example_list">Angiv en playliste, musiker, sang eller genre, f.eks. \"Afslappende playliste\" eller \"Beatles\". Denne rutine anvender din &lt;a href=assistant-settings://?feature=music>standardmusiktjeneste&lt;/a>.</string>

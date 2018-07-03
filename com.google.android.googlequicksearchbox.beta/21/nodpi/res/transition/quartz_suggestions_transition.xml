@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fade android:interpolator="@interpolator/quartz_0_0_1_1_bezier" android:duration="150" android:fadingMode="fade_out" android:startDelay="50">
+        <targets>
+            <target android:targetName="@string/quartz_regular_suggestions_transition_name" />
+        </targets>
+    </fade>
+    <fade android:interpolator="@interpolator/quartz_0_0_1_1_bezier" android:duration="150" android:fadingMode="fade_in">
+        <targets>
+            <target android:targetName="@string/quartz_regular_suggestions_transition_name" />
+        </targets>
+    </fade>
+    <transition android:interpolator="@android:interpolator/decelerate_quad" android:duration="300" app:dimension="y" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.TranslationTransition">
+        <targets>
+            <target android:targetName="@string/quartz_rich_suggestions_transition_name" />
+        </targets>
+    </transition>
+    <transition android:interpolator="@interpolator/quartz_010_000_005_100_bezier" android:duration="300" app:directionMode="direction_increase" app:dimension="y" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.TranslationTransition">
+        <targets>
+            <target android:targetName="@string/quartz_regular_suggestions_transition_name" />
+        </targets>
+    </transition>
+    <transition android:interpolator="@interpolator/quartz_020_000_000_100_bezier" android:duration="300" app:directionMode="direction_decrease" app:dimension="y" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.TranslationTransition">
+        <targets>
+            <target android:targetName="@string/quartz_regular_suggestions_transition_name" />
+        </targets>
+    </transition>
+</transitionSet>
