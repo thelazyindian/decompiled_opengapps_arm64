@@ -266,7 +266,6 @@
                 <data android:host="maps.google.gp"/>
                 <data android:host="maps.google.gr"/>
                 <data android:host="maps.google.gy"/>
-                <data android:host="maps.google.hk"/>
                 <data android:host="maps.google.hn"/>
                 <data android:host="maps.google.hr"/>
                 <data android:host="maps.google.ht"/>
@@ -279,7 +278,6 @@
                 <data android:host="maps.google.it.ao"/>
                 <data android:host="maps.google.je"/>
                 <data android:host="maps.google.jo"/>
-                <data android:host="maps.google.jp"/>
                 <data android:host="maps.google.kg"/>
                 <data android:host="maps.google.ki"/>
                 <data android:host="maps.google.kz"/>
@@ -298,7 +296,6 @@
                 <data android:host="maps.google.mv"/>
                 <data android:host="maps.google.mw"/>
                 <data android:host="maps.google.ne"/>
-                <data android:host="maps.google.nf"/>
                 <data android:host="maps.google.ng"/>
                 <data android:host="maps.google.nl"/>
                 <data android:host="maps.google.no"/>
@@ -470,7 +467,6 @@
                 <data android:host="maps.google.gp"/>
                 <data android:host="maps.google.gr"/>
                 <data android:host="maps.google.gy"/>
-                <data android:host="maps.google.hk"/>
                 <data android:host="maps.google.hn"/>
                 <data android:host="maps.google.hr"/>
                 <data android:host="maps.google.ht"/>
@@ -483,7 +479,6 @@
                 <data android:host="maps.google.it.ao"/>
                 <data android:host="maps.google.je"/>
                 <data android:host="maps.google.jo"/>
-                <data android:host="maps.google.jp"/>
                 <data android:host="maps.google.kg"/>
                 <data android:host="maps.google.ki"/>
                 <data android:host="maps.google.kz"/>
@@ -502,7 +497,6 @@
                 <data android:host="maps.google.mv"/>
                 <data android:host="maps.google.mw"/>
                 <data android:host="maps.google.ne"/>
-                <data android:host="maps.google.nf"/>
                 <data android:host="maps.google.ng"/>
                 <data android:host="maps.google.nl"/>
                 <data android:host="maps.google.no"/>
@@ -547,6 +541,7 @@
                 <data android:pathPrefix="/locationhistory"/>
                 <data android:pathPrefix="/maps/timeline"/>
                 <data android:pathPrefix="/maps/contrib"/>
+                <data android:pathPrefix="/maps/match"/>
                 <data android:pathPrefix="/local/guides/signup"/>
                 <data android:pathPrefix="/maps/@"/>
                 <data android:pathPrefix="/maps/place/"/>
@@ -682,7 +677,6 @@
                 <data android:host="www.google.gp"/>
                 <data android:host="www.google.gr"/>
                 <data android:host="www.google.gy"/>
-                <data android:host="www.google.hk"/>
                 <data android:host="www.google.hn"/>
                 <data android:host="www.google.hr"/>
                 <data android:host="www.google.ht"/>
@@ -695,7 +689,6 @@
                 <data android:host="www.google.it.ao"/>
                 <data android:host="www.google.je"/>
                 <data android:host="www.google.jo"/>
-                <data android:host="www.google.jp"/>
                 <data android:host="www.google.kg"/>
                 <data android:host="www.google.ki"/>
                 <data android:host="www.google.kz"/>
@@ -714,7 +707,6 @@
                 <data android:host="www.google.mv"/>
                 <data android:host="www.google.mw"/>
                 <data android:host="www.google.ne"/>
-                <data android:host="www.google.nf"/>
                 <data android:host="www.google.ng"/>
                 <data android:host="www.google.nl"/>
                 <data android:host="www.google.no"/>
@@ -815,6 +807,10 @@
                 <data android:pathPrefix="/V"/>
                 <data android:pathPrefix="/W"/>
                 <data android:pathPrefix="/X"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="com.google.android.gearhead.vanagon.category.CATEGORY_NAVIGATION"/>
             </intent-filter>
         </activity>
         <activity-alias android:configChanges="keyboardHidden|screenSize" android:launchMode="singleTask" android:name="com.google.android.maps.PlacesActivity" android:screenOrientation="user" android:targetActivity="com.google.android.maps.MapsActivity" android:theme="@style/GmmTheme.SplashScreen">
@@ -1107,6 +1103,7 @@
             </intent-filter>
         </activity>
         <activity android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.ui.sendkit.SendKitActivity" android:theme="@style/SendKitTheme"/>
+        <activity android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.ui.sendkit.JourneySharingSendKitActivity" android:theme="@style/SendKitTheme"/>
         <activity android:excludeFromRecents="true" android:icon="@mipmap/adaptiveproduct_maps" android:label="@LEMON_transformed_from_string/NOTIFICATION_FEEDBACK_ACTIVITY_LABEL" android:name="com.google.android.apps.gmm.notification.feedback.NotificationFeedbackActivity" android:taskAffinity="" android:theme="@style/GmmTheme.Transparent"/>
         <service android:exported="true" android:icon="@mipmap/adaptiveproduct_maps" android:label="@LEMON_transformed_from_string/MAPS_APP_NAME" android:name="com.google.android.apps.gmm.car.GmmCarProjectionService" android:process="com.google.android.apps.maps">
             <meta-data android:name="android.app.theme" android:resource="@style/GmmAppTheme"/>
@@ -1367,8 +1364,6 @@
                 <data android:host="maps.google.gr" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.gy" android:path="/"/>
                 <data android:host="maps.google.gy" android:pathPrefix="/maps"/>
-                <data android:host="maps.google.hk" android:path="/"/>
-                <data android:host="maps.google.hk" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.hn" android:path="/"/>
                 <data android:host="maps.google.hn" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.hr" android:path="/"/>
@@ -1393,8 +1388,6 @@
                 <data android:host="maps.google.je" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.jo" android:path="/"/>
                 <data android:host="maps.google.jo" android:pathPrefix="/maps"/>
-                <data android:host="maps.google.jp" android:path="/"/>
-                <data android:host="maps.google.jp" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.kg" android:path="/"/>
                 <data android:host="maps.google.kg" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.ki" android:path="/"/>
@@ -1431,8 +1424,6 @@
                 <data android:host="maps.google.mw" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.ne" android:path="/"/>
                 <data android:host="maps.google.ne" android:pathPrefix="/maps"/>
-                <data android:host="maps.google.nf" android:path="/"/>
-                <data android:host="maps.google.nf" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.ng" android:path="/"/>
                 <data android:host="maps.google.ng" android:pathPrefix="/maps"/>
                 <data android:host="maps.google.nl" android:path="/"/>
@@ -1547,13 +1538,13 @@
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
         </provider>
         <receiver android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.intent.UpdateSharesBroadcastReceiver"/>
-        <receiver android:name="com.google.android.apps.gmm.locationsharing.bursting.BurstingControllerImpl$RestartDetectionBroadcastReceiver">
+        <receiver android:name="com.google.android.apps.gmm.locationsharing.reporting.LocationReportingController$RestartDetectionBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <receiver android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.bursting.BurstingControllerImpl$ActivityRecognitionBroadcastReceiver"/>
+        <receiver android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.reporting.LocationReportingController$ActivityRecognitionBroadcastReceiver"/>
         <receiver android:exported="false" android:name="com.google.android.apps.gmm.transit.commute.TransitCommuteNotificationBroadcastReceiver"/>
         <receiver android:name="com.google.android.apps.gmm.transit.TransitStationBroadcastReceiver">
             <intent-filter>
@@ -1574,7 +1565,7 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <service android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.bursting.BurstingService"/>
+        <service android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.reporting.LocationReportingService"/>
         <service android:exported="true" android:name="com.google.android.apps.gmm.location.heatmap.HeatmapExpirationService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
             <intent-filter>
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
@@ -1589,6 +1580,16 @@
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="true" android:name="com.google.android.apps.gmm.offline.appindex.OfflineAppIndexingGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
+            </intent-filter>
+        </service>
+        <receiver android:exported="true" android:name="com.google.android.apps.gmm.offline.appindex.OfflineAppIndexingReceiver" android:permission="com.google.android.gms.permission.APPINDEXING">
+            <intent-filter>
+                <action android:name="com.google.firebase.appindexing.UPDATE_INDEX"/>
             </intent-filter>
         </receiver>
         <receiver android:name="com.google.android.apps.gmm.context.appindexing.AppIndexingTtlStartupReceiver">
@@ -1607,16 +1608,6 @@
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
             </intent-filter>
         </service>
-        <service android:exported="true" android:name="com.google.android.apps.gmm.offline.appindex.OfflineAppIndexingGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
-            <intent-filter>
-                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
-            </intent-filter>
-        </service>
-        <receiver android:exported="true" android:name="com.google.android.apps.gmm.offline.appindex.OfflineAppIndexingReceiver" android:permission="com.google.android.gms.permission.APPINDEXING">
-            <intent-filter>
-                <action android:name="com.google.firebase.appindexing.UPDATE_INDEX"/>
-            </intent-filter>
-        </receiver>
         <service android:enabled="false" android:name="com.google.android.apps.gmm.offline.update.OfflineManualDownloadService"/>
         <service android:exported="true" android:name="com.google.android.apps.gmm.offline.update.OfflineManualDownloadRescheduleGcmService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
             <intent-filter>

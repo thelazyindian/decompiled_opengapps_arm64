@@ -8,12 +8,16 @@
     <attr name="bottomNavigationStyle" format="reference" />
     <attr name="bottomSheetDialogTheme" format="reference" />
     <attr name="bottomSheetStyle" format="reference" />
+    <attr name="bubbleCellStyle" format="reference" />
+    <attr name="bubbleCellTextContentStyle" format="reference" />
     <attr name="carDrawerArrowStyle" format="reference" />
     <attr name="cardViewStyle" format="reference" />
     <attr name="chipGroupStyle" format="reference" />
     <attr name="chipStandaloneStyle" format="reference" />
     <attr name="chipStyle" format="reference" />
     <attr name="colorSecondary" format="color" />
+    <attr name="composeBoxStyle" format="reference" />
+    <attr name="conversationCellStyle" format="reference" />
     <attr name="coordinatorLayoutStyle" format="reference" />
     <attr name="drawerArrowStyle" format="reference" />
     <attr name="floatingActionButtonStyle" format="reference|string|integer|boolean|color|float|dimension|fraction" />
@@ -432,8 +436,7 @@
     <attr name="outgoingBackgroundColor" format="color" />
     <attr name="incomingTextAppearance" format="reference" />
     <attr name="outgoingTextAppearance" format="reference" />
-    <attr name="labelFontSize" format="dimension" />
-    <attr name="labelFontColor" format="color" />
+    <attr name="labelTextAppearance" format="reference" />
     <attr name="butterflyScaleType">
         <enum name="fitHeight" value="3" />
         <enum name="fitStage" value="0" />
@@ -465,6 +468,7 @@
     <attr name="chipStrokeWidth" format="dimension" />
     <attr name="chipIconEnabled" format="boolean" />
     <attr name="chipIcon" format="reference" />
+    <attr name="chipIconTint" format="color" />
     <attr name="chipIconSize" format="dimension" />
     <attr name="closeIconEnabled" format="boolean" />
     <attr name="closeIcon" format="reference" />
@@ -534,6 +538,7 @@
     <attr name="alwaysShowEllipsis" format="boolean" />
     <attr name="maxLinesInTotal" format="integer" />
     <attr name="maxLinesPerView" format="integer" />
+    <attr name="inputTextAppearance" format="reference" />
     <attr name="borderRadius" format="dimension" />
     <attr name="buttonTint" format="color" />
     <attr name="buttonTintMode">
@@ -547,6 +552,18 @@
     <attr name="avatarSize" format="dimension" />
     <attr name="avatarBgColors" format="reference" />
     <attr name="avatarFgColors" format="reference" />
+    <attr name="conversationCellBgColor" format="color" />
+    <attr name="titleTextAppearance" format="reference" />
+    <attr name="unreadTitleTextAppearance" format="reference" />
+    <attr name="descriptionTextAppearance" format="reference" />
+    <attr name="unreadDescriptionTextAppearance" format="reference" />
+    <attr name="previewTextAppearance" format="reference" />
+    <attr name="titleExpandedSize" format="dimension" />
+    <attr name="titleCollapsedSize" format="dimension" />
+    <attr name="statusExpandedSize" format="dimension" />
+    <attr name="statusCollapsedSize" format="dimension" />
+    <attr name="avatarExpandedSize" format="dimension" />
+    <attr name="avatarCollapsedSize" format="dimension" />
     <attr name="keylines" format="reference" />
     <attr name="statusBarBackground" format="reference|color" />
     <attr name="layout_behavior" format="string" />
@@ -629,7 +646,6 @@
     <attr name="arrowShaftLength" format="dimension" />
     <attr name="barLength" format="dimension" />
     <attr name="thickness" format="dimension" />
-    <attr name="fillColor" format="reference|color" />
     <attr name="ellipsisView" format="reference" />
     <attr name="itemMarginsMinimum" format="reference" />
     <attr name="maxEmojiCount" format="integer" />
@@ -972,7 +988,7 @@
     <attr name="latLngBoundsNorthEastLatitude" format="float" />
     <attr name="latLngBoundsNorthEastLongitude" format="float" />
     <attr name="maskDrawable" format="reference" />
-    <attr name="iconSize" format="reference|dimension" />
+    <attr name="iconSize" format="dimension" />
     <attr name="iconPadding" format="dimension" />
     <attr name="iconGravity">
         <flag name="start" value="0x00000001" />
@@ -1040,6 +1056,7 @@
     <attr name="hideNavigationIcon" format="boolean" />
     <attr name="searchPrefixText" format="string" />
     <attr name="useDrawerArrowDrawable" format="boolean" />
+    <attr name="fadeThroughMenuItems" format="boolean" />
     <attr name="autoShowKeyboard" format="boolean" />
     <attr name="fadeLastItem" format="boolean" />
     <attr name="offsetRows" format="boolean" />
@@ -1290,15 +1307,8 @@
     <attr name="boxStrokeColor" format="color" />
     <attr name="boxBackgroundColor" format="color" />
     <attr name="boxStrokeWidth" format="dimension" />
-    <attr name="shadowDx" format="float" />
-    <attr name="shadowDy" format="float" />
-    <attr name="shadowRadius" format="float" />
-    <attr name="shadowColor" format="reference|color" />
     <attr name="enforceMaterialTheme" format="boolean" />
     <attr name="enforceTextAppearance" format="boolean" />
-    <attr name="iconColor" format="reference|color" />
-    <attr name="durationMs" format="integer" />
-    <attr name="titleTextAppearance" format="reference" />
     <attr name="subtitleTextAppearance" format="reference" />
     <attr name="titleMargin" format="dimension" />
     <attr name="titleMarginStart" format="dimension" />
