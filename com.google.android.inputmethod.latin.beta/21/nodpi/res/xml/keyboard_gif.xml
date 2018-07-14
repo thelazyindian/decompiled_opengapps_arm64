@@ -3,6 +3,7 @@
     <keyboard class="com.google.android.apps.inputmethod.libs.search.gif.keyboard.GifKeyboard" id="@id/keyboard_gif">
         <view layout="@layout/keyboard_search_result_header_no_theme" scalable="false" direction="locale" type="header">
             <softkeys href="@xml/softkeys_search_header" />
+            <softkeys href="@xml/softkeys_gif_header" />
             <include href="@xml/keymapping_search_result_header" />
         </view>
         <view layout="@layout/keyboard_gif_body" type="body">

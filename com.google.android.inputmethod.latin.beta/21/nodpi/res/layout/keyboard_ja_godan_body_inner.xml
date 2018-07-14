@@ -9,7 +9,7 @@
             <LinearLayout style="@style/Linear.Vertical">
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_undo" android:layout_weight="200.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_left_arrow" android:layout_weight="200.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
-                <include layout="@layout/keyboard_ja_godan_body_inner_switches" />
+                <include layout="@layout/keyboard_ja_godan_body_inner_switches_bottom_left" />
             </LinearLayout>
         </FrameLayout>
         <LinearLayout android:layout_weight="600.0" style="@style/DigitKeyboardMiddlePanel.BigPanel">
@@ -59,7 +59,7 @@
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="200.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_right_arrow" android:layout_weight="200.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_space" android:layout_weight="200.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
-                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="400.0" style="@style/SoftKey.SmallInset.ImeAction.InColumn.Numpad" />
+                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="400.0" style="@style/SoftKey.SmallInset.ImeAction.InColumn.Numpad.BottomRight" />
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>

@@ -3,12 +3,11 @@
     <include href="@xml/softkey_template" />
     <softkeys>
         <softkey_list splitter="," template_id="@id/softkey_template_multi_popup_on_long_press_simple_dynamic">
-            <softkey id="@id/softkey_nko_combining_short_rising_tone" press_data="߭" long_press_data="߳" />
-            <softkey id="@id/softkey_nko_combining_nasalization_mark" press_data="߲" long_press_data="߱" />
-            <softkey id="@id/softkey_nko_low_tone_apostrophe" press_data="ߵ" />
+            <softkey id="@id/softkey_nko_combining_nasalization_mark" press_data="߲" long_press_data="߳" />
+            <softkey id="@id/softkey_nko_low_tone_apostrophe" press_data="ߵ" long_press_data="߭" />
             <softkey id="@id/softkey_nko_high_tone_apostrophe" press_data="ߴ" long_press_data="߮" />
             <softkey id="@id/softkey_nko_combining_short_low_tone" press_data="߬" long_press_data="߰" />
-            <softkey id="@id/softkey_nko_combining_short_high_tone" press_data="߫" long_press_data="߯" />
+            <softkey id="@id/softkey_nko_combining_short_high_tone" press_data="߫" long_press_data="߯,߱" />
         </softkey_list>
         <softkey_list splitter="," template_id="@id/softkey_template_label_header_simple">
             <softkey id="@id/softkey_nko_letter_pa" press_data="ߔ" />
@@ -17,7 +16,7 @@
             <softkey id="@id/softkey_nko_letter_wa" press_data="ߥ" />
             <softkey id="@id/softkey_nko_letter_ya" press_data="ߦ" />
             <softkey id="@id/softkey_nko_letter_ra" press_data="ߙ" long_press_data="ߪ,ߚ" />
-            <softkey id="@id/softkey_nko_letter_cha" press_data="ߗ" />
+            <softkey id="@id/softkey_nko_letter_cha" press_data="ߗ" long_press_data="ߩ" />
             <softkey id="@id/softkey_nko_letter_gba" press_data="ߜ" />
             <softkey id="@id/softkey_nko_letter_nya" press_data="ߢ" />
             <softkey id="@id/softkey_nko_letter_ma" press_data="ߡ" />
@@ -34,7 +33,6 @@
             <softkey id="@id/softkey_nko_letter_ta" press_data="ߕ" />
             <softkey id="@id/softkey_nko_letter_na" press_data="ߣ" />
             <softkey id="@id/softkey_nko_letter_ba" press_data="ߓ" />
-            <softkey id="@id/softkey_nko_symbol_oo_dennen" press_data="߶" />
             <softkey id="@id/softkey_nko_letter_o" press_data="ߐ" />
             <softkey id="@id/softkey_nko_letter_la" press_data="ߟ" />
             <softkey id="@id/softkey_nko_letter_sa" press_data="ߛ" />

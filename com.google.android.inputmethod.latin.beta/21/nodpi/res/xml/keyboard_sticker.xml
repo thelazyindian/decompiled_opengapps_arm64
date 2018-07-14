@@ -3,6 +3,7 @@
     <keyboard class="com.google.android.apps.inputmethod.libs.search.sticker.StickerKeyboard" id="@id/keyboard_sticker">
         <view layout="@layout/keyboard_search_result_header_no_theme" scalable="false" direction="locale" type="header">
             <softkeys href="@xml/softkeys_search_header" />
+            <softkeys href="@xml/softkeys_sticker_header" />
             <include href="@xml/keymapping_search_result_header" />
             <include href="@xml/keymapping_sticker_search_header" />
         </view>

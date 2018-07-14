@@ -2,7 +2,7 @@
 <com.google.android.apps.inputmethod.libs.search.nativecard.widget.VariableHeightSoftKeyboardView android:animateLayoutChanges="true" style="@style/Body" allow_mock_action_down="false"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <include layout="@layout/keyboard_incognito_overlay_body" />
-    <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_height="?KeyboardBodyHeight" style="@style/NonPrimeBodyInner">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" style="@style/NonPrimeBodyInner">
         <FrameLayout android:gravity="center" android:id="@id/native_card_display_area" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/keyboard_body_card_horizontal_padding" android:paddingEnd="@dimen/keyboard_body_card_horizontal_padding">
             <ProgressBar android:layout_gravity="center" android:id="@id/card_view_loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </FrameLayout>

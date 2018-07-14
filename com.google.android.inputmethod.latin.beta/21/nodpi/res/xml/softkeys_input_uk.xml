@@ -2,6 +2,9 @@
 <framework>
     <include href="@xml/softkey_template" />
     <softkeys>
+        <softkey_list splitter="," template_id="@id/softkey_template_multi_popup_on_long_press_simple">
+            <softkey id="@id/softkey_apostrophe" press_data="'" long_press_data="ʼ" />
+        </softkey_list>
         <softkey_list splitter="," template_id="@id/softkey_template_no_popup_simple">
             <softkey id="@id/softkey_cyrillic_small_letter_short_i" press_data="й" />
             <softkey id="@id/softkey_cyrillic_capital_letter_short_i" press_data="Й" />
@@ -49,7 +52,6 @@
             <softkey id="@id/softkey_cyrillic_capital_letter_zhe" press_data="Ж" />
             <softkey id="@id/softkey_cyrillic_small_letter_ukrainian_ie" press_data="є" />
             <softkey id="@id/softkey_cyrillic_capital_letter_ukrainian_ie" press_data="Є" />
-            <softkey id="@id/softkey_apostrophe" press_data="'" />
             <softkey id="@id/softkey_cyrillic_small_letter_ya" press_data="я" />
             <softkey id="@id/softkey_cyrillic_capital_letter_ya" press_data="Я" />
             <softkey id="@id/softkey_cyrillic_small_letter_che" press_data="ч" />

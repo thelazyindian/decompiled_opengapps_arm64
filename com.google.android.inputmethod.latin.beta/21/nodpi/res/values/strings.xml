@@ -46,8 +46,24 @@
     <string name="announcement_sticker_added_to_favorites">Added to favorites</string>
     <string name="announcement_sticker_removed_from_favorites">Removed from favorites</string>
     <string name="art_extension_default_corpus">com.google.android.apps.inputmethod.libs.search.IEmojiSearchExtension</string>
+    <string name="art_extension_default_keyboard_in_corpus">smiley</string>
     <string name="assets_theme_no_background">assets:theme_package_metadata_no_background.binarypb</string>
     <string name="autocomplete_query_content_desc">Autocompleted query</string>
+    <string name="avatar_preview_customize_msg">CUSTOMIZE</string>
+    <string name="avatar_preview_done_msg">Done</string>
+    <string name="avatar_preview_subtitle_msg">Customize each style, or both, then click %1$s.</string>
+    <string name="avatar_preview_title_msg">Try out your minis!</string>
+    <string name="avatar_promo_create">CREATE</string>
+    <string name="avatar_promo_see_all">SEE ALL</string>
+    <string name="avatar_promo_text">Customized stickers based on you</string>
+    <string name="avatar_promo_title">Your minis</string>
+    <string name="avatar_stickers_metadata_version">01806080</string>
+    <string name="back_alert_cancel">CANCEL</string>
+    <string name="back_alert_confirm">START OVER</string>
+    <string name="back_alert_msg">Your minis, photo, and all changes will be lost.</string>
+    <string name="back_alert_title">Starting over?</string>
+    <string name="bad_card_type_unknown_error">unknown error</string>
+    <string name="battery_saver_mode_on_error">battery saver mode is on</string>
     <string name="bitmoji_battery_saver_error_message">Please turn it off to use Bitmoji in Gboard.</string>
     <string name="bitmoji_category_string_recently_used">recents</string>
     <string name="bitmoji_get_sticker_packs_button">GET BITMOJI</string>
@@ -58,8 +74,7 @@
     <string name="bitmoji_update_app_button">UPDATE BITMOJI</string>
     <string name="bug_report_dialog_bug_description_comment_message">"Please describe the bug in detail (Used as bug's description)."</string>
     <string name="bug_report_dialog_bug_description_title_message">"Please describe the bug in one sentence (Used as bug's title)."</string>
-    <string name="bug_report_dialog_include_internal_state_message">Do you want to include the following debug information in the report? (It may slow down the upload.)</string>
-    <string name="bug_report_dialog_include_lstm_internal_state_option_message">LSTM Extension</string>
+    <string name="bug_report_dialog_existing_bug_id_message">"Please enter the existing bug's ID you want to update. (eg. 109743611)"</string>
     <string name="bug_report_dialog_report_to_buganizer_option_message">Do you want to report this on Buganizer? (Unselecting this option will still upload log to server.)</string>
     <string name="bug_report_dialog_span_selection_message">Please unselect any text that you do not want to share with Google.</string>
     <string name="bug_report_intro_dialog_message">This is an internal bug report tool available for Googlers only. It shares what you type and how you typed it with the Gboard team. The data retention follows <a href="https://support.google.com/analytics/answer/7667196?hl=en">"Google's policy"</a>", and is wipeout-compliant. 
@@ -68,23 +83,29 @@ Thanks for helping improve Gboard!"</string>
     <string name="bug_report_notification_channel_id">com.google.android.apps.inputmethod.libs.logging</string>
     <string name="bug_report_notification_channel_name">Bug Report</string>
     <string name="button_default">Default</string>
-    <string name="c2q_superpacks_manifest_url_de">https://www.gstatic.com/android/keyboard/conv2query/G/de/2017082917/superpacks_manifest_de.zip</string>
-    <string name="c2q_superpacks_manifest_url_en">https://www.gstatic.com/android/keyboard/conv2query/G/en/2017082917/superpacks_manifest_en.zip</string>
-    <string name="c2q_superpacks_manifest_url_es">https://www.gstatic.com/android/keyboard/conv2query/G/es/2017082917/superpacks_manifest_es.zip</string>
-    <string name="c2q_superpacks_manifest_url_fr">https://www.gstatic.com/android/keyboard/conv2query/G/fr/2017082917/superpacks_manifest_fr.zip</string>
-    <string name="c2q_superpacks_manifest_url_it">https://www.gstatic.com/android/keyboard/conv2query/G/it/2017082917/superpacks_manifest_it.zip</string>
-    <string name="c2q_superpacks_manifest_url_pt">https://www.gstatic.com/android/keyboard/conv2query/G/pt/2017082917/superpacks_manifest_pt.zip</string>
+    <string name="c2q_superpacks_manifest_url_de">https://www.gstatic.com/android/keyboard/conv2query/O/de/2018032921/superpacks_manifest_de.zip</string>
+    <string name="c2q_superpacks_manifest_url_en">https://www.gstatic.com/android/keyboard/conv2query/O/en/2018042419/superpacks_manifest_en.zip</string>
+    <string name="c2q_superpacks_manifest_url_es">https://www.gstatic.com/android/keyboard/conv2query/O/es/2018032921/superpacks_manifest_es.zip</string>
+    <string name="c2q_superpacks_manifest_url_fr">https://www.gstatic.com/android/keyboard/conv2query/O/fr/2018032921/superpacks_manifest_fr.zip</string>
+    <string name="c2q_superpacks_manifest_url_it">https://www.gstatic.com/android/keyboard/conv2query/O/it/2018032921/superpacks_manifest_it.zip</string>
+    <string name="c2q_superpacks_manifest_url_pt">https://www.gstatic.com/android/keyboard/conv2query/O/pt/2018032921/superpacks_manifest_pt.zip</string>
+    <string name="camera_open_error_msg">Error opening camera.</string>
+    <string name="camera_permission_missing_msg">Need camera permission to create avatar.</string>
+    <string name="camera_subtitle_msg">"We'll create a character 
+based on you"</string>
+    <string name="camera_title_msg">Fit your face here</string>
     <string name="cangjie_ime_label">Cangjie keyboard</string>
     <string name="cangjie_version_3">Version 3</string>
     <string name="cangjie_version_5">Version 5</string>
     <string name="cantonese_pinyin_qwerty_ime_label">Cantonese pinyin keyboard</string>
     <string name="capslock_enabled_mode_content_desc">Caps lock enabled</string>
     <string name="care_of_key_content_desc">Care of</string>
-    <string name="cd_back_arrow">Back arrow icon</string>
+    <string name="cd_back_arrow">Back</string>
     <string name="cd_browse_play_store_item_view">Sticker play store card, double tap to open play store</string>
     <string name="cd_browse_sticker_packs_item_view">%s, double tap to open sticker pack details</string>
     <string name="cd_browse_sticker_packs_item_view_favorite_icon">This sticker pack has been marked as favorite</string>
     <string name="cd_close">Close sticker gallery</string>
+    <string name="cd_customize_button">Double tap to customize the avatar pack</string>
     <string name="cd_empty_favorite_image">Empty Favorites Image</string>
     <string name="cd_favorite_off_icon">Double tap to mark as favorite</string>
     <string name="cd_favorite_on_icon">Double tap to unmark as favorite</string>
@@ -101,6 +122,19 @@ Thanks for helping improve Gboard!"</string>
     <string name="cd_key_alphabet_pqrs">PQRS</string>
     <string name="cd_key_alphabet_tuv">TUV</string>
     <string name="cd_key_alphabet_wxyz">WXYZ</string>
+    <string name="cd_key_kana_a">ア。アサヒ ノ ア</string>
+    <string name="cd_key_kana_e">エ。エイゴ ノ エ</string>
+    <string name="cd_key_kana_ha">ハ。ハガキ ノ ハ</string>
+    <string name="cd_key_kana_he">ヘ。ヘイワ ノ ヘ</string>
+    <string name="cd_key_kana_hi">ヒ。ヒカリ ノ ヒ</string>
+    <string name="cd_key_kana_ho">ホ。ホケン ノ ホ</string>
+    <string name="cd_key_kana_hu">フ。フトン ノ フ</string>
+    <string name="cd_key_kana_i">イ。イチゴ ノ イ</string>
+    <string name="cd_key_kana_ka">カ。カゾク ノ カ</string>
+    <string name="cd_key_kana_ke">ケ。ケシキ ノ ケ</string>
+    <string name="cd_key_kana_ki">キ。キッテ ノ キ</string>
+    <string name="cd_key_kana_ko">コ。コドモ ノ コ</string>
+    <string name="cd_key_kana_ku">ク。クスリ ノ ク</string>
     <string name="cd_key_kana_line_a">A column</string>
     <string name="cd_key_kana_line_ha">HA column</string>
     <string name="cd_key_kana_line_ka">KA column</string>
@@ -111,8 +145,41 @@ Thanks for helping improve Gboard!"</string>
     <string name="cd_key_kana_line_ta">TA column</string>
     <string name="cd_key_kana_line_wa">WA column</string>
     <string name="cd_key_kana_line_ya">YA column</string>
+    <string name="cd_key_kana_ma">マ。マッチ ノ マ</string>
+    <string name="cd_key_kana_me">メ。メガネ ノ メ</string>
+    <string name="cd_key_kana_mi">ミ。ミカン ノ ミ</string>
+    <string name="cd_key_kana_mo">モ。モミジ ノ モ</string>
     <string name="cd_key_kana_modifier">voiced sound mark</string>
+    <string name="cd_key_kana_mu">ム。ムシ ノ ム</string>
+    <string name="cd_key_kana_n">ン。オシマイ ノ ン</string>
+    <string name="cd_key_kana_na">ナ。ナマエ ノ ナ</string>
+    <string name="cd_key_kana_ne">ネ。ネズミ ノ ネ</string>
+    <string name="cd_key_kana_ni">ニ。ニホン ノ ニ</string>
+    <string name="cd_key_kana_no">ノ。ノハラ ノ ノ</string>
+    <string name="cd_key_kana_nu">ヌ。ヌリエ ノ ヌ</string>
+    <string name="cd_key_kana_o">オ。オオサカ ノ オ</string>
     <string name="cd_key_kana_punctuation">punctuation</string>
+    <string name="cd_key_kana_ra">ラ。ラジオ ノ ラ</string>
+    <string name="cd_key_kana_re">レ。レモン ノ レ</string>
+    <string name="cd_key_kana_ri">リ。リンゴ ノ リ</string>
+    <string name="cd_key_kana_ro">ロ。ロウカ ノ ロ</string>
+    <string name="cd_key_kana_ru">ル。ルスバン ノ ル</string>
+    <string name="cd_key_kana_sa">サ。サクラ ノ サ</string>
+    <string name="cd_key_kana_se">セ。セカイ ノ セ</string>
+    <string name="cd_key_kana_si">シ。シンブン ノ シ</string>
+    <string name="cd_key_kana_so">ソ。ソロバン ノ ソ</string>
+    <string name="cd_key_kana_su">ス。スズメ ノ ス</string>
+    <string name="cd_key_kana_ta">タ。タバコ ノ タ</string>
+    <string name="cd_key_kana_te">テ。テガミ ノ テ</string>
+    <string name="cd_key_kana_ti">チ。チキュウ ノ チ</string>
+    <string name="cd_key_kana_to">ト。トウキョウ ノ ト</string>
+    <string name="cd_key_kana_tu">ツ。ツバメ ノ ツ</string>
+    <string name="cd_key_kana_u">ウ。ウサギ ノ ウ</string>
+    <string name="cd_key_kana_wa">ワ。ワカメ ノ ワ</string>
+    <string name="cd_key_kana_wo">オ。オオサカ ノ オ</string>
+    <string name="cd_key_kana_ya">ヤ。ヤカン ノ ヤ</string>
+    <string name="cd_key_kana_yo">ヨ。ヨット ノ ヨ</string>
+    <string name="cd_key_kana_yu">ユ。ユカタ ノ ユ</string>
     <string name="cd_key_left">left</string>
     <string name="cd_key_right">right</string>
     <string name="cd_key_uchar_ideographic_comma">comma</string>
@@ -121,9 +188,12 @@ Thanks for helping improve Gboard!"</string>
     <string name="cd_key_undo">undo</string>
     <string name="cd_keyboard_alphabet">Alphabet keyboard</string>
     <string name="cd_keyboard_kana">Kana keyboard</string>
+    <string name="cd_left_customize_button">Double tap to customize the left avatar pack</string>
     <string name="cd_pack_icon">Sticker set icon</string>
+    <string name="cd_right_customize_button">Double tap to customize the right avatar pack</string>
     <string name="cd_search_no_result_image">No Results Found Image</string>
     <string name="cd_search_view_clear">Clear search</string>
+    <string name="cd_shutter_button">Double tap to take a picture</string>
     <string name="check_mark_key_content_desc">Check mark</string>
     <string name="close_access_points_content_desc">Close features</string>
     <string name="close_access_points_menu_content_desc">Close features menu</string>
@@ -153,10 +223,14 @@ Thanks for helping improve Gboard!"</string>
     <string name="content_description_no_results_found">No results found.</string>
     <string name="content_description_number_of_results_found">%d results found.</string>
     <string name="contextual_annotator_superpacks_manifest_url">https://www.gstatic.com/android/keyboard/modelpack/contextual/contextualkeyboard-annotators-superpacks-manifest.json</string>
-    <string name="conv2query_extension_app_whitelist">com.google.android.apps.inputmethod.libs.testing.inputfield com.whatsapp com.facebook.orca com.android.mms com.google.android.apps.messaging com.google.android.talk com.google.android.apps.fireball com.twitter.android com.snapchat.android org.telegram.messenger com.google.android.gm com.verizon.messaging.vzmsgs Com.facebook.katana com.instagram.android com.viber.voip jp.naver.line.android Kik.android Com.bsb.hike Com.bbm Com.skype.raider com.facebook.lite Com.tinder com.textra com.tencent.mm Com.zing.zalo Com.badoo.mobile com.grindrapp.android com.imo.android.imoim Ru.ok.android com.jb.gosms com.pof.android</string>
+    <string name="conv2query_extension_app_whitelist">com.google.android.apps.inputmethod.libs.testing.inputfield com.google.android.inputmethod.keyboarddevutils com.whatsapp com.facebook.orca com.android.mms com.google.android.apps.dynamite com.google.android.apps.messaging com.google.android.talk com.google.android.apps.fireball com.twitter.android com.snapchat.android org.telegram.messenger com.google.android.gm com.verizon.messaging.vzmsgs Com.facebook.katana com.instagram.android com.viber.voip jp.naver.line.android Kik.android Com.bsb.hike Com.bbm Com.skype.raider com.facebook.lite Com.tinder com.textra com.tencent.mm Com.zing.zalo Com.badoo.mobile com.grindrapp.android com.imo.android.imoim Ru.ok.android com.jb.gosms com.pof.android</string>
     <string name="conv2query_extension_locales">de,en,fr,it,es,pt</string>
     <string name="conv2query_trending_queries_periodic_download_locales">en_us</string>
     <string name="country_cutout_switches">AT,AUT,040,BE,BEL,056,BG,BGR,100,CY,CYP,196,CZ,CZE,203,DE,DEU,276,DK,DNK,208,ES,ESP,724,EE,EST,233,FI,FIN,246,FR,FRA,250,GB,GBR,826,GR,GRC,300,HR,HRV,191,HU,HUN,348,IE,IRL,372,IT,ITA,380,LT,LTU,440,LV,LVA,428,NL,NLD,528,MT,MLT,470,NL,NLD,528,PL,POL,616,PT,PRT,620,RO,ROU,642,SK,SVK,703,SI,SVN,705,SE,SWE,752</string>
+    <string name="country_cutout_switches_fl">US,USA,840,CA,CAN,124</string>
+    <string name="create_bug_message">Create a new bug report</string>
+    <string name="creating_avatar_error_msg">Error creating avatar.</string>
+    <string name="creating_avatar_msg">Creating your minis...</string>
     <string name="critical_error_dialog_file_system_text">Gboard cannot access the file system.</string>
     <string name="critical_error_dialog_file_system_text_long">Gboard cannot access the file system. Please uninstall and download from Google Play Store.</string>
     <string name="critical_error_dialog_native_lib_text">Wrong Gboard version for your device.</string>
@@ -176,8 +250,6 @@ Thanks for helping improve Gboard!"</string>
     <string name="default_country_locales_es_ar">es_419,es_US</string>
     <string name="default_country_locales_es_mx">es_419,es_US</string>
     <string name="default_country_locales_pt_002">pt_PT</string>
-    <string name="default_icing_recv_lm_params" />
-    <string name="default_icing_sent_lm_params" />
     <string name="default_icon_content_desc">Unknown Action</string>
     <string name="default_language_locale_de">de_DE</string>
     <string name="default_language_locale_en">en_US</string>
@@ -188,7 +260,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="default_query_content_desc">Default query</string>
     <string name="default_sticker_metadata_uri_prefix">https://www.gstatic.com/android/keyboard/stickers/configs/v4/</string>
     <string name="delete_key_content_desc">Delete</string>
-    <string name="delight_metadata_uri">https://www.gstatic.com/android/keyboard/dictionarypack/Piano-normal/metadata.json</string>
+    <string name="delight_metadata_uri">https://www.gstatic.com/android/keyboard/dictionarypack/Qin-normal/metadata.json</string>
     <string name="delight_overrides_metadata_uri" />
     <string name="desc_switch_to_fullscreen_handwriting">Switch to fullscreen handwriting</string>
     <string name="desc_switch_to_halfscreen_handwriting">Switch to half screen handwriting</string>
@@ -236,7 +308,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="emoticon_keyboard_key_content_desc">Emoticon keyboard</string>
     <string name="emoticon_keyboard_label">Emoticon keyboard</string>
     <string name="empty_favorites_message">Your favorite stickers will show up here!</string>
-    <string name="enable_auto_commit_language_tags" />
+    <string name="enable_auto_commit_language_tags">km,lo,th</string>
     <string name="enable_autocorrection_adaptation_locales" />
     <string name="enable_digit_mode">Turn on digit mode</string>
     <string name="enable_instant_search_locales">en</string>
@@ -248,13 +320,14 @@ Thanks for helping improve Gboard!"</string>
     <string name="enabled_gif_candidate_locales">de,en,fr,it,es,pt</string>
     <string name="enabled_quality_bug_report_access_point_locales" />
     <string name="enabled_sticker_access_point_locales" />
-    <string name="enabled_sticker_search_locales">en,pt,id,hi-Latn</string>
+    <string name="enabled_sticker_search_locales">ar,de,en,es,fr,hi-Latn,id,it,ja,ko,nl,pl,pt,ru,th,tr,zh-CN,zh-HK,zh-TW</string>
     <string name="enabled_universal_media_access_point_locales" />
     <string name="engine_reload_complete_toast_message">Google Japanese Input data updated</string>
     <string name="english_language_id">en</string>
     <string name="english_qwerty_ime_label">English keyboard</string>
     <string name="enter_key_content_desc">Enter</string>
     <string name="equals_key_content_desc">Equals</string>
+    <string name="error_card_announcement">"Displaying error card for '%s'."</string>
     <string name="exclamation_key_content_desc">Exclamation</string>
     <string name="exit_editing_keyboard_content_desc">Finish changing keyboard size and position</string>
     <string name="exiting_keyboard_editing_view">Exiting keyboard editing view</string>
@@ -278,6 +351,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="feature_card_magic_g_description">As you type, the Google G will light up to let you know there is relevant information. You can turn it off through Gboard Search settings.</string>
     <string name="feature_card_magic_g_title">Gboard Search: now smarter!</string>
     <string name="feature_card_magic_g_with_icons_description">As you type, the Google G will transform to let you know there is relevant information. You can turn it off through Gboard Search settings.</string>
+    <string name="feature_card_mark_misspelled_words_description">As you type, Gboard will underline misspelled words. You can turn this off through Gboard Text correction settings.</string>
+    <string name="feature_card_mark_misspelled_words_title">Spell check</string>
     <string name="federatedc2q_corpus_tag" />
     <string name="federatedc2q_models_metadata_uri">https://www.gstatic.com/android/keyboard/modelpack/federatedc2q/superpacks_manifest.json</string>
     <string name="federatedc2q_prediction_model_variant" />
@@ -325,6 +400,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="gboard_no_gms_button">UPDATE</string>
     <string name="gboard_no_gms_header">Google Play services</string>
     <string name="gboard_no_gms_subheader">To use Google Search, you need to update Google Play services</string>
+    <string name="gboard_play_store_uri">market://details?id=com.google.android.inputmethod.latin</string>
+    <string name="gboard_play_store_web_uri">http://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin</string>
     <string name="gboard_recently_used_stickers_content_desc">Recently Used Stickers</string>
     <string name="gboard_search_category_content_desc">Search %s</string>
     <string name="gboard_search_keyboard_label">Search keyboard</string>
@@ -338,6 +415,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="gboard_showing_universal_media_no_context_content_desc">Showing Media</string>
     <string name="gboard_sticker_image_content_desc">Sticker</string>
     <string name="gboard_sticker_pack_image_content_desc">Sticker Pack</string>
+    <string name="gboard_sticker_search_content_desc">Search for Sticker</string>
+    <string name="gboard_universal_media_search_content_desc">Search for all media</string>
     <string name="gesture_completion_cost_adaptation_locales" />
     <string name="get_sticker_packs_error_msg">Failed to load stickers.</string>
     <string name="ghi_key_content_desc">G H I</string>
@@ -437,10 +516,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="hint_text_choose_keyboard_layout">Please select keyboard layout</string>
     <string name="hint_text_reset_keyboard_layout">Tap here to reset keyboard layout</string>
     <string name="hmm_superpacks_manifest_url">https://www.gstatic.com/android/keyboard/hmmpack/2018060605/metadata_2018060605.json</string>
-    <string name="icing_recv_lm_params_com_google_android_gm" />
-    <string name="icing_recv_lm_params_com_google_android_gms" />
-    <string name="icing_sent_lm_params_com_google_android_gm" />
-    <string name="icing_sent_lm_params_com_google_android_gms" />
+    <string name="id_access_point_floating_keyboard">floating_keyboard</string>
     <string name="id_access_point_gif_search">gif_search</string>
     <string name="id_access_point_ocr">ocr</string>
     <string name="id_access_point_one_handed">one_handed</string>
@@ -468,6 +544,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="ink_font">sans-serif-black</string>
     <string name="input_nonexistent_file">File does not exist.</string>
     <string name="input_wrong_number">Wrong. Please try again.</string>
+    <string name="item_label_report_quality_bug">Report quality bug</string>
+    <string name="item_label_swiss_army_knife_settings">Settings</string>
     <string name="japanese_language_id">ja-JP</string>
     <string name="japanese_omaha_client_id">81568145-65FE-4938-98B0-F39BB0D0165B</string>
     <string name="jkl_key_content_desc">J K L</string>
@@ -494,10 +572,14 @@ Thanks for helping improve Gboard!"</string>
     <string name="kb_theme_material_dark">Material Dark Theme</string>
     <string name="kb_theme_material_light">Material Light Theme</string>
     <string name="keyboard_hidden">%s hidden</string>
+    <string name="keyboard_type_bitmoji_search_result">bitmoji_search_result</string>
     <string name="keyboard_type_emoji">smiley</string>
     <string name="keyboard_type_emoji_handwriting">emoji_handwriting</string>
     <string name="keyboard_type_emoji_search_result">emoji_search_result</string>
     <string name="keyboard_type_emoticon">emoticon</string>
+    <string name="keyboard_type_gif_search_result">gif_search_result</string>
+    <string name="keyboard_type_sticker_search_result">sticker_search_result</string>
+    <string name="keyboard_type_universal_media_search_result">universal_media_search_result</string>
     <string name="keyboard_with_suffix_hidden">%s keyboard hidden</string>
     <string name="korean_2_bulsik_ime_label">Korean 2 Bulsik</string>
     <string name="korean_language_id">ko</string>
@@ -513,6 +595,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="label_back_to_bengali_prime">কখগ</string>
     <string name="label_back_to_canadian_syllabics_cree_prime">ᐁᐯᑌ</string>
     <string name="label_back_to_canadian_syllabics_inuktitut_prime">ᐃᐱᑎ</string>
+    <string name="label_back_to_cham_prime">ꨆꨇꨈ</string>
     <string name="label_back_to_chamorro_prime">AÅB</string>
     <string name="label_back_to_cherokee_prime">ᎠᎡᎢ</string>
     <string name="label_back_to_chinese_prime">返回</string>
@@ -523,6 +606,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="label_back_to_en_prime">ABC</string>
     <string name="label_back_to_ethiopic_prime">ሀሁ</string>
     <string name="label_back_to_farsi_prime">ا‌ب‌پ</string>
+    <string name="label_back_to_georgian_khutsuri_prime">ႠႡႢ</string>
     <string name="label_back_to_georgian_prime">აბგ</string>
     <string name="label_back_to_greek_prime">ΑΒΓ</string>
     <string name="label_back_to_gujarati_prime">અક</string>
@@ -602,11 +686,14 @@ Thanks for helping improve Gboard!"</string>
     <string name="language_pack_not_downloaded_yet_toast_message">Japanese language pack is not downloaded yet</string>
     <string name="language_tag_ber">Tamazight</string>
     <string name="language_tag_bgq">Bagri</string>
+    <string name="language_tag_bhb">Bhili</string>
     <string name="language_tag_bn">Bangla</string>
     <string name="language_tag_brx">Bodo</string>
     <string name="language_tag_chr">Cherokee</string>
     <string name="language_tag_doi">Dogri</string>
     <string name="language_tag_ff">Fula</string>
+    <string name="language_tag_gno">Gondi</string>
+    <string name="language_tag_grt">Garo</string>
     <string name="language_tag_hif">Fiji Hindi</string>
     <string name="language_tag_hlb">Halbi</string>
     <string name="language_tag_kmz">Khorasani Turkic</string>
@@ -621,7 +708,18 @@ Thanks for helping improve Gboard!"</string>
     <string name="language_tag_zh_HK">Cantonese</string>
     <string name="language_tag_zh_TW">Chinese (Traditional)</string>
     <string name="language_tag_zz">Alphabet</string>
+    <string name="latest_emoji_share_from_emoji_kb_timestamp">latest_emoji_share_from_emoji_kb_timestamp</string>
+    <string name="latest_emoji_share_from_universal_kb_timestamp">latest_emoji_share_from_universal_kb_timestamp</string>
+    <string name="latest_gif_share_from_gif_kb_timestamp">latest_gif_share_from_gif_kb_timestamp</string>
+    <string name="latest_gif_share_from_universal_kb_timestamp">latest_gif_share_from_universal_kb_timestamp</string>
+    <string name="latest_nativecard_open_browser_timestamp">latest_nativecard_open_browser_timestamp</string>
+    <string name="latest_nativecard_share_image_timestamp">latest_nativecard_share_image_timestamp</string>
+    <string name="latest_nativecard_share_text_timestamp">latest_nativecard_share_text_timestamp</string>
+    <string name="latest_sticker_share_from_bitmoji_kb_timestamp">latest_sticker_share_from_bitmoji_kb_timestamp</string>
+    <string name="latest_sticker_share_from_sticker_kb_timestamp">latest_sticker_share_from_sticker_kb_timestamp</string>
+    <string name="latest_sticker_share_from_universal_kb_timestamp">latest_sticker_share_from_universal_kb_timestamp</string>
     <string name="launch_activities_or_extensions">Open %s</string>
+    <string name="layouts_superpacks_uri">https://www.gstatic.com/android/keyboard/layouts/test/metadata.json</string>
     <string name="learn_more_dialog_message">Google will collect portions of what and how you type in Google apps in order to improve Glide typing and auto-correction accuracy. Data collected will not be associated with your Google Account and will be maintained in accordance with <a href="https://www.google.com/policies/privacy/">Google’s Privacy Policy</a>. You can change this setting at any time in your Gboard keyboard settings.</string>
     <string name="left_arrow_content_desc">Cursor left</string>
     <string name="left_arrow_key_content_desc">Left arrow</string>
@@ -637,6 +735,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="left_vertical_single_quotation_key_content_desc">Left vertical single quotation mark</string>
     <string name="less_than_or_equal_to_content_desc">Less than or equal to</string>
     <string name="letter_keyboard_key_content_desc">Letter keyboard</string>
+    <string name="loading_customizer_error_msg">Error loading customizer.</string>
+    <string name="loading_customizer_preview_error_msg">Error loading customizer preview.</string>
     <string name="local_about_card_title">About</string>
     <string name="localized_subtype_locale_ab_GE">Аҧсшәа</string>
     <string name="localized_subtype_locale_ace_ID">Acèh</string>
@@ -666,6 +766,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_bcq_ET">"Benc'non"</string>
     <string name="localized_subtype_locale_ber_XA">Tamaziɣt</string>
     <string name="localized_subtype_locale_ber_XG">ⵜⴰⵎⴰⵣⵉⵖⵜ</string>
+    <string name="localized_subtype_locale_bew_ID">Betawi</string>
     <string name="localized_subtype_locale_bfy_IN">बघेली</string>
     <string name="localized_subtype_locale_bfy_XT">बघेली</string>
     <string name="localized_subtype_locale_bgc_IN">हरियाणवी</string>
@@ -674,6 +775,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_bgq_PK">بهاغري</string>
     <string name="localized_subtype_locale_bgq_XT">बागड़ी</string>
     <string name="localized_subtype_locale_bhb_XD">भीली</string>
+    <string name="localized_subtype_locale_bhb_XF">ભીલી</string>
     <string name="localized_subtype_locale_bho_IN">भोजपुरी</string>
     <string name="localized_subtype_locale_bho_XT">भोजपुरी</string>
     <string name="localized_subtype_locale_bjj_IN">कन्नौजी</string>
@@ -699,8 +801,10 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_cbk_PH">Chavacano</string>
     <string name="localized_subtype_locale_cdo_CN">Mìng-dĕ̤ng-ngṳ̄</string>
     <string name="localized_subtype_locale_ce_RU">Нохчийн</string>
+    <string name="localized_subtype_locale_cgg_UG">Rukiga</string>
     <string name="localized_subtype_locale_ch_GU">Chamoru</string>
     <string name="localized_subtype_locale_cjk_AO">Chokwe</string>
+    <string name="localized_subtype_locale_cjm_VN">ꨌꩌ</string>
     <string name="localized_subtype_locale_co">Corsu</string>
     <string name="localized_subtype_locale_cps_PH">Capiznon</string>
     <string name="localized_subtype_locale_cr_CA">ᓀᐦᐃᔭᐍᐏᐣ</string>
@@ -709,6 +813,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_csb_PL">Kaszëbsczi</string>
     <string name="localized_subtype_locale_ctg_BD">চাঁটগাঁইয়া</string>
     <string name="localized_subtype_locale_cv_RU">Чӑвашла</string>
+    <string name="localized_subtype_locale_dar_RU">Дарган</string>
     <string name="localized_subtype_locale_dcc_IN">دکنی</string>
     <string name="localized_subtype_locale_dcc_XT">دکنی</string>
     <string name="localized_subtype_locale_dhd_IN">ढूंढारी</string>
@@ -725,19 +830,24 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_el_CY">Κυπριακά</string>
     <string name="localized_subtype_locale_ext_ES">Estremeñu</string>
     <string name="localized_subtype_locale_fa_AF">دری</string>
+    <string name="localized_subtype_locale_fan_GQ">Faŋ</string>
     <string name="localized_subtype_locale_ff_XF">U+1E906U+1E935U+1E924U+1E922U+1E92A</string>
     <string name="localized_subtype_locale_fj_FJ">Na Vosa Vakaviti</string>
     <string name="localized_subtype_locale_fur_IT">Furlan</string>
     <string name="localized_subtype_locale_gag_MD">Gagauzça</string>
     <string name="localized_subtype_locale_gbm_IN">गढ़वाली</string>
     <string name="localized_subtype_locale_gbm_XT">गढ़वाली</string>
+    <string name="localized_subtype_locale_gcr_GF">Kréyòl</string>
     <string name="localized_subtype_locale_gd_GB">Gàidhlig</string>
+    <string name="localized_subtype_locale_gdx_IN">गोड़वाड़ी</string>
     <string name="localized_subtype_locale_gez">ግዕዝ</string>
     <string name="localized_subtype_locale_glk_IR">گیلکی</string>
     <string name="localized_subtype_locale_gn">"Avañe'ẽ"</string>
     <string name="localized_subtype_locale_gno_IN">गोंडी</string>
+    <string name="localized_subtype_locale_gno_XF">గోండీ</string>
     <string name="localized_subtype_locale_gog_TZ">Cigogo</string>
     <string name="localized_subtype_locale_gos_NL">Grunnegs</string>
+    <string name="localized_subtype_locale_grt_XA">A·chik</string>
     <string name="localized_subtype_locale_grt_XE">"আ'চিক"</string>
     <string name="localized_subtype_locale_gu_XA">Gujarati</string>
     <string name="localized_subtype_locale_gyn">Guyanese</string>
@@ -756,17 +866,22 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_hne_XT">छत्तीसगढ़ी</string>
     <string name="localized_subtype_locale_ho_PG">Hiri Motu</string>
     <string name="localized_subtype_locale_hoj_IN">हरौती</string>
+    <string name="localized_subtype_locale_hrx_BR">Hunsrik</string>
     <string name="localized_subtype_locale_ht">Kreyòl</string>
+    <string name="localized_subtype_locale_igb_NG">Ebira</string>
     <string name="localized_subtype_locale_ilo_PH">Ilokano</string>
     <string name="localized_subtype_locale_inh_RU">ГӀалгӀай</string>
     <string name="localized_subtype_locale_iu_CA">ᐃᓄᒃᑎᑐᑦ</string>
     <string name="localized_subtype_locale_jam_JM">Patwa</string>
+    <string name="localized_subtype_locale_jax_ID">Baso Jambi</string>
     <string name="localized_subtype_locale_jbo">la .lojban.</string>
     <string name="localized_subtype_locale_ji">ײִדיש</string>
     <string name="localized_subtype_locale_jv">Basa Jawa</string>
     <string name="localized_subtype_locale_jv_XA">Basa Banyumasan</string>
+    <string name="localized_subtype_locale_ka_XG">Ⴕⴀⴐⴇⴓⴊⴈ</string>
     <string name="localized_subtype_locale_kaa_UZ">Qaraqalpaq</string>
     <string name="localized_subtype_locale_kbd_RU">Адыгэбзэ</string>
+    <string name="localized_subtype_locale_kfr_IN">કચ્છી</string>
     <string name="localized_subtype_locale_kfy_IN">कुमाँऊनी</string>
     <string name="localized_subtype_locale_kfy_XT">कुमाँऊनी</string>
     <string name="localized_subtype_locale_kg_AO">Kikongo</string>
@@ -790,6 +905,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_ks_XD">कॉशुर</string>
     <string name="localized_subtype_locale_ks_XU">कॉशुर</string>
     <string name="localized_subtype_locale_ksh_DE">Kölsch</string>
+    <string name="localized_subtype_locale_ksw_MM">စှီၤ</string>
     <string name="localized_subtype_locale_ktu_CD">Kikongo-Kituba</string>
     <string name="localized_subtype_locale_ku">Kurdî</string>
     <string name="localized_subtype_locale_ku_IQ">کوردی</string>
@@ -799,6 +915,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_ky">Кыргызча</string>
     <string name="localized_subtype_locale_la">Latina</string>
     <string name="localized_subtype_locale_lad_BA">Ladino</string>
+    <string name="localized_subtype_locale_laj_UG">Lwo</string>
     <string name="localized_subtype_locale_lbe_RU">Лакку</string>
     <string name="localized_subtype_locale_lez_AZ">Лезги</string>
     <string name="localized_subtype_locale_lg_UG">Luganda</string>
@@ -813,14 +930,17 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_lrc_IR">لری</string>
     <string name="localized_subtype_locale_ltg_LV">Latgalīšu</string>
     <string name="localized_subtype_locale_lus_IN">Mizo</string>
+    <string name="localized_subtype_locale_luz_IR">لری</string>
     <string name="localized_subtype_locale_mad_ID">Bhasa Madhura</string>
     <string name="localized_subtype_locale_mag_IN">मगही</string>
     <string name="localized_subtype_locale_mag_XT">मगही</string>
     <string name="localized_subtype_locale_mai">मैथिली</string>
     <string name="localized_subtype_locale_mai_XA">Maithili</string>
     <string name="localized_subtype_locale_mai_XT">मैथिली</string>
+    <string name="localized_subtype_locale_mas_KE">Ɔl Maa</string>
     <string name="localized_subtype_locale_mdf_RU">Мокшень</string>
     <string name="localized_subtype_locale_mdh_PH">Maguindanao</string>
+    <string name="localized_subtype_locale_meo_MY">Pelat Utagha</string>
     <string name="localized_subtype_locale_mi">Māori</string>
     <string name="localized_subtype_locale_min_ID">Baso Minangkabau</string>
     <string name="localized_subtype_locale_mjl_IN">मंडयाली</string>
@@ -831,6 +951,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_mni_XT">মৈতৈলোন্</string>
     <string name="localized_subtype_locale_mni_XU">ꯃꯤꯇꯩ</string>
     <string name="localized_subtype_locale_mnk_XA">"Mandi'nka Kango"</string>
+    <string name="localized_subtype_locale_mnp_CN">Mâing-bă̤-ngṳ̌</string>
     <string name="localized_subtype_locale_mos_BF">Mòoré</string>
     <string name="localized_subtype_locale_mr_IN">मराठी</string>
     <string name="localized_subtype_locale_mr_XA">Marathi</string>
@@ -838,6 +959,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_mrw_PH">Maranao</string>
     <string name="localized_subtype_locale_ms_BN">Bahasa Melayu</string>
     <string name="localized_subtype_locale_ms_XC">بهاس ملايو</string>
+    <string name="localized_subtype_locale_msi_MY">Sabah Melayu</string>
     <string name="localized_subtype_locale_mtr_IN">मेवाड़ी</string>
     <string name="localized_subtype_locale_mtr_XT">मेवाड़ी</string>
     <string name="localized_subtype_locale_mup_IN">मालवी</string>
@@ -857,6 +979,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_nr_ZA">Ndebele</string>
     <string name="localized_subtype_locale_nso">Sepedi</string>
     <string name="localized_subtype_locale_nv_US">Diné bizaad</string>
+    <string name="localized_subtype_locale_nyo_UG">Runyoro</string>
+    <string name="localized_subtype_locale_oj_XA">Anishinaabemowin</string>
     <string name="localized_subtype_locale_olo_RU">Livvinkarjala</string>
     <string name="localized_subtype_locale_or_XA">Odia</string>
     <string name="localized_subtype_locale_os_RU">Ирон Ӕвзаг</string>
@@ -948,6 +1072,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_xal_RU">Хальмг Өөрдин</string>
     <string name="localized_subtype_locale_xmf_GE">მარგალური</string>
     <string name="localized_subtype_locale_xnr_IN">कांगड़ी</string>
+    <string name="localized_subtype_locale_xog_UG">Lusoga</string>
     <string name="localized_subtype_locale_za_CN">Vahcuengh</string>
     <string name="localized_subtype_locale_zea_NL">Zeêuws</string>
     <string name="localized_subtype_locale_zh_CN">拼音</string>
@@ -955,6 +1080,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="localized_subtype_locale_zh_TW">拼音</string>
     <string name="localized_subtype_locale_zz">QWERTY</string>
     <string name="logs_inspection_setting_title">Logs Inspection Setting</string>
+    <string name="low_storage_available_error">low device storage</string>
     <string name="lstm_federated_training_api_address">https://federatedml-pa.googleapis.com</string>
     <string name="lstm_federated_training_population" />
     <string name="lstm_model_supported_format_version">136671015</string>
@@ -967,7 +1093,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="make_a_gif_effect_to_files_map">expressive_camera_config.pb</string>
     <string name="make_a_gif_files_metadata_listing">downloadable_content_config.pb</string>
     <string name="make_a_gif_singular_suffix">" gif 📷"</string>
-    <string name="make_a_gif_superpacks_manifest_url">https://www.gstatic.com/android/keyboard/modelpack/makeagif/201803100041/superpacks_manifest.json</string>
+    <string name="make_a_gif_superpacks_manifest_url">https://www.gstatic.com/android/keyboard/modelpack/makeagif/201807031716/superpacks_manifest.json</string>
     <string name="makeagif_a11y_deleted_text">Deleted text</string>
     <string name="makeagif_a11y_edited_text">Edited text inserted into GIF</string>
     <string name="makeagif_a11y_editing_mode">Editing mode</string>
@@ -984,7 +1110,10 @@ Thanks for helping improve Gboard!"</string>
     <string name="makeagif_encode_message">Preparing your GIF…</string>
     <string name="makeagif_filter_content_desc">Camera effect</string>
     <string name="makeagif_filter_select_announce">Filter selected</string>
+    <string name="makeagif_filterdesc_balloons">Balloons rising</string>
+    <string name="makeagif_filterdesc_confetti">Confetti</string>
     <string name="makeagif_filterdesc_door">Full screen yellow door slams</string>
+    <string name="makeagif_filterdesc_fireworks">Fireworks explode</string>
     <string name="makeagif_filterdesc_flowers">Pink roses floating around the face</string>
     <string name="makeagif_filterdesc_heartzoom">White hearts</string>
     <string name="makeagif_filterdesc_kaleidoscope">Spinning kaleidoscopic effect</string>
@@ -1002,6 +1131,10 @@ Thanks for helping improve Gboard!"</string>
     <string name="makeagif_tooltip_camera">Tap or hold shutter to begin</string>
     <string name="makeagif_tooltip_redo">Tap here to record again</string>
     <string name="makeagif_tooltip_save">Save to camera roll</string>
+    <string name="megamode_banner_create">CREATE</string>
+    <string name="megamode_banner_desc">Minis based on you</string>
+    <string name="megamode_customize_message">CUSTOMIZE</string>
+    <string name="megamode_title_label">Your minis</string>
     <string name="middle_dot_key_content_desc">Middle dot</string>
     <string name="minus_key_content_desc">Dash</string>
     <string name="missing_file_manager">Please install a file manager.</string>
@@ -1011,17 +1144,9 @@ Thanks for helping improve Gboard!"</string>
     <string name="more_info_icon_content_desc">More Information</string>
     <string name="more_symbols_mode_content_desc">More symbols mode</string>
     <string name="more_than_or_equal_to_content_desc">More than or equal to</string>
-    <string name="morse_commit_timeout_1s">1 second</string>
-    <string name="morse_commit_timeout_250ms">250 milliseconds</string>
-    <string name="morse_commit_timeout_250ms_abbr">250 ms</string>
-    <string name="morse_commit_timeout_2s">2 seconds</string>
-    <string name="morse_commit_timeout_3s">3 seconds</string>
-    <string name="morse_commit_timeout_500ms">500 milliseconds</string>
-    <string name="morse_commit_timeout_5s">5 seconds</string>
-    <string name="morse_commit_timeout_never">Never</string>
     <string name="move_keyboard_content_desc">Move keyboard position</string>
     <string name="mozc_detailed_candidate_description_file" />
-    <string name="mozc_version">2.24.3314</string>
+    <string name="mozc_version">2.24.3332</string>
     <string name="multiword_candidate_language_tags" />
     <string name="native_card_keyboard_default_candidate_0">News</string>
     <string name="native_card_keyboard_default_candidate_1">Weather</string>
@@ -1032,25 +1157,22 @@ Thanks for helping improve Gboard!"</string>
     <string name="navigate_next_key_content_desc">Next</string>
     <string name="navigate_previous_key_content_desc">Previous</string>
     <string name="navigation_icon_content_desc">Navigate</string>
+    <string name="network_not_available_error">network not available</string>
     <string name="news_dot_key_content_desc">news dot</string>
     <string name="next_c2q_candidate_display_time">next_c2q_candidate_display_time</string>
     <string name="next_language_key_content_desc">Next language</string>
-    <string name="no_cards_message">No search results matched your query</string>
     <string name="no_emoji_message">No emoji found</string>
     <string name="no_gifs_message">No gifs found</string>
+    <string name="no_results_error">no results</string>
     <string name="no_results_message_generic">No results found</string>
     <string name="nonprime_recent_content_desc">Recents</string>
     <string name="notice_add_native_language">Tap here to type in your native language:</string>
+    <string name="notice_battery_saver_theme">Gboard is dark to save battery. Tap for settings.</string>
     <string name="notice_enable_new_language">Are you typing in %1$s?</string>
-    <string name="notice_notification_smart_reply">Enable smart replies to notifications? Tap for info.</string>
     <string name="notice_personalize_sms">Improve your suggestions? Tap for info.</string>
     <string name="notice_suggest_contacts">Tap to enable contact suggestions.</string>
-    <string name="notification_smartreply_appfilter">com.google.android.talk;com.google.apps.messaging;com.google.android.apps.fireball;com.facebook.mlite;com.whatsapp;com.snapchat.android;com.facebook.orca;com.com.tencent.mm;</string>
-    <string name="notification_smartreply_metadata_uri">https://www.gstatic.com/android/keyboard/modelpack/notificationsmartreply/superpacks_manifest.json</string>
     <string name="notification_text_decoder_timed_out">Help improve Gboard by sending a bug report!</string>
     <string name="notification_title_decoder_timed_out">Dogfood: Gboard ran into a problem</string>
-    <string name="notificationsmartreply_done_description">&lt;b>%s&lt;/b> will have improved suggestions when replying to the next notification.</string>
-    <string name="notificationsmartreply_set_permissions_description">Select &lt;b>%s&lt;/b> in your Notification access settings to get improved suggestions when replying to notifications.</string>
     <string name="num_search_results">%d results</string>
     <string name="number_ime_label">Number keyboard</string>
     <string name="number_password_ime_label">Numeric password keyboard</string>
@@ -1099,7 +1221,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_def_value_keyboard_height_ratio">1.0</string>
     <string name="pref_def_value_keyboard_slide_sensitivity_ratio">1.0</string>
     <string name="pref_def_value_latin_morse_character_commit_timeout">1000</string>
-    <string name="pref_def_value_latin_morse_word_commit_timeout">0</string>
+    <string name="pref_def_value_latin_morse_word_commit_timeout">1000</string>
     <string name="pref_def_value_morse_repeat_interval">200</string>
     <string name="pref_def_value_morse_repeat_start_delay">500</string>
     <string name="pref_def_value_one_handed_mode">@string/pref_entry_normal_keyboard_mode</string>
@@ -1155,8 +1277,10 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_key_auto_capitalization">enable_auto_capitalization</string>
     <string name="pref_key_auto_language_switching">enable_auto_language_switching</string>
     <string name="pref_key_auto_space_smart_punctuation">enable_auto_space_smart_punctuation</string>
+    <string name="pref_key_battery_saver_theme_notice_posted">pref_key_battery_saver_theme_notice_posted</string>
     <string name="pref_key_block_offensive_words">block_offensive_words</string>
     <string name="pref_key_c2q_collection_for_icon">pref_key_c2q_collection_for_icon</string>
+    <string name="pref_key_cache_uime_voice_data">cache_uime_voice_data</string>
     <string name="pref_key_candidate_runtime_debug">pref_key_candidate_runtime_debug</string>
     <string name="pref_key_cangjie_mode">cangjie_standard</string>
     <string name="pref_key_cangjie_version">cangjie_version</string>
@@ -1196,6 +1320,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_key_enable_incremental_gesture_input_zh_tw">enable_incremental_gesture_input_zh_tw</string>
     <string name="pref_key_enable_japanese_data_downloader">@string/pref_key_japanese_language_model_small</string>
     <string name="pref_key_enable_key_border">enable_key_border</string>
+    <string name="pref_key_enable_mark_misspelled_words">enable_mark_misspelled_words</string>
     <string name="pref_key_enable_number_row">enable_number_row</string>
     <string name="pref_key_enable_one_tap_to_search">enable_one_tap_to_search</string>
     <string name="pref_key_enable_one_tap_to_search_changed_by_user">enable_one_tap_to_search_changed_by_user</string>
@@ -1220,6 +1345,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_key_english_prediction">enable_english_prediction</string>
     <string name="pref_key_expand_access_points_hint_shown">pref_key_expand_access_points_hint_shown</string>
     <string name="pref_key_expressive_stickers_set_default_favorites">pref_key_expressive_stickers_set_default_favorites</string>
+    <string name="pref_key_first_periodic_ping">pref_key_first_periodic_ping</string>
     <string name="pref_key_fuzzy_pinyin">fuzzy_pinyin</string>
     <string name="pref_key_fuzzy_pinyin_an_ang">fuzzy_pinyin_an_ang</string>
     <string name="pref_key_fuzzy_pinyin_c_ch">fuzzy_pinyin_c_ch</string>
@@ -1241,6 +1367,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_key_has_user_seen_magic_g_feature_card">pref_key_has_user_seen_magic_g_feature_card</string>
     <string name="pref_key_hide_english_keyboard">hide_english_keyboard</string>
     <string name="pref_key_import_user_contacts">import_user_contacts</string>
+    <string name="pref_key_include_lstm_internal_state">include_lstm_internal_state</string>
     <string name="pref_key_initial_network_country">initial_network_country</string>
     <string name="pref_key_initial_sim_country">initial_sim_country</string>
     <string name="pref_key_japanese_12keys_flick_only">japanese_12keys_flick_only</string>
@@ -1257,8 +1384,10 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_key_korean_mend_consonant_conflict">autocorrect_consonant_conflict</string>
     <string name="pref_key_korean_show_suggestion">show_suggestions</string>
     <string name="pref_key_last_c2q_candidate">pref_key_last_c2q_candidate</string>
+    <string name="pref_key_last_ping_time">pref_key_last_ping_time</string>
     <string name="pref_key_last_sync_time">last_sync</string>
     <string name="pref_key_latest_activation_time">latest_activation_time</string>
+    <string name="pref_key_latest_ime_activation_time">pref_key_latest_ime_activation_time</string>
     <string name="pref_key_latest_unified_ime_activation_time">pref_key_latest_unified_ime_activation_time</string>
     <string name="pref_key_latin_auto_correction">pref_key_auto_correction</string>
     <string name="pref_key_latin_deprecated_auto_capitalization">auto_cap</string>
@@ -1296,13 +1425,14 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_key_makeagif_download_ready">pref_key_makeagif_download_ready</string>
     <string name="pref_key_makeagif_redo_tooltip_shown">pref_key_makeagif_redo_tooltip_shown</string>
     <string name="pref_key_makeagif_save_tooltip_shown">pref_key_makeagif_save_tooltip_shown</string>
+    <string name="pref_key_morse_enable_character_commit">pref_key_morse_enable_character_commit</string>
     <string name="pref_key_morse_enable_key_repeat_on_hold">pref_key_morse_enable_key_repeat_on_hold</string>
+    <string name="pref_key_morse_enable_mini_keyboard_height">enable_mini_keyboard_height</string>
+    <string name="pref_key_morse_enable_word_commit">pref_key_morse_enable_word_commit</string>
     <string name="pref_key_morse_repeat_interval">pref_key_morse_repeat_interval</string>
     <string name="pref_key_morse_repeat_start_delay">pref_key_morse_repeat_start_delay</string>
     <string name="pref_key_native_language_hint_shown">native_language_hint_shown</string>
     <string name="pref_key_next_word_prediction">next_word_prediction</string>
-    <string name="pref_key_notification_smart_reply_notice_counter">pref_key_notification_smart_reply_notice_counter</string>
-    <string name="pref_key_notification_smart_reply_notice_timestamp">pref_key_notification_smart_reply_notice_timestamp</string>
     <string name="pref_key_num_art_extension_activations">pref_key_num_art_extension_activations</string>
     <string name="pref_key_one_handed_mode">one_handed_mode</string>
     <string name="pref_key_one_handed_mode_keyboard_bottom_shadow">one_handed_mode_keyboard_bottom_shadow</string>
@@ -1345,7 +1475,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="pref_signature_check_security_exception_crash">signature_check_security_exception_crash</string>
     <string name="preferences_license_title">Open source licenses</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">198129451</string>
+    <string name="primes_version">201275026</string>
     <string name="privacy_url">https://www.google.com/policies/privacy/</string>
     <string name="product_preview_input_bundles_id">ime_zz</string>
     <string name="product_preview_keyboard_layout">ime_qwerty</string>
@@ -1378,6 +1508,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="rlz_ap_whitelist">ro.com.google.rlz_ap_whitelist</string>
     <string name="rlz_brand_code">ro.com.google.rlzbrandcode</string>
     <string name="rmb_key_content_desc">Notation of Yuan</string>
+    <string name="save">Save</string>
+    <string name="saving_customization_error_msg">Error saving customization.</string>
     <string name="search_access_point_content_desc">Search</string>
     <string name="search_add_language_no_results_title">"Couldn't find a language matching \"%1$s\"."</string>
     <string name="search_add_language_title">Search for a language</string>
@@ -1406,9 +1538,12 @@ Thanks for helping improve Gboard!"</string>
     <string name="setting_auto_space_title">Inserts space automatically</string>
     <string name="setting_autospace_after_punctuation_summary">[Beta] Insert space after punctuation (only available in US English)</string>
     <string name="setting_autospace_after_punctuation_title">Autospace after punctuation</string>
-    <string name="setting_battery_saver_theme_switching_title">Switch to dark theme in battery saver mode</string>
+    <string name="setting_battery_saver_theme_switching_summary">Gboard can save power on OLED screens by going dark</string>
+    <string name="setting_battery_saver_theme_switching_title">Switch to dark theme in battery saver</string>
     <string name="setting_block_offensive_words_summary">Do not suggest potentially offensive words</string>
     <string name="setting_block_offensive_words_title">Block offensive words</string>
+    <string name="setting_cache_uime_voice_data_summary">Include voice data from microphone if you used voice input.</string>
+    <string name="setting_cache_uime_voice_data_title">Voice Data</string>
     <string name="setting_candidate_runtime_debug_summary_off">Check the candidate.</string>
     <string name="setting_candidate_runtime_debug_summary_on">Slide down on the candidate to check its information.</string>
     <string name="setting_candidate_runtime_debug_title">Candidate runtime debug</string>
@@ -1491,6 +1626,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="setting_import_user_dictionary_key">setting_import_user_dictionary_key</string>
     <string name="setting_improve_google_keyboard_category_key">setting_improve_google_keyboard_category_key</string>
     <string name="setting_improve_google_keyboard_category_title">Improve %s</string>
+    <string name="setting_include_lstm_internal_state_summary">Include internal state of LSTM extension in the report.</string>
+    <string name="setting_include_lstm_internal_state_title">LSTM Extension</string>
     <string name="setting_japanese_12keys">12 keys layout settings</string>
     <string name="setting_japanese_12keys_flick_only_desc">Only use Flick input and disable Keitai input</string>
     <string name="setting_japanese_12keys_flick_only_title">Flick only</string>
@@ -1502,13 +1639,14 @@ Thanks for helping improve Gboard!"</string>
     <string name="setting_key_content_desc">Settings</string>
     <string name="setting_key_long_press_delay_title">Key long press delay</string>
     <string name="setting_key_long_press_delay_title_for_a11y">Key long press delay for accessibility</string>
+    <string name="setting_key_morse_enable_character_commit_title">Enable character timeout</string>
+    <string name="setting_key_morse_enable_word_commit_title">Enable word timeout</string>
     <string name="setting_key_morse_repeat_on_hold_title">Enable key repeat</string>
     <string name="setting_key_press_category_key">setting_key_press_category_key</string>
     <string name="setting_key_press_category_title">Key press</string>
     <string name="setting_keyboard_height_ratio_text_left">Short</string>
     <string name="setting_keyboard_height_ratio_text_right">Tall</string>
     <string name="setting_keyboard_height_ratio_title">Keyboard height</string>
-    <string name="setting_keyboard_key">setting_keyboard_key</string>
     <string name="setting_keys_category_key">setting_keys_category_key</string>
     <string name="setting_keys_category_title">Keys</string>
     <string name="setting_language_add_keyboard">Add keyboard</string>
@@ -1536,9 +1674,19 @@ Thanks for helping improve Gboard!"</string>
     <string name="setting_long_press_delay_max_progress_for_a11y">55</string>
     <string name="setting_long_press_for_symbols_summary">Long press keys to access hinted symbols</string>
     <string name="setting_long_press_for_symbols_title">Long press for symbols</string>
+    <string name="setting_mark_misspelled_words_summary">Mark misspelled words while typing</string>
+    <string name="setting_mark_misspelled_words_title">Spell check</string>
     <string name="setting_morse_2_title">Morse settings</string>
     <string name="setting_morse_character_commit_timeout_title">Character timeout</string>
+    <string name="setting_morse_character_timeout_text_left">250 ms</string>
+    <string name="setting_morse_character_timeout_text_right">5 sec</string>
+    <string name="setting_morse_enable_character_commit_summary">This setting controls how long Gboard waits before it turns a Morse code sequence into a letter. The default timeout is 1 second.</string>
+    <string name="setting_morse_enable_mini_keyboard_height_title">Mini keyboard height</string>
+    <string name="setting_morse_enable_word_commit_summary">"This setting controls how long Gboard waits before it turns a series of letters into a word. This setting is off by default, so there's no timeout."</string>
+    <string name="setting_morse_repeat_on_hold_summary">This setting lets you hold down the dot (.) or dash (-) to repeat the keystroke. For example, press and hold the dash (-) key to produce multiple dashes.</string>
     <string name="setting_morse_word_commit_timeout_title">Word timeout</string>
+    <string name="setting_morse_word_timeout_text_left">250 ms</string>
+    <string name="setting_morse_word_timeout_text_right">5 sec</string>
     <string name="setting_multilingual_alert_text">At most %d language(s) can be enabled in multilingual typing</string>
     <string name="setting_multilingual_not_available_summary">Only applicable if multiple languages are enabled</string>
     <string name="setting_multilingual_on_summary">Automatically display word suggestions while you type with:</string>
@@ -1553,6 +1701,12 @@ Thanks for helping improve Gboard!"</string>
     <string name="setting_preferences">Preferences</string>
     <string name="setting_preferences_key">setting_preferences_key</string>
     <string name="setting_privacy_title">Privacy policy</string>
+    <string name="setting_rate_us">Rate us</string>
+    <string name="setting_rate_us_ask_if_enjoy_gboard">Are you enjoying Gboard?</string>
+    <string name="setting_rate_us_ask_if_enjoy_gboard_no">No</string>
+    <string name="setting_rate_us_ask_if_enjoy_gboard_yes">Yes</string>
+    <string name="setting_rate_us_ask_rating_on_play_store">Thanks for letting us know! Please rate us on the Play Store.</string>
+    <string name="setting_rate_us_button_rate_on_play_store">RATE ON PLAY STORE</string>
     <string name="setting_repeat_interval_text_left">Fast</string>
     <string name="setting_repeat_interval_text_right">Slow</string>
     <string name="setting_repeat_interval_title">Repeat rate</string>
@@ -1655,6 +1809,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="smiley_keyboard_persist_states">ALL_SUB_CATEGORY</string>
     <string name="smiley_keyboard_persist_states_pref_key">smiley_keyboard_subcategory_selected</string>
     <string name="space_key_content_desc">Space</string>
+    <string name="spatial_model_desired_patterns" />
+    <string name="spatial_model_negative_patterns" />
     <string name="spell_checker_name">Google spell checker</string>
     <string name="spell_checker_setting_use_contacts_summary">Spell checker uses first and last names from your contact list</string>
     <string name="spell_checker_setting_use_contacts_title">Look up contact names</string>
@@ -1668,12 +1824,13 @@ Thanks for helping improve Gboard!"</string>
     <string name="sticker_error_message_description_no_result">You have no stickers.</string>
     <string name="sticker_error_message_no_bitmoji_no_stickers">Make your personal emoji with Bitmoji or install sticker packs</string>
     <string name="sticker_gallery_label">Stickers</string>
-    <string name="sticker_gallery_view_pager_browse_label">browse</string>
-    <string name="sticker_gallery_view_pager_favorite_label">favorites</string>
+    <string name="sticker_gallery_view_pager_browse_label">Browse</string>
+    <string name="sticker_gallery_view_pager_favorite_label">Favorites</string>
     <string name="sticker_keyboard_key_content_desc">Sticker Keyboard</string>
     <string name="sticker_low_storage_error_button_text">FREE UP SPACE</string>
     <string name="sticker_low_storage_error_message">Please free up some space to use stickers in Gboard.</string>
     <string name="sticker_low_storage_error_title">Your Device Space Is Low</string>
+    <string name="sticker_something_went_wrong_error">something went wrong</string>
     <string name="sticker_something_went_wrong_message">Uh oh, something went wrong!</string>
     <string name="stickers_allo_privacy_toast_message">Only you can see your selfie stickers in Gboard</string>
     <string name="stickers_create_allo_stickers_button">CREATE SELFIE STICKERS</string>
@@ -1684,6 +1841,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="stickers_no_connection_alert_title">No internet connection</string>
     <string name="stickers_no_search_results">No stickers found</string>
     <string name="stickers_no_sticker_available">No stickers available</string>
+    <string name="stickers_open_universal_media_btn_text">SEARCH ALL MEDIA</string>
     <string name="stickers_search_hint">Search stickers</string>
     <string name="string_id_japanese_12keys_toggleflick_hiragana_alphabet">ja_12keys_toggleflick_hiragana_alphabet</string>
     <string name="string_id_japanese_floating_hard_qwerty_hiragana">ja_floating_hard_qwerty_hiragana</string>
@@ -1727,11 +1885,13 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_bcq_ET">Bench (Ethiopia)</string>
     <string name="subtype_locale_ber_XA">Tamazight (Latin)</string>
     <string name="subtype_locale_ber_XG">Tamazight (Tifinagh)</string>
+    <string name="subtype_locale_bew_ID">Betawi (Indonesia)</string>
     <string name="subtype_locale_bfy_IN">Bagheli (India)</string>
     <string name="subtype_locale_bgc_IN">Haryanvi (India)</string>
     <string name="subtype_locale_bgq_IN">Bagri (India)</string>
     <string name="subtype_locale_bgq_PK">Bagri (Pakistan)</string>
     <string name="subtype_locale_bhb_XD">Bhili (Devanagari)</string>
+    <string name="subtype_locale_bhb_XF">Bhili (Gujarati)</string>
     <string name="subtype_locale_bho_IN">Bhojpuri (India)</string>
     <string name="subtype_locale_bi_VU">Bislama (Vanuatu)</string>
     <string name="subtype_locale_bjj_IN">Kannauji (India)</string>
@@ -1757,10 +1917,12 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_cdo_CN">Eastern Min</string>
     <string name="subtype_locale_ce_RU">Chechen</string>
     <string name="subtype_locale_ceb">Cebuano</string>
+    <string name="subtype_locale_cgg_UG">Chiga (Uganda)</string>
     <string name="subtype_locale_ch_GU">Chamorro (Guam)</string>
     <string name="subtype_locale_chr">Cherokee (Single-Case)</string>
     <string name="subtype_locale_chr_XG">Cherokee (Dual-Case)</string>
     <string name="subtype_locale_cjk_AO">Chokwe (Angola)</string>
+    <string name="subtype_locale_cjm_VN">Eastern Cham</string>
     <string name="subtype_locale_cps_PH">Capiznon (Philippines)</string>
     <string name="subtype_locale_cr_CA">Cree (Syllabics)</string>
     <string name="subtype_locale_cr_XA">Cree (Latin)</string>
@@ -1785,17 +1947,22 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_eu_ES">Basque</string>
     <string name="subtype_locale_ext_ES">Extremaduran (Spain)</string>
     <string name="subtype_locale_fa_AF">Dari</string>
+    <string name="subtype_locale_fan_GQ">Fang</string>
     <string name="subtype_locale_ff">Fula (Latin)</string>
     <string name="subtype_locale_ff_XF">Fula (Adlam)</string>
     <string name="subtype_locale_fur_IT">Friulian (Italy)</string>
     <string name="subtype_locale_gag_MD">Gagauz</string>
     <string name="subtype_locale_gbm_IN">Garhwali (India)</string>
+    <string name="subtype_locale_gcr_GF">Guianan Creole</string>
     <string name="subtype_locale_gd_GB">Scottish Gaelic (UK)</string>
+    <string name="subtype_locale_gdx_IN">Godwari (India)</string>
     <string name="subtype_locale_gez">"Ge'ez"</string>
     <string name="subtype_locale_glk_IR">Gilaki (Iran)</string>
     <string name="subtype_locale_gno_IN">Gondi (Devanagari)</string>
+    <string name="subtype_locale_gno_XF">Gondi (Telugu)</string>
     <string name="subtype_locale_gog_TZ">Gogo (Tanzania)</string>
     <string name="subtype_locale_gos_NL">Gronings (Netherlands)</string>
+    <string name="subtype_locale_grt_XA">Garo (Latin)</string>
     <string name="subtype_locale_grt_XE">Garo (Bengali)</string>
     <string name="subtype_locale_gsw_CH">Swiss German (Switzerland)</string>
     <string name="subtype_locale_gu_XA">Gujarati (Latin)</string>
@@ -1815,8 +1982,10 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_hne_IN">Chhattisgarhi (India)</string>
     <string name="subtype_locale_ho_PG">Hiri Motu</string>
     <string name="subtype_locale_hoj_IN">Harauti (India)</string>
+    <string name="subtype_locale_hrx_BR">Hunsrik German (Brazil)</string>
     <string name="subtype_locale_hsb_DE">Upper Sorbian (Germany)</string>
     <string name="subtype_locale_ht">Haitian Creole</string>
+    <string name="subtype_locale_igb_NG">Ebira (Nigeria)</string>
     <string name="subtype_locale_ii_CN">Nuosu</string>
     <string name="subtype_locale_ilo_PH">Ilocano (Philippines)</string>
     <string name="subtype_locale_inh_RU">Ingush</string>
@@ -1824,10 +1993,13 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_iu_XA">Inuktitut (Latin)</string>
     <string name="subtype_locale_ja_JP">Japanese</string>
     <string name="subtype_locale_jam_JM">Jamaican Patois</string>
+    <string name="subtype_locale_jax_ID">Jambi Malay</string>
     <string name="subtype_locale_jbo">Lojban</string>
     <string name="subtype_locale_jv_XA">Banyumasan</string>
+    <string name="subtype_locale_ka_XG">Georgian (Khutsuri)</string>
     <string name="subtype_locale_kaa_UZ">Karakalpak</string>
     <string name="subtype_locale_kbd_RU">Kabardian</string>
+    <string name="subtype_locale_kfr_IN">Kutchi (India)</string>
     <string name="subtype_locale_kfy_IN">Kumaoni (India)</string>
     <string name="subtype_locale_kg_AO">Kongo</string>
     <string name="subtype_locale_kha_IN">Khasi</string>
@@ -1850,10 +2022,12 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_ks_XC">Kashmiri (Arabic)</string>
     <string name="subtype_locale_ks_XD">Kashmiri (Devanagari)</string>
     <string name="subtype_locale_ksh_DE">Kölsch (Germany)</string>
+    <string name="subtype_locale_ksw_MM">Sgaw Karen</string>
     <string name="subtype_locale_ktu_CD">Kikongo-Kituba</string>
     <string name="subtype_locale_kv_RU">Komi (Russia)</string>
     <string name="subtype_locale_kw_GB">Cornish (UK)</string>
     <string name="subtype_locale_lad_BA">Ladino</string>
+    <string name="subtype_locale_laj_UG">Lango (Uganda)</string>
     <string name="subtype_locale_lbe_RU">Lak</string>
     <string name="subtype_locale_lez_AZ">Lezgian</string>
     <string name="subtype_locale_lg_UG">Luganda (Uganda)</string>
@@ -1867,12 +2041,15 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_lrc_IR">Northern Luri (Iran)</string>
     <string name="subtype_locale_ltg_LV">Latgalian (Latvia)</string>
     <string name="subtype_locale_lus_IN">Mizo</string>
+    <string name="subtype_locale_luz_IR">Southern Luri (Iran)</string>
     <string name="subtype_locale_mad_ID">Madurese (Indonesia)</string>
     <string name="subtype_locale_mag_IN">Magahi (India)</string>
     <string name="subtype_locale_mai">Maithili</string>
     <string name="subtype_locale_mai_XA">Maithili (Latin)</string>
+    <string name="subtype_locale_mas_KE">Maasai (Kenya)</string>
     <string name="subtype_locale_mdf_RU">Moksha (Russia)</string>
     <string name="subtype_locale_mdh_PH">Maguindanao (Philippines)</string>
+    <string name="subtype_locale_meo_MY">Kedah Malay</string>
     <string name="subtype_locale_min_ID">Minangkabau (Indonesia)</string>
     <string name="subtype_locale_mjl_IN">Mandeali (India)</string>
     <string name="subtype_locale_ml_XA">Malayalam (Latin)</string>
@@ -1880,12 +2057,14 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_mni_XE">Manipuri (Bengali)</string>
     <string name="subtype_locale_mni_XF">Manipuri (Meitei)</string>
     <string name="subtype_locale_mnk_XA">Mandinka</string>
+    <string name="subtype_locale_mnp_CN">Northern Min</string>
     <string name="subtype_locale_mos_BF">Mossi</string>
     <string name="subtype_locale_mr_XA">Marathi (Latin)</string>
     <string name="subtype_locale_mrj_RU">Hill Mari</string>
     <string name="subtype_locale_mrw_PH">Maranao (Philippines)</string>
     <string name="subtype_locale_ms_BN">Malay (Latin) (Brunei)</string>
     <string name="subtype_locale_ms_XC">Malay (Arabic)</string>
+    <string name="subtype_locale_msi_MY">Sabah Malay</string>
     <string name="subtype_locale_mtr_IN">Mewari (India)</string>
     <string name="subtype_locale_mup_IN">Malvi (India)</string>
     <string name="subtype_locale_mve_PK">Marwari (Pakistan)</string>
@@ -1904,6 +2083,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_nr_ZA">Southern Ndebele</string>
     <string name="subtype_locale_nso">Northern Sotho</string>
     <string name="subtype_locale_nv_US">Navajo</string>
+    <string name="subtype_locale_nyo_UG">Nyoro (Uganda)</string>
+    <string name="subtype_locale_oj_XA">Ojibwe (Latin)</string>
     <string name="subtype_locale_olo_RU">Livvi-Karelian</string>
     <string name="subtype_locale_or">Odia</string>
     <string name="subtype_locale_or_XA">Odia (Latin)</string>
@@ -1986,6 +2167,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="subtype_locale_xal_RU">Kalmyk Oirat (Russia)</string>
     <string name="subtype_locale_xmf_GE">Mingrelian</string>
     <string name="subtype_locale_xnr_IN">Kangri (India)</string>
+    <string name="subtype_locale_xog_UG">Soga (Uganda)</string>
     <string name="subtype_locale_za_CN">Zhuang (China)</string>
     <string name="subtype_locale_zea_NL">Zeelandic (Netherlands)</string>
     <string name="suggested_punctuations">"!?;,:\"()'-/@_"</string>
@@ -1993,8 +2175,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="suggested_query_content_desc">%1$s: %2$s</string>
     <string name="superpacks_notification_channel_id">com.google.android.apps.inputmethod.libs.dataservice.superpacks</string>
     <string name="superpacks_notification_channel_name">Downloads</string>
-    <string name="superpacks_notification_content_text">%1$s language in order for Gboard to work.</string>
-    <string name="superpacks_notification_content_title">Gboard is downloading</string>
+    <string name="superpacks_notification_content_text">Updating your typing experience</string>
+    <string name="swiss_army_knife_setting_title">Gboard Quality Bug Report Settings</string>
     <string name="switch_back_to_emoji_search">Switch back to emoji search</string>
     <string name="symbol_keyboard_key_content_desc">Symbol keyboard</string>
     <string name="symbol_keyboard_label">Symbol keyboard</string>
@@ -2013,8 +2195,10 @@ Thanks for helping improve Gboard!"</string>
  ()[]{}*&amp;&lt;>+=|.,;:!?/\"¡¿、：；（）〜…。，？！"</string>
     <string name="sync_summary_disabled_work_profile">Sync is not available for devices with G Suite accounts or Android for Work profile</string>
     <string name="system_property_access_points_order">ro.com.google.ime.icon_order</string>
+    <string name="system_property_corner_key_radius">ro.com.google.ime.corner_key_r</string>
     <string name="system_property_default_enable_number_row">ro.com.google.ime.number_row</string>
     <string name="system_property_default_enable_vibration">ro.com.google.ime.vibration</string>
+    <string name="system_property_default_haptic_cutoff">ro.com.google.ime.haptic.cutoff</string>
     <string name="system_property_default_key_border">ro.com.google.ime.key_border</string>
     <string name="system_property_default_theme_file">ro.com.google.ime.theme_file</string>
     <string name="system_property_default_theme_id">ro.com.google.ime.theme_id</string>
@@ -2029,9 +2213,16 @@ Thanks for helping improve Gboard!"</string>
     <string name="system_property_enable_text_editing">ro.com.google.ime.text_editing</string>
     <string name="system_property_hide_launcher_icon">ro.com.google.ime.hideicon</string>
     <string name="system_property_keyboard_height_ratio">ro.com.google.ime.height_ratio</string>
+    <string name="system_property_keyboard_padding_landscape_bottom">ro.com.google.ime.kb_pad_land_b</string>
+    <string name="system_property_keyboard_padding_landscape_left">ro.com.google.ime.kb_pad_land_l</string>
+    <string name="system_property_keyboard_padding_landscape_right">ro.com.google.ime.kb_pad_land_r</string>
+    <string name="system_property_keyboard_padding_portrait_bottom">ro.com.google.ime.kb_pad_port_b</string>
+    <string name="system_property_keyboard_padding_portrait_left">ro.com.google.ime.kb_pad_port_l</string>
+    <string name="system_property_keyboard_padding_portrait_right">ro.com.google.ime.kb_pad_port_r</string>
     <string name="system_property_lm_path">ro.com.google.ime.system_lm_dir</string>
     <string name="system_property_max_access_points_on_header">ro.com.google.ime.top_icon_num</string>
     <string name="system_property_show_emoji_switch_key">ro.com.google.ime.emoji_key</string>
+    <string name="system_property_show_launcher_icon">ro.com.google.ime.showicon</string>
     <string name="tap_completion_cost_adaptation_locales" />
     <string name="tenor_dev_api_key">AB2ELZTOKHYP</string>
     <string name="tenor_server_url_search">https://api.tenor.co/v1/search</string>
@@ -2088,13 +2279,20 @@ Thanks for helping improve Gboard!"</string>
     <string name="theme_selector_untitled_theme_content_desc">Untitled theme %d</string>
     <string name="theme_settings_access_point_content_desc">Theme settings</string>
     <string name="tilde_key_content_desc">Tilde</string>
+    <string name="tiresias_spatial_federated_training_population" />
+    <string name="tiresias_spatial_training_api_address">https://federatedml-pa.googleapis.com</string>
     <string name="title_change_keyboard">Change keyboard</string>
     <string name="toast_cannot_remove_all_languages">Cannot remove all languages</string>
     <string name="toast_cannot_unselect_all_layouts">Cannot unselect all layouts</string>
     <string name="toast_language_pack_not_downloaded">Waiting for the language to be downloaded...</string>
     <string name="toast_layout_pack_not_downloaded">Failed to download this language</string>
+    <string name="toast_msg_create_or_update_bug">Please choose to create a bug or update an existing one.</string>
+    <string name="toast_msg_default_error">Error building keyboard bug report.</string>
     <string name="toast_msg_dump_debug_data_fail">Debug dump went wrong.</string>
     <string name="toast_msg_dump_debug_data_success">Dumped debug data successfully.</string>
+    <string name="toast_msg_empty_bug_id">"Please input the existing bug's ID."</string>
+    <string name="toast_msg_empty_bug_title">"Please input the bug's title."</string>
+    <string name="toast_msg_network_error">Upload failed. Please check network.</string>
     <string name="toast_msg_permission_denied_for_action">Permission denied.</string>
     <string name="toast_msg_permission_denied_for_features">No permission to enable:</string>
     <string name="toast_msg_scrubbing_disabled">This application has disabled scrubbing.</string>
@@ -2311,6 +2509,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="unsupported_languages_for_emoji_search" />
     <string name="unsupported_languages_for_gif_search">iw,prs-AF,ur-IN,ur-PK,ku-IQ,ps,ji,ug,trw,ja-JP</string>
     <string name="up_arrow_key_content_desc">Up arrow</string>
+    <string name="update_bug_message">Update an existing bug report</string>
     <string name="upper_case_content_desc">Capital %1$s</string>
     <string name="urgent_signals" />
     <string name="user_theme_name_format">Theme (%1$d) created on %2$s</string>
@@ -2338,6 +2537,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_bashkir">Bashkir</string>
     <string name="variant_bavarian">Austro-Bavarian</string>
     <string name="variant_belarusian_belarus">Belarusian</string>
+    <string name="variant_belarusian_belarus_with_apostrophe">"Belarusian (')"</string>
     <string name="variant_bench">Bench</string>
     <string name="variant_bengali">Bangla</string>
     <string name="variant_bhili">Bhili</string>
@@ -2353,6 +2553,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_bulgarian_bds">BDS</string>
     <string name="variant_bundeli_dynamic">Bundeli</string>
     <string name="variant_burmese">Burmese</string>
+    <string name="variant_buryat_mongolia">Buryat</string>
+    <string name="variant_buryat_russia">Buryat</string>
     <string name="variant_cangjie">Cangjie</string>
     <string name="variant_catalan">Catalan</string>
     <string name="variant_chamorro">Chamorro</string>
@@ -2395,10 +2597,12 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_georgian_qwerty">Georgian</string>
     <string name="variant_german">German</string>
     <string name="variant_gilaki">Gilaki</string>
+    <string name="variant_gondi">Gondi</string>
     <string name="variant_gorani">Gorani</string>
     <string name="variant_greek">Greek</string>
     <string name="variant_gu_transliteration">abc → ગુજરાતી</string>
     <string name="variant_gujarati">Gujarati</string>
+    <string name="variant_hakka">Hakka</string>
     <string name="variant_halbi">Halbi</string>
     <string name="variant_handwriting">Handwriting</string>
     <string name="variant_harauti">Harauti</string>
@@ -2429,6 +2633,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_kashmiri">Kashmiri</string>
     <string name="variant_kazakh">Kazakh</string>
     <string name="variant_khmer_cambodia">Khmer</string>
+    <string name="variant_khorasani_turkic_arabic">Khorasani Turkic</string>
     <string name="variant_khorasani_turkic_latin">Khorasani Turkic</string>
     <string name="variant_khowar">Khowar</string>
     <string name="variant_kiche">"K'iche'"</string>
@@ -2447,6 +2652,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_kumaoni_dynamic">Kumaoni</string>
     <string name="variant_kurdish">Kurdish</string>
     <string name="variant_kurdish_latin">Kurdish</string>
+    <string name="variant_kurukh">Kurukh</string>
     <string name="variant_kyrgyz">Kyrgyz</string>
     <string name="variant_lak">Lak</string>
     <string name="variant_lambadi">Lambadi</string>
@@ -2470,6 +2676,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_malayalam_india">Malayalam</string>
     <string name="variant_maltese">Maltese</string>
     <string name="variant_malvi">Malvi</string>
+    <string name="variant_mandeali_dynamic">Mandeali</string>
     <string name="variant_manipuri">Manipuri</string>
     <string name="variant_manx">Manx</string>
     <string name="variant_maori">Maori</string>
@@ -2487,6 +2694,7 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_montenegrin">Montenegrin</string>
     <string name="variant_morse">Morse code</string>
     <string name="variant_mr_transliteration">abc → मराठी</string>
+    <string name="variant_mundari">Mundari</string>
     <string name="variant_native">Native</string>
     <string name="variant_navajo">Navajo</string>
     <string name="variant_ne_transliteration">abc → नेपाली</string>
@@ -2536,6 +2744,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_sd_arab_transliteration">abc → سنڌي</string>
     <string name="variant_sd_deva_transliteration">abc → सिन्धी</string>
     <string name="variant_serbian">Serbian</string>
+    <string name="variant_shekhawati">Shekhawati</string>
+    <string name="variant_siberian_tatar">Siberian Tatar</string>
     <string name="variant_sindhi">Sindhi</string>
     <string name="variant_sinhala">Sinhala</string>
     <string name="variant_somali">Somali</string>
@@ -2549,6 +2759,8 @@ Thanks for helping improve Gboard!"</string>
     <string name="variant_sylheti">Sylheti</string>
     <string name="variant_ta_in_transliteration">abc → தமிழ்</string>
     <string name="variant_tajik">Tajik</string>
+    <string name="variant_talysh">Talysh</string>
+    <string name="variant_talysh_azeri">Azerbaijani</string>
     <string name="variant_tamazight">Tamazight</string>
     <string name="variant_tamazight_tifinagh">Tamazight</string>
     <string name="variant_tamazight_tifinagh_amazigh">Tamazight No Shift</string>
@@ -2660,436 +2872,452 @@ Thanks for helping improve Gboard!"</string>
     <item type="string" name="APKTOOL_DUMMY_40">false</item>
     <item type="string" name="APKTOOL_DUMMY_41">false</item>
     <item type="string" name="APKTOOL_DUMMY_42">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_62">false</item>
-    <item type="string" name="APKTOOL_DUMMY_63">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67">false</item>
-    <item type="string" name="APKTOOL_DUMMY_68">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5e">false</item>
     <item type="string" name="APKTOOL_DUMMY_69">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_72">false</item>
+    <item type="string" name="APKTOOL_DUMMY_76">false</item>
+    <item type="string" name="APKTOOL_DUMMY_77">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_de">false</item>
     <item type="string" name="APKTOOL_DUMMY_df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e0">false</item>
     <item type="string" name="APKTOOL_DUMMY_e1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ea">false</item>
-    <item type="string" name="APKTOOL_DUMMY_eb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ec">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ed">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ee">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ef">false</item>
-    <item type="string" name="APKTOOL_DUMMY_f0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_f1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_f2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_113">false</item>
-    <item type="string" name="APKTOOL_DUMMY_11b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_11c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_110">false</item>
+    <item type="string" name="APKTOOL_DUMMY_111">false</item>
     <item type="string" name="APKTOOL_DUMMY_11d">false</item>
     <item type="string" name="APKTOOL_DUMMY_11e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_11f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_122">false</item>
-    <item type="string" name="APKTOOL_DUMMY_12e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_129">false</item>
+    <item type="string" name="APKTOOL_DUMMY_12a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_12b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_132">false</item>
+    <item type="string" name="APKTOOL_DUMMY_133">false</item>
     <item type="string" name="APKTOOL_DUMMY_134">false</item>
     <item type="string" name="APKTOOL_DUMMY_135">false</item>
     <item type="string" name="APKTOOL_DUMMY_136">false</item>
     <item type="string" name="APKTOOL_DUMMY_137">false</item>
-    <item type="string" name="APKTOOL_DUMMY_14e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_14f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_150">false</item>
-    <item type="string" name="APKTOOL_DUMMY_151">false</item>
-    <item type="string" name="APKTOOL_DUMMY_152">false</item>
-    <item type="string" name="APKTOOL_DUMMY_158">false</item>
-    <item type="string" name="APKTOOL_DUMMY_159">false</item>
-    <item type="string" name="APKTOOL_DUMMY_15a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_15b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_15c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_138">false</item>
+    <item type="string" name="APKTOOL_DUMMY_139">false</item>
+    <item type="string" name="APKTOOL_DUMMY_13a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_13b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_13c">false</item>
     <item type="string" name="APKTOOL_DUMMY_15d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_15e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_15f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_160">false</item>
     <item type="string" name="APKTOOL_DUMMY_161">false</item>
-    <item type="string" name="APKTOOL_DUMMY_162">false</item>
-    <item type="string" name="APKTOOL_DUMMY_163">false</item>
-    <item type="string" name="APKTOOL_DUMMY_164">false</item>
+    <item type="string" name="APKTOOL_DUMMY_166">false</item>
+    <item type="string" name="APKTOOL_DUMMY_167">false</item>
+    <item type="string" name="APKTOOL_DUMMY_168">false</item>
+    <item type="string" name="APKTOOL_DUMMY_169">false</item>
+    <item type="string" name="APKTOOL_DUMMY_16a">false</item>
     <item type="string" name="APKTOOL_DUMMY_16d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_174">false</item>
-    <item type="string" name="APKTOOL_DUMMY_175">false</item>
-    <item type="string" name="APKTOOL_DUMMY_17a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_179">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_180">false</item>
+    <item type="string" name="APKTOOL_DUMMY_181">false</item>
+    <item type="string" name="APKTOOL_DUMMY_182">false</item>
     <item type="string" name="APKTOOL_DUMMY_19a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1a5">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a8">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1ef">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_202">false</item>
-    <item type="string" name="APKTOOL_DUMMY_204">false</item>
-    <item type="string" name="APKTOOL_DUMMY_20f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_211">false</item>
-    <item type="string" name="APKTOOL_DUMMY_212">false</item>
-    <item type="string" name="APKTOOL_DUMMY_214">false</item>
-    <item type="string" name="APKTOOL_DUMMY_232">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_240">false</item>
-    <item type="string" name="APKTOOL_DUMMY_241">false</item>
-    <item type="string" name="APKTOOL_DUMMY_259">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_260">false</item>
-    <item type="string" name="APKTOOL_DUMMY_293">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_243">false</item>
+    <item type="string" name="APKTOOL_DUMMY_245">false</item>
+    <item type="string" name="APKTOOL_DUMMY_256">false</item>
+    <item type="string" name="APKTOOL_DUMMY_258">false</item>
+    <item type="string" name="APKTOOL_DUMMY_263">false</item>
+    <item type="string" name="APKTOOL_DUMMY_265">false</item>
+    <item type="string" name="APKTOOL_DUMMY_266">false</item>
+    <item type="string" name="APKTOOL_DUMMY_268">false</item>
+    <item type="string" name="APKTOOL_DUMMY_269">false</item>
+    <item type="string" name="APKTOOL_DUMMY_26a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_26b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_26c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_287">false</item>
     <item type="string" name="APKTOOL_DUMMY_294">false</item>
+    <item type="string" name="APKTOOL_DUMMY_295">false</item>
+    <item type="string" name="APKTOOL_DUMMY_296">false</item>
     <item type="string" name="APKTOOL_DUMMY_297">false</item>
     <item type="string" name="APKTOOL_DUMMY_298">false</item>
-    <item type="string" name="APKTOOL_DUMMY_29f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b4">false</item>
     <item type="string" name="APKTOOL_DUMMY_2b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b7">false</item>
     <item type="string" name="APKTOOL_DUMMY_2b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2c4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2cb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2e6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2f7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2f8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_328">false</item>
-    <item type="string" name="APKTOOL_DUMMY_360">false</item>
-    <item type="string" name="APKTOOL_DUMMY_387">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3b7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3da">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3dd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_43c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_447">false</item>
-    <item type="string" name="APKTOOL_DUMMY_459">false</item>
-    <item type="string" name="APKTOOL_DUMMY_467">false</item>
-    <item type="string" name="APKTOOL_DUMMY_484">false</item>
-    <item type="string" name="APKTOOL_DUMMY_492">false</item>
-    <item type="string" name="APKTOOL_DUMMY_493">false</item>
-    <item type="string" name="APKTOOL_DUMMY_498">false</item>
-    <item type="string" name="APKTOOL_DUMMY_49b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_49c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_49e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4ac">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_300">false</item>
+    <item type="string" name="APKTOOL_DUMMY_304">false</item>
+    <item type="string" name="APKTOOL_DUMMY_305">false</item>
+    <item type="string" name="APKTOOL_DUMMY_30c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_314">false</item>
+    <item type="string" name="APKTOOL_DUMMY_317">false</item>
+    <item type="string" name="APKTOOL_DUMMY_322">false</item>
+    <item type="string" name="APKTOOL_DUMMY_329">false</item>
+    <item type="string" name="APKTOOL_DUMMY_351">false</item>
+    <item type="string" name="APKTOOL_DUMMY_363">false</item>
+    <item type="string" name="APKTOOL_DUMMY_364">false</item>
+    <item type="string" name="APKTOOL_DUMMY_398">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_404">false</item>
+    <item type="string" name="APKTOOL_DUMMY_439">false</item>
+    <item type="string" name="APKTOOL_DUMMY_460">false</item>
+    <item type="string" name="APKTOOL_DUMMY_463">false</item>
     <item type="string" name="APKTOOL_DUMMY_4c3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4cc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4cd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4ce">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4da">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4e5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4e6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4ed">false</item>
-    <item type="string" name="APKTOOL_DUMMY_502">false</item>
-    <item type="string" name="APKTOOL_DUMMY_510">false</item>
-    <item type="string" name="APKTOOL_DUMMY_516">false</item>
-    <item type="string" name="APKTOOL_DUMMY_538">false</item>
-    <item type="string" name="APKTOOL_DUMMY_53a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_50b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_51a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_51b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_51c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_521">false</item>
+    <item type="string" name="APKTOOL_DUMMY_524">false</item>
+    <item type="string" name="APKTOOL_DUMMY_526">false</item>
+    <item type="string" name="APKTOOL_DUMMY_528">false</item>
+    <item type="string" name="APKTOOL_DUMMY_530">false</item>
+    <item type="string" name="APKTOOL_DUMMY_531">false</item>
+    <item type="string" name="APKTOOL_DUMMY_540">false</item>
+    <item type="string" name="APKTOOL_DUMMY_541">false</item>
+    <item type="string" name="APKTOOL_DUMMY_542">false</item>
     <item type="string" name="APKTOOL_DUMMY_543">false</item>
     <item type="string" name="APKTOOL_DUMMY_54a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54f">false</item>
     <item type="string" name="APKTOOL_DUMMY_551">false</item>
-    <item type="string" name="APKTOOL_DUMMY_56a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_57f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_580">false</item>
-    <item type="string" name="APKTOOL_DUMMY_581">false</item>
-    <item type="string" name="APKTOOL_DUMMY_582">false</item>
-    <item type="string" name="APKTOOL_DUMMY_588">false</item>
-    <item type="string" name="APKTOOL_DUMMY_592">false</item>
-    <item type="string" name="APKTOOL_DUMMY_596">false</item>
-    <item type="string" name="APKTOOL_DUMMY_597">false</item>
-    <item type="string" name="APKTOOL_DUMMY_59a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_555">false</item>
+    <item type="string" name="APKTOOL_DUMMY_556">false</item>
+    <item type="string" name="APKTOOL_DUMMY_557">false</item>
+    <item type="string" name="APKTOOL_DUMMY_561">false</item>
+    <item type="string" name="APKTOOL_DUMMY_563">false</item>
+    <item type="string" name="APKTOOL_DUMMY_56e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_56f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_576">false</item>
+    <item type="string" name="APKTOOL_DUMMY_58b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_599">false</item>
+    <item type="string" name="APKTOOL_DUMMY_59f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5c3">false</item>
     <item type="string" name="APKTOOL_DUMMY_5c5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5d0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5ce">false</item>
     <item type="string" name="APKTOOL_DUMMY_5d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5d6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5ec">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5fa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_602">false</item>
-    <item type="string" name="APKTOOL_DUMMY_603">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_60b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_60c">false</item>
     <item type="string" name="APKTOOL_DUMMY_60d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_626">false</item>
-    <item type="string" name="APKTOOL_DUMMY_62a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_632">false</item>
-    <item type="string" name="APKTOOL_DUMMY_633">false</item>
-    <item type="string" name="APKTOOL_DUMMY_639">false</item>
-    <item type="string" name="APKTOOL_DUMMY_63c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_63f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_640">false</item>
-    <item type="string" name="APKTOOL_DUMMY_648">false</item>
-    <item type="string" name="APKTOOL_DUMMY_64c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_60e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_615">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_624">false</item>
     <item type="string" name="APKTOOL_DUMMY_655">false</item>
-    <item type="string" name="APKTOOL_DUMMY_656">false</item>
-    <item type="string" name="APKTOOL_DUMMY_659">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_670">false</item>
-    <item type="string" name="APKTOOL_DUMMY_673">false</item>
+    <item type="string" name="APKTOOL_DUMMY_657">false</item>
+    <item type="string" name="APKTOOL_DUMMY_65e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_662">false</item>
+    <item type="string" name="APKTOOL_DUMMY_663">false</item>
+    <item type="string" name="APKTOOL_DUMMY_664">false</item>
     <item type="string" name="APKTOOL_DUMMY_67a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67f">false</item>
     <item type="string" name="APKTOOL_DUMMY_680">false</item>
     <item type="string" name="APKTOOL_DUMMY_681">false</item>
-    <item type="string" name="APKTOOL_DUMMY_682">false</item>
-    <item type="string" name="APKTOOL_DUMMY_685">false</item>
     <item type="string" name="APKTOOL_DUMMY_686">false</item>
-    <item type="string" name="APKTOOL_DUMMY_687">false</item>
+    <item type="string" name="APKTOOL_DUMMY_688">false</item>
     <item type="string" name="APKTOOL_DUMMY_689">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6ac">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6ad">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6ae">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6af">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6b0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_690">false</item>
+    <item type="string" name="APKTOOL_DUMMY_691">false</item>
+    <item type="string" name="APKTOOL_DUMMY_69b">false</item>
     <item type="string" name="APKTOOL_DUMMY_6b6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6b9">false</item>
     <item type="string" name="APKTOOL_DUMMY_6ba">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6bb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6bc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6c6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6c7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6cd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6d2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6d3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6d4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6d8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6d0">false</item>
     <item type="string" name="APKTOOL_DUMMY_6d9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6da">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ee">false</item>
     <item type="string" name="APKTOOL_DUMMY_6ef">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6f9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6fa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6fe">false</item>
-    <item type="string" name="APKTOOL_DUMMY_701">false</item>
-    <item type="string" name="APKTOOL_DUMMY_702">false</item>
-    <item type="string" name="APKTOOL_DUMMY_707">false</item>
-    <item type="string" name="APKTOOL_DUMMY_70c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_703">false</item>
+    <item type="string" name="APKTOOL_DUMMY_706">false</item>
     <item type="string" name="APKTOOL_DUMMY_70d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_70e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_711">false</item>
+    <item type="string" name="APKTOOL_DUMMY_710">false</item>
     <item type="string" name="APKTOOL_DUMMY_712">false</item>
-    <item type="string" name="APKTOOL_DUMMY_720">false</item>
-    <item type="string" name="APKTOOL_DUMMY_721">false</item>
-    <item type="string" name="APKTOOL_DUMMY_723">false</item>
-    <item type="string" name="APKTOOL_DUMMY_724">false</item>
-    <item type="string" name="APKTOOL_DUMMY_725">false</item>
-    <item type="string" name="APKTOOL_DUMMY_72b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_738">false</item>
-    <item type="string" name="APKTOOL_DUMMY_739">false</item>
-    <item type="string" name="APKTOOL_DUMMY_73a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_73b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_73c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_713">false</item>
+    <item type="string" name="APKTOOL_DUMMY_714">false</item>
+    <item type="string" name="APKTOOL_DUMMY_715">false</item>
+    <item type="string" name="APKTOOL_DUMMY_718">false</item>
+    <item type="string" name="APKTOOL_DUMMY_719">false</item>
+    <item type="string" name="APKTOOL_DUMMY_71a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_71c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_734">false</item>
+    <item type="string" name="APKTOOL_DUMMY_735">false</item>
     <item type="string" name="APKTOOL_DUMMY_73f">false</item>
     <item type="string" name="APKTOOL_DUMMY_740">false</item>
     <item type="string" name="APKTOOL_DUMMY_741">false</item>
+    <item type="string" name="APKTOOL_DUMMY_742">false</item>
+    <item type="string" name="APKTOOL_DUMMY_743">false</item>
+    <item type="string" name="APKTOOL_DUMMY_745">false</item>
+    <item type="string" name="APKTOOL_DUMMY_749">false</item>
     <item type="string" name="APKTOOL_DUMMY_74e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_74f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_750">false</item>
     <item type="string" name="APKTOOL_DUMMY_751">false</item>
-    <item type="string" name="APKTOOL_DUMMY_752">false</item>
-    <item type="string" name="APKTOOL_DUMMY_753">false</item>
-    <item type="string" name="APKTOOL_DUMMY_756">false</item>
-    <item type="string" name="APKTOOL_DUMMY_757">false</item>
-    <item type="string" name="APKTOOL_DUMMY_758">false</item>
-    <item type="string" name="APKTOOL_DUMMY_759">false</item>
-    <item type="string" name="APKTOOL_DUMMY_75a">false</item>
     <item type="string" name="APKTOOL_DUMMY_75b">false</item>
     <item type="string" name="APKTOOL_DUMMY_75c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_75e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_760">false</item>
-    <item type="string" name="APKTOOL_DUMMY_761">false</item>
-    <item type="string" name="APKTOOL_DUMMY_762">false</item>
     <item type="string" name="APKTOOL_DUMMY_764">false</item>
-    <item type="string" name="APKTOOL_DUMMY_765">false</item>
-    <item type="string" name="APKTOOL_DUMMY_76d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_77d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_77e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_77f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_78c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_78d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_768">false</item>
+    <item type="string" name="APKTOOL_DUMMY_769">false</item>
+    <item type="string" name="APKTOOL_DUMMY_76a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_76b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_76c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_76f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_770">false</item>
+    <item type="string" name="APKTOOL_DUMMY_771">false</item>
+    <item type="string" name="APKTOOL_DUMMY_779">false</item>
+    <item type="string" name="APKTOOL_DUMMY_786">false</item>
+    <item type="string" name="APKTOOL_DUMMY_79a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_79b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_79c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_79d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_79f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a2">false</item>
     <item type="string" name="APKTOOL_DUMMY_7a3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7a4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7c2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7c3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7c4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7c5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7b3">false</item>
     <item type="string" name="APKTOOL_DUMMY_7c7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7cb">false</item>
     <item type="string" name="APKTOOL_DUMMY_7cc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7ce">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7d0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7d1">false</item>
     <item type="string" name="APKTOOL_DUMMY_7d2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7d3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7d8">false</item>
     <item type="string" name="APKTOOL_DUMMY_7df">false</item>
     <item type="string" name="APKTOOL_DUMMY_7e0">false</item>
     <item type="string" name="APKTOOL_DUMMY_7e1">false</item>
     <item type="string" name="APKTOOL_DUMMY_7e2">false</item>
     <item type="string" name="APKTOOL_DUMMY_7e3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7e4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7e5">false</item>
     <item type="string" name="APKTOOL_DUMMY_7e6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_82d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_853">false</item>
-    <item type="string" name="APKTOOL_DUMMY_864">false</item>
-    <item type="string" name="APKTOOL_DUMMY_865">false</item>
-    <item type="string" name="APKTOOL_DUMMY_867">false</item>
-    <item type="string" name="APKTOOL_DUMMY_868">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8c8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8ca">false</item>
-    <item type="string" name="APKTOOL_DUMMY_911">false</item>
-    <item type="string" name="APKTOOL_DUMMY_912">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_800">false</item>
+    <item type="string" name="APKTOOL_DUMMY_801">false</item>
+    <item type="string" name="APKTOOL_DUMMY_802">false</item>
+    <item type="string" name="APKTOOL_DUMMY_803">false</item>
+    <item type="string" name="APKTOOL_DUMMY_805">false</item>
+    <item type="string" name="APKTOOL_DUMMY_807">false</item>
+    <item type="string" name="APKTOOL_DUMMY_808">false</item>
+    <item type="string" name="APKTOOL_DUMMY_809">false</item>
+    <item type="string" name="APKTOOL_DUMMY_80b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_80c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_814">false</item>
+    <item type="string" name="APKTOOL_DUMMY_824">false</item>
+    <item type="string" name="APKTOOL_DUMMY_825">false</item>
+    <item type="string" name="APKTOOL_DUMMY_826">false</item>
+    <item type="string" name="APKTOOL_DUMMY_833">false</item>
+    <item type="string" name="APKTOOL_DUMMY_834">false</item>
+    <item type="string" name="APKTOOL_DUMMY_84c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_84d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_84e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_84f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_850">false</item>
+    <item type="string" name="APKTOOL_DUMMY_86d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_86e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_86f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_870">false</item>
+    <item type="string" name="APKTOOL_DUMMY_871">false</item>
+    <item type="string" name="APKTOOL_DUMMY_872">false</item>
+    <item type="string" name="APKTOOL_DUMMY_874">false</item>
+    <item type="string" name="APKTOOL_DUMMY_877">false</item>
+    <item type="string" name="APKTOOL_DUMMY_879">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_880">false</item>
+    <item type="string" name="APKTOOL_DUMMY_883">false</item>
+    <item type="string" name="APKTOOL_DUMMY_88a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_88b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_88c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_88d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_88e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_88f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_890">false</item>
+    <item type="string" name="APKTOOL_DUMMY_891">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_908">false</item>
     <item type="string" name="APKTOOL_DUMMY_91b">false</item>
     <item type="string" name="APKTOOL_DUMMY_91c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_91e">false</item>
     <item type="string" name="APKTOOL_DUMMY_91f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_920">false</item>
-    <item type="string" name="APKTOOL_DUMMY_921">false</item>
-    <item type="string" name="APKTOOL_DUMMY_922">false</item>
-    <item type="string" name="APKTOOL_DUMMY_923">false</item>
-    <item type="string" name="APKTOOL_DUMMY_944">false</item>
-    <item type="string" name="APKTOOL_DUMMY_96e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_973">false</item>
-    <item type="string" name="APKTOOL_DUMMY_975">false</item>
-    <item type="string" name="APKTOOL_DUMMY_976">false</item>
-    <item type="string" name="APKTOOL_DUMMY_983">false</item>
-    <item type="string" name="APKTOOL_DUMMY_986">false</item>
-    <item type="string" name="APKTOOL_DUMMY_98f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_992">false</item>
-    <item type="string" name="APKTOOL_DUMMY_998">false</item>
-    <item type="string" name="APKTOOL_DUMMY_99a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9af">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9ba">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9bb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9bc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9bd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9be">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9bf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9c1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9c6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a5e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a5f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a61">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a62">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9d5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a11">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a3b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a40">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a42">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a43">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a52">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a55">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a63">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a66">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a6c">false</item>
     <item type="string" name="APKTOOL_DUMMY_a6e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a6f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a70">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a73">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a74">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a7f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a79">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a7b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a7c">false</item>
     <item type="string" name="APKTOOL_DUMMY_a83">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a85">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a84">false</item>
     <item type="string" name="APKTOOL_DUMMY_a86">false</item>
     <item type="string" name="APKTOOL_DUMMY_a87">false</item>
     <item type="string" name="APKTOOL_DUMMY_a88">false</item>
     <item type="string" name="APKTOOL_DUMMY_a89">false</item>
     <item type="string" name="APKTOOL_DUMMY_a8a">false</item>
     <item type="string" name="APKTOOL_DUMMY_a8b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a8c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a8d">false</item>
     <item type="string" name="APKTOOL_DUMMY_a8e">false</item>
     <item type="string" name="APKTOOL_DUMMY_a8f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a96">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a99">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a9d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_aa0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_aa1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_aa6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_aac">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ab2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ab3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ab4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ab6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_aba">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ac4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ac5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_acf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ad4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ad8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_aee">false</item>
-    <item type="string" name="APKTOOL_DUMMY_aef">false</item>
-    <item type="string" name="APKTOOL_DUMMY_af5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_afa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b06">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b08">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b0c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b0e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b0f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b10">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b1e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b20">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b26">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b27">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b2a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b2e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b31">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b38">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b3a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a90">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a91">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a92">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a93">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a95">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a9a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b32">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b33">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b35">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b36">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b42">false</item>
     <item type="string" name="APKTOOL_DUMMY_b43">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b45">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b4c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b54">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b65">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b67">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b68">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b44">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b47">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b48">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b53">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b57">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b59">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b5a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b5b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b5c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b5d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b5e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b5f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b63">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b64">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b6b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b6e">false</item>
     <item type="string" name="APKTOOL_DUMMY_b72">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b75">false</item>
     <item type="string" name="APKTOOL_DUMMY_b76">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b7f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b7b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b81">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b88">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b89">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b8a">false</item>
     <item type="string" name="APKTOOL_DUMMY_b8c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b93">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b9b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b9d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ba1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ba2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bad">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bb1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bb2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bb9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bbd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bde">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b90">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ba5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ba9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_baf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bb7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bc6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bc7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bce">false</item>
     <item type="string" name="APKTOOL_DUMMY_be0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_be9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bf8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c00">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c01">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c04">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c08">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c0b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c13">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c15">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c18">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c1f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c21">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c26">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c29">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c42">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c44">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c4f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c50">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c54">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c58">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c5e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c68">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c6c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c73">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c7b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c7d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c81">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c86">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c88">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c90">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c9c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ca0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_cc1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_cc3">false</item>
 </resources>

@@ -6,10 +6,13 @@
         </initialization_deps>
         <keyboard_group>
             <keyboard type="prime" def="@xml/keyboard_search_gif" />
-            <keyboard type="search_result" def="@xml/keyboard_gif" />
         </keyboard_group>
+        <keyboard_types>
+            <keyboard type="@string/keyboard_type_gif_search_result" />
+        </keyboard_types>
         <extra_values>
             <item id="@id/extra_value_default_query" value="gif_keyboard_default_candidates" />
+            <item id="@id/extra_value_default_keyboard" value="@string/keyboard_type_gif_search_result" />
             <item id="@id/extra_value_superpack_strategy_provider" value="com.google.android.apps.inputmethod.libs.search.makeagif.superpacks.MakeAGifSuperpacksStrategyProvider" />
         </extra_values>
     </module>

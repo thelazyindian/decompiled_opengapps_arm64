@@ -8,6 +8,6 @@
             <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_ime_action" android:layout_weight="@integer/keyboard_row_weight" style="@style/SoftKey.BottomPadded.ImeAction.InColumn" />
             <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_up" android:layout_weight="@integer/keyboard_row_weight" style="@style/SoftKey.BottomPadded.Dark.InColumn" />
         </LinearLayout>
-        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_down" android:layout_weight="?KeyboardBottomWeight" style="@style/SoftKey.Bottom.Dark.InColumn" />
+        <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_candidates_page_down" android:layout_weight="?KeyboardBottomWeight" style="@style/SoftKey.Bottom.Dark.InColumn.BottomRight" />
     </LinearLayout>
 </FrameLayout>

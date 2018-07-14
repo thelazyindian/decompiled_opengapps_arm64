@@ -9,7 +9,7 @@
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_undo" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_left_arrow" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
                 <include layout="@layout/keyboard_ja_12keys_body_inner_switch_to_non_prime" />
-                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_hiragana_alphabet" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
+                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_switch_hiragana_alphabet" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad.BottomLeft" />
             </LinearLayout>
         </FrameLayout>
         <LinearLayout android:layout_weight="600.0" style="@style/DigitKeyboardMiddlePanel.BigPanel">
@@ -51,7 +51,7 @@
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_del" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_right_arrow" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
                 <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_space" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.Dark.InColumn.Numpad" />
-                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.ImeAction.InColumn.Numpad" />
+                <com.google.android.apps.inputmethod.libs.framework.keyboard.SoftKeyView android:id="@id/key_pos_ime_action" android:layout_weight="250.0" style="@style/SoftKey.SmallInset.ImeAction.InColumn.Numpad.BottomRight" />
             </LinearLayout>
         </FrameLayout>
     </LinearLayout>

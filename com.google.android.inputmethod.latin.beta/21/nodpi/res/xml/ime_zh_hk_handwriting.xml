@@ -8,6 +8,7 @@
         <extra_values>
             <item id="@id/extra_value_has_more_candidates_view" value="true" />
             <item id="@id/extra_value_space_label" value="@string/label_space_handwriting_zh_hk" />
+            <item id="@id/extra_value_metrics_processors" value="hmm" />
         </extra_values>
         <processors>
             <processor id="@id/ime_decode_processor" class="com.google.android.apps.inputmethod.cantonese.ime.CantoneseHmmHandwritingDecodeProcessor" />

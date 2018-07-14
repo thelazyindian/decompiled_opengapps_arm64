@@ -19,12 +19,13 @@
     <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission-sdk-23 android:name="android.permission.READ_SMS"/>
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-feature android:name="android.hardware.screen.portrait" android:required="false"/>
     <uses-permission-sdk-23 android:name="android.permission.CAMERA"/>
     <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-feature android:name="android.hardware.camera" android:required="false"/>
     <permission android:name="com.google.android.apps.inputmethod.latin.permission.UPDATE_STICKER_INDEX" android:protectionLevel="signature"/>
     <uses-permission android:name="com.google.android.apps.inputmethod.latin.permission.UPDATE_STICKER_INDEX"/>
-    <application android:allowBackup="true" android:backupAgent="com.google.android.apps.inputmethod.latin.core.LatinBackupAgent" android:debuggable="false" android:extractNativeLibs="false" android:icon="@mipmap/ic_app" android:killAfterRestore="false" android:label="@string/ime_name" android:name="com.google.android.apps.inputmethod.latin.LatinApp" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_app_round" android:supportsRtl="true" android:theme="@style/AppThemeSelector" android:usesCleartextTraffic="true">
+    <application android:allowBackup="true" android:backupAgent="com.google.android.apps.inputmethod.latin.core.LatinBackupAgent" android:debuggable="false" android:extractNativeLibs="false" android:fullBackupContent="@xml/full_backup_rules" android:fullBackupOnly="false" android:icon="@mipmap/ic_app" android:killAfterRestore="false" android:label="@string/ime_name" android:name="com.google.android.apps.inputmethod.latin.LatinApp" android:restoreAnyVersion="true" android:roundIcon="@mipmap/ic_app_round" android:supportsRtl="true" android:theme="@style/AppThemeSelector" android:usesCleartextTraffic="true">
         <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAIl3fO6Spo7vqdonbORA0gOqfXPTnKWTdG6eHJNA"/>
         <meta-data android:name="com.google.android.partnersetup.RLZ_BOUNTY_ACCESS_POINT" android:value="y0,yg"/>
         <service android:directBootAware="true" android:label="@string/ime_name" android:name="com.android.inputmethod.latin.LatinIME" android:permission="android.permission.BIND_INPUT_METHOD">
@@ -39,7 +40,7 @@
             </intent-filter>
         </receiver>
         <activity android:configChanges="screenLayout|smallestScreenSize" android:label="@string/setting_title" android:name="com.google.android.apps.inputmethod.latin.preference.SettingsActivity" android:taskAffinity="com.google.android.apps.inputmethod.latin.preference.SettingsActivity" android:theme="@style/SettingsTheme"/>
-        <activity android:clearTaskOnLaunch="true" android:exported="false" android:finishOnTaskLaunch="true" android:label="@string/ime_name" android:launchMode="singleTask" android:name="com.google.android.apps.inputmethod.latin.firstrun.LatinFirstRunActivity" android:theme="@style/AppThemeSelector.NoTitle"/>
+        <activity android:clearTaskOnLaunch="true" android:exported="false" android:finishOnTaskLaunch="true" android:launchMode="singleTask" android:name="com.google.android.apps.inputmethod.latin.firstrun.LatinFirstRunActivity" android:theme="@style/AppThemeSelector.NoTitle"/>
         <service android:label="@string/spell_checker_name" android:name="com.android.inputmethod.latin.spellcheck.AndroidSpellCheckerService" android:permission="android.permission.BIND_TEXT_SERVICE">
             <intent-filter>
                 <action android:name="android.service.textservice.SpellCheckerService"/>
@@ -132,17 +133,9 @@
         <service android:enabled="true" android:exported="true" android:name="com.google.android.apps.inputmethod.libs.latin5.debug.TrustedTestService"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.lstm.ILstmExtension" android:value="@xml/extension_lstm"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.mozc.extension.IJapaneseMozcExtension" android:value="@xml/extension_japanese_mozc"/>
-        <activity android:name="com.google.android.apps.inputmethod.libs.notificationsmartreply.NotificationPermissionActivity"/>
-        <service android:name="com.google.android.apps.inputmethod.libs.notificationsmartreply.NotificationMonitor" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
-            <intent-filter>
-                <action android:name="android.service.notification.NotificationListenerService"/>
-            </intent-filter>
-        </service>
-        <meta-data android:name="module:com.google.android.apps.inputmethod.libs.notificationsmartreply.INotificationSmartReplyExtension" android:value="@xml/extension_notification_smartreply"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.pill.IPillExtension" android:value="@xml/extension_pill"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IEmojiSearchExtension" android:value="@xml/extension_emoji_search"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IEmoticonExtension" android:value="@xml/extension_emoticon"/>
-        <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IEmojiDataExtension" android:value="@xml/extension_emoji_data"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.federatedc2q.IFederatedC2QExtension" android:value="@xml/extension_federated_c2q"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IGifKeyboardExtension" android:value="@xml/extension_gif_search"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IGifEntryPointCandidateExtension" android:value="@xml/extension_gif_entry_point_candidate"/>
@@ -157,14 +150,17 @@
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IStickerExtension" android:value="@xml/extension_sticker"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IBitmojiExtension" android:value="@xml/extension_bitmoji"/>
         <activity android:label="@string/sticker_gallery_label" android:name="com.google.android.apps.inputmethod.libs.search.sticker.ExpressiveStickerGalleryActivity" android:theme="@style/GalleryTheme"/>
+        <activity android:name="com.google.android.apps.inputmethod.libs.search.sticker.ExpressiveLaunchAvatarCreationActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.search.IUniversalMediaExtension" android:value="@xml/extension_universal_media"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.swissarmyknife.IDecoderBugReportExtension" android:value="@xml/extension_decoder_bug_report"/>
         <activity android:configChanges="orientation|screenSize" android:name="com.google.android.apps.inputmethod.libs.swissarmyknife.DecoderBugReportActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.google.android.apps.inputmethod.libs.swissarmyknife.SettingsActivity"/>
         <activity android:configChanges="orientation|screenSize" android:name="com.google.android.apps.inputmethod.libs.swissarmyknife.LogsInspectionPreferenceActivity"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.textediting.ITextEditingExtension" android:value="@xml/extension_text_editing"/>
         <activity android:exported="false" android:label="@string/theme_selector_title" android:launchMode="singleTask" android:name="com.google.android.apps.inputmethod.libs.theme.preference.ThemeSelectorActivity" android:taskAffinity="com.google.android.apps.inputmethod.libs.theme.preference.ThemeSelectorActivity" android:theme="@style/ThemeSettingsTheme"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/theme_builder_title" android:name="com.google.android.apps.inputmethod.libs.theme.preference.ThemeBuilderActivity" android:theme="@style/ThemeSettingsTheme"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/theme_editor_title" android:name="com.google.android.apps.inputmethod.libs.theme.preference.ThemeEditorActivity" android:theme="@style/ThemeSettingsTheme"/>
+        <service android:exported="false" android:name="com.google.android.apps.inputmethod.libs.trainingcache.tiresias.TiresiasTrainingService" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":train"/>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.translate.ITranslateUIExtension" android:value="@xml/extension_def_translate"/>
         <receiver android:enabled="true" android:name="com.google.android.apps.inputmethod.libs.translate.SuggestionSpanBroadcastForwarder">
             <intent-filter>
@@ -172,6 +168,9 @@
             </intent-filter>
         </receiver>
         <meta-data android:name="module:com.google.android.apps.inputmethod.libs.voiceime.IVoiceImeExtension" android:value="@xml/extension_voice_ime"/>
+        <activity android:label="" android:name="com.google.android.libraries.avatar.creation.CreateAvatarActivity" android:screenOrientation="portrait" android:theme="@style/CreationTheme"/>
+        <meta-data android:name="preloaded_fonts" android:resource="@array/preloaded_fonts"/>
+        <activity android:label="" android:name="com.google.android.libraries.avatar.customizer.CustomizeAvatarActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light"/>
         <service android:exported="false" android:name="com.google.android.libraries.micore.training.cache.service.TrainingCacheManagerService">
             <intent-filter>
                 <action android:name="com.google.android.libraries.micore.training.cache.service.BIND_CACHE_MANAGER_PRIV"/>
@@ -181,7 +180,9 @@
         <service android:exported="false" android:name="com.google.android.libraries.micore.training.cache.service.TrainingCacheErasureJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:exported="true" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.UnquantumLicenseMenuActivity"/>
         <activity android:exported="false" android:label="@string/preferences_license_title" android:name="com.google.android.libraries.social.licenses.UnquantumLicenseActivity"/>
+        <activity android:name="com.google.android.libraries.stickers.avatarcreation.LaunchAvatarCreationActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:label="@string/sticker_gallery_label" android:name="com.google.android.libraries.stickers.gallery.StickerGalleryActivity" android:theme="@style/GalleryTheme"/>
+        <activity android:label="" android:name="com.google.android.libraries.stickers.megamode.MegamodeActivity" android:screenOrientation="portrait" android:theme="@style/MegamodeTheme"/>
         <activity android:label="@string/pack_details_label" android:name="com.google.android.libraries.stickers.packdetails.PackDetailsActivity" android:theme="@style/PackDetailsTheme"/>
         <receiver android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsReceiver"/>
         <service android:enabled="true" android:exported="false" android:name="com.google.android.gms.analytics.AnalyticsService"/>
@@ -189,6 +190,7 @@
         <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
         <service android:exported="true" android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
         <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <service android:enabled="true" android:exported="true" android:name="com.google.android.gms.learning.internal.InAppProxyService" android:permission="com.google.android.gms.learning.permission.LAUNCH_IN_APP_PROXY"/>
         <receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE"/>

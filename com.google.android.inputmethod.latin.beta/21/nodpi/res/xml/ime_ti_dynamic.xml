@@ -5,5 +5,8 @@
             <keyboard type="prime" def="@xml/keyboard_ti_dynamic" />
             <include href="@xml/keyboards_non_prime_latin" />
         </keyboard_group>
+        <extra_values>
+            <item id="@id/extra_value_dynamic_layout_with_transformed_keys" value="true" />
+        </extra_values>
     </ime>
 </framework>

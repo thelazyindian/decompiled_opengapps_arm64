@@ -3,5 +3,5 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <com.google.android.apps.inputmethod.libs.search.widget.AnimatedImageHolderView android:id="@id/animated_image_holder_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/sticker_keyboard_horizontal_margin" android:paddingEnd="@dimen/sticker_keyboard_horizontal_margin" image_view_layout="@layout/animated_sticker_view" />
     <ProgressBar android:layout_gravity="center" android:id="@id/animated_image_holder_view_loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
-    <FrameLayout android:id="@id/sticker_inline_error_card_container" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/sticker_inline_error_card_container" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/header_bar_horizontal_margin" android:layout_marginEnd="@dimen/header_bar_horizontal_margin" />
 </FrameLayout>

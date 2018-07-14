@@ -6,8 +6,12 @@
         </initialization_deps>
         <keyboard_group>
             <keyboard type="prime" def="@xml/keyboard_sticker_search" />
-            <keyboard type="search_result" def="@xml/keyboard_sticker" />
         </keyboard_group>
-        <extra_values />
+        <keyboard_types>
+            <keyboard type="@string/keyboard_type_sticker_search_result" />
+        </keyboard_types>
+        <extra_values>
+            <item id="@id/extra_value_default_keyboard" value="@string/keyboard_type_sticker_search_result" />
+        </extra_values>
     </module>
 </framework>

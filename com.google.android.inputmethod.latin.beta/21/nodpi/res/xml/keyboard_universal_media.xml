@@ -3,6 +3,7 @@
     <keyboard id="@id/keyboard_universal_media" class="com.google.android.apps.inputmethod.libs.search.universalmedia.UniversalMediaKeyboard" remember_recent_key="ALL_ACTIONS" recent_key_type="smiley" recent_key_layout="@layout/softkey_label_emoji" recent_key_popup_layout="@layout/popup_bubble_rectangular_label_small_material_keep_order">
         <view layout="@layout/keyboard_search_result_header_no_theme" scalable="false" direction="locale" type="header">
             <softkeys href="@xml/softkeys_search_header" />
+            <softkeys href="@xml/softkeys_universal_media_header" />
             <include href="@xml/keymapping_search_result_header" />
         </view>
         <view layout="@layout/keyboard_universal_media_body" type="body">
