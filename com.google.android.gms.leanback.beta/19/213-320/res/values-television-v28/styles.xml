@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SuwThemeMaterialLight" parent="@style/SuwThemeMaterial.Light">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="SystemUpdatePanoSetupContainerStyle" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="SystemUpdatePanoSetupTheme" parent="@style/Theme.Leanback.GuidedStep">
+        <item name="android:textAppearanceMedium">@style/SystemUpdatePanoTextAppearanceMedium</item>
+        <item name="android:textAppearanceSmall">@style/SystemUpdatePanoTextAppearanceSmall</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="guidanceContainerStyle">@style/SystemUpdatePanoSetup.GuidanceContainerStyle</item>
+        <item name="guidanceTitleStyle">@style/SystemUpdatePanoSetup.GuidanceTitleStyle</item>
+        <item name="guidanceDescriptionStyle">@style/SystemUpdatePanoSetup.GuidanceDescriptionStyle</item>
+    </style>
+</resources>

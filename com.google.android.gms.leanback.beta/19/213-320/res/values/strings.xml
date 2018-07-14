@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="CronetProviderClassName">com.google.android.gms.net.GmsCoreCronetProvider</string>
+    <string name="CronetProviderClassName">com.google.android.gms.net.PlayServicesCronetProvider</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
     <string name="abc_action_mode_done">Done</string>
     <string name="abc_capital_off">OFF</string>
     <string name="abc_capital_on">ON</string>
     <string name="abc_font_family_title_material">sans-serif-medium</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">space</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Search…</string>
     <string name="abc_searchview_description_clear">Clear query</string>
     <string name="abc_searchview_description_search">Search</string>
@@ -15,7 +25,6 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="about_preference_category">About</string>
     <string name="about_section_label">About %s</string>
-    <string name="accessibility_item_selected">Selected %1$s</string>
     <string name="account_blocked_title">Account Blocked</string>
     <string name="account_level_title">Account Action Required</string>
     <string name="account_removed_notification_text">%1$s was removed because device management was not completed</string>
@@ -55,8 +64,6 @@
     <string name="ad_id_notification_permission_description">Allow an app to receive a notification when the advertising ID or limit ad tracking preference of the user is updated.</string>
     <string name="ad_id_notification_permission_label">Advertising ID notification</string>
     <string name="add_account_button_label">Add account</string>
-    <string name="add_icon_button">Add icon</string>
-    <string name="add_nearby_shortcut">Add to Home screen</string>
     <string name="added_to_favorites">Added to favorites</string>
     <string name="adm_settings_activity_title">Find My Device</string>
     <string name="ads_prefs_ads_by_google">Ads by Google</string>
@@ -68,6 +75,10 @@
     <string name="ads_prefs_toggle_interest_based_ads_dialog_msg">&lt;b>You will still see ads, but they may not be based on your interests.&lt;/b>&lt;br>&lt;br> Note if you clear your cache, you will lose your opt-out setting.</string>
     <string name="ads_prefs_toggle_interest_based_ads_dialog_title">Opt out of interest-based ads?</string>
     <string name="ads_prefs_your_adid">Your advertising ID:</string>
+    <string name="albums_corpus_section_data">content://com.google.android.music.MusicContent/album/%$uri</string>
+    <string name="albums_corpus_section_icon_uri">content://com.google.android.music.MusicContent/albumorfauxart/%$uri</string>
+    <string name="albums_corpus_section_text_1">%album</string>
+    <string name="albums_corpus_section_text_2">Album by %artist</string>
     <string name="alias_editor_address_updated_accessibility_content">%1$s has been saved as %2$s.</string>
     <string name="alias_editor_alias_display">alias address</string>
     <string name="alias_editor_confirmation_message">This will clear your current %s across Google, including Google Maps, Google Now, and Google Search.</string>
@@ -86,19 +97,11 @@
     <string name="alias_editor_update_failed">Could not save alias</string>
     <string name="alias_editor_updating_location">Updating your location…</string>
     <string name="alias_editor_work_display">work address</string>
-    <string name="allow">ALLOW</string>
     <string name="analytics_service_title">Google Analytics Service</string>
-    <string name="android_device">Android device</string>
-    <string name="android_privacy_policy_title">Additional Privacy Policy</string>
-    <string name="app_action_install">Install app</string>
-    <string name="app_action_open">Open in app</string>
-    <string name="app_default_description">View app or mute notification from %1$s</string>
     <string name="app_indexing_debug_title">Firebase App Indexing</string>
     <string name="app_level_title">Sign-in Request</string>
     <string name="app_picker_no_apps">No apps selected</string>
     <string name="app_picker_no_apps_found">No apps found</string>
-    <string name="app_post_edu_description">Open in %1$s app</string>
-    <string name="app_post_edu_description_unknown">Open app</string>
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="appinvite_cancel_search_description">Cancel search</string>
     <string name="appinvite_choose_account">Choose account</string>
@@ -134,7 +137,7 @@
     <string name="appinvite_remove_content_description">Remove</string>
     <string name="appinvite_send_error">Message failed to send</string>
     <string name="appinvite_start_error">Failed to start</string>
-    <string name="appstate_sync_label">App Data</string>
+    <string name="appstate_sync_label">Play Games Cloud Save</string>
     <string name="ar_high_accuracy_details">"Activity recognition allows apps and services to receive regular updates from Google on your current activity. For example, Google can determine if you’re walking, driving, cycling, or stationary.
 
 If high accuracy is turned off, device sensors like the accelerometer will be used to detect activity.
@@ -143,11 +146,16 @@ Sensor and audio data are never recorded or shared with Google or apps."</string
     <string name="ar_high_accuracy_title">Activity recognition high accuracy mode</string>
     <string name="ar_high_accuracy_toggle_text">Use device sensors and background audio to detect activity</string>
     <string name="ar_high_accuracy_toggle_title">High accuracy</string>
+    <string name="artists_corpus_section_data">content://com.google.android.music.MusicContent/albumartist/%$uri</string>
+    <string name="artists_corpus_section_icon_uri">content://com.google.android.music.MusicContent/artistfauxart/%$uri</string>
+    <string name="artists_corpus_section_text_1">%artist</string>
+    <string name="artists_corpus_section_text_2">Artist</string>
     <string name="as_all_results">All results</string>
     <string name="as_authentication_error_description">Something went wrong and you need to sign in again.</string>
     <string name="as_home_tab_name">Home</string>
     <string name="as_mg_account_spinner_a11y_description">Current account: %s</string>
     <string name="as_mg_account_spinner_a11y_tap_action">change account</string>
+    <string name="as_mg_account_switcher_title">Choose account</string>
     <string name="as_network_error_description">"Some info may be outdated or not show. Refresh when you're back online."</string>
     <string name="as_offline_snackbar">Check your connection and try again</string>
     <string name="as_security_tab_name">Security</string>
@@ -155,12 +163,12 @@ Sensor and audio data are never recorded or shared with Google or apps."</string
     <string name="auth_account_already_has_gmail">Account already has Gmail.</string>
     <string name="auth_account_content_provider_label">Google Account Data</string>
     <string name="auth_account_module_display_name">Google Accounts</string>
-    <string name="auth_account_removed_default_description">Device management was not completed. $1%s</string>
+    <string name="auth_account_removed_default_description">Device management was not completed. %1$s</string>
     <string name="auth_account_removed_default_title">Setup canceled</string>
-    <string name="auth_account_removed_dm_bad_result_description">Device management could not be completed. $1%s</string>
+    <string name="auth_account_removed_dm_bad_result_description">Device management could not be completed. %1$s</string>
     <string name="auth_account_removed_dm_not_supported_description">"Your domain requires mobile device management, but it's not supported on this device. Try using a different account."</string>
     <string name="auth_account_removed_dm_not_supported_title">Device management not supported</string>
-    <string name="auth_account_removed_dm_setup_failed_description">Device management did not install properly. $1%s</string>
+    <string name="auth_account_removed_dm_setup_failed_description">Device management did not install properly. %1$s</string>
     <string name="auth_account_removed_dm_setup_failed_title">Trouble installing</string>
     <string name="auth_account_removed_dm_setup_skipped_title">Setup canceled</string>
     <string name="auth_account_removed_restricted_by_admin_description">"Only one managed account is allowed for this device. If you have questions, contact your organization's admin."</string>
@@ -170,7 +178,6 @@ Sensor and audio data are never recorded or shared with Google or apps."</string
     <string name="auth_account_start_over_and_signin_again">Start over and sign in again.</string>
     <string name="auth_account_state_authority">com.google.android.gms.auth.accountstate</string>
     <string name="auth_account_state_sync_title">Account State Sync</string>
-    <string name="auth_allow_button_label">Allow</string>
     <string name="auth_allow_external_site_access">Have ongoing access to your data at %s</string>
     <string name="auth_app_permission_ok_footnote">By continuing, you allow this app and Google to use your information in accordance with their respective terms of service and privacy policies.</string>
     <string name="auth_authenticator_label">Google</string>
@@ -198,10 +205,8 @@ Sensor and audio data are never recorded or shared with Google or apps."</string
     <string name="auth_d2d_source_unknown_device_name">Unknown Device</string>
     <string name="auth_d2d_tap_and_go">Tap &amp; Go</string>
     <string name="auth_d2d_target_tap_progress_message">To continue, tap OK on your other device</string>
-    <string name="auth_d2d_target_title">Tap &amp; Go</string>
     <string name="auth_d2d_target_unlock_progress_message">Check your other device</string>
     <string name="auth_d2d_target_wait_progress_message">Getting accounts and data...</string>
-    <string name="auth_deny_button_label">Deny</string>
     <string name="auth_device_management_download_app_icon">%s app icon</string>
     <string name="auth_device_management_download_description">This account requires mobile device management. Install the ^1 app to enforce security policies required by the account.</string>
     <string name="auth_device_management_download_description_kids">To add the account to this device, first install <b>^1</b>". 
@@ -218,10 +223,13 @@ Sensor and audio data are never recorded or shared with Google or apps."</string
     <string name="auth_device_management_go_back">Go Back</string>
     <string name="auth_device_management_screenlock_description">"To access your work account on this device, you'll need to set a lock screen. This is your organization's mobile device policy."</string>
     <string name="auth_device_management_screenlock_skip_message">This account requires screenlock security. Would you like to start over with a different account?</string>
-    <string name="auth_device_management_setup_work_profile_description">"You may need a token or QR code from your IT admin. 
+    <string name="auth_device_management_setup_work_profile_description">"Your work profile keeps your work apps separate and is managed by your organization.
 
-To complete setup, "<b>Android Device Policy</b> app will be downloaded on your device.</string>
-    <string name="auth_device_management_setup_work_profile_settings_entry">Set up work profile</string>
+To finish setup, you’ll need a code from your IT admin. A management tool will be downloaded and used by your IT admin to manage your work profile."</string>
+    <string name="auth_device_management_setup_work_profile_enrollment_link_description">"Your work profile keeps your work apps separate and is managed by your organization.
+
+A management tool will be downloaded and used by your IT admin to manage your work profile."</string>
+    <string name="auth_device_management_setup_work_profile_settings_entry">Set up your work profile</string>
     <string name="auth_device_management_start_description">This account requires mobile device management. When you tap Next, the ^1 app will help you enforce security policies required for the account.</string>
     <string name="auth_device_management_start_description_kids">To add the account to this device, use <b>^1</b>". 
 
@@ -285,28 +293,6 @@ This could be a temporary problem. Try again or connect to another Wi-Fi network
     <string name="auth_invalid_login_character">Invalid character. Only 0-9, a-z, A-Z, and periods are allowed.</string>
     <string name="auth_invalid_password_character">Invalid password character.</string>
     <string name="auth_invalid_username">"The text you typed isn't a valid username."</string>
-    <string name="auth_kids_setup_wizard_services_agreement">By continuing, you agree that this device may also automatically download and install updates and apps from Google, your carrier, and this device’s manufacturer, possibly using cellular data. Some of these apps may offer in-app purchases. You can remove these apps at any time.</string>
-    <string name="auth_kids_setup_wizard_services_automatic_storage_manager"><b>Free up space when device storage is almost full</b> by removing some data from this device, like backed up photos and videos.</string>
-    <string name="auth_kids_setup_wizard_services_backup"><b>Automatically back up device data</b> (such as Wi‑Fi passwords and call history) and app data (such as settings and files stored by apps) to your child’s Google Drive.</string>
-    <string name="auth_kids_setup_wizard_services_backup_dialog_text">"When you turn on automatic backup, device and app data is periodically saved to a private folder in your child’s Google Drive. ^1
-
-Backup data will not count towards your child’s Drive storage quota. Large files, or files developers have chosen to exclude from the service will not be backed up."</string>
-    <string name="auth_kids_setup_wizard_services_backup_v26"><b>Automatically back up device data</b> (such as Wi‑Fi passwords, SMS and call history), settings and app data (such as settings and files stored by apps) to your child’s Google Drive.</string>
-    <string name="auth_kids_setup_wizard_services_description">As a parent, you can turn these services on or off at any time for your child’s account. Data will be used according to Google’s <annotation link="google_privacy">policies</annotation>".
-
-If you want to learn more, you can tap each service."</string>
-    <string name="auth_kids_setup_wizard_services_location_sharing"><b>Use Google’s location service to help apps</b> determine your child’s location. Anonymous location data will be sent to Google when this device is on.</string>
-    <string name="auth_kids_setup_wizard_services_location_sharing_details">"Google’s location service uses sources like Wi‑Fi and cellular networks to help estimate this device’s location faster and more accurately. This service is active when this device’s Location setting is on and in a mode that uses Wi‑Fi or mobile networks to estimate location, such as either the High accuracy or Battery saving (Power saving) mode.
-
-You can turn this service off by:
-
-"<li>Turning off the main Location setting on this device.</li>"
-
-"<li>Leaving the main Location setting on and selecting a mode that uses GPS only, sometimes called Device only.</li></string>
-    <string name="auth_kids_setup_wizard_services_usage_reporting"><b>Help improve your Android experience</b> by automatically sending diagnostic and device and app usage data to Google. This won’t be used to identify your child and will help improve battery life, app stability, network connectivity, and more.</string>
-    <string name="auth_kids_setup_wizard_services_usage_reporting_details">"This is general information about this device and how it’s used (such as battery level, app usage, and network connectivity). The data will be used to improve Google’s products and services for everyone. Some aggregated information will help partners, such as Android developers, make their apps and products better, too.
-
-Turning off this feature doesn’t affect this device’s ability to send the information needed for essential services such as system updates and security."</string>
     <string name="auth_login_activity_loginfail_text_pwonly">You typed an incorrect password or your account has changed. Re-type your password. If you forgot your password and need to recover your account click <annotation id="help_url">here</annotation>.</string>
     <string name="auth_login_task_title">Signing in</string>
     <string name="auth_login_title">Type Email and Password</string>
@@ -329,11 +315,16 @@ Turning off this feature doesn’t affect this device’s ability to send the in
     <string name="auth_password">Password</string>
     <string name="auth_plus_audience_selection_description_acl">SHARE WITH</string>
     <string name="auth_plus_info_fragment_app_name">%s would like to:</string>
-    <string name="auth_plus_info_fragment_app_name_with_device" formatted="false">%s from device %s would like to:</string>
+    <string name="auth_plus_info_fragment_app_name_with_device">%1$s from device %2$s would like to:</string>
     <string name="auth_plus_scope_fragment_extended_circles_label">Your extended circles</string>
     <string name="auth_plus_scope_fragment_mixed_label">Selected circles</string>
     <string name="auth_plus_scope_fragment_public_label">Anyone on the web</string>
     <string name="auth_pre_factory_reset_title">Remember Your Google Account</string>
+    <string name="auth_pre_wipe_credential_check_text">Confirm password for %1$s before reset.</string>
+    <string name="auth_pre_wipe_credential_desc_text">After resetting you may need to sign in to your <b>%1$s</b>" Google account. 
+
+"<a href="www.example.com">Review backup status</a> to make sure you can restore your data later.</string>
+    <string name="auth_pre_wipe_title">Account &amp; data restore</string>
     <string name="auth_relogin_activity_title">Re-type password</string>
     <string name="auth_remove_account_start_over">Start Over</string>
     <string name="auth_request_accounts_list">Get a list of Google accounts on the device.</string>
@@ -342,66 +333,6 @@ Turning off this feature doesn’t affect this device’s ability to send the in
     <string name="auth_setup_wizard_account_added_activity_title">Account Added</string>
     <string name="auth_setup_wizard_account_added_description">Your account has been added. Please proceed to select Google Services options</string>
     <string name="auth_setup_wizard_services_activity_title">Google services</string>
-    <string name="auth_setup_wizard_services_agreement">By continuing, you agree that this device may also automatically download and install updates and apps from Google, your carrier, and your device’s manufacturer, possibly using cellular data. Some of these apps may offer in-app purchases. You can remove these apps at any time.</string>
-    <string name="auth_setup_wizard_services_agreement_dialog_text">To remove apps, go to Settings > Apps or Application manager. Then tap the app you want to uninstall (you may need to swipe right or left to find the app). Then tap Uninstall or Disable.</string>
-    <string name="auth_setup_wizard_services_agreement_korea">You also hereby consent and grant preloaded Google apps permission to access information and functions on your device. See <annotation link="app_permissions">this page</annotation> for more information on usage of these permissions.</string>
-    <string name="auth_setup_wizard_services_agreement_title">Install updates &amp; apps</string>
-    <string name="auth_setup_wizard_services_automatic_storage_manager">When your phone storage is almost full, free space by removing some data, like backed up photos and videos.</string>
-    <string name="auth_setup_wizard_services_automatic_storage_manager_details">When you’re connected, you can still access this data. You can control this feature and what’s removed by going to Settings > Storage > Smart Storage.</string>
-    <string name="auth_setup_wizard_services_automatic_storage_manager_title">Free up space</string>
-    <string name="auth_setup_wizard_services_backup">Easily restore or switch phones at any time. Backup includes apps, app data, and device settings (including Wi‑Fi passwords).</string>
-    <string name="auth_setup_wizard_services_backup_dialog_text">"^1
-
-Backup data will not count toward your Drive storage quota."</string>
-    <string name="auth_setup_wizard_services_backup_dialog_text_app_data">App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages, and photos.</string>
-    <string name="auth_setup_wizard_services_backup_dialog_text_turn_off">You can turn this service off in Settings.</string>
-    <string name="auth_setup_wizard_services_backup_dialog_text_with_photos">"^1
-
-Photos and videos from this device are synced with Google Photos to search, edit, delete, and share from any of your devices. By default, full resolution photos and videos are uploaded.
-
-Backup data will not count toward your Drive storage quota."</string>
-    <string name="auth_setup_wizard_services_backup_title">Back up to Google Drive</string>
-    <string name="auth_setup_wizard_services_backup_v23">Easily restore or switch phones at any time. Backup includes apps, app data, call history, contacts, and device settings (including Wi‑Fi passwords and permissions).</string>
-    <string name="auth_setup_wizard_services_backup_v26">Easily restore or switch phones at any time. Backup includes apps, app data, call history, contacts, device settings (including Wi‑Fi passwords and permissions), and SMS.</string>
-    <string name="auth_setup_wizard_services_backup_v26_with_photos">Easily restore or switch phones at any time. Backup includes apps, app data, call history, contacts, device settings (including Wi‑Fi passwords and permissions), photos, videos, and SMS. Photos and videos are synced to your Google Account and may be used across services.</string>
-    <string name="auth_setup_wizard_services_description">Tap to learn more about each service, such as how to turn it on or off later. Data will be used according to Google’s <annotation link="google_privacy">Privacy Policy</annotation>.</string>
-    <string name="auth_setup_wizard_services_instant_apps_learn_more">"App details including in-app purchases can be found in the Play Store. App data &amp; settings sync to devices signed in with your Google Account. 
-
-Use of instant apps is governed by the "<a href="https://play.google.com/about/play-terms.html">Google Play Terms of Service</a>". 
-"<a href="https://support.google.com/googleplay/?p=instant_apps">Learn more</a>.</string>
-    <string name="auth_setup_wizard_services_instant_apps_summary">When you tap a link, Google Play checks if an Instant app exists and runs it without installation. Instant apps are kept on your device temporarily.</string>
-    <string name="auth_setup_wizard_services_instant_apps_title">Use apps without installation</string>
-    <string name="auth_setup_wizard_services_location_sharing">Use Google’s location service to help apps determine your location. Anonymous location data will be sent to Google when your device is on.</string>
-    <string name="auth_setup_wizard_services_location_sharing_details">"Google’s location service uses sources like Wi‑Fi and cellular networks to help estimate your device’s location faster and more accurately. This service is active when your device’s Location setting is on and in a mode that uses Wi‑Fi or mobile networks to estimate location, such as either the High accuracy or Battery saving (Power saving) mode.
-
-You can turn off this service by either:
-
-"<li>Turning off the main Location setting on your device.</li>"
-
-"<li>Leaving the main Location setting on and selecting a mode that uses GPS only, sometimes called Device only.</li></string>
-    <string name="auth_setup_wizard_services_location_sharing_title">Help apps find location</string>
-    <string name="auth_setup_wizard_services_location_wireless_scan">Allow apps and services to scan for Wi‑Fi, even when it is off.</string>
-    <string name="auth_setup_wizard_services_location_wireless_scan_dialog_text">You can turn this off in location settings.</string>
-    <string name="auth_setup_wizard_services_location_wireless_scan_title">Improve location accuracy</string>
-    <string name="auth_setup_wizard_services_location_wireless_scan_v23">Allow apps and services to scan for Wi‑Fi and Bluetooth, even when these settings are off.</string>
-    <string name="auth_setup_wizard_services_play">Keep me up to date with news and offers from Google Play.</string>
-    <string name="auth_setup_wizard_services_safety_net" />
-    <string name="auth_setup_wizard_services_safety_net_dialog_text" />
-    <string name="auth_setup_wizard_services_section_backup_and_storage">Backup &amp; storage</string>
-    <string name="auth_setup_wizard_services_section_device_maintenance">Device maintenance</string>
-    <string name="auth_setup_wizard_services_tos">If you continue, you also agree to the <annotation link="tos">Google Terms of Service</annotation>.</string>
-    <string name="auth_setup_wizard_services_tos_germany">When you use this device we abide by our <annotation link="google_privacy">Privacy Policy</annotation> and <annotation link="tos">additional terms</annotation> apply.</string>
-    <string name="auth_setup_wizard_services_usage_reporting">Help improve your Android experience by automatically sending diagnostic and device and app usage data to Google. This will help improve battery life, app stability, network connectivity, and more. If you turned on additional Web &amp; App Activity, this information will be stored with your account so you can manage it in My Activity.</string>
-    <string name="auth_setup_wizard_services_usage_reporting_details">"This is general information about your device and how you use it (such as battery level, app usage, and network connectivity). The data will be used to improve Google’s products and services for everyone. Some aggregated information will help partners, such as Android developers, make their apps and products better, too.
-
-Turning off this feature doesn’t affect your device’s ability to send the information needed for essential services such as system updates and security."</string>
-    <string name="auth_setup_wizard_services_usage_reporting_my_activity_settings">You can update My Activity settings at myactivity.google.com.</string>
-    <string name="auth_setup_wizard_services_usage_reporting_settings">You can control this feature from Google Settings. Select Usage &amp; diagnostics from the menu.</string>
-    <string name="auth_setup_wizard_services_usage_reporting_settings_v23">You can control this feature from Settings > Google. Select Usage &amp; diagnostics from the menu.</string>
-    <string name="auth_setup_wizard_services_usage_reporting_title">Send system data</string>
-    <string name="auth_setup_wizard_services_wallpaper_permission">Allow Google Live wallpapers to respond to your location by accessing Google’s location service.</string>
-    <string name="auth_setup_wizard_services_wallpaper_permission_details">You can turn access to Google’s location service for Live wallpapers on or off by going to Settings > Apps &amp; notifications > App info. In the overflow menu, tap Show system > Live data wallpapers or Live Earth Wallpapers > Permissions.</string>
-    <string name="auth_setup_wizard_services_wallpaper_permission_title">Let wallpapers use location</string>
     <string name="auth_setup_wizard_title">Setup Wizard</string>
     <string name="auth_show_error_title">Error</string>
     <string name="auth_sign_in_agreement">By signing in you agree to the <annotation id="google_privacy">Google</annotation> and <annotation id="android_privacy">Additional</annotation> Privacy Policies.</string>
@@ -422,7 +353,7 @@ You need a license from Google to distribute Google apps and services. Apply at 
 To use Google apps and services during development, register the device. Reach out to your Google Business Development Manager for more info.
 
 "<b>Custom ROM users:</b>"
-To use Google apps and services with a custom ROM, register this device. Learn more at g.co/apps-custom."</string>
+To use Google apps and services with a custom ROM, register this device. Learn more at g.co/AndroidDeviceRegistration."</string>
     <string name="auth_uncertified_notification_title">Device is not certified by Google</string>
     <string name="auth_username">Email</string>
     <string name="auth_work_authenticator_label">Managed Account</string>
@@ -438,7 +369,7 @@ To use Google apps and services with a custom ROM, register this device. Learn m
     <string name="auto_backup_sync_provider">Google Photos Backup</string>
     <string name="auto_backup_title">Backup</string>
     <string name="auto_backup_upload_finished">Upload complete</string>
-    <string name="auto_backup_upload_progress" formatted="false">Backing up %s of %s</string>
+    <string name="auto_backup_upload_progress">Backing up %1$s of %2$s</string>
     <string name="auto_backup_upload_started">Upload started</string>
     <string name="auto_restore_summary">When reinstalling an app, restore backed up settings and data</string>
     <string name="auto_restore_title">Automatic restore</string>
@@ -462,8 +393,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="backup_erase_dialog_message_full">Stop backing up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps), plus erase all copies on Google Drive?</string>
     <string name="backup_erase_dialog_title" />
     <string name="backup_launch_photos_settings_error">There was an error opening photos settings</string>
-    <string name="backup_now_encryption_dialog_message">Your backup is encrypted with your lock screen. You must unlock your phone with your primary lock screen (PIN, password or pattern) at least once after backing up to activate it.</string>
-    <string name="backup_now_encryption_dialog_title">Please unlock your device</string>
     <string name="backup_now_error_text">Try again later</string>
     <string name="backup_now_error_title">Couldn’t back up data</string>
     <string name="backup_now_network_error_text">Check your internet connection and try again</string>
@@ -471,27 +400,27 @@ When you turn on automatic backup, device and app data is periodically saved rem
     <string name="backup_now_snackbar_error_text_format">%1$s. %2$s.</string>
     <string name="backup_now_success_text">Your data is backed up</string>
     <string name="backup_now_text">Back up now</string>
-    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text">"%1$s 
+    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text">"%1$s
 
-● %2$s 
+●%2$s
 
- %3$s 
+%3$s
 
- ^1"</string>
-    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_no_photos">"%1$s 
+^1"</string>
+    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_no_photos">"%1$s
 
- %2$s 
+%2$s
 
- ^1"</string>
-    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_pixel">"%1$s 
+^1"</string>
+    <string name="backup_opt_in_backup_auth_setup_wizard_services_backup_dialog_text_pixel">"%1$s
 
-● %2$s 
+●%2$s 
 
- %3$s 
+%3$s
 
- %4$s 
+%4$s
 
- ^1"</string>
+^1"</string>
     <string name="backup_opt_in_backup_description_v2">Automatic backup ensures you can easily restore or switch phones at any time. <annotation id="backup_opt_in_learn_more">Learn more</annotation></string>
     <string name="backup_opt_in_backup_disable_confirmation_description_v2">"This will turn off backup for:
 
@@ -515,7 +444,7 @@ SMS"</string>
     <string name="backup_services_process">@string/common_persistent_process</string>
     <string name="backup_settings_activity_title">Backup &amp; reset</string>
     <string name="backup_settings_preference_category">Backup Settings</string>
-    <string name="backup_settings_use_mobile_data_preference">Use mobile data</string>
+    <string name="backup_settings_use_wifi_only_preference">Use Wi-Fi only</string>
     <string name="backup_settings_when_to_back_up_group_header">When to back up</string>
     <string name="backup_storage_preference_category">Backup Storage</string>
     <string name="backup_turned_off_description">To turn it back on, go to your device’s settings</string>
@@ -524,10 +453,9 @@ SMS"</string>
     <string name="byteShort">B</string>
     <string name="cancel_copy_button_text">Don’t copy</string>
     <string name="change_backup_account_button_label">Change backup account</string>
+    <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
     <string name="choose_account_type_title">Choose account type</string>
-    <string name="chrome_privacy_title">Chrome Privacy Notice</string>
-    <string name="chrome_tos_title">Chrome Terms of Service</string>
     <string name="chromesync_custom_passphrase_explanation">Your existing passwords for %1$s were encrypted with your passphrase. If you have forgotten your passphrase, stop and reset sync via &lt;a href=%2$s>Google Dashboard&lt;/a>.</string>
     <string name="chromesync_custom_passphrase_title">ChromeSync passphrase</string>
     <string name="chromesync_enter_passphrase_hint">Enter passphrase</string>
@@ -540,16 +468,20 @@ SMS"</string>
     <string name="circle_button_follow">Follow</string>
     <string name="circle_button_following_circle">Following</string>
     <string name="circle_button_profile_blocked">Blocked</string>
+    <string name="circle_button_restricted">Restricted</string>
     <string name="close_button_label">Close</string>
     <string name="cloud_restore_app_picker_description_no_apps">Your backup doesn’t have any apps</string>
     <string name="cloud_restore_app_picker_title">Choose apps to restore</string>
     <string name="common_accept">Accept</string>
-    <string name="common_account_chip_add_account_button_label">Use another account</string>
+    <string name="common_account_consent_text_agreement">Before using this app, review its ^1 and ^2.</string>
+    <string name="common_account_consent_text_permissions">To sign you in, Google will share your name, email address, and profile picture with %1$s.</string>
+    <string name="common_account_no_browser_found">No browser found to open this link.</string>
     <string name="common_add">Add</string>
     <string name="common_add_account_button_label">Add account</string>
     <string name="common_add_account_label">Add an account</string>
     <string name="common_ads_settings_title">Ads</string>
     <string name="common_agree">Agree</string>
+    <string name="common_allow">Allow</string>
     <string name="common_android_wear_title">Wear OS</string>
     <string name="common_app_name">Google Play services</string>
     <string name="common_application_info">Application info</string>
@@ -571,16 +503,15 @@ SMS"</string>
     <string name="common_chips_label_only_you">Only you</string>
     <string name="common_chips_label_public">Public</string>
     <string name="common_chips_label_your_circles">Your circles</string>
-    <string name="common_choose_account">Choose an account</string>
     <string name="common_choose_account_for_app_label">Choose account for %1$s</string>
     <string name="common_choose_account_label">Choose an account</string>
-    <string name="common_confirm">Confirm</string>
     <string name="common_confirm_screen_lock_title">Confirm your screen lock</string>
     <string name="common_connected">Connected</string>
     <string name="common_connected_apps_settings_title">Connected apps</string>
     <string name="common_contacts_title">Contacts</string>
     <string name="common_continue">Continue</string>
     <string name="common_default_process">com.google.android.gms</string>
+    <string name="common_deny">Deny</string>
     <string name="common_disabled">Disabled</string>
     <string name="common_disagree">Disagree</string>
     <string name="common_dismiss">Dismiss</string>
@@ -645,6 +576,7 @@ SMS"</string>
     <string name="common_miscellaneous_title">Miscellaneous</string>
     <string name="common_missing_url_viewer">Missing viewer to show an external url.</string>
     <string name="common_more_options">More options</string>
+    <string name="common_mute_notification">Mute notification</string>
     <string name="common_nearby_title">Nearby</string>
     <string name="common_network_unavailable">No internet connection</string>
     <string name="common_network_usage_advanced_range_displayed">From: (%1$s) To: (%2$s).</string>
@@ -675,6 +607,7 @@ SMS"</string>
     <string name="common_persistent_process">com.google.android.gms.persistent</string>
     <string name="common_phone">Phone</string>
     <string name="common_plus_settings_title">Google+</string>
+    <string name="common_privacy_policy">Privacy policy</string>
     <string name="common_privacy_policy_composed_string">Privacy Policy</string>
     <string name="common_refresh">Refresh</string>
     <string name="common_reply">Reply</string>
@@ -689,6 +622,7 @@ SMS"</string>
     <string name="common_sending">Sending…</string>
     <string name="common_set_up_nearby_device_settings_title">Set up nearby device</string>
     <string name="common_settings">Settings</string>
+    <string name="common_share">Share</string>
     <string name="common_show_debug">Show debug items</string>
     <string name="common_sign_in">Sign in</string>
     <string name="common_signin_button_text">Sign in</string>
@@ -698,6 +632,7 @@ SMS"</string>
     <string name="common_something_went_wrong">Something went wrong</string>
     <string name="common_system_info_composed_string">account and system info</string>
     <string name="common_take_photo_label">Take photo</string>
+    <string name="common_terms_of_service">Terms of service</string>
     <string name="common_terms_of_service_composed_string">Terms of Service</string>
     <string name="common_today">Today</string>
     <string name="common_try_again">Try again</string>
@@ -719,14 +654,14 @@ SMS"</string>
     <string name="contact_info_source_context_contacts">Via your contacts</string>
     <string name="contact_info_source_context_google_profile">"Via user's Google profile"</string>
     <string name="contact_info_source_context_organization_profile">"Via user's organization profile"</string>
-    <string name="content_description_cancel_mute">Cancel Mute</string>
-    <string name="content_description_cancel_unmute">Cancel Unmute</string>
-    <string name="content_description_previous">Previous</string>
     <string name="content_selector_ui_title">Choose what to restore</string>
     <string name="continue_to_login_heading">Please login.</string>
     <string name="continue_to_login_text">Credentials granted. Proceed to login on your first device.</string>
     <string name="copy_confirmation_description">You’ll be copying data, like your Google Account and apps, to your new phone</string>
+    <string name="copy_confirmation_description_3p_v2">Your Google Accounts, other accounts, apps, and data will be transferred to your new phone</string>
+    <string name="copy_confirmation_description_v2">Your data, including your Google Account and apps, will be transferred to your new phone</string>
     <string name="copy_confirmation_title">Copy to your new phone?</string>
+    <string name="copy_confirmation_title_v2">Copy data to your new phone?</string>
     <string name="core_clear_appstate_data_dialog_description_multi_account">You are about to delete all third-party app data stored with this Google account. This data will no longer be available on any of your devices.</string>
     <string name="core_clear_appstate_data_dialog_description_single_account">You are about to delete all third-party app data stored with your Google account %1$s. This data will no longer be available on any of your devices.</string>
     <string name="core_clear_appstate_data_dialog_title">Clear app data?</string>
@@ -741,7 +676,6 @@ SMS"</string>
     <string name="core_google_platform_settings">Google</string>
     <string name="core_google_platform_settings_summary">Services &amp; preferences</string>
     <string name="core_network_usage_title">Data usage</string>
-    <string name="could_not_pair">"Couldn't pair"</string>
     <string name="credential_picker_activity_label">Smart Lock credential picker</string>
     <string name="credentials_a11y_auto_save">Smart Lock credential updated</string>
     <string name="credentials_a11y_auto_signin">Auto signed in as %1$s via Smart Lock</string>
@@ -805,8 +739,6 @@ SMS"</string>
     <string name="debug_logging_enable_dialog_msg">&lt;b>Please use this feature for app debugging purposes. &lt;/b>&lt;br>&lt;br> Note: Logs may include information, such as location.</string>
     <string name="debug_logging_enable_dialog_title">Enable debug logging for ads?</string>
     <string name="debug_logging_enable_summary">Instruct apps to write ads debugging information (such as network traffic) to the system log.</string>
-    <string name="debug_mode_settings_content_type_category_title">Debug mode</string>
-    <string name="deny">DENY</string>
     <string name="description_dropdown_box_date">Network usage shown from</string>
     <string name="device_backup_title">Device backup</string>
     <string name="device_picker_empty">No backups linked to %1$s.</string>
@@ -814,15 +746,89 @@ SMS"</string>
     <string name="device_picker_item">%1$s backup</string>
     <string name="device_picker_last_used">Last used ^1</string>
     <string name="device_picker_title">Choose a backup to restore</string>
-    <string name="device_setup_title">Set up %1$s device</string>
-    <string name="devices_channel_name">Devices</string>
+    <string name="devices_channel_name">@LEMON_transformed_from_string/devices_product_name</string>
+    <string name="devices_list_title">@string/discovery_n_device_group_notification_summary</string>
+    <string name="devices_list_view_title">Set up %1$s device</string>
+    <string name="devices_menu_category_notifications">Notifications</string>
+    <string name="devices_no_bt">@string/common_turn_on_bluetooth</string>
+    <string name="devices_no_bt_or_loc_description">Bluetooth and Location need to be turned on to show nearby devices.</string>
+    <string name="devices_no_internet">@string/common_network_unavailable</string>
+    <string name="devices_no_loc">@string/devices_no_bt_or_loc_description</string>
+    <string name="devices_notification_installed_description">Tap to open %1$s app</string>
+    <string name="devices_notification_not_installed_description">Tap to install %1$s app</string>
+    <string name="devices_notification_title">Set up a nearby %1$s device</string>
+    <string name="devices_notifications_toggle">@string/devices_menu_category_notifications</string>
+    <string name="devices_product_name">Devices</string>
     <string name="devices_within_reach_channel_name">Devices within reach</string>
     <string name="directions">Directions</string>
     <string name="disabled_by_admin_summary_text">Controlled by admin</string>
-    <string name="discoverer_mute_notification">Mute notification</string>
-    <string name="discoverer_notifications_settings_title">Configure %1$s</string>
+    <string name="discovery_accessibility_item_selected">Selected %1$s</string>
+    <string name="discovery_add_icon_button">Add icon</string>
+    <string name="discovery_add_nearby_shortcut">Add to Home screen</string>
+    <string name="discovery_android_device">Android device</string>
+    <string name="discovery_app_action_install">Install app</string>
+    <string name="discovery_app_action_open">Open in app</string>
+    <string name="discovery_app_default_description">View app or mute notification from %1$s</string>
+    <string name="discovery_app_post_edu_description">Open in %1$s app</string>
+    <string name="discovery_app_post_edu_description_unknown">Open app</string>
+    <string name="discovery_content_description_cancel_mute">Cancel Mute</string>
+    <string name="discovery_content_description_cancel_unmute">Cancel Unmute</string>
+    <string name="discovery_content_description_previous">Previous</string>
+    <string name="discovery_debug_mode_settings_content_type_category_title">Debug mode</string>
+    <string name="discovery_do_not_show_again">"Don't show again"</string>
+    <string name="discovery_empty_state_no_bt_summary">Bluetooth and Location need to be turned on to show links to apps or websites from things nearby.</string>
+    <string name="discovery_empty_state_no_bt_title">"Can't show %1$s links"</string>
+    <string name="discovery_empty_state_offline_summary">"Your device must be online to show links to apps or websites from things nearby.
+
+Try turning off airplane mode, turning on mobile data or Wi-Fi, or checking the signal in your area."</string>
+    <string name="discovery_empty_state_summary">"You'll see links here when things around you are providing apps or websites."</string>
+    <string name="discovery_empty_state_title">No links found</string>
+    <string name="discovery_failed_to_enable_bluetooth">Failed to enable Bluetooth.</string>
+    <string name="discovery_failed_to_enable_location">Failed to enable Location.</string>
+    <string name="discovery_links_channel_name">Links</string>
+    <string name="discovery_master_switch_title">Notify you when links are available</string>
+    <string name="discovery_mute">Mute</string>
+    <string name="discovery_mute_notification_toast">%1$s notifications for this link have been muted</string>
+    <string name="discovery_muted_items">Muted</string>
+    <string name="discovery_muted_items_summary">To mute or unmute notifications for a link, touch &amp; hold the link.</string>
+    <string name="discovery_n_device_group_notification_summary">%1$d nearby devices</string>
+    <string name="discovery_n_group_notification_summary">%1$d nearby links</string>
+    <string name="discovery_nearby_devices_available_to_set_up">%1$d nearby devices available to set up</string>
+    <string name="discovery_new_beacon_summary">Notify you when there are apps or websites provided by things nearby</string>
+    <string name="discovery_new_device_setup">Devices ready to set up</string>
+    <string name="discovery_new_device_setup_summary">Notify you when you have new devices nearby</string>
+    <string name="discovery_no_thanks_button">No thanks</string>
+    <string name="discovery_not_useful">Not useful</string>
+    <string name="discovery_notifications_settings_content_type_category_title">Notification categories</string>
+    <string name="discovery_notifications_settings_summary_beacon">Nearby links available</string>
+    <string name="discovery_notifications_settings_title">Configure %1$s</string>
+    <string name="discovery_onboarding_1">"%1$s is an Android feature that shows you apps and websites for what's around you"</string>
+    <string name="discovery_onboarding_2">To mute notifications from a specific source, touch &amp; hold on the link in the list below</string>
+    <string name="discovery_onboarding_3">Do you want to add %1$s to your Home screen?</string>
+    <string name="discovery_onboarding_quick_exit">To turn notifications back on, open Settings > Google > %1$s and tap the settings icon above</string>
+    <string name="discovery_popular_here">Popular Here</string>
+    <string name="discovery_popular_here_summary">If a specific link is not useful, touch &amp; hold on the link.</string>
+    <string name="discovery_popular_links_channel_name">Popular links</string>
+    <string name="discovery_pre_n_group_notification_summary">%1$d nearby links found</string>
+    <string name="discovery_pre_n_notification_summary_more_items">%1$s, %2$s, and %3$d more</string>
+    <string name="discovery_pre_n_notification_summary_one_title">%1$s and more</string>
+    <string name="discovery_pre_n_notification_summary_two_items">%1$s and %2$s</string>
+    <string name="discovery_report_abuse_label">Report Abuse</string>
     <string name="discovery_report_abuse_snackbar_message">"Notification won't appear again"</string>
     <string name="discovery_report_button">Report</string>
+    <string name="discovery_scan_now_button">Scan now</string>
+    <string name="discovery_settings_app_permissions">Using %1$s</string>
+    <string name="discovery_settings_app_permissions_empty">(No supported apps installed)</string>
+    <string name="discovery_settings_app_permissions_summary">You can use apps supported by %1$s to share and collaborate with people around you.</string>
+    <string name="discovery_shortened_notification_summary_item_suffix">[…]</string>
+    <string name="discovery_title_debug_mode">Include debug results</string>
+    <string name="discovery_toast_popular_here_rated_not_useful">Thanks for helping to improve our suggestions</string>
+    <string name="discovery_toast_shortcut_added">%1$s icon added to Home screen</string>
+    <string name="discovery_turn_on_permission_popup_summary">To scan for links from things nearby, both Bluetooth and Location need to be turned on.</string>
+    <string name="discovery_turn_on_permission_popup_title">Turn on Bluetooth &amp; Location?</string>
+    <string name="discovery_unmute">Unmute</string>
+    <string name="discovery_web_default_description">View website or mute notification from %1$s</string>
+    <string name="discovery_web_post_edu_description">Open %1$s</string>
     <string name="dnd_button_setup">Set up</string>
     <string name="dnd_desc_driving">"This rule automatically turns on Do Not Disturb while you're in a moving vehicle, determined by device motion"</string>
     <string name="dnd_driving">Driving</string>
@@ -846,7 +852,6 @@ You can turn this off in Do Not Disturb settings.
     <string name="dnd_title_continue">Allow Do Not Disturb access</string>
     <string name="dnd_title_intro">Do Not Disturb while driving</string>
     <string name="dnd_title_rule_added">All set</string>
-    <string name="do_not_show_again">"Don't show again"</string>
     <string name="download_msg_error_invalid">The download was configured incorrectly.</string>
     <string name="download_msg_in_progress">The download is in progress.</string>
     <string name="download_msg_not_allowed_space">There is not enough space to perform the download.</string>
@@ -891,18 +896,18 @@ You can turn this off in Do Not Disturb settings.
 \u0009- SMS"</string>
     <string name="drive_backup_disabled_by_device_owner">Disabled by your admin</string>
     <string name="drive_backup_disabled_detailedinfo">Photos and videos sync to your Google Photos library and may be used across services.</string>
-    <string name="drive_backup_disabled_detailedinfo_no_photos" />
+    <string name="drive_backup_disabled_encryption_supported_info">Your backups are uploaded to Google and encrypted using your Google Account password. For some data, your device’s screen lock PIN, pattern, or password is also used for encryption.</string>
     <string name="drive_backup_disabled_introduction">Easily restore your data or switch phones at any time.</string>
     <string name="drive_backup_enabled_by_device_owner">Enabled by your admin</string>
     <string name="drive_backup_settings_title">Backup</string>
     <string name="drive_backup_state_dialog_message">"%1$s
 
- %2$s"</string>
+%2$s"</string>
     <string name="drive_backup_state_dialog_message_no_photos">This device’s backup data in Google Drive will be permanently deleted.</string>
     <string name="drive_backup_state_dialog_message_no_photos_with_account">This device’s backup for %s will be permanently deleted from Google Drive.</string>
     <string name="drive_backup_state_dialog_message_with_account">"%1$s
 
- %2$s"</string>
+%2$s"</string>
     <string name="drive_backup_state_dialog_okaction">Turn off &amp; delete</string>
     <string name="drive_backup_state_dialog_photos_extra">Photos and videos that have already been backed up will still be available in Google Photos.</string>
     <string name="drive_backup_state_dialog_title">Turn off and delete backup?</string>
@@ -996,24 +1001,21 @@ You can turn this off in Do Not Disturb settings.
     <string name="drive_view_shared_with_me">Shared with me</string>
     <string name="driving_config_activity_name">Driving</string>
     <string name="email_address_picker_title">Choose email address</string>
-    <string name="empty_state_no_bt_summary">Bluetooth and Location need to be turned on to show links to apps or websites from things nearby.</string>
-    <string name="empty_state_no_bt_title">"Can't show %1$s links"</string>
-    <string name="empty_state_offline_summary">"Your device must be online to show links to apps or websites from things nearby.
-
-Try turning off airplane mode, turning on mobile data or Wi-Fi, or checking the signal in your area."</string>
-    <string name="empty_state_summary">"You'll see links here when things around you are providing apps or websites."</string>
-    <string name="empty_state_title">No links found</string>
+    <string name="empty_string" />
     <string name="encryption_dogfood_status_error">Error</string>
     <string name="encryption_dogfood_status_ready">Enabled, ready for restore</string>
     <string name="encryption_dogfood_status_title">Encryption dogfood</string>
     <string name="encryption_dogfood_status_wait_backup">Enabled, waiting to backup</string>
     <string name="encryption_dogfood_status_wait_key_sync">Enabled, waiting for phone unlock</string>
-    <string name="encryption_password_entry_title">Set an encryption password</string>
-    <string name="encryption_password_hint">Set backup encryption password</string>
-    <string name="encryption_switch_label">Backup Encryption</string>
     <string name="expand_button_title">Advanced</string>
-    <string name="failed_to_enable_bluetooth">Failed to enable Bluetooth.</string>
-    <string name="failed_to_enable_location">Failed to enable Location.</string>
+    <string name="fast_pair_could_not_pair">"Couldn't pair"</string>
+    <string name="fast_pair_pairing">Pairing</string>
+    <string name="fast_pair_pairing_complete">Pairing complete</string>
+    <string name="fast_pair_signal_strength">Signal</string>
+    <string name="fast_pair_syncing_device">Syncing device to account</string>
+    <string name="fast_pair_tap_to_get_the_app">Tap to get the app on Google Play</string>
+    <string name="fast_pair_tap_to_open_bluetooth_settings">Tap to open Bluetooth settings</string>
+    <string name="fast_pair_tap_to_pair">Tap to pair with this device</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="fetching_licenses">Fetching licenses...</string>
     <string name="fitness_settings_connected_device_content">%1$s will no longer store data with Google Fit. To delete existing data, choose Delete history from the options.</string>
@@ -1267,14 +1269,20 @@ Try again?"</string>
     <string name="gh_survey">Survey</string>
     <string name="gh_switch_back_to_chat_button_description">Switch back to chat</string>
     <string name="gigabyteShort">GB</string>
-    <string name="google_app_permissions_title">App Permissions</string>
+    <string name="global_search_account_name_text">%account_name</string>
+    <string name="global_search_books_icon_uri" formatted="false">content://com.google.android.apps.books.public/accounts/%account_name/volumes/%volume_id/cover_thumbnail</string>
+    <string name="global_search_books_intent_data" formatted="false">gsa://com.google.android.apps.books/volumes/%volume_id/accounts/%account_name/cv/%content_version_id</string>
+    <string name="global_search_books_text2">Book by %creator</string>
+    <string name="global_search_intent_extra_data_account">%account</string>
+    <string name="global_search_movie_icon">content://com.google.android.videos.bitmap/poster?id=%$uri</string>
+    <string name="global_search_movie_intent_data">https://play.google.com/movies/movies?ref=icing&amp;v=%$uri</string>
+    <string name="global_search_query_text">%query</string>
+    <string name="global_search_show_icon">content://com.google.android.videos.bitmap/showposter?id=%$uri</string>
+    <string name="global_search_show_intent_data">https://play.google.com/movies/shows?ref=icing&amp;sh=%$uri</string>
+    <string name="global_search_title_text">%title</string>
+    <string name="global_search_url_text">%url</string>
     <string name="google_contacts_will_sync">Google Contacts will sync</string>
-    <string name="google_legal_title">Google legal</string>
     <string name="google_play_protect_title">Google Play Protect</string>
-    <string name="google_play_tos_title">Google Play Terms of Service</string>
-    <string name="google_plus_privacy_policy_title">Google Plus Privacy Policy</string>
-    <string name="google_privacy_policy_title">Google Privacy Policy</string>
-    <string name="google_terms_of_service_title">Google Terms of Service</string>
     <string name="guns_lock_screen_content_title">Account action required</string>
     <string name="header_self_view_display_name">%1$s (You)</string>
     <string name="header_set_backup_account">Choose backup account</string>
@@ -1319,10 +1327,8 @@ Try again?"</string>
     <string name="icing_storage_management_usage_label">Space usage by app</string>
     <string name="icing_usage_reports_enabled_summary">To help improve your search experience, Google can store and use links, provided by apps, to content you’ve visited in apps.</string>
     <string name="icing_usage_reports_enabled_title">App history</string>
-    <string name="instant_apps_settings_title">Instant Apps</string>
     <string name="instant_upload_notification_title">Backup warning</string>
     <string name="instantapps_module_display_name">Instant Apps</string>
-    <string name="instantapps_mute_notification">Mute notification</string>
     <string name="interactions_card_title">Interactions</string>
     <string name="interactions_entry_content_description">Interaction %1$d of %2$d. %3$s</string>
     <string name="interruption_option_alarms">Alarms only</string>
@@ -1343,9 +1349,7 @@ Try again?"</string>
     <string name="lb_search_bar_hint_speech">Speak to search</string>
     <string name="lb_search_bar_hint_with_title">Search %1$s</string>
     <string name="lb_search_bar_hint_with_title_speech">Speak to search %1$s</string>
-    <string name="learn_more">Learn More</string>
     <string name="link_content_description">Link %1$d of %2$d. View on %3$s</string>
-    <string name="links_channel_name">Links</string>
     <string name="list_item_add_account">Add account</string>
     <string name="location_accuracy_setting_label">Google Location Accuracy</string>
     <string name="location_grant_credentials_activity_title">Google</string>
@@ -1407,7 +1411,6 @@ Turning this off will result in your device only using GPS for location. This ma
     <string name="location_settings_see_global_settings_dialog_message">"This setting only controls location access for Google apps. 
 
 To control location access for all apps, go to Settings > Location access."</string>
-    <string name="location_settings_turn_location_on">Turn location on to enable this setting</string>
     <string name="location_settings_ulr_summary_auth_error">Location History isn’t available because this account can’t be authenticated.</string>
     <string name="location_settings_ulr_summary_error">Can’t reach Google to retrieve settings. Try again later.</string>
     <string name="location_settings_ulr_summary_loading">Retrieving…</string>
@@ -1435,7 +1438,6 @@ This service is active when Location is on and High accuracy or Battery saving m
     <string name="lockscreen_smartdevice_d2d_lockscreen_verification_text">For security reasons, you’ll need to confirm your screen lock to continue setup</string>
     <string name="manage_data_label">Google Account</string>
     <string name="master_clear_title">Factory data reset</string>
-    <string name="master_switch_title">Notify you when links are available</string>
     <string name="mdd_debug_ui_title">MDD Debug</string>
     <string name="mdm_account_description">To find your device, sign in to your Google Account, or create one.</string>
     <string name="mdm_account_title">Add Google account?</string>
@@ -1446,7 +1448,7 @@ This service is active when Location is on and High accuracy or Battery saving m
     <string name="mdm_device_admin_desc_2">Allow Find My Device to lock or erase a lost device</string>
     <string name="mdm_dial_owner">Call owner</string>
     <string name="mdm_emergency_call">Emergency call</string>
-    <string name="mdm_find_device_description">Find My Device helps you locate this device remotely. It also helps you keep your data safe, if the device is lost.</string>
+    <string name="mdm_find_device_description">Find My Device helps you locate this device remotely. It also helps you keep your data safe if the device is lost.</string>
     <string name="mdm_find_device_website">Web</string>
     <string name="mdm_get_app">Get it on Google Play</string>
     <string name="mdm_google_search">Search \"find my device\"</string>
@@ -1462,35 +1464,28 @@ This service is active when Location is on and High accuracy or Battery saving m
     <string name="mdm_ways_to_locate">Ways to locate your Android device</string>
     <string name="megabyteShort">MB</string>
     <string name="merge_duplicates_section_label">Merge duplicates</string>
+    <string name="messages_microphone_permission">To find nearby devices using audio pairing codes</string>
+    <string name="messages_never_ask_again">Never ask again</string>
+    <string name="messages_opt_in_dialog_basic">Nearby will use location, microphone, Wi‑Fi, and Bluetooth.</string>
+    <string name="messages_opt_in_dialog_title">Allow %1$s to use %2$s?</string>
+    <string name="messages_opt_in_text">You can change this later from %1$s. &lt;a href=%2$s>Learn more&lt;/a></string>
+    <string name="messages_setting_path">Google Settings > Nearby</string>
+    <string name="messages_setting_path_v23">Settings > Google > Nearby</string>
     <string name="mr_controller_collapse_group">Collapse</string>
     <string name="mr_controller_expand_group">Expand</string>
-    <string name="mute">Mute</string>
-    <string name="mute_notification_toast">%1$s notifications for this link have been muted</string>
-    <string name="muted_items">Muted</string>
-    <string name="muted_items_summary">To mute or unmute notifications for a link, touch &amp; hold the link.</string>
-    <string name="n_device_group_notification_summary">%1$d nearby devices</string>
-    <string name="n_group_notification_summary">%1$d nearby links</string>
-    <string name="nearby_devices_available_to_set_up">%1$d nearby devices available to set up</string>
-    <string name="nearby_help_and_feedback">Help &amp; Feedback</string>
-    <string name="nearby_microphone_permission">To find nearby devices using audio pairing codes</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="nearby_setup_transfer_wifi_credential_permission_description">"Allow an app to transfer a network's Wi-Fi credential to another device."</string>
     <string name="nearby_setup_transfer_wifi_credential_permission_label">Transfer Wi-Fi credential</string>
     <string name="nearby_setup_wifi_consent_dialog_label">Wifi credential consent dialog</string>
     <string name="nearby_setup_wifi_consent_message">"To complete setup for your %1$s,&lt;b>&lt;xliff:g example=Chrome id=app_name>%2$s&lt;/xliff:g>&lt;/b> needs the password for %3$s.&lt;br/>&lt;br/> Make sure the device you're setting up is the one you have with you, and not a different one nearby."</string>
-    <string name="nearby_setup_wifi_consent_share_password">Share password</string>
     <string name="nearby_setup_wifi_consent_title">Share Wi-Fi password?</string>
     <string name="network_recommendation_service_label">Google</string>
-    <string name="never_ask_again">Never ask again</string>
-    <string name="new_beacon_summary">Notify you when there are apps or websites provided by things nearby</string>
-    <string name="new_device_setup">Devices ready to set up</string>
-    <string name="new_device_setup_summary">Notify you when you have new devices nearby</string>
     <string name="no_backup_notification_text">Tap to open backup settings</string>
     <string name="no_backup_notification_title">Some data isn’t backing up to Google</string>
     <string name="no_network_connection">Connect to the internet for more info</string>
-    <string name="no_thanks_button">No thanks</string>
     <string name="not_now">Not now</string>
-    <string name="not_useful">Not useful</string>
     <string name="notification_autobackup_stalled_title">Unable to back up</string>
+    <string name="notification_channel_name_settings_updates">Settings updates</string>
     <string name="notification_channel_title_backup">Backup</string>
     <string name="notification_content_text_set_backup_account">Add a backup account now</string>
     <string name="notification_content_title_set_backup_account">Your data isn’t backed up</string>
@@ -1499,14 +1494,7 @@ This service is active when Location is on and High accuracy or Battery saving m
     <string name="notification_new_folder_subtitle">Automatically back up photos in %s?</string>
     <string name="notification_new_folder_title">New folder found</string>
     <string name="notification_ticker">Access Requested</string>
-    <string name="notification_ticker_set_backup_account">Backup account needed</string>
-    <string name="notifications_settings_content_type_category_title">Notification categories</string>
-    <string name="notifications_settings_summary_beacon">Nearby links available</string>
     <string name="okay_got_it">Okay, got it!</string>
-    <string name="onboarding_1">"%1$s is an Android feature that shows you apps and websites for what's around you"</string>
-    <string name="onboarding_2">To mute notifications from a specific source, touch &amp; hold on the link in the list below</string>
-    <string name="onboarding_3">Do you want to add %1$s to your Home screen?</string>
-    <string name="onboarding_quick_exit">To turn notifications back on, open Settings > Google > %1$s and tap the settings icon above</string>
     <string name="open_in_web_button">Open in web</string>
     <string name="open_source_activity_prompt_heading">Open Application</string>
     <string name="open_source_activity_prompt_text">"Open SourceResponseActivity on your phone to complete the authentication process. "</string>
@@ -1520,18 +1508,12 @@ Instant apps ask for permissions as you use them. App details, including in-app 
     <string name="opt_in_description_m_plus">"When you tap a link, Google Play checks if an instant app exists and runs it without installation. Instant apps are kept on your device temporarily.
 
 App details, including in-app purchases, can be found in the Google Play store. App data &amp; settings are synced to devices signed in with:"</string>
-    <string name="opt_in_dialog_basic">Nearby will use location, microphone, Wi‑Fi, and Bluetooth.</string>
-    <string name="opt_in_dialog_title">Allow %1$s to use %2$s?</string>
     <string name="opt_in_subtitle">Use apps without installation</string>
-    <string name="opt_in_text">You can change this later from %1$s. &lt;a href=%2$s>Learn more&lt;/a></string>
-    <string name="opt_in_title">Instant Apps</string>
     <string name="orb_search_action">Search Action</string>
     <string name="organizations_present">present</string>
     <string name="organizations_start_to_end">%1$s - %2$s</string>
     <string name="organizations_start_to_present">%s - present</string>
-    <string name="pairing">Pairing</string>
-    <string name="pairing_complete">Pairing complete</string>
-    <string name="password_toggle_content_description">Toggle password visibility</string>
+    <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -1576,8 +1558,6 @@ This helps %2$s and Google understand the people you interact with most on this 
     <string name="permissions_not_granted_title">Permissions not granted.</string>
     <string name="petabyteShort">PB</string>
     <string name="phone_number_picker_title">Choose phone number</string>
-    <string name="phonesky_dpc_install_installing">Installing…</string>
-    <string name="phonesky_dpc_install_preparing">Preparing to download…</string>
     <string name="photo_account_sync_disabled_summary">To back up your photos, you must turn on %1$s sync for %2$s in Android Settings.</string>
     <string name="photo_all_sync_disabled_summary">To back up your photos, you must turn on auto-sync for this device and %1$s sync for %2$s in Android Settings.</string>
     <string name="photo_backup_configure_account_default_summary">No account is currently storing backed up photos</string>
@@ -1649,6 +1629,9 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="play_protect_uninstall">Uninstall</string>
     <string name="play_protect_uninstall_pha">Uninstall harmful app?</string>
     <string name="play_terms_of_service">Play Terms of Service</string>
+    <string name="playlists_corpus_section_data">content://com.google.android.music.MusicContent/playlist/%$uri</string>
+    <string name="playlists_corpus_section_icon_uri">content://com.google.android.music.MusicContent/playlistfauxart/%$uri</string>
+    <string name="playlists_corpus_section_text_1">%playlist</string>
     <string name="plus_accessibility_acl_selection">Choose audience</string>
     <string name="plus_accessibility_audience_selection_circle_icon">Circle</string>
     <string name="plus_accessibility_audience_selection_create_circle">Add to new circle</string>
@@ -1799,7 +1782,6 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="plus_one_error">There was a temporary problem with your +1. Please try again.</string>
     <string name="plus_one_self">+1 by %1$s</string>
     <string name="plus_one_self_removed">Your +1 has been removed.</string>
-    <string name="plus_one_share">Share</string>
     <string name="plus_one_social_annotation_prefix">including %1$s</string>
     <string name="plus_one_social_annotation_prefix_you">including %1$s</string>
     <string name="plus_one_social_annotation_separator">%1$s, %2$s</string>
@@ -1882,17 +1864,12 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="plus_update_circles_not_allowed_message">"You can't add %1$s to circles."</string>
     <string name="plus_update_circles_progress">Updating circles…</string>
     <string name="plus_video_preview_image_description">Video preview image</string>
-    <string name="popular_here">Popular Here</string>
-    <string name="popular_here_summary">If a specific link is not useful, touch &amp; hold on the link.</string>
-    <string name="popular_links_channel_name">Popular links</string>
+    <string name="posts_go_to_profile">Go to Profile</string>
+    <string name="posts_go_to_profile_content_description">Go to Google+ Profile</string>
     <string name="posts_see_all">See all posts</string>
     <string name="posts_see_all_content_description">View all posts on Google+</string>
-    <string name="pre_n_group_notification_summary">%1$d nearby links found</string>
-    <string name="pre_n_notification_summary_more_items">%1$s, %2$s, and %3$d more</string>
-    <string name="pre_n_notification_summary_one_title">%1$s and more</string>
-    <string name="pre_n_notification_summary_two_items">%1$s and %2$s</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">189276317</string>
+    <string name="primes_version">195607782</string>
     <string name="profile_about_birthday">Birthday</string>
     <string name="profile_about_card_title">About</string>
     <string name="profile_about_custom">Custom</string>
@@ -1918,7 +1895,7 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="profile_communicate_sms_with_number">Text %s.</string>
     <string name="profile_communicate_video_hangout">Start a video hangout</string>
     <string name="profile_contacts_picker_title">Choose a contact to edit</string>
-    <string name="profile_date_time_fmt" formatted="false">%s, %s</string>
+    <string name="profile_date_time_fmt">%1$s, %2$s</string>
     <string name="profile_directory_field_department">Department</string>
     <string name="profile_directory_field_job_title">Job title</string>
     <string name="profile_directory_field_location">Location</string>
@@ -1973,7 +1950,6 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="recaptcha_service_inactive_text">Could not connect to the reCAPTCHA service.</string>
     <string name="recaptcha_verifying_text">"Verifying you're not a robot"</string>
     <string name="removed_from_favorites">Removed from favorites</string>
-    <string name="report_abuse_label">Report Abuse</string>
     <string name="reporting_chain_manager">Manager</string>
     <string name="reporting_chain_reports">Reports (%d)</string>
     <string name="reporting_chain_see_all">See All %d Reports</string>
@@ -1985,7 +1961,6 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="restore_choice_sync_disclaimer_cloud">Device and SIM contacts will be saved as Google Contacts to %1$s.</string>
     <string name="restore_continue_suw_description">You can continue setting up your ^1</string>
     <string name="restore_continue_suw_title">Restoring…</string>
-    <string name="restore_error_message">Something went wrong with restore. Sorry.</string>
     <string name="restore_instant_apps_notif_text">Required %1$s was removed from this device</string>
     <string name="restore_instant_apps_notif_title">Restore Instant Apps</string>
     <string name="restore_item_device_settings_description">Wi-Fi passwords &amp; more</string>
@@ -2018,7 +1993,10 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="romanesco_sim_contacts_settings_title">SIM card</string>
     <string name="romanesco_skipping_duplicate_contacts">Skipping duplicate contacts</string>
     <string name="romanesco_title_has_backup">Device backup</string>
-    <string name="scan_now_button">Scan now</string>
+    <string name="scanning_upgrade_to_p_notification_ble_on">Bluetooth scanning is on. Your device may scan for nearby devices at any time, even when Bluetooth is off.</string>
+    <string name="scanning_upgrade_to_p_notification_title">Your scanning settings</string>
+    <string name="scanning_upgrade_to_p_notification_wifi_and_ble_on">Wi‑Fi and Bluetooth scanning are on. Your device may scan for Wi‑Fi networks and nearby devices at any time, even when Wi‑Fi or Bluetooth is off.</string>
+    <string name="scanning_upgrade_to_p_notification_wifi_on">Wi‑Fi scanning is on. Your device may scan for Wi‑Fi networks at any time, even when Wi‑Fi is off.</string>
     <string name="section_label_content_description">Section %1$d of %2$d. %3$s</string>
     <string name="security_settings_activity_title">Security</string>
     <string name="security_status_find_device_location_off_summary">Location is off</string>
@@ -2028,24 +2006,17 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="security_status_no_google_account_summary">No Google account on this device</string>
     <string name="security_status_remote_lock_enabled_summary">Enabled</string>
     <string name="security_status_section_title">Security Status</string>
-    <string name="security_status_verify_apps_disabled">Off / Tap to turn on protection.</string>
+    <string name="security_status_verify_apps_disabled">Off / Tap to turn on protection</string>
     <string name="send_sms_content_description">Send SMS</string>
     <string name="set_backup_account_description">To back up your data, add a backup account below</string>
     <string name="set_backup_account_title">Back up your data</string>
-    <string name="setting_path">Google Settings > Nearby</string>
-    <string name="setting_path_v23">Settings > Google > Nearby</string>
-    <string name="settings_app_permissions">Using %1$s</string>
-    <string name="settings_app_permissions_empty">(No supported apps installed)</string>
-    <string name="settings_app_permissions_summary">You can use apps supported by %1$s to share and collaborate with people around you.</string>
     <string name="settings_backup_account_description">%s</string>
     <string name="setup_failure_description">"Can't set up Instant Apps. %1$s"</string>
     <string name="setup_failure_title">"Can't set up"</string>
     <string name="shared_current_location_timestamp">Updated %s</string>
     <string name="shared_data_section_label">You &amp; %s</string>
-    <string name="shortened_notification_summary_item_suffix">[…]</string>
     <string name="sid_lsid_grant_detail">Much like a password, Session Identification (SID) and Local Session Identification (LSID) cookies associate your identity with a series of requests from a browser. They allow full access to all of your account data. Only browsers have a legitimate use for these cookies.</string>
     <string name="sid_lsid_grant_label">Use SID and LSID cookies to gain access to all your Google account data.</string>
-    <string name="signal_strength">Signal</string>
     <string name="signin_cross_client_auth_toast_text">"Welcome back to %1$s. You're signed in with Google as %2$s."</string>
     <string name="signin_not_supported_dialog_message">Sign-In is currently not supported for this particular device and your software versions.</string>
     <string name="signin_not_supported_dialog_title">Not supported</string>
@@ -2063,7 +2034,6 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="smartdevice_alert_no_accounts_text">To setup your %s, you need at least one Google account.</string>
     <string name="smartdevice_alert_no_accounts_title">No accounts to copy</string>
     <string name="smartdevice_alert_quit_button">Quit</string>
-    <string name="smartdevice_alert_restart_setup_button">Restart setup</string>
     <string name="smartdevice_alert_setup_incomplete">Setup was not complete</string>
     <string name="smartdevice_alert_work_profile_message">"Work accounts can't be copied yet. After copying your other Google Accounts and data, go to Settings on your new device to add your work account."</string>
     <string name="smartdevice_alert_work_profile_title">"Can't copy work account"</string>
@@ -2078,58 +2048,38 @@ Google Play Protect is not guaranteed to work on an uncertified device."</string
     <string name="smartdevice_d2d_copy_account_text">Copy your Google Accounts and restore your Google Drive backup, if available</string>
     <string name="smartdevice_d2d_copy_account_title">Copy to your other device?</string>
     <string name="smartdevice_d2d_fingerprint_not_recognized_text">Not recognized</string>
+    <string name="smartdevice_d2d_fingerprint_title">Confirm your fingerprint</string>
     <string name="smartdevice_d2d_fingerprint_verification_text">For security reasons, confirm your fingerprint. Your Google Accounts, apps, and data will be copied to your %s.</string>
     <string name="smartdevice_d2d_lockscreen_description">Unlock to continue setting up your device</string>
-    <string name="smartdevice_d2d_lockscreen_verification_text">For security, confirm your screen lock to continue setup.</string>
-    <string name="smartdevice_d2d_lockscreen_verification_title">Confirm to continue</string>
+    <string name="smartdevice_d2d_lockscreen_verification_text">"For security reasons, you'll need to confirm your screen lock to continue setup"</string>
     <string name="smartdevice_d2d_source_bluetooth_unavailable_text">Cannot set up other device because Bluetooth is not available on your device.</string>
     <string name="smartdevice_d2d_source_disabled_text">For security, this feature has been disabled. On your other device, touch Skip and continue with setup.</string>
     <string name="smartdevice_d2d_source_nfc_handler_title">Set up new device</string>
     <string name="smartdevice_d2d_source_notification_generic_title">Device setup</string>
     <string name="smartdevice_d2d_source_notification_title">^1 setup</string>
-    <string name="smartdevice_d2d_source_pin_verification_different_code_dialog_message">Restart setup and choose your ^1 to make sure you copy your Google Accounts, apps, and data to the right device.</string>
-    <string name="smartdevice_d2d_source_pin_verification_different_code_link">"Don't see the code?"</string>
-    <string name="smartdevice_d2d_source_pin_verification_text">Look for this code on your other device to confirm you chose the right one</string>
+    <string name="smartdevice_d2d_source_pin_verification_different_code_dialog_message">You can try to verify again. You will see a different code.</string>
+    <string name="smartdevice_d2d_source_pin_verification_different_code_link">Not sure?</string>
     <string name="smartdevice_d2d_source_restricted_user_text">Cannot set up a new device from a restricted user profile.</string>
     <string name="smartdevice_d2d_source_setup_continue_on_target">Continue setup on your %s</string>
     <string name="smartdevice_d2d_source_setup_success">Almost done!</string>
-    <string name="smartdevice_d2d_target_choice_description">If you use another Android device, you can quickly copy your current setup to this %s.</string>
-    <string name="smartdevice_d2d_target_choice_glif_description">Get the most back from your previous device if it’s an Android</string>
-    <string name="smartdevice_d2d_target_choice_glif_skip">Set up as new</string>
     <string name="smartdevice_d2d_target_choice_glif_title">Copy from another Android device</string>
-    <string name="smartdevice_d2d_target_choice_setup_fresh_detail">OK, follow the next steps to set up this device</string>
-    <string name="smartdevice_d2d_target_choice_title">Got another device?</string>
-    <string name="smartdevice_d2d_target_choice_use_old_device">Copy your Google Accounts, apps, and data from your other device</string>
-    <string name="smartdevice_d2d_target_continue_description">Continue setup on your other device</string>
+    <string name="smartdevice_d2d_target_continue_description">Continue on your other device</string>
     <string name="smartdevice_d2d_target_copying_accounts">Copying accounts…</string>
-    <string name="smartdevice_d2d_target_description">1. Say &lt;b>\"&lt;xliff:g id=ok_google>^1&lt;/xliff:g>, &lt;xliff:g id=set_up_my_device1>^2&lt;/xliff:g>\"&lt;/b> or type \"&lt;xliff:g id=set_up_my_device2>^2&lt;/xliff:g>\" and tap to confirm&lt;br/>&lt;br/> 2. Touch &lt;b>&lt;xliff:g id=device_name>^3&lt;/xliff:g>&lt;/b> on the list, and follow the on-screen instructions</string>
-    <string name="smartdevice_d2d_target_google_settings_backup">Try this instead</string>
     <string name="smartdevice_d2d_target_google_settings_description">On your other device:&lt;br/>&lt;br/> 1. Open the &lt;b>Google Settings&lt;/b> app&lt;br/>&lt;br/> 2. Select &lt;b>&lt;xliff:g id=set_up_nearby_device_setting_title example=Set up nearby device>%1$s&lt;/xliff:g>&lt;/b> &lt;br/>&lt;br/> 3. Touch &lt;b>&lt;xliff:g id=device_name>%2$s&lt;/xliff:g>&lt;/b> on the list, and follow the on-screen instructions</string>
     <string name="smartdevice_d2d_target_google_settings_link">Can’t complete these steps</string>
-    <string name="smartdevice_d2d_target_google_settings_mnc">Let’s use Settings</string>
-    <string name="smartdevice_d2d_target_google_settings_mnc_description">On your other device:&lt;br/>&lt;br/> 1. Tap the All apps icon, then open the &lt;b>Settings app&lt;/b> &lt;br/>&lt;br/> 2. Tap on &lt;b>Google&lt;/b> &lt;br/>&lt;br/> 3. Select &lt;b>&lt;xliff:g id=set_up_nearby_device_setting_title example=Set up nearby device>%1$s&lt;/xliff:g>&lt;/b> &lt;br/>&lt;br/> 4. Touch &lt;b>&lt;xliff:g id=device_name>%2$s&lt;/xliff:g>&lt;/b> on the list, and follow the on-screen instructions</string>
+    <string name="smartdevice_d2d_target_google_settings_mnc_description">On your other device:&lt;br/>&lt;br/> 1. Open the &lt;b>Settings app&lt;/b> &lt;br/>&lt;br/> 2. Tap on &lt;b>Google&lt;/b> &lt;br/>&lt;br/> 3. Select &lt;b>&lt;xliff:g id=set_up_nearby_device_setting_title example=Set up nearby device>%1$s&lt;/xliff:g>&lt;/b> &lt;br/>&lt;br/> 4. Touch &lt;b>&lt;xliff:g id=device_name>%2$s&lt;/xliff:g>&lt;/b> on the list, and follow the on-screen instructions</string>
     <string name="smartdevice_d2d_target_help_text">Having trouble?</string>
     <string name="smartdevice_d2d_target_instruction_cant_find_it">"Can't find it?"</string>
     <string name="smartdevice_d2d_target_instruction_combined_title">On your other device, open the Google app</string>
-    <string name="smartdevice_d2d_target_instruction_description">Open the Google app</string>
-    <string name="smartdevice_d2d_target_instruction_title">On your other device</string>
-    <string name="smartdevice_d2d_target_nfc_description">"To copy: 
-
-1. Make sure your other device is on and unlocked 
-
-2. Place the two devices back-to-back until you hear a tone, then set aside"</string>
-    <string name="smartdevice_d2d_target_nfc_having_trouble_description">"Tap &amp; Go uses NFC to copy your Google Accounts, apps, and data from your other device. Make sure that device's NFC is on by going to Settings."</string>
-    <string name="smartdevice_d2d_target_other_device_description">The Google app comes pre-installed on all Android devices. Touch the \"All apps\" button on your home screen and look for the icon shown above.</string>
-    <string name="smartdevice_d2d_target_pin_code_description">This code should match the one on your other device:</string>
-    <string name="smartdevice_d2d_target_skip_primary_account_alert_cancel_button">Don’t skip</string>
+    <string name="smartdevice_d2d_target_other_device_description">The Google app comes pre-installed on all Android devices. View all of your apps, then look for the Google icon shown above.</string>
     <string name="smartdevice_d2d_target_skip_primary_account_alert_message">Setup won’t copy this account or backed up apps, and data to this device.</string>
-    <string name="smartdevice_d2d_target_skip_primary_account_alert_skip_button">Skip anyway</string>
     <string name="smartdevice_d2d_target_skip_primary_account_alert_title">Skip this account?</string>
     <string name="smartdevice_d2d_target_title">In the Google app</string>
     <string name="smartdevice_do_disclosure_generic">"Can't transfer data"</string>
     <string name="smartdevice_do_unsupported_message">"Data can't be transferred from managed devices"</string>
     <string name="smartdevice_install_app">Install the app</string>
-    <string name="smartdevice_install_app_reason" formatted="false">Get the %s app to control and manage your new %s from this device</string>
+    <string name="smartdevice_install_app_reason">Get the %1$s app to control and manage your new %2$s from this device</string>
+    <string name="smartdevice_look_for_other_device">Look for this name on your other device</string>
     <string name="smartdevice_magicwand_cancel_signin">"Don't Sign In"</string>
     <string name="smartdevice_magicwand_confirm_signin">Sign-in started</string>
     <string name="smartdevice_magicwand_consent_detail">Tap <b>Sign in</b> to finish signing in to another device.</string>
@@ -2145,24 +2095,36 @@ For your security, enter your screen lock pattern to show that it's you signing 
     <string name="smartdevice_magicwand_selectaccount_description">to continue to your browser</string>
     <string name="smartdevice_magicwand_success_detail">Go back to your browser on your other device.</string>
     <string name="smartdevice_ok_google">Ok Google</string>
+    <string name="smartdevice_pairing_verify_code_subhead">Look for this code on your other device</string>
+    <string name="smartdevice_pairing_verify_confirm">^1. If they match, tap ^2.</string>
+    <string name="smartdevice_pairing_verify_shapes_subhead">Look for these shapes on your other device</string>
+    <string name="smartdevice_pairing_verify_shapes_title">Verify shapes</string>
     <string name="smartdevice_problem_copying">There was a problem copying data to your other device</string>
     <string name="smartdevice_problem_copying_title">"Couldn't copy data"</string>
+    <string name="smartdevice_pt_google_app_trigger">configurar meu dispositivo</string>
     <string name="smartdevice_search_again">Search again</string>
     <string name="smartdevice_searching_for_devices">Searching for devices</string>
-    <string name="smartdevice_setup_google_app_trigger">set up my device</string>
+    <string name="smartdevice_setup_google_app_trigger" />
     <string name="smartdevice_setup_info_installing_app">Installing the app…</string>
-    <string name="smartdevice_setup_intro_text">To set up your other device, your phone’s Bluetooth and your Wi-Fi data will be used.</string>
-    <string name="smartdevice_setup_intro_text_nfc">To set up your other device, your phone’s Bluetooth will be used.</string>
+    <string name="smartdevice_setup_intro_text">To set up your other device, your phone’s Bluetooth and your Wi-Fi data will be used</string>
+    <string name="smartdevice_setup_intro_text_nfc">To set up your other device, your phone’s Bluetooth will be used</string>
     <string name="smartdevice_setup_intro_title">Getting started</string>
     <string name="smartdevice_setup_password_hint">Enter WiFi password</string>
     <string name="smartdevice_setup_show_password">Show password</string>
     <string name="smartdevice_setup_title_verify_code">Verify code</string>
+    <string name="smartdevice_target_hotphrase_instructions">On your other device, say &lt;b>\"&lt;xliff:g id=ok_google>^1&lt;/xliff:g>, &lt;xliff:g id=set_up_my_device>^2&lt;xliff:g>.\"&lt;/b>&lt;br/>&lt;br/> Or, type &lt;b>\"&lt;xliff:g id=set_up_my_device>^2&lt;/xliff:g>\"&lt;/b> in the search box.</string>
+    <string name="smartdevice_type_typing_ok_google">"If the voice command doesn't work, try typing in the search box instead. Type \"&lt;b>&lt;xliff:g id=set_up_my_device>^1&lt;/xliff:g>&lt;/b>\""</string>
+    <string name="smartdevice_verify_device">Verify device</string>
     <string name="smartdevice_wifi_cannot_connect_description">Only open networks and WPA/WPA2 networks can be used to setup this device</string>
     <string name="smartdevice_wifi_cannot_connect_title">Cannot use WiFi network</string>
     <string name="smartdevice_wifi_unavailable_due_to_location_text">"To search for Wi-Fi, turn on Location.
 
 You can always change this later in Settings."</string>
     <string name="smartdevice_wifi_unavailable_due_to_location_title">"Can't search for Wi-Fi networks"</string>
+    <string name="songs_corpus_section_data" formatted="false">content://com.google.android.music.MusicContent/track/%music_id/%song_id</string>
+    <string name="songs_corpus_section_icon_uri">content://com.google.android.music.MusicContent/albumorfauxart/%album_id</string>
+    <string name="songs_corpus_section_text_1">%song</string>
+    <string name="songs_corpus_section_text_2">Song by %artist</string>
     <string name="source_connected_description">Preparing…</string>
     <string name="source_connected_title">Connected to your %1$s</string>
     <string name="source_copying_description">The data you chose is being copied to your new phone</string>
@@ -2206,7 +2168,6 @@ You can always change this later in Settings."</string>
     <string name="suw_back_button_label">Back</string>
     <string name="suw_more_button_label">More</string>
     <string name="suw_next_button_label">Next</string>
-    <string name="syncing_device">Syncing device to account</string>
     <string name="system_update_activate">Activate</string>
     <string name="system_update_activity_battery_low_text">Battery too low to install the update</string>
     <string name="system_update_activity_roaming_text">"System updates can't be downloaded while roaming."</string>
@@ -2241,7 +2202,7 @@ You can always change this later in Settings."</string>
     <string name="system_update_notification_learn_more">Tap to learn more</string>
     <string name="system_update_notification_learn_more_and_download">Tap to learn more and download</string>
     <string name="system_update_notification_learn_more_and_install">Tap to learn more and install</string>
-    <string name="system_update_notification_message_low_battery">To continue, charge your battery</string>
+    <string name="system_update_notification_message_low_battery">Battery too low or in battery saving mode</string>
     <string name="system_update_notification_message_pending_reboot">To finish update, restart your device</string>
     <string name="system_update_notification_message_wifi_disconnected">To continue, connect to Wi-Fi</string>
     <string name="system_update_notification_title_update_paused">System update paused</string>
@@ -2267,20 +2228,23 @@ Afterwards, your device will automatically restart."</string>
     <string name="system_update_wearable_download_notification_message_v25">Tap to download</string>
     <string name="system_update_wearable_installation_notification_message">Swipe left to install.</string>
     <string name="system_update_wearable_installation_notification_message_v25">Tap to install</string>
-    <string name="tap_to_get_the_app">Tap to get the app on Google Play</string>
-    <string name="tap_to_open_bluetooth_settings">Tap to open Bluetooth settings</string>
     <string name="terabyteShort">TB</string>
-    <string name="title_debug_mode">Include debug results</string>
-    <string name="title_devices_channel">Devices</string>
-    <string name="title_devices_within_reach_channel">Devices within reach</string>
-    <string name="title_links_channel">Links</string>
-    <string name="title_popular_links_channel">Popular links</string>
-    <string name="toast_popular_here_rated_not_useful">Thanks for helping to improve our suggestions</string>
-    <string name="toast_shortcut_added">%1$s icon added to Home screen</string>
+    <string name="top_albums_corpus_section_data">%album_url</string>
+    <string name="top_albums_corpus_section_intent_activity">.ui.TopChartsIcingActivity</string>
+    <string name="top_albums_corpus_section_text_1">%album</string>
+    <string name="top_albums_corpus_section_text_2">Album by %artist</string>
+    <string name="top_artists_corpus_section_data">%artist_url</string>
+    <string name="top_artists_corpus_section_icon_uri">android.resource://com.google.android.music/drawable/splash_play_music_color_144</string>
+    <string name="top_artists_corpus_section_intent_activity">.ui.TopChartsIcingActivity</string>
+    <string name="top_artists_corpus_section_text_1">%artist</string>
+    <string name="top_artists_corpus_section_text_2">Artist</string>
+    <string name="top_tracks_corpus_section_data">%track_url</string>
+    <string name="top_tracks_corpus_section_icon_uri">android.resource://com.google.android.music/drawable/splash_play_music_color_144</string>
+    <string name="top_tracks_corpus_section_intent_activity">.ui.TopChartsIcingActivity</string>
+    <string name="top_tracks_corpus_section_text_1">%track</string>
+    <string name="top_tracks_corpus_section_text_2">Song by %artist</string>
     <string name="turn_off_backup_button_label">Turn off</string>
     <string name="turn_off_backup_dialog_description">If you don’t add a backup account and turn off the backup service, your data won’t be saved to Google Drive.</string>
-    <string name="turn_on_permission_popup_summary">To scan for links from things nearby, both Bluetooth and Location need to be turned on.</string>
-    <string name="turn_on_permission_popup_title">Turn on Bluetooth &amp; Location?</string>
     <string name="turn_sync_on">Turn sync on</string>
     <string name="turned_off_auto_backup_dialog">Any photos &amp; videos taken while Auto Backup is turned off will be backed up if and when you turn it back on.</string>
     <string name="udc_auth_error">Could not authenticate your account. Please verify your account settings.</string>
@@ -2309,7 +2273,6 @@ Afterwards, your device will automatically restart."</string>
     <string name="uncertified_notification_expired_content">Google apps and services no longer work on this device. Tap to learn more.</string>
     <string name="uncertified_notification_expired_title">Registration expired</string>
     <string name="uncertified_notification_expiring_title">Registration expiring</string>
-    <string name="unmute">Unmute</string>
     <string name="unstar_contact_content_description">Double-tap to remove from favorites</string>
     <string name="upload_account_preference_category">Active Account</string>
     <string name="upload_apps_disabled_summary">Unavailable because device scanning is off</string>
@@ -2317,15 +2280,13 @@ Afterwards, your device will automatically restart."</string>
     <string name="upload_apps_title">Improve harmful app detection</string>
     <string name="uraw_network_error_text">Network error. Please check connection.</string>
     <string name="uraw_play_services_error_text">Google Play services is unavailable.</string>
-    <string name="usage_and_diagnostics_consent_message">"Turning off this feature doesn't affect your device's ability to send the information it needs to receive essential services such as system updates and security."</string>
+    <string name="usage_and_diagnostics_consent_message">"Turning off this feature doesn't affect your device's ability to send the information needed for essential services such as system updates and security."</string>
     <string name="usage_reporting_control">You can control this feature from Google Settings. Select Usage &amp; diagnostics from the menu.</string>
     <string name="usage_reporting_crash">Do not press this button</string>
     <string name="usage_reporting_debug_title">Usage Reporting debug</string>
     <string name="usage_reporting_debug_warning">Please do not click any buttons below unless you know what you are doing.</string>
-    <string name="usage_reporting_dialog_allow">ALLOW</string>
-    <string name="usage_reporting_dialog_deny">DENY</string>
-    <string name="usage_reporting_dialog_message">"Help improve your Android experience by automatically sending diagnostic and usage data (such as battery level, app usage, and network connectivity) to Google. This information won't be used to identify you and will help improve things like battery life and app stability."</string>
-    <string name="usage_reporting_dialog_more_message">"This is general information about your device and how you use it. The data will be used to improve Google's products and services for everyone. Some aggregated information will help partners, such as Android developers, make their apps and products better, too."</string>
+    <string name="usage_reporting_dialog_message">Help improve your Android experience by automatically sending diagnostic, device, and app usage data to Google. This will help battery life, system and app stability, and other improvements. Some aggregate data will also help Google apps and partners, such as Android developers. If your additional Web &amp; App Activity setting is turned on, this data may be saved to your Google Account.</string>
+    <string name="usage_reporting_dialog_more_message">This is general information about your device and how you use it (such as battery level, system and app activity, and errors). The data will be used to improve Android, and some aggregated information will also help Google apps and partners, such as Android developers, make their apps and products better.</string>
     <string name="usage_reporting_dialog_title">Google Play services has stopped. Send data?</string>
     <string name="usage_reporting_reset">Reset Usage Reporting Opt-in Status</string>
     <string name="use_nearby_device_heading">Use a nearby device?</string>
@@ -2345,7 +2306,8 @@ more"</string>
     <string name="video_connection_preference_title">Back up videos</string>
     <string name="view_in_maps_content_description">View %s in Maps</string>
     <string name="waiting_for_account_info_text">Waiting for account information...</string>
-    <string name="wearable_no_longer_in_network">Removed from network. Unpair watch to reset.</string>
+    <string name="wearable_no_longer_in_network_notification_body"><b>Disconnect &amp; reset</b> to re-pair your watch with your phone</string>
+    <string name="wearable_no_longer_in_network_notification_title">Reset your watch</string>
     <string name="wearable_re_enable_wifi">Re-enable Wi-Fi</string>
     <string name="wearable_service_name">Wear OS</string>
     <string name="wearable_storage_managment_reclaim_button_label">Clear now</string>
@@ -2353,9 +2315,10 @@ more"</string>
     <string name="wearable_storage_managment_total_size_label">Wearable storage</string>
     <string name="wearable_storage_managment_usage_label">Space usage by app</string>
     <string name="wearable_wifi_disabled_to_extend_battery">Wi-Fi disabled to extend battery life</string>
-    <string name="web_default_description">View website or mute notification from %1$s</string>
-    <string name="web_post_edu_description">Open %1$s</string>
     <string name="web_view_accept_language_header">%1$s-%2$s</string>
+    <string name="wifi_scanning_consent_pre_p_message">By turning on Wi‑Fi scanning, apps and services can scan for Wi‑Fi networks at any time, even when Wi‑Fi is off.</string>
+    <string name="zapp_checkin_description_text">This may take a few minutes</string>
+    <string name="zapp_checkin_title">Checking for updates…</string>
     <string name="zapp_download_manager_notification_description">Google Play services is downloading an update.</string>
     <string name="zapp_download_manager_notification_title">Google Play services: Updating</string>
     <string name="current_locale_sanity_check" />
@@ -2373,283 +2336,293 @@ more"</string>
     <item type="string" name="APKTOOL_DUMMY_11">false</item>
     <item type="string" name="APKTOOL_DUMMY_12">false</item>
     <item type="string" name="APKTOOL_DUMMY_13">false</item>
-    <item type="string" name="APKTOOL_DUMMY_17">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_21">false</item>
+    <item type="string" name="APKTOOL_DUMMY_25">false</item>
+    <item type="string" name="APKTOOL_DUMMY_26">false</item>
+    <item type="string" name="APKTOOL_DUMMY_27">false</item>
     <item type="string" name="APKTOOL_DUMMY_28">false</item>
-    <item type="string" name="APKTOOL_DUMMY_46">false</item>
-    <item type="string" name="APKTOOL_DUMMY_47">false</item>
-    <item type="string" name="APKTOOL_DUMMY_58">false</item>
-    <item type="string" name="APKTOOL_DUMMY_59">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_29">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_30">false</item>
+    <item type="string" name="APKTOOL_DUMMY_31">false</item>
+    <item type="string" name="APKTOOL_DUMMY_32">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3d">false</item>
     <item type="string" name="APKTOOL_DUMMY_5b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_78">false</item>
-    <item type="string" name="APKTOOL_DUMMY_82">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_d2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_11b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_11c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_122">false</item>
-    <item type="string" name="APKTOOL_DUMMY_123">false</item>
-    <item type="string" name="APKTOOL_DUMMY_124">false</item>
-    <item type="string" name="APKTOOL_DUMMY_125">false</item>
-    <item type="string" name="APKTOOL_DUMMY_127">false</item>
-    <item type="string" name="APKTOOL_DUMMY_139">false</item>
-    <item type="string" name="APKTOOL_DUMMY_13a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_13b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_13c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_71">false</item>
+    <item type="string" name="APKTOOL_DUMMY_83">false</item>
+    <item type="string" name="APKTOOL_DUMMY_86">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87">false</item>
+    <item type="string" name="APKTOOL_DUMMY_88">false</item>
+    <item type="string" name="APKTOOL_DUMMY_90">false</item>
+    <item type="string" name="APKTOOL_DUMMY_e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_129">false</item>
+    <item type="string" name="APKTOOL_DUMMY_12a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_130">false</item>
+    <item type="string" name="APKTOOL_DUMMY_131">false</item>
+    <item type="string" name="APKTOOL_DUMMY_132">false</item>
+    <item type="string" name="APKTOOL_DUMMY_133">false</item>
+    <item type="string" name="APKTOOL_DUMMY_135">false</item>
     <item type="string" name="APKTOOL_DUMMY_13d">false</item>
     <item type="string" name="APKTOOL_DUMMY_13e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_15d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_193">false</item>
-    <item type="string" name="APKTOOL_DUMMY_197">false</item>
+    <item type="string" name="APKTOOL_DUMMY_13f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_140">false</item>
+    <item type="string" name="APKTOOL_DUMMY_141">false</item>
+    <item type="string" name="APKTOOL_DUMMY_163">false</item>
+    <item type="string" name="APKTOOL_DUMMY_171">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1bc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ce">false</item>
     <item type="string" name="APKTOOL_DUMMY_1cf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1db">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1e8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1ea">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1eb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1ec">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1ed">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e1">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ef">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_218">false</item>
-    <item type="string" name="APKTOOL_DUMMY_21d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_229">false</item>
-    <item type="string" name="APKTOOL_DUMMY_22c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_232">false</item>
-    <item type="string" name="APKTOOL_DUMMY_236">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_259">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_26d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_276">false</item>
-    <item type="string" name="APKTOOL_DUMMY_27e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_28c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_290">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_205">false</item>
+    <item type="string" name="APKTOOL_DUMMY_207">false</item>
+    <item type="string" name="APKTOOL_DUMMY_20a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_211">false</item>
+    <item type="string" name="APKTOOL_DUMMY_215">false</item>
+    <item type="string" name="APKTOOL_DUMMY_21a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_238">false</item>
+    <item type="string" name="APKTOOL_DUMMY_239">false</item>
+    <item type="string" name="APKTOOL_DUMMY_23a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_24c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_255">false</item>
+    <item type="string" name="APKTOOL_DUMMY_25e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_26c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_270">false</item>
+    <item type="string" name="APKTOOL_DUMMY_272">false</item>
+    <item type="string" name="APKTOOL_DUMMY_274">false</item>
+    <item type="string" name="APKTOOL_DUMMY_27a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_27f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_285">false</item>
+    <item type="string" name="APKTOOL_DUMMY_286">false</item>
     <item type="string" name="APKTOOL_DUMMY_292">false</item>
-    <item type="string" name="APKTOOL_DUMMY_294">false</item>
-    <item type="string" name="APKTOOL_DUMMY_29a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_29c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_29f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_297">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2a0">false</item>
     <item type="string" name="APKTOOL_DUMMY_2b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b5">false</item>
     <item type="string" name="APKTOOL_DUMMY_2b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2b8">false</item>
     <item type="string" name="APKTOOL_DUMMY_2b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2bf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2d8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2da">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2db">false</item>
-    <item type="string" name="APKTOOL_DUMMY_32b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_330">false</item>
-    <item type="string" name="APKTOOL_DUMMY_331">false</item>
-    <item type="string" name="APKTOOL_DUMMY_345">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3e7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3e9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3ea">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_419">false</item>
-    <item type="string" name="APKTOOL_DUMMY_438">false</item>
-    <item type="string" name="APKTOOL_DUMMY_43d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_481">false</item>
-    <item type="string" name="APKTOOL_DUMMY_486">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_30b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_333">false</item>
+    <item type="string" name="APKTOOL_DUMMY_334">false</item>
+    <item type="string" name="APKTOOL_DUMMY_36b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_390">false</item>
+    <item type="string" name="APKTOOL_DUMMY_394">false</item>
+    <item type="string" name="APKTOOL_DUMMY_397">false</item>
+    <item type="string" name="APKTOOL_DUMMY_408">false</item>
+    <item type="string" name="APKTOOL_DUMMY_40a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_40b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_41c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_41d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_440">false</item>
+    <item type="string" name="APKTOOL_DUMMY_45f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_464">false</item>
     <item type="string" name="APKTOOL_DUMMY_4a8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4f9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4fa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4fd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4fe">false</item>
-    <item type="string" name="APKTOOL_DUMMY_505">false</item>
-    <item type="string" name="APKTOOL_DUMMY_50c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_527">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_51b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_51f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_523">false</item>
+    <item type="string" name="APKTOOL_DUMMY_526">false</item>
     <item type="string" name="APKTOOL_DUMMY_528">false</item>
-    <item type="string" name="APKTOOL_DUMMY_529">false</item>
-    <item type="string" name="APKTOOL_DUMMY_543">false</item>
-    <item type="string" name="APKTOOL_DUMMY_544">false</item>
-    <item type="string" name="APKTOOL_DUMMY_545">false</item>
-    <item type="string" name="APKTOOL_DUMMY_546">false</item>
-    <item type="string" name="APKTOOL_DUMMY_548">false</item>
-    <item type="string" name="APKTOOL_DUMMY_549">false</item>
-    <item type="string" name="APKTOOL_DUMMY_551">false</item>
-    <item type="string" name="APKTOOL_DUMMY_553">false</item>
-    <item type="string" name="APKTOOL_DUMMY_554">false</item>
-    <item type="string" name="APKTOOL_DUMMY_555">false</item>
-    <item type="string" name="APKTOOL_DUMMY_556">false</item>
-    <item type="string" name="APKTOOL_DUMMY_557">false</item>
-    <item type="string" name="APKTOOL_DUMMY_558">false</item>
-    <item type="string" name="APKTOOL_DUMMY_559">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_55f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_560">false</item>
-    <item type="string" name="APKTOOL_DUMMY_561">false</item>
-    <item type="string" name="APKTOOL_DUMMY_562">false</item>
-    <item type="string" name="APKTOOL_DUMMY_563">false</item>
-    <item type="string" name="APKTOOL_DUMMY_564">false</item>
-    <item type="string" name="APKTOOL_DUMMY_565">false</item>
-    <item type="string" name="APKTOOL_DUMMY_566">false</item>
-    <item type="string" name="APKTOOL_DUMMY_567">false</item>
+    <item type="string" name="APKTOOL_DUMMY_52a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_52b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_52c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_52d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_52e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_533">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_54f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_550">false</item>
     <item type="string" name="APKTOOL_DUMMY_568">false</item>
     <item type="string" name="APKTOOL_DUMMY_569">false</item>
     <item type="string" name="APKTOOL_DUMMY_56a">false</item>
     <item type="string" name="APKTOOL_DUMMY_56b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_56c">false</item>
     <item type="string" name="APKTOOL_DUMMY_56d">false</item>
     <item type="string" name="APKTOOL_DUMMY_56e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_56f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_570">false</item>
+    <item type="string" name="APKTOOL_DUMMY_576">false</item>
+    <item type="string" name="APKTOOL_DUMMY_578">false</item>
+    <item type="string" name="APKTOOL_DUMMY_579">false</item>
     <item type="string" name="APKTOOL_DUMMY_57a">false</item>
     <item type="string" name="APKTOOL_DUMMY_57b">false</item>
     <item type="string" name="APKTOOL_DUMMY_57c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_57e">false</item>
     <item type="string" name="APKTOOL_DUMMY_57f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_580">false</item>
+    <item type="string" name="APKTOOL_DUMMY_581">false</item>
+    <item type="string" name="APKTOOL_DUMMY_582">false</item>
     <item type="string" name="APKTOOL_DUMMY_583">false</item>
+    <item type="string" name="APKTOOL_DUMMY_584">false</item>
+    <item type="string" name="APKTOOL_DUMMY_585">false</item>
+    <item type="string" name="APKTOOL_DUMMY_586">false</item>
+    <item type="string" name="APKTOOL_DUMMY_587">false</item>
+    <item type="string" name="APKTOOL_DUMMY_588">false</item>
+    <item type="string" name="APKTOOL_DUMMY_589">false</item>
+    <item type="string" name="APKTOOL_DUMMY_58a">false</item>
     <item type="string" name="APKTOOL_DUMMY_58b">false</item>
     <item type="string" name="APKTOOL_DUMMY_58c">false</item>
     <item type="string" name="APKTOOL_DUMMY_58d">false</item>
     <item type="string" name="APKTOOL_DUMMY_58e">false</item>
     <item type="string" name="APKTOOL_DUMMY_58f">false</item>
     <item type="string" name="APKTOOL_DUMMY_590">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_591">false</item>
+    <item type="string" name="APKTOOL_DUMMY_592">false</item>
+    <item type="string" name="APKTOOL_DUMMY_593">false</item>
+    <item type="string" name="APKTOOL_DUMMY_594">false</item>
+    <item type="string" name="APKTOOL_DUMMY_595">false</item>
+    <item type="string" name="APKTOOL_DUMMY_59d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_59e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_59f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5b2">false</item>
     <item type="string" name="APKTOOL_DUMMY_5b3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5e9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5ef">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5f9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5fd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5fe">false</item>
-    <item type="string" name="APKTOOL_DUMMY_5ff">false</item>
-    <item type="string" name="APKTOOL_DUMMY_600">false</item>
-    <item type="string" name="APKTOOL_DUMMY_601">false</item>
-    <item type="string" name="APKTOOL_DUMMY_602">false</item>
-    <item type="string" name="APKTOOL_DUMMY_603">false</item>
-    <item type="string" name="APKTOOL_DUMMY_604">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_5d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_606">false</item>
+    <item type="string" name="APKTOOL_DUMMY_607">false</item>
+    <item type="string" name="APKTOOL_DUMMY_609">false</item>
+    <item type="string" name="APKTOOL_DUMMY_60a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_617">false</item>
+    <item type="string" name="APKTOOL_DUMMY_618">false</item>
+    <item type="string" name="APKTOOL_DUMMY_619">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_61f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_621">false</item>
+    <item type="string" name="APKTOOL_DUMMY_623">false</item>
+    <item type="string" name="APKTOOL_DUMMY_624">false</item>
+    <item type="string" name="APKTOOL_DUMMY_625">false</item>
+    <item type="string" name="APKTOOL_DUMMY_626">false</item>
     <item type="string" name="APKTOOL_DUMMY_627">false</item>
     <item type="string" name="APKTOOL_DUMMY_628">false</item>
+    <item type="string" name="APKTOOL_DUMMY_629">false</item>
+    <item type="string" name="APKTOOL_DUMMY_62a">false</item>
     <item type="string" name="APKTOOL_DUMMY_62b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_655">false</item>
-    <item type="string" name="APKTOOL_DUMMY_661">false</item>
-    <item type="string" name="APKTOOL_DUMMY_66b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_679">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_67f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_680">false</item>
+    <item type="string" name="APKTOOL_DUMMY_640">false</item>
+    <item type="string" name="APKTOOL_DUMMY_641">false</item>
+    <item type="string" name="APKTOOL_DUMMY_643">false</item>
+    <item type="string" name="APKTOOL_DUMMY_644">false</item>
+    <item type="string" name="APKTOOL_DUMMY_662">false</item>
+    <item type="string" name="APKTOOL_DUMMY_66e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_678">false</item>
+    <item type="string" name="APKTOOL_DUMMY_684">false</item>
     <item type="string" name="APKTOOL_DUMMY_686">false</item>
-    <item type="string" name="APKTOOL_DUMMY_687">false</item>
-    <item type="string" name="APKTOOL_DUMMY_688">false</item>
     <item type="string" name="APKTOOL_DUMMY_689">false</item>
-    <item type="string" name="APKTOOL_DUMMY_68c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_68f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_690">false</item>
+    <item type="string" name="APKTOOL_DUMMY_68a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_68b">false</item>
     <item type="string" name="APKTOOL_DUMMY_691">false</item>
     <item type="string" name="APKTOOL_DUMMY_692">false</item>
     <item type="string" name="APKTOOL_DUMMY_693">false</item>
     <item type="string" name="APKTOOL_DUMMY_694">false</item>
-    <item type="string" name="APKTOOL_DUMMY_695">false</item>
-    <item type="string" name="APKTOOL_DUMMY_696">false</item>
     <item type="string" name="APKTOOL_DUMMY_697">false</item>
-    <item type="string" name="APKTOOL_DUMMY_698">false</item>
-    <item type="string" name="APKTOOL_DUMMY_699">false</item>
     <item type="string" name="APKTOOL_DUMMY_69a">false</item>
     <item type="string" name="APKTOOL_DUMMY_69b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_69c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_69d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_69e">false</item>
     <item type="string" name="APKTOOL_DUMMY_69f">false</item>
     <item type="string" name="APKTOOL_DUMMY_6a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6a2">false</item>
     <item type="string" name="APKTOOL_DUMMY_6a3">false</item>
     <item type="string" name="APKTOOL_DUMMY_6a4">false</item>
     <item type="string" name="APKTOOL_DUMMY_6a5">false</item>
     <item type="string" name="APKTOOL_DUMMY_6a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6aa">false</item>
     <item type="string" name="APKTOOL_DUMMY_6ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ae">false</item>
     <item type="string" name="APKTOOL_DUMMY_6af">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6b5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6c6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6c8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6dd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6de">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6ef">false</item>
-    <item type="string" name="APKTOOL_DUMMY_704">false</item>
-    <item type="string" name="APKTOOL_DUMMY_741">false</item>
-    <item type="string" name="APKTOOL_DUMMY_74a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_79b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_79c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7ca">false</item>
-    <item type="string" name="APKTOOL_DUMMY_84a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_84b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_84c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6b0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6b3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ba">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6d3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_70f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_74c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_755">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_82c">false</item>
     <item type="string" name="APKTOOL_DUMMY_84d">false</item>
     <item type="string" name="APKTOOL_DUMMY_84e">false</item>
     <item type="string" name="APKTOOL_DUMMY_84f">false</item>
     <item type="string" name="APKTOOL_DUMMY_850">false</item>
+    <item type="string" name="APKTOOL_DUMMY_851">false</item>
     <item type="string" name="APKTOOL_DUMMY_852">false</item>
-    <item type="string" name="APKTOOL_DUMMY_868">false</item>
-    <item type="string" name="APKTOOL_DUMMY_882">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8db">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8dc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8dd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_8de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_853">false</item>
+    <item type="string" name="APKTOOL_DUMMY_858">false</item>
+    <item type="string" name="APKTOOL_DUMMY_869">false</item>
+    <item type="string" name="APKTOOL_DUMMY_880">false</item>
+    <item type="string" name="APKTOOL_DUMMY_89d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_89e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_8b0">false</item>
     <item type="string" name="APKTOOL_DUMMY_8ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_90c">false</item>
     <item type="string" name="APKTOOL_DUMMY_90d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_90e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_910">false</item>
     <item type="string" name="APKTOOL_DUMMY_911">false</item>
-    <item type="string" name="APKTOOL_DUMMY_912">false</item>
-    <item type="string" name="APKTOOL_DUMMY_916">false</item>
-    <item type="string" name="APKTOOL_DUMMY_91c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_920">false</item>
+    <item type="string" name="APKTOOL_DUMMY_915">false</item>
+    <item type="string" name="APKTOOL_DUMMY_91b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_91f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_923">false</item>
     <item type="string" name="APKTOOL_DUMMY_924">false</item>
-    <item type="string" name="APKTOOL_DUMMY_925">false</item>
+    <item type="string" name="APKTOOL_DUMMY_926">false</item>
     <item type="string" name="APKTOOL_DUMMY_927">false</item>
     <item type="string" name="APKTOOL_DUMMY_928">false</item>
     <item type="string" name="APKTOOL_DUMMY_929">false</item>
-    <item type="string" name="APKTOOL_DUMMY_92a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_92e">false</item>
     <item type="string" name="APKTOOL_DUMMY_92f">false</item>
     <item type="string" name="APKTOOL_DUMMY_930">false</item>
     <item type="string" name="APKTOOL_DUMMY_931">false</item>
@@ -2658,15 +2631,15 @@ more"</string>
     <item type="string" name="APKTOOL_DUMMY_934">false</item>
     <item type="string" name="APKTOOL_DUMMY_935">false</item>
     <item type="string" name="APKTOOL_DUMMY_936">false</item>
-    <item type="string" name="APKTOOL_DUMMY_93a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_937">false</item>
     <item type="string" name="APKTOOL_DUMMY_93b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_93e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_93c">false</item>
     <item type="string" name="APKTOOL_DUMMY_93f">false</item>
     <item type="string" name="APKTOOL_DUMMY_940">false</item>
-    <item type="string" name="APKTOOL_DUMMY_944">false</item>
-    <item type="string" name="APKTOOL_DUMMY_94f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_952">false</item>
-    <item type="string" name="APKTOOL_DUMMY_955">false</item>
+    <item type="string" name="APKTOOL_DUMMY_941">false</item>
+    <item type="string" name="APKTOOL_DUMMY_945">false</item>
+    <item type="string" name="APKTOOL_DUMMY_950">false</item>
+    <item type="string" name="APKTOOL_DUMMY_953">false</item>
     <item type="string" name="APKTOOL_DUMMY_956">false</item>
     <item type="string" name="APKTOOL_DUMMY_957">false</item>
     <item type="string" name="APKTOOL_DUMMY_958">false</item>
@@ -2675,37 +2648,23 @@ more"</string>
     <item type="string" name="APKTOOL_DUMMY_95b">false</item>
     <item type="string" name="APKTOOL_DUMMY_95c">false</item>
     <item type="string" name="APKTOOL_DUMMY_95d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_962">false</item>
-    <item type="string" name="APKTOOL_DUMMY_968">false</item>
+    <item type="string" name="APKTOOL_DUMMY_95e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_963">false</item>
+    <item type="string" name="APKTOOL_DUMMY_969">false</item>
     <item type="string" name="APKTOOL_DUMMY_970">false</item>
-    <item type="string" name="APKTOOL_DUMMY_972">false</item>
+    <item type="string" name="APKTOOL_DUMMY_971">false</item>
     <item type="string" name="APKTOOL_DUMMY_973">false</item>
-    <item type="string" name="APKTOOL_DUMMY_97b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_97c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_97d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_97e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_97f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_980">false</item>
-    <item type="string" name="APKTOOL_DUMMY_981">false</item>
-    <item type="string" name="APKTOOL_DUMMY_982">false</item>
-    <item type="string" name="APKTOOL_DUMMY_983">false</item>
-    <item type="string" name="APKTOOL_DUMMY_984">false</item>
-    <item type="string" name="APKTOOL_DUMMY_985">false</item>
-    <item type="string" name="APKTOOL_DUMMY_986">false</item>
     <item type="string" name="APKTOOL_DUMMY_987">false</item>
-    <item type="string" name="APKTOOL_DUMMY_988">false</item>
-    <item type="string" name="APKTOOL_DUMMY_989">false</item>
-    <item type="string" name="APKTOOL_DUMMY_992">false</item>
-    <item type="string" name="APKTOOL_DUMMY_995">false</item>
-    <item type="string" name="APKTOOL_DUMMY_996">false</item>
-    <item type="string" name="APKTOOL_DUMMY_997">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_98c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_998">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9c8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9cd">false</item>
     <item type="string" name="APKTOOL_DUMMY_9ce">false</item>
     <item type="string" name="APKTOOL_DUMMY_9cf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9d0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9d6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9da">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9db">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9dc">false</item>
 </resources>

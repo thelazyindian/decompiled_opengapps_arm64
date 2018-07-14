@@ -30,6 +30,7 @@
     <item type="id" name="common_settings_location_item" />
     <item type="id" name="crash_reporting_present" />
     <item type="id" name="cursor_position" />
+    <item type="id" name="custom_card_title" />
     <item type="id" name="debug_send_database_file_menu_item_id" />
     <item type="id" name="event_instant_share_notification" />
     <item type="id" name="feedback_content" />
@@ -116,13 +117,13 @@
     <item type="id" name="title_template" />
     <item type="id" name="alertTitle" />
     <item type="id" name="titleDividerNoCustom" />
-    <item type="id" name="expanded_menu" />
-    <item type="id" name="checkbox" />
-    <item type="id" name="shortcut" />
-    <item type="id" name="radio" />
     <item type="id" name="group_divider" />
     <item type="id" name="content" />
+    <item type="id" name="shortcut" />
     <item type="id" name="submenuarrow" />
+    <item type="id" name="expanded_menu" />
+    <item type="id" name="checkbox" />
+    <item type="id" name="radio" />
     <item type="id" name="action_bar_root" />
     <item type="id" name="action_mode_bar_stub" />
     <item type="id" name="action_mode_bar" />
@@ -143,6 +144,17 @@
     <item type="id" name="search_go_btn" />
     <item type="id" name="search_voice_btn" />
     <item type="id" name="select_dialog_listview" />
+    <item type="id" name="text_see_more_count" />
+    <item type="id" name="text_see_more" />
+    <item type="id" name="abc_icon_frame" />
+    <item type="id" name="remote_input" />
+    <item type="id" name="remote_input_text" />
+    <item type="id" name="remote_input_send" />
+    <item type="id" name="remote_input_progress" />
+    <item type="id" name="row_view" />
+    <item type="id" name="icon_frame" />
+    <item type="id" name="last_updated" />
+    <item type="id" name="divider" />
     <item type="id" name="message" />
     <item type="id" name="credential_avatar" />
     <item type="id" name="default_credential_avatar" />
@@ -162,12 +174,6 @@
     <item type="id" name="hint_text" />
     <item type="id" name="error_text" />
     <item type="id" name="webview" />
-    <item type="id" name="swipe_refresh" />
-    <item type="id" name="discovery_lists" />
-    <item type="id" name="enabled_item_list" />
-    <item type="id" name="popular_item_list" />
-    <item type="id" name="disabled_item_list" />
-    <item type="id" name="settings_list" />
     <item type="id" name="cancel_button" />
     <item type="id" name="accept_button" />
     <item type="id" name="app_permission_label" />
@@ -250,7 +256,6 @@
     <item type="id" name="selected_name" />
     <item type="id" name="channel_switcher" />
     <item type="id" name="channel_switcher_icon" />
-    <item type="id" name="divider" />
     <item type="id" name="separator" />
     <item type="id" name="selection" />
     <item type="id" name="recipient_count" />
@@ -310,21 +315,29 @@
     <item type="id" name="card_view" />
     <item type="id" name="background" />
     <item type="id" name="dynamic_content" />
+    <item type="id" name="action_chip" />
     <item type="id" name="action_button" />
     <item type="id" name="horizontal_list" />
     <item type="id" name="link_text" />
+    <item type="id" name="carouselScrollView" />
     <item type="id" name="carousel" />
     <item type="id" name="tappable_view" />
     <item type="id" name="image_frame" />
-    <item type="id" name="label" />
+    <item type="id" name="view_all" />
+    <item type="id" name="button" />
     <item type="id" name="title_desc" />
     <item type="id" name="profile_picture_item" />
     <item type="id" name="text_content" />
+    <item type="id" name="text_entries" />
+    <item type="id" name="legend" />
+    <item type="id" name="label_lower" />
+    <item type="id" name="label_higher" />
     <item type="id" name="cards_list" />
     <item type="id" name="special_desc" />
     <item type="id" name="control" />
     <item type="id" name="control_name" />
     <item type="id" name="control_status" />
+    <item type="id" name="text_entry" />
     <item type="id" name="welcome" />
     <item type="id" name="account_spinner" />
     <item type="id" name="account" />
@@ -349,7 +362,7 @@
     <item type="id" name="prompt_progress" />
     <item type="id" name="prompt_info_lower" />
     <item type="id" name="prompt_info_higher" />
-    <item type="id" name="prompt_card" />
+    <item type="id" name="prompt_card_scroll_container" />
     <item type="id" name="prompt_scroll_view" />
     <item type="id" name="prompt_carousel" />
     <item type="id" name="prompt_item_content" />
@@ -404,12 +417,11 @@
     <item type="id" name="auth_device_management_download_description" />
     <item type="id" name="auth_device_management_download_app_icon" />
     <item type="id" name="auth_device_management_download_app_name" />
+    <item type="id" name="circular_progress_bar" />
     <item type="id" name="auth_device_management_screenlock_description" />
     <item type="id" name="auth_frp_dpc_install_error" />
     <item type="id" name="auth_frp_enter_device_credentials" />
     <item type="id" name="skip_button" />
-    <item type="id" name="suw_items_expandable_switch_content" />
-    <item type="id" name="suw_items_switch_divider" />
     <item type="id" name="username_fixed" />
     <item type="id" name="username_edit" />
     <item type="id" name="password_edit" />
@@ -432,7 +444,6 @@
     <item type="id" name="title_logo" />
     <item type="id" name="main_container" />
     <item type="id" name="space" />
-    <item type="id" name="button" />
     <item type="id" name="progress" />
     <item type="id" name="auth_uncertified_notification_description" />
     <item type="id" name="autobackup_promo_view" />
@@ -443,13 +454,16 @@
     <item type="id" name="promo_auto_backup_dismiss" />
     <item type="id" name="promo_auto_backup_enable" />
     <item type="id" name="avatar_view" />
-    <item type="id" name="progress_frame" />
-    <item type="id" name="backup_progress_bar" />
     <item type="id" name="backup_now_button" />
+    <item type="id" name="indeterminate_progress_bar" />
+    <item type="id" name="determinate_progress_bar" />
     <item type="id" name="card_container" />
     <item type="id" name="card_content" />
     <item type="id" name="button_container" />
     <item type="id" name="bottom_button" />
+    <item type="id" name="battery_saver_fragment_main" />
+    <item type="id" name="battery_saver_description_text" />
+    <item type="id" name="battery_saver_button" />
     <item type="id" name="blocked_message_container" />
     <item type="id" name="blocked_message_text_container" />
     <item type="id" name="blocked_message" />
@@ -506,8 +520,11 @@
     <item type="id" name="text_selected_size_and_device_space" />
     <item type="id" name="choice_size_progress_bar" />
     <item type="id" name="restorechoice_space_warning" />
+    <item type="id" name="add_account_profile_picture" />
+    <item type="id" name="add_account_chip_title" />
     <item type="id" name="account_picker" />
     <item type="id" name="account_picker_header" />
+    <item type="id" name="consent_text" />
     <item type="id" name="account_profile_picture" />
     <item type="id" name="account_display_name" />
     <item type="id" name="account_name" />
@@ -545,7 +562,6 @@
     <item type="id" name="permission_explanation" />
     <item type="id" name="body" />
     <item type="id" name="settings_container" />
-    <item type="id" name="icon_frame" />
     <item type="id" name="scrolling_container" />
     <item type="id" name="wear_permission_message" />
     <item type="id" name="enable_in_settings_button" />
@@ -639,8 +655,40 @@
     <item type="id" name="text_input_password_toggle" />
     <item type="id" name="usage_consent_container" />
     <item type="id" name="device_consent_description" />
+    <item type="id" name="notifications" />
+    <item type="id" name="list_title" />
+    <item type="id" name="scanning_indicator" />
+    <item type="id" name="error" />
+    <item type="id" name="list" />
     <item type="id" name="dialog_fragment" />
+    <item type="id" name="swipe_refresh" />
+    <item type="id" name="discovery_lists" />
+    <item type="id" name="enabled_item_list" />
+    <item type="id" name="popular_item_list" />
+    <item type="id" name="disabled_item_list" />
+    <item type="id" name="settings_list" />
+    <item type="id" name="empty_view" />
+    <item type="id" name="empty_view_welcome_screen" />
+    <item type="id" name="empty_view_no_bt_loc" />
+    <item type="id" name="empty_no_bt_loc_string" />
+    <item type="id" name="turn_on_bt" />
+    <item type="id" name="empty_view_offline" />
+    <item type="id" name="scan_now" />
+    <item type="id" name="header" />
+    <item type="id" name="master_switch" />
+    <item type="id" name="quick_exit" />
+    <item type="id" name="quick_exit_string" />
+    <item type="id" name="quick_exit_button" />
+    <item type="id" name="pager" />
+    <item type="id" name="footer" />
+    <item type="id" name="disabled_items_header" />
+    <item type="id" name="popular_here_items_header" />
     <item type="id" name="image_progress" />
+    <item type="id" name="previous" />
+    <item type="id" name="page_indicator" />
+    <item type="id" name="next" />
+    <item type="id" name="btn_negative" />
+    <item type="id" name="btn_positive" />
     <item type="id" name="snackbar_button" />
     <item type="id" name="common_layout_divider" />
     <item type="id" name="setup_wizard_layout" />
@@ -676,17 +724,8 @@
     <item type="id" name="otp_results" />
     <item type="id" name="otp_code" />
     <item type="id" name="otp_no_accounts_available" />
-    <item type="id" name="empty_view" />
-    <item type="id" name="empty_view_welcome_screen" />
-    <item type="id" name="empty_view_no_bt_loc" />
-    <item type="id" name="empty_no_bt_loc_string" />
-    <item type="id" name="turn_on_bt" />
-    <item type="id" name="empty_view_offline" />
-    <item type="id" name="scan_now" />
-    <item type="id" name="encryption_switch_label" />
-    <item type="id" name="encryption_switch" />
-    <item type="id" name="encryption_password" />
     <item type="id" name="expandable_row" />
+    <item type="id" name="label" />
     <item type="id" name="gf_view_chooser" />
     <item type="id" name="gf_feedback_view" />
     <item type="id" name="gf_account_spinner" />
@@ -827,7 +866,6 @@
     <item type="id" name="transfer_summary_item_title" />
     <item type="id" name="transfer_summary_item_summary" />
     <item type="id" name="transfer_summary_item_icon" />
-    <item type="id" name="header" />
     <item type="id" name="alt_icon" />
     <item type="id" name="generic_info_main_view" />
     <item type="id" name="error_details_fields" />
@@ -979,14 +1017,6 @@
     <item type="id" name="primary_button" />
     <item type="id" name="gunsWebView" />
     <item type="id" name="gunsProgressBar" />
-    <item type="id" name="master_switch" />
-    <item type="id" name="quick_exit" />
-    <item type="id" name="quick_exit_string" />
-    <item type="id" name="quick_exit_button" />
-    <item type="id" name="pager" />
-    <item type="id" name="footer" />
-    <item type="id" name="disabled_items_header" />
-    <item type="id" name="popular_here_items_header" />
     <item type="id" name="total_size_prefix" />
     <item type="id" name="total_size_text" />
     <item type="id" name="apps_list" />
@@ -1092,7 +1122,6 @@
     <item type="id" name="page_container" />
     <item type="id" name="content_container" />
     <item type="id" name="navigator_container" />
-    <item type="id" name="page_indicator" />
     <item type="id" name="button_start" />
     <item type="id" name="foreground_container" />
     <item type="id" name="logo" />
@@ -1147,7 +1176,6 @@
     <item type="id" name="video_surface" />
     <item type="id" name="location_on" />
     <item type="id" name="summary_text" />
-    <item type="id" name="location_off" />
     <item type="id" name="account_settings" />
     <item type="id" name="devices_section" />
     <item type="id" name="this_device" />
@@ -1216,6 +1244,11 @@
     <item type="id" name="total_storage_size_text" />
     <item type="id" name="clear_all_data" />
     <item type="id" name="mdd_debug_container" />
+    <item type="id" name="refresh_file_group_list" />
+    <item type="id" name="delete_all_downloaded_files" />
+    <item type="id" name="trigger_download" />
+    <item type="id" name="file_groups" />
+    <item type="id" name="file_group_list" />
     <item type="id" name="phone_number_call_label" />
     <item type="id" name="phone_number_call" />
     <item type="id" name="lock_message" />
@@ -1229,6 +1262,11 @@
     <item type="id" name="profile_merge_entry_photo" />
     <item type="id" name="profile_merge_entry_name" />
     <item type="id" name="profile_merge_subentries_container" />
+    <item type="id" name="never_ask_again" />
+    <item type="id" name="opt_in_allow" />
+    <item type="id" name="opt_in_deny" />
+    <item type="id" name="module_download_layout" />
+    <item type="id" name="default_content_container" />
     <item type="id" name="mr_chooser_title" />
     <item type="id" name="mr_chooser_list" />
     <item type="id" name="mr_chooser_route_icon" />
@@ -1255,15 +1293,16 @@
     <item type="id" name="mr_control_title" />
     <item type="id" name="mr_control_subtitle" />
     <item type="id" name="mr_group_expand_collapse" />
-    <item type="id" name="never_ask_again" />
-    <item type="id" name="opt_in_allow" />
-    <item type="id" name="opt_in_deny" />
-    <item type="id" name="share" />
-    <item type="id" name="nested_card_view" />
+    <item type="id" name="nested_photo_view" />
     <item type="id" name="constraintLayout" />
-    <item type="id" name="nestedCard2" />
     <item type="id" name="nestedCard1" />
+    <item type="id" name="nestedCard2" />
     <item type="id" name="nestedCard3" />
+    <item type="id" name="nested_post_view" />
+    <item type="id" name="plus_one_icon" />
+    <item type="id" name="plus_one_count" />
+    <item type="id" name="comment_icon" />
+    <item type="id" name="comment_count" />
     <item type="id" name="action_container" />
     <item type="id" name="action_image" />
     <item type="id" name="action_text" />
@@ -1282,10 +1321,6 @@
     <item type="id" name="actions" />
     <item type="id" name="icon_group" />
     <item type="id" name="end_padder" />
-    <item type="id" name="previous" />
-    <item type="id" name="next" />
-    <item type="id" name="btn_negative" />
-    <item type="id" name="btn_positive" />
     <item type="id" name="package_details_main_view" />
     <item type="id" name="indexable_types_section_label" />
     <item type="id" name="corpora_list_view" />
@@ -1330,8 +1365,6 @@
     <item type="id" name="place_autocomplete_progress" />
     <item type="id" name="place_autocomplete_prediction_primary_text" />
     <item type="id" name="place_autocomplete_prediction_secondary_text" />
-    <item type="id" name="list" />
-    <item type="id" name="error" />
     <item type="id" name="edit_text" />
     <item type="id" name="clear_button" />
     <item type="id" name="card_title" />
@@ -1366,7 +1399,6 @@
     <item type="id" name="place_suggestion_icon" />
     <item type="id" name="place_suggestion_description" />
     <item type="id" name="controller_view" />
-    <item type="id" name="consent_text" />
     <item type="id" name="display_name" />
     <item type="id" name="audience_selection_container_view" />
     <item type="id" name="add_to_circles_top_blank_view" />
@@ -1416,6 +1448,8 @@
     <item type="id" name="search_icon" />
     <item type="id" name="audience_selection_suggested_check" />
     <item type="id" name="title_frame" />
+    <item type="id" name="follow_info_button" />
+    <item type="id" name="follow_button" />
     <item type="id" name="transparent_background" />
     <item type="id" name="dialog" />
     <item type="id" name="dialog_header" />
@@ -1540,6 +1574,8 @@
     <item type="id" name="video_title" />
     <item type="id" name="video_image" />
     <item type="id" name="video_overlay" />
+    <item type="id" name="pre_frp_text" />
+    <item type="id" name="check_cred" />
     <item type="id" name="icon_container" />
     <item type="id" name="spinner" />
     <item type="id" name="seekbar" />
@@ -1685,24 +1721,19 @@
     <item type="id" name="gf_container_for_text" />
     <item type="id" name="text_in_list_view" />
     <item type="id" name="account_challenge_webview" />
-    <item type="id" name="suw_layout_navigation_bar" />
-    <item type="id" name="material_notice" />
     <item type="id" name="glif_notice" />
     <item type="id" name="skip_account" />
     <item type="id" name="action_holder" />
     <item type="id" name="secondary_action" />
     <item type="id" name="primary_action" />
     <item type="id" name="illustration_container" />
-    <item type="id" name="smartdevice_d2d_target_choice_description" />
-    <item type="id" name="smartdevice_d2d_target_choice_radio_group" />
-    <item type="id" name="smartdevice_d2d_target_choice_use_old_device" />
-    <item type="id" name="smartdevice_d2d_target_choice_setup_fresh" />
-    <item type="id" name="smartdevice_d2d_target_choice_setup_fresh_detail" />
+    <item type="id" name="suw_layout_navigation_bar" />
     <item type="id" name="help_needed_link" />
     <item type="id" name="animation" />
     <item type="id" name="description_link" />
     <item type="id" name="link" />
     <item type="id" name="pin_code" />
+    <item type="id" name="device_item" />
     <item type="id" name="setup_info" />
     <item type="id" name="text_confirmation_fragment_next_button" />
     <item type="id" name="additional_text" />
@@ -1710,6 +1741,7 @@
     <item type="id" name="positive_button" />
     <item type="id" name="device_list" />
     <item type="id" name="search_again" />
+    <item type="id" name="shapesView" />
     <item type="id" name="different_code_link" />
     <item type="id" name="verify_code" />
     <item type="id" name="enable_location" />
@@ -1744,6 +1776,8 @@
     <item type="id" name="suw_large_progress_bar" />
     <item type="id" name="suw_recycler_view" />
     <item type="id" name="suw_scroll_view" />
+    <item type="id" name="suw_items_expandable_switch_content" />
+    <item type="id" name="suw_items_switch_divider" />
     <item type="id" name="suw_layout_decor" />
     <item type="id" name="suw_navbar_back" />
     <item type="id" name="suw_navbar_more" />
@@ -1809,25 +1843,11 @@
     <item type="id" name="textView" />
     <item type="id" name="reclaim_button" />
     <item type="id" name="wearable_progress_bar" />
-    <item type="id" name="section_backup_and_storage" />
-    <item type="id" name="agree_backup" />
-    <item type="id" name="agree_automatic_storage_manager" />
-    <item type="id" name="section_location" />
-    <item type="id" name="agree_location_service" />
-    <item type="id" name="agree_wireless_scan_always_mode" />
-    <item type="id" name="agree_wallpaper_permission" />
-    <item type="id" name="section_device_maintenance" />
-    <item type="id" name="agree_safety_net" />
-    <item type="id" name="agree_usage_reporting" />
-    <item type="id" name="agree_instant_apps" />
-    <item type="id" name="google_play_opt_in" />
-    <item type="id" name="google_services_agreement" />
-    <item type="id" name="google_services_tos" />
     <item type="id" name="apps_description" />
     <item type="id" name="select_all_apps" />
     <item type="id" name="devices_empty" />
-    <item type="id" name="bypass_folsom_switch" />
     <item type="id" name="devices_list" />
+    <item type="id" name="target_device_item_group" />
     <item type="id" name="visible" />
     <item type="id" name="masked" />
     <item type="id" name="domain_icon_foreground_drawable" />
@@ -1857,13 +1877,13 @@
     <item type="id" name="core_drive_network_usage_all" />
     <item type="id" name="core_drive_network_usage_wifi" />
     <item type="id" name="action_help_center" />
+    <item type="id" name="action_help" />
     <item type="id" name="action_mute" />
     <item type="id" name="action_not_useful" />
     <item type="id" name="action_unmute" />
     <item type="id" name="action_refresh" />
     <item type="id" name="action_settings" />
     <item type="id" name="action_shortcut" />
-    <item type="id" name="action_help" />
     <item type="id" name="drive_menu_search" />
     <item type="id" name="drive_menu_create_folder" />
     <item type="id" name="drive_menu_refresh" />
