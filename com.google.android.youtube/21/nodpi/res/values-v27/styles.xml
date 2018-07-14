@@ -7,7 +7,8 @@
     <style name="Theme.YouTube.Home" parent="@style/Base.V27.Theme.YouTube.Home" />
     <style name="Theme.YouTube.Light" parent="@style/Base.V27.Theme.YouTube.Light" />
     <style name="Theme.YouTube.Light.Dialog" parent="@style/Base.V27.Theme.YouTube.Light.Dialog" />
-    <style name="Theme.YouTube.Share.DialogFragment" parent="@style/Base.V27.Theme.YouTube.Share.DialogFragment" />
+    <style name="Theme.YouTube.Share.DialogFragment.Dark" parent="@style/Base.V27.Theme.YouTube.Share.DialogFragment.Dark" />
+    <style name="Theme.YouTube.Share.DialogFragment.Light" parent="@style/Base.V27.Theme.YouTube.Share.DialogFragment.Light" />
     <style name="Base.V27.Theme.YouTube.Dark" parent="@style/Base.Theme.YouTube.Dark">
         <item name="android:navigationBarColor">@color/navigation_bar_background_dark</item>
         <item name="android:windowLightNavigationBar">false</item>
@@ -29,10 +30,15 @@
         <item name="android:windowLightNavigationBar">true</item>
         <item name="android:navigationBarDividerColor">@color/navigation_bar_divider_light</item>
     </style>
-    <style name="Base.V27.Theme.YouTube.Share.DialogFragment" parent="@style/Base.Theme.YouTube.Share.DialogFragment">
+    <style name="Base.V27.Theme.YouTube.Share.DialogFragment.Dark" parent="@style/Base.Theme.YouTube.Share.DialogFragment.Dark">
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:navigationBarDividerColor">@android:color/black</item>
+    </style>
+    <style name="Base.V27.Theme.YouTube.Share.DialogFragment.Light" parent="@style/Base.Theme.YouTube.Share.DialogFragment.Light">
         <item name="android:navigationBarColor">@android:color/white</item>
         <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:navigationBarDividerColor">#ffe2e2e2</item>
+        <item name="android:navigationBarDividerColor">@color/yt_white4</item>
     </style>
     <style name="NavigationBar.Dark.V27" parent="@style/NavigationBar">
         <item name="navigationBarColor">@color/navigation_bar_background_dark</item>

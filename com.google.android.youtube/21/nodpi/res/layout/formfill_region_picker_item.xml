@@ -5,5 +5,5 @@
         <TextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:id="@id/region_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
         <TextView android:textSize="18.0sp" android:textColor="?android:textColorSecondary" android:layout_gravity="end" android:id="@id/calling_code_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </LinearLayout>
-    <View android:background="@color/line_separator_color" android:layout_width="fill_parent" android:layout_height="@dimen/line_separator_height" />
+    <View android:background="?ytSeparator" android:layout_width="fill_parent" android:layout_height="@dimen/line_separator_height" />
 </LinearLayout>

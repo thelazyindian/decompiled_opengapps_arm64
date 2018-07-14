@@ -108,7 +108,7 @@
     <string name="accessibility_multi_recipient_share_illustration">Illustration</string>
     <string name="accessibility_new_content_available">New content available</string>
     <string name="accessibility_next">Next video</string>
-    <string name="accessibility_notifications_muted">Notifications muted for this chat</string>
+    <string name="accessibility_notifications_muted">Notifications are muted for this chat</string>
     <string name="accessibility_offline_button_cancel">Stop downloading</string>
     <string name="accessibility_offline_button_cannot_save">"Can't download"</string>
     <string name="accessibility_offline_button_pause">Pause download</string>
@@ -142,6 +142,8 @@
     <string name="accessibility_recording_end">Recording has ended, entering editor screen</string>
     <string name="accessibility_recording_start">Start recording</string>
     <string name="accessibility_related_screen">Related videos and playlists</string>
+    <string name="accessibility_related_screen_swipe_down">Related videos and playlists. Swipe down with two fingers to close</string>
+    <string name="accessibility_related_screen_swipe_up">Related videos and playlists. Swipe up with two fingers to open</string>
     <string name="accessibility_related_video_replies_video_item">Related video suggestion</string>
     <string name="accessibility_remove_attached_image">Remove attached image</string>
     <string name="accessibility_remove_attached_video">Remove attached video</string>
@@ -212,6 +214,8 @@
     <string name="ad_normal">Ad%1$s%2$s</string>
     <string name="ad_pod_normal">%1$s%2$s</string>
     <string name="ad_text_separator">" · "</string>
+    <string name="ad_will_end_in_multiline">"Ad will end
+in %1$ds"</string>
     <string name="add_participants_button">Add participants</string>
     <string name="add_playlist_to_offline">Download playlist</string>
     <string name="add_playlist_to_offline_error">"Playlist wasn't downloaded"</string>
@@ -460,6 +464,7 @@ Watch them on TV."</string>
     <string name="current_playback_time_content_description">Current playback time is %1$d minutes %2$d seconds</string>
     <string name="custom_notification_bullet">•</string>
     <string name="custom_notification_live">LIVE</string>
+    <string name="custom_notification_premiere">PREMIERE</string>
     <string name="default_notifications_channel">General notifications</string>
     <string name="delete_chat_cancel_button">GO BACK</string>
     <string name="delete_chat_confirm_button">DELETE</string>
@@ -521,8 +526,10 @@ Watch them on TV."</string>
     <string name="downloaded_video_error_no_storage">Free up space to download</string>
     <string name="downloaded_video_error_streams_missing_download_context">"Can't find download. Learn more."</string>
     <string name="downloaded_video_error_streams_missing_online_context">"Can't find download"</string>
+    <string name="downloaded_video_error_unplayable_age_check_download_context">Tap to confirm age</string>
+    <string name="downloaded_video_error_unplayable_content_check_download_context">Tap to confirm controversial content</string>
     <string name="downloaded_video_error_unplayable_download_context">Download unavailable. Learn more.</string>
-    <string name="downloaded_video_error_unplayable_online_context">Download unavailable.</string>
+    <string name="downloaded_video_error_unplayable_online_context">Download unavailable</string>
     <string name="downloaded_video_in_progress">Downloading… %1$d%%</string>
     <string name="downloaded_video_paused">Download paused</string>
     <string name="downloaded_video_pending_approval_download_context">Tap to download</string>
@@ -588,6 +595,7 @@ Watch them on TV."</string>
     <string name="error_permission_check_failed">Incompatible app permissions. Closing YouTube.</string>
     <string name="error_post_failed">There was a problem creating your post. Please try again.</string>
     <string name="error_post_image_invalid_ratio">"Your image's ratio exceeds our limit. Image will be automatically cropped around center."</string>
+    <string name="error_processing_link">Sorry, cannot open this link.</string>
     <string name="error_publishing_private_video">Failed to make video \"Unlisted\"</string>
     <string name="error_purchase_not_found">This video requires payment</string>
     <string name="error_purchase_refunded">Your purchase for this video has been refunded, so you no longer have access</string>
@@ -1180,7 +1188,7 @@ Add some videos!"</string>
     <string name="pref_developer_category">Developer</string>
     <string name="pref_developer_crash_app_title">Crash app in 20 seconds</string>
     <string name="pref_developer_crash_app_toast">App will crash in 20s</string>
-    <string name="pref_developer_dark_theme_for_app_summary">Use dark theme throughout the app</string>
+    <string name="pref_developer_dark_theme_for_app_summary">Please join AndroidDarkThemeStudy::Experiment (23740021) to enable.</string>
     <string name="pref_developer_dark_theme_for_app_title">Dark theme</string>
     <string name="pref_developer_dark_theme_for_watch_panel_summary">Use dark theme in the watch panel</string>
     <string name="pref_developer_dark_theme_for_watch_panel_title">Dark watch</string>
@@ -1344,7 +1352,7 @@ Add some videos!"</string>
     <string name="pref_upload_quality_title">Upload quality</string>
     <string name="preferences_license_title">Open source licenses</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">200485850</string>
+    <string name="primes_version">201275026</string>
     <string name="problem_while_playing">There was a problem while playing</string>
     <string name="publish_and_share_confirm_dialog_body">Publish this video so others can view it? The privacy setting will be changed to \"Unlisted.\"</string>
     <string name="publish_and_share_confirm_dialog_confirm_button">Publish</string>
@@ -1363,6 +1371,7 @@ Add some videos!"</string>
     <string name="reel_accessibility_camera_close_button">Close</string>
     <string name="reel_accessibility_camera_effects_button">Effects</string>
     <string name="reel_accessibility_cancel_vod_link">Cancel linked video</string>
+    <string name="reel_accessibility_channel">Channel Avatar</string>
     <string name="reel_accessibility_close_activity">Close</string>
     <string name="reel_accessibility_comment_count">Video comment count</string>
     <string name="reel_accessibility_edit_add_text">Text</string>
@@ -1386,6 +1395,8 @@ Add some videos!"</string>
     <string name="reel_accessibility_previous_reel">Previous Story</string>
     <string name="reel_accessibility_previous_video">Previous Video</string>
     <string name="reel_accessibility_settings_button">Settings</string>
+    <string name="reel_accessibility_story_announcement">Playing story %1$s, %2$s</string>
+    <string name="reel_accessibility_subscribed">Subscribed</string>
     <string name="reel_accessibility_turn_flashlight_on_button">Turn on flashlight</string>
     <string name="reel_accessibility_video_progress">Video Progress</string>
     <string name="reel_accessibility_view_count">Video view count</string>
@@ -1471,10 +1482,11 @@ Add some videos!"</string>
     <string name="remove_offline_video_message">"This video won't be available to watch offline."</string>
     <string name="remove_offline_video_title">Delete from downloads?</string>
     <string name="rename_dialog_ok">OK</string>
+    <string name="renew_offline">Renew download</string>
     <string name="reply_added">Reply added</string>
     <string name="report_button">Report</string>
     <string name="report_playlist_confirmation">Report as inappropriate?</string>
-    <string name="restore_video_crashed_message">Sorry, YouTube quit unexpectedly last time.</string>
+    <string name="restore_video_crashed_message">Sorry, YouTube quit unexpectedly last time</string>
     <string name="restore_video_resume_watching">RESUME WATCHING</string>
     <string name="resume_offline">Resume</string>
     <string name="sans_serif_medium_fontFamily">sans-serif</string>
@@ -1522,7 +1534,7 @@ Add some videos!"</string>
     <string name="search_filter_upload_date">Upload Date</string>
     <string name="search_for_an_artist">Search for an artist</string>
     <string name="search_hint">Search YouTube</string>
-    <string name="search_incognito_message">"Search history is paused while you're incognito."</string>
+    <string name="search_incognito_message">"Search history is paused while you're incognito"</string>
     <string name="search_offline_hint">Search downloads</string>
     <string name="search_title">YouTube</string>
     <string name="search_your_NBA_team">Search your NBA team</string>
@@ -1744,7 +1756,7 @@ after ad"</string>
     <string name="watch_history_resume_done">Resumed watch history</string>
     <string name="watched_badge_text">watched</string>
     <string name="wifi">wifi</string>
-    <string name="youtube_api_version_name">1.8.9</string>
+    <string name="youtube_api_version_name">1.9.0</string>
     <string name="youtube_help_uri">https://support.google.com/youtube/topic/2422554</string>
     <string name="yt_lib_common_retry">Retry</string>
     <item type="string" name="APKTOOL_DUMMY_2">false</item>
@@ -1770,61 +1782,58 @@ after ad"</string>
     <item type="string" name="APKTOOL_DUMMY_79">false</item>
     <item type="string" name="APKTOOL_DUMMY_7f">false</item>
     <item type="string" name="APKTOOL_DUMMY_91">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_bf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_d7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_e8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_ff">false</item>
-    <item type="string" name="APKTOOL_DUMMY_100">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_102">false</item>
     <item type="string" name="APKTOOL_DUMMY_103">false</item>
-    <item type="string" name="APKTOOL_DUMMY_104">false</item>
-    <item type="string" name="APKTOOL_DUMMY_105">false</item>
-    <item type="string" name="APKTOOL_DUMMY_10a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_115">false</item>
-    <item type="string" name="APKTOOL_DUMMY_140">false</item>
-    <item type="string" name="APKTOOL_DUMMY_142">false</item>
-    <item type="string" name="APKTOOL_DUMMY_144">false</item>
+    <item type="string" name="APKTOOL_DUMMY_106">false</item>
+    <item type="string" name="APKTOOL_DUMMY_107">false</item>
+    <item type="string" name="APKTOOL_DUMMY_108">false</item>
+    <item type="string" name="APKTOOL_DUMMY_10d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_118">false</item>
+    <item type="string" name="APKTOOL_DUMMY_143">false</item>
     <item type="string" name="APKTOOL_DUMMY_145">false</item>
+    <item type="string" name="APKTOOL_DUMMY_147">false</item>
     <item type="string" name="APKTOOL_DUMMY_148">false</item>
-    <item type="string" name="APKTOOL_DUMMY_149">false</item>
-    <item type="string" name="APKTOOL_DUMMY_14a">false</item>
     <item type="string" name="APKTOOL_DUMMY_14b">false</item>
     <item type="string" name="APKTOOL_DUMMY_14c">false</item>
     <item type="string" name="APKTOOL_DUMMY_14d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_156">false</item>
-    <item type="string" name="APKTOOL_DUMMY_157">false</item>
-    <item type="string" name="APKTOOL_DUMMY_158">false</item>
+    <item type="string" name="APKTOOL_DUMMY_14e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_14f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_150">false</item>
     <item type="string" name="APKTOOL_DUMMY_159">false</item>
     <item type="string" name="APKTOOL_DUMMY_15a">false</item>
     <item type="string" name="APKTOOL_DUMMY_15b">false</item>
     <item type="string" name="APKTOOL_DUMMY_15c">false</item>
     <item type="string" name="APKTOOL_DUMMY_15d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_163">false</item>
+    <item type="string" name="APKTOOL_DUMMY_15e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_15f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_160">false</item>
     <item type="string" name="APKTOOL_DUMMY_166">false</item>
-    <item type="string" name="APKTOOL_DUMMY_168">false</item>
     <item type="string" name="APKTOOL_DUMMY_169">false</item>
-    <item type="string" name="APKTOOL_DUMMY_16a">false</item>
     <item type="string" name="APKTOOL_DUMMY_16b">false</item>
     <item type="string" name="APKTOOL_DUMMY_16c">false</item>
     <item type="string" name="APKTOOL_DUMMY_16d">false</item>
     <item type="string" name="APKTOOL_DUMMY_16e">false</item>
     <item type="string" name="APKTOOL_DUMMY_16f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_170">false</item>
     <item type="string" name="APKTOOL_DUMMY_171">false</item>
-    <item type="string" name="APKTOOL_DUMMY_179">false</item>
-    <item type="string" name="APKTOOL_DUMMY_17a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_172">false</item>
+    <item type="string" name="APKTOOL_DUMMY_174">false</item>
     <item type="string" name="APKTOOL_DUMMY_17c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_187">false</item>
-    <item type="string" name="APKTOOL_DUMMY_189">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17f">false</item>
     <item type="string" name="APKTOOL_DUMMY_18a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_197">false</item>
-    <item type="string" name="APKTOOL_DUMMY_199">false</item>
-    <item type="string" name="APKTOOL_DUMMY_19b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_18c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_18d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19c">false</item>
     <item type="string" name="APKTOOL_DUMMY_19e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1a1">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a4">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a5">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a6">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a7">false</item>
@@ -1832,36 +1841,32 @@ after ad"</string>
     <item type="string" name="APKTOOL_DUMMY_1a9">false</item>
     <item type="string" name="APKTOOL_DUMMY_1aa">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ab">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ac">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ad">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ae">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1b0">false</item>
     <item type="string" name="APKTOOL_DUMMY_1bc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1bd">false</item>
     <item type="string" name="APKTOOL_DUMMY_1be">false</item>
     <item type="string" name="APKTOOL_DUMMY_1bf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1cb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1d8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1fb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1fc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_21c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_21e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ca">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ff">false</item>
     <item type="string" name="APKTOOL_DUMMY_21f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_220">false</item>
-    <item type="string" name="APKTOOL_DUMMY_230">false</item>
-    <item type="string" name="APKTOOL_DUMMY_23b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_254">false</item>
-    <item type="string" name="APKTOOL_DUMMY_255">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2c8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2ca">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2cb">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2cc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2cd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2ce">false</item>
+    <item type="string" name="APKTOOL_DUMMY_221">false</item>
+    <item type="string" name="APKTOOL_DUMMY_222">false</item>
+    <item type="string" name="APKTOOL_DUMMY_223">false</item>
+    <item type="string" name="APKTOOL_DUMMY_234">false</item>
+    <item type="string" name="APKTOOL_DUMMY_23f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_258">false</item>
+    <item type="string" name="APKTOOL_DUMMY_259">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2af">false</item>
     <item type="string" name="APKTOOL_DUMMY_2cf">false</item>
     <item type="string" name="APKTOOL_DUMMY_2d0">false</item>
     <item type="string" name="APKTOOL_DUMMY_2d1">false</item>
@@ -1878,134 +1883,141 @@ after ad"</string>
     <item type="string" name="APKTOOL_DUMMY_2dc">false</item>
     <item type="string" name="APKTOOL_DUMMY_2dd">false</item>
     <item type="string" name="APKTOOL_DUMMY_2de">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2e0">false</item>
     <item type="string" name="APKTOOL_DUMMY_2e1">false</item>
     <item type="string" name="APKTOOL_DUMMY_2e2">false</item>
     <item type="string" name="APKTOOL_DUMMY_2e3">false</item>
     <item type="string" name="APKTOOL_DUMMY_2e4">false</item>
     <item type="string" name="APKTOOL_DUMMY_2e5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2e6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2e7">false</item>
     <item type="string" name="APKTOOL_DUMMY_2e8">false</item>
     <item type="string" name="APKTOOL_DUMMY_2e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2eb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ec">false</item>
     <item type="string" name="APKTOOL_DUMMY_2ed">false</item>
     <item type="string" name="APKTOOL_DUMMY_2ee">false</item>
     <item type="string" name="APKTOOL_DUMMY_2ef">false</item>
     <item type="string" name="APKTOOL_DUMMY_2f0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_308">false</item>
-    <item type="string" name="APKTOOL_DUMMY_30e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_311">false</item>
-    <item type="string" name="APKTOOL_DUMMY_328">false</item>
-    <item type="string" name="APKTOOL_DUMMY_329">false</item>
-    <item type="string" name="APKTOOL_DUMMY_32e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_342">false</item>
-    <item type="string" name="APKTOOL_DUMMY_343">false</item>
-    <item type="string" name="APKTOOL_DUMMY_344">false</item>
-    <item type="string" name="APKTOOL_DUMMY_345">false</item>
-    <item type="string" name="APKTOOL_DUMMY_347">false</item>
-    <item type="string" name="APKTOOL_DUMMY_354">false</item>
-    <item type="string" name="APKTOOL_DUMMY_358">false</item>
-    <item type="string" name="APKTOOL_DUMMY_359">false</item>
-    <item type="string" name="APKTOOL_DUMMY_35d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_36a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_37d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_386">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3aa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3ab">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3b5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3b9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3bd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_30f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_315">false</item>
+    <item type="string" name="APKTOOL_DUMMY_318">false</item>
+    <item type="string" name="APKTOOL_DUMMY_32f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_330">false</item>
+    <item type="string" name="APKTOOL_DUMMY_335">false</item>
+    <item type="string" name="APKTOOL_DUMMY_349">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_35b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_35f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_360">false</item>
+    <item type="string" name="APKTOOL_DUMMY_364">false</item>
+    <item type="string" name="APKTOOL_DUMMY_371">false</item>
+    <item type="string" name="APKTOOL_DUMMY_384">false</item>
+    <item type="string" name="APKTOOL_DUMMY_38d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3b1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3b2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3bc">false</item>
     <item type="string" name="APKTOOL_DUMMY_3c0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3c2">false</item>
     <item type="string" name="APKTOOL_DUMMY_3c4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3c5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3ca">false</item>
-    <item type="string" name="APKTOOL_DUMMY_415">false</item>
-    <item type="string" name="APKTOOL_DUMMY_440">false</item>
-    <item type="string" name="APKTOOL_DUMMY_456">false</item>
-    <item type="string" name="APKTOOL_DUMMY_469">false</item>
-    <item type="string" name="APKTOOL_DUMMY_46b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_48c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_49e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_49f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4bc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4bd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4be">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3cb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3d1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_41c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_447">false</item>
+    <item type="string" name="APKTOOL_DUMMY_45d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_470">false</item>
+    <item type="string" name="APKTOOL_DUMMY_472">false</item>
+    <item type="string" name="APKTOOL_DUMMY_493">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4c4">false</item>
     <item type="string" name="APKTOOL_DUMMY_4c5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4cf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4dd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4de">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4e0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4ec">false</item>
-    <item type="string" name="APKTOOL_DUMMY_505">false</item>
-    <item type="string" name="APKTOOL_DUMMY_506">false</item>
-    <item type="string" name="APKTOOL_DUMMY_50a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_50b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_50e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_517">false</item>
-    <item type="string" name="APKTOOL_DUMMY_518">false</item>
-    <item type="string" name="APKTOOL_DUMMY_532">false</item>
-    <item type="string" name="APKTOOL_DUMMY_536">false</item>
-    <item type="string" name="APKTOOL_DUMMY_537">false</item>
-    <item type="string" name="APKTOOL_DUMMY_565">false</item>
-    <item type="string" name="APKTOOL_DUMMY_589">false</item>
-    <item type="string" name="APKTOOL_DUMMY_60c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_60e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_620">false</item>
-    <item type="string" name="APKTOOL_DUMMY_621">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4d7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4da">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4db">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_50c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_50d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_511">false</item>
+    <item type="string" name="APKTOOL_DUMMY_512">false</item>
+    <item type="string" name="APKTOOL_DUMMY_515">false</item>
+    <item type="string" name="APKTOOL_DUMMY_51e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_51f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_539">false</item>
+    <item type="string" name="APKTOOL_DUMMY_53d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_53e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_56c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_590">false</item>
+    <item type="string" name="APKTOOL_DUMMY_613">false</item>
+    <item type="string" name="APKTOOL_DUMMY_615">false</item>
+    <item type="string" name="APKTOOL_DUMMY_627">false</item>
     <item type="string" name="APKTOOL_DUMMY_628">false</item>
-    <item type="string" name="APKTOOL_DUMMY_62d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_632">false</item>
-    <item type="string" name="APKTOOL_DUMMY_633">false</item>
-    <item type="string" name="APKTOOL_DUMMY_634">false</item>
-    <item type="string" name="APKTOOL_DUMMY_639">false</item>
+    <item type="string" name="APKTOOL_DUMMY_630">false</item>
+    <item type="string" name="APKTOOL_DUMMY_635">false</item>
+    <item type="string" name="APKTOOL_DUMMY_63a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_63b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_63c">false</item>
     <item type="string" name="APKTOOL_DUMMY_641">false</item>
-    <item type="string" name="APKTOOL_DUMMY_642">false</item>
-    <item type="string" name="APKTOOL_DUMMY_644">false</item>
-    <item type="string" name="APKTOOL_DUMMY_650">false</item>
-    <item type="string" name="APKTOOL_DUMMY_656">false</item>
-    <item type="string" name="APKTOOL_DUMMY_657">false</item>
-    <item type="string" name="APKTOOL_DUMMY_658">false</item>
-    <item type="string" name="APKTOOL_DUMMY_659">false</item>
+    <item type="string" name="APKTOOL_DUMMY_649">false</item>
+    <item type="string" name="APKTOOL_DUMMY_64a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_64e">false</item>
     <item type="string" name="APKTOOL_DUMMY_65a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_65d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_686">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_660">false</item>
+    <item type="string" name="APKTOOL_DUMMY_661">false</item>
+    <item type="string" name="APKTOOL_DUMMY_662">false</item>
+    <item type="string" name="APKTOOL_DUMMY_663">false</item>
+    <item type="string" name="APKTOOL_DUMMY_664">false</item>
+    <item type="string" name="APKTOOL_DUMMY_667">false</item>
+    <item type="string" name="APKTOOL_DUMMY_690">false</item>
     <item type="string" name="APKTOOL_DUMMY_6ab">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6da">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6e4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6e7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6ea">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6ed">false</item>
-    <item type="string" name="APKTOOL_DUMMY_6ee">false</item>
-    <item type="string" name="APKTOOL_DUMMY_706">false</item>
-    <item type="string" name="APKTOOL_DUMMY_709">false</item>
-    <item type="string" name="APKTOOL_DUMMY_70a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ad">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6f9">false</item>
     <item type="string" name="APKTOOL_DUMMY_711">false</item>
-    <item type="string" name="APKTOOL_DUMMY_712">false</item>
-    <item type="string" name="APKTOOL_DUMMY_71a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_714">false</item>
+    <item type="string" name="APKTOOL_DUMMY_715">false</item>
     <item type="string" name="APKTOOL_DUMMY_71c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_729">false</item>
-    <item type="string" name="APKTOOL_DUMMY_730">false</item>
-    <item type="string" name="APKTOOL_DUMMY_732">false</item>
-    <item type="string" name="APKTOOL_DUMMY_739">false</item>
-    <item type="string" name="APKTOOL_DUMMY_740">false</item>
-    <item type="string" name="APKTOOL_DUMMY_749">false</item>
-    <item type="string" name="APKTOOL_DUMMY_74c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_74d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_761">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7aa">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7af">false</item>
+    <item type="string" name="APKTOOL_DUMMY_71d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_725">false</item>
+    <item type="string" name="APKTOOL_DUMMY_727">false</item>
+    <item type="string" name="APKTOOL_DUMMY_734">false</item>
+    <item type="string" name="APKTOOL_DUMMY_73b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_73d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_744">false</item>
+    <item type="string" name="APKTOOL_DUMMY_74b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_754">false</item>
+    <item type="string" name="APKTOOL_DUMMY_757">false</item>
+    <item type="string" name="APKTOOL_DUMMY_758">false</item>
+    <item type="string" name="APKTOOL_DUMMY_76c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7b5">false</item>
     <item type="string" name="APKTOOL_DUMMY_7ba">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7c5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7d7">false</item>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:tools="http://schemas.android.com/tools" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:orientation="vertical" android:background="@color/conversation_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/conversation_reply_container">
+    <LinearLayout android:orientation="vertical" android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/conversation_reply_container">
         <include android:id="@id/pending_chat_members" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/pending_chat_members" />
         <include android:id="@id/name_your_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/name_your_group" />
         <ViewStub android:id="@id/conversation_list_stub" android:inflatedId="@id/conversation_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />

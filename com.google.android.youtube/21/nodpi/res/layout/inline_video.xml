@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:yt="http://schemas.android.com/apk/res-auto" _xmlns:tools="http://schemas.android.com/tools" xmlns:_xmlns="xmlns"
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" _xmlns:android="http://schemas.android.com/apk/res/android" _xmlns:tools="http://schemas.android.com/tools" _xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:_xmlns="xmlns"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@id/thumbnail_container" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" res-auto:aspectRatio="@fraction/aspect_ratio_16_9_exact" xmlns:res-auto="http://schemas.android.com/apk/res-auto">
         <ImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/accessibility_go_to_video" />
