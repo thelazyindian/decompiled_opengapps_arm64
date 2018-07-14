@@ -51,13 +51,27 @@
     <string name="customer_information_title">Klienditeave</string>
     <string name="datadeletion__archived_game_item_title">Andmed arhiivitud mängudest</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Kustutage andmed arhiivitud mängudest.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Kui kustutate arhiivitud mängude andmed, eemaldatakse teie tulemused, edenemine ja mängu seaded, mille olete Google Play mängude kaudu esitanud.
+
+Seda toimingut ei saa tagasi võtta."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Kas kustutada andmed arhiivitud mängudest?</string>
     <string name="datadeletion__delete_archived_game_data_error">Teie arhiivitud mängude andmete kustutamisel ilmnes viga. Proovige hiljem uuesti.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Teie arhiivitud mängude andmed kustutatakse 24 tunni jooksul</string>
     <string name="datadeletion__delete_data_title">Play mängude andmete kustutamine</string>
     <string name="datadeletion__delete_game_data_button">Kustuta</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Mängu %1$s andmete kustutamine</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Mängu %1$s andmete kustutamine</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Kustutamine</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Kui kustutate mängu %1$s andmed, eemaldatakse teie tulemused, edenemine ja mängu seaded, mille olete Google Play mängude kaudu esitanud.
+
+Seda toimingut ei saa tagasi võtta."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Kas kustutada mängu %1$s andmed?</string>
+    <string name="datadeletion__delete_game_data_error">Mängu %1$s andmete kustutamisel ilmnes viga. Proovige hiljem uuesti.</string>
+    <string name="datadeletion__delete_game_data_explanation">Kustutab nende mängude andmed, mida olete mänginud rakenduses Google Play mängud. See toiming kustutab teie valitud mängu tulemused, edenemise ja mängu seaded.</string>
     <string name="datadeletion__delete_game_data_header">Üksiku mängu andmete kustutamine</string>
+    <string name="datadeletion__delete_game_data_success">Mängu %1$s andmed kustutatakse 24 tunni jooksul</string>
     <string name="datadeletion__delete_profile_button">Kustuta profiil</string>
+    <string name="datadeletion__delete_profile_explanation">Kustutab teenuses Google Play mängud kõik teie andmed, sh teie mängija-ID ja XP. See toiming võib teie mängitud mängudes kustutada ka tulemused, edenemise ja seaded.</string>
     <string name="datadeletion__delete_profile_header">Profiili ja kõigi andmete kustutamine</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Kustutatakse andmed arhiivitud mängudest.</string>
     <string name="datadeletion__game_list_load_error">Google Play mängudega mängitud mängude loendi laadimine ebaõnnestus. Proovige hiljem uuesti.</string>
@@ -88,6 +102,12 @@
     <string name="games__arcade__toolbar_title">Mängud</string>
     <string name="games__arcade_fragment_content_description">Kuvatakse leht „Arkaadmängud”.</string>
     <string name="games__game_installed_label">Installitud</string>
+    <string name="games__gamelibrary__contents">Kuvatakse mängude kogu %1$d installitud mänguga ja %2$d installimata mänguga.</string>
+    <string name="games__gamelibrary__installed_games_label">Installitud</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Päis „Installitud”</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Teie mängude kogusse laaditakse rohkem mänge.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Pole installitud</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Päis „Pole installitud”</string>
     <string name="games__installbutton__install">Installi</string>
     <string name="games__installbutton__install_content_description">Installi mäng %1$s</string>
     <string name="games__page_default_error_body">See pole teie, vaid meie viga.</string>
@@ -95,11 +115,19 @@
     <string name="games__page_offline_state_play_my_games_button">Mängi minu mänge</string>
     <string name="games__playbutton__play">Mängi</string>
     <string name="games__playbutton__play_content_description">Mängi mängu %1$s</string>
-    <string name="games__profile_page__tab_achievements">Saavutused</string>
-    <string name="games__profile_page__tab_games">Mängud</string>
-    <string name="games__profile_page__tab_players">Mängijad</string>
-    <string name="games__searchresults__no_matches_body">Otsisime kõikjalt, ent edutult.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Saavutuste vahekaardile lisasaavutuste laadimine.</string>
+    <string name="games__profile__edit_profile_network_error">Te ei saa võrguühenduseta oma profiili muuta. Kontrollige ühendust ja proovige hiljem uuesti.</string>
+    <string name="games__profile__email_content_description">Praegune konto: %1$s. Vaadake kontoloendit.</string>
+    <string name="games__profile__menu_edit_profile">Muutke profiili</string>
+    <string name="games__profile__page_content_description">Kuvatakse teie mängijaprofiil.</string>
+    <string name="games__profile__tab_achievements">Saavutused</string>
+    <string name="games__profile__tab_games">Mängud</string>
+    <string name="games__profile__tab_players">Mängijad</string>
+    <string name="games__profile__xp_progress_annotation">%1$s/ %2$s järgmise tasemeni %3$d</string>
+    <string name="games__search__search_hint">Otsige mänge</string>
+    <string name="games__search__trending_section_title">POPULAARSED</string>
     <string name="games__searchresults__no_matches_header">Vasteid ei leitud: „%1$s”</string>
+    <string name="games__settings__autoplay_videos_title">Videote automaatesitus</string>
     <string name="games__youtube__video_playback_error_toast">"YouTube'i videot ei saanud esitada."</string>
     <string name="games__youtube__video_thumbnail_content_description">Esitatakse videot „%1$s”</string>
     <string name="games_accessibility_event_tab_selected">%1$s on valitud</string>
@@ -163,7 +191,6 @@ Kas soovite logida sisse kui %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Märguanded</string>
     <string name="games_dest_participant_list_label">Osalejate loend</string>
     <string name="games_dest_player_detail_view_profile">KUVA PROFIIL</string>
-    <string name="games_dest_quests_empty_text">Täna pole ülesandeid. Siin kuvatakse Play mängude aktsepteeritud ülesanded.</string>
     <string name="games_dest_shop_games_list_label">Avastamine</string>
     <string name="games_dest_shop_games_visit_store_text">Play pood</string>
     <string name="games_dest_sign_in_failed_dialog_message">Vabandust! Näib, et midagi läks valesti.</string>
@@ -223,7 +250,6 @@ Kas soovite logida sisse kui %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Uus matši kutse</string>
     <string name="games_inbox_event_new_match">Mitme mängijaga matši värskendati</string>
     <string name="games_inbox_event_new_request">Uus taotlus</string>
-    <string name="games_inbox_header_accepted_quests">Kinnitatud ülesanded</string>
     <string name="games_inbox_header_completed_matches">Lõpetatud mängud</string>
     <string name="games_inbox_header_invitations">Kutsed</string>
     <string name="games_inbox_header_my_turn">Minu kord</string>
@@ -335,24 +361,14 @@ Rääkige teistele sellest mängust ja võrrelge tulemusi, kui sõbrad seda män
     <string name="games_mvp_expand_section_content_description">Jaotise laiendamine.</string>
     <string name="games_mvp_failed_to_load_settings">Mõne seade laadimine ebaõnnestus, proovige hiljem uuesti.</string>
     <string name="games_mvp_find_games_button_text">Mängude avastamine</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Edetabelite jaotise ahendamine.</string>
-    <string name="games_mvp_game_detail_content_description">Kuvatakse mängu %1$s üksikasjad.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Edetabelite jaotise laiendamine.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Mängija ID on nüüd sobilik.</string>
     <string name="games_mvp_games_fragment_content_description">Kuvatakse leht „Minu mängud”.</string>
     <string name="games_mvp_games_library_closed_content_description">Mängude kogu sulgemine.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Kuvatud on mängude kogu %1$d installitud mänguga, %2$d mängu on kohe proovimiseks saadaval ja %3$d mängu pole installitud.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Kuvatud on mängude kogu %1$d installitud ja %2$d installimata mänguga.</string>
     <string name="games_mvp_games_library_label">Kogu</string>
-    <string name="games_mvp_games_library_spinny_content_description">Teie mängude kogusse laaditakse rohkem mänge.</string>
     <string name="games_mvp_games_library_toolbar_title">Kogu</string>
-    <string name="games_mvp_hide_undo_snackbar_text">Mäng %1$s on jaotises Minu mängud peidetud</string>
-    <string name="games_mvp_installed_games_label">Installitud</string>
-    <string name="games_mvp_installed_games_label_content_description">Päis „Installitud”</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s on peidetud</string>
     <string name="games_mvp_installed_just_now">Just installitud</string>
     <string name="games_mvp_installed_time_format">Installitud %1$s</string>
-    <string name="games_mvp_instant_games_label">Proovige kohe</string>
-    <string name="games_mvp_instant_games_label_content_description">Päis „Proovige kohe”</string>
     <string name="games_mvp_last_played_just_now">Just mängiti</string>
     <string name="games_mvp_last_played_time_format">Viimati mängiti %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Edetabeli tüübi lüliti. Valikud on %1$s ja %2$s. Praegune valik: %3$s.</string>
@@ -372,8 +388,6 @@ Rääkige teistele sellest mängust ja võrrelge tulemusi, kui sõbrad seda män
     <string name="games_mvp_menu_uninstall">Desinstalli</string>
     <string name="games_mvp_menu_unmute">Tühista vaigistus</string>
     <string name="games_mvp_network_request_failed">Midagi läks valesti, proovige hiljem uuesti.</string>
-    <string name="games_mvp_not_installed_games_label">Installimata</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Päis „Pole installitud”</string>
     <string name="games_mvp_player_comparison_all_games">Kõik mängud</string>
     <string name="games_mvp_player_comparison_content_description">Kuvatakse mängijate võrdlus teie ja mängija %1$s vahel.</string>
     <string name="games_mvp_player_comparison_games_in_common">Ühised mängud</string>
@@ -397,6 +411,7 @@ Rääkige teistele sellest mängust ja võrrelge tulemusi, kui sõbrad seda män
     <string name="games_mvp_settings_about">Teave</string>
     <string name="games_mvp_settings_build_version_title">Play mängude versioon</string>
     <string name="games_mvp_settings_clear_local_search_history">Kustuta lähiotsingu ajalugu</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Selles seadmes tehtud otsingute eemaldamine</string>
     <string name="games_mvp_settings_content_description">Kuvatakse rakenduse seaded.</string>
     <string name="games_mvp_settings_debug_settings">Silumisseaded</string>
     <string name="games_mvp_settings_delete_play_games_data">Kustuta Play mängude andmed</string>
@@ -407,10 +422,9 @@ Rääkige teistele sellest mängust ja võrrelge tulemusi, kui sõbrad seda män
     <string name="games_mvp_settings_public_gamer_profile">Avalik mänguprofiil</string>
     <string name="games_mvp_settings_title">Seaded</string>
     <string name="games_mvp_share_game_card_text">Jagage oma sõpradega</string>
-    <string name="games_mvp_show_undo_snackbar_text">Mäng %1$s on nüüd jaotises Minu mängud</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s kuvatakse nüüd jaotises Minu mängud</string>
     <string name="games_mvp_snackbar_undo_button_text">Võta tagasi</string>
     <string name="games_mvp_uninstall_error_text">Midagi läks valesti – proovige %1$s uuesti desinstallida</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Midagi läks valesti, proovige uuesti desinstallida</string>
     <string name="games_mvp_uninstall_success_text">Mäng %1$s desinstalliti</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Mäng on desinstallitud</string>
     <string name="games_mvp_visit_arcade_button_text">Vaadake arkaadmänge</string>
@@ -501,7 +515,6 @@ Teil on võimalik muuta oma profiili ja seadeid või kustutada Google'isse salve
     <string name="games_progress_dialog_starting_rematch">Kordusmatši alustamine ...</string>
     <string name="games_progress_dialog_title">Edenemine</string>
     <string name="games_quest_detail_title">Ülesande üksikasjad</string>
-    <string name="games_quest_inbox_title">Ülesanded</string>
     <string name="games_quest_list_title">Ülesanded</string>
     <string name="games_quest_network_error_dialog_message">Ülesandega ei saanud nõustuda. Proovige hiljem uuesti.</string>
     <string name="games_quests_empty_text">Ülesandeid ei ole</string>
@@ -550,6 +563,8 @@ Teil on võimalik muuta oma profiili ja seadeid või kustutada Google'isse salve
     <string name="games_send_request_title_wish">Taotluse saatmine mängijale</string>
     <string name="games_server_title">Mängude server</string>
     <string name="games_setting_item_loading_content_description">Laadimine</string>
+    <string name="games_settings_dark_theme_subtitle">Aktiveerib kogu rakenduses tumeda teema</string>
+    <string name="games_settings_dark_theme_title">Tume teema</string>
     <string name="games_settings_debug_achievements_head">Saavutuste seaded</string>
     <string name="games_settings_debug_achievements_reshow">Kuva alati avamise hüpikud</string>
     <string name="games_settings_debug_clear_caches">Vahemälu tühjendamine</string>
@@ -566,6 +581,9 @@ Teil on võimalik muuta oma profiili ja seadeid või kustutada Google'isse salve
     <string name="games_settings_debug_reset_profile_settings_fail">Profiiliseadete lähtestamine ebaõnnestus.</string>
     <string name="games_settings_debug_reset_profile_settings_success">Profiiliseadete lähtestamine õnnestus.</string>
     <string name="games_settings_delete_profile">Teenuse Play mängud profiili kustutamine</string>
+    <string name="games_settings_delete_profile_dialog_message">"Kustutab teenuses Google Play mängud kõik teie andmed, sh teie mängija ID ja XP. See toiming võib teie mängitud mängudes kustutada ka tulemused, edenemise ja seaded.
+
+Seda toimingut ei saa tagasi võtta."</string>
     <string name="games_settings_delete_profile_dialog_title">Kustutada Play mängude profiil?</string>
     <string name="games_settings_delete_profile_fail">Teenusel Play mängud ei õnnestunud teie profiili kustutada. Proovige hiljem uuesti.</string>
     <string name="games_settings_delete_profile_positive">KUSTUTA</string>
@@ -583,6 +601,7 @@ Teil on võimalik muuta oma profiili ja seadeid või kustutada Google'isse salve
 %2$s"</string>
     <string name="games_share_game_share_title">Jagamine</string>
     <string name="games_sign_in_restricted_account_dialog_cta">JÄTKA</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Võite seda mängu mängida, kuid me ei saa teid selle kontoga teenusesse Google Play mängud sisse logida.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Jätkamine ilma sisselogimiseta</string>
     <string name="games_sign_in_restricted_profile_error_message">See rakendus ei saa teenusesse Google Play mängud piiratud profiiliga sisse logida.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Kahjuks ei saa me teid selle kontoga teenusesse Google Play mängud sisse logida.</string>
@@ -631,6 +650,7 @@ Teil on võimalik muuta oma profiili ja seadeid või kustutada Google'isse salve
     <string name="games_timestamp_now">Praegu</string>
     <string name="games_toast_dialog_app_muted">Mäng %1$s on vaigistatud</string>
     <string name="games_toast_dialog_app_unmuted">Mängu %1$s vaigistus on tühistatud</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Lähiotsingu ajaloo kustutamisel ilmnes viga.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Lähiotsingu ajalugu on kustutatud.</string>
     <string name="games_toast_video_captured_description">Vaatam. ja jagam. puudutage</string>
     <string name="games_toast_video_captured_label">Video salvestati galeriisse</string>
@@ -666,6 +686,7 @@ Teil on võimalik muuta oma profiili ja seadeid või kustutada Google'isse salve
     <string name="games_video_recording_camera_control_content_description_on">Kaamera keelamine</string>
     <string name="games_video_recording_draw_over_permission_toast">Salvestamise võimaldamiseks lubage Google Play teenuste jaoks seade Teiste rakenduste ülekirjutamine.</string>
     <string name="games_video_recording_legal_01">Kogu ekraanil kuvatav teave – märguanded, kõned, paroolid – ja läheduses kõlavad helid salvestatakse.</string>
+    <string name="games_video_recording_legal_02">Püüdke taustahelid vaigistada, et te ei salvestaks midagi, millele teil puuduvad õigused.</string>
     <string name="games_video_recording_legal_cancel">Tühista</string>
     <string name="games_video_recording_legal_proceed">Käivita</string>
     <string name="games_video_recording_legal_title">Enne alustamist</string>
@@ -703,8 +724,10 @@ Videod salvestatakse teie fotogaleriisse menüüs Seadme kaustad > Videosalvesti
     <string name="games_waiting_room_cant_start_match_body">Selle mängu mängimiseks ei ole piisavalt mängijaid.</string>
     <string name="games_waiting_room_keep_waiting">Oodake</string>
     <string name="games_waiting_room_menu_leave_room">Välju mängust</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Valimine</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Liitunud</string>
     <string name="games_waiting_room_participant_status_creator_joined">Liitunud</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Liitunud</string>
     <string name="games_waiting_room_participant_status_declined">Kutse on tagasi lükatud</string>
     <string name="games_waiting_room_participant_status_invited">Kutsutud</string>
     <string name="games_waiting_room_participant_status_left">Lahkus ruumist</string>

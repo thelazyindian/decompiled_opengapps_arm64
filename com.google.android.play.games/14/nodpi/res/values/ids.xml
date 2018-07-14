@@ -211,8 +211,8 @@
     <item type="id" name="youtube_embedded_player_layout" />
     <item type="id" name="game_static_image_container" />
     <item type="id" name="game_static_image" />
+    <item type="id" name="video_preview_container" />
     <item type="id" name="card_content_wrapper" />
-    <item type="id" name="game_icon" />
     <item type="id" name="title_text" />
     <item type="id" name="subtitle_text" />
     <item type="id" name="call_to_action" />
@@ -255,7 +255,6 @@
     <item type="id" name="enable_in_settings_button" />
     <item type="id" name="cancel_button" />
     <item type="id" name="i_understand_delete_consequences" />
-    <item type="id" name="content_container_view" />
     <item type="id" name="button" />
     <item type="id" name="toolbar" />
     <item type="id" name="toolbar_divider" />
@@ -281,8 +280,6 @@
     <item type="id" name="small_preview_image_top_end" />
     <item type="id" name="small_preview_image_bottom_end" />
     <item type="id" name="preview_body_text" />
-    <item type="id" name="exoplayer__video_preview__texture_view" />
-    <item type="id" name="exoplayer__video_preview__fallback_image" />
     <item type="id" name="arcade_page_container" />
     <item type="id" name="page_container" />
     <item type="id" name="hub_page_container" />
@@ -326,33 +323,72 @@
     <item type="id" name="news_module_container" />
     <item type="id" name="module_title_text" />
     <item type="id" name="top_module_padding" />
+    <item type="id" name="toolbar_title" />
     <item type="id" name="youtube_video_module_container" />
     <item type="id" name="metadata_container" />
     <item type="id" name="publisher_text" />
     <item type="id" name="views_text" />
     <item type="id" name="published_time_text" />
+    <item type="id" name="achievement_icon" />
+    <item type="id" name="achievement_title" />
+    <item type="id" name="achievement_description" />
+    <item type="id" name="achievement_details" />
     <item type="id" name="achievement_unlocked_module_container" />
     <item type="id" name="headline" />
     <item type="id" name="caption" />
+    <item type="id" name="games__exoplayer__video_preview_texture_view" />
+    <item type="id" name="games__exoplayer__video_preview_fallback_image" />
+    <item type="id" name="achievement_item_container" />
+    <item type="id" name="screenshot_icon" />
+    <item type="id" name="video_icon" />
+    <item type="id" name="main_icon" />
+    <item type="id" name="play_games_icon_image" />
+    <item type="id" name="avatar_icon_image" />
     <item type="id" name="game_update_module_container" />
+    <item type="id" name="library_games_list_item" />
+    <item type="id" name="retry_text" />
+    <item type="id" name="button_container" />
+    <item type="id" name="download_button" />
+    <item type="id" name="game_info_container" />
+    <item type="id" name="game_icon" />
+    <item type="id" name="game_title" />
+    <item type="id" name="game_annotation" />
     <item type="id" name="live_op_module_container" />
     <item type="id" name="module_header_section_container" />
     <item type="id" name="module_header_section_image" />
+    <item type="id" name="module_header_section_extra_content" />
     <item type="id" name="module_header_section_title" />
     <item type="id" name="module_header_section_subtitle" />
-    <item type="id" name="module_header_section_extra_content" />
+    <item type="id" name="achievement_count" />
     <item type="id" name="extra_content_button" />
     <item type="id" name="published_duration_text_separator" />
-    <item type="id" name="games__profile_page_recyclerview" />
+    <item type="id" name="achievement_item" />
+    <item type="id" name="viewpager" />
     <item type="id" name="app_bar_layout" />
-    <item type="id" name="games_profile_page_header" />
+    <item type="id" name="profile_header" />
+    <item type="id" name="profile_avatar_view" />
     <item type="id" name="profile_avatar" />
+    <item type="id" name="profile_avatar_wreath" />
+    <item type="id" name="space" />
     <item type="id" name="user_level" />
     <item type="id" name="gamer_tag" />
+    <item type="id" name="email_text" />
+    <item type="id" name="games__profile__tab_recyclerview" />
+    <item type="id" name="games__profile__tab_layout" />
+    <item type="id" name="xp_headline" />
+    <item type="id" name="xp_bar_holder" />
+    <item type="id" name="current_xp_level" />
+    <item type="id" name="next_xp_level" />
+    <item type="id" name="xp_progress_annotation" />
+    <item type="id" name="xp_progress_bar_panel_divider" />
+    <item type="id" name="search_view" />
+    <item type="id" name="container_view" />
     <item type="id" name="page_body_message" />
     <item type="id" name="retry_button" />
     <item type="id" name="play_my_games_button" />
     <item type="id" name="send_feedback_button" />
+    <item type="id" name="games__videopreviews__webp_image_view" />
+    <item type="id" name="games__videopreviews__mp4_view_model_container" />
     <item type="id" name="account_switcher_view" />
     <item type="id" name="achievements_activity" />
     <item type="id" name="achievement_list_data" />
@@ -366,9 +402,6 @@
     <item type="id" name="action_bar_count_indicator" />
     <item type="id" name="horiz_layout" />
     <item type="id" name="info_icon" />
-    <item type="id" name="button_a" />
-    <item type="id" name="button_b" />
-    <item type="id" name="button_start" />
     <item type="id" name="carousel_background" />
     <item type="id" name="carousel_header_container" />
     <item type="id" name="carousel_title" />
@@ -403,14 +436,11 @@
     <item type="id" name="setting_value" />
     <item type="id" name="setting_progress_bar" />
     <item type="id" name="games_client_ui_header_wrapper" />
-    <item type="id" name="info_popup" />
-    <item type="id" name="popup_icon" />
-    <item type="id" name="popup_text_label" />
-    <item type="id" name="popup_text_data" />
-    <item type="id" name="popup_text_single_line_message" />
     <item type="id" name="game_connecting_popup" />
     <item type="id" name="game_info_section" />
+    <item type="id" name="popup_icon" />
     <item type="id" name="popup_app_label" />
+    <item type="id" name="popup_text_label" />
     <item type="id" name="country" />
     <item type="id" name="badge_description" />
     <item type="id" name="badge_container" />
@@ -501,6 +531,9 @@
     <item type="id" name="pager" />
     <item type="id" name="inbox_nearby_players_view" />
     <item type="id" name="info_popup_container" />
+    <item type="id" name="info_popup" />
+    <item type="id" name="popup_text_data" />
+    <item type="id" name="popup_text_single_line_message" />
     <item type="id" name="info_popup_curtain" />
     <item type="id" name="popup_curtain_label" />
     <item type="id" name="leaderboards_activity" />
@@ -599,7 +632,6 @@
     <item type="id" name="games_participant_title_text" />
     <item type="id" name="titleDivider" />
     <item type="id" name="games_participant_list_view" />
-    <item type="id" name="featured_image" />
     <item type="id" name="participant_row" />
     <item type="id" name="in_circles_indicator" />
     <item type="id" name="participant_name" />
@@ -783,8 +815,6 @@
     <item type="id" name="player_status" />
     <item type="id" name="view_video" />
     <item type="id" name="upload" />
-    <item type="id" name="videopreviews__webp_image_view" />
-    <item type="id" name="videopreviews__mp4_view_model_container" />
     <item type="id" name="text_01" />
     <item type="id" name="text_02" />
     <item type="id" name="learn_more" />
@@ -865,30 +895,13 @@
     <item type="id" name="total_storage_size_text" />
     <item type="id" name="clear_all_data" />
     <item type="id" name="achievement_xp" />
-    <item type="id" name="achievement_title" />
-    <item type="id" name="achievement_description" />
     <item type="id" name="avatar_image" />
     <item type="id" name="level_background" />
     <item type="id" name="level_text" />
     <item type="id" name="selected_overlay" />
-    <item type="id" name="expand_control" />
-    <item type="id" name="expanded_container" />
     <item type="id" name="players_preview_view" />
     <item type="id" name="players_expand_control" />
     <item type="id" name="players_expanded_container" />
-    <item type="id" name="achievements_section" />
-    <item type="id" name="achievement_count" />
-    <item type="id" name="achievements_container" />
-    <item type="id" name="content_view" />
-    <item type="id" name="game_title_text" />
-    <item type="id" name="last_played_text" />
-    <item type="id" name="game_details_fragment_container" />
-    <item type="id" name="game_banner_image" />
-    <item type="id" name="strut" />
-    <item type="id" name="leaderboards_container" />
-    <item type="id" name="leaderboards_view" />
-    <item type="id" name="players_container" />
-    <item type="id" name="players_view" />
     <item type="id" name="games_main_content_container" />
     <item type="id" name="mvp_games_fragment_container" />
     <item type="id" name="empty_state_container" />
@@ -908,15 +921,8 @@
     <item type="id" name="snippet_icon" />
     <item type="id" name="annotation_text" />
     <item type="id" name="info_panel_divider" />
-    <item type="id" name="game_info_container" />
-    <item type="id" name="button_container" />
-    <item type="id" name="game_title" />
-    <item type="id" name="game_annotation" />
-    <item type="id" name="download_button" />
-    <item type="id" name="retry_text" />
     <item type="id" name="item_image" />
     <item type="id" name="item_title" />
-    <item type="id" name="library_games_list_item" />
     <item type="id" name="player_comparison_recycler_view" />
     <item type="id" name="avatar_level_view" />
     <item type="id" name="player_comparison_games_list_item" />
@@ -958,17 +964,20 @@
     <item type="id" name="xp_progress_bar" />
     <item type="id" name="xp_text" />
     <item type="id" name="mvp_profile_fragment_container" />
-    <item type="id" name="profile_header" />
     <item type="id" name="gamer_tag_text" />
-    <item type="id" name="email_text" />
+    <item type="id" name="content_view" />
     <item type="id" name="category_xp_container" />
     <item type="id" name="category_xp_empty_state_view" />
+    <item type="id" name="players_container" />
+    <item type="id" name="players_view" />
     <item type="id" name="xp_history_container" />
     <item type="id" name="xp_history_empty_state_view" />
     <item type="id" name="profile_main_xp_bar_container" />
     <item type="id" name="level_progress_bar" />
     <item type="id" name="games_version_text" />
-    <item type="id" name="clickable_text" />
+    <item type="id" name="clickable_link" />
+    <item type="id" name="label_text" />
+    <item type="id" name="summary_text" />
     <item type="id" name="account_text" />
     <item type="id" name="settings_recycler_view" />
     <item type="id" name="muted_game_icon" />
@@ -1000,11 +1009,11 @@
     <item type="id" name="open_search_view_root" />
     <item type="id" name="open_search_view_status_bar_spacer" />
     <item type="id" name="open_search_view_toolbar" />
+    <item type="id" name="open_search_view_search_prefix" />
     <item type="id" name="open_search_view_edit_text" />
     <item type="id" name="open_search_view_clear_button" />
     <item type="id" name="open_search_view_divider" />
     <item type="id" name="open_search_view_content_container" />
-    <item type="id" name="open_search_view" />
     <item type="id" name="tag" />
     <item type="id" name="tab_bar" />
     <item type="id" name="subnav_container" />
@@ -1142,12 +1151,15 @@
     <item type="id" name="logo" />
     <item type="id" name="coordinator_layout" />
     <item type="id" name="floating_action_button" />
-    <item type="id" name="item" />
-    <item type="id" name="search_view" />
-    <item type="id" name="save_time" />
-    <item type="id" name="duration" />
+    <item type="id" name="invitation_time" />
+    <item type="id" name="list_header" />
+    <item type="id" name="participants" />
     <item type="id" name="delete_button" />
     <item type="id" name="select_button" />
+    <item type="id" name="item" />
+    <item type="id" name="level" />
+    <item type="id" name="duration" />
+    <item type="id" name="save_time" />
     <item type="id" name="vertical_item_list_1" />
     <item type="id" name="vertical_item_list_2" />
     <item type="id" name="arcade__vertical_item_list_module" />
@@ -1162,6 +1174,7 @@
     <item type="id" name="download" />
     <item type="id" name="finish" />
     <item type="id" name="pressed" />
+    <item type="id" name="action_edit" />
     <item type="id" name="menu_settings" />
     <item type="id" name="menu_search" />
     <item type="id" name="menu_nearby" />
@@ -1187,7 +1200,6 @@
     <item type="id" name="action_store" />
     <item type="id" name="action_search" />
     <item type="id" name="action_profile" />
-    <item type="id" name="action_edit" />
     <item type="id" name="search" />
     <item type="id" name="leave_room" />
 </resources>

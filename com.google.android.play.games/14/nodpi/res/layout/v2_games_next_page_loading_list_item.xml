@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/Games.InGame.ListItem.OuterContainer.OnBottomSheet"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout style="@style/Games.InGame.ListItem.InnerContainer">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/v2_games_list_item_image_size" style="?android:attr/progressBarStyle" />
+    </FrameLayout>
+</FrameLayout>

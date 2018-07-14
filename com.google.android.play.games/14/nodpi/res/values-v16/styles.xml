@@ -61,46 +61,6 @@
         <item name="android:paddingRight">@dimen/games_standard_side_padding</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
-    <style name="Games.InGame.Header.Subtitle" parent="@style/Games.InGame.Header">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_tertiary</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:minHeight">@dimen/v2_games_header_subtitle_min_height</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:fontFamily">sans-serif</item>
-    </style>
-    <style name="Games.InGame.Header.Title" parent="@style/Games.InGame.Header">
-        <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_primary</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="Games.InGame.ListItem.Label" parent="@style/Games.InGame.ListItem">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_tertiary</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="Games.InGame.ListItem.Progress" parent="@style/Games.InGame.ListItem">
-        <item name="android:textSize">14.0dip</item>
-        <item name="android:textColor">@color/v2_games_client_accent</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="Games.InGame.ListItem.Title" parent="@style/Games.InGame.ListItem">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_primary</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:minHeight">@dimen/v2_games_list_item_text_min_height</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="Games.InGame.NoData.Title" parent="@style/Games.InGame.NoData">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_tertiary</item>
-        <item name="android:gravity">center_horizontal</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
     <style name="Games.LeaderboardScoreNullTextAppearance" parent="@android:style/TextAppearance">
         <item name="android:textSize">@dimen/games_leaderboard_score_null_text_size</item>
         <item name="android:textColor">#ffffffff</item>
@@ -238,30 +198,6 @@
     </style>
     <style name="TextAppearance.GoogleMaterial.Chip.Suggestive" parent="@style/Base.TextAppearance.GoogleMaterial.Chip.Suggestive">
         <item name="android:textStyle">normal</item>
-        <item name="fontFamily">@font/google_sans_medium</item>
-    </style>
-    <style name="TextStyle.Replay.Headline.3" parent="@style/TextAppearance.GoogleMaterial.Headline3">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:lineSpacingExtra">1.0999756sp</item>
-        <item name="android:fontFamily">@font/google_sans_medium</item>
-        <item name="fontFamily">@font/google_sans_medium</item>
-    </style>
-    <style name="TextStyle.Replay.Headline.4" parent="@style/TextAppearance.GoogleMaterial.Headline4">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:lineSpacingExtra">2.0sp</item>
-        <item name="android:fontFamily">@font/google_sans_medium</item>
-        <item name="fontFamily">@font/google_sans_medium</item>
-    </style>
-    <style name="TextStyle.Replay.Headline.5" parent="@style/TextAppearance.GoogleMaterial.Headline5">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:lineSpacingExtra">0.70000005sp</item>
-        <item name="android:fontFamily">@font/google_sans_medium</item>
-        <item name="fontFamily">@font/google_sans_medium</item>
-    </style>
-    <style name="TextStyle.Replay.Headline.6" parent="@style/TextAppearance.GoogleMaterial.Headline6">
-        <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:lineSpacingExtra">1.2999878sp</item>
-        <item name="android:fontFamily">@font/google_sans_medium</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
 </resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="28" package="com.google.android.play.games" platformBuildVersionCode="28" platformBuildVersionName="28">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" package="com.google.android.play.games" platformBuildVersionCode="28" platformBuildVersionName="9">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:maxSdkVersion="22" android:name="android.permission.USE_CREDENTIALS"/>
@@ -85,8 +85,8 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:icon="@mipmap/ic_launcher_icon" android:name="com.google.android.gms.games.ui.v2.SignInActivity" android:process="com.google.android.play.games.ui" android:taskAffinity="com.google.android.gms.games.ui.v2" android:theme="@style/Games.MvpActivityTheme"/>
-        <activity-alias android:exported="true" android:icon="@mipmap/ic_launcher_icon" android:label="@string/games_mvp_launcher_name" android:name="com.google.android.gms.games.ui.destination.main.MainActivity" android:roundIcon="@mipmap/ic_launcher_round_icon" android:targetActivity="com.google.android.gms.games.ui.v2.SignInActivity">
+        <activity android:icon="@mipmap/ic_launcher_icon" android:name="com.google.android.apps.play.games.features.signin.SignInActivity" android:process="com.google.android.play.games.ui" android:taskAffinity="com.google.android.gms.games.ui.v2" android:theme="@style/Games.MvpActivityTheme"/>
+        <activity-alias android:exported="true" android:icon="@mipmap/ic_launcher_icon" android:label="@string/games_mvp_launcher_name" android:name="com.google.android.gms.games.ui.destination.main.MainActivity" android:roundIcon="@mipmap/ic_launcher_round_icon" android:targetActivity="com.google.android.apps.play.games.features.signin.SignInActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -125,7 +125,7 @@
                 <data android:pathPrefix="/games/arcade"/>
             </intent-filter>
         </activity-alias>
-        <activity android:exported="false" android:icon="@mipmap/ic_launcher_icon" android:name="com.google.android.gms.games.ui.v2.ArcadeActivity" android:process="com.google.android.play.games.ui" android:screenOrientation="unspecified" android:taskAffinity="com.google.android.gms.games.ui.v2" android:theme="@style/Games.MvpActivityTheme" android:windowSoftInputMode="stateHidden">
+        <activity android:exported="false" android:icon="@mipmap/ic_launcher_icon" android:name="com.google.android.gms.games.ui.v2.ArcadeActivity" android:process="com.google.android.play.games.ui" android:screenOrientation="unspecified" android:taskAffinity="com.google.android.gms.games.ui.v2" android:theme="@style/Games.MvpActivityTheme" android:windowSoftInputMode="adjustPan|stateHidden">
             <intent-filter>
                 <action android:name="com.google.android.gms.games.destination.mvp.VIEW_MY_PROFILE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -301,16 +301,16 @@
                 <data android:scheme="version"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-        </activity>
-        <activity android:exported="true" android:icon="@mipmap/ic_launcher_icon" android:name="com.google.android.gms.games.ui.clientv2.matches.MultiplayerInboxActivity" android:process="com.google.android.play.games.ui" android:theme="@style/Games.InGame.FullScreenActivity" android:visibleToInstantApps="true">
-            <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
             <intent-filter android:priority="10">
-                <action android:name="com.google.android.gms.games.SHOW_INVITATIONS_V2"/>
+                <action android:name="com.google.android.gms.games.SHOW_MULTIPLAYER_INBOX_V2"/>
                 <data android:scheme="version"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+        </activity>
+        <activity android:exported="true" android:icon="@mipmap/ic_launcher_icon" android:label="@string/games_inbox_header_invitations" android:name="com.google.android.gms.games.ui.clientv2.matches.invitations.InvitationsActivity" android:process="com.google.android.play.games.ui" android:theme="@style/Games.InGame.FullScreenActivity" android:visibleToInstantApps="true">
+            <meta-data android:name="instantapps.clients.allowed" android:value="true"/>
             <intent-filter android:priority="10">
-                <action android:name="com.google.android.gms.games.SHOW_MULTIPLAYER_INBOX_V2"/>
+                <action android:name="com.google.android.gms.games.SHOW_INVITATIONS_V2"/>
                 <data android:scheme="version"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>

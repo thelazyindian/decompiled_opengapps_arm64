@@ -40,13 +40,27 @@
     <string name="customer_information_title">Impormasyon ng Customer</string>
     <string name="datadeletion__archived_game_item_title">Data mula sa mga na-archive na laro</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Mag-delete ng data mula sa mga na-archive na laro.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Kapag na-delete ang iyong data mula sa mga na-archive na laro, maaalis ang iyong mga score, progreso, at mga setting ng laro na naitakda mo gamit ang mga laro sa Google Play.
+
+Hindi maa-undo ang pagkilos na ito!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">I-delete ang data mula sa mga na-archive na laro?</string>
     <string name="datadeletion__delete_archived_game_data_error">Nagkaroon ng error sa pag-delete ng iyong data mula sa mga na-archive na laro. Pakisubukan ulit.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Made-delete ang iyong data mula sa mga na-archive na laro sa loob ng 24 na oras</string>
     <string name="datadeletion__delete_data_title">I-delete ang Data ng Mga Laro sa Play</string>
     <string name="datadeletion__delete_game_data_button">I-delete</string>
+    <string name="datadeletion__delete_game_data_button_content_description">I-delete ang data para sa %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Dine-delete ang data para sa %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Dine-delete…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Kapag na-delete ang iyong data para sa %1$s, maaalis ang mga score, progreso, at mga setting ng laro mo na iyong naitakda gamit ang Mga Laro sa Google Play.
+
+Hindi maa-undo ang pagkilos na ito."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">I-delete ang data para sa %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">Nagkaroon ng error sa pag-delete ng iyong data para sa %1$s. Pakisubukang muli sa ibang pagkakataon.</string>
+    <string name="datadeletion__delete_game_data_explanation">I-delete ang indibidwal na data para sa iyong mga nilaro gamit ang Mga Laro sa Google Play. Ide-delete ng pagkilos na ito ang iyong mga score, progreso, at mga setting ng laro para sa larong pipiliin mo.</string>
     <string name="datadeletion__delete_game_data_header">I-delete ang indibidwal na data ng laro</string>
+    <string name="datadeletion__delete_game_data_success">Made-delete ang iyong data para sa %1$s sa loob ng 24 na oras</string>
     <string name="datadeletion__delete_profile_button">I-delete ang profile</string>
+    <string name="datadeletion__delete_profile_explanation">I-delete ang lahat ng iyong data sa Mga Laro sa Google Play, kasama ang Gamer ID at XP mo. Maaari ring ma-delete ng pagkilos na ito ang iyong mga score, progreso, at mga setting sa mga nalaro mo na.</string>
     <string name="datadeletion__delete_profile_header">I-delete ang profile at lahat ng data</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Dine-delete ang data mula sa mga na-archive na laro.</string>
     <string name="datadeletion__game_list_load_error">Hindi na-load ang listahan ng mga nilaro mo gamit ang Mga Laro sa Google Play. Pakisubukan ulit.</string>
@@ -74,6 +88,12 @@
     <string name="games__arcade__toolbar_title">Mga Laro</string>
     <string name="games__arcade_fragment_content_description">Ipinapakita ang page na \"Arcade.\"</string>
     <string name="games__game_installed_label">Naka-install</string>
+    <string name="games__gamelibrary__contents">Ipinapakita ang library ng mga laro na may %1$d (na) larong naka-install at %2$d (na) larong hindi naka-install.</string>
+    <string name="games__gamelibrary__installed_games_label">Naka-install</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Header na \"Naka-install\"</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Naglo-load ng higit pang laro sa library ng mga laro.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Hindi naka-install</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Header na \"Hindi naka-install\"</string>
     <string name="games__installbutton__install">I-install</string>
     <string name="games__installbutton__install_content_description">I-install ang %1$s</string>
     <string name="games__page_default_error_body">Hindi ikaw ang may problema, kami.</string>
@@ -81,11 +101,18 @@
     <string name="games__page_offline_state_play_my_games_button">Laruin ang Aking Mga Laro</string>
     <string name="games__playbutton__play">Laruin</string>
     <string name="games__playbutton__play_content_description">Maglaro ng %1$s</string>
-    <string name="games__profile_page__tab_achievements">Mga Achievement</string>
-    <string name="games__profile_page__tab_games">Mga Laro</string>
-    <string name="games__profile_page__tab_players">Mga Player</string>
-    <string name="games__searchresults__no_matches_body">Naghanap na kami sa lahat ng kaharian at wala pa rin kaming nahanap.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Naglo-load ng higit pang achievement sa tab na mga achievement.</string>
+    <string name="games__profile__edit_profile_network_error">Hindi mo maaaring i-edit ang iyong profile habang offline. Pakitingnan ang iyong koneksyon at subukang muli sa ibang pagkakataon.</string>
+    <string name="games__profile__email_content_description">Kasalukuyang account: %1$s. Ipakita ang listahan ng account.</string>
+    <string name="games__profile__menu_edit_profile">I-edit ang Profile</string>
+    <string name="games__profile__page_content_description">Ipinapakita ang iyong profile ng manlalaro.</string>
+    <string name="games__profile__tab_achievements">Mga Achievement</string>
+    <string name="games__profile__tab_games">Mga Laro</string>
+    <string name="games__profile__tab_players">Mga Player</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s na lang bago mag-level up %3$d</string>
+    <string name="games__search__search_hint">Maghanap ng mga laro</string>
     <string name="games__searchresults__no_matches_header">Walang tumugma sa \"%1$s\"</string>
+    <string name="games__settings__autoplay_videos_title">I-autoplay ang mga video</string>
     <string name="games__youtube__video_playback_error_toast">Hindi ma-play ang video sa YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">I-play ang video na \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">Napili ang %1$s</string>
@@ -142,7 +169,6 @@ Gusto mo bang mag-sign in bilang si %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Mga Notification</string>
     <string name="games_dest_participant_list_label">Listahan ng mga Kalahok</string>
     <string name="games_dest_player_detail_view_profile">TINGNAN ANG PROFILE</string>
-    <string name="games_dest_quests_empty_text">Walang quest ngayong araw! Lalabas dito ang mga tinanggap mong Laro na quest sa Play.</string>
     <string name="games_dest_shop_games_list_label">I-explore</string>
     <string name="games_dest_sign_in_failed_dialog_message">Naku, mukhang nagkaproblema.</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Magpadala ng Feedback</string>
@@ -199,7 +225,6 @@ Gusto mo bang mag-sign in bilang si %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Bagong imbitasyon sa laban</string>
     <string name="games_inbox_event_new_match">Na-update ang multiplayer na laban</string>
     <string name="games_inbox_event_new_request">Bagong kahilingan</string>
-    <string name="games_inbox_header_accepted_quests">Mga tinanggap na quest</string>
     <string name="games_inbox_header_completed_matches">Mga tapos nang laban</string>
     <string name="games_inbox_header_invitations">Mga Imbitasyon</string>
     <string name="games_inbox_header_my_turn">Ako na</string>
@@ -308,22 +333,12 @@ Sabihin sa iba ang tungkol sa larong ito at paghambingin ang mga score kapag nag
     <string name="games_mvp_expand_section_content_description">I-expand ang seksyon.</string>
     <string name="games_mvp_failed_to_load_settings">Hindi nag-load ang ilang setting, pakisubukang muli sa ibang pagkakataon.</string>
     <string name="games_mvp_find_games_button_text">Mag-explore ng laro</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">I-collapse ang seksyon ng Mga Leaderboard.</string>
-    <string name="games_mvp_game_detail_content_description">Ipinapakita ang mga detalye ng larong %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Palawakin ang seksyon ng Mga Leaderboard.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Valid na ngayon ang Gamer ID.</string>
     <string name="games_mvp_games_fragment_content_description">Ipinapakita ang page na \"Aking Mga Laro.\"</string>
     <string name="games_mvp_games_library_closed_content_description">Isinasara ang library ng mga laro.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Ipinapakita ang library ng mga laro na may %1$d (na) larong naka-install, %2$d (na) larong available na subukan ngayon, at %3$d (na) larong hindi naka-install.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Ipinapakita ang library ng mga laro na may %1$d (na) larong naka-install at %2$d (na) larong hindi naka-install.</string>
-    <string name="games_mvp_games_library_spinny_content_description">Naglo-load ng higit pang laro sa library ng mga laro.</string>
-    <string name="games_mvp_hide_undo_snackbar_text">Nakatago ang %1$s sa Aking Mga Laro</string>
-    <string name="games_mvp_installed_games_label">Naka-install</string>
-    <string name="games_mvp_installed_games_label_content_description">Header na \"Naka-install\"</string>
+    <string name="games_mvp_hide_undo_snackbar_text">Naitago ang %1$s</string>
     <string name="games_mvp_installed_just_now">Kaka-install lang</string>
     <string name="games_mvp_installed_time_format">Na-install %1$s</string>
-    <string name="games_mvp_instant_games_label">Subukan ngayon</string>
-    <string name="games_mvp_instant_games_label_content_description">Header na \"Subukan ngayon\"</string>
     <string name="games_mvp_last_played_just_now">Kalalaro lang</string>
     <string name="games_mvp_last_played_time_format">Huling nilaro %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Switch ng uri ng leaderboard. Ang mga opsyon ay ang %1$s at %2$s. Kasalukuyang opsyon: %3$s.</string>
@@ -341,8 +356,6 @@ Sabihin sa iba ang tungkol sa larong ito at paghambingin ang mga score kapag nag
     <string name="games_mvp_menu_uninstall">I-uninstall</string>
     <string name="games_mvp_menu_unmute">I-unmute</string>
     <string name="games_mvp_network_request_failed">Nagkaproblema, pakisubukang muli sa ibang pagkakataon.</string>
-    <string name="games_mvp_not_installed_games_label">Hindi naka-install</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Header na \"Hindi naka-install\"</string>
     <string name="games_mvp_player_comparison_all_games">Lahat ng laro</string>
     <string name="games_mvp_player_comparison_content_description">Ipinapakita ang paghahambing ng manlalaro sa pagitan mo at ni %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Mga nilalaro ng pareho</string>
@@ -363,6 +376,7 @@ Sabihin sa iba ang tungkol sa larong ito at paghambingin ang mga score kapag nag
     <string name="games_mvp_settings_about">Tungkol Dito</string>
     <string name="games_mvp_settings_build_version_title">Bersyon ng Mga Laro sa Play</string>
     <string name="games_mvp_settings_clear_local_search_history">I-clear ang lokal na history ng paghahanap</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Alisin sa device na ito ang mga paghahanap na isinagawa mo</string>
     <string name="games_mvp_settings_content_description">Ipinapakita ang mga setting ng app.</string>
     <string name="games_mvp_settings_debug_settings">Mga setting ng pag-debug</string>
     <string name="games_mvp_settings_delete_play_games_data">I-delete ang data sa Mga Laro sa Play</string>
@@ -373,10 +387,9 @@ Sabihin sa iba ang tungkol sa larong ito at paghambingin ang mga score kapag nag
     <string name="games_mvp_settings_public_gamer_profile">Pampublikong profile ng gamer</string>
     <string name="games_mvp_settings_title">Mga Setting</string>
     <string name="games_mvp_share_game_card_text">Ibahagi sa iyong mga kaibigan</string>
-    <string name="games_mvp_show_undo_snackbar_text">Nasa Aking Mga Laro na ang %1$s</string>
+    <string name="games_mvp_show_undo_snackbar_text">Ipinapakita na ang %1$s sa Aking Mga Laro</string>
     <string name="games_mvp_snackbar_undo_button_text">I-undo</string>
     <string name="games_mvp_uninstall_error_text">Nagkaproblema – subukang i-uninstall ang %1$s</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Nagkaroon ng problema – subukang i-uninstall muli</string>
     <string name="games_mvp_uninstall_success_text">Na-uninstall na ang %1$s</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Na-uninstall na ang laro</string>
     <string name="games_mvp_visit_arcade_button_text">Bisitahin ang Arcade</string>
@@ -461,7 +474,6 @@ Magagawa mong i-edit ang iyong profile at mga setting o mag-delete ng data na na
     <string name="games_progress_dialog_starting_rematch">Sinisimulan ang rematch…</string>
     <string name="games_progress_dialog_title">Progreso</string>
     <string name="games_quest_detail_title">Mga Detalye ng Quest</string>
-    <string name="games_quest_inbox_title">Mga Quest</string>
     <string name="games_quest_list_title">Mga Quest</string>
     <string name="games_quest_network_error_dialog_message">Hindi matanggap ang quest. Subukang muli sa ibang pagkakataon.</string>
     <string name="games_quests_empty_text">Walang mga quest</string>
@@ -509,6 +521,8 @@ Magagawa mong i-edit ang iyong profile at mga setting o mag-delete ng data na na
     <string name="games_send_request_title_wish">Magpadala ng kahilingan kay</string>
     <string name="games_server_title">Server ng Mga Laro</string>
     <string name="games_setting_item_loading_content_description">Naglo-load</string>
+    <string name="games_settings_dark_theme_subtitle">I-enable ang madilim na tema sa buong app</string>
+    <string name="games_settings_dark_theme_title">Madilim na tema</string>
     <string name="games_settings_debug_achievements_head">Mga setting ng nakamit</string>
     <string name="games_settings_debug_achievements_reshow">Ipakita lagi ang mga unlock popup</string>
     <string name="games_settings_debug_clear_caches">I-clear ang mga Cache ng Memory</string>
@@ -525,6 +539,9 @@ Magagawa mong i-edit ang iyong profile at mga setting o mag-delete ng data na na
     <string name="games_settings_debug_reset_profile_settings_fail">Hindi na-reset ang mga setting ng profile!</string>
     <string name="games_settings_debug_reset_profile_settings_success">Matagumpay na na-reset ang mga setting ng profile!</string>
     <string name="games_settings_delete_profile">I-delete ang profile sa Mga Laro sa Play</string>
+    <string name="games_settings_delete_profile_dialog_message">"I-delete ang lahat ng iyong data sa Mga Laro sa Google Play kabilang ang Gamer ID at XP mo. Maaari ring ma-delete ng pagkilos na ito ang iyong mga score, progreso, at mga setting sa mga nalaro mo na.
+
+Hindi maa-undo ang pagkilos na ito."</string>
     <string name="games_settings_delete_profile_dialog_title">I-delete ang profile sa Mga Laro sa Play?</string>
     <string name="games_settings_delete_profile_fail">Hindi maaaring i-delete ng Mga Laro sa Play ang iyong profile. Subukang muli sa ibang pagkakataon.</string>
     <string name="games_settings_delete_profile_positive">I-DELETE</string>
@@ -542,6 +559,7 @@ Magagawa mong i-edit ang iyong profile at mga setting o mag-delete ng data na na
 %2$s"</string>
     <string name="games_share_game_share_title">Ibahagi</string>
     <string name="games_sign_in_restricted_account_dialog_cta">MAGPATULOY</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Maaari mo itong laruin ngunit hindi ka namin masa-sign in sa Mga Laro sa Google Play gamit ang account na ito.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Magpatuloy nang hindi nagsa-sign in</string>
     <string name="games_sign_in_restricted_profile_error_message">Hindi ma-sign in ang app na ito sa Google Play Games gamit ang pinaghihigpitang profile.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Sa kasamaang palad, hindi ka namin ma-sign in sa Google Play Games gamit ang account na ito.</string>
@@ -588,6 +606,7 @@ Magagawa mong i-edit ang iyong profile at mga setting o mag-delete ng data na na
     <string name="games_timestamp_now">Ngayon</string>
     <string name="games_toast_dialog_app_muted">Na-mute ang larong %1$s</string>
     <string name="games_toast_dialog_app_unmuted">Hindi na naka-mute ang larong %1$s</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Nagka-error habang dine-delete ang lokal na history ng paghahanap.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Na-delete ang lokal na history ng paghahanap.</string>
     <string name="games_toast_video_captured_description">I-tap upang mapanood, mabahagi</string>
     <string name="games_toast_video_captured_label">Na-save ang video sa gallery</string>
@@ -622,6 +641,7 @@ Magagawa mong i-edit ang iyong profile at mga setting o mag-delete ng data na na
     <string name="games_video_recording_camera_control_content_description_on">I-disable ang Camera</string>
     <string name="games_video_recording_draw_over_permission_toast">Upang makapag-record, paki-enable ang pahintulot na Mag-draw sa iba pang mga app para sa Mga Serbisyo ng Google Play.</string>
     <string name="games_video_recording_legal_01">Itatala ang anumang bagay sa iyong screen - kasama ang mga notification, tawag, password - pati na rin ang mga tunog sa kalapit na lugar.</string>
+    <string name="games_video_recording_legal_02">Subukang alisin ang mga tunog sa background nang sa gayon ay hindi ka makapag-record ng anumang tunog na wala kang pahintulot na i-record.</string>
     <string name="games_video_recording_legal_cancel">Kanselahin</string>
     <string name="games_video_recording_legal_proceed">Ilunsad</string>
     <string name="games_video_recording_legal_title">Bago ka magsimula</string>
@@ -659,8 +679,10 @@ Mase-save ang mga video sa iyong gallery ng mga larawan sa mga folder sa Device 
     <string name="games_waiting_room_cant_start_match_body">Walang sapat na manlalaro upang malaro ang labang ito.</string>
     <string name="games_waiting_room_keep_waiting">Patuloy na maghintay</string>
     <string name="games_waiting_room_menu_leave_room">Umalis sa laban</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Pumipili</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Sumali</string>
     <string name="games_waiting_room_participant_status_creator_joined">Sumali</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Sumali</string>
     <string name="games_waiting_room_participant_status_declined">Tinanggihan ang imbitasyon</string>
     <string name="games_waiting_room_participant_status_invited">Inimbitahan</string>
     <string name="games_waiting_room_participant_status_left">Umalis sa room</string>

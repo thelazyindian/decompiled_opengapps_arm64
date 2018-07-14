@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/games__videopreviews__webp_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="false" />
+    <FrameLayout android:id="@id/games__videopreviews__mp4_view_model_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/games__exoplayer__video_preview_layout" />
+    </FrameLayout>
+</merge>

@@ -52,13 +52,27 @@
     <string name="customer_information_title">Informācija par klientu</string>
     <string name="datadeletion__archived_game_item_title">Dati no arhivētajām spēlēm</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Dzēst datus no arhivētajām spēlēm.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Ja dzēsīsiet savus datus no arhivētajām spēlēm, tiks noņemti jūsu rezultāti, sasniegumi un attiecīgo spēļu iestatījumi, ko esat norādījis, izmantojot Google Play spēles.
+
+Šo darbību nevar atsaukt."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Vai dzēst datus no arhivētajām spēlēm?</string>
     <string name="datadeletion__delete_archived_game_data_error">Dzēšot jūsu datus no arhivētajām spēlēm, radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Jūsu dati no arhivētajām spēlēm tiks izdzēsti 24 stundu laikā.</string>
     <string name="datadeletion__delete_data_title">Play spēļu datu dzēšana</string>
     <string name="datadeletion__delete_game_data_button">Dzēst</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Dzēst datus spēlei “%1$s”</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Tiek dzēsti dati spēlei “%1$s”</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Tiek dzēsti…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Ja dzēsīsiet savus datus spēlei “%1$s”, tiks noņemti jūsu rezultāti, sasniegumi un spēles iestatījumi, ko esat norādījis, izmantojot Google Play spēles.
+
+Šo darbību nevar atsaukt."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Vai dzēst datus spēlei “%1$s”?</string>
+    <string name="datadeletion__delete_game_data_error">Dzēšot “%1$s” datus, radās kļūda. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
+    <string name="datadeletion__delete_game_data_explanation">Varat dzēst datus atsevišķām spēlēm, ko spēlējāt, izmantojot Google Play spēles. Tādējādi tiks dzēsti jūsu rezultāti, sasniegumi un spēles iestatījumi jūsu atlasītajai spēlei.</string>
     <string name="datadeletion__delete_game_data_header">Atsevišķu spēļu datu dzēšana</string>
+    <string name="datadeletion__delete_game_data_success">Jūsu dati spēlei “%1$s” tiks izdzēsti 24 stundu laikā.</string>
     <string name="datadeletion__delete_profile_button">Dzēst profilu</string>
+    <string name="datadeletion__delete_profile_explanation">Dzēsiet visus savus datus pakalpojumā Google Play spēles, tostarp savu spēlētāja ID un XP. Tādējādi var tikt dzēsti arī jūsu rezultāti, sasniegumi un iestatījumi jūsu spēlētajās spēlēs.</string>
     <string name="datadeletion__delete_profile_header">Profila un visu datu dzēšana</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Notiek datu dzēšana no arhivētajām spēlēm.</string>
     <string name="datadeletion__game_list_load_error">Neizdevās ielādēt spēļu sarakstu, ko spēlējāt, izmantojot Google Play spēles. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
@@ -92,6 +106,12 @@
     <string name="games__arcade__toolbar_title">Spēles</string>
     <string name="games__arcade_fragment_content_description">Tiek rādīta lapa “Arkādes spēles”.</string>
     <string name="games__game_installed_label">Instalēta</string>
+    <string name="games__gamelibrary__contents">Tiek rādīta spēļu bibliotēka ar %1$d instalētām spēlēm un %2$d neinstalētām spēlēm.</string>
+    <string name="games__gamelibrary__installed_games_label">Instalētas</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Galvene “Instalētas”</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Notiek papildu spēļu ielāde spēļu bibliotēkā.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Nav instalētas</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Galvene “Nav instalētas”</string>
     <string name="games__installbutton__install">Instalēt</string>
     <string name="games__installbutton__install_content_description">Instalēt spēli %1$s</string>
     <string name="games__page_default_error_body">Radusies problēma mūsu vainas dēļ.</string>
@@ -99,11 +119,19 @@
     <string name="games__page_offline_state_play_my_games_button">Spēlēt manas spēles</string>
     <string name="games__playbutton__play">Spēlēt</string>
     <string name="games__playbutton__play_content_description">Spēlēt spēli %1$s</string>
-    <string name="games__profile_page__tab_achievements">Sasniegumi</string>
-    <string name="games__profile_page__tab_games">Spēles</string>
-    <string name="games__profile_page__tab_players">Spēlētāji</string>
-    <string name="games__searchresults__no_matches_body">Tika pārmeklētas visas karaļvalstis, taču joprojām nekas nav atrasts.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Notiek citu sasniegumu ielāde sasniegumu cilnē.</string>
+    <string name="games__profile__edit_profile_network_error">Jūs nevarat rediģēt savu profilu bezsaistē. Lūdzu, pārbaudiet savienojumu un vēlāk mēģiniet vēlreiz.</string>
+    <string name="games__profile__email_content_description">Pašreizējais konts: %1$s. Rādiet kontu sarakstu.</string>
+    <string name="games__profile__menu_edit_profile">Rediģēt profilu</string>
+    <string name="games__profile__page_content_description">Tiek rādīts jūsu spēlētāja profils.</string>
+    <string name="games__profile__tab_achievements">Sasniegumi</string>
+    <string name="games__profile__tab_games">Spēles</string>
+    <string name="games__profile__tab_players">Spēlētāji</string>
+    <string name="games__profile__xp_progress_annotation">%1$s/ %2$s līdz nākamajam līmenim (%3$d)</string>
+    <string name="games__search__search_hint">Meklēt spēles</string>
+    <string name="games__search__trending_section_title">POPULĀRĀKĀS</string>
     <string name="games__searchresults__no_matches_header">Meklēšanas vaicājumam “%1$s” netika atrasta atbilstība</string>
+    <string name="games__settings__autoplay_videos_title">Automātiski atskaņot videoklipus</string>
     <string name="games__youtube__video_playback_error_toast">Nevarēja atskaņot YouTube video.</string>
     <string name="games__youtube__video_thumbnail_content_description">Atskaņot videoklipu “%1$s”</string>
     <string name="games_accessibility_event_tab_selected">Atlasīta cilne %1$s</string>
@@ -167,7 +195,6 @@ Vai vēlaties pierakstīties kā lietotājs %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Paziņojumi</string>
     <string name="games_dest_participant_list_label">Dalībnieku saraksts</string>
     <string name="games_dest_player_detail_view_profile">SKATĪT PROFILU</string>
-    <string name="games_dest_quests_empty_text">Šodien nav neviena uzdevuma! Šeit tiek rādīti apstiprinātie Play spēļu uzdevumi.</string>
     <string name="games_dest_shop_games_list_label">Izpētīt</string>
     <string name="games_dest_shop_games_visit_store_text">Play veikals</string>
     <string name="games_dest_sign_in_failed_dialog_message">Šķiet, ka radās problēma.</string>
@@ -227,7 +254,6 @@ Vai vēlaties pierakstīties kā lietotājs %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Jauns uzaicinājums spēlēt</string>
     <string name="games_inbox_event_new_match">Atjaunināta spēle ar vairākiem spēlētājiem</string>
     <string name="games_inbox_event_new_request">Jauns pieprasījums</string>
-    <string name="games_inbox_header_accepted_quests">Apstiprinātie uzdevumi</string>
     <string name="games_inbox_header_completed_matches">Pabeigtās spēles</string>
     <string name="games_inbox_header_invitations">Uzaicinājumi</string>
     <string name="games_inbox_header_my_turn">Mans gājiens</string>
@@ -339,24 +365,14 @@ Pastāstiet citiem lietotājiem par šo spēli un salīdziniet rezultātus, kad 
     <string name="games_mvp_expand_section_content_description">Izvērst sadaļu</string>
     <string name="games_mvp_failed_to_load_settings">Neizdevās ielādēt daļu iestatījumu. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
     <string name="games_mvp_find_games_button_text">Izpētīt spēles</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Sakļaut uzvarētāju sarakstu sadaļu.</string>
-    <string name="games_mvp_game_detail_content_description">Tiek rādīta detalizēta informācija par spēli “%1$s”.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Izvērst uzvarētāju sarakstu sadaļu.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Tagad spēlētāja ID ir derīgs.</string>
     <string name="games_mvp_games_fragment_content_description">Tiek rādīta lapa “Manas spēles”.</string>
     <string name="games_mvp_games_library_closed_content_description">Tiek aizvērta spēļu bibliotēka.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Tiek rādīta spēļu bibliotēka ar %1$d instalētām spēlēm, %2$d spēlēm, kas tagad ir pieejamas izmēģināšanai, un %3$d neinstalētām spēlēm.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Tiek rādīta spēļu bibliotēka ar %1$d instalētām spēlēm un %2$d neinstalētām spēlēm.</string>
     <string name="games_mvp_games_library_label">Bibliotēka</string>
-    <string name="games_mvp_games_library_spinny_content_description">Notiek papildu spēļu ielāde spēļu bibliotēkā.</string>
     <string name="games_mvp_games_library_toolbar_title">Bibliotēka</string>
-    <string name="games_mvp_hide_undo_snackbar_text">Spēle “%1$s” nav redzama sadaļā “Manas spēles”.</string>
-    <string name="games_mvp_installed_games_label">Instalētas</string>
-    <string name="games_mvp_installed_games_label_content_description">Galvene “Instalētas”</string>
+    <string name="games_mvp_hide_undo_snackbar_text">Spēle %1$s ir paslēpta</string>
     <string name="games_mvp_installed_just_now">Tikko instalēta</string>
     <string name="games_mvp_installed_time_format">Instalēta: %1$s</string>
-    <string name="games_mvp_instant_games_label">Izmēģiniet tūlīt</string>
-    <string name="games_mvp_instant_games_label_content_description">Galvene “Izmēģiniet tūlīt”</string>
     <string name="games_mvp_last_played_just_now">Tikko spēlējāt</string>
     <string name="games_mvp_last_played_time_format">Pēdējoreiz spēlējāt: %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Uzvarētāju saraksta veida slēdzis. Pieejamās opcijas: %1$s un %2$s. Pašreizējā opcija: %3$s.</string>
@@ -376,8 +392,6 @@ Pastāstiet citiem lietotājiem par šo spēli un salīdziniet rezultātus, kad 
     <string name="games_mvp_menu_uninstall">Atinstalēt</string>
     <string name="games_mvp_menu_unmute">Rādīt</string>
     <string name="games_mvp_network_request_failed">Radās problēma. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
-    <string name="games_mvp_not_installed_games_label">Nav instalētas</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Galvene “Nav instalētas”</string>
     <string name="games_mvp_player_comparison_all_games">Visas spēles</string>
     <string name="games_mvp_player_comparison_content_description">Tiek rādīts salīdzinājums starp jums un spēlētāju %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Kopīgās spēles</string>
@@ -404,6 +418,7 @@ Pastāstiet citiem lietotājiem par šo spēli un salīdziniet rezultātus, kad 
     <string name="games_mvp_settings_about">Par</string>
     <string name="games_mvp_settings_build_version_title">Play spēļu versija</string>
     <string name="games_mvp_settings_clear_local_search_history">Dzēst vietējās meklēšanas vēsturi</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Noņemiet datus par šajā ierīcē veikto meklēšanu.</string>
     <string name="games_mvp_settings_content_description">Tiek rādīti lietotnes iestatījumi.</string>
     <string name="games_mvp_settings_debug_settings">Atkļūdošanas iestatījumi</string>
     <string name="games_mvp_settings_delete_play_games_data">Dzēst Play spēļu datus</string>
@@ -414,10 +429,9 @@ Pastāstiet citiem lietotājiem par šo spēli un salīdziniet rezultātus, kad 
     <string name="games_mvp_settings_public_gamer_profile">Publiskais spēlētāja profils</string>
     <string name="games_mvp_settings_title">Iestatījumi</string>
     <string name="games_mvp_share_game_card_text">Kopīgošana ar draugiem</string>
-    <string name="games_mvp_show_undo_snackbar_text">Spēle “%1$s” tagad ir redzama sadaļā “Manas spēles”.</string>
+    <string name="games_mvp_show_undo_snackbar_text">Spēle “%1$s” tagad ir redzama sadaļā “Manas spēles”</string>
     <string name="games_mvp_snackbar_undo_button_text">Atsaukt</string>
     <string name="games_mvp_uninstall_error_text">Radās problēma. Mēģiniet atinstalēt spēli “%1$s” vēlreiz.</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Radās problēma. Mēģiniet atinstalēt spēli vēlreiz.</string>
     <string name="games_mvp_uninstall_success_text">Spēle “%1$s” tika atinstalēta.</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Spēle tika atinstalēta.</string>
     <string name="games_mvp_visit_arcade_button_text">Arkādes spēles</string>
@@ -508,7 +522,6 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_progress_dialog_starting_rematch">Tiek sākta atbildes spēle…</string>
     <string name="games_progress_dialog_title">Norise</string>
     <string name="games_quest_detail_title">Informācija par uzdevumu</string>
-    <string name="games_quest_inbox_title">Uzdevumi</string>
     <string name="games_quest_list_title">Uzdevumi</string>
     <string name="games_quest_network_error_dialog_message">Nevarēja apstiprināt uzdevumu. Vēlāk mēģiniet vēlreiz.</string>
     <string name="games_quests_empty_text">Nav neviena uzdevuma</string>
@@ -557,6 +570,8 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_send_request_title_wish">Pieprasījuma sūtīšana</string>
     <string name="games_server_title">Pakalpojuma Spēles serveris</string>
     <string name="games_setting_item_loading_content_description">Ielāde</string>
+    <string name="games_settings_dark_theme_subtitle">Tumšā motīva iespējošana visā lietotnē</string>
+    <string name="games_settings_dark_theme_title">Tumšais motīvs</string>
     <string name="games_settings_debug_achievements_head">Sasniegumu iestatījumi</string>
     <string name="games_settings_debug_achievements_reshow">Vienmēr rādīt atbloķētos sasniegumus</string>
     <string name="games_settings_debug_clear_caches">Notīrīt kešatmiņu</string>
@@ -573,6 +588,9 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_settings_debug_reset_profile_settings_fail">Neizdevās atiestatīt profila iestatījumus!</string>
     <string name="games_settings_debug_reset_profile_settings_success">Profila iestatījumi tika veiksmīgi atiestatīti!</string>
     <string name="games_settings_delete_profile">Dzēst Play spēļu profilu</string>
+    <string name="games_settings_delete_profile_dialog_message">"Dzēsiet visus savus datus pakalpojumā Google Play spēles, tostarp savu spēlētāja ID un XP. Tādējādi var tikt dzēsti arī jūsu rezultāti, sasniegumi un iestatījumi jūsu spēlētajās spēlēs.
+
+Šo darbību nevar atsaukt."</string>
     <string name="games_settings_delete_profile_dialog_title">Vai dzēst Play spēļu profilu?</string>
     <string name="games_settings_delete_profile_fail">Pakalpojumā Google spēles nevarēja izdzēst jūsu profilu. Vēlāk mēģiniet vēlreiz.</string>
     <string name="games_settings_delete_profile_positive">DZĒST</string>
@@ -590,6 +608,7 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
 %2$s"</string>
     <string name="games_share_game_share_title">Kopīgošana</string>
     <string name="games_sign_in_restricted_account_dialog_cta">TURPINĀT</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Varat spēlēt šo spēli, taču pakalpojumā Google Play spēles nav iespējams pierakstīties šajā kontā.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Turpiniet bez pierakstīšanās</string>
     <string name="games_sign_in_restricted_profile_error_message">No šīs lietotnes nevar pierakstīties Google Play spēlēs, jo profils ir ierobežots.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Diemžēl nevarat pierakstīties pakalpojumā Google Play spēles, izmantojot šo kontu.</string>
@@ -638,6 +657,7 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_timestamp_now">Tikko</string>
     <string name="games_toast_dialog_app_muted">Spēlei %1$s tika izslēgta skaņa.</string>
     <string name="games_toast_dialog_app_unmuted">Spēlei %1$s tika atkal ieslēgta skaņa.</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Dzēšot vietējās meklēšanas vēsturi, radās kļūda.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Vietējās meklēšanas vēsture ir izdzēsta.</string>
     <string name="games_toast_video_captured_description">Skatiet/kopīgojiet pieskaroties</string>
     <string name="games_toast_video_captured_label">Videoklips ir saglabāts galerijā</string>
@@ -673,6 +693,7 @@ Varat rediģēt savu profilu un iestatījumus vai dzēst Google tīklā saglabā
     <string name="games_video_recording_camera_control_content_description_on">Atspējot kameru</string>
     <string name="games_video_recording_draw_over_permission_toast">Lai atļautu ierakstīšanu, lūdzu, Google Play pakalpojumiem iespējojiet atļauju Rādīt pāri citām lietotnēm.</string>
     <string name="games_video_recording_legal_01">Tiks ierakstīts viss, kas būs redzams jūsu ekrānā (tostarp paziņojumi, zvani un paroles), kā arī apkārtējās skaņas.</string>
+    <string name="games_video_recording_legal_02">Centieties samazināt fona skaņas, lai netiktu ierakstīts tāds audio saturs, uz kuru jums nav tiesību.</string>
     <string name="games_video_recording_legal_cancel">Atcelt</string>
     <string name="games_video_recording_legal_proceed">Palaist</string>
     <string name="games_video_recording_legal_title">Pirms darba sākšanas</string>
@@ -712,8 +733,10 @@ Videoklipi tiek saglabāti jūsu fotoattēlu galerijā, kas atrodas mapē Ierīc
     <string name="games_waiting_room_cant_start_match_body">Nav pietiekami daudz spēlētāju, lai spēlētu šo spēli.</string>
     <string name="games_waiting_room_keep_waiting">Vēl gaidīt</string>
     <string name="games_waiting_room_menu_leave_room">Pamest spēli</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Notiek izvēle</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Pievienots</string>
     <string name="games_waiting_room_participant_status_creator_joined">Pievienojās</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Pievienojās</string>
     <string name="games_waiting_room_participant_status_declined">Uzaicinājums noraidīts</string>
     <string name="games_waiting_room_participant_status_invited">Uzaicināts</string>
     <string name="games_waiting_room_participant_status_left">Izgājis no telpas</string>

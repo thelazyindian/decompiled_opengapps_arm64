@@ -50,13 +50,27 @@
     <string name="customer_information_title">Kunduppgifter</string>
     <string name="datadeletion__archived_game_item_title">Data från arkiverade spel</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Radera data från arkiverade spel.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Om du raderar data från arkiverade spel raderas poäng, resultat och inställningar i spelet som du har angett via Google Play Spel.
+
+Det går inte att ångra åtgärden."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Vill du radera data från arkiverade spel?</string>
     <string name="datadeletion__delete_archived_game_data_error">Det gick inte att radera data från arkiverade spel. Försök igen senare.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Data från arkiverade spel raderas inom 24 timmar</string>
     <string name="datadeletion__delete_data_title">Radera data för Play Spel</string>
     <string name="datadeletion__delete_game_data_button">Radera</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Vill du radera data för %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Data för %1$s raderas</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Raderar …</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Om du raderar data för %1$s raderas poäng, resultat, och inställningar i spelet som du har angett via Google Play Spel.
+
+Det går inte att ångra åtgärden."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Vill du radera data för %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">Det gick inte att radera data för %1$s. Försök igen senare.</string>
+    <string name="datadeletion__delete_game_data_explanation">Radera enskild data för spel som du har spelat via Google Play Spel. Detta raderar dina poäng, resultat och inställningar i det valda spelet.</string>
     <string name="datadeletion__delete_game_data_header">Radera enskild speldata</string>
+    <string name="datadeletion__delete_game_data_success">Data för %1$s raderas inom 24 timmar</string>
     <string name="datadeletion__delete_profile_button">Radera profil</string>
+    <string name="datadeletion__delete_profile_explanation">Radera alla dina uppgifter i Google Play Spel, inklusive spelar-id och XP. Dessutom kan poäng, spelresultat och inställningar i spel som du har spelat raderas.</string>
     <string name="datadeletion__delete_profile_header">Radera profil och all data</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Data från arkiverade spel raderas.</string>
     <string name="datadeletion__game_list_load_error">Det gick inte att läsa in listan med spel som du spelat via Google Play Spel. Försök igen senare.</string>
@@ -87,6 +101,12 @@
     <string name="games__arcade__toolbar_title">Spel</string>
     <string name="games__arcade_fragment_content_description">Sidan Arkadhall visas.</string>
     <string name="games__game_installed_label">Installerat</string>
+    <string name="games__gamelibrary__contents">Visar spelbiblioteket med %1$d installerade spel och %2$d spel som inte är installerade.</string>
+    <string name="games__gamelibrary__installed_games_label">Installerade</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Rubriken Installerade</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Fler spel läses in i spelbiblioteket</string>
+    <string name="games__gamelibrary__not_installed_games_label">Inte installerade</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Rubriken Inte installerade</string>
     <string name="games__installbutton__install">Installera</string>
     <string name="games__installbutton__install_content_description">Installera %1$s</string>
     <string name="games__page_default_error_body">Ett fel uppstod hos oss</string>
@@ -94,11 +114,19 @@
     <string name="games__page_offline_state_play_my_games_button">Spela Mina spel</string>
     <string name="games__playbutton__play">Spela</string>
     <string name="games__playbutton__play_content_description">Spela %1$s</string>
-    <string name="games__profile_page__tab_achievements">Prestationer</string>
-    <string name="games__profile_page__tab_games">Spel</string>
-    <string name="games__profile_page__tab_players">Spelare</string>
-    <string name="games__searchresults__no_matches_body">Vi har letat i alla kungariken men hittar fortfarande inget.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Fler prestationer läses in på prestationsfliken.</string>
+    <string name="games__profile__edit_profile_network_error">Du kan inte redigera profilen när du är offline. Kontrollera anslutningen och försök igen senare.</string>
+    <string name="games__profile__email_content_description">Nuvarande konto: %1$s. Visa kontolistan.</string>
+    <string name="games__profile__menu_edit_profile">Redigera profil</string>
+    <string name="games__profile__page_content_description">Din spelarprofil visas.</string>
+    <string name="games__profile__tab_achievements">Resultat</string>
+    <string name="games__profile__tab_games">Spel</string>
+    <string name="games__profile__tab_players">Spelare</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s till nästa nivå %3$d</string>
+    <string name="games__search__search_hint">Sök efter spel</string>
+    <string name="games__search__trending_section_title">POPULÄRT</string>
     <string name="games__searchresults__no_matches_header">Inga träffar på %1$s</string>
+    <string name="games__settings__autoplay_videos_title">Spela upp videor automatiskt.</string>
     <string name="games__youtube__video_playback_error_toast">Det gick inte att spela upp videon från YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">Spela upp videon %1$s</string>
     <string name="games_accessibility_event_tab_selected">%1$s har valts</string>
@@ -159,7 +187,6 @@ Vill du logga in som %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Aviseringar</string>
     <string name="games_dest_participant_list_label">Deltagarlista</string>
     <string name="games_dest_player_detail_view_profile">VISA PROFIL</string>
-    <string name="games_dest_quests_empty_text">Inga uppdrag idag! Play Spel-uppdrag som du har godkänt visas här.</string>
     <string name="games_dest_shop_games_list_label">Utforska</string>
     <string name="games_dest_shop_games_visit_store_text">Play Butik</string>
     <string name="games_dest_sign_in_failed_dialog_message">Hoppsan. Något gick fel.</string>
@@ -218,7 +245,6 @@ Vill du logga in som %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Ny matchinbjudan</string>
     <string name="games_inbox_event_new_match">Uppdatering från match med flera spelare</string>
     <string name="games_inbox_event_new_request">Ny förfrågan</string>
-    <string name="games_inbox_header_accepted_quests">Erhållna uppdrag</string>
     <string name="games_inbox_header_completed_matches">Avslutade matcher</string>
     <string name="games_inbox_header_invitations">Inbjudningar</string>
     <string name="games_inbox_header_my_turn">Min tur</string>
@@ -330,24 +356,14 @@ Berätta för andra om spelet och jämför poäng när de spelar."</string>
     <string name="games_mvp_expand_section_content_description">Utöka avsnittet.</string>
     <string name="games_mvp_failed_to_load_settings">Det gick inte att läsa in alla inställningarna. Försök igen senare.</string>
     <string name="games_mvp_find_games_button_text">Utforska Spel</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Komprimera avsnittet Topplistor.</string>
-    <string name="games_mvp_game_detail_content_description">Information om spelet %1$s visas.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Utöka avsnittet Topplistor.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Detta spelar-id är nu giltigt.</string>
     <string name="games_mvp_games_fragment_content_description">Sidan Mina spel visas.</string>
     <string name="games_mvp_games_library_closed_content_description">Spebiblioteketet stängs.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Visar spelbiblioteket med %1$d installerade spel, %2$d spel som kan testas nu och %3$d spel som inte är installerade.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Visar spelbiblioteket med %1$d installerade spel och %2$d spel som inte är installerade.</string>
     <string name="games_mvp_games_library_label">Bibliotek</string>
-    <string name="games_mvp_games_library_spinny_content_description">Fler spel läses in i spelbiblioteket</string>
     <string name="games_mvp_games_library_toolbar_title">Bibliotek</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s har dolts i Mina spel</string>
-    <string name="games_mvp_installed_games_label">Installerat</string>
-    <string name="games_mvp_installed_games_label_content_description">Rubriken Installerat</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s har dolts</string>
     <string name="games_mvp_installed_just_now">Installerades nyss</string>
     <string name="games_mvp_installed_time_format">Installerades %1$s</string>
-    <string name="games_mvp_instant_games_label">Testa nu</string>
-    <string name="games_mvp_instant_games_label_content_description">Rubriken Testa nu</string>
     <string name="games_mvp_last_played_just_now">Spelades nyss</string>
     <string name="games_mvp_last_played_time_format">Spelades senast %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Reglage för typ av topplista. Alternativen är %1$s och %2$s. Nuvarande alternativ: %3$s.</string>
@@ -367,8 +383,6 @@ Berätta för andra om spelet och jämför poäng när de spelar."</string>
     <string name="games_mvp_menu_uninstall">Avinstallera</string>
     <string name="games_mvp_menu_unmute">Visa</string>
     <string name="games_mvp_network_request_failed">Ett fel uppstod. Försök igen senare.</string>
-    <string name="games_mvp_not_installed_games_label">Inte installerat</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Rubriken Inte installerat</string>
     <string name="games_mvp_player_comparison_all_games">Alla spel</string>
     <string name="games_mvp_player_comparison_content_description">Spelarjämförelse mellan dig och %1$s visas.</string>
     <string name="games_mvp_player_comparison_games_in_common">Gemensamma spel</string>
@@ -393,6 +407,7 @@ Berätta för andra om spelet och jämför poäng när de spelar."</string>
     <string name="games_mvp_settings_about">Om</string>
     <string name="games_mvp_settings_build_version_title">Version av Play Spel</string>
     <string name="games_mvp_settings_clear_local_search_history">Radera lokal sökhistorik</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Ta bort sökningar som du har gjort via den här enheten</string>
     <string name="games_mvp_settings_content_description">Appinställningar visas.</string>
     <string name="games_mvp_settings_debug_settings">Felsökningsinställningar</string>
     <string name="games_mvp_settings_delete_play_games_data">Radera data för Play Spel</string>
@@ -403,10 +418,9 @@ Berätta för andra om spelet och jämför poäng när de spelar."</string>
     <string name="games_mvp_settings_public_gamer_profile">Offentlig spelprofil</string>
     <string name="games_mvp_settings_title">Inställningar</string>
     <string name="games_mvp_share_game_card_text">Dela med dina vänner</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s finns nu i Mina spel</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s visas nu i Mina spel</string>
     <string name="games_mvp_snackbar_undo_button_text">Ångra</string>
     <string name="games_mvp_uninstall_error_text">Ett fel uppstod – testa att avinstallera %1$s igen</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Ett fel uppstod – testa att avinstallera igen</string>
     <string name="games_mvp_uninstall_success_text">%1$s har avinstallerats</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Spelet har avinstallerats</string>
     <string name="games_mvp_visit_arcade_button_text">Besök arkadhallen</string>
@@ -497,7 +511,6 @@ Du kan redigera profilen och inställningarna eller radera data som har sparats 
     <string name="games_progress_dialog_starting_rematch">Startar returmatch ...</string>
     <string name="games_progress_dialog_title">Förlopp</string>
     <string name="games_quest_detail_title">Information om uppdraget</string>
-    <string name="games_quest_inbox_title">Uppdrag</string>
     <string name="games_quest_list_title">Uppdrag</string>
     <string name="games_quest_network_error_dialog_message">Det gick inte att godkänna uppdraget. Försök igen senare.</string>
     <string name="games_quests_empty_text">Inga uppdrag</string>
@@ -546,6 +559,8 @@ Du kan redigera profilen och inställningarna eller radera data som har sparats 
     <string name="games_send_request_title_wish">Skicka begäran till ...</string>
     <string name="games_server_title">Spelserver</string>
     <string name="games_setting_item_loading_content_description">Läser in</string>
+    <string name="games_settings_dark_theme_subtitle">Aktivera mörkt tema i appen</string>
+    <string name="games_settings_dark_theme_title">Mörkt tema</string>
     <string name="games_settings_debug_achievements_head">Prestationsinställningar</string>
     <string name="games_settings_debug_achievements_reshow">Visa alltid popup för upplåsningar</string>
     <string name="games_settings_debug_clear_caches">Rensa cacheminnet</string>
@@ -562,6 +577,9 @@ Du kan redigera profilen och inställningarna eller radera data som har sparats 
     <string name="games_settings_debug_reset_profile_settings_fail">Det gick inte att återställa profilinställningarna</string>
     <string name="games_settings_debug_reset_profile_settings_success">Profilinställningarna har återställts</string>
     <string name="games_settings_delete_profile">Radera profilen i Play Spel</string>
+    <string name="games_settings_delete_profile_dialog_message">"Radera alla dina uppgifter i Google Play Spel, inklusive spelar-id och XP. Dessutom kan poäng, spelresultat och inställningar i spel som du har spelat raderas.
+
+Det går inte att ångra åtgärden."</string>
     <string name="games_settings_delete_profile_dialog_title">Vill du radera profilen i Play Spel?</string>
     <string name="games_settings_delete_profile_fail">Play Spel kunde inte radera profilen. Försök igen senare.</string>
     <string name="games_settings_delete_profile_positive">RADERA</string>
@@ -579,6 +597,7 @@ Du kan redigera profilen och inställningarna eller radera data som har sparats 
 %2$s"</string>
     <string name="games_share_game_share_title">Dela</string>
     <string name="games_sign_in_restricted_account_dialog_cta">FORTSÄTT</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Du kan spela det här spelet, men det går inte att logga in på Google Play Spel med det här kontot.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Fortsätt utan att logga in</string>
     <string name="games_sign_in_restricted_profile_error_message">Det går inte att logga in med den här appen på Google Play Spel med en begränsad profil.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Tyvärr går det inte att logga in på Google Play Spel med det här kontot.</string>
@@ -626,6 +645,7 @@ Du kan redigera profilen och inställningarna eller radera data som har sparats 
     <string name="games_timestamp_now">Nu</string>
     <string name="games_toast_dialog_app_muted">Spelet %1$s har dolts</string>
     <string name="games_toast_dialog_app_unmuted">Spelet %1$s visas igen</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Det gick inte att radera den lokala sökhistoriken.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Den lokala sökhistoriken har raderats.</string>
     <string name="games_toast_video_captured_description">Tryck för att titta och dela</string>
     <string name="games_toast_video_captured_label">Videon sparades i galleriet</string>
@@ -661,6 +681,7 @@ Du kan redigera profilen och inställningarna eller radera data som har sparats 
     <string name="games_video_recording_camera_control_content_description_on">Inaktivera kameran</string>
     <string name="games_video_recording_draw_over_permission_toast">Om du vill spela in måste du aktivera behörigheten Överlagringar på andra appar för Google Play-tjänster.</string>
     <string name="games_video_recording_legal_01">Allt på skärmen – inklusive aviseringar, samtal och lösenord – och ljud från omgivningen spelas in.</string>
+    <string name="games_video_recording_legal_02">Försök att eliminera bakgrundsljud, så att du inte spelar in något som du inte har rätt till.</string>
     <string name="games_video_recording_legal_cancel">Avbryt</string>
     <string name="games_video_recording_legal_proceed">Starta</string>
     <string name="games_video_recording_legal_title">Innan du börjar</string>
@@ -700,8 +721,10 @@ Videoklipp sparas i ditt fotogalleri i Enhetsmappar > Screencasts."</string>
     <string name="games_waiting_room_cant_start_match_body">Det finns inte tillräckligt många spelare för att spela matchen.</string>
     <string name="games_waiting_room_keep_waiting">Fortsätt vänta</string>
     <string name="games_waiting_room_menu_leave_room">Avsluta matchen</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Väljer</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Deltar</string>
     <string name="games_waiting_room_participant_status_creator_joined">Deltar</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Deltar</string>
     <string name="games_waiting_room_participant_status_declined">Inbjudan avvisades</string>
     <string name="games_waiting_room_participant_status_invited">Inbjuden</string>
     <string name="games_waiting_room_participant_status_left">Lämnade rummet</string>

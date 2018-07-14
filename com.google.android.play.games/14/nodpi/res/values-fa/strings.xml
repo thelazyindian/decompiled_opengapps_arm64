@@ -103,6 +103,12 @@
     <string name="games__arcade__toolbar_title">بازی‌ها</string>
     <string name="games__arcade_fragment_content_description">نمایش صفحه «آرکید».</string>
     <string name="games__game_installed_label">نصب شد</string>
+    <string name="games__gamelibrary__contents">کتابخانه بازی‌ها با %1$d بازی نصب‌شده و %2$d بازی نصب‌نشده درحال نمایش است.</string>
+    <string name="games__gamelibrary__installed_games_label">نصب‌شده</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">سرصفحه «نصب‌شده»</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">درحال بارگیری بازی‌های بیشتر در کتابخانه بازی‌های شما.</string>
+    <string name="games__gamelibrary__not_installed_games_label">نصب‌نشده</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">سرصفحه «نصب‌نشده»</string>
     <string name="games__installbutton__install">نصب</string>
     <string name="games__installbutton__install_content_description">نصب کردن %1$s</string>
     <string name="games__page_default_error_body">مشکل از شما نیست، مشکل از ما است.</string>
@@ -110,11 +116,19 @@
     <string name="games__page_offline_state_play_my_games_button">بازی کردن بازی‌هایم</string>
     <string name="games__playbutton__play">بازی کردن</string>
     <string name="games__playbutton__play_content_description">بازی کردن %1$s</string>
-    <string name="games__profile_page__tab_achievements">جایزه‌ها</string>
-    <string name="games__profile_page__tab_games">بازی‌ها</string>
-    <string name="games__profile_page__tab_players">بازیکنان</string>
-    <string name="games__searchresults__no_matches_body">همه سرزمین‌های پادشاهی را جستجو کردیم و هنوز شانس نیاورده‌ایم.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">درحال بارگیری جوایز بیشتر در برگه جوایز.</string>
+    <string name="games__profile__edit_profile_network_error">درحالت آفلاین نمی‌توانید نمایه‌تان را ویرایش کنید. لطفاً‌ اتصالتان را بررسی کنید و بعداً دوباره امتحان کنید.</string>
+    <string name="games__profile__email_content_description">حساب فعلی: %1$s. فهرست حساب نمایش داده شود.</string>
+    <string name="games__profile__menu_edit_profile">ویرایش نمایه</string>
+    <string name="games__profile__page_content_description">درحال نمایش نمایه بازیکن شما.</string>
+    <string name="games__profile__tab_achievements">جوایز</string>
+    <string name="games__profile__tab_games">بازی‌ها</string>
+    <string name="games__profile__tab_players">بازیکنان</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s به مرحله بعد %3$d</string>
+    <string name="games__search__search_hint">جستجوی بازی‌ها</string>
+    <string name="games__search__trending_section_title">پرطرفدار</string>
     <string name="games__searchresults__no_matches_header">نتیجه‌ای برای «%1$s» پیدا نشد</string>
+    <string name="games__settings__autoplay_videos_title">پخش خودکار ویدیو</string>
     <string name="games__youtube__video_playback_error_toast">پخش ویدیوی YouTube امکان‌پذیر نیست.</string>
     <string name="games__youtube__video_thumbnail_content_description">پخش ویدیوی «%1$s»</string>
     <string name="games_accessibility_event_tab_selected">%1$s انتخاب شد</string>
@@ -174,7 +188,6 @@
     <string name="games_dest_nav_drawer_inbox">اعلان‌ها</string>
     <string name="games_dest_participant_list_label">فهرست شرکت‌کنندگان</string>
     <string name="games_dest_player_detail_view_profile">مشاهده نمایه</string>
-    <string name="games_dest_quests_empty_text">امروز چالشی وجود ندارد! چالش‌هایی که در «بازی‌های Play» پذیرفته‌اید در اینجا نشان داده می‌شوند.</string>
     <string name="games_dest_shop_games_list_label">کاوش</string>
     <string name="games_dest_shop_games_visit_store_text">فروشگاه Play</string>
     <string name="games_dest_sign_in_failed_dialog_message">اوه، به نظر می‌رسد مشکلی پیش آمده است.</string>
@@ -204,7 +217,7 @@
     <string name="games_gcore_muted_games_empty">هنوز بازی‌ای نادیده گرفته نشده است</string>
     <string name="games_gcore_preferred_account">استفاده از این حساب برای ثبت ورود</string>
     <string name="games_gcore_preferred_account_summary">در همه بازی‌های جدید</string>
-    <string name="games_gcore_profile_discoverability">قابلیت کشف نمایه بازی</string>
+    <string name="games_gcore_profile_discoverability">پیداشدنی بودن نمایه بازی</string>
     <string name="games_gcore_profile_discoverability_summary">به دیگران اجازه دهید با استفاده از نشانی رایانامه Google یا نام شما، شناسه بازیکنتان را پیدا کنند</string>
     <string name="games_gcore_profile_discoverability_update_failed">قابلیت کشف نمایه، به‌روزرسانی نشد.</string>
     <string name="games_gcore_public_profile">نمایه بازیکن</string>
@@ -235,7 +248,6 @@
     <string name="games_inbox_event_new_invitation">دعوت‌نامه مسابقه جدید</string>
     <string name="games_inbox_event_new_match">مسابقه چندنفره به‌روزرسانی شد</string>
     <string name="games_inbox_event_new_request">درخواست جدید</string>
-    <string name="games_inbox_header_accepted_quests">چالش‌های پذیرفته‌شده</string>
     <string name="games_inbox_header_completed_matches">مسابقات پایان یافته</string>
     <string name="games_inbox_header_invitations">دعوت‌‌ها</string>
     <string name="games_inbox_header_my_turn">نوبت من</string>
@@ -282,7 +294,7 @@
     <string name="games_leaderboard_public_null_state_alltime_format">"باور نکردنی است! هیچ امتیاز بالای عمومی برای این بازی وجود ندارد.
 
 اکنون بازی کنید و اولین نفر در جهان باشید که در تابلوی امتیازات قرار می‌گیرد!"</string>
-    <string name="games_leaderboard_public_null_state_daily_format">"امروز هیچ‌کس امتیاز بالا را کسب نکرده است!
+    <string name="games_leaderboard_public_null_state_daily_format">"امروز هیچ‌کس امتیاز بالایی کسب نکرده است!
 
 اکنون بازی کنید تا بهترین امتیاز را در تابلوی امتیازات به دست آورید!"</string>
     <string name="games_leaderboard_public_null_state_weekly_format">"این هفته هیچ‌کس امتیاز بالا را کسب نکرده است!
@@ -333,7 +345,7 @@
     <string name="games_multiplayer_inbox_title">مسابقات</string>
     <string name="games_mvp_avatar_choice_not_selected_content_description">تصویر نمایه انتخاب‌نشده</string>
     <string name="games_mvp_avatar_choice_selected_content_description">تصویر نمایه انتخاب‌شده</string>
-    <string name="games_mvp_bundled_game">بازی Google داخلی</string>
+    <string name="games_mvp_bundled_game">بازیِ داخلیِ Google</string>
     <string name="games_mvp_carousel_item_content_description_loading">درحال بارگیری بازی‌های اخیر شما.</string>
     <string name="games_mvp_collapse_players_you_follow_button_content_description">بخش بازیکن‌هایی را که دنبال می‌کنید کوچک کنید.</string>
     <string name="games_mvp_collapse_section_content_description">تا بخش کوچک شود.</string>
@@ -348,24 +360,14 @@
     <string name="games_mvp_expand_section_content_description">تا بخش بزرگ شود.</string>
     <string name="games_mvp_failed_to_load_settings">بعضی از تنظیمات بار نشدند،‌ لطفاً بعداً دوباره امتحان کنید.</string>
     <string name="games_mvp_find_games_button_text">کاوش در بازی</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">بخش تابلوهای امتیازات را کوچک کنید.</string>
-    <string name="games_mvp_game_detail_content_description">نمایش جزئیات بازی %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">بخش تابلوهای امتیازات را بزرگ کنید.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">«شناسه بازیکن» اکنون معتبر است.</string>
     <string name="games_mvp_games_fragment_content_description">نمایش صفحه «بازی‌های من».</string>
     <string name="games_mvp_games_library_closed_content_description">کتابخانه بازی‌ها بسته شد.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">کتابخانه بازی‌ها با %1$d بازی نصب‌شده، %2$d بازی آماده برای امتحان و %3$d بازی نصب‌نشده درحال نمایش است.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">کتابخانه بازی‌ها با %1$d بازی نصب‌شده و %2$d بازی نصب‌نشده درحال نمایش است.</string>
     <string name="games_mvp_games_library_label">کتابخانه</string>
-    <string name="games_mvp_games_library_spinny_content_description">درحال بارگیری بازی‌های بیشتر در کتابخانه شما.</string>
     <string name="games_mvp_games_library_toolbar_title">کتابخانه</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s در «بازی‌های من» پنهان شده است</string>
-    <string name="games_mvp_installed_games_label">نصب شده</string>
-    <string name="games_mvp_installed_games_label_content_description">سرصفحه «نصب‌شده»</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s پنهان شده است</string>
     <string name="games_mvp_installed_just_now">چند لحظه پیش نصب شده است</string>
     <string name="games_mvp_installed_time_format">زمان نصب: %1$s</string>
-    <string name="games_mvp_instant_games_label">اکنون امتحان کنید</string>
-    <string name="games_mvp_instant_games_label_content_description">سرصفحه «اکنون امتحان کنید»</string>
     <string name="games_mvp_last_played_just_now">همین الان بازی کردید</string>
     <string name="games_mvp_last_played_time_format">زمان آخرین بازی: %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">تغییر نوع تابلوی امتیازات. گزینه‌ها %1$s و %2$s هستند. گزینه کنونی: %3$s.</string>
@@ -385,8 +387,6 @@
     <string name="games_mvp_menu_uninstall">حذف نصب</string>
     <string name="games_mvp_menu_unmute">باصدا کردن</string>
     <string name="games_mvp_network_request_failed">مشکلی پیش آمد، لطفاً بعداً دوباره تلاش کنید.</string>
-    <string name="games_mvp_not_installed_games_label">نصب‌نشده</string>
-    <string name="games_mvp_not_installed_games_label_content_description">سرصفحه «نصب‌نشده»</string>
     <string name="games_mvp_player_comparison_all_games">همه بازی‌ها</string>
     <string name="games_mvp_player_comparison_content_description">نمایش مقایسه بین شما و %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">بازی‌های مشترک</string>
@@ -409,6 +409,7 @@
     <string name="games_mvp_settings_about">درباره</string>
     <string name="games_mvp_settings_build_version_title">نسخه بازی‌های Play</string>
     <string name="games_mvp_settings_clear_local_search_history">پاک کردن سابقه جستجوی محلی</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">جستجوهایی که کرده‌اید از این دستگاه پاک کنید</string>
     <string name="games_mvp_settings_content_description">نمایش تنظیمات برنامه.</string>
     <string name="games_mvp_settings_debug_settings">تنظیمات اشکال‌زدایی</string>
     <string name="games_mvp_settings_delete_play_games_data">حذف داده‌های بازی‌های Play</string>
@@ -419,10 +420,9 @@
     <string name="games_mvp_settings_public_gamer_profile">نمایه عمومی بازیکن</string>
     <string name="games_mvp_settings_title">تنظیمات</string>
     <string name="games_mvp_share_game_card_text">هم‌رسانی با دوستان</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s اکنون در «بازی‌های من» است</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s اکنون در «بازی‌های من» نشان داده می‌شود</string>
     <string name="games_mvp_snackbar_undo_button_text">واگرد</string>
     <string name="games_mvp_uninstall_error_text">مشکلی پیش آمد – %1$s را دوباره حذف نصب کنید</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">مشکلی پیش آمد – دوباره حذف نصب کنید</string>
     <string name="games_mvp_uninstall_success_text">%1$s حذف نصب شده است</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">بازی لغو نصب شده است</string>
     <string name="games_mvp_visit_arcade_button_text">بازدید از آرکید</string>
@@ -513,7 +513,6 @@
     <string name="games_progress_dialog_starting_rematch">در حال شروع مسابقه برگشت...</string>
     <string name="games_progress_dialog_title">پیشرفت</string>
     <string name="games_quest_detail_title">جزئیات چالش</string>
-    <string name="games_quest_inbox_title">چالش‌ها</string>
     <string name="games_quest_list_title">اهداف</string>
     <string name="games_quest_network_error_dialog_message">درخواست پذیرفته نشد. بعداً دوباره امتحان کنید.</string>
     <string name="games_quests_empty_text">هیچ چالشی وجود ندارد</string>
@@ -562,6 +561,8 @@
     <string name="games_send_request_title_wish">ارسال درخواست به</string>
     <string name="games_server_title">سرور بازی‌ها</string>
     <string name="games_setting_item_loading_content_description">بار کردن</string>
+    <string name="games_settings_dark_theme_subtitle">فعال‌کردن طرح زمینه تیره در سراسر برنامه</string>
+    <string name="games_settings_dark_theme_title">طرح زمینه تیره</string>
     <string name="games_settings_debug_achievements_head">تنظیمات دستاورد</string>
     <string name="games_settings_debug_achievements_reshow">همیشه جوایز باز شده نشان داده شوند</string>
     <string name="games_settings_debug_clear_caches">پاک کردن حافظه‌های پنهان</string>
@@ -720,8 +721,10 @@
     <string name="games_waiting_room_cant_start_match_body">تعداد بازیکنان برای این مسابقه کافی نیست.</string>
     <string name="games_waiting_room_keep_waiting">منتظر ماندن</string>
     <string name="games_waiting_room_menu_leave_room">خروج از مسابقه</string>
+    <string name="games_waiting_room_participant_status_auto_pick">درحال انتخاب</string>
     <string name="games_waiting_room_participant_status_automatch_joined">ملحق شد</string>
     <string name="games_waiting_room_participant_status_creator_joined">پیوست</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">ملحق شد</string>
     <string name="games_waiting_room_participant_status_declined">دعوت‌ رد شد</string>
     <string name="games_waiting_room_participant_status_invited">دعوت شد</string>
     <string name="games_waiting_room_participant_status_left">از اتاق خارج شد</string>

@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TextView android:gravity="start|center" android:id="@id/clickable_text" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/games_mvp_settings_horizontal_margin" android:paddingRight="@dimen/games_mvp_settings_horizontal_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/games_mvp_settings_text_item_height" style="@style/Games.Mvp.SettingsText"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/clickable_link" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/games_mvp_settings_horizontal_margin" android:paddingRight="@dimen/games_mvp_settings_horizontal_margin" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/games_mvp_settings_text_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:id="@id/label_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Games.Mvp.SettingsText" />
+    <TextView android:ellipsize="end" android:id="@id/summary_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="4" style="@style/TextStyle.Replay.Body.2" />
+</LinearLayout>

@@ -45,13 +45,27 @@
     <string name="customer_information_title">Uppl. um viðskiptavin</string>
     <string name="datadeletion__archived_game_item_title">Gögn úr leikjum í geymslu</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Eyða gögnum úr leikjum í geymslu.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Ef gögnum þínum úr leikjum í geymslu er eytt verða stigin þín, framvinda og leikjastillingar sem þú hefur sett inn gegnum Google Play Games fjarlægð.
+
+Ekki er hægt að afturkalla þessa aðgerð."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Viltu eyða gögnum úr leikjum í geymslu?</string>
     <string name="datadeletion__delete_archived_game_data_error">Villa kom upp við að eyða gögnunum þínum úr leikjum í geymslu. Reyndu aftur síðar.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Gögnunum þínum úr leikjum í geymslu verður eytt innan sólarhrings</string>
     <string name="datadeletion__delete_data_title">Eyða gögnum úr Play Games</string>
     <string name="datadeletion__delete_game_data_button">Eyða</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Eyða gögnum fyrir %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Eyðir gögnum fyrir %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Eyðir…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Ef gögnunum þínum fyrir %1$s er eytt verða stigin þín, framvinda og leikjastillingar sem þú hefur sett inn gegnum Google Play Games fjarlægð.
+
+Ekki er hægt að afturkalla þessa aðgerð."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Viltu eyða gögnum fyrir %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">Villa kom upp við að eyða gögnunum þínum fyrir %1$s. Reyndu aftur síðar.</string>
+    <string name="datadeletion__delete_game_data_explanation">Eyddu einstökum gögnum leikja sem þú hefur spilað með Google Play Games. Þessi aðgerð eyðir stigunum þínum, framvindu og leikjastillingum fyrir valinn leik.</string>
     <string name="datadeletion__delete_game_data_header">Eyða einstökum leikjagögnum</string>
+    <string name="datadeletion__delete_game_data_success">Gögnunum þínum fyrir %1$s verður eytt innan sólarhrings.</string>
     <string name="datadeletion__delete_profile_button">Eyða prófíl</string>
+    <string name="datadeletion__delete_profile_explanation">Eyðir öllum gögnunum þínum í Google Play Games, meðal annars spilaranafninu þínu og XP. Hugsanlega eyðir þetta einnig stigum, framvindu og stillingum í leikjum sem þú hefur spilað.</string>
     <string name="datadeletion__delete_profile_header">Eyða prófíl og öllum gögnum</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Eyðir gögnum úr leikjum í geymslu.</string>
     <string name="datadeletion__game_list_load_error">Ekki tókst að hlaða lista yfir leiki sem þú hefur spilað með Google Play Games. Reyndu aftur síðar.</string>
@@ -84,6 +98,12 @@
     <string name="games__arcade__toolbar_title">Leikir</string>
     <string name="games__arcade_fragment_content_description">Sýnir síðuna „Leikjasalur“.</string>
     <string name="games__game_installed_label">Uppsett</string>
+    <string name="games__gamelibrary__contents">Sýnir leikjasafn með %1$d uppsettum leikjum og %2$d leikjum sem ekki hafa verið settir upp.</string>
+    <string name="games__gamelibrary__installed_games_label">Uppsett</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Hausinn „Uppsett“</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Hleður fleiri leikjum í leikjasafnið.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Ekki uppsett</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Hausinn „Ekki uppsett“</string>
     <string name="games__installbutton__install">Setja upp</string>
     <string name="games__installbutton__install_content_description">Setja upp %1$s</string>
     <string name="games__page_default_error_body">Þetta er ekki þér að kenna heldur okkur.</string>
@@ -91,11 +111,19 @@
     <string name="games__page_offline_state_play_my_games_button">Spila leikina mína</string>
     <string name="games__playbutton__play">Spila</string>
     <string name="games__playbutton__play_content_description">Spila %1$s</string>
-    <string name="games__profile_page__tab_achievements">Afrek</string>
-    <string name="games__profile_page__tab_games">Leikir</string>
-    <string name="games__profile_page__tab_players">Leikmenn</string>
-    <string name="games__searchresults__no_matches_body">Við leituðum í öllu konungsríkinu án árangurs.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Birtir fleiri afrek á afrekaflipa.</string>
+    <string name="games__profile__edit_profile_network_error">Þú getur ekki breytt prófílnum þínum án nettengingar. Athugaðu nettenginguna og reyndu aftur síðar.</string>
+    <string name="games__profile__email_content_description">Núverandi reikningur: %1$s. Sýna lista yfir reikninga.</string>
+    <string name="games__profile__menu_edit_profile">Breyta prófíl</string>
+    <string name="games__profile__page_content_description">Sýnir spilaraprófílinn þinn.</string>
+    <string name="games__profile__tab_achievements">Afrek</string>
+    <string name="games__profile__tab_games">Leikir</string>
+    <string name="games__profile__tab_players">Leikmenn</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s í næsta flokk %3$d</string>
+    <string name="games__search__search_hint">Leita að leikjum</string>
+    <string name="games__search__trending_section_title">VINSÆLT NÚNA</string>
     <string name="games__searchresults__no_matches_header">Engar niðurstöður fundust fyrir „%1$s“</string>
+    <string name="games__settings__autoplay_videos_title">Spila myndskeið sjálfkrafa</string>
     <string name="games__youtube__video_playback_error_toast">Ekki tókst að spila YouTube myndskeið.</string>
     <string name="games__youtube__video_thumbnail_content_description">Spila myndskeiðið „%1$s“</string>
     <string name="games_accessibility_event_tab_selected">%1$s valið</string>
@@ -152,7 +180,6 @@ Viltu skrá þig inn sem %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Tilkynningar</string>
     <string name="games_dest_participant_list_label">Þátttakendalisti</string>
     <string name="games_dest_player_detail_view_profile">SKOÐA PRÓFÍL</string>
-    <string name="games_dest_quests_empty_text">Engin verkefni í dag! Verkefni í Play Games sem þú hefur samþykkt birtast hér.</string>
     <string name="games_dest_shop_games_list_label">Kanna</string>
     <string name="games_dest_shop_games_visit_store_text">Play Store</string>
     <string name="games_dest_sign_in_failed_dialog_message">Æ, nei! Hér hefur eitthvað farið úrskeiðis.</string>
@@ -212,7 +239,6 @@ Viltu skrá þig inn sem %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Nýtt leikjaboð</string>
     <string name="games_inbox_event_new_match">Fjölspilunarleikur uppfærður</string>
     <string name="games_inbox_event_new_request">Ný beiðni</string>
-    <string name="games_inbox_header_accepted_quests">Samþykkt verkefni</string>
     <string name="games_inbox_header_completed_matches">Loknir leikir</string>
     <string name="games_inbox_header_invitations">Boð</string>
     <string name="games_inbox_header_my_turn">Ég á að gera</string>
@@ -323,24 +349,14 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_mvp_expand_section_content_description">Stækka hluta.</string>
     <string name="games_mvp_failed_to_load_settings">Ekki tókst að hlaða öllum stillingum, reyndu aftur síðar.</string>
     <string name="games_mvp_find_games_button_text">Skoða leiki</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Draga saman hlutann „Topplistar“.</string>
-    <string name="games_mvp_game_detail_content_description">Sýnir upplýsingar um leikinn %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Stækka hlutann „Topplistar“.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Spilaranafnið er núna gilt.</string>
     <string name="games_mvp_games_fragment_content_description">Sýnir síðuna „Leikirnir mínir“.</string>
     <string name="games_mvp_games_library_closed_content_description">Lokar leikjasafni.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Sýnir leikjasafn með %1$d uppsettum leikjum, %2$d leikjum sem er hægt að prófa núna og %3$d leikjum sem ekki hafa verið settir upp.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Sýnir leikjasafn með %1$d uppsettum leikjum og %2$d leikjum sem ekki hafa verið settir upp.</string>
     <string name="games_mvp_games_library_label">Safn</string>
-    <string name="games_mvp_games_library_spinny_content_description">Hleður fleiri leikjum í leikjasafnið.</string>
     <string name="games_mvp_games_library_toolbar_title">Safn</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s er falinn í „Leikirnir mínir“</string>
-    <string name="games_mvp_installed_games_label">Uppsett</string>
-    <string name="games_mvp_installed_games_label_content_description">Hausinn „Uppsett“</string>
+    <string name="games_mvp_hide_undo_snackbar_text">Leikurinn %1$s var falinn</string>
     <string name="games_mvp_installed_just_now">Settur upp rétt í þesu</string>
     <string name="games_mvp_installed_time_format">Settur upp %1$s</string>
-    <string name="games_mvp_instant_games_label">Prófa núna</string>
-    <string name="games_mvp_instant_games_label_content_description">Hausinn „Prófa núna“</string>
     <string name="games_mvp_last_played_just_now">Þú varst að spila</string>
     <string name="games_mvp_last_played_time_format">Síðast spilaður %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Skipting topplistagerðar. Valkostirnir eru %1$s og %2$s. Núverandi val: %3$s.</string>
@@ -359,8 +375,6 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_mvp_menu_uninstall">Fjarlægja</string>
     <string name="games_mvp_menu_unmute">Hætta að þagga</string>
     <string name="games_mvp_network_request_failed">Eitthvað fór úrskeiðis. Reyndu aftur síðar.</string>
-    <string name="games_mvp_not_installed_games_label">Ekki uppsett</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Hausinn „Ekki uppsett“</string>
     <string name="games_mvp_player_comparison_all_games">Allir leikir</string>
     <string name="games_mvp_player_comparison_content_description">Sýnir samanburð á spilurum milli þín og %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Sameiginlegir leikir</string>
@@ -384,6 +398,7 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_mvp_settings_about">Um</string>
     <string name="games_mvp_settings_build_version_title">Play Games útgáfa</string>
     <string name="games_mvp_settings_clear_local_search_history">Hreinsa staðbundinn leitarferil</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Fjarlægja alla leit sem þú hefur framkvæmt í þessu tæki</string>
     <string name="games_mvp_settings_content_description">Sýnir forritastillingar.</string>
     <string name="games_mvp_settings_debug_settings">Stillingar villuleitar</string>
     <string name="games_mvp_settings_delete_play_games_data">Eyða gögnum úr Play Games</string>
@@ -394,10 +409,9 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_mvp_settings_public_gamer_profile">Opinber leikjaprófíll</string>
     <string name="games_mvp_settings_title">Stillingar</string>
     <string name="games_mvp_share_game_card_text">Deildu með vinum þínum</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s er núna í „Leikirnir mínir“</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s er nú í „Leikirnir mínir“</string>
     <string name="games_mvp_snackbar_undo_button_text">Afturkalla</string>
     <string name="games_mvp_uninstall_error_text">Eitthvað fór úrskeiðis – prófaðu að fjarlægja %1$s aftur</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Eitthvað fór úrskeiðis – prófaðu að fjarlægja aftur</string>
     <string name="games_mvp_uninstall_success_text">Leikurinn %1$s var fjarlægður</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Leikurinn hefur verið fjarlægður</string>
     <string name="games_mvp_visit_arcade_button_text">Fara í leikjasal</string>
@@ -487,7 +501,6 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_progress_dialog_starting_rematch">Nýr leikur hafinn…</string>
     <string name="games_progress_dialog_title">Framvinda</string>
     <string name="games_quest_detail_title">Upplýsingar um verkefni</string>
-    <string name="games_quest_inbox_title">Verkefni</string>
     <string name="games_quest_list_title">Verkefni</string>
     <string name="games_quest_network_error_dialog_message">Ekki var hægt að samþykkja verkefnið. Reyndu aftur síðar.</string>
     <string name="games_quests_empty_text">Engin verkefni</string>
@@ -536,6 +549,8 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_send_request_title_wish">Senda beiðni til</string>
     <string name="games_server_title">Leikjaþjónn</string>
     <string name="games_setting_item_loading_content_description">Hleður</string>
+    <string name="games_settings_dark_theme_subtitle">Kveikja á dökku þema alls staðar í forritinu</string>
+    <string name="games_settings_dark_theme_title">Dökkt þema</string>
     <string name="games_settings_debug_achievements_head">Afrekastillingar</string>
     <string name="games_settings_debug_achievements_reshow">Sýna alltaf sprettiglugga fyrir unnin afrek</string>
     <string name="games_settings_debug_clear_caches">Hreinsa skyndiminni</string>
@@ -552,6 +567,9 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_settings_debug_reset_profile_settings_fail">Endurstilling prófílstillinga mistókst!</string>
     <string name="games_settings_debug_reset_profile_settings_success">Endurstillingu prófílstillinga lokið!</string>
     <string name="games_settings_delete_profile">Eyða prófíl í Play Games</string>
+    <string name="games_settings_delete_profile_dialog_message">"Eyðir öllum gögnunum þínum í Google Play Games, meðal annars spilaranafninu þínu og XP. Hugsanlega eyðir þessi aðgerð einnig stigum, framvindu og stillingum í leikjum sem þú hefur spilað.
+
+Ekki er hægt að afturkalla þessa aðgerð."</string>
     <string name="games_settings_delete_profile_dialog_title">Eyða prófíl í Play Games?</string>
     <string name="games_settings_delete_profile_fail">Ekki var hægt að eyða prófílnum þínum í Play Games. Reyndu aftur síðar.</string>
     <string name="games_settings_delete_profile_positive">EYÐA</string>
@@ -569,6 +587,7 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
 %2$s"</string>
     <string name="games_share_game_share_title">Deila</string>
     <string name="games_sign_in_restricted_account_dialog_cta">HALDA ÁFRAM</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/>Þú getur spilað þennan leik en við getum ekki skráð þig inn á Google Play Games með þessum reikningi.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Halda áfram án innskráningar</string>
     <string name="games_sign_in_restricted_profile_error_message">Ekki er hægt að nota þetta forrit til innskráningar á Google Play Games með takmörkuðum prófíl.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Því miður getum við ekki skráð þig inn á Google Play Games með þessum reikningi.</string>
@@ -616,6 +635,7 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_timestamp_now">Núna</string>
     <string name="games_toast_dialog_app_muted">Leikurinn %1$s var þaggaður</string>
     <string name="games_toast_dialog_app_unmuted">Leikurinn %1$s er ekki lengur þaggaður</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Villa kom upp við að eyða staðbundnum leitarferli.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Staðbundnum leitarferli hefur verið eytt.</string>
     <string name="games_toast_video_captured_description">Ýttu til að horfa og deila</string>
     <string name="games_toast_video_captured_label">Myndskeið vistað í myndasafni</string>
@@ -650,6 +670,7 @@ Segðu öðrum frá þessum leik og berðu saman stigin ykkar þegar þau spila.
     <string name="games_video_recording_camera_control_content_description_on">Gera myndavél óvirka</string>
     <string name="games_video_recording_draw_over_permission_toast">Til að leyfa upptöku þarftu að virkja heimildina fyrir að teiknað sé yfir önnur forrit í þjónustu Google Play.</string>
     <string name="games_video_recording_legal_01">Allt á skjánum þínum – þar á meðal tilkynningar, símtöl og aðgangsorð – og hljóð úr nágrenninu verða tekin upp.</string>
+    <string name="games_video_recording_legal_02">Reyndu að draga úr bakgrunnshljóðum svo að þú takir ekki upp neitt sem þú hefur ekki réttindi til.</string>
     <string name="games_video_recording_legal_cancel">Hætta við</string>
     <string name="games_video_recording_legal_proceed">Ræsa</string>
     <string name="games_video_recording_legal_title">Áður en þú byrjar</string>
@@ -687,8 +708,10 @@ Myndskeiðin eru vistuð í myndasafninu þínu í tækismöppum > Skjáupptöku
     <string name="games_waiting_room_cant_start_match_body">Ekki eru nógu margir leikmenn til að spila þennan leik.</string>
     <string name="games_waiting_room_keep_waiting">Halda áfram að bíða</string>
     <string name="games_waiting_room_menu_leave_room">Hætta leik</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Að velja</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Tengdist</string>
     <string name="games_waiting_room_participant_status_creator_joined">Tengdist</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Tengdist</string>
     <string name="games_waiting_room_participant_status_declined">Boði hafnað</string>
     <string name="games_waiting_room_participant_status_invited">Boðið</string>
     <string name="games_waiting_room_participant_status_left">Yfirgaf herbergið</string>

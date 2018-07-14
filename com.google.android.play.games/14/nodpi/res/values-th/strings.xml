@@ -45,13 +45,27 @@
     <string name="customer_information_title">ข้อมูลลูกค้า</string>
     <string name="datadeletion__archived_game_item_title">ข้อมูลเกมที่เก็บถาวร</string>
     <string name="datadeletion__delete_archived_game_button_content_description">ลบข้อมูลเกมที่เก็บถาวร</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"เมื่อลบข้อมูล จากเกมที่เก็บถาวร ระบบจะนำคะแนน ความคืบหน้า และการตั้งค่าเกมที่คุณใช้ Google Play Games กำหนดไว้ออก
+
+การดำเนินการนี้จะยกเลิกไม่ได้เมื่อดำเนินการไปแล้ว!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">ลบข้อมูลเกมที่เก็บถาวรหรือไม่</string>
     <string name="datadeletion__delete_archived_game_data_error">เกิดข้อผิดพลาดขณะลบข้อมูลจากเกมที่เก็บถาวร โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="datadeletion__delete_archived_game_data_success">ระบบจะลบข้อมูลจากเกมที่เก็บถาวร ภายใน 24 ชั่วโมง</string>
     <string name="datadeletion__delete_data_title">ลบข้อมูล Play Games</string>
     <string name="datadeletion__delete_game_data_button">ลบ</string>
+    <string name="datadeletion__delete_game_data_button_content_description">ลบข้อมูลของ %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">กำลังลบ ข้อมูลของ %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">กำลังลบ…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"เมื่อคุณลบข้อมูลของ %1$s ระบบจะนำคะแนน ความคืบหน้า และการตั้งค่าเกมที่คุณใช้ Google Play Games กำหนดไว้ออก
+
+การดำเนินการนี้จะยกเลิกไม่ได้เมื่อดำเนินการไปแล้ว"</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">ต้องการลบข้อมูลของ %1$s ไหม</string>
+    <string name="datadeletion__delete_game_data_error">เกิดข้อผิดพลาดขณะลบข้อมูลของ %1$s โปรดลองอีกครั้งในภายหลัง</string>
+    <string name="datadeletion__delete_game_data_explanation">ลบข้อมูลในเกมที่คุณ ใช้ Google Play Games เล่นออกทีละรายการ การดำเนินการนี้จะลบคะแนน ความคืบหน้า และการตั้งค่าเกมของ เกมที่เลือก</string>
     <string name="datadeletion__delete_game_data_header">ลบข้อมูลเกมทีละเกม</string>
+    <string name="datadeletion__delete_game_data_success">ระบบจะลบข้อมูลของ %1$s ภายใน 24 ชั่วโมง</string>
     <string name="datadeletion__delete_profile_button">ลบโปรไฟล์</string>
+    <string name="datadeletion__delete_profile_explanation">ลบข้อมูลทั้งหมดใน Google Play Games รวมทั้งรหัสเกมเมอร์และ XP การดำเนินการนี้อาจลบคะแนน ความคืบหน้า และ การตั้งค่าในเกมที่คุณเล่นออกด้วย</string>
     <string name="datadeletion__delete_profile_header">ลบโปรไฟล์และข้อมูลทั้งหมด</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">กำลังลบข้อมูลเกมที่เก็บถาวร</string>
     <string name="datadeletion__game_list_load_error">โหลดรายการเกมที่คุณเล่นโดยใช้ Google Play Games ไม่สำเร็จ โปรดลองอีกครั้งในภายหลัง</string>
@@ -82,6 +96,12 @@
     <string name="games__arcade__toolbar_title">เกม</string>
     <string name="games__arcade_fragment_content_description">กำหลังแสดงหน้า \"อาร์เคด\"</string>
     <string name="games__game_installed_label">ติดตั้งแล้ว</string>
+    <string name="games__gamelibrary__contents">กำลังแสดงคลังเกมที่มีเกมที่ติดตั้งแล้ว %1$d เกมและยังไม่ติดตั้ง %2$d เกม</string>
+    <string name="games__gamelibrary__installed_games_label">ติดตั้งแล้ว</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">ส่วนหัว \"ติดตั้งแล้ว\"</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">กำลังโหลดเกมอื่นๆ ลงในคลังเกม</string>
+    <string name="games__gamelibrary__not_installed_games_label">ไม่ได้ติดตั้ง</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">ส่วนหัว \"ไม่ได้ติดตั้ง\"</string>
     <string name="games__installbutton__install">ติดตั้ง</string>
     <string name="games__installbutton__install_content_description">ติดตั้ง %1$s</string>
     <string name="games__page_default_error_body">ไม่ใช่เพราะคุณหรอก เราผิดเอง</string>
@@ -89,11 +109,19 @@
     <string name="games__page_offline_state_play_my_games_button">เล่นเกมของฉัน</string>
     <string name="games__playbutton__play">เล่น</string>
     <string name="games__playbutton__play_content_description">เล่น %1$s</string>
-    <string name="games__profile_page__tab_achievements">รางวัลพิเศษ</string>
-    <string name="games__profile_page__tab_games">เกม</string>
-    <string name="games__profile_page__tab_players">ผู้เล่น</string>
-    <string name="games__searchresults__no_matches_body">เราค้นหาแล้วทุกอาณาจักรแต่ก็ยังอับโชค</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">กำลังโหลดรางวัลพิเศษเพิ่มเติมลงในแท็บรางวัลพิเศษ</string>
+    <string name="games__profile__edit_profile_network_error">คุณแก้ไขโปรไฟล์ขณะออฟไลน์อยู่ไม่ได้ โปรดตรวจสอบการเชื่อมต่อและลองอีกครั้งในภายหลัง</string>
+    <string name="games__profile__email_content_description">บัญชีปัจจุบัน: %1$s แสดงรายการบัญชี</string>
+    <string name="games__profile__menu_edit_profile">แก้ไขโปรไฟล์</string>
+    <string name="games__profile__page_content_description">กำลังแสดงโปรไฟล์ผู้เล่น</string>
+    <string name="games__profile__tab_achievements">รางวัลพิเศษ</string>
+    <string name="games__profile__tab_games">เกม</string>
+    <string name="games__profile__tab_players">ผู้เล่น</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s เพื่อไปที่ระดับถัดไป %3$d</string>
+    <string name="games__search__search_hint">ค้นหาเกม</string>
+    <string name="games__search__trending_section_title">มาแรง</string>
     <string name="games__searchresults__no_matches_header">ไม่พบรายการที่ตรงกับ \"%1$s\"</string>
+    <string name="games__settings__autoplay_videos_title">เล่นวิดีโออัตโนมัติ</string>
     <string name="games__youtube__video_playback_error_toast">เล่นวิดีโอ YouTube ไม่ได้</string>
     <string name="games__youtube__video_thumbnail_content_description">เล่นวิดีโอ \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">เลือก %1$s แล้ว</string>
@@ -151,7 +179,6 @@
     <string name="games_dest_nav_drawer_inbox">การแจ้งเตือน</string>
     <string name="games_dest_participant_list_label">รายชื่อผู้เข้าร่วม</string>
     <string name="games_dest_player_detail_view_profile">ดูโปรไฟล์</string>
-    <string name="games_dest_quests_empty_text">วันนี้ไม่มีภารกิจ! ภารกิจ Play Games ที่คุณยอมรับจะปรากฏที่นี่</string>
     <string name="games_dest_shop_games_list_label">สำรวจ</string>
     <string name="games_dest_shop_games_visit_store_text">Play Store</string>
     <string name="games_dest_sign_in_failed_dialog_message">อ๊ะ ดูเหมือนมีข้อผิดพลาดเกิดขึ้น</string>
@@ -178,7 +205,7 @@
     <string name="games_gcore_multiplayer_notifications">การแจ้งเตือนผู้เล่นหลายคน</string>
     <string name="games_gcore_multiplayer_notifications_summary">อนุญาตให้เกมส่งการแจ้งเตือนสำหรับเกมที่มีผู้เล่นหลายคน</string>
     <string name="games_gcore_muted_games">ปิดเสียงเกม</string>
-    <string name="games_gcore_muted_games_empty">ยังไม่ได้ปิดเสียงเกมเลย</string>
+    <string name="games_gcore_muted_games_empty">ยังไม่ได้ปิดเสียงเกม</string>
     <string name="games_gcore_preferred_account">ใช้บัญชีนี้เพื่อลงชื่อเข้าใช้</string>
     <string name="games_gcore_preferred_account_summary">สำหรับเกมใหม่ทั้งหมด</string>
     <string name="games_gcore_profile_discoverability">การค้นพบโปรไฟล์เกมต่างๆ ได้</string>
@@ -211,7 +238,6 @@
     <string name="games_inbox_event_new_invitation">คำเชิญเข้าร่วมการแข่งขันใหม่</string>
     <string name="games_inbox_event_new_match">อัปเดตการแข่งขันแบบผู้เล่นหลายคนแล้ว</string>
     <string name="games_inbox_event_new_request">คำขอใหม่</string>
-    <string name="games_inbox_header_accepted_quests">ภารกิจที่ยอมรับ</string>
     <string name="games_inbox_header_completed_matches">การแข่งขันที่จบแล้ว</string>
     <string name="games_inbox_header_invitations">คำเชิญ</string>
     <string name="games_inbox_header_my_turn">ตาฉัน</string>
@@ -325,24 +351,14 @@
     <string name="games_mvp_expand_section_content_description">ขยายส่วน</string>
     <string name="games_mvp_failed_to_load_settings">โหลดการตั้งค่าบางอย่างไม่สำเร็จ โปรดลองอีกครั้งในภายหลัง</string>
     <string name="games_mvp_find_games_button_text">สำรวจเกม</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">ยุบส่วนลีดเดอร์บอร์ด</string>
-    <string name="games_mvp_game_detail_content_description">กำลังแสดงรายละเอียดเกม %1$s</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">ขยายส่วนลีดเดอร์บอร์ด</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">ตอนนี้รหัสเกมเมอร์ถูกต้องแล้ว</string>
     <string name="games_mvp_games_fragment_content_description">กำลังแสดงหน้า \"เกมของฉัน\"</string>
     <string name="games_mvp_games_library_closed_content_description">ปิดคลังเกมแล้ว</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">กำลังแสดงคลังเกมที่มีเกมที่ติดตั้งแล้ว %1$d เกม พร้อมให้ลองแล้ววันนี้ %2$d เกม และยังไม่ติดตั้ง %3$d เกม</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">กำลังแสดงคลังเกมที่มีเกมที่ติดตั้งแล้ว %1$d เกมและยังไม่ติดตั้ง %2$d เกม</string>
     <string name="games_mvp_games_library_label">คลัง</string>
-    <string name="games_mvp_games_library_spinny_content_description">กำลังโหลดเกมอื่นๆ ลงในคลังเกม</string>
     <string name="games_mvp_games_library_toolbar_title">คลัง</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s ซ่อนในเกมของฉันแล้ว</string>
-    <string name="games_mvp_installed_games_label">ติดตั้งแล้ว</string>
-    <string name="games_mvp_installed_games_label_content_description">ส่วนหัว \"ติดตั้งแล้ว\"</string>
+    <string name="games_mvp_hide_undo_snackbar_text">ซ่อน %1$s แล้ว</string>
     <string name="games_mvp_installed_just_now">เพิ่งติดตั้ง</string>
     <string name="games_mvp_installed_time_format">ติดตั้งเมื่อ %1$s</string>
-    <string name="games_mvp_instant_games_label">ลองเลย</string>
-    <string name="games_mvp_instant_games_label_content_description">ส่วนหัว \"ลองเลย\"</string>
     <string name="games_mvp_last_played_just_now">เพิ่งเล่น</string>
     <string name="games_mvp_last_played_time_format">เล่นล่าสุดเมื่อ %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">เปลี่ยนประเภทลีดเดอร์บอร์ด ตัวเลือกได้แก่ %1$s และ %2$s ตัวเลือกปัจจุบัน: %3$s</string>
@@ -361,8 +377,6 @@
     <string name="games_mvp_menu_uninstall">ถอนการติดตั้ง</string>
     <string name="games_mvp_menu_unmute">เปิดเสียง</string>
     <string name="games_mvp_network_request_failed">เกิดข้อผิดพลาด โปรดลองอีกครั้งในภายหลัง</string>
-    <string name="games_mvp_not_installed_games_label">ไม่ได้ติดตั้ง</string>
-    <string name="games_mvp_not_installed_games_label_content_description">ส่วนหัว \"ไม่ได้ติดตั้ง\"</string>
     <string name="games_mvp_player_comparison_all_games">เกมทั้งหมด</string>
     <string name="games_mvp_player_comparison_content_description">กำลังแสดงการเปรียบเทียบผู้เล่นระหว่างคุณกับ %1$s</string>
     <string name="games_mvp_player_comparison_games_in_common">เกมที่มีเหมือนกัน</string>
@@ -386,20 +400,20 @@
     <string name="games_mvp_settings_about">เกี่ยวกับ</string>
     <string name="games_mvp_settings_build_version_title">เวอร์ชัน Play Games</string>
     <string name="games_mvp_settings_clear_local_search_history">ล้างประวัติการค้นหาในเครื่อง</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">ลบการค้นหาที่คุณดำเนินการออกจากอุปกรณ์นี้</string>
     <string name="games_mvp_settings_content_description">กำลังแสดงการตั้งค่าแอป</string>
     <string name="games_mvp_settings_debug_settings">การตั้งค่าการแก้ไขข้อบกพร่อง</string>
     <string name="games_mvp_settings_delete_play_games_data">ลบข้อมูล Play Games</string>
     <string name="games_mvp_settings_delete_profile">ลบโปรไฟล์ Play Games</string>
     <string name="games_mvp_settings_learn_more_notifications">เรียนรู้เกี่ยวกับการแจ้งเตือนของเกม</string>
     <string name="games_mvp_settings_muted_games">เกมที่ปิดเสียงไว้</string>
-    <string name="games_mvp_settings_no_games_muted_yet">ยังไม่ได้ปิดเสียงเกมเลย</string>
+    <string name="games_mvp_settings_no_games_muted_yet">ยังไม่ได้ปิดเสียงเกม</string>
     <string name="games_mvp_settings_public_gamer_profile">โปรไฟล์เกมสาธารณะ</string>
     <string name="games_mvp_settings_title">การตั้งค่า</string>
     <string name="games_mvp_share_game_card_text">แชร์กับเพื่อนของคุณ</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s อยู่ในเกมของฉันแล้ว</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s ปรากฏในเกมของฉันแล้ว</string>
     <string name="games_mvp_snackbar_undo_button_text">เลิกทำ</string>
     <string name="games_mvp_uninstall_error_text">เกิดข้อผิดพลาด – โปรดลองถอนการติดตั้ง %1$s อีกครั้ง</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">เกิดข้อผิดพลาด – โปรดลองถอนการติดตั้งอีกครั้ง</string>
     <string name="games_mvp_uninstall_success_text">ถอนการติดตั้ง %1$s แล้ว</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">ถอนการติดตั้งเกมแล้ว</string>
     <string name="games_mvp_visit_arcade_button_text">ไปที่อาร์เคด</string>
@@ -490,7 +504,6 @@
     <string name="games_progress_dialog_starting_rematch">กำลังเริ่มต้นการแข่งขันนัดที่สอง…</string>
     <string name="games_progress_dialog_title">ความคืบหน้า</string>
     <string name="games_quest_detail_title">รายละเอียดภารกิจ</string>
-    <string name="games_quest_inbox_title">ภารกิจ</string>
     <string name="games_quest_list_title">ภารกิจ</string>
     <string name="games_quest_network_error_dialog_message">ไม่สามารถยอมรับภารกิจได้ ลองอีกครั้งในภายหลัง</string>
     <string name="games_quests_empty_text">ไม่มีภารกิจ</string>
@@ -539,6 +552,8 @@
     <string name="games_send_request_title_wish">ส่งคำขอถึง</string>
     <string name="games_server_title">เซิร์ฟเวอร์เกม</string>
     <string name="games_setting_item_loading_content_description">กำลังโหลด</string>
+    <string name="games_settings_dark_theme_subtitle">เปิดใช้ธีมสีเข้มทั้งแอป</string>
+    <string name="games_settings_dark_theme_title">ธีมสีเข้ม</string>
     <string name="games_settings_debug_achievements_head">การตั้งค่ารางวัลพิเศษ</string>
     <string name="games_settings_debug_achievements_reshow">แสดงป๊อปอัปการปลดล็อกทุกครั้ง</string>
     <string name="games_settings_debug_clear_caches">ล้างแคชหน่วยความจำ</string>
@@ -555,6 +570,9 @@
     <string name="games_settings_debug_reset_profile_settings_fail">ไม่สามารถรีเซ็ตการตั้งค่าโปรไฟล์</string>
     <string name="games_settings_debug_reset_profile_settings_success">รีเซ็ตการตั้งค่าโปรไฟล์สำเร็จแล้ว</string>
     <string name="games_settings_delete_profile">ลบโปรไฟล์ Play Games</string>
+    <string name="games_settings_delete_profile_dialog_message">"ลบข้อมูลทั้งหมดใน Google Play Games รวมทั้งรหัสเกมเมอร์และ XP การดำเนินการนี้อาจลบคะแนน ความคืบหน้า และการตั้งค่าในเกมที่คุณเล่นออกด้วย
+
+การดำเนินการนี้จะยกเลิกไม่ได้เมื่อดำเนินการไปแล้ว"</string>
     <string name="games_settings_delete_profile_dialog_title">ลบโปรไฟล์ Play Games ไหม</string>
     <string name="games_settings_delete_profile_fail">Play Games ไม่สามารถลบโปรไฟล์ของคุณ ลองอีกครั้งในภายหลัง</string>
     <string name="games_settings_delete_profile_positive">ลบ</string>
@@ -572,6 +590,7 @@
 %2$s"</string>
     <string name="games_share_game_share_title">แชร์</string>
     <string name="games_sign_in_restricted_account_dialog_cta">ดำเนินการต่อ</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> คุณเล่นเกมนี้ได้แต่ลงชื่อเข้าใช้ Google Play Games ด้วยบัญชีนี้ไม่ได้</string>
     <string name="games_sign_in_restricted_account_dialog_title">ดำเนินการต่อโดยไม่ลงชื่อเข้าใช้</string>
     <string name="games_sign_in_restricted_profile_error_message">แอปนี้ไม่สามารถลงชื่อเข้าใช้ Google Play Games ที่มีโปรไฟล์ที่ถูกจำกัด</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> ขออภัย คุณลงชื่อเข้าใช้ Google Play Games ด้วยบัญชีนี้ไม่ได้</string>
@@ -619,6 +638,7 @@
     <string name="games_timestamp_now">เดี๋ยวนี้</string>
     <string name="games_toast_dialog_app_muted">ปิดเสียงเกม %1$s แล้ว</string>
     <string name="games_toast_dialog_app_unmuted">เปิดเสียงเกม %1$s แล้ว</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">เกิดข้อผิดพลาดขณะลบประวัติการค้นหาในเครื่อง</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">ลบประวัติการค้นหาในเครื่องแล้ว</string>
     <string name="games_toast_video_captured_description">แตะเพื่อดูและแชร์</string>
     <string name="games_toast_video_captured_label">บันทึกวิดีโอไว้ในแกลเลอรีแล้ว</string>
@@ -652,6 +672,7 @@
     <string name="games_video_recording_camera_control_content_description_on">ปิดใช้กล้อง</string>
     <string name="games_video_recording_draw_over_permission_toast">หากต้องการให้บันทึก โปรดอนุญาตให้บริการ Google Play แสดงเหนือแอปอื่นได้</string>
     <string name="games_video_recording_legal_01">ทุกสิ่งบนหน้าจอของคุณ รวมถึงการแจ้งเตือน การโทร รหัสผ่าน และเสียงต่างๆ ในบริเวณใกล้เคียงจะถูกบันทึกไว้</string>
+    <string name="games_video_recording_legal_02">พยายามกำจัดเสียงบนพื้นหลังเพื่อ ป้องกันการบันทึกเสียงที่คุณไม่มีสิทธิ์บันทึก</string>
     <string name="games_video_recording_legal_cancel">ยกเลิก</string>
     <string name="games_video_recording_legal_proceed">เปิด</string>
     <string name="games_video_recording_legal_title">สิ่งที่ควรรู้ก่อนเริ่มต้น</string>
@@ -689,8 +710,10 @@
     <string name="games_waiting_room_cant_start_match_body">มีผู้เล่นไม่พอที่จะทำการแข่งขันนี้</string>
     <string name="games_waiting_room_keep_waiting">รอต่อไป</string>
     <string name="games_waiting_room_menu_leave_room">ออกจากการแข่งขัน</string>
+    <string name="games_waiting_room_participant_status_auto_pick">กำลังเลือก</string>
     <string name="games_waiting_room_participant_status_automatch_joined">เข้าร่วมแล้ว</string>
     <string name="games_waiting_room_participant_status_creator_joined">เข้าร่วมแล้ว</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">เข้าร่วมแล้ว</string>
     <string name="games_waiting_room_participant_status_declined">คำเชิญถูกปฏิเสธ</string>
     <string name="games_waiting_room_participant_status_invited">ได้รับคำเชิญ</string>
     <string name="games_waiting_room_participant_status_left">ออกจากห้องแล้ว</string>

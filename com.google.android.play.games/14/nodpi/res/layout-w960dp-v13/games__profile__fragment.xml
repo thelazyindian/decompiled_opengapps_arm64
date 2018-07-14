@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/games__profile__toolbar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/profile_header" android:background="?selectableItemBackground" android:paddingLeft="@dimen/games__profile__header_margin_start" android:paddingRight="@dimen/games__profile__header_margin_end" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/toolbar" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <include layout="@layout/games__profile__header_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/profile_header" android:layout_below="@id/toolbar" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <include layout="@layout/games__profile__tabs" />
+        <android.support.v4.view.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/games__profile__page_side_margin" android:layout_marginRight="@dimen/games__profile__page_side_margin" />
+    </LinearLayout>
+</RelativeLayout>

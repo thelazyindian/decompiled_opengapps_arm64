@@ -44,13 +44,27 @@
     <string name="customer_information_title">Kundeinformasjon</string>
     <string name="datadeletion__archived_game_item_title">Data fra arkiverte spill</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Slett data fra arkiverte spill.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Hvis du sletter dataene dine fra arkiverte spill, fjernes poengsummene dine, fremdriften din og spillinnstillingene du har gjennom Google Play Spill.
+
+Denne handlingen kan ikke angres."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Vil du slette data fra arkiverte spill?</string>
     <string name="datadeletion__delete_archived_game_data_error">Kunne ikke slette dataene dine fra arkiverte spill. Prøv igjen senere.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Dataene dine fra arkiverte spill blir slettet innen 24 timer</string>
     <string name="datadeletion__delete_data_title">Slett Play Spill-data</string>
     <string name="datadeletion__delete_game_data_button">Slett</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Slett data for %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Sletter data for %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Sletter …</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Hvis du sletter dataene dine for %1$s, fjernes poengsummene dine, fremdriften din og spillinnstillingene du har gjennom Google Play Spill.
+
+Denne handlingen kan ikke angres."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Vil du slette data for %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">Det oppsto en feil med å slette dataene dine for %1$s. Prøv igjen senere.</string>
+    <string name="datadeletion__delete_game_data_explanation">Slett data enkeltvis for spill du har spilt via Google Play Spill. Denne handlingen sletter poengsummene dine, fremdriften din og spillinnstillingene for spillet du velger.</string>
     <string name="datadeletion__delete_game_data_header">Slett data for enkeltspill</string>
+    <string name="datadeletion__delete_game_data_success">Dataene dine for %1$s blir slettet innen 24 timer</string>
     <string name="datadeletion__delete_profile_button">Slett profilen</string>
+    <string name="datadeletion__delete_profile_explanation">Slett alle dataene dine i Google Play Spill, inkludert gamer-ID-en din og XP. Denne handlingen kan også slette poengsummene, fremdriften og innstillingene i spill du har spilt.</string>
     <string name="datadeletion__delete_profile_header">Slett profilen og alle data</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Sletter data fra arkiverte spill.</string>
     <string name="datadeletion__game_list_load_error">Kunne ikke laste inn listen over spill du har spilt med Google Play Spill. Prøv igjen senere.</string>
@@ -80,6 +94,12 @@
     <string name="games__arcade__toolbar_title">Spill</string>
     <string name="games__arcade_fragment_content_description">Viser «Spillehall»-siden.</string>
     <string name="games__game_installed_label">Installert</string>
+    <string name="games__gamelibrary__contents">Viser spillbiblioteket med %1$d spill installert og %2$d spill som ikke er installert.</string>
+    <string name="games__gamelibrary__installed_games_label">Installert</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">«Installert»-overskrift</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Laster inn flere spill i spillbiblioteket.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Ikke installert</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">«Ikke installert»-overskrift</string>
     <string name="games__installbutton__install">Installer</string>
     <string name="games__installbutton__install_content_description">Installer %1$s</string>
     <string name="games__page_default_error_body">Det er ikke din feil.</string>
@@ -87,11 +107,19 @@
     <string name="games__page_offline_state_play_my_games_button">Spill mine spill</string>
     <string name="games__playbutton__play">Spill</string>
     <string name="games__playbutton__play_content_description">Spill %1$s</string>
-    <string name="games__profile_page__tab_achievements">Prestasjoner</string>
-    <string name="games__profile_page__tab_games">Spill</string>
-    <string name="games__profile_page__tab_players">Spillere</string>
-    <string name="games__searchresults__no_matches_body">Vi har gjennomsøkt alle kongerikene, men uten hell.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Laster inn flere prestasjoner i prestasjonsfanen.</string>
+    <string name="games__profile__edit_profile_network_error">Du kan ikke endre profilen din uten nett. Sjekk tilkoblingen din, og prøv igjen senere.</string>
+    <string name="games__profile__email_content_description">Nåværende konto: %1$s. Vis kontolisten.</string>
+    <string name="games__profile__menu_edit_profile">Endre profilen</string>
+    <string name="games__profile__page_content_description">Viser spillerprofilen din.</string>
+    <string name="games__profile__tab_achievements">Prestasjoner</string>
+    <string name="games__profile__tab_games">Spill</string>
+    <string name="games__profile__tab_players">Spillere</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s til neste nivå %3$d</string>
+    <string name="games__search__search_hint">Søk etter spill</string>
+    <string name="games__search__trending_section_title">PÅ VEI OPP</string>
     <string name="games__searchresults__no_matches_header">Ingenting samsvarte med «%1$s»</string>
+    <string name="games__settings__autoplay_videos_title">Spill av videoer automatisk</string>
     <string name="games__youtube__video_playback_error_toast">Kunne ikke spille av YouTube-video.</string>
     <string name="games__youtube__video_thumbnail_content_description">Spill av videoen «%1$s»</string>
     <string name="games_accessibility_event_tab_selected">%1$s er valgt</string>
@@ -152,7 +180,6 @@ Vil du logge deg på som %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Varsler</string>
     <string name="games_dest_participant_list_label">Deltakerliste</string>
     <string name="games_dest_player_detail_view_profile">SE PROFILEN</string>
-    <string name="games_dest_quests_empty_text">Ingen oppdrag i dag! Play Spill-oppdragene du har godtatt, vises her.</string>
     <string name="games_dest_shop_games_list_label">Utforsk</string>
     <string name="games_dest_shop_games_visit_store_text">Play-butikken</string>
     <string name="games_dest_sign_in_failed_dialog_message">Auda – noe gikk visst galt.</string>
@@ -212,7 +239,6 @@ Vil du logge deg på som %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Ny spillinvitasjon</string>
     <string name="games_inbox_event_new_match">Spillet for flere spillere er oppdatert</string>
     <string name="games_inbox_event_new_request">Ny forespørsel</string>
-    <string name="games_inbox_header_accepted_quests">Godkjente oppdrag</string>
     <string name="games_inbox_header_completed_matches">Fullførte spill</string>
     <string name="games_inbox_header_invitations">Invitasjoner</string>
     <string name="games_inbox_header_my_turn">Min tur</string>
@@ -220,8 +246,8 @@ Vil du logge deg på som %3$s?"</string>
     <string name="games_inbox_header_play_with_subtitle">Du kan legge til denne spilleren som venn.</string>
     <string name="games_inbox_header_play_with_title">Spill med %1$s</string>
     <string name="games_inbox_header_their_turn">Motspillerens tur</string>
-    <string name="games_inbox_nearby_players_subtitle_disabled">Tillat spillere i nærheten å finne deg</string>
-    <string name="games_inbox_nearby_players_subtitle_enabled_searching">Søker etter spillere i nærheten …</string>
+    <string name="games_inbox_nearby_players_subtitle_disabled">Tillat spillere like ved å finne deg</string>
+    <string name="games_inbox_nearby_players_subtitle_enabled_searching">Søker etter spillere like ved …</string>
     <string name="games_inbox_network_error_dialog_message">Denne invitasjonen kunne ikke godtas. Prøv på nytt senere.</string>
     <string name="games_inbox_null_state_button_text">FINN SPILL FOR FLERE SPILLERE</string>
     <string name="games_inbox_null_state_text">Spillet er i gang! Her ser du invitasjoner og spill som pågår.</string>
@@ -324,24 +350,14 @@ Fortell andre om dette spillet, og sammenlign poengsummene deres når de spiller
     <string name="games_mvp_expand_section_content_description">Vis delen.</string>
     <string name="games_mvp_failed_to_load_settings">Kunne ikke laste inn enkelte innstillinger. Prøv igjen senere.</string>
     <string name="games_mvp_find_games_button_text">Utforsk Spill</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Skjul «Poengoversikt»-delen.</string>
-    <string name="games_mvp_game_detail_content_description">Viser detaljer for spillet %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Vis «Poengoversikt»-delen.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Gamer-ID-en er nå gyldig.</string>
     <string name="games_mvp_games_fragment_content_description">Viser «Mine spill»-siden.</string>
     <string name="games_mvp_games_library_closed_content_description">Lukker spillbiblioteket.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Viser spillbiblioteket med %1$d spill installert, %2$d spill du kan prøve nå, og %3$d spill som ikke er installert.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Viser spillbiblioteket med %1$d spill installert og %2$d spill som ikke er installert.</string>
     <string name="games_mvp_games_library_label">Bibliotek</string>
-    <string name="games_mvp_games_library_spinny_content_description">Laster inn flere spill i spillbiblioteket.</string>
     <string name="games_mvp_games_library_toolbar_title">Bibliotek</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s er skjult i Mine spill</string>
-    <string name="games_mvp_installed_games_label">Installert</string>
-    <string name="games_mvp_installed_games_label_content_description">«Installert»-overskrift</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s er skjult</string>
     <string name="games_mvp_installed_just_now">Nettopp installert</string>
     <string name="games_mvp_installed_time_format">Installert %1$s</string>
-    <string name="games_mvp_instant_games_label">Prøv nå</string>
-    <string name="games_mvp_instant_games_label_content_description">«Prøv nå»-overskrift</string>
     <string name="games_mvp_last_played_just_now">Nettopp spilt</string>
     <string name="games_mvp_last_played_time_format">Sist spilt %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Bryter for type poengoversikt. Alternativene er %1$s og %2$s. %3$s er valgt for øyeblikket.</string>
@@ -361,8 +377,6 @@ Fortell andre om dette spillet, og sammenlign poengsummene deres når de spiller
     <string name="games_mvp_menu_uninstall">Avinstaller</string>
     <string name="games_mvp_menu_unmute">Slutt å ignorere</string>
     <string name="games_mvp_network_request_failed">Noe gikk galt. Prøv igjen senere.</string>
-    <string name="games_mvp_not_installed_games_label">Ikke installert</string>
-    <string name="games_mvp_not_installed_games_label_content_description">«Ikke installert»-overskrift</string>
     <string name="games_mvp_player_comparison_all_games">Alle spill</string>
     <string name="games_mvp_player_comparison_content_description">Viser spillersammenligning mellom deg og %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Spill til felles</string>
@@ -386,6 +400,7 @@ Fortell andre om dette spillet, og sammenlign poengsummene deres når de spiller
     <string name="games_mvp_settings_about">Info</string>
     <string name="games_mvp_settings_build_version_title">Play Spill-versjon</string>
     <string name="games_mvp_settings_clear_local_search_history">Slett den lokale søkeloggen</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Fjern søkene dine fra denne enheten</string>
     <string name="games_mvp_settings_content_description">Viser appinnstillinger.</string>
     <string name="games_mvp_settings_debug_settings">Innstillinger for feilsøking</string>
     <string name="games_mvp_settings_delete_play_games_data">Slett Play Spill-data</string>
@@ -399,7 +414,6 @@ Fortell andre om dette spillet, og sammenlign poengsummene deres når de spiller
     <string name="games_mvp_show_undo_snackbar_text">%1$s vises nå i Mine spill</string>
     <string name="games_mvp_snackbar_undo_button_text">Angre</string>
     <string name="games_mvp_uninstall_error_text">Noe gikk galt – prøv å avinstallere %1$s igjen</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Noe gikk galt – prøv å avinstallere igjen</string>
     <string name="games_mvp_uninstall_success_text">%1$s er avinstallert</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Spillet er avinstallert</string>
     <string name="games_mvp_visit_arcade_button_text">Gå til spillehallen</string>
@@ -407,13 +421,13 @@ Fortell andre om dette spillet, og sammenlign poengsummene deres når de spiller
     <string name="games_my_games_empty_action_text">Utforsk spill</string>
     <string name="games_my_games_empty_text">Du har ingen spill</string>
     <string name="games_my_games_navigation_bar_title">Mine spill</string>
-    <string name="games_nearby_players_confirm_dialog_message">Når du søker etter spillere i nærheten, slår Google Play Spill midlertidig på og bruker disse teknologiene for å finne spillere: posisjonen din, mikrofonen, høyttaleren, Wi-Fi og Bluetooth. <u>Finn ut mer</u>".
+    <string name="games_nearby_players_confirm_dialog_message">Når du søker etter spillere like ved, slår Google Play Spill midlertidig på og bruker denne teknologien for å finne spillere: posisjonen din, mikrofonen, høyttaleren, Wi-Fi og Bluetooth. <u>Finn ut mer</u>".
 
-Andre som spiller dette spillet i nærheten, kan søke og finne navnet og bildet ditt når Spillere i nærheten er slått på."</string>
-    <string name="games_nearby_players_confirm_dialog_title">Spillere i nærheten</string>
+Andre som spiller dette spillet like ved deg, kan søke og finne navnet og bildet ditt når «Spillere like ved» er slått på."</string>
+    <string name="games_nearby_players_confirm_dialog_title">Spillere like ved</string>
     <string name="games_nearby_players_label_off">Spillere nær deg: av</string>
     <string name="games_nearby_players_label_on">Spillere nær deg: på</string>
-    <string name="games_nearby_players_null_state">Søker etter spillere i nærheten ...</string>
+    <string name="games_nearby_players_null_state">Søker etter spillere like ved ...</string>
     <string name="games_network_error_button_text">Prøv på nytt</string>
     <string name="games_network_error_dialog_title">Nettverksfeil</string>
     <string name="games_network_error_send_gift">Kunne ikke sende gaven. Prøv på nytt senere.</string>
@@ -491,7 +505,6 @@ Du kan endre profilen din og innstillingene dine eller slette data som er lagret
     <string name="games_progress_dialog_starting_rematch">Starter nytt spill …</string>
     <string name="games_progress_dialog_title">Fremdrift</string>
     <string name="games_quest_detail_title">Oppdragsinformasjon</string>
-    <string name="games_quest_inbox_title">Oppdrag</string>
     <string name="games_quest_list_title">Oppdrag</string>
     <string name="games_quest_network_error_dialog_message">Kunne ikke godta oppdraget. Prøv på nytt senere.</string>
     <string name="games_quests_empty_text">Ingen oppdrag</string>
@@ -527,7 +540,7 @@ Du kan endre profilen din og innstillingene dine eller slette data som er lagret
     <string name="games_select_players_filter_hint">Skriv inn et navn eller velg en spiller fra vennene dine</string>
     <string name="games_select_players_filter_start_over">Nytt søk</string>
     <string name="games_select_players_my_circles_header">Spillere du kjenner</string>
-    <string name="games_select_players_nearby_header">Spillere i nærheten av deg</string>
+    <string name="games_select_players_nearby_header">Spillere like ved deg</string>
     <string name="games_select_players_no_invitable_players">For å se folk her, legg dem til i vennelisten din.</string>
     <string name="games_select_players_no_slots_remaining">Ingen flere plasser</string>
     <string name="games_select_players_null_state_fixed_format">%1$d spillere</string>
@@ -540,6 +553,8 @@ Du kan endre profilen din og innstillingene dine eller slette data som er lagret
     <string name="games_send_request_title_wish">Send forespørsel til</string>
     <string name="games_server_title">Spilltjener</string>
     <string name="games_setting_item_loading_content_description">Laster inn</string>
+    <string name="games_settings_dark_theme_subtitle">Slå på mørkt tema i hele appen</string>
+    <string name="games_settings_dark_theme_title">Mørkt tema</string>
     <string name="games_settings_debug_achievements_head">Innstillinger for prestasjoner</string>
     <string name="games_settings_debug_achievements_reshow">Vis alltid Låst opp-forgrunnsvindu</string>
     <string name="games_settings_debug_clear_caches">Slett minnebufferne</string>
@@ -556,6 +571,9 @@ Du kan endre profilen din og innstillingene dine eller slette data som er lagret
     <string name="games_settings_debug_reset_profile_settings_fail">Tilbakestilling av profilinnstillingene mislyktes.</string>
     <string name="games_settings_debug_reset_profile_settings_success">Profilinnstillingene er tilbakestilt.</string>
     <string name="games_settings_delete_profile">Slett Play Spill-profilen</string>
+    <string name="games_settings_delete_profile_dialog_message">"Slett alle dataene dine i Google Play Spill, inkludert gamer-ID-en din og XP. Denne handlingen kan også slette poengsummene, fremdriften og innstillingene i spill du har spilt.
+
+Denne handlingen kan ikke angres."</string>
     <string name="games_settings_delete_profile_dialog_title">Vil du slette Play Spill-profilen?</string>
     <string name="games_settings_delete_profile_fail">Profilen din kunne ikke slettes fra Play Spill. Prøv på nytt senere.</string>
     <string name="games_settings_delete_profile_positive">SLETT</string>
@@ -573,6 +591,7 @@ Du kan endre profilen din og innstillingene dine eller slette data som er lagret
 %2$s"</string>
     <string name="games_share_game_share_title">Del</string>
     <string name="games_sign_in_restricted_account_dialog_cta">FORTSETT</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Du kan spille dette spillet, men vi kan ikke logge deg på Google Play Spill med denne kontoen.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Fortsett uten å logge på</string>
     <string name="games_sign_in_restricted_profile_error_message">Denne appen kan ikke logge på Google Play Spill med en begrenset profil.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Vi kan dessverre ikke logge deg på Google Play Spill med denne kontoen.</string>
@@ -620,6 +639,7 @@ Du kan endre profilen din og innstillingene dine eller slette data som er lagret
     <string name="games_timestamp_now">Nå</string>
     <string name="games_toast_dialog_app_muted">Spillet %1$s er ignorert</string>
     <string name="games_toast_dialog_app_unmuted">Ignoreringen av spillet %1$s er opphevet</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Det oppsto en feil ved sletting av den lokale søkeloggen.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Den lokale søkeloggen er slettet.</string>
     <string name="games_toast_video_captured_description">Trykk for å se og dele</string>
     <string name="games_toast_video_captured_label">Videoen er lagret i galleriet</string>
@@ -655,6 +675,7 @@ Du kan endre profilen din og innstillingene dine eller slette data som er lagret
     <string name="games_video_recording_camera_control_content_description_on">Slå av kameraet</string>
     <string name="games_video_recording_draw_over_permission_toast">For å tillate opptak, slå på tillatelsen for overstyring av andre apper for Google Play Tjenester.</string>
     <string name="games_video_recording_legal_01">Alt på skjermen blir tatt opp – inkludert varsler, anrop, passord og bakgrunnslyder.</string>
+    <string name="games_video_recording_legal_02">Prøv å unngå bakgrunnslyder, sånn at du ikke tar opp noe du ikke har rettighetene til.</string>
     <string name="games_video_recording_legal_cancel">Avbryt</string>
     <string name="games_video_recording_legal_proceed">Start</string>
     <string name="games_video_recording_legal_title">Før du begynner</string>
@@ -694,8 +715,10 @@ Videoene lagres i fotogalleriet ditt i Enhetsmapper > Skjermopptak."</string>
     <string name="games_waiting_room_cant_start_match_body">Det er ikke nok spillere til dette spillet.</string>
     <string name="games_waiting_room_keep_waiting">Vent lenger</string>
     <string name="games_waiting_room_menu_leave_room">Avslutt spillet</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Velger</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Deltar</string>
     <string name="games_waiting_room_participant_status_creator_joined">Deltar</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Deltar</string>
     <string name="games_waiting_room_participant_status_declined">Invitasjonen ble avvist</string>
     <string name="games_waiting_room_participant_status_invited">Invitert</string>
     <string name="games_waiting_room_participant_status_left">Forlot lobbyen</string>

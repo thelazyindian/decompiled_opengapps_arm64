@@ -43,13 +43,27 @@
     <string name="customer_information_title">Údaje o zákazníkovi</string>
     <string name="datadeletion__archived_game_item_title">Data z archivovaných her</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Smaže data z archivovaných her.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Smazáním dat z archivovaných her odstraníte skóre, postup a nastavení her ve Hrách Google Play.
+
+Tuto akci nelze vrátit zpět."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Smazat data z archivovaných her?</string>
     <string name="datadeletion__delete_archived_game_data_error">Při mazání dat z archivovaných her došlo k chybě. Zkuste to znovu později.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Data z archivovaných her budou smazána do 24 hodin</string>
     <string name="datadeletion__delete_data_title">Smazat data Her Play</string>
     <string name="datadeletion__delete_game_data_button">Smazat</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Smazat data hry %1$s?</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Mazání dat hry %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Mazání…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Smazáním dat hry %1$s odstraníte skóre, postup a nastavení hry ve Hrách Google Play.
+
+Tuto akci nelze vrátit zpět."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Smazat data hry %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">Při mazání dat hry %1$s došlo k chybě. Zkuste to znovu později.</string>
+    <string name="datadeletion__delete_game_data_explanation">Umožňuje smazat data jedné hry, kterou jste hráli ve Hrách Google Play. Bude odstraněno skóre, postup a nastavení vybrané hry.</string>
     <string name="datadeletion__delete_game_data_header">Smazat data jedné hry</string>
+    <string name="datadeletion__delete_game_data_success">Vaše data pro hru %1$s budou smazána do 24 hodin</string>
     <string name="datadeletion__delete_profile_button">Smazat profil</string>
+    <string name="datadeletion__delete_profile_explanation">Budou smazána všechna vaše data ve Hrách Google Play, včetně ID hráče a bodů XP. Můžete také přijít o skóre, postup a nastavení ve hrách, které jste hráli.</string>
     <string name="datadeletion__delete_profile_header">Smazat profil a veškerá data</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Mazání dat z archivovaných her.</string>
     <string name="datadeletion__game_list_load_error">Seznam her, které jste hráli ve Hrách Google Play, se nepodařilo načíst. Zkuste to znovu později.</string>
@@ -83,6 +97,12 @@
     <string name="games__arcade__toolbar_title">Hry</string>
     <string name="games__arcade_fragment_content_description">Zobrazuje se stránka Arkáda.</string>
     <string name="games__game_installed_label">Nainstalováno</string>
+    <string name="games__gamelibrary__contents">Zobrazuje se knihovna her s %1$d nainstalovanými hrami a %2$d nenainstalovanými hrami.</string>
+    <string name="games__gamelibrary__installed_games_label">Nainstalováno</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Popisek „Nainstalováno“</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Načítání dalších her do herní knihovny.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Není nainstalováno</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Popisek „Není nainstalováno“</string>
     <string name="games__installbutton__install">Instalovat</string>
     <string name="games__installbutton__install_content_description">Nainstalovat hru %1$s</string>
     <string name="games__page_default_error_body">Problém není u vás, ale u nás.</string>
@@ -90,11 +110,19 @@
     <string name="games__page_offline_state_play_my_games_button">Hrát Moje hry</string>
     <string name="games__playbutton__play">Hrát</string>
     <string name="games__playbutton__play_content_description">Hrát hru %1$s</string>
-    <string name="games__profile_page__tab_achievements">Úspěchy</string>
-    <string name="games__profile_page__tab_games">Hry</string>
-    <string name="games__profile_page__tab_players">Hráči</string>
-    <string name="games__searchresults__no_matches_body">Prohledali jsme všechna království, ale zatím jsme nic nenašli.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Načítání dalších úspěchů na kartu úspěchů.</string>
+    <string name="games__profile__edit_profile_network_error">V režimu offline profil upravit nemůžete. Zkontrolujte připojení a zkuste to znovu.</string>
+    <string name="games__profile__email_content_description">Aktuální účet: %1$s. Zobrazit seznam účtů.</string>
+    <string name="games__profile__menu_edit_profile">Upravit profil</string>
+    <string name="games__profile__page_content_description">Zobrazuje se váš profil hráče.</string>
+    <string name="games__profile__tab_achievements">Úspěchy</string>
+    <string name="games__profile__tab_games">Hry</string>
+    <string name="games__profile__tab_players">Hráči</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s na další úroveň %3$d</string>
+    <string name="games__search__search_hint">Vyhledat hry</string>
+    <string name="games__search__trending_section_title">POPULÁRNÍ</string>
     <string name="games__searchresults__no_matches_header">Dotazu %1$s neodpovídají žádné výsledky</string>
+    <string name="games__settings__autoplay_videos_title">Přehrávat videa automaticky</string>
     <string name="games__youtube__video_playback_error_toast">Video YouTube nelze přehrát.</string>
     <string name="games__youtube__video_thumbnail_content_description">Přehrát video „%1$s“</string>
     <string name="games_accessibility_event_tab_selected">Vybrána karta %1$s</string>
@@ -156,7 +184,6 @@ Chcete se přihlásit jako %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Oznámení</string>
     <string name="games_dest_participant_list_label">Seznam účastníků</string>
     <string name="games_dest_player_detail_view_profile">ZOBRAZIT PROFIL</string>
-    <string name="games_dest_quests_empty_text">Dnes žádné úkoly nemáte! Zde se zobrazují úkoly Her Play, které jste přijali.</string>
     <string name="games_dest_shop_games_list_label">Prozkoumat</string>
     <string name="games_dest_shop_games_visit_store_text">Obchod Play</string>
     <string name="games_dest_sign_in_failed_dialog_message">Jejda, něco se asi pokazilo.</string>
@@ -217,7 +244,6 @@ Chcete se přihlásit jako %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Nová pozvánka k zápasu</string>
     <string name="games_inbox_event_new_match">Zápas pro více hráčů byl aktualizován</string>
     <string name="games_inbox_event_new_request">Nová žádost</string>
-    <string name="games_inbox_header_accepted_quests">Přijaté úkoly</string>
     <string name="games_inbox_header_completed_matches">Odehrané zápasy</string>
     <string name="games_inbox_header_invitations">Pozvánky</string>
     <string name="games_inbox_header_my_turn">Jsem na tahu</string>
@@ -329,24 +355,14 @@ Zahrajte si a staňte se prvním hráčem ve výsledkové tabulce."</string>
     <string name="games_mvp_expand_section_content_description">Rozbalit sekci.</string>
     <string name="games_mvp_failed_to_load_settings">Některá nastavení se nenačetla, zkuste to znovu později.</string>
     <string name="games_mvp_find_games_button_text">Procházet hry</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Sbalit sekci Výsledkové tabulky.</string>
-    <string name="games_mvp_game_detail_content_description">Zobrazují se podrobnosti o hře %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Rozbalit sekci Výsledkové tabulky.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">ID hráče je teď platné.</string>
     <string name="games_mvp_games_fragment_content_description">Zobrazuje se stránka Moje hry.</string>
     <string name="games_mvp_games_library_closed_content_description">Zavírá se knihovna her.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Zobrazuje se knihovna her s %1$d nainstalovanými hrami, %2$d hrami dostupnými k okamžitému vyzkoušení a %3$d nenainstalovanými hrami.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Zobrazuje se knihovna her s %1$d nainstalovanými hrami a %2$d nenainstalovanými hrami.</string>
     <string name="games_mvp_games_library_label">Knihovna</string>
-    <string name="games_mvp_games_library_spinny_content_description">Načítání dalších her do herní knihovny.</string>
     <string name="games_mvp_games_library_toolbar_title">Knihovna</string>
-    <string name="games_mvp_hide_undo_snackbar_text">Hra %1$s je v Mých hrách skryta</string>
-    <string name="games_mvp_installed_games_label">Nainstalováno</string>
-    <string name="games_mvp_installed_games_label_content_description">Popisek „Nainstalováno“</string>
+    <string name="games_mvp_hide_undo_snackbar_text">Hra %1$s byla skryta</string>
     <string name="games_mvp_installed_just_now">Nainstalováno před chvilkou</string>
     <string name="games_mvp_installed_time_format">Nainstalováno: %1$s</string>
-    <string name="games_mvp_instant_games_label">K vyzkoušení</string>
-    <string name="games_mvp_instant_games_label_content_description">Popisek „Vyzkoušet“</string>
     <string name="games_mvp_last_played_just_now">Hráno před chvilkou</string>
     <string name="games_mvp_last_played_time_format">Naposledy hráno: %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Přepnutí typu výsledkové tabulky. Možnosti jsou %1$s a %2$s. Vybraná možnost: %3$s.</string>
@@ -366,8 +382,6 @@ Zahrajte si a staňte se prvním hráčem ve výsledkové tabulce."</string>
     <string name="games_mvp_menu_uninstall">Odinstalovat</string>
     <string name="games_mvp_menu_unmute">Zapnout</string>
     <string name="games_mvp_network_request_failed">Něco se pokazilo. Zkuste to prosím znovu.</string>
-    <string name="games_mvp_not_installed_games_label">Není nainstalováno</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Popisek „Nenainstalováno“</string>
     <string name="games_mvp_player_comparison_all_games">Všechny hry</string>
     <string name="games_mvp_player_comparison_content_description">Zobrazuje se porovnání hráčů mezi vámi a hráčem %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Společné hry</string>
@@ -393,6 +407,7 @@ Zahrajte si a staňte se prvním hráčem ve výsledkové tabulce."</string>
     <string name="games_mvp_settings_about">Informace</string>
     <string name="games_mvp_settings_build_version_title">Verze Her Play</string>
     <string name="games_mvp_settings_clear_local_search_history">Vymazat místní historii vyhledávání</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Odstranit vyhledávání, která jste provedli z tohoto zařízení</string>
     <string name="games_mvp_settings_content_description">Zobrazují se nastavení aplikací.</string>
     <string name="games_mvp_settings_debug_settings">Nastavení ladění</string>
     <string name="games_mvp_settings_delete_play_games_data">Smazat data Her Play</string>
@@ -403,10 +418,9 @@ Zahrajte si a staňte se prvním hráčem ve výsledkové tabulce."</string>
     <string name="games_mvp_settings_public_gamer_profile">Veřejný profil hráče</string>
     <string name="games_mvp_settings_title">Nastavení</string>
     <string name="games_mvp_share_game_card_text">Sdílet s přáteli</string>
-    <string name="games_mvp_show_undo_snackbar_text">Hra %1$s je v Mých hrách zobrazena</string>
+    <string name="games_mvp_show_undo_snackbar_text">Hra %1$s se teď zobrazuje v Mých hrách</string>
     <string name="games_mvp_snackbar_undo_button_text">Zpět</string>
     <string name="games_mvp_uninstall_error_text">Něco se pokazilo – zkuste hru %1$s znovu odinstalovat</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Něco se pokazilo – zkuste hru znovu odinstalovat</string>
     <string name="games_mvp_uninstall_success_text">Hra %1$s byla odinstalována</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Hra byla odinstalována</string>
     <string name="games_mvp_visit_arcade_button_text">Přejít na arkádu</string>
@@ -498,7 +512,6 @@ Profil a nastavení si můžete upravit, případně smazat data uložená na G
     <string name="games_progress_dialog_starting_rematch">Spouštění odvety…</string>
     <string name="games_progress_dialog_title">Průběh</string>
     <string name="games_quest_detail_title">Podrobnosti o úkolu</string>
-    <string name="games_quest_inbox_title">Úkoly</string>
     <string name="games_quest_list_title">Úkoly</string>
     <string name="games_quest_network_error_dialog_message">Úkol se nepodařilo přijmout. Zkuste to znovu později.</string>
     <string name="games_quests_empty_text">Žádné úkoly</string>
@@ -547,6 +560,8 @@ Profil a nastavení si můžete upravit, případně smazat data uložená na G
     <string name="games_send_request_title_wish">Odeslat žádost hráči</string>
     <string name="games_server_title">Herní server</string>
     <string name="games_setting_item_loading_content_description">Načítání</string>
+    <string name="games_settings_dark_theme_subtitle">Zapnout tmavý motiv v celé aplikaci</string>
+    <string name="games_settings_dark_theme_title">Tmavý motiv</string>
     <string name="games_settings_debug_achievements_head">Nastavení úspěchů</string>
     <string name="games_settings_debug_achievements_reshow">Vždy zobrazovat vyskakovací okna bonusů</string>
     <string name="games_settings_debug_clear_caches">Vymazat data uložená v mezipaměti</string>
@@ -563,6 +578,9 @@ Profil a nastavení si můžete upravit, případně smazat data uložená na G
     <string name="games_settings_debug_reset_profile_settings_fail">Resetování nastavení profilu se nezdařilo</string>
     <string name="games_settings_debug_reset_profile_settings_success">Nastavení profilu bylo úspěšně resetováno</string>
     <string name="games_settings_delete_profile">Smazat profil v Hrách Play</string>
+    <string name="games_settings_delete_profile_dialog_message">"Budou smazána všechna vaše data ve Hrách Google Play, včetně ID hráče a bodů XP. Můžete také přijít o skóre, postup a nastavení ve hrách, které jste hráli.
+
+Tuto akci nelze vrátit zpět."</string>
     <string name="games_settings_delete_profile_dialog_title">Smazat profil v Hrách Play?</string>
     <string name="games_settings_delete_profile_fail">Smazání profilu ve Hrách Play se nezdařilo. Zkuste to znovu později.</string>
     <string name="games_settings_delete_profile_positive">SMAZAT</string>
@@ -580,6 +598,7 @@ Profil a nastavení si můžete upravit, případně smazat data uložená na G
 %2$s"</string>
     <string name="games_share_game_share_title">Sdílet</string>
     <string name="games_sign_in_restricted_account_dialog_cta">POKRAČOVAT</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Hru si můžete zahrát, ale pomocí tohoto účtu se nelze přihlásit do Her Google Play.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Pokračování bez přihlášení</string>
     <string name="games_sign_in_restricted_profile_error_message">Tato aplikace se nemůže přihlásit do Her Google Play s omezeným profilem.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Pomocí tohoto účtu se nelze přihlásit do Her Google Play.</string>
@@ -625,9 +644,10 @@ Profil a nastavení si můžete upravit, případně smazat data uložená na G
     <string name="games_tile_request_description_clusters_wish">Uživatel vám chce posilat žádosti</string>
     <string name="games_tile_snapshot_content_description">Hra: %1$s. %2$s. %3$s. Naposledy uloženo: %4$s. Doba trvání: %5$s. %6$s</string>
     <string name="games_tile_snapshot_new_snapshot">Uložit novou hru</string>
-    <string name="games_timestamp_now">Nyní</string>
+    <string name="games_timestamp_now">Teď</string>
     <string name="games_toast_dialog_app_muted">Hru %1$s ignorujete</string>
     <string name="games_toast_dialog_app_unmuted">Hru %1$s již neignorujete</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Při mazání místní historie vyhledávání došlo k chybě.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Místní historie vyhledávání byla smazána.</string>
     <string name="games_toast_video_captured_description">Přehrát a sdílet lze klepnutím</string>
     <string name="games_toast_video_captured_label">Video bylo uloženo do galerie</string>
@@ -663,6 +683,7 @@ Profil a nastavení si můžete upravit, případně smazat data uložená na G
     <string name="games_video_recording_camera_control_content_description_on">Deaktivovat kameru</string>
     <string name="games_video_recording_draw_over_permission_toast">Chcete-li povolit nahrávání, udělte Službám Google Play oprávnění k vykreslení přes další aplikace.</string>
     <string name="games_video_recording_legal_01">Zaznamenán bude veškerý obsah na obrazovce, včetně oznámení, volání, zadávaných hesel nebo zvuků z okolí.</string>
+    <string name="games_video_recording_legal_02">Pokuste se odstranit zvuky na pozadí, abyste nezaznamenali nic, k čemu nemáte práva.</string>
     <string name="games_video_recording_legal_cancel">Zrušit</string>
     <string name="games_video_recording_legal_proceed">Spustit</string>
     <string name="games_video_recording_legal_title">Než začnete</string>
@@ -701,8 +722,10 @@ Videa jsou ukládána do galerie fotek ve složkách Zařízení > Záznamy obra
     <string name="games_waiting_room_cant_start_match_body">K odehrání tohoto zápasu není k dispozici dostatek hráčů.</string>
     <string name="games_waiting_room_keep_waiting">Počkat</string>
     <string name="games_waiting_room_menu_leave_room">Ukončit zápas</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Výběr</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Jste připojeni</string>
     <string name="games_waiting_room_participant_status_creator_joined">Jste připojeni</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Hráč se připojil</string>
     <string name="games_waiting_room_participant_status_declined">Pozvánka byla odmítnuta</string>
     <string name="games_waiting_room_participant_status_invited">Pozván(a)</string>
     <string name="games_waiting_room_participant_status_left">Opustil(a) místnost</string>

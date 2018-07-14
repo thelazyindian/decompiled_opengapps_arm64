@@ -49,13 +49,27 @@
     <string name="customer_information_title">کسٹمر کی معلومات</string>
     <string name="datadeletion__archived_game_item_title">آرکائیو کردہ گیمز سے ڈیٹا</string>
     <string name="datadeletion__delete_archived_game_button_content_description">آرکائیو کردہ گیمز سے ڈیٹا حذف کریں۔</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"آرکائیو کردہ گیمز سے آپ کا ڈیٹا حذف کرنے سے آپ کے اسکورز، پیشرفت، اور گیم کی وہ ترتیبات حذف ہو جائیں گی جو آپ نے Google Play گیمز کا استعمال کر کے فراہم کی ہیں۔‎
+
+اس کارروائی کو کالعدم نہیں کیا جا سکتا!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">آرکائیو کردہ گیمز سے ڈیٹا حذف کریں؟</string>
     <string name="datadeletion__delete_archived_game_data_error">آرکائیو کردہ گیمز سے ڈیٹا حذف کرنے میں خرابی تھی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="datadeletion__delete_archived_game_data_success">آرکائیو کردہ گیمز سے متعلق آپ کا ڈیٹا 24 گھنٹوں کے اندر حذف ہو جائے گا</string>
     <string name="datadeletion__delete_data_title">Play گیمز کا ڈیٹا حذف کریں</string>
     <string name="datadeletion__delete_game_data_button">حذف کریں</string>
+    <string name="datadeletion__delete_game_data_button_content_description">%1$s سے متعلق ڈیٹا حذف کریں</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">%1$s سے متعلق ڈیٹا حذف کیا جا رہا ہے</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">حذف ہو رہا ہے…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"%1$s سے متعلق آپ کا ڈیٹا حذف کرنے سے آپ کے اسکورز، پیشرفت، اور گیم کی وہ ترتیبات حذف ہو جائیں گی جو آپ نے Google Play گیمز کا استعمال کر کے فراہم کی ہیں۔‎
+
+اس کارروائی کو کالعدم نہیں کیا جا سکتا۔"</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">%1$s سے متعلق ڈیٹا حذف کریں؟</string>
+    <string name="datadeletion__delete_game_data_error">%1$s سے متعلق آپ کا ڈیٹا حذف کرنے میں خرابی تھی۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="datadeletion__delete_game_data_explanation">Google Play گیمز کے ذریعے آپ نے جن گیمز کو کھیلا ہے ان کا انفرادی ڈیٹا حذف کریں۔ اس کارروائی سے آپ کے منتخب کردہ گیم کے لیےآپ کے اسکورز، پیشرفت اور گیم کی ترتیبات حذف ہو جائیں گی۔</string>
     <string name="datadeletion__delete_game_data_header">انفرادی گیم کا ڈیٹا حذف کریں</string>
+    <string name="datadeletion__delete_game_data_success">%1$s سے متعلق آپ کا ڈیٹا 24 گھنٹوں کے اندر حذف ہو جائے گا</string>
     <string name="datadeletion__delete_profile_button">پروفائل حذف کریں</string>
+    <string name="datadeletion__delete_profile_explanation">گیمر ID، اور XP سمیت Google Play گیمز میں موجود اپنا تمام ڈیٹا حذف کریں۔ اس کارروائی سے آپ کے کھیلے گئے گیمز کے اسکورز، پیشرفت اور ترتیبات بھی حذف ہو سکتے ہیں۔</string>
     <string name="datadeletion__delete_profile_header">پروفائل اور تمام ڈیٹا حذف کریں</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">آرکائیو کردہ گیمز سے ڈیٹا حذف کیا جا رہا ہے۔</string>
     <string name="datadeletion__game_list_load_error">ان گیمز کی فہرست لوڈ نہیں ہو سکی جنہیں آپ نے Google Play گیمز کا استعمال کر کے کھیلا ہے۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
@@ -89,6 +103,12 @@
     <string name="games__arcade__toolbar_title">گیمز</string>
     <string name="games__arcade_fragment_content_description">\"آرکیڈ\" صفحہ نظر آ رہا ہے۔</string>
     <string name="games__game_installed_label">انسٹال کردہ</string>
+    <string name="games__gamelibrary__contents">گیمز کی لائبریری دکھائی جا رہی ہے جس میں %1$d گیمز انسٹال ہیں اور %2$d گیمز انسٹال نہیں ہیں۔</string>
+    <string name="games__gamelibrary__installed_games_label">انسٹال کردہ</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">"'انسٹال کردہ' ہیڈر"</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">گیمز لائبریری میں مزید گیمز لوڈ ہو رہے ہیں۔</string>
+    <string name="games__gamelibrary__not_installed_games_label">غیر انسٹال کردہ</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">"'غیر انسٹال کردہ' ہیڈر"</string>
     <string name="games__installbutton__install">انسٹال کریں</string>
     <string name="games__installbutton__install_content_description">%1$s انسٹال کریں</string>
     <string name="games__page_default_error_body">آپ کا کوئی قصور نہیں ہے قصور تو ہمارا ہے۔</string>
@@ -96,11 +116,19 @@
     <string name="games__page_offline_state_play_my_games_button">میرے گیمز چالو کریں</string>
     <string name="games__playbutton__play">کھیلیں</string>
     <string name="games__playbutton__play_content_description">%1$s کھیلیں</string>
-    <string name="games__profile_page__tab_achievements">کامیابیاں</string>
-    <string name="games__profile_page__tab_games">گیمز</string>
-    <string name="games__profile_page__tab_players">کھلاڑی</string>
-    <string name="games__searchresults__no_matches_body">ہم نے سبھی ریاستوں میں تلاش کر لیا لیکن شہزادی ابھی تک نہیں ملی۔</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">کامیابیوں کے ٹیب میں مزید کامیابیاں لوڈ ہو رہی ہیں۔</string>
+    <string name="games__profile__edit_profile_network_error">آف لائن ہونے پر آپ اپنے پروفائل میں ترمیم نہیں کر سکتے۔ براہ کرم اپنا کنکشن چیک کریں اور بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="games__profile__email_content_description">موجودہ اکاؤنٹ: %1$s۔ اکاؤنٹ کی فہرست دکھائیں۔</string>
+    <string name="games__profile__menu_edit_profile">پروفائل میں ترمیم کریں</string>
+    <string name="games__profile__page_content_description">آپ کا کھلاڑی کا پروفائل دکھایا جا رہا ہے۔</string>
+    <string name="games__profile__tab_achievements">کامیابیاں</string>
+    <string name="games__profile__tab_games">گیمز</string>
+    <string name="games__profile__tab_players">کھلاڑی</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s سے اگلی سطح %3$d تک</string>
+    <string name="games__search__search_hint">گیمز تلاش کریں</string>
+    <string name="games__search__trending_section_title">رجحان ساز</string>
     <string name="games__searchresults__no_matches_header">\"%1$s\" سے مماثل کچھ نہیں ملا</string>
+    <string name="games__settings__autoplay_videos_title">ویڈیوز کو آٹو پلے کریں</string>
     <string name="games__youtube__video_playback_error_toast">YouTube ویڈیو چلائی نہیں جا سکی۔</string>
     <string name="games__youtube__video_thumbnail_content_description">\"%1$s\" ویڈیو چلائیں</string>
     <string name="games_accessibility_event_tab_selected">%1$s کو منتخب کیا گیا</string>
@@ -164,7 +192,6 @@
     <string name="games_dest_nav_drawer_inbox">اطلاعات</string>
     <string name="games_dest_participant_list_label">شرکت کنندہ کی فہرست</string>
     <string name="games_dest_player_detail_view_profile">پروفائل دیکھیں</string>
-    <string name="games_dest_quests_empty_text">آج کوئی کوئسٹس نہیں ہیں! آپ کی قبول کردہ Play گیمز کوئسٹس یہاں ظاہر ہوتی ہیں۔</string>
     <string name="games_dest_shop_games_list_label">دریافت کریں</string>
     <string name="games_dest_shop_games_visit_store_text">Play اسٹور</string>
     <string name="games_dest_sign_in_failed_dialog_message">افوہ، لگتا ہے کہ کچھ غلط ہو گیا۔</string>
@@ -225,7 +252,6 @@
     <string name="games_inbox_event_new_invitation">نئے میچ کی دعوت</string>
     <string name="games_inbox_event_new_match">ملٹی پلیئر میچ اپ ڈیٹ ہو گیا</string>
     <string name="games_inbox_event_new_request">نئی درخواست</string>
-    <string name="games_inbox_header_accepted_quests">قبول کردہ کوئسٹس</string>
     <string name="games_inbox_header_completed_matches">مکمل ہوئے میچز</string>
     <string name="games_inbox_header_invitations">دعوتیں</string>
     <string name="games_inbox_header_my_turn">میری باری</string>
@@ -338,24 +364,14 @@
     <string name="games_mvp_expand_section_content_description">سیکشن پھیلائیں۔</string>
     <string name="games_mvp_failed_to_load_settings">کچھ ترتیبات لوڈ کرنے میں ناکام، براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
     <string name="games_mvp_find_games_button_text">گیمز دریافت کریں</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">لیڈر بورڈز کا سیکشن سکیڑیں۔</string>
-    <string name="games_mvp_game_detail_content_description">%1$s گیم کی تفصیلات دکھائی جا رہی ہیں۔</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">لیڈر بورڈز کا سیکشن پھیلائیں۔</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">گیمر ID اب دستیاب ہے۔</string>
     <string name="games_mvp_games_fragment_content_description">\"میرے گیمز\" صفحہ نظر آ رہا ہے۔</string>
     <string name="games_mvp_games_library_closed_content_description">گیمز کی لائبریری بند کی جا رہی ہے۔</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">گیمز کی لائبریری دکھائی جا رہی ہے جس میں %1$d گیمز انسٹال ہیں، ابھی آزمانے کیلئے %2$d گیمز دستیاب ہیں اور %3$d گیمز انسٹال نہیں ہیں۔</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">گیمز کی لائبریری دکھائی جا رہی ہے جس میں %1$d گیمز انسٹال ہیں اور %2$d گیمز انسٹال نہیں ہیں۔</string>
     <string name="games_mvp_games_library_label">لائبریری</string>
-    <string name="games_mvp_games_library_spinny_content_description">گیمز لائبریری میں مزید گیمز لوڈ ہو رہے ہیں۔</string>
     <string name="games_mvp_games_library_toolbar_title">لائبریری</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s میرے گیمز میں چھپا ہے</string>
-    <string name="games_mvp_installed_games_label">انسٹال کردہ</string>
-    <string name="games_mvp_installed_games_label_content_description">"'انسٹال کردہ' ہیڈر"</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s چھپا دیا گیا ہے</string>
     <string name="games_mvp_installed_just_now">ابھی انسٹال کیا گیا</string>
     <string name="games_mvp_installed_time_format">انسٹال کیا گیا: %1$s</string>
-    <string name="games_mvp_instant_games_label">ابھی آزمائیں</string>
-    <string name="games_mvp_instant_games_label_content_description">\"ابھی آزمائیں\" ہیڈر</string>
     <string name="games_mvp_last_played_just_now">ابھی ابھی کھیلا گیا</string>
     <string name="games_mvp_last_played_time_format">آخری بار کھیلا گیا: %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">لیڈر بورڈ کی قسم کا سوئچ۔ اختیارات %1$s اور %2$s ہیں۔ موجودہ اختیار: %3$s۔</string>
@@ -375,8 +391,6 @@
     <string name="games_mvp_menu_uninstall">اَن انسٹال کریں</string>
     <string name="games_mvp_menu_unmute">غیر خاموش کریں</string>
     <string name="games_mvp_network_request_failed">کچھ غلط ہو گیا، براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
-    <string name="games_mvp_not_installed_games_label">غیر انسٹال کردہ</string>
-    <string name="games_mvp_not_installed_games_label_content_description">"'غیر انسٹال کردہ' ہیڈر"</string>
     <string name="games_mvp_player_comparison_all_games">سبھی گیمز</string>
     <string name="games_mvp_player_comparison_content_description">آپ اور %1$s کے درمیان پلیئر کاموازنہ دکھایا جا رہا ہے۔</string>
     <string name="games_mvp_player_comparison_games_in_common">مشترکہ گیمز</string>
@@ -400,6 +414,7 @@
     <string name="games_mvp_settings_about">تفصیل</string>
     <string name="games_mvp_settings_build_version_title">Play گیمز ورژن</string>
     <string name="games_mvp_settings_clear_local_search_history">مقامی تلاش کی سرگزشت صاف کریں</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">اس آلے سے آپ نے جو تلاشیں کی ہیں انہیں صاف کریں</string>
     <string name="games_mvp_settings_content_description">ایپ کی ترتیبات دکھائی جا رہی ہیں۔</string>
     <string name="games_mvp_settings_debug_settings">ڈیبگ کی ترتیبات</string>
     <string name="games_mvp_settings_delete_play_games_data">Play گیمز کا ڈیٹا حذف کریں</string>
@@ -410,10 +425,9 @@
     <string name="games_mvp_settings_public_gamer_profile">عوامی گیمر پروفائل</string>
     <string name="games_mvp_settings_title">ترتیبات</string>
     <string name="games_mvp_share_game_card_text">اپنے دوستوں کے ساتھ اشتراک کریں</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s اب میرے گيمز میں ہے</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s اب \"میرے گیمز\" میں دکھائی دے رہا ہے</string>
     <string name="games_mvp_snackbar_undo_button_text">کالعدم کریں</string>
     <string name="games_mvp_uninstall_error_text">کچھ غلط ہو گیا – %1$s کو دوبارہ ان انسٹال کر کے آزمائيں</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">کچھ غلط ہو گیا – دوبارہ ان انسٹال کریں</string>
     <string name="games_mvp_uninstall_success_text">%1$s کو اَن انسٹال کر دیا گیا ہے</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">گیم کو ان انسٹال کر دیا گیا ہے</string>
     <string name="games_mvp_visit_arcade_button_text">آرکیڈ ملاحظہ کریں</string>
@@ -504,7 +518,6 @@
     <string name="games_progress_dialog_starting_rematch">دوبارہ میچ شروع ہو رہا ہے…</string>
     <string name="games_progress_dialog_title">پیشرفت</string>
     <string name="games_quest_detail_title">کوئسٹ کی تفصیلات</string>
-    <string name="games_quest_inbox_title">کوئسٹس</string>
     <string name="games_quest_list_title">کوئسٹس</string>
     <string name="games_quest_network_error_dialog_message">کوئسٹ کو قبول نہیں کیا جا سکا۔ بعد میں دوبارہ کوشش کریں۔</string>
     <string name="games_quests_empty_text">کوئی کوئسٹس نہیں ہیں</string>
@@ -553,6 +566,8 @@
     <string name="games_send_request_title_wish">درخواست بھیجیں بنام</string>
     <string name="games_server_title">گیمز سرور</string>
     <string name="games_setting_item_loading_content_description">لوڈ ہو رہا ہے</string>
+    <string name="games_settings_dark_theme_subtitle">پوری ایپ میں گہری تھیم فعال کریں</string>
+    <string name="games_settings_dark_theme_title">گہری تھیم</string>
     <string name="games_settings_debug_achievements_head">کامیابی کی ترتیبات</string>
     <string name="games_settings_debug_achievements_reshow">انلاک پاپ اپس ہمیشہ دکھائیں</string>
     <string name="games_settings_debug_clear_caches">میموری کیشز صاف کریں</string>
@@ -569,6 +584,9 @@
     <string name="games_settings_debug_reset_profile_settings_fail">پروفائل کی ترتیبات کو دوبارہ ترتیب دینا ناکام ہوگیا!</string>
     <string name="games_settings_debug_reset_profile_settings_success">پروفائل کی ترتیبات کو دوبارہ ترتیب دینا کامیاب ہوگیا!</string>
     <string name="games_settings_delete_profile">Play گیمز پروفائل کو حذف کریں</string>
+    <string name="games_settings_delete_profile_dialog_message">"گیمر ID، اور XP سمیت Google Play گیمز میں موجود اپنا تمام ڈیٹا حذف کریں۔ اس کارروائی سے آپ کے کھیلے گئے گیمز کے اسکورز، پیشرفت اور ترتیبات بھی حذف ہو سکتے ہیں۔‎
+
+اس کارروائی کو کالعدم نہیں کیا جا سکتا۔"</string>
     <string name="games_settings_delete_profile_dialog_title">Play گیمز پروفائل کو حذف کریں؟</string>
     <string name="games_settings_delete_profile_fail">Play گیمز آپ کے پروفائل کو حذف نہیں کر سکی۔ بعد میں دوبارہ کوشش کریں۔</string>
     <string name="games_settings_delete_profile_positive">حذف کریں</string>
@@ -586,6 +604,7 @@
 %2$s"</string>
     <string name="games_share_game_share_title">اشتراک کریں</string>
     <string name="games_sign_in_restricted_account_dialog_cta">جاری رکھیں</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> آپ یہ گیم کھیل سکتے ہیں، لیکن ہم آپ کو اس اکاؤنٹ سے Google Play گیمز میں سائن ان نہیں کر سکتے۔</string>
     <string name="games_sign_in_restricted_account_dialog_title">سائن ان کئے بغیر جاری رکھیں</string>
     <string name="games_sign_in_restricted_profile_error_message">یہ ایپ محدود کردہ پروفائل کے ساتھ Google Play گیمز میں سائن ان نہیں کر سکتی ہے۔</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> بدقسمتی سے ہم آپ کو اس اکاؤنٹ کے ساتھ Google Play گیمز میں سائن ان نہیں کر سکتے۔</string>
@@ -635,6 +654,7 @@
     <string name="games_timestamp_now">ابھی</string>
     <string name="games_toast_dialog_app_muted">گیم %1$s کو خاموش کر دیا گیا ہے</string>
     <string name="games_toast_dialog_app_unmuted">گیم %1$s کی خاموشی ختم کر دی گئی</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">مقامی تلاش کی سرگزشت حذف کرنے کے دوران ایک خرابی پیش آ گئی۔</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">مقامی تلاش کی سرگزشت حذف کر دی گئی ہے۔</string>
     <string name="games_toast_video_captured_description">دیکھنے و اشتراک کیلئے تھپتھپائیں</string>
     <string name="games_toast_video_captured_label">ویڈیو گیلری میں محفوظ ہوگئی</string>
@@ -670,6 +690,7 @@
     <string name="games_video_recording_camera_control_content_description_on">کیمرا غیر فعال کریں</string>
     <string name="games_video_recording_draw_over_permission_toast">ریکارڈنگ کی اجازت دینے کیلئے، براہ کرم Google Play سروسز کی دیگر ایپس پر ڈرا کرنے کی اجازت فعال کریں۔</string>
     <string name="games_video_recording_legal_01">آپ کی اسکرین پر موجود ہر چیز - بشمول اطلاعات، کالز، پاس ورڈز - اور قریبی آوازیں ریکارڈ کی جائیں گی۔</string>
+    <string name="games_video_recording_legal_02">پس منظر کی آوازوں کو خارج کرنے کی کوشش کریں تاکہ آپ ایسی کوئی چیز ریکارڈ نہ کریں جس کے لیے آپ کے پاس حقوق نہیں ہیں۔</string>
     <string name="games_video_recording_legal_cancel">منسوخ کریں</string>
     <string name="games_video_recording_legal_proceed">شروع کریں</string>
     <string name="games_video_recording_legal_title">آپ کے شروع کرنے سے پہلے</string>
@@ -707,8 +728,10 @@
     <string name="games_waiting_room_cant_start_match_body">یہ میچ کھیلنے کیلئے کافی کھلاڑی نہیں ہیں۔</string>
     <string name="games_waiting_room_keep_waiting">انتظار کرتے رہیں</string>
     <string name="games_waiting_room_menu_leave_room">میچ چھوڑیں</string>
+    <string name="games_waiting_room_participant_status_auto_pick">منتخب کیا جا رہا ہے</string>
     <string name="games_waiting_room_participant_status_automatch_joined">شامل ہو گیا</string>
     <string name="games_waiting_room_participant_status_creator_joined">شامل ہو گیا</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">شمولیت ہو گئی</string>
     <string name="games_waiting_room_participant_status_declined">دعوت مسترد کر دی گئی</string>
     <string name="games_waiting_room_participant_status_invited">مدعو</string>
     <string name="games_waiting_room_participant_status_left">کمرے سے باہر نکل گیا</string>

@@ -41,13 +41,27 @@
     <string name="customer_information_title">Informações do cliente</string>
     <string name="datadeletion__archived_game_item_title">Dados de jogos arquivados</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Eliminar dados de jogos arquivados.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"A eliminação dos dados de jogos arquivados remove as pontuações, o progresso e as definições do jogo que forneceu através do Google Play Jogos.
+
+Não é possível anular esta ação."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Pretende eliminar os dados de jogos arquivados?</string>
     <string name="datadeletion__delete_archived_game_data_error">Ocorreu um erro ao eliminar os dados de jogos arquivados. Tente novamente mais tarde.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Os dados de jogos arquivados serão eliminados no prazo de 24 horas.</string>
     <string name="datadeletion__delete_data_title">Eliminar os dados do Play Jogos</string>
     <string name="datadeletion__delete_game_data_button">Eliminar</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Pretende eliminar dados do jogo %1$s?</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">A eliminar os dados do jogo %1$s…</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">A eliminar…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"A eliminação dos dados do jogo %1$s remove as pontuações, o progresso e as definições do jogo que forneceu através do Google Play Jogos.
+
+Não é possível anular esta ação."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Pretende eliminar dados do jogo %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">Ocorreu um erro ao eliminar os dados do jogo %1$s. Tente novamente mais tarde.</string>
+    <string name="datadeletion__delete_game_data_explanation">Elimine dados individuais de jogos que tenha jogado com o Google Play Jogos. Esta ação elimina as pontuações, o progresso e as definições do jogo que selecionar.</string>
     <string name="datadeletion__delete_game_data_header">Eliminar dados de jogos individuais</string>
+    <string name="datadeletion__delete_game_data_success">Os seus dados do jogo %1$s serão eliminados no prazo de 24 horas.</string>
     <string name="datadeletion__delete_profile_button">Eliminar perfil</string>
+    <string name="datadeletion__delete_profile_explanation">Elimine todos os seus dados no Google Play Jogos, incluindo o seu ID de jogador e XP. Esta ação também pode eliminar as pontuações, o progresso e as definições dos jogos que tenha jogado.</string>
     <string name="datadeletion__delete_profile_header">Eliminar o perfil e todos os dados</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">A eliminar dados de jogos arquivados…</string>
     <string name="datadeletion__game_list_load_error">Falha ao carregar a lista de jogos que jogou através do Google Play Jogos. Tente novamente mais tarde.</string>
@@ -81,6 +95,12 @@
     <string name="games__arcade__toolbar_title">Jogos</string>
     <string name="games__arcade_fragment_content_description">A mostrar a página \"Arcada\".</string>
     <string name="games__game_installed_label">Instalado</string>
+    <string name="games__gamelibrary__contents">A mostrar a biblioteca de jogos com %1$d jogos instalados e %2$d jogos não instalados.</string>
+    <string name="games__gamelibrary__installed_games_label">Instalados</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Cabeçalho \"Instalados\"</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">A carregar mais jogos para a biblioteca de jogos…</string>
+    <string name="games__gamelibrary__not_installed_games_label">Não instalados</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Cabeçalho \"Não instalados\"</string>
     <string name="games__installbutton__install">Instalar</string>
     <string name="games__installbutton__install_content_description">Instalar %1$s</string>
     <string name="games__page_default_error_body">O problema não é seu, é nosso.</string>
@@ -88,11 +108,19 @@
     <string name="games__page_offline_state_play_my_games_button">Jogar Os meus jogos</string>
     <string name="games__playbutton__play">Jogar</string>
     <string name="games__playbutton__play_content_description">Jogar %1$s</string>
-    <string name="games__profile_page__tab_achievements">Conquistas</string>
-    <string name="games__profile_page__tab_games">Jogos</string>
-    <string name="games__profile_page__tab_players">Jogadores</string>
-    <string name="games__searchresults__no_matches_body">Pesquisámos em todos os reinos, mas sem sorte.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">A carregar mais conquistas para o separador de conquistas…</string>
+    <string name="games__profile__edit_profile_network_error">Não pode editar o perfil enquanto estiver offline. Verifique a ligação e tente novamente mais tarde.</string>
+    <string name="games__profile__email_content_description">Conta atual: %1$s. Mostrar lista de contas.</string>
+    <string name="games__profile__menu_edit_profile">Editar perfil</string>
+    <string name="games__profile__page_content_description">A mostrar o seu perfil de jogador…</string>
+    <string name="games__profile__tab_achievements">Conquistas</string>
+    <string name="games__profile__tab_games">Jogos</string>
+    <string name="games__profile__tab_players">Jogadores</string>
+    <string name="games__profile__xp_progress_annotation">%1$s/ %2$s para o próximo nível %3$d</string>
+    <string name="games__search__search_hint">Pesquisar jogos</string>
+    <string name="games__search__trending_section_title">POPULARES</string>
     <string name="games__searchresults__no_matches_header">Não existem correspondências para \"%1$s\".</string>
+    <string name="games__settings__autoplay_videos_title">Reprodução automática de vídeos</string>
     <string name="games__youtube__video_playback_error_toast">Não foi possível reproduzir o vídeo do YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">Reproduzir o vídeo \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">%1$s selecionada</string>
@@ -154,7 +182,6 @@ Pretende iniciar sessão como %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Notificações</string>
     <string name="games_dest_participant_list_label">Lista de Participantes</string>
     <string name="games_dest_player_detail_view_profile">VER PERFIL</string>
-    <string name="games_dest_quests_empty_text">Nenhuma missão hoje! As missões do Play Jogos aceites são apresentadas aqui.</string>
     <string name="games_dest_shop_games_list_label">Explorar</string>
     <string name="games_dest_shop_games_visit_store_text">Play Store</string>
     <string name="games_dest_sign_in_failed_dialog_message">Ups! Parece que ocorreu um erro.</string>
@@ -214,7 +241,6 @@ Pretende iniciar sessão como %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Novo convite para partida</string>
     <string name="games_inbox_event_new_match">Partida multijogador atualizada</string>
     <string name="games_inbox_event_new_request">Novo pedido</string>
-    <string name="games_inbox_header_accepted_quests">Missões aceites</string>
     <string name="games_inbox_header_completed_matches">Partidas concluídas</string>
     <string name="games_inbox_header_invitations">Convites</string>
     <string name="games_inbox_header_my_turn">A minha vez</string>
@@ -325,24 +351,14 @@ Informe outras pessoas acerca deste jogo e compare as pontuações quando jogare
     <string name="games_mvp_expand_section_content_description">Expandir a secção.</string>
     <string name="games_mvp_failed_to_load_settings">Não foi possível carregar algumas definições. Tente novamente mais tarde.</string>
     <string name="games_mvp_find_games_button_text">Explorar jogos</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Reduzir a secção Tabelas de classificação.</string>
-    <string name="games_mvp_game_detail_content_description">A mostrar os detalhes do jogo %1$s…</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Expandir a secção Tabelas de classificação.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">O ID de jogador já é válido.</string>
     <string name="games_mvp_games_fragment_content_description">A mostrar a página \"Os meus jogos\".</string>
     <string name="games_mvp_games_library_closed_content_description">A fechar a biblioteca de jogos…</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">A mostrar a biblioteca de jogos com %1$d jogos instalados, %2$d jogos disponíveis para experimentar agora e %3$d não instalados.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">A mostrar a biblioteca de jogos com %1$d jogos instalados e %2$d jogos não instalados.</string>
     <string name="games_mvp_games_library_label">Biblioteca</string>
-    <string name="games_mvp_games_library_spinny_content_description">A carregar mais jogos para a biblioteca de jogos…</string>
     <string name="games_mvp_games_library_toolbar_title">Biblioteca</string>
-    <string name="games_mvp_hide_undo_snackbar_text">O jogo %1$s está oculto em Os meus jogos.</string>
-    <string name="games_mvp_installed_games_label">Instalados</string>
-    <string name="games_mvp_installed_games_label_content_description">Cabeçalho \"Instalados\"</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s foi ocultado.</string>
     <string name="games_mvp_installed_just_now">Instalado agora mesmo</string>
     <string name="games_mvp_installed_time_format">Instalação: %1$s</string>
-    <string name="games_mvp_instant_games_label">Experimente já</string>
-    <string name="games_mvp_instant_games_label_content_description">Cabeçalho \"Experimentar agora\"</string>
     <string name="games_mvp_last_played_just_now">Jogado agora mesmo</string>
     <string name="games_mvp_last_played_time_format">Último jogo: %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Interruptor do tipo de tabela de classificação. As opções são %1$s e %2$s. Opção atual: %3$s.</string>
@@ -361,8 +377,6 @@ Informe outras pessoas acerca deste jogo e compare as pontuações quando jogare
     <string name="games_mvp_menu_uninstall">Desinstalar</string>
     <string name="games_mvp_menu_unmute">Ativar</string>
     <string name="games_mvp_network_request_failed">Ocorreu um erro. Tente novamente mais tarde.</string>
-    <string name="games_mvp_not_installed_games_label">Não instalados</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Cabeçalho \"Não instalados\"</string>
     <string name="games_mvp_player_comparison_all_games">Todos os jogos</string>
     <string name="games_mvp_player_comparison_content_description">A mostrar a comparação de jogadores entre si e %1$s…</string>
     <string name="games_mvp_player_comparison_games_in_common">Jogos em comum</string>
@@ -389,6 +403,7 @@ Informe outras pessoas acerca deste jogo e compare as pontuações quando jogare
     <string name="games_mvp_settings_about">Acerca de</string>
     <string name="games_mvp_settings_build_version_title">Versão do Play Jogos</string>
     <string name="games_mvp_settings_clear_local_search_history">Limpar o histórico de pesquisas locais</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Remova as pesquisas efetuadas neste dispositivo.</string>
     <string name="games_mvp_settings_content_description">A mostrar as definições da aplicação…</string>
     <string name="games_mvp_settings_debug_settings">Definições de depuração</string>
     <string name="games_mvp_settings_delete_play_games_data">Eliminar os dados do Play Jogos</string>
@@ -399,10 +414,9 @@ Informe outras pessoas acerca deste jogo e compare as pontuações quando jogare
     <string name="games_mvp_settings_public_gamer_profile">Perfil de jogador público</string>
     <string name="games_mvp_settings_title">Definições</string>
     <string name="games_mvp_share_game_card_text">Partilhar com os seus amigos</string>
-    <string name="games_mvp_show_undo_snackbar_text">O jogo %1$s está agora em Os meus jogos.</string>
+    <string name="games_mvp_show_undo_snackbar_text">O jogo %1$s é agora apresentado em Os meus jogos.</string>
     <string name="games_mvp_snackbar_undo_button_text">Anular</string>
     <string name="games_mvp_uninstall_error_text">Ocorreu um erro. Tente desinstalar novamente o %1$s.</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Ocorreu um erro. Tente desinstalar novamente.</string>
     <string name="games_mvp_uninstall_success_text">O jogo %1$s foi desinstalado.</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">O jogo foi desinstalado.</string>
     <string name="games_mvp_visit_arcade_button_text">Visitar Arcada</string>
@@ -453,7 +467,7 @@ Pode editar o seu perfil e as definições ou eliminar os dados armazenados na G
     <string name="games_profile_edit_action_next">Seguinte</string>
     <string name="games_profile_edit_action_save">Guardar</string>
     <string name="games_profile_edit_auto_sign_in">Iniciar sessão automaticamente nos jogos suportados</string>
-    <string name="games_profile_edit_discoverability">Permitir que outros jogadores encontrem o meu ID de jogador através do meu nome ou do endereço de email</string>
+    <string name="games_profile_edit_discoverability">Permitir que outros jogadores encontrem o meu ID de jogador através do meu nome ou endereço de email</string>
     <string name="games_profile_edit_error_gamer_tag_invalid">Nome inválido. Escolha um diferente.</string>
     <string name="games_profile_edit_error_gamer_tag_taken">O ID de jogador está indisponível. Escolha um diferente.</string>
     <string name="games_profile_edit_error_gamer_tag_taken_with_suggestion">O ID de jogador está indisponível. Que tal %1$s?</string>
@@ -493,7 +507,6 @@ Pode editar o seu perfil e as definições ou eliminar os dados armazenados na G
     <string name="games_progress_dialog_starting_rematch">A iniciar nova partida…</string>
     <string name="games_progress_dialog_title">Progresso</string>
     <string name="games_quest_detail_title">Detalhes da missão</string>
-    <string name="games_quest_inbox_title">Missões</string>
     <string name="games_quest_list_title">Missões</string>
     <string name="games_quest_network_error_dialog_message">Não foi possível aceitar a missão. Tente novamente mais tarde.</string>
     <string name="games_quests_empty_text">Sem missões</string>
@@ -542,6 +555,8 @@ Pode editar o seu perfil e as definições ou eliminar os dados armazenados na G
     <string name="games_send_request_title_wish">Enviar pedido para</string>
     <string name="games_server_title">Servidor de jogos</string>
     <string name="games_setting_item_loading_content_description">A carregar…</string>
+    <string name="games_settings_dark_theme_subtitle">Ativar o tema escuro em toda a aplicação</string>
+    <string name="games_settings_dark_theme_title">Tema escuro</string>
     <string name="games_settings_debug_achievements_head">Definições de conquistas</string>
     <string name="games_settings_debug_achievements_reshow">Mostrar sempre pop-ups de desbloqueio</string>
     <string name="games_settings_debug_clear_caches">Limpar cache da memória</string>
@@ -558,6 +573,9 @@ Pode editar o seu perfil e as definições ou eliminar os dados armazenados na G
     <string name="games_settings_debug_reset_profile_settings_fail">Falha ao repor as definições do perfil!</string>
     <string name="games_settings_debug_reset_profile_settings_success">As definições do perfil foram repostas com êxito!</string>
     <string name="games_settings_delete_profile">Eliminar perfil do Play Jogos</string>
+    <string name="games_settings_delete_profile_dialog_message">"Elimine todos os seus dados no Google Play Jogos, incluindo o seu ID de jogador e XP. Esta ação também pode eliminar as pontuações, o progresso e as definições dos jogos que tenha jogado.
+
+Não é possível anular esta ação."</string>
     <string name="games_settings_delete_profile_dialog_title">Eliminar perfil do Play Jogos?</string>
     <string name="games_settings_delete_profile_fail">O Play Jogos não conseguiu eliminar o seu perfil. Tente novamente mais tarde.</string>
     <string name="games_settings_delete_profile_positive">ELIMINAR</string>
@@ -575,6 +593,7 @@ Pode editar o seu perfil e as definições ou eliminar os dados armazenados na G
 %2$s"</string>
     <string name="games_share_game_share_title">Partilhar</string>
     <string name="games_sign_in_restricted_account_dialog_cta">CONTINUAR</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Pode jogar este jogo, mas não é possível iniciar sessão no Google Play Jogos com esta conta.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Continuar sem iniciar sessão</string>
     <string name="games_sign_in_restricted_profile_error_message">Esta aplicação não consegue iniciar sessão no Google Play Jogos com um perfil restrito.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Infelizmente, não é possível iniciar sessão no Google Play Jogos com esta conta.</string>
@@ -623,6 +642,7 @@ Pode editar o seu perfil e as definições ou eliminar os dados armazenados na G
     <string name="games_timestamp_now">Agora</string>
     <string name="games_toast_dialog_app_muted">O áudio do jogo %1$s foi desativado</string>
     <string name="games_toast_dialog_app_unmuted">O áudio do jogo %1$s foi ativado</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Ocorreu um erro ao eliminar o histórico de pesquisas locais.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">O histórico de pesquisas locais foi eliminado.</string>
     <string name="games_toast_video_captured_description">Toque para ver e partilhar</string>
     <string name="games_toast_video_captured_label">Vídeo guardado na galeria</string>
@@ -658,6 +678,7 @@ Pode editar o seu perfil e as definições ou eliminar os dados armazenados na G
     <string name="games_video_recording_camera_control_content_description_on">Desativar câmara</string>
     <string name="games_video_recording_draw_over_permission_toast">Para permitir a gravação, ative a permissão Sobrepor-se a outras aplicações para os Serviços do Google Play.</string>
     <string name="games_video_recording_legal_01">Tudo o estiver no ecrã, incluindo notificações, chamadas, palavras-passe e sons próximos, é gravado.</string>
+    <string name="games_video_recording_legal_02">Experimente eliminar os sons de fundo para não gravar algo para o qual não tenha direitos.</string>
     <string name="games_video_recording_legal_cancel">Cancelar</string>
     <string name="games_video_recording_legal_proceed">Iniciar</string>
     <string name="games_video_recording_legal_title">Antes de começar</string>
@@ -696,8 +717,10 @@ Os vídeos são guardados na galeria de fotos em Pastas do dispositivo > Gravaç
     <string name="games_waiting_room_cant_start_match_body">Não existem jogadores suficientes para jogar esta partida.</string>
     <string name="games_waiting_room_keep_waiting">Continuar a aguardar</string>
     <string name="games_waiting_room_menu_leave_room">Sair da partida</string>
+    <string name="games_waiting_room_participant_status_auto_pick">A escolher</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Juntou-se</string>
     <string name="games_waiting_room_participant_status_creator_joined">Aderiu</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Juntou-se</string>
     <string name="games_waiting_room_participant_status_declined">Convite recusado</string>
     <string name="games_waiting_room_participant_status_invited">Convidado</string>
     <string name="games_waiting_room_participant_status_left">Saiu da sala</string>

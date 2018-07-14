@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/games__experimentaloverlay__background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/achievement_item_container" android:layout_width="@dimen/games__experimentaloverlay__achievement_module_width" android:layout_height="@dimen/games__experimentaloverlay__height">
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/games__experimentaloverlay__achievement_icon_size" android:layout_height="@dimen/games__experimentaloverlay__achievement_icon_size" android:layout_marginLeft="@dimen/games__experimentaloverlay__achievement_icon_left_margin" android:layout_marginRight="@dimen/games__experimentaloverlay__achievement_icon_right_margin" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/games__experimentaloverlay__achievement_icon_left_margin" android:layout_marginEnd="@dimen/games__experimentaloverlay__achievement_icon_right_margin" android:layout_alignParentStart="true" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/icon" android:layout_alignParentEnd="true">
+            <TextView android:ellipsize="end" android:gravity="start" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="anyRtl" android:textAlignment="viewStart" style="@style/TextStyle.Replay.Subtitle.2" />
+            <TextView android:ellipsize="end" android:gravity="start" android:id="@id/subtitle_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textDirection="anyRtl" android:textAlignment="viewStart" style="@style/TextStyle.Replay.Caption" />
+        </LinearLayout>
+        <com.google.android.apps.play.games.lib.widgets.progressbar.MaterialIndeterminateProgressBar android:id="@id/loading_progress" android:layout_width="@dimen/games__experimentaloverlay__action_icon_size" android:layout_height="@dimen/games__experimentaloverlay__action_icon_size" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/screenshot_icon" android:layout_width="@dimen/games__experimentaloverlay__action_icon_container_width" android:layout_height="@dimen/games__experimentaloverlay__height">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/games__experimentaloverlay__action_icon_size" android:layout_height="@dimen/games__experimentaloverlay__action_icon_size" android:src="@drawable/quantum_ic_photo_camera_grey600_24" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/video_icon" android:layout_width="@dimen/games__experimentaloverlay__action_icon_container_width" android:layout_height="@dimen/games__experimentaloverlay__height">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/games__experimentaloverlay__action_icon_size" android:layout_height="@dimen/games__experimentaloverlay__action_icon_size" android:src="@drawable/quantum_ic_videocam_grey600_24" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/main_icon" android:layout_width="@dimen/games__experimentaloverlay__action_icon_container_width" android:layout_height="@dimen/games__experimentaloverlay__height">
+        <ImageView android:layout_gravity="center" android:id="@id/play_games_icon_image" android:layout_width="@dimen/games__experimentaloverlay__main_icon_size" android:layout_height="@dimen/games__experimentaloverlay__main_icon_size" android:src="@drawable/product_logo_play_games_color_48" />
+        <ImageView android:layout_gravity="center" android:id="@id/avatar_icon_image" android:layout_width="@dimen/games__experimentaloverlay__main_icon_size" android:layout_height="@dimen/games__experimentaloverlay__main_icon_size" />
+    </FrameLayout>
+</LinearLayout>

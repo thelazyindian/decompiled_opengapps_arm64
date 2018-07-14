@@ -52,13 +52,27 @@
     <string name="customer_information_title">Kliento informacija</string>
     <string name="datadeletion__archived_game_item_title">Duomenys iš suarchyvuotų žaidimų</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Ištrinti duomenis iš suarchyvuotų žaidimų.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Ištrynus duomenis iš suarchyvuotų žaidimų, bus pašalinti jūsų rezultatai, pažanga ir žaidimo nustatymai, kuriuos pasirinkote naudodami „Google Play“ žaidimus.
+
+Šio veiksmo anuliuoti negalima!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Ištrinti duomenis iš suarchyvuotų žaidimų?</string>
     <string name="datadeletion__delete_archived_game_data_error">Ištrinant duomenis iš suarchyvuotų žaidimų įvyko klaida. Vėliau bandykite dar kartą.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Duomenys iš suarchyvuotų žaidimų bus ištrinti per 24 val.</string>
     <string name="datadeletion__delete_data_title">„Play“ žaidimų duomenų trynimas</string>
     <string name="datadeletion__delete_game_data_button">Ištrinti</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Ištrinti žaidimo „%1$s“ duomenis</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Ištrinami žaidimo „%1$s“ duomenys</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Trinama...</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Ištrynus žaidimo „%1$s“ duomenis bus pašalinti jūsų rezultatai, pažanga ir žaidimo nustatymai, kuriuos pasirinkote naudodami „Google Play“ žaidimus.
+
+Šio veiksmo anuliuoti negalima."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Ištrinti žaidimo „%1$s“ duomenis?</string>
+    <string name="datadeletion__delete_game_data_error">Ištrinant žaidimo „%1$s“ duomenis įvyko klaida. Vėliau bandykite dar kartą.</string>
+    <string name="datadeletion__delete_game_data_explanation">Ištrinkite atskirus žaidimų, kuriuos žaidėte naudodami „Google Play“ žaidimus, duomenis. Atlikus šį veiksmą, bus ištrinti pasirinkto žaidimo rezultatai, eiga ir nustatymai.</string>
     <string name="datadeletion__delete_game_data_header">Atskirų žaidimų duomenų ištrynimas</string>
+    <string name="datadeletion__delete_game_data_success">Žaidimo „%1$s“ duomenys bus ištrinti per 24 val.</string>
     <string name="datadeletion__delete_profile_button">Ištrinti profilį</string>
+    <string name="datadeletion__delete_profile_explanation">Ištrinkite visus duomenis „Google Play“ žaidimuose, įskaitant žaidėjo ID ir XP. Atlikus šį veiksmą, taip pat gali būti ištrinti žaistų žaidimų rezultatai, pažanga ir nustatymai.</string>
     <string name="datadeletion__delete_profile_header">Profilio ir visų duomenų trynimas</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Ištrinami duomenys iš suarchyvuotų žaidimų.</string>
     <string name="datadeletion__game_list_load_error">Nepavyko įkelti žaidimų, kuriuos žaidėte naudodami „Google Play“ žaidimus, sąrašo. Vėliau band. dar kartą.</string>
@@ -89,6 +103,12 @@
     <string name="games__arcade__toolbar_title">Žaidimai</string>
     <string name="games__arcade_fragment_content_description">Rodomas puslapis „Arkada“.</string>
     <string name="games__game_installed_label">Įdiegta</string>
+    <string name="games__gamelibrary__contents">Rodoma žaidimų biblioteka, kurioje yra įdiegtų (%1$d) ir neįdiegtų (%2$d) žaidimų.</string>
+    <string name="games__gamelibrary__installed_games_label">Įdiegta</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Antraštė „Įdiegta“</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Į žaidimų biblioteką įkeliama daugiau žaidimų.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Neįdiegta</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Antraštė „Neįdiegta“</string>
     <string name="games__installbutton__install">Įdiegti</string>
     <string name="games__installbutton__install_content_description">Įdiegti žaidimą „%1$s“</string>
     <string name="games__page_default_error_body">Tai ne jūsų kaltė.</string>
@@ -96,11 +116,19 @@
     <string name="games__page_offline_state_play_my_games_button">Žaisti mano žaidimus</string>
     <string name="games__playbutton__play">Žaisti</string>
     <string name="games__playbutton__play_content_description">Žaisti žaidimą „%1$s“</string>
-    <string name="games__profile_page__tab_achievements">Laimėjimai</string>
-    <string name="games__profile_page__tab_games">Žaidimai</string>
-    <string name="games__profile_page__tab_players">Žaidėjai</string>
-    <string name="games__searchresults__no_matches_body">Ieškojome visose karalystėse, bet nieko neradome.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Į laimėjimų skirtuką įkeliama daugiau laimėjimų.</string>
+    <string name="games__profile__edit_profile_network_error">Negalite redaguoti savo profilio neprisijungę. Patikrinkite ryšį ir vėliau bandykite dar kartą.</string>
+    <string name="games__profile__email_content_description">Dabartinė paskyra: %1$s. Rodyti paskyrų sąrašą.</string>
+    <string name="games__profile__menu_edit_profile">Redaguoti profilį</string>
+    <string name="games__profile__page_content_description">Rodomas jūsų žaidėjo profilis.</string>
+    <string name="games__profile__tab_achievements">Laimėjimai</string>
+    <string name="games__profile__tab_games">Žaidimai</string>
+    <string name="games__profile__tab_players">Žaidėjai</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s iki kito lygio %3$d</string>
+    <string name="games__search__search_hint">Ieškoti žaidimų</string>
+    <string name="games__search__trending_section_title">POPULIARŪS</string>
     <string name="games__searchresults__no_matches_header">Nėra atitikčių pagal užklausą „%1$s“</string>
+    <string name="games__settings__autoplay_videos_title">Automatinis vaizdo įrašų paleidimas</string>
     <string name="games__youtube__video_playback_error_toast">Nepavyko paleisti „YouTube“ vaizdo įrašo.</string>
     <string name="games__youtube__video_thumbnail_content_description">Leisti vaizdo įrašą „%1$s“</string>
     <string name="games_accessibility_event_tab_selected">Pasirinkta: „%1$s“</string>
@@ -161,7 +189,6 @@ Norite prisijungti kaip %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Pranešimai</string>
     <string name="games_dest_participant_list_label">Dalyvių sąrašas</string>
     <string name="games_dest_player_detail_view_profile">PERŽIŪRĖTI PROFILĮ</string>
-    <string name="games_dest_quests_empty_text">Šiandien užduočių nėra! Čia rodomos priimtos „Google Play“ žaidimų užduotys.</string>
     <string name="games_dest_shop_games_list_label">Naršyti</string>
     <string name="games_dest_shop_games_visit_store_text">„Play“ parduotuvė</string>
     <string name="games_dest_sign_in_failed_dialog_message">Oi, panašu, kad kažkas nepavyko.</string>
@@ -221,7 +248,6 @@ Norite prisijungti kaip %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Naujas žaidimo partijos kvietimas</string>
     <string name="games_inbox_event_new_match">Kelių žaidėjų režimo žaidimo partija atnaujinta</string>
     <string name="games_inbox_event_new_request">Nauja užklausa</string>
-    <string name="games_inbox_header_accepted_quests">Priimtos užduotys</string>
     <string name="games_inbox_header_completed_matches">Baigtos žaidimų partijos</string>
     <string name="games_inbox_header_invitations">Kvietimai</string>
     <string name="games_inbox_header_my_turn">Mano eilė</string>
@@ -335,24 +361,14 @@ Papasakokite žmonėms apie šį žaidimą ir palyginkite rezultatus, kai jie ž
     <string name="games_mvp_expand_section_content_description">Išskleiskite skiltį.</string>
     <string name="games_mvp_failed_to_load_settings">Įvyko klaida įkeliant nustatymus, bandykite dar kartą vėliau.</string>
     <string name="games_mvp_find_games_button_text">Naršyti žaidimus</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Sutraukti pirmaujančiųjų sąrašų skiltį.</string>
-    <string name="games_mvp_game_detail_content_description">Rodoma išsami žaidimo „%1$s“ informacija.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Išskleisti pirmaujančiųjų sąrašų skiltį.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Žaidėjo ID dabar galioja.</string>
     <string name="games_mvp_games_fragment_content_description">Rodomas puslapis „Mano žaidimai“.</string>
     <string name="games_mvp_games_library_closed_content_description">Uždaroma žaidimų biblioteka.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Rodoma žaidimų biblioteka, kurioje yra įdiegtų (%1$d), dabar išbandyti galimų (%2$d) ir neįdiegtų (%3$d) žaidimų.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Rodoma žaidimų biblioteka, kurioje yra įdiegtų (%1$d) ir neįdiegtų (%2$d) žaidimų.</string>
     <string name="games_mvp_games_library_label">Biblioteka</string>
-    <string name="games_mvp_games_library_spinny_content_description">Į žaidimų biblioteką įkeliama daugiau žaidimų.</string>
     <string name="games_mvp_games_library_toolbar_title">Biblioteka</string>
-    <string name="games_mvp_hide_undo_snackbar_text">Žaidimas „%1$s“ paslėptas skiltyje „Mano žaidimai“</string>
-    <string name="games_mvp_installed_games_label">Įdiegta</string>
-    <string name="games_mvp_installed_games_label_content_description">Antraštė „Įdiegta“</string>
+    <string name="games_mvp_hide_undo_snackbar_text">Žaidimas „%1$s“ paslėptas</string>
     <string name="games_mvp_installed_just_now">Ką tik įdiegta</string>
     <string name="games_mvp_installed_time_format">Įdiegta %1$s</string>
-    <string name="games_mvp_instant_games_label">Išbandyti dabar</string>
-    <string name="games_mvp_instant_games_label_content_description">Antraštė „Išbandyti dabar“</string>
     <string name="games_mvp_last_played_just_now">Ką tik žaista</string>
     <string name="games_mvp_last_played_time_format">Paskutinį kartą žaista %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Pirmaujančiųjų sąrašo tipo jungiklis. Parinktys: %1$s ir %2$s. Dabartinė parinktis: %3$s.</string>
@@ -372,8 +388,6 @@ Papasakokite žmonėms apie šį žaidimą ir palyginkite rezultatus, kai jie ž
     <string name="games_mvp_menu_uninstall">Pašalinti</string>
     <string name="games_mvp_menu_unmute">Rodyti</string>
     <string name="games_mvp_network_request_failed">Kažkas ne taip. Bandykite dar kartą vėliau.</string>
-    <string name="games_mvp_not_installed_games_label">Neįdiegta</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Antraštė „Neįdiegta“</string>
     <string name="games_mvp_player_comparison_all_games">Visi žaidimai</string>
     <string name="games_mvp_player_comparison_content_description">Rodomas žaidėjų palyginimas: jūs ir %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Bendri žaidimai</string>
@@ -397,6 +411,7 @@ Papasakokite žmonėms apie šį žaidimą ir palyginkite rezultatus, kai jie ž
     <string name="games_mvp_settings_about">Apie</string>
     <string name="games_mvp_settings_build_version_title">„Play“ žaidimų versija</string>
     <string name="games_mvp_settings_clear_local_search_history">Išvalyti vietinę paieškos istoriją</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Pašalinamos paieškos, kurias atlikote šiame įrenginyje</string>
     <string name="games_mvp_settings_content_description">Rodomi programos nustatymai.</string>
     <string name="games_mvp_settings_debug_settings">Derinti nustatymus</string>
     <string name="games_mvp_settings_delete_play_games_data">Ištrinti „Play“ žaidimų duomenis</string>
@@ -410,7 +425,6 @@ Papasakokite žmonėms apie šį žaidimą ir palyginkite rezultatus, kai jie ž
     <string name="games_mvp_show_undo_snackbar_text">Žaidimas „%1$s“ dabar rodomas skiltyje „Mano žaidimai“</string>
     <string name="games_mvp_snackbar_undo_button_text">Anuliuoti</string>
     <string name="games_mvp_uninstall_error_text">Kažkas nepavyko – bandykite žaidimą „%1$s“ pašalinti dar kartą</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Kažkas nepavyko – bandykite pašalinti dar kartą.</string>
     <string name="games_mvp_uninstall_success_text">Žaidimas „%1$s“ pašalintas</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Žaidimas pašalintas</string>
     <string name="games_mvp_visit_arcade_button_text">Apsil. psl. „Arkada“</string>
@@ -501,7 +515,6 @@ Galite redaguoti profilį ir nustatymus arba ištrinti „Google“ saugomus duo
     <string name="games_progress_dialog_starting_rematch">Pradedama atsakomoji žaidimo partija…</string>
     <string name="games_progress_dialog_title">Eiga</string>
     <string name="games_quest_detail_title">Išsami užduoties informacija</string>
-    <string name="games_quest_inbox_title">Užduotys</string>
     <string name="games_quest_list_title">Užduotys</string>
     <string name="games_quest_network_error_dialog_message">Nepavyko priimti užduoties. Vėliau bandykite dar kartą.</string>
     <string name="games_quests_empty_text">Nėra jokių užduočių</string>
@@ -550,6 +563,8 @@ Galite redaguoti profilį ir nustatymus arba ištrinti „Google“ saugomus duo
     <string name="games_send_request_title_wish">Siųsti užklausą (kam)</string>
     <string name="games_server_title">Žaidimų serveris</string>
     <string name="games_setting_item_loading_content_description">Įkeliama</string>
+    <string name="games_settings_dark_theme_subtitle">Įgalinkite tamsią temą visoje programoje</string>
+    <string name="games_settings_dark_theme_title">Tamsi tema</string>
     <string name="games_settings_debug_achievements_head">Laimėjimų nustatymai</string>
     <string name="games_settings_debug_achievements_reshow">Visada rodyti atrakintus iššokančiuosius langus</string>
     <string name="games_settings_debug_clear_caches">Išvalyti atminties talpyklas</string>
@@ -566,6 +581,9 @@ Galite redaguoti profilį ir nustatymus arba ištrinti „Google“ saugomus duo
     <string name="games_settings_debug_reset_profile_settings_fail">Nepavyko iš naujo nustatyti profilio!</string>
     <string name="games_settings_debug_reset_profile_settings_success">Profilis sėkmingai nustatytas iš naujo!</string>
     <string name="games_settings_delete_profile">Ištrinti „Google Play“ žaidimų profilį</string>
+    <string name="games_settings_delete_profile_dialog_message">"Ištrinkite visus duomenis „Google Play“ žaidimuose, įskaitant žaidėjo ID ir XP. Atlikus šį veiksmą, taip pat gali būti ištrinti žaistų žaidimų rezultatai, pažanga ir nustatymai.
+
+Šio veiksmo anuliuoti negalima."</string>
     <string name="games_settings_delete_profile_dialog_title">Ištrinti „Google Play“ žaidimų profilį?</string>
     <string name="games_settings_delete_profile_fail">Nepavyko ištrinti „Google Play“ žaidimų profilio. Vėliau bandykite dar kartą.</string>
     <string name="games_settings_delete_profile_positive">IŠTRINTI</string>
@@ -583,6 +601,7 @@ Galite redaguoti profilį ir nustatymus arba ištrinti „Google“ saugomus duo
 %2$s"</string>
     <string name="games_share_game_share_title">Bendrinti</string>
     <string name="games_sign_in_restricted_account_dialog_cta">TĘSTI</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Galite žaisti šį žaidimą, bet negalite prisijungti prie „Google Play“ žaidimų naudodami šią paskyrą.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Tęskite neprisijungę</string>
     <string name="games_sign_in_restricted_profile_error_message">Šioje programoje negalima prisijungti prie „Google Play“ žaidimų naudojant apribotą profilį.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Deja, negalite prisijungti prie „Google Play“ žaidimų naudodami šią paskyrą.</string>
@@ -631,6 +650,7 @@ Galite redaguoti profilį ir nustatymus arba ištrinti „Google“ saugomus duo
     <string name="games_timestamp_now">Dabar</string>
     <string name="games_toast_dialog_app_muted">Žaidimas „%1$s“ nutildytas</string>
     <string name="games_toast_dialog_app_unmuted">Įjungtas žaidimo „%1$s“ garsas</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Ištrinant vietinę paieškos istoriją įvyko klaida.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Vietinės paieškos istorija buvo ištrinta.</string>
     <string name="games_toast_video_captured_description">Pal., kad gal. žr. ir bendr.</string>
     <string name="games_toast_video_captured_label">Vaizdo įrašas išsaugotas galerijoje</string>
@@ -666,6 +686,7 @@ Galite redaguoti profilį ir nustatymus arba ištrinti „Google“ saugomus duo
     <string name="games_video_recording_camera_control_content_description_on">Išjungti kamerą</string>
     <string name="games_video_recording_draw_over_permission_toast">Jei norite leisti įrašyti, įgalinkite „Google Play“ paslaugoms skirtą leidimą „Rodyti virš kitų programų“.</string>
     <string name="games_video_recording_legal_01">Visi ekrane pateikiami elementai, įskaitant pranešimus, skambučius, slaptažodžius, ir netoliese girdimi garsai bus įrašyti.</string>
+    <string name="games_video_recording_legal_02">Pabandykite sumažinti fono garsą, kad neįrašytumėte nieko neteisėto.</string>
     <string name="games_video_recording_legal_cancel">Atšaukti</string>
     <string name="games_video_recording_legal_proceed">Paleisti</string>
     <string name="games_video_recording_legal_title">Prieš pradėdami</string>
@@ -703,8 +724,10 @@ Vaizdo įrašai išsaugomi nuotraukų galerijos skiltyje „Įrenginio aplankai�
     <string name="games_waiting_room_cant_start_match_body">Nepakanka žaidėjų, kad būtų galima žaisti šią žaidimo partiją.</string>
     <string name="games_waiting_room_keep_waiting">Laukti</string>
     <string name="games_waiting_room_menu_leave_room">Išeiti iš žaidimo partijos</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Pasirenkama</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Prisijungta</string>
     <string name="games_waiting_room_participant_status_creator_joined">Prisijungė</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Prisijungta</string>
     <string name="games_waiting_room_participant_status_declined">Kvietimas atmestas</string>
     <string name="games_waiting_room_participant_status_invited">Pakviesta</string>
     <string name="games_waiting_room_participant_status_left">Išėjo iš kambario</string>

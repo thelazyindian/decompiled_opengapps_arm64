@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/profile_avatar_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/profile_avatar" android:layout_width="@dimen/games__profile__avatar_image_size" android:layout_height="@dimen/games__profile__avatar_image_size" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center_horizontal" android:id="@id/profile_avatar_wreath" android:layout_width="@dimen/games__profile__avatar_wreath_dimension" android:layout_height="@dimen/games__profile__avatar_wreath_dimension" android:adjustViewBounds="false" app:lottie_autoPlay="true" app:lottie_loop="false" />
+        <Space android:id="@id/space" android:layout_width="0.0dip" android:layout_height="@dimen/games__profile__level_chip_half_height" android:layout_marginBottom="@dimen/games__profile__avatar_wreath_margin" android:layout_alignBottom="@id/profile_avatar_wreath" />
+        <TextView android:textSize="@dimen/games__profile__level_chip_text_size" android:textColor="@color/replay__window_background_light" android:gravity="center" android:id="@id/user_level" android:background="@drawable/games__profile__user_level_circle" android:layout_width="wrap_content" android:layout_height="@dimen/games__profile__level_chip_height" android:minWidth="@dimen/games__profile__level_chip_min_width" android:layout_alignTop="@id/space" android:layout_centerHorizontal="true" style="@style/TextStyle.Replay.Body.2" />
+    </RelativeLayout>
+    <TextView android:gravity="center" android:id="@id/gamer_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextStyle.Replay.Headline.3" />
+    <TextView android:ellipsize="end" android:gravity="start" android:layout_gravity="center" android:id="@id/email_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/games__profile__email_text_margin_top" android:maxLines="1" android:drawableRight="@drawable/quantum_ic_keyboard_arrow_down_grey600_18" android:drawablePadding="@dimen/games__profile__email_drawable_padding" android:drawableEnd="@drawable/quantum_ic_keyboard_arrow_down_grey600_18" style="@style/TextStyle.Replay.Body.2" />
+</merge>

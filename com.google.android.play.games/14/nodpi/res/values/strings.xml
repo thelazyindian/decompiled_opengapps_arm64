@@ -100,6 +100,7 @@ This action can't be undone."</string>
     <string name="gamedetails__apl_leaderboards">Leaderboards</string>
     <string name="gamedetails__apl_players">Players</string>
     <string name="gamedetails__middle_dot">·</string>
+    <string name="games__achievement__details">%1$s · %2$s XP</string>
     <string name="games__achievement_format_with_label">%1$d / %2$d Achievements</string>
     <string name="games__achievement_format_without_label">%1$d / %2$d</string>
     <string name="games__achievement_progress_content_description">%1$d out of %2$d achievements unlocked</string>
@@ -113,9 +114,20 @@ This action can't be undone."</string>
     <string name="games__arcade__title">Arcade</string>
     <string name="games__arcade__toolbar_title">Games</string>
     <string name="games__arcade_fragment_content_description">Showing \"Arcade\" page.</string>
+    <string name="games__experimentaloverlay__all_achievements_unlocked">You have unlocked all achievements!</string>
+    <string name="games__experimentaloverlay__next_achievement">Next: %1$s</string>
+    <string name="games__experimentaloverlay__next_achievement_hidden">Next: secret achievement</string>
+    <string name="games__experimentaloverlay__next_achievement_hidden_description">Keep playing to find out!</string>
+    <string name="games__experimentaloverlay__no_achievements">There are no achievements!</string>
     <string name="games__fireball__results_layout_manager">android.support.v7.widget.StaggeredGridLayoutManager</string>
     <string name="games__game_installed_label">Installed</string>
     <string name="games__game_instant_label">Google Play Instant</string>
+    <string name="games__gamelibrary__contents">Showing games library with %1$d games installed and %2$d games not installed.</string>
+    <string name="games__gamelibrary__installed_games_label">Installed</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">\"Installed\" header</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Loading more games into games library.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Not installed</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">\"Not installed\" header</string>
     <string name="games__hub__title">Hub</string>
     <string name="games__hub_fragment_content_description">Showing \"Hub\" page.</string>
     <string name="games__installbutton__install">Install</string>
@@ -127,12 +139,42 @@ This action can't be undone."</string>
     <string name="games__page_offline_state_play_my_games_button">Play My Games</string>
     <string name="games__playbutton__play">Play</string>
     <string name="games__playbutton__play_content_description">Play %1$s</string>
-    <string name="games__profile_page__tab_achievements">Achievements</string>
-    <string name="games__profile_page__tab_games">Games</string>
-    <string name="games__profile_page__tab_players">Players</string>
-    <string name="games__search__search_hint">Search for Games</string>
-    <string name="games__searchresults__no_matches_body">We searched all the kingdoms and still had no luck.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Loading more achievements into achievements tab.</string>
+    <string name="games__profile__edit_profile_network_error">You cannot edit your profile while offline. Please check your connection and try again later.</string>
+    <string name="games__profile__email_content_description">Current account: %1$s. Show account list.</string>
+    <string name="games__profile__menu_edit_profile">Edit Profile</string>
+    <string name="games__profile__page_content_description">Showing your player profile.</string>
+    <string name="games__profile__tab_achievements">Achievements</string>
+    <string name="games__profile__tab_games">Games</string>
+    <string name="games__profile__tab_players">Players</string>
+    <string name="games__profile__xp_blurb_level_1">"Let's get started! Earn achievements to level up."</string>
+    <string name="games__profile__xp_blurb_level_10">Level 11 will put you in top 15%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_11">Level 12 will put you in top 12%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_12">Level 13 will put you in top 10%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_13">Level 14 will put you in top 8%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_14">Level 15 will put you in top 5%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_15">Level 16 will put you in top 5%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_16">Level 17 will put you in top 2.5%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_17">Level 18 will put you in top 2%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_18">Level 19 will put you in top 1.5%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_19">Level 20 will put you in top 1%% of gamers!</string>
+    <string name="games__profile__xp_blurb_level_2">"Nice work, you've earned your first 1,000 XP!"</string>
+    <string name="games__profile__xp_blurb_level_20_to_29">Congratulations, you are in the top 1%% of gamers! You are awesome!</string>
+    <string name="games__profile__xp_blurb_level_3">Each achievement is a step towards leveling up.</string>
+    <string name="games__profile__xp_blurb_level_30_to_44">Congratulations, you are in the top 0.1%% of gamers! You are spectacular!</string>
+    <string name="games__profile__xp_blurb_level_4">More than half of all gamers are above level 5! Keep playing to level up!</string>
+    <string name="games__profile__xp_blurb_level_45_to_max">Congratulations, you are in the top 0.01%% of gamers! You are one of the best!</string>
+    <string name="games__profile__xp_blurb_level_5">Level 5 XP blurb</string>
+    <string name="games__profile__xp_blurb_level_6">Level 6 XP blurb</string>
+    <string name="games__profile__xp_blurb_level_7">Level 7 XP blurb</string>
+    <string name="games__profile__xp_blurb_level_8">Level 8 XP blurb</string>
+    <string name="games__profile__xp_blurb_level_9">Level 10 will put you in top 25%% of gamers!</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s to next level %3$d</string>
+    <string name="games__search__search_hint">Search for games</string>
+    <string name="games__search__trending_section_title">TRENDING</string>
+    <string name="games__searchresults__no_matches_body">We searched all the kingdoms and still had no luck</string>
     <string name="games__searchresults__no_matches_header">Nothing matched \"%1$s\"</string>
+    <string name="games__settings__autoplay_videos_title">Autoplay videos</string>
     <string name="games__youtube__video_playback_error_toast">"Couldn't play YouTube video."</string>
     <string name="games__youtube__video_thumbnail_content_description">Play video \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">%1$s selected</string>
@@ -201,7 +243,6 @@ Do you want to sign in as %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Notifications</string>
     <string name="games_dest_participant_list_label">Participant List</string>
     <string name="games_dest_player_detail_view_profile">VIEW PROFILE</string>
-    <string name="games_dest_quests_empty_text">"No quests today! Play Games quests that you've accepted appear here."</string>
     <string name="games_dest_shop_games_list_label">Explore</string>
     <string name="games_dest_shop_games_visit_store_text">Play store</string>
     <string name="games_dest_sign_in_failed_dialog_message">Yikes, it looks like something went wrong.</string>
@@ -263,7 +304,6 @@ Do you want to sign in as %3$s?"</string>
     <string name="games_inbox_event_new_invitation">New match invitation</string>
     <string name="games_inbox_event_new_match">Multiplayer match updated</string>
     <string name="games_inbox_event_new_request">New request</string>
-    <string name="games_inbox_header_accepted_quests">Accepted quests</string>
     <string name="games_inbox_header_completed_matches">Completed matches</string>
     <string name="games_inbox_header_invitations">Invitations</string>
     <string name="games_inbox_header_my_turn">My turn</string>
@@ -294,7 +334,12 @@ Do you want to sign in as %3$s?"</string>
     <string name="games_invitation_card_game_info_content_description">Get game button</string>
     <string name="games_invitation_card_see_more">SEE MORE</string>
     <string name="games_invitation_card_see_more_content_description">See more button</string>
+    <string name="games_invitation_decline_invitation_dialog_message">Are you sure you want to decline this invitation?</string>
+    <string name="games_invitation_decline_invitation_dialog_title">Decline invitation</string>
     <string name="games_invitation_list_null_state">No invitations yet</string>
+    <string name="games_invitations_accept_button">Accept</string>
+    <string name="games_invitations_decline_button">Decline</string>
+    <string name="games_invitations_participants">Participants</string>
     <string name="games_leaderboard_butterbar_non_public_pacl_message">"Other players can't see your score. To make it public, change your game activity setting to Public.
 
 Note that it may take up to 24 hours for your score to appear."</string>
@@ -378,24 +423,14 @@ Tell others about this game and compare scores when they play."</string>
     <string name="games_mvp_expand_section_content_description">Expand section.</string>
     <string name="games_mvp_failed_to_load_settings">Some settings failed to load, please try again later.</string>
     <string name="games_mvp_find_games_button_text">Explore games</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Collapse Leaderboards section.</string>
-    <string name="games_mvp_game_detail_content_description">Showing details of game %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Expand Leaderboards section.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Gamer ID is now valid.</string>
     <string name="games_mvp_games_fragment_content_description">Showing \"My Games\" page.</string>
     <string name="games_mvp_games_library_closed_content_description">Closing games library.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Showing games library with %1$d games installed, %2$d games available to try now, and %3$d games not installed.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Showing games library with %1$d games installed and %2$d games not installed.</string>
     <string name="games_mvp_games_library_label">Library</string>
-    <string name="games_mvp_games_library_spinny_content_description">Loading more games into games library.</string>
     <string name="games_mvp_games_library_toolbar_title">Library</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s is hidden in My Games</string>
-    <string name="games_mvp_installed_games_label">Installed</string>
-    <string name="games_mvp_installed_games_label_content_description">\"Installed\" header</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s has been hidden</string>
     <string name="games_mvp_installed_just_now">Just installed</string>
     <string name="games_mvp_installed_time_format">Installed %1$s</string>
-    <string name="games_mvp_instant_games_label">Try now</string>
-    <string name="games_mvp_instant_games_label_content_description">\"Try now\" header</string>
     <string name="games_mvp_last_played_just_now">Just played</string>
     <string name="games_mvp_last_played_time_format">Last played %1$s</string>
     <string name="games_mvp_launcher_name">@string/games_app_launcher_name</string>
@@ -416,8 +451,6 @@ Tell others about this game and compare scores when they play."</string>
     <string name="games_mvp_menu_uninstall">Uninstall</string>
     <string name="games_mvp_menu_unmute">Unmute</string>
     <string name="games_mvp_network_request_failed">Something went wrong, please try again later.</string>
-    <string name="games_mvp_not_installed_games_label">Not installed</string>
-    <string name="games_mvp_not_installed_games_label_content_description">\"Not installed\" header</string>
     <string name="games_mvp_player_comparison_all_games">All games</string>
     <string name="games_mvp_player_comparison_content_description">Showing player comparison between you and %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Games in common</string>
@@ -444,6 +477,7 @@ Tell others about this game and compare scores when they play."</string>
     <string name="games_mvp_settings_about">About</string>
     <string name="games_mvp_settings_build_version_title">Play Games Version</string>
     <string name="games_mvp_settings_clear_local_search_history">Clear local search history</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Remove searches you have performed from this device</string>
     <string name="games_mvp_settings_content_description">Showing app settings.</string>
     <string name="games_mvp_settings_debug_settings">Debug settings</string>
     <string name="games_mvp_settings_delete_play_games_data">Delete Play Games data</string>
@@ -454,10 +488,9 @@ Tell others about this game and compare scores when they play."</string>
     <string name="games_mvp_settings_public_gamer_profile">Public gamer profile</string>
     <string name="games_mvp_settings_title">Settings</string>
     <string name="games_mvp_share_game_card_text">Share with your friends</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s is now in My Games</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s is now shown in My Games</string>
     <string name="games_mvp_snackbar_undo_button_text">Undo</string>
     <string name="games_mvp_uninstall_error_text">Something went wrong – try uninstalling %1$s again</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Something went wrong – try uninstalling again</string>
     <string name="games_mvp_uninstall_success_text">%1$s has been uninstalled</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">The game has been uninstalled</string>
     <string name="games_mvp_visit_arcade_button_text">Visit Arcade</string>
@@ -550,7 +583,6 @@ You can edit your profile and settings, or delete data stored with Google subjec
     <string name="games_progress_dialog_starting_rematch">Starting rematch…</string>
     <string name="games_progress_dialog_title">Progress</string>
     <string name="games_quest_detail_title">Quest Details</string>
-    <string name="games_quest_inbox_title">Quests</string>
     <string name="games_quest_list_title">Quests</string>
     <string name="games_quest_network_error_dialog_message">"Couldn't accept quest. Try again later."</string>
     <string name="games_quests_empty_text">No quests</string>
@@ -599,6 +631,8 @@ You can edit your profile and settings, or delete data stored with Google subjec
     <string name="games_send_request_title_wish">Send request to</string>
     <string name="games_server_title">Games Server</string>
     <string name="games_setting_item_loading_content_description">Loading</string>
+    <string name="games_settings_dark_theme_subtitle">Enable dark theme throughout the app</string>
+    <string name="games_settings_dark_theme_title">Dark theme</string>
     <string name="games_settings_debug_achievements_head">Achievement settings</string>
     <string name="games_settings_debug_achievements_reshow">Always show unlock popups</string>
     <string name="games_settings_debug_clear_caches">Clear Memory Caches</string>
@@ -763,8 +797,10 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <string name="games_waiting_room_cant_start_match_body">Not enough players to play this match.</string>
     <string name="games_waiting_room_keep_waiting">Keep waiting</string>
     <string name="games_waiting_room_menu_leave_room">Quit match</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Choosing</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Joined</string>
     <string name="games_waiting_room_participant_status_creator_joined">Joined</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Joined</string>
     <string name="games_waiting_room_participant_status_declined">Invitation declined</string>
     <string name="games_waiting_room_participant_status_invited">Invited</string>
     <string name="games_waiting_room_participant_status_left">Left the room</string>
@@ -792,7 +828,7 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <string name="hats_lib_prompt_take_our_survey">Show question</string>
     <string name="hats_lib_submit">Submit</string>
     <string name="hats_lib_thank_you_followup_message">Help us improve our product by answering more questions</string>
-    <string name="navigation_bar_item_selected_content_description_format">Selected %1$s.</string>
+    <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="open_source_licenses_title">Open source licenses</string>
     <string name="opensearchview_clear_text_content_description">Clear text</string>
     <string name="opensearchview_navigation_content_description">Back</string>
@@ -822,7 +858,7 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <string name="play_onboard_interstitial_grid_cell">grid_cell</string>
     <string name="preferences_license_title">Open source licenses</string>
     <string name="primes_marker">PrImEs</string>
-    <string name="primes_version">196443962</string>
+    <string name="primes_version">200925156</string>
     <string name="suwFontSecondary">google-sans</string>
     <string name="suw_back_button_label">Back</string>
     <string name="suw_more_button_label">More</string>
@@ -901,10 +937,10 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_64">false</item>
     <item type="string" name="APKTOOL_DUMMY_65">false</item>
     <item type="string" name="APKTOOL_DUMMY_66">false</item>
-    <item type="string" name="APKTOOL_DUMMY_68">false</item>
+    <item type="string" name="APKTOOL_DUMMY_67">false</item>
     <item type="string" name="APKTOOL_DUMMY_69">false</item>
-    <item type="string" name="APKTOOL_DUMMY_79">false</item>
-    <item type="string" name="APKTOOL_DUMMY_7b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_6a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_7a">false</item>
     <item type="string" name="APKTOOL_DUMMY_7c">false</item>
     <item type="string" name="APKTOOL_DUMMY_7d">false</item>
     <item type="string" name="APKTOOL_DUMMY_7e">false</item>
@@ -916,7 +952,7 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_84">false</item>
     <item type="string" name="APKTOOL_DUMMY_85">false</item>
     <item type="string" name="APKTOOL_DUMMY_86">false</item>
-    <item type="string" name="APKTOOL_DUMMY_88">false</item>
+    <item type="string" name="APKTOOL_DUMMY_87">false</item>
     <item type="string" name="APKTOOL_DUMMY_89">false</item>
     <item type="string" name="APKTOOL_DUMMY_8a">false</item>
     <item type="string" name="APKTOOL_DUMMY_8b">false</item>
@@ -936,9 +972,9 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_99">false</item>
     <item type="string" name="APKTOOL_DUMMY_9a">false</item>
     <item type="string" name="APKTOOL_DUMMY_9b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_9d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_9e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_a1">false</item>
     <item type="string" name="APKTOOL_DUMMY_a3">false</item>
     <item type="string" name="APKTOOL_DUMMY_a4">false</item>
     <item type="string" name="APKTOOL_DUMMY_a5">false</item>
@@ -957,7 +993,7 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_b2">false</item>
     <item type="string" name="APKTOOL_DUMMY_b3">false</item>
     <item type="string" name="APKTOOL_DUMMY_b4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_b5">false</item>
     <item type="string" name="APKTOOL_DUMMY_b7">false</item>
     <item type="string" name="APKTOOL_DUMMY_b8">false</item>
     <item type="string" name="APKTOOL_DUMMY_b9">false</item>
@@ -995,7 +1031,7 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_d9">false</item>
     <item type="string" name="APKTOOL_DUMMY_da">false</item>
     <item type="string" name="APKTOOL_DUMMY_db">false</item>
-    <item type="string" name="APKTOOL_DUMMY_f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_dc">false</item>
     <item type="string" name="APKTOOL_DUMMY_f8">false</item>
     <item type="string" name="APKTOOL_DUMMY_f9">false</item>
     <item type="string" name="APKTOOL_DUMMY_fa">false</item>
@@ -1004,70 +1040,36 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_fd">false</item>
     <item type="string" name="APKTOOL_DUMMY_fe">false</item>
     <item type="string" name="APKTOOL_DUMMY_ff">false</item>
-    <item type="string" name="APKTOOL_DUMMY_10e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_125">false</item>
-    <item type="string" name="APKTOOL_DUMMY_128">false</item>
-    <item type="string" name="APKTOOL_DUMMY_129">false</item>
+    <item type="string" name="APKTOOL_DUMMY_100">false</item>
+    <item type="string" name="APKTOOL_DUMMY_10f">false</item>
     <item type="string" name="APKTOOL_DUMMY_12a">false</item>
     <item type="string" name="APKTOOL_DUMMY_12b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_134">false</item>
+    <item type="string" name="APKTOOL_DUMMY_137">false</item>
+    <item type="string" name="APKTOOL_DUMMY_138">false</item>
+    <item type="string" name="APKTOOL_DUMMY_139">false</item>
     <item type="string" name="APKTOOL_DUMMY_13a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_148">false</item>
-    <item type="string" name="APKTOOL_DUMMY_14e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_14f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_150">false</item>
-    <item type="string" name="APKTOOL_DUMMY_151">false</item>
-    <item type="string" name="APKTOOL_DUMMY_158">false</item>
-    <item type="string" name="APKTOOL_DUMMY_162">false</item>
-    <item type="string" name="APKTOOL_DUMMY_163">false</item>
-    <item type="string" name="APKTOOL_DUMMY_166">false</item>
     <item type="string" name="APKTOOL_DUMMY_167">false</item>
-    <item type="string" name="APKTOOL_DUMMY_16c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_16d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_171">false</item>
-    <item type="string" name="APKTOOL_DUMMY_173">false</item>
-    <item type="string" name="APKTOOL_DUMMY_174">false</item>
     <item type="string" name="APKTOOL_DUMMY_175">false</item>
-    <item type="string" name="APKTOOL_DUMMY_178">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_17d">false</item>
     <item type="string" name="APKTOOL_DUMMY_17e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_17f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_180">false</item>
-    <item type="string" name="APKTOOL_DUMMY_181">false</item>
-    <item type="string" name="APKTOOL_DUMMY_182">false</item>
-    <item type="string" name="APKTOOL_DUMMY_183">false</item>
-    <item type="string" name="APKTOOL_DUMMY_184">false</item>
     <item type="string" name="APKTOOL_DUMMY_185">false</item>
-    <item type="string" name="APKTOOL_DUMMY_186">false</item>
-    <item type="string" name="APKTOOL_DUMMY_187">false</item>
-    <item type="string" name="APKTOOL_DUMMY_188">false</item>
-    <item type="string" name="APKTOOL_DUMMY_189">false</item>
-    <item type="string" name="APKTOOL_DUMMY_18a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_18b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_18c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_18d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_18e">false</item>
     <item type="string" name="APKTOOL_DUMMY_18f">false</item>
     <item type="string" name="APKTOOL_DUMMY_190">false</item>
     <item type="string" name="APKTOOL_DUMMY_193">false</item>
     <item type="string" name="APKTOOL_DUMMY_194">false</item>
     <item type="string" name="APKTOOL_DUMMY_199">false</item>
-    <item type="string" name="APKTOOL_DUMMY_19b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_19c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_19d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_19a">false</item>
     <item type="string" name="APKTOOL_DUMMY_19e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_19f">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a0">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a1">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a4">false</item>
     <item type="string" name="APKTOOL_DUMMY_1a5">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1a9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1aa">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ab">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ad">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ae">false</item>
     <item type="string" name="APKTOOL_DUMMY_1af">false</item>
     <item type="string" name="APKTOOL_DUMMY_1b0">false</item>
@@ -1084,17 +1086,12 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_1bb">false</item>
     <item type="string" name="APKTOOL_DUMMY_1bc">false</item>
     <item type="string" name="APKTOOL_DUMMY_1bd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1be">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1bf">false</item>
     <item type="string" name="APKTOOL_DUMMY_1c0">false</item>
     <item type="string" name="APKTOOL_DUMMY_1c1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c5">false</item>
     <item type="string" name="APKTOOL_DUMMY_1c6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1c7">false</item>
     <item type="string" name="APKTOOL_DUMMY_1c8">false</item>
     <item type="string" name="APKTOOL_DUMMY_1c9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ca">false</item>
     <item type="string" name="APKTOOL_DUMMY_1cb">false</item>
     <item type="string" name="APKTOOL_DUMMY_1cc">false</item>
     <item type="string" name="APKTOOL_DUMMY_1cd">false</item>
@@ -1110,25 +1107,39 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_1d7">false</item>
     <item type="string" name="APKTOOL_DUMMY_1d8">false</item>
     <item type="string" name="APKTOOL_DUMMY_1d9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1da">false</item>
     <item type="string" name="APKTOOL_DUMMY_1db">false</item>
     <item type="string" name="APKTOOL_DUMMY_1dc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1dd">false</item>
     <item type="string" name="APKTOOL_DUMMY_1de">false</item>
     <item type="string" name="APKTOOL_DUMMY_1df">false</item>
     <item type="string" name="APKTOOL_DUMMY_1e0">false</item>
     <item type="string" name="APKTOOL_DUMMY_1e1">false</item>
     <item type="string" name="APKTOOL_DUMMY_1e2">false</item>
     <item type="string" name="APKTOOL_DUMMY_1e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e5">false</item>
     <item type="string" name="APKTOOL_DUMMY_1e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1ea">false</item>
     <item type="string" name="APKTOOL_DUMMY_1eb">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ec">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ed">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ee">false</item>
-    <item type="string" name="APKTOOL_DUMMY_1f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1f6">false</item>
     <item type="string" name="APKTOOL_DUMMY_1f8">false</item>
     <item type="string" name="APKTOOL_DUMMY_1f9">false</item>
     <item type="string" name="APKTOOL_DUMMY_1fa">false</item>
     <item type="string" name="APKTOOL_DUMMY_1fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_1fd">false</item>
     <item type="string" name="APKTOOL_DUMMY_1fe">false</item>
     <item type="string" name="APKTOOL_DUMMY_1ff">false</item>
     <item type="string" name="APKTOOL_DUMMY_200">false</item>
@@ -1137,122 +1148,137 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_203">false</item>
     <item type="string" name="APKTOOL_DUMMY_204">false</item>
     <item type="string" name="APKTOOL_DUMMY_205">false</item>
+    <item type="string" name="APKTOOL_DUMMY_206">false</item>
+    <item type="string" name="APKTOOL_DUMMY_207">false</item>
     <item type="string" name="APKTOOL_DUMMY_208">false</item>
+    <item type="string" name="APKTOOL_DUMMY_209">false</item>
+    <item type="string" name="APKTOOL_DUMMY_20a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_20b">false</item>
     <item type="string" name="APKTOOL_DUMMY_20c">false</item>
     <item type="string" name="APKTOOL_DUMMY_20d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_215">false</item>
-    <item type="string" name="APKTOOL_DUMMY_221">false</item>
-    <item type="string" name="APKTOOL_DUMMY_222">false</item>
-    <item type="string" name="APKTOOL_DUMMY_229">false</item>
+    <item type="string" name="APKTOOL_DUMMY_20e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_20f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_210">false</item>
+    <item type="string" name="APKTOOL_DUMMY_213">false</item>
+    <item type="string" name="APKTOOL_DUMMY_218">false</item>
+    <item type="string" name="APKTOOL_DUMMY_219">false</item>
+    <item type="string" name="APKTOOL_DUMMY_21a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_21b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_224">false</item>
+    <item type="string" name="APKTOOL_DUMMY_225">false</item>
+    <item type="string" name="APKTOOL_DUMMY_226">false</item>
+    <item type="string" name="APKTOOL_DUMMY_227">false</item>
+    <item type="string" name="APKTOOL_DUMMY_228">false</item>
+    <item type="string" name="APKTOOL_DUMMY_22b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_22c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_22d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_22e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_22f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_230">false</item>
+    <item type="string" name="APKTOOL_DUMMY_231">false</item>
+    <item type="string" name="APKTOOL_DUMMY_232">false</item>
+    <item type="string" name="APKTOOL_DUMMY_235">false</item>
+    <item type="string" name="APKTOOL_DUMMY_239">false</item>
     <item type="string" name="APKTOOL_DUMMY_23a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_245">false</item>
-    <item type="string" name="APKTOOL_DUMMY_249">false</item>
-    <item type="string" name="APKTOOL_DUMMY_24a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_250">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_25e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_26b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_26d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_26e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_242">false</item>
+    <item type="string" name="APKTOOL_DUMMY_24e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_24f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_256">false</item>
+    <item type="string" name="APKTOOL_DUMMY_267">false</item>
+    <item type="string" name="APKTOOL_DUMMY_268">false</item>
     <item type="string" name="APKTOOL_DUMMY_272">false</item>
+    <item type="string" name="APKTOOL_DUMMY_276">false</item>
     <item type="string" name="APKTOOL_DUMMY_277">false</item>
-    <item type="string" name="APKTOOL_DUMMY_27a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_27b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_27f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_28e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_28f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_291">false</item>
-    <item type="string" name="APKTOOL_DUMMY_294">false</item>
-    <item type="string" name="APKTOOL_DUMMY_296">false</item>
-    <item type="string" name="APKTOOL_DUMMY_297">false</item>
-    <item type="string" name="APKTOOL_DUMMY_29a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_29b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_27d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_289">false</item>
+    <item type="string" name="APKTOOL_DUMMY_28a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_28b">false</item>
     <item type="string" name="APKTOOL_DUMMY_29d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_29f">false</item>
     <item type="string" name="APKTOOL_DUMMY_2a0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a2">false</item>
     <item type="string" name="APKTOOL_DUMMY_2a4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2a7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2a9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ac">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ad">false</item>
     <item type="string" name="APKTOOL_DUMMY_2b1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_2bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2c8">false</item>
     <item type="string" name="APKTOOL_DUMMY_2c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_322">false</item>
-    <item type="string" name="APKTOOL_DUMMY_32b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_32d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_32e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_32f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_330">false</item>
-    <item type="string" name="APKTOOL_DUMMY_335">false</item>
-    <item type="string" name="APKTOOL_DUMMY_337">false</item>
-    <item type="string" name="APKTOOL_DUMMY_339">false</item>
-    <item type="string" name="APKTOOL_DUMMY_33b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_33c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2cc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2cd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2cf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2d9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_2f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_34b">false</item>
+    <item type="string" name="APKTOOL_DUMMY_354">false</item>
+    <item type="string" name="APKTOOL_DUMMY_356">false</item>
     <item type="string" name="APKTOOL_DUMMY_357">false</item>
-    <item type="string" name="APKTOOL_DUMMY_35b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_371">false</item>
-    <item type="string" name="APKTOOL_DUMMY_373">false</item>
-    <item type="string" name="APKTOOL_DUMMY_378">false</item>
-    <item type="string" name="APKTOOL_DUMMY_37c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_37d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_381">false</item>
-    <item type="string" name="APKTOOL_DUMMY_38d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_38e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_38f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_390">false</item>
-    <item type="string" name="APKTOOL_DUMMY_392">false</item>
-    <item type="string" name="APKTOOL_DUMMY_393">false</item>
-    <item type="string" name="APKTOOL_DUMMY_394">false</item>
-    <item type="string" name="APKTOOL_DUMMY_395">false</item>
-    <item type="string" name="APKTOOL_DUMMY_396">false</item>
-    <item type="string" name="APKTOOL_DUMMY_397">false</item>
-    <item type="string" name="APKTOOL_DUMMY_398">false</item>
-    <item type="string" name="APKTOOL_DUMMY_39f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_358">false</item>
+    <item type="string" name="APKTOOL_DUMMY_359">false</item>
+    <item type="string" name="APKTOOL_DUMMY_35e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_360">false</item>
+    <item type="string" name="APKTOOL_DUMMY_362">false</item>
+    <item type="string" name="APKTOOL_DUMMY_364">false</item>
+    <item type="string" name="APKTOOL_DUMMY_365">false</item>
+    <item type="string" name="APKTOOL_DUMMY_380">false</item>
+    <item type="string" name="APKTOOL_DUMMY_384">false</item>
+    <item type="string" name="APKTOOL_DUMMY_39a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_39c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_39d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3a1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3a5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3a6">false</item>
     <item type="string" name="APKTOOL_DUMMY_3aa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3b6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3b7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3b8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3b9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3bb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3bc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3bd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3be">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3bf">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3c8">false</item>
     <item type="string" name="APKTOOL_DUMMY_3cd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3de">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3df">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3e6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3ee">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_3d3">false</item>
     <item type="string" name="APKTOOL_DUMMY_3f8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_3f9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_40d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_40e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_413">false</item>
-    <item type="string" name="APKTOOL_DUMMY_415">false</item>
-    <item type="string" name="APKTOOL_DUMMY_45b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_46f">false</item>
-    <item type="string" name="APKTOOL_DUMMY_470">false</item>
-    <item type="string" name="APKTOOL_DUMMY_471">false</item>
-    <item type="string" name="APKTOOL_DUMMY_472">false</item>
-    <item type="string" name="APKTOOL_DUMMY_475">false</item>
-    <item type="string" name="APKTOOL_DUMMY_476">false</item>
-    <item type="string" name="APKTOOL_DUMMY_477">false</item>
-    <item type="string" name="APKTOOL_DUMMY_478">false</item>
-    <item type="string" name="APKTOOL_DUMMY_479">false</item>
-    <item type="string" name="APKTOOL_DUMMY_47b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_487">false</item>
-    <item type="string" name="APKTOOL_DUMMY_489">false</item>
-    <item type="string" name="APKTOOL_DUMMY_48a">false</item>
-    <item type="string" name="APKTOOL_DUMMY_48b">false</item>
-    <item type="string" name="APKTOOL_DUMMY_48c">false</item>
-    <item type="string" name="APKTOOL_DUMMY_48d">false</item>
-    <item type="string" name="APKTOOL_DUMMY_48e">false</item>
-    <item type="string" name="APKTOOL_DUMMY_490">false</item>
-    <item type="string" name="APKTOOL_DUMMY_491">false</item>
-    <item type="string" name="APKTOOL_DUMMY_492">false</item>
-    <item type="string" name="APKTOOL_DUMMY_494">false</item>
-    <item type="string" name="APKTOOL_DUMMY_495">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4a0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_409">false</item>
+    <item type="string" name="APKTOOL_DUMMY_40a">false</item>
+    <item type="string" name="APKTOOL_DUMMY_411">false</item>
+    <item type="string" name="APKTOOL_DUMMY_419">false</item>
+    <item type="string" name="APKTOOL_DUMMY_41e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_420">false</item>
+    <item type="string" name="APKTOOL_DUMMY_423">false</item>
+    <item type="string" name="APKTOOL_DUMMY_424">false</item>
+    <item type="string" name="APKTOOL_DUMMY_438">false</item>
+    <item type="string" name="APKTOOL_DUMMY_439">false</item>
+    <item type="string" name="APKTOOL_DUMMY_43e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_440">false</item>
+    <item type="string" name="APKTOOL_DUMMY_486">false</item>
+    <item type="string" name="APKTOOL_DUMMY_49c">false</item>
+    <item type="string" name="APKTOOL_DUMMY_49d">false</item>
+    <item type="string" name="APKTOOL_DUMMY_49e">false</item>
+    <item type="string" name="APKTOOL_DUMMY_49f">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4a5">false</item>
     <item type="string" name="APKTOOL_DUMMY_4a6">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4a7">false</item>
     <item type="string" name="APKTOOL_DUMMY_4a8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4b1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4b3">false</item>
     <item type="string" name="APKTOOL_DUMMY_4b4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4b5">false</item>
     <item type="string" name="APKTOOL_DUMMY_4b6">false</item>
     <item type="string" name="APKTOOL_DUMMY_4b7">false</item>
     <item type="string" name="APKTOOL_DUMMY_4b8">false</item>
@@ -1263,21 +1289,39 @@ Videos are saved in your photos gallery in Device folders > Screencasts."</strin
     <item type="string" name="APKTOOL_DUMMY_4be">false</item>
     <item type="string" name="APKTOOL_DUMMY_4c0">false</item>
     <item type="string" name="APKTOOL_DUMMY_4c1">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c2">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c3">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c7">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c8">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4c9">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4ca">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4cb">false</item>
     <item type="string" name="APKTOOL_DUMMY_4cc">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4cd">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4ce">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4cf">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d0">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d1">false</item>
     <item type="string" name="APKTOOL_DUMMY_4d2">false</item>
     <item type="string" name="APKTOOL_DUMMY_4d3">false</item>
     <item type="string" name="APKTOOL_DUMMY_4d4">false</item>
-    <item type="string" name="APKTOOL_DUMMY_4d6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4dd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4df">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e0">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e1">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e2">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4e9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ea">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ec">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ed">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ee">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ef">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f3">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f4">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f5">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f6">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f7">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f8">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4f9">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4fa">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4fb">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4fc">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4fd">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4fe">false</item>
+    <item type="string" name="APKTOOL_DUMMY_4ff">false</item>
+    <item type="string" name="APKTOOL_DUMMY_500">false</item>
+    <item type="string" name="APKTOOL_DUMMY_502">false</item>
 </resources>

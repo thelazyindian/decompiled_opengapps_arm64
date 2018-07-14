@@ -52,13 +52,27 @@
     <string name="customer_information_title">客戶資料</string>
     <string name="datadeletion__archived_game_item_title">已封存的遊戲資料</string>
     <string name="datadeletion__delete_archived_game_button_content_description">刪除封存咗嘅遊戲資料。</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"刪除已封存遊戲的資料 即表示您使用「Google Play 遊戲」期間的得分、進度和遊戲設定 將被移除。
+
+此操作將無法復原！"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">要刪除已封存的遊戲資料嗎？</string>
     <string name="datadeletion__delete_archived_game_data_error">刪除已封存的遊戲資料時發生錯誤，請稍後再試。</string>
+    <string name="datadeletion__delete_archived_game_data_success">已封存遊戲的資料將於 24 小時內刪除</string>
     <string name="datadeletion__delete_data_title">刪除「Play 遊戲」資料</string>
     <string name="datadeletion__delete_game_data_button">刪除</string>
+    <string name="datadeletion__delete_game_data_button_content_description">刪除「%1$s」嘅 資料</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">刪除緊 「%1$s」嘅資料</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">正在刪除…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"刪除「%1$s」的資料 即表示您使用「Google Play 遊戲」 期間的得分、進度和遊戲設定將被移除。
+
+此操作將無法復原。"</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">要刪除 「%1$s」的資料嗎？</string>
+    <string name="datadeletion__delete_game_data_error">刪除您的「%1$s」資料時發生錯誤， 請稍後再試。</string>
+    <string name="datadeletion__delete_game_data_explanation">刪除您使用「Google Play 遊戲」暢玩的 個別遊戲資料。此操作將刪除您在所選遊戲中的得分、進度 和遊戲設定。</string>
     <string name="datadeletion__delete_game_data_header">刪除個別遊戲資料</string>
+    <string name="datadeletion__delete_game_data_success">您的「%1$s」資料 將於 24 小時內 刪除</string>
     <string name="datadeletion__delete_profile_button">刪除個人檔案</string>
+    <string name="datadeletion__delete_profile_explanation">刪除「Google Play 遊戲」中的所有資料， 包括您的玩家 ID 和 XP。此外，此操作亦可能會刪除您遊戲的 得分、進度和設定。</string>
     <string name="datadeletion__delete_profile_header">刪除玩家檔案及所有資料</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">刪除緊封存咗嘅遊戲資料。</string>
     <string name="datadeletion__game_list_load_error">無法載入您使用「Google Play 遊戲」玩過的遊戲清單，請稍後再試。</string>
@@ -92,6 +106,12 @@
     <string name="games__arcade__toolbar_title">遊戲</string>
     <string name="games__arcade_fragment_content_description">顯示緊「街機遊戲」頁面。</string>
     <string name="games__game_installed_label">已安裝</string>
+    <string name="games__gamelibrary__contents">顯示遊戲庫，其中 安裝咗 %1$d 款遊戲， 未安裝 %2$d 款遊戲。</string>
+    <string name="games__gamelibrary__installed_games_label">已安裝</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">「已安裝」標題</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">宜家將更多遊戲載入遊戲庫。</string>
+    <string name="games__gamelibrary__not_installed_games_label">未安裝</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">「未安裝」標題</string>
     <string name="games__installbutton__install">安裝</string>
     <string name="games__installbutton__install_content_description">安裝「%1$s」</string>
     <string name="games__page_default_error_body">發生錯誤，但與您無關。</string>
@@ -99,11 +119,19 @@
     <string name="games__page_offline_state_play_my_games_button">玩我的遊戲</string>
     <string name="games__playbutton__play">開始遊戲</string>
     <string name="games__playbutton__play_content_description">開始玩「%1$s」</string>
-    <string name="games__profile_page__tab_achievements">成就</string>
-    <string name="games__profile_page__tab_games">遊戲</string>
-    <string name="games__profile_page__tab_players">玩家</string>
-    <string name="games__searchresults__no_matches_body">我們搜尋了所有王國，但仍未找到相符結果。</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">成就標籤載入緊更多成就。</string>
+    <string name="games__profile__edit_profile_network_error">離線時無法編輯個人檔案。請檢查您的連線狀態，然後再試一次。</string>
+    <string name="games__profile__email_content_description">目前嘅帳戶：%1$s。 顯示帳戶清單。</string>
+    <string name="games__profile__menu_edit_profile">編輯個人檔案</string>
+    <string name="games__profile__page_content_description">顯示緊您嘅玩家個人檔案。</string>
+    <string name="games__profile__tab_achievements">成就</string>
+    <string name="games__profile__tab_games">遊戲</string>
+    <string name="games__profile__tab_players">玩家</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s 升至下一級 %3$d</string>
+    <string name="games__search__search_hint">搜尋遊戲</string>
+    <string name="games__search__trending_section_title">人氣遊戲</string>
     <string name="games__searchresults__no_matches_header">沒有符合「%1$s」的搜尋結果</string>
+    <string name="games__settings__autoplay_videos_title">自動播放影片</string>
     <string name="games__youtube__video_playback_error_toast">無法播放 YouTube 影片。</string>
     <string name="games__youtube__video_thumbnail_content_description">播 %1$s 影片</string>
     <string name="games_accessibility_event_tab_selected">已選取「%1$s」</string>
@@ -164,7 +192,6 @@
     <string name="games_dest_nav_drawer_inbox">通知</string>
     <string name="games_dest_participant_list_label">參與者名單</string>
     <string name="games_dest_player_detail_view_profile">查看個人檔案</string>
-    <string name="games_dest_quests_empty_text">今天沒有任務！您已接受的「Play 遊戲」任務會在這裡顯示。</string>
     <string name="games_dest_shop_games_list_label">探索</string>
     <string name="games_dest_shop_games_visit_store_text">Play 商店</string>
     <string name="games_dest_sign_in_failed_dialog_message">糟糕，系統似乎發生錯誤。</string>
@@ -224,7 +251,6 @@
     <string name="games_inbox_event_new_invitation">有新對戰邀請</string>
     <string name="games_inbox_event_new_match">有多人對戰最新動態</string>
     <string name="games_inbox_event_new_request">有新要求</string>
-    <string name="games_inbox_header_accepted_quests">已接受的任務</string>
     <string name="games_inbox_header_completed_matches">已結束的比賽</string>
     <string name="games_inbox_header_invitations">邀請</string>
     <string name="games_inbox_header_my_turn">輪到我</string>
@@ -339,24 +365,14 @@
     <string name="games_mvp_expand_section_content_description">展開呢個部分。</string>
     <string name="games_mvp_failed_to_load_settings">無法載入部分設定，請稍後再試。</string>
     <string name="games_mvp_find_games_button_text">探索遊戲</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">收起排行榜部分。</string>
-    <string name="games_mvp_game_detail_content_description">顯示緊《%1$s》嘅遊戲詳情。</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">展開排行榜部分。</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">玩家 ID 宜家生效咗。</string>
     <string name="games_mvp_games_fragment_content_description">顯示緊「我的遊戲」頁面。</string>
     <string name="games_mvp_games_library_closed_content_description">閂緊遊戲庫。</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">顯示遊戲庫，其中安裝咗 %1$d 款遊戲，%2$d 款遊戲可以即刻試玩，%3$d 款遊戲未安裝。</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">顯示遊戲庫，其中安裝咗 %1$d 款遊戲，%2$d 款遊戲未安裝。</string>
     <string name="games_mvp_games_library_label">遊戲庫</string>
-    <string name="games_mvp_games_library_spinny_content_description">宜家將更多遊戲載入遊戲庫。</string>
     <string name="games_mvp_games_library_toolbar_title">遊戲庫</string>
-    <string name="games_mvp_hide_undo_snackbar_text">「%1$s」已在「我的遊戲」中隱藏</string>
-    <string name="games_mvp_installed_games_label">已安裝</string>
-    <string name="games_mvp_installed_games_label_content_description">「安裝咗」標題</string>
+    <string name="games_mvp_hide_undo_snackbar_text">「%1$s」已隱藏</string>
     <string name="games_mvp_installed_just_now">剛剛安裝完成</string>
     <string name="games_mvp_installed_time_format">已於 %1$s完成安裝</string>
-    <string name="games_mvp_instant_games_label">立即體驗</string>
-    <string name="games_mvp_instant_games_label_content_description">「立即體驗」標題</string>
     <string name="games_mvp_last_played_just_now">剛剛玩過</string>
     <string name="games_mvp_last_played_time_format">上次玩遊戲時間：%1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">切換排行榜類型。選項包括「%1$s」同「%2$s」。宜家選擇嘅係：%3$s。</string>
@@ -376,8 +392,6 @@
     <string name="games_mvp_menu_uninstall">解除安裝</string>
     <string name="games_mvp_menu_unmute">取消忽略</string>
     <string name="games_mvp_network_request_failed">發生問題，請稍後再試。</string>
-    <string name="games_mvp_not_installed_games_label">未安裝</string>
-    <string name="games_mvp_not_installed_games_label_content_description">「未安裝」標題</string>
     <string name="games_mvp_player_comparison_all_games">所有遊戲</string>
     <string name="games_mvp_player_comparison_content_description">顯示緊您同 %1$s 之間嘅玩家比較資料。</string>
     <string name="games_mvp_player_comparison_games_in_common">共同遊戲</string>
@@ -402,6 +416,7 @@
     <string name="games_mvp_settings_about">關於</string>
     <string name="games_mvp_settings_build_version_title">Play 遊戲版本</string>
     <string name="games_mvp_settings_clear_local_search_history">清除本地搜尋記錄</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">移除您在此裝置上執行的搜尋</string>
     <string name="games_mvp_settings_content_description">顯示緊應用程式設定。</string>
     <string name="games_mvp_settings_debug_settings">偵錯設定</string>
     <string name="games_mvp_settings_delete_play_games_data">刪除「Play 遊戲」資料</string>
@@ -412,10 +427,9 @@
     <string name="games_mvp_settings_public_gamer_profile">公開玩家檔案</string>
     <string name="games_mvp_settings_title">設定</string>
     <string name="games_mvp_share_game_card_text">與好友分享</string>
-    <string name="games_mvp_show_undo_snackbar_text">「%1$s」現已在「我的遊戲」中</string>
+    <string name="games_mvp_show_undo_snackbar_text">《%1$s》現已在「我的遊戲」中顯示</string>
     <string name="games_mvp_snackbar_undo_button_text">復原</string>
     <string name="games_mvp_uninstall_error_text">發生錯誤，請嘗試再次解除安裝 「%1$s」</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">發生錯誤，請嘗試再次解除安裝</string>
     <string name="games_mvp_uninstall_success_text">已解除安裝「%1$s」</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">已解除安裝遊戲</string>
     <string name="games_mvp_visit_arcade_button_text">瀏覽街機遊戲</string>
@@ -505,7 +519,6 @@
     <string name="games_progress_dialog_starting_rematch">開始重新配對…</string>
     <string name="games_progress_dialog_title">進度</string>
     <string name="games_quest_detail_title">任務詳細資料</string>
-    <string name="games_quest_inbox_title">任務</string>
     <string name="games_quest_list_title">任務</string>
     <string name="games_quest_network_error_dialog_message">無法接受任務，請稍後再試。</string>
     <string name="games_quests_empty_text">沒有任務</string>
@@ -554,6 +567,8 @@
     <string name="games_send_request_title_wish">傳送要求給</string>
     <string name="games_server_title">遊戲伺服器</string>
     <string name="games_setting_item_loading_content_description">正在載入</string>
+    <string name="games_settings_dark_theme_subtitle">在應用程式中全面啟用深色主題背景</string>
+    <string name="games_settings_dark_theme_title">深色主題背景</string>
     <string name="games_settings_debug_achievements_head">成就設定</string>
     <string name="games_settings_debug_achievements_reshow">一律顯示已達到成就的彈出式訊息</string>
     <string name="games_settings_debug_clear_caches">清除記憶體快取</string>
@@ -570,6 +585,9 @@
     <string name="games_settings_debug_reset_profile_settings_fail">個人檔案設定重設失敗！</string>
     <string name="games_settings_debug_reset_profile_settings_success">個人檔案設定重設成功！</string>
     <string name="games_settings_delete_profile">刪除「Play 遊戲」玩家檔案</string>
+    <string name="games_settings_delete_profile_dialog_message">"刪除「Google Play 遊戲」中的所有資料， 包括您的玩家 ID 和 XP。此外，此操作亦可能會刪除您的遊戲得分、進度 和設定。
+
+此操作將無法復原。"</string>
     <string name="games_settings_delete_profile_dialog_title">要刪除「Play 遊戲」玩家檔案嗎？</string>
     <string name="games_settings_delete_profile_fail">「Play 遊戲」無法刪除您的玩家檔案，請稍後再試。</string>
     <string name="games_settings_delete_profile_positive">刪除</string>
@@ -587,6 +605,7 @@
 %2$s"</string>
     <string name="games_share_game_share_title">分享</string>
     <string name="games_sign_in_restricted_account_dialog_cta">繼續</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> 您可以玩這個遊戲，但無法使用此帳戶登入 「Google Play 遊戲」。</string>
     <string name="games_sign_in_restricted_account_dialog_title">在不登入的情況下繼續</string>
     <string name="games_sign_in_restricted_profile_error_message">此應用程式無法使用受限制的個人檔案登入「Google Play 遊戲」。</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> 很抱歉，您無法使用此帳戶登入「Google Play 遊戲」。</string>
@@ -634,6 +653,7 @@
     <string name="games_timestamp_now">剛剛</string>
     <string name="games_toast_dialog_app_muted">已忽略遊戲「%1$s」</string>
     <string name="games_toast_dialog_app_unmuted">已取消忽略遊戲「%1$s」</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">刪除本機搜尋記錄時發生錯誤。</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">已刪除本地搜尋記錄。</string>
     <string name="games_toast_video_captured_description">輕按即可觀看及分享</string>
     <string name="games_toast_video_captured_label">影片已儲存到相片集</string>
@@ -668,6 +688,7 @@
     <string name="games_video_recording_camera_control_content_description_on">停用相機</string>
     <string name="games_video_recording_draw_over_permission_toast">如要允許錄影，請啟用 Google Play 服務的「覆蓋其他應用程式」權限。</string>
     <string name="games_video_recording_legal_01">畫面上的一切 (包括通知、通話、密碼) 及附近的聲音都將會被錄下。</string>
+    <string name="games_video_recording_legal_02">嘗試消除背景聲音，這樣您就 不會錄下沒有擁有權利的內容。</string>
     <string name="games_video_recording_legal_cancel">取消</string>
     <string name="games_video_recording_legal_proceed">啟動</string>
     <string name="games_video_recording_legal_title">開始之前</string>
@@ -709,8 +730,10 @@
     <string name="games_waiting_room_cant_start_match_body">參賽玩家人數不足，無法進行這場比賽。</string>
     <string name="games_waiting_room_keep_waiting">繼續等待</string>
     <string name="games_waiting_room_menu_leave_room">結束比賽</string>
+    <string name="games_waiting_room_participant_status_auto_pick">正在選擇</string>
     <string name="games_waiting_room_participant_status_automatch_joined">已加入</string>
     <string name="games_waiting_room_participant_status_creator_joined">已加入</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">已加入</string>
     <string name="games_waiting_room_participant_status_declined">已拒絕邀請</string>
     <string name="games_waiting_room_participant_status_invited">已獲邀請</string>
     <string name="games_waiting_room_participant_status_left">已離開等候區</string>

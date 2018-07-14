@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="GameDetails.PlayCardBubblePosition" parent="@style/GameDetails">
+        <item name="playCardBubbleOffset">-16.0dip</item>
+        <item name="playCardBubblePosition">bubble_end</item>
+    </style>
     <style name="PlayCardAction" parent="@style/PlayMediumPlainText">
         <item name="android:textSize">@dimen/play_card_action_size</item>
     </style>

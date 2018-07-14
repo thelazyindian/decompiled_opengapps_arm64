@@ -43,13 +43,27 @@
     <string name="customer_information_title">معلومات العميل</string>
     <string name="datadeletion__archived_game_item_title">البيانات من الألعاب المؤرشفة</string>
     <string name="datadeletion__delete_archived_game_button_content_description">يمكنك حذف البيانات من الألعاب المؤرشفة.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"سيؤدي حذف البيانات من الألعاب المؤرشفة إلى إزالة نتائجك ومستوى التقدم وإعدادات اللعبة التي اخترتها باستخدام \"ألعاب Google Play\".‏
+
+ولا يمكن التراجع عن هذا الإجراء."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">هل تريد حذف البيانات من الألعاب المؤرشفة؟</string>
     <string name="datadeletion__delete_archived_game_data_error">حدث خطأ أثناء حذف بياناتك من الألعاب المؤرشفة. يُرجى إعادة المحاولة لاحقًا.</string>
+    <string name="datadeletion__delete_archived_game_data_success">سيتم حذف بياناتك من الألعاب المؤرشفة في خلال 24 ساعة.</string>
     <string name="datadeletion__delete_data_title">حذف بيانات \"ألعاب Play\"</string>
     <string name="datadeletion__delete_game_data_button">حذف</string>
+    <string name="datadeletion__delete_game_data_button_content_description">حذف بيانات %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">جارٍ حذف بيانات %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">جارٍ الحذف…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"سيؤدي حذف بيانات %1$s إلى إزالة نتائجك ومستوى التقدم وإعدادات اللعبة التي اخترتها باستخدام \"ألعاب Google Play.‏
+
+ولا يمكن التراجع عن هذا الإجراء."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">هل تريد حذف بيانات %1$s؟</string>
+    <string name="datadeletion__delete_game_data_error">حدث خطأ أثناء حذف بيانات %1$s. الرجاء إعادة المحاولة لاحقًا.</string>
+    <string name="datadeletion__delete_game_data_explanation">حذف بيانات فردية للألعاب التي شغَّلتها باستخدام تطبيق \"ألعاب Google Play\". سيؤدي هذا الإجراء إلى حذف نتائجك ومستوى تقدمك والإعدادات في اللعبة التي تختارها.</string>
     <string name="datadeletion__delete_game_data_header">حذف بيانات لعبة فردية</string>
+    <string name="datadeletion__delete_game_data_success">سيتم حذف بيانات %1$s خلال 24 ساعة.</string>
     <string name="datadeletion__delete_profile_button">حذف الملف الشخصي</string>
+    <string name="datadeletion__delete_profile_explanation">يحذف هذا الإجراء كل بياناتك في ألعاب Google Play، بما في ذلك الاسم التعريفي للاعب ومكافأة الخبرة (XP)، وقد يحذف أيضًا نتائجك ومستوى تقدمك والإعدادات في الألعاب التي تلعبها.</string>
     <string name="datadeletion__delete_profile_header">حذف الملف الشخصي وجميع البيانات</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">جارٍ حذف البيانات من الألعاب المؤرشفة.</string>
     <string name="datadeletion__game_list_load_error">تعذَّر تحميل قائمة الألعاب التي لعبتها باستخدام \"ألعاب Google Play\". يُرجى إعادة المحاولة لاحقًا.</string>
@@ -82,6 +96,12 @@
     <string name="games__arcade__toolbar_title">ألعاب</string>
     <string name="games__arcade_fragment_content_description">يتم عرض الصفحة \"ساحة اللاعبين\".</string>
     <string name="games__game_installed_label">مثبّتة</string>
+    <string name="games__gamelibrary__contents">يتم الآن عرض مكتبة الألعاب التي تتضمن %1$d لعبة مثبَّتة و%2$d لعبة غير مثبَّتة.</string>
+    <string name="games__gamelibrary__installed_games_label">الألعاب المثبَّتة</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">عنوان \"الألعاب المثبَّتة\"</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">جارٍ تحميل مزيد من الألعاب في مكتبة الألعاب.</string>
+    <string name="games__gamelibrary__not_installed_games_label">الألعاب غير المثبَّتة</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">عنوان \"الألعاب غير المثبَّتة\"</string>
     <string name="games__installbutton__install">تثبيت</string>
     <string name="games__installbutton__install_content_description">تثبيت %1$s</string>
     <string name="games__page_default_error_body">حدث خطأ في الخادم.</string>
@@ -89,11 +109,19 @@
     <string name="games__page_offline_state_play_my_games_button">تشغيل \"ألعابي\"</string>
     <string name="games__playbutton__play">اللعب</string>
     <string name="games__playbutton__play_content_description">لعب %1$s</string>
-    <string name="games__profile_page__tab_achievements">الإنجازات</string>
-    <string name="games__profile_page__tab_games">الألعاب</string>
-    <string name="games__profile_page__tab_players">اللاعبون</string>
-    <string name="games__searchresults__no_matches_body">بحثنا في كل الممالك، ولكن لم يحالفنا الحظ في العثور على شيء.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">جارٍ تحميل المزيد من البيانات في علامة تبويب \"الإنجازات\".</string>
+    <string name="games__profile__edit_profile_network_error">لا يمكنك تعديل ملفك الشخصي بلا إنترنت. يُرجى التحقق من اتصالك بالإنترنت وإعادة المحاولة لاحقًا.</string>
+    <string name="games__profile__email_content_description">الحساب الحالي: %1$s. يمكنك عرض قائمة الحسابات.</string>
+    <string name="games__profile__menu_edit_profile">تعديل الملف الشخصي</string>
+    <string name="games__profile__page_content_description">يتمّ الآن عرض الملف الشخصي للّاعب.</string>
+    <string name="games__profile__tab_achievements">الإنجازات</string>
+    <string name="games__profile__tab_games">الألعاب</string>
+    <string name="games__profile__tab_players">اللاعبون</string>
+    <string name="games__profile__xp_progress_annotation">تمّ الحصول على %1$s من إجمالي %2$s سعيًا للوصول إلى المستوى التالي %3$d</string>
+    <string name="games__search__search_hint">البحث عن الألعاب</string>
+    <string name="games__search__trending_section_title">الألعاب الرائجة</string>
     <string name="games__searchresults__no_matches_header">لم يتم العثور على نتائج تطابِق \"%1$s\"</string>
+    <string name="games__settings__autoplay_videos_title">تشغيل الفيديوهات تلقائيًا</string>
     <string name="games__youtube__video_playback_error_toast">تعذَّر تشغيل فيديو YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">تشغيل الفيديو \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">تم تحديد %1$s</string>
@@ -152,7 +180,6 @@
     <string name="games_dest_nav_drawer_inbox">الإشعارات</string>
     <string name="games_dest_participant_list_label">قائمة المشاركين</string>
     <string name="games_dest_player_detail_view_profile">عرض الملف الشخصي</string>
-    <string name="games_dest_quests_empty_text">لا توجد مهام اليوم! تظهر مهام ألعاب Play التي قبلتها هنا.</string>
     <string name="games_dest_shop_games_list_label">استكشاف</string>
     <string name="games_dest_shop_games_visit_store_text">متجر Play</string>
     <string name="games_dest_sign_in_failed_dialog_message">يبدو أنه قد حدث خطأ.</string>
@@ -213,7 +240,6 @@
     <string name="games_inbox_event_new_invitation">دعوة جديدة إلى مباراة</string>
     <string name="games_inbox_event_new_match">تم تحديث المباراة المتعددة اللاعبين</string>
     <string name="games_inbox_event_new_request">طلب جديد</string>
-    <string name="games_inbox_header_accepted_quests">مهام الألعاب المقبولة</string>
     <string name="games_inbox_header_completed_matches">المباريات المنتهية</string>
     <string name="games_inbox_header_invitations">الدعوات</string>
     <string name="games_inbox_header_my_turn">دوري</string>
@@ -325,24 +351,14 @@
     <string name="games_mvp_expand_section_content_description">لتوسيع القسم.</string>
     <string name="games_mvp_failed_to_load_settings">تعذّر تحميل بعض الإعدادات، والرجاء إعادة المحاولة لاحقًا.</string>
     <string name="games_mvp_find_games_button_text">استكشاف لعب</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">تصغير قسم لوحات الصدارة.</string>
-    <string name="games_mvp_game_detail_content_description">يتم عرض تفاصيل اللعبة %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">توسيع قسم لوحات الصدارة.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">الاسم التعريفي للّاعب صالح الآن.</string>
     <string name="games_mvp_games_fragment_content_description">يتم عرض الصفحة \"ألعابي\".</string>
     <string name="games_mvp_games_library_closed_content_description">جارٍ إغلاق مكتبة الألعاب.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">جارٍ عرض مكتبة الألعاب التي تتضمن %1$d لعبة مثبَّتة و%2$d لعبة متوفرة للتجربة الآن، و%3$d لعبة غير مثبَّتة.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">جارٍ عرض مكتبة الألعاب التي تتضمن %1$d لعبة مثبَّتة و%2$d لعبة غير مثبَّتة.</string>
     <string name="games_mvp_games_library_label">المكتبة</string>
-    <string name="games_mvp_games_library_spinny_content_description">جارٍ تحميل مزيد من الألعاب في مكتبة الألعاب.</string>
     <string name="games_mvp_games_library_toolbar_title">المكتبة</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s مخفية من القسم \"ألعابي\"</string>
-    <string name="games_mvp_installed_games_label">الألعاب المثبّتة</string>
-    <string name="games_mvp_installed_games_label_content_description">عنوان \"الألعاب المثبَّتة\"</string>
+    <string name="games_mvp_hide_undo_snackbar_text">تمّ إخفاء %1$s.</string>
     <string name="games_mvp_installed_just_now">تم تثبيت اللعبة للتو</string>
     <string name="games_mvp_installed_time_format">تم تثبيت اللعبة %1$s</string>
-    <string name="games_mvp_instant_games_label">التجربة الآن</string>
-    <string name="games_mvp_instant_games_label_content_description">عنوان \"التجربة الآن\"</string>
     <string name="games_mvp_last_played_just_now">تم لعبها للتو</string>
     <string name="games_mvp_last_played_time_format">تم لعبها آخر مرة %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">مفتاح تبديل نوع لوحة الصدارة. تضم الخيارات %1$s و%2$s. الخيار الحالي: %3$s.</string>
@@ -362,8 +378,6 @@
     <string name="games_mvp_menu_uninstall">إلغاء التثبيت</string>
     <string name="games_mvp_menu_unmute">إعادة تفعيل الإشعارات</string>
     <string name="games_mvp_network_request_failed">حدث خطأ، ويُرجى إعادة المحاولة لاحقًا.</string>
-    <string name="games_mvp_not_installed_games_label">الألعاب غير المثبّتة</string>
-    <string name="games_mvp_not_installed_games_label_content_description">عنوان \"الألعاب غير المثبَّتة\"</string>
     <string name="games_mvp_player_comparison_all_games">كل الألعاب</string>
     <string name="games_mvp_player_comparison_content_description">يتم عرض مقارنة اللاعبين بينك وبين %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">الألعاب المشتركة</string>
@@ -387,6 +401,7 @@
     <string name="games_mvp_settings_about">لمحة</string>
     <string name="games_mvp_settings_build_version_title">إصدار ألعاب Play</string>
     <string name="games_mvp_settings_clear_local_search_history">محو سجلّ البحث المحلي</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">إزالة عمليات البحث التي أجريتها من هذا الجهاز</string>
     <string name="games_mvp_settings_content_description">يتم عرض إعدادات التطبيق.</string>
     <string name="games_mvp_settings_debug_settings">إعدادات تصحيح الأخطاء</string>
     <string name="games_mvp_settings_delete_play_games_data">حذف بيانات ألعاب Play</string>
@@ -397,10 +412,9 @@
     <string name="games_mvp_settings_public_gamer_profile">الملف الشخصي العام للّاعب</string>
     <string name="games_mvp_settings_title">الإعدادات</string>
     <string name="games_mvp_share_game_card_text">مشاركة مع الأصدقاء</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s معروضة الآن في القسم \"ألعابي\"</string>
+    <string name="games_mvp_show_undo_snackbar_text">يتم عرض لعبة %1$s في \"ألعابي\" الآن.</string>
     <string name="games_mvp_snackbar_undo_button_text">تراجع</string>
     <string name="games_mvp_uninstall_error_text">حدث خطأ. يُرجى إعادة محاولة إلغاء تثبيت %1$s</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">حدث خطأ. يُرجى إعادة محاولة إلغاء تثبيت اللعبة.</string>
     <string name="games_mvp_uninstall_success_text">تمّ إلغاء تثبيت %1$s</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">تمّ إلغاء تثبيت اللعبة</string>
     <string name="games_mvp_visit_arcade_button_text">الانتقال إلى \"ساحة اللاعبين\"</string>
@@ -489,7 +503,6 @@
     <string name="games_progress_dialog_starting_rematch">جارٍ بدء إعادة المباراة…</string>
     <string name="games_progress_dialog_title">التقدم</string>
     <string name="games_quest_detail_title">تفاصيل المهمة</string>
-    <string name="games_quest_inbox_title">مهام الألعاب</string>
     <string name="games_quest_list_title">مهام الألعاب</string>
     <string name="games_quest_network_error_dialog_message">تعذر قبول المهمة. أعد المحاولة لاحقًا.</string>
     <string name="games_quests_empty_text">لا تتوفر مهام</string>
@@ -538,6 +551,8 @@
     <string name="games_send_request_title_wish">إرسال طلب إلى</string>
     <string name="games_server_title">خادم الألعاب</string>
     <string name="games_setting_item_loading_content_description">جارٍ التحميل</string>
+    <string name="games_settings_dark_theme_subtitle">تفعيل المظهر المُعتِم في التطبيق</string>
+    <string name="games_settings_dark_theme_title">مظهر مُعتِم</string>
     <string name="games_settings_debug_achievements_head">إعدادات الإنجازات</string>
     <string name="games_settings_debug_achievements_reshow">إظهار النوافذ المنبثقة لإلغاء القفل دائمًا</string>
     <string name="games_settings_debug_clear_caches">محو بيانات ذاكرة التخزين المؤقت</string>
@@ -554,6 +569,11 @@
     <string name="games_settings_debug_reset_profile_settings_fail">تعذّرت إعادة تعيين إعدادات الملف الشخصي.</string>
     <string name="games_settings_debug_reset_profile_settings_success">تمت إعادة تعيين إعدادات الملف الشخصي.</string>
     <string name="games_settings_delete_profile">حذف الملف الشخصي لألعاب Play</string>
+    <string name="games_settings_delete_profile_dialog_message">"يحذف هذا الإجراء كل بياناتك في \"ألعاب Google Play\"، بما في ذلك الاسم التعريفي للاعب ومكافأة الخبرة (XP)، وقد يحذف أيضًا نتائجك وتقدمك وإعداداتك في الألعاب التي تلعبها.
+
+‏
+
+ولا يمكن التراجع عن هذا الإجراء."</string>
     <string name="games_settings_delete_profile_dialog_title">هل تريد حذف الملف الشخصي لألعاب Play؟</string>
     <string name="games_settings_delete_profile_fail">يتعذر على ألعاب Play حذف ملفك الشخصي. يُرجى إعادة المحاولة لاحقًا.</string>
     <string name="games_settings_delete_profile_positive">حذف</string>
@@ -571,6 +591,7 @@
 %2$s"</string>
     <string name="games_share_game_share_title">مشاركة</string>
     <string name="games_sign_in_restricted_account_dialog_cta">متابعة</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> يمكنك تشغيل هذه اللعبة ولكن يتعذّر استخدام هذا الحساب لتسجيل دخولك إلى \"ألعاب Google Play\".</string>
     <string name="games_sign_in_restricted_account_dialog_title">المتابعة بدون تسجيل الدخول</string>
     <string name="games_sign_in_restricted_profile_error_message">لا يمكن لهذا التطبيق تسجيل الدخول إلى \"ألعاب Google Play\" باستخدام ملف شخصي مقيَّد.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> يتعذّر استخدام هذا الحساب لتسجيل دخولك إلى \"ألعاب Google Play\".</string>
@@ -618,6 +639,7 @@
     <string name="games_timestamp_now">الآن</string>
     <string name="games_toast_dialog_app_muted">تم كتم صوت اللعبة %1$s</string>
     <string name="games_toast_dialog_app_unmuted">تمت إعادة صوت اللعبة %1$s</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">حدث خطأ أثناء حذف سجلّ البحث المحلي.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">تم حذف سجلّ البحث المحلي.</string>
     <string name="games_toast_video_captured_description">انقر للمشاهدة والمشاركة</string>
     <string name="games_toast_video_captured_label">تم حفظ الفيديو إلى المعرض</string>
@@ -652,6 +674,7 @@
     <string name="games_video_recording_camera_control_content_description_on">إيقاف الكاميرا</string>
     <string name="games_video_recording_draw_over_permission_toast">للسماح بالتسجيل، يرجى تفعيل الإذن \"الظهور أمام التطبيقات الأخرى\" لخدمات Google Play.</string>
     <string name="games_video_recording_legal_01">سيتم تسجيل كلّ ما يظهر على الشاشة، بما في ذلك الإشعارات والمكالمات وكلمات المرور، بالإضافة إلى الأصوات القريبة.</string>
+    <string name="games_video_recording_legal_02">حاوِل أن تتخلّص من أي أصوات في الخلفية، لكي تتجنّب تسجيل أي صوت لا يحق لك تسجيله.</string>
     <string name="games_video_recording_legal_cancel">إلغاء</string>
     <string name="games_video_recording_legal_proceed">تشغيل</string>
     <string name="games_video_recording_legal_title">قبل البدء</string>
@@ -690,8 +713,10 @@
     <string name="games_waiting_room_cant_start_match_body">ليس هناك ما يكفي من اللاعبين للعب هذه المباراة.</string>
     <string name="games_waiting_room_keep_waiting">استمرار الانتظار</string>
     <string name="games_waiting_room_menu_leave_room">إنهاء المباراة</string>
+    <string name="games_waiting_room_participant_status_auto_pick">جارٍ الاختيار</string>
     <string name="games_waiting_room_participant_status_automatch_joined">تم الانضمام</string>
     <string name="games_waiting_room_participant_status_creator_joined">منضم</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">تمّ الانضمام</string>
     <string name="games_waiting_room_participant_status_declined">تم رفض الدعوة</string>
     <string name="games_waiting_room_participant_status_invited">تم توجيه دعوة</string>
     <string name="games_waiting_room_participant_status_left">تمت مغادرة الغرفة</string>

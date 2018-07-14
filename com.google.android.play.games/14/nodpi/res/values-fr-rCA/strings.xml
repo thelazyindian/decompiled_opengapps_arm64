@@ -21,19 +21,19 @@
 Cette action est irréversible!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Voulez-vous supprimer les données des jeux archivés?</string>
     <string name="datadeletion__delete_archived_game_data_error">"Une erreur s'est produite lors de la suppression des données des jeux archivés. Veuillez réessayer plus tard."</string>
-    <string name="datadeletion__delete_archived_game_data_success">Les données des jeux archivés seront supprimées dans un délai de 24 heures.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Vos données des jeux archivés seront supprimées dans un délai de 24 heures</string>
     <string name="datadeletion__delete_data_title">Supprimer les données Play Jeux</string>
-    <string name="datadeletion__delete_game_data_button_content_description">Supprimer les données du jeu « %1$s »</string>
-    <string name="datadeletion__delete_game_data_button_deleting_content_description">Suppression des données du jeu « %1$s »</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Supprimer les données du jeu %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Suppression des données du jeu %1$s en cours…</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Suppression en cours…</string>
-    <string name="datadeletion__delete_game_data_confirm_dialog_message">"La suppression des données du jeu %1$s effacera vos pointages, votre progression et vos paramètres de jeu que vous avez fournis en utilisant Google Play Jeux.
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"La suppression des données du jeu %1$s effacera vos pointages, votre progression et les paramètres de jeu que vous avez définis en utilisant Google Play Jeux.
 
 Cette action est irréversible."</string>
-    <string name="datadeletion__delete_game_data_confirm_dialog_title">Supprimer les données du jeu « %1$s »?</string>
-    <string name="datadeletion__delete_game_data_error">"Une erreur s'est produite lors de la suppression de vos données du jeu « %1$s ». Veuillez réessayer plus tard."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Supprimer les données du jeu %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">"Une erreur s'est produite lors de la suppression de vos données du jeu %1$s. Veuillez réessayer plus tard."</string>
     <string name="datadeletion__delete_game_data_explanation">Supprimez les données individuelles des jeux auxquels vous avez joué sur Google Play Jeux. Cette action supprimera vos pointages, votre progression et les paramètres du jeu que vous avez sélectionné.</string>
     <string name="datadeletion__delete_game_data_header">Suppri. les données individuelles du jeu</string>
-    <string name="datadeletion__delete_game_data_success">Vos données du jeu « %1$s » seront supprimées dans les 24 prochaines heures.</string>
+    <string name="datadeletion__delete_game_data_success">Vos données du jeu %1$s seront supprimées dans un délai de 24 heures</string>
     <string name="datadeletion__delete_profile_explanation">Supprimez toutes vos données dans Google Play Jeux, y compris votre identifiant de joueur et vos XP. Cette action peut également supprimer vos pointages, votre progression ainsi que les paramètres des jeux auxquels vous avez joué.</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Suppression des données des jeux archivés en cours…</string>
     <string name="datadeletion__game_list_load_error">Impossible de charger la liste des jeux auxquels vous avez joué en utilisant Google Play Jeux. Veuillez réessayer plus tard.</string>
@@ -47,9 +47,17 @@ Cette action est irréversible."</string>
     <string name="games__achievement_progress_content_description">%1$d résultats déverrouillés sur %2$d</string>
     <string name="games__arcade__title">"Jeux d'arcade"</string>
     <string name="games__arcade_fragment_content_description">Affichage de la page « Arcade ».</string>
+    <string name="games__gamelibrary__contents">Affichage de la bibliothèque comportant %1$d jeux installés et %2$d jeux non installés.</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">En-tête « Installés »</string>
+    <string name="games__gamelibrary__not_installed_games_label">Non installés</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">En-tête « Non installés »</string>
     <string name="games__page_offline_state_body">"Vous pouvez jouer à Snake, au Solitaire, à PAC-MAN ou à Cricket lorsque vous n'êtes pas connecté."</string>
     <string name="games__page_offline_state_play_my_games_button">Jouer à mes jeux</string>
-    <string name="games__searchresults__no_matches_body">Nous avons recherché dans tous les royaumes, mais en vain.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">"Chargement de plus de réalisations dans l'onglet réalisations."</string>
+    <string name="games__profile__edit_profile_network_error">Vous ne pouvez pas modifier votre profil en mode hors ligne. Veuillez vérifier votre connexion et réessayer plus tard.</string>
+    <string name="games__profile__email_content_description">Compte actuel : %1$s. Affichez la liste des comptes.</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s au niveau suivant %3$d</string>
+    <string name="games__search__trending_section_title">TENDANCES</string>
     <string name="games__searchresults__no_matches_header">Aucune requête ne correspond à « %1$s »</string>
     <string name="games__youtube__video_playback_error_toast">Impossible de faire jouer la vidéo YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">Faire jouer la vidéo « %1$s »</string>
@@ -90,7 +98,6 @@ Voulez-vous vous connecter en tant que %3$s?"</string>
     <string name="games_dest_google_signed_error_dialog_message">"Oups, il semble qu'une erreur d'initialisation s'est produite."</string>
     <string name="games_dest_google_signed_error_dialog_title">Il y a eu un problème.</string>
     <string name="games_dest_inbox_empty">Vous avez consulté toutes les notifications. Allez maintenant jouer à quelques jeux!</string>
-    <string name="games_dest_quests_empty_text">"Aucune quête aujourd'hui! Les quêtes Google Play Jeux que vous avez acceptées s'affichent ici."</string>
     <string name="games_dest_shop_games_list_label">Explorer</string>
     <string name="games_dest_sign_in_failed_dialog_message">"Oups, il semble qu'une erreur s'est produite."</string>
     <string name="games_dest_sign_in_failed_dialog_send_feedback_button">Donnez-nous votre avis</string>
@@ -184,11 +191,8 @@ Parlez de ce jeu à d'autres personnes et comparez vos pointages lorsqu'elles y 
     <string name="games_mvp_failed_to_load_settings">Impossible de charger certains paramètres. Veuillez réessayer plus tard.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">"L'identifiant de joueur est maintenant valide."</string>
     <string name="games_mvp_games_fragment_content_description">Affichage de la page « Mes jeux ».</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Affichage de la bibliothèque comportant %1$d jeux installés et %2$d jeux non installés.</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s est masqué dans Mes jeux</string>
-    <string name="games_mvp_installed_games_label_content_description">En-tête « Installé »</string>
+    <string name="games_mvp_hide_undo_snackbar_text">Le jeu %1$s a été masqué</string>
     <string name="games_mvp_installed_time_format">Installé il y a %1$s</string>
-    <string name="games_mvp_instant_games_label_content_description">En-tête « Essayer »</string>
     <string name="games_mvp_last_played_just_now">Vous venez de faire jouer</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">"Commutateur du type de classement. Vous pouvez choisir entre %1$s et %2$s. L'option %3$s est actuellement activée."</string>
     <string name="games_mvp_loaded_public_leaderboard_announcement">Affichage du classement %1$s de tous les joueurs.</string>
@@ -199,7 +203,6 @@ Parlez de ce jeu à d'autres personnes et comparez vos pointages lorsqu'elles y 
     <string name="games_mvp_menu_show">Afficher dans Mes jeux</string>
     <string name="games_mvp_menu_unmute">Réactiver le son</string>
     <string name="games_mvp_network_request_failed">Un problème est survenu. Veuillez réessayer plus tard.</string>
-    <string name="games_mvp_not_installed_games_label_content_description">En-tête « Non installé »</string>
     <string name="games_mvp_player_comparison_head_to_head">Tête-à-tête</string>
     <string name="games_mvp_player_comparison_last_game_played">Dernière partie jouée</string>
     <string name="games_mvp_player_comparison_last_game_played_banner_content_description">Bannière de la dernière partie jouée : %1$s</string>
@@ -219,9 +222,8 @@ Parlez de ce jeu à d'autres personnes et comparez vos pointages lorsqu'elles y 
     <string name="games_mvp_settings_muted_games">Jeux mis en sourdine</string>
     <string name="games_mvp_settings_no_games_muted_yet">Aucun jeu mis en sourdine pour le moment</string>
     <string name="games_mvp_share_game_card_text">Partagez avec vos amis</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s est maintenant dans Mes jeux</string>
+    <string name="games_mvp_show_undo_snackbar_text">"%1$s s'affiche maintenant dans Mes jeux"</string>
     <string name="games_mvp_uninstall_error_text">"Une erreur s'est produite. Essayez de désinstaller %1$s de nouveau"</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">"Une erreur s'est produite. Essayez de désinstaller le jeu de nouveau"</string>
     <string name="games_mvp_uninstall_success_text">Le jeu %1$s a été désinstallé</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Le jeu a été désinstallé</string>
     <string name="games_mvp_visit_arcade_button_text">Accédez à Arcade</string>
@@ -293,6 +295,8 @@ Vous pouvez modifier votre profil et les paramètres ou supprimer les données s
     <string name="games_select_players_null_state_fixed_format">%1$d joueurs</string>
     <string name="games_select_players_null_state_range_format">de %1$d à %2$d joueurs</string>
     <string name="games_setting_item_loading_content_description">Chargement en cours…</string>
+    <string name="games_settings_dark_theme_subtitle">"Activer le thème sombre dans toute l'application"</string>
+    <string name="games_settings_dark_theme_title">Thème sombre</string>
     <string name="games_settings_debug_achievements_reshow">Toujours afficher les fenêtres de déverrouillage</string>
     <string name="games_settings_debug_clear_caches">Effacer les caches de mémoire</string>
     <string name="games_settings_debug_clear_data_body">Cette opération effacera toutes les données des services Google Play. Voulez-vous continuer?</string>
@@ -395,7 +399,9 @@ Les vidéos sont enregistrées dans votre galerie de photos qui se trouve sous D
     <string name="games_video_unexpected_capture_error">"Échec de l'enregistrement : Erreur irrémédiable lors de l'enregistrement vidéo"</string>
     <string name="games_waiting_room_cant_start_match">Imposs. de démarrer la partie</string>
     <string name="games_waiting_room_cant_start_match_body">Le nombre de joueurs est insuffisant pour jouer cette partie.</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Sélection</string>
     <string name="games_waiting_room_participant_status_creator_joined">Membre</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Membre</string>
     <string name="games_waiting_room_participant_status_left">A quitté la salle</string>
     <string name="games_waiting_room_prepare_to_play">Préparez-vous à jouer</string>
     <string name="games_waiting_room_room_status_auto_matching">En attente de sélect. auto...</string>

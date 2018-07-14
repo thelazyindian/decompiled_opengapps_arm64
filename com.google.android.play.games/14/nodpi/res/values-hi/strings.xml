@@ -13,7 +13,7 @@
     <string name="abc_toolbar_collapse_description">छोटा करें</string>
     <string name="arcade__error_headline">ओह, कुछ गड़बड़ है.</string>
     <string name="arcade__error_retry_button">फिर से कोशिश करें</string>
-    <string name="arcade__error_send_feedback_button">फ़ीडबैक भेजें</string>
+    <string name="arcade__error_send_feedback_button">सुझाव भेजें</string>
     <string name="arcade__offline_headline">अपना इंटरनेट कनेक्शन चेक करें.</string>
     <string name="common_cancel">रद्द करें</string>
     <string name="common_games_settings_title">Play गेम्स</string>
@@ -42,13 +42,27 @@
     <string name="customer_information_title">ग्राहक जानकारी</string>
     <string name="datadeletion__archived_game_item_title">संग्रहित किए गए गेम का डेटा</string>
     <string name="datadeletion__delete_archived_game_button_content_description">संग्रहित किए गए गेम का डेटा मिटाएं.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"अगर संग्रहित किए गए गेम से आपका डेटा मिटाया जाता है तो आपके स्कोर, प्रगति और Google Play - गेम्स के ज़रिए की गई आपकी गेम सेटिंग हट जाएंगी.
+
+इस कार्रवाई को बदला नहीं जा सकता!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">संग्रहित किए गए गेम का डेटा मिटाएं?</string>
     <string name="datadeletion__delete_archived_game_data_error">संग्रहित किए गए गेम का आपका डेटा मिटाते समय कोई गड़बड़ी हुई. कृपया बाद में फिर से कोशिश करें.</string>
+    <string name="datadeletion__delete_archived_game_data_success">संग्रहित किए गए गेम का आपका डेटा 24 घंटों के अंदर मिटा दिया जाएगा</string>
     <string name="datadeletion__delete_data_title">Play - गेम्स डेटा मिटाएं</string>
     <string name="datadeletion__delete_game_data_button">मिटाएं</string>
+    <string name="datadeletion__delete_game_data_button_content_description">%1$s का डेटा मिटाएं</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">%1$s का डेटा मिटाया जा रहा है</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">मिट रहा है…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"अगर आप %1$s का अपना डेटा मिटाते हैं, तो आपके स्कोर, प्रगति, और Google Play - गेम्स के ज़रिए की गई गेम सेटिंग हट जाएंगी.
+
+इस कार्रवाई को बदला नहीं जा सकता."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">%1$s का डेटा मिटाना चाहते हैं?</string>
+    <string name="datadeletion__delete_game_data_error">%1$s का आपका डेटा मिटाते समय कोई गड़बड़ी हुई. कृपया बाद में फिर से कोशिश करें.</string>
+    <string name="datadeletion__delete_game_data_explanation">उन गेम के लिए अलग-अलग डेटा मिटाएं जिन्हें आपने Google Play - गेम्स के इस्तेमाल से खेला है. इस कार्रवाई से आपके चुने हुए गेम के स्कोर, प्रगति और गेम की सेटिंग मिट जाएंगी.</string>
     <string name="datadeletion__delete_game_data_header">अलग-अलग गेम का डेटा मिटाना</string>
+    <string name="datadeletion__delete_game_data_success">%1$s का आपका डेटा 24 घंटों के अंदर मिटा दिया जाएगा</string>
     <string name="datadeletion__delete_profile_button">प्रोफ़ाइल मिटाएं</string>
+    <string name="datadeletion__delete_profile_explanation">Google Play - गेम्स में अपना सभी डेटा मिटाएं, जिनमें आपके गेमर आईडी और XP शामिल हैं. इस कार्रवाई से शायद आपके खेले गए गेम के स्कोर, प्रगति और गेम की सेटिंग भी मिट जाएगी.</string>
     <string name="datadeletion__delete_profile_header">प्रोफ़ाइल और सभी डेटा मिटाएं</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">संग्रहित किए गए गेम का डेटा मिटाया जा रहा है.</string>
     <string name="datadeletion__game_list_load_error">उन गेम की सूची लोड नहीं हो सकी जिन्हें आपने Google Play - गेम्स के ज़रिए खेला है. कृपया बाद में फिर से कोशिश करें.</string>
@@ -81,6 +95,12 @@
     <string name="games__arcade__toolbar_title">गेम</string>
     <string name="games__arcade_fragment_content_description">\"आर्केड गेम\" पेज दिखाया जा रहा है.</string>
     <string name="games__game_installed_label">पहले से इंस्टॉल है</string>
+    <string name="games__gamelibrary__contents">गेम लाइब्रेरी दिखाई जा रही है जिसमें %1$d इंस्टॉल किए गए गेम और %2$d इंस्टॉल नहीं किए गए गेम शामिल हैं.</string>
+    <string name="games__gamelibrary__installed_games_label">पहले से इंस्टॉल हैं</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">\"इंस्टॉल किए हुए हैं\" हेडर</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">गेम लाइब्रेरी में और भी गेम लोड हो रहे हैं.</string>
+    <string name="games__gamelibrary__not_installed_games_label">इंस्टॉल नहीं हैं</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">\"इंस्टॉल नहीं हैं\" हेडर</string>
     <string name="games__installbutton__install">इंस्‍टॉल करें</string>
     <string name="games__installbutton__install_content_description">%1$s इंस्टॉल करें</string>
     <string name="games__page_default_error_body">चिंता न करें, समस्या हमारी ओर से है.</string>
@@ -88,11 +108,19 @@
     <string name="games__page_offline_state_play_my_games_button">मेरे गेम खेलें</string>
     <string name="games__playbutton__play">खेलें</string>
     <string name="games__playbutton__play_content_description">%1$s खेलें</string>
-    <string name="games__profile_page__tab_achievements">उपलब्धियां</string>
-    <string name="games__profile_page__tab_games">गेम</string>
-    <string name="games__profile_page__tab_players">खिलाड़ी</string>
-    <string name="games__searchresults__no_matches_body">हमने सारे साम्राज्य खोज लिए लेकिन हमारी किस्मत अच्छी नहीं रही.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">उपलब्धियां टैब में ज़्यादा उपलब्धियां लोड की जा रही हैं.</string>
+    <string name="games__profile__edit_profile_network_error">आप ऑफ़लाइन रहते हुए अपनी प्रोफ़ाइल में बदलाव नहीं कर सकते. कृपया अपना कनेक्शन जांचें और बाद में फिर से कोशिश करें.</string>
+    <string name="games__profile__email_content_description">मौजूदा खाता: %1$s. खाता सूची दिखाएं.</string>
+    <string name="games__profile__menu_edit_profile">प्रोफ़ाइल में बदलाव करें</string>
+    <string name="games__profile__page_content_description">आपकी खिलाड़ी प्रोफ़ाइल दिखाई जा रही है.</string>
+    <string name="games__profile__tab_achievements">उपलब्धियां</string>
+    <string name="games__profile__tab_games">गेम</string>
+    <string name="games__profile__tab_players">खिलाड़ी</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s अगले लेवल के लिए %3$d</string>
+    <string name="games__search__search_hint">गेम खोजें</string>
+    <string name="games__search__trending_section_title">वे गेम जो रुझान में हैं</string>
     <string name="games__searchresults__no_matches_header">\"%1$s\" से किसी का मिलान नहीं हुआ</string>
+    <string name="games__settings__autoplay_videos_title">अपने आप वीडियो चलाना</string>
     <string name="games__youtube__video_playback_error_toast">YouTube वीडियो नहीं चलाया जा सका.</string>
     <string name="games__youtube__video_thumbnail_content_description">वीडियो \"%1$s\" चलाएं</string>
     <string name="games_accessibility_event_tab_selected">%1$s चयनित</string>
@@ -151,7 +179,6 @@
     <string name="games_dest_nav_drawer_inbox">नोटिफ़िकेशन</string>
     <string name="games_dest_participant_list_label">प्रतिभागी सूची</string>
     <string name="games_dest_player_detail_view_profile">प्रोफ़ाइल देखें</string>
-    <string name="games_dest_quests_empty_text">आज कोई अन्वेषण नहीं! आपके द्वारा स्वीकार किए गए Play - गेम्स यहां दिखाई देते हैं.</string>
     <string name="games_dest_shop_games_list_label">एक्सप्लोर करें</string>
     <string name="games_dest_shop_games_visit_store_text">Play स्टोर</string>
     <string name="games_dest_sign_in_failed_dialog_message">ओह, ऐसा लगता है कि कुछ गलत हो गया है.</string>
@@ -194,7 +221,7 @@
     <string name="games_generic_empty_text">कोई परिणाम नहीं.</string>
     <string name="games_generic_error_action_text">पुन: प्रयास करें</string>
     <string name="games_generic_error_text">हम्म, Play - गेम्स में कुछ गलत हो गया है</string>
-    <string name="games_id_sharing_dialog_body">आपके Google⁠+ प्रोफ़ाइल नाम और चित्र को स्वतः चुने गए खिलाड़ियों के साथ साझा किया जा सकता है.</string>
+    <string name="games_id_sharing_dialog_body">आपके Google⁠+ प्रोफ़ाइल नाम और चित्र को स्वतः चुने गए खिलाड़ियों के साथ शेयर किया जा सकता है.</string>
     <string name="games_id_sharing_dialog_title">यह मैच सार्वजनिक है</string>
     <string name="games_inbox_card_action_ignore">अनदेखा करें</string>
     <string name="games_inbox_card_gift_received">%1$s ने आपको एक उपहार भेजा है</string>
@@ -211,7 +238,6 @@
     <string name="games_inbox_event_new_invitation">मैच का नया आमंत्रण</string>
     <string name="games_inbox_event_new_match">मल्टीप्लेयर मैच अपडेट किया गया</string>
     <string name="games_inbox_event_new_request">नया अनुरोध</string>
-    <string name="games_inbox_header_accepted_quests">स्वीकृत खोज</string>
     <string name="games_inbox_header_completed_matches">पूर्ण हो चुके मैच</string>
     <string name="games_inbox_header_invitations">आमंत्रण</string>
     <string name="games_inbox_header_my_turn">मेरी बारी</string>
@@ -297,7 +323,7 @@
     <string name="games_menu_participant_list">खिलाड़ियों की सूची</string>
     <string name="games_menu_search">खोजें</string>
     <string name="games_menu_settings">सेटिंग</string>
-    <string name="games_menu_share">साझा करें</string>
+    <string name="games_menu_share">शेयर करें</string>
     <string name="games_menu_view_in_store">Play स्टोर में देखें</string>
     <string name="games_mixed_tile_game_name_content_description">गेम: %1$s. डेवलपर:%2$s</string>
     <string name="games_mixed_tile_leaderboard_score_content_description_with_level">रैंक: %1$s. खिलाड़ी: %2$s. %3$s. स्कोर: %4$s</string>
@@ -322,24 +348,14 @@
     <string name="games_mvp_expand_section_content_description">सेक्शन का विस्तार करें.</string>
     <string name="games_mvp_failed_to_load_settings">कुछ सेटिंग लोड नहीं हो सकीं, कृपया बाद में फिर से कोशिश करें.</string>
     <string name="games_mvp_find_games_button_text">गेम आज़माएं</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">लीडरबोर्ड सेक्शन छोटा करें.</string>
-    <string name="games_mvp_game_detail_content_description">%1$s गेम का विवरण दिखाया जा रहा है.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">लीडरबोर्ड सेक्शन का विस्तार करें.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">गेमर आईडी अब मान्य है.</string>
     <string name="games_mvp_games_fragment_content_description">\"मेरे गेम\" पेज दिखाया जा रहा है.</string>
     <string name="games_mvp_games_library_closed_content_description">गेम लाइब्रेरी बंद की जा रही है.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">गेम लाइब्रेरी दिखाई जा रही है जिसमें इंस्टॉल किए गए %1$d गेम, अभी आज़माने के लिए उपलब्ध %2$d गेम और इंस्टॉल नहीं किए गए %3$d गेम मौजूद हैं.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">गेम लाइब्रेरी दिखाई जा रही है जिसमें इंस्टॉल किए गए %1$d गेम और इंस्टॉल नहीं किए गए %2$d गेम मौजूद हैं.</string>
     <string name="games_mvp_games_library_label">लाइब्रेरी</string>
-    <string name="games_mvp_games_library_spinny_content_description">गेम लाइब्रेरी में और भी गेम लोड हो रहे हैं.</string>
     <string name="games_mvp_games_library_toolbar_title">लाइब्रेरी</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s मेरे गेम में छिपा हुआ है</string>
-    <string name="games_mvp_installed_games_label">इंस्‍टॉल किए गए</string>
-    <string name="games_mvp_installed_games_label_content_description">\"इंस्टॉल किया गया\" शीर्षक</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s को छिपा दिया गया है</string>
     <string name="games_mvp_installed_just_now">अभी-अभी इंस्टॉल किया गया</string>
     <string name="games_mvp_installed_time_format">%1$s इंस्टॉल किया गया</string>
-    <string name="games_mvp_instant_games_label">अभी आज़माएं</string>
-    <string name="games_mvp_instant_games_label_content_description">\"अभी आज़माएं\" शीर्षक</string>
     <string name="games_mvp_last_played_just_now">अभी-अभी खेला है</string>
     <string name="games_mvp_last_played_time_format">पिछली बार %1$s खेला गया</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">लीडरबोर्ड बदलने का स्विच. इसके विकल्प %1$s और %2$s हैं. मौजूदा विकल्प: %3$s.</string>
@@ -354,13 +370,11 @@
     <string name="games_mvp_menu_profile">प्रोफ़ाइल</string>
     <string name="games_mvp_menu_record_gameplay">गेमप्‍ले रिकॉर्ड करें</string>
     <string name="games_mvp_menu_settings">सेटिंग</string>
-    <string name="games_mvp_menu_share">साझा करें</string>
+    <string name="games_mvp_menu_share">शेयर करें</string>
     <string name="games_mvp_menu_show">मेरे गेम में दिखाएं</string>
     <string name="games_mvp_menu_uninstall">अनइंस्टॉल करें</string>
     <string name="games_mvp_menu_unmute">अनम्यूट करें</string>
     <string name="games_mvp_network_request_failed">कुछ गलत हुआ, कृपया बाद में फिर से कोशिश करें.</string>
-    <string name="games_mvp_not_installed_games_label">इंस्‍टॉल नहीं है</string>
-    <string name="games_mvp_not_installed_games_label_content_description">\"इंस्टॉल नहीं किया गया\" शीर्षक</string>
     <string name="games_mvp_player_comparison_all_games">सभी गेम</string>
     <string name="games_mvp_player_comparison_content_description">आप और %1$s के बीच खिलाड़ी तुलना दिखाई जा रही है.</string>
     <string name="games_mvp_player_comparison_games_in_common">सामान्य गेम</string>
@@ -383,6 +397,7 @@
     <string name="games_mvp_settings_about">इसके बारे में जानकारी</string>
     <string name="games_mvp_settings_build_version_title">Play - गेम्स वर्शन</string>
     <string name="games_mvp_settings_clear_local_search_history">स्थानीय खोज इतिहास साफ़ करें</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">आपने इस डिवाइस से जो खोजें की हैं उन्हें हटाएं</string>
     <string name="games_mvp_settings_content_description">ऐप सेटिंग दिखाई जा रही हैं.</string>
     <string name="games_mvp_settings_debug_settings">डीबग सेटिंग</string>
     <string name="games_mvp_settings_delete_play_games_data">Play - गेम्स डेटा मिटाएं</string>
@@ -393,10 +408,9 @@
     <string name="games_mvp_settings_public_gamer_profile">सार्वजनिक गेमर प्रोफ़ाइल</string>
     <string name="games_mvp_settings_title">सेटिंग</string>
     <string name="games_mvp_share_game_card_text">अपने मित्रों से शेयर करें</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s अब मेरे गेम में है</string>
+    <string name="games_mvp_show_undo_snackbar_text">"%1$s अब 'मेरे गेम' में दिखाई दे रहा है"</string>
     <string name="games_mvp_snackbar_undo_button_text">पहले जैसा करें</string>
     <string name="games_mvp_uninstall_error_text">कुछ गलत हुआ – दोबारा %1$s को अनइंस्टॉल करने की कोशिश करें</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">कुछ गलत हुआ – दोबारा अनइंस्टॉल करने की कोशिश करें</string>
     <string name="games_mvp_uninstall_success_text">%1$s को अनइंस्टॉल कर दिया गया है</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">गेम को अनइंस्टॉल कर दिया गया है</string>
     <string name="games_mvp_visit_arcade_button_text">आर्केड गेम पर जाएं</string>
@@ -486,7 +500,6 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_progress_dialog_starting_rematch">रीमैच प्रारंभ हो रहा है…</string>
     <string name="games_progress_dialog_title">प्रगति</string>
     <string name="games_quest_detail_title">अन्वेषण के विवरण</string>
-    <string name="games_quest_inbox_title">खोज</string>
     <string name="games_quest_list_title">खोज</string>
     <string name="games_quest_network_error_dialog_message">खोज स्वीकार नहीं की जा सकी. बाद में पुन: प्रयास करें.</string>
     <string name="games_quests_empty_text">कोई अन्वेषण नहीं</string>
@@ -535,6 +548,8 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_send_request_title_wish">इसे अनुरोध भेजें</string>
     <string name="games_server_title">गेम्स सर्वर</string>
     <string name="games_setting_item_loading_content_description">लोड हो रहा है</string>
+    <string name="games_settings_dark_theme_subtitle">पूरे ऐप्लिकेशन में डार्क थीम लागू करें</string>
+    <string name="games_settings_dark_theme_title">डार्क थीम</string>
     <string name="games_settings_debug_achievements_head">उपलब्धि सेटिंग</string>
     <string name="games_settings_debug_achievements_reshow">अनलॉक पॉपअप हमेशा दिखाएं</string>
     <string name="games_settings_debug_clear_caches">मेमोरी संचय साफ़ करें</string>
@@ -551,6 +566,9 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_settings_debug_reset_profile_settings_fail">प्रोफ़ाइल सेटिंग को रीसेट करना विफल रहा!</string>
     <string name="games_settings_debug_reset_profile_settings_success">प्रोफ़ाइल सेटिंग को रीसेट करना सफल रहा!</string>
     <string name="games_settings_delete_profile">Play - गेम्स प्रोफ़ाइल मिटाएं</string>
+    <string name="games_settings_delete_profile_dialog_message">"अपने गेमर आईडी और XP के साथ ही Google Play - गेम्स का अपना सभी डेटा मिटाएं. इस कार्रवाई से आपके खेले गए गेम के स्कोर, प्रगति और सेटिंग मिट सकती हैं.
+
+इस कार्रवाई को बदला नहीं जा सकता."</string>
     <string name="games_settings_delete_profile_dialog_title">Play - गेम्स प्रोफ़ाइल मिटाएं?</string>
     <string name="games_settings_delete_profile_fail">Play - गेम्स आपकी प्रोफ़ाइल को हटा नहीं सका. बाद में पुनः प्रयास करें.</string>
     <string name="games_settings_delete_profile_positive">हटाएं</string>
@@ -566,8 +584,9 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_share_game_share_text">"%1$s काफ़ी आकर्षक है. उसे Google Play - गेम्स पर देखें. देखें कि क्या आप मेरे स्कोर को पीछे छोड़ सकते हैं!
 
 %2$s"</string>
-    <string name="games_share_game_share_title">साझा करें</string>
+    <string name="games_share_game_share_title">शेयर करें</string>
     <string name="games_sign_in_restricted_account_dialog_cta">जारी रखें</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> आप यह गेम खेल सकते हैं, लेकिन हम आपको इस खाते से Google Play - गेम्स में साइन इन नहीं करा सकते.</string>
     <string name="games_sign_in_restricted_account_dialog_title">प्रवेश किए बिना जारी रखें</string>
     <string name="games_sign_in_restricted_profile_error_message">यह ऐप प्रतिबंधित प्रोफ़ाइल से Google Play - गेम्स में प्रवेश नहीं कर सकता.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> अफ़सोस की बात है, लेकिन हम इस खाते से आपको Google Play - गेम्स में साइन इन नहीं करा सकते.</string>
@@ -615,8 +634,9 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_timestamp_now">अभी</string>
     <string name="games_toast_dialog_app_muted">%1$s गेम को म्यूट कर दिया गया है</string>
     <string name="games_toast_dialog_app_unmuted">%1$s गेम को अनम्यूट कर दिया गया है</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">स्थानीय खोज इतिहास मिटाते समय एक गड़बड़ी हुई.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">स्थानीय खोज इतिहास मिटा दिया गया है.</string>
-    <string name="games_toast_video_captured_description">देखने, साझा करने के लिए टैप करें</string>
+    <string name="games_toast_video_captured_description">देखने, शेयर करने के लिए टैप करें</string>
     <string name="games_toast_video_captured_label">वीडियो को गैलरी में सेव किया गया</string>
     <string name="games_tutorial_learn_button">और जानें</string>
     <string name="games_unknown_game_description">अज्ञात गेम</string>
@@ -649,6 +669,7 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_video_recording_camera_control_content_description_on">कैमरा अक्षम करें</string>
     <string name="games_video_recording_draw_over_permission_toast">रिकॉर्डिंग की अनुमति देने के लिए, कृपया Google Play सेवाओं को अन्य ऐप्स के ऊपर ले जाने की अनुमति सक्षम करें.</string>
     <string name="games_video_recording_legal_01">आपकी स्क्रीन पर स्थित सभी चीज़ों को रिकॉर्ड किया जाएगा - जिनमें नोटिफ़िकेशन, कॉल, पासवर्ड - और आस-पास की आवाज़ें शामिल हैं.</string>
+    <string name="games_video_recording_legal_02">बैकग्राउंड में आने वाली आवाज़ों को निकालने की कोशिश करें, ताकि आप कोई भी ऐसी चीज़ रिकॉर्ड न करें जिसे रिकॉर्ड करने का अधिकार आपको नहीं है.</string>
     <string name="games_video_recording_legal_cancel">रहने दें</string>
     <string name="games_video_recording_legal_proceed">लॉन्च करें</string>
     <string name="games_video_recording_legal_title">शुरू करने से पहले</string>
@@ -656,7 +677,7 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_video_recording_mic_control_content_description_off">माइक सक्षम करें</string>
     <string name="games_video_recording_mic_control_content_description_on">माइक अक्षम करें</string>
     <string name="games_video_recording_not_enough_space_on_device">आपके डिवाइस पर पर्याप्त स्थान नहीं है</string>
-    <string name="games_video_recording_onboarding_1_text">अपने सबसे शानदार गेमिंग क्षणों को YouTube पर साझा करें.</string>
+    <string name="games_video_recording_onboarding_1_text">अपने सबसे शानदार गेमिंग क्षणों को YouTube पर शेयर करें.</string>
     <string name="games_video_recording_onboarding_1_title">YouTube पर आपका गेमप्ले</string>
     <string name="games_video_recording_onboarding_2_text">चलाते समय अपने चेहरे और आवाज़ के वीडियो को कैप्चर करें.</string>
     <string name="games_video_recording_onboarding_2_title">चलाने के साथ व्याख्या</string>
@@ -664,7 +685,7 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_video_recording_onboarding_3_title">आपका अवतार सब कुछ करता है</string>
     <string name="games_video_recording_onboarding_button">प्रारंभ करें</string>
     <string name="games_video_recording_prerecord_cancel">रहने दें</string>
-    <string name="games_video_recording_prerecord_description">"YouTube पर अपने गेम के शानदार क्षणों को साझा करें.
+    <string name="games_video_recording_prerecord_description">"YouTube पर अपने गेम के शानदार क्षणों को शेयर करें.
 
 वीडियो को डिवाइस फ़ोल्डर में आपकी फ़ोटो गैलरी > स्क्रीनकास्ट में सहेजा जाता है."</string>
     <string name="games_video_recording_prerecord_proceed_launch">लॉन्च करें</string>
@@ -686,8 +707,10 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="games_waiting_room_cant_start_match_body">इस मैच को खेलने के लिए पर्याप्त खिलाड़ी नहीं हैं.</string>
     <string name="games_waiting_room_keep_waiting">प्रतीक्षा करें</string>
     <string name="games_waiting_room_menu_leave_room">मैच छोड़ें</string>
+    <string name="games_waiting_room_participant_status_auto_pick">चुना जा रहा है</string>
     <string name="games_waiting_room_participant_status_automatch_joined">शामिल</string>
     <string name="games_waiting_room_participant_status_creator_joined">शामिल हुआ/हुई</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">शामिल हुए/हुईं</string>
     <string name="games_waiting_room_participant_status_declined">आमंत्रण अस्वीकार कर दिया गया</string>
     <string name="games_waiting_room_participant_status_invited">आमंत्रित</string>
     <string name="games_waiting_room_participant_status_left">रूम छोड़ दिया</string>
@@ -705,7 +728,7 @@ Nearby Players चालू होने पर, आपके द्वारा
     <string name="hats_lib_close_button_description">बंद करें</string>
     <string name="hats_lib_default_prompt_title">कृपया Google को बेहतर बनाने में हमारी मदद करें.</string>
     <string name="hats_lib_default_star_rating_bar_description">तारांकन रेटिंग बार</string>
-    <string name="hats_lib_default_thank_you">आपके फ़ीडबैक के लिए धन्यवाद!</string>
+    <string name="hats_lib_default_thank_you">आपके सुझाव के लिए धन्यवाद!</string>
     <string name="hats_lib_next">अगला</string>
     <string name="hats_lib_none_of_the_above">उपरोक्त में से कोई नहीं</string>
     <string name="hats_lib_open_text_hint">अपनी टिप्पणियां यहां डालें</string>

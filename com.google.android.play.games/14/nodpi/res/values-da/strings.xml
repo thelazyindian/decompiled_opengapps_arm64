@@ -43,13 +43,27 @@
     <string name="customer_information_title">Kundeoplysninger</string>
     <string name="datadeletion__archived_game_item_title">Data fra arkiverede spil</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Slet data fra arkiverede spil.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Når du sletter dine data fra arkiverede spil, fjernes dine resultater, igangværende spil og de spilindstillinger, du har angivet via Google Play Spil.
+
+Denne handling kan ikke fortrydes."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Vil du slette data fra arkiverede spil?</string>
     <string name="datadeletion__delete_archived_game_data_error">Der opstod en fejl under sletningen af dine data fra arkiverede spil. Prøv igen senere.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Dine data fra arkiverede spil slettes inden for 24 timer</string>
     <string name="datadeletion__delete_data_title">Slet Play Spil-data</string>
     <string name="datadeletion__delete_game_data_button">Slet</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Slet data for %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Sletter data for %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Sletter…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Hvis du sletter dine data for %1$s, fjernes dine resultater, igangværende spil og de spilindstillinger, du har angivet via Google Play Spil.
+
+Denne handling kan ikke fortrydes."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Vil du slette data for %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">Der opstod en fejl under sletningen af dine data for %1$s. Prøv igen senere.</string>
+    <string name="datadeletion__delete_game_data_explanation">Slet data for individuelle spil, du har spillet via Google Play Spil. Denne handling sletter dine resultater, data for igangværende spil og indstillinger i det spil, du vælger.</string>
     <string name="datadeletion__delete_game_data_header">Slet data for individuelle spil</string>
+    <string name="datadeletion__delete_game_data_success">Dine data for %1$s slettes inden for 24 timer</string>
     <string name="datadeletion__delete_profile_button">Slet profil</string>
+    <string name="datadeletion__delete_profile_explanation">Slet alle dine data i Google Play Spil, inklusive dit spiller-id og dine XP. Denne handling sletter muligvis også dine resultater, data for igangværende spil og indstillinger i de spil, du har spillet.</string>
     <string name="datadeletion__delete_profile_header">Slet profil og alle data</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Sletter data fra arkiverede spil.</string>
     <string name="datadeletion__game_list_load_error">Listen med spil, du har spillet via Google Play Spil, kunne ikke indlæses. Prøv igen senere.</string>
@@ -80,18 +94,32 @@
     <string name="games__arcade__toolbar_title">Spil</string>
     <string name="games__arcade_fragment_content_description">Viser siden \"Arkade\".</string>
     <string name="games__game_installed_label">Installeret</string>
+    <string name="games__gamelibrary__contents">Viser spilsamling med %1$d installerede spil og %2$d spil, der ikke er installeret.</string>
+    <string name="games__gamelibrary__installed_games_label">Installeret</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Overskrift: \"Installeret\"</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Indlæser flere spil i spilsamlingen.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Ikke installeret</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Overskrift: \"Ikke installeret\"</string>
     <string name="games__installbutton__install">Installer</string>
     <string name="games__installbutton__install_content_description">Installer %1$s</string>
     <string name="games__page_default_error_body">Du har ikke gjort noget forkert.</string>
     <string name="games__page_offline_state_body">Du kan altid spille Snake, 7-kabale, PAC-MAN eller Cricket offline.</string>
     <string name="games__page_offline_state_play_my_games_button">Spil mine spil</string>
-    <string name="games__playbutton__play">Spil</string>
+    <string name="games__playbutton__play">Spil nu</string>
     <string name="games__playbutton__play_content_description">Spil %1$s</string>
-    <string name="games__profile_page__tab_achievements">Præstationer</string>
-    <string name="games__profile_page__tab_games">Spil</string>
-    <string name="games__profile_page__tab_players">Spillere</string>
-    <string name="games__searchresults__no_matches_body">Vi har søgt i alverdens kongeriger uden held.</string>
-    <string name="games__searchresults__no_matches_header">Der er ingen spil, der matcher \"%1$s\"</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Indlæser flere præstationer i fanen Præstationer.</string>
+    <string name="games__profile__edit_profile_network_error">Du kan ikke redigere din profil, når du er offline. Tjek forbindelsen, og prøv igen senere.</string>
+    <string name="games__profile__email_content_description">Nuværende konto: %1$s. Se kontoliste.</string>
+    <string name="games__profile__menu_edit_profile">Rediger profil</string>
+    <string name="games__profile__page_content_description">Viser din spillerprofil.</string>
+    <string name="games__profile__tab_achievements">Præstationer</string>
+    <string name="games__profile__tab_games">Spil</string>
+    <string name="games__profile__tab_players">Spillere</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s til næste niveau %3$d</string>
+    <string name="games__search__search_hint">Søg efter spil</string>
+    <string name="games__search__trending_section_title">POPULÆRE</string>
+    <string name="games__searchresults__no_matches_header">Ingen spil, der matcher \"%1$s\"</string>
+    <string name="games__settings__autoplay_videos_title">Afspil videoer automatisk</string>
     <string name="games__youtube__video_playback_error_toast">YouTube-videoen kunne ikke afspilles.</string>
     <string name="games__youtube__video_thumbnail_content_description">Afspil videoen \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">%1$s er valgt</string>
@@ -152,7 +180,6 @@ Vil du logge ind som %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Underretninger</string>
     <string name="games_dest_participant_list_label">Deltagerliste</string>
     <string name="games_dest_player_detail_view_profile">SE PROFIL</string>
-    <string name="games_dest_quests_empty_text">Der er ingen missioner i dag! Her kan du se Play Spil-missioner, du har accepteret.</string>
     <string name="games_dest_shop_games_list_label">Udforsk</string>
     <string name="games_dest_shop_games_visit_store_text">Play Butik</string>
     <string name="games_dest_sign_in_failed_dialog_message">Øv, det ser ud til, at noget gik galt.</string>
@@ -183,7 +210,7 @@ Vil du logge ind som %3$s?"</string>
     <string name="games_gcore_preferred_account">Brug denne konto til login</string>
     <string name="games_gcore_preferred_account_summary">Til alle nye spil</string>
     <string name="games_gcore_profile_discoverability">Spilprofilens synlighed</string>
-    <string name="games_gcore_profile_discoverability_summary">Giv andre mulighed for at finde dit spiller-id via din mailadresse til Google eller dit navn.</string>
+    <string name="games_gcore_profile_discoverability_summary">Gør det muligt for andre at finde dit spiller-id via din Google-mailadresse eller dit navn.</string>
     <string name="games_gcore_profile_discoverability_update_failed">Spilprofilens synlighed kunne ikke opdateres.</string>
     <string name="games_gcore_public_profile">Spillerprofil</string>
     <string name="games_gcore_public_profile_hidden_status">Skjult</string>
@@ -212,7 +239,6 @@ Vil du logge ind som %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Ny kampinvitation</string>
     <string name="games_inbox_event_new_match">Multiplayerkamp blev opdateret</string>
     <string name="games_inbox_event_new_request">Ny anmodning</string>
-    <string name="games_inbox_header_accepted_quests">Accepterede missioner</string>
     <string name="games_inbox_header_completed_matches">Afsluttede kampe</string>
     <string name="games_inbox_header_invitations">Invitationer</string>
     <string name="games_inbox_header_my_turn">Min tur</string>
@@ -324,24 +350,14 @@ Fortæl andre om dette spil, og sammenlign dine resultater med deres, når de sp
     <string name="games_mvp_expand_section_content_description">Udvide sektionen.</string>
     <string name="games_mvp_failed_to_load_settings">Nogle af indstillingerne kunne ikke indlæses. Prøv igen senere.</string>
     <string name="games_mvp_find_games_button_text">Udforsk Spil</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Luk sektionen Ranglister.</string>
-    <string name="games_mvp_game_detail_content_description">Viser oplysninger om spillet %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Udvid sektionen Ranglister.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">"Spiller-id'et er nu gyldigt."</string>
     <string name="games_mvp_games_fragment_content_description">Viser siden \"Mine spil\".</string>
     <string name="games_mvp_games_library_closed_content_description">Lukker spilsamling.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Viser spilsamling med %1$d installerede spil, %2$d spil, du kan prøve nu, og %3$d spil, der ikke er installeret.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Viser spilsamling med %1$d installerede spil og %2$d spil, der ikke er installeret.</string>
     <string name="games_mvp_games_library_label">Samling</string>
-    <string name="games_mvp_games_library_spinny_content_description">Indlæser flere spil i spilsamlingen.</string>
     <string name="games_mvp_games_library_toolbar_title">Samling</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s skjules i Mine spil</string>
-    <string name="games_mvp_installed_games_label">Installeret</string>
-    <string name="games_mvp_installed_games_label_content_description">Overskrift: \"Installeret\"</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s er skjult</string>
     <string name="games_mvp_installed_just_now">Lige installeret</string>
     <string name="games_mvp_installed_time_format">Installeret %1$s</string>
-    <string name="games_mvp_instant_games_label">Prøv nu</string>
-    <string name="games_mvp_instant_games_label_content_description">Overskrift: \"Prøv nu\"</string>
     <string name="games_mvp_last_played_just_now">Du har lige spillet det</string>
     <string name="games_mvp_last_played_time_format">Sidst spillet %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Skift ranglistetype. Valgmulighederne er %1$s og %2$s. Du har i øjeblikket valgt: %3$s.</string>
@@ -361,8 +377,6 @@ Fortæl andre om dette spil, og sammenlign dine resultater med deres, når de sp
     <string name="games_mvp_menu_uninstall">Afinstaller</string>
     <string name="games_mvp_menu_unmute">Genaktiver</string>
     <string name="games_mvp_network_request_failed">Der opstod en fejl. Prøv igen senere.</string>
-    <string name="games_mvp_not_installed_games_label">Ikke installeret</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Overskrift: \"Ikke installeret\"</string>
     <string name="games_mvp_player_comparison_all_games">Alle spil</string>
     <string name="games_mvp_player_comparison_content_description">Viser en spillersammenligning mellem dig og %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Spil til fælles</string>
@@ -385,7 +399,8 @@ Fortæl andre om dette spil, og sammenlign dine resultater med deres, når de sp
     <string name="games_mvp_profile_xp_history_header">Historik over XP</string>
     <string name="games_mvp_settings_about">Om</string>
     <string name="games_mvp_settings_build_version_title">Play Games-version</string>
-    <string name="games_mvp_settings_clear_local_search_history">Ryd den lokale søgehistorik</string>
+    <string name="games_mvp_settings_clear_local_search_history">Ryd lokal søgehistorik</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Fjern søgninger, du har foretaget på denne enhed</string>
     <string name="games_mvp_settings_content_description">Viser appindstillinger.</string>
     <string name="games_mvp_settings_debug_settings">Indstillinger for fejlretning</string>
     <string name="games_mvp_settings_delete_play_games_data">Slet Play Spil-data</string>
@@ -396,12 +411,11 @@ Fortæl andre om dette spil, og sammenlign dine resultater med deres, når de sp
     <string name="games_mvp_settings_public_gamer_profile">Offentlig spillerprofil</string>
     <string name="games_mvp_settings_title">Indstillinger</string>
     <string name="games_mvp_share_game_card_text">Del med dine venner</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s vises nu i Mine spil</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s vises nu under Mine spil</string>
     <string name="games_mvp_snackbar_undo_button_text">Fortryd</string>
     <string name="games_mvp_uninstall_error_text">Der opstod en fejl. Prøv at afinstallere %1$s igen</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Der opstod en fejl. Prøv at afinstallere igen</string>
-    <string name="games_mvp_uninstall_success_text">%1$s er blevet afinstalleret</string>
-    <string name="games_mvp_uninstall_success_text_without_game_title">Spillet er blevet afinstalleret</string>
+    <string name="games_mvp_uninstall_success_text">%1$s er afinstalleret</string>
+    <string name="games_mvp_uninstall_success_text_without_game_title">Spillet er afinstalleret</string>
     <string name="games_mvp_visit_arcade_button_text">Gå til Arkade</string>
     <string name="games_mvp_you_have_no_games_message">Lad os spille!</string>
     <string name="games_my_games_empty_action_text">Udforsk spil</string>
@@ -468,7 +482,7 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_profile_edit_image_chooser_dialog_title">Vælg et profilbillede</string>
     <string name="games_profile_edit_info_title">Opret et spiller-id</string>
     <string name="games_profile_edit_invalid_gamer_tag">"Spiller-id'et skal indeholde mellem %1$d og %2$d bogstaver og tal"</string>
-    <string name="games_profile_edit_success">Din profil er blevet opdateret.</string>
+    <string name="games_profile_edit_success">Din profil er opdateret.</string>
     <string name="games_profile_edit_title">Rediger din profil</string>
     <string name="games_profile_edit_visibility">Tillad, at andre spillere kan se min spilaktivitet</string>
     <string name="games_profile_info_message_1">Log automatisk ind i spil</string>
@@ -478,7 +492,7 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_profile_status_message_hidden">Din spillerprofil er i øjeblikket skjult</string>
     <string name="games_profile_status_message_public">Din spillerprofil er i øjeblikket offentlig</string>
     <string name="games_profile_status_message_update_failure">Opdateringen mislykkedes. Prøv igen senere.</string>
-    <string name="games_profile_status_message_update_success">Din spillerprofil er blevet opdateret</string>
+    <string name="games_profile_status_message_update_success">Din spillerprofil er opdateret</string>
     <string name="games_profile_status_message_updating">Din spillerprofil opdateres</string>
     <string name="games_profile_summary_popup_content_description">Navn: %1$s. Titel: %2$s.</string>
     <string name="games_profile_visibility_dialog_content">Du kan offentliggøre dit gameplay, dit niveau og dine XP. Disse oplysninger baseres på alle de spil, du har spillet. <u>Få flere oplysninger</u></string>
@@ -491,7 +505,6 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_progress_dialog_starting_rematch">Starter omkamp...</string>
     <string name="games_progress_dialog_title">Status</string>
     <string name="games_quest_detail_title">Oplysninger om missionen</string>
-    <string name="games_quest_inbox_title">Missioner</string>
     <string name="games_quest_list_title">Missioner</string>
     <string name="games_quest_network_error_dialog_message">Missionen kunne ikke accepteres. Prøv igen senere.</string>
     <string name="games_quests_empty_text">Ingen missioner</string>
@@ -540,6 +553,8 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_send_request_title_wish">Send anmodning til</string>
     <string name="games_server_title">Server for Spil</string>
     <string name="games_setting_item_loading_content_description">Indlæser</string>
+    <string name="games_settings_dark_theme_subtitle">Aktivér mørkt tema i hele appen</string>
+    <string name="games_settings_dark_theme_title">Mørkt tema</string>
     <string name="games_settings_debug_achievements_head">Præstationsindstillinger</string>
     <string name="games_settings_debug_achievements_reshow">Vis altid tidligere resultater</string>
     <string name="games_settings_debug_clear_caches">Ryd cachens hukommelse</string>
@@ -556,6 +571,9 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_settings_debug_reset_profile_settings_fail">Nulstilling af profilindstillingerne mislykkedes.</string>
     <string name="games_settings_debug_reset_profile_settings_success">Profilindstillingerne blev nulstillet.</string>
     <string name="games_settings_delete_profile">Slet Play Spil-profil</string>
+    <string name="games_settings_delete_profile_dialog_message">"Slet alle dine data i Google Play Spil inklusive dit spiller-id og dine XP. Denne handling sletter muligvis også dine resultater, data for igangværende spil og indstillinger i de spil, du har spillet.
+
+Denne handling kan ikke fortrydes."</string>
     <string name="games_settings_delete_profile_dialog_title">Vil du slette Play Spil-profilen?</string>
     <string name="games_settings_delete_profile_fail">Play Spil kunne ikke slette din profil. Prøv igen senere.</string>
     <string name="games_settings_delete_profile_positive">SLET</string>
@@ -573,6 +591,7 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
 %2$s"</string>
     <string name="games_share_game_share_title">Del</string>
     <string name="games_sign_in_restricted_account_dialog_cta">FORTSÆT</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Du kan spille dette spil, men vi kan ikke logge dig ind på Google Play Spil med denne konto.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Fortsæt uden at logge ind</string>
     <string name="games_sign_in_restricted_profile_error_message">Denne app kan ikke logge ind på Google Play Spil med en begrænset profil.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Vi kan desværre ikke logge dig ind på Google Play Spil med denne konto.</string>
@@ -603,7 +622,7 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_tile_quest_claim_button">GØR KRAV PÅ BELØNNING</string>
     <string name="games_tile_quest_claim_button_content_description">Gør krav på belønning</string>
     <string name="games_tile_quest_content_description">Mission: %1$s. Spil: %2$s. Status: %3$d af %4$d. %5$s. Beskrivelse: %6$s</string>
-    <string name="games_tile_quest_play_button">SPIL</string>
+    <string name="games_tile_quest_play_button">SPIL NU</string>
     <string name="games_tile_quest_play_button_content_description">Start mission</string>
     <string name="games_tile_quest_time_accepted">Accepteret</string>
     <string name="games_tile_quest_time_begins">Starter %1$s</string>
@@ -620,7 +639,8 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_timestamp_now">Nu</string>
     <string name="games_toast_dialog_app_muted">Lyden er slået fra i spillet %1$s</string>
     <string name="games_toast_dialog_app_unmuted">Lyden er slået til i spillet %1$s</string>
-    <string name="games_toast_dialog_local_search_history_deleted_successful">Den lokale søgehistorik blev slettet.</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Der opstod en fejl ved sletningen af lokal søgehistorik.</string>
+    <string name="games_toast_dialog_local_search_history_deleted_successful">Lokal søgehistorik blev slettet.</string>
     <string name="games_toast_video_captured_description">Tryk for at se og dele</string>
     <string name="games_toast_video_captured_label">Videoen blev gemt i galleriet</string>
     <string name="games_tutorial_learn_button">Få flere oplysninger</string>
@@ -655,6 +675,7 @@ Du kan ændre din profil og dine indstillinger eller slette data, der lagres hos
     <string name="games_video_recording_camera_control_content_description_on">Deaktiver kameraet</string>
     <string name="games_video_recording_draw_over_permission_toast">Hvis du vil optage, skal du til give tilladelse til, at Google Play-tjenester aktiverer Vis over andre apps.</string>
     <string name="games_video_recording_legal_01">Alt på din skærm optages, f.eks. underretninger, opkald, adgangskoder og baggrundslyde.</string>
+    <string name="games_video_recording_legal_02">Du bør så vidt muligt undgå lyde i baggrunden, så du ikke får optaget noget, du ikke har rettigheder til.</string>
     <string name="games_video_recording_legal_cancel">Annuller</string>
     <string name="games_video_recording_legal_proceed">Start</string>
     <string name="games_video_recording_legal_title">Inden du går i gang</string>
@@ -694,8 +715,10 @@ Videoerne gemmes i fotogalleriet i Mapper på enheden under Screencasts."</strin
     <string name="games_waiting_room_cant_start_match_body">Der er ikke nok spillere til at spille denne kamp.</string>
     <string name="games_waiting_room_keep_waiting">Fortsæt med at vente</string>
     <string name="games_waiting_room_menu_leave_room">Gå ud af kampen</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Vælger</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Deltager</string>
     <string name="games_waiting_room_participant_status_creator_joined">Deltager</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Deltager</string>
     <string name="games_waiting_room_participant_status_declined">Invitationen blev afvist</string>
     <string name="games_waiting_room_participant_status_invited">Inviteret</string>
     <string name="games_waiting_room_participant_status_left">Forlod rummet</string>

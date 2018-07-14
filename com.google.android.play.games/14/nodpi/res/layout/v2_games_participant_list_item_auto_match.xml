@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout style="@style/Games.InGame.ListItem.OuterContainer.OnBottomSheet"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout style="@style/Games.InGame.ListItem.InnerContainer">
+        <ImageView android:id="@id/image" android:layout_width="@dimen/v2_games_list_item_image_size" android:layout_height="@dimen/v2_games_list_item_image_size" android:layout_marginRight="@dimen/v2_games_list_item_horizontal_margin" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" app:srcCompat="@drawable/v2_games_ic_circular_silhouette_grey_vd_40" />
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/games_select_players_auto_pick_chip_name" android:layout_toRightOf="@id/image" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" style="@style/Games.InGame.ListItem.Title" />
+        <TextView android:id="@id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/games_waiting_room_participant_status_auto_pick" android:layout_toRightOf="@id/image" android:layout_below="@id/title" android:layout_alignParentRight="true" android:layout_alignWithParentIfMissing="true" style="Games.InGame.ListItem.Description" />
+    </RelativeLayout>
+</FrameLayout>

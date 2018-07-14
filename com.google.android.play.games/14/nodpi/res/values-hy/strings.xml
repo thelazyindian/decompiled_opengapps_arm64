@@ -45,13 +45,27 @@
     <string name="customer_information_title">Հաճախորդի մասին</string>
     <string name="datadeletion__archived_game_item_title">Արխիվացված խաղերի տվյալներ</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Ջնջել արխիվացված խաղերի տվյալները</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Արխիվացված խաղերի տվյալները ջնջելու դեպքում կհեռացվեն ձեր միավորները, արդյունքներն ու Google Play-ի միջոցով պահված խաղերի կարգավորումները:
+
+Այս գործողությունը հնարավոր չէ հետարկել:"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Ջնջե՞լ արխիվացված խաղերի տվյալները</string>
     <string name="datadeletion__delete_archived_game_data_error">Չհաջողվեց ջնջել արխիվացված խաղերի տվյալները: Փորձեք ավելի ուշ։</string>
+    <string name="datadeletion__delete_archived_game_data_success">Արխիվացված խաղերի տվյալները 24 ժամվա ընթացքում կջնջվեն</string>
     <string name="datadeletion__delete_data_title">Ջնջեք Play Խաղերի տվյալները</string>
     <string name="datadeletion__delete_game_data_button">Ջնջել</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Ջնջել «%1$s» խաղի տվյալները</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">«%1$s» խաղի տվյալները ջնջվում են</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Ջնջում…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"«%1$s» խաղի տվյալները ջնջելու դեպքում կհեռացվեն ձեր միավորները, արդյունքներն ու Google Play-ի միջոցով պահված խաղերի կարգավորումները:
+
+Այս գործողությունը հնարավոր չէ հետարկել:"</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Ջնջե՞լ «%1$s» խաղի տվյալները</string>
+    <string name="datadeletion__delete_game_data_error">«%1$s» խաղի տվյալները ջնջելիս սխալ առաջացավ: Փորձեք ավելի ուշ:</string>
+    <string name="datadeletion__delete_game_data_explanation">Ջնջեք որոշակի խաղի տվյալները Google Play Խաղերում: Ընտրված խաղի միավորները, արդյունքներն ու կարգավորումները նույնպես կջնջվեն:</string>
     <string name="datadeletion__delete_game_data_header">Ջնջել որոշակի խաղի տվյալները</string>
+    <string name="datadeletion__delete_game_data_success">«%1$s» խաղի տվյալները 24 ժամվա ընթացքում կջնջվեն</string>
     <string name="datadeletion__delete_profile_button">Ջնջել պրոֆիլը</string>
+    <string name="datadeletion__delete_profile_explanation">Ջնջեք Google Play Խաղերի ձեր բոլոր տվյալները, այդ թվում՝ խաղացողի ID-ն և XP-ն: Ձեր խաղերի միավորները, արդյունքներն ու կարգավորումները նույնպես կարող են ջնջվել:</string>
     <string name="datadeletion__delete_profile_header">Ջնջեք պրոֆիլը և բոլոր տվյալները</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Արխիվացված խաղերի տվյալները ջնջվում են։</string>
     <string name="datadeletion__game_list_load_error">Չհաջողվեց բեռնել խաղերի ցանկը, որոնք խաղացել եք Google Play Խաղերի միջոցով: Փորձեք ավելի ուշ:</string>
@@ -84,6 +98,12 @@
     <string name="games__arcade__toolbar_title">Խաղեր</string>
     <string name="games__arcade_fragment_content_description">Ցուցադրվում է «Արկադային խաղեր» էջը:</string>
     <string name="games__game_installed_label">Տեղադրված է</string>
+    <string name="games__gamelibrary__contents">Ցուցադրվում է խաղադարանը, որտեղ կա %1$d տեղադրված և %2$d չտեղադրված խաղ:</string>
+    <string name="games__gamelibrary__installed_games_label">Տեղադրված խաղեր</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">«Տեղադրված խաղեր» վերնագիր</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Այլ խաղերի բեռնում խաղադարանում</string>
+    <string name="games__gamelibrary__not_installed_games_label">Չտեղադրված</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">«Չտեղադրված» վերնագիր</string>
     <string name="games__installbutton__install">Տեղադրել</string>
     <string name="games__installbutton__install_content_description">Տեղադրել %1$s խաղը</string>
     <string name="games__page_default_error_body">Սխալը մեր պատճառով է։</string>
@@ -91,11 +111,19 @@
     <string name="games__page_offline_state_play_my_games_button">Իմ խաղերը</string>
     <string name="games__playbutton__play">Խաղալ</string>
     <string name="games__playbutton__play_content_description">Խաղալ %1$s</string>
-    <string name="games__profile_page__tab_achievements">Նվաճումներ</string>
-    <string name="games__profile_page__tab_games">Խաղեր</string>
-    <string name="games__profile_page__tab_players">Խաղացողներ</string>
-    <string name="games__searchresults__no_matches_body">Մենք որոնեցինք ամենուր, բայց ոչինչ չգտանք։</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Նվաճումների ներդիրում բեռնվում են ավելի շատ նվաճումներ:</string>
+    <string name="games__profile__edit_profile_network_error">Անցանց ռեժիմում պրոֆիլը հնարավոր չէ փոփոխել: Ստուգեք կապը և նորից փորձեք:</string>
+    <string name="games__profile__email_content_description">Ընթացիկ հաշիվը՝ %1$s: Ցույց տալ հաշիվների ցանկը:</string>
+    <string name="games__profile__menu_edit_profile">Փոփոխել պրոֆիլը</string>
+    <string name="games__profile__page_content_description">Ցուցադրվում է խաղացողի ձեր պրոֆիլը։</string>
+    <string name="games__profile__tab_achievements">Նվաճումներ</string>
+    <string name="games__profile__tab_games">Խաղեր</string>
+    <string name="games__profile__tab_players">Խաղացողներ</string>
+    <string name="games__profile__xp_progress_annotation">%1$s/ %2$s մինչև մակարդակ %3$d</string>
+    <string name="games__search__search_hint">Որոնեք խաղեր</string>
+    <string name="games__search__trending_section_title">ԹՐԵՆԴԱՅԻՆ</string>
     <string name="games__searchresults__no_matches_header">«%1$s»՝ ոչ մի արդյունք չի գտնվել</string>
+    <string name="games__settings__autoplay_videos_title">Տեսանյութերի ավտոմատ նվագարկում</string>
     <string name="games__youtube__video_playback_error_toast">Չհաջողվեց նվագարկել YouTube-ի տեսանյութը:</string>
     <string name="games__youtube__video_thumbnail_content_description">Նվագարկել «%1$s» տեսանյութը</string>
     <string name="games_accessibility_event_tab_selected">%1$s ներդիրն ընտրվեց</string>
@@ -155,7 +183,6 @@
     <string name="games_dest_nav_drawer_inbox">Ծանուցումներ</string>
     <string name="games_dest_participant_list_label">Մասնակիցների ցանկ</string>
     <string name="games_dest_player_detail_view_profile">ԴԻՏԵԼ ՊՐՈՖԻԼԸ</string>
-    <string name="games_dest_quests_empty_text">Այսօր առաջադրանքներ չկան: Play Խաղերում ձեր ընդունած առաջադրանքներն այստեղ կցուցադրվեն:</string>
     <string name="games_dest_shop_games_list_label">Խաղերի որոնում</string>
     <string name="games_dest_shop_games_visit_store_text">Play Խանութ</string>
     <string name="games_dest_sign_in_failed_dialog_message">Սխալ առաջացավ։</string>
@@ -215,7 +242,6 @@
     <string name="games_inbox_event_new_invitation">Մրցախաղի նոր հրավեր</string>
     <string name="games_inbox_event_new_match">Բազմակի խաղացողներով մրցախաղը թարմացվեց</string>
     <string name="games_inbox_event_new_request">Նոր հարցում</string>
-    <string name="games_inbox_header_accepted_quests">Ընդունված առաջադրանքներ</string>
     <string name="games_inbox_header_completed_matches">Ավարտված մրցախաղեր</string>
     <string name="games_inbox_header_invitations">Հրավերներ</string>
     <string name="games_inbox_header_my_turn">Իմ հերթն է</string>
@@ -329,24 +355,14 @@
     <string name="games_mvp_expand_section_content_description">Ընդարձակել բաժինը</string>
     <string name="games_mvp_failed_to_load_settings">Չհաջողվեց բեռնել որոշ կարգավորումներ: Փորձեք ավելի ուշ:</string>
     <string name="games_mvp_find_games_button_text">Գտնել խաղեր</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Կոծկել «Առաջատարներ» բաժինը</string>
-    <string name="games_mvp_game_detail_content_description">Ցուցադրվում են %1$s խաղի տեղեկությունները։</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Ընդարձակել «Առաջատարներ» բաժինը</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">Խաղացողի ID-ն ընդունվեց։</string>
     <string name="games_mvp_games_fragment_content_description">Ցուցադրվում է «Իմ խաղերը» էջը:</string>
     <string name="games_mvp_games_library_closed_content_description">Խաղադարանը փակվում է:</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Ցուցադրվում է խաղադարանը, որտեղ կա %1$d տեղադրված, %3$d չտեղադրված և %2$d հասանելի խաղ, որոնք կարող եք փորձել:</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Ցուցադրվում է խաղադարանը, որտեղ կա %1$d տեղադրված և %2$d չտեղադրված խաղ:</string>
     <string name="games_mvp_games_library_label">Դարան</string>
-    <string name="games_mvp_games_library_spinny_content_description">Ավելի շատ խաղեր են բեռնվում խաղադարանում:</string>
     <string name="games_mvp_games_library_toolbar_title">Դարան</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s խաղը թաքցված է «Իմ խաղերը» բաժնից</string>
-    <string name="games_mvp_installed_games_label">Տեղադրված</string>
-    <string name="games_mvp_installed_games_label_content_description">«Տեղադրված է» վերնագիր</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s խաղը թաքցվեց</string>
     <string name="games_mvp_installed_just_now">Տեղադրվել է հենց նոր</string>
     <string name="games_mvp_installed_time_format">Տեղադրվել է %1$s</string>
-    <string name="games_mvp_instant_games_label">Փորձել</string>
-    <string name="games_mvp_instant_games_label_content_description">«Փորձել» վերնագիր</string>
     <string name="games_mvp_last_played_just_now">Նոր եք խաղացել</string>
     <string name="games_mvp_last_played_time_format">Վերջին խաղը՝ %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Վարկանիշային աղյուսակի տիպի փոխարկիչ: Առկա տարբերակներ՝ %1$s և %2$s: Ընթացիկ տարբերակը՝ %3$s:</string>
@@ -366,8 +382,6 @@
     <string name="games_mvp_menu_uninstall">Ապատեղադրել</string>
     <string name="games_mvp_menu_unmute">Միացնել</string>
     <string name="games_mvp_network_request_failed">Սխալ առաջացավ: Փորձեք ավելի ուշ:</string>
-    <string name="games_mvp_not_installed_games_label">Չտեղադրված</string>
-    <string name="games_mvp_not_installed_games_label_content_description">«Տեղադրված չէ» վերնագիր</string>
     <string name="games_mvp_player_comparison_all_games">Բոլոր խաղերը</string>
     <string name="games_mvp_player_comparison_content_description">Ցուցադրվում է ձեր և %1$s խաղացողի միջև համեմատությունը։</string>
     <string name="games_mvp_player_comparison_games_in_common">Համատեղ խաղացած խաղեր</string>
@@ -393,6 +407,7 @@
     <string name="games_mvp_settings_about">Հավելվածի մասին</string>
     <string name="games_mvp_settings_build_version_title">Play Խաղերի տարբերակը</string>
     <string name="games_mvp_settings_clear_local_search_history">Մաքրել որոնման պատմությունը</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Հեռացնել այս սարքից կատարած որոնումները</string>
     <string name="games_mvp_settings_content_description">Ցուցադրվում են հավելվածի կարգավորումները։</string>
     <string name="games_mvp_settings_debug_settings">Վրիպազերծման կարգավորումներ</string>
     <string name="games_mvp_settings_delete_play_games_data">Ջնջել Play Խաղերի տվյալները</string>
@@ -403,10 +418,9 @@
     <string name="games_mvp_settings_public_gamer_profile">Խաղացողի հանրային պրոֆիլ</string>
     <string name="games_mvp_settings_title">Կարգավորումներ</string>
     <string name="games_mvp_share_game_card_text">Կիսվել ընկերների հետ</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s խաղն այժմ ցուցադրված է «Իմ խաղերը» բաժնում</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s խաղը ցուցադրվում է «Իմ խաղերը» բաժնում</string>
     <string name="games_mvp_snackbar_undo_button_text">Հետարկել</string>
     <string name="games_mvp_uninstall_error_text">Սխալ – նորից փորձեք ապատեղադրել %1$s խաղը</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">Սխալ առաջացավ – նորից փորձեք ապատեղադրել</string>
     <string name="games_mvp_uninstall_success_text">%1$s խաղն ապատեղադրվեց</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Խաղն ապատեղադրվեց</string>
     <string name="games_mvp_visit_arcade_button_text">Անցնել Արկադա</string>
@@ -496,7 +510,6 @@
     <string name="games_progress_dialog_starting_rematch">Պատասխան մրցախաղի սկիզբ...</string>
     <string name="games_progress_dialog_title">Ընթացք</string>
     <string name="games_quest_detail_title">Առաջադրանքի մասին</string>
-    <string name="games_quest_inbox_title">Առաջադրանքներ</string>
     <string name="games_quest_list_title">Առաջադրանքներ</string>
     <string name="games_quest_network_error_dialog_message">Հնարավոր չէ ընդունել առաջադրանքը: Փորձեք մի փոքր ուշ:</string>
     <string name="games_quests_empty_text">Առաջադրանքներ չկան</string>
@@ -545,6 +558,8 @@
     <string name="games_send_request_title_wish">Ընտրեք խաղացողին</string>
     <string name="games_server_title">Google Play Խաղերի սերվեր</string>
     <string name="games_setting_item_loading_content_description">Բեռնում</string>
+    <string name="games_settings_dark_theme_subtitle">Միացնել մուգ թեման հավելվածի բոլոր էջերում</string>
+    <string name="games_settings_dark_theme_title">Մուգ թեմա</string>
     <string name="games_settings_debug_achievements_head">Ձեռքբերումների կարգավորումներ</string>
     <string name="games_settings_debug_achievements_reshow">Միշտ ցույց տալ ապակողպման ելնող պատուհանները</string>
     <string name="games_settings_debug_clear_caches">Մաքրել հիշապահեստը</string>
@@ -561,6 +576,9 @@
     <string name="games_settings_debug_reset_profile_settings_fail">Չհաջողվեց վերակայել պրոֆիլի կարգավորումները:</string>
     <string name="games_settings_debug_reset_profile_settings_success">Պրոֆիլի կարգավորումները վերակայվեցին:</string>
     <string name="games_settings_delete_profile">Ջնջել Play Խաղերի պրոֆիլը</string>
+    <string name="games_settings_delete_profile_dialog_message">"Ջնջեք Google Play Խաղերի ձեր բոլոր տվյալները, այդ թվում՝ խաղացողի ID-ն և XP-ն: Ձեր խաղերի միավորները, արդյունքներն ու կարգավորումները նույնպես կարող են ջնջվել:
+
+Այս գործողությունը հնարավոր չէ հետարկել:"</string>
     <string name="games_settings_delete_profile_dialog_title">Ջնջե՞լ Play Խաղերի պրոֆիլը</string>
     <string name="games_settings_delete_profile_fail">Չհաջողվեց ջնջել Play Խաղերի ձեր պրոֆիլը: Փորձեք կրկին ավելի ուշ:</string>
     <string name="games_settings_delete_profile_positive">ՋՆՋԵԼ</string>
@@ -578,6 +596,7 @@
 %2$s"</string>
     <string name="games_share_game_share_title">Ուղարկել</string>
     <string name="games_sign_in_restricted_account_dialog_cta">ՇԱՐՈՒՆԱԿԵԼ</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Դուք կարող եք խաղալ այս խաղը, սակայն այս հաշվով հնարավոր չէ մուտք գործել Google Play Խաղեր:</string>
     <string name="games_sign_in_restricted_account_dialog_title">Շարունակեք առանց մուտք գործելու</string>
     <string name="games_sign_in_restricted_profile_error_message">Այս հավելվածը չի կարող մուտք գործել Google Play Խաղեր սահմանափակված պրոֆիլով:</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Այս հաշվով հնարավոր չէ մուտք գործել Google Play Խաղեր:</string>
@@ -625,6 +644,7 @@
     <string name="games_timestamp_now">Հենց նոր</string>
     <string name="games_toast_dialog_app_muted">%1$s խաղի ծանուցումներն անջատվել են</string>
     <string name="games_toast_dialog_app_unmuted">%1$s խաղի ծանուցումները միացվել են</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">Չհաջողվեց ջնջել որոնման պատմությունը:</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Որոնման պատմությունը ջնջվեց:</string>
     <string name="games_toast_video_captured_description">Հպեք՝ դիտելու և համօգտագործելու համար</string>
     <string name="games_toast_video_captured_label">Տեսանյութը պահվեց սրահում</string>
@@ -659,6 +679,7 @@
     <string name="games_video_recording_camera_control_content_description_on">Անջատել ֆոտոխցիկը</string>
     <string name="games_video_recording_draw_over_permission_toast">Տեսագրումը թույլատրելու համար միացրեք «Անցնել այլ հավելվածների վրայով» թույլտվությունը Google Play ծառայությունների համար:</string>
     <string name="games_video_recording_legal_01">Այն ամենն, ինչ հայտնվի ձեր սարքի էկրանին (ծանուցումներ, զանգեր, գաղտնաբառեր), և շրջապատի ձայները կձայնագրվեն:</string>
+    <string name="games_video_recording_legal_02">Փորձեք վերացնել ֆոնային ձայները, որպեսզի չձայնագրեք այնպիսի մի բան, որն իրավունք չունեք:</string>
     <string name="games_video_recording_legal_cancel">Չեղարկել</string>
     <string name="games_video_recording_legal_proceed">Գործարկել</string>
     <string name="games_video_recording_legal_title">Նախքան սկսելը</string>
@@ -696,8 +717,10 @@
     <string name="games_waiting_room_cant_start_match_body">Մրցախաղի համար անհրաժեշտ է բավարար քանակով խաղացող:</string>
     <string name="games_waiting_room_keep_waiting">Սպասել</string>
     <string name="games_waiting_room_menu_leave_room">Ավարտել խաղը</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Խաղացողն ընտրվում է</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Նոր խաղացող</string>
     <string name="games_waiting_room_participant_status_creator_joined">Նոր խաղացող</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Նոր խաղացող</string>
     <string name="games_waiting_room_participant_status_declined">Հրավերը մերժվել է</string>
     <string name="games_waiting_room_participant_status_invited">Հրավիրված է</string>
     <string name="games_waiting_room_participant_status_left">Լքել է սենյակը</string>

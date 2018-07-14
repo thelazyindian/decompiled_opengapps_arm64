@@ -32,9 +32,9 @@
     <style name="Arcade" />
     <style name="Arcade.CallToActionButton" parent="@style/Widget.Replay.HairlineButton">
         <item name="android:textAppearance">@style/Arcade.CallToActionTextAppearance</item>
-        <item name="android:paddingLeft">@dimen/arcade__button_horizontal_padding</item>
-        <item name="android:paddingRight">@dimen/arcade__button_horizontal_padding</item>
-        <item name="android:minWidth">48.0sp</item>
+        <item name="android:paddingLeft">@dimen/games__arcade__button_horizontal_padding</item>
+        <item name="android:paddingRight">@dimen/games__arcade__button_horizontal_padding</item>
+        <item name="android:minWidth">52.0sp</item>
     </style>
     <style name="Arcade.CallToActionTextAppearance" parent="@style/TextAppearance.Replay.Button.GS">
         <item name="android:textColor">?colorAccent</item>
@@ -44,26 +44,26 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="Arcade.ClusterRecyclerView" parent="@style/Arcade">
-        <item name="android:paddingLeft">@dimen/arcade__page_side_margin_minus_standard_card_padding</item>
-        <item name="android:paddingRight">@dimen/arcade__page_side_margin_minus_standard_card_padding</item>
+        <item name="android:paddingLeft">@dimen/games__arcade__page_side_margin_minus_standard_card_padding</item>
+        <item name="android:paddingRight">@dimen/games__arcade__page_side_margin_minus_standard_card_padding</item>
         <item name="android:clipToPadding">false</item>
         <item name="android:layout_marginTop">8.0dip</item>
         <item name="android:layout_marginBottom">8.0dip</item>
     </style>
     <style name="Arcade.ClusterRecyclerView.FixedVisibleChildCount" parent="@style/Arcade.ClusterRecyclerView">
         <item name="visibleChildCount">1</item>
-        <item name="childPeekWidth">16.0dip</item>
+        <item name="childPeekWidth">24.0dip</item>
         <item name="layoutManager">com.google.android.libraries.play.interplay.presentation.layout.fixedvisiblechildcount.FixedVisibleChildCountLinearLayoutManager</item>
     </style>
     <style name="Arcade.ClusterSubtitle" parent="@style/TextStyle.Replay.Subhead.2">
-        <item name="android:layout_marginLeft">@dimen/arcade__page_side_margin</item>
-        <item name="android:layout_marginRight">@dimen/arcade__page_side_margin</item>
+        <item name="android:layout_marginLeft">@dimen/games__arcade__page_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/games__arcade__page_side_margin</item>
         <item name="android:layout_marginBottom">8.0dip</item>
     </style>
     <style name="Arcade.ClusterTitle" parent="@style/TextStyle.Replay.Headline.5">
-        <item name="android:layout_marginLeft">@dimen/arcade__page_side_margin</item>
+        <item name="android:layout_marginLeft">@dimen/games__arcade__page_side_margin</item>
         <item name="android:layout_marginTop">16.0dip</item>
-        <item name="android:layout_marginRight">@dimen/arcade__page_side_margin</item>
+        <item name="android:layout_marginRight">@dimen/games__arcade__page_side_margin</item>
         <item name="android:layout_marginBottom">8.0dip</item>
     </style>
     <style name="ArcadeGameThumbnailTitle" parent="@style/TextStyle.Replay.Caption">
@@ -263,6 +263,12 @@
         <item name="android:textSize">@dimen/google_chip_suggestive_text_size</item>
         <item name="android:textColor">@color/google_chip_suggestive_text_color</item>
     </style>
+    <style name="Base.TextAppearance.GoogleMaterial.OpenSearch" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
+        <item name="android:textColor">@color/google_opensearchbar_text_color</item>
+        <item name="android:textColorHint">@color/google_opensearchbar_hint_text_color</item>
+        <item name="fontFamily">@font/google_sans</item>
+    </style>
     <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Subtitle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle" />
     <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title" />
     <style name="Base.Theme.AppCompat" parent="@style/Base.V7.Theme.AppCompat" />
@@ -296,10 +302,12 @@
     <style name="Base.Theme.MaterialComponents.Light" parent="@style/Base.V14.Theme.MaterialComponents.Light" />
     <style name="Base.Theme.MaterialComponents.Light.Dialog" parent="@style/Base.V14.Theme.MaterialComponents.Light.Dialog" />
     <style name="Base.Theme.Replay.Light" parent="@style/Theme.GoogleMaterial.Light">
-        <item name="android:windowBackground">@color/replay__window_background_light</item>
+        <item name="android:windowBackground">?replay__window_background_color</item>
         <item name="bottomSheetDialogTheme">@style/Theme.Replay.Light.BottomSheetDialog</item>
+        <item name="cardImageViewStyle">@style/Widget.Replay.CardImageView.Light</item>
         <item name="fireballViewStyle">@style/Widget.Replay.Fireball.Light</item>
         <item name="materialButtonStyle">@style/Widget.Replay.FillButton</item>
+        <item name="replay__divider_color">@color/replay__pal_gray_300</item>
         <item name="replay__palette_050">@color/replay__pal_gray_050</item>
         <item name="replay__palette_100">@color/replay__pal_gray_100</item>
         <item name="replay__palette_200">@color/replay__pal_gray_200</item>
@@ -310,12 +318,34 @@
         <item name="replay__palette_700">@color/replay__pal_gray_700</item>
         <item name="replay__palette_800">@color/replay__pal_gray_800</item>
         <item name="replay__palette_900">@color/replay__pal_gray_900</item>
+        <item name="replay__unselected_item_color">@color/replay__pal_gray_700</item>
+        <item name="replay__window_background_color">@color/google_white</item>
+        <item name="textAppearanceBody1">@style/TextStyle.Replay.Body.1</item>
+        <item name="textAppearanceBody2">@style/TextStyle.Replay.Body.2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.Replay.Button.GS</item>
+        <item name="textAppearanceCaption">@style/TextStyle.Replay.Caption</item>
+        <item name="textAppearanceHeadline1">@style/TextStyle.Replay.Headline.1</item>
+        <item name="textAppearanceHeadline2">@style/TextStyle.Replay.Headline.2</item>
+        <item name="textAppearanceHeadline3">@style/TextStyle.Replay.Headline.3</item>
+        <item name="textAppearanceHeadline4">@style/TextStyle.Replay.Headline.4</item>
+        <item name="textAppearanceHeadline5">@style/TextStyle.Replay.Headline.5</item>
+        <item name="textAppearanceHeadline6">@style/TextStyle.Replay.Headline.6</item>
+        <item name="textAppearanceOverline">@style/TextStyle.Replay.Overline</item>
+        <item name="textAppearanceSubtitle1">@style/TextStyle.Replay.Subtitle.1</item>
+        <item name="textAppearanceSubtitle2">@style/TextStyle.Replay.Subtitle.2</item>
+        <item name="dialogCornerRadius">@dimen/replay__dialog_corner_radius</item>
         <item name="toolbarStyle">@style/Widget.Replay.Toolbar</item>
         <item name="colorAccent">?replay__palette_600</item>
+        <item name="textAppearanceDisplay1">@style/TextStyle.Replay.Display.1</item>
+        <item name="textAppearanceDisplay2">@style/TextStyle.Replay.Display.2</item>
+        <item name="textAppearanceDisplay3">@style/TextStyle.Replay.Display.3</item>
+        <item name="textAppearanceSubhead1">@style/TextStyle.Replay.Subhead.1</item>
+        <item name="textAppearanceSubhead2">@style/TextStyle.Replay.Subhead.2</item>
+        <item name="textAppearanceButtonAlt">@style/TextAppearance.Replay.Button.GS.Secondary</item>
     </style>
     <style name="Base.Theme.Replay.Light.BottomSheetDialog" parent="@style/Theme.GoogleMaterial.Light.BottomSheetDialog">
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="bottomSheetStyle">@style/Widget.Replay.BottomSheet.Modal.Light</item>
+        <item name="bottomSheetStyle">@style/Widget.Replay.BottomSheet.Modal</item>
         <item name="colorAccent">?replay__palette_600</item>
     </style>
     <style name="Base.ThemeOverlay.AppCompat" parent="@style/Platform.ThemeOverlay.AppCompat" />
@@ -390,14 +420,15 @@
         <item name="bottomSheetDialogTheme">@style/Theme.GoogleMaterial.Light.BottomSheetDialog</item>
         <item name="chipStandaloneStyle">@style/Widget.GoogleMaterial.Chip.Input</item>
         <item name="chipStyle">@style/Widget.GoogleMaterial.Chip.Assistive</item>
-        <item name="colorPrimaryLight">@color/google_white</item>
         <item name="colorSecondary">@color/google_blue600</item>
-        <item name="colorSecondaryDark">@color/google_blue900</item>
-        <item name="colorSecondaryLight">@color/google_blue500</item>
         <item name="floatingActionButtonStyle">@style/Widget.GoogleMaterial.FloatingActionButton</item>
         <item name="materialButtonStyle">@style/Widget.GoogleMaterial.Button</item>
         <item name="materialCardViewStyle">@style/Widget.GoogleMaterial.CardView.Light</item>
         <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="openSearchBarStyle">@style/Widget.GoogleMaterial.OpenSearchBar</item>
+        <item name="openSearchViewPrefixStyle">@style/Widget.GoogleMaterial.OpenSearchView.Prefix</item>
+        <item name="openSearchViewStyle">@style/Widget.GoogleMaterial.OpenSearchView</item>
+        <item name="productLockupViewStyle">@style/Widget.GoogleMaterial.ProductLockupView</item>
         <item name="scrimBackground">@color/google_scrim</item>
         <item name="tabStyle">@style/Widget.GoogleMaterial.TabLayout</item>
         <item name="textAppearanceBody1">@style/TextAppearance.GoogleMaterial.Body1</item>
@@ -421,6 +452,9 @@
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
         <item name="alertDialogTheme">@style/ThemeOverlay.GoogleMaterial.Dialog.Alert</item>
         <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="colorPrimaryLight">@color/google_white</item>
+        <item name="colorSecondaryLight">@color/google_blue500</item>
+        <item name="colorSecondaryDark">@color/google_blue900</item>
         <item name="colorPrimary50">@color/google_white</item>
         <item name="colorPrimary100">@color/google_white</item>
         <item name="colorPrimary500">@color/google_white</item>
@@ -451,14 +485,15 @@
         <item name="bottomNavigationStyle">@style/Widget.GoogleMaterial.BottomNavigationView</item>
         <item name="chipStandaloneStyle">@style/Widget.GoogleMaterial.Chip.Input</item>
         <item name="chipStyle">@style/Widget.GoogleMaterial.Chip.Assistive</item>
-        <item name="colorPrimaryLight">@color/google_white</item>
         <item name="colorSecondary">@color/google_blue600</item>
-        <item name="colorSecondaryDark">@color/google_blue900</item>
-        <item name="colorSecondaryLight">@color/google_blue500</item>
         <item name="floatingActionButtonStyle">@style/Widget.GoogleMaterial.FloatingActionButton</item>
         <item name="materialButtonStyle">@style/Widget.GoogleMaterial.Button</item>
         <item name="materialCardViewStyle">@style/Widget.GoogleMaterial.CardView.Light</item>
         <item name="navigationViewStyle">@style/Widget.GoogleMaterial.NavigationView</item>
+        <item name="openSearchBarStyle">@style/Widget.GoogleMaterial.OpenSearchBar</item>
+        <item name="openSearchViewPrefixStyle">@style/Widget.GoogleMaterial.OpenSearchView.Prefix</item>
+        <item name="openSearchViewStyle">@style/Widget.GoogleMaterial.OpenSearchView</item>
+        <item name="productLockupViewStyle">@style/Widget.GoogleMaterial.ProductLockupView</item>
         <item name="scrimBackground">@color/google_scrim</item>
         <item name="tabStyle">@style/Widget.GoogleMaterial.TabLayout</item>
         <item name="textAppearanceBody1">@style/TextAppearance.GoogleMaterial.Body1</item>
@@ -482,6 +517,9 @@
         <item name="colorPrimaryDark">@color/google_white</item>
         <item name="colorBackgroundFloating">@color/background_floating_material_light</item>
         <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+        <item name="colorPrimaryLight">@color/google_white</item>
+        <item name="colorSecondaryLight">@color/google_blue500</item>
+        <item name="colorSecondaryDark">@color/google_blue900</item>
         <item name="colorPrimary50">@color/google_white</item>
         <item name="colorPrimary100">@color/google_white</item>
         <item name="colorPrimary500">@color/google_white</item>
@@ -512,10 +550,7 @@
         <item name="chipGroupStyle">@style/Widget.MaterialComponents.ChipGroup</item>
         <item name="chipStandaloneStyle">@style/Widget.MaterialComponents.Chip.Entry</item>
         <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Action</item>
-        <item name="colorPrimaryLight">?colorPrimary</item>
         <item name="colorSecondary">?colorPrimary</item>
-        <item name="colorSecondaryDark">?colorPrimaryDark</item>
-        <item name="colorSecondaryLight">?colorPrimaryLight</item>
         <item name="floatingActionButtonStyle">@style/Widget.MaterialComponents.FloatingActionButton</item>
         <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
         <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
@@ -535,7 +570,7 @@
         <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
         <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
         <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
-        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.FilledBox</item>
+        <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
         <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
@@ -551,10 +586,7 @@
         <item name="chipGroupStyle">@style/Widget.MaterialComponents.ChipGroup</item>
         <item name="chipStandaloneStyle">@style/Widget.MaterialComponents.Chip.Entry</item>
         <item name="chipStyle">@style/Widget.MaterialComponents.Chip.Action</item>
-        <item name="colorPrimaryLight">?colorPrimary</item>
         <item name="colorSecondary">?colorPrimary</item>
-        <item name="colorSecondaryDark">?colorPrimaryDark</item>
-        <item name="colorSecondaryLight">?colorPrimaryLight</item>
         <item name="floatingActionButtonStyle">@style/Widget.MaterialComponents.FloatingActionButton</item>
         <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button</item>
         <item name="materialCardViewStyle">@style/Widget.MaterialComponents.CardView</item>
@@ -574,7 +606,7 @@
         <item name="textAppearanceOverline">@style/TextAppearance.MaterialComponents.Overline</item>
         <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
         <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
-        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.FilledBox</item>
+        <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
         <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
@@ -1209,6 +1241,7 @@
         <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.Chip</item>
         <item name="android:focusable">true</item>
         <item name="android:clickable">true</item>
+        <item name="android:text">@null</item>
         <item name="android:checkable">false</item>
         <item name="rippleColor">@color/mtrl_chip_ripple_color</item>
         <item name="chipBackgroundColor">@color/mtrl_chip_background_color</item>
@@ -1216,7 +1249,6 @@
         <item name="chipCornerRadius">16.0dip</item>
         <item name="chipStrokeColor">#00000000</item>
         <item name="chipStrokeWidth">0.0dip</item>
-        <item name="chipText">@null</item>
         <item name="chipIconEnabled">true</item>
         <item name="chipIcon">@null</item>
         <item name="chipIconSize">24.0dip</item>
@@ -1235,20 +1267,10 @@
         <item name="closeIconEndPadding">2.0dip</item>
         <item name="chipEndPadding">6.0dip</item>
     </style>
-    <style name="Base.Widget.MaterialComponents.TextInputLayout" parent="@style/Widget.Design.TextInputLayout">
-        <item name="boxBackgroundMode">outline</item>
-        <item name="boxPaddingStart">@dimen/mtrl_textinput_box_padding_start</item>
-        <item name="boxCollapsedPaddingTop">@dimen/mtrl_textinput_outline_box_collapsed_padding_top</item>
-        <item name="boxExpandedPaddingTop">@dimen/mtrl_textinput_outline_box_expanded_padding</item>
-        <item name="boxPaddingEnd">@dimen/mtrl_textinput_box_padding_end</item>
-        <item name="boxCollapsedPaddingBottom">@dimen/mtrl_textinput_outline_box_collapsed_padding_bottom</item>
-        <item name="boxCornerRadiusTopStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
-        <item name="boxCornerRadiusTopEnd">@dimen/mtrl_textinput_box_corner_radius_medium</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/mtrl_textinput_box_corner_radius_medium</item>
-        <item name="boxExpandedPaddingBottom">@dimen/mtrl_textinput_outline_box_expanded_padding</item>
-        <item name="boxStrokeColor">?colorControlActivated</item>
-        <item name="boxBackgroundColor">@null</item>
+    <style name="Base.Widget.Replay.CardImageView" parent="@android:style/Widget">
+        <item name="elevation">@dimen/replay__cardimageview__default_elevation</item>
+        <item name="cornerRadius">@dimen/replay__cardimageview__default_radius</item>
+        <item name="inset">@dimen/replay__cardimageview__default_inset</item>
     </style>
     <style name="Base.Widget.Replay.Fireball" parent="@android:style/Widget">
         <item name="play__fireball__group_0">?replay__palette_800</item>
@@ -1259,7 +1281,7 @@
         <item name="play__fireball__selected_text">@color/google_white</item>
         <item name="play__fireball__unselected_text">?replay__palette_600</item>
         <item name="play__fireball__subgroup_overlay">@color/replay__pal_gray_900</item>
-        <item name="play__fireball__text_appearance">@style/TextStyle.Replay.Subhead.2</item>
+        <item name="play__fireball__text_appearance">?textAppearanceSubhead2</item>
     </style>
     <style name="CardView" parent="@style/Base.CardView" />
     <style name="DataDeletion" />
@@ -1298,12 +1320,6 @@
         <item name="layout_flmFlowHeight">auto</item>
         <item name="layout_flmLineWrap">auto</item>
     </style>
-    <style name="FullScreenDialog">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowIsFloating">false</item>
-        <item name="android:windowAnimationStyle">@null</item>
-        <item name="android:backgroundDimEnabled">true</item>
-    </style>
     <style name="GameDetails" />
     <style name="GameDetails.Module" parent="@style/GameDetails">
         <item name="android:paddingLeft">@dimen/gamedetails__module_start_padding</item>
@@ -1323,6 +1339,10 @@
     </style>
     <style name="GameDetails.PlayButtonTextAppearance" parent="@style/TextAppearance.Replay.Button.GS">
         <item name="android:textColor">?colorPrimary</item>
+    </style>
+    <style name="GameDetails.PlayCardBubblePosition" parent="@style/GameDetails">
+        <item name="playCardBubbleOffset">16.0dip</item>
+        <item name="playCardBubblePosition">bubble_start</item>
     </style>
     <style name="Games" />
     <style name="Games.AchievementProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
@@ -1394,50 +1414,6 @@
         <item name="windowNoTitle">true</item>
         <item name="listPreferredItemPaddingLeft">16.0dip</item>
         <item name="listPreferredItemPaddingRight">16.0dip</item>
-    </style>
-    <style name="Games.Activity.Light.Dialog.Dark" parent="@style/Theme.AppCompat.Light">
-        <item name="android:windowBackground">@android:color/transparent</item>
-        <item name="android:windowFrame">@null</item>
-        <item name="android:windowIsFloating">true</item>
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowSoftInputMode">adjustPan</item>
-        <item name="android:colorBackgroundCacheHint">@null</item>
-        <item name="android:windowActionModeOverlay">true</item>
-        <item name="android:windowCloseOnTouchOutside">true</item>
-        <item name="gamesAchievementProgressBarColor">@color/games_achievement_progress_bar_dark</item>
-        <item name="gamesCardBackgroundColor">@color/play_card_dark_background</item>
-        <item name="gamesCardIconColor">@android:color/white</item>
-        <item name="gamesEmptyIconColor">@color/games_empty_view_icon_dark</item>
-        <item name="gamesEmptyTextColor">@color/games_empty_view_body_text_dark</item>
-        <item name="gamesFriendsNullIconDrawable">@raw/games_ic_friends_null_dk</item>
-        <item name="gamesGameThemeColorBrightness">@dimen/games_game_theme_color_brightness_dark</item>
-        <item name="gamesLeaderboardScoreRankColor">@android:color/white</item>
-        <item name="gamesMetagameLevelBackgroundColor">@array/games_metagame_level_background_color_dark</item>
-        <item name="gamesMoreButtonBackgroundDrawable">@drawable/playnext_action_button_dest_dark</item>
-        <item name="gamesNothingFoundNullIconDrawable">@raw/games_ic_nothingfound_null_dk</item>
-        <item name="gamesNotificationsNullIconDrawable">@raw/games_ic_notifications_null_dk</item>
-        <item name="gamesOnyxCardStyle">@style/PlayCardViewGroup.Dark</item>
-        <item name="gamesOnyxCardSubtitleStyle">@style/PlayCardSubtitle.Dark</item>
-        <item name="gamesOnyxCardTitleMiniStyle">@style/PlayCardTitle.Mini.Dark</item>
-        <item name="gamesOnyxCardTitleStyle">@style/PlayCardTitle.Dark</item>
-        <item name="gamesOnyxClusterSubtitleStyle">@style/PlayClusterSubtitle.Dark</item>
-        <item name="gamesOnyxClusterTitleStyle">@style/PlayClusterTitle.Dark</item>
-        <item name="gamesPrimaryTextColor">@color/play_fg_primary_dark</item>
-        <item name="gamesPrimaryTextColorInverse">@color/play_fg_primary</item>
-        <item name="gamesPrimaryThemeColor">@color/play_games_theme_primary_dark</item>
-        <item name="gamesPrivateNullIconDrawable">@raw/games_ic_private_null_dk</item>
-        <item name="gamesProgressUnfilledBackgroundColor">@color/games_progress_unfilled_background_dark</item>
-        <item name="gamesRecommendedNullIconDrawable">@raw/games_ic_recommended_null_dk</item>
-        <item name="gamesSecondaryTextColor">@color/play_fg_secondary_dark</item>
-        <item name="gamesSecondaryThemeColor">@color/play_games_theme_secondary_dark</item>
-        <item name="gamesThemeBackgroundColor">@color/games_destination_bg_dark</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="listPreferredItemPaddingLeft">16.0dip</item>
-        <item name="listPreferredItemPaddingRight">16.0dip</item>
-    </style>
-    <style name="Games.Activity.Light.Dialog.Dark.SmallTitle" parent="@style/Games.Activity.Light.Dialog.Dark">
-        <item name="android:windowTitleSize">22.0dip</item>
     </style>
     <style name="Games.Activity.Light.Dialog.SmallTitle" parent="@style/Games.Activity.Light.Dialog">
         <item name="android:windowTitleSize">22.0dip</item>
@@ -1561,6 +1537,12 @@
         <item name="android:gravity">left</item>
         <item name="android:singleLine">true</item>
     </style>
+    <style name="Games.BottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
+        <item name="colorPrimary">@color/replay__pal_games_600</item>
+        <item name="colorAccent">@color/replay__pal_games_600</item>
+    </style>
     <style name="Games.ButtonBarButtonLight" parent="@style/Games">
         <item name="android:textSize">16.0sp</item>
         <item name="android:background">@drawable/ab_bottom_play_match_bg</item>
@@ -1654,6 +1636,12 @@
         <item name="android:paddingLeft">@dimen/games_standard_side_padding</item>
         <item name="android:paddingRight">@dimen/games_standard_side_padding</item>
     </style>
+    <style name="Games.GameLibrary.LibraryGrid" parent="@style/FlowLayoutManager_Layout_Default">
+        <item name="layout_flmGridInsetStart">@dimen/abc_action_bar_default_padding_start_material</item>
+        <item name="layout_flmGridInsetEnd">@dimen/abc_action_bar_default_padding_end_material</item>
+        <item name="layout_flmMaxGridWidth">@dimen/games__gamelibrary__grid_max_grid_width</item>
+        <item name="layout_flmGridMinCellSize">470.0dip</item>
+    </style>
     <style name="Games.GamesSettings" parent="@style/Games.GamesSettingsBase">
         <item name="gamesAchievementProgressBarColor">@color/games_achievement_progress_bar</item>
         <item name="gamesCardBackgroundColor">@color/play_card_light_background</item>
@@ -1720,26 +1708,40 @@
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="colorPrimary">@color/v2_games_client_recent_task_header</item>
         <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/v2_games_client_accent</item>
+    </style>
+    <style name="Games.InGame.Card" parent="@style/Games.InGame" />
+    <style name="Games.InGame.Card.InnerContainer" parent="@style/Widget.GoogleMaterial.CardView">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">@dimen/v2_games_card_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/v2_games_card_outer_margin</item>
+        <item name="android:layout_marginTop">@dimen/mtrl_card_spacing</item>
+        <item name="android:layout_marginRight">@dimen/v2_games_card_outer_margin</item>
+    </style>
+    <style name="Games.InGame.Card.OuterContainer" parent="@style/Games.InGame.Card">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
     <style name="Games.InGame.Divider" parent="@style/GamesCommon.Divider" />
     <style name="Games.InGame.FullScreenActivity" parent="@style/Games.InGame.BaseFullScreenActivity" />
+    <style name="Games.InGame.FullScreenActivity.LightAccentOverlay" parent="@style/ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/replay__pal_games_300</item>
+    </style>
     <style name="Games.InGame.FullScreenDialog" parent="@style/Theme.AppCompat.Light.Dialog">
         <item name="android:windowBackground">@null</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowIsTranslucent">true</item>
     </style>
-    <style name="Games.InGame.Header" parent="@style/Games.InGame" />
-    <style name="Games.InGame.Header.Subtitle" parent="@style/Games.InGame.Header">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_tertiary</item>
+    <style name="Games.InGame.Header.Divider" parent="@style/Games.InGame.Divider">
+        <item name="android:layout_marginTop">@dimen/v2_games_list_item_top_bottom_padding</item>
+    </style>
+    <style name="Games.InGame.Header.Subtitle" parent="@style/Games.InGame.TextStyle.Subtitle.2">
         <item name="android:ellipsize">end</item>
-        <item name="android:minHeight">@dimen/v2_games_header_subtitle_min_height</item>
         <item name="android:maxLines">1</item>
     </style>
-    <style name="Games.InGame.Header.Title" parent="@style/Games.InGame.Header">
-        <item name="android:textSize">18.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_primary</item>
+    <style name="Games.InGame.Header.Title" parent="@style/Games.InGame.TextStyle.Headline.5">
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
     </style>
@@ -1752,46 +1754,102 @@
     <style name="Games.InGame.ListItem.Experience" parent="@style/Games.InGame.ListItem.Label">
         <item name="android:textColor">@color/v2_games_client_accent</item>
     </style>
-    <style name="Games.InGame.ListItem.Label" parent="@style/Games.InGame.ListItem">
-        <item name="android:textSize">12.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_tertiary</item>
+    <style name="Games.InGame.ListItem.InnerContainer" parent="@style/Games.InGame.ListItem">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:paddingLeft">@dimen/v2_games_list_item_left_right_padding</item>
+        <item name="android:paddingTop">@dimen/v2_games_list_item_top_bottom_padding</item>
+        <item name="android:paddingRight">@dimen/v2_games_list_item_left_right_padding</item>
+        <item name="android:paddingBottom">@dimen/v2_games_list_item_top_bottom_padding</item>
+        <item name="android:layout_width">@dimen/v2_games_list_item_width</item>
+        <item name="android:layout_height">wrap_content</item>
     </style>
-    <style name="Games.InGame.ListItem.Progress" parent="@style/Games.InGame.ListItem">
-        <item name="android:textSize">14.0dip</item>
+    <style name="Games.InGame.ListItem.InnerContainer.OnBottomSheetHeader" parent="@style/Games.InGame.ListItem.InnerContainer">
+        <item name="android:paddingTop">0.0dip</item>
+    </style>
+    <style name="Games.InGame.ListItem.Label" parent="@style/Games.InGame.TextStyle.Caption">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">@dimen/v2_games_list_item_text_min_height</item>
+    </style>
+    <style name="Games.InGame.ListItem.LevelBadge" parent="@style/Games.InGame.TextStyle.Caption">
+        <item name="android:textSize">9.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/google_white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/v2_games_level_badge_background</item>
+        <item name="android:layout_width">@dimen/v2_games_list_item_level_badge_size</item>
+        <item name="android:layout_height">@dimen/v2_games_list_item_level_badge_size</item>
+        <item name="android:layout_marginLeft">-4.0dip</item>
+        <item name="android:layout_marginBottom">-4.0dip</item>
+    </style>
+    <style name="Games.InGame.ListItem.OuterContainer" parent="@style/Games.InGame.ListItem">
+        <item name="android:paddingLeft">@dimen/v2_games_list_left_right_extra_padding</item>
+        <item name="android:paddingRight">@dimen/v2_games_list_left_right_extra_padding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Games.InGame.ListItem.OuterContainer.OnBottomSheet" parent="@style/Games.InGame.ListItem.OuterContainer">
+        <item name="android:background">@color/v2_games_client_card_background</item>
+    </style>
+    <style name="Games.InGame.ListItem.OuterContainer.OnBottomSheetHeader" parent="@style/Games.InGame.ListItem.OuterContainer">
+        <item name="android:background">@drawable/v2_games_header_background</item>
+        <item name="android:layout_marginTop">@dimen/v2_games_header_top_margin</item>
+    </style>
+    <style name="Games.InGame.ListItem.Progress" parent="@style/Games.InGame.ListItem.Label">
+        <item name="android:textSize">12.0dip</item>
         <item name="android:textColor">@color/v2_games_client_accent</item>
         <item name="android:ellipsize">end</item>
         <item name="android:maxLines">1</item>
     </style>
-    <style name="Games.InGame.ListItem.Title" parent="@style/Games.InGame.ListItem">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_primary</item>
-        <item name="android:ellipsize">end</item>
+    <style name="Games.InGame.ListItem.Title" parent="@style/Games.InGame.TextStyle.Subhead.1">
         <item name="android:minHeight">@dimen/v2_games_list_item_text_min_height</item>
     </style>
     <style name="Games.InGame.NoData" parent="@style/Games.InGame" />
-    <style name="Games.InGame.NoData.Container" parent="@style/Games.InGame.NoData">
-        <item name="android:paddingLeft">@dimen/v2_games_list_item_side_padding</item>
-        <item name="android:paddingRight">@dimen/v2_games_list_item_side_padding</item>
-        <item name="android:layout_width">fill_parent</item>
+    <style name="Games.InGame.NoData.Container" parent="@style/Games.InGame.ListItem.OuterContainer">
         <item name="android:layout_height">fill_parent</item>
     </style>
-    <style name="Games.InGame.NoData.HeaderContainer" parent="@style/Games.InGame.NoData.Container">
+    <style name="Games.InGame.NoData.Container.OnBottomSheet" parent="@style/Games.InGame.NoData.Container">
+        <item name="android:background">@drawable/v2_games_header_background</item>
         <item name="android:paddingTop">@dimen/v2_games_header_logo_half_size</item>
+        <item name="android:layout_height">fill_parent</item>
         <item name="android:layout_marginTop">@dimen/v2_games_header_top_margin</item>
     </style>
-    <style name="Games.InGame.NoData.Subtitle" parent="@style/Games.InGame.NoData">
-        <item name="android:textSize">14.0sp</item>
-        <item name="android:textColor">@color/games_mvp_text_color_tertiary</item>
+    <style name="Games.InGame.NoData.Subtitle" parent="@style/Games.InGame.TextStyle.Body.2">
         <item name="android:gravity">center_horizontal</item>
     </style>
-    <style name="Games.InGame.NoData.Title" parent="@style/Games.InGame.NoData">
-        <item name="android:textSize">16.0sp</item>
-        <item name="android:textColor">@color/v2_games_client_text_tertiary</item>
+    <style name="Games.InGame.NoData.Title" parent="@style/Games.InGame.TextStyle.Headline.6">
         <item name="android:gravity">center_horizontal</item>
+    </style>
+    <style name="Games.InGame.Participant.Chip" parent="@style/Widget.MaterialComponents.Chip.Action">
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginTop">@dimen/v2_games_card_chip_top_margin</item>
+        <item name="chipBackgroundColor">@color/v2_games_client_card_background</item>
+        <item name="chipStrokeColor">@color/replay__pal_gray_300</item>
+        <item name="chipStrokeWidth">1.0dip</item>
     </style>
     <style name="Games.InGame.ProgressBar" parent="@android:style/Widget.ProgressBar.Horizontal">
         <item name="android:indeterminate">false</item>
         <item name="android:progressDrawable">@drawable/v2_games_progress_bar</item>
+    </style>
+    <style name="Games.InGame.TextStyle.Body.2" parent="@style/TextStyle.Replay.Body.2">
+        <item name="android:textColor">@color/v2_games_client_text_subhead_and_body</item>
+    </style>
+    <style name="Games.InGame.TextStyle.Caption" parent="@style/TextStyle.Replay.Caption">
+        <item name="android:textColor">@color/v2_games_client_text_caption</item>
+    </style>
+    <style name="Games.InGame.TextStyle.Headline.5" parent="@style/TextStyle.Replay.Headline.5">
+        <item name="android:textColor">@color/v2_games_client_text_header</item>
+    </style>
+    <style name="Games.InGame.TextStyle.Headline.6" parent="@style/TextStyle.Replay.Headline.6">
+        <item name="android:textColor">@color/v2_games_client_text_header</item>
+    </style>
+    <style name="Games.InGame.TextStyle.Subhead.1" parent="@style/TextStyle.Replay.Subhead.1">
+        <item name="android:textColor">@color/v2_games_client_text_subhead_and_body</item>
+    </style>
+    <style name="Games.InGame.TextStyle.Subhead.2" parent="@style/TextStyle.Replay.Subhead.2">
+        <item name="android:textColor">@color/v2_games_client_text_subhead_and_body</item>
+    </style>
+    <style name="Games.InGame.TextStyle.Subtitle.2" parent="@style/TextStyle.Replay.Subtitle.2">
+        <item name="android:textColor">@color/v2_games_client_text_subhead_and_body</item>
     </style>
     <style name="Games.LeaderboardScoreNullTextAppearance" parent="@android:style/TextAppearance">
         <item name="android:textSize">@dimen/games_leaderboard_score_null_text_size</item>
@@ -1837,12 +1895,6 @@
         <item name="android:textColor">@color/games_mvp_accent_green</item>
         <item name="android:textAllCaps">true</item>
     </style>
-    <style name="Games.Mvp.BottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
-        <item name="android:windowIsFloating">false</item>
-        <item name="android:windowSoftInputMode">adjustResize|stateHidden</item>
-        <item name="colorPrimary">@color/games_mvp_accent_green</item>
-        <item name="colorAccent">@color/games_mvp_accent_green</item>
-    </style>
     <style name="Games.Mvp.Carousel" parent="@style/Games.Mvp">
         <item name="android:clipToPadding">false</item>
     </style>
@@ -1850,12 +1902,6 @@
         <item name="colorPrimary">@color/games_mvp_primary_button_highlight_color</item>
         <item name="colorPrimaryDark">@color/games_mvp_primary_button_highlight_color</item>
         <item name="colorAccent">@color/games_mvp_secondary_button_highlight_color</item>
-    </style>
-    <style name="Games.Mvp.LibraryGrid" parent="@style/FlowLayoutManager_Layout_Default">
-        <item name="layout_flmGridInsetStart">@dimen/abc_action_bar_default_padding_start_material</item>
-        <item name="layout_flmGridInsetEnd">@dimen/abc_action_bar_default_padding_end_material</item>
-        <item name="layout_flmMaxGridWidth">@dimen/games_mvp_library_grid_max_grid_width</item>
-        <item name="layout_flmGridMinCellSize">470.0dip</item>
     </style>
     <style name="Games.Mvp.PlayerComparisonOtherXpText" parent="@style/Games.Mvp.XpText">
         <item name="android:textColor">@color/games_mvp_profile_comparison_other_color</item>
@@ -2098,11 +2144,6 @@
         <item name="android:textSize">@dimen/hats_lib_survey_header_font_size</item>
         <item name="android:textColor">@color/hats_lib_prompt_text_color</item>
     </style>
-    <style name="Internal.Widget.Replay.BottomNavigationView" parent="@style/Widget.GoogleMaterial.BottomNavigationView">
-        <item name="android:layout_width">fill_parent</item>
-        <item name="android:layout_height">56.0dip</item>
-        <item name="labelVisibilityMode">labeled</item>
-    </style>
     <style name="Platform.AppCompat" parent="@android:style/Theme.Holo">
         <item name="android:colorForeground">@color/foreground_material_dark</item>
         <item name="android:colorBackground">@color/background_material_dark</item>
@@ -2253,9 +2294,6 @@
         <item name="android:drawablePadding">4.0dip</item>
         <item name="android:lineSpacingExtra">0.0sp</item>
     </style>
-    <style name="PlayCardSubtitle.Dark" parent="@style/PlayCardSubtitle">
-        <item name="android:textColor">?gamesSecondaryTextColor</item>
-    </style>
     <style name="PlayCardTitle" parent="@style/PlayPlainText">
         <item name="android:textSize">@dimen/play_title_size</item>
         <item name="android:textColor">@color/play_primary_text</item>
@@ -2268,14 +2306,8 @@
     <style name="PlayCardTitle.Big" parent="@style/PlayCardTitle">
         <item name="android:textSize">@dimen/play_large_title_size</item>
     </style>
-    <style name="PlayCardTitle.Dark" parent="@style/PlayCardTitle">
-        <item name="android:textColor">?gamesPrimaryTextColor</item>
-    </style>
     <style name="PlayCardTitle.Mini" parent="@style/PlayCardTitle">
         <item name="android:textSize">@dimen/play_small_title_size</item>
-    </style>
-    <style name="PlayCardTitle.Mini.Dark" parent="@style/PlayCardTitle.Mini">
-        <item name="android:textColor">?gamesPrimaryTextColor</item>
     </style>
     <style name="PlayCardViewGroup">
         <item name="android:paddingLeft">@dimen/play_card_default_inset</item>
@@ -2287,9 +2319,6 @@
         <item name="playCardElevation">@dimen/play_card_default_elevation</item>
         <item name="playCardInset">@dimen/play_card_default_inset</item>
         <item name="playCardClipToOutline">true</item>
-    </style>
-    <style name="PlayCardViewGroup.Dark" parent="@style/PlayCardViewGroup">
-        <item name="playCardBackgroundColor">@color/play_card_dark_background</item>
     </style>
     <style name="PlayClusterMore" parent="@style/PlayMediumBoldText">
         <item name="android:textSize">@dimen/play_cluster_header_more_size</item>
@@ -2314,18 +2343,12 @@
         <item name="android:maxLines">1</item>
         <item name="android:singleLine">true</item>
     </style>
-    <style name="PlayClusterSubtitle.Dark" parent="@style/PlayClusterSubtitle">
-        <item name="android:textColor">?gamesSecondaryTextColor</item>
-    </style>
     <style name="PlayClusterTitle" parent="@style/PlayMediumPlainText">
         <item name="android:textSize">@dimen/play_cluster_header_title_size</item>
         <item name="android:textColor">@color/play_primary_text</item>
         <item name="android:ellipsize">marquee</item>
         <item name="android:maxLines">1</item>
         <item name="android:singleLine">true</item>
-    </style>
-    <style name="PlayClusterTitle.Dark" parent="@style/PlayClusterTitle">
-        <item name="android:textColor">?gamesPrimaryTextColor</item>
     </style>
     <style name="PlayCondensedText" />
     <style name="PlayGridBoldText">
@@ -2781,6 +2804,17 @@
     <style name="TextAppearance.GameStoreLink" parent="@style/TextAppearance.Replay.Button.GS.Secondary">
         <item name="android:textColor">@color/replay__pal_gray_900</item>
     </style>
+    <style name="TextAppearance.Games.Search.OpenSearchView" parent="@style/TextAppearance.GoogleMaterial.OpenSearchView">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColorHint">@color/replay__pal_gray_400</item>
+        <item name="fontFamily">@font/google_sans_medium</item>
+    </style>
+    <style name="TextAppearance.Games.SearchSuggestion.Query" parent="@style/TextStyle.Replay.Subtitle.2">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="TextAppearance.Games.SearchSuggestion.Suggestion" parent="@style/TextStyle.Replay.Subtitle.2">
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="TextAppearance.GoogleMaterial.Body1" parent="@style/TextAppearance.MaterialComponents.Body1">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textStyle">normal</item>
@@ -2881,6 +2915,12 @@
     </style>
     <style name="TextAppearance.GoogleMaterial.MaterialButton.Secondary" parent="@style/TextAppearance.GoogleMaterial.MaterialButton">
         <item name="android:textColor">@color/google_btn_text_color_selector_secondary</item>
+    </style>
+    <style name="TextAppearance.GoogleMaterial.OpenSearchBar" parent="@style/Base.TextAppearance.GoogleMaterial.OpenSearch" />
+    <style name="TextAppearance.GoogleMaterial.OpenSearchView" parent="@style/Base.TextAppearance.GoogleMaterial.OpenSearch" />
+    <style name="TextAppearance.GoogleMaterial.OpenSearchView.Prefix" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
+        <item name="fontFamily">@font/google_sans</item>
     </style>
     <style name="TextAppearance.GoogleMaterial.Overline" parent="@style/TextAppearance.MaterialComponents.Overline">
         <item name="android:textSize">11.0sp</item>
@@ -2992,15 +3032,6 @@
         <item name="textAllCaps">false</item>
         <item name="fontFamily">sans-serif-medium</item>
     </style>
-    <style name="TextAppearance.MaterialComponents.MaterialButton" parent="@android:style/TextAppearance">
-        <item name="android:textSize">@dimen/mtrl_btn_text_size</item>
-        <item name="android:textColor">@color/mtrl_btn_text_color_selector</item>
-        <item name="android:textAllCaps">@bool/mtrl_btn_textappearance_all_caps</item>
-        <item name="fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="TextAppearance.MaterialComponents.MaterialButton.Secondary" parent="@style/TextAppearance.MaterialComponents.MaterialButton">
-        <item name="android:textColor">@color/mtrl_text_btn_text_color_selector</item>
-    </style>
     <style name="TextAppearance.MaterialComponents.Overline" parent="@style/TextAppearance.AppCompat">
         <item name="android:textSize">12.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -3037,19 +3068,44 @@
     <style name="TextAppearance.Widget.Replay.Toolbar.Title" parent="@style/TextStyle.Replay.Headline.6" />
     <style name="TextStyle.Replay.Body.1" parent="@style/TextAppearance.GoogleMaterial.Body1">
         <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="android:lineSpacingExtra">5.0999756sp</item>
+        <item name="android:lineSpacingExtra">5.0sp</item>
     </style>
     <style name="TextStyle.Replay.Body.2" parent="@style/TextAppearance.GoogleMaterial.Body2">
         <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="android:lineSpacingExtra">3.5999756sp</item>
+        <item name="android:lineSpacingExtra">3.5sp</item>
     </style>
     <style name="TextStyle.Replay.Caption" parent="@style/TextAppearance.GoogleMaterial.Caption">
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="android:lineSpacingExtra">2.0sp</item>
     </style>
+    <style name="TextStyle.Replay.Display.1" parent="@style/TextAppearance.GoogleMaterial.Display1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:lineSpacingExtra">-4.0sp</item>
+        <item name="fontFamily">@font/google_sans_medium</item>
+    </style>
+    <style name="TextStyle.Replay.Display.2" parent="@style/TextAppearance.GoogleMaterial.Display2">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:lineSpacingExtra">-6.0sp</item>
+        <item name="fontFamily">@font/google_sans_medium</item>
+    </style>
+    <style name="TextStyle.Replay.Display.3" parent="@style/TextAppearance.GoogleMaterial.Display3">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:lineSpacingExtra">-3.0sp</item>
+        <item name="fontFamily">@font/google_sans_medium</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.1" parent="@style/TextAppearance.GoogleMaterial.Headline1">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:lineSpacingExtra">-1.0sp</item>
+        <item name="fontFamily">@font/google_sans_medium</item>
+    </style>
+    <style name="TextStyle.Replay.Headline.2" parent="@style/TextAppearance.GoogleMaterial.Headline2">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:lineSpacingExtra">0.0sp</item>
+        <item name="fontFamily">@font/google_sans_medium</item>
+    </style>
     <style name="TextStyle.Replay.Headline.3" parent="@style/TextAppearance.GoogleMaterial.Headline3">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:lineSpacingExtra">1.0999756sp</item>
+        <item name="android:lineSpacingExtra">1.0sp</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
     <style name="TextStyle.Replay.Headline.4" parent="@style/TextAppearance.GoogleMaterial.Headline4">
@@ -3059,17 +3115,17 @@
     </style>
     <style name="TextStyle.Replay.Headline.5" parent="@style/TextAppearance.GoogleMaterial.Headline5">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:lineSpacingExtra">0.70000005sp</item>
+        <item name="android:lineSpacingExtra">0.0sp</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
     <style name="TextStyle.Replay.Headline.6" parent="@style/TextAppearance.GoogleMaterial.Headline6">
         <item name="android:textColor">?android:textColorPrimary</item>
-        <item name="android:lineSpacingExtra">1.2999878sp</item>
+        <item name="android:lineSpacingExtra">2.0sp</item>
         <item name="fontFamily">@font/google_sans_medium</item>
     </style>
     <style name="TextStyle.Replay.Overline" parent="@style/TextAppearance.GoogleMaterial.Overline">
         <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="android:lineSpacingExtra">3.0999756sp</item>
+        <item name="android:lineSpacingExtra">3.0sp</item>
         <item name="android:textAllCaps">true</item>
         <item name="textAllCaps">true</item>
     </style>
@@ -3079,13 +3135,13 @@
     </style>
     <style name="TextStyle.Replay.Subhead.2" parent="@style/TextAppearance.GoogleMaterial.Subhead2">
         <item name="android:textColor">?android:textColorSecondary</item>
-        <item name="android:lineSpacingExtra">2.5sp</item>
+        <item name="android:lineSpacingExtra">2.0sp</item>
     </style>
     <style name="TextStyle.Replay.Subtitle.1" parent="@style/TextAppearance.GoogleMaterial.Subtitle1">
-        <item name="android:lineSpacingExtra">5.0999756sp</item>
+        <item name="android:lineSpacingExtra">5.0sp</item>
     </style>
     <style name="TextStyle.Replay.Subtitle.2" parent="@style/TextAppearance.GoogleMaterial.Subtitle2">
-        <item name="android:lineSpacingExtra">3.5999756sp</item>
+        <item name="android:lineSpacingExtra">4.0sp</item>
     </style>
     <style name="Theme.AppCompat" parent="@style/Base.Theme.AppCompat" />
     <style name="Theme.AppCompat.CompactMenu" parent="@style/Base.Theme.AppCompat.CompactMenu" />
@@ -3129,6 +3185,7 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="ThemeOverlay.AppCompat" parent="@style/Base.ThemeOverlay.AppCompat" />
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.ActionBar" />
     <style name="ThemeOverlay.AppCompat.Dark" parent="@style/Base.ThemeOverlay.AppCompat.Dark" />
     <style name="ThemeOverlay.AppCompat.Dark.ActionBar" parent="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -3296,12 +3353,14 @@
     </style>
     <style name="Widget.GoogleMaterial.Button" parent="@style/Widget.MaterialComponents.Button">
         <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.MaterialButton</item>
+        <item name="android:textColor">@color/google_btn_text_color_selector</item>
         <item name="android:paddingLeft">@dimen/google_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/google_btn_padding_right</item>
         <item name="rippleColor">@color/google_btn_filled_btn_ripple_color</item>
         <item name="iconTint">@color/google_btn_text_color_selector</item>
         <item name="additionalPaddingStartForIcon">@dimen/google_btn_additional_padding_start_for_icon</item>
         <item name="additionalPaddingEndForIcon">@dimen/google_btn_additional_padding_end_for_icon</item>
+        <item name="enforceTextAppearance">false</item>
         <item name="backgroundTint">@color/google_btn_filled_btn_bg_color_selector</item>
     </style>
     <style name="Widget.GoogleMaterial.CardView" parent="@style/Widget.MaterialComponents.CardView">
@@ -3353,10 +3412,26 @@
         <item name="backgroundTint">@color/google_white</item>
     </style>
     <style name="Widget.GoogleMaterial.NavigationView" parent="@style/Widget.MaterialComponents.NavigationView" />
+    <style name="Widget.GoogleMaterial.OpenSearchBar" parent="@android:style/Widget">
+        <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.OpenSearchBar</item>
+        <item name="android:background">@drawable/open_search_bar_background</item>
+        <item name="android:minHeight">@dimen/google_opensearchbar_height</item>
+        <item name="defaultMarginsEnabled">true</item>
+        <item name="hideNavigationIcon">false</item>
+    </style>
     <style name="Widget.GoogleMaterial.OpenSearchView" parent="@android:style/Widget">
-        <item name="android:textSize">@dimen/google_opensearchbar_text_size</item>
-        <item name="android:textColor">@color/google_opensearchbar_text_color</item>
-        <item name="android:textColorHint">@color/google_opensearchbar_hint_text_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.OpenSearchView</item>
+    </style>
+    <style name="Widget.GoogleMaterial.OpenSearchView.Prefix" parent="@android:style/Widget.TextView">
+        <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.OpenSearchView.Prefix</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+        <item name="android:paddingBottom">8.0dip</item>
+    </style>
+    <style name="Widget.GoogleMaterial.ProductLockupView" parent="@android:style/Widget">
+        <item name="productNameTextColor">@color/google_grey700</item>
+        <item name="logoColor">standard</item>
+        <item name="lockupSizingMode">auto</item>
     </style>
     <style name="Widget.GoogleMaterial.StrokedButton" parent="@style/Widget.GoogleMaterial.TextButton">
         <item name="strokeColor">@color/google_btn_stroke_color_selector</item>
@@ -3370,12 +3445,14 @@
     </style>
     <style name="Widget.GoogleMaterial.TextButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
         <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.MaterialButton.Secondary</item>
+        <item name="android:textColor">@color/google_btn_text_color_selector_secondary</item>
         <item name="android:paddingLeft">@dimen/google_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/google_btn_padding_right</item>
         <item name="rippleColor">@color/google_btn_ripple_color</item>
         <item name="iconTint">@color/google_btn_text_color_selector_secondary</item>
         <item name="additionalPaddingStartForIcon">@dimen/google_btn_additional_padding_start_for_icon</item>
         <item name="additionalPaddingEndForIcon">@dimen/google_btn_additional_padding_end_for_icon</item>
+        <item name="enforceTextAppearance">false</item>
     </style>
     <style name="Widget.GoogleMaterial.TextButton.Dialog" parent="@style/Widget.GoogleMaterial.TextButton">
         <item name="android:paddingLeft">@dimen/google_btn_dialog_btn_spacing</item>
@@ -3407,7 +3484,8 @@
     </style>
     <style name="Widget.MaterialComponents.BottomSheet.Modal" parent="@style/Widget.Design.BottomSheet.Modal" />
     <style name="Widget.MaterialComponents.Button" parent="@style/Widget.AppCompat.Button">
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.MaterialButton</item>
+        <item name="android:textAppearance">?textAppearanceButton</item>
+        <item name="android:textColor">@color/mtrl_btn_text_color_selector</item>
         <item name="android:paddingLeft">@dimen/mtrl_btn_padding_left</item>
         <item name="android:paddingTop">@dimen/mtrl_btn_padding_top</item>
         <item name="android:paddingRight">@dimen/mtrl_btn_padding_right</item>
@@ -3417,15 +3495,16 @@
         <item name="android:insetTop">@dimen/mtrl_btn_inset</item>
         <item name="android:insetBottom">@dimen/mtrl_btn_inset</item>
         <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
+        <item name="cornerRadius">@dimen/mtrl_btn_corner_radius</item>
         <item name="iconPadding">@dimen/mtrl_btn_icon_padding</item>
         <item name="iconTint">@color/mtrl_btn_text_color_selector</item>
         <item name="additionalPaddingStartForIcon">@dimen/mtrl_btn_additional_padding_start_for_icon</item>
         <item name="additionalPaddingEndForIcon">@dimen/mtrl_btn_additional_padding_end_for_icon</item>
-        <item name="cornerRadius">@dimen/mtrl_btn_corner_radius</item>
+        <item name="enforceTextAppearance">true</item>
         <item name="backgroundTint">@color/mtrl_btn_bg_color_selector</item>
     </style>
     <style name="Widget.MaterialComponents.Button.TextButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
-        <item name="android:textAppearance">@style/TextAppearance.MaterialComponents.MaterialButton.Secondary</item>
+        <item name="android:textColor">@color/mtrl_text_btn_text_color_selector</item>
         <item name="android:paddingLeft">@dimen/mtrl_btn_text_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/mtrl_btn_text_btn_padding_right</item>
         <item name="rippleColor">@color/mtrl_btn_text_btn_ripple_color</item>
@@ -3474,23 +3553,20 @@
         <item name="tabRippleColor">@color/mtrl_tabs_ripple_color</item>
         <item name="tabUnboundedRipple">true</item>
     </style>
-    <style name="Widget.MaterialComponents.TextInputLayout.FilledBox" parent="@style/Base.Widget.MaterialComponents.TextInputLayout">
-        <item name="boxBackgroundMode">filled</item>
-        <item name="boxCollapsedPaddingTop">@dimen/mtrl_textinput_filled_box_collapsed_padding</item>
-        <item name="boxExpandedPaddingTop">@dimen/mtrl_textinput_filled_box_expanded_padding</item>
-        <item name="boxCollapsedPaddingBottom">@dimen/mtrl_textinput_box_padding_bottom</item>
-        <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_small</item>
-        <item name="boxCornerRadiusBottomEnd">@dimen/mtrl_textinput_box_corner_radius_small</item>
-        <item name="boxExpandedPaddingBottom">@dimen/mtrl_textinput_outline_box_expanded_padding</item>
-        <item name="boxBackgroundColor">@color/mtrl_textinput_filled_box_default_background_color</item>
+    <style name="Widget.Replay.BottomNavigationView" parent="@style/Widget.GoogleMaterial.BottomNavigationView">
+        <item name="android:background">?replay__window_background_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">56.0dip</item>
+        <item name="labelVisibilityMode">labeled</item>
+        <item name="itemIconTint">@color/replay__selectable_item_tint</item>
+        <item name="itemTextColor">@color/replay__selectable_item_tint</item>
     </style>
-    <style name="Widget.Replay.BottomNavigationView.Light" parent="@style/Internal.Widget.Replay.BottomNavigationView">
-        <item name="android:background">#ffffffff</item>
-        <item name="itemIconTint">@color/replay__bottomnavigationview_item_light_tint</item>
-        <item name="itemTextColor">@color/replay__bottomnavigationview_item_light_tint</item>
+    <style name="Widget.Replay.BottomSheet.Modal" parent="@style/Widget.GoogleMaterial.BottomSheet.Modal">
+        <item name="android:background">?replay__window_background_color</item>
+        <item name="behavior_peekHeight">480.0dip</item>
     </style>
-    <style name="Widget.Replay.BottomSheet.Modal.Light" parent="@style/Widget.GoogleMaterial.BottomSheet.Modal">
-        <item name="android:background">@color/replay__window_background_light</item>
+    <style name="Widget.Replay.CardImageView.Light" parent="@style/Base.Widget.Replay.CardImageView">
+        <item name="backgroundColor">@color/replay__pal_gray_300</item>
     </style>
     <style name="Widget.Replay.FillButton" parent="@style/Widget.GoogleMaterial.Button">
         <item name="android:textAppearance">@style/TextAppearance.Replay.Button.GS</item>
@@ -3549,13 +3625,12 @@
     <item type="style" name="APKTOOL_DUMMY_39">false</item>
     <item type="style" name="APKTOOL_DUMMY_3b">false</item>
     <item type="style" name="APKTOOL_DUMMY_41">false</item>
-    <item type="style" name="APKTOOL_DUMMY_4c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_51">false</item>
+    <item type="style" name="APKTOOL_DUMMY_4d">false</item>
     <item type="style" name="APKTOOL_DUMMY_52">false</item>
     <item type="style" name="APKTOOL_DUMMY_53">false</item>
     <item type="style" name="APKTOOL_DUMMY_54">false</item>
     <item type="style" name="APKTOOL_DUMMY_55">false</item>
-    <item type="style" name="APKTOOL_DUMMY_5a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_56">false</item>
     <item type="style" name="APKTOOL_DUMMY_5b">false</item>
     <item type="style" name="APKTOOL_DUMMY_5c">false</item>
     <item type="style" name="APKTOOL_DUMMY_5d">false</item>
@@ -3566,7 +3641,7 @@
     <item type="style" name="APKTOOL_DUMMY_62">false</item>
     <item type="style" name="APKTOOL_DUMMY_63">false</item>
     <item type="style" name="APKTOOL_DUMMY_64">false</item>
-    <item type="style" name="APKTOOL_DUMMY_68">false</item>
+    <item type="style" name="APKTOOL_DUMMY_65">false</item>
     <item type="style" name="APKTOOL_DUMMY_69">false</item>
     <item type="style" name="APKTOOL_DUMMY_6a">false</item>
     <item type="style" name="APKTOOL_DUMMY_6b">false</item>
@@ -3577,65 +3652,64 @@
     <item type="style" name="APKTOOL_DUMMY_70">false</item>
     <item type="style" name="APKTOOL_DUMMY_71">false</item>
     <item type="style" name="APKTOOL_DUMMY_72">false</item>
-    <item type="style" name="APKTOOL_DUMMY_74">false</item>
-    <item type="style" name="APKTOOL_DUMMY_76">false</item>
+    <item type="style" name="APKTOOL_DUMMY_73">false</item>
+    <item type="style" name="APKTOOL_DUMMY_75">false</item>
     <item type="style" name="APKTOOL_DUMMY_77">false</item>
     <item type="style" name="APKTOOL_DUMMY_78">false</item>
     <item type="style" name="APKTOOL_DUMMY_79">false</item>
     <item type="style" name="APKTOOL_DUMMY_7a">false</item>
     <item type="style" name="APKTOOL_DUMMY_7b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_89">false</item>
+    <item type="style" name="APKTOOL_DUMMY_7c">false</item>
     <item type="style" name="APKTOOL_DUMMY_8a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_8d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_8b">false</item>
     <item type="style" name="APKTOOL_DUMMY_8e">false</item>
-    <item type="style" name="APKTOOL_DUMMY_96">false</item>
-    <item type="style" name="APKTOOL_DUMMY_bc">false</item>
-    <item type="style" name="APKTOOL_DUMMY_c7">false</item>
-    <item type="style" name="APKTOOL_DUMMY_d0">false</item>
-    <item type="style" name="APKTOOL_DUMMY_d2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_dc">false</item>
-    <item type="style" name="APKTOOL_DUMMY_dd">false</item>
-    <item type="style" name="APKTOOL_DUMMY_f1">false</item>
-    <item type="style" name="APKTOOL_DUMMY_f2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_f3">false</item>
+    <item type="style" name="APKTOOL_DUMMY_8f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_97">false</item>
+    <item type="style" name="APKTOOL_DUMMY_bd">false</item>
+    <item type="style" name="APKTOOL_DUMMY_c8">false</item>
+    <item type="style" name="APKTOOL_DUMMY_d1">false</item>
+    <item type="style" name="APKTOOL_DUMMY_d3">false</item>
+    <item type="style" name="APKTOOL_DUMMY_da">false</item>
+    <item type="style" name="APKTOOL_DUMMY_db">false</item>
+    <item type="style" name="APKTOOL_DUMMY_df">false</item>
+    <item type="style" name="APKTOOL_DUMMY_e0">false</item>
+    <item type="style" name="APKTOOL_DUMMY_f4">false</item>
     <item type="style" name="APKTOOL_DUMMY_f5">false</item>
+    <item type="style" name="APKTOOL_DUMMY_f6">false</item>
     <item type="style" name="APKTOOL_DUMMY_f8">false</item>
-    <item type="style" name="APKTOOL_DUMMY_fe">false</item>
-    <item type="style" name="APKTOOL_DUMMY_100">false</item>
-    <item type="style" name="APKTOOL_DUMMY_104">false</item>
+    <item type="style" name="APKTOOL_DUMMY_fb">false</item>
+    <item type="style" name="APKTOOL_DUMMY_ff">false</item>
+    <item type="style" name="APKTOOL_DUMMY_101">false</item>
     <item type="style" name="APKTOOL_DUMMY_105">false</item>
-    <item type="style" name="APKTOOL_DUMMY_10c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_10f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_110">false</item>
-    <item type="style" name="APKTOOL_DUMMY_113">false</item>
-    <item type="style" name="APKTOOL_DUMMY_114">false</item>
-    <item type="style" name="APKTOOL_DUMMY_11f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_126">false</item>
-    <item type="style" name="APKTOOL_DUMMY_132">false</item>
-    <item type="style" name="APKTOOL_DUMMY_149">false</item>
+    <item type="style" name="APKTOOL_DUMMY_106">false</item>
+    <item type="style" name="APKTOOL_DUMMY_10e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_111">false</item>
+    <item type="style" name="APKTOOL_DUMMY_112">false</item>
+    <item type="style" name="APKTOOL_DUMMY_115">false</item>
+    <item type="style" name="APKTOOL_DUMMY_116">false</item>
+    <item type="style" name="APKTOOL_DUMMY_121">false</item>
+    <item type="style" name="APKTOOL_DUMMY_129">false</item>
+    <item type="style" name="APKTOOL_DUMMY_134">false</item>
+    <item type="style" name="APKTOOL_DUMMY_13a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_14c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_14f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_150">false</item>
+    <item type="style" name="APKTOOL_DUMMY_151">false</item>
+    <item type="style" name="APKTOOL_DUMMY_152">false</item>
     <item type="style" name="APKTOOL_DUMMY_153">false</item>
     <item type="style" name="APKTOOL_DUMMY_154">false</item>
     <item type="style" name="APKTOOL_DUMMY_155">false</item>
-    <item type="style" name="APKTOOL_DUMMY_157">false</item>
-    <item type="style" name="APKTOOL_DUMMY_15e">false</item>
-    <item type="style" name="APKTOOL_DUMMY_160">false</item>
-    <item type="style" name="APKTOOL_DUMMY_164">false</item>
-    <item type="style" name="APKTOOL_DUMMY_165">false</item>
+    <item type="style" name="APKTOOL_DUMMY_158">false</item>
+    <item type="style" name="APKTOOL_DUMMY_15b">false</item>
     <item type="style" name="APKTOOL_DUMMY_168">false</item>
-    <item type="style" name="APKTOOL_DUMMY_16b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_16c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_16d">false</item>
-    <item type="style" name="APKTOOL_DUMMY_16e">false</item>
-    <item type="style" name="APKTOOL_DUMMY_16f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_170">false</item>
     <item type="style" name="APKTOOL_DUMMY_171">false</item>
     <item type="style" name="APKTOOL_DUMMY_172">false</item>
-    <item type="style" name="APKTOOL_DUMMY_174">false</item>
-    <item type="style" name="APKTOOL_DUMMY_176">false</item>
-    <item type="style" name="APKTOOL_DUMMY_181">false</item>
+    <item type="style" name="APKTOOL_DUMMY_173">false</item>
+    <item type="style" name="APKTOOL_DUMMY_175">false</item>
+    <item type="style" name="APKTOOL_DUMMY_17c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_17e">false</item>
     <item type="style" name="APKTOOL_DUMMY_182">false</item>
     <item type="style" name="APKTOOL_DUMMY_183">false</item>
-    <item type="style" name="APKTOOL_DUMMY_184">false</item>
     <item type="style" name="APKTOOL_DUMMY_186">false</item>
     <item type="style" name="APKTOOL_DUMMY_189">false</item>
     <item type="style" name="APKTOOL_DUMMY_18a">false</item>
@@ -3644,57 +3718,56 @@
     <item type="style" name="APKTOOL_DUMMY_18d">false</item>
     <item type="style" name="APKTOOL_DUMMY_18e">false</item>
     <item type="style" name="APKTOOL_DUMMY_18f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_191">false</item>
-    <item type="style" name="APKTOOL_DUMMY_196">false</item>
-    <item type="style" name="APKTOOL_DUMMY_197">false</item>
-    <item type="style" name="APKTOOL_DUMMY_198">false</item>
-    <item type="style" name="APKTOOL_DUMMY_199">false</item>
-    <item type="style" name="APKTOOL_DUMMY_19a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1a5">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1a6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_190">false</item>
+    <item type="style" name="APKTOOL_DUMMY_192">false</item>
+    <item type="style" name="APKTOOL_DUMMY_194">false</item>
+    <item type="style" name="APKTOOL_DUMMY_19f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1a0">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1a1">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1a2">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1a4">false</item>
     <item type="style" name="APKTOOL_DUMMY_1a7">false</item>
     <item type="style" name="APKTOOL_DUMMY_1a8">false</item>
     <item type="style" name="APKTOOL_DUMMY_1a9">false</item>
     <item type="style" name="APKTOOL_DUMMY_1aa">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1ae">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1ab">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1ac">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1ad">false</item>
     <item type="style" name="APKTOOL_DUMMY_1af">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1b2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1b3">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1ba">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1bb">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1bc">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1be">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1bf">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1cd">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1d4">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1d5">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1d6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1b4">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1b5">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1b6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1b7">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1b8">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1c3">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1c4">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1c5">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1c6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1c7">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1c8">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1cb">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1cc">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1cf">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1d0">false</item>
     <item type="style" name="APKTOOL_DUMMY_1d7">false</item>
     <item type="style" name="APKTOOL_DUMMY_1d8">false</item>
     <item type="style" name="APKTOOL_DUMMY_1d9">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1da">false</item>
     <item type="style" name="APKTOOL_DUMMY_1db">false</item>
     <item type="style" name="APKTOOL_DUMMY_1dc">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1dd">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1de">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1df">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1e0">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1e1">false</item>
     <item type="style" name="APKTOOL_DUMMY_1e2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1e3">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1e4">false</item>
     <item type="style" name="APKTOOL_DUMMY_1e5">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1e6">false</item>
     <item type="style" name="APKTOOL_DUMMY_1e7">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1e8">false</item>
     <item type="style" name="APKTOOL_DUMMY_1e9">false</item>
     <item type="style" name="APKTOOL_DUMMY_1ea">false</item>
-    <item type="style" name="APKTOOL_DUMMY_1eb">false</item>
     <item type="style" name="APKTOOL_DUMMY_1ed">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1ef">false</item>
     <item type="style" name="APKTOOL_DUMMY_1f1">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1f2">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1f3">false</item>
     <item type="style" name="APKTOOL_DUMMY_1f4">false</item>
     <item type="style" name="APKTOOL_DUMMY_1f5">false</item>
     <item type="style" name="APKTOOL_DUMMY_1f6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_1f7">false</item>
     <item type="style" name="APKTOOL_DUMMY_1f8">false</item>
     <item type="style" name="APKTOOL_DUMMY_1f9">false</item>
     <item type="style" name="APKTOOL_DUMMY_1fa">false</item>
@@ -3706,136 +3779,132 @@
     <item type="style" name="APKTOOL_DUMMY_200">false</item>
     <item type="style" name="APKTOOL_DUMMY_201">false</item>
     <item type="style" name="APKTOOL_DUMMY_202">false</item>
+    <item type="style" name="APKTOOL_DUMMY_203">false</item>
     <item type="style" name="APKTOOL_DUMMY_204">false</item>
     <item type="style" name="APKTOOL_DUMMY_205">false</item>
     <item type="style" name="APKTOOL_DUMMY_206">false</item>
     <item type="style" name="APKTOOL_DUMMY_207">false</item>
     <item type="style" name="APKTOOL_DUMMY_208">false</item>
-    <item type="style" name="APKTOOL_DUMMY_209">false</item>
     <item type="style" name="APKTOOL_DUMMY_20a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_20b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_20c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_20d">false</item>
     <item type="style" name="APKTOOL_DUMMY_20e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_211">false</item>
+    <item type="style" name="APKTOOL_DUMMY_212">false</item>
     <item type="style" name="APKTOOL_DUMMY_213">false</item>
-    <item type="style" name="APKTOOL_DUMMY_231">false</item>
-    <item type="style" name="APKTOOL_DUMMY_235">false</item>
-    <item type="style" name="APKTOOL_DUMMY_244">false</item>
-    <item type="style" name="APKTOOL_DUMMY_245">false</item>
-    <item type="style" name="APKTOOL_DUMMY_246">false</item>
-    <item type="style" name="APKTOOL_DUMMY_247">false</item>
-    <item type="style" name="APKTOOL_DUMMY_249">false</item>
-    <item type="style" name="APKTOOL_DUMMY_24a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_24b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_24c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_24d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_215">false</item>
+    <item type="style" name="APKTOOL_DUMMY_216">false</item>
+    <item type="style" name="APKTOOL_DUMMY_217">false</item>
+    <item type="style" name="APKTOOL_DUMMY_218">false</item>
+    <item type="style" name="APKTOOL_DUMMY_219">false</item>
+    <item type="style" name="APKTOOL_DUMMY_21a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_21b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_21c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_21d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_21e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_21f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_221">false</item>
+    <item type="style" name="APKTOOL_DUMMY_222">false</item>
+    <item type="style" name="APKTOOL_DUMMY_223">false</item>
+    <item type="style" name="APKTOOL_DUMMY_224">false</item>
+    <item type="style" name="APKTOOL_DUMMY_225">false</item>
+    <item type="style" name="APKTOOL_DUMMY_226">false</item>
+    <item type="style" name="APKTOOL_DUMMY_227">false</item>
+    <item type="style" name="APKTOOL_DUMMY_228">false</item>
+    <item type="style" name="APKTOOL_DUMMY_229">false</item>
+    <item type="style" name="APKTOOL_DUMMY_22a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_22b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_230">false</item>
     <item type="style" name="APKTOOL_DUMMY_24e">false</item>
-    <item type="style" name="APKTOOL_DUMMY_24f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_250">false</item>
-    <item type="style" name="APKTOOL_DUMMY_251">false</item>
     <item type="style" name="APKTOOL_DUMMY_252">false</item>
-    <item type="style" name="APKTOOL_DUMMY_253">false</item>
-    <item type="style" name="APKTOOL_DUMMY_255">false</item>
-    <item type="style" name="APKTOOL_DUMMY_256">false</item>
-    <item type="style" name="APKTOOL_DUMMY_257">false</item>
-    <item type="style" name="APKTOOL_DUMMY_258">false</item>
-    <item type="style" name="APKTOOL_DUMMY_259">false</item>
-    <item type="style" name="APKTOOL_DUMMY_25a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_25b">false</item>
     <item type="style" name="APKTOOL_DUMMY_261">false</item>
-    <item type="style" name="APKTOOL_DUMMY_265">false</item>
+    <item type="style" name="APKTOOL_DUMMY_262">false</item>
+    <item type="style" name="APKTOOL_DUMMY_263">false</item>
+    <item type="style" name="APKTOOL_DUMMY_264">false</item>
     <item type="style" name="APKTOOL_DUMMY_266">false</item>
+    <item type="style" name="APKTOOL_DUMMY_267">false</item>
+    <item type="style" name="APKTOOL_DUMMY_268">false</item>
     <item type="style" name="APKTOOL_DUMMY_269">false</item>
+    <item type="style" name="APKTOOL_DUMMY_26a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_26b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_26c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_26d">false</item>
     <item type="style" name="APKTOOL_DUMMY_26e">false</item>
     <item type="style" name="APKTOOL_DUMMY_26f">false</item>
     <item type="style" name="APKTOOL_DUMMY_270">false</item>
-    <item type="style" name="APKTOOL_DUMMY_271">false</item>
+    <item type="style" name="APKTOOL_DUMMY_272">false</item>
     <item type="style" name="APKTOOL_DUMMY_273">false</item>
     <item type="style" name="APKTOOL_DUMMY_274">false</item>
     <item type="style" name="APKTOOL_DUMMY_275">false</item>
     <item type="style" name="APKTOOL_DUMMY_276">false</item>
     <item type="style" name="APKTOOL_DUMMY_277">false</item>
     <item type="style" name="APKTOOL_DUMMY_278">false</item>
+    <item type="style" name="APKTOOL_DUMMY_27e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_282">false</item>
+    <item type="style" name="APKTOOL_DUMMY_283">false</item>
     <item type="style" name="APKTOOL_DUMMY_286">false</item>
-    <item type="style" name="APKTOOL_DUMMY_287">false</item>
+    <item type="style" name="APKTOOL_DUMMY_28b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_28c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_28d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_28e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_290">false</item>
+    <item type="style" name="APKTOOL_DUMMY_291">false</item>
     <item type="style" name="APKTOOL_DUMMY_292">false</item>
+    <item type="style" name="APKTOOL_DUMMY_293">false</item>
     <item type="style" name="APKTOOL_DUMMY_294">false</item>
-    <item type="style" name="APKTOOL_DUMMY_298">false</item>
-    <item type="style" name="APKTOOL_DUMMY_29a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_29c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_29e">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2a2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2a9">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2aa">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2ab">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2ac">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2ad">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2ae">false</item>
+    <item type="style" name="APKTOOL_DUMMY_295">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2a3">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2a4">false</item>
     <item type="style" name="APKTOOL_DUMMY_2af">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2b0">false</item>
     <item type="style" name="APKTOOL_DUMMY_2b1">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2b2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2d9">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2e0">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2e1">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2f1">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2f4">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2f5">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2f6">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2f7">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2f8">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2fb">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2b5">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2b7">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2b9">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2bb">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2bf">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2c6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2c7">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2c8">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2c9">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2ca">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2cb">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2cc">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2cd">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2ce">false</item>
+    <item type="style" name="APKTOOL_DUMMY_2cf">false</item>
     <item type="style" name="APKTOOL_DUMMY_2fc">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2fd">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2fe">false</item>
-    <item type="style" name="APKTOOL_DUMMY_2ff">false</item>
-    <item type="style" name="APKTOOL_DUMMY_300">false</item>
-    <item type="style" name="APKTOOL_DUMMY_307">false</item>
-    <item type="style" name="APKTOOL_DUMMY_308">false</item>
-    <item type="style" name="APKTOOL_DUMMY_309">false</item>
-    <item type="style" name="APKTOOL_DUMMY_30a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_30b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_303">false</item>
+    <item type="style" name="APKTOOL_DUMMY_304">false</item>
+    <item type="style" name="APKTOOL_DUMMY_312">false</item>
+    <item type="style" name="APKTOOL_DUMMY_314">false</item>
+    <item type="style" name="APKTOOL_DUMMY_316">false</item>
     <item type="style" name="APKTOOL_DUMMY_317">false</item>
     <item type="style" name="APKTOOL_DUMMY_318">false</item>
     <item type="style" name="APKTOOL_DUMMY_319">false</item>
     <item type="style" name="APKTOOL_DUMMY_31a">false</item>
     <item type="style" name="APKTOOL_DUMMY_31b">false</item>
     <item type="style" name="APKTOOL_DUMMY_31c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_31d">false</item>
-    <item type="style" name="APKTOOL_DUMMY_31e">false</item>
     <item type="style" name="APKTOOL_DUMMY_31f">false</item>
     <item type="style" name="APKTOOL_DUMMY_320">false</item>
     <item type="style" name="APKTOOL_DUMMY_321">false</item>
-    <item type="style" name="APKTOOL_DUMMY_326">false</item>
-    <item type="style" name="APKTOOL_DUMMY_327">false</item>
-    <item type="style" name="APKTOOL_DUMMY_32a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_322">false</item>
+    <item type="style" name="APKTOOL_DUMMY_323">false</item>
+    <item type="style" name="APKTOOL_DUMMY_324">false</item>
+    <item type="style" name="APKTOOL_DUMMY_329">false</item>
     <item type="style" name="APKTOOL_DUMMY_32b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_32c">false</item>
     <item type="style" name="APKTOOL_DUMMY_32d">false</item>
     <item type="style" name="APKTOOL_DUMMY_32f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_330">false</item>
     <item type="style" name="APKTOOL_DUMMY_331">false</item>
-    <item type="style" name="APKTOOL_DUMMY_332">false</item>
     <item type="style" name="APKTOOL_DUMMY_333">false</item>
-    <item type="style" name="APKTOOL_DUMMY_334">false</item>
     <item type="style" name="APKTOOL_DUMMY_335">false</item>
-    <item type="style" name="APKTOOL_DUMMY_336">false</item>
     <item type="style" name="APKTOOL_DUMMY_337">false</item>
-    <item type="style" name="APKTOOL_DUMMY_338">false</item>
-    <item type="style" name="APKTOOL_DUMMY_33c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_339">false</item>
+    <item type="style" name="APKTOOL_DUMMY_33b">false</item>
     <item type="style" name="APKTOOL_DUMMY_33d">false</item>
-    <item type="style" name="APKTOOL_DUMMY_33e">false</item>
     <item type="style" name="APKTOOL_DUMMY_33f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_340">false</item>
     <item type="style" name="APKTOOL_DUMMY_341">false</item>
-    <item type="style" name="APKTOOL_DUMMY_342">false</item>
     <item type="style" name="APKTOOL_DUMMY_343">false</item>
-    <item type="style" name="APKTOOL_DUMMY_344">false</item>
     <item type="style" name="APKTOOL_DUMMY_345">false</item>
-    <item type="style" name="APKTOOL_DUMMY_346">false</item>
-    <item type="style" name="APKTOOL_DUMMY_348">false</item>
+    <item type="style" name="APKTOOL_DUMMY_347">false</item>
     <item type="style" name="APKTOOL_DUMMY_349">false</item>
-    <item type="style" name="APKTOOL_DUMMY_34b">false</item>
     <item type="style" name="APKTOOL_DUMMY_34c">false</item>
     <item type="style" name="APKTOOL_DUMMY_34d">false</item>
     <item type="style" name="APKTOOL_DUMMY_34e">false</item>
@@ -3843,113 +3912,170 @@
     <item type="style" name="APKTOOL_DUMMY_350">false</item>
     <item type="style" name="APKTOOL_DUMMY_351">false</item>
     <item type="style" name="APKTOOL_DUMMY_352">false</item>
-    <item type="style" name="APKTOOL_DUMMY_357">false</item>
-    <item type="style" name="APKTOOL_DUMMY_35e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_353">false</item>
+    <item type="style" name="APKTOOL_DUMMY_354">false</item>
+    <item type="style" name="APKTOOL_DUMMY_355">false</item>
+    <item type="style" name="APKTOOL_DUMMY_356">false</item>
+    <item type="style" name="APKTOOL_DUMMY_35b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_35c">false</item>
     <item type="style" name="APKTOOL_DUMMY_35f">false</item>
     <item type="style" name="APKTOOL_DUMMY_360">false</item>
     <item type="style" name="APKTOOL_DUMMY_361">false</item>
+    <item type="style" name="APKTOOL_DUMMY_362">false</item>
     <item type="style" name="APKTOOL_DUMMY_364">false</item>
     <item type="style" name="APKTOOL_DUMMY_365">false</item>
     <item type="style" name="APKTOOL_DUMMY_366">false</item>
     <item type="style" name="APKTOOL_DUMMY_367">false</item>
     <item type="style" name="APKTOOL_DUMMY_368">false</item>
+    <item type="style" name="APKTOOL_DUMMY_369">false</item>
+    <item type="style" name="APKTOOL_DUMMY_36a">false</item>
     <item type="style" name="APKTOOL_DUMMY_36b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_36c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_36d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_371">false</item>
+    <item type="style" name="APKTOOL_DUMMY_372">false</item>
+    <item type="style" name="APKTOOL_DUMMY_373">false</item>
+    <item type="style" name="APKTOOL_DUMMY_374">false</item>
+    <item type="style" name="APKTOOL_DUMMY_375">false</item>
+    <item type="style" name="APKTOOL_DUMMY_376">false</item>
+    <item type="style" name="APKTOOL_DUMMY_377">false</item>
+    <item type="style" name="APKTOOL_DUMMY_378">false</item>
+    <item type="style" name="APKTOOL_DUMMY_379">false</item>
+    <item type="style" name="APKTOOL_DUMMY_37a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_37b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_37d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_37e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_380">false</item>
+    <item type="style" name="APKTOOL_DUMMY_381">false</item>
+    <item type="style" name="APKTOOL_DUMMY_382">false</item>
+    <item type="style" name="APKTOOL_DUMMY_383">false</item>
+    <item type="style" name="APKTOOL_DUMMY_384">false</item>
+    <item type="style" name="APKTOOL_DUMMY_385">false</item>
+    <item type="style" name="APKTOOL_DUMMY_386">false</item>
     <item type="style" name="APKTOOL_DUMMY_387">false</item>
+    <item type="style" name="APKTOOL_DUMMY_388">false</item>
     <item type="style" name="APKTOOL_DUMMY_389">false</item>
     <item type="style" name="APKTOOL_DUMMY_38b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_38d">false</item>
     <item type="style" name="APKTOOL_DUMMY_38f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_391">false</item>
-    <item type="style" name="APKTOOL_DUMMY_393">false</item>
-    <item type="style" name="APKTOOL_DUMMY_394">false</item>
-    <item type="style" name="APKTOOL_DUMMY_396">false</item>
-    <item type="style" name="APKTOOL_DUMMY_397">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3a4">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3ad">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3b1">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3b5">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3b6">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3bd">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3c2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3c7">false</item>
+    <item type="style" name="APKTOOL_DUMMY_390">false</item>
+    <item type="style" name="APKTOOL_DUMMY_398">false</item>
+    <item type="style" name="APKTOOL_DUMMY_399">false</item>
+    <item type="style" name="APKTOOL_DUMMY_39a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_39b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_39e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_39f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a0">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a1">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a2">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a5">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a7">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a8">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3a9">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3aa">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3c6">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3c8">false</item>
     <item type="style" name="APKTOOL_DUMMY_3ca">false</item>
     <item type="style" name="APKTOOL_DUMMY_3cc">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3cd">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3cf">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3ce">false</item>
     <item type="style" name="APKTOOL_DUMMY_3d0">false</item>
     <item type="style" name="APKTOOL_DUMMY_3d2">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3d4">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3d7">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3db">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3dc">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3dd">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3de">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3e1">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3d3">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3d5">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3d6">false</item>
     <item type="style" name="APKTOOL_DUMMY_3e3">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3e6">false</item>
     <item type="style" name="APKTOOL_DUMMY_3ec">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3ee">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3f3">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3f0">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3f4">false</item>
     <item type="style" name="APKTOOL_DUMMY_3f5">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3f6">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3f7">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3f8">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3fa">false</item>
-    <item type="style" name="APKTOOL_DUMMY_3fd">false</item>
+    <item type="style" name="APKTOOL_DUMMY_3fc">false</item>
     <item type="style" name="APKTOOL_DUMMY_400">false</item>
-    <item type="style" name="APKTOOL_DUMMY_401">false</item>
     <item type="style" name="APKTOOL_DUMMY_402">false</item>
-    <item type="style" name="APKTOOL_DUMMY_406">false</item>
     <item type="style" name="APKTOOL_DUMMY_407">false</item>
-    <item type="style" name="APKTOOL_DUMMY_408">false</item>
-    <item type="style" name="APKTOOL_DUMMY_409">false</item>
     <item type="style" name="APKTOOL_DUMMY_40a">false</item>
     <item type="style" name="APKTOOL_DUMMY_40c">false</item>
     <item type="style" name="APKTOOL_DUMMY_40d">false</item>
-    <item type="style" name="APKTOOL_DUMMY_40e">false</item>
     <item type="style" name="APKTOOL_DUMMY_40f">false</item>
     <item type="style" name="APKTOOL_DUMMY_410">false</item>
-    <item type="style" name="APKTOOL_DUMMY_411">false</item>
-    <item type="style" name="APKTOOL_DUMMY_412">false</item>
-    <item type="style" name="APKTOOL_DUMMY_413">false</item>
-    <item type="style" name="APKTOOL_DUMMY_415">false</item>
     <item type="style" name="APKTOOL_DUMMY_416">false</item>
     <item type="style" name="APKTOOL_DUMMY_417">false</item>
-    <item type="style" name="APKTOOL_DUMMY_418">false</item>
-    <item type="style" name="APKTOOL_DUMMY_419">false</item>
     <item type="style" name="APKTOOL_DUMMY_41a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_41b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_41c">false</item>
     <item type="style" name="APKTOOL_DUMMY_41e">false</item>
     <item type="style" name="APKTOOL_DUMMY_41f">false</item>
     <item type="style" name="APKTOOL_DUMMY_420">false</item>
     <item type="style" name="APKTOOL_DUMMY_421">false</item>
-    <item type="style" name="APKTOOL_DUMMY_422">false</item>
-    <item type="style" name="APKTOOL_DUMMY_423">false</item>
     <item type="style" name="APKTOOL_DUMMY_424">false</item>
-    <item type="style" name="APKTOOL_DUMMY_425">false</item>
     <item type="style" name="APKTOOL_DUMMY_426">false</item>
-    <item type="style" name="APKTOOL_DUMMY_427">false</item>
-    <item type="style" name="APKTOOL_DUMMY_428">false</item>
     <item type="style" name="APKTOOL_DUMMY_429">false</item>
-    <item type="style" name="APKTOOL_DUMMY_42a">false</item>
-    <item type="style" name="APKTOOL_DUMMY_42b">false</item>
-    <item type="style" name="APKTOOL_DUMMY_42c">false</item>
-    <item type="style" name="APKTOOL_DUMMY_42d">false</item>
     <item type="style" name="APKTOOL_DUMMY_42f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_430">false</item>
     <item type="style" name="APKTOOL_DUMMY_431">false</item>
-    <item type="style" name="APKTOOL_DUMMY_432">false</item>
-    <item type="style" name="APKTOOL_DUMMY_433">false</item>
-    <item type="style" name="APKTOOL_DUMMY_434">false</item>
+    <item type="style" name="APKTOOL_DUMMY_436">false</item>
+    <item type="style" name="APKTOOL_DUMMY_437">false</item>
+    <item type="style" name="APKTOOL_DUMMY_438">false</item>
     <item type="style" name="APKTOOL_DUMMY_439">false</item>
     <item type="style" name="APKTOOL_DUMMY_43a">false</item>
     <item type="style" name="APKTOOL_DUMMY_43b">false</item>
     <item type="style" name="APKTOOL_DUMMY_43c">false</item>
     <item type="style" name="APKTOOL_DUMMY_43d">false</item>
     <item type="style" name="APKTOOL_DUMMY_43e">false</item>
-    <item type="style" name="APKTOOL_DUMMY_43f">false</item>
-    <item type="style" name="APKTOOL_DUMMY_440">false</item>
-    <item type="style" name="APKTOOL_DUMMY_442">false</item>
+    <item type="style" name="APKTOOL_DUMMY_441">false</item>
+    <item type="style" name="APKTOOL_DUMMY_444">false</item>
+    <item type="style" name="APKTOOL_DUMMY_447">false</item>
     <item type="style" name="APKTOOL_DUMMY_448">false</item>
+    <item type="style" name="APKTOOL_DUMMY_449">false</item>
+    <item type="style" name="APKTOOL_DUMMY_44a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_44b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_44f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_450">false</item>
+    <item type="style" name="APKTOOL_DUMMY_451">false</item>
+    <item type="style" name="APKTOOL_DUMMY_452">false</item>
+    <item type="style" name="APKTOOL_DUMMY_453">false</item>
+    <item type="style" name="APKTOOL_DUMMY_455">false</item>
+    <item type="style" name="APKTOOL_DUMMY_456">false</item>
+    <item type="style" name="APKTOOL_DUMMY_457">false</item>
+    <item type="style" name="APKTOOL_DUMMY_458">false</item>
+    <item type="style" name="APKTOOL_DUMMY_459">false</item>
+    <item type="style" name="APKTOOL_DUMMY_45a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_45b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_45c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_45e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_45f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_460">false</item>
+    <item type="style" name="APKTOOL_DUMMY_461">false</item>
+    <item type="style" name="APKTOOL_DUMMY_462">false</item>
+    <item type="style" name="APKTOOL_DUMMY_463">false</item>
+    <item type="style" name="APKTOOL_DUMMY_464">false</item>
+    <item type="style" name="APKTOOL_DUMMY_465">false</item>
+    <item type="style" name="APKTOOL_DUMMY_467">false</item>
+    <item type="style" name="APKTOOL_DUMMY_468">false</item>
+    <item type="style" name="APKTOOL_DUMMY_469">false</item>
+    <item type="style" name="APKTOOL_DUMMY_46a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_46b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_46c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_46d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_46e">false</item>
+    <item type="style" name="APKTOOL_DUMMY_46f">false</item>
+    <item type="style" name="APKTOOL_DUMMY_470">false</item>
+    <item type="style" name="APKTOOL_DUMMY_471">false</item>
+    <item type="style" name="APKTOOL_DUMMY_472">false</item>
+    <item type="style" name="APKTOOL_DUMMY_473">false</item>
+    <item type="style" name="APKTOOL_DUMMY_474">false</item>
+    <item type="style" name="APKTOOL_DUMMY_475">false</item>
+    <item type="style" name="APKTOOL_DUMMY_476">false</item>
+    <item type="style" name="APKTOOL_DUMMY_478">false</item>
+    <item type="style" name="APKTOOL_DUMMY_479">false</item>
+    <item type="style" name="APKTOOL_DUMMY_47a">false</item>
+    <item type="style" name="APKTOOL_DUMMY_47b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_47c">false</item>
+    <item type="style" name="APKTOOL_DUMMY_47d">false</item>
+    <item type="style" name="APKTOOL_DUMMY_482">false</item>
+    <item type="style" name="APKTOOL_DUMMY_483">false</item>
+    <item type="style" name="APKTOOL_DUMMY_484">false</item>
+    <item type="style" name="APKTOOL_DUMMY_485">false</item>
+    <item type="style" name="APKTOOL_DUMMY_486">false</item>
+    <item type="style" name="APKTOOL_DUMMY_487">false</item>
+    <item type="style" name="APKTOOL_DUMMY_488">false</item>
+    <item type="style" name="APKTOOL_DUMMY_489">false</item>
+    <item type="style" name="APKTOOL_DUMMY_48b">false</item>
+    <item type="style" name="APKTOOL_DUMMY_491">false</item>
 </resources>

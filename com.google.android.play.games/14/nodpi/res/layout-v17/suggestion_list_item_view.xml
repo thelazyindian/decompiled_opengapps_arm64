@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.play.widget.cardimageview.CardImageView android:id="@id/image" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/replay__cardimageview__default_inset_negative" android:layout_marginTop="@dimen/replay__cardimageview__default_inset_negative" android:layout_marginRight="@dimen/replay__listitem__internal_spacing_minus_card_inset" android:layout_marginBottom="@dimen/replay__cardimageview__default_inset_negative" android:scaleType="fitCenter" android:layout_marginStart="@dimen/replay__cardimageview__default_inset_negative" android:layout_marginEnd="@dimen/replay__listitem__internal_spacing_minus_card_inset" app:imageWidth="@dimen/replay__listitem__small_image_width" app:imageHeight="@dimen/replay__listitem__small_image_width" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:ellipsize="end" android:id="@id/suggestion_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="?attr/textAppearanceSubhead2" />
+        <TextView android:ellipsize="end" android:id="@id/subtitle_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/replay__search__suggestions__subtitle_top_padding" android:maxLines="1" android:drawablePadding="@dimen/replay__search__suggestions__subtitle_drawable_padding" style="?attr/textAppearanceCaption" />
+    </LinearLayout>
+</merge>

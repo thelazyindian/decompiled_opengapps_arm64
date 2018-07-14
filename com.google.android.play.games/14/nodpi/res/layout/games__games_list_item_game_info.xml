@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/game_info_container" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="64.0dip" android:layout_toLeftOf="@id/button_container" android:layout_alignParentLeft="true">
+        <ImageView android:id="@id/game_icon" android:layout_width="@dimen/games_mvp_list_image_size" android:layout_height="@dimen/games_mvp_list_image_size" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/games_list_item_interior_margin" android:layout_marginBottom="12.0dip" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <TextView android:ellipsize="end" android:gravity="start" android:id="@id/game_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/game_icon" android:layout_alignTop="@id/game_icon" android:layout_alignParentRight="true" style="@style/TextStyle.Replay.Subtitle.2" />
+        <TextView android:ellipsize="end" android:gravity="start" android:id="@id/game_annotation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toRightOf="@id/game_icon" android:layout_below="@id/game_title" android:layout_alignParentRight="true" style="@style/TextStyle.Replay.Caption" />
+    </RelativeLayout>
+</merge>

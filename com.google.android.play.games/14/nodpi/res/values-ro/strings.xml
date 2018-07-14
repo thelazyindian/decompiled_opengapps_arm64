@@ -44,13 +44,27 @@
     <string name="customer_information_title">Informații despre clienți</string>
     <string name="datadeletion__archived_game_item_title">Date din jocurile arhivate</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Ștergeți datele din jocurile arhivate.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"Ștergerea datelor din jocurile arhivate va elimina scorurile, progresul și setările de joc pe care le-ați oferit când ați folosit Jocuri Google Play.
+
+Acțiunea nu poate fi anulată!"</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Ștergeți datele din jocurile arhivate?</string>
     <string name="datadeletion__delete_archived_game_data_error">A apărut o eroare la ștergerea datelor din jocurile arhivate. Încercați din nou mai târziu.</string>
+    <string name="datadeletion__delete_archived_game_data_success">Datele din jocurile arhivate vor fi șterse în termen de 24 de ore</string>
     <string name="datadeletion__delete_data_title">Ștergeți datele Jocuri Play</string>
     <string name="datadeletion__delete_game_data_button">Ștergeți</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Ștergeți datele pentru %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">Se șterg datele pentru %1$s</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Se șterge...</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"Ștergerea datelor pentru %1$s va elimina scorurile, progresul și setările de joc pe care le-ați oferit când ați folosit Jocuri Google Play.
+
+Acțiunea nu poate fi anulată."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Ștergeți datele pentru %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">A apărut o eroare la ștergerea datelor pentru %1$s. Încercați din nou mai târziu.</string>
+    <string name="datadeletion__delete_game_data_explanation">Ștergeți datele pentru anumite jocuri pe care le-ați jucat cu Jocuri Google Play. Astfel, vor fi șterse scorurile, progresul și setările de joc pentru jocul selectat.</string>
     <string name="datadeletion__delete_game_data_header">Ștergeți datele jocului individual</string>
+    <string name="datadeletion__delete_game_data_success">Datele pentru %1$s vor fi șterse în 24 de ore</string>
     <string name="datadeletion__delete_profile_button">Ștergeți profilul</string>
+    <string name="datadeletion__delete_profile_explanation">Ștergeți toate datele din Jocuri Google Play, inclusiv ID-ul de jucător și punctele XP. Astfel, mai pot fi șterse scorurile, progresul și setările din jocurile pe care le-ați jucat.</string>
     <string name="datadeletion__delete_profile_header">Ștergeți profilul și toate datele</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">Se șterg datele din jocurile arhivate.</string>
     <string name="datadeletion__game_list_load_error">Nu s-a reușit încărcarea listei de jocuri pe care le-ați jucat folosind Jocuri Google Play. Încercați din nou mai târziu.</string>
@@ -78,6 +92,12 @@
     <string name="games__arcade__toolbar_title">Jocuri</string>
     <string name="games__arcade_fragment_content_description">Se afișează pagina „Arcade”.</string>
     <string name="games__game_installed_label">Instalat</string>
+    <string name="games__gamelibrary__contents">Se afișează biblioteca de jocuri cu %1$d jocuri instalate și %2$d jocuri neinstalate.</string>
+    <string name="games__gamelibrary__installed_games_label">Instalate</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Antetul „Instalate”</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">Se încarcă mai multe jocuri în biblioteca de jocuri.</string>
+    <string name="games__gamelibrary__not_installed_games_label">Neinstalate</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Antetul „Neinstalate”</string>
     <string name="games__installbutton__install">Instalați</string>
     <string name="games__installbutton__install_content_description">Instalați %1$s</string>
     <string name="games__page_default_error_body">Este vina noastră.</string>
@@ -85,11 +105,19 @@
     <string name="games__page_offline_state_play_my_games_button">Jucați Jocurile mele</string>
     <string name="games__playbutton__play">Jucați</string>
     <string name="games__playbutton__play_content_description">Jucați %1$s</string>
-    <string name="games__profile_page__tab_achievements">Realizări</string>
-    <string name="games__profile_page__tab_games">Jocuri</string>
-    <string name="games__profile_page__tab_players">Jucători</string>
-    <string name="games__searchresults__no_matches_body">Am căutat în toate regatele, dar fără noroc.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">Se încarcă mai multe elemente în fila de realizări.</string>
+    <string name="games__profile__edit_profile_network_error">Nu puteți să editați profilul când sunteți offline. Verificați conexiunea și încercați din nou mai târziu.</string>
+    <string name="games__profile__email_content_description">Contul actual: %1$s. Vedeți lista de conturi.</string>
+    <string name="games__profile__menu_edit_profile">Editați profilul</string>
+    <string name="games__profile__page_content_description">Se afișează profilul de jucător.</string>
+    <string name="games__profile__tab_achievements">Realizări</string>
+    <string name="games__profile__tab_games">Jocuri</string>
+    <string name="games__profile__tab_players">Jucători</string>
+    <string name="games__profile__xp_progress_annotation">%1$s / %2$s până la nivelul următor %3$d</string>
+    <string name="games__search__search_hint">Căutați jocuri</string>
+    <string name="games__search__trending_section_title">POPULARE</string>
     <string name="games__searchresults__no_matches_header">Niciun rezultat pentru „%1$s”</string>
+    <string name="games__settings__autoplay_videos_title">Redați automat videoclipurile</string>
     <string name="games__youtube__video_playback_error_toast">Nu s-a putut reda videoclipul YouTube.</string>
     <string name="games__youtube__video_thumbnail_content_description">Redați videoclipul „%1$s”</string>
     <string name="games_accessibility_event_tab_selected">A fost selectată fila %1$s</string>
@@ -148,7 +176,6 @@ Doriți să vă conectați ca %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Notificări</string>
     <string name="games_dest_participant_list_label">Lista participanților</string>
     <string name="games_dest_player_detail_view_profile">AFIȘAȚI PROFILUL</string>
-    <string name="games_dest_quests_empty_text">Nicio misiune pentru azi! Misiunile acceptate din Jocuri Play vor apărea aici.</string>
     <string name="games_dest_shop_games_list_label">Explorați</string>
     <string name="games_dest_shop_games_visit_store_text">Magazin Play</string>
     <string name="games_dest_sign_in_failed_dialog_message">Hopa, se pare că a apărut o eroare.</string>
@@ -207,7 +234,6 @@ Doriți să vă conectați ca %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Invitație nouă la o partidă</string>
     <string name="games_inbox_event_new_match">Partidă multiplayer actualizată</string>
     <string name="games_inbox_event_new_request">Solicitare nouă</string>
-    <string name="games_inbox_header_accepted_quests">Misiuni acceptate</string>
     <string name="games_inbox_header_completed_matches">Meciuri încheiate</string>
     <string name="games_inbox_header_invitations">Invitații</string>
     <string name="games_inbox_header_my_turn">Rândul meu</string>
@@ -318,24 +344,14 @@ Spuneți-le și altora despre acest joc și comparați-vă scorurile când joac�
     <string name="games_mvp_expand_section_content_description">Extindeți secțiunea.</string>
     <string name="games_mvp_failed_to_load_settings">Unele setări nu s-au încărcat. Încercați din nou mai târziu.</string>
     <string name="games_mvp_find_games_button_text">Explorați jocuri</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Restrângeți secțiunea Clasamente.</string>
-    <string name="games_mvp_game_detail_content_description">Se afișează detalii despre jocul %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Extindeți secțiunea Clasamente.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">ID-ul de jucător este acum valid.</string>
     <string name="games_mvp_games_fragment_content_description">Se afișează pagina „Jocurile mele”.</string>
     <string name="games_mvp_games_library_closed_content_description">Se închide biblioteca de jocuri.</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">Se afișează biblioteca de jocuri cu %1$d jocuri instalate, %2$d jocuri disponibile pentru a fi încercate acum și %3$d jocuri neinstalate.</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">Se afișează biblioteca de jocuri cu %1$d jocuri instalate și %2$d jocuri neinstalate.</string>
     <string name="games_mvp_games_library_label">Bibliotecă</string>
-    <string name="games_mvp_games_library_spinny_content_description">Se încarcă mai multe jocuri în biblioteca de jocuri.</string>
     <string name="games_mvp_games_library_toolbar_title">Bibliotecă</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s este ascuns în Jocurile mele</string>
-    <string name="games_mvp_installed_games_label">Instalate</string>
-    <string name="games_mvp_installed_games_label_content_description">Antetul „Instalat”</string>
+    <string name="games_mvp_hide_undo_snackbar_text">%1$s a fost ascuns</string>
     <string name="games_mvp_installed_just_now">Tocmai a fost instalat</string>
     <string name="games_mvp_installed_time_format">Instalat %1$s</string>
-    <string name="games_mvp_instant_games_label">Încercați acum</string>
-    <string name="games_mvp_instant_games_label_content_description">Antetul „Încercați acum”</string>
     <string name="games_mvp_last_played_just_now">Jucat adineaori</string>
     <string name="games_mvp_last_played_time_format">Jucat ultima dată: %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">Comutator pentru tipurile de clasamente. Opțiunile sunt %1$s și %2$s. Opțiunea curentă: %3$s.</string>
@@ -355,8 +371,6 @@ Spuneți-le și altora despre acest joc și comparați-vă scorurile când joac�
     <string name="games_mvp_menu_uninstall">Dezinstalați</string>
     <string name="games_mvp_menu_unmute">Deblocați</string>
     <string name="games_mvp_network_request_failed">A apărut o eroare. Încercați din nou mai târziu.</string>
-    <string name="games_mvp_not_installed_games_label">Neinstalate</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Antetul „Neinstalat”</string>
     <string name="games_mvp_player_comparison_all_games">Toate jocurile</string>
     <string name="games_mvp_player_comparison_content_description">Se afișează comparația dintre dvs. și jucătorul %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Jocuri comune</string>
@@ -380,6 +394,7 @@ Spuneți-le și altora despre acest joc și comparați-vă scorurile când joac�
     <string name="games_mvp_settings_about">Despre</string>
     <string name="games_mvp_settings_build_version_title">Versiunea Jocuri Play</string>
     <string name="games_mvp_settings_clear_local_search_history">Ștergeți istoricul căutărilor locale</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">Eliminați căutările făcute de pe acest dispozitiv</string>
     <string name="games_mvp_settings_content_description">Se afișează setările aplicației.</string>
     <string name="games_mvp_settings_debug_settings">Setări de remediere a erorilor</string>
     <string name="games_mvp_settings_delete_play_games_data">Ștergeți datele Jocuri Play</string>
@@ -390,10 +405,9 @@ Spuneți-le și altora despre acest joc și comparați-vă scorurile când joac�
     <string name="games_mvp_settings_public_gamer_profile">Profil de jucător public</string>
     <string name="games_mvp_settings_title">Setări</string>
     <string name="games_mvp_share_game_card_text">Trimiteți prietenilor</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s este acum în Jocurile mele</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s este afișat acum în Jocurile mele</string>
     <string name="games_mvp_snackbar_undo_button_text">Anulați</string>
     <string name="games_mvp_uninstall_error_text">A apărut o eroare. Reîncercați să dezinstalați %1$s</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">A apărut o eroare. Reîncercați să dezinstalați</string>
     <string name="games_mvp_uninstall_success_text">%1$s a fost dezinstalat</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">Jocul a fost dezinstalat</string>
     <string name="games_mvp_visit_arcade_button_text">Accesați Arcade</string>
@@ -485,7 +499,6 @@ Vă puteți modifica profilul și setările sau puteți șterge datele stocate d
     <string name="games_progress_dialog_starting_rematch">Se începe meciul de revanșă…</string>
     <string name="games_progress_dialog_title">Progres</string>
     <string name="games_quest_detail_title">Detaliile misiunii</string>
-    <string name="games_quest_inbox_title">Misiuni</string>
     <string name="games_quest_list_title">Misiuni</string>
     <string name="games_quest_network_error_dialog_message">Nu s-a putut accepta misiunea. Încercați din nou mai târziu.</string>
     <string name="games_quests_empty_text">Nu există misiuni</string>
@@ -532,6 +545,8 @@ Vă puteți modifica profilul și setările sau puteți șterge datele stocate d
     <string name="games_send_request_title_wish">Trimiteți solicitarea către</string>
     <string name="games_server_title">Serverul pentru jocuri</string>
     <string name="games_setting_item_loading_content_description">Se încarcă</string>
+    <string name="games_settings_dark_theme_subtitle">Activați tema întunecată în întreaga aplicație</string>
+    <string name="games_settings_dark_theme_title">Temă întunecată</string>
     <string name="games_settings_debug_achievements_head">Setări pentru realizări</string>
     <string name="games_settings_debug_achievements_reshow">Afișați întotdeauna realizările activate</string>
     <string name="games_settings_debug_clear_caches">Ștergeți datele din cache</string>
@@ -548,6 +563,9 @@ Vă puteți modifica profilul și setările sau puteți șterge datele stocate d
     <string name="games_settings_debug_reset_profile_settings_fail">Setările profilului nu au fost resetate!</string>
     <string name="games_settings_debug_reset_profile_settings_success">Setările profilului au fost resetate!</string>
     <string name="games_settings_delete_profile">Ștergeți profilul Jocuri Play</string>
+    <string name="games_settings_delete_profile_dialog_message">"Ștergeți toate datele din Jocuri Google Play, inclusiv ID-ul de jucător și punctele XP. Astfel, mai pot fi șterse scorurile, progresul și setările din jocurile pe care le-ați jucat.
+
+Acțiunea nu poate fi anulată."</string>
     <string name="games_settings_delete_profile_dialog_title">Ștergeți profilul Jocuri Play?</string>
     <string name="games_settings_delete_profile_fail">Profilul nu a putut fi șters din Jocuri Play. Încercați din nou mai târziu.</string>
     <string name="games_settings_delete_profile_positive">ȘTERGEȚI</string>
@@ -565,6 +583,7 @@ Vă puteți modifica profilul și setările sau puteți șterge datele stocate d
 %2$s"</string>
     <string name="games_share_game_share_title">Trimiteți</string>
     <string name="games_sign_in_restricted_account_dialog_cta">CONTINUAȚI</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s &lt;br/>&lt;br/> Vă puteți juca acest joc, dar nu vă puteți conecta la Jocuri Google Play cu acest cont.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Continuați fără să vă conectați</string>
     <string name="games_sign_in_restricted_profile_error_message">Această aplicație nu se poate conecta la Jocuri Google Play folosind un profil cu permisiuni limitate.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> Din păcate, nu vă puteți conecta la Jocuri Google Play folosind acest cont.</string>
@@ -611,6 +630,7 @@ Vă puteți modifica profilul și setările sau puteți șterge datele stocate d
     <string name="games_timestamp_now">Acum</string>
     <string name="games_toast_dialog_app_muted">S-au blocat notificările pentru jocul %1$s</string>
     <string name="games_toast_dialog_app_unmuted">S-au deblocat notificările pentru jocul %1$s</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">A apărut o eroare la ștergerea istoricului căutărilor locale.</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">Istoricul căutărilor locale a fost șters.</string>
     <string name="games_toast_video_captured_description">Vizionați și trimiteți atingând</string>
     <string name="games_toast_video_captured_label">Videoclipul a fost salvat în galerie</string>
@@ -646,6 +666,7 @@ Vă puteți modifica profilul și setările sau puteți șterge datele stocate d
     <string name="games_video_recording_camera_control_content_description_on">Dezactivați camera foto</string>
     <string name="games_video_recording_draw_over_permission_toast">Ca să permiteți înregistrarea, activați permisiunea Afișează peste alte aplicații pentru Serviciile Google Play.</string>
     <string name="games_video_recording_legal_01">Va fi înregistrat tot conținutul de pe ecran, cum ar fi notificările, apelurile, parolele și orice sunet din apropiere.</string>
+    <string name="games_video_recording_legal_02">Încercați să eliminați sunetele din fundal, astfel încât să nu înregistrați niciun conținut asupra căruia nu dețineți drepturile.</string>
     <string name="games_video_recording_legal_cancel">Anulați</string>
     <string name="games_video_recording_legal_proceed">Lansați</string>
     <string name="games_video_recording_legal_title">Înainte de a începe</string>
@@ -684,8 +705,10 @@ Videoclipurile sunt salvate în galeria de fotografii, în Dosarele dispozitivul
     <string name="games_waiting_room_cant_start_match_body">Nu sunt suficienți jucători pentru a juca acest joc.</string>
     <string name="games_waiting_room_keep_waiting">Mai așteptați</string>
     <string name="games_waiting_room_menu_leave_room">Ieșiți din joc</string>
+    <string name="games_waiting_room_participant_status_auto_pick">Se aleg jucătorii</string>
     <string name="games_waiting_room_participant_status_automatch_joined">Înscris(ă)</string>
     <string name="games_waiting_room_participant_status_creator_joined">A intrat</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">S-a conectat</string>
     <string name="games_waiting_room_participant_status_declined">Invitație refuzată</string>
     <string name="games_waiting_room_participant_status_invited">Invitat(ă)</string>
     <string name="games_waiting_room_participant_status_left">A părăsit locul de așteptare</string>

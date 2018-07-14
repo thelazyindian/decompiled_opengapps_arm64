@@ -47,13 +47,27 @@
     <string name="customer_information_title">Informació del client</string>
     <string name="datadeletion__archived_game_item_title">Dades dels jocs arxivats</string>
     <string name="datadeletion__delete_archived_game_button_content_description">Suprimeix les dades dels jocs arxivats.</string>
+    <string name="datadeletion__delete_archived_game_data_confirm_dialog_message">"En suprimir les dades dels jocs arxivats, se'n suprimiran les puntuacions, el progrés i la configuració que hagis definit a Google Play Jocs.
+
+Aquesta acció no es pot desfer."</string>
     <string name="datadeletion__delete_archived_game_data_confirm_dialog_title">Vols suprimir les dades dels jocs arxivats?</string>
     <string name="datadeletion__delete_archived_game_data_error">"S'ha produït un error en suprimir les dades dels jocs arxivats. Torna-ho a provar més tard."</string>
+    <string name="datadeletion__delete_archived_game_data_success">Les dades dels jocs arxivats se suprimiran en un termini de 24 hores.</string>
     <string name="datadeletion__delete_data_title">Suprimeix les dades de Play Jocs</string>
     <string name="datadeletion__delete_game_data_button">Suprimeix</string>
+    <string name="datadeletion__delete_game_data_button_content_description">Suprimeix les dades del joc %1$s</string>
+    <string name="datadeletion__delete_game_data_button_deleting_content_description">"S'estan suprimint les dades del joc %1$s"</string>
     <string name="datadeletion__delete_game_data_button_deleting_state">Suprimint…</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_message">"En suprimir les dades del joc %1$s, se'n suprimiran les puntuacions, el progrés i la configuració que hagis definit a Google Play Jocs.
+
+Aquesta acció no es pot desfer."</string>
+    <string name="datadeletion__delete_game_data_confirm_dialog_title">Vols suprimir les dades del joc %1$s?</string>
+    <string name="datadeletion__delete_game_data_error">"S'ha produït un error en suprimir les dades del joc %1$s. Torna-ho a provar més tard."</string>
+    <string name="datadeletion__delete_game_data_explanation">"Suprimeix les dades d'un joc al qual hagis jugat fent servir Google Play Jocs. Aquesta acció suprimeix les puntuacions, el progrés i la configuració del joc que seleccionis."</string>
     <string name="datadeletion__delete_game_data_header">"Suprimeix les dades d'un joc concret"</string>
+    <string name="datadeletion__delete_game_data_success">Les teves dades del joc %1$s se suprimiran en un termini de 24 hores</string>
     <string name="datadeletion__delete_profile_button">Suprimeix el perfil</string>
+    <string name="datadeletion__delete_profile_explanation">"Suprimeix totes les teves dades de Google Play Jocs, inclosos l'identificador de jugador i els punts XP. També és possible que se suprimeixin les teves puntuacions, els progressos i la configuració dels jocs."</string>
     <string name="datadeletion__delete_profile_header">Suprimeix el perfil i totes les dades</string>
     <string name="datadeletion__deleting_archived_game_button_content_description">"S'estan suprimint les dades dels jocs arxivats."</string>
     <string name="datadeletion__game_list_load_error">"No s'ha pogut carregar la llista de jocs a què has jugat amb Google Play Jocs. Torna-ho a provar més tard."</string>
@@ -85,6 +99,12 @@
     <string name="games__arcade__toolbar_title">Jocs</string>
     <string name="games__arcade_fragment_content_description">Es mostra la pàgina Arcade.</string>
     <string name="games__game_installed_label">Instal·lat</string>
+    <string name="games__gamelibrary__contents">Es mostra la col·lecció de jocs, amb %1$d jocs instal·lats i %2$d de no instal·lats.</string>
+    <string name="games__gamelibrary__installed_games_label">Instal·lats</string>
+    <string name="games__gamelibrary__installed_games_label_content_description">Capçalera amb el text \"Instal·lats\"</string>
+    <string name="games__gamelibrary__loading_spinny_content_description">"S'estan carregant més jocs a la col·lecció de jocs."</string>
+    <string name="games__gamelibrary__not_installed_games_label">No instal·lats</string>
+    <string name="games__gamelibrary__not_installed_games_label_content_description">Capçalera amb el text \"No instal·lats\"</string>
     <string name="games__installbutton__install">Instal·la</string>
     <string name="games__installbutton__install_content_description">Instal·la %1$s</string>
     <string name="games__page_default_error_body">Hem tingut un problema.</string>
@@ -92,11 +112,19 @@
     <string name="games__page_offline_state_play_my_games_button">Vull jugar als meus jocs</string>
     <string name="games__playbutton__play">Juga</string>
     <string name="games__playbutton__play_content_description">Juga a %1$s</string>
-    <string name="games__profile_page__tab_achievements">Assoliments</string>
-    <string name="games__profile_page__tab_games">Jocs</string>
-    <string name="games__profile_page__tab_players">Jugadors</string>
-    <string name="games__searchresults__no_matches_body">Hem cercat a tots els regnes, però encara no hem tingut sort.</string>
+    <string name="games__profile__achievements_loading_spinny_content_description">"S'estan carregant més assoliments a la pestanya d'assoliments."</string>
+    <string name="games__profile__edit_profile_network_error">No pots editar el perfil sense connexió a Internet. Comprova la connexió i torna-ho a provar més tard.</string>
+    <string name="games__profile__email_content_description">Compte actual: %1$s. Mostra la llista de comptes.</string>
+    <string name="games__profile__menu_edit_profile">Edita el perfil</string>
+    <string name="games__profile__page_content_description">Es mostra el teu perfil de jugador.</string>
+    <string name="games__profile__tab_achievements">Assoliments</string>
+    <string name="games__profile__tab_games">Jocs</string>
+    <string name="games__profile__tab_players">Jugadors</string>
+    <string name="games__profile__xp_progress_annotation">%1$s/%2$s per pujar al nivell %3$d</string>
+    <string name="games__search__search_hint">Cerca jocs</string>
+    <string name="games__search__trending_section_title">TENDÈNCIES</string>
     <string name="games__searchresults__no_matches_header">"No s'ha obtingut cap resultat per a \"%1$s\""</string>
+    <string name="games__settings__autoplay_videos_title">Reprodueix els vídeos automàticament</string>
     <string name="games__youtube__video_playback_error_toast">"No s'ha pogut reproduir el vídeo de YouTube."</string>
     <string name="games__youtube__video_thumbnail_content_description">Reprodueix el vídeo \"%1$s\"</string>
     <string name="games_accessibility_event_tab_selected">Pestanya %1$s seleccionada</string>
@@ -159,7 +187,6 @@ Vols iniciar la sessió com a %3$s?"</string>
     <string name="games_dest_nav_drawer_inbox">Notificacions</string>
     <string name="games_dest_participant_list_label">Llista de participants</string>
     <string name="games_dest_player_detail_view_profile">MOSTRA EL PERFIL</string>
-    <string name="games_dest_quests_empty_text">Avui no en tens cap. Les missions de Play Jocs que has acceptat figuren aquí.</string>
     <string name="games_dest_shop_games_list_label">Explora</string>
     <string name="games_dest_shop_games_visit_store_text">Play Store</string>
     <string name="games_dest_sign_in_failed_dialog_message">"S'ha produït un error."</string>
@@ -219,7 +246,6 @@ Vols iniciar la sessió com a %3$s?"</string>
     <string name="games_inbox_event_new_invitation">Tens una invitació nova a una partida</string>
     <string name="games_inbox_event_new_match">"La partida multijugador s'ha actualitzat"</string>
     <string name="games_inbox_event_new_request">Tens una sol·licitud nova</string>
-    <string name="games_inbox_header_accepted_quests">Missions acceptades</string>
     <string name="games_inbox_header_completed_matches">Partides completades</string>
     <string name="games_inbox_header_invitations">Invitacions</string>
     <string name="games_inbox_header_my_turn">El meu torn</string>
@@ -319,7 +345,7 @@ Explica'ls la teva experiència i compara les vostres puntuacions quan hi juguin
     <string name="games_mvp_carousel_item_content_description_loading">"S'estan carregant els teus jocs recents."</string>
     <string name="games_mvp_collapse_players_you_follow_button_content_description">Replega la secció Jugadors que segueixes.</string>
     <string name="games_mvp_collapse_section_content_description">Replega la secció.</string>
-    <string name="games_mvp_edit_profile_network_error">No pots editar el perfil sense connexió a Internet. Comprova-la i torna-ho a provar més tard.</string>
+    <string name="games_mvp_edit_profile_network_error">No pots editar el perfil sense connexió a Internet. Comprova la connexió i torna-ho a provar més tard.</string>
     <string name="games_mvp_edit_profile_picture_content_description">Modifica la imatge de perfil</string>
     <string name="games_mvp_empty_prompt_visit_arcade">"Tria un dels flamants jocs d'Arcade"</string>
     <string name="games_mvp_empty_prompt_visit_library">Tria un joc de la col·lecció</string>
@@ -330,24 +356,14 @@ Explica'ls la teva experiència i compara les vostres puntuacions quan hi juguin
     <string name="games_mvp_expand_section_content_description">Desplega la secció.</string>
     <string name="games_mvp_failed_to_load_settings">"No s'han pogut carregar algunes opcions de configuració. Torna-ho a provar més tard."</string>
     <string name="games_mvp_find_games_button_text">Explora els jocs</string>
-    <string name="games_mvp_game_collapse_leaderboard_button_content_description">Replega la secció Marcadors.</string>
-    <string name="games_mvp_game_detail_content_description">Es mostra informació detallada del joc %1$s.</string>
-    <string name="games_mvp_game_expand_leaderboard_button_content_description">Desplega la secció Marcadors.</string>
     <string name="games_mvp_gamer_id_edit_text_content_becomes_valid_announcement">"L'identificador de jugador ara és vàlid."</string>
     <string name="games_mvp_games_fragment_content_description">Es mostra la pàgina Els meus jocs.</string>
     <string name="games_mvp_games_library_closed_content_description">"S'està tancant la col·lecció de jocs."</string>
-    <string name="games_mvp_games_library_expanded_full_content_description">"S'està mostrant la col·lecció de jocs, amb %1$d jocs instal·lats, %2$d jocs disponibles per provar-los ara i %3$d jocs no instal·lats."</string>
-    <string name="games_mvp_games_library_expanded_without_instant_content_description">"S'està mostrant la col·lecció de jocs, amb %1$d jocs instal·lats i %2$d jocs no instal·lats."</string>
     <string name="games_mvp_games_library_label">Col·lecció</string>
-    <string name="games_mvp_games_library_spinny_content_description">"S'estan carregant més jocs a la col·lecció de jocs."</string>
     <string name="games_mvp_games_library_toolbar_title">Col·lecció</string>
-    <string name="games_mvp_hide_undo_snackbar_text">%1$s està amagat a Els meus jocs</string>
-    <string name="games_mvp_installed_games_label">Instal·lats</string>
-    <string name="games_mvp_installed_games_label_content_description">Capçalera amb el text \"Instal·lats\"</string>
+    <string name="games_mvp_hide_undo_snackbar_text">"S'ha amagat %1$s"</string>
     <string name="games_mvp_installed_just_now">Instal·lat ara mateix</string>
     <string name="games_mvp_installed_time_format">Instal·lat %1$s</string>
-    <string name="games_mvp_instant_games_label">Prova ara</string>
-    <string name="games_mvp_instant_games_label_content_description">Capçalera amb el text \"Prova ara\"</string>
     <string name="games_mvp_last_played_just_now">Hi acabes de jugar</string>
     <string name="games_mvp_last_played_time_format">Última partida: %1$s</string>
     <string name="games_mvp_leaderboard_type_switch_content_description">"Botó d'activació per canviar el tipus de marcador. Les opcions disponibles són %1$s i %2$s. Opció actual: %3$s."</string>
@@ -367,8 +383,6 @@ Explica'ls la teva experiència i compara les vostres puntuacions quan hi juguin
     <string name="games_mvp_menu_uninstall">Desinstal·la</string>
     <string name="games_mvp_menu_unmute">Activa el so</string>
     <string name="games_mvp_network_request_failed">"S'ha produït un error. Torna-ho a provar més tard."</string>
-    <string name="games_mvp_not_installed_games_label">No instal·lats</string>
-    <string name="games_mvp_not_installed_games_label_content_description">Capçalera amb el text \"No instal·lats\"</string>
     <string name="games_mvp_player_comparison_all_games">Tots els jocs</string>
     <string name="games_mvp_player_comparison_content_description">Es mostra la comparació dels jugadors: entre tu i %1$s.</string>
     <string name="games_mvp_player_comparison_games_in_common">Jocs en comú</string>
@@ -382,7 +396,7 @@ Explica'ls la teva experiència i compara les vostres puntuacions quan hi juguin
     <string name="games_mvp_player_level_format">Nivell %1$d</string>
     <string name="games_mvp_player_level_unknown_content_description">Nivell no compartit</string>
     <string name="games_mvp_players_you_follow_header">Jugadors que segueixes</string>
-    <string name="games_mvp_profile_content_description">Es mostra el perfil del jugador.</string>
+    <string name="games_mvp_profile_content_description">Es mostra el teu perfil de jugador.</string>
     <string name="games_mvp_profile_email_content_description">Compte actual: %1$s. Mostra la llista de comptes.</string>
     <string name="games_mvp_profile_main_xp_bar_content_description">Tens %1$d dels %2$d XP necessaris per pujar de nivell.</string>
     <string name="games_mvp_profile_xp_by_genre_empty_state_description">Encara no hi ha res per mostrar. És hora de jugar.</string>
@@ -393,7 +407,8 @@ Explica'ls la teva experiència i compara les vostres puntuacions quan hi juguin
     <string name="games_mvp_profile_xp_history_header">"Historial d'XP"</string>
     <string name="games_mvp_settings_about">Informació</string>
     <string name="games_mvp_settings_build_version_title">Versió de Play Jocs</string>
-    <string name="games_mvp_settings_clear_local_search_history">"Esborra l'historial de cerques locals"</string>
+    <string name="games_mvp_settings_clear_local_search_history">"Esborra l'historial de cerques local"</string>
+    <string name="games_mvp_settings_clear_local_search_history_summary">"Suprimeix les cerques que has fet des d'aquest dispositiu"</string>
     <string name="games_mvp_settings_content_description">"Es mostra la configuració de l'aplicació."</string>
     <string name="games_mvp_settings_debug_settings">Configuració de depuració</string>
     <string name="games_mvp_settings_delete_play_games_data">Suprimeix les dades de Play Jocs</string>
@@ -404,11 +419,10 @@ Explica'ls la teva experiència i compara les vostres puntuacions quan hi juguin
     <string name="games_mvp_settings_public_gamer_profile">Perfil de jugador públic</string>
     <string name="games_mvp_settings_title">Configuració</string>
     <string name="games_mvp_share_game_card_text">Comparteix amb els teus amics</string>
-    <string name="games_mvp_show_undo_snackbar_text">%1$s ara és a Els meus jocs</string>
+    <string name="games_mvp_show_undo_snackbar_text">%1$s ara es mostra a Els meus jocs</string>
     <string name="games_mvp_snackbar_undo_button_text">Desfés</string>
     <string name="games_mvp_uninstall_error_text">"S'ha produït un error. Desinstal·la %1$s de nou."</string>
-    <string name="games_mvp_uninstall_error_text_without_game_title">"S'ha produït un error. Desinstal·la el joc de nou."</string>
-    <string name="games_mvp_uninstall_success_text">"%1$s s'ha desinstal·lat"</string>
+    <string name="games_mvp_uninstall_success_text">"S'ha desinstal·lat %1$s"</string>
     <string name="games_mvp_uninstall_success_text_without_game_title">"El joc s'ha desinstal·lat"</string>
     <string name="games_mvp_visit_arcade_button_text">Ves a Arcade</string>
     <string name="games_mvp_you_have_no_games_message">A jugar!</string>
@@ -497,7 +511,6 @@ Pots editar el teu perfil i la teva configuració, o suprimir les dades emmagatz
     <string name="games_progress_dialog_starting_rematch">"S'està iniciant la revenja..."</string>
     <string name="games_progress_dialog_title">Progrés</string>
     <string name="games_quest_detail_title">Detalls de la missió</string>
-    <string name="games_quest_inbox_title">Missions</string>
     <string name="games_quest_list_title">Missions</string>
     <string name="games_quest_network_error_dialog_message">"No s'ha pogut acceptar la missió. Torna-ho a provar més tard."</string>
     <string name="games_quests_empty_text">No hi ha cap missió.</string>
@@ -546,6 +559,8 @@ Pots editar el teu perfil i la teva configuració, o suprimir les dades emmagatz
     <string name="games_send_request_title_wish">Enviament de la sol·licitud a</string>
     <string name="games_server_title">Servidor de jocs</string>
     <string name="games_setting_item_loading_content_description">"S'està carregant"</string>
+    <string name="games_settings_dark_theme_subtitle">"Activa el tema fosc en tota l'aplicació"</string>
+    <string name="games_settings_dark_theme_title">Tema fosc</string>
     <string name="games_settings_debug_achievements_head">"Configuració d'assoliments"</string>
     <string name="games_settings_debug_achievements_reshow">Mostra sempre les finestres de desbloqueig</string>
     <string name="games_settings_debug_clear_caches">Esborra les memòries cau</string>
@@ -562,6 +577,9 @@ Pots editar el teu perfil i la teva configuració, o suprimir les dades emmagatz
     <string name="games_settings_debug_reset_profile_settings_fail">"No s'ha pogut restablir la configuració del perfil."</string>
     <string name="games_settings_debug_reset_profile_settings_success">"S'ha restablert la configuració del perfil."</string>
     <string name="games_settings_delete_profile">Suprimeix el perfil de Play Jocs</string>
+    <string name="games_settings_delete_profile_dialog_message">"Suprimeix totes les teves dades de Google Play Jocs, inclosos l'identificador de jugador i els punts XP. També és possible que se suprimeixin les teves puntuacions, els progressos i la configuració dels jocs.
+
+Aquesta acció no es pot desfer."</string>
     <string name="games_settings_delete_profile_dialog_title">Vols suprimir el perfil de Play Jocs?</string>
     <string name="games_settings_delete_profile_fail">Play Jocs no ha pogut suprimir el teu perfil. Torna-ho a provar més tard.</string>
     <string name="games_settings_delete_profile_positive">SUPRIMEIX</string>
@@ -579,6 +597,7 @@ Pots editar el teu perfil i la teva configuració, o suprimir les dades emmagatz
 %2$s"</string>
     <string name="games_share_game_share_title">Comparteix</string>
     <string name="games_sign_in_restricted_account_dialog_cta">CONTINUA</string>
+    <string name="games_sign_in_restricted_account_dialog_message">%s&lt;br/>&lt;br/> Pots jugar a aquest joc, però no pots iniciar la sessió a Google Play Jocs amb aquest compte.</string>
     <string name="games_sign_in_restricted_account_dialog_title">Continua sense iniciar la sessió</string>
     <string name="games_sign_in_restricted_profile_error_message">Aquesta aplicació no pot iniciar la sessió a Google Play Jocs amb un perfil restringit.</string>
     <string name="games_sign_in_unicorn_account_dialog_message">%s &lt;br/>&lt;br/> No pots iniciar la sessió a Google Play Jocs amb aquest compte.</string>
@@ -627,6 +646,7 @@ Pots editar el teu perfil i la teva configuració, o suprimir les dades emmagatz
     <string name="games_timestamp_now">Ara</string>
     <string name="games_toast_dialog_app_muted">"S'ha silenciat el joc %1$s."</string>
     <string name="games_toast_dialog_app_unmuted">"S'ha activat el so del joc %1$s."</string>
+    <string name="games_toast_dialog_local_search_history_deleted_failure">"S'ha produït un error en suprimir l'historial de cerques locals."</string>
     <string name="games_toast_dialog_local_search_history_deleted_successful">"S'ha suprimit l'historial de cerques locals."</string>
     <string name="games_toast_video_captured_description">Toca per veure o compartir</string>
     <string name="games_toast_video_captured_label">"El vídeo s'ha desat a la galeria"</string>
@@ -661,6 +681,7 @@ Pots editar el teu perfil i la teva configuració, o suprimir les dades emmagatz
     <string name="games_video_recording_camera_control_content_description_on">Desactiva la càmera</string>
     <string name="games_video_recording_draw_over_permission_toast">Per permetre la gravació, activa el permís Superposar-se a altres aplicacions per a Serveis de Google Play.</string>
     <string name="games_video_recording_legal_01">Es gravarà tot el contingut que es mostri a la pantalla (incloses les notificacions, les trucades i les contrasenyes), així com els sons que es produeixin a prop.</string>
+    <string name="games_video_recording_legal_02">"Prova d'eliminar el so de fons per no gravar contingut del qual no tinguis els drets."</string>
     <string name="games_video_recording_legal_cancel">Cancel·la</string>
     <string name="games_video_recording_legal_proceed">Inicia</string>
     <string name="games_video_recording_legal_title">Abans de començar</string>
@@ -700,8 +721,10 @@ Els vídeos es desen a la teva galeria de fotos, a Carpetes del dispositiu > Scr
     <string name="games_waiting_room_cant_start_match_body">No hi ha prou jugadors per jugar la partida.</string>
     <string name="games_waiting_room_keep_waiting">Continua esperant</string>
     <string name="games_waiting_room_menu_leave_room">Surt de la partida</string>
-    <string name="games_waiting_room_participant_status_automatch_joined">Membre</string>
-    <string name="games_waiting_room_participant_status_creator_joined">Hi ha entrat</string>
+    <string name="games_waiting_room_participant_status_auto_pick">"S'està triant"</string>
+    <string name="games_waiting_room_participant_status_automatch_joined">Participant</string>
+    <string name="games_waiting_room_participant_status_creator_joined">Participant</string>
+    <string name="games_waiting_room_participant_status_current_player_joined">Participant</string>
     <string name="games_waiting_room_participant_status_declined">Invitació rebutjada</string>
     <string name="games_waiting_room_participant_status_invited">Convidat</string>
     <string name="games_waiting_room_participant_status_left">Ha sortit de la sala</string>

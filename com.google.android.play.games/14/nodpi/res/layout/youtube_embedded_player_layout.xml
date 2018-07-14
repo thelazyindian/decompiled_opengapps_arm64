@@ -2,8 +2,9 @@
 <com.google.android.libraries.material.aspectratio.FixedAspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspectRatio="1.777"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <FrameLayout android:id="@id/youtube_embedded_player_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <com.google.android.libraries.education.foreground.ForegroundFrameLayout android:id="@id/fallback_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground">
+    <com.google.android.libraries.education.foreground.ForegroundFrameLayout android:id="@id/fallback_container" android:background="?android:windowBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground">
         <ImageView android:id="@id/fallback_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
         <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/product_logo_youtube_color_48" />
+        <ProgressBar android:layout_gravity="end|bottom|center" android:id="@id/loading_progress_bar" android:background="@drawable/games__youtube__progress_bar_background" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:indeterminate="true" android:indeterminateOnly="true" style="?android:attr/progressBarStyleSmall" />
     </com.google.android.libraries.education.foreground.ForegroundFrameLayout>
 </com.google.android.libraries.material.aspectratio.FixedAspectRatioFrameLayout>
