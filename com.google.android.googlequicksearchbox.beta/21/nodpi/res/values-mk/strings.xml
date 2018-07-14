@@ -108,10 +108,14 @@
     <string name="cancel">Откажи</string>
     <string name="cancel_favorites_selection">Откажи</string>
     <string name="cancelled">Откажана</string>
+    <string name="cast_fail_to_connect_message">Не може да се поврзе со %1$s во моментов. Обидете се повторно подоцна.</string>
+    <string name="cast_fail_to_reconnect_message">Не може повторно да се поврзе со %1$s во моментов. Обидете се повторно подоцна.</string>
     <string name="cast_notification_connected_message">Поврзан на %1$s</string>
     <string name="cast_notification_connecting_message">Се поврзува на %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Исклучи</string>
+    <string name="cast_reconnecting_message">Обид за повторно поврзување</string>
+    <string name="cast_success_to_reconnect_message">Повторно поврзано со %1$s</string>
     <string name="cct_account_mismatch_card_button_text">Отвори %1$s</string>
     <string name="cct_account_mismatch_card_header">Прегледајте ги вашите веб-страници</string>
     <string name="cct_account_mismatch_card_text">Ако сакате тука да ги гледате страниците што сте ги нашле, ажурирајте ги &lt;b>поставките за %1$s&lt;/b> и вклучете ја синхронизацијата за &lt;b>%2$s&lt;/b></string>
@@ -171,7 +175,6 @@
     <string name="delivered">Доставена</string>
     <string name="device_photo_group_header">Фотографии на уредот</string>
     <string name="docs_group_header">Документи</string>
-    <string name="donate">Донирајте</string>
     <string name="donate_button_label">Донирај</string>
     <string name="done">Готово</string>
     <string name="done_label">Готово</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Преземањето не е најдено</string>
     <string name="download_setting_message">Преземените епизоди ќе се отстранат после 30 дена или 24 часа после слушањето</string>
     <string name="downloaded">Преземено</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Преземени епизоди</string>
     <string name="downloading">Се презема…</string>
     <string name="downloads">Преземања</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Достапни епизоди</string>
     <string name="episode_page_section_title">Епизода</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">За вас</string>
     <string name="error">Грешка</string>
     <string name="error_message">Пребарувањето не успеа. Обидете се подоцна.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Секој работен ден (пон-пет)</string>
     <string name="every_weekday_lower">секој работен ден (пон-пет)</string>
     <string name="expand_button_title">Напредно</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Поткастот содржи експлицитни содржини</string>
     <string name="fast_forward">Премотување нанапред</string>
     <string name="favorite_images_tag_title">Омилени слики</string>
     <string name="favorite_pages_tag_title">Омилени страници</string>
+    <string name="favorite_screenshots_tag_title">Омилени слики од екранот</string>
     <string name="first_run_cling_title">Добре дојдовте</string>
     <string name="flight_group_header">Летови</string>
     <string name="folder_closed">Папката е затворена</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">Видете ги вашите претплати тука</string>
     <string name="hotseat_out_of_space">Нема повеќе простор на лентата „Омилени“</string>
     <string name="hour_picker_description">Приказ на часови во круг</string>
-    <string name="https_info_close">Затвори</string>
-    <string name="https_info_message">Врската со сајтот на поткастот е приватна.</string>
-    <string name="https_info_title">Безбедна врска</string>
     <string name="i18n_address_line1_accessibility_label">Адреса (линија 1):</string>
     <string name="i18n_address_line1_label">Улица</string>
     <string name="i18n_address_line2_accessibility_label">Адреса (линија 2):</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">Прегледи</string>
     <string name="image_viewer_video_watch_label">Гледај</string>
     <string name="image_viewer_view_all_related_images_accessibility">Прикажи ги сите поврзани слики</string>
-    <string name="image_viewer_view_saved">Прикажи ги зачуваните</string>
     <string name="image_viewer_visit_site">Посетете го сајтот</string>
     <string name="indexing_not_ready">Сѐ уште немаме содржини за прикажување. Поврзете се на интернет и вратете се по неколку минути.</string>
     <string name="info_target_label">Информации за апликацијата</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Означи како репродуцирано</string>
     <string name="mark_as_unplayed">Означи како нерепродуцирано</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Ваши поткасти</string>
     <string name="media_route_chooser_dialog_title">Емитувај на</string>
     <string name="media_route_chooser_searching">Се пребаруваат уреди…</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">Не се пушта</string>
     <string name="playback_status_buffering">Се користи привремена меморија…</string>
     <string name="please_select">Изберете</string>
+    <string name="podcast_retry_download">Обиди се повторно</string>
     <string name="podcasts">Поткасти</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Барање: %s.</string>
     <string name="query_people_group_header">Контакти</string>
     <string name="quoted_query">„%1$s“</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">За преземање епизоди, на Google му е потребен пристап до меморијата на уредот</string>
     <string name="request_storage_permission_dialog_title">Дозволете пристап до меморијата</string>
     <string name="reservation_group_header">Резервации</string>
-    <string name="retry">Обиди се повторно</string>
     <string name="retry_failed_download">Обиди се да преземеш повторно</string>
     <string name="returned">Вратена</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="snackbar_message_removed_from_recently">Отстрането од неодамнешни страници</string>
     <string name="source_chip_desc">Прикажи содржини од %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Поставките за брзина не се достапни додека се емитува.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Претплати се</string>
     <string name="subscribe_to_see_new_episodes">Претплатете се на поткасти за да ги видите новите епизоди</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="suw_next_button_label">Следно</string>
     <string name="tab_episodes_in_progress">Во тек</string>
     <string name="tab_new_episodes">Нови</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">Контактот %s е успешно сокриен.</string>
     <string name="toast_hide_fail">Нешто тргна наопаку! Контактот %s не беше сокриен.</string>
     <string name="toast_unhide">Контактот %s е успешно прикажан.</string>

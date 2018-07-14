@@ -108,10 +108,14 @@
     <string name="cancel">Cancelar</string>
     <string name="cancel_favorites_selection">Cancelar</string>
     <string name="cancelled">Cancelado</string>
+    <string name="cast_fail_to_connect_message">Non se puido conectar co dispositivo %1$s neste momento. Téntao de novo máis tarde.</string>
+    <string name="cast_fail_to_reconnect_message">Non se puido conectar de novo co dispositivo %1$s neste momento. Téntao de novo máis tarde.</string>
     <string name="cast_notification_connected_message">Conectado a %1$s</string>
     <string name="cast_notification_connecting_message">Conectando con %1$s</string>
     <string name="cast_notification_default_channel_name">Emisión</string>
     <string name="cast_notification_disconnect">Desconectar</string>
+    <string name="cast_reconnecting_message">Tentando establecer conexión de novo</string>
+    <string name="cast_success_to_reconnect_message">Conectouse de novo co dispositivo %1$s</string>
     <string name="cct_account_mismatch_card_button_text">Abrir %1$s</string>
     <string name="cct_account_mismatch_card_header">Consulta as túas páxinas web</string>
     <string name="cct_account_mismatch_card_text">Para ver aquí as páxinas que encontres, actualiza a &lt;b>configuración de %1$s&lt;/b> e activa a sincronización de &lt;b>%2$s&lt;/b></string>
@@ -171,7 +175,6 @@
     <string name="delivered">Entregado</string>
     <string name="device_photo_group_header">Fotos no dispositivo</string>
     <string name="docs_group_header">Documentos</string>
-    <string name="donate">Facer doazón</string>
     <string name="donate_button_label">Facer doazón</string>
     <string name="done">Feito</string>
     <string name="done_label">Feito</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Non se atopou a descarga</string>
     <string name="download_setting_message">Os episodios descargados elimínanse ao pasar 30 días ou ben 24 horas despois de finalizalos</string>
     <string name="downloaded">Descargado</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Episodios descargados</string>
     <string name="downloading">Descargando…</string>
     <string name="downloads">Descargas</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Episodios dispoñibles</string>
     <string name="episode_page_section_title">Episodio</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Para ti</string>
     <string name="error">Produciuse un erro</string>
     <string name="error_message">Produciuse un erro na busca. Téntao de novo máis tarde.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Todos os días da semana (de luns a venres)</string>
     <string name="every_weekday_lower">todos os días da semana (de luns a venres)</string>
     <string name="expand_button_title">Avanzado</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">O podcast inclúe contido explícito</string>
     <string name="fast_forward">Avance rápido</string>
     <string name="favorite_images_tag_title">Imaxes favoritas</string>
     <string name="favorite_pages_tag_title">Páxinas favoritas</string>
+    <string name="favorite_screenshots_tag_title">Capturas de pantalla favoritas</string>
     <string name="first_run_cling_title">Dámosche a benvida</string>
     <string name="flight_group_header">Voos</string>
     <string name="folder_closed">Pechouse o cartafol</string>
@@ -236,9 +241,6 @@ Proba a buscar o podcast de novo."</string>
     <string name="homebase_link_tool_tip_message">Consulta aquí as túas subscricións</string>
     <string name="hotseat_out_of_space">Non hai máis espazo na bandexa de favoritos</string>
     <string name="hour_picker_description">Control desprazable circular das horas</string>
-    <string name="https_info_close">Pechar</string>
-    <string name="https_info_message">A túa conexión co sitio de podcast é privada.</string>
-    <string name="https_info_title">Conexión segura</string>
     <string name="i18n_address_line1_accessibility_label">Enderezo postal: liña 1</string>
     <string name="i18n_address_line1_label">Enderezo postal</string>
     <string name="i18n_address_line2_accessibility_label">Enderezo postal: liña 2</string>
@@ -301,7 +303,6 @@ Proba a buscar o podcast de novo."</string>
     <string name="image_viewer_video_view_count_label">Reproducións</string>
     <string name="image_viewer_video_watch_label">Ver</string>
     <string name="image_viewer_view_all_related_images_accessibility">Ver todas as imaxes relacionadas</string>
-    <string name="image_viewer_view_saved">Ver imaxes gardadas</string>
     <string name="image_viewer_visit_site">Visitar</string>
     <string name="indexing_not_ready">Aínda non hai contido para mostrarche. Conéctate a Internet e volve nuns minutos.</string>
     <string name="info_target_label">Información da aplicación</string>
@@ -341,6 +342,7 @@ Proba a buscar o podcast de novo."</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Marcar como reproducido</string>
     <string name="mark_as_unplayed">Marcar como non reproducido</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Os teus podcasts</string>
     <string name="media_route_chooser_dialog_title">Emitir en</string>
     <string name="media_route_chooser_searching">Buscando dispositivos…</string>
@@ -456,8 +458,10 @@ Descubre e controla as túas buscas de Google e moito máis en A miña actividad
     <string name="playback_panel_error">Non se pode repr.</string>
     <string name="playback_status_buffering">Almacenando no búfer...</string>
     <string name="please_select">Selecciona</string>
+    <string name="podcast_retry_download">Tentar de novo</string>
     <string name="podcasts">Podcasts</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Consulta: %s.</string>
     <string name="query_people_group_header">Contactos</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -599,7 +603,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">Para descargar episodios, Google necesita acceder ao almacenamento do teu dispositivo</string>
     <string name="request_storage_permission_dialog_title">Permitir acceso ao almacenamento</string>
     <string name="reservation_group_header">Reservas</string>
-    <string name="retry">Tentar de novo</string>
     <string name="retry_failed_download">Tentar de novo a descarga</string>
     <string name="returned">Devolto</string>
     <string name="review_count_text">(%d)</string>
@@ -660,6 +663,7 @@ Este programa non está dispoñible neste momento."</string>
     <string name="snackbar_message_removed_from_recently">Quitouse das páxinas recentes</string>
     <string name="source_chip_desc">Consulta o contido de %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">A configuración de velocidade non está dispoñible durante a emisión.</string>
     <string name="status_bar_notification_info_overflow">>999</string>
     <string name="subscribe_button_label">Subscribirse</string>
     <string name="subscribe_to_see_new_episodes">Para ver episodios novos, subscríbete a podcasts</string>
@@ -669,6 +673,7 @@ Este programa non está dispoñible neste momento."</string>
     <string name="suw_next_button_label">Seguinte</string>
     <string name="tab_episodes_in_progress">En curso</string>
     <string name="tab_new_episodes">Novos</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s ocultouse correctamente.</string>
     <string name="toast_hide_fail">Produciuse un erro e non se ocultou a %s.</string>
     <string name="toast_unhide">%s volveuse mostrar correctamente.</string>

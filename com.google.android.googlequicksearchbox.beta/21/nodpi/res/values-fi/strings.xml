@@ -54,6 +54,7 @@
     <string name="access_now_promo_content_description">Käytä Google-fiidiä</string>
     <string name="access_now_promo_detail">Napauta nähdäksesi kiinnostuksen kohteisiisi perustuvia päivityksiä ja tarinoita</string>
     <string name="accessibility_android_for_work_icon">Työprofiili</string>
+    <string name="accessibility_assistant_button">Google Assistant</string>
     <string name="accessibility_collapse">Tiivistä</string>
     <string name="accessibility_drawer_menu_button">Valikko</string>
     <string name="accessibility_expand">Laajenna</string>
@@ -77,7 +78,6 @@
     <string name="accessibility_voice_search_button">Puhehaku</string>
     <string name="account_item">Vaihda tiliin %1$s</string>
     <string name="account_list">Tililuettelo</string>
-    <string name="account_not_eligible">Syötettä ei voi käyttää tällä tilillä.</string>
     <string name="account_number">Tilinumero</string>
     <string name="account_settings">Tilit ja tietosuoja</string>
     <string name="account_settings_cant_open">Toimintojen hallinnan avaaminen epäonnistui.</string>
@@ -243,7 +243,6 @@
     <string name="agenda_group_tomorrow_title">Huomenna</string>
     <string name="agenda_hub_title">Tulevat tapahtumasi</string>
     <string name="agenda_icon_description">kalenterikuvake</string>
-    <string name="agenda_section_title">Tulevat tapahtumasi</string>
     <string name="agent_bookmark_added">Tallennettu kirjanmerkkeihin</string>
     <string name="agent_bookmark_error">Tapahtui virhe. Yritä myöhemmin uudelleen.</string>
     <string name="agent_bookmark_removed">Poistettu kirjanmerkeistä</string>
@@ -321,7 +320,7 @@ Jatka siirtymällä kyseiselle tilille Assistantissa."</string>
     <string name="all_apps_loading_message">Ladataan sovelluksia…</string>
     <string name="all_apps_no_search_results">”%1$s” ei palauttanut sovelluksia.</string>
     <string name="all_apps_search_bar_hint">Hae sovelluksia…</string>
-    <string name="all_apps_search_market_message">Etsi lisää sovelluksia</string>
+    <string name="all_apps_search_market_message">Siirry: %1$s</string>
     <string name="all_chain_locations">Kaikki sijainnit</string>
     <string name="all_day">Koko päivä</string>
     <string name="all_day_at_location">Koko päivä paikassa %1$s</string>
@@ -380,8 +379,6 @@ Jatka siirtymällä kyseiselle tilille Assistantissa."</string>
     <string name="as_selected_account">Olet kirjautunut tilille %1$s</string>
     <string name="as_show_account_list">Näytä tilit</string>
     <string name="as_sign_in">Kirjaudu sisään</string>
-    <string name="assist_dialog_close">OK</string>
-    <string name="assist_dialog_dont_show">Älä näytä tätä uudelleen</string>
     <string name="assist_layer_dismiss">Sulje näyttöhaku</string>
     <string name="assist_layer_to_now">Siirry Googleen</string>
     <string name="assist_optin_accept">Ota käyttöön</string>
@@ -389,10 +386,7 @@ Jatka siirtymällä kyseiselle tilille Assistantissa."</string>
     <string name="assist_optin_decline">Ei kiitos</string>
     <string name="assist_optin_donate_screenshot">"Näyttöhaun kuvakaappauksien lahjoittaminen
 Salli Googlen säilyttää ja analysoida näyttöhaun kuvakaappauksiasi toistaiseksi."</string>
-    <string name="assist_optin_get_started">Aloita</string>
     <string name="assist_optin_learn_more_text">Lisätietoja</string>
-    <string name="assist_optin_not_eligible">Näyttöhakua ei voi ottaa käyttöön</string>
-    <string name="assist_optin_title">Löysit näyttöhaun</string>
     <string name="assist_share_screenshot_failure">Jokin meni vikaan. Yritä myöhemmin uudelleen.</string>
     <string name="assist_share_screenshot_off">Avustajalla ei ole kuvakaappauksien käyttöoikeutta. Tarkista asetukset.</string>
     <string name="assist_translate_screenshot_failure">Jokin meni vikaan. Yritä myöhemmin uudelleen.</string>
@@ -475,8 +469,6 @@ Salli Googlen säilyttää ja analysoida näyttöhaun kuvakaappauksiasi toistais
     <string name="assistant_settings_cast_title">Televisiot ja kaiuttimet</string>
     <string name="assistant_settings_cast_voice_invite_summary">Toiset käyttäjät saavat tietonsa käyttöönsä jaetuilla laitteilla.</string>
     <string name="assistant_settings_cast_voice_invite_title">Kutsu muita samojen laitteiden käyttäjiä</string>
-    <string name="assistant_settings_cast_voice_not_recognized">"Eikö Assistant ei tunnista sinua?
-"</string>
     <string name="assistant_settings_cast_voice_retrain_summary">Äänentunnistus voi parantua uusien äänitallenteiden avulla.</string>
     <string name="assistant_settings_cast_voice_retrain_title">Opeta äänesi uudestaan Assistantille</string>
     <string name="assistant_settings_common_device_id_category">Muuta tämän laitteen Assistant-asetuksia</string>
@@ -648,7 +640,6 @@ Voit poistaa Duo-tilin ja tämän laitteen linkityksen koska vain Assistantin as
     <string name="assistant_settings_music_title">Musiikki</string>
     <string name="assistant_settings_music_unable_unlink_default">Oletusmusiikkipalvelun linkitystä ei voi poistaa.</string>
     <string name="assistant_settings_music_unlink_dialog_text">Jos poistat tilin linkityksen, %1$s ‑toisto Google Assistantilla ei ole enää käytettävissä.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">YouTube Musicin toistaminen Google Homella edellyttää YouTube Premium ‑jäsenyyttä. Rekisteröidy osoitteessa <a href="http://youtube.com/red">youtube.com/red</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text_v2">YouTube Musicin toistaminen Google Homella edellyttää YouTube Music Premium ‑jäsenyyttä. Rekisteröidy osoitteessa <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium ‑jäsenyys vaaditaan</string>
     <string name="assistant_settings_news_provider_delete_button_description">Poista %1$s uutislähteidesi joukosta.</string>
@@ -824,7 +815,7 @@ Assistant käyttää tätä asetusta antaessaan reittiohjeita kodin ja työpaika
     <string name="assistant_settings_summer_time_mode_availability_clarification">Jatkuva keskustelu on tällä hetkellä saatavilla Yhdysvaltain englanniksi. Jos käytät Google Home ‑laitteita, jotka eivät näy täällä, kyseisten laitteiden ensisijaisen tilin omistaja voi ottaa jatkuvan keskustelun käyttöön tai poistaa sen käytöstä Assistant-asetuksissa.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Voit muuttaa tämän näiden Google Home ‑laitteiden kohdalla</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Ei laitteita saatavilla</string>
-    <string name="assistant_settings_summer_time_mode_button_summary">Laitteesi mikrofoni avautuu uudelleen jokaisen vastauksen jälkeen kuunnellakseen jatkokysymyksiä. Ne näkyvät Omissa tapahtumissa normaalisti. Äänet, joihin Assistant ei vastaa, poistetaan Google-tililtäsi.</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Laitteesi mikrofoni avautuu hetkeksi uudelleen jokaisen vastauksen jälkeen kuunnellakseen jatkokysymyksiä. Ne näkyvät Omissa tapahtumissa normaalisti. Äänet, joihin Assistant ei vastaa, poistetaan Google-tililtäsi.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Jatkuva keskustelu</string>
     <string name="assistant_settings_summer_time_mode_title">Jatkuva keskustelu</string>
     <string name="assistant_settings_turn_off_voice_match">Jos poistat Voice Matchin käytöstä, tilisi ja tämän laitteen linkitys poistetaan. Google Assistant ‑laitteen käyttö edellyttää vähintään yhden laitteen linkittämistä. Haluatko varmasti poistaa tilin linkityksen? </string>
@@ -924,7 +915,6 @@ Tiedonsiirrosta voidaan veloittaa."</string>
     <string name="background_notification_onboarding">Oletko offline-tilassa? Ei hätää, Google muistaa hakusi ja lähettää sinulle ilmoituksen, kun tulokset ovat valmiit.</string>
     <string name="background_notification_onboarding_accept">OK</string>
     <string name="background_notification_onboarding_decline">Poista käytöstä</string>
-    <string name="background_notification_ready">Hakutuloksia on valmiina.</string>
     <string name="background_notification_settings">Asetukset</string>
     <string name="background_retry_data_saver_dialog_text">Poista Google-sovelluksen Data Saver käytöstä asetuksissa, niin saat ilmoituksia tuloksista.</string>
     <string name="background_retry_data_saver_dialog_title">Data Saver on käytössä</string>
@@ -1011,20 +1001,21 @@ Tiedonsiirrosta voidaan veloittaa."</string>
     <string name="card_category_notification_category">Haluan ilmoituksia seuraavista aiheista</string>
     <string name="card_dismissed">Kortti poistettu</string>
     <string name="card_question_selected">%1$s valittu</string>
+    <string name="cast_fail_to_connect_message">Laitteeseen %1$s ei voi yhdistää tällä hetkellä. Yritä myöhemmin uudelleen.</string>
+    <string name="cast_fail_to_reconnect_message">Laitteeseen %1$s ei voi yhdistää uudelleen tällä hetkellä. Yritä myöhemmin uudelleen.</string>
     <string name="cast_notification_connected_message">Yhdistetty näyttöön %1$s</string>
     <string name="cast_notification_connecting_message">Yhdistetään näyttöön %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Katkaise yhteys</string>
+    <string name="cast_reconnecting_message">Yritetään yhdistää uudelleen</string>
+    <string name="cast_success_to_reconnect_message">%1$s yhdistetty uudelleen</string>
     <string name="cct_account_mismatch_card_button_text">Avaa %1$s</string>
     <string name="cct_account_mismatch_card_header">Katso verkkosivujasi</string>
     <string name="cct_account_mismatch_card_text">Jos haluat nähdä täältä löytyvät sivut, päivitä &lt;b>kohteen %1$s asetukset&lt;/b> ja ota kohteen &lt;b>%2$s&lt;/b> synkronointi käyttöön.</string>
     <string name="chance_of_precipitation_label">Sateen mahdollisuus: %s</string>
     <string name="change_wallpaper">VAIHDA TAUSTAKUVA</string>
     <string name="checkin_date_today">Sisäänkirjautuminen on tänään</string>
-    <string name="choose_account_to_use">Valitse tili</string>
     <string name="chrome_os_opa_ready_screen_explanation">Kun Chromebookisi on määritetty, voit pyytää Assistantilta apua milloin tahansa painamalla Assistant-painiketta tai sanomalla Ok Google.</string>
-    <string name="chrome_os_opa_value_proposition_cancel">Ei kiitos</string>
-    <string name="chrome_os_opa_value_proposition_continue">Jatka</string>
     <string name="chrome_os_opa_value_proposition_title_loading">Hetkinen</string>
     <string name="city_to_city">%1$s – %2$s</string>
     <string name="clear">Tyhjennä</string>
@@ -1047,6 +1038,8 @@ Tiedonsiirrosta voidaan veloittaa."</string>
     <string name="common_address_edit_title">Muokkaa osoitetta</string>
     <string name="common_delete">Poista</string>
     <string name="common_device_assistant_language_title">Assistantin kieli</string>
+    <string name="common_device_disable_youTube_for_guests_summary">Estä YouTuben, YouTube Musicin ja YouTube TV:n käyttö ääniltä, joita Assistantin Voice Match ei tunnista. Huom. Toimii vain, jos Voice Match on käytössä.</string>
+    <string name="common_device_disable_youTube_for_guests_title">Estä vierailta YouTuben käyttö</string>
     <string name="common_device_id_personal_info_permission_non_screen_devices_summary">Salli sähköpostien, kalenterin, yhteystietojen, muistutusten ja muiden omien hakutulosten käyttö tällä laitteella. Tämän jälkeen myös maksaminen laitteella on mahdollista. %1$s</string>
     <string name="common_device_id_personal_info_permission_screenful_devices_summary">Salli kuvien, sähköpostien, kalenterin, yhteystietojen, muistutusten ja muiden omien hakutulosten käyttö tällä laitteella. Tämän jälkeen myös maksaminen laitteella on mahdollista. %1$s</string>
     <string name="common_device_notification_permission_summary">Saat muistutuksia ja muita ilmoituksia tähän laitteeseen. Kuulet hälytykset ja tärkeiden päivitysten merkkiäänet, vaikka ilmoitukset ovat poissa käytöstä.</string>
@@ -1208,8 +1201,6 @@ Voit katsella ja hallinnoida näitä keskusteluja Google-tilin asetusten %1$s �
     <string name="current_inning">Sisävuoro %1$d</string>
     <string name="current_location_searchbox">Nykyinen sijainti</string>
     <string name="current_period">Kausi %1$d</string>
-    <string name="current_search_base_url_google_com">Käytetään verkkotunnusta www.google.com paikallisen verkkotunnuksen (%1$s) sijaan</string>
-    <string name="current_search_base_url_local">Käytössä paikallinen verkkotunnus (%1$s)</string>
     <string name="current_status">Tarkista nykyinen tila</string>
     <string name="custom">Muokattu (ei voi muokata puhelimessa)</string>
     <string name="custom_tabs_explore_action_button_desc">Näytä tähän liittyvät sivut</string>
@@ -1289,7 +1280,6 @@ Jotta voimme ottaa perustoiminnot käyttöön, meidän on pääteltävä likimä
     <string name="distance_miles">%1$.1f mi</string>
     <string name="distance_miles_accessible">Distance: %1$.1f mailia</string>
     <string name="docs_group_header">Dokumentit</string>
-    <string name="donate">Lahjoita</string>
     <string name="donate_button_label">Lahjoita</string>
     <string name="donate_screenshot_summary">Anna Googlelle oikeus säilyttää kuvakaappauksiasi ja arvioida niitä näyttöhaun parantamiseksi. Arvioijat noudattavat tiukkoja salassapitosääntöjä. Kuvakaappaukset voivat sisältää yksityisiä tietoja, kuten sähköposti‑ ja chat-viestejä, mutta niitä säilytetään luottamuksellisesti.</string>
     <string name="donate_screenshot_title">Auta parantamaan näyttöhakua</string>
@@ -1311,6 +1301,7 @@ Jotta voimme ottaa perustoiminnot käyttöön, meidän on pääteltävä likimä
     <string name="download_prompt">Lataa</string>
     <string name="download_setting_message">Jaksot poistetaan 30 päivän kuluttua lataamisesta tai 24 tunnin kuluttua katsomisesta.</string>
     <string name="downloaded">Ladattu</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Ladatut jaksot</string>
     <string name="downloading">Ladataan…</string>
     <string name="downloads">Lataukset</string>
@@ -1362,7 +1353,6 @@ kahteen viikkoon"</string>
     <string name="enable_google_search_restriction">Ota Google-haku käyttöön</string>
     <string name="enable_location_use">Anna Googlen sovellusten käyttää sijaintiasi</string>
     <string name="enable_screen_assist_summary_now_emphasis">Paina aloitusnäyttöpainiketta pitkään tai tee puhehaku, niin Google kertoo lisätietoja näytöllä näkyvistä asioista.</string>
-    <string name="enable_screen_assist_title">Näyttöhaku</string>
     <string name="enable_video_preview_autoplay">Automaattinen toisto</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Salli mobiiliverkoissa</string>
     <string name="enable_web_history_toast">Verkkohistoria käytössä</string>
@@ -1374,6 +1364,7 @@ kahteen viikkoon"</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Saatavilla olevat jaksot</string>
     <string name="episode_page_section_title">Jakso</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Sinulle</string>
     <string name="error">Virhe</string>
     <string name="error_adding_location_snackbar_text">Virhe lisättäessä sijaintia</string>
@@ -1394,7 +1385,6 @@ kahteen viikkoon"</string>
     <string name="error_no_connection_text">"Ei verkkoa käytettävissä.
 Tarkista yhteys ja yritä uudelleen."</string>
     <string name="error_no_network_connectivity">Yritetään palauttaa yhteyttä. Tulokset näytetään, kun laitteella on verkkoyhteys.</string>
-    <string name="error_offline_no_connectivity">Tarkista yhteys ja yritä uudelleen.</string>
     <string name="error_removing_location_snackbar_text">Virhe sijainnin poistamisessa</string>
     <string name="error_s3">Jokin meni pieleen. Tarkista verkkoyhteys ja yritä uudelleen.</string>
     <string name="error_ssl">Tarkista verkkoyhteys ja yritä uudelleen.</string>
@@ -1418,7 +1408,6 @@ Tarkista yhteys ja yritä uudelleen."</string>
     <string name="expand_button_title">Lisätiedot</string>
     <string name="expand_time_to_leave">Näytä reittivaihtoehdon valinnat.</string>
     <string name="expanding_time_to_leave_announcement">Näytetään lähtöajan tiedot.</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Podcast sisältää seksuaalista sisältöä</string>
     <string name="explore_back_button_content_description">Takaisin</string>
     <string name="explore_bottombar_header_title">Ihmiset katsoivat myös näitä</string>
@@ -1474,6 +1463,7 @@ Google Lens ei tiedä kaikkea, eikä kaikkia esineitä, tekstivalintoja tai muit
     <string name="fast_forward">Kelaa eteenpäin</string>
     <string name="favorite_images_tag_title">Suosikkikuvat</string>
     <string name="favorite_pages_tag_title">Suosikkisivut</string>
+    <string name="favorite_screenshots_tag_title">Suosikkikuvakaappaukset</string>
     <string name="feed_datasaver_details">Kun Data Saver on käytössä, uusinta sisältöä ei näytetä syötteessä.</string>
     <string name="feedback">Lähetä palautetta</string>
     <string name="feedback_composed_legalese_text">Jos haluat pyytää sisältömuutoksia oikeudellisista syistä, siirry %1$s.&lt;br />Tietoja järjestelmästäsi lähetetään Googlelle. Katso %2$s ja %3$s.</string>
@@ -1488,7 +1478,6 @@ Google Lens ei tiedä kaikkea, eikä kaikkia esineitä, tekstivalintoja tai muit
     <string name="feedback_terms_of_service_link">http://www.google.com/intl/%1s/policies/terms/</string>
     <string name="feedback_terms_of_service_text">käyttöehdot</string>
     <string name="feedback_unsuccessful_snackbar_hint">Tapahtui virhe. Yritä uudelleen.</string>
-    <string name="fetching_search_base_url">Etsitään paikallista verkkotunnusta...</string>
     <string name="fetching_suggestions_status_text">Haetaan ehdotuksia…</string>
     <string name="filterbar_animated_filter">GIFit</string>
     <string name="filterbar_captions_filter_all">Kaikki videot</string>
@@ -1512,7 +1501,6 @@ Google Lens ei tiedä kaikkea, eikä kaikkia esineitä, tekstivalintoja tai muit
     <string name="filterbar_duration_filter_medium_description">Keskipitkä (4–20 minuuttia)</string>
     <string name="filterbar_duration_filter_short">Lyhyt (0–4 minuuttia)</string>
     <string name="filterbar_duration_filter_short_description">Lyhyt (0–4 minuuttia)</string>
-    <string name="filterbar_filter_container_description">Rajaa haun kattavuutta. Voit rajata hakutuloksia valitsemalla yhden tai useamman suodattimen.</string>
     <string name="filterbar_filter_deselect">Poista valinta: %1$s</string>
     <string name="filterbar_filter_select">Valitse suodatin %1$s</string>
     <string name="filterbar_filtering_message">Näytetään tulokset: %1$s</string>
@@ -1794,7 +1782,6 @@ Tämän laitteen äänimalli voidaan luoda aiemmista tallenteista. Määrityksen
     <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"Olet näköjään jo määrittänyt lapsesi Google Assistantin Voice Matchin toisella laitteella.
 
 Tämän laitteen äänimalli voidaan luoda aiemmista tallenteista. Määrityksen pitäisi kestää alle minuutin."</string>
-    <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">Suorita ensin toimintosanan käyttöönotto loppuun tilillä %1$s.</string>
     <string name="hotword_enrollment_google_home_no_thanks">Ei kiitos</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Voice Matchin määrittäminen</string>
     <string name="hotword_enrollment_google_home_non_fast_update_progress_summary">Tämän pitäisi kestää alle minuutin.</string>
@@ -1805,6 +1792,9 @@ Tämän laitteen äänimalli voidaan luoda aiemmista tallenteista. Määrityksen
     <string name="hotword_enrollment_google_home_share_message">"Moi! Saan nyt yksilöllisiä tuloksia, koska opetin Assistantin tunnistamaan ääneni Google Homessa.
 
 Sinäkin voit saada henkilökohtaisia tuloksia, kun lataat ensin Google Home ‑sovelluksen: https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_deeplink">"Moi! Saan nyt yksilöllisiä tuloksia, koska opetin Assistantin tunnistamaan ääneni Google Homessa.
+
+Sinäkin voit saada henkilökohtaisia tuloksia. Napauta tätä ja kirjaudu sisään: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Opeta Assistant tunnistamaan sinut</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Kutsu</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Tarkastele äänitoimintoja tai poista ne kohdassa %1$s. Voit myös poistaa Voice Matchin käytöstä Assistantin asetuksissa.</string>
@@ -1875,7 +1865,6 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_example_third">%1$s, kerro minulle päivästäni.</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_end">Voit myös edelleen puhua Assistantille sanomalla %1$s ja %2$s.</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_title">Jatkossa Assistant vastaa, kun sanot esimerkiksi:</string>
-    <string name="hotword_enrollment_trustedvoice_continue_glif">Jatka</string>
     <string name="hotword_enrollment_trustedvoice_done_glif">Valmis</string>
     <string name="hotword_enrollment_trustedvoice_header_title">Avaa puhelimen lukitus Voice Matchilla</string>
     <string name="hotword_enrollment_trustedvoice_next_glif">Seuraava</string>
@@ -1915,7 +1904,6 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="hotword_pref_summary_opa">Ota Assistant käyttöön koska tahansa sanomalla %1$s – myös silloin, kun näyttö on pois päältä tai olet juuri käyttämässä lempisovelluksiasi</string>
     <string name="hotword_pref_summary_opa_non_dsp">Ota Assistant käyttöön koska tahansa sanomalla %1$s näytön ollessa päällä</string>
     <string name="hotword_pref_summary_voice_unlock">\"%1$s\" avaa laitteesi lukituksen, kun ääni vastaa puhemalliasi.</string>
-    <string name="hotword_pref_title">Toimintosanan %1$s tunnistus</string>
     <string name="hotword_pref_title_always_on">Aina käytössä</string>
     <string name="hotword_pref_title_during_gmm_navigation">Ajaessa</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Avaa lukitus Voice Matchin avulla</string>
@@ -1947,9 +1935,6 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="hq_opt_in_card_description">Kirjaudu sisään Google-fiidiin, niin näet tietoja esimerkiksi työmatkastasi ja tilauksistasi.</string>
     <string name="hq_opt_in_card_title">Tietosi samassa paikassa</string>
     <string name="hq_title">Google Assistant</string>
-    <string name="https_info_close">Sulje</string>
-    <string name="https_info_message">Olet muodostanut suojatun yhteyden podcast-sivustoon.</string>
-    <string name="https_info_title">Suojattu yhteys</string>
     <string name="hyper_local_suggestion_message">Tämä haku liittyy nykyiseen sijaintiisi.</string>
     <string name="i18n_address_line1_accessibility_label">Katuosoite: rivi 1</string>
     <string name="i18n_address_line1_label">Katuosoite</string>
@@ -2024,7 +2009,6 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="image_viewer_video_view_count_label">Näyttökerrat</string>
     <string name="image_viewer_video_watch_label">Katso</string>
     <string name="image_viewer_view_all_related_images_accessibility">Näytä kaikki aiheeseen liittyvät kuvat</string>
-    <string name="image_viewer_view_saved">Näytä tallennetut</string>
     <string name="image_viewer_visit_site">Siirry</string>
     <string name="images_mode_landing_text">Kuvahaku</string>
     <string name="ime_audio_error">Mikrofonia ei voi avata</string>
@@ -2110,8 +2094,6 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="item_removed">Kohde poistettiin.</string>
     <string name="jasper_duo_knock_knock_summary">Näet soittajan videokuvan ennen kuin vastaat. Voit myös antaa oman videokuvasi näkyä vastaanottajan puhelimen soidessa. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Kop kop</string>
-    <string name="jasper_duo_not_signed_in">Ei kirjautunut</string>
-    <string name="jasper_duo_signed_in">Kirjautunut sisään</string>
     <string name="jasper_duo_unlink">Poista linkitys</string>
     <string name="jasper_unlink_duo_title">Poista Duon ja laitteen linkitys</string>
     <string name="jasper_unlink_duo_warning_dialog_summary">Et voi enää soittaa tai vastaanottaa Duo-puheluita tällä laitteella.</string>
@@ -2165,22 +2147,23 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="leave_from">Lähettäjä</string>
     <string name="legal_documents">Lakiasiat</string>
     <string name="lens_back_button_description">Takaisin</string>
-    <string name="lens_education_card_barcodes_heading">Viivakoodit</string>
-    <string name="lens_education_card_barcodes_paragraph">Skannaa viivakoodeja ja etsi tuotteiden tietoja.</string>
-    <string name="lens_education_card_media_heading">Kirjat ja media</string>
-    <string name="lens_education_card_media_paragraph">Hae kirjoja, elokuvia, musiikkialbumeita ja videopelejä kannen perusteella.</string>
-    <string name="lens_education_card_places_heading">Paikat</string>
-    <string name="lens_education_card_places_paragraph">Lue lisää maamerkeistä, nähtävyyksistä ja merkittävistä rakennuksista.</string>
-    <string name="lens_education_card_products_heading">Tuotteet</string>
-    <string name="lens_education_card_products_paragraph">Etsi samankaltaisia tuotteita, esim. huonekaluja ja vaatteita.</string>
-    <string name="lens_education_card_text_heading">Teksti</string>
-    <string name="lens_education_card_text_paragraph">Kopioi tekstiä, kuten puhelinnumeroita, päivämääriä ja osoitteita.</string>
+    <string name="lens_education_card_barcodes_heading">Koodien skannaus</string>
+    <string name="lens_education_card_barcodes_paragraph">Kokeile viivakoodeilla ja QR-koodeilla</string>
+    <string name="lens_education_card_media_heading">Kirjojen ja median löytäminen</string>
+    <string name="lens_education_card_media_paragraph">Kokeile kirjoilla, elokuvilla, musiikkialbumeilla ja videopeleillä</string>
+    <string name="lens_education_card_natural_world_heading">Kasvien ja eläinten tunnistaminen</string>
+    <string name="lens_education_card_natural_world_paragraph">Kokeile kukilla ja koiraroduilla</string>
+    <string name="lens_education_card_products_heading">Samankaltaisten tuotteiden hakeminen</string>
+    <string name="lens_education_card_products_paragraph">Kokeile vaatteilla ja huonekaluilla</string>
+    <string name="lens_education_card_text_heading">Tekstin kopiointi</string>
+    <string name="lens_education_card_text_paragraph">Kokeile puhelinnumeroilla, päivämäärillä ja osoitteilla</string>
     <string name="lens_education_card_title">Mitä Lens osaa tehdä?</string>
     <string name="lens_info_panel_header_preview_tag">esikatselu</string>
     <string name="lens_info_panel_live_camera_title">Napauta esineitä tai tekstiä</string>
     <string name="lens_info_panel_loading_message">Tuloksia haetaan…</string>
     <string name="lens_info_panel_opening_lens">Avataan Lensiä…</string>
     <string name="lens_overflow_menu_description">Asetukset</string>
+    <string name="lens_overflow_menu_send_feedback">Lähetä palautetta</string>
     <string name="lens_quit_button_description">Lopeta</string>
     <string name="lens_results_feedback_card_prompt">Mitä haluat tehdä Lensillä?</string>
     <string name="lens_results_feedback_card_title">Auta meitä kehittämään Lensiä</string>
@@ -2251,6 +2234,7 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="maps_mode_landing_text">Karttahaku</string>
     <string name="mark_as_played">Merkitse toistetuksi</string>
     <string name="mark_as_unplayed">Merkitse toistamattomaksi</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_content_image">Kuva, joka liittyy kortissa näkyvään mediasisältöön</string>
     <string name="media_item_type_your_podcasts">Omat podcastit</string>
     <string name="media_route_chooser_dialog_title">Valitse laite suoratoistoa varten</string>
@@ -2286,26 +2270,6 @@ Voit poistaa omat hakutulokset käytöstä Assistantin asetuksista."</string>
     <string name="migration_cling_description">Tuodaanko kuvakkeet ja kansiot vanhoista aloitusruuduista?</string>
     <string name="migration_cling_title">Kopioi sovelluskuvakkeet</string>
     <string name="migration_cling_use_default">ALOITA ALUSTA</string>
-    <string name="mini_card_aiport_code_1">HEL</string>
-    <string name="mini_card_aiport_code_2">ARN</string>
-    <string name="mini_card_flight_delayed">Lento Z206 myöh.</string>
-    <string name="mini_card_ok_google">Ok, Google</string>
-    <string name="mini_card_parking_location">Pysäköintisij.</string>
-    <string name="mini_card_sample_score">2</string>
-    <string name="mini_card_set_a_reminder">Aseta muistutus</string>
-    <string name="mini_card_set_reminder">Aseta muistutus</string>
-    <string name="mini_card_sports_league">Valioliiga</string>
-    <string name="mini_card_sports_team_1">Chelsea</string>
-    <string name="mini_card_sports_team_2">Arsenal</string>
-    <string name="mini_card_sunny">Aurinkoista</string>
-    <string name="mini_card_temp">22 °</string>
-    <string name="mini_card_time_to_home">20 min kotiin</string>
-    <string name="mini_card_time_to_work">40 min töihin</string>
-    <string name="mini_card_train_station">Hgin juna-as.</string>
-    <string name="mini_card_weather_city">Helsinki</string>
-    <string name="mini_card_whats_the_reminder">Mistä muistutetaan?</string>
-    <string name="mini_card_when">Aika</string>
-    <string name="mini_card_where">Missä</string>
     <string name="minimum_balance">Vähimmäissaldo</string>
     <string name="minus_one_header_customize">Muokkaa fiidiä</string>
     <string name="minus_one_header_feedback">Lähetä palautetta</string>
@@ -2380,11 +2344,13 @@ Omissa tapahtumissa näet esimerkiksi kaikki Google-hakusi ja voit hallita niit�
     <string name="navigate_to_pickup_location">Siirry noutopaikkaan</string>
     <string name="navigation_action">Siirry sivulle %1$s</string>
     <string name="navigation_assistant_label">Assistant</string>
-    <string name="navigation_collections_label">Kokoelmat</string>
+    <string name="navigation_collections_label">Tallennettu</string>
     <string name="navigation_drawer_label">Lisää</string>
     <string name="navigation_home_label">Etusivu</string>
     <string name="navigation_recently_label">Viimeisimmät</string>
     <string name="navigation_search_label">Hae</string>
+    <string name="navigation_top_apps_label">Suosituimmat</string>
+    <string name="navigation_updates_label">Päivitykset</string>
     <string name="nearby_attractions">Lähellä sijaitsevia nähtävyyksiä</string>
     <string name="nearby_events_title">Lähistön tapahtumat</string>
     <string name="network_error">Ei yhteyttä Googleen.</string>
@@ -2494,7 +2460,6 @@ Haluatko jatkaa?"</string>
     <string name="notes_lists_provider_changed_title">Katkaise yhteys palveluun %1$s</string>
     <string name="notes_lists_title">Assistant synkronoi muistiinpanosi ja luettelosi näihin palveluihin.</string>
     <string name="notification_access_link_text">Poista ilmoitusten käyttöoikeus</string>
-    <string name="notification_accessable_apps_category_title">Ilmoitusten käyttöoikeus</string>
     <string name="notification_cancel_text">Google ei yritä tätä hakua uudelleen, kun olet taas verkossa.</string>
     <string name="notification_cancel_title">Haku peruutettiin</string>
     <string name="notification_dismiss">Ohita</string>
@@ -2510,7 +2475,6 @@ Haluatko jatkaa?"</string>
     <string name="now_gplus_location_sharing_error">Google+:aan ei saatu yhteyttä</string>
     <string name="now_header_doodle_search_button_content_description">Lisätietoja tämän päivän logopiirroksesta</string>
     <string name="now_header_doodle_share_button_content_description">Jaa piirros</string>
-    <string name="now_loading">Ladataan…</string>
     <string name="now_on_tap_share_with">Jaa seuraavien kanssa:</string>
     <string name="now_opt_in_card_description">Ota fiidi käyttöön saadaksesi muun muassa urheilutuloksiin, musiikkiin ja elokuviin liittyviä päivityksiä.</string>
     <string name="now_opt_in_card_title">Seuraa kiinnostavien aiheiden päivityksiä</string>
@@ -2542,9 +2506,7 @@ Haluatko jatkaa?"</string>
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_on">Verkko ei ole käytettävissä. Suosittelemme yhdistämään Wi-Fi-verkkoon.</string>
     <string name="offline_error_card_explanation_text_suffix_opted_into_background_retry">Saat ilmoituksen, kun tulokset ovat valmiit.</string>
     <string name="offline_error_card_open_settings_button_text">Poista lentokonetila käytöstä</string>
-    <string name="offline_error_card_title_text">Offline-tila</string>
     <string name="offline_error_card_title_text_airplane_mode">Lentokonetila on käytössä</string>
-    <string name="offline_error_card_title_text_airplane_mode_wifi_error">Wi-Fi ei toimi</string>
     <string name="offline_error_card_title_text_data_roaming_off">Roaming ei ole käytössä</string>
     <string name="offline_error_card_title_text_general_offline_mode">Olet offline-tilassa</string>
     <string name="offline_error_card_title_text_mobile_data_off">Mobiilidata ei ole käytössä</string>
@@ -2555,33 +2517,17 @@ Haluatko jatkaa?"</string>
     <string name="offline_error_card_title_text_no_sim_card">SIM-korttia ei löytynyt</string>
     <string name="offline_error_card_title_text_sim_card_error">SIM-korttivirhe</string>
     <string name="offline_error_title">Olet offline-tilassa</string>
-    <string name="offline_eyesfree_install_language_pack_notification_body">Päivitä kielipaketti.</string>
-    <string name="offline_eyesfree_install_language_pack_notification_title">Ota offline-puhe käyttöön</string>
-    <string name="offline_eyesfree_install_language_pack_notification_tts">Olet offline-tilassa. Jos haluat edelleen käyttää puhetoimintoja offline-tilassa, asenna uusin kielipaketti. Aloita asennus koskettamalla ilmoitusta, kun näytön käyttö on turvallista.</string>
     <string name="offline_eyesfree_install_language_pack_tts">Olet offline-tilassa. Jos haluat käyttää puhetoimintoja offline-tilassa, tarvitset uusimman kielipaketin. Se asennetaan, kun olet taas yhteydessä verkkoon.</string>
-    <string name="offline_eyesfree_lp_need_update_fallback_tts">Olet offline-tilassa. Jos haluat edelleen käyttää puhetoimintoja offline-tilassa ja saada uusia ominaisuuksia, asenna uusin kielipaketti. Aloita asennus koskettamalla ilmoitusta, kun näytön käyttö on turvallista.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Olet offline-tilassa. En saa yhteyttä Googleen juuri nyt, mutta voin auttaa muissa asioissa. Sano vaikkapa ”soita puhelu” tai ”mitä voin sanoa?”</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Olet offline-tilassa. En saa yhteyttä Googleen juuri nyt, mutta voin auttaa muissa asioissa. Sano vaikkapa %1$s tai Mitä voin sanoa?</string>
-    <string name="offline_header_text">Offline-puhevinkkejä</string>
     <string name="offline_help_article_title">Tarkista yhteys</string>
     <string name="offline_no_language_pack_card_install_button_text">Asenna</string>
     <string name="offline_no_language_pack_card_instruction_text_queued">Olet offline-tilassa. Tarvitsemasi kielipaketti asennetaan, kun olet yhteydessä verkkoon.</string>
     <string name="offline_no_language_pack_card_instruction_text_to_install">Olet offline-tilassa. Jos haluat edelleen käyttää puhetoimintoja offline-tilassa, asenna viimeisin kielipaketti.</string>
-    <string name="offline_no_language_pack_card_instruction_text_to_install_new">Olet offline-tilassa. Jos haluat edelleen käyttää puhetoimintoja offline-tilassa, asenna viimeisin kielipaketti.</string>
-    <string name="offline_on_start_cue_cards_header_listening">Offline-tila</string>
-    <string name="offline_on_start_cue_cards_header_timeout">Offline-puhevinkkejä</string>
-    <string name="offline_on_start_cue_cards_second_header_listening">Voit silti sanoa…</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout">Voit silti sanoa ”Ok Google” ja…</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout_without_hotword">Voit silti napauttaa mikrofonia ja sanoa</string>
-    <string name="offline_options_start_hotword_disabled">Voit silti napauttaa mikrofonia ja sanoa</string>
-    <string name="offline_searchbox_hint">”%%s, %s”</string>
     <string name="offline_voice_actions_error">Offline-puhetoimintoja ei käytettävissä.</string>
     <string name="ok">OK</string>
     <string name="ok_prompt">OK</string>
-    <string name="omniconsent_action_button_scroll">Lisää</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">Jatka</string>
-    <string name="omniconsent_confirm_partial_experience_description">Voit käyttää joitakin ominaisuuksia antamatta tilisi käyttöoikeutta.</string>
-    <string name="omniconsent_confirm_partial_experience_title">Aloita Google Assistantin käyttö</string>
     <string name="omniconsent_confirm_reject_dialog_button_negative">Peruuta</string>
     <string name="omniconsent_confirm_reject_dialog_button_positive">Kyllä, olen varma</string>
     <string name="omniconsent_confirm_reject_dialog_message">Google Assistant tarvitsee näitä käyttöoikeuksia toimiakseen oikein. Ilman oikeuksia et voi käyttää Assistantia.</string>
@@ -2626,13 +2572,11 @@ Haluatko jatkaa?"</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">Assistantilla on vaikeuksia toimintojen hallinta-asetusten tarkistamisessa. Yritä myöhemmin uudestaan.</string>
     <string name="opa_consent_check_error_message_autherror">Varmista, että tilisi on täysin määritetty ja yritä uudelleen.</string>
-    <string name="opa_consent_check_error_message_confirmreject">Näiden käyttöoikeuksien ansiosta Assistant voi auttaa sinua esimerkiksi kalenterin, muistutusten, työmatkan, lentojen ja tilausten järjestämisessä.</string>
     <string name="opa_consent_check_error_message_notavailable">Google Assistant tarvitsee toimintojen hallintaa, mutta laitteen järjestelmänvalvoja on rajoittanut sen käyttöä tällä tilillä. Ota yhteyttä järjestelmänvalvojaan tai vaihda tiliä ja yritä uudelleen.</string>
     <string name="opa_consent_check_error_title">Jokin meni vikaan</string>
     <string name="opa_consent_check_error_title_autherror">Tiliä ei voi todentaa</string>
     <string name="opa_consent_check_error_title_confirmreject">Saat täyden Assistant-kokemuksen näillä asetuksilla</string>
     <string name="opa_consent_check_error_title_notavailable">Google Assistant ei ole saatavilla tälle tilille</string>
-    <string name="opa_consent_error_timeout_message">Verkkovirhe – tarkista yhteys ja yritä uudelleen.</string>
     <string name="opa_contextual_cards_found_message">Tässä on nykyiseen näkymään liittyvää tietoa:</string>
     <string name="opa_contextual_cards_found_proactive_message">Tässä on muuten tämän näytön sisältöön liittyvää tietoa:</string>
     <string name="opa_contextual_cards_network_error">Googleen ei juuri nyt saada yhteyttä.</string>
@@ -2644,14 +2588,10 @@ Haluatko jatkaa?"</string>
 
 Assistant-historiasta poistaminen ei vaikuta tapahtumiin tai kumoa toimintoja."</string>
     <string name="opa_delete_confirmation_title">Ennen poistamista</string>
-    <string name="opa_disabled_error_no_button">EI</string>
-    <string name="opa_disabled_error_summary">Google Assistant on pois käytöstä. Haluatko ottaa sen käyttöön?</string>
-    <string name="opa_disabled_error_yes_button">KYLLÄ</string>
     <string name="opa_disabled_no_button">Peruuta</string>
     <string name="opa_disabled_title">Ota Assistant käyttöön</string>
     <string name="opa_dismiss_message">Ohita vetämällä</string>
     <string name="opa_email_optin_screen_add_shortcut_explanation">Käytä Assistantia helposti</string>
-    <string name="opa_email_optin_screen_confirm">Valmis</string>
     <string name="opa_email_optin_screen_explanation">Sähköposteja Assistantin uusista toiminnoista ja ominaisuuksista</string>
     <string name="opa_email_optin_screen_next">Seuraava</string>
     <string name="opa_email_optin_screen_sub_toggle_explanation">Lisää Assistant aloitusnäytölle</string>
@@ -2670,8 +2610,6 @@ Assistant-historiasta poistaminen ei vaikuta tapahtumiin tai kumoa toimintoja."<
     <string name="opa_error_network_button">Verkkoasetukset</string>
     <string name="opa_error_network_message">Google Assistantin käyttö edellyttää internetyhteyttä. Tarkista verkkoyhteys ja kokeile uudelleen.</string>
     <string name="opa_error_network_title">Olet ilmeisesti offline-tilassa</string>
-    <string name="opa_error_udc_spinner_content">Tämä voi kestää hetken.</string>
-    <string name="opa_error_udc_spinner_title">Määritetään…</string>
     <string name="opa_error_unsupported_device_button">SULJE</string>
     <string name="opa_error_unsupported_device_message">Google Assistantin käyttö edellyttää laitteelta paria asiaa.</string>
     <string name="opa_error_unsupported_device_message_learn_more_link">https://support.google.com/assistant/answer/7172657</string>
@@ -2684,25 +2622,16 @@ Assistant-historiasta poistaminen ei vaikuta tapahtumiin tai kumoa toimintoja."<
     <string name="opa_error_update_required_title">Assistant haluaa opetella uusia taitoja</string>
     <string name="opa_error_update_started_message">Tämä ei kestä kauan. Assistant on pian valmis auttamaan sinua päiväsi askareissa.</string>
     <string name="opa_error_update_started_title">Päivitetään Assistantia</string>
-    <string name="opa_error_view_content_description">Google Assistantin virhesivu</string>
     <string name="opa_eyes_free_opt_in_notification_body">Voit puhua Google Assistantille kuulokemikrofonilla, kun puhelin on lukittuna.</string>
     <string name="opa_eyes_free_opt_in_notification_title">Käytä Google Assistantia kuulokemikrofonilla</string>
     <string name="opa_eyes_free_opt_in_speech">Kosketa ilmoitusta, kun se on turvallista. Sitten voit sallia Google Assistantille kuulokemikrofonin käytön.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Jatka napauttamalla.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Anna Google Assistantille lupa auttaa sinua</string>
-    <string name="opa_first_screen_hotword_transition_cancel_button_text">Myöhemmin</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Hyväksyn</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text">ALOITA</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">Aloita</string>
     <string name="opa_first_screen_hotword_transition_no_thanks_button_text">Ei kiitos</string>
-    <string name="opa_first_screen_hotword_transition_skip_button_text">Ohita</string>
-    <string name="opa_first_screen_hotword_transition_summary">Puhu avustajalle milloin tahansa sanomalla %1$s – myös silloin, kun näyttö on pois päältä, puhelin on lukittu tai käytät sovellusta.</string>
-    <string name="opa_first_screen_hotword_transition_summary_no_dsp">Puhu Assistantille milloin tahansa sanomalla %1$s – kunhan näyttö on päällä.</string>
     <string name="opa_first_screen_hotword_transition_summary_short">Voice Matchin avulla voit käynnistää Assistantin suoraan puhekomennolla, vaikka näyttö on pois päältä.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Matchin avulla voit käynnistää Assistantin suoraan puhekomennolla.</string>
     <string name="opa_first_screen_hotword_transition_title">Määritä Voice Match, niin voit käyttää Assistantia puheella</string>
-    <string name="opa_first_screen_tgoogle_summary">Voit käynnistää Assistantin suoraan sanomalla %1$s</string>
-    <string name="opa_first_screen_tgoogle_title">Opeta Assistant tunnistamaan %1$s</string>
     <string name="opa_fix_user_recoverable_error">KORJAA</string>
     <string name="opa_gdpr_footer">"Tälle laitteelle luodaan sinua varten yksilöllinen äänimalli, jonka avulla Assistant tunnistaa sinut ja erottaa äänesi muista. 
 
@@ -2726,7 +2655,6 @@ Assistant-historiasta poistaminen ei vaikuta tapahtumiin tai kumoa toimintoja."<
     <string name="opa_greeting_bubble_text_with_name">Hei %1$s, kuinka voin auttaa?</string>
     <string name="opa_hardware_button_training_continue">Jatka</string>
     <string name="opa_hardware_button_training_desc_fallback">Napauta Assistant-painiketta käynnistääksesi sen milloin tahansa</string>
-    <string name="opa_hardware_button_training_switch_title">Lisää Google Assistant aloitusnäytölle.</string>
     <string name="opa_hardware_button_training_title">Assistant on napautuksen päässä</string>
     <string name="opa_history_delete_menu">Poista ryhmä</string>
     <string name="opa_history_edit_menu">Muokkaa kyselyä</string>
@@ -2751,15 +2679,12 @@ Google-tilisi historiaa täällä:"</string>
     <string name="opa_lock_icon_description">Avauskuvake</string>
     <string name="opa_logo_content_desc">Google Assistantin logo</string>
     <string name="opa_mark_content">Assistant</string>
-    <string name="opa_marketplace_disclosure_description">Google Assistant voi auttaa sinua hoitamaan asioita erilaisten palvelujen avulla.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google Assistant ja Googlen yhteistyökumppanit voivat yhdessä auttaa sinua hoitamaan asioita, esimerkiksi ostamaan elokuvalippuja tai etsimään putkimiestä. &lt;a href=https://support.google.com/assistant/?p=google_partners>Lisätietoja&lt;/a></string>
-    <string name="opa_marketplace_disclosure_google_partners_description">Googlen yhteistyökumppanit ovat Googlen kanssa liikesuhteessa olevia yrityksiä. Google Assistant ja Googlen yhteistyökumppanit yhdessä voivat auttaa sinua hoitamaan asioita, esimerkiksi ostaa elokuvalippuja tai etsiä putkimiestä. <a href="https://support.google.com/assistant/?p=google_partners">Lisätietoja</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Googlen yhteistyökumppanit ovat Googlen kanssa liikesuhteessa olevia yrityksiä.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Googlen yhteistyökumppanit</string>
     <string name="opa_marketplace_disclosure_service_additional_text">Näin palvelut voivat muistaa keskustelussa määritettyjä asetuksia ja muuta vastaavaa. Voit katsella, hallinnoida ja nollata palveluihin lähetettävää dataa kyseisen palvelun sivulla tämän sovelluksen Tutustu-osiossa. &lt;a href=https://support.google.com/assistant/?p=reset_id>Lisätietoja&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google lähettää käyttämillesi palveluille yksilöivän koodin.</string>
     <string name="opa_marketplace_disclosure_service_title">Palvelut ja tietosuoja</string>
-    <string name="opa_marketplace_disclosure_title">Lisätoimintoja Assistantiin</string>
     <string name="opa_menu_content_description">Google Assistant ‑valikko</string>
     <string name="opa_menu_what_can_you_do">Mitä voit tehdä?</string>
     <string name="opa_music_search_suggestion_chip_title">Mikä kappale tämä on?</string>
@@ -2782,16 +2707,10 @@ Google-tilisi historiaa täällä:"</string>
     <string name="opa_offline_airplane_mode_indicator">En voi auttaa tässä asiassa juuri nyt, koska puhelimesi on lentokonetilassa.</string>
     <string name="opa_offline_help_prefix">Tässä on toimintoja, jotka voidaan suorittaa ilman verkkoyhteyttä.</string>
     <string name="opa_offline_help_prefix_tts">Tässä on toimintoja, jotka voidaan suorittaa ilman verkkoyhteyttä.</string>
-    <string name="opa_offline_install_language_pack_button">Asenna kielen %1$s kielipaketti</string>
     <string name="opa_offline_install_language_pack_button_clicked">Se ladataan automaattisesti, kun olet taas online-tilassa.</string>
-    <string name="opa_offline_install_language_pack_button_clicked_tts">Se ladataan automaattisesti, kun olet taas online-tilassa.</string>
-    <string name="opa_offline_install_language_pack_explanation">Asenna kielen %1$s kielipaketti, jotta voit jatkaa puhekomentojen käyttämistä.</string>
-    <string name="opa_offline_install_language_pack_explanation_tts">Asenna kielen %1$s kielipaketti, jotta voit jatkaa puhekomentojen käyttämistä.</string>
     <string name="opa_offline_poor_connectivity_indicator">En voi auttaa tässä asiassa juuri nyt, koska puhelimesi on offline-tilassa.</string>
     <string name="opa_offline_poor_connectivity_indicator_tts">En voi auttaa tässä asiassa juuri nyt, koska puhelimesi on offline-tilassa.</string>
     <string name="opa_offline_voice_tips_prefix">Tässä on komentoja, jotka voidaan suorittaa ilman verkkoyhteyttä…</string>
-    <string name="opa_offline_voice_tips_prefix_tts">Tässä on komentoja, jotka voidaan suorittaa ilman verkkoyhteyttä…</string>
-    <string name="opa_onboarding_view_content_description">Google Assistantin rekisteröitymissivu</string>
     <string name="opa_persistent_finish_setup_bar_button">ALOITA</string>
     <string name="opa_persistent_finish_setup_bar_description">Lisää Assistant-ominaisuuksia</string>
     <string name="opa_pre_upgrade_notifs_disable_text">Poista käytöstä</string>
@@ -2805,10 +2724,6 @@ Google-tilisi historiaa täällä:"</string>
     <string name="opa_screenless_nav_opt_in_notification_body">Voit puhua Google Assistantille samalla, kun navigoit.</string>
     <string name="opa_screenless_nav_opt_in_notification_title">Google Assistantin käyttö navigoinnin aikana</string>
     <string name="opa_screenless_nav_opt_in_speech">Kun voit, kosketa ilmoitusta. Sen jälkeen voit käyttää Google Assistantia navigoinnin aikana.</string>
-    <string name="opa_screenshot_captured">Kuvakaappaus otettu</string>
-    <string name="opa_search_hint">Kirjoita jotain</string>
-    <string name="opa_search_plate_keyboard_icon_description">Siirry näppäimistötilaan</string>
-    <string name="opa_search_plate_mic_logo_description">Puhehakupainike</string>
     <string name="opa_send_button_content_description">Lähetä</string>
     <string name="opa_share_screenshot_setting_disabled">Yritä kuvakaappauksen jakamista uudelleen.</string>
     <string name="opa_slow_connection">Yhteytesi on hidas.</string>
@@ -2834,17 +2749,11 @@ Google-tilisi historiaa täällä:"</string>
     <string name="opa_voice_search_tap_mic_to_speak">Napauta mikrofonia ja puhu</string>
     <string name="opa_warm_welcome_greeting_0">Hei! Olen Google Assistant.</string>
     <string name="opa_warm_welcome_greeting_1">Autan sinua hoitamaan asioita, löytämään mitä tarvitset ja pitämään hauskaa... Kun tarvitset jotain, sano: ”nyt haluaisin apua”</string>
-    <string name="opa_warm_welcome_greeting_1_backup_0">Autan sinua hoitamaan asioita, löytämään mitä tarvitset ja pitämään hauskaa...</string>
-    <string name="opa_warm_welcome_greeting_1_backup_1">Autan sinua hoitamaan asioita, löytämään mitä tarvitset ja pitämään hauskaa... Kun tarvitset jotain, sano: ”nyt haluaisin apua”</string>
     <string name="opa_warm_welcome_greeting_2">Kuinka voin siis auttaa?</string>
     <string name="opa_warm_welcome_suggestion_0">Mitä voit tehdä?</string>
     <string name="opa_warm_welcome_suggestion_1">Lähin kahvila</string>
     <string name="opa_warm_welcome_suggestion_2">Kuinka kaukana kuu on?</string>
-    <string name="opa_warm_welcome_suggestion_3">Avaa laskin</string>
     <string name="opa_warm_welcome_suggestion_4">Ota taskulamppu käyttöön</string>
-    <string name="opa_welcome_promo_notification_content">Kokeile sitä koskettamalla aloitusnäyttöpainiketta pitkään.</string>
-    <string name="opa_welcome_promo_notification_title">Uutta! Sait juuri käyttöön Google Assistantin</string>
-    <string name="opa_welcome_promo_sample_query">Mitä voit tehdä?</string>
     <string name="opa_what_can_you_do_suggestion_chip_title">Mitä voit tehdä?</string>
     <string name="opa_wuwa_notification_action_stop">LOPETA</string>
     <string name="opa_wuwa_notification_content">Hälytys kello %1$s</string>
@@ -2855,20 +2764,9 @@ Google-tilisi historiaa täällä:"</string>
     <string name="open_in_keep">AVAA GOOGLE KEEPISSÄ</string>
     <string name="open_settings">Asetukset</string>
     <string name="open_settings_button_text">Avaa asetukset</string>
-    <string name="open_until">Auki klo %1$s asti</string>
     <string name="opt_in_clockwork_punt_action_description">Avaa puhelin napauttamalla.</string>
-    <string name="opt_in_description_page_1">Google on aina askeleen edellä ja auttaa pitämään päivän ohjelman järjestyksessä.</string>
-    <string name="opt_in_description_page_2">Se pitää sinut ajan tasalla sinulle tärkeistä asioista</string>
-    <string name="opt_in_description_page_3">Sano Ok Google missä tahansa näytössä, niin Google Now auttaa sinua hoitamaan asiat</string>
-    <string name="opt_in_description_page_3_no_hotword">Voit hoitaa tehtäviä puhumalla</string>
     <string name="opt_in_more">Aloita käyttö</string>
     <string name="opt_in_more_marketing">OTA KÄYTTÖÖN</string>
-    <string name="opt_in_no_account_decline">Ei kiitos</string>
-    <string name="opt_in_no_account_learn_more">&lt;a href=%1$s>Lisätietoja&lt;/a></string>
-    <string name="opt_in_no_account_sign_in">Kirjaudu sisään</string>
-    <string name="opt_in_no_account_subtitle">Näet yksilöllisiä hakutuloksia ja ilmoituksia sinua kiinnostavista aiheista</string>
-    <string name="opt_in_no_account_title">Kirjaudu sisään, niin voit aloittaa</string>
-    <string name="opt_in_set_up">Aloita käyttö</string>
     <string name="opt_in_setting_ineligible_message_device_state_and_content">Tämä toiminto tarvitsee Laitteen tiedot -asetusta, joka ei ole käytettävissä tällä laitteella.</string>
     <string name="opt_in_setting_ineligible_tts">Valitettavasti toiminto ei ole käytettävissä tässä laitteessa.</string>
     <string name="opt_in_setting_required_continue_button">JATKA</string>
@@ -2884,8 +2782,6 @@ Google-tilisi historiaa täällä:"</string>
     <string name="opt_in_setting_required_message_device_state_and_content_tts_gearhead">Selvä. Kun voit, poistu Android Auto ‑sovelluksesta, kosketa ilmoitusta ja anna Googlelle lupa käyttää laitteesi yhteystietoja.</string>
     <string name="opt_in_setting_required_web_history_notification_body">Soita puheluja, lähetä tekstiviestejä ja käytä monia muita toimintoja puhumalla</string>
     <string name="opt_in_setting_required_web_history_notification_title">Ota verkko- ja sovellustoiminta käyttöön</string>
-    <string name="opt_in_skip">Ohita</string>
-    <string name="opt_in_skip_tutorial">Ohita</string>
     <string name="opt_out_failed_authentication_error">Korttien käytöstä poisto epäonnistui lupaongelman vuoksi. Tarkista tilisi asetukset ja yritä uudelleen.</string>
     <string name="opt_out_failed_network_error">Korttien käytöstä poisto epäonnistui verkkovirheen vuoksi. Tarkista verkkoyhteytesi ja yritä uudelleen.</string>
     <string name="optin_generic_error">Jokin meni vikaan. Yritä myöhemmin uudelleen.</string>
@@ -2933,7 +2829,6 @@ Google-tilisi historiaa täällä:"</string>
     <string name="payments_auth_password_try_again_message_attempt_2">Salasana on väärä. Yritä uudelleen.</string>
     <string name="payments_auth_password_try_again_message_attempt_last">Salasana on väärä. Maksu peruutetaan turvallisuussyistä.</string>
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Liian monta yritystä. Anna salasana.</string>
-    <string name="payments_auth_unknown_fingerprint_error">Sormenjälkeä käytettäessä tapahtui virhe. Jatka antamalla Google-salasanasi.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Käytä sormenjälkeä tuleviin hyväksyntiin</string>
     <string name="penalties">Rangaistukset</string>
     <string name="permdesc_install_shortcut">Antaa sovelluksen lisätä pikakuvakkeita itsenäisesti ilman käyttäjän valintaa.</string>
@@ -3048,10 +2943,10 @@ Huomaa, että myös muut laitteen käyttäjät voivat käyttää hakutuloksiasi.
     <string name="playback_panel_error">Toisto ei onnistu.</string>
     <string name="playback_status_buffering">Puskuroidaan…</string>
     <string name="please_select">Valitse</string>
+    <string name="podcast_retry_download">Yritä uudelleen</string>
     <string name="podcasts">Podcastit</string>
     <string name="pomo_tab_description">Lisämateriaali-välilehti</string>
     <string name="popup_new_content">Napauta päivittääksesi</string>
-    <string name="predictive_cards">Syötteesi</string>
     <string name="prefDialogTitle_language">Kieli</string>
     <string name="prefDialogTitle_multiLanguage">Kielet</string>
     <string name="prefDialogTitle_ttsMode">Puhe</string>
@@ -3086,8 +2981,6 @@ Huomaa, että myös muut laitteen käyttäjät voivat käyttää hakutuloksiasi.
     <string name="pref_multilang_override_message">"Saat parempia tuloksia, jos vaihdat ensisijaisen kielen %1$s kieleksi %2$s.
 
 Jos vaihdat kielen, pääset käyttämään näitä:"</string>
-    <string name="pref_regular_title_prefix_multiple_language">%1$s – %2$d muuta</string>
-    <string name="pref_regular_title_prefix_no_additional_language">%s – ei muita</string>
     <string name="preferences_license_summary">Avoimen lähdekoodin ohjelmiston käyttöluvan tiedot</string>
     <string name="preferences_license_title">Avoimen lähdekoodin käyttöluvat</string>
     <string name="preinstalled">Esiasennettu</string>
@@ -3097,6 +2990,7 @@ Jos vaihdat kielen, pääset käyttämään näitä:"</string>
     <string name="price_range_separator">·</string>
     <string name="priority_notifications_description">Puhelimesi näyttää sinulle tärkeät ilmoitukset määrittämiesi ilmoituksien tärkeysasetuksien perusteella.</string>
     <string name="priority_notifications_preferences_category">Tärkeät ilmoitukset</string>
+    <string name="privacy">Privacy</string>
     <string name="problem_occurred_while_loading_cards">Kortteja ladattaessa tapahtui virhe</string>
     <string name="profile_icon_a11y">Avaa Assistantin asetukset</string>
     <string name="qp_bottom_baseball_inning">%1$d. vuoropari, jälkimm.</string>
@@ -3379,8 +3273,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_assist_enable_screenshot_prompt">Jos haluat käyttää tätä näyttöhaun ominaisuutta, ota kuvakaappausasetus käyttöön.</string>
     <string name="screen_assist_network_not_ready">Yritä uudelleen muutaman minuutin kuluttua.</string>
     <string name="screen_assist_network_unavailable_title">Verkko ei ole tällä hetkellä käytettävissä.</string>
-    <string name="screen_assist_nothing_on_tap">Näytöltä ei löytynyt mitään.</string>
-    <string name="screen_assist_now_stream_text">Katso hallintapaneelin kortit alempaa</string>
     <string name="screen_assist_save_screenshot">Tallenna</string>
     <string name="screen_assist_saving_screenshot">Tallennetaan galleriaan</string>
     <string name="screen_assist_screenshot_saved">Kuvakaappaus tallennettiin.</string>
@@ -3487,8 +3379,6 @@ Yritä hakea podcastia uudelleen."</string>
     <string name="selected_interest">Onko kaikki kiinnostuksen kohteet lisätty?</string>
     <string name="selection_hint">Valitse mitä tahansa näytöllä olevaa tekstiä.</string>
     <string name="selection_load_error_prompt">Näyttöä analysoitaessa tapahtui virhe.</string>
-    <string name="selection_mode_promo">Valitse teksti koskettamalla tätä.</string>
-    <string name="selection_prompt">Valitse tekstiä koskettamalla.</string>
     <string name="selection_retry_ocr">Yritä uudelleen</string>
     <string name="send_feedback">Lähetä palautetta sovelluksesta</string>
     <string name="send_to_device_negative_button">Peruuta</string>
@@ -3528,13 +3418,13 @@ Yritä hakea podcastia uudelleen."</string>
     <string name="sharebear_chooser_pane_edit">Muokkaa</string>
     <string name="sharebear_chooser_pane_edit_content_description">Muokkaa kuvaa</string>
     <string name="sharebear_chooser_pane_image_content_description">Kuvan pikkukuva</string>
+    <string name="sharebear_chooser_pane_image_search">Kuvahaku</string>
     <string name="sharebear_chooser_pane_share">Jaa</string>
     <string name="sharebear_chooser_pane_subtitle">Muokkaa kuvakaappausta ja jaa se</string>
     <string name="sharebear_chooser_pane_subtitle_with_collections">Lisää kuvakaappaus kokoelmaan, jaa se tai muokkaa sitä</string>
     <string name="sharebear_chooser_pane_title">Kuvakaappaus tallennettu</string>
     <string name="sharebear_color_black">Musta väri</string>
     <string name="sharebear_color_blue">Sininen väri</string>
-    <string name="sharebear_color_current">Nykyinen väri</string>
     <string name="sharebear_color_green">Vihreä väri</string>
     <string name="sharebear_color_purple">Violetti väri</string>
     <string name="sharebear_color_red">Punainen väri</string>
@@ -3547,7 +3437,6 @@ Yritä hakea podcastia uudelleen."</string>
     <string name="sharebear_link">Kuvakaappaus osoitteesta %s</string>
     <string name="sharebear_screenshot_not_found">Kuvakaappausta ei löytynyt</string>
     <string name="sharebear_screenshotter_activity_label">Jaa kuvakaappaus</string>
-    <string name="sharebear_share_saved_screenshot_chooser_title">Kuvakaappauksen muokkaus ja jakaminen</string>
     <string name="sharebear_share_subject">Kuvakaappaus Googlelta</string>
     <string name="sharebear_storage_permission_denied_toast">Kuvan muutoksia ei tallenneta.</string>
     <string name="sharebear_storage_permission_request_info_not_now">Ei nyt</string>
@@ -3639,6 +3528,7 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="sound_search_unavailable">Äänihaku ei ole käytettävissä maassasi</string>
     <string name="source_chip_desc">Näytä sisältö lähteestä %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Nopeusasetuksia ei voi käyttää suoratoiston aikana.</string>
     <string name="spoken_cancel_command_tts">peruuta</string>
     <string name="spoken_edit_sms_command_tts">muokkaa viestiä</string>
     <string name="spoken_language_selected">%s valittiin ensisijaiseksi kieleksi</string>
@@ -3745,6 +3635,7 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="tab_title_tomorrow">Huomenna</string>
     <string name="tap_mic_to_speak">Napauta mikrofonia ja ala puhua</string>
     <string name="temperature_display">%1$s %2$s</string>
+    <string name="terms">Terms</string>
     <string name="text_selection_menu_translate_action">Käännä</string>
     <string name="thank_you_dialog_body">Vastauksesi auttavat parantamaan Google-haun käyttökokemusta.</string>
     <string name="thank_you_dialog_tilte">Kiitos palautteestasi.</string>
@@ -3826,6 +3717,7 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="tomorrow_time">Huomenna, %1$s</string>
     <string name="too_many_locations_snackbar_text">Voit tallentaa korkeintaan 8. Poista sijainti koskettamalla sitä pitkään.</string>
     <string name="toolbar_navigation_icon_description">Siirry takaisin</string>
+    <string name="top_apps">Suosituimmat sovellukset</string>
     <string name="top_contacts_group_header">Suosituimmat kontaktit</string>
     <string name="topdeck">Widget</string>
     <string name="topdeck_show_all_cards_summary">Katso työmatka-, sää- ja paikallistiedot aloitusnäytön widgetistä</string>
@@ -3943,14 +3835,10 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="unreplied_messages_group_header">Tärkeät viestit</string>
     <string name="unsubscribe_button_label">Tilattu</string>
     <string name="unsupported_action">Tämä laite ei voi suorittaa pyytämääsi toimintoa.</string>
-    <string name="uos_account_picker_content_description">%1$s. Tilin valinnan avattava valikko.</string>
     <string name="uos_account_picker_header_text">Valitse tili</string>
     <string name="uos_add_account_content_description">Plus-merkki. Lisää tili.</string>
     <string name="uos_add_account_text">Lisää tili</string>
     <string name="uos_close_button_text">Ei kiitos</string>
-    <string name="uos_select_button_text">Jatka</string>
-    <string name="uos_select_description">Seuraa haluamaasi musiikkia, ohjelmia, julkkiksia, urheilujoukkueita, harrastuksia ja muuta.</string>
-    <string name="uos_select_intro">Haluatko henkilökohtaisia päivityksiä?</string>
     <string name="uos_sign_in_button_text">Kirjaudu sisään</string>
     <string name="uos_sign_in_description">Saat yksilöllisiä hakutuloksia ja ilmoituksia sinua kiinnostavista aiheista.</string>
     <string name="uos_sign_in_intro">Aloita kirjautumalla</string>
@@ -4144,6 +4032,10 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="voice_ime_language_auto">Automaattinen</string>
     <string name="voice_language_preference_change">Puhekomentojen ääneksi vaihdettiin %s.</string>
     <string name="voice_language_preference_change_no_speaker_id">Puhekomentojen kieli on nyt %1$s. %2$s on käytettävissä vain etusivulla ja Google-sovelluksessa.</string>
+    <string name="voice_match_deeplink_welcome_action_button">Jatka</string>
+    <string name="voice_match_deeplink_welcome_cancel_button">Peruuta</string>
+    <string name="voice_match_deeplink_welcome_explanation">Tämän lyhyen määrityksen jälkeen Assistant tunnistaa äänesi.</string>
+    <string name="voice_match_deeplink_welcome_title">Jatka kirjautumista</string>
     <string name="voice_search_app_name">Puhehaku</string>
     <string name="voice_selection_message">Valitse ääni, jolla Assistant vastaa sinulle. Voit kuunnella näytteen jokaisesta äänestä.</string>
     <string name="voice_selection_title">Valitse Assistantin ääni</string>
@@ -4222,7 +4114,6 @@ Ohjelma ei ole käytettävissä tällä hetkellä."</string>
     <string name="your_location_search_menu_text">Sijaintisi</string>
     <string name="your_train_reservation">Junalippuvarauksesi</string>
     <string name="zero_state_generic_error_toast_message">Jokin meni pieleen.</string>
-    <string name="zero_state_hint">Pyyhkäise ylös, niin näet uuden sisällön</string>
     <string name="zero_state_hint_text">Katso päivitykset pyyhkäisemällä ylös.</string>
     <string name="zero_state_network_error_toast_message">Ei yhteyttä Googleen</string>
     <string name="zerostate_explore_section_more">Lisää</string>

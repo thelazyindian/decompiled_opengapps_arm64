@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <transitionSet android:transitionOrdering="together">
+        <transition android:duration="200" app:fadingMode="fade_out" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.FadeTextTransition" />
+        <fade android:duration="200" android:fadingMode="fade_out" />
+    </transitionSet>
+    <changeBounds />
+    <transitionSet android:transitionOrdering="together">
+        <transition android:duration="300" app:fadingMode="fade_in" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.FadeTextTransition" />
+        <transition android:duration="300" app:fadingMode="fade_in" app:appearAnimator="@animator/quartz_controls_in" class="com.google.android.apps.gsa.staticplugins.quartz.monet.shared.transition.VisibilityTransition" />
+    </transitionSet>
+</transitionSet>

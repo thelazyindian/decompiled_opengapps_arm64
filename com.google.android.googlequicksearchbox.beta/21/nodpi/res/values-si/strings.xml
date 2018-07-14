@@ -108,10 +108,14 @@
     <string name="cancel">අවලංගු කරන්න</string>
     <string name="cancel_favorites_selection">අවලංගු කරන්න</string>
     <string name="cancelled">අවලංගුයි</string>
+    <string name="cast_fail_to_connect_message">මේ අවස්ථාවේදී %1$s සමග සම්බන්ධ වීමට නොහැකි විය. පසුව නැවත උත්සාහ කරන්න.</string>
+    <string name="cast_fail_to_reconnect_message">මේ අවස්ථාවේදී %1$s සමග සම්බන්ධ වීමට නොහැකි විය. පසුව නැවත උත්සාහ කරන්න.</string>
     <string name="cast_notification_connected_message">%1$s වෙත සම්බන්ධ වුණි</string>
     <string name="cast_notification_connecting_message">%1$s වෙත සම්බන්ධ වෙමින්</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">විසන්ධි කරන්න</string>
+    <string name="cast_reconnecting_message">යළි සම්බන්ධ වීමට උත්සාහ කරමින්</string>
+    <string name="cast_success_to_reconnect_message">%1$s වෙත යළි සම්බන්ධ විය</string>
     <string name="cct_account_mismatch_card_button_text">%1$s විවෘත කරන්න</string>
     <string name="cct_account_mismatch_card_header">ඔබගේ වෙබ් පිටු බලන්න</string>
     <string name="cct_account_mismatch_card_text">ඔබ මෙහි සොයා ගන්නා පිටු බලන්න, &lt;b>%1$s සැකසීම්&lt;/b> and turn on sync for &lt;b>%2$s&lt;/b></string>
@@ -171,7 +175,6 @@
     <string name="delivered">භාර ‍දෙන ලදී</string>
     <string name="device_photo_group_header">උපාංගයෙහි ඡායාරූප</string>
     <string name="docs_group_header">ලේඛන</string>
-    <string name="donate">පරිත්‍යාගය</string>
     <string name="donate_button_label">පරිත්‍යාග කරන්න</string>
     <string name="done">නිමයි</string>
     <string name="done_label">නිමයි</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">බාගැනීම හමු නොවිණි</string>
     <string name="download_setting_message">බාගත් කථාංග දින 30කට පසුව හෝ සම්පූර්ණ වී පැය 24කට පසුව ඉවත් කරනු ඇත</string>
     <string name="downloaded">බාගන්නා ලදී</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">බාගත් කථාංග</string>
     <string name="downloading">බාගනිමින්...</string>
     <string name="downloads">බාගැනීම්</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">පවතින කථාංග</string>
     <string name="episode_page_section_title">කථාංගය</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">ඔබට</string>
     <string name="error">දෝෂය</string>
     <string name="error_message">සෙවීමට අසමත් විය. පසුව උත්සාහ කරන්න.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">සෑම සතියේ දිනකම (සඳු–සිකු)</string>
     <string name="every_weekday_lower">සෑම සතියේ දිනකම (සඳු–සිකු)</string>
     <string name="expand_button_title">උසස්</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">පොඩ්කාස්ට් තුළ අසභ්‍ය අන්තර්ගතය අඩංගු වේ</string>
     <string name="fast_forward">වේගයෙන් ඉදිරියට</string>
     <string name="favorite_images_tag_title">ප්‍රියතම රූප</string>
     <string name="favorite_pages_tag_title">ප්‍රියතම පිටු</string>
+    <string name="favorite_screenshots_tag_title">ප්‍රියතම තිර රූ</string>
     <string name="first_run_cling_title">සාදරයෙන් පිළිගනිමු</string>
     <string name="flight_group_header">පියාසැරි</string>
     <string name="folder_closed">ෆෝල්ඩරය වසා ඇත</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">ඔබේ දායකත්වයන් මෙහි බලන්න</string>
     <string name="hotseat_out_of_space">ප්‍රියතම දෑ ඇති තැටියේ තවත් ඉඩ නොමැත</string>
     <string name="hour_picker_description">පැය කවාකාර ස්ලයිඩරය</string>
-    <string name="https_info_close">වසන්න</string>
-    <string name="https_info_message">පොඩ්කාස්ට් අඩවිය වෙත ඔබගේ සම්බන්ධතාවය රහසිගත වේ.</string>
-    <string name="https_info_title">සුරක්ෂිත සම්බන්ධතාවය</string>
     <string name="i18n_address_line1_accessibility_label">වීථි ලිපිනය: 1 පේළිය</string>
     <string name="i18n_address_line1_label">වීථි ලිපිනය</string>
     <string name="i18n_address_line2_accessibility_label">වීථි ලිපිනය: 2 පේළිය</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">නැරඹීම්</string>
     <string name="image_viewer_video_watch_label">නරඹන්න</string>
     <string name="image_viewer_view_all_related_images_accessibility">අදාළ සියලුම පින්තූර බලන්න</string>
-    <string name="image_viewer_view_saved">සුරැකි ඒවා බලන්න</string>
     <string name="image_viewer_visit_site">පැමිණෙන්න</string>
     <string name="indexing_not_ready">අපට තවම ඔබට පෙන්වීමට අන්තර්ගතය නැත. අන්තර්ජාලයට සම්බන්ධ වී මිනිත්තු කිහිපයකින් නැවත පැමිණෙන්න.</string>
     <string name="info_target_label">යෙදුම් තොරතුරු</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">ධාවනය කළ බවට ලකුණු කරන්න</string>
     <string name="mark_as_unplayed">ධාවනය නොකළ බවට ලකුණු කරන්න</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">ඔබේ පොඩ්කාස්ට්</string>
     <string name="media_route_chooser_dialog_title">මෙයට විකාශය කරන්න</string>
     <string name="media_route_chooser_searching">උපාංග සඳහා සොයමින්…</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">වාදනය කළ නොහැකිය</string>
     <string name="playback_status_buffering">අන්තරාචය කරමින්...</string>
     <string name="please_select">කරුණාකර තෝරන්න</string>
+    <string name="podcast_retry_download">යළි උත්සාහ කරන්න</string>
     <string name="podcasts">පොඩ්කාස්ට්</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">විමසුම: %s.</string>
     <string name="query_people_group_header">සම්බන්ධතා</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s සඳහා සෙවුම�
     <string name="request_storage_permission_dialog_message">කථාංග බාගැනීමට, Google හට ඔබගේ උපාංග ගබඩාවට ප්‍රවේශය අවශ්‍යයි.</string>
     <string name="request_storage_permission_dialog_title">ගබඩා ප්‍රවේශය ඉඩ දෙන්න</string>
     <string name="reservation_group_header">වෙන් කිරීම්</string>
-    <string name="retry">යළි උත්සාහ කරන්න</string>
     <string name="retry_failed_download">බාගැනීමට යළි උත්සාහ කරන්න</string>
     <string name="returned">ආපසු එවන ලදී</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s සඳහා සෙවුම�
     <string name="snackbar_message_removed_from_recently">මෑත පිටු වෙතින් ඉවත් කරන ලදි</string>
     <string name="source_chip_desc">%s වෙතින් අන්තර්ගතය බලන්න.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">විකාශය සමග වේග සැකසීම් ලබා ගත නොහැකිය.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">දායක වන්න</string>
     <string name="subscribe_to_see_new_episodes">නව කථාංග බැලීමට පොඩ්කාස්ට් වෙත දායක වන්න</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s සඳහා සෙවුම�
     <string name="suw_next_button_label">ඊළඟ</string>
     <string name="tab_episodes_in_progress">කෙරෙමින් පවතී</string>
     <string name="tab_new_episodes">නව</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s සාර්ථකව සඟවා ඇත.</string>
     <string name="toast_hide_fail">යම් දෙයක් වැරදිණි! %s නොසඟවන ලදී.</string>
     <string name="toast_unhide">%s සාර්ථකව සැඟවීම ඉවත් කර ඇත.</string>

@@ -108,10 +108,14 @@
     <string name="cancel">منسوخ کریں</string>
     <string name="cancel_favorites_selection">منسوخ کریں</string>
     <string name="cancelled">منسوخ ہو گیا</string>
+    <string name="cast_fail_to_connect_message">اس وقت %1$s سے منسلک نہیں ہو سکا۔ بعد میں دوبارہ کوشش کریں۔</string>
+    <string name="cast_fail_to_reconnect_message">اس وقت %1$s سے دوبارہ منسلک نہیں ہو سکا۔ بعد میں دوبارہ کوشش کریں۔</string>
     <string name="cast_notification_connected_message">%1$s سے منسلک ہے</string>
     <string name="cast_notification_connecting_message">%1$s سے منسلک ہو رہا ہے</string>
     <string name="cast_notification_default_channel_name">کاسٹ کریں</string>
     <string name="cast_notification_disconnect">غیر منسلک کریں</string>
+    <string name="cast_reconnecting_message">دوبارہ منسلک ہونے کی کوشش کر رہا ہے</string>
+    <string name="cast_success_to_reconnect_message">%1$s سے دوبارہ منسلک ہو گیا</string>
     <string name="cct_account_mismatch_card_button_text">‏کھلتا ہے ‎%1$s</string>
     <string name="cct_account_mismatch_card_header">اپنے ویب صفحات دیکھیں</string>
     <string name="cct_account_mismatch_card_text">‏یہاں اپنے تلاش کیے جانے والے صفحات کو دیکھنے کیلئے، &lt;b>%1$s ترتیبات&lt;/b> کو اپ ڈیٹ کریں اور &lt;b>%2$s&lt;/b> کیلئے مطابقت پذیری کو آن کریں</string>
@@ -171,7 +175,6 @@
     <string name="delivered">ڈیلیور ہو گیا</string>
     <string name="device_photo_group_header">آلہ پر موجود تصاویر</string>
     <string name="docs_group_header">دستاویزات</string>
-    <string name="donate">عطیہ دیں</string>
     <string name="donate_button_label">عطیہ دیں</string>
     <string name="done">ہو گیا</string>
     <string name="done_label">ہو گیا</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">ڈاؤن لوڈ کی گئی فائل نہیں ملی</string>
     <string name="download_setting_message">ڈاؤن لوڈ کردہ ایپی سوڈز کو 30 دنوں بعد یا مکمل ہونے کے 24 گھنٹے بعد ہٹا دیا جاتا ہے</string>
     <string name="downloaded">ڈاؤن لوڈ ہو گيا</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">ڈاؤن لوڈ کردہ ایپی سوڈز</string>
     <string name="downloading">ڈاؤن لوڈ ہو رہا ہے…</string>
     <string name="downloads">ڈاؤن لوڈز</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">دستیاب ایپی سوڈز</string>
     <string name="episode_page_section_title">ایپی سوڈ</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">آپ کے لیے</string>
     <string name="error">خرابی</string>
     <string name="error_message">تلاش ناکام ہو گئی۔ براہ کرم بعد میں کوشش کریں۔</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">ہر کام کے دن (سوموار تا جمعہ)</string>
     <string name="every_weekday_lower">ہر کام کے دن (سوموار تا جمعہ)</string>
     <string name="expand_button_title">جدید ترین</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">پوڈکاسٹ میں صریح مواد شامل ہے</string>
     <string name="fast_forward">فاسٹ فارورڈ کریں</string>
     <string name="favorite_images_tag_title">پسندیدہ تصاویر</string>
     <string name="favorite_pages_tag_title">پسندیدہ صفحات</string>
+    <string name="favorite_screenshots_tag_title">پسندیدہ اسکرین شاٹس</string>
     <string name="first_run_cling_title">خوش آمدید</string>
     <string name="flight_group_header">پروازیں</string>
     <string name="folder_closed">فولڈر بند ہو گیا</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">یہاں اپنی سبسکرپشنز دیکھیں</string>
     <string name="hotseat_out_of_space">پسندیدہ ٹرے میں مزید کوئی گنجائش نہیں ہے</string>
     <string name="hour_picker_description">گھنٹوں کا سرکلر سلائیڈر</string>
-    <string name="https_info_close">بند کریں</string>
-    <string name="https_info_message">پوڈکاسٹ سائٹ سے آپ کا کنکشن نجی ہے۔</string>
-    <string name="https_info_title">محفوظ کنکشن</string>
     <string name="i18n_address_line1_accessibility_label">اسٹریٹ پتہ: لائن 1</string>
     <string name="i18n_address_line1_label">گلی کا پتہ</string>
     <string name="i18n_address_line2_accessibility_label">اسٹریٹ پتہ: لائن 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">ملاحظات</string>
     <string name="image_viewer_video_watch_label">دیکھیں</string>
     <string name="image_viewer_view_all_related_images_accessibility">تمام متعلقہ تصاویر دیکھیں</string>
-    <string name="image_viewer_view_saved">محفوظ کردہ ملاحظہ کریں</string>
     <string name="image_viewer_visit_site">ملاحظہ کریں</string>
     <string name="indexing_not_ready">ہمارے پاس آپ کو ابھی تک دکھانے کیلئے مواد نہیں ہے۔ براہ کرم انٹرنیٹ سے منسلک ہوں اور تھوڑی دیر بعد دوبارہ کوشش کریں۔</string>
     <string name="info_target_label">ایپ کی معلومات</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">\"چلایا گیا\" کے طور پر نشان زد کریں</string>
     <string name="mark_as_unplayed">\"چلایا نہیں گيا\" کے طور پر نشان زد کریں</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">آپ کے پوڈکاسٹس</string>
     <string name="media_route_chooser_dialog_title">اس پر کاسٹ کریں</string>
     <string name="media_route_chooser_searching">‏آلات تلاش کر رہا ہے‎…</string>
@@ -520,10 +522,12 @@
     <string name="playback_panel_error">چلانے سے قاصر</string>
     <string name="playback_status_buffering">بفرنگ ہو رہی ہے...</string>
     <string name="please_select">براہ کرم منتخب کریں</string>
+    <string name="podcast_retry_download">پھر کوشش کریں</string>
     <string name="podcasts">پوڈکاسٹس</string>
     <string name="preferences_license_summary">اوپن سورس سافٹ ویئر کیلئے لائسنس کی تفصیلات</string>
     <string name="preferences_license_title">اوپن سورس لائسنس</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">استفسار: %s۔</string>
     <string name="query_people_group_header">رابطے</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -566,7 +570,7 @@
     <string name="recently_empty_state_read_later_body_text">ہم آپ کے آلہ پر ڈاؤن لوڈ کردہ آئٹمز 7 دن تک برقرار رکھیں گے۔</string>
     <string name="recently_empty_state_read_later_title_text">بعد میں پڑھنے کیلئے صفحات شامل کریں</string>
     <string name="recently_entry_interaction_offline">آف لائن رہتے ہوئے مطلوبہ صفحہ نہیں کھل سکتا۔</string>
-    <string name="recently_entry_interaction_voice_query">Cannot open requested pending voice search.</string>
+    <string name="recently_entry_interaction_voice_query">درخواست کردہ زیر التوا صوتی تلاش نہیں کھول سکتے۔</string>
     <string name="recently_feed_entry">فیڈ</string>
     <string name="recently_google_doodle_for">‏%s کیلئے Google Doodle</string>
     <string name="recently_keep_on_device_until">اس وقت تک آلہ آن رکھیں:</string>
@@ -665,7 +669,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">‏ایپی سوڈز ڈاؤن لوڈ کرنے کیلئے، Google کو آپ کے آلے کے اسٹوریج تک رسائی درکار ہے</string>
     <string name="request_storage_permission_dialog_title">اسٹوریج تک رسائی کی اجازت دیں</string>
     <string name="reservation_group_header">ریزرویشنز</string>
-    <string name="retry">دوبارہ کوشش کریں</string>
     <string name="retry_failed_download">دوبارہ ڈاؤن لوڈ کرنے کی کوشش کریں</string>
     <string name="returned">واپس کر دیا گیا</string>
     <string name="review_count_text">(%d)</string>
@@ -727,6 +730,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="snackbar_message_removed_from_recently">حالیہ صفحات سے ہٹا دیا گیا</string>
     <string name="source_chip_desc">%s کا مواد دیکھیں۔</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">کاسٹنگ کے وقت تیز رفتار ترتیبات دستیاب نہیں ہیں۔</string>
     <string name="status_bar_notification_info_overflow">+999</string>
     <string name="subscribe_button_label">سبسکرائب کریں</string>
     <string name="subscribe_to_see_new_episodes">نئے ایپی سوڈز دیکھنے کے لیے پوڈکاسٹس کو سبسکرائب کریں</string>
@@ -736,6 +740,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="suw_next_button_label">آگے</string>
     <string name="tab_episodes_in_progress">پیشرفت میں ہے</string>
     <string name="tab_new_episodes">نیا</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s کو کامیابی کے ساتھ مخفی کر دیا گیا۔</string>
     <string name="toast_hide_fail">کچھ غلط ہو گیا! %s مخفی نہیں ہوا۔</string>
     <string name="toast_unhide">%s کی پوشیدگی کامیابی کے ساتھ ختم کی گئی۔</string>

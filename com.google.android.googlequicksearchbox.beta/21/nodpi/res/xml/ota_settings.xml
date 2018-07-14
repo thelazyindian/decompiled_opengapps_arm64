@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:persistent="false" android:title="Current build label" android:key="bistoOtaCurrentBuildLabel" />
+    <Preference android:persistent="false" android:title="Current firmware" android:key="bistoOtaCurrentBuildFirmware" />
+    <Preference android:persistent="false" android:title="Current OTA state" android:key="bistoOtaCurrentState" />
+    <Preference android:persistent="false" android:title="Build label being applied" android:key="bistoOtaApplyingBuildLabel" />
+    <Preference android:persistent="false" android:title="Abort" android:key="bistoAbortOta" />
+    <Preference android:persistent="false" android:title="Start" android:key="bistoStartOta" />
+    <Preference android:persistent="false" android:title="Apply" android:key="bistoApplyOta" />
+    <EditTextPreference android:persistent="false" android:title="URL SOURCE" android:key="bistoOtaSource" />
+</PreferenceScreen>

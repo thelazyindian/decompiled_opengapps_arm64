@@ -95,11 +95,9 @@
     <string name="bisto_device_firmware_version_title">Fastvareversjon</string>
     <string name="bisto_device_generic_oem_partner_app_setting_title">%1$s-appen</string>
     <string name="bisto_device_help_pref">Hjelp</string>
-    <string name="bisto_device_information_separator">Informasjon</string>
     <string name="bisto_device_make_and_model">Merke og modell</string>
     <string name="bisto_device_notification_access_pref_summary">Tillater oppleste varsler via hodetelefonene dine</string>
     <string name="bisto_device_notification_access_pref_title">Slå på tilgang til varsler</string>
-    <string name="bisto_device_notifications_pref_summary">Få varsler opplest</string>
     <string name="bisto_device_notifications_pref_title">Talevarsler</string>
     <string name="bisto_device_oem_partner_app_summary">Ytterligere innstillinger for hodetelefonene dine</string>
     <string name="bisto_device_oem_partner_app_title">Bose Connect-appen</string>
@@ -158,6 +156,10 @@
     <string name="cancel">Avbryt</string>
     <string name="cancel_favorites_selection">Avbryt</string>
     <string name="cancelled">Kansellert</string>
+    <string name="cast_fail_to_connect_message">Kan ikke koble til %1$s akkurat nå. Prøv igjen senere.</string>
+    <string name="cast_fail_to_reconnect_message">Kan ikke koble til %1$s på nytt akkurat nå. Prøv igjen senere.</string>
+    <string name="cast_reconnecting_message">Prøver å koble til på nytt</string>
+    <string name="cast_success_to_reconnect_message">Koblet til %1$s på nytt</string>
     <string name="cct_account_mismatch_card_button_text">Åpne %1$s</string>
     <string name="cct_account_mismatch_card_header">Se nettsidene dine</string>
     <string name="cct_account_mismatch_card_text">For å se sidene du finner her, må du oppdatere &lt;b>%1$s-innstillingene&lt;/b> og slå på synkronisering for &lt;b>%2$s&lt;/b></string>
@@ -171,8 +173,6 @@
     <string name="confirm_ota_title">Vil du oppdatere %1$s?</string>
     <string name="confirm_remove_all_dialog_message">Dette fjerner alle de nedlastede episodene. Denne handlingen kan ikke angres.</string>
     <string name="confirm_remove_all_dialog_title">Er du sikker?</string>
-    <string name="confirm_remove_device_confirm_toast">Google-assistenten er fjernet fra hodetelefonene.</string>
-    <string name="confirm_remove_device_error_toast">Kan ikke fjerne Google-assistenten. Prøv på nytt.</string>
     <string name="confirm_remove_device_positive_button">Fjern</string>
     <string name="confirm_remove_device_title">Vil du fjerne Google-assistenten?</string>
     <string name="confirm_unsubscribe_button_label">Avslutt abonnementet</string>
@@ -213,7 +213,6 @@ Hvis du vil konfigurere assistenten senere, trykker og holder du på startsidekn
     <string name="dnd_announcement_alarms">Ikke forstyrr-modusen er forresten på, så du hører ikke varslene dine.</string>
     <string name="dnd_announcement_priority">Ikke forstyrr-modusen er forresten på, så du hører ikke alle varslene dine.</string>
     <string name="docs_group_header">Dokumenter</string>
-    <string name="donate">Doner</string>
     <string name="donate_button_label">Donér</string>
     <string name="done">Ferdig</string>
     <string name="download_again">Last ned på nytt</string>
@@ -223,6 +222,7 @@ Hvis du vil konfigurere assistenten senere, trykker og holder du på startsidekn
     <string name="download_not_found">Fant ikke nedlastingen</string>
     <string name="download_setting_message">Nedlastede episoder fjernes etter 30 dager eller 24 timer etter at de er hørt ferdig</string>
     <string name="downloaded">Lastet ned</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Nedlastede episoder</string>
     <string name="downloading">Laster ned …</string>
     <string name="downloads">Nedlastinger</string>
@@ -234,6 +234,7 @@ Hvis du vil konfigurere assistenten senere, trykker og holder du på startsidekn
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Tilgjengelige episoder</string>
     <string name="episode_page_section_title">Episode</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">For deg</string>
     <string name="error">Feil</string>
     <string name="error_message">Søket mislyktes. Prøv på nytt senere.</string>
@@ -248,13 +249,12 @@ Hvis du vil konfigurere assistenten senere, trykker og holder du på startsidekn
     <string name="expand_rain_drop_group_messaging">Siden du ikke sjekker meldinger i %1$s, hører du bare denne lyden i løpet av de neste 30 minuttene.</string>
     <string name="expand_rain_drop_messaging">Siden du ikke sjekker meldinger fra %1$s, hører du bare denne lyden i løpet av de neste 30 minuttene.</string>
     <string name="expand_rain_drop_non_messaging">Siden du ikke sjekker varsler fra %1$s, hører du bare denne lyden i løpet av de neste 30 minuttene.</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Podcasten har innhold som ikke er barnevennlig</string>
     <string name="fast_forward">Spol fremover</string>
     <string name="favorite_images_tag_title">Favorittbilder</string>
     <string name="favorite_pages_tag_title">Favorittsider</string>
+    <string name="favorite_screenshots_tag_title">Favorittskjermdumper</string>
     <string name="finish_screen_action_text">FERDIG</string>
-    <string name="finish_screen_content_description">Animasjon av at brukeren holder inne knappen på baksiden av hodetelefonene, stiller et spørsmål og deretter slipper knappen når spørsmålet er stilt.</string>
     <string name="finish_screen_message_apollo">"Prøv det.
 "<b>Trykk og hold</b>" på den høyre ørepluggen mens du snakker. Slipp den når du er ferdig.
 Prøv å si «Hva kan du gjøre?»"</string>
@@ -381,9 +381,6 @@ Prøv å søke etter podcasten på nytt."</string>
     <string name="how_to_fetch4_level_2">Når du vil høre de nyeste varslene dine, trenger du bare å trykke på Google Assistent-knappen.</string>
     <string name="how_to_fetcht">Du kan forresten lytte til varslene dine i opptil én time. For å høre dem, dobbelttrykk på den høyre ørepluggen.</string>
     <string name="how_to_fetcht_level_2">Når du vil høre de nyeste varslene dine, trenger du bare å dobbelttrykke på den høyre ørepluggen.</string>
-    <string name="https_info_close">Lukk</string>
-    <string name="https_info_message">Tilkoblingen til podcast-nettstedet er privat.</string>
-    <string name="https_info_title">Sikker tilkobling</string>
     <string name="i18n_address_line1_accessibility_label">Gateadresse: linje 1</string>
     <string name="i18n_address_line1_label">Gateadresse</string>
     <string name="i18n_address_line2_accessibility_label">Gateadresse: linje 2</string>
@@ -446,7 +443,6 @@ Prøv å søke etter podcasten på nytt."</string>
     <string name="image_viewer_video_view_count_label">Avspillinger</string>
     <string name="image_viewer_video_watch_label">Se</string>
     <string name="image_viewer_view_all_related_images_accessibility">Se alle relaterte bilder</string>
-    <string name="image_viewer_view_saved">Se lagrede bilder</string>
     <string name="image_viewer_visit_site">Gå til</string>
     <string name="incoming_call">Anrop fra %1$s</string>
     <string name="incoming_call_hangouts">Hangouts-anrop fra %1$s. %2$s</string>
@@ -489,7 +485,6 @@ Prøv å søke etter podcasten på nytt."</string>
     <string name="item_added_to_workspace">Elementet er lagt til på startskjermen</string>
     <string name="item_moved">Elementet er flyttet</string>
     <string name="item_removed">Elementet er fjernet</string>
-    <string name="join_two_bundle_summaries">%1$s og %2$s</string>
     <string name="last_visit_text">Siste besøk:</string>
     <string name="legacy_assistant_instruction_message">Hold knappen inne i to sekunder før du slipper den, for å snakke med Google-assistenten</string>
     <string name="legacy_assistant_instruction_title">Snakk med Google-assistenten din</string>
@@ -505,9 +500,9 @@ Prøv å søke etter podcasten på nytt."</string>
     <string name="longpress_menu_download">Last ned bildet</string>
     <string name="longpress_menu_share">Del bildet</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
-    <string name="magic_pairing_notification_title_generic">Google Assistent-hodetelefoner</string>
     <string name="mark_as_played">Merk som avspilt</string>
     <string name="mark_as_unplayed">Merk som ikke avspilt</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Podcastene dine</string>
     <string name="media_route_chooser_dialog_title">Cast til</string>
     <string name="media_route_chooser_searching">Søker etter enheter …</string>
@@ -600,8 +595,6 @@ Få tilgang til og kontroll over alle Google-søkene dine og andre ting i Min ak
     <string name="ota_complete_next">NESTE</string>
     <string name="ota_complete_title">Google Pixel Buds er oppdatert</string>
     <string name="ota_complete_title_default">Hodetelefonene dine er oppdatert</string>
-    <string name="ota_fail_notif_text">Prøv å starte hodetelefonene på nytt. Gå til brukerstøtten for å feilsøke problemet.</string>
-    <string name="ota_fail_notif_title">Kan ikke oppdatere hodetelefonene</string>
     <string name="ota_failed_message">Sørg for at telefonens Bluetooth er på, og åpne ladeetuiet i nærheten av telefonen mens ørepluggene er i etuiet. Gå til brukerstøtten for mer hjelp.</string>
     <string name="ota_failed_title">Kan ikke oppdatere Google Pixel Buds</string>
     <string name="ota_failed_title_default">Kan ikke oppdatere hodetelefonene dine</string>
@@ -651,8 +644,10 @@ Få tilgang til og kontroll over alle Google-søkene dine og andre ting i Min ak
     <string name="playback_panel_error">Kan ikke spille av</string>
     <string name="playback_status_buffering">Bufrer …</string>
     <string name="please_select">Velg fra menyen</string>
+    <string name="podcast_retry_download">Prøv igjen</string>
     <string name="podcasts">Podcaster</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Søk: %s.</string>
     <string name="query_people_group_header">Kontakter</string>
     <string name="quoted_query">«%1$s»</string>
@@ -787,7 +782,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">For å laste ned episoder trenger Google tilgang til lagring på enheten</string>
     <string name="request_storage_permission_dialog_title">Tillat tilgang til lagring</string>
     <string name="reservation_group_header">Reservasjoner</string>
-    <string name="retry">Prøv på nytt</string>
     <string name="retry_failed_download">Start nedlastingen på nytt</string>
     <string name="returned">Returnert</string>
     <string name="review_count_text">(%d)</string>
@@ -856,10 +850,12 @@ For å sette Pixel Buds i hvilemodus eller vekke dem manuelt, "<b>trippeltrykk</
     <string name="snackbar_message_removed_from_recently">Fjernet fra nylige sider</string>
     <string name="source_chip_desc">Se innhold fra %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Hastighetsinnstillinger er ikke tilgjengelig mens du caster.</string>
     <string name="subscribe_button_label">Abonner</string>
     <string name="subscribe_to_see_new_episodes">Abonner på podcaster for å se nye episoder</string>
     <string name="tab_episodes_in_progress">Pågår</string>
     <string name="tab_new_episodes">Ny</string>
+    <string name="terms">Terms</string>
     <string name="time_announcement">Klokken er %1$s.</string>
     <string name="toast_hide">%s er skjult.</string>
     <string name="toast_hide_fail">Noe gikk galt. %s ble ikke skjult.</string>

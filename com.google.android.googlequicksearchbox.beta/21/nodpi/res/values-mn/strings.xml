@@ -108,10 +108,14 @@
     <string name="cancel">Цуцлах</string>
     <string name="cancel_favorites_selection">Цуцлах</string>
     <string name="cancelled">Цуцалсан</string>
+    <string name="cast_fail_to_connect_message">Одоогоор %1$s-д холбогдох боломжгүй байна. Дараа дахин оролдоно уу.</string>
+    <string name="cast_fail_to_reconnect_message">Одоогоор %1$s-д дахин холбогдох боломжгүй байна. Дараа дахин оролдоно уу.</string>
     <string name="cast_notification_connected_message">%1$s-тай холбогдсон</string>
     <string name="cast_notification_connecting_message">%1$s руу холбогдож байна</string>
     <string name="cast_notification_default_channel_name">Дамжуулах</string>
     <string name="cast_notification_disconnect">Салгах</string>
+    <string name="cast_reconnecting_message">Дахин холбогдохоор оролдож байна</string>
+    <string name="cast_success_to_reconnect_message">%1$s-д дахин холбогдлоо</string>
     <string name="cct_account_mismatch_card_button_text">%1$s-г нээх</string>
     <string name="cct_account_mismatch_card_header">Вэб хуудсаа харах</string>
     <string name="cct_account_mismatch_card_text">Эндээс олдог хуудсаа харахын тулд &lt;b>%1$s тохиргоог&lt;/b> шинэчлээд &lt;b>%2$s&lt;/b>-н синкийг асаана уу</string>
@@ -171,7 +175,6 @@
     <string name="delivered">Хүргэсэн</string>
     <string name="device_photo_group_header">Төхөөрөмжийн зургууд</string>
     <string name="docs_group_header">Документ</string>
-    <string name="donate">Хандив өгөх</string>
     <string name="donate_button_label">Хандив өгөх</string>
     <string name="done">Дууссан</string>
     <string name="done_label">Дууссан</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Татaж авсан подкаст олдсонгүй</string>
     <string name="download_setting_message">Татаж авсан ангиудыг 30 хоног эсвэл сонсож дууссанаас 24 цагийн дараа устгадаг</string>
     <string name="downloaded">Татсан</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Татсан ангиуд</string>
     <string name="downloading">Татаж байна...</string>
     <string name="downloads">Татаж авсан файл</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Боломжтой ангиуд</string>
     <string name="episode_page_section_title">Анги</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Танд зориулсан</string>
     <string name="error">Алдаа</string>
     <string name="error_message">Хайлт амжилтгүй боллоо. Дараа дахин оролдоно уу.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Ажлын бүх өдөр (Да–Ба)</string>
     <string name="every_weekday_lower">ажлын бүх өдөр (Да–Ба)</string>
     <string name="expand_button_title">Нарийвчилсан</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Подкастад тодорхой агуулга байна</string>
     <string name="fast_forward">Хурдан дамжуулах</string>
     <string name="favorite_images_tag_title">Дуртай зураг</string>
     <string name="favorite_pages_tag_title">Дуртай хуудас</string>
+    <string name="favorite_screenshots_tag_title">Дэлгэцээс дарсан дуртай зураг</string>
     <string name="first_run_cling_title">Тавтай морилно уу</string>
     <string name="flight_group_header">Нислэг</string>
     <string name="folder_closed">Фолдер хаагдав</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">Захиалгаа энд харна уу</string>
     <string name="hotseat_out_of_space">\"Дуртай\" трей дээр өөр зай байхгүй байна</string>
     <string name="hour_picker_description">Цаг гүйлгэгч</string>
-    <string name="https_info_close">Хаах</string>
-    <string name="https_info_message">Таны подкаст сайтын холболт нууцлалтай байна.</string>
-    <string name="https_info_title">Аюулгүй холболт</string>
     <string name="i18n_address_line1_accessibility_label">Гудамжны хаяг: мөр 1</string>
     <string name="i18n_address_line1_label">Гудамжны хаяг</string>
     <string name="i18n_address_line2_accessibility_label">Гудамжны хаяг: мөр 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">Үзсэн</string>
     <string name="image_viewer_video_watch_label">Үзэх</string>
     <string name="image_viewer_view_all_related_images_accessibility">Холбоотой бүх зургийг харах</string>
-    <string name="image_viewer_view_saved">Хадгалсан зургийг харах</string>
     <string name="image_viewer_visit_site">Зочлох</string>
     <string name="indexing_not_ready">Танд одоогоор харуулах агуулга алга. Интернетэд холбогдоод хэдэн минутын дараа эргэн ирнэ үү.</string>
     <string name="info_target_label">Апп мэдээлэл</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Тоглуулсан гэж тэмдэглэх</string>
     <string name="mark_as_unplayed">Тоглуулаагүй гэж тэмдэглэх</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Таны подкаст</string>
     <string name="media_route_chooser_dialog_title">Дараахад дамжуулах</string>
     <string name="media_route_chooser_searching">Төхөөрөмж хайж байна…</string>
@@ -520,8 +522,10 @@ Google-н бүх хайлт, бусад зүйлийг Миний үйл ажи�
     <string name="playback_panel_error">Тоглуулах боломжгүй</string>
     <string name="playback_status_buffering">Хамгаалж байна...</string>
     <string name="please_select">Сонгоно уу</string>
+    <string name="podcast_retry_download">Дахин оролдох</string>
     <string name="podcasts">Подкаст</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Асуулга: %s.</string>
     <string name="query_people_group_header">Харилцагчид</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s-н хайлтын илэрц"<
     <string name="request_storage_permission_dialog_message">Ангиудыг татаж авахын тулд Google таны төхөөрөмжийн хадгалах санд хандах шаардлагатай</string>
     <string name="request_storage_permission_dialog_title">Хадгалах санд хандахыг зөвшөөрөх</string>
     <string name="reservation_group_header">Захиалга</string>
-    <string name="retry">Дахин оролдох</string>
     <string name="retry_failed_download">Татаж авах үйлдлийг дахин хийх</string>
     <string name="returned">Буцаасан</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s-н хайлтын илэрц"<
     <string name="snackbar_message_removed_from_recently">Саяхны хуудаснаас устгасан</string>
     <string name="source_chip_desc">%s-н агуулгаас үзэх.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Дамжуулах явцад хурд тохируулах боломжгүй.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Захиалах</string>
     <string name="subscribe_to_see_new_episodes">Шинэ ангиудыг харахын тулд подкастыг захиалах</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s-н хайлтын илэрц"<
     <string name="suw_next_button_label">Дараах</string>
     <string name="tab_episodes_in_progress">Үргэлжилж байгаа</string>
     <string name="tab_new_episodes">Шинэ</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s-г амжилттай нуусан.</string>
     <string name="toast_hide_fail">Алдаа гарлаа! %s-г нууж чадсангүй.</string>
     <string name="toast_unhide">%s-г амжилттай ил болголоо.</string>

@@ -108,10 +108,14 @@
     <string name="cancel">రద్దు చేయి</string>
     <string name="cancel_favorites_selection">రద్దు చేయండి</string>
     <string name="cancelled">రద్దు చేయబడింది</string>
+    <string name="cast_fail_to_connect_message">ప్రస్తుతం %1$sకి కనెక్ట్ చేయడం సాధ్యం కాలేదు. తర్వాత మళ్లీ ప్రయత్నించండి.</string>
+    <string name="cast_fail_to_reconnect_message">ప్రస్తుతం %1$sకి మళ్లీ కనెక్ట్ చేయడం సాధ్యం కాలేదు. తర్వాత మళ్లీ ప్రయత్నించండి.</string>
     <string name="cast_notification_connected_message">%1$sకు కనెక్ట్ చేయబడింది</string>
     <string name="cast_notification_connecting_message">%1$sకు కనెక్ట్ చేస్తోంది</string>
     <string name="cast_notification_default_channel_name">ప్రసారం</string>
     <string name="cast_notification_disconnect">డిస్‌కనెక్ట్ చేయి</string>
+    <string name="cast_reconnecting_message">మళ్లీ కనెక్ట్ చేయడానికి ప్రయత్నిస్తోంది</string>
+    <string name="cast_success_to_reconnect_message">%1$sకి మళ్లీ కనెక్ట్ చేయబడింది</string>
     <string name="cct_account_mismatch_card_button_text">%1$sని తెరువు</string>
     <string name="cct_account_mismatch_card_header">మీ వెబ్ పేజీలను చూడండి</string>
     <string name="cct_account_mismatch_card_text">మీరు ఇక్కడ కనుగొనే పేజీలను చూడడానికి, &lt;b>%1$s సెట్టింగ్‌లు&lt;/b>ని అప్‌డేట్ చేసి, &lt;b>%2$s&lt;/b> కోసం సమకాలీకరణను ఆన్ చేయండి</string>
@@ -171,7 +175,6 @@
     <string name="delivered">బట్వాడా చేయబడింది</string>
     <string name="device_photo_group_header">పరికరంలోని ఫోటోలు</string>
     <string name="docs_group_header">పత్రాలు</string>
-    <string name="donate">విరాళం ఇవ్వండి</string>
     <string name="donate_button_label">విరాళం ఇవ్వండి</string>
     <string name="done">పూర్తయింది</string>
     <string name="done_label">పూర్తయింది</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">డౌన్‌లోడ్ కనుగొనబడలేదు</string>
     <string name="download_setting_message">డౌన్‌లోడ్ చేసిన ఎపిసోడ్‌లు 30 రోజుల తర్వాత లేదా పూర్తయిన 24 గంటల తర్వాత తీసివేయబడతాయి</string>
     <string name="downloaded">డౌన్‌లోడ్ చేయబడింది</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">ఎపిసోడ్‌లను డౌన్‌లోడ్ చేయండి</string>
     <string name="downloading">డౌన్‌లోడ్ చేస్తోంది...</string>
     <string name="downloads">డౌన్‌లోడ్‌లు</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">అందుబాటులో ఉన్న ఎపిసోడ్‌లు</string>
     <string name="episode_page_section_title">ఎపిసోడ్</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">మీ కోసం</string>
     <string name="error">ఎర్రర్</string>
     <string name="error_message">శోధన విఫలమైంది. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">ప్రతి వారపు రోజు (సోమ–శుక్ర)</string>
     <string name="every_weekday_lower">ప్రతి వారపు రోజు (సోమ–శుక్ర)</string>
     <string name="expand_button_title">అధునాతనం</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">పాడ్‌క్యాస్ట్ అభ్యంతరకరమైన కంటెంట్‌ను కలిగి ఉంది</string>
     <string name="fast_forward">ఫాస్ట్ ఫార్వార్డ్ చేయి</string>
     <string name="favorite_images_tag_title">ఇష్టమైన చిత్రాలు</string>
     <string name="favorite_pages_tag_title">ఇష్టమైన పేజీలు</string>
+    <string name="favorite_screenshots_tag_title">ఇష్టమైన స్క్రీన్‌షాట్‌లు</string>
     <string name="first_run_cling_title">స్వాగతం</string>
     <string name="flight_group_header">విమానాలు</string>
     <string name="folder_closed">ఫోల్డర్ మూసివేయబడింది</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">మీ చందాలను ఇక్కడ చూడండి</string>
     <string name="hotseat_out_of_space">ఇష్టమైనవి ట్రేలో ఖాళీ లేదు</string>
     <string name="hour_picker_description">గంటల వృత్తాకార స్లయిడర్</string>
-    <string name="https_info_close">మూసివేయి</string>
-    <string name="https_info_message">పాడ్‌క్యాస్ట్‌ సైట్‌కి మీ కనెక్షన్ ప్రైవేట్‌గా ఉంటుంది.</string>
-    <string name="https_info_title">సురక్షిత కనెక్షన్</string>
     <string name="i18n_address_line1_accessibility_label">వీధి చిరునామా: పంక్తి 1</string>
     <string name="i18n_address_line1_label">వీధి చిరునామా</string>
     <string name="i18n_address_line2_accessibility_label">వీధి చిరునామా: పంక్తి 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">వీక్షణలు</string>
     <string name="image_viewer_video_watch_label">చూడండి</string>
     <string name="image_viewer_view_all_related_images_accessibility">సంబంధిత చిత్రాలన్నింటిని వీక్షించండి</string>
-    <string name="image_viewer_view_saved">సేవ్ చేసినవి వీక్షించండి</string>
     <string name="image_viewer_visit_site">సందర్శించండి</string>
     <string name="indexing_not_ready">మీకు చూపించడానికి మా వద్ద ఇంకా కంటెంట్ లేదు. దయచేసి ఇంటర్నెట్‌కు కనెక్ట్ చేసి, కొద్ది నిమిషాల తర్వాత తిరిగి రండి.</string>
     <string name="info_target_label">యాప్ సమాచారం</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">ప్లే చేసినట్లు గుర్తు పెట్టు</string>
     <string name="mark_as_unplayed">ప్లే చేయనట్లు గుర్తు పెట్టు</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">మీ పాడ్‌క్యాస్ట్‌లు</string>
     <string name="media_route_chooser_dialog_title">దీనికి ప్రసారం చేయండి</string>
     <string name="media_route_chooser_searching">పరికరాల కోసం వెతుకుతోంది…</string>
@@ -520,10 +522,12 @@
     <string name="playback_panel_error">ప్లే చేయలేకపోయింది</string>
     <string name="playback_status_buffering">బఫర్ చేస్తోంది...</string>
     <string name="please_select">దయచేసి ఎంచుకోండి</string>
+    <string name="podcast_retry_download">పునఃప్రయత్నం</string>
     <string name="podcasts">పాడ్‌క్యాస్ట్‌లు</string>
     <string name="preferences_license_summary">ఓపెన్ సోర్స్ సాఫ్ట్‌వేర్ కోసం లైసెన్స్ వివరాలు</string>
     <string name="preferences_license_title">ఓపెన్ సోర్స్ లైసెన్స్‌లు</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">ప్రశ్న: %s.</string>
     <string name="query_people_group_header">పరిచయాలు</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -665,7 +669,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s కోసం శోధన ఫ�
     <string name="request_storage_permission_dialog_message">ఎపిసోడ్‌లను డౌన్‌లోడ్ చేయడానికి, మీ పరికర నిల్వ కోసం Googleకు యాక్సెస్‌ కావాలి</string>
     <string name="request_storage_permission_dialog_title">నిల్వ యాక్సెస్‌ను అనుమతించండి</string>
     <string name="reservation_group_header">రిజర్వేషన్‌లు</string>
-    <string name="retry">పునఃప్రయత్నం</string>
     <string name="retry_failed_download">డౌన్‌లోడ్ చేయడానికి మళ్లీ ప్రయత్నించండి</string>
     <string name="returned">వాపసు ఇవ్వబడింది</string>
     <string name="review_count_text">(%d)</string>
@@ -727,6 +730,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s కోసం శోధన ఫ�
     <string name="snackbar_message_removed_from_recently">ఇటీవలి పేజీల నుండి తీసివేయబడింది</string>
     <string name="source_chip_desc">%s నుండి కంటెంట్‌ని వీక్షించండి.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">ప్రసారం చేస్తున్నప్పుడు వేగం సెట్టింగ్‌లు అందుబాటులో ఉండవు.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">చందాను పొందండి</string>
     <string name="subscribe_to_see_new_episodes">కొత్త ఎపిసోడ్‌లను చూడటానికి పాడ్‌క్యాస్ట్‌లకు సబ్‌స్క్రయిబ్ చేయండి</string>
@@ -736,6 +740,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s కోసం శోధన ఫ�
     <string name="suw_next_button_label">తర్వాత</string>
     <string name="tab_episodes_in_progress">ప్రోగ్రెస్‌లో ఉంది</string>
     <string name="tab_new_episodes">కొత్త</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s విజయవంతంగా దాచబడింది.</string>
     <string name="toast_hide_fail">ఏదో తప్పు జరిగింది! %s దాచబడలేదు.</string>
     <string name="toast_unhide">%s విజయవంతంగా తిరిగి చూపబడింది.</string>

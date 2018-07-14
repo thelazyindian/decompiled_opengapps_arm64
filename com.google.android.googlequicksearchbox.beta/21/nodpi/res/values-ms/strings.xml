@@ -108,10 +108,14 @@
     <string name="cancel">Batal</string>
     <string name="cancel_favorites_selection">Batal</string>
     <string name="cancelled">Dibatalkan</string>
+    <string name="cast_fail_to_connect_message">Tidak dapat menyambung ke %1$s pada masa ini. Cuba sebentar lagi.</string>
+    <string name="cast_fail_to_reconnect_message">Tidak dapat menyambung semula ke %1$s pada masa ini. Cuba sebentar lagi.</string>
     <string name="cast_notification_connected_message">Disambungkan ke %1$s</string>
     <string name="cast_notification_connecting_message">Menyambung ke %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Putuskan sambungan</string>
+    <string name="cast_reconnecting_message">Cuba menyambung semula</string>
+    <string name="cast_success_to_reconnect_message">Disambung semula ke %1$s</string>
     <string name="cct_account_mismatch_card_button_text">Buka %1$s</string>
     <string name="cct_account_mismatch_card_header">Lihat halaman web anda</string>
     <string name="cct_account_mismatch_card_text">Untuk melihat halaman yang anda temui di sini, kemas kini &lt;b>tetapan %1$s&lt;/b> dan hidupkan penyegerakan untuk &lt;b>%2$s&lt;/b></string>
@@ -171,7 +175,6 @@
     <string name="delivered">Dihantar</string>
     <string name="device_photo_group_header">Foto pada Peranti</string>
     <string name="docs_group_header">Dokumen</string>
-    <string name="donate">Derma</string>
     <string name="donate_button_label">Derma</string>
     <string name="done">Selesai</string>
     <string name="done_label">Selesai</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Muat turun tidak ditemui</string>
     <string name="download_setting_message">Episod yang dimuat turun akan dialih keluar selepas 30 hari atau 24 jam setelah selesai didengar</string>
     <string name="downloaded">Dimuat turun</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Episod yang dimuat turun</string>
     <string name="downloading">Memuat turun…</string>
     <string name="downloads">Muat turun</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Episod yang tersedia</string>
     <string name="episode_page_section_title">Episod</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Untuk anda</string>
     <string name="error">Ralat</string>
     <string name="error_message">Carian gagal. Sila cuba sebentar lagi.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Setiap hari Isn–Jum</string>
     <string name="every_weekday_lower">setiap hari Isn–Jum</string>
     <string name="expand_button_title">Lanjutan</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Podcast mengandungi kandungan yang eksplisit</string>
     <string name="fast_forward">Mara laju</string>
     <string name="favorite_images_tag_title">Imej kegemaran</string>
     <string name="favorite_pages_tag_title">Halaman kegemaran</string>
+    <string name="favorite_screenshots_tag_title">Tangkapan skrin kegemaran</string>
     <string name="first_run_cling_title">Selamat datang</string>
     <string name="flight_group_header">Penerbangan</string>
     <string name="folder_closed">Folder ditutup</string>
@@ -300,9 +305,6 @@ Cuba cari podcast sekali lagi."</string>
     <string name="homebase_link_tool_tip_message">Lihat langganan anda di sini</string>
     <string name="hotseat_out_of_space">Tiada ruang dalam dulang Kegemaran lagi</string>
     <string name="hour_picker_description">Penggelangsar bulatan jam</string>
-    <string name="https_info_close">Tutup</string>
-    <string name="https_info_message">Sambungan anda ke tapak podcast ditetapkan kepada peribadi.</string>
-    <string name="https_info_title">Sambungan selamat</string>
     <string name="i18n_address_line1_accessibility_label">Alamat jalan: baris 1</string>
     <string name="i18n_address_line1_label">Alamat jalan</string>
     <string name="i18n_address_line2_accessibility_label">Alamat jalan: baris 2</string>
@@ -365,7 +367,6 @@ Cuba cari podcast sekali lagi."</string>
     <string name="image_viewer_video_view_count_label">Tontonan</string>
     <string name="image_viewer_video_watch_label">Tonton</string>
     <string name="image_viewer_view_all_related_images_accessibility">Lihat semua imej yang berkaitan</string>
-    <string name="image_viewer_view_saved">Lihat imej yang disimpan</string>
     <string name="image_viewer_visit_site">Lawati</string>
     <string name="indexing_not_ready">Kami belum mempunyai kandungan untuk ditunjukkan kepada anda. Sila bersambung ke Internet dan kembali dalam masa beberapa minit.</string>
     <string name="info_target_label">Maklumat apl</string>
@@ -405,6 +406,7 @@ Cuba cari podcast sekali lagi."</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Tandai sebagai dimainkan</string>
     <string name="mark_as_unplayed">Tandai sebagai tidak dimainkan</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Podcast anda</string>
     <string name="media_route_chooser_dialog_title">Hantar ke</string>
     <string name="media_route_chooser_searching">Mencari peranti…</string>
@@ -520,10 +522,12 @@ Temui dan kawal semua carian Google anda dan pelbagai lagi dalam Aktiviti Saya."
     <string name="playback_panel_error">Gagal dimainkan</string>
     <string name="playback_status_buffering">Menimbal...</string>
     <string name="please_select">Sila pilih</string>
+    <string name="podcast_retry_download">Cuba semula</string>
     <string name="podcasts">Podcast</string>
     <string name="preferences_license_summary">Butiran lesen untuk perisian sumber terbuka</string>
     <string name="preferences_license_title">Lesen sumber terbuka</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Pertanyaan: %s.</string>
     <string name="query_people_group_header">Kenalan</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -665,7 +669,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">Untuk memuat turun episod, Google memerlukan akses kepada storan peranti anda</string>
     <string name="request_storage_permission_dialog_title">Benarkan akses storan</string>
     <string name="reservation_group_header">Tempahan</string>
-    <string name="retry">Cuba semula</string>
     <string name="retry_failed_download">Cuba semula muat turun</string>
     <string name="returned">Dikembalikan</string>
     <string name="review_count_text">(%d)</string>
@@ -727,6 +730,7 @@ Rancangan ini tidak tersedia sekarang."</string>
     <string name="snackbar_message_removed_from_recently">Dialih keluar daripada halaman baru-baru ini</string>
     <string name="source_chip_desc">Lihat kandungan daripada %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Tetapan kelajuan tidak tersedia semasa menghantar.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Langgan</string>
     <string name="subscribe_to_see_new_episodes">Langgan podcast untuk melihat episod baharu</string>
@@ -736,6 +740,7 @@ Rancangan ini tidak tersedia sekarang."</string>
     <string name="suw_next_button_label">Seterusnya</string>
     <string name="tab_episodes_in_progress">Sedang berlangsung</string>
     <string name="tab_new_episodes">Baharu</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s telah berjaya disembunyikan.</string>
     <string name="toast_hide_fail">Berlaku kesilapan! %s tidak disembunyikan.</string>
     <string name="toast_unhide">%s telah berjaya dinyahsembunyikan.</string>

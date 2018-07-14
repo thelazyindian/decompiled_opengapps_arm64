@@ -108,10 +108,14 @@
     <string name="cancel">रद्द करा</string>
     <string name="cancel_favorites_selection">रद्द करा</string>
     <string name="cancelled">रद्द केले</string>
+    <string name="cast_fail_to_connect_message">%1$s शी आता कनेक्ट करू शकत नाही. नंतर पुन्हा प्रयत्न करा.</string>
+    <string name="cast_fail_to_reconnect_message">%1$s शी आता पुन्हा कनेक्ट करू शकत नाही. नंतर पुन्हा प्रयत्न करा.</string>
     <string name="cast_notification_connected_message">%1$s शी कनेक्ट केले</string>
     <string name="cast_notification_connecting_message">%1$s शी कनेक्ट करत आहे</string>
     <string name="cast_notification_default_channel_name">कास्‍ट करा</string>
     <string name="cast_notification_disconnect">डिस्कनेक्ट करा</string>
+    <string name="cast_reconnecting_message">पुन्हा कनेक्ट करण्‍याचा प्रयत्‍न करत आहे.</string>
+    <string name="cast_success_to_reconnect_message">%1$s शी पुन्हा कनेक्ट करत आहे.</string>
     <string name="cct_account_mismatch_card_button_text">%1$s उघडा</string>
     <string name="cct_account_mismatch_card_header">तुमची वेब पेज पाहा</string>
     <string name="cct_account_mismatch_card_text">तुम्हाला येथे आढळत असलेली पेज पाहण्यासाठी &lt;b>%1$s सेटिंग्ज&lt;/b> अपडेट करा आणि &lt;b>%2$s&lt;/b> साठी सिंक चालू करा</string>
@@ -171,7 +175,6 @@
     <string name="delivered">वितरित केले</string>
     <string name="device_photo_group_header">डिव्हाइसवरील फोटो</string>
     <string name="docs_group_header">दस्तऐवज</string>
-    <string name="donate">देणगी द्या</string>
     <string name="donate_button_label">देणगी द्या</string>
     <string name="done">पूर्ण झाले</string>
     <string name="done_label">पूर्ण झाले</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">डाउनलोड सापडले नाही</string>
     <string name="download_setting_message">डाउनलोड केलेले भाग ३० दिवसांनी किंवा संपल्यानंतर २४ तासांनी काढले जातात</string>
     <string name="downloaded">डाउनलोड केलेले</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">डाउनलोड केलेले भाग</string>
     <string name="downloading">डाउनलोड करत आहे...</string>
     <string name="downloads">डाउनलोड</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">उपलब्ध असलेले भाग</string>
     <string name="episode_page_section_title">भाग</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">तुमच्यासाठी</string>
     <string name="error">एरर</string>
     <string name="error_message">शोध अयशस्वी झाला. कृपया नंतर प्रयत्न करा.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">शनि रवि खेरिज प्रत्येक वार (सोम–शुक्र)</string>
     <string name="every_weekday_lower">शनि रवि खेरिज प्रत्येक वार (सोम–शुक्र)</string>
     <string name="expand_button_title">प्रगत</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">पॉडकास्टमध्ये भडक आशय आहे</string>
     <string name="fast_forward">फास्ट फॉरवर्ड</string>
     <string name="favorite_images_tag_title">मनपसंत इमेज</string>
     <string name="favorite_pages_tag_title">पसंतीची पेज</string>
+    <string name="favorite_screenshots_tag_title">आवडते स्क्रीनशॉट</string>
     <string name="first_run_cling_title">सुस्वागतम</string>
     <string name="flight_group_header">फ्लाइट</string>
     <string name="folder_closed">फोल्डर बंद</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">तुमचे सदस्यत्व येथे पहा</string>
     <string name="hotseat_out_of_space">आवडीच्या ट्रे मध्ये आणखी जागा नाही</string>
     <string name="hour_picker_description">तास परिपत्रक स्लायडर</string>
-    <string name="https_info_close">बंद करा</string>
-    <string name="https_info_message">पॉडकास्टवरील आपले कनेक्शन खाजगी आहे.</string>
-    <string name="https_info_title">सुरक्षित कनेक्शन</string>
     <string name="i18n_address_line1_accessibility_label">मार्ग पत्ता: ओळ 1</string>
     <string name="i18n_address_line1_label">मार्ग पत्ता</string>
     <string name="i18n_address_line2_accessibility_label">मार्ग पत्ता: ओळ 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">वेळा पाहिला</string>
     <string name="image_viewer_video_watch_label">पहा</string>
     <string name="image_viewer_view_all_related_images_accessibility">सर्व संबंधित इमेज पहा</string>
-    <string name="image_viewer_view_saved">सेव्ह केलेले पहा</string>
     <string name="image_viewer_visit_site">भेट द्या</string>
     <string name="indexing_not_ready">तुम्हाला दाखवण्यासाठी आमच्याकडे आशय नाही. कृपया इंटरनेटशी कनेक्ट करा आणि थोड्या वेळाने परत या.</string>
     <string name="info_target_label">अॅप माहिती</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">प्ले केलेले म्हणून चिन्हांकित करा</string>
     <string name="mark_as_unplayed">प्ले न केलेले म्हणून चिन्हांकित करा</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">तुमचे पॉडकास्ट</string>
     <string name="media_route_chooser_dialog_title">यावर कास्ट करा</string>
     <string name="media_route_chooser_searching">डिव्हाइस शोधत आहे…</string>
@@ -520,10 +522,12 @@
     <string name="playback_panel_error">प्ले करण्यात अक्षम</string>
     <string name="playback_status_buffering">बफर करत आहे...</string>
     <string name="please_select">कृपया निवडा</string>
+    <string name="podcast_retry_download">पुन्हा प्रयत्न करा</string>
     <string name="podcasts">पॉडकास्ट</string>
     <string name="preferences_license_summary">मुक्त स्त्रोत सॉफ्टवेअरसाठी परवाना तपशील</string>
     <string name="preferences_license_title">मुक्त स्त्रोत परवाने</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">क्वेरी %s</string>
     <string name="query_people_group_header">संपर्क</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -665,7 +669,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s साठी शोध पर�
     <string name="request_storage_permission_dialog_message">भाग डाउनलोड करण्यासाठी, Google ला डिव्हाइस स्टोरेजवर अॅक्सेसची आवश्यकता आहे</string>
     <string name="request_storage_permission_dialog_title">स्टोरेज अ‍ॅक्सेसला अनुमती द्या</string>
     <string name="reservation_group_header">आरक्षणे</string>
-    <string name="retry">पुन्हा प्रयत्न करा</string>
     <string name="retry_failed_download">पुन्हा डाउनलोड करण्याचा प्रयत्न करा</string>
     <string name="returned">परत केले</string>
     <string name="review_count_text">(%d)</string>
@@ -727,6 +730,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s साठी शोध पर�
     <string name="snackbar_message_removed_from_recently">अलीकडील पृष्ठावरून काढले</string>
     <string name="source_chip_desc">%s चा आशय पहा.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">कास्ट करत असताना गती सेटिंग्ज उपलब्ध नाहीत.</string>
     <string name="status_bar_notification_info_overflow">९९९+</string>
     <string name="subscribe_button_label">सदस्यत्व घ्या</string>
     <string name="subscribe_to_see_new_episodes">नवीन भाग पाहण्‍यासाठी पॉडकास्‍टचे सदस्‍यत्‍व घ्‍या</string>
@@ -736,6 +740,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s साठी शोध पर�
     <string name="suw_next_button_label">पुढील</string>
     <string name="tab_episodes_in_progress">प्रगतीपथावर</string>
     <string name="tab_new_episodes">नवीन</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s यशस्वीरित्या लपवले गेले.</string>
     <string name="toast_hide_fail">काहीतरी गडबड झाली! %s लपवले गेले नाही.</string>
     <string name="toast_unhide">%s यशस्वीरित्या दाखवले गेले.</string>

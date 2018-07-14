@@ -108,10 +108,14 @@
     <string name="cancel">Hætta við</string>
     <string name="cancel_favorites_selection">Hætta við</string>
     <string name="cancelled">Afpantað</string>
+    <string name="cast_fail_to_connect_message">Ekki tókst að tengjast við %1$s sem stendur. Reyndu aftur síðar.</string>
+    <string name="cast_fail_to_reconnect_message">Ekki er hægt að tengjast aftur við %1$s sem stendur. Reyndu aftur síðar.</string>
     <string name="cast_notification_connected_message">Tengt við %1$s</string>
     <string name="cast_notification_connecting_message">Tengist %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Aftengjast</string>
+    <string name="cast_reconnecting_message">Reynir að tengjast aftur</string>
+    <string name="cast_success_to_reconnect_message">Tengdist aftur við %1$s</string>
     <string name="cct_account_mismatch_card_button_text">Opna %1$s</string>
     <string name="cct_account_mismatch_card_header">Skoða vefsíðurnar þínar</string>
     <string name="cct_account_mismatch_card_text">Uppfærðu &lt;b>stillingar %1$s&lt;/b> og kveiktu á samstillingu fyrir &lt;b>%2$s&lt;/b> til að sjá síðurnar sem þú finnur hér</string>
@@ -171,7 +175,6 @@
     <string name="delivered">Afhent</string>
     <string name="device_photo_group_header">Myndir í tækinu</string>
     <string name="docs_group_header">Skjöl</string>
-    <string name="donate">Styrkja</string>
     <string name="donate_button_label">Styrkja</string>
     <string name="done">Lokið</string>
     <string name="done_label">Lokið</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Niðurhal fannst ekki</string>
     <string name="download_setting_message">Sóttir þættir eru fjarlægðir 30 dögum eða 24 klukkustundum eftir að hlustað hefur verið á þá</string>
     <string name="downloaded">Sótt</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Sóttir þættir</string>
     <string name="downloading">Sækir...</string>
     <string name="downloads">Niðurhal</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Þættir í boði</string>
     <string name="episode_page_section_title">Þáttur</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Fyrir þig</string>
     <string name="error">Villa</string>
     <string name="error_message">Leit mistókst. Reyndu síðar.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Alla virka daga (mán.–fös.)</string>
     <string name="every_weekday_lower">alla virka daga (mán.–fös.)</string>
     <string name="expand_button_title">Ítarlegt</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Hlaðvarp inniheldur klúrt efni</string>
     <string name="fast_forward">Spóla áfram</string>
     <string name="favorite_images_tag_title">Eftirlætismyndir</string>
     <string name="favorite_pages_tag_title">Eftirlætissíður</string>
+    <string name="favorite_screenshots_tag_title">Eftirlætisskjámyndir</string>
     <string name="first_run_cling_title">Komdu fagnandi</string>
     <string name="flight_group_header">Flug</string>
     <string name="folder_closed">Möppu lokað</string>
@@ -300,9 +305,6 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="homebase_link_tool_tip_message">Skoðaðu áskriftirnar þínar hér</string>
     <string name="hotseat_out_of_space">Ekki meira pláss í bakka fyrir uppáhald</string>
     <string name="hour_picker_description">Valskífa fyrir klukkustundir</string>
-    <string name="https_info_close">Loka</string>
-    <string name="https_info_message">Tengingin þín við hlaðvarpsvefsvæðið er lokuð.</string>
-    <string name="https_info_title">Örugg tenging</string>
     <string name="i18n_address_line1_accessibility_label">Heimilisfang: lína 1</string>
     <string name="i18n_address_line1_label">Gata og húsnúmer</string>
     <string name="i18n_address_line2_accessibility_label">Heimilisfang: lína 2</string>
@@ -365,7 +367,6 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="image_viewer_video_view_count_label">Áhorf</string>
     <string name="image_viewer_video_watch_label">Horfa</string>
     <string name="image_viewer_view_all_related_images_accessibility">Skoða allar svipaðar myndir</string>
-    <string name="image_viewer_view_saved">Skoða vistað</string>
     <string name="image_viewer_visit_site">Opna</string>
     <string name="indexing_not_ready">Við erum ekki enn með efni til að sýna þér. Tengstu netinu og komdu aftur eftir nokkrar mínútur.</string>
     <string name="info_target_label">Upplýsingar um forrit</string>
@@ -405,6 +406,7 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Merkt sem spilað</string>
     <string name="mark_as_unplayed">Merkt sem óspilað</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Hlaðvarpið þitt</string>
     <string name="media_route_chooser_dialog_title">Senda út í</string>
     <string name="media_route_chooser_searching">Leitar að tækjum…</string>
@@ -520,10 +522,12 @@ Kannaðu og stjórnaðu allri Google leitinni þinni og fleiru í Mínum aðger�
     <string name="playback_panel_error">Get ekki spilað</string>
     <string name="playback_status_buffering">Setur í biðminni...</string>
     <string name="please_select">Veldu</string>
+    <string name="podcast_retry_download">Reyna aftur</string>
     <string name="podcasts">Hlaðvarp</string>
     <string name="preferences_license_summary">Leyfisupplýsingar fyrir hugbúnað með opnum kóða</string>
     <string name="preferences_license_title">Leyfi opins kóða</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Fyrirspurn: %s.</string>
     <string name="query_people_group_header">Tengiliðir</string>
     <string name="quoted_query">„%1$s“</string>
@@ -665,7 +669,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">Google þarf að fá aðgang að geymslu tækisins til að sækja þætti</string>
     <string name="request_storage_permission_dialog_title">Veittu aðgang að geymslurými</string>
     <string name="reservation_group_header">Pantanir</string>
-    <string name="retry">Reyna aftur</string>
     <string name="retry_failed_download">Reyna aftur að sækja</string>
     <string name="returned">Endursent</string>
     <string name="review_count_text">(%d)</string>
@@ -727,6 +730,7 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="snackbar_message_removed_from_recently">Fjarlægt úr nýlegum síðum</string>
     <string name="source_chip_desc">Skoða allt efni í „%s“.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Hraðastillingar eru ekki tiltækar meðan á útsendingu stendur.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Gerast áskrifandi</string>
     <string name="subscribe_to_see_new_episodes">Gerstu áskrifandi að hlaðvarpi til að sjá nýja þætti</string>
@@ -736,6 +740,7 @@ Reyndu að leita aftur að hlaðvarpinu."</string>
     <string name="suw_next_button_label">Áfram</string>
     <string name="tab_episodes_in_progress">Í gangi</string>
     <string name="tab_new_episodes">Nýtt</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s var falin(n).</string>
     <string name="toast_hide_fail">Eitthvað fór úrskeiðis! %s var ekki falin(n).</string>
     <string name="toast_unhide">%s var sýnd(ur).</string>

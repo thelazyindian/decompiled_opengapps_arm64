@@ -3,7 +3,7 @@
   xmlns:android="http://schemas.android.com/apk/res/android">
     <TextView android:ellipsize="end" android:id="@id/calendar_event_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:maxLines="1" style="@style/ZeroStateAgendaItemText" />
     <LinearLayout android:id="@id/agenda_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/calendar_event_title">
-        <ImageView android:layout_gravity="center" android:id="@id/agenda_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/dot" android:scaleType="centerInside" />
+        <ImageView android:layout_gravity="center" android:id="@id/agenda_icon" android:layout_width="@dimen/zero_state_agenda_small_icon_size" android:layout_height="@dimen/zero_state_agenda_small_icon_size" android:src="@drawable/dot" android:scaleType="centerInside" />
         <TextView android:ellipsize="end" android:id="@id/calendar_event_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxLines="1" style="@style/ZeroStateAgendaItemDescriptionText" />
     </LinearLayout>
 </RelativeLayout>

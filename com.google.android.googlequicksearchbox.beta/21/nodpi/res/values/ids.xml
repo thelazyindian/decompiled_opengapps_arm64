@@ -28,7 +28,6 @@
     <item type="id" name="back_of_card_list_view" />
     <item type="id" name="back_of_card_view" />
     <item type="id" name="bullet_image" />
-    <item type="id" name="canvas_tag" />
     <item type="id" name="cap_module_presenter" />
     <item type="id" name="card_action_click_listener" />
     <item type="id" name="card_cap_entry" />
@@ -111,6 +110,7 @@
     <item type="id" name="get_more_element_screen_context" />
     <item type="id" name="ghost_view" />
     <item type="id" name="glide_custom_view_target_tag" />
+    <item type="id" name="gm_factory_release" />
     <item type="id" name="google_partners_consent_element" />
     <item type="id" name="graft_pending_tag" />
     <item type="id" name="home" />
@@ -144,7 +144,6 @@
     <item type="id" name="monet_type" />
     <item type="id" name="mtrl_child_content_container" />
     <item type="id" name="mtrl_internal_children_alpha_tag" />
-    <item type="id" name="multilingual_promo_container" />
     <item type="id" name="now_header_doodle_view" />
     <item type="id" name="now_layout_manager_full_span" />
     <item type="id" name="offline_badge_icon" />
@@ -204,6 +203,7 @@
     <item type="id" name="third_party_full_screen_button_wrapper" />
     <item type="id" name="title" />
     <item type="id" name="tooltip_overlay" />
+    <item type="id" name="top_apps_tab" />
     <item type="id" name="transition_current_scene" />
     <item type="id" name="transition_layout_save" />
     <item type="id" name="transition_position" />
@@ -665,7 +665,11 @@
     <item type="id" name="action_header_inner_linear_layout">false</item>
     <item type="id" name="cap_icon_web">false</item>
     <item type="id" name="cap_icon">false</item>
+    <item type="id" name="card_action_clickable">false</item>
     <item type="id" name="card_action">false</item>
+    <item type="id" name="lottie_view_frame_layout">false</item>
+    <item type="id" name="lottie_spinner">false</item>
+    <item type="id" name="switcher_label">false</item>
     <item type="id" name="background_notification_title">false</item>
     <item type="id" name="background_notification_subtitle">false</item>
     <item type="id" name="notification_answer_template">false</item>
@@ -911,6 +915,13 @@
     <item type="id" name="accept_message_button">false</item>
     <item type="id" name="next_button">false</item>
     <item type="id" name="title_text">false</item>
+    <item type="id" name="address_confirmation_dialog_title">false</item>
+    <item type="id" name="payments_address_confirmation_dialog_subtitle">false</item>
+    <item type="id" name="address_confirmation_dialog_list_container">false</item>
+    <item type="id" name="normalized_address">false</item>
+    <item type="id" name="input_address">false</item>
+    <item type="id" name="radio_button">false</item>
+    <item type="id" name="summary_text">false</item>
     <item type="id" name="map">false</item>
     <item type="id" name="map_caption">false</item>
     <item type="id" name="opa_error_image_with_radiogroup">false</item>
@@ -1178,9 +1189,10 @@
     <item type="id" name="mark_as_played_container">false</item>
     <item type="id" name="played_icon">false</item>
     <item type="id" name="mark_as_played_button">false</item>
+    <item type="id" name="episode_list_result">false</item>
+    <item type="id" name="episodes_list">false</item>
     <item type="id" name="episodes_card">false</item>
     <item type="id" name="episodes_card_title">false</item>
-    <item type="id" name="episodes_list">false</item>
     <item type="id" name="no_content_description_container">false</item>
     <item type="id" name="no_content_description">false</item>
     <item type="id" name="error">false</item>
@@ -1242,6 +1254,7 @@
     <item type="id" name="eyes_prefetch_image">false</item>
     <item type="id" name="eyes_stable_text">false</item>
     <item type="id" name="eyes_focus_text">false</item>
+    <item type="id" name="overlay_image">false</item>
     <item type="id" name="capture_status">false</item>
     <item type="id" name="number_of_tracked_features">false</item>
     <item type="id" name="capture_analysis">false</item>
@@ -1250,6 +1263,8 @@
     <item type="id" name="prefetch_to_final_request_latency">false</item>
     <item type="id" name="final_request_to_response_latency">false</item>
     <item type="id" name="device_orientation">false</item>
+    <item type="id" name="prefetch_image_metadata">false</item>
+    <item type="id" name="on_device_ocr">false</item>
     <item type="id" name="location_information">false</item>
     <item type="id" name="eyes_button">false</item>
     <item type="id" name="scrollview">false</item>
@@ -1261,8 +1276,9 @@
     <item type="id" name="eyes_camera_preview">false</item>
     <item type="id" name="eyes_camera_preview_surface_view">false</item>
     <item type="id" name="lens_overlay_layout">false</item>
-    <item type="id" name="eyes_image_layer">false</item>
-    <item type="id" name="eyes_annotation_layer">false</item>
+    <item type="id" name="frozen_image_child_stub">false</item>
+    <item type="id" name="focus_area_child_stub">false</item>
+    <item type="id" name="gleam_overlay_child_stub">false</item>
     <item type="id" name="preview_loading_view">false</item>
     <item type="id" name="thumbnail_frame">false</item>
     <item type="id" name="favorite_show_thumbnail">false</item>
@@ -1278,12 +1294,14 @@
     <item type="id" name="podcasts_logo">false</item>
     <item type="id" name="cast_button_container">false</item>
     <item type="id" name="more_actions_icon">false</item>
+    <item type="id" name="episode_page">false</item>
     <item type="id" name="show_title">false</item>
     <item type="id" name="episode_metadata">false</item>
     <item type="id" name="minutes_remaining">false</item>
-    <item type="id" name="play_button_container">false</item>
+    <item type="id" name="toggle_pause">false</item>
     <item type="id" name="play_icon">false</item>
     <item type="id" name="play_button">false</item>
+    <item type="id" name="episode_page_more_actions_icon">false</item>
     <item type="id" name="no_episodes">false</item>
     <item type="id" name="episodes_tabs">false</item>
     <item type="id" name="episodes_pager">false</item>
@@ -1313,7 +1331,6 @@
     <item type="id" name="playback_thumbnail">false</item>
     <item type="id" name="playback_title">false</item>
     <item type="id" name="playback_time">false</item>
-    <item type="id" name="toggle_pause">false</item>
     <item type="id" name="arrow_down">false</item>
     <item type="id" name="bottom_progress_bar">false</item>
     <item type="id" name="playback_panel_top_separator">false</item>
@@ -1354,6 +1371,9 @@
     <item type="id" name="remove_unfinished_episode_container">false</item>
     <item type="id" name="remove_unfinished_episode_title">false</item>
     <item type="id" name="remove_unfinished_episode_option">false</item>
+    <item type="id" name="help">false</item>
+    <item type="id" name="privacy">false</item>
+    <item type="id" name="terms">false</item>
     <item type="id" name="feature_show">false</item>
     <item type="id" name="opa_feedback_button_container">false</item>
     <item type="id" name="opa_feedback_badge">false</item>
@@ -1502,6 +1522,7 @@
     <item type="id" name="get_more_content_container">false</item>
     <item type="id" name="object_gleaming_view">false</item>
     <item type="id" name="circular_spinner_container">false</item>
+    <item type="id" name="icon_view_container">false</item>
     <item type="id" name="message_view_container">false</item>
     <item type="id" name="button_container">false</item>
     <item type="id" name="negative_button">false</item>
@@ -1601,7 +1622,6 @@
     <item type="id" name="google_logo_header_stub">false</item>
     <item type="id" name="google_logo_header">false</item>
     <item type="id" name="monet_corpus_bar_stub">false</item>
-    <item type="id" name="top_nav_container_stub">false</item>
     <item type="id" name="header_query">false</item>
     <item type="id" name="search_suggestions_container">false</item>
     <item type="id" name="help_card_headline">false</item>
@@ -1791,8 +1811,8 @@
     <item type="id" name="prev_ime_v2">false</item>
     <item type="id" name="mic_space">false</item>
     <item type="id" name="sound_levels">false</item>
-    <item type="id" name="waiting_for_results">false</item>
     <item type="id" name="image_indicator">false</item>
+    <item type="id" name="waiting_for_results">false</item>
     <item type="id" name="settings_button">false</item>
     <item type="id" name="large_argument_value">false</item>
     <item type="id" name="large_argument_secondary_value">false</item>
@@ -1925,6 +1945,7 @@
     <item type="id" name="intent_api_text">false</item>
     <item type="id" name="ime_mic_container">false</item>
     <item type="id" name="intent_api_language">false</item>
+    <item type="id" name="retry_button">false</item>
     <item type="id" name="intent_api_audio_renderer">false</item>
     <item type="id" name="recognizer_mic_button">false</item>
     <item type="id" name="voice_progress">false</item>
@@ -2046,6 +2067,8 @@
     <item type="id" name="message_card_icon">false</item>
     <item type="id" name="message_card_title">false</item>
     <item type="id" name="message_card_explanation">false</item>
+    <item type="id" name="message_card_view">false</item>
+    <item type="id" name="message_card_main_content">false</item>
     <item type="id" name="message_card_container">false</item>
     <item type="id" name="message_card_children">false</item>
     <item type="id" name="message_carousel_container">false</item>
@@ -2084,8 +2107,6 @@
     <item type="id" name="carousel_root">false</item>
     <item type="id" name="breaker">false</item>
     <item type="id" name="breaker_icon">false</item>
-    <item type="id" name="message_card_view">false</item>
-    <item type="id" name="message_card_main_content">false</item>
     <item type="id" name="mr_chooser_title">false</item>
     <item type="id" name="mr_chooser_list">false</item>
     <item type="id" name="mr_chooser_route_icon">false</item>
@@ -2162,7 +2183,6 @@
     <item type="id" name="customize">false</item>
     <item type="id" name="search_widget_customization">false</item>
     <item type="id" name="send_feedback">false</item>
-    <item type="id" name="help">false</item>
     <item type="id" name="debug_entry_divider">false</item>
     <item type="id" name="update_tip_bottom_layout">false</item>
     <item type="id" name="gms_error">false</item>
@@ -2250,6 +2270,7 @@
     <item type="id" name="info_entry_icon_2">false</item>
     <item type="id" name="oobe_list_element_title_text">false</item>
     <item type="id" name="oobe_list_element_message_text">false</item>
+    <item type="id" name="opa_payments_oobe_template">false</item>
     <item type="id" name="opa_payments_scroll_view">false</item>
     <item type="id" name="opa_payments_content_container">false</item>
     <item type="id" name="opa_payments_oobe_list_container">false</item>
@@ -2285,7 +2306,6 @@
     <item type="id" name="hq_opa_logo_view">false</item>
     <item type="id" name="opa_chat_ui">false</item>
     <item type="id" name="opa_main_view_inner">false</item>
-    <item type="id" name="opa_chat_underlay">false</item>
     <item type="id" name="opa_chat_container">false</item>
     <item type="id" name="valyrian_container">false</item>
     <item type="id" name="third_party_header_container">false</item>
@@ -2299,6 +2319,7 @@
     <item type="id" name="voice_search_overlay_view_stub">false</item>
     <item type="id" name="voice_search_overlay">false</item>
     <item type="id" name="immersive_canvas_container">false</item>
+    <item type="id" name="opa_chat_underlay">false</item>
     <item type="id" name="opa_modular_action_card_ui">false</item>
     <item type="id" name="opa_actions_arguments_ui">false</item>
     <item type="id" name="opa_non_modular_action_confirmation">false</item>
@@ -2321,6 +2342,8 @@
     <item type="id" name="assistant_logo">false</item>
     <item type="id" name="search_plate_separator">false</item>
     <item type="id" name="auto_complete_grid">false</item>
+    <item type="id" name="slice_card_ui">false</item>
+    <item type="id" name="slice_view">false</item>
     <item type="id" name="opa_suggestion_background">false</item>
     <item type="id" name="opa_suggestion_text">false</item>
     <item type="id" name="opa_suggestion_divider">false</item>
@@ -2408,7 +2431,6 @@
     <item type="id" name="assistant_settings_payments_footer_negative_button">false</item>
     <item type="id" name="assistant_settings_payments_footer_positive_button">false</item>
     <item type="id" name="payments_address_confirmation_dialog_title">false</item>
-    <item type="id" name="payments_address_confirmation_dialog_subtitle">false</item>
     <item type="id" name="payments_address_confirmation_dialog_list_container">false</item>
     <item type="id" name="assistant_settings_payments_radio_widget_frame">false</item>
     <item type="id" name="assistant_settings_payments_dialog_item_title_text">false</item>
@@ -2489,14 +2511,11 @@
     <item type="id" name="photo_preview_image">false</item>
     <item type="id" name="indeterminate_progress">false</item>
     <item type="id" name="determinate_progress">false</item>
-    <item type="id" name="retry_button">false</item>
     <item type="id" name="upper_right_image_overlay">false</item>
     <item type="id" name="media_icon">false</item>
     <item type="id" name="media_caption">false</item>
     <item type="id" name="photo_attribution_primary">false</item>
     <item type="id" name="photo_attribution_secondary">false</item>
-    <item type="id" name="pinned_to_keyboard_container">false</item>
-    <item type="id" name="pinned_to_keyboard_container_mask">false</item>
     <item type="id" name="place_autocomplete_search_button">false</item>
     <item type="id" name="place_autocomplete_search_input">false</item>
     <item type="id" name="place_autocomplete_clear_button">false</item>
@@ -2523,9 +2542,15 @@
     <item type="id" name="related_action_unsave_text">false</item>
     <item type="id" name="widget_container">false</item>
     <item type="id" name="widget_rows">false</item>
+    <item type="id" name="main_deprecation_warning_overlay">false</item>
+    <item type="id" name="main_deprecation_overlay_text">false</item>
+    <item type="id" name="main_deprecation_warning_close">false</item>
     <item type="id" name="only_tile">false</item>
     <item type="id" name="first_tile">false</item>
     <item type="id" name="second_tile">false</item>
+    <item type="id" name="row_deprecation_warning_overlay">false</item>
+    <item type="id" name="row_deprecation_overlay_text">false</item>
+    <item type="id" name="row_deprecation_warning_close">false</item>
     <item type="id" name="assistant_settings_preference_number_picker">false</item>
     <item type="id" name="switchWidget">false</item>
     <item type="id" name="now_loading_progress">false</item>
@@ -2994,6 +3019,7 @@
     <item type="id" name="quartz_knowledge_answer_vertical_list_guideline">false</item>
     <item type="id" name="quartz_knowledge_answer_vertical_list_content">false</item>
     <item type="id" name="quartz_knowledge_answer_vertical_list_image_card">false</item>
+    <item type="id" name="quartz_knowledge_image_attribution">false</item>
     <item type="id" name="quartz_knowledge_answer_vertical_list_image">false</item>
     <item type="id" name="quartz_knowledge_guideline">false</item>
     <item type="id" name="quartz_knowledge_hires_image">false</item>
@@ -3001,9 +3027,10 @@
     <item type="id" name="quartz_knowledge_lowres_card">false</item>
     <item type="id" name="quartz_knowledge_lowres_image">false</item>
     <item type="id" name="quartz_knowledge_sub_feature_container">false</item>
-    <item type="id" name="quartz_knowledge_image_attribution">false</item>
     <item type="id" name="quartz_knowledge_webview_child">false</item>
     <item type="id" name="quartz_knowledge_entity_guideline">false</item>
+    <item type="id" name="quartz_entity_scroll_container">false</item>
+    <item type="id" name="quartz_entity_content_container">false</item>
     <item type="id" name="quartz_knowledge_entity_title">false</item>
     <item type="id" name="quartz_knowledge_entity_rating_container">false</item>
     <item type="id" name="quartz_knowledge_entity_rating_content_rating">false</item>
@@ -3066,7 +3093,6 @@
     <item type="id" name="quartz_local_place_text_overlay">false</item>
     <item type="id" name="quartz_local_place_text_overlay_title">false</item>
     <item type="id" name="quartz_local_place_text_overlay_subtitle">false</item>
-    <item type="id" name="quartz_main_top_edge_swipe_target">false</item>
     <item type="id" name="quartz_main_content">false</item>
     <item type="id" name="quartz_main_child">false</item>
     <item type="id" name="quartz_main_debug">false</item>
@@ -3148,9 +3174,9 @@
     <item type="id" name="quartz_notification_card_icon">false</item>
     <item type="id" name="quartz_notification_card_avatar">false</item>
     <item type="id" name="quartz_notification_card_header">false</item>
-    <item type="id" name="quartz_notification_card_cta">false</item>
-    <item type="id" name="quartz_notification_card_cta_divider">false</item>
     <item type="id" name="quartz_notification_card_title">false</item>
+    <item type="id" name="quartz_notification_card_cta_divider">false</item>
+    <item type="id" name="quartz_notification_card_cta">false</item>
     <item type="id" name="quartz_notification_card_cta_tap_target">false</item>
     <item type="id" name="quartz_notification_list_username">false</item>
     <item type="id" name="quartz_personal_photo_gallery_logo">false</item>
@@ -3258,6 +3284,8 @@
     <item type="id" name="quartz_recommendation_list_subtitle_3">false</item>
     <item type="id" name="quartz_recommendation_list_second_subtitle_3">false</item>
     <item type="id" name="quartz_recommendation_list_tap_target_3">false</item>
+    <item type="id" name="quartz_remote_alarm_layout">false</item>
+    <item type="id" name="quartz_device_name">false</item>
     <item type="id" name="quartz_rendered_card_webview">false</item>
     <item type="id" name="quartz_rendered_card_webview_child">false</item>
     <item type="id" name="quartz_rich_suggestions_list">false</item>
@@ -3348,6 +3376,8 @@
     <item type="id" name="quartz_slideshow_slide_child_container">false</item>
     <item type="id" name="quartz_slideshow_preview_bounds">false</item>
     <item type="id" name="quartz_slideshow_suggestions_child">false</item>
+    <item type="id" name="quartz_slideshow_image">false</item>
+    <item type="id" name="quartz_slideshow_image_view">false</item>
     <item type="id" name="quartz_suggestion_chip_chip">false</item>
     <item type="id" name="quartz_suggestions_recyclerview">false</item>
     <item type="id" name="quartz_suggestions_home_module_list">false</item>
@@ -3401,7 +3431,6 @@
     <item type="id" name="quartz_weather_module">false</item>
     <item type="id" name="quartz_weather_module_left_margin">false</item>
     <item type="id" name="quartz_weather_module_right_margin">false</item>
-    <item type="id" name="quartz_weather_module_card_container">false</item>
     <item type="id" name="quartz_weather_module_temperature">false</item>
     <item type="id" name="quartz_weather_module_temperature_degree_icon">false</item>
     <item type="id" name="quartz_weather_module_high_low">false</item>
@@ -3863,6 +3892,7 @@
     <item type="id" name="identity_list">false</item>
     <item type="id" name="summary_card_content">false</item>
     <item type="id" name="opa_payments_gpay_logo">false</item>
+    <item type="id" name="confirm_tos">false</item>
     <item type="id" name="summary_card_element_title_text">false</item>
     <item type="id" name="summary_card_element_subtitle_text">false</item>
     <item type="id" name="summary_element_change_button">false</item>
@@ -3943,12 +3973,12 @@
     <item type="id" name="simple_dialog_title">false</item>
     <item type="id" name="simple_dialog_text">false</item>
     <item type="id" name="simple_webview">false</item>
+    <item type="id" name="simple_message_text">false</item>
     <item type="id" name="title_weather_content">false</item>
     <item type="id" name="title_separator">false</item>
     <item type="id" name="title_weather_icon">false</item>
     <item type="id" name="title_weather_text">false</item>
     <item type="id" name="slice_icon">false</item>
-    <item type="id" name="slice_view">false</item>
     <item type="id" name="slider_setting_card_ui">false</item>
     <item type="id" name="snackbar_root">false</item>
     <item type="id" name="sound_search_result_song">false</item>
@@ -4067,6 +4097,9 @@
     <item type="id" name="logo_image">false</item>
     <item type="id" name="team_logo_fallback">false</item>
     <item type="id" name="team_initial">false</item>
+    <item type="id" name="terms_of_service">false</item>
+    <item type="id" name="tos_webview">false</item>
+    <item type="id" name="tos_footer_container">false</item>
     <item type="id" name="thinking_indicator">false</item>
     <item type="id" name="left_dot_container">false</item>
     <item type="id" name="left_dot">false</item>
@@ -4074,6 +4107,7 @@
     <item type="id" name="center_dot">false</item>
     <item type="id" name="right_dot_container">false</item>
     <item type="id" name="right_dot">false</item>
+    <item type="id" name="time_bar_wrapper">false</item>
     <item type="id" name="welcome_image">false</item>
     <item type="id" name="learn_more">false</item>
     <item type="id" name="video_layout">false</item>
@@ -4125,7 +4159,6 @@
     <item type="id" name="toggle_setting_card_ui">false</item>
     <item type="id" name="tooltip_root">false</item>
     <item type="id" name="tooltip_content">false</item>
-    <item type="id" name="top_nav_bar_view">false</item>
     <item type="id" name="topdeck_container_layout">false</item>
     <item type="id" name="topdeck_background">false</item>
     <item type="id" name="topdeck_content">false</item>
@@ -4279,6 +4312,7 @@
     <item type="id" name="opa_consent_value_prop_webview">false</item>
     <item type="id" name="opa_action_confirmation_card_body_text">false</item>
     <item type="id" name="view_pager">false</item>
+    <item type="id" name="valyrian_header_container">false</item>
     <item type="id" name="opa_mark">false</item>
     <item type="id" name="valyrian_header_text">false</item>
     <item type="id" name="valyrian_immersive_actions_cancel_text_button">false</item>
@@ -4494,7 +4528,6 @@
     <item type="id" name="opa_menu_settings">false</item>
     <item type="id" name="opa_menu_what_can_you_do">false</item>
     <item type="id" name="opa_menu_my_activity">false</item>
-    <item type="id" name="impressum">false</item>
     <item type="id" name="assistant_settings_payments_address_menu_edit">false</item>
     <item type="id" name="assistant_settings_payments_address_menu_delete">false</item>
     <item type="id" name="assistant_settings_payments_instrument_menu_edit">false</item>

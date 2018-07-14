@@ -108,10 +108,14 @@
     <string name="cancel">रद्द गर्नुहोस्</string>
     <string name="cancel_favorites_selection">रद्द गर्नुहोस्</string>
     <string name="cancelled">रद्द गरिएको</string>
+    <string name="cast_fail_to_connect_message">यसबखत %1$s मा जडान गर्न सकिएन। पछि फेरि प्रयास गर्नुहोस्।</string>
+    <string name="cast_fail_to_reconnect_message">यसबखत %1$s मा जडान गर्न सकिएन। पछि फेरि प्रयास गर्नुहोस्।</string>
     <string name="cast_notification_connected_message">%1$s मा जडान गरियो</string>
     <string name="cast_notification_connecting_message">%1$s मा जडान गर्दै</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">विच्छेद गर्नुहोस्</string>
+    <string name="cast_reconnecting_message">पुनः जडान गर्ने प्रयास गर्दै</string>
+    <string name="cast_success_to_reconnect_message">%1$s मा पुनः जडान गर्दै</string>
     <string name="cct_account_mismatch_card_button_text">%1$s खोल्नुहोस्</string>
     <string name="cct_account_mismatch_card_header">आफ्ना वेब पृष्ठहरू हेर्नुहोस्</string>
     <string name="cct_account_mismatch_card_text">तपाईंले यहाँ भेट्टाउने पृष्ठहरू हेर्न &lt;b>%1$s सेटिङहरू&lt;/b> अद्यावधिक गरेर &lt;b>%2$s&lt;/b> को सिंक सक्रिय गर्नुहोस्</string>
@@ -171,7 +175,6 @@
     <string name="delivered">डेलिभरी गरिएको</string>
     <string name="device_photo_group_header">यन्त्रमा रहेका तस्बिरहरू</string>
     <string name="docs_group_header">कागजातहरू</string>
-    <string name="donate">दान गर्नुहोस्</string>
     <string name="donate_button_label">दान गर्नुहोस्</string>
     <string name="done">सम्पन्न भयो</string>
     <string name="done_label">सम्पन्न भयो</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">डाउनलोड भेटिएन</string>
     <string name="download_setting_message">डाउनलोड गरिएका एपिसोडहरूलाई ३० दिनपछि वा पूरा सुनिसकेको २४ घन्टापछि हटाइन्छ</string>
     <string name="downloaded">डाउनलोड गरियो</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">डाउनलोड गरिएका एपिसोडहरू</string>
     <string name="downloading">डाउनलोड गरिँदैछ...</string>
     <string name="downloads">डाउनलोडहरू</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">उपलब्ध एपिसोडहरू</string>
     <string name="episode_page_section_title">एपिसोड</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">तपाईंका लागि</string>
     <string name="error">त्रुटि</string>
     <string name="error_message">खोज गर्न सकिएन। कृपया पछि प्रयास गर्नुहोस्।</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">प्रत्येक हप्ताका कार्यदिवस (सोम - शुक्र)</string>
     <string name="every_weekday_lower">प्रत्येक हप्ताका कार्यदिवस (सोम - शुक्र)</string>
     <string name="expand_button_title">उन्नत</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">पोडकास्टमा स्पष्ट सामग्री समावेश हुन्छ</string>
     <string name="fast_forward">छिटो अगाडि जानुहोस्</string>
     <string name="favorite_images_tag_title">मन पर्ने छविहरू</string>
     <string name="favorite_pages_tag_title">मन पर्ने पृष्ठहरू</string>
+    <string name="favorite_screenshots_tag_title">मन पर्ने स्क्रिनसटहरू</string>
     <string name="first_run_cling_title">स्वागतम्</string>
     <string name="flight_group_header">उडानहरू</string>
     <string name="folder_closed">फोल्डर बन्द भयो</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">यहाँ आफ्नो सदस्यता हेर्नुहोस्</string>
     <string name="hotseat_out_of_space">मन पर्ने ट्रे अब कुनै ठाँउ छैन</string>
     <string name="hour_picker_description">घन्टाका लागि गोलाकार स्लाइडर</string>
-    <string name="https_info_close">बन्द गर्नुहोस्</string>
-    <string name="https_info_message">पोडकास्ट साइटमा गरिएको तपाईँको जडान निजी छ।</string>
-    <string name="https_info_title">सुरक्षित जडान</string>
     <string name="i18n_address_line1_accessibility_label">सडक ठेगाना: पङ्क्ति 1</string>
     <string name="i18n_address_line1_label">सडक ठेगाना</string>
     <string name="i18n_address_line2_accessibility_label">सडक ठेगाना: पङ्क्ति 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">हेराइहरू</string>
     <string name="image_viewer_video_watch_label">हेर्नुहोस्</string>
     <string name="image_viewer_view_all_related_images_accessibility">सबै सम्बन्धित छविहरू हेर्नुहोस्</string>
-    <string name="image_viewer_view_saved">सुरक्षित गरिएका छविहरू हेर्नुहोस्</string>
     <string name="image_viewer_visit_site">जानुहोस्</string>
     <string name="indexing_not_ready">हामीसँग अहिलेसम्म तपाईंलाई देखाउन भनी सामग्री छैन। कृपया इन्टरनेटमा जडान गरी केही क्षणपछि फिर्ता आउनुहोला।</string>
     <string name="info_target_label">अनुप्रयोग जानकारी</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">प्ले गरियो भनी चिन्ह लगाउनुहोस्</string>
     <string name="mark_as_unplayed">प्ले गरिएको छैन भनी चिन्ह लगाउनुहोस्</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">तपाईंका पोडकास्टहरू</string>
     <string name="media_route_chooser_dialog_title">यसमा cast गर्नुहोस्</string>
     <string name="media_route_chooser_searching">यन्त्रहरूको खोजी गर्दै</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">प्ले गर्न सकिएन</string>
     <string name="playback_status_buffering">बफर हुँदैछ...</string>
     <string name="please_select">कृपया चयन गर्नुहोस्</string>
+    <string name="podcast_retry_download">पुनः प्रयास गर्नुहोस्‌</string>
     <string name="podcasts">पोडकास्टहरू</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">क्वेरी: %s।</string>
     <string name="query_people_group_header">सम्पर्क ठेगानाहरू</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s को खोजका पर�
     <string name="request_storage_permission_dialog_message">एपिसोडहरू डाउनलोड गर्न Google लाई तपाईंको यन्त्रको भण्डारणमाथि पहुँच राख्ने अनुमति चाहिन्छ</string>
     <string name="request_storage_permission_dialog_title">भण्डारणमाथि पहुँच राख्ने अनुमति दिनुहोस्</string>
     <string name="reservation_group_header">रिजर्भेसनहरू</string>
-    <string name="retry">पुनः प्रयास</string>
     <string name="retry_failed_download">पुनः डाउनलोड गर्ने प्रयास गर्नुहोस्</string>
     <string name="returned">फिर्ता गरिएको</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s को खोजका पर�
     <string name="snackbar_message_removed_from_recently">हालका पृष्ठहरूबाट हटाइयो</string>
     <string name="source_chip_desc">%s को सामग्री हेर्नुहोस्।</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">casting गरिरहेको बेला गतिसम्बन्धी सेटिङहरू उपलब्ध छैनन्।</string>
     <string name="status_bar_notification_info_overflow">९९९+</string>
     <string name="subscribe_button_label">सदस्यता लिनुहोस्</string>
     <string name="subscribe_to_see_new_episodes">नयाँ एपिसोडहरू हेर्न पोडकास्टहरूको सदस्यता लिनुहोस्</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s को खोजका पर�
     <string name="suw_next_button_label">अर्को</string>
     <string name="tab_episodes_in_progress">प्रगतिमा छ</string>
     <string name="tab_new_episodes">नयाँ</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s लाई सफलतापूर्वक लुकाइएको छ।</string>
     <string name="toast_hide_fail">केही चिज गडबड भयो! %s लाई लुकाउन सकिएन।</string>
     <string name="toast_unhide">%s लाई सफलतापूर्वक नलुकाइएको छ।</string>

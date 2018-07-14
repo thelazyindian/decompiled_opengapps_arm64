@@ -54,6 +54,7 @@
     <string name="access_now_promo_content_description">Google Lentə daxil olun</string>
     <string name="access_now_promo_detail">Maraqlarınıza əsasən yenilikləri və hekayələri görmək üçün klikləyin</string>
     <string name="accessibility_android_for_work_icon">İş profili</string>
+    <string name="accessibility_assistant_button">Google Assistent</string>
     <string name="accessibility_collapse">Yığcamlaşdırın</string>
     <string name="accessibility_drawer_menu_button">Menyu</string>
     <string name="accessibility_expand">Genişləndirin</string>
@@ -75,7 +76,6 @@
     <string name="accessibility_select">Ekrandan mətn seçin</string>
     <string name="accessibility_share">Ekranı paylaşın</string>
     <string name="accessibility_voice_search_button">Səsli Axtarış</string>
-    <string name="account_not_eligible">Bu hesab lent üçün uyğun deyil</string>
     <string name="account_number">Hesab nömrəsi</string>
     <string name="account_settings">Hesablama və məxfilik</string>
     <string name="account_settings_cant_open">Fəaliyyət nəzarətini açmaq uğursuz oldu.</string>
@@ -240,7 +240,6 @@
     <string name="agenda_group_tomorrow_title">Sabah</string>
     <string name="agenda_hub_title">Sizin üçün hazırlanır</string>
     <string name="agenda_icon_description">agenda işarəsi</string>
-    <string name="agenda_section_title">Sizin üçün hazırlanır</string>
     <string name="agent_bookmark_added">Əlfəcinlərdə yadda saxlandı</string>
     <string name="agent_bookmark_error">Xəta baş verdi. Sonra yenidən cəhd edin.</string>
     <string name="agent_bookmark_removed">Əlfəcinlərdən silindi</string>
@@ -318,7 +317,7 @@ Davam etmək üçün assistentdə bu hesaba keçin."</string>
     <string name="all_apps_loading_message">Tətbiqlər endirilir...</string>
     <string name="all_apps_no_search_results">\"%1$s\" sorğusuna uyğun Tətbiqlər tapılmadı</string>
     <string name="all_apps_search_bar_hint">Tətbiqləri Axtarın...</string>
-    <string name="all_apps_search_market_message">Daha çox tətbiq üçün axtarış edin</string>
+    <string name="all_apps_search_market_message">%1$s daxil olun</string>
     <string name="all_chain_locations">Bütün yerlər</string>
     <string name="all_day">Bütün gün</string>
     <string name="all_day_at_location">Bütün gün ərzində buradadır: %1$s</string>
@@ -377,8 +376,6 @@ Davam etmək üçün assistentdə bu hesaba keçin."</string>
     <string name="as_selected_account">%1$s hesabına daxil olub</string>
     <string name="as_show_account_list">Hesabları göstərin</string>
     <string name="as_sign_in">Giriş</string>
-    <string name="assist_dialog_close">Ok</string>
-    <string name="assist_dialog_dont_show">Bir də göstərməyin</string>
     <string name="assist_layer_dismiss">Ekran axtarışını bağlayın</string>
     <string name="assist_layer_to_now">"Google'a gedin"</string>
     <string name="assist_optin_accept">Bəli, mən burdayam</string>
@@ -386,10 +383,7 @@ Davam etmək üçün assistentdə bu hesaba keçin."</string>
     <string name="assist_optin_decline">Yox, çox sağ olun</string>
     <string name="assist_optin_donate_screenshot">"Ekran axtarışı skrinşot ianəsi
 Skrinşotları qeyri-müəyyən müddətə saxlaması və təhlil etməsi üçün Google'a icazə verin"</string>
-    <string name="assist_optin_get_started">Başlayın</string>
     <string name="assist_optin_learn_more_text">Ətraflı məlumat</string>
-    <string name="assist_optin_not_eligible">Ekran axtarışı aktiv edilə bilmədi</string>
-    <string name="assist_optin_title">Ekran axtarışını tapdınız!</string>
     <string name="assist_share_screenshot_failure">Nə isə səhv oldu. Yenidən cəhd edin.</string>
     <string name="assist_share_screenshot_off">Köməkçinin skrinşota çıxışı yoxdur. Ayarlarınızı yoxlayın.</string>
     <string name="assist_translate_screenshot_failure">Nə isə səhv oldu. Yenidən cəhd edin.</string>
@@ -472,8 +466,6 @@ Skrinşotları qeyri-müəyyən müddətə saxlaması və təhlil etməsi üçü
     <string name="assistant_settings_cast_title">TV və dinamiklər</string>
     <string name="assistant_settings_cast_voice_invite_summary">Onlar paylaşılmış cihazlarda məlumata daxil ola biləcəklər</string>
     <string name="assistant_settings_cast_voice_invite_title">Cihazdan istifadə edən digərlərini dəvət edin</string>
-    <string name="assistant_settings_cast_voice_not_recognized">"Assistent sizi tanımır?
-"</string>
     <string name="assistant_settings_cast_voice_retrain_summary">Yeni səsyazısı səs tanınmasını təkmilləşdirə bilər</string>
     <string name="assistant_settings_cast_voice_retrain_title">Assistentə yenidən səsinizi tanımağı öyrədin</string>
     <string name="assistant_settings_common_device_id_category">Bu cihazdakı Assistent üçün ayarları tənzimləyin</string>
@@ -645,7 +637,6 @@ Assistent ayarlarında istənilən vaxt Duo hesabınızı bu cihazdan ayıra bil
     <string name="assistant_settings_music_title">Musiqi</string>
     <string name="assistant_settings_music_unable_unlink_default">Defolt musiqi provayderi ilə əlaqəni kəsmək olmur</string>
     <string name="assistant_settings_music_unlink_dialog_text">Hesabın əlaqəsinin kəsilməsi Google Assistentdə %1$s ilə oxutma seçimini deakiv edəcək.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">"Google Home'da oxutmaq üçün YouTube Musiqi, YouTube Premium üzvlüyü tələb edir. "<a href="http://youtube.com/red">youtube.com/red</a> linkindən qeydiyyatdan keçə bilərsiniz.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text_v2">"Google Home'da oxutmaq üçün YouTube Music YouTube Premium üzvlüyü tələb edir. "<a href="http://youtube.com/musicpremium">Youtube.com/musicpremium</a> linkindən qeydiyyatdan keçə bilərsiniz.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">YouTube Premium Üzvlüyü tələb olunur</string>
     <string name="assistant_settings_news_provider_delete_button_description">%1$s provayderini aktiv xəbər mənbələrindən çıxarın</string>
@@ -921,7 +912,6 @@ Data tarifləri tətbiq oluna bilər."</string>
     <string name="background_notification_onboarding">Oflayn? Problem yoxdur. Google axtarışınızı yadda saxlayacaq və nəticələr hazır olduqda Sizə bildiriş göndərəcək.</string>
     <string name="background_notification_onboarding_accept">Ok</string>
     <string name="background_notification_onboarding_decline">Söndürün</string>
-    <string name="background_notification_ready">Axtarış nəticələri hazırdır</string>
     <string name="background_notification_settings">Seçimlər</string>
     <string name="background_retry_data_saver_dialog_text">Nəticələr hazır olduqda bildiriş alın, Ayarlardan Google tətbiqi üçün Data Qənaətini söndürün</string>
     <string name="background_retry_data_saver_dialog_title">Data Qənaəti aktivdir</string>
@@ -1008,20 +998,21 @@ Data tarifləri tətbiq oluna bilər."</string>
     <string name="card_category_notification_category">Haqqında məlumat alın</string>
     <string name="card_dismissed">Kart silindi</string>
     <string name="card_question_selected">%1$s seçildi</string>
+    <string name="cast_fail_to_connect_message">Hazırda %1$s cihazına qoşulmaq mümkün olmadı. Sonra yenidən cəd edin.</string>
+    <string name="cast_fail_to_reconnect_message">Hazırda %1$s cihazına qoşulmaq alınmadı. Sonra yenidən cəhd edin.</string>
     <string name="cast_notification_connected_message">%1$s adına bağlıdır</string>
     <string name="cast_notification_connecting_message">%1$s displeyinə qoşulur</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Bağlantını kəsin</string>
+    <string name="cast_reconnecting_message">Yenidən qoşulmağa cəhd edilir</string>
+    <string name="cast_success_to_reconnect_message">%1$s cihazına yenidən qoşuldunuz</string>
     <string name="cct_account_mismatch_card_button_text">Açın: %1$s</string>
     <string name="cct_account_mismatch_card_header">Veb səhifələrə baxın</string>
     <string name="cct_account_mismatch_card_text">Burada tapdığınız səhifələri görmək üçün &lt;b>%1$s ayarlarını&lt;/b> yeniləyin və &lt;b>%2$s&lt;/b> üçün sinxronizasiyanı aktiv edin</string>
     <string name="chance_of_precipitation_label">Yağıntı ehtimalı: %s</string>
     <string name="change_wallpaper">DİVAR KAĞIZINI DƏYİŞİN</string>
     <string name="checkin_date_today">Bu günlük giriş qeydləri</string>
-    <string name="choose_account_to_use">Hesab seçin</string>
     <string name="chrome_os_opa_ready_screen_explanation">Chromebook quraşdırıldıqda istənilən zaman Assistentdən kömək almaq üçün Assistent düyməsinə basın və ya Ok Google söyləyin.</string>
-    <string name="chrome_os_opa_value_proposition_cancel">Yox, Çox sağ olun</string>
-    <string name="chrome_os_opa_value_proposition_continue">Davam edin</string>
     <string name="chrome_os_opa_value_proposition_title_loading">Bir saniyə</string>
     <string name="city_to_city">%1$s şəhərindən %2$s şəhərinə</string>
     <string name="clear">Təmizləyin</string>
@@ -1044,6 +1035,8 @@ Data tarifləri tətbiq oluna bilər."</string>
     <string name="common_address_edit_title">Ünvana düzəliş edin</string>
     <string name="common_delete">Silin</string>
     <string name="common_device_assistant_language_title">Köməkçi dil</string>
+    <string name="common_device_disable_youTube_for_guests_summary">"Assistentin Voice Match istifadə edərək səslərini tanıya bilmədiyi istifadəçilər üçün YouTube, YouTube Music və YouTube TV'ni deaktiv edin. Qeyd: Voice Match'i aktiv etməmisinizsə, əlçatan deyil."</string>
+    <string name="common_device_disable_youTube_for_guests_title">"YouTube'u qonaqlar üçün deaktiv edin"</string>
     <string name="common_device_id_personal_info_permission_non_screen_devices_summary">Bu cihazda e-məktub, təqvim və xatırlatma kimi şəxsi nəticələrə icazə verin. Bununla cihazda ödənişlərə də icazə verilir.%1$s</string>
     <string name="common_device_id_personal_info_permission_screenful_devices_summary">Bu cihazda foto, e-poçt, təqvim, kontakt və xatırlatma kimi şəxsi nəticələrə icazə verin. Bu, eyni zamanda bu cihazda ödənişlərə də icazə verir. %1$s</string>
     <string name="common_device_notification_permission_summary">Bu cihazda xatırlatma kimi bildirişlər əldə edin. Bildirişlər deaktiv olsa belə, siqnal və mühüm yenilikləri eşidəcəksiniz.</string>
@@ -1205,8 +1198,6 @@ Bunlara Google Hesab ayarlarında %1$s bölməsində baxıb idarə edə bilərsi
     <string name="current_inning">%1$d atış</string>
     <string name="current_location_searchbox">Cari məkan</string>
     <string name="current_period">Dövr %1$d</string>
-    <string name="current_search_base_url_google_com">( %1$s ) yerli domeninizin əvəzinə www.google.com istifadə etmək</string>
-    <string name="current_search_base_url_local">Yerli domen istifadə etmək ( %1$s )</string>
     <string name="current_status">İndiki durumunuzu yoxlayın</string>
     <string name="custom">Fərdi (telefonda fərdiləşdirilə bilməz)</string>
     <string name="custom_tabs_explore_action_button_desc">Əlaqədar səhifələrə baxın</string>
@@ -1286,7 +1277,6 @@ Bunlara Google Hesab ayarlarında %1$s bölməsində baxıb idarə edə bilərsi
     <string name="distance_miles">%1$.1f mil</string>
     <string name="distance_miles_accessible">Distance: %1$.1f mil</string>
     <string name="docs_group_header">Sənədlər</string>
-    <string name="donate">İanə verin</string>
     <string name="donate_button_label">İanə verin</string>
     <string name="donate_screenshot_summary">"Google'a skrinşotları saxlamaq və ekran axtarışını təkmilləşdirmək üçün imkan verin. Rəyçilər ciddi konfidensiallıq qaydalarına cavab verirlər. Skrinşotlarda e-məktub və çat kimi şəxsi məlumatlar ola bilər, amma onlar konfidensial qalıq."</string>
     <string name="donate_screenshot_title">Ekran axtarışını təkmilləşdirmək üçün kömək edin</string>
@@ -1308,6 +1298,7 @@ Bunlara Google Hesab ayarlarında %1$s bölməsində baxıb idarə edə bilərsi
     <string name="download_prompt">Endirin</string>
     <string name="download_setting_message">Endirilmiş epizodlar tamamlandıqdan 30 gün və ya 24 saat sonra silinir</string>
     <string name="downloaded">Endirilib</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Endirilmiş epizodlar</string>
     <string name="downloading">Endirilir...</string>
     <string name="downloads">Endirilənlər</string>
@@ -1359,7 +1350,6 @@ növbəti 2 həftə ərzində boşdur."</string>
     <string name="enable_google_search_restriction">Google Axtarışı Aktivləşdirin</string>
     <string name="enable_location_use">Google tətbiqlərinin olduğunuz yerə keçidinə izn verin</string>
     <string name="enable_screen_assist_summary_now_emphasis">"Əsas düyməni basıb saxladıqda və ya səsli axtarışda ekranınızda olanları göstərməyi Google'dan xahiş edir"</string>
-    <string name="enable_screen_assist_title">Ekran axtarışı</string>
     <string name="enable_video_preview_autoplay">Avtomatik oxutma</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Mobil şəbəkələrdə icazə verin</string>
     <string name="enable_web_history_toast">Veb Tarixçəsi aktivdir</string>
@@ -1371,6 +1361,7 @@ növbəti 2 həftə ərzində boşdur."</string>
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Əlçatan epizodlar</string>
     <string name="episode_page_section_title">Epizod</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Sizin üçün</string>
     <string name="error">Xəta</string>
     <string name="error_adding_location_snackbar_text">Məkan əlavə edərkən xəta baş verdi</string>
@@ -1391,7 +1382,6 @@ növbəti 2 həftə ərzində boşdur."</string>
     <string name="error_no_connection_text">"Əlçatan şəbəkə yoxdur
 Bağlantını yoxlayaraq yenidən cəhd edin"</string>
     <string name="error_no_network_connectivity">Təkrar qoşulmağa çalışırıq. Nəticələriniz yenidən onlayn olarkən görünəcək.</string>
-    <string name="error_offline_no_connectivity">Bağlantınızı yoxlayın və yenidən cəhd edin.</string>
     <string name="error_removing_location_snackbar_text">Məkanı silərkən xəta baş verdi</string>
     <string name="error_s3">Xəta baş verdi. Bağlantınızı yoxlayın və yenidən cəhd edin.</string>
     <string name="error_ssl">Bağlantınızı yoxlayın və yenidən cəhd edin.</string>
@@ -1415,7 +1405,6 @@ Bağlantını yoxlayaraq yenidən cəhd edin"</string>
     <string name="expand_button_title">Qabaqcıl</string>
     <string name="expand_time_to_leave">Bu səyahət üçün seçimləri göstər.</string>
     <string name="expanding_time_to_leave_announcement">Təfərrüatları tərk etmək üçün vaxtın göstərilməsi.</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Podkastda seksual xarakterli kontent var</string>
     <string name="explore_back_button_content_description">Geri</string>
     <string name="explore_bottombar_header_title">İnsanlar da baxır</string>
@@ -1470,6 +1459,7 @@ Google Lens'i təkmilləşdirməyə davam edirik. Google Lens istifadənizə, ey
     <string name="fast_forward">Sürətlə irəli çəkin</string>
     <string name="favorite_images_tag_title">Sevimli şəkillər</string>
     <string name="favorite_pages_tag_title">Sevimli səhifələr</string>
+    <string name="favorite_screenshots_tag_title">Sevimli skrinşotlar</string>
     <string name="feed_datasaver_details">Data qənaəti aktiv olduqda lent ən son kontenti əldə edə bilməyəcək.</string>
     <string name="feedback">Cavab rəyi göndərin</string>
     <string name="feedback_composed_legalese_text">"Hüquqi səbəblərlə kontent dəyişikliklərini tələb etmək üçün %1$s bölməsinə keçin.&lt;br />Sistem məlumatı Google'a göndəriləcək. %2$s və%3$s bölmələrinə baxın."</string>
@@ -1484,7 +1474,6 @@ Google Lens'i təkmilləşdirməyə davam edirik. Google Lens istifadənizə, ey
     <string name="feedback_terms_of_service_link">http://www.google.com/intl/%1s/policies/terms/</string>
     <string name="feedback_terms_of_service_text">xidmət şərtləri</string>
     <string name="feedback_unsuccessful_snackbar_hint">Xəta baş verdi. Yenidən cəhd edin.</string>
-    <string name="fetching_search_base_url">Yerli domen tapılır...</string>
     <string name="fetching_suggestions_status_text">Təklifləri əldə etmə...</string>
     <string name="filterbar_animated_filter">Gif</string>
     <string name="filterbar_captions_filter_all">Bütün videolar</string>
@@ -1508,7 +1497,6 @@ Google Lens'i təkmilləşdirməyə davam edirik. Google Lens istifadənizə, ey
     <string name="filterbar_duration_filter_medium_description">Orta (4 - 20 dəqiqə)</string>
     <string name="filterbar_duration_filter_short">Qısa (0-4 dəqiqə)</string>
     <string name="filterbar_duration_filter_short_description">Qısa (0 - 4 dəqiqə)</string>
-    <string name="filterbar_filter_container_description">Filtr sahəsi. Axtarışı daraltmaq üçün bir və ya daha çox filtr seçin.</string>
     <string name="filterbar_filter_deselect">%1$s filtrinin seçimini ləğv edin</string>
     <string name="filterbar_filter_select">%1$s filtrini seçin</string>
     <string name="filterbar_filtering_message">%1$s nəticələri üçün filtrləmə</string>
@@ -1789,7 +1777,6 @@ Yadda saxlayın ki, bənzər səs və ya səsyazma da bu məlumatı əldə edə 
     <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"Deyəsən digər cihazda övladınızın Google Assistanti ilə Səs  Uyğunluğunu quraşdırmısınız.
 
 Bu əvvəlki səsyazıları cihazda səs modeli yaratmaq üçün istifadə edilə bilər. Bu bir dəqiqədən az çəkəcək."</string>
-    <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">İlk olaraq %1$s hesabı üçün xüsusi sözlərin qeydiyyatını bitirin.</string>
     <string name="hotword_enrollment_google_home_no_thanks">Xeyr, Təşəkkür</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Voice Match ayarlanması</string>
     <string name="hotword_enrollment_google_home_non_fast_update_progress_summary">Bu, bir dəqiqədən az vaxt almalıdır.</string>
@@ -1800,6 +1787,9 @@ Bu əvvəlki səsyazıları cihazda səs modeli yaratmaq üçün istifadə edil�
     <string name="hotword_enrollment_google_home_share_message">"Salam! Google Əsas Səhifədə Assistentə səsimi tanımağı öyrətdiyimə görə şəxsi nəticələri əldə edə biləcəm.
 
 Sadəcə özünüz üçün cavabları əldə edin! Google Əsas Səhifə tətbiqini quraşdırmaqla başlayın: https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_deeplink">"Salam! Google Home'da Assistentə səsimi tanımağı öyrətdiyimə görə şəxsi nəticələri əldə edə biləcəm.
+
+Sadəcə özünüz üçün cavabları əldə edin! Cihazınıza daxil olmaq üçün klikləyin: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Assistentə Sizi tanımağı öyrədin</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Dəvət edin</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">"%1$s bölməsində səs fəaliyyətinə baxa və silə bilərsiniz. Assistent ayarlarında Voice Match'ı deaktiv edə bilərsiniz."</string>
@@ -1870,7 +1860,6 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="hotword_enrollment_tgoogle_summary_usage_example_third">%1$s, bugün haqqında mənə məlumat ver.</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_end">Assistentlə danışmaq üçün hələ də \"%1$s\" və \"%2$s\" söyləyə bilərsiniz.</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_title">Assistent bunları söylədiyiniz zaman cavab verəcək:</string>
-    <string name="hotword_enrollment_trustedvoice_continue_glif">Davam edin</string>
     <string name="hotword_enrollment_trustedvoice_done_glif">Hazırdır</string>
     <string name="hotword_enrollment_trustedvoice_header_title">Telefonu Səs Uğyunluğu ilə kiliddən çıxarın</string>
     <string name="hotword_enrollment_trustedvoice_next_glif">Növbəti</string>
@@ -1910,7 +1899,6 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="hotword_pref_summary_opa">Ekran sönülü olarsa və ya sevimli tətbiqlərinizdən istifadə etsəniz belə, \"%1$s\" söyləyərək istənilən zaman Assistentinizə daxil olun</string>
     <string name="hotword_pref_summary_opa_non_dsp">Ekran aktiv olduqda \"%1$s\" söyləyərək istədiyiniz zaman Assistentə daxil olun</string>
     <string name="hotword_pref_summary_voice_unlock">Səsin modelinizə uyğun gəldiyi zaman “%1$s”-un cihazınızı kiliddən çıxarmasına icazə verin</string>
-    <string name="hotword_pref_title">“%1$s” aşkarlama</string>
     <string name="hotword_pref_title_always_on">Həmişə aktiv</string>
     <string name="hotword_pref_title_during_gmm_navigation">Avtomobil sürərkən</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Voice Match ilə kilidi açın</string>
@@ -1942,9 +1930,6 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="hq_opt_in_card_description">Google lentinə daxil olaraq gediş-gəliş, təklif və s. kimi məlumatlara baxın</string>
     <string name="hq_opt_in_card_title">Materiallarınıza baxın, hamısı bir yerdə</string>
     <string name="hq_title">Google Assistent</string>
-    <string name="https_info_close">Bağlayın</string>
-    <string name="https_info_message">Podcast saytı ilə olan bağlantınız gizlidir.</string>
-    <string name="https_info_title">Güvənli bağlantı</string>
     <string name="hyper_local_suggestion_message">Axtarış kontentinizlə əlaqəlidir.</string>
     <string name="i18n_address_line1_accessibility_label">Küçənin ünvanı: xətt 1</string>
     <string name="i18n_address_line1_label">Küçə ünvanı</string>
@@ -2019,7 +2004,6 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="image_viewer_video_view_count_label">Baxışlar</string>
     <string name="image_viewer_video_watch_label">Baxın</string>
     <string name="image_viewer_view_all_related_images_accessibility">Bütün əlaqədar şəkillərə baxın</string>
-    <string name="image_viewer_view_saved">Yadda saxlananlara baxın</string>
     <string name="image_viewer_visit_site">Daxil olun</string>
     <string name="images_mode_landing_text">Şəkilləri axtarın</string>
     <string name="ime_audio_error">Mikrofonu açmaq mümkün deyil</string>
@@ -2105,8 +2089,6 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="item_removed">Element silindi</string>
     <string name="jasper_duo_knock_knock_summary">Qəbul etmədən öncə zəng edənin videosuna baxın. Zəng etdiyiniz şəxslərin telefon zəng etdikdə videonuzu görməsinə icazə verin. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Tak tak</string>
-    <string name="jasper_duo_not_signed_in">Daxil olmamısınız</string>
-    <string name="jasper_duo_signed_in">Daxil oldunuz</string>
     <string name="jasper_duo_unlink">Ayırın</string>
     <string name="jasper_unlink_duo_title">Duo hesabının bu cihazla əlaqəsini kəsin</string>
     <string name="jasper_unlink_duo_warning_dialog_summary">Artıq bu cihazda Duo zənglərinə başlaya və ya əldə edə bilməyəcəksiniz</string>
@@ -2160,22 +2142,23 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="leave_from">Kimdən</string>
     <string name="legal_documents">Hüquqi</string>
     <string name="lens_back_button_description">Geri</string>
-    <string name="lens_education_card_barcodes_heading">Barkodlar</string>
-    <string name="lens_education_card_barcodes_paragraph">Barkodları skan edin və məhsul detallarını tapın</string>
-    <string name="lens_education_card_media_heading">Kitab və Media</string>
-    <string name="lens_education_card_media_paragraph">Kitab, film, musiqi albomu və video oyunlarını örtüyə görə axtarın</string>
-    <string name="lens_education_card_places_heading">Məkanlar</string>
-    <string name="lens_education_card_places_paragraph">Orientir, maraqlı yerlər və gözəl binalar haqqında ətraflı məlumat əldə edin</string>
-    <string name="lens_education_card_products_heading">Məhsullar</string>
-    <string name="lens_education_card_products_paragraph">Mebel və geyim kimi məhsullar üçün oxşar elementlər tapın</string>
-    <string name="lens_education_card_text_heading">Mətn</string>
-    <string name="lens_education_card_text_paragraph">Telefon nömrəsi, tarix və ünvan kimi mətnləri kopyalayın</string>
+    <string name="lens_education_card_barcodes_heading">Skan Kodları</string>
+    <string name="lens_education_card_barcodes_paragraph">Barkod və QR kodlardan istifadə edin</string>
+    <string name="lens_education_card_media_heading">Kitab və Medianı kəşf edin</string>
+    <string name="lens_education_card_media_paragraph">Kitab, film, musiqi albomları və video oyunlardan istifadə edin</string>
+    <string name="lens_education_card_natural_world_heading">Bitki və Heyvanları müəyyən edin</string>
+    <string name="lens_education_card_natural_world_paragraph">Güllər və it cinslərindən istifadə edin</string>
+    <string name="lens_education_card_products_heading">Oxşar Məhsullarda axtarın</string>
+    <string name="lens_education_card_products_paragraph">Geyim və mebeli sınayın</string>
+    <string name="lens_education_card_text_heading">Mətni Kopyalayın</string>
+    <string name="lens_education_card_text_paragraph">Telefon nömrələri, tarix və ünvanlardan istifadə edin</string>
     <string name="lens_education_card_title">Lens nələr edə bilər?</string>
     <string name="lens_info_panel_header_preview_tag">önizləmə</string>
     <string name="lens_info_panel_live_camera_title">Obyekt və mətnlərə klikləyin</string>
     <string name="lens_info_panel_loading_message">Nəticələr axtarılır…</string>
     <string name="lens_info_panel_opening_lens">Linza açılır…</string>
     <string name="lens_overflow_menu_description">Ayarlar</string>
+    <string name="lens_overflow_menu_send_feedback">Rəy göndərin</string>
     <string name="lens_quit_button_description">Çıxın</string>
     <string name="lens_results_feedback_card_prompt">Linza ilə nə etmək istəyirsiniz?</string>
     <string name="lens_results_feedback_card_title">Linzanı təkmilləşdirməyimizə yardım edin</string>
@@ -2245,6 +2228,7 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="maps_mode_landing_text">Xəritələri axtarın</string>
     <string name="mark_as_played">Oxudulmuş olaraq işarələyin</string>
     <string name="mark_as_unplayed">Oxudulmamış olaraq işarələyin</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_content_image">Bu kartda göstərilən media kontent bağlı bir şəkil</string>
     <string name="media_item_type_your_podcasts">Podkastlar</string>
     <string name="media_route_chooser_dialog_title">Yayımlayın:</string>
@@ -2280,26 +2264,6 @@ Bu cihazda təqvim, kontakt, xatırlatma və daha çoxuna daxil olmaq üçün ş
     <string name="migration_cling_description">Köhnə Əsas ekranınızda olan ikonalar və qovluqlar import edilsin?</string>
     <string name="migration_cling_title">Tətbiq ikonalarınızı kopyalayın</string>
     <string name="migration_cling_use_default">YENİDƏN BAŞLA</string>
-    <string name="mini_card_aiport_code_1">JFK</string>
-    <string name="mini_card_aiport_code_2">SFO</string>
-    <string name="mini_card_flight_delayed">Z206 uçuşu gecikir</string>
-    <string name="mini_card_ok_google">“Ok, Google”</string>
-    <string name="mini_card_parking_location">Parkinq yeri</string>
-    <string name="mini_card_sample_score">2</string>
-    <string name="mini_card_set_a_reminder">Xatırlayıcı ayarlayın</string>
-    <string name="mini_card_set_reminder">Xatırladıcı qur</string>
-    <string name="mini_card_sports_league">Premier Liqa</string>
-    <string name="mini_card_sports_team_1">Chelsea F.K.</string>
-    <string name="mini_card_sports_team_2">Arsenal F.K.</string>
-    <string name="mini_card_sunny">Günəşli</string>
-    <string name="mini_card_temp">72°</string>
-    <string name="mini_card_time_to_home">Evə 20 dəqiqə</string>
-    <string name="mini_card_time_to_work">İşə 40 dəqiqə</string>
-    <string name="mini_card_train_station">Bakı qatar stansiyası</string>
-    <string name="mini_card_weather_city">San-Fransisko</string>
-    <string name="mini_card_whats_the_reminder">Xatırlayıcı nədir?</string>
-    <string name="mini_card_when">Nə vaxt</string>
-    <string name="mini_card_where">Harada</string>
     <string name="minimum_balance">Minimum balans</string>
     <string name="minus_one_header_customize">Lenti fərdiləşdirin</string>
     <string name="minus_one_header_feedback">Geri əlaqə göndərin</string>
@@ -2374,11 +2338,13 @@ Fəaliyyətim bölməsində bütün Google axtarışlarını araşdırın və n�
     <string name="navigate_to_pickup_location">Pikap məkanına gedin</string>
     <string name="navigation_action">%1$s ünvanına gedin</string>
     <string name="navigation_assistant_label">Assistent</string>
-    <string name="navigation_collections_label">Kolleksiyalar</string>
+    <string name="navigation_collections_label">Yadda saxlanmış</string>
     <string name="navigation_drawer_label">Daha çox</string>
     <string name="navigation_home_label">Ev</string>
     <string name="navigation_recently_label">Son</string>
     <string name="navigation_search_label">Axtarış</string>
+    <string name="navigation_top_apps_label">Ən çox istifadə edilən Tətbiqlər</string>
+    <string name="navigation_updates_label">Güncəlləmələr</string>
     <string name="nearby_attractions">Yaxınlıqdakı atraksionlar</string>
     <string name="nearby_events_title">Yaxınlıqdakı tədbirlər</string>
     <string name="network_error">"Hazırda Google'a çatmaq olmur."</string>
@@ -2488,7 +2454,6 @@ Davam etmək istəyirsiniz?"</string>
     <string name="notes_lists_provider_changed_title">%1$s provayderinin bağlantısını silin</string>
     <string name="notes_lists_title">Assistent qeyd və siyahılarınızı bu xidmətlərə sinxronizasiya etməyə davam edəcək.</string>
     <string name="notification_access_link_text">Bildiriş girişini deaktiv edin</string>
-    <string name="notification_accessable_apps_category_title">Bildiriş girişi</string>
     <string name="notification_cancel_text">Google yenidən onlayn olduğunuzda bu axtarışı təkrarlamayacaq.</string>
     <string name="notification_cancel_title">Axtarış ləğv edildi</string>
     <string name="notification_dismiss">Bağlayın</string>
@@ -2504,7 +2469,6 @@ Davam etmək istəyirsiniz?"</string>
     <string name="now_gplus_location_sharing_error">Google+ ilə bağlantı yaradılan zaman problem oldu</string>
     <string name="now_header_doodle_search_button_content_description">"Bugünün doodle'u haqqında daha ətraflı məlumat"</string>
     <string name="now_header_doodle_share_button_content_description">Doodle paylaşın</string>
-    <string name="now_loading">Yüklənir…</string>
     <string name="now_on_tap_share_with">Paylaşın</string>
     <string name="now_opt_in_card_description">İdman, musiqi, film və s. haqqında yeniliklər əldə etmək üçün aşağıdakı lenti aktiv edin</string>
     <string name="now_opt_in_card_title">Sevimli mövzularınızdan xəbərdar olun</string>
@@ -2536,9 +2500,7 @@ Davam etmək istəyirsiniz?"</string>
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_on">Əlçatan şəbəkə yoxdur. Wi-Fi şəbəkəsinə qoşulun.</string>
     <string name="offline_error_card_explanation_text_suffix_opted_into_background_retry">Nəticələr hazır olduqda Sizə xəbər veriləcək.</string>
     <string name="offline_error_card_open_settings_button_text">Təyyarə rejimini söndürün</string>
-    <string name="offline_error_card_title_text">Oflayn</string>
     <string name="offline_error_card_title_text_airplane_mode">Təyyarə modu aktivdir</string>
-    <string name="offline_error_card_title_text_airplane_mode_wifi_error">Wi-Fi işləmir</string>
     <string name="offline_error_card_title_text_data_roaming_off">Data rominq deaktivdir</string>
     <string name="offline_error_card_title_text_general_offline_mode">Oflaynsınız</string>
     <string name="offline_error_card_title_text_mobile_data_off">Mobil data deaktivdir</string>
@@ -2549,33 +2511,17 @@ Davam etmək istəyirsiniz?"</string>
     <string name="offline_error_card_title_text_no_sim_card">SIM kart tapılmadı</string>
     <string name="offline_error_card_title_text_sim_card_error">SIM kart xətası</string>
     <string name="offline_error_title">Oflaynsınız</string>
-    <string name="offline_eyesfree_install_language_pack_notification_body">Dil paketinizi güncəlləyin.</string>
-    <string name="offline_eyesfree_install_language_pack_notification_title">Oflayn səsi aktiv edin</string>
-    <string name="offline_eyesfree_install_language_pack_notification_tts">Oflaynsınız. Oflayn olduqda səsinizi istifadə edə bilmək üçün dil paketinin ən son versiyasını yükləməlisiniz. Ekranınızın istifadəsi güvənli olduqda, bunu etmək üçün bildirişə tıklayın.</string>
     <string name="offline_eyesfree_install_language_pack_tts">Oflaynsınız. Oflayn olarkən səsdən istifadə etmək üçün növbəti dəfə şəbəkə bağlantısı olduqda quraşdırılacaq ən son dil paketi lazımdır.</string>
-    <string name="offline_eyesfree_lp_need_update_fallback_tts">Oflaynsınız. Oflayn olduqda səsinizi istifadə edə bilmək və yeni funksiyalar əldə edə bilmək üçün dil paketinin ən son versiyasını yükləməlisiniz. Ekranınızın istifadəsi güvənli olduqda, bunu etmək üçün bildirişə tıklayın.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">Əslində, oflaynsınız. Google hazırda əlçatımlı deyil lakin, bir çox məsələdə hələ də köməklik edə bilərəm. Məsələn, \"zəng edin\" və ya \"nə deyə bilərəm?\" deməyə çalışın</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">Əslində, oflaynsınız. Google hazırda əlçatımlı deyil lakin, bir çox məsələdə hələ də köməklik edə bilərəm. Məsələn, %1$s və ya \"nə deyə bilərəm?\" deməyə çalışın</string>
-    <string name="offline_header_text">Oflayn səs ipucuları</string>
     <string name="offline_help_article_title">Bağlantınızı yoxlayın</string>
     <string name="offline_no_language_pack_card_install_button_text">Quraşdırın</string>
     <string name="offline_no_language_pack_card_instruction_text_queued">Oflaynsınız. Baölantı yaranan kimi lazımi dil paketi quraşdırılacaq.</string>
     <string name="offline_no_language_pack_card_instruction_text_to_install">Oflaynsınız. Növbəti dəfə oflayn olarkən səsdən istifadə etmək üçün, ən yeni dil paketini quraşdırın.</string>
-    <string name="offline_no_language_pack_card_instruction_text_to_install_new">Oflaynsınız. Növbəti dəfə oflayn olarkən səsdən istifadə etmək üçün, ən yeni dil paketini quraşdırın.</string>
-    <string name="offline_on_start_cue_cards_header_listening">Oflayn</string>
-    <string name="offline_on_start_cue_cards_header_timeout">Oflayn səs ipucuları</string>
-    <string name="offline_on_start_cue_cards_second_header_listening">Hələ də deyə bilərsiniz...</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout">Hələ də \"Ok Google\" dedikdən sonra...</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout_without_hotword">Hələ də mikrofona basdıqdan sonra bunu deyə bilərsiniz</string>
-    <string name="offline_options_start_hotword_disabled">Hələ də mikrofona basdıqdan sonra bunu deyə bilərsiniz</string>
-    <string name="offline_searchbox_hint">“%%s... %s”</string>
     <string name="offline_voice_actions_error">Oflayn səs əməliyyatları uyğun deyil.</string>
     <string name="ok">OK</string>
     <string name="ok_prompt">OK</string>
-    <string name="omniconsent_action_button_scroll">Növbəti</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">Davam edin</string>
-    <string name="omniconsent_confirm_partial_experience_description">Hesabınıza daxil olmadan limitli funksiyalar qrupundan istifadə edə bilərsiniz</string>
-    <string name="omniconsent_confirm_partial_experience_title">Google Assistentdən istifadə edin</string>
     <string name="omniconsent_confirm_reject_dialog_button_negative">Ləğv edin</string>
     <string name="omniconsent_confirm_reject_dialog_button_positive">Bəli, Əminəm</string>
     <string name="omniconsent_confirm_reject_dialog_message">Google Assistent düzgün işləmək üçün icazə tələb edir. İcazələr olmadan Assistentdən istifadə edə bilməzsiniz.</string>
@@ -2620,13 +2566,11 @@ Davam etmək istəyirsiniz?"</string>
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">Köməkçinizin fəaliyyət nəzarətini yoxlamaqla bağlı problemi var. Daha sonra yenidən istifadə etməyə çalışın.</string>
     <string name="opa_consent_check_error_message_autherror">Hesabınızın tam olaraq konfiqurasiya edildiyindən əmin olun və yenidən cəhd edin.</string>
-    <string name="opa_consent_check_error_message_confirmreject">Bu icazələr ilə Assistent təqvim, xatırlatma, gediş-gəliş, uçuş, sifariş və daha çoxunda Sizə kömək edə bilər.</string>
     <string name="opa_consent_check_error_message_notavailable">Cihaz administratorunuzun bu hesabda məhdudlaşdırdığı Fəaliyyət nəzarəti Google Köməkçisinə lazımdır. Administratorunuz ilə dəqiqləşdirin və ya hesablar arasında keçid edin və yenidən cəhd edin.</string>
     <string name="opa_consent_check_error_title">Nə isə səhv getdi</string>
     <string name="opa_consent_check_error_title_autherror">Hesabınızı doğrulaya bilmir</string>
     <string name="opa_consent_check_error_title_confirmreject">Bu ayarlarla tam Assistent təcrübəsi əldə edin</string>
     <string name="opa_consent_check_error_title_notavailable">Google Köməkçisi bu hesab üçün əlçatan deyil</string>
-    <string name="opa_consent_error_timeout_message">Şəbəkə xətası oldu. Bağlantınızı yoxlayın və yenidən cəhd edin.</string>
     <string name="opa_contextual_cards_found_message">Bu ekran ilə əlaqədar bəzi məlumatlar var:</string>
     <string name="opa_contextual_cards_found_proactive_message">Bununla yanaşı, ekrana uyğun tapdığım budur:</string>
     <string name="opa_contextual_cards_network_error">Hazırda Google-a daxil olmaq olmur.</string>
@@ -2638,14 +2582,10 @@ Davam etmək istəyirsiniz?"</string>
 
 Assistent tarixçəsindən silmək köçürmələrə və ya geri qaytarma əməliyyatlarına təsir etməyəck."</string>
     <string name="opa_delete_confirmation_title">Silmədən öncə</string>
-    <string name="opa_disabled_error_no_button">XEYR</string>
-    <string name="opa_disabled_error_summary">Google Köməkçisi deaktiv edilib. Aktiv etmək istəyərdiniz?</string>
-    <string name="opa_disabled_error_yes_button">BƏLİ</string>
     <string name="opa_disabled_no_button">Ləğv edin</string>
     <string name="opa_disabled_title">Assistenti aktiv edin</string>
     <string name="opa_dismiss_message">Rədd etmək üçün çəkin</string>
     <string name="opa_email_optin_screen_add_shortcut_explanation">Assistentə asan giriş</string>
-    <string name="opa_email_optin_screen_confirm">Hazırdır</string>
     <string name="opa_email_optin_screen_explanation">Ən son funksiyalar və Asistentin yeni bacarıqları barədə e-məktublar almağa davam edin</string>
     <string name="opa_email_optin_screen_next">Növbəti</string>
     <string name="opa_email_optin_screen_sub_toggle_explanation">Assistenti əsas səhifə ekranına əlavə edin</string>
@@ -2664,8 +2604,6 @@ Assistent tarixçəsindən silmək köçürmələrə və ya geri qaytarma əməl
     <string name="opa_error_network_button">Şəbəkə Ayarları</string>
     <string name="opa_error_network_message">Google Köməkçisini istifadə etmək üçün İnternet bağlantısı olmalıdır. Bağlantını yoxlayın və yenidən cəhd edin.</string>
     <string name="opa_error_network_title">Deyəsən oflaynsınız</string>
-    <string name="opa_error_udc_spinner_content">Bir-iki dəqiqə çəkə bilər</string>
-    <string name="opa_error_udc_spinner_title">Konfiqurasiya edilir...</string>
     <string name="opa_error_unsupported_device_button">BAĞLAYIN</string>
     <string name="opa_error_unsupported_device_message">Cihazınızda Google Assistent istifadəsini tələb edən bəzi elementlər var.</string>
     <string name="opa_error_unsupported_device_message_learn_more_link">https://support.google.com/assistant/answer/7172657</string>
@@ -2678,25 +2616,16 @@ Assistent tarixçəsindən silmək köçürmələrə və ya geri qaytarma əməl
     <string name="opa_error_update_required_title">Assitentin bir neçə yeni bacarığa ehtiyacı var</string>
     <string name="opa_error_update_started_message">Bu çox vaxt aparmamalıdır. Assistent problemlərinizi gün ərzində həll etmək üçün tezliklə hazır olacaq.</string>
     <string name="opa_error_update_started_title">Assistent yenilənir</string>
-    <string name="opa_error_view_content_description">Google Köməkçisi xəta səhifəsi.</string>
     <string name="opa_eyes_free_opt_in_notification_body">Telefon kilidli olduqda, qulaqlıq vasitəsilə Google Köməkçisi ilə danışmaq üçün səsinizdən istifadə edə bilərsiniz</string>
     <string name="opa_eyes_free_opt_in_notification_title">Google köməkçisini qulaqlıq ilə istifadə edin</string>
     <string name="opa_eyes_free_opt_in_speech">Güvənli olan zaman bildirişə tıklamalısınız. Sonra qulaqcıqlara Google Köməkçisi ilə işləməyə imkan verə bilərsiniz.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Davam etmək üçün tıklayın</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Sizə kömək etməsi üçün Google Köməkçisinə icazə verin</string>
-    <string name="opa_first_screen_hotword_transition_cancel_button_text">Bunu daha sonra edin</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Razıyam</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text">BAŞLAYIN</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">Başlayın</string>
     <string name="opa_first_screen_hotword_transition_no_thanks_button_text">Xeyr, təşəkkürlər</string>
-    <string name="opa_first_screen_hotword_transition_skip_button_text">Keçin</string>
-    <string name="opa_first_screen_hotword_transition_summary">Hətda ekranınız sönülü olduqda və ya sevimli tətbiqlərinizi istifadə etdikdə belə, istədiyiniz zaman köməkçi ilə danışmaq üçün \"%1$s\" deyin.</string>
-    <string name="opa_first_screen_hotword_transition_summary_no_dsp">Ekran aktiv olduğu müddətcə Asistent ilə istənilən zaman danışmaq üçün \"%1$s\" deyin.</string>
     <string name="opa_first_screen_hotword_transition_summary_short">Voice Match imkan verir ki, hətta ekran sönülü olanda da Assistent səsiniz əsasında sizə özəl xidmətlər təqdim etsin.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Voice Match imkan verir ki, səsinizlə Assistent xidmətindən faydalanasınız.</string>
     <string name="opa_first_screen_hotword_transition_title">Assistentə Voice Match ilə daxil olun</string>
-    <string name="opa_first_screen_tgoogle_summary">\"%1$s\" söyləyərək birbaşa Assistentə daxil ola biləcəksiniz</string>
-    <string name="opa_first_screen_tgoogle_title">Assistentə \"%1$s\" sözünü tanımağı öyrədin</string>
     <string name="opa_fix_user_recoverable_error">HƏLL EDİN</string>
     <string name="opa_gdpr_footer">"Assistentin bu cihazda səsinizin unikal modelini yaradaraq Sizi digərlərindən fərqləndirməsinə kömək edən səs modeli yaradılacaq. 
 
@@ -2720,7 +2649,6 @@ Assistent tarixçəsindən silmək köçürmələrə və ya geri qaytarma əməl
     <string name="opa_greeting_bubble_text_with_name">Salam %1$s, necə kömək edə bilərəm?</string>
     <string name="opa_hardware_button_training_continue">Davam edin</string>
     <string name="opa_hardware_button_training_desc_fallback">Assistent düyməsinə klikləyərək onu istənilən zaman başladın</string>
-    <string name="opa_hardware_button_training_switch_title">Google Assistenti əsas səhifə ekranına əlavə edin</string>
     <string name="opa_hardware_button_training_title">Assistent bir kliklə əlçatandır</string>
     <string name="opa_history_delete_menu">Qrupu silin</string>
     <string name="opa_history_edit_menu">Sorğunu redaktə edin</string>
@@ -2745,15 +2673,12 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="opa_lock_icon_description">İkonanı kiliddən çıxarın</string>
     <string name="opa_logo_content_desc">Google Köməkçi loqosu</string>
     <string name="opa_mark_content">Assistent</string>
-    <string name="opa_marketplace_disclosure_description">Google Assistent daha çox işlərin həllində Sizə yardım etmək üçün müxtəlif xidmətlər ilə işləyə bilər.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Google Assistent film biletləri almaq, su çanağını təmir etmək kimi işlərdə Sizə yardım etmək üçün Google partnyorları ilə birlikdə işləyə bilər. &lt;a href=https://support.google.com/assistant/?p=google_partners>Ətraflı məlumat&lt;/a></string>
-    <string name="opa_marketplace_disclosure_google_partners_description">Google partnyorlar Google ilə kommersiya münasibətləri olan bizneslərdir. Google Assistent istər kinoya bilet almaq, istərsə də evdə çanağı təmir etmək kimi işlərinizin həllinə kömək etmək üçün həmin partnyorlar ilə işləyə bilər. <a href="https://support.google.com/assistant/?p=google_partners">Ətraflı məlumat</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Google partnyorlar Google ilə kommersiya münasibətləri olan bizneslərdir.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google Partnyorlar</string>
     <string name="opa_marketplace_disclosure_service_additional_text">Bu yolla xidmətlər söhbət zamanı seçimləriniz kimi məlumatları xatırlaya bilər. Bu tətbiqin Kəşf Edin bölməsində olan hər bir xidmət səhifəsində xidmətlərə göndərilən dataya baxa, onları idarə edə və sıfırlaya bilərsiniz. &lt;a href=https://support.google.com/assistant/?p=reset_id>Ətraflı məlumat&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Google danışdığınız xidmətlərə xüsusi kod göndərir.</string>
     <string name="opa_marketplace_disclosure_service_title">Xidmətlər və məxfilik</string>
-    <string name="opa_marketplace_disclosure_title">Assistentdən daha çox faydalanın</string>
     <string name="opa_menu_content_description">Google Köməkçisinin menyusu.</string>
     <string name="opa_menu_what_can_you_do">Nə edə bilərsiniz?</string>
     <string name="opa_music_search_suggestion_chip_title">Bu hansı mahnıdır?</string>
@@ -2776,16 +2701,10 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="opa_offline_airplane_mode_indicator">Telefonunuz təyyarə rejimində olduğu üçün hazırda bu problem ilə bağlı kömək edə bilmirəm.</string>
     <string name="opa_offline_help_prefix">Telefonunuz oflayn olduğu zaman edə biləcəyiniz bəzi şeylər var.</string>
     <string name="opa_offline_help_prefix_tts">Telefonunuz oflayn olduğu zaman edə biləcəyiniz bəzi şeylər var.</string>
-    <string name="opa_offline_install_language_pack_button">%1$s dil paketini quraşdırın</string>
     <string name="opa_offline_install_language_pack_button_clicked">Yenidən onlayn olduğunuz zaman avtomatik endiriləcək.</string>
-    <string name="opa_offline_install_language_pack_button_clicked_tts">Yenidən onlayn olduğunuz zaman avtomatik endiriləcək.</string>
-    <string name="opa_offline_install_language_pack_explanation">Səsinizi istifadəyə davam etmək üçün %1$s dil peketini quraşdırmalısınız.</string>
-    <string name="opa_offline_install_language_pack_explanation_tts">Səsinizi istifadəyə davam etmək üçün %1$s dil peketini quraşdırmalısınız.</string>
     <string name="opa_offline_poor_connectivity_indicator">Telefonunuz oflayn olduğu üçün hazırda bu problem ilə bağlı kömək edə bilmirəm.</string>
     <string name="opa_offline_poor_connectivity_indicator_tts">Telefonunuz oflayn olduğu üçün hazırda bu problem ilə bağlı kömək edə bilmirəm.</string>
     <string name="opa_offline_voice_tips_prefix">Yeri gəlmişkən, bağlantı olmadığı zaman edə biləcəyiniz bəzi şeylər var...</string>
-    <string name="opa_offline_voice_tips_prefix_tts">Yeri gəlmişkən, bağlantı olmadığı zaman edə biləcəyiniz bəzi şeylər var...</string>
-    <string name="opa_onboarding_view_content_description">Google Assistent onbordinq səhifəsi.</string>
     <string name="opa_persistent_finish_setup_bar_button">BAŞLAYIN</string>
     <string name="opa_persistent_finish_setup_bar_description">Daha çox Assistent funksiyalarını kiliddən çıxarın</string>
     <string name="opa_pre_upgrade_notifs_disable_text">Deaktiv edin</string>
@@ -2799,10 +2718,6 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="opa_screenless_nav_opt_in_notification_body">Naviqasiya zamanı, Google Köməkçisi ilə danışmaq üçün səsinizi istifadə edə bilərsiniz</string>
     <string name="opa_screenless_nav_opt_in_notification_title">Naviqasiya zamanı Google Köməkçisini istifadə edin</string>
     <string name="opa_screenless_nav_opt_in_speech">Təhlükəsiz şəraitdə olduqda, ilk olaraq bildirişə tıklamalısınız. Daha sonra naviqasiya zamanı Google Köməkçisini istifadə edə bilərsiniz.</string>
-    <string name="opa_screenshot_captured">Çəkilmiş skrinşot</string>
-    <string name="opa_search_hint">Nəsə yazın</string>
-    <string name="opa_search_plate_keyboard_icon_description">Klaviatura rejiminə keçin</string>
-    <string name="opa_search_plate_mic_logo_description">Səsli axtarış düyməsi</string>
     <string name="opa_send_button_content_description">Göndərin</string>
     <string name="opa_share_screenshot_setting_disabled">Skrinşotu paylaşmaq üçün yenidən cəhd etməyiniz xahiş olunur.</string>
     <string name="opa_slow_connection">Bağlantınız zəifdir</string>
@@ -2828,17 +2743,11 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="opa_voice_search_tap_mic_to_speak">Danışmaq üçün mikrofona klikləyin</string>
     <string name="opa_warm_welcome_greeting_0">Salam! Mən sizin Google Köməkçinizəm.</string>
     <string name="opa_warm_welcome_greeting_1">Ehtiyacınız olanları tapmaqda və etməkdə kömək edə bilərəm. Kömək lazımdırsa, sadəcə \"Nə edə bilərsən?\" soruşun</string>
-    <string name="opa_warm_welcome_greeting_1_backup_0">Axtardığınızı tapmaq, məsələləri həll etmək və hətda biraz əylənmək mövzusunda köməklik edə bilərəm.</string>
-    <string name="opa_warm_welcome_greeting_1_backup_1">Axtardığınızı tapmaq, məsələləri həll etmək və hətda biraz əylənmək mövzusunda köməklik edə bilərəm. Kömək lazımdırsa, sadəcə \"Nə edə bilərsiniz?\" soruşun.</string>
     <string name="opa_warm_welcome_greeting_2">Beləliklə, necə kömək edə bilərəm?</string>
     <string name="opa_warm_welcome_suggestion_0">Nə edə bilərsiniz?</string>
     <string name="opa_warm_welcome_suggestion_1">Ən yaxın kofe dükanı</string>
     <string name="opa_warm_welcome_suggestion_2">Ay hansı uzaqlıqdadır?</string>
-    <string name="opa_warm_welcome_suggestion_3">Hesablayıcını açın</string>
     <string name="opa_warm_welcome_suggestion_4">Fleş işığı yandırın</string>
-    <string name="opa_welcome_promo_notification_content">Sınamaq üşün Əsas düyməyə basıb saxlayın</string>
-    <string name="opa_welcome_promo_notification_title">Yenilik! Elə indicə Google Assistent əldə etdiniz</string>
-    <string name="opa_welcome_promo_sample_query">Nə edə bilərsiniz?</string>
     <string name="opa_what_can_you_do_suggestion_chip_title">Nə edə bilərsiniz?</string>
     <string name="opa_wuwa_notification_action_stop">DAYANDIRIN</string>
     <string name="opa_wuwa_notification_content">%1$s üçün zəng var</string>
@@ -2849,20 +2758,9 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="open_in_keep">GOOGLE KEEP XİDMƏTİNDƏ AÇIN</string>
     <string name="open_settings">Ayarlar</string>
     <string name="open_settings_button_text">Ayarları Açın</string>
-    <string name="open_until">%1$s vaxtına qədər açıqdır</string>
     <string name="opt_in_clockwork_punt_action_description">Telefonda açmaq üçün toxunun.</string>
-    <string name="opt_in_description_page_1">Google gün ərzində rahat səmtləşmənizə yardım etmək üçün həmişə Sizdən bir addım qabaqdadır</string>
-    <string name="opt_in_description_page_2">Sizi maraqlandıran şeylər haqqında Sizi xəbərdar edir</string>
-    <string name="opt_in_description_page_3">İstənilən ekrandan “Ok Google” deməyinizə və işləri qaydaya salmağa imkan verir</string>
-    <string name="opt_in_description_page_3_no_hotword">Bu, işləri həyata keçirmək üçün səsinizdən istifadə etmək imkanı verir</string>
     <string name="opt_in_more">Başlayın</string>
     <string name="opt_in_more_marketing">AKTİV EDİN</string>
-    <string name="opt_in_no_account_decline">Yox, çox sağ olun</string>
-    <string name="opt_in_no_account_learn_more">&lt;a href=%1$s>Ətraflı məlumat&lt;/a></string>
-    <string name="opt_in_no_account_sign_in">Daxil olun</string>
-    <string name="opt_in_no_account_subtitle">Sizi maraqlandıran mövzulara dair fərdiləşdirilmiş axtarış nəticələri və yeniliklər əldə edin</string>
-    <string name="opt_in_no_account_title">Başlamaq üçün daxil olun</string>
-    <string name="opt_in_set_up">Başla</string>
     <string name="opt_in_setting_ineligible_message_device_state_and_content">Bu fəaliyyət Cihaz Məlumat ayarı tələb edir, o isə bu cihazda əlçatan deyil</string>
     <string name="opt_in_setting_ineligible_tts">Təəssüf ki, bu cihazda əlçatan deyil.</string>
     <string name="opt_in_setting_required_continue_button">DAVAM ET</string>
@@ -2878,8 +2776,6 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="opt_in_setting_required_message_device_state_and_content_tts_gearhead">"Əlbəttə, amma təhlükəsiz olduqda, Android Avto tətbiqindən cıxaraq bildirişə tıklamalısınız. Sonra Google'a cihazınızdakı kontaktlara daxil olmağa imkan verə bilərsiniz."</string>
     <string name="opt_in_setting_required_web_history_notification_body">Zəng etmək, mesaj göndərmək və sair işlər üçün səsinizi işlədin</string>
     <string name="opt_in_setting_required_web_history_notification_title">Veb və Tətbiq fəaliyyətini aktivləşdirin</string>
-    <string name="opt_in_skip">Atlayın</string>
-    <string name="opt_in_skip_tutorial">Ötürün</string>
     <string name="opt_out_failed_authentication_error">İcazə probleminə görə kartı deaktiv etmək alınmadı. Hesab ayarlarınızı yoxlayn və yenidən cəhd edin.</string>
     <string name="opt_out_failed_network_error">Şəbəkə xətası nəticəsində kartlar söndürülə bilmədi. Şəbəkə bağlantınızı yoxlayın və yenidən cəhd edin.</string>
     <string name="optin_generic_error">Xəta baş verdi. Yenidən cəhd edin.</string>
@@ -2896,7 +2792,7 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="other_reason_not_fill_in_content_description">Rəy göndərmədən öncə bu elementi bildirmək səbəbinizi qeyd edin. Daha sonra Göndərin seçiminə klikləyin.</string>
     <string name="out_for_delivery">Çatdırılma üçün göndərilib</string>
     <string name="out_of_space">Bu Əsas ekranda boş yer yoxdur.</string>
-    <string name="overflow_menu_desc">Daha çox Seçim</string>
+    <string name="overflow_menu_desc">Daha çox seçim</string>
     <string name="overtime">Uzatma dəqiqələri</string>
     <string name="package_location">Yer</string>
     <string name="package_pickup_location">Götürülmə yeri</string>
@@ -2927,7 +2823,6 @@ Hesab tarixçəsinə buradan baxa və idarə edə bilərsiniz"</string>
     <string name="payments_auth_password_try_again_message_attempt_2">Parol yanlışdır. Yenidən cəhd edin.</string>
     <string name="payments_auth_password_try_again_message_attempt_last">Parol yanlışdır. Təhlükəsizliyiniz üçün bu ödəniş ləğv ediləcək.</string>
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Bir neçə dəfə cəhd edildi. Əvəzinə parol daxil edin.</string>
-    <string name="payments_auth_unknown_fingerprint_error">Barmaq izindən istifadə edərkən xəta baş verdi, davam etmək üçün Google parolunuzu daxil edin.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Gələcək doğrulamalar üçün barmaq izindən istifadə edin</string>
     <string name="penalties">Cərimələr</string>
     <string name="permdesc_install_shortcut">Tətbiqə istifadəçi müdaxiləsi olmadan qısayolları əlavə etməyə icazə verir.</string>
@@ -3041,10 +2936,10 @@ Yadda saxlayın ki, bu cihazdan istifadə edən hər kəs şəxsi nəticələrin
     <string name="playback_panel_error">Oynatmaq olmur</string>
     <string name="playback_status_buffering">Buferizasiya edilir...</string>
     <string name="please_select">Lütfən, seçin</string>
+    <string name="podcast_retry_download">Təkrar cəhd edin</string>
     <string name="podcasts">Podkastlar</string>
     <string name="pomo_tab_description">Əlavələr Tabı</string>
     <string name="popup_new_content">Yeniləmək üçün klikləyin</string>
-    <string name="predictive_cards">Lentiniz</string>
     <string name="prefDialogTitle_language">Dil</string>
     <string name="prefDialogTitle_multiLanguage">Dillər</string>
     <string name="prefDialogTitle_ttsMode">Nitqin yekunu</string>
@@ -3079,8 +2974,6 @@ Yadda saxlayın ki, bu cihazdan istifadə edən hər kəs şəxsi nəticələrin
     <string name="pref_multilang_override_message">"Əsas dilinizi %1$s dilindən %2$s dilinə dəyişməklə daha yaxşı nəticələr əldə edə bilərsiniz.
 
 Bu dəyişikliyi etsəniz, bunları əldə edəcəksiniz:"</string>
-    <string name="pref_regular_title_prefix_multiple_language">%1$s – %2$d əlavə olaraq</string>
-    <string name="pref_regular_title_prefix_no_additional_language">%s – əlavəsiz</string>
     <string name="preinstalled">Əvvəlcədən quraşdırılmış</string>
     <string name="preinstalled_details">Əvvəlcədən yüklənmiş versiya: %1$s, diskdəki ölçü: %2$s</string>
     <string name="previous_balance">Öncəki balans</string>
@@ -3088,6 +2981,7 @@ Bu dəyişikliyi etsəniz, bunları əldə edəcəksiniz:"</string>
     <string name="price_range_separator">·</string>
     <string name="priority_notifications_description">Bildirişləriniz yüksək prioritetli olsa, telefonunuz prioritet bildiriş ayarlarınıza əsasən Sizi xəbərdar edəcək</string>
     <string name="priority_notifications_preferences_category">Prioritet bildirişlər</string>
+    <string name="privacy">Privacy</string>
     <string name="problem_occurred_while_loading_cards">Kartları yükləyərkən problem yarandı</string>
     <string name="profile_icon_a11y">Assistent ayarlarını açın</string>
     <string name="qp_bottom_baseball_inning">Bot %1$d</string>
@@ -3313,7 +3207,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s üçün axtarış nəticələr
     <string name="reset_to_default_style_alert_title_text">Defolt üsluba sıfırlansın?</string>
     <string name="resetting_now">Lent sıfırlanır</string>
     <string name="results_from_ago">%1$s əvvəldən olan nəticələr</string>
-    <string name="retry">Təkrar cəhd edin</string>
     <string name="retry_button_text">Təkrar cəhd edin</string>
     <string name="retry_failed_download">Endirməyə yenidən cəhd edin</string>
     <string name="returned">Qaytarılıb</string>
@@ -3370,8 +3263,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s üçün axtarış nəticələr
     <string name="screen_assist_enable_screenshot_prompt">Bu funksiyanı axtarış ekranında aktiv etmək üçün, \"skrinşot\" ayarını yandırın</string>
     <string name="screen_assist_network_not_ready">Bir neçə dəqiqədən sonra yenidən cəhd edin</string>
     <string name="screen_assist_network_unavailable_title">Şəbəkə hazırda əlçatan deyil</string>
-    <string name="screen_assist_nothing_on_tap">Ekranınızda heçnə tapılmadı</string>
-    <string name="screen_assist_now_stream_text">Aşağıdakı tablo kartlarına baxın</string>
     <string name="screen_assist_save_screenshot">Yadda saxlayın</string>
     <string name="screen_assist_saving_screenshot">Qalereyada yadda saxlanılır</string>
     <string name="screen_assist_screenshot_saved">Skrinşot yadda saxlandı</string>
@@ -3477,8 +3368,6 @@ Podkast üçün yenidən axtarış edin."</string>
     <string name="selected_interest">Maraqlar əlavə olundu?</string>
     <string name="selection_hint">Ekrandakı hər hansl mətni seçin</string>
     <string name="selection_load_error_prompt">Bu ekranı incələyərkən problem oldu</string>
-    <string name="selection_mode_promo">Mətni seçmək üçün bura tıklayın</string>
-    <string name="selection_prompt">Hər hansı mətni seçmək üçün tıklayın</string>
     <string name="selection_retry_ocr">Yenidən cəhd edin</string>
     <string name="send_feedback">Proqramla bağlı rəy göndərin</string>
     <string name="send_to_device_negative_button">Ləğv edin</string>
@@ -3518,13 +3407,13 @@ Podkast üçün yenidən axtarış edin."</string>
     <string name="sharebear_chooser_pane_edit">Düzəliş edin</string>
     <string name="sharebear_chooser_pane_edit_content_description">Şəklə düzəliş edin</string>
     <string name="sharebear_chooser_pane_image_content_description">Şəkil eskizi</string>
+    <string name="sharebear_chooser_pane_image_search">Şəkil Axtarışı</string>
     <string name="sharebear_chooser_pane_share">Paylaşın</string>
     <string name="sharebear_chooser_pane_subtitle">Skrinşota düzəliş edin və paylaşın</string>
     <string name="sharebear_chooser_pane_subtitle_with_collections">Skrinşotu Kolleksiyaya əlavə edin, Paylaşın və ya Redaktə edin</string>
     <string name="sharebear_chooser_pane_title">Çəkilmiş skrinşot</string>
     <string name="sharebear_color_black">Qara rəng</string>
     <string name="sharebear_color_blue">Mavi rəng</string>
-    <string name="sharebear_color_current">Cari rəng</string>
     <string name="sharebear_color_green">Yaşıl rəng</string>
     <string name="sharebear_color_purple">Bənövşəyi rəng</string>
     <string name="sharebear_color_red">Qırmızı rəng</string>
@@ -3537,7 +3426,6 @@ Podkast üçün yenidən axtarış edin."</string>
     <string name="sharebear_link">%s linkindən skrinşot</string>
     <string name="sharebear_screenshot_not_found">Skrinşot tapılmadı</string>
     <string name="sharebear_screenshotter_activity_label">Skrinşotu paylaşın</string>
-    <string name="sharebear_share_saved_screenshot_chooser_title">Skrinşotu redaktə edin və paylaşın</string>
     <string name="sharebear_share_subject">"Google'dan paylaşılmış skrinşot"</string>
     <string name="sharebear_storage_permission_denied_toast">Şəkilə edilən dəyişikliklər yadda saxlanılmayacaq.</string>
     <string name="sharebear_storage_permission_request_info_not_now">İndi yox</string>
@@ -3627,6 +3515,7 @@ Bu şou hazırda əlçatan deyil."</string>
     <string name="sound_search_unavailable">Səs Axtarışı Sizin ölkədə mövcud deyil</string>
     <string name="source_chip_desc">%s adlı kontaktın kontentinə baxın.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Yayım zamanı sürət ayarları əlçatan deyil.</string>
     <string name="spoken_cancel_command_tts">ləğv et</string>
     <string name="spoken_edit_sms_command_tts">mesajı redaktə edin</string>
     <string name="spoken_language_selected">%s əsas dil olaraq seçildi</string>
@@ -3733,6 +3622,7 @@ Bu şou hazırda əlçatan deyil."</string>
     <string name="tab_title_tomorrow">Sabah</string>
     <string name="tap_mic_to_speak">Danışmaq üçün mikrofona tıklayın</string>
     <string name="temperature_display">%1$s%2$s</string>
+    <string name="terms">Terms</string>
     <string name="text_selection_menu_translate_action">Tərcümə edin</string>
     <string name="thank_you_dialog_body">Cavablarınız Google Axtarış təcrübəsini təkmilləşdirməyə kömək edir.</string>
     <string name="thank_you_dialog_tilte">Rəy üçün təşəkkür edirik.</string>
@@ -3813,6 +3703,7 @@ Bu şou hazırda əlçatan deyil."</string>
     <string name="tomorrow_time">Sabah saat %1$s</string>
     <string name="too_many_locations_snackbar_text">8 məkana kimi yadda saxlaya bilərsiniz. Silmək üçün məkanın üzərinə basıb saxlayın.</string>
     <string name="toolbar_navigation_icon_description">Geriyə qayıdın</string>
+    <string name="top_apps">Ən çox istifadə edilən Tətbiqlər</string>
     <string name="top_contacts_group_header">Ən çox istifadə edilən Kontaktlar</string>
     <string name="topdeck">Vidcet</string>
     <string name="topdeck_show_all_cards_summary">Əsas ekran vidceti ilə nəqliyyat, hava və yerli məlumat haqqında güncəlləmələrə baxın</string>
@@ -3930,14 +3821,10 @@ Bu şou hazırda əlçatan deyil."</string>
     <string name="unreplied_messages_group_header">Mühüm Mesajlar</string>
     <string name="unsubscribe_button_label">Abunə oldunuz</string>
     <string name="unsupported_action">Bu cihaz tələb etdiyiniz əməliyyatı icra edə bilmir</string>
-    <string name="uos_account_picker_content_description">%1$s. Hesab seçimi.</string>
     <string name="uos_account_picker_header_text">Hesab seçin</string>
     <string name="uos_add_account_content_description">Plus işarəsi. Hesab əlavə edin.</string>
     <string name="uos_add_account_text">Hesab Əlavə edin</string>
     <string name="uos_close_button_text">Xeyr, təşəkkürlər</string>
-    <string name="uos_select_button_text">Davam edin</string>
-    <string name="uos_select_description">Sevdiyiniz musiqi, veriliş, məşhurlar, idman, hobbi və sairədən xəbərdar olun</string>
-    <string name="uos_select_intro">Fərdiləşdirilmiş yeniliklər istəyirsiniz?</string>
     <string name="uos_sign_in_button_text">Daxil olun</string>
     <string name="uos_sign_in_description">Sizi maraqlandıran mövzulara dair fərdiləşdirilmiş axtarış nəticələri və yeniliklər əldə edin</string>
     <string name="uos_sign_in_intro">Başlamaq üçün daxil olun</string>
@@ -4131,6 +4018,10 @@ Bu şou hazırda əlçatan deyil."</string>
     <string name="voice_ime_language_auto">Avtomatik</string>
     <string name="voice_language_preference_change">Səs əmrləri üçün diliniz də həmçinin %s dilinə dəyişilib</string>
     <string name="voice_language_preference_change_no_speaker_id">Səsli əmrlər üçün dil %1$s ilə dəyişdirildi. \"%2$s\" yalnız əsas ekranda və Google tətbiqində əlçatandır.</string>
+    <string name="voice_match_deeplink_welcome_action_button">Davam edin</string>
+    <string name="voice_match_deeplink_welcome_cancel_button">Ləğv edin</string>
+    <string name="voice_match_deeplink_welcome_explanation">Bu qısa qurşadırma tamalandıqdan sonra Assistent səsinizi müəyyən edə biləcək.</string>
+    <string name="voice_match_deeplink_welcome_title">Daxil olmağa davam edin</string>
     <string name="voice_search_app_name">Səsli Axtarış</string>
     <string name="voice_selection_message">Assistentin Sizinlə danışarkən istifadə edəcəyi səsi seçin. Nümunə səs modelinə qulaq asa bilərsiniz.</string>
     <string name="voice_selection_title">Assistentin səsini seçin</string>
@@ -4209,7 +4100,6 @@ Bu şou hazırda əlçatan deyil."</string>
     <string name="your_location_search_menu_text">Məkanınız</string>
     <string name="your_train_reservation">Qatar rezervasiyanız</string>
     <string name="zero_state_generic_error_toast_message">Xəta baş verdi.</string>
-    <string name="zero_state_hint">Nələrin olduğuna baxmaq üçün yuxarı sürüşdürün</string>
     <string name="zero_state_hint_text">Yeniliklərə baxmaq üçün yuxarı sürüşdürün</string>
     <string name="zero_state_network_error_toast_message">"Hazırda Google'a daxil olmaq mümkün deyil."</string>
     <string name="zerostate_explore_section_more">Daha çox</string>

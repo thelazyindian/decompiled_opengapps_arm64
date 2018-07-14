@@ -54,6 +54,7 @@
     <string name="access_now_promo_content_description">Μετάβαση στη Ροή Google</string>
     <string name="access_now_promo_detail">Πατήστε για να δείτε ενημερώσεις και ιστορίες βάσει των ενδιαφερόντων σας</string>
     <string name="accessibility_android_for_work_icon">Προφίλ εργασίας</string>
+    <string name="accessibility_assistant_button">Βοηθός Google</string>
     <string name="accessibility_collapse">Σύμπτυξη</string>
     <string name="accessibility_drawer_menu_button">Μενού</string>
     <string name="accessibility_expand">Ανάπτυξη</string>
@@ -77,7 +78,6 @@
     <string name="accessibility_voice_search_button">Φωνητική αναζήτηση</string>
     <string name="account_item">Εναλλαγή σε %1$s</string>
     <string name="account_list">Λίστα λογαριασμών</string>
-    <string name="account_not_eligible">Αυτός ο λογαριασμός δεν είναι ακόμη κατάλληλος για τη ροή</string>
     <string name="account_number">Αριθμός λογαριασμού</string>
     <string name="account_settings">Λογαριασμοί και απόρρητο</string>
     <string name="account_settings_cant_open">Απέτυχε το άνοιγμα των Στοιχείων ελέγχου δραστηριότητας.</string>
@@ -243,7 +243,6 @@
     <string name="agenda_group_tomorrow_title">Αύριο</string>
     <string name="agenda_hub_title">Προσεχή για εσάς</string>
     <string name="agenda_icon_description">εικονίδιο ατζέντας</string>
-    <string name="agenda_section_title">Προσεχή για εσάς</string>
     <string name="agent_bookmark_added">Αποθηκεύτηκε στους σελιδοδείκτες</string>
     <string name="agent_bookmark_error">Προέκυψε κάποιο σφάλμα. Προσπαθήστε ξανά αργότερα.</string>
     <string name="agent_bookmark_removed">Καταργήθηκε από τους σελιδοδείκτες</string>
@@ -321,7 +320,7 @@
     <string name="all_apps_loading_message">Φόρτωση εφαρμογών…</string>
     <string name="all_apps_no_search_results">Δεν βρέθηκαν εφαρμογές για το ερώτημα \"%1$s\"</string>
     <string name="all_apps_search_bar_hint">Αναζήτηση εφαρμογών…</string>
-    <string name="all_apps_search_market_message">Αναζήτηση περισσότερων εφαρμογών</string>
+    <string name="all_apps_search_market_message">Μετάβαση σε %1$s</string>
     <string name="all_chain_locations">Όλες οι τοποθεσίες</string>
     <string name="all_day">Όλη την ημέρα</string>
     <string name="all_day_at_location">Όλη την ημέρα στο(ν)/στη(ν) %1$s</string>
@@ -380,8 +379,6 @@
     <string name="as_selected_account">Συνδέθηκε στον λογαριασμό %1$s</string>
     <string name="as_show_account_list">Εμφάνιση λογαριασμών</string>
     <string name="as_sign_in">Σύνδεση</string>
-    <string name="assist_dialog_close">OK</string>
-    <string name="assist_dialog_dont_show">Να μην εμφανιστεί ξανά</string>
     <string name="assist_layer_dismiss">Κλείσιμο αναζήτησης οθόνης</string>
     <string name="assist_layer_to_now">Μεταβείτε στο Google</string>
     <string name="assist_optin_accept">Ναι, θέλω</string>
@@ -389,10 +386,7 @@
     <string name="assist_optin_decline">Όχι, ευχαριστώ</string>
     <string name="assist_optin_donate_screenshot">"Δωρεά στιγμιότυπων οθόνης από την οθόνη αναζήτησης
 Να επιτρέπεται στην Google να διατηρεί επ' αόριστον και να αναλύει τα στιγμιότυπα οθόνης από την αναζήτηση οθόνης σας"</string>
-    <string name="assist_optin_get_started">Ξεκινήστε</string>
     <string name="assist_optin_learn_more_text">Μάθετε περισσότερα</string>
-    <string name="assist_optin_not_eligible">Δεν είναι δυνατή η ενεργοποίηση της αναζήτησης οθόνης</string>
-    <string name="assist_optin_title">Βρήκατε την αναζήτηση οθόνης!</string>
     <string name="assist_share_screenshot_failure">Παρουσιάστηκε κάποιο πρόβλημα. Δοκιμάστε ξανά αργότερα.</string>
     <string name="assist_share_screenshot_off">Ο βοηθός δεν έχει πρόσβαση στα στιγμιότυπα οθόνης. Ελέγξτε τις ρυθμίσεις σας.</string>
     <string name="assist_translate_screenshot_failure">Παρουσιάστηκε κάποιο πρόβλημα. Δοκιμάστε ξανά αργότερα.</string>
@@ -475,8 +469,6 @@
     <string name="assistant_settings_cast_title">Τηλεοράσεις και ηχεία</string>
     <string name="assistant_settings_cast_voice_invite_summary">Θα μπορούν να έχουν πρόσβαση στις πληροφορίες τους στις κοινόχρηστες συσκευές</string>
     <string name="assistant_settings_cast_voice_invite_title">Προσκαλέστε άλλους χρήστες που χρησιμοποιούν τις συσκευές σας</string>
-    <string name="assistant_settings_cast_voice_not_recognized">"Δεν σας αναγνωρίζει ο Βοηθός σας;
-"</string>
     <string name="assistant_settings_cast_voice_retrain_summary">Μια νέα εγγραφή μπορεί να βελτιώσει την αναγνώριση φωνής</string>
     <string name="assistant_settings_cast_voice_retrain_title">Εκπαιδεύστε ξανά τον Βοηθό ώστε να αναγνωρίζει τη φωνή σας</string>
     <string name="assistant_settings_common_device_id_category">Προσαρμογή ρυθμίσεων για τον Βοηθό σε αυτήν τη συσκευή</string>
@@ -648,7 +640,6 @@
     <string name="assistant_settings_music_title">Μουσική</string>
     <string name="assistant_settings_music_unable_unlink_default">Δεν είναι δυνατή η κατάργηση σύνδεσης της προεπιλεγμένης υπηρεσίας παροχής μουσικής σας</string>
     <string name="assistant_settings_music_unlink_dialog_text">Με την αποσύνδεση του λογαριασμού σας, θα απενεργοποιηθεί η πρόσβαση στην αναπαραγωγή από το %1$s μέσω του Βοηθού Google.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">Η Μουσική YouTube απαιτεί ιδιότητα μέλους στο YouTube Premium για την αναπαραγωγή μουσικής στο Google Home. Μπορείτε να εγγραφείτε στο <a href="http://youtube.com/red">youtube.com/red</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text_v2">Η Μουσική YouTube απαιτεί ιδιότητα μέλους Premium στη Μουσική YouTube για την αναπαραγωγή μουσικής στο Google Home. Μπορείτε να εγγραφείτε στο <a href="http://youtube.com/musicpremium">youtube.com/musicpremium</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">Απαιτείται ιδιότητα μέλους στο YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">Καταργήστε την πηγή %1$s από τις ενεργοποιημένες πηγές ειδήσεων</string>
@@ -824,7 +815,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">Προς το παρόν, η Συνεχιζόμενη συνομιλία διατίθεται στα Αγγλικά (ΗΠΑ). Εάν χρησιμοποιείτε συσκευές Google Home που δεν εμφανίζονται εδώ, το άτομο που διαθέτει τον κύριο λογαριασμό σε αυτές τις συσκευές μπορεί να ενεργοποιήσει ή να απενεργοποιήσει τη Συνεχιζόμενη συνομιλία στις ρυθμίσεις του Βοηθού του.</string>
     <string name="assistant_settings_summer_time_mode_availability_description">Μπορείτε να αλλάξετε αυτήν τη ρύθμιση για αυτές τις συσκευές Google Home</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">Δεν υπάρχουν διαθέσιμες συσκευές</string>
-    <string name="assistant_settings_summer_time_mode_button_summary">Το μικρόφωνο της συσκευής σας θα ανοίγει ξανά μετά από κάθε απάντηση, προκειμένου να ακούσει επόμενες ερωτήσεις. Αυτές θα εμφανίζονται στη σελίδα \"Η δραστηριότητά μου\" ως συνήθως. Τυχόν ήχος στον οποίο δεν ανταποκρίνεται ο Βοηθός θα διαγράφεται από τον Λογαριασμό σας Google.</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">Το μικρόφωνο της συσκευής σας θα ανοίγει ξανά για σύντομο χρονικό διάστημα μετά από κάθε απάντηση, προκειμένου να ακούσει επόμενες ερωτήσεις. Αυτές θα εμφανίζονται στη σελίδα \"Η δραστηριότητά μου\" ως συνήθως. Τυχόν ήχος στον οποίο δεν ανταποκρίνεται ο Βοηθός θα διαγράφεται από τον Λογαριασμό σας Google.</string>
     <string name="assistant_settings_summer_time_mode_button_title">Συνεχιζόμενη συνομιλία</string>
     <string name="assistant_settings_summer_time_mode_title">Συνεχιζόμενη συνομιλία</string>
     <string name="assistant_settings_turn_off_voice_match">Εάν απενεργοποιήσετε τη Voice Match, θα αποσυνδέσετε τον λογαριασμό σας από αυτήν τη συσκευή. Τουλάχιστον ένας λογαριασμός θα πρέπει να είναι συνδεδεμένος, προκειμένου να χρησιμοποιείτε τη συσκευή όπου είναι ενεργοποιημένος ο Βοηθός Google. Είστε βέβαιοι ότι θέλετε να αποσυνδέσετε τον λογαριασμό σας; </string>
@@ -924,7 +915,6 @@
     <string name="background_notification_onboarding">Είστε εκτός σύνδεσης; Δεν υπάρχει πρόβλημα. Το Google θα θυμάται την αναζήτησή σας και θα σας στείλει μια ειδοποίηση όταν είναι έτοιμα τα αποτελέσματα.</string>
     <string name="background_notification_onboarding_accept">OK</string>
     <string name="background_notification_onboarding_decline">Απενεργοποίηση</string>
-    <string name="background_notification_ready">Αποτελέσματα αναζήτησης έτοιμα</string>
     <string name="background_notification_settings">Ρυθμίσεις</string>
     <string name="background_retry_data_saver_dialog_text">Για να λαμβάνετε ειδοποιήσεις όταν είναι έτοιμα τα αποτελέσματά σας, απενεργοποιήστε την Εξοικονόμηση δεδομένων για την εφαρμογή Google στις Ρυθμίσεις</string>
     <string name="background_retry_data_saver_dialog_title">Η Εξοικονόμηση δεδομένων είναι ενεργοποιημένη</string>
@@ -1011,20 +1001,21 @@
     <string name="card_category_notification_category">Ενημερωθείτε σχετικά με</string>
     <string name="card_dismissed">Η κάρτα καταργήθηκε</string>
     <string name="card_question_selected">Επιλέχθηκε %1$s</string>
+    <string name="cast_fail_to_connect_message">Δεν είναι δυνατή η σύνδεση με τη συσκευή %1$s αυτήν τη στιγμή. Δοκιμάστε ξανά αργότερα.</string>
+    <string name="cast_fail_to_reconnect_message">Δεν είναι δυνατή η επανασύνδεση με τη συσκευή %1$s αυτήν τη στιγμή. Δοκιμάστε ξανά αργότερα.</string>
     <string name="cast_notification_connected_message">Συνδέθηκε με το %1$s</string>
     <string name="cast_notification_connecting_message">Γίνεται σύνδεση με το %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Αποσύνδεση</string>
+    <string name="cast_reconnecting_message">Προσπάθεια επανασύνδεσης</string>
+    <string name="cast_success_to_reconnect_message">Επανασυνδέθηκε με τη συσκευή %1$s</string>
     <string name="cct_account_mismatch_card_button_text">Άνοιγμα %1$s</string>
     <string name="cct_account_mismatch_card_header">Προβολή των ιστοσελίδων σας</string>
     <string name="cct_account_mismatch_card_text">Για να δείτε τις σελίδες που βρίσκετε εδώ, ενημερώστε τις &lt;b>%1$s ρυθμίσεις&lt;/b> και ενεργοποιήστε τον συγχρονισμό για το &lt;b>%2$s&lt;/b></string>
     <string name="chance_of_precipitation_label">Πιθανότητα ατμοσφαιρικής κατακρήμνισης: %s</string>
     <string name="change_wallpaper">ΑΛΛΑΓΗ ΤΑΠΕΤΣΑΡΙΑΣ</string>
     <string name="checkin_date_today">Σημερινή ημερομηνία άφιξης</string>
-    <string name="choose_account_to_use">Επιλέξτε λογαριασμό</string>
     <string name="chrome_os_opa_ready_screen_explanation">Μόλις ρυθμίσετε το Chromebook, πιέστε το κουμπί Βοηθού ή πείτε Ok Google για να λάβετε ανά πάσα στιγμή βοήθεια από τον Βοηθό.</string>
-    <string name="chrome_os_opa_value_proposition_cancel">Όχι, ευχαριστώ</string>
-    <string name="chrome_os_opa_value_proposition_continue">Συνέχεια</string>
     <string name="chrome_os_opa_value_proposition_title_loading">Μισό λεπτό</string>
     <string name="city_to_city">%1$s έως %2$s</string>
     <string name="clear">Διαγραφή</string>
@@ -1047,6 +1038,8 @@
     <string name="common_address_edit_title">Επεξεργασία διεύθυνσης</string>
     <string name="common_delete">Διαγραφή</string>
     <string name="common_device_assistant_language_title">Γλώσσα του Βοηθού</string>
+    <string name="common_device_disable_youTube_for_guests_summary">Απενεργοποιήστε το YouTube, τη Μουσική YouTube Music και το YouTube TV για χρήστες των οποίων οι φωνές δεν αναγνωρίζονται από τον Βοηθό μέσω του Voice Match. Σημείωση: Ισχύει εάν έχετε ενεργοποιήσει το Voice Match.</string>
+    <string name="common_device_disable_youTube_for_guests_title">Απενεργοποίηση YouTube για προσκεκλημένους</string>
     <string name="common_device_id_personal_info_permission_non_screen_devices_summary">Επιτρέψτε την εμφάνιση προσωπικών αποτελεσμάτων σε αυτήν τη συσκευή, όπως μηνύματα ηλεκτρονικού ταχυδρομείου, ημερολόγιο, επαφές και υπενθυμίσεις. Με αυτόν τον τρόπο, επιτρέπονται επίσης οι πληρωμές σε αυτήν τη συσκευή. %1$s</string>
     <string name="common_device_id_personal_info_permission_screenful_devices_summary">Επιτρέψτε την εμφάνιση προσωπικών αποτελεσμάτων σε αυτήν τη συσκευή, όπως φωτογραφίες, μηνύματα ηλεκτρονικού ταχυδρομείου, ημερολόγιο, επαφές και υπενθυμίσεις. Με αυτόν τον τρόπο, επιτρέπονται επίσης οι πληρωμές σε αυτήν τη συσκευή. %1$s</string>
     <string name="common_device_notification_permission_summary">Λάβετε ειδοποιήσεις, όπως υπενθυμίσεις, σε αυτήν τη συσκευή. Ακόμα και αν οι ειδοποιήσεις είναι απενεργοποιημένες, θα εξακολουθείτε να ακούτε ειδοποιήσεις και σημαντικές ενημερώσεις.</string>
@@ -1208,8 +1201,6 @@
     <string name="current_inning">Περίοδος %1$d</string>
     <string name="current_location_searchbox">Τρέχουσα τοποθεσία</string>
     <string name="current_period">Περίοδος %1$d</string>
-    <string name="current_search_base_url_google_com">Χρήση του www.google.com αντί για τον τοπικό τομέα (%1$s)</string>
-    <string name="current_search_base_url_local">Χρήση του τοπικού τομέα σας (%1$s)</string>
     <string name="current_status">Ελέγξτε την τρέχουσα κατάσταση</string>
     <string name="custom">Προσαρμοσμένο (δεν είναι δυνατή η προσαρμογή στο τηλέφωνο)</string>
     <string name="custom_tabs_explore_action_button_desc">Προβολή σχετικών σελίδων</string>
@@ -1289,7 +1280,6 @@
     <string name="distance_miles">%1$.1f μίλια</string>
     <string name="distance_miles_accessible">Distance: %1$.1f μίλια</string>
     <string name="docs_group_header">Έγγραφα</string>
-    <string name="donate">Δωρεά</string>
     <string name="donate_button_label">Δωρεά</string>
     <string name="donate_screenshot_summary">Να επιτρέπεται στην Google να αποθηκεύει τα στιγμιότυπα οθόνης και να τα αξιολογεί για τη βελτίωση της αναζήτησης οθόνης. Οι αναθεωρητές υπόκεινται σε αυστηρούς κανόνες εμπιστευτικότητας. Τα στιγμιότυπα οθόνης ενδέχεται να περιέχουν ιδιωτικές πληροφορίες, όπως μηνύματα ηλεκτρονικού ταχυδρομείου και συνομιλίες, αλλά αυτές παραμένουν εμπιστευτικές.</string>
     <string name="donate_screenshot_title">Συμβάλετε στη βελτίωση της αναζ. οθόνης</string>
@@ -1311,6 +1301,7 @@
     <string name="download_prompt">Λήψη</string>
     <string name="download_setting_message">Τα επεισόδια που έχουν ληφθεί καταργούνται μετά από 30 ημέρες ή 24 ώρες μετά την ολοκλήρωσή τους</string>
     <string name="downloaded">Λήφθηκε</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Επεισόδια που έχουν ληφθεί</string>
     <string name="downloading">Λήψη…</string>
     <string name="downloads">Λήψεις</string>
@@ -1362,7 +1353,6 @@
     <string name="enable_google_search_restriction">Ενεργοποίηση της Αναζήτησης Google</string>
     <string name="enable_location_use">Να επιτρέπεται η πρόσβαση στην τοποθεσία σας από εφαρμογές Google</string>
     <string name="enable_screen_assist_summary_now_emphasis">Ζητά από το Google να σας εμφανίζει πληροφορίες που σχετίζονται με το περιεχόμενο της οθόνης σας όταν κρατάτε πατημένο το κουμπί Αρχικής σελίδας ή όταν κάνετε φωνητική αναζήτηση</string>
-    <string name="enable_screen_assist_title">Αναζήτηση οθόνης</string>
     <string name="enable_video_preview_autoplay">Αυτόματη αναπαραγωγή</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">Να επιτρέπονται σε δίκτυα κινητής τηλεφωνίας</string>
     <string name="enable_web_history_toast">Το Ιστορικό ιστού έχει ενεργοποιηθεί</string>
@@ -1374,6 +1364,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Διαθέσιμα επεισόδια</string>
     <string name="episode_page_section_title">Επεισόδιο</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Για εσάς</string>
     <string name="error">Σφάλμα</string>
     <string name="error_adding_location_snackbar_text">Σφάλμα κατά την προσθήκη τοποθεσίας</string>
@@ -1394,7 +1385,6 @@
     <string name="error_no_connection_text">"Δεν υπάρχει διαθέσιμο δίκτυο
 Ελέγξτε τη σύνδεσή σας και προσπαθήστε ξανά"</string>
     <string name="error_no_network_connectivity">Γίνεται προσπάθεια επανασύνδεσης. Τα αποτελέσματά σας θα εμφανιστούν όταν συνδεθείτε ξανά.</string>
-    <string name="error_offline_no_connectivity">Ελέγξτε τη σύνδεση, δοκιμάστε ξανά.</string>
     <string name="error_removing_location_snackbar_text">Σφάλμα κατά την κατάργηση τοποθεσίας</string>
     <string name="error_s3">Κάτι πήγε στραβά. Ελέγξτε τη σύνδεση και δοκιμάστε ξανά.</string>
     <string name="error_ssl">Ελέγξτε τη σύνδεση και δοκιμάστε ξανά.</string>
@@ -1418,7 +1408,6 @@
     <string name="expand_button_title">Σύνθετες</string>
     <string name="expand_time_to_leave">Εμφάνιση επιλογών γι αυτήν τη διαδρομή.</string>
     <string name="expanding_time_to_leave_announcement">Εμφάνιση λεπτομερειών ώρας αποχώρησης.</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Το podcast περιλαμβάνει άσεμνο περιεχόμενο</string>
     <string name="explore_back_button_content_description">Πίσω</string>
     <string name="explore_bottombar_header_title">Οι χρήστες βλέπουν επίσης</string>
@@ -1474,6 +1463,7 @@
     <string name="fast_forward">Γρήγορη προώθηση</string>
     <string name="favorite_images_tag_title">Αγαπημένες εικόνες</string>
     <string name="favorite_pages_tag_title">Αγαπημένες σελίδες</string>
+    <string name="favorite_screenshots_tag_title">Αγαπημένα στιγμιότυπα οθόνης</string>
     <string name="feed_datasaver_details">Όταν είναι ενεργοποιημένη η εξοικονόμηση δεδομένων, η ροή σας δεν θα λαμβάνει το πιο πρόσφατο περιεχόμενο.</string>
     <string name="feedback">Αποστολή σχολίων</string>
     <string name="feedback_composed_legalese_text">Μεταβείτε στην ενότητα %1$s, για να ζητήσετε αλλαγές στο περιεχόμενο για νομικούς λόγους.&lt;br />Οι πληροφορίες συστήματος θα σταλούν στην Google. Ανατρέξτε στην %2$s και τους %3$s.</string>
@@ -1488,7 +1478,6 @@
     <string name="feedback_terms_of_service_link">http://www.google.com/intl/%1s/policies/terms/</string>
     <string name="feedback_terms_of_service_text">όροι παροχής υπηρεσιών</string>
     <string name="feedback_unsuccessful_snackbar_hint">Προέκυψε κάποιο σφάλμα. Δοκιμάστε ξανά αργότερα.</string>
-    <string name="fetching_search_base_url">Εύρεση τοπικού τομέα...</string>
     <string name="fetching_suggestions_status_text">Ανάκτηση προτάσεων…</string>
     <string name="filterbar_animated_filter">Gif</string>
     <string name="filterbar_captions_filter_all">Όλα τα βίντεο</string>
@@ -1512,7 +1501,6 @@
     <string name="filterbar_duration_filter_medium_description">Μεσαία διάρκεια (από 4 έως 20 λεπτά)</string>
     <string name="filterbar_duration_filter_short">Μικρή διάρκεια (0-4 λεπτά)</string>
     <string name="filterbar_duration_filter_short_description">Μικρή διάρκεια (από 0 έως 4 λεπτά)</string>
-    <string name="filterbar_filter_container_description">Περιοχή φίλτρων. Επιλέξτε ένα ή περισσότερα φίλτρα για να περιορίσετε την αναζήτησή σας.</string>
     <string name="filterbar_filter_deselect">Αποεπιλογή φίλτρου %1$s</string>
     <string name="filterbar_filter_select">Επιλογή φίλτρου %1$s</string>
     <string name="filterbar_filtering_message">Φιλτράρισμα σε αποτελέσματα %1$s</string>
@@ -1794,7 +1782,6 @@
     <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"Φαίνεται πως έχετε ρυθμίσει ήδη το Voice Match με τον Βοηθό Google του παιδιού σας σε κάποια άλλη συσκευή.
 
 Αυτές οι προηγούμενες ηχογραφήσεις μπορούν να χρησιμοποιηθούν για τη δημιουργία ενός φωνητικού μοντέλου σε αυτήν τη συσκευή. Η διαδικασία αναμένεται να διαρκέσει λιγότερο από ένα λεπτό."</string>
-    <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">Πρώτα ολοκληρώστε την εγγραφή λέξεων-κλειδιών για τον λογαριασμό %1$s.</string>
     <string name="hotword_enrollment_google_home_no_thanks">Όχι, ευχαριστώ</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">Ρύθμιση Voice Match</string>
     <string name="hotword_enrollment_google_home_non_fast_update_progress_summary">Αυτή η ενέργεια θα διαρκέσει λιγότερο από ένα λεπτό.</string>
@@ -1805,6 +1792,9 @@
     <string name="hotword_enrollment_google_home_share_message">"Γεια! Μόλις εκπαίδευσα τον Βοηθό μου έτσι ώστε να αναγνωρίζει τη φωνή μου στο Google Home, προκειμένου να λαμβάνω εξατομικευμένα αποτελέσματα.
 
 Μπορείτε επίσης να λάβετε απαντήσεις μόνο για εσάς! Ξεκινήστε εγκαθιστώντας την εφαρμογή Google Home: https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_deeplink">"Γεια! Μόλις εκπαίδευσα τον Βοηθό μου έτσι ώστε να αναγνωρίζει τη φωνή μου στο Google Home, για να μπορώ να λαμβάνω εξατομικευμένα αποτελέσματα.
+
+Μπορείτε επίσης να λαμβάνετε απαντήσεις μόνο για εσάς! Πατήστε για να συνδεθείτε στη συσκευή σας: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">Εκπαιδεύστε τον Βοηθό έτσι ώστε να σας αναγνωρίζει</string>
     <string name="hotword_enrollment_google_home_share_screen_done">Πρόσκληση</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">Μπορείτε να δείτε ή να διαγράψετε τη φωνητική δραστηριότητα στα %1$s. Μπορείτε επίσης να απενεργοποιήσετε το Voice Match στις ρυθμίσεις του Βοηθού.</string>
@@ -1875,7 +1865,6 @@
     <string name="hotword_enrollment_tgoogle_summary_usage_example_third">%1$s, τι έχω προγραμματίσει για σήμερα.</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_end">Μπορείτε ακόμα να λέτε \"%1$s\" και \"%2$s\" για να μιλήσετε στον Βοηθό σας.</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_title">Ο Βοηθός σας τώρα θα αποκρίνεται όταν, για παράδειγμα, λέτε:</string>
-    <string name="hotword_enrollment_trustedvoice_continue_glif">Συνέχεια</string>
     <string name="hotword_enrollment_trustedvoice_done_glif">Ολοκληρωμένα</string>
     <string name="hotword_enrollment_trustedvoice_header_title">Ξεκλείδωμα του τηλεφώνου σας με Voice Match</string>
     <string name="hotword_enrollment_trustedvoice_next_glif">Επόμενο</string>
@@ -1915,7 +1904,6 @@
     <string name="hotword_pref_summary_opa">Αποκτήστε πρόσβαση στον Βοηθό σας κάθε φορά που λέτε \"%1$s\", ακόμα και αν η οθόνη σας είναι απενεργοποιημένη ή χρησιμοποιείτε τις αγαπημένες σας εφαρμογές</string>
     <string name="hotword_pref_summary_opa_non_dsp">Αποκτήστε πρόσβαση στον Βοηθό σας κάθε φορά που λέτε \"%1$s\" όταν είναι ενεργή η οθόνη σας</string>
     <string name="hotword_pref_summary_voice_unlock">Επιτρέψτε στο \"%1$s\" να ξεκλειδώνει τη συσκευή σας όταν ο ήχος αντιστοιχιστεί με το δικό σας μοντέλο φωνής</string>
-    <string name="hotword_pref_title">Ανίχνευση λέξης-κλειδιού \"%1$s\"</string>
     <string name="hotword_pref_title_always_on">Πάντα ενεργό</string>
     <string name="hotword_pref_title_during_gmm_navigation">Κατά την οδήγηση</string>
     <string name="hotword_pref_title_lock_screen_2_opa">Ξεκλείδωμα με Voice Match</string>
@@ -1947,9 +1935,6 @@
     <string name="hq_opt_in_card_description">Δείτε πληροφορίες, όπως συχνές διαδρομές, παραγγελίες και άλλα, κάνοντας σύνδεση στη ροή σας στο Google</string>
     <string name="hq_opt_in_card_title">Εμφάνιση όλου του περιεχομένου σας σε ένα μέρος</string>
     <string name="hq_title">Βοηθός Google</string>
-    <string name="https_info_close">Κλείσιμο</string>
-    <string name="https_info_message">Η σύνδεσή σας στον ιστότοπο του podcast είναι ιδιωτική.</string>
-    <string name="https_info_title">Ασφαλής σύνδεση</string>
     <string name="hyper_local_suggestion_message">Αυτή η αναζήτηση σχετίζεται με την τρέχουσα τοποθεσία σας.</string>
     <string name="i18n_address_line1_accessibility_label">Διεύθυνση: γραμμή 1</string>
     <string name="i18n_address_line1_label">Οδός</string>
@@ -2024,7 +2009,6 @@
     <string name="image_viewer_video_view_count_label">Προβολές</string>
     <string name="image_viewer_video_watch_label">Παρακολούθηση</string>
     <string name="image_viewer_view_all_related_images_accessibility">Προβολή όλων των σχετικών εικόνων</string>
-    <string name="image_viewer_view_saved">Προβολή αποθηκευμένων</string>
     <string name="image_viewer_visit_site">Επίσκεψη</string>
     <string name="images_mode_landing_text">Αναζήτηση εικόνων</string>
     <string name="ime_audio_error">Δεν είναι δυνατό το άνοιγμα του μικροφώνου</string>
@@ -2110,8 +2094,6 @@
     <string name="item_removed">Το στοιχείο καταργήθηκε</string>
     <string name="jasper_duo_knock_knock_summary">Δείτε το βίντεο του καλούντος προτού απαντήσετε. Επίσης, επιτρέψτε στα άτομα που καλείτε να βλέπουν το δικό σας βίντεο καθώς το τηλέφωνό τους χτυπά. %1$s</string>
     <string name="jasper_duo_knock_knock_title">Knock Knock</string>
-    <string name="jasper_duo_not_signed_in">Δεν έχετε συνδεθεί</string>
-    <string name="jasper_duo_signed_in">Έχετε συνδεθεί</string>
     <string name="jasper_duo_unlink">Αποσύνδεση</string>
     <string name="jasper_unlink_duo_title">Αποσύνδεση του Duo από αυτήν τη συσκευή</string>
     <string name="jasper_unlink_duo_warning_dialog_summary">Δεν θα είστε πλέον σε θέση να ξεκινήσετε ή να λάβετε κλήσεις Duo σε αυτήν τη συσκευή</string>
@@ -2165,22 +2147,23 @@
     <string name="leave_from">Από</string>
     <string name="legal_documents">Νομικά</string>
     <string name="lens_back_button_description">Πίσω</string>
-    <string name="lens_education_card_barcodes_heading">Γραμμωτοί κώδικες</string>
-    <string name="lens_education_card_barcodes_paragraph">Σαρώστε γραμμωτούς κώδικες και βρείτε λεπτομέρειες προϊόντων</string>
-    <string name="lens_education_card_media_heading">Βιβλία και μέσα</string>
-    <string name="lens_education_card_media_paragraph">Αναζητήστε βιβλία, ταινίες, άλμπουμ μουσικής και βιντεοπαιχνίδια κατά εξώφυλλο</string>
-    <string name="lens_education_card_places_heading">Μέρη</string>
-    <string name="lens_education_card_places_paragraph">Μάθετε περισσότερα σχετικά με αξιοθέατα, σημεία ενδιαφέροντος και σημαντικά κτίρια</string>
-    <string name="lens_education_card_products_heading">Προϊόντα</string>
-    <string name="lens_education_card_products_paragraph">Βρείτε παρόμοια στοιχεία για προϊόντα όπως έπιπλα και ρούχα</string>
-    <string name="lens_education_card_text_heading">Κείμενο</string>
-    <string name="lens_education_card_text_paragraph">Αντιγράψτε κείμενο, όπως αριθμούς τηλεφώνων, ημερομηνίες και διευθύνσεις</string>
+    <string name="lens_education_card_barcodes_heading">Σάρωση κωδικών</string>
+    <string name="lens_education_card_barcodes_paragraph">Δοκιμάστε γραμμωτούς κωδικούς και κωδικούς QR</string>
+    <string name="lens_education_card_media_heading">Ανακαλύψτε βιβλία και μέσα</string>
+    <string name="lens_education_card_media_paragraph">Δοκιμάστε βιβλία, ταινίες, μουσικά άλμπουμ και βιντεοπαιχνίδια</string>
+    <string name="lens_education_card_natural_world_heading">Αναγνωρίστε φυτά και ζώα</string>
+    <string name="lens_education_card_natural_world_paragraph">Δοκιμάστε λουλούδια και ράτσες σκύλων</string>
+    <string name="lens_education_card_products_heading">Αναζήτηση παρόμοιων προϊόντων</string>
+    <string name="lens_education_card_products_paragraph">Δοκιμάστε ρουχισμό και έπιπλα</string>
+    <string name="lens_education_card_text_heading">Αντιγραφή κειμένου</string>
+    <string name="lens_education_card_text_paragraph">Δοκιμάστε αριθμούς τηλεφώνου, ημερομηνίες και διευθύνσεις</string>
     <string name="lens_education_card_title">Τι μπορεί να κάνει το Lens;</string>
     <string name="lens_info_panel_header_preview_tag">προεπισκόπηση</string>
     <string name="lens_info_panel_live_camera_title">Πατήστε σε αντικείμενα και κείμενο</string>
     <string name="lens_info_panel_loading_message">Αναζήτηση αποτελεσμάτων…</string>
     <string name="lens_info_panel_opening_lens">Άνοιγμα του Lens…</string>
     <string name="lens_overflow_menu_description">Ρυθμίσεις</string>
+    <string name="lens_overflow_menu_send_feedback">Αποστολή σχολίων</string>
     <string name="lens_quit_button_description">Έξοδος</string>
     <string name="lens_results_feedback_card_prompt">Τι θέλετε να κάνετε με το Lens;</string>
     <string name="lens_results_feedback_card_title">Βοηθήστε μας να βελτιώσουμε το Lens</string>
@@ -2251,6 +2234,7 @@
     <string name="maps_mode_landing_text">Αναζήτηση χαρτών</string>
     <string name="mark_as_played">Επισήμανση ως αναπαραγμένου</string>
     <string name="mark_as_unplayed">Επισήμανση ως μη αναπαραγμένου</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_content_image">Εικόνα η οποία σχετίζεται με το περιεχόμενο πολυμέσων που εμφανίζεται σε αυτήν την κάρτα</string>
     <string name="media_item_type_your_podcasts">Τα podcast σας</string>
     <string name="media_route_chooser_dialog_title">Μετάδοση σε</string>
@@ -2286,26 +2270,6 @@
     <string name="migration_cling_description">Εισαγωγή εικονιδίων και φακέλων από παλιές αρχικές οθόνες;</string>
     <string name="migration_cling_title">Αντιγραφή εικονιδίων εφαρμογών</string>
     <string name="migration_cling_use_default">ΝΕΑ ΕΝΑΡΞΗ</string>
-    <string name="mini_card_aiport_code_1">JFK</string>
-    <string name="mini_card_aiport_code_2">SFO</string>
-    <string name="mini_card_flight_delayed">Καθυστέρηση στην πτήση Z206</string>
-    <string name="mini_card_ok_google">\"Ok, Google\"</string>
-    <string name="mini_card_parking_location">Τοποθεσία στάθμευσης</string>
-    <string name="mini_card_sample_score">2</string>
-    <string name="mini_card_set_a_reminder">Ορισμός υπενθύμισης</string>
-    <string name="mini_card_set_reminder">Ορισμός υπενθύμισης</string>
-    <string name="mini_card_sports_league">Premier League</string>
-    <string name="mini_card_sports_team_1">Chelsea F.C.</string>
-    <string name="mini_card_sports_team_2">Arsenal F.C.</string>
-    <string name="mini_card_sunny">Ηλιοφάνεια</string>
-    <string name="mini_card_temp">72°</string>
-    <string name="mini_card_time_to_home">20 λεπτά για την οικία</string>
-    <string name="mini_card_time_to_work">40 λεπτά για την εργασία</string>
-    <string name="mini_card_train_station">Σιδηροδρομικός σταθμός Καλιφόρνια</string>
-    <string name="mini_card_weather_city">Σαν Φρανσίσκο</string>
-    <string name="mini_card_whats_the_reminder">Ποια είναι η υπενθύμιση;</string>
-    <string name="mini_card_when">Πότε</string>
-    <string name="mini_card_where">Τοποθεσία</string>
     <string name="minimum_balance">Ελάχιστο υπόλοιπο</string>
     <string name="minus_one_header_customize">Προσαρμογή ροής</string>
     <string name="minus_one_header_feedback">Αποστολή σχολίων</string>
@@ -2380,11 +2344,13 @@
     <string name="navigate_to_pickup_location">Μετάβαση στην τοποθεσία παραλαβής</string>
     <string name="navigation_action">Πλοήγηση σε %1$s</string>
     <string name="navigation_assistant_label">Βοηθός</string>
-    <string name="navigation_collections_label">Συλλογές</string>
+    <string name="navigation_collections_label">Αποθηκευμένα</string>
     <string name="navigation_drawer_label">Περισσότερα</string>
     <string name="navigation_home_label">Αρχική σελίδα</string>
     <string name="navigation_recently_label">Πρόσφατα</string>
     <string name="navigation_search_label">Αναζήτηση</string>
+    <string name="navigation_top_apps_label">Κορυφ. εφαρμογ.</string>
+    <string name="navigation_updates_label">Ενημερώσεις</string>
     <string name="nearby_attractions">Αξιοθέατα σε κοντινή απόσταση</string>
     <string name="nearby_events_title">Κοντινές εκδηλώσεις</string>
     <string name="network_error">Δεν είναι δυνατή η επικοινωνία με την Google αυτή τη στιγμή.</string>
@@ -2494,7 +2460,6 @@
     <string name="notes_lists_provider_changed_title">Αποσύνδεση από %1$s</string>
     <string name="notes_lists_title">Ο Βοηθός σας θα διατηρήσει τις σημειώσεις και τις λίστες σας συγχρονισμένες με αυτές τις υπηρεσίες.</string>
     <string name="notification_access_link_text">Απενεργοποίηση πρόσβασης σε ειδοποιήσεις</string>
-    <string name="notification_accessable_apps_category_title">Πρόσβαση σε ειδοποιήσεις</string>
     <string name="notification_cancel_text">Το Google δεν θα επαναλάβει αυτήν την αναζήτηση όταν συνδεθείτε ξανά στο διαδίκτυο.</string>
     <string name="notification_cancel_title">Η αναζήτηση ακυρώθηκε</string>
     <string name="notification_dismiss">Παράβλεψη</string>
@@ -2510,7 +2475,6 @@
     <string name="now_gplus_location_sharing_error">Παρουσιάστηκε πρόβλημα επικοινωνίας με το Google+</string>
     <string name="now_header_doodle_search_button_content_description">Μάθετε περισσότερα σχετικά με το σημερινό doodle</string>
     <string name="now_header_doodle_share_button_content_description">Κοινή χρήση doodle</string>
-    <string name="now_loading">Φόρτωση…</string>
     <string name="now_on_tap_share_with">Κοινή χρήση με</string>
     <string name="now_opt_in_card_description">Ενεργοποιήστε τη ροή σας, για να λαμβάνετε ενημερώσεις για αθλητικά, μουσική, ταινίες κ.ά.</string>
     <string name="now_opt_in_card_title">Ενημέρωση για αγαπημένα θέματα</string>
@@ -2542,9 +2506,7 @@
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_on">Δεν υπάρχει διαθέσιμο δίκτυο. Εξετάστε το ενδεχόμενο να συνδεθείτε σε κάποιο δίκτυο Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_suffix_opted_into_background_retry">Θα ειδοποιηθείτε όταν είναι έτοιμα τα αποτελέσματα.</string>
     <string name="offline_error_card_open_settings_button_text">Απενεργοποίηση λειτουργίας πτήσης</string>
-    <string name="offline_error_card_title_text">Εκτός σύνδεσης</string>
     <string name="offline_error_card_title_text_airplane_mode">Η λειτουργία πτήσης είναι ενεργοποιημένη</string>
-    <string name="offline_error_card_title_text_airplane_mode_wifi_error">Το Wi-Fi δεν λειτουργεί</string>
     <string name="offline_error_card_title_text_data_roaming_off">Η περιαγωγή δεδομένων είναι απενεργοποιημένη</string>
     <string name="offline_error_card_title_text_general_offline_mode">Είστε εκτός σύνδεσης</string>
     <string name="offline_error_card_title_text_mobile_data_off">Τα δεδομένα κινητής τηλεφωνίας είναι απενεργοποιημένα</string>
@@ -2555,33 +2517,17 @@
     <string name="offline_error_card_title_text_no_sim_card">Δεν βρέθηκε κάρτα SIM</string>
     <string name="offline_error_card_title_text_sim_card_error">Σφάλμα κάρτας SIM</string>
     <string name="offline_error_title">Είστε εκτός σύνδεσης</string>
-    <string name="offline_eyesfree_install_language_pack_notification_body">Αναβαθμίστε το πακέτο γλώσσας.</string>
-    <string name="offline_eyesfree_install_language_pack_notification_title">Ενεργοποίηση φωνητικών εντολών εκτός σύνδεσης</string>
-    <string name="offline_eyesfree_install_language_pack_notification_tts">Είστε εκτός σύνδεσης. Για να συνεχίσετε να χρησιμοποιείτε τη φωνητική λειτουργία όταν είστε εκτός σύνδεσης, θα χρειαστεί να εγκαταστήσετε το τελευταίο πακέτο γλώσσας. Όταν είναι ασφαλές να χρησιμοποιήσετε την οθόνη σας, πατήστε στην ειδοποίηση για να ξεκινήσει η διαδικασία.</string>
     <string name="offline_eyesfree_install_language_pack_tts">Είστε εκτός σύνδεσης. Για να χρησιμοποιείτε τη φωνητική λειτουργία όταν είστε εκτός σύνδεσης, θα πρέπει να έχετε το πιο πρόσφατο πακέτο γλώσσας, το οποίο θα εγκατασταθεί την επόμενη φορά που θα είστε συνδεδεμένοι σε κάποιο δίκτυο.</string>
-    <string name="offline_eyesfree_lp_need_update_fallback_tts">Είστε εκτός σύνδεσης. Για να συνεχίσετε να χρησιμοποιείτε τη φωνητική λειτουργία όταν είστε εκτός σύνδεσης και να λαμβάνετε νέες λειτουργίες, θα χρειαστεί να εγκαταστήσετε το τελευταίο πακέτο γλώσσας. Όταν είναι ασφαλές να χρησιμοποιήσετε την οθόνη σας, πατήστε στην ειδοποίηση για να ξεκινήσει η διαδικασία.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying \"make a call\" or \"what can I say?\""</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">"Actually, you're offline. I can't reach Google right now but I can still help with lots of things. For example, try saying %1$s or \"what can I say?\""</string>
-    <string name="offline_header_text">Φων. συμβουλές εκτός σύνδεσης</string>
     <string name="offline_help_article_title">Ελέγξτε τη σύνδεσή σας</string>
     <string name="offline_no_language_pack_card_install_button_text">Install</string>
     <string name="offline_no_language_pack_card_instruction_text_queued">"You're offline. Once you have a connection, the language pack you need will be installed."</string>
     <string name="offline_no_language_pack_card_instruction_text_to_install">Είστε εκτός σύνδεσης. Για να συνεχίσετε να χρησιμοποιείτε τη φωνητική λειτουργία την επόμενη φορά που θα είστε εκτός σύνδεσης, εγκαταστήστε το τελευταίο πακέτο γλώσσας.</string>
-    <string name="offline_no_language_pack_card_instruction_text_to_install_new">Είστε εκτός σύνδεσης. Για να συνεχίσετε να χρησιμοποιείτε τη φωνητική λειτουργία την επόμενη φορά που θα είστε εκτός σύνδεσης, εγκαταστήστε το τελευταίο πακέτο γλώσσας.</string>
-    <string name="offline_on_start_cue_cards_header_listening">Εκτός σύνδεσης</string>
-    <string name="offline_on_start_cue_cards_header_timeout">Φων. συμβ. εκτ. σύν.</string>
-    <string name="offline_on_start_cue_cards_second_header_listening">Μπορείτε ακόμα να πείτε…</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout">Μπορείτε ακόμα να πείτε \"Ok Google\", και μετά…</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout_without_hotword">Μπορείτε επίσης να πατήσετε το μικρόφωνο και να πείτε</string>
-    <string name="offline_options_start_hotword_disabled">Μπορείτε επίσης να πατήσετε το μικρόφωνο και να πείτε</string>
-    <string name="offline_searchbox_hint">\"%%s... %s\"</string>
     <string name="offline_voice_actions_error">Μη διαθ. φωνητ. ενέργ. εκτός σύνδεσης.</string>
     <string name="ok">ΟΚ</string>
     <string name="ok_prompt">OK</string>
-    <string name="omniconsent_action_button_scroll">Περισσότερα</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">Συνέχεια</string>
-    <string name="omniconsent_confirm_partial_experience_description">Μπορείτε να χρησιμοποιήσετε το περιορισμένο σύνολο λειτουργιών χωρίς την παροχή πρόσβασης στον λογαριασμό σας</string>
-    <string name="omniconsent_confirm_partial_experience_title">Ξεκινήστε να χρησιμοποιείτε τον Βοηθό Google</string>
     <string name="omniconsent_confirm_reject_dialog_button_negative">Ακύρωση</string>
     <string name="omniconsent_confirm_reject_dialog_button_positive">Ναι, είμαι βέβαιος/η</string>
     <string name="omniconsent_confirm_reject_dialog_message">Ο Βοηθός Google χρειάζεται αυτές τις άδειες προκειμένου να λειτουργεί σωστά. Χωρίς αυτές τις άδειες, δεν θα μπορείτε να χρησιμοποιήσετε σωστά τον Βοηθό σας.</string>
@@ -2626,13 +2572,11 @@
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">Ο Βοηθός αντιμετωπίζει κάποιο πρόβλημα με τον έλεγχο των στοιχείων ελέγχου δραστηριότητάς σας. Δοκιμάστε να τον χρησιμοποιήσετε ξανά αργότερα.</string>
     <string name="opa_consent_check_error_message_autherror">Βεβαιωθείτε ότι ο λογαριασμός σας έχει ρυθμιστεί πλήρως και δοκιμάστε ξανά.</string>
-    <string name="opa_consent_check_error_message_confirmreject">Με αυτά τα δικαιώματα, ο Βοηθός μπορεί να σας βοηθήσει με το ημερολόγιο, τις υπενθυμίσεις, τις συχνές διαδρομές, τις πτήσεις, τις παραγγελίες σας και πολλά άλλα.</string>
     <string name="opa_consent_check_error_message_notavailable">Ο Βοηθός Google χρειάζεται στοιχεία ελέγχου δραστηριότητας τα οποία έχουν περιοριστεί σε αυτόν τον λογαριασμό από τον διαχειριστή της συσκευής σας. Επικοινωνήστε με τον διαχειριστή σας ή κάντε εναλλαγή λογαριασμών και δοκιμάστε ξανά.</string>
     <string name="opa_consent_check_error_title">Παρουσιάστηκε κάποιο πρόβλημα</string>
     <string name="opa_consent_check_error_title_autherror">Δεν είναι δυνατός ο έλεγχος ταυτότητας του λογαριασμού σας</string>
     <string name="opa_consent_check_error_title_confirmreject">Απολαύστε την πλήρη εμπειρία του Βοηθού με αυτές τις ρυθμίσεις</string>
     <string name="opa_consent_check_error_title_notavailable">Ο Βοηθός Google δεν είναι διαθέσιμος για αυτόν τον λογαριασμό</string>
-    <string name="opa_consent_error_timeout_message">Παρουσιάστηκε σφάλμα δικτύου. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
     <string name="opa_contextual_cards_found_message">Δείτε ορισμένες πληροφορίες που σχετίζονται με αυτήν την οθόνη:</string>
     <string name="opa_contextual_cards_found_proactive_message">Παρεμπιπτόντως, δείτε τι βρήκα σχετικά με αυτήν την οθόνη:</string>
     <string name="opa_contextual_cards_network_error">Δεν είναι δυνατή η επικοινωνία με την Google αυτήν τη στιγμή.</string>
@@ -2644,14 +2588,10 @@
 
 Η διαγραφή από το ιστορικό του Βοηθού σας δεν θα επηρεάσει τις συναλλαγές ή τις ενέργειες αναίρεσης."</string>
     <string name="opa_delete_confirmation_title">Πριν από τη διαγραφή</string>
-    <string name="opa_disabled_error_no_button">ΟΧΙ</string>
-    <string name="opa_disabled_error_summary">Ο Βοηθός Google είναι απενεργοποιημένος. Θέλετε να τον ενεργοποιήσετε;</string>
-    <string name="opa_disabled_error_yes_button">ΝΑΙ</string>
     <string name="opa_disabled_no_button">Ακύρωση</string>
     <string name="opa_disabled_title">Ενεργοποιήστε τον Βοηθό σας</string>
     <string name="opa_dismiss_message">Σύρετε για παράβλεψη</string>
     <string name="opa_email_optin_screen_add_shortcut_explanation">Εύκολη πρόσβαση στον Βοηθό σας</string>
-    <string name="opa_email_optin_screen_confirm">Τέλος</string>
     <string name="opa_email_optin_screen_explanation">Μείνετε ενημερωμένοι με μηνύματα ηλεκτρονικού ταχυδρομείου σχετικά με τις πιο πρόσφατες λειτουργίες και ενέργειες που μπορεί να εκτελέσει ο Βοηθός</string>
     <string name="opa_email_optin_screen_next">Επόμενο</string>
     <string name="opa_email_optin_screen_sub_toggle_explanation">Προσθέστε τον Βοηθό στην αρχική οθόνη</string>
@@ -2670,8 +2610,6 @@
     <string name="opa_error_network_button">Ρυθμίσεις δικτύου</string>
     <string name="opa_error_network_message">Απαιτείται σύνδεση στο διαδίκτυο προκειμένου να χρησιμοποιήσετε τον Βοηθό Google. Ελέγξτε τη σύνδεσή σας και δοκιμάστε ξανά.</string>
     <string name="opa_error_network_title">Φαίνεται ότι είστε εκτός σύνδεσης</string>
-    <string name="opa_error_udc_spinner_content">Αυτό ενδέχεται να διαρκέσει μερικά λεπτά</string>
-    <string name="opa_error_udc_spinner_title">Ρύθμιση παραμέτρων…</string>
     <string name="opa_error_unsupported_device_button">ΚΛΕΙΣΙΜΟ</string>
     <string name="opa_error_unsupported_device_message">Η συσκευή σας χρειάζεται ορισμένα πράγματα, προκειμένου να μπορείτε να χρησιμοποιήσετε τον Βοηθό Google.</string>
     <string name="opa_error_unsupported_device_message_learn_more_link">https://support.google.com/assistant/answer/7172657</string>
@@ -2684,25 +2622,16 @@
     <string name="opa_error_update_required_title">Ο Βοηθός σας χρειάζεται ορισμένες νέες ικανότητες</string>
     <string name="opa_error_update_started_message">Αυτή η διαδικασία δεν θα διαρκέσει πολύ. Ο Βοηθός σας θα είναι έτοιμος σύντομα, για να σας βοηθήσει με όλες τις εργασίες της ημέρας.</string>
     <string name="opa_error_update_started_title">Ενημέρωση του Βοηθού σας</string>
-    <string name="opa_error_view_content_description">Σελίδα σφάλματος Βοηθού Google.</string>
     <string name="opa_eyes_free_opt_in_notification_body">Όταν το τηλέφωνό σας είναι κλειδωμένο, μπορείτε να χρησιμοποιήσετε τη φωνή σας για να μιλήσετε στον Βοηθό Google μέσω ενός ακουστικού</string>
     <string name="opa_eyes_free_opt_in_notification_title">Χρήση του Βοηθού Google με ακουστικά</string>
     <string name="opa_eyes_free_opt_in_speech">Όταν είναι ασφαλές, θα πρέπει πρώτα να πατήσετε στην ειδοποίηση. Στη συνέχεια, μπορείτε να επιτρέψετε στα ακουστικά να λειτουργούν με τον Βοηθό Google.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">Πατήστε για να συνεχίσετε</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">Δώστε στον Βοηθό Google την άδεια να σας βοηθήσει</string>
-    <string name="opa_first_screen_hotword_transition_cancel_button_text">Να γίνει αργότερα</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">Συμφωνώ</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text">ΕΝΑΡΞΗ</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">Έναρξη</string>
     <string name="opa_first_screen_hotword_transition_no_thanks_button_text">Όχι</string>
-    <string name="opa_first_screen_hotword_transition_skip_button_text">Παράβλεψη</string>
-    <string name="opa_first_screen_hotword_transition_summary">Πείτε \"%1$s\" για να μιλήσετε στον Βοηθό σας ανά πάσα στιγμή: ακόμη και όταν η οθόνη σας είναι απενεργοποιημένη ή όταν χρησιμοποιείτε τις αγαπημένες σας εφαρμογές.</string>
-    <string name="opa_first_screen_hotword_transition_summary_no_dsp">Πείτε \"%1$s\", για να μιλήσετε στον Βοηθό σας ανά πάσα στιγμή, με την οθόνη σας ενεργοποιημένη.</string>
     <string name="opa_first_screen_hotword_transition_summary_short">Το Voice Match σάς επιτρέπει να μεταβείτε απευθείας στον Βοηθό χρησιμοποιώντας φωνητικές εντολές, ακόμα και όταν η οθόνη είναι σβηστή.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">Το Voice Match σάς επιτρέπει να μεταβείτε απευθείας στον Βοηθό χρησιμοποιώντας φωνητικές εντολές.</string>
     <string name="opa_first_screen_hotword_transition_title">Μεταβείτε στον Βοηθό με το Voice Match</string>
-    <string name="opa_first_screen_tgoogle_summary">Θα μπορείτε να αποκτήσετε απευθείας πρόσβαση στον Βοηθό σας λέγοντας \"%1$s\"</string>
-    <string name="opa_first_screen_tgoogle_title">Μάθετε στον Βοηθό να αναγνωρίζει τη φράση \"%1$s\"</string>
     <string name="opa_fix_user_recoverable_error">ΕΠΙΛΥΣΗ</string>
     <string name="opa_gdpr_footer">"Θα δημιουργηθεί ένα μοναδικό μοντέλο της φωνής σας σε αυτήν τη συσκευή, το οποίο θα βοηθήσει τον Βοηθό σας να σας αναγνωρίζει και να σας ξεχωρίζει από άλλα άτομα. 
 
@@ -2726,7 +2655,6 @@
     <string name="opa_greeting_bubble_text_with_name">Γεια %1$s. Πώς μπορώ να βοηθήσω;</string>
     <string name="opa_hardware_button_training_continue">Συνέχεια</string>
     <string name="opa_hardware_button_training_desc_fallback">Πατήστε το κουμπί του Βοηθού, για να αρχίσετε να τον χρησιμοποιείτε ανά πάσα στιγμή</string>
-    <string name="opa_hardware_button_training_switch_title">Προσθέστε τον Βοηθό Google στην αρχική οθόνη σας.</string>
     <string name="opa_hardware_button_training_title">Ο Βοηθός σας απέχει μόλις ένα πάτημα</string>
     <string name="opa_history_delete_menu">Διαγραφή ομάδας</string>
     <string name="opa_history_edit_menu">Επεξεργασία ερωτήματος</string>
@@ -2751,15 +2679,12 @@
     <string name="opa_lock_icon_description">Ξεκλείδωμα εικονιδίου</string>
     <string name="opa_logo_content_desc">Λογότυπο Βοηθού Google</string>
     <string name="opa_mark_content">Βοηθός</string>
-    <string name="opa_marketplace_disclosure_description">Ο Βοηθός Google μπορεί να λειτουργήσει με διάφορες υπηρεσίες, για να σας βοηθήσει να εκτελείτε περισσότερες ενέργειες.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">Ο Βοηθός Google λειτουργεί με συνεργάτες της Google για να σας βοηθήσει με την εκτέλεση ενεργειών, είτε πρόκειται για αγορά εισιτηρίων για μια ταινία είτε για την επισκευή του νεροχύτη σας. &lt;a href=https://support.google.com/assistant/?p=google_partners>Μάθετε περισσότερα&lt;/a></string>
-    <string name="opa_marketplace_disclosure_google_partners_description">Οι συνεργάτες της Google είναι επιχειρήσεις οι οποίες έχουν εμπορική σχέση με την Google. Ο Βοηθός Google μπορεί να λειτουργήσει με τους συνεργάτες της Google για να σας βοηθήσει να εκτελείτε περισσότερες ενέργειες, είτε πρόκειται για την αγορά εισιτηρίων είτε για την επισκευή του νεροχύτη σας. <a href="https://support.google.com/assistant/?p=google_partners">Μάθετε περισσότερα</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">Οι συνεργάτες της Google είναι επιχειρήσεις οι οποίες έχουν εμπορική σχέση με την Google.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">Google Partners</string>
     <string name="opa_marketplace_disclosure_service_additional_text">Με αυτόν τον τρόπο, οι υπηρεσίες μπορούν να απομνημονεύουν δεδομένα, όπως είναι οι προτιμήσεις σας, κατά τη διάρκεια των συνομιλιών. Μπορείτε να προβάλετε, να διαχειριστείτε και να επαναφέρετε τα δεδομένα που αποστέλλονται στις υπηρεσίες από τη σελίδα κάθε υπηρεσίας στην ενότητα \"Εξερεύνηση\" αυτής της εφαρμογής. &lt;a href=https://support.google.com/assistant/?p=reset_id>Μάθετε περισσότερα&lt;/a></string>
     <string name="opa_marketplace_disclosure_service_short_description">Η Google στέλνει έναν μοναδικό κωδικό στις υπηρεσίες με τις οποίες συνομιλείτε.</string>
     <string name="opa_marketplace_disclosure_service_title">Υπηρεσίες και το απόρρητό σας</string>
-    <string name="opa_marketplace_disclosure_title">Αξιοποιήστε περισσότερο τον Βοηθό σας</string>
     <string name="opa_menu_content_description">Μενού Βοηθού Google.</string>
     <string name="opa_menu_what_can_you_do">Τι μπορείτε να κάνετε;</string>
     <string name="opa_music_search_suggestion_chip_title">Ποιο είναι αυτό το τραγούδι;</string>
@@ -2782,16 +2707,10 @@
     <string name="opa_offline_airplane_mode_indicator">"Το τηλέφωνό σας βρίσκεται σε λειτουργία πτήσης, γι' αυτό δεν μπορούμε να σας βοηθήσουμε αυτήν τη στιγμή."</string>
     <string name="opa_offline_help_prefix">Δείτε ορισμένα πράγματα που μπορείτε να κάνετε όταν το τηλέφωνό σας βρίσκεται εκτός σύνδεσης.</string>
     <string name="opa_offline_help_prefix_tts">Δείτε ορισμένα πράγματα που μπορείτε να κάνετε όταν το τηλέφωνό σας βρίσκεται εκτός σύνδεσης.</string>
-    <string name="opa_offline_install_language_pack_button">Εγκατάσταση πακέτου γλώσσας για τα %1$s</string>
     <string name="opa_offline_install_language_pack_button_clicked">Η λήψη του θα γίνει αυτόματα μόλις συνδεθείτε ξανά στο διαδίκτυο.</string>
-    <string name="opa_offline_install_language_pack_button_clicked_tts">Η λήψη του θα γίνει αυτόματα μόλις συνδεθείτε ξανά στο διαδίκτυο.</string>
-    <string name="opa_offline_install_language_pack_explanation">Για να συνεχίσετε να χρησιμοποιείτε τη φωνητική λειτουργία, θα πρέπει να εγκαταστήσετε το πακέτο γλώσσας για τα %1$s.</string>
-    <string name="opa_offline_install_language_pack_explanation_tts">Για να συνεχίσετε να χρησιμοποιείτε τη φωνητική λειτουργία, θα πρέπει να εγκαταστήσετε το πακέτο γλώσσας για τα %1$s.</string>
     <string name="opa_offline_poor_connectivity_indicator">"Το τηλέφωνό σας βρίσκεται εκτός σύνδεσης, γι' αυτό δεν μπορούμε να σας βοηθήσουμε αυτήν τη στιγμή."</string>
     <string name="opa_offline_poor_connectivity_indicator_tts">"Το τηλέφωνό σας βρίσκεται εκτός σύνδεσης, γι' αυτό δεν μπορούμε να σας βοηθήσουμε αυτήν τη στιγμή."</string>
     <string name="opa_offline_voice_tips_prefix">Επί τη ευκαιρία, δείτε μερικά πράγματα που μπορείτε να κάνετε όταν δεν υπάρχει σύνδεση…</string>
-    <string name="opa_offline_voice_tips_prefix_tts">Επί τη ευκαιρία, δείτε μερικά πράγματα που μπορείτε να κάνετε όταν δεν υπάρχει σύνδεση…</string>
-    <string name="opa_onboarding_view_content_description">Σελίδα ενσωμάτωσης Βοηθού Google.</string>
     <string name="opa_persistent_finish_setup_bar_button">ΕΝΑΡΞΗ</string>
     <string name="opa_persistent_finish_setup_bar_description">Ξεκλείδωμα επιπλέον λειτουργιών Βοηθού</string>
     <string name="opa_pre_upgrade_notifs_disable_text">Απενεργοποίηση</string>
@@ -2805,10 +2724,6 @@
     <string name="opa_screenless_nav_opt_in_notification_body">Κατά την πλοήγηση, μπορείτε να χρησιμοποιείτε τη φωνή σας για να μιλάτε στον Βοηθό Google</string>
     <string name="opa_screenless_nav_opt_in_notification_title">Χρήση του Βοηθού Google κατά την πλοήγηση</string>
     <string name="opa_screenless_nav_opt_in_speech">Όταν είναι ασφαλές, θα πρέπει πρώτα να πατήσετε την ειδοποίηση. Στη συνέχεια, θα μπορείτε να χρησιμοποιήσετε τον Βοηθό Google κατά την πλοήγηση.</string>
-    <string name="opa_screenshot_captured">Λήφθηκε στιγμιότυπο οθόνης</string>
-    <string name="opa_search_hint">Πληκτρολογήστε κάτι</string>
-    <string name="opa_search_plate_keyboard_icon_description">Εναλλαγή στη λειτουργία πληκτρολογίου</string>
-    <string name="opa_search_plate_mic_logo_description">Κουμπί φωνητικής αναζήτησης</string>
     <string name="opa_send_button_content_description">Αποστολή</string>
     <string name="opa_share_screenshot_setting_disabled">Για να μοιραστείτε ένα στιγμιότυπο οθόνης, δοκιμάστε ξανά.</string>
     <string name="opa_slow_connection">Η σύνδεσή σας είναι αργή</string>
@@ -2834,17 +2749,11 @@
     <string name="opa_voice_search_tap_mic_to_speak">Πατήστε το μικρόφωνο για να αρχίσετε να μιλάτε</string>
     <string name="opa_warm_welcome_greeting_0">Γεια σας! Είμαι ο προσωπικός σας Βοηθός Google.</string>
     <string name="opa_warm_welcome_greeting_1">Μπορώ να σας βοηθήσω να βρείτε αυτό που ψάχνετε και να εκτελέσω διάφορες ενέργειες. Αν χρειάζεστε βοήθεια, απλώς ρωτήστε \"Τι μπορείς να κάνεις;\"</string>
-    <string name="opa_warm_welcome_greeting_1_backup_0">Μπορώ να σας βοηθήσω να βρείτε αυτό που αναζητάτε, να ολοκληρώσετε τις ενέργειές σας, ακόμα και να διασκεδάσετε.</string>
-    <string name="opa_warm_welcome_greeting_1_backup_1">Μπορώ να σας βοηθήσω να βρείτε αυτό που αναζητάτε, να ολοκληρώσετε τις ενέργειές σας, ακόμα και να διασκεδάσετε. Αν χρειάζεστε βοήθεια, απλώς ρωτήστε \"What can you do?\".</string>
     <string name="opa_warm_welcome_greeting_2">Λοιπόν, πώς μπορώ να σας βοηθήσω;</string>
     <string name="opa_warm_welcome_suggestion_0">What can you do?</string>
     <string name="opa_warm_welcome_suggestion_1">Πλησιέστερη καφετέρια</string>
     <string name="opa_warm_welcome_suggestion_2">Πόσο μακριά είναι το φεγγάρι;</string>
-    <string name="opa_warm_welcome_suggestion_3">Άνοιγμα αριθμομηχανής</string>
     <string name="opa_warm_welcome_suggestion_4">Ενεργοποίηση φακού</string>
-    <string name="opa_welcome_promo_notification_content">Πατήστε παρατεταμένα το κουμπί αρχικής οθόνης για να τον δοκιμάσετε</string>
-    <string name="opa_welcome_promo_notification_title">Νέο! Μόλις αποκτήσατε τον Βοηθό Google</string>
-    <string name="opa_welcome_promo_sample_query">Τι μπορείτε να κάνετε;</string>
     <string name="opa_what_can_you_do_suggestion_chip_title">Τι μπορείτε να κάνετε;</string>
     <string name="opa_wuwa_notification_action_stop">ΔΙΑΚΟΠΗ</string>
     <string name="opa_wuwa_notification_content">Ξυπνητήρι στις %1$s</string>
@@ -2855,20 +2764,9 @@
     <string name="open_in_keep">ΑΝΟΙΓΜΑ ΣΤΟ GOOGLE KEEP</string>
     <string name="open_settings">Ρυθμίσεις</string>
     <string name="open_settings_button_text">Άνοιγμα ρυθμίσεων</string>
-    <string name="open_until">Ανοιχτό έως τις %1$s</string>
     <string name="opt_in_clockwork_punt_action_description">Πιέστε για άνοιγμα στο τηλέφωνο.</string>
-    <string name="opt_in_description_page_1">Το Google είναι πάντα ένα βήμα μπροστά, βοηθώντας σας να αντιμετωπίσετε τη μέρα σας με σιγουριά</string>
-    <string name="opt_in_description_page_2">Σας διατηρεί ενημερωμένους σχετικά με όσα σας ενδιαφέρουν</string>
-    <string name="opt_in_description_page_3">Αυτό σας επιτρέπει να πείτε \"Ok Google\" από οποιαδήποτε οθόνη και να εκτελέσετε εντολές</string>
-    <string name="opt_in_description_page_3_no_hotword">Σας επιτρέπει να χρησιμοποιήσετε φωνητικές εντολές για να εκτελέσετε ενέργειες</string>
     <string name="opt_in_more">Έναρξη</string>
     <string name="opt_in_more_marketing">ΕΝΕΡΓΟΠΟΙΗΣΗ</string>
-    <string name="opt_in_no_account_decline">Όχι</string>
-    <string name="opt_in_no_account_learn_more">&lt;a href=%1$s>Μάθετε περισσότερα&lt;/a></string>
-    <string name="opt_in_no_account_sign_in">Σύνδεση</string>
-    <string name="opt_in_no_account_subtitle">Δείτε προσαρμοσμένα αποτελέσματα αναζήτησης και ενημερώσεις σχετικά με θέματα που σας ενδιαφέρουν</string>
-    <string name="opt_in_no_account_title">Συνδεθείτε για να ξεκινήσετε</string>
-    <string name="opt_in_set_up">Έναρξη</string>
     <string name="opt_in_setting_ineligible_message_device_state_and_content">Για αυτήν την ενέργεια απαιτείται η ρύθμιση \"Πληροφορίες συσκευής\", η οποία δεν είναι διαθέσιμη σε αυτήν τη συσκευή</string>
     <string name="opt_in_setting_ineligible_tts">Δυστυχώς, αυτή η λειτουργία δεν είναι διαθέσιμη σε αυτήν τη συσκευή.</string>
     <string name="opt_in_setting_required_continue_button">ΣΥΝΕΧΕΙΑ</string>
@@ -2884,8 +2782,6 @@
     <string name="opt_in_setting_required_message_device_state_and_content_tts_gearhead">Κανένα πρόβλημα. Όταν είναι ασφαλές, θα χρειαστεί να κλείσετε την εφαρμογή Android Auto και να πατήσετε στην ειδοποίηση. Στη συνέχεια, μπορείτε να επιτρέψετε στην Google να αποκτήσει πρόσβαση στις επαφές στη συσκευή σας.</string>
     <string name="opt_in_setting_required_web_history_notification_body">Χρησιμοποιήστε φωνητικές εντολές για να πραγματοποιήσετε κλήσεις, να στείλετε μηνύματα κειμένου και περισσότερα</string>
     <string name="opt_in_setting_required_web_history_notification_title">Ενεργοποιήστε τη Δραστηριότητα ιστού και εφαρμογών</string>
-    <string name="opt_in_skip">Παράλειψη</string>
-    <string name="opt_in_skip_tutorial">Παράλειψη</string>
     <string name="opt_out_failed_authentication_error">Απέτυχε η απενεργοποίηση των καρτών λόγω προβλήματος δικαιωμάτων. Ελέγξτε τις ρυθμίσεις του λογαριασμού σας και δοκιμάστε ξανά.</string>
     <string name="opt_out_failed_network_error">Απέτυχε η απενεργοποίηση των καρτών λόγω σφάλματος δικτύου. Ελέγξτε τη σύνδεση δικτύου και δοκιμάστε ξανά.</string>
     <string name="optin_generic_error">Παρουσιάστηκε σφάλμα. Δοκιμάστε ξανά αργότερα.</string>
@@ -2933,7 +2829,6 @@
     <string name="payments_auth_password_try_again_message_attempt_2">Ο κωδικός πρόσβασης είναι εσφαλμένος. Δοκιμάστε ξανά.</string>
     <string name="payments_auth_password_try_again_message_attempt_last">Ο κωδικός πρόσβασης είναι εσφαλμένος. Για την ασφάλειά σας, η πληρωμή θα ακυρωθεί.</string>
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">Πάρα πολλές προσπάθειες. Καταχωρήστε τον κωδικό πρόσβασης.</string>
-    <string name="payments_auth_unknown_fingerprint_error">Σφάλμα κατά τη χρήση του δακτυλικού αποτυπώματος. Καταχωρίστε τον κωδικό πρόσβασης Google, για να συνεχίσετε.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">Χρήση δακτυλικού αποτυπώματος για μελλοντικές εγκρίσεις</string>
     <string name="penalties">Πέναλτι</string>
     <string name="permdesc_install_shortcut">Επιτρέπει σε μια εφαρμογή την προσθήκη συντομεύσεων χωρίς την παρέμβαση του χρήστη.</string>
@@ -3048,10 +2943,10 @@
     <string name="playback_panel_error">Αδυναμία αναπαραγ.</string>
     <string name="playback_status_buffering">Αποθήκευση στην προσωρινή μνήμη…</string>
     <string name="please_select">Επιλέξτε</string>
+    <string name="podcast_retry_download">Επανάληψη</string>
     <string name="podcasts">Podcast</string>
     <string name="pomo_tab_description">Καρτέλα \"Πρόσθετα\"</string>
     <string name="popup_new_content">Πατήστε για ενημέρωση</string>
-    <string name="predictive_cards">Η ροή σας</string>
     <string name="prefDialogTitle_language">Γλώσσα</string>
     <string name="prefDialogTitle_multiLanguage">Γλώσσες</string>
     <string name="prefDialogTitle_ttsMode">Έξοδος ομιλίας</string>
@@ -3086,8 +2981,6 @@
     <string name="pref_multilang_override_message">"Θα έχετε καλύτερα αποτελέσματα εάν κάνετε εναλλαγή της κύριας γλώσσας σας από %1$s σε %2$s.
 
 Εάν κάνετε αυτήν την αλλαγή, θα λαμβάνετε:"</string>
-    <string name="pref_regular_title_prefix_multiple_language">%1$s – %2$d επιπλέον</string>
-    <string name="pref_regular_title_prefix_no_additional_language">%s – καμία επιπλέον</string>
     <string name="preferences_license_summary">Λεπτομέρειες άδειας λογισμικού ανοιχτού κώδικα</string>
     <string name="preferences_license_title">Άδειες λογισμικού ανοικτού κώδικα</string>
     <string name="preinstalled">Προεγκατεστημένη</string>
@@ -3097,6 +2990,7 @@
     <string name="price_range_separator">·</string>
     <string name="priority_notifications_description">Το τηλέφωνό σας θα σας ειδοποιεί με βάση τις ρυθμίσεις προτεραιότητας ειδοποιήσεων, όταν οι ειδοποιήσεις σας είναι υψηλής προτεραιότητας</string>
     <string name="priority_notifications_preferences_category">Ειδοποιήσεις προτεραιότητας</string>
+    <string name="privacy">Privacy</string>
     <string name="problem_occurred_while_loading_cards">Προέκυψε κάποιο σφάλμα κατά τη φόρτωση των καρτών</string>
     <string name="profile_icon_a11y">Ανοίξτε τις ρυθμίσεις του Βοηθού</string>
     <string name="qp_bottom_baseball_inning">Τέλος %1$d</string>
@@ -3379,8 +3273,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_assist_enable_screenshot_prompt">Για να ενεργοποιήσετε αυτήν τη λειτουργία στην οθόνη αναζήτησης, ενεργοποιήστε τη ρύθμιση \"στιγμιότυπο οθόνης\"</string>
     <string name="screen_assist_network_not_ready">Δοκιμάστε ξανά σε λίγα λεπτά</string>
     <string name="screen_assist_network_unavailable_title">Το δίκτυο δεν είναι διαθέσιμο προς το παρόν</string>
-    <string name="screen_assist_nothing_on_tap">Δεν βρέθηκε τίποτα στην οθόνη σας</string>
-    <string name="screen_assist_now_stream_text">Δείτε παρακάτω τις κάρτες του πίνακα ελέγχου σας</string>
     <string name="screen_assist_save_screenshot">Αποθήκευση</string>
     <string name="screen_assist_saving_screenshot">Αποθήκευση στο Gallery</string>
     <string name="screen_assist_screenshot_saved">Το στιγμιότυπο οθόνης αποθηκεύτηκε</string>
@@ -3487,8 +3379,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="selected_interest">Ολοκληρώσατε την προσθήκη ενδιαφερόντων;</string>
     <string name="selection_hint">Επιλέξτε οποιοδήποτε κείμενο από την οθόνη</string>
     <string name="selection_load_error_prompt">Παρουσιάστηκε πρόβλημα κατά την ανάλυση αυτής της οθόνης</string>
-    <string name="selection_mode_promo">Πατήστε εδώ για να επιλέξετε κείμενο</string>
-    <string name="selection_prompt">Πατήστε για να επιλέξετε οποιοδήποτε κείμενο</string>
     <string name="selection_retry_ocr">Προσπαθήστε ξανά</string>
     <string name="send_feedback">Αποστολή σχολίων για την εφαρμογή</string>
     <string name="send_to_device_negative_button">Ακύρωση</string>
@@ -3528,13 +3418,13 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="sharebear_chooser_pane_edit">Επεξεργασία</string>
     <string name="sharebear_chooser_pane_edit_content_description">Επεξεργασία εικόνας</string>
     <string name="sharebear_chooser_pane_image_content_description">Μικρογραφία εικόνας</string>
+    <string name="sharebear_chooser_pane_image_search">Αναζήτηση εικόνων</string>
     <string name="sharebear_chooser_pane_share">Κοινοποίηση</string>
     <string name="sharebear_chooser_pane_subtitle">Επεξεργαστείτε και μοιραστείτε το στιγμιότυπο οθόνης σας</string>
     <string name="sharebear_chooser_pane_subtitle_with_collections">Προσθήκη στη Συλλογή, κοινή χρήση ή επεξεργασία του στιγμιότυπου οθόνης</string>
     <string name="sharebear_chooser_pane_title">Λήφθηκε στιγμιότυπο οθόνης</string>
     <string name="sharebear_color_black">Μαύρο χρώμα</string>
     <string name="sharebear_color_blue">Μπλε χρώμα</string>
-    <string name="sharebear_color_current">Τρέχον χρώμα</string>
     <string name="sharebear_color_green">Πράσινο χρώμα</string>
     <string name="sharebear_color_purple">Μωβ χρώμα</string>
     <string name="sharebear_color_red">Κόκκινο χρώμα</string>
@@ -3547,7 +3437,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="sharebear_link">Στιγμιότυπο οθόνης από %s</string>
     <string name="sharebear_screenshot_not_found">Το στιγμιότυπο οθόνης δεν βρέθηκε</string>
     <string name="sharebear_screenshotter_activity_label">Κοινοποίηση στιγμιότυπου οθόνης</string>
-    <string name="sharebear_share_saved_screenshot_chooser_title">Επεξεργασία και κοινοποίηση στιγμιότυπου οθόνης</string>
     <string name="sharebear_share_subject">Το στιγμιότυπο οθόνης κοινοποιήθηκε από την Google</string>
     <string name="sharebear_storage_permission_denied_toast">Οι αλλαγές στην εικόνα δεν θα αποθηκευτούν.</string>
     <string name="sharebear_storage_permission_request_info_not_now">Όχι τώρα</string>
@@ -3639,6 +3528,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="sound_search_unavailable">Η Αναζήτηση Ήχου δεν είναι διαθέσιμη στη χώρα σας</string>
     <string name="source_chip_desc">Προβολή περιεχομένου από τον χρήστη %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Οι ρυθμίσεις ταχύτητας δεν είναι διαθέσιμες κατά τη διάρκεια της μετάδοσης.</string>
     <string name="spoken_cancel_command_tts">ακύρωση</string>
     <string name="spoken_edit_sms_command_tts">επεξεργασία μηνύματος</string>
     <string name="spoken_language_selected">Η γλώσσα %s επιλέχθηκε ως κύρια</string>
@@ -3745,6 +3635,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="tab_title_tomorrow">Αύριο</string>
     <string name="tap_mic_to_speak">Πατήστε το μικρόφωνο για να αρχίσετε να μιλάτε</string>
     <string name="temperature_display">%1$s%2$s</string>
+    <string name="terms">Terms</string>
     <string name="text_selection_menu_translate_action">Μετάφραση</string>
     <string name="thank_you_dialog_body">Οι απαντήσεις σας συμβάλλουν στη βελτίωση της εμπειρίας χρήσης της Αναζήτησης Google.</string>
     <string name="thank_you_dialog_tilte">Σας ευχαριστούμε για τα σχόλια.</string>
@@ -3826,6 +3717,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="tomorrow_time">Αύριο, στις %1$s</string>
     <string name="too_many_locations_snackbar_text">Μπορείτε να αποθηκεύσετε έως 8. Πατήστε παρατεταμένα μια τοποθεσία για να την καταργήσετε.</string>
     <string name="toolbar_navigation_icon_description">Μετάβαση πίσω</string>
+    <string name="top_apps">Κορυφαίες εφαρμογές</string>
     <string name="top_contacts_group_header">Κορυφαίες επαφές</string>
     <string name="topdeck">Γραφικό στοιχείο</string>
     <string name="topdeck_show_all_cards_summary">Ενημερώσεις για συχνές διαδρομές, καιρό και τοπικές πληροφορίες στο γραφικό στοιχείο αρχικής οθόνης</string>
@@ -3943,14 +3835,10 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="unreplied_messages_group_header">Μηνύματα προτεραιότητας</string>
     <string name="unsubscribe_button_label">Έχετε εγγραφεί</string>
     <string name="unsupported_action">Αυτή η συσκευή δεν μπορεί να εκτελέσει την ενέργεια που ζητήσατε</string>
-    <string name="uos_account_picker_content_description">%1$s. Αναπτυσσόμενο μενού επιλογής λογαριασμού.</string>
     <string name="uos_account_picker_header_text">Επιλογή λογαριασμού</string>
     <string name="uos_add_account_content_description">Σύμβολο \"συν\". Προσθέστε έναν λογαριασμό.</string>
     <string name="uos_add_account_text">Προσθήκη λογαριασμού</string>
     <string name="uos_close_button_text">Όχι, ευχαριστώ</string>
-    <string name="uos_select_button_text">Συνέχεια</string>
-    <string name="uos_select_description">Μείνετε ενημερωμένοι σχετικά με την αγαπημένη σας μουσική, τις αγαπημένες σας εκπομπές, τις διασημότητες, τα αθλήματα, τα χόμπι και άλλο περιεχόμενο που σας ενδιαφέρει</string>
-    <string name="uos_select_intro">Να λαμβάνετε εξατομικευμένες ενημερώσεις;</string>
     <string name="uos_sign_in_button_text">Σύνδεση</string>
     <string name="uos_sign_in_description">Δείτε προσαρμοσμένα αποτελέσματα αναζήτησης και ενημερώσεις σχετικά με θέματα που σας ενδιαφέρουν</string>
     <string name="uos_sign_in_intro">Συνδεθείτε, για να ξεκινήσετε</string>
@@ -4144,6 +4032,10 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="voice_ime_language_auto">Αυτόματη</string>
     <string name="voice_language_preference_change">Η γλώσσα για τις φωνητικές σας εντολές άλλαξε επίσης σε %s</string>
     <string name="voice_language_preference_change_no_speaker_id">Η γλώσσα σας για φωνητικές εντολές έχει επίσης αλλάξει σε %1$s. Το \"%2$s\" διατίθεται μόνο στην αρχική σελίδα και στην εφαρμογή Google.</string>
+    <string name="voice_match_deeplink_welcome_action_button">Συνέχεια</string>
+    <string name="voice_match_deeplink_welcome_cancel_button">Ακύρωση</string>
+    <string name="voice_match_deeplink_welcome_explanation">Μετά από αυτήν τη σύντομη ρύθμιση, ο Βοηθός σας θα μπορεί να αναγνωρίσει τη φωνή σας.</string>
+    <string name="voice_match_deeplink_welcome_title">Συνέχεια σύνδεσης</string>
     <string name="voice_search_app_name">Φωνητική αναζήτηση</string>
     <string name="voice_selection_message">Επιλέξτε τη φωνή που θα χρησιμοποιεί ο Βοηθός σας για να σας μιλήσει. Μπορείτε να ακούσετε ένα δείγμα από κάθε φωνή.</string>
     <string name="voice_selection_title">Επιλέξτε τη φωνή του Βοηθού σας</string>
@@ -4222,7 +4114,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="your_location_search_menu_text">Η τοποθεσία σας</string>
     <string name="your_train_reservation">Η κράτηση τρένου σας</string>
     <string name="zero_state_generic_error_toast_message">Δυστυχώς, παρουσιάστηκε κάποιο πρόβλημα.</string>
-    <string name="zero_state_hint">Σύρετε προς τα επάνω για να δείτε τι υπάρχει για εσάς</string>
     <string name="zero_state_hint_text">Σύρετε προς τα επάνω για να δείτε τις ενημερώσεις σας</string>
     <string name="zero_state_network_error_toast_message">Δεν είναι δυνατή η επικοινωνία με την Google αυτήν τη στιγμή.</string>
     <string name="zerostate_explore_section_more">Περισσότερα</string>

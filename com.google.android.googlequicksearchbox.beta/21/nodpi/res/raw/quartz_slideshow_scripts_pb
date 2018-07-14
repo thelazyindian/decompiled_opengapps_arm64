@@ -16,30 +16,34 @@ Deadpool 2(Release|release)*D
 *what movie theaters are showing deadpool 2Cinemas & ShowtimesøU*%
 director of deadpool 2DirectorØ6*
 cast of deadpool 2Cast¨F
-Š
+²
 Prince Harry* 
 prince harry spouseSpouseØ6*,
 prince harry wedding dateWedding dateØ6*(
 prince harry profession
-ProfessionØ6
+ProfessionØ6*&
+prince harry education	EducationN
 „"
 Attractions in Barcelona*,
 placa de catalunyaPlaÃ§a de Catalunya¨F*
 montjuic castle	MontjuÃ¯c¨F*
 camp nouCamp Nou¨F
-Í
+‘
 u
 sq48GPb cgNUWc\"><div><span>(?<league>[^<]+)<.*team_name_left\">(?<team1>[^<]+)<.*team_name_right\">(?<team2>[^<]+)<* 
 '$team1' roster$team1 roster* 
 '$team2' roster$team2 roster*
 '$team1' coach$team1 coach*
-'$team2' coach$team2 coach*(
+'$team2' coach$team2 coach* 
+'$team1' titles$team1 titles* 
+'$team2' titles$team2 titles*(
 '$league' standings$league standings*&
 '$league' schedule$league schedule
-î%
+¤%
 (?<movieName>.*)(Release|release)*
 cast of '$movieName'Cast¨F*'
-director of '$movieName'DirectorØ6*3
+director of '$movieName'DirectorØ6*4
+'$movieName' filming locationFilming locationÈe*3
 movies similar to '$movieName'Similar movies¨F*F
 ,what movie theaters are showing '$movieName'Cinemas & ShowtimesøU
 ä€
@@ -47,9 +51,10 @@ sq48GPb cgNUWc\"><div><span>(?<league>[^<]+)<.*team_name_left\">(?<team1>[^<]+)<
 '$artistName' ageAgeˆ'*
 '$artistName' worksWorksØ6*!
 '$artistName' familyFamilyØ6
-Ú\
+ú\
 (?<playerName>.*)G\b(athlete|boxer|cricketer|driver|golfer|player|quarterback|wrestler)\b*
-'$playerName' winsWins*$
+'$playerName' winsWins*
+'$playerName' awardsAwards*$
 '$playerName' net worth	Net Worth*
 '$playerName' ageAge*
 '$playerName' familyFamily
@@ -59,27 +64,32 @@ sq48GPb cgNUWc\"><div><span>(?<league>[^<]+)<.*team_name_left\">(?<team1>[^<]+)<
 '$actorName' tv showsTV shows*
 '$actorName' awardsAwards*
 '$actorName' familyFamily
-§M
+ÍM
 (?<artistName>.*)8\b(composer|Composer|DJ|drummer|Drummer|singer|Singer)\b*
 '$artistName' songsSongs*
-'$artistName' ageAge*
+'$artistName' ageAge*$
+'$artistName' net worth	Net worth*
 '$artistName' familyFamily
-r4
+¸4
 (?<bandName>.*)!\b(band|Band|duo|Duo|trio|Trio)\b*
 '$bandName' songsSongs*
-'$bandName' membersMembers
-ÎU
-(?<aristocratName>.*)<\b(king|King|prince|Prince|princess|Princess|queen|Queen|)\b*
+'$bandName' membersMembers*!
+'$bandName' band originOrigin*!
+'$bandName' band awardsAwards
+·T
+(?<aristocratName>.*);\b(king|King|prince|Prince|princess|Princess|queen|Queen)\b*
 '$aristocratName' ageAgeˆ'*-
 '$aristocratName' profession
 Professionˆ'*%
-'$aristocratName' familyFamilyˆ'
+'$aristocratName' familyFamilyˆ'*;
+#'$aristocratName' titles and stylesTitles and stylesÈe*+
+'$aristocratName' net worth	Net worthÈe
 ‡"u
 s(Attractions|Destinations) in (?<location>.+) include (?<place1>[^,]+), (?<place2>[^,]+), (?<place3>.+) and others.*.
 #show me information about '$place1'$place1*.
 #show me information about '$place2'$place2*.
 #show me information about '$place3'$place3
-´&
+Ù&
 (?<countryName>.*)\b(Country in)\b*!
 '$countryName' capitalCapital*&
 '$countryName' languageLanguageˆ'*!
@@ -88,11 +98,41 @@ s(Attractions|Destinations) in (?<location>.+) include (?<place1>[^,]+), (?<plac
 Populationˆ'*%
 '$countryName' economics	Economics*&
 '$countryName' currencyCurrencyˆ'*!
-'$countryName' historyHistory
-Ò+
+'$countryName' historyHistory*#
+'$countryName' fun factFun fact
+÷+
 (?<cityName>.*)\b(Capital of|City in)\b*6
 '$cityName' tourist attractionsTourist attractions*
 '$cityName' climateClimate*'
 '$cityName' population
 Populationˆ'*"
-'$cityName' economics	Economics
+'$cityName' economics	Economics*#
+'$cityName' fun factFun factÈe
+Ö:
+(?<authorName>.*)%\b([Aa]uthor|[Ww]riter|[Nn]ovelist)\b*
+'$authorName' booksBooks*
+'$authorName' genreGenre*,
+'$authorName' writing styleWriting style*
+'$authorName' quotesQuotes*
+'$authorName' ageAge*
+'$authorName' familyFamily*.
+'$authorName' place of birthPlace of birth*$
+'$authorName' education	Education
+²&
+(?<companyName>.*)\b([Cc]ompany)\b* 
+'companyName' founderFounder*
+'companyName' ageAge*
+'companyName' ceoCEO*(
+'companyName' stock priceStock price**
+'companyName' headquartersHeadquarters*8
+!'companyName' number of employeesNumber of employees*"
+'companyName' fun factFun fact
+Ö
+(?<location>.*)
+\bTravel\b*
+'$location' weatherWeather*
+'$location' hotelsHotels*1
+"tourist attractions in '$location'Attractions*$
+'$location' population
+Population*
+'$location' climateClimate

@@ -108,10 +108,14 @@
     <string name="cancel">Չեղարկել</string>
     <string name="cancel_favorites_selection">Չեղարկել</string>
     <string name="cancelled">Չեղարկվել է</string>
+    <string name="cast_fail_to_connect_message">Չհաջողվեց միանալ %1$s սարքին: Փորձեք ավելի ուշ:</string>
+    <string name="cast_fail_to_reconnect_message">%1$s սարքի հետ կապը չհաջողվեց վերականգնել: Փորձեք ավելի ուշ:</string>
     <string name="cast_notification_connected_message">Միացված է %1$s-ին</string>
     <string name="cast_notification_connecting_message">Միանում է %1$s-ին</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Անջատել</string>
+    <string name="cast_reconnecting_message">Միացում</string>
+    <string name="cast_success_to_reconnect_message">%1$s սարքի հետ կապը վերականգնվեց</string>
     <string name="cct_account_mismatch_card_button_text">Բացել %1$s հավելվածը</string>
     <string name="cct_account_mismatch_card_header">Դիտեք ձեր վեբ էջերը</string>
     <string name="cct_account_mismatch_card_text">Ձեր գտած էջերն այստեղ դիտելու համար թարմացրեք &lt;b>%1$s-ի կարգավորումները&lt;/b> և միացրեք համաժամեցումը &lt;b>%2$s&lt;/b> հասցեի համար:</string>
@@ -171,7 +175,6 @@
     <string name="delivered">Առաքվել է</string>
     <string name="device_photo_group_header">Սարքի լուսանկարները</string>
     <string name="docs_group_header">Փաստաթղթեր</string>
-    <string name="donate">Նվիրաբերել</string>
     <string name="donate_button_label">Նվիրաբերել</string>
     <string name="done">Պատրաստ է</string>
     <string name="done_label">Պատրաստ է</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Ներբեռնված ֆայլը չի գտնվել</string>
     <string name="download_setting_message">Ներբեռնված թողարկումները հեռացվում են 30 օր հետո կամ դրանք լսելուց 24 ժամ անց</string>
     <string name="downloaded">Ներբեռնված է</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Ներբեռնված թողարկումներ</string>
     <string name="downloading">Ներբեռնում…</string>
     <string name="downloads">Ներբեռնումներ</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Հասանելի սերիաներ</string>
     <string name="episode_page_section_title">Սերիա</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Ձեզ համար</string>
     <string name="error">Սխալ</string>
     <string name="error_message">Որոնումը ձախողվեց: Նորից փորձեք:</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Յուրաքանչյուր աշխատանքային օր (երկ-ուրբ)</string>
     <string name="every_weekday_lower">յուրաքանչյուր աշխատանքային օր (երկ-ուրբ)</string>
     <string name="expand_button_title">Լրացուցիչ</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Փոդքաստը պարունակում է մեծահասակների համար նախատեսված բովանդակություն</string>
     <string name="fast_forward">Առաջանցում</string>
     <string name="favorite_images_tag_title">Նախընտրած պատկերներ</string>
     <string name="favorite_pages_tag_title">Նախընտրած կայքէջեր</string>
+    <string name="favorite_screenshots_tag_title">Նախընտրած սքրինշոթներ</string>
     <string name="first_run_cling_title">Բարի գալուստ</string>
     <string name="flight_group_header">Թռիչքներ</string>
     <string name="folder_closed">Պանակը փակ է</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">Ձեր բաժանորդագրությունները կարող եք տեսնել այստեղ</string>
     <string name="hotseat_out_of_space">Ընտրյալների ցուցակում այլևս ազատ տեղ չկա</string>
     <string name="hour_picker_description">Ժամերի ընտրիչ</string>
-    <string name="https_info_close">Փակել</string>
-    <string name="https_info_message">Փոդքաստի կայքի հետ ձեր կապն ապահով է:</string>
-    <string name="https_info_title">Ապահով կապ</string>
     <string name="i18n_address_line1_accessibility_label">Հասցե՝ տող 1</string>
     <string name="i18n_address_line1_label">Փոստային հասցե</string>
     <string name="i18n_address_line2_accessibility_label">Հասցե՝ տող 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">Դիտումներ</string>
     <string name="image_viewer_video_watch_label">Դիտել</string>
     <string name="image_viewer_view_all_related_images_accessibility">Դիտել բոլոր առնչվող պատկերները</string>
-    <string name="image_viewer_view_saved">Դիտել պահվածները</string>
     <string name="image_viewer_visit_site">Անցնել</string>
     <string name="indexing_not_ready">Առայժմ ցուցադրելու բան չկա: Միացեք համացանցին և մի քանի րոպեից նորից փորձեք:</string>
     <string name="info_target_label">Հավելվածի մասին</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Նշել որպես նվագարկված</string>
     <string name="mark_as_unplayed">Նշել որպես չնվագարկված</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Ձեր փոդքաստները</string>
     <string name="media_route_chooser_dialog_title">Ընտրեք սարքը</string>
     <string name="media_route_chooser_searching">Որոնվում են սարքեր…</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">Սխալ</string>
     <string name="playback_status_buffering">Բուֆերացում...</string>
     <string name="please_select">Խնդրում ենք ընտրել</string>
+    <string name="podcast_retry_download">Նորից փորձել</string>
     <string name="podcasts">Փոդքաստներ</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Հարցում՝ %s։</string>
     <string name="query_people_group_header">Կոնտակտներ</string>
     <string name="quoted_query">«%1$s»</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s»-ի որոնման արդյո
     <string name="request_storage_permission_dialog_message">Սերիաները ներբեռնելու համար Google-ին անհրաժեշտ է օգտագործել սարքի հիշողությունը</string>
     <string name="request_storage_permission_dialog_title">Թույլ տվեք օգտագործել հիշողությունը</string>
     <string name="reservation_group_header">Ամրագրումներ</string>
-    <string name="retry">Նորից փորձել</string>
     <string name="retry_failed_download">Նորից փորձել</string>
     <string name="returned">Վերադարձվել է</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s»-ի որոնման արդյո
     <string name="snackbar_message_removed_from_recently">Հեռացվել է վերջերս բացված էջերի ցանկից</string>
     <string name="source_chip_desc">Դիտել %s կոնտակտի բովանդակությունը։</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Արագության կարգավորումները հասանելի չեն հեռարձակման ժամանակ:</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Բաժանորդագրվել</string>
     <string name="subscribe_to_see_new_episodes">Բաժանորդագրվեք փոդքաստների՝ նոր սերիաներ դիտելու համար</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s»-ի որոնման արդյո
     <string name="suw_next_button_label">Առաջ</string>
     <string name="tab_episodes_in_progress">Ընթացքի մեջ</string>
     <string name="tab_new_episodes">Նոր</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s կոնտակտը թաքցվեց:</string>
     <string name="toast_hide_fail">Սխալ առաջացավ: Չհաջողվեց թաքցնել %s-ին:</string>
     <string name="toast_unhide">%s կոնտակտը նորից տեսանելի դարձավ:</string>

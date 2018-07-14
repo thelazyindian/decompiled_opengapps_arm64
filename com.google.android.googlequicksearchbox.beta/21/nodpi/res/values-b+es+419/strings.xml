@@ -95,11 +95,9 @@
     <string name="bisto_device_firmware_version_title">Versión de firmware</string>
     <string name="bisto_device_generic_oem_partner_app_setting_title">App de %1$s</string>
     <string name="bisto_device_help_pref">Ayuda</string>
-    <string name="bisto_device_information_separator">Información</string>
     <string name="bisto_device_make_and_model">Marca y modelo</string>
     <string name="bisto_device_notification_access_pref_summary">Permite las notificaciones por voz en tus audífonos</string>
     <string name="bisto_device_notification_access_pref_title">Activar notificaciones</string>
-    <string name="bisto_device_notifications_pref_summary">Escucha las notificaciones entrantes en voz alta</string>
     <string name="bisto_device_notifications_pref_title">Notificaciones por voz</string>
     <string name="bisto_device_oem_partner_app_summary">Opciones de configuración adicionales para tus audífonos</string>
     <string name="bisto_device_oem_partner_app_title">App de Bose Connect</string>
@@ -158,6 +156,10 @@
     <string name="cancel">Cancelar</string>
     <string name="cancel_favorites_selection">Cancelar</string>
     <string name="cancelled">Cancelado</string>
+    <string name="cast_fail_to_connect_message">No se pudo establecer conexión con %1$s. Vuelve a intentarlo más tarde.</string>
+    <string name="cast_fail_to_reconnect_message">No se pudo restablecer la conexión con %1$s. Vuelve a intentarlo más tarde.</string>
+    <string name="cast_reconnecting_message">Intentando restablecer la conexión</string>
+    <string name="cast_success_to_reconnect_message">Se restableció la conexión con %1$s</string>
     <string name="cct_account_mismatch_card_button_text">Abrir %1$s</string>
     <string name="cct_account_mismatch_card_header">Ver tus páginas web</string>
     <string name="cct_account_mismatch_card_text">Para ver aquí las páginas que encuentres, actualiza la &lt;b>%1$s configuración&lt;/b> y activa la sincronización en &lt;b>%2$s&lt;/b></string>
@@ -171,8 +173,6 @@
     <string name="confirm_ota_title">¿Deseas actualizar %1$s?</string>
     <string name="confirm_remove_all_dialog_message">Se quitarán todos los episodios descargados y no podrás deshacer esta acción.</string>
     <string name="confirm_remove_all_dialog_title">¿Confirmas esta acción?</string>
-    <string name="confirm_remove_device_confirm_toast">Se quitó el Asistente de Google de tus audífonos.</string>
-    <string name="confirm_remove_device_error_toast">No se puede quitar el Asistente de Google. Vuelve a intentarlo.</string>
     <string name="confirm_remove_device_positive_button">Quitar</string>
     <string name="confirm_remove_device_title">¿Deseas quitar el Asistente de Google?</string>
     <string name="confirm_unsubscribe_button_label">Anular la suscripción</string>
@@ -213,7 +213,6 @@ Para configurar el Asistente de Google más tarde, mantén presionado el botó
     <string name="dnd_announcement_alarms">Se activó el modo \"No interrumpir\", por lo que no escucharás las notificaciones entrantes.</string>
     <string name="dnd_announcement_priority">Se activó el modo \"No interrumpir\", por lo que no escucharás las notificaciones entrantes.</string>
     <string name="docs_group_header">Documentos</string>
-    <string name="donate">Donar</string>
     <string name="donate_button_label">Donar</string>
     <string name="done">Listo</string>
     <string name="download_again">Volver a descargar</string>
@@ -223,6 +222,7 @@ Para configurar el Asistente de Google más tarde, mantén presionado el botó
     <string name="download_not_found">No se encontró la descarga</string>
     <string name="download_setting_message">Los episodios descargados se quitan luego de 30 días o 24 horas después de que terminas de verlos</string>
     <string name="downloaded">Descargado</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Episodios descargados</string>
     <string name="downloading">Descargando…</string>
     <string name="downloads">Descargas</string>
@@ -234,6 +234,7 @@ Para configurar el Asistente de Google más tarde, mantén presionado el botó
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Episodios disponibles</string>
     <string name="episode_page_section_title">Episodio</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Para ti</string>
     <string name="error">Error</string>
     <string name="error_message">Error al realizar la búsqueda. Vuelve a intentarlo más tarde.</string>
@@ -248,13 +249,12 @@ Para configurar el Asistente de Google más tarde, mantén presionado el botó
     <string name="expand_rain_drop_group_messaging">Como no estás revisando los mensajes en %1$s, durante los próximos 30 minutos escucharás un timbre como este.</string>
     <string name="expand_rain_drop_messaging">Como no estás revisando los mensajes de %1$s, durante los próximos 30 minutos escucharás un timbre como este.</string>
     <string name="expand_rain_drop_non_messaging">Como no estás revisando las notificaciones de %1$s, durante los próximos 30 minutos escucharás un timbre como este.</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">El podcast tiene contenido explícito</string>
     <string name="fast_forward">Avanzar</string>
     <string name="favorite_images_tag_title">Imágenes favoritas</string>
     <string name="favorite_pages_tag_title">Páginas favoritas</string>
+    <string name="favorite_screenshots_tag_title">Capturas de pantalla favoritas</string>
     <string name="finish_screen_action_text">LISTO</string>
-    <string name="finish_screen_content_description">Animación que muestra cómo mantener presionado el botón en la parte posterior de los auriculares al hacer una pregunta y, luego, soltarlo al terminar</string>
     <string name="finish_screen_message_apollo">"Haz una prueba.
 "<b>Mantén presionado</b>" el auricular derecho mientras hablas. Suéltalo cuando termines.
 Di \"¿Qué puedes hacer?\""</string>
@@ -317,9 +317,6 @@ Intenta volver a buscar el podcast."</string>
     <string name="how_to_fetch4_level_2">Cuando quieras escuchar las notificaciones más recientes, presiona el botón del Asistente de Google.</string>
     <string name="how_to_fetcht">Puedes escuchar las notificaciones durante una hora como máximo. Para ello, presiona dos veces el auricular derecho.</string>
     <string name="how_to_fetcht_level_2">Cuando quieras escuchar las notificaciones más recientes, presiona dos veces el auricular derecho.</string>
-    <string name="https_info_close">Cerrar</string>
-    <string name="https_info_message">Tu conexión con el sitio de podcasts es privada.</string>
-    <string name="https_info_title">Conexión segura</string>
     <string name="i18n_address_line1_accessibility_label">Dirección: línea 1</string>
     <string name="i18n_address_line1_label">Dirección</string>
     <string name="i18n_address_line2_accessibility_label">Dirección: línea 2</string>
@@ -382,7 +379,6 @@ Intenta volver a buscar el podcast."</string>
     <string name="image_viewer_video_view_count_label">Vistas</string>
     <string name="image_viewer_video_watch_label">Mirar</string>
     <string name="image_viewer_view_all_related_images_accessibility">Ver todas las imágenes relacionadas</string>
-    <string name="image_viewer_view_saved">Ver imágenes guardadas</string>
     <string name="image_viewer_visit_site">Visitar</string>
     <string name="incoming_call">Llamada de %1$s</string>
     <string name="incoming_call_hangouts">Llamada de Hangouts de %1$s. %2$s</string>
@@ -425,7 +421,6 @@ Intenta volver a buscar el podcast."</string>
     <string name="item_added_to_workspace">Se agregó el elemento a la pantalla principal.</string>
     <string name="item_moved">Elemento movido</string>
     <string name="item_removed">Se eliminó el elemento.</string>
-    <string name="join_two_bundle_summaries">%1$s y %2$s</string>
     <string name="last_visit_text">Última visita:</string>
     <string name="legacy_assistant_instruction_message">Presiona el botón durante 2 segundos y, luego, suéltalo para hablar con el Asistente de Google</string>
     <string name="legacy_assistant_instruction_title">Habla con el Asistente de Google</string>
@@ -441,9 +436,9 @@ Intenta volver a buscar el podcast."</string>
     <string name="longpress_menu_download">Descargar imagen</string>
     <string name="longpress_menu_share">Compartir imagen</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
-    <string name="magic_pairing_notification_title_generic">Audífonos con el Asistente de Google</string>
     <string name="mark_as_played">Marcar como reproducido</string>
     <string name="mark_as_unplayed">Marcar como sin reproducir</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Tus podcasts</string>
     <string name="media_route_chooser_dialog_title">Transmitir a</string>
     <string name="media_route_chooser_searching">Buscando dispositivos…</string>
@@ -534,8 +529,6 @@ Descubre y controla todas tus búsquedas de Google y mucho más en Mi actividad.
     <string name="ota_complete_next">SIGUIENTE</string>
     <string name="ota_complete_title">Se actualizaron los Google Pixel Buds</string>
     <string name="ota_complete_title_default">Se actualizaron los audífonos</string>
-    <string name="ota_fail_notif_text">Intenta reiniciar los audífonos. Para solucionar el problema, visita el Centro de ayuda.</string>
-    <string name="ota_fail_notif_title">No se pueden actualizar los audífonos</string>
     <string name="ota_failed_message">Asegúrate de que la conexión Bluetooth del teléfono esté activada y abre la funda de carga cerca del teléfono con los auriculares aún dentro. Para obtener más ayuda, visita el Centro de ayuda.</string>
     <string name="ota_failed_title">No se pueden actualizar los Google Pixel Buds</string>
     <string name="ota_failed_title_default">No se pueden actualizar los audífonos</string>
@@ -586,8 +579,10 @@ Si la conexión Wi-Fi está desactivada, se usarán los datos móviles para desc
     <string name="playback_panel_error">Error</string>
     <string name="playback_status_buffering">Almacenando en búfer…</string>
     <string name="please_select">Selecciona</string>
+    <string name="podcast_retry_download">Reintentar</string>
     <string name="podcasts">Podcasts</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Consulta: %s.</string>
     <string name="query_people_group_header">Contactos</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -696,7 +691,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">Para descargar episodios, Google necesita acceder al almacenamiento del dispositivo</string>
     <string name="request_storage_permission_dialog_title">Permitir acceso al almacenamiento</string>
     <string name="reservation_group_header">Reservas</string>
-    <string name="retry">Reintentar</string>
     <string name="retry_failed_download">Volver a intentar la descarga</string>
     <string name="returned">Devuelto</string>
     <string name="review_count_text">(%d)</string>
@@ -764,10 +758,12 @@ Si presionas "<b>tres veces</b> el auricular derecho, podrás suspenderlos o act
     <string name="snackbar_message_removed_from_recently">Se quitó de las páginas recientes</string>
     <string name="source_chip_desc">Ver contenido de %s</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">La configuración de velocidad no está disponible mientras se transmite contenido.</string>
     <string name="subscribe_button_label">Suscribirse</string>
     <string name="subscribe_to_see_new_episodes">Suscríbete a podcasts para ver nuevos episodios</string>
     <string name="tab_episodes_in_progress">En curso</string>
     <string name="tab_new_episodes">Nuevo</string>
+    <string name="terms">Terms</string>
     <string name="time_announcement">Hora: %1$s</string>
     <string name="toast_hide">Se ocultó a %s correctamente.</string>
     <string name="toast_hide_fail">Ocurrió un error. No se ocultó a %s.</string>

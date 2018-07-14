@@ -4,12 +4,17 @@
     <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
     <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
     <style name="BottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:colorBackground">@android:color/transparent</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/white</item>
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar">true</item>
+    </style>
+    <style name="BottomSheetDialog.DarkTheme" parent="@style/BottomSheetDialog">
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowLightNavigationBar">false</item>
     </style>
     <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
         <item name="colorError">?android:colorError</item>

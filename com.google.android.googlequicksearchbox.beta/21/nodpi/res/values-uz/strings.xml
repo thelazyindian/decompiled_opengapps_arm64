@@ -108,10 +108,14 @@
     <string name="cancel">Bekor qilish</string>
     <string name="cancel_favorites_selection">Bekor qilish</string>
     <string name="cancelled">Bekor qilindi</string>
+    <string name="cast_fail_to_connect_message">%1$s qurilmasiga ulanilmadi. Keyinroq qaytadan urining.</string>
+    <string name="cast_fail_to_reconnect_message">%1$s qurilmasiga qayta ulanilmadi. Keyinroq qaytadan urining.</string>
     <string name="cast_notification_connected_message">Ulandi: %1$s</string>
     <string name="cast_notification_connecting_message">Ulanmoqda: %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Aloqani uzish</string>
+    <string name="cast_reconnecting_message">Qayta ulanilmoqda</string>
+    <string name="cast_success_to_reconnect_message">%1$s qurilmasiga qayta ulanildi</string>
     <string name="cct_account_mismatch_card_button_text">Ochish (%1$s)</string>
     <string name="cct_account_mismatch_card_header">Veb-sahifalarni ko‘rish</string>
     <string name="cct_account_mismatch_card_text">Shu yerda topilgan sahifalarni ko‘rish uchun &lt;b>%1$s sozlamalarini&lt;/b> yangilang va &lt;b>%2$s&lt;/b> uchun sinxronizatsiyani yoqing</string>
@@ -171,7 +175,6 @@
     <string name="delivered">Yetkazildi</string>
     <string name="device_photo_group_header">Qurilmadagi suratlar</string>
     <string name="docs_group_header">Hujjatlar</string>
-    <string name="donate">Xayriya</string>
     <string name="donate_button_label">Xayriya</string>
     <string name="done">Tayyor</string>
     <string name="done_label">Tayyor</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Yuklanma topilmadi</string>
     <string name="download_setting_message">Yuklab olingan qismlar 30 kundan keyin yoki tinglangandan 24 soatdan keyin o‘chirib tashlanadi</string>
     <string name="downloaded">Yuklab olindi</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Yuklab olingan qismlar</string>
     <string name="downloading">Yuklab olinmoqda…</string>
     <string name="downloads">Yuklanmalar</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Mavjud qismlar</string>
     <string name="episode_page_section_title">Qism</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Siz uchun</string>
     <string name="error">Xato</string>
     <string name="error_message">Qidirib bo‘lmadi. Keyinroq qaytadan urinib ko‘ring.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Ish kunlari (Dushanba – Juma)</string>
     <string name="every_weekday_lower">ish kunlari (Dushanba – Juma)</string>
     <string name="expand_button_title">Ekspert</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Podkastda shahvoniy mazmundagi kontent bor</string>
     <string name="fast_forward">Oldinga o‘tkazish</string>
     <string name="favorite_images_tag_title">Sevimli rasmlar</string>
     <string name="favorite_pages_tag_title">Sevimli sahifalar</string>
+    <string name="favorite_screenshots_tag_title">Sevimli skrinshotlar</string>
     <string name="first_run_cling_title">Xush kelibsiz</string>
     <string name="flight_group_header">Parvozlar</string>
     <string name="folder_closed">Jild yopildi</string>
@@ -300,9 +305,6 @@ Podkastni qayta qidirib ko‘ring."</string>
     <string name="homebase_link_tool_tip_message">Obunalarimni ko‘rsatish</string>
     <string name="hotseat_out_of_space">Ajratilganlarda birorta ham xona yo‘q</string>
     <string name="hour_picker_description">Siferblatda soatni tanlash</string>
-    <string name="https_info_close">Yopish</string>
-    <string name="https_info_message">Podkast sayti bilan o‘rnatilgan aloqa yopiq.</string>
-    <string name="https_info_title">Xavfsiz aloqa</string>
     <string name="i18n_address_line1_accessibility_label">Turarjoy manzili: 1-qator</string>
     <string name="i18n_address_line1_label">Ko‘cha manzili</string>
     <string name="i18n_address_line2_accessibility_label">Turarjoy manzili: 2-qator</string>
@@ -365,7 +367,6 @@ Podkastni qayta qidirib ko‘ring."</string>
     <string name="image_viewer_video_view_count_label">Ko‘rishlar soni</string>
     <string name="image_viewer_video_watch_label">Tomosha qilish</string>
     <string name="image_viewer_view_all_related_images_accessibility">Barcha o‘xshash rasmlarni ko‘rish</string>
-    <string name="image_viewer_view_saved">Saqlanganlarni ko‘rish</string>
     <string name="image_viewer_visit_site">Tashrif buyurish</string>
     <string name="indexing_not_ready">Ko‘rsatish uchun hech qanday kontent yo‘q. Internetga ulanib, bir necha daqiqadan keyin qayting.</string>
     <string name="info_target_label">Ilova haqida</string>
@@ -405,6 +406,7 @@ Podkastni qayta qidirib ko‘ring."</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Tinglangan deb belgilash</string>
     <string name="mark_as_unplayed">Tinglanmagan deb belgilash</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Podkastlaringiz</string>
     <string name="media_route_chooser_dialog_title">Qurilmani tanlang</string>
     <string name="media_route_chooser_searching">Qurilmalar qidirilmoqda…</string>
@@ -520,8 +522,10 @@ Mening harakatlarim sahifasida barcha Google qidiruvlaringizni ko‘rib chiqish 
     <string name="playback_panel_error">Ijro qilib bo‘lmadi</string>
     <string name="playback_status_buffering">Buferlanmoqda…</string>
     <string name="please_select">Tanlang</string>
+    <string name="podcast_retry_download">Qayta urinish</string>
     <string name="podcasts">Podkastlar</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">So‘rov: %s.</string>
     <string name="query_people_group_header">Kontaktlar</string>
     <string name="quoted_query">“%1$s”</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">Qismlarni yuklab olish uchun Google uchun qurilma xotirasiga kirishiga ruxsat bering</string>
     <string name="request_storage_permission_dialog_title">Xotiraga kirishga ruxsat bering</string>
     <string name="reservation_group_header">Bandlovlar</string>
-    <string name="retry">Qayta urinish</string>
     <string name="retry_failed_download">Qaytadan</string>
     <string name="returned">Qaytarildi</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ Kontent mavjud emas."</string>
     <string name="snackbar_message_removed_from_recently">Oxirgi so‘rovlardan olib tashlandi</string>
     <string name="source_chip_desc">%sga tegishli barcha kontentlar.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Translatsiya paytida tezlik sozlamalari ishlamaydi.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Obuna</string>
     <string name="subscribe_to_see_new_episodes">Yangi qismlarni olish uchun podkastlarga obuna bo‘ling</string>
@@ -734,6 +738,7 @@ Kontent mavjud emas."</string>
     <string name="suw_next_button_label">Keyingisi</string>
     <string name="tab_episodes_in_progress">Davom etmoqda</string>
     <string name="tab_new_episodes">Yangi</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s berkitildi.</string>
     <string name="toast_hide_fail">Nimadir xato ketdi! %s berkitilmadi.</string>
     <string name="toast_unhide">%s ko‘rsatildi.</string>

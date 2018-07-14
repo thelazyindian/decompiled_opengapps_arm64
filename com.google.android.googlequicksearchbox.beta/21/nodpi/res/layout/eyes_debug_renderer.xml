@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/overlay_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitStart" />
     <TextView android:textColor="#ffaaffaa" android:layout_gravity="center|top" android:id="@id/capture_status" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     <LinearLayout android:gravity="center|left|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
         <TextView android:textColor="#ffaaffaa" android:id="@id/number_of_tracked_features" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
@@ -10,6 +11,8 @@
         <TextView android:textColor="#ffaaffaa" android:id="@id/prefetch_to_final_request_latency" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         <TextView android:textColor="#ffaaffaa" android:id="@id/final_request_to_response_latency" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         <TextView android:textColor="#ffaaffaa" android:id="@id/device_orientation" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="#ffaaffaa" android:id="@id/prefetch_image_metadata" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="#ffaaffaa" android:id="@id/on_device_ocr" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </LinearLayout>
     <TextView android:textColor="#ffaaffaa" android:layout_gravity="center|right|top" android:id="@id/location_information" android:background="#40000000" android:layout_width="wrap_content" android:layout_height="wrap_content" />
 </FrameLayout>

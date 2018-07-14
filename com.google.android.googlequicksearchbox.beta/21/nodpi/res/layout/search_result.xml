@@ -6,5 +6,5 @@
         <TextView android:ellipsize="end" android:id="@id/search_result_title" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:importantForAccessibility="no" android:textDirection="locale" style="@style/eames_title" />
         <TextView android:ellipsize="end" android:id="@id/search_result_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:importantForAccessibility="no" android:textDirection="locale" style="@style/eames_subtitle" />
     </LinearLayout>
-    <com.google.android.apps.gsa.plugins.podcastplayer.PlayProgressButton android:gravity="center" android:id="@id/play_progress_button" android:layout_width="@dimen/bullet_size" android:layout_height="@dimen/bullet_size" android:layout_marginLeft="4.0dip" android:contentDescription="@string/play_this_episode" android:layout_marginStart="4.0dip" />
+    <com.google.android.apps.gsa.plugins.podcastplayer.ui.PlayProgressButton android:gravity="center" android:id="@id/play_progress_button" android:layout_width="@dimen/bullet_size" android:layout_height="@dimen/bullet_size" android:layout_marginLeft="4.0dip" android:contentDescription="@string/play_this_episode" android:layout_marginStart="4.0dip" />
 </LinearLayout>

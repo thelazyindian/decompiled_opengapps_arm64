@@ -54,6 +54,7 @@
     <string name="access_now_promo_content_description">‏פתח את הפידים שלך מ-Google</string>
     <string name="access_now_promo_detail">אפשר להקיש כדי לראות עדכונים וכתבות בנושאים שמעניינים אותך</string>
     <string name="accessibility_android_for_work_icon">פרופיל עבודה</string>
+    <string name="accessibility_assistant_button">Google Assistant</string>
     <string name="accessibility_collapse">כיווץ</string>
     <string name="accessibility_drawer_menu_button">תפריט</string>
     <string name="accessibility_expand">הרחבה</string>
@@ -77,7 +78,6 @@
     <string name="accessibility_voice_search_button">חיפוש קולי</string>
     <string name="account_item">עבור אל %1$s</string>
     <string name="account_list">רשימת חשבונות</string>
-    <string name="account_not_eligible">חשבון זה אינו כשיר להשתמש בעדכון</string>
     <string name="account_number">מספר חשבון</string>
     <string name="account_settings">חשבונות ופרטיות</string>
     <string name="account_settings_cant_open">פתיחת בחירת הפעילויות נכשלה.</string>
@@ -243,7 +243,6 @@
     <string name="agenda_group_tomorrow_title">מחר</string>
     <string name="agenda_hub_title">מה צפוי לך בקרוב</string>
     <string name="agenda_icon_description">סמל של סדר היום</string>
-    <string name="agenda_section_title">מה צפוי לך בקרוב</string>
     <string name="agent_bookmark_added">נשמר בסימניות</string>
     <string name="agent_bookmark_error">קרתה שגיאה. צריך לנסות שוב מאוחר יותר.</string>
     <string name="agent_bookmark_removed">הוסר מהסימניות</string>
@@ -321,7 +320,7 @@
     <string name="all_apps_loading_message">טוען אפליקציות…</string>
     <string name="all_apps_no_search_results">לא נמצאו אפליקציות התואמות ל-\"%1$s\"</string>
     <string name="all_apps_search_bar_hint">חיפוש אפליקציות...</string>
-    <string name="all_apps_search_market_message">חפש אפליקציות נוספות</string>
+    <string name="all_apps_search_market_message">עבור אל %1$s</string>
     <string name="all_chain_locations">כל המיקומים</string>
     <string name="all_day">כל היום</string>
     <string name="all_day_at_location">כל היום ב-%1$s</string>
@@ -380,8 +379,6 @@
     <string name="as_selected_account">מחובר אל %1$s</string>
     <string name="as_show_account_list">הצג חשבונות</string>
     <string name="as_sign_in">כניסה</string>
-    <string name="assist_dialog_close">אישור</string>
-    <string name="assist_dialog_dont_show">אל תציג שוב</string>
     <string name="assist_layer_dismiss">סגירת חיפוש במסך</string>
     <string name="assist_layer_to_now">‏עבור אל Google</string>
     <string name="assist_optin_accept">כן, אני מעוניין</string>
@@ -389,10 +386,7 @@
     <string name="assist_optin_decline">לא, תודה</string>
     <string name="assist_optin_donate_screenshot">"‏תרומה בצילום מסך לחיפוש במסך
 אפשר ל-Google לשמור ולנתח את צילומי המסך בחיפוש מסך ללא הגבלת זמן"</string>
-    <string name="assist_optin_get_started">התחל</string>
     <string name="assist_optin_learn_more_text">מידע נוסף</string>
-    <string name="assist_optin_not_eligible">לא ניתן להפעיל חיפוש במסך</string>
-    <string name="assist_optin_title">מצאת חיפוש במסך!</string>
     <string name="assist_share_screenshot_failure">משהו השתבש. נסה שוב מאוחר יותר.</string>
     <string name="assist_share_screenshot_off">לאסיסטנט אין גישה לצילומי מסך. בדוק את ההגדרות.</string>
     <string name="assist_translate_screenshot_failure">משהו השתבש. נסה שוב מאוחר יותר.</string>
@@ -475,8 +469,6 @@
     <string name="assistant_settings_cast_title">טלוויזיות ורמקולים</string>
     <string name="assistant_settings_cast_voice_invite_summary">הם יוכלו לגשת למידע שלהם במכשירים משותפים</string>
     <string name="assistant_settings_cast_voice_invite_title">שליחת הזמנה לאנשים האחרים שמשתמשים במכשירים שלך</string>
-    <string name="assistant_settings_cast_voice_not_recognized">"‏ה-Assistant לא מזהה אותך?
-"</string>
     <string name="assistant_settings_cast_voice_retrain_summary">הקלטה חדשה עשויה לשפר את הזיהוי הקולי</string>
     <string name="assistant_settings_cast_voice_retrain_title">‏כדי ש-Assistant יוכל לזהות את קולך, צריך ללמד אותו שוב</string>
     <string name="assistant_settings_common_device_id_category">‏התאמת ההגדרות של ה-Assistant במכשיר</string>
@@ -648,7 +640,6 @@
     <string name="assistant_settings_music_title">מוזיקה</string>
     <string name="assistant_settings_music_unable_unlink_default">לא ניתן לבטל את הקישור לספק המוזיקה המוגדר כברירת מחדל</string>
     <string name="assistant_settings_music_unlink_dialog_text">‏ביטול הקישור של החשבון תכבה את הגישה לאפשרות ההפעלה מ-%1$s באמצעות Google Assistant.</string>
-    <string name="assistant_settings_music_youtube_premium_dialog_text">‏נדרש מינוי ל-YouTube Premium כדי לנגן מוזיקה מ-YouTube מוזיקה ב-Google Home. ניתן להירשם בכתובת <a href="http://youtube.com/red">youtube.com/red‏</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_text_v2">‏נדרש מינוי YouTube Music Premium כדי לנגן מוזיקה מ-YouTube מוזיקה ב-Google Home. ניתן להירשם בכתובת <a href="http://youtube.com/musicpremium">youtube.com/musicpremium‏</a>.</string>
     <string name="assistant_settings_music_youtube_premium_dialog_title">‏נדרש מינוי ל-YouTube Premium</string>
     <string name="assistant_settings_news_provider_delete_button_description">הסר את %1$s מהמקורות החדשותיים המופעלים</string>
@@ -824,7 +815,7 @@
     <string name="assistant_settings_summer_time_mode_availability_clarification">"‏מצב 'שיחה מתמשכת' זמין בשלב זה באנגלית (ארה\"ב). אם נעשה שימוש במכשירי Google Home שלא מופיעים פה, האדם שהוא בעל החשבון העיקרי במכשירים אלה יכול להפעיל את מצב 'שיחה מתמשכת' או לכבות אותו בהגדרות ה-Assistant."</string>
     <string name="assistant_settings_summer_time_mode_availability_description">‏ניתן לשנות את ההגדרה הזו למכשירי Google Home הבאים</string>
     <string name="assistant_settings_summer_time_mode_availability_no_devices">אין מכשירים זמינים</string>
-    <string name="assistant_settings_summer_time_mode_button_summary">"‏המיקרופון במכשיר ייפתח מחדש לאחר כל תגובה כדי להאזין לשאלות המשך. השאלות יופיעו כרגיל בקטע 'הפעילות שלי'. קטעי אודיו שה-Assistant לא יגיב עליהם יימחקו מחשבון Google שלך."</string>
+    <string name="assistant_settings_summer_time_mode_button_summary">"‏המיקרופון במכשיר ייפתח מחדש לזמן קצר לאחר כל תגובה כדי להאזין לשאלות המשך. השאלות יופיעו כרגיל בקטע 'הפעילות שלי'. קטעי אודיו שה-Assistant לא יגיב עליהם יימחקו מחשבון Google שלך."</string>
     <string name="assistant_settings_summer_time_mode_button_title">שיחה מתמשכת</string>
     <string name="assistant_settings_summer_time_mode_title">שיחה מתמשכת</string>
     <string name="assistant_settings_turn_off_voice_match">‏אם מכבים את Voice Match, הקישור בין החשבון למכשיר מתבטל. חשבון אחד לפחות צריך להיות מקושר כדי שניתן יהיה להשתמש במכשיר התומך ב-Google Assistant. להמשיך? </string>
@@ -924,7 +915,6 @@
     <string name="background_notification_onboarding">‏אין לך חיבור לאינטרנט? אין בעיה. Google תזכור את החיפוש ותשלח לך הודעה כשהתוצאות יהיו מוכנות.</string>
     <string name="background_notification_onboarding_accept">אישור</string>
     <string name="background_notification_onboarding_decline">השבת</string>
-    <string name="background_notification_ready">תוצאות החיפוש מוכנות</string>
     <string name="background_notification_settings">הגדרות</string>
     <string name="background_retry_data_saver_dialog_text">"‏כדי לקבל הודעה כשהתוצאות מוכנות, כבה את חוסך הנתונים (Data Saver) ל-Google app ב'הגדרות'"</string>
     <string name="background_retry_data_saver_dialog_title">‏חוסך הנתונים (Data Saver) מופעל</string>
@@ -1011,20 +1001,21 @@
     <string name="card_category_notification_category">קבל הודעות על</string>
     <string name="card_dismissed">הכרטיס הוסר</string>
     <string name="card_question_selected">בחרת באפשרות %1$s</string>
+    <string name="cast_fail_to_connect_message">לא ניתן היה להתחבר אל %1$s כרגע. כדאי לנסות שוב מאוחר יותר.</string>
+    <string name="cast_fail_to_reconnect_message">לא ניתן היה להתחבר מחדש אל %1$s כרגע. כדאי לנסות שוב מאוחר יותר.</string>
     <string name="cast_notification_connected_message">מחובר אל %1$s</string>
     <string name="cast_notification_connecting_message">מתחבר אל %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">נתק</string>
+    <string name="cast_reconnecting_message">מנסה להתחבר מחדש</string>
+    <string name="cast_success_to_reconnect_message">נעשתה התחברות מחדש אל %1$s</string>
     <string name="cct_account_mismatch_card_button_text">לפתיחת %1$s</string>
     <string name="cct_account_mismatch_card_header">תצוגה של דפי האינטרנט שלך</string>
     <string name="cct_account_mismatch_card_text">‏כדי לראות את הדפים שנמצאים כאן, יש לעדכן את ה&lt;b>ההגדרות של %1$s‏&lt;/b> ולהפעיל סנכרון עבור &lt;b>%2$s&lt;/b></string>
     <string name="chance_of_precipitation_label">סיכוי למשקעים: %s</string>
     <string name="change_wallpaper">שינוי טפט</string>
     <string name="checkin_date_today">"הצ'ק-אין היום"</string>
-    <string name="choose_account_to_use">בחר חשבון</string>
     <string name="chrome_os_opa_ready_screen_explanation">‏לאחר הגדרת ה-Chromebook, יש ללחוץ על לחצן ה-Assistant או לומר \"Ok Google\" כדי לקבל עזרה מה-Assistant בכל עת.</string>
-    <string name="chrome_os_opa_value_proposition_cancel">לא, תודה</string>
-    <string name="chrome_os_opa_value_proposition_continue">המשך</string>
     <string name="chrome_os_opa_value_proposition_title_loading">רק רגע</string>
     <string name="city_to_city">%1$s אל %2$s</string>
     <string name="clear">ניקוי</string>
@@ -1047,6 +1038,8 @@
     <string name="common_address_edit_title">עריכת כתובת</string>
     <string name="common_delete">מחק</string>
     <string name="common_device_assistant_language_title">שפת האסיסטנט</string>
+    <string name="common_device_disable_youTube_for_guests_summary">‏השבתה של YouTube, YouTube מוזיקה, ו-YouTube TV למשתמשים שקולם לא מזוהה על ידי ה-Assistant באמצעות Voice Match. הערה: לא רלוונטי אם לא הפעלת Voice Match.</string>
+    <string name="common_device_disable_youTube_for_guests_title">‏השבתה של YouTube לאורחים</string>
     <string name="common_device_id_personal_info_permission_non_screen_devices_summary">ניתן לאפשר תוצאות אישיות במכשיר זה, כמו הודעות אימייל, יומן, אנשי קשר ותזכורות. הגדרה זו תאפשר גם ביצוע תשלומים במכשיר זה. %1$s</string>
     <string name="common_device_id_personal_info_permission_screenful_devices_summary">ניתן לאפשר תוצאות אישיות במכשיר זה, כמו תמונות, הודעות אימייל, יומן, אנשי קשר ותזכורות. הגדרה זו תאפשר גם ביצוע תשלומים במכשיר זה. %1$s</string>
     <string name="common_device_notification_permission_summary">תוכל לקבל הודעות, כמו תזכורות, במכשיר זה. גם אם תכבה את ההודעות, עדיין תשמע התראות ועדכונים חשובים.</string>
@@ -1208,8 +1201,6 @@
     <string name="current_inning">בסיבוב %1$d</string>
     <string name="current_location_searchbox">מיקום נוכחי</string>
     <string name="current_period">מערכה %1$d</string>
-    <string name="current_search_base_url_google_com">שימוש ב-www.google.com במקום בדומיין המקומי (%1$s)</string>
-    <string name="current_search_base_url_local">שימוש בדומיין המקומי (%1$s)</string>
     <string name="current_status">בדוק את הסטטוס הנוכחי</string>
     <string name="custom">מותאם אישית (לא ניתן לבצע התאמה אישית בטלפון)</string>
     <string name="custom_tabs_explore_action_button_desc">הצגת דפים קשורים</string>
@@ -1289,7 +1280,6 @@
     <string name="distance_miles">%1$.1f מייל</string>
     <string name="distance_miles_accessible">Distance: %1$.1f מייל</string>
     <string name="docs_group_header">מסמכים</string>
-    <string name="donate">איך תורמים</string>
     <string name="donate_button_label">איך תורמים</string>
     <string name="donate_screenshot_summary">"‏אפשר ל-Google לשמור את צילומי המסך ולבצע להם הערכה לצורך שיפור חיפוש במסך. הבודקים פועלים בכפוף לכללי סודיות מחמירים. צילומי מסך עשויים לכלול מידע אישי כגון הודעות אימייל ושיחות צ'אט, אך הסודיות תישמר."</string>
     <string name="donate_screenshot_title">עזרה בשיפור חיפוש במסך</string>
@@ -1311,6 +1301,7 @@
     <string name="download_prompt">הורד</string>
     <string name="download_setting_message">פרקים שהושלמו מוסרים לאחר 30 יום או 24 שעות לאחר הסיום</string>
     <string name="downloaded">ההורדה בוצעה</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">פרקים שהורדו</string>
     <string name="downloading">מוריד...</string>
     <string name="downloads">הורדות</string>
@@ -1362,7 +1353,6 @@
     <string name="enable_google_search_restriction">‏הפעל את חיפוש Google</string>
     <string name="enable_location_use">‏אפשר ליישומי Google לגשת למיקום שלך</string>
     <string name="enable_screen_assist_summary_now_emphasis">‏מבקש מ-Google להראות לך מידע הקשור למה שמופיע במסך כשאתה נוגע נגיעה ממושכת בלחצן הבית או מבצע חיפוש קולי</string>
-    <string name="enable_screen_assist_title">חיפוש במסך</string>
     <string name="enable_video_preview_autoplay">הפעלה אוטומטית</string>
     <string name="enable_video_preview_autoplay_on_mobile_data">אפשר ברשתות סלולריות</string>
     <string name="enable_web_history_toast">היסטוריית האתרים פועלת</string>
@@ -1374,6 +1364,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">הפרקים הזמינים</string>
     <string name="episode_page_section_title">פרק</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">בשבילך</string>
     <string name="error">שגיאה</string>
     <string name="error_adding_location_snackbar_text">שגיאה בהוספת המיקום</string>
@@ -1394,7 +1385,6 @@
     <string name="error_no_connection_text">"אין רשת זמינה
 מומלץ לבדוק את החיבור ולנסות שוב"</string>
     <string name="error_no_network_connectivity">מנסה להתחבר מחדש. התוצאות שלך יופיעו כאשר תתחבר שוב.</string>
-    <string name="error_offline_no_connectivity">בדוק את החיבור ונסה שוב.</string>
     <string name="error_removing_location_snackbar_text">שגיאה בהסרת המיקום</string>
     <string name="error_s3">משהו השתבש. בדוק את החיבור ונסה שוב.</string>
     <string name="error_ssl">בדוק את החיבור ונסה שוב.</string>
@@ -1418,7 +1408,6 @@
     <string name="expand_button_title">מתקדם</string>
     <string name="expand_time_to_leave">הצג אפשרויות עבור נסיעה זו.</string>
     <string name="expanding_time_to_leave_announcement">מציג פרטים על זמן מומלץ ליציאה.</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">הפודקאסט כולל תוכן בוטה</string>
     <string name="explore_back_button_content_description">חזרה</string>
     <string name="explore_bottombar_header_title">במה עוד אנשים צפו</string>
@@ -1474,6 +1463,7 @@
     <string name="fast_forward">הרץ קדימה</string>
     <string name="favorite_images_tag_title">תמונות מועדפות</string>
     <string name="favorite_pages_tag_title">דפים מועדפים</string>
+    <string name="favorite_screenshots_tag_title">צילומי מסך מועדפים</string>
     <string name="feed_datasaver_details">‏כשחוסך הנתונים (Data Saver) מופעל, בפיד שלך לא מוצג התוכן העדכני ביותר.</string>
     <string name="feedback">" שליחת משוב"</string>
     <string name="feedback_composed_legalese_text">‏כדי לבקש שינויים בתוכן מסיבות משפטיות, יש לעבור אל %1$s.&lt;br />פרטי המערכת שלך יישלחו אל Google. ניתן לעיין ב%2$s וב%3$s.</string>
@@ -1488,7 +1478,6 @@
     <string name="feedback_terms_of_service_link">http://www.google.com/intl/%1s/policies/terms/</string>
     <string name="feedback_terms_of_service_text">תנאים ובהגבלות</string>
     <string name="feedback_unsuccessful_snackbar_hint">אירעה שגיאה. מומלץ לנסות שוב.</string>
-    <string name="fetching_search_base_url">מחפש את הדומיין המקומי...</string>
     <string name="fetching_suggestions_status_text">מאחזר הצעות...</string>
     <string name="filterbar_animated_filter">GIF</string>
     <string name="filterbar_captions_filter_all">כל סרטוני הווידאו</string>
@@ -1512,7 +1501,6 @@
     <string name="filterbar_duration_filter_medium_description">בינוני (20-4 דקות)</string>
     <string name="filterbar_duration_filter_short">קצר (4-0 דקות)</string>
     <string name="filterbar_duration_filter_short_description">קצר (4-0 דקות)</string>
-    <string name="filterbar_filter_container_description">אזור סינון. יש לבחור מסנן אחד או יותר כדי לצמצם את טווח החיפוש.</string>
     <string name="filterbar_filter_deselect">‏יש לבטל את הבחירה במסנן %1$s</string>
     <string name="filterbar_filter_select">‏יש לבחור במסנן %1$s</string>
     <string name="filterbar_filtering_message">‏בתהליך סינון לתוצאות של %1$s</string>
@@ -1794,7 +1782,6 @@
     <string name="hotword_enrollment_google_home_fast_update_unicorn_progress_summary">"‏נראה שכבר הגדרת Voice Match עם Google Assistant של הילד/ה שלך במכשיר אחר.
 
 אפשר להשתמש בהקלטות הקודמות כדי ליצור תבנית קול במכשיר זה. הפעולה אמורה להימשך פחות מדקה."</string>
-    <string name="hotword_enrollment_google_home_no_enrollment_found_toast_msg">תחילה עליך להשלים את הרישום למילת הפעלה עבור חשבון %1$s.</string>
     <string name="hotword_enrollment_google_home_no_thanks">לא, תודה</string>
     <string name="hotword_enrollment_google_home_non_fast_update_header_title">הגדרה של הזיהוי הקולי</string>
     <string name="hotword_enrollment_google_home_non_fast_update_progress_summary">הפעולה תימשך פחות מדקה.</string>
@@ -1805,6 +1792,9 @@
     <string name="hotword_enrollment_google_home_share_message">"‏היי, כרגע לימדתי את ה-Assistant שלי לזהות את הקול שלי באמצעות אפליקציית Google Home, כדי שאוכל לקבל תוצאות מותאמות אישית.
 
 רוצה תשובות שהותאמו במיוחד בשבילך? הצעד הראשון הוא להתקין את אפליקציית ‏Google Home:‏ https://google.com/home/setup"</string>
+    <string name="hotword_enrollment_google_home_share_message_deeplink">"‏היי, כרגע לימדתי את ה-Assistant שלי לזהות את הקול שלי באפליקציית Google Home כדי שאוכל לקבל תוצאות מותאמות אישית.
+
+רוצה תשובות שהותאמו במיוחד בשבילך? צריך להקיש כדי להיכנס אל המכשיר: g.co/voicematch"</string>
     <string name="hotword_enrollment_google_home_share_message_subject">‏רוצה ללמד את ה-Assistant לזהות את הקול שלך?</string>
     <string name="hotword_enrollment_google_home_share_screen_done">הזמן</string>
     <string name="hotword_enrollment_google_home_summary_footer_text">‏ניתן להציג או למחוק את הפעילות הקולית ב-%1$s. ניתן גם להשבית את Voice Match בהגדרות של ה-Assistant.</string>
@@ -1875,7 +1865,6 @@
     <string name="hotword_enrollment_tgoogle_summary_usage_example_third">‏%1$s, tell me about my day. (ספר לי על היום שלי.)</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_end">‏עדיין ניתן גם לומר \"%1$s\" וגם \"%2$s\" כדי לדבר אל ה-Assistant.</string>
     <string name="hotword_enrollment_tgoogle_summary_usage_sample_title">‏ה-Assistant יגיב עכשיו כשייאמרו דברים כמו:</string>
-    <string name="hotword_enrollment_trustedvoice_continue_glif">המשך</string>
     <string name="hotword_enrollment_trustedvoice_done_glif">סיום</string>
     <string name="hotword_enrollment_trustedvoice_header_title">‏ביטול נעילת הטלפון באמצעות Voice Match</string>
     <string name="hotword_enrollment_trustedvoice_next_glif">הבא</string>
@@ -1915,7 +1904,6 @@
     <string name="hotword_pref_summary_opa">‏כדי להיעזר ב-Assistant, פשוט אומרים \"%1$s\", אפילו אם המסך כבוי או אם משתמשים באותו זמן באפליקציות מועדפות אחרות</string>
     <string name="hotword_pref_summary_opa_non_dsp">‏כדי להיעזר ב-Assistant, פשוט אומרים \"%1$s\" כשהמסך דולק</string>
     <string name="hotword_pref_summary_voice_unlock">אפשר ביטול של נעילת המכשיר על ידי אמירת \"%1$s\" כשהצליל תואם לתבנית הקול שלך</string>
-    <string name="hotword_pref_title">זיהוי של \"%1$s\"</string>
     <string name="hotword_pref_title_always_on">פועל תמיד</string>
     <string name="hotword_pref_title_during_gmm_navigation">בזמן נהיגה</string>
     <string name="hotword_pref_title_lock_screen_2_opa">‏ביטול נעילה באמצעות Voice Match</string>
@@ -1947,9 +1935,6 @@
     <string name="hq_opt_in_card_description">‏אם תיכנס לפיד שלך ב-Google, תוכל לגשת למידע, כמו נסיעות לעבודה, הזמנות ועוד</string>
     <string name="hq_opt_in_card_title">כל המידע שלך במקום אחד</string>
     <string name="hq_title">Google Assistant</string>
-    <string name="https_info_close">סגור</string>
-    <string name="https_info_message">החיבור לאתר הפודקאסט הוא חיבור פרטי.</string>
-    <string name="https_info_title">חיבור מאובטח</string>
     <string name="hyper_local_suggestion_message">החיפוש הזה קשור למיקום הנוכחי שלך.</string>
     <string name="i18n_address_line1_accessibility_label">כתובת: שורה 1</string>
     <string name="i18n_address_line1_label">כתובת</string>
@@ -2024,7 +2009,6 @@
     <string name="image_viewer_video_view_count_label">צפיות</string>
     <string name="image_viewer_video_watch_label">צפה</string>
     <string name="image_viewer_view_all_related_images_accessibility">הצג את כל התמונות הקשורות</string>
-    <string name="image_viewer_view_saved">הצג פריטים שנשמרו</string>
     <string name="image_viewer_visit_site">לדף של התמונה</string>
     <string name="images_mode_landing_text">חפש תמונות</string>
     <string name="ime_audio_error">לא ניתן לפתוח את המיקרופון</string>
@@ -2110,8 +2094,6 @@
     <string name="item_removed">הפריט הוסר</string>
     <string name="jasper_duo_knock_knock_summary">אפשר לראות את הסרטון של המתקשר לפני שעונים ולאפשר לאנשים שמתקשרים אליהם לראות את הסרטון שלך כשהטלפון שלהם מצלצל. %1$s</string>
     <string name="jasper_duo_knock_knock_title">מי זה דופק בדלת?</string>
-    <string name="jasper_duo_not_signed_in">לא מחובר</string>
-    <string name="jasper_duo_signed_in">מחובר</string>
     <string name="jasper_duo_unlink">ביטול הקישור</string>
     <string name="jasper_unlink_duo_title">‏ביטול הקישור של Duo ממכשיר זה</string>
     <string name="jasper_unlink_duo_warning_dialog_summary">‏לא ניתן יהיה עוד לפתוח בשיחות Duo או לקבל אותן במכשיר זה</string>
@@ -2165,22 +2147,23 @@
     <string name="leave_from">מ-</string>
     <string name="legal_documents">משפטי</string>
     <string name="lens_back_button_description">חזרה</string>
-    <string name="lens_education_card_barcodes_heading">ברקודים</string>
-    <string name="lens_education_card_barcodes_paragraph">ניתן לסרוק ברקודים כדי למצוא את פרטי המוצר</string>
-    <string name="lens_education_card_media_heading">ספרים ומדיה</string>
-    <string name="lens_education_card_media_paragraph">אפשר לחפש ספרים, סרטים, אלבומי מוזיקה ומשחקי מחשב לפי הכריכה</string>
-    <string name="lens_education_card_places_heading">מקומות</string>
-    <string name="lens_education_card_places_paragraph">מידע נוסף על ציוני דרך, נקודות עניין ובניינים מפורסמים</string>
-    <string name="lens_education_card_products_heading">מוצרים</string>
-    <string name="lens_education_card_products_paragraph">אפשר למצוא פריטים דומים למוצרים כמו ריהוט ופרטי ביגוד</string>
-    <string name="lens_education_card_text_heading">טקסט</string>
-    <string name="lens_education_card_text_paragraph">העתקת טקסט כמו מספרי טלפון, תאריכים וכתובות</string>
+    <string name="lens_education_card_barcodes_heading">סריקת קודים</string>
+    <string name="lens_education_card_barcodes_paragraph">‏אפשר לנסות ברקודים וקודי QR</string>
+    <string name="lens_education_card_media_heading">עיון בספרים ובמדיה</string>
+    <string name="lens_education_card_media_paragraph">אפשר לנסות ספרים, סרטים, אלבומי מוזיקה ומשחקי מחשב</string>
+    <string name="lens_education_card_natural_world_heading">זיהוי צמחים ובעלי חיים</string>
+    <string name="lens_education_card_natural_world_paragraph">אפשר לנסות פרחים וגזעים של כלבים</string>
+    <string name="lens_education_card_products_heading">חיפוש מוצרים דומים</string>
+    <string name="lens_education_card_products_paragraph">אפשר לנסות פריטי ביגוד וריהוט</string>
+    <string name="lens_education_card_text_heading">העתקת טקסט</string>
+    <string name="lens_education_card_text_paragraph">אפשר לנסות מספרי טלפון, תאריכים וכתובות</string>
     <string name="lens_education_card_title">‏מה אפשר לעשות עם Lens?</string>
     <string name="lens_info_panel_header_preview_tag">תצוגה מקדימה</string>
     <string name="lens_info_panel_live_camera_title">יש להקיש על האובייקטים והטקסט</string>
     <string name="lens_info_panel_loading_message">מתבצע חיפוש תוצאות…</string>
     <string name="lens_info_panel_opening_lens">‏פתיחת Lens…</string>
     <string name="lens_overflow_menu_description">הגדרות</string>
+    <string name="lens_overflow_menu_send_feedback">שליחת משוב</string>
     <string name="lens_quit_button_description">יציאה</string>
     <string name="lens_results_feedback_card_prompt">‏מה ברצונך לעשות עם Lens?</string>
     <string name="lens_results_feedback_card_title">‏אפשר לעזור לנו לשפר את Lens</string>
@@ -2251,6 +2234,7 @@
     <string name="maps_mode_landing_text">חיפוש במפות</string>
     <string name="mark_as_played">"סימון כ'הושמע'"</string>
     <string name="mark_as_unplayed">"סימון כ'לא הושמע'"</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_content_image">תמונה הקשורה לתוכן המדיה המוצג בכרטיס זה</string>
     <string name="media_item_type_your_podcasts">הפודקאסטים שלך</string>
     <string name="media_route_chooser_dialog_title">העברה אל</string>
@@ -2286,26 +2270,6 @@
     <string name="migration_cling_description">האם לייבא סמלים ותיקיות ממסכי דף הבית הישנים שלך?</string>
     <string name="migration_cling_title">העתקת סמלי האפליקציות שלך</string>
     <string name="migration_cling_use_default">התחל דף חדש</string>
-    <string name="mini_card_aiport_code_1">JFK</string>
-    <string name="mini_card_aiport_code_2">SFO</string>
-    <string name="mini_card_flight_delayed">‏טיסה Z206-עיכוב</string>
-    <string name="mini_card_ok_google">“OK, Google”</string>
-    <string name="mini_card_parking_location">מיקום חנייה</string>
-    <string name="mini_card_sample_score">2</string>
-    <string name="mini_card_set_a_reminder">הגדר תזכורת</string>
-    <string name="mini_card_set_reminder">הגדר תזכורת</string>
-    <string name="mini_card_sports_league">ליגת האלופות</string>
-    <string name="mini_card_sports_team_1">"צ'לסי"</string>
-    <string name="mini_card_sports_team_2">ארסנל</string>
-    <string name="mini_card_sunny">בהיר</string>
-    <string name="mini_card_temp">72°</string>
-    <string name="mini_card_time_to_home">20 דקות לבית</string>
-    <string name="mini_card_time_to_work">40 דקות לעבודה</string>
-    <string name="mini_card_train_station">תחנת רכבת הגנה</string>
-    <string name="mini_card_weather_city">חיפה</string>
-    <string name="mini_card_whats_the_reminder">מה התזכורת?</string>
-    <string name="mini_card_when">מתי</string>
-    <string name="mini_card_where">היכן</string>
     <string name="minimum_balance">יתרה מינימלית</string>
     <string name="minus_one_header_customize">התאמה אישית של הפיד</string>
     <string name="minus_one_header_feedback">" שליחת משוב"</string>
@@ -2380,11 +2344,13 @@
     <string name="navigate_to_pickup_location">נווט אל מקום האיסוף</string>
     <string name="navigation_action">ניווט אל %1$s</string>
     <string name="navigation_assistant_label">Assistant</string>
-    <string name="navigation_collections_label">אוספים</string>
+    <string name="navigation_collections_label">פריטים שנשמרו</string>
     <string name="navigation_drawer_label">עוד</string>
     <string name="navigation_home_label">דף הבית</string>
     <string name="navigation_recently_label">אחרונים</string>
     <string name="navigation_search_label">חיפוש</string>
+    <string name="navigation_top_apps_label">"אפליק' מובילות"</string>
+    <string name="navigation_updates_label">עדכונים</string>
     <string name="nearby_attractions">אטרקציות סמוכות</string>
     <string name="nearby_events_title">אירועים קרובים</string>
     <string name="network_error">‏לא ניתן לתקשר עם Google כרגע.</string>
@@ -2494,7 +2460,6 @@
     <string name="notes_lists_provider_changed_title">התנתקות מ-%1$s</string>
     <string name="notes_lists_title">‏ה-Assistant ישמור את ההערות והרשימות שלך מסונכרנות לשירותים האלה.</string>
     <string name="notification_access_link_text">כבה את הגישה להתראות</string>
-    <string name="notification_accessable_apps_category_title">גישה להתראות</string>
     <string name="notification_cancel_text">‏Google לא תנסה לבצע שוב את החיפוש כשהחיבור לאינטרנט יתחדש.</string>
     <string name="notification_cancel_title">החיפוש בוטל</string>
     <string name="notification_dismiss">סגירה</string>
@@ -2510,7 +2475,6 @@
     <string name="now_gplus_location_sharing_error">‏אירעה בעיה בתקשורת עם Google+‎</string>
     <string name="now_header_doodle_search_button_content_description">למידע נוסף על הדודל של היום</string>
     <string name="now_header_doodle_share_button_content_description">שתף שרבוט</string>
-    <string name="now_loading">טוען…</string>
     <string name="now_on_tap_share_with">שתף עם</string>
     <string name="now_opt_in_card_description">יש להפעיל את הפיד כדי לקבל עדכונים בנושאי ספורט, מוזיקה, סרטים ועוד</string>
     <string name="now_opt_in_card_title">כל העדכונים בנושאים שמעניינים אותך</string>
@@ -2542,9 +2506,7 @@
     <string name="offline_error_card_explanation_text_sim_card_error_wifi_on">‏אין רשת זמינה. אפשר לנסות להתחבר לרשת Wi-Fi.</string>
     <string name="offline_error_card_explanation_text_suffix_opted_into_background_retry">נודיע לך כשהתוצאות יהיו מוכנות.</string>
     <string name="offline_error_card_open_settings_button_text">כבה מצב טיסה</string>
-    <string name="offline_error_card_title_text">לא מקוון</string>
     <string name="offline_error_card_title_text_airplane_mode">"'מצב טיסה' מופעל"</string>
-    <string name="offline_error_card_title_text_airplane_mode_wifi_error">‏ה-Wi-Fi לא פועל</string>
     <string name="offline_error_card_title_text_data_roaming_off">הנדידה מושבתת</string>
     <string name="offline_error_card_title_text_general_offline_mode">אין חיבור לאינטרנט</string>
     <string name="offline_error_card_title_text_mobile_data_off">חבילת הגלישה מושבתת</string>
@@ -2555,33 +2517,17 @@
     <string name="offline_error_card_title_text_no_sim_card">‏לא נמצא כרטיס SIM</string>
     <string name="offline_error_card_title_text_sim_card_error">‏שגיאה בקריאה של כרטיס ה-SIM</string>
     <string name="offline_error_title">אין חיבור לאינטרנט</string>
-    <string name="offline_eyesfree_install_language_pack_notification_body">שדרג את חבילת השפה.</string>
-    <string name="offline_eyesfree_install_language_pack_notification_title">הפעלת קול במצב לא מקוון</string>
-    <string name="offline_eyesfree_install_language_pack_notification_tts">אתה במצב לא מקוון. כדי להמשיך להשתמש בקול במצב לא מקוון, עליך להתקין את חבילת השפה העדכנית. כשיהיה בטוח להשתמש במסך, הקש על ההודעה כדי לבצע זאת.</string>
     <string name="offline_eyesfree_install_language_pack_tts">אין חיבור לאינטרנט. כדי להשתמש בקול ללא חיבור לאינטרנט, צריך להתקין את חבילת השפה העדכנית אשר תותקן בפעם הבאה שיהיה חיבור לאינטרנט.</string>
-    <string name="offline_eyesfree_lp_need_update_fallback_tts">אתה במצב לא מקוון. כדי להמשיך להשתמש בקול במצב לא מקוון ולקבל תכונות חדשות, עליך להתקין את חבילת השפה העדכנית. כשיהיה בטוח להשתמש במסך, הקש על ההודעה כדי לבצע זאת.</string>
     <string name="offline_eyesfree_recognition_nomatch_fallback_tts">‏אתה במצב לא מקוון. לא ניתן להגיע אל Google כרגע, אבל אוכל לסייע בפעולות רבות. לדוגמה, נסה לומר: \"התקשר\" או \"מה אפשר לומר?\"</string>
     <string name="offline_eyesfree_recognition_nomatch_tts">‏אתה במצב לא מקוון. לא ניתן להגיע אל Google כרגע, אבל אוכל לסייע בפעולות רבות. לדוגמה, נסה לומר: %1$s או \"מה אפשר לומר?\"</string>
-    <string name="offline_header_text">טיפים לקול ללא חיבור</string>
     <string name="offline_help_article_title">מומלץ לבדוק את החיבור</string>
     <string name="offline_no_language_pack_card_install_button_text">Install</string>
     <string name="offline_no_language_pack_card_instruction_text_queued">"You're offline. Once you have a connection, the language pack you need will be installed."</string>
     <string name="offline_no_language_pack_card_instruction_text_to_install">אתה במצב לא מקוון. כדי להמשיך להשתמש בקול בפעם הבאה שתהיה במצב לא מקוון, התקן את חבילת השפה העדכנית.</string>
-    <string name="offline_no_language_pack_card_instruction_text_to_install_new">אתה במצב לא מקוון. כדי להמשיך להשתמש בקול בפעם הבאה שתהיה במצב לא מקוון, התקן את חבילת השפה העדכנית.</string>
-    <string name="offline_on_start_cue_cards_header_listening">לא מקוון</string>
-    <string name="offline_on_start_cue_cards_header_timeout">טיפים לקול ללא חיבור</string>
-    <string name="offline_on_start_cue_cards_second_header_listening">תוכל עדיין לומר...</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout">‏תוכל עדיין לומר \"Ok Google\" ואז...</string>
-    <string name="offline_on_start_cue_cards_second_header_timeout_without_hotword">תוכל עדיין להקיש על המיקרופון ולומר</string>
-    <string name="offline_options_start_hotword_disabled">תוכל עדיין להקיש על המיקרופון ולומר</string>
-    <string name="offline_searchbox_hint">“%%s... %s”</string>
     <string name="offline_voice_actions_error">פעולות קוליות לא מקוונות אינן זמינות.</string>
     <string name="ok">בסדר</string>
     <string name="ok_prompt">אישור</string>
-    <string name="omniconsent_action_button_scroll">עוד</string>
     <string name="omniconsent_confirm_partial_experience_action_button_text">המשך</string>
-    <string name="omniconsent_confirm_partial_experience_description">ניתן להשתמש בקבוצת התכונות המוגבלת בלי לספק גישה לחשבון שלך</string>
-    <string name="omniconsent_confirm_partial_experience_title">‏תחילת העבודה עם Google Assistant</string>
     <string name="omniconsent_confirm_reject_dialog_button_negative">ביטול</string>
     <string name="omniconsent_confirm_reject_dialog_button_positive">כן, בטוח</string>
     <string name="omniconsent_confirm_reject_dialog_message">‏Google Assistant זקוק להרשאות אלה כדי לפעול כראוי. ללא הרשאות אלה לא ניתן יהיה להשתמש ב-Assistant.</string>
@@ -2626,13 +2572,11 @@
     <string name="opa_consent_check_error_learn_more_link_target_notavailable">https://support.google.com/assistant/?p=gsuite</string>
     <string name="opa_consent_check_error_message">‏ה-Assistant נתקל בבעיה בבדיקת פקדי הפעילות. נסה להשתמש בו שוב מאוחר יותר.</string>
     <string name="opa_consent_check_error_message_autherror">ודא שהחשבון שלך מוגדר באופן מלא ונסה שוב.</string>
-    <string name="opa_consent_check_error_message_confirmreject">‏עם הרשאות אלה, ה-Assistant יכול לעזור לך בביצוע פעולות ביומן, בתזכורות, בתכנון הנסיעה לעבודה, באיתור טיסות, בביצוע הזמנות שונות ועוד.</string>
     <string name="opa_consent_check_error_message_notavailable">‏Google Assistant זקוק לפקדי פעילות שהוגבלו בחשבון זה בידי מנהל המכשיר. פנה אל מנהל המערכת שלך לפרטים נוספים או החלף חשבונות ונסה שוב.</string>
     <string name="opa_consent_check_error_title">משהו השתבש</string>
     <string name="opa_consent_check_error_title_autherror">לא ניתן לאמת את החשבון שלך</string>
     <string name="opa_consent_check_error_title_confirmreject">‏מומלץ להוריד את ה-Assistant המלא באמצעות הגדרות אלה</string>
     <string name="opa_consent_check_error_title_notavailable">‏Google Assistant לא זמין עבור חשבון זה</string>
-    <string name="opa_consent_error_timeout_message">אירעה שגיאת רשת. בדוק את החיבור ונסה שוב.</string>
     <string name="opa_contextual_cards_found_message">הנה מידע מסוים הקשור למסך זה:</string>
     <string name="opa_contextual_cards_found_proactive_message">דרך אגב, מצאתי תוצאות שקשורות למה שמופיע במסך:</string>
     <string name="opa_contextual_cards_network_error">‏כרגע לא ניתן ליצור קשר עם Google.</string>
@@ -2644,14 +2588,10 @@
 
 מחיקת פריטים מההיסטוריה של Assistant לא תשפיע על עסקאות ולא תבטל פעולות."</string>
     <string name="opa_delete_confirmation_title">לפני שתמחק</string>
-    <string name="opa_disabled_error_no_button">לא</string>
-    <string name="opa_disabled_error_summary">‏Google Assistant כבוי. האם ברצונך להפעיל אותו?</string>
-    <string name="opa_disabled_error_yes_button">כן</string>
     <string name="opa_disabled_no_button">ביטול</string>
     <string name="opa_disabled_title">‏הפעלת ה-Assistant</string>
     <string name="opa_dismiss_message">יש לגרור כדי לסגור</string>
     <string name="opa_email_optin_screen_add_shortcut_explanation">‏גישה קלה ל-Assistant</string>
-    <string name="opa_email_optin_screen_confirm">סיום</string>
     <string name="opa_email_optin_screen_explanation">‏אם תצטרף, נשלח לך באימייל עדכונים על התכונות החדשות ועל כל מה שה-Assistant יכול לעשות</string>
     <string name="opa_email_optin_screen_next">הבא</string>
     <string name="opa_email_optin_screen_sub_toggle_explanation">‏הוספת ה-Assistant אל מסך דף הבית</string>
@@ -2670,8 +2610,6 @@
     <string name="opa_error_network_button">הגדרות רשת</string>
     <string name="opa_error_network_message">‏נדרש חיבור אינטרנט כדי להשתמש ב-Google Assistant. בדוק את החיבור ונסה שוב.</string>
     <string name="opa_error_network_title">נראה שאתה לא מחובר לאינטרנט</string>
-    <string name="opa_error_udc_spinner_content">הפעולה עשויה להימשך דקה או שתיים</string>
-    <string name="opa_error_udc_spinner_title">מגדיר…</string>
     <string name="opa_error_unsupported_device_button">סגור</string>
     <string name="opa_error_unsupported_device_message">‏יש כמה דברים שצריך לעשות כדי שהמכשיר יהיה מוכן ל-Google Assistant.</string>
     <string name="opa_error_unsupported_device_message_learn_more_link">https://support.google.com/assistant/answer/7172657</string>
@@ -2684,25 +2622,16 @@
     <string name="opa_error_update_required_title">‏Assistant זקוק למיומנויות חדשות</string>
     <string name="opa_error_update_started_message">‏העדכון לא יימשך הרבה זמן. בקרוב Assistant יהיה מוכן לעזור לך בכל פעולה לאורך היום.</string>
     <string name="opa_error_update_started_title">‏מעדכן את Assistant</string>
-    <string name="opa_error_view_content_description">‏דף שגיאה של Google Assistant.</string>
     <string name="opa_eyes_free_opt_in_notification_body">‏כשהטלפון נעול, אתה יכול להשתמש בקול שלך כדי לדבר אל Google Assistant בעזרת אוזניות</string>
     <string name="opa_eyes_free_opt_in_notification_title">‏שימוש ב-Google Assistant עם אוזניות</string>
     <string name="opa_eyes_free_opt_in_speech">‏כשיהיה בטוח לעשות זאת, תצטרך להקיש על ההודעה תחילה. לאחר מכן תוכל לאפשר לאוזניות לפעול עם Google Assistant.</string>
     <string name="opa_eyes_free_udc_opt_in_notification_body">הקש כדי להמשיך</string>
     <string name="opa_eyes_free_udc_opt_in_notification_title">‏הענקת הרשאה ל-Google Assistant כדי שתעזור לך</string>
-    <string name="opa_first_screen_hotword_transition_cancel_button_text">עשה זאת מאוחר יותר</string>
     <string name="opa_first_screen_hotword_transition_confirm_agree_button_text">אני מסכים/ה</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text">התחל</string>
-    <string name="opa_first_screen_hotword_transition_confirm_button_text_sentence_case">התחל</string>
     <string name="opa_first_screen_hotword_transition_no_thanks_button_text">לא תודה</string>
-    <string name="opa_first_screen_hotword_transition_skip_button_text">דלג</string>
-    <string name="opa_first_screen_hotword_transition_summary">‏אמור \"%1$s\" כדי לדבר עם ה-Assistant בכל רגע: אפילו אם המסך כבוי או אם אתה משתמש באפליקציות האהובות עליך.</string>
-    <string name="opa_first_screen_hotword_transition_summary_no_dsp">‏אמור \"%1$s\" כדי לדבר עם ה-Assistant בכל זמן, כל עוד המסך פועל.</string>
     <string name="opa_first_screen_hotword_transition_summary_short">‏Voice Match מאפשר לך לגשת ל-Assistant ישירות באמצעות הקול שלך, גם כשהמסך כבוי.</string>
     <string name="opa_first_screen_hotword_transition_summary_short_no_dsp">‏Voice Match מאפשר לך לגשת ל-Assistant ישירות באמצעות הקול שלך.</string>
     <string name="opa_first_screen_hotword_transition_title">‏קבלת גישה ל-Assistant באמצעות Voice Match</string>
-    <string name="opa_first_screen_tgoogle_summary">‏ניתן יהיה לגשת ישירות אל ה-Assistant על ידי אמירת \"%1$s\"</string>
-    <string name="opa_first_screen_tgoogle_title">‏רוצה ללמד את ה-Assistant לזהות את מילת ההפעלה \"%1$s\"</string>
     <string name="opa_fix_user_recoverable_error">תקן</string>
     <string name="opa_gdpr_footer">"‏תבנית ייחודית של הקול שלך תיווצר במכשיר זה, והיא תעזור ל-Assistant לזהות אותך ולהבדיל בינך לבין אנשים אחרים. 
 
@@ -2726,7 +2655,6 @@
     <string name="opa_greeting_bubble_text_with_name">שלום %1$s, איך אפשר לעזור לך?</string>
     <string name="opa_hardware_button_training_continue">המשך</string>
     <string name="opa_hardware_button_training_desc_fallback">‏כדי להפעיל את Assistant, אפשר להקיש על הלחצן בכל עת</string>
-    <string name="opa_hardware_button_training_switch_title">‏הוספה של Google Assistant למסך דף הבית</string>
     <string name="opa_hardware_button_training_title">‏ה-Assistant במרחק לחיצה אחת</string>
     <string name="opa_history_delete_menu">מחק את הקבוצה</string>
     <string name="opa_history_edit_menu">ערוך את השאילתה</string>
@@ -2751,15 +2679,12 @@
     <string name="opa_lock_icon_description">סמל ביטול הנעילה</string>
     <string name="opa_logo_content_desc">‏הלוגו של Google Assistant</string>
     <string name="opa_mark_content">Assistant</string>
-    <string name="opa_marketplace_disclosure_description">‏Google Assistant יכול לפעול בשילוב עם שירותים שונים כדי לעזור לך להספיק יותר.</string>
     <string name="opa_marketplace_disclosure_google_partners_additional_text">‏Google Assistant יכול לפעול עם שותפים של Google כדי לעזור לך במשימות שונות, כמו קניית כרטיסים לקולנוע או תיקון דליפה בכיור. &lt;a href=https://support.google.com/assistant/?p=google_partners>למידע נוסף&lt;/a></string>
-    <string name="opa_marketplace_disclosure_google_partners_description">‏השותפים של Google הם עסקים שמנהלים יחסים מסחריים עם Google‏. Google Assistant יכול להיעזר בשותפים של Google כדי לעזור לך להשלים משימות שונות, מקניית כרטיסים לסרט ועד תיקון הדליפה בכיור. <a href="https://support.google.com/assistant/?p=google_partners">למידע נוסף</a></string>
     <string name="opa_marketplace_disclosure_google_partners_short_description">‏השותפים של Google הם עסקים שמנהלים יחסים מסחריים עם Google.</string>
     <string name="opa_marketplace_disclosure_google_partners_title">‏השותפים של Google</string>
     <string name="opa_marketplace_disclosure_service_additional_text">"‏כך השירותים יכולים לשמור פרטים במהלך שיחות - למשל את ההעדפות שלך. אפשר להציג, לנהל ולאפס את הנתונים שנשלחים לשירותים בדף של כל שירות בקטע 'המלצות והצעות' של אפליקציה זו. &lt;a href=https://support.google.com/assistant/?p=reset_id>מידע נוסף&lt;/a>"</string>
     <string name="opa_marketplace_disclosure_service_short_description">‏Google שולחת קוד ייחודי אל שירותים שמופעלים באמצעות דיבור.</string>
     <string name="opa_marketplace_disclosure_service_title">השירותים והפרטיות שלך</string>
-    <string name="opa_marketplace_disclosure_title">‏לקבל יותר מ-Google Assistant</string>
     <string name="opa_menu_content_description">‏תפריט Google Assistant.</string>
     <string name="opa_menu_what_can_you_do">מה אפשר לעשות?</string>
     <string name="opa_music_search_suggestion_chip_title">מה השיר הזה?</string>
@@ -2782,16 +2707,10 @@
     <string name="opa_offline_airplane_mode_indicator">הטלפון שלך במצב טיסה, ולכן לא ניתן לעזור לך בעניין זה כרגע.</string>
     <string name="opa_offline_help_prefix">הנה כמה דברים שתוכל לעשות כשהטלפון שלך לא מקוון.</string>
     <string name="opa_offline_help_prefix_tts">הנה כמה דברים שתוכל לעשות כשהטלפון שלך לא מקוון.</string>
-    <string name="opa_offline_install_language_pack_button">התקן את חבילת השפה ל%1$s</string>
     <string name="opa_offline_install_language_pack_button_clicked">ההורדה תתחיל באופן אוטומטי כשתהיה מחובר שוב לרשת.</string>
-    <string name="opa_offline_install_language_pack_button_clicked_tts">ההורדה תתחיל באופן אוטומטי כשתהיה מחובר שוב לרשת.</string>
-    <string name="opa_offline_install_language_pack_explanation">תצטרך להתקין את חבילת השפה ל%1$s כדי להמשיך להשתמש בקול.</string>
-    <string name="opa_offline_install_language_pack_explanation_tts">תצטרך להתקין את חבילת השפה ל%1$s כדי להמשיך להשתמש בקול.</string>
     <string name="opa_offline_poor_connectivity_indicator">הטלפון שלך לא מקוון ולכן לא ניתן לעזור לך בעניין זה כרגע.</string>
     <string name="opa_offline_poor_connectivity_indicator_tts">הטלפון שלך לא מקוון ולכן לא ניתן לעזור לך בעניין זה כרגע.</string>
     <string name="opa_offline_voice_tips_prefix">הנה כמה דברים שתוכל לעשות ללא חיבור...</string>
-    <string name="opa_offline_voice_tips_prefix_tts">הנה כמה דברים שתוכל לעשות ללא חיבור...</string>
-    <string name="opa_onboarding_view_content_description">‏דף של תהליך קליטת שותף ב-Google Assistant.</string>
     <string name="opa_persistent_finish_setup_bar_button">אפשר להתחיל</string>
     <string name="opa_persistent_finish_setup_bar_description">‏ביטול נעילה של תכונות Assistant נוספות</string>
     <string name="opa_pre_upgrade_notifs_disable_text">השבתה</string>
@@ -2805,15 +2724,11 @@
     <string name="opa_screenless_nav_opt_in_notification_body">‏תוכל להשתמש בקולך בעת ניווט כדי לדבר עם Google Assistant</string>
     <string name="opa_screenless_nav_opt_in_notification_title">‏שימוש ב-Google Assistant בשעת ניווט</string>
     <string name="opa_screenless_nav_opt_in_speech">‏כשיהיה בטוח לעשות זאת, תצטרך להקיש תחילה על ההודעה. לאחר מכן תוכל להשתמש ב-Google Assistant בשעת ניווט.</string>
-    <string name="opa_screenshot_captured">המסך צולם</string>
-    <string name="opa_search_hint">הקלד משהו</string>
-    <string name="opa_search_plate_keyboard_icon_description">מעבר למצב מקלדת</string>
-    <string name="opa_search_plate_mic_logo_description">לחצן חיפוש קולי</string>
-    <string name="opa_send_button_content_description">שלח</string>
+    <string name="opa_send_button_content_description">שליחה</string>
     <string name="opa_share_screenshot_setting_disabled">לשיתוף צילום מסך, נסה שוב.</string>
     <string name="opa_slow_connection">החיבור שלך איטי</string>
     <string name="opa_terms_of_service_chip_text">תנאים והגבלות</string>
-    <string name="opa_text_input_hint">הקלד הודעה</string>
+    <string name="opa_text_input_hint">כאן עליך להקליד הודעה</string>
     <string name="opa_third_party_menu_content_description">תפריט הספק %1$s.</string>
     <string name="opa_title">Google Assistant</string>
     <string name="opa_tos_privacy_policy_joiner"> וגם </string>
@@ -2834,17 +2749,11 @@
     <string name="opa_voice_search_tap_mic_to_speak">צריך להקיש על המיקרופון כדי להתחיל לדבר</string>
     <string name="opa_warm_welcome_greeting_0">‏שלום! אני ה-Google Assistant שלך.</string>
     <string name="opa_warm_welcome_greeting_1">אני יכול לעזור לך למצוא את מה שאתה צריך ולבצע משימות. אם אתה זקוק לעזרה, פשוט שאל \"מה אתה יכול לעשות?\".</string>
-    <string name="opa_warm_welcome_greeting_1_backup_0">אני יכול לעזור לך למצוא את מה שאתה צריך, לבצע משימות ואפילו ליהנות קצת.</string>
-    <string name="opa_warm_welcome_greeting_1_backup_1">אני יכול לעזור לך למצוא את מה שאתה צריך, לבצע משימות ואפילו ליהנות קצת. אם אתה זקוק לעזרה, פשוט שאל \"מה אתה יכול לעשות?\".</string>
     <string name="opa_warm_welcome_greeting_2">איך אוכל לעזור?</string>
     <string name="opa_warm_welcome_suggestion_0">מה אפשר לעשות?</string>
     <string name="opa_warm_welcome_suggestion_1">בית הקפה הקרוב ביותר</string>
     <string name="opa_warm_welcome_suggestion_2">באיזה מרחק נמצא הירח?</string>
-    <string name="opa_warm_welcome_suggestion_3">פתח מחשבון</string>
     <string name="opa_warm_welcome_suggestion_4">הדלק פנס</string>
-    <string name="opa_welcome_promo_notification_content">"לחץ על לחצן 'דף הבית' והחזק אותו כדי לנסות"</string>
-    <string name="opa_welcome_promo_notification_title">‏תתחדש! קיבלת את Google Assistant</string>
-    <string name="opa_welcome_promo_sample_query">מה אפשר לעשות?</string>
     <string name="opa_what_can_you_do_suggestion_chip_title">מה אפשר לעשות?</string>
     <string name="opa_wuwa_notification_action_stop">עצירה</string>
     <string name="opa_wuwa_notification_content">שעון מעורר לשעה %1$s</string>
@@ -2855,20 +2764,9 @@
     <string name="open_in_keep">‏פתח ב-Google Keep</string>
     <string name="open_settings">הגדרות</string>
     <string name="open_settings_button_text">"לפתיחת 'הגדרות'"</string>
-    <string name="open_until">פתוח עד %1$s</string>
     <string name="opt_in_clockwork_punt_action_description">הקש כדי לפתוח בטלפון.</string>
-    <string name="opt_in_description_page_1">‏Google נמצאת תמיד צעד אחד לפניך ועוזרת לך בניהול יעיל של היום</string>
-    <string name="opt_in_description_page_2">תקבל עדכונים לגבי הדברים החשובים לך</string>
-    <string name="opt_in_description_page_3">‏אם תגיד “Ok Google” ממסך כלשהו, תקבל עזרה בביצוע משימות</string>
-    <string name="opt_in_description_page_3_no_hotword">מאפשר לך להשתמש בקול כדי לבצע פעולות</string>
     <string name="opt_in_more">התחל בעבודה</string>
     <string name="opt_in_more_marketing">הפעלה</string>
-    <string name="opt_in_no_account_decline">לא, תודה</string>
-    <string name="opt_in_no_account_learn_more">&lt;a href=%1$s>למידע נוסף&lt;/a></string>
-    <string name="opt_in_no_account_sign_in">כניסה</string>
-    <string name="opt_in_no_account_subtitle">נוכל להציג לך תוצאות חיפוש מותאמות אישית ועדכונים בנושאים שמעניינים אותך</string>
-    <string name="opt_in_no_account_title">הצעד הראשון הוא להיכנס לחשבון</string>
-    <string name="opt_in_set_up">התחל בעבודה</string>
     <string name="opt_in_setting_ineligible_message_device_state_and_content">"לביצוע הפעולה הזו יש צורך בהגדרה 'מידע במכשיר', והיא לא זמינה במכשיר הזה"</string>
     <string name="opt_in_setting_ineligible_tts">לצערנו, אפשרות זו אינה זמינה במכשיר הזה.</string>
     <string name="opt_in_setting_required_continue_button">המשך</string>
@@ -2884,8 +2782,6 @@
     <string name="opt_in_setting_required_message_device_state_and_content_tts_gearhead">‏בוודאי, אבל כשיהיה בטוח לעשות זאת תצטרך לצאת מאפליקציית Android Auto ולהקיש על ההודעה. לאחר מכן תוכל לאפשר ל-Google לגשת לאנשי הקשר במכשיר.</string>
     <string name="opt_in_setting_required_web_history_notification_body">השתמש בקולך כדי להתקשר, לשלוח הודעות טקסט ועוד</string>
     <string name="opt_in_setting_required_web_history_notification_title">"הפעל את 'פעילות באינטרנט ובאפליקציות'"</string>
-    <string name="opt_in_skip">דלג</string>
-    <string name="opt_in_skip_tutorial">דלג</string>
     <string name="opt_out_failed_authentication_error">כיבוי הכרטיסים נכשל עקב בעיית אישור. בדוק את הגדרות החשבון שלך ונסה שוב.</string>
     <string name="opt_out_failed_network_error">כיבוי הכרטיסים נכשל עקב בעיית רשת. בדוק את הגדרות החשבון שלך ונסה שוב.</string>
     <string name="optin_generic_error">אירעה שגיאה. ניתן לנסות שוב מאוחר יותר.</string>
@@ -2933,7 +2829,6 @@
     <string name="payments_auth_password_try_again_message_attempt_2">הסיסמה שגויה. רוצה לנסות שוב?</string>
     <string name="payments_auth_password_try_again_message_attempt_last">הסיסמה שגויה. מטעמי אבטחה, תשלום זה יבוטל.</string>
     <string name="payments_auth_too_many_fingerprint_retries_should_use_password">ניסית יותר מדי פעמים. יש להזין סיסמה.</string>
-    <string name="payments_auth_unknown_fingerprint_error">‏משהו השתבש בזמן האימות של טביעת האצבע, יש להזין את הסיסמה לחשבון Google כדי להמשיך.</string>
     <string name="payments_auth_use_fingerprint_checkbox_hint">שימוש בטביעות אצבע לאישורים עתידיים</string>
     <string name="penalties">עונשין</string>
     <string name="permdesc_install_shortcut">מאפשר לאפליקציה להוסיף קיצורי דרך ללא התערבות המשתמש.</string>
@@ -3048,10 +2943,10 @@
     <string name="playback_panel_error">לא ניתן להפעיל</string>
     <string name="playback_status_buffering">טוען...</string>
     <string name="please_select">בחר אפשרות</string>
+    <string name="podcast_retry_download">ניסיון חוזר</string>
     <string name="podcasts">פודקאסטים</string>
     <string name="pomo_tab_description">כרטיסיית תוספות</string>
     <string name="popup_new_content">יש להקיש כדי לעדכן</string>
-    <string name="predictive_cards">הפיד שלך</string>
     <string name="prefDialogTitle_language">שפה</string>
     <string name="prefDialogTitle_multiLanguage">שפות</string>
     <string name="prefDialogTitle_ttsMode">פלט דיבור</string>
@@ -3086,8 +2981,6 @@
     <string name="pref_multilang_override_message">"ניתן לקבל תוצאות טובות יותר על ידי שינוי השפה הראשית מ%1$s ל%2$s.
 
 אם יתבצע את השינוי הזה, יתקבלו היתרונות הבאים:"</string>
-    <string name="pref_regular_title_prefix_multiple_language">%1$s – %2$d נוספות</string>
-    <string name="pref_regular_title_prefix_no_additional_language">%s – אין נוספות</string>
     <string name="preferences_license_summary">פרטי רישיון עבור תוכנות של קוד פתוח</string>
     <string name="preferences_license_title">רישיונות קוד פתוח</string>
     <string name="preinstalled">מותקן מראש</string>
@@ -3097,6 +2990,7 @@
     <string name="price_range_separator">·</string>
     <string name="priority_notifications_description">כשההודעות שלך הן בעדיפות גבוהה, הטלפון יציג התראה בהתבסס על ההגדרות שקבעת להודעות בעדיפות</string>
     <string name="priority_notifications_preferences_category">הודעות בעדיפות</string>
+    <string name="privacy">Privacy</string>
     <string name="problem_occurred_while_loading_cards">אירעה בעיה בזמן טעינת הכרטיסים</string>
     <string name="profile_icon_a11y">‏פתיחת ההגדרות של ה-Assistant</string>
     <string name="qp_bottom_baseball_inning">תחתית %1$d</string>
@@ -3379,8 +3273,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="screen_assist_enable_screenshot_prompt">"כדי להפעיל תכונה זו בחיפוש במסך, הפעל את הגדרת 'צילום מסך'"</string>
     <string name="screen_assist_network_not_ready">נסה שוב בעוד כמה דקות</string>
     <string name="screen_assist_network_unavailable_title">הרשת אינה זמינה כעת</string>
-    <string name="screen_assist_nothing_on_tap">דבר לא נמצא במסך</string>
-    <string name="screen_assist_now_stream_text">הצג את כרטיסי מרכז השליטה למטה</string>
     <string name="screen_assist_save_screenshot">שמור</string>
     <string name="screen_assist_saving_screenshot">שומר בגלריה</string>
     <string name="screen_assist_screenshot_saved">צילום המסך נשמר</string>
@@ -3487,8 +3379,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="selected_interest">סיימת להוסיף תחומי עניין?</string>
     <string name="selection_hint">בחר טקסט כלשהו במסך</string>
     <string name="selection_load_error_prompt">יש בעיות בניתוח מסך זה</string>
-    <string name="selection_mode_promo">הקש כאן כדי לבחור טקסט</string>
-    <string name="selection_prompt">הקש כדי לבחור טקסט כלשהו</string>
     <string name="selection_retry_ocr">נסה שוב</string>
     <string name="send_feedback">שליחת משוב על האפליקציה</string>
     <string name="send_to_device_negative_button">ביטול</string>
@@ -3527,13 +3417,13 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="sharebear_chooser_pane_edit">ערוך</string>
     <string name="sharebear_chooser_pane_edit_content_description">עריכת תמונה</string>
     <string name="sharebear_chooser_pane_image_content_description">תמונה ממוזערת</string>
+    <string name="sharebear_chooser_pane_image_search">חיפוש תמונות</string>
     <string name="sharebear_chooser_pane_share">שתף</string>
     <string name="sharebear_chooser_pane_subtitle">ערוך את צילום המסך ושתף אותו</string>
     <string name="sharebear_chooser_pane_subtitle_with_collections">הוספה לאוסף, שיתוף או עריכה של צילום המסך שלך</string>
     <string name="sharebear_chooser_pane_title">המסך צולם</string>
     <string name="sharebear_color_black">צבע שחור</string>
     <string name="sharebear_color_blue">צבע כחול</string>
-    <string name="sharebear_color_current">הצבע הנוכחי</string>
     <string name="sharebear_color_green">צבע ירוק</string>
     <string name="sharebear_color_purple">צבע סגול</string>
     <string name="sharebear_color_red">צבע אדום</string>
@@ -3546,7 +3436,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="sharebear_link">‏צילום מסך מתוך ‎%s</string>
     <string name="sharebear_screenshot_not_found">צילום המסך לא נמצא</string>
     <string name="sharebear_screenshotter_activity_label">שתף צילום מסך</string>
-    <string name="sharebear_share_saved_screenshot_chooser_title">ערוך ושתף את צילום המסך</string>
     <string name="sharebear_share_subject">‏צילום המסך שותף מ-Google</string>
     <string name="sharebear_storage_permission_denied_toast">השינויים שנערכו בתמונה לא יישמרו.</string>
     <string name="sharebear_storage_permission_request_info_not_now">לא עכשיו</string>
@@ -3638,6 +3527,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="sound_search_unavailable">חיפוש מוזיקה אינו זמין במדינה שלך</string>
     <string name="source_chip_desc">הצגת תוכן מאת %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">הגדרות המהירות אינן זמינות בזמן ההעברה.</string>
     <string name="spoken_cancel_command_tts">Cancel</string>
     <string name="spoken_edit_sms_command_tts">edit message</string>
     <string name="spoken_language_selected">%s נבחרה כשפה הראשית</string>
@@ -3744,6 +3634,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="tab_title_tomorrow">מחר</string>
     <string name="tap_mic_to_speak">הקש על המיקרופון כדי להתחיל לדבר</string>
     <string name="temperature_display">%1$s%2$s</string>
+    <string name="terms">Terms</string>
     <string name="text_selection_menu_translate_action">תרגום</string>
     <string name="thank_you_dialog_body">‏התגובות שלך עוזרות לשפר את החוויה בחיפוש Google.</string>
     <string name="thank_you_dialog_tilte">תודה על המשוב שלך.</string>
@@ -3825,6 +3716,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="tomorrow_time">מחר ב-%1$s</string>
     <string name="too_many_locations_snackbar_text">ניתן לשמור עד שמונה מיקומים. הקש והחזק מיקום כדי להסיר אותו.</string>
     <string name="toolbar_navigation_icon_description">ניווט חזרה</string>
+    <string name="top_apps">האפליקציות המובילות</string>
     <string name="top_contacts_group_header">אנשי הקשר המובילים</string>
     <string name="topdeck">"ווידג'ט"</string>
     <string name="topdeck_show_all_cards_summary">"הצגת עדכונים על מסלול הנסיעה שלך לעבודה, מזג האוויר ומידע מקומי בווידג'ט במסך דף הבית"</string>
@@ -3942,14 +3834,10 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="unreplied_messages_group_header">הודעות בעדיפות</string>
     <string name="unsubscribe_button_label">רשום</string>
     <string name="unsupported_action">המכשיר הזה לא יכול לבצע את הפעולה שביקשת</string>
-    <string name="uos_account_picker_content_description">%1$s. תפריט נפתח לבחירת חשבון.</string>
     <string name="uos_account_picker_header_text">בחירת חשבון</string>
     <string name="uos_add_account_content_description">סימן חיבור. הוספת חשבון.</string>
     <string name="uos_add_account_text">להוספת חשבון</string>
     <string name="uos_close_button_text">לא, תודה</string>
-    <string name="uos_select_button_text">המשך</string>
-    <string name="uos_select_description">עדכונים שוטפים על המוזיקה, התוכניות, הידוענים, קבוצות הספורט והתחביבים האהובים ועוד</string>
-    <string name="uos_select_intro">רוצה עדכונים מותאמים אישית?</string>
     <string name="uos_sign_in_button_text">כניסה</string>
     <string name="uos_sign_in_description">נוכל להציג לך תוצאות חיפוש מותאמות אישית ועדכונים בנושאים שמעניינים אותך</string>
     <string name="uos_sign_in_intro">הצעד הראשון הוא להיכנס לחשבון</string>
@@ -4143,6 +4031,10 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="voice_ime_language_auto">אוטומטי</string>
     <string name="voice_language_preference_change">שפת הפקודות הקוליות גם כן שונתה ל-%s</string>
     <string name="voice_language_preference_change_no_speaker_id">‏גם השפה שלך לפקודות קוליות השתנתה ל-%1$s. הפקודה \"%2$s\" זמינה רק במסך הבית וב-Google App.</string>
+    <string name="voice_match_deeplink_welcome_action_button">המשך</string>
+    <string name="voice_match_deeplink_welcome_cancel_button">ביטול</string>
+    <string name="voice_match_deeplink_welcome_explanation">‏לאחר תהליך הגדרה קצר זה, ה-Assistant יוכל לזהות את הקול שלך.</string>
+    <string name="voice_match_deeplink_welcome_title">להמשך תהליך הכניסה</string>
     <string name="voice_search_app_name">חיפוש קולי</string>
     <string name="voice_selection_message">‏כאן בוחרים את הקול שבו ה-Assistant מדבר. אפשר לשמוע דוגמה של כל אחד מהקולות הזמינים.</string>
     <string name="voice_selection_title">‏בחירת הקול של ה-Assistant</string>
@@ -4221,7 +4113,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="your_location_search_menu_text">המיקום שלך</string>
     <string name="your_train_reservation">הזמנת המקום שלך ברכבת</string>
     <string name="zero_state_generic_error_toast_message">משהו השתבש.</string>
-    <string name="zero_state_hint">צריך להחליק כלפי מעלה כדי לראות מה יש לי להציע לך</string>
     <string name="zero_state_hint_text">צריך להחליק כלפי מעלה כדי לראות את העדכונים שלך</string>
     <string name="zero_state_network_error_toast_message">‏לא ניתן לתקשר עם Google כרגע.</string>
     <string name="zerostate_explore_section_more">עוד</string>

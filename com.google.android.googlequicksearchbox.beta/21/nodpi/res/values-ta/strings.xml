@@ -106,10 +106,14 @@
     <string name="cancel">ரத்துசெய்</string>
     <string name="cancel_favorites_selection">ரத்துசெய்</string>
     <string name="cancelled">ரத்துசெய்யப்பட்டது</string>
+    <string name="cast_fail_to_connect_message">இப்போது %1$s உடன் இணைக்க முடியவில்லை. பிறகு முயலவும்.</string>
+    <string name="cast_fail_to_reconnect_message">இப்போது %1$s உடன் மீண்டும் இணைக்க முடியவில்லை. பிறகு முயலவும்.</string>
     <string name="cast_notification_connected_message">%1$s உடன் இணைக்கப்பட்டது</string>
     <string name="cast_notification_connecting_message">%1$s உடன் இணைக்கிறது</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">இணைப்பைத் துண்டி</string>
+    <string name="cast_reconnecting_message">மீண்டும் இணைக்க முயற்சிக்கிறது</string>
+    <string name="cast_success_to_reconnect_message">%1$s உடன் மீண்டும் இணைக்கப்பட்டது</string>
     <string name="cct_account_mismatch_card_button_text">%1$sஐத் திற</string>
     <string name="cct_account_mismatch_card_header">உங்கள் இணையப் பக்கங்களைப் பார்க்கவும்</string>
     <string name="cct_account_mismatch_card_text">இங்கு கண்டறியும் பக்கங்களைப் பார்க்க, &lt;b>%1$s அமைப்புகளைப்&lt;/b> புதுப்பித்து, &lt;b>%2$s&lt;/b>க்கான ஒத்திசைவை இயக்கவும்</string>
@@ -169,7 +173,6 @@
     <string name="delivered">டெலிவரி செய்யப்பட்டது</string>
     <string name="device_photo_group_header">சாதனத்தில் உள்ள படங்கள்</string>
     <string name="docs_group_header">ஆவணங்கள்</string>
-    <string name="donate">நன்கொடை வழங்குக</string>
     <string name="donate_button_label">நன்கொடை வழங்குக</string>
     <string name="done">முடிந்தது</string>
     <string name="done_label">முடிந்தது</string>
@@ -180,6 +183,7 @@
     <string name="download_not_found">பதிவிறக்கக் கோப்பு இல்லை</string>
     <string name="download_setting_message">எபிசோடுகள், பதிவிறக்கப்பட்ட 30 நாட்களுக்குப் பின்னர் அல்லது கேட்டு முடித்த 24 மணிநேரத்திற்குப் பின்னர் அகற்றப்படும்</string>
     <string name="downloaded">பதிவிறக்கப்பட்டது</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">பதிவிறக்கிய எபிசோடுகள்</string>
     <string name="downloading">பதிவிறக்குகிறது...</string>
     <string name="downloads">பதிவிறக்கங்கள்</string>
@@ -192,6 +196,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">கிடைக்கின்ற எபிசோடுகள்</string>
     <string name="episode_page_section_title">எபிசோடு</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">உங்களுக்கானவை</string>
     <string name="error">பிழை</string>
     <string name="error_message">தேடல் தோல்வியடைந்தது. பிறகு முயலவும்.</string>
@@ -199,11 +204,11 @@
     <string name="every_weekday">ஒவ்வொரு வாரநாளும் (திங்–வெள்)</string>
     <string name="every_weekday_lower">ஒவ்வொரு வாரநாளும் (திங்–வெள்)</string>
     <string name="expand_button_title">மேம்பட்டது</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">பாட்காஸ்ட்டில் வெளிப்படையான உள்ளடக்கம் உள்ளது</string>
     <string name="fast_forward">ஃபாஸ்ட் ஃபார்வேர்டு</string>
     <string name="favorite_images_tag_title">பிடித்த படங்கள்</string>
     <string name="favorite_pages_tag_title">பிடித்த பக்கங்கள்</string>
+    <string name="favorite_screenshots_tag_title">பிடித்த ஸ்கிரீன் ஷாட்கள்</string>
     <string name="first_run_cling_title">நல்வரவு</string>
     <string name="flight_group_header">விமானங்கள்</string>
     <string name="folder_closed">கோப்புறை மூடப்பட்டது</string>
@@ -298,9 +303,6 @@
     <string name="homebase_link_tool_tip_message">உங்கள் சந்தாக்களை இங்கே பார்க்கலாம்</string>
     <string name="hotseat_out_of_space">பிடித்தவை ட்ரேயில் இடமில்லை</string>
     <string name="hour_picker_description">மணிநேரத்துக்கான வட்டவடிவ ஸ்லைடர்</string>
-    <string name="https_info_close">மூடு</string>
-    <string name="https_info_message">பாட்காஸ்ட் தளத்திற்கான உங்கள் இணைப்பு தனிப்பட்டதாகும்.</string>
-    <string name="https_info_title">பாதுகாப்பான இணைப்பு</string>
     <string name="i18n_address_line1_accessibility_label">தெரு முகவரி: வரி 1</string>
     <string name="i18n_address_line1_label">தெரு முகவரி</string>
     <string name="i18n_address_line2_accessibility_label">தெரு முகவரி: வரி 2</string>
@@ -363,7 +365,6 @@
     <string name="image_viewer_video_view_count_label">பார்வைகள்</string>
     <string name="image_viewer_video_watch_label">காண்க</string>
     <string name="image_viewer_view_all_related_images_accessibility">தொடர்புடைய எல்லாப் படங்களையும் காட்டு</string>
-    <string name="image_viewer_view_saved">சேமித்தவற்றைக் காட்டு</string>
     <string name="image_viewer_visit_site">செல்</string>
     <string name="indexing_not_ready">காண்பிக்க, உள்ளடக்கம் எதுவுமில்லை. இணையத்துடன் இணைத்துவிட்டு, சில நிமிடங்களுக்குப் பிறகு பார்க்கவும்.</string>
     <string name="info_target_label">ஆப்ஸ் தகவல்</string>
@@ -403,6 +404,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">இயக்கியது எனக் குறி</string>
     <string name="mark_as_unplayed">இயக்காதது எனக் குறி</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">உங்களுக்குப் பிடித்த பாட்காஸ்ட்கள்</string>
     <string name="media_route_chooser_dialog_title">இதற்கு அனுப்பு</string>
     <string name="media_route_chooser_searching">சாதனங்களைத் தேடுகிறது…</string>
@@ -518,10 +520,12 @@
     <string name="playback_panel_error">இயக்க முடியவில்லை</string>
     <string name="playback_status_buffering">ஆடியோவை ஏற்றுகிறது...</string>
     <string name="please_select">தேர்ந்தெடுக்கவும்</string>
+    <string name="podcast_retry_download">மீண்டும் முயலவும்</string>
     <string name="podcasts">போட்காஸ்ட்கள்</string>
     <string name="preferences_license_summary">ஓப்பன் சோர்ஸ் மென்பொருளுக்கான உரிம விவரங்கள்</string>
     <string name="preferences_license_title">ஓப்பன் சோர்ஸ் உரிமங்கள்</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">வினவல்: %s.</string>
     <string name="query_people_group_header">தொடர்பு</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">எபிசோடுகளைப் பதிவிறக்க, Googleக்கு சாதனச் சேமிப்பகத்தை அணுகும் அனுமதி தேவை</string>
     <string name="request_storage_permission_dialog_title">சேமிப்பகத்தை அணுக அனுமதிக்கவும்</string>
     <string name="reservation_group_header">முன்பதிவுகள்</string>
-    <string name="retry">மீண்டும் முயலவும்</string>
     <string name="retry_failed_download">மீண்டும் பதிவிறக்க முயலவும்</string>
     <string name="returned">திருப்பி அனுப்பப்பட்டது</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="snackbar_message_removed_from_recently">சமீபத்திய பக்கங்களிலிருந்து அகற்றப்பட்டது</string>
     <string name="source_chip_desc">%s இடமிருந்து வந்த உள்ளடக்கத்தைப் பார்க்கலாம்.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">அலைபரப்பும்போது, வேக அமைப்புகள் கிடைக்காது.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">குழு சேர்</string>
     <string name="subscribe_to_see_new_episodes">புதிய எபிசோடுகளைப் பார்க்க, பாட்காஸ்ட்களுக்குக் குழு சேரவும்</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="suw_next_button_label">அடுத்து</string>
     <string name="tab_episodes_in_progress">பார்த்துக் கொண்டிருப்பவை</string>
     <string name="tab_new_episodes">புதிது</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s மறைக்கப்பட்டார்.</string>
     <string name="toast_hide_fail">ஏதோ தவறாகிவிட்டது! %s மறைக்கப்படவில்லை.</string>
     <string name="toast_unhide">%s மறைவுநீக்கப்பட்டார்.</string>

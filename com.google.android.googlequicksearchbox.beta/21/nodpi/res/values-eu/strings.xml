@@ -108,10 +108,14 @@
     <string name="cancel">Utzi</string>
     <string name="cancel_favorites_selection">Utzi</string>
     <string name="cancelled">Bertan behera utzita</string>
+    <string name="cast_fail_to_connect_message">Ezin izan da konektatu %1$s gailura. Saiatu berriro geroago.</string>
+    <string name="cast_fail_to_reconnect_message">Ezin izan da konektatu berriro %1$s gailura. Saiatu berriro geroago.</string>
     <string name="cast_notification_connected_message">%1$s gailura konektatuta</string>
     <string name="cast_notification_connecting_message">%1$s gailura konektatzen</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Deskonektatu</string>
+    <string name="cast_reconnecting_message">Berriro konektatzen saiatzen</string>
+    <string name="cast_success_to_reconnect_message">Konektatu da berriro %1$s gailura</string>
     <string name="cct_account_mismatch_card_button_text">Ireki %1$s</string>
     <string name="cct_account_mismatch_card_header">Ikusi zure web-orriak</string>
     <string name="cct_account_mismatch_card_text">Aurkitutako orriak hemen ikusteko, eguneratu &lt;b>%1$s ezarpenak&lt;/b> eta aktibatu &lt;b>%2$s&lt;/b> sinkronizatzeko aukera</string>
@@ -171,7 +175,6 @@
     <string name="delivered">Entregatuta</string>
     <string name="device_photo_group_header">Gailuko argazkiak</string>
     <string name="docs_group_header">Dokumentuak</string>
-    <string name="donate">Egin dohaintza</string>
     <string name="donate_button_label">Egin dohaintza</string>
     <string name="done">Eginda</string>
     <string name="done_label">Eginda</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Ez da aurkitu deskarga</string>
     <string name="download_setting_message">Deskargatutako atalak 30 egun igaro ondoren kentzen dira (edo, osorik entzunez gero, 24 ordu igaro ondoren)</string>
     <string name="downloaded">Deskargatu da</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Deskargatutako atalak</string>
     <string name="downloading">Deskargatzen…</string>
     <string name="downloads">Deskargak</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Eskuragarri dauden atalak</string>
     <string name="episode_page_section_title">Atala</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Zuretzat</string>
     <string name="error">Errorea</string>
     <string name="error_message">Ezin izan da bilatu. Saiatu berriro geroago.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Astegun guztietan (al.-ol.)</string>
     <string name="every_weekday_lower">astegun guztietan (al.-ol.)</string>
     <string name="expand_button_title">Aurreratua</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Eduki esplizitua du podcastak</string>
     <string name="fast_forward">Aurrera</string>
     <string name="favorite_images_tag_title">Gogoko irudiak</string>
     <string name="favorite_pages_tag_title">Gogoko orriak</string>
+    <string name="favorite_screenshots_tag_title">Gogoko pantaila-argazkiak</string>
     <string name="first_run_cling_title">Ongi etorri</string>
     <string name="flight_group_header">Hegaldiak</string>
     <string name="folder_closed">Karpeta itxi da</string>
@@ -236,9 +241,6 @@ Bilatu berriro podcasta."</string>
     <string name="homebase_link_tool_tip_message">Ikusi harpidetzak hemen</string>
     <string name="hotseat_out_of_space">Ez dago toki gehiago Gogokoak erretiluan</string>
     <string name="hour_picker_description">Ordua aukeratzeko ikuspegi zirkularra</string>
-    <string name="https_info_close">Itxi</string>
-    <string name="https_info_message">Podcast webgunerako konexioa pribatua da.</string>
-    <string name="https_info_title">Konexio segurua</string>
     <string name="i18n_address_line1_accessibility_label">Helbide fisikoa: 1. lerroa</string>
     <string name="i18n_address_line1_label">Helbide fisikoa</string>
     <string name="i18n_address_line2_accessibility_label">Helbide fisikoa: 2. lerroa</string>
@@ -301,7 +303,6 @@ Bilatu berriro podcasta."</string>
     <string name="image_viewer_video_view_count_label">Ikustaldiak</string>
     <string name="image_viewer_video_watch_label">Ikusi</string>
     <string name="image_viewer_view_all_related_images_accessibility">Ikusi erlazionatutako irudi guztiak</string>
-    <string name="image_viewer_view_saved">Ikusi gordetakoak</string>
     <string name="image_viewer_visit_site">Ikusi</string>
     <string name="indexing_not_ready">Oraindik ez dugu edukirik erakusteko. Konektatu Internetera eta itzuli minutu batzuk barru.</string>
     <string name="info_target_label">Aplikazioaren informazioa</string>
@@ -341,6 +342,7 @@ Bilatu berriro podcasta."</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Markatu erreproduzitutako gisa</string>
     <string name="mark_as_unplayed">Markatu erreproduzitu gabeko gisa</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Zure podcastak</string>
     <string name="media_route_chooser_dialog_title">Igorri hona:</string>
     <string name="media_route_chooser_searching">Gailuak bilatzen…</string>
@@ -456,8 +458,10 @@ Arakatu eta kontrolatu Google-n egindako bilaketa guztiak Nire jarduerak atalean
     <string name="playback_panel_error">Ezin da erreproduzitu</string>
     <string name="playback_status_buffering">Buferreratzen…</string>
     <string name="please_select">Hautatu</string>
+    <string name="podcast_retry_download">Saiatu berriro</string>
     <string name="podcasts">Podcastak</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Kontsulta: %s.</string>
     <string name="query_people_group_header">Kontaktuak</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -599,7 +603,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">Google-k gailuko memoria atzitzeko baimena behar du atalak deskargatzeko</string>
     <string name="request_storage_permission_dialog_title">Baimendu aplikazioari gailuko memoria atzitzea</string>
     <string name="reservation_group_header">Erreserbak</string>
-    <string name="retry">Saiatu berriro</string>
     <string name="retry_failed_download">Saiatu berriro deskargatzen</string>
     <string name="returned">Itzulita</string>
     <string name="review_count_text">(%d)</string>
@@ -660,6 +663,7 @@ Saio hau ez dago erabilgarri une honetan."</string>
     <string name="snackbar_message_removed_from_recently">Kendu da azken orrietatik</string>
     <string name="source_chip_desc">Ikusi %s kontaktuaren edukia.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Abiadura-ezarpenak ez daude erabilgarri igorpenak egin bitartean.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Harpidetu</string>
     <string name="subscribe_to_see_new_episodes">Atal berriak ikusteko, harpidetu podcast-etara</string>
@@ -669,6 +673,7 @@ Saio hau ez dago erabilgarri une honetan."</string>
     <string name="suw_next_button_label">Hurrengoa</string>
     <string name="tab_episodes_in_progress">Abian</string>
     <string name="tab_new_episodes">Berriak</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">Ezabatu da %s.</string>
     <string name="toast_hide_fail">Arazoren bat izan da. Ezin izan da ezkutatu %s.</string>
     <string name="toast_unhide">Erakutsi da %s.</string>

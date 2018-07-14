@@ -108,10 +108,14 @@
     <string name="cancel">Tühista</string>
     <string name="cancel_favorites_selection">Tühista</string>
     <string name="cancelled">Tühistatud</string>
+    <string name="cast_fail_to_connect_message">Praegu ei saanud seadmega %1$s ühendust luua. Proovige hiljem uuesti.</string>
+    <string name="cast_fail_to_reconnect_message">Praegu ei saanud seadmega %1$s uuesti ühendust luua. Proovige hiljem uuesti.</string>
     <string name="cast_notification_connected_message">Ühendatud ekraaniga %1$s</string>
     <string name="cast_notification_connecting_message">Ühendamine ekraaniga %1$s</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Katkesta ühendus</string>
+    <string name="cast_reconnecting_message">Uuesti ühendamise katse</string>
+    <string name="cast_success_to_reconnect_message">Uuesti ühendatud seadmega %1$s</string>
     <string name="cct_account_mismatch_card_button_text">Ava rakendus %1$s</string>
     <string name="cct_account_mismatch_card_header">Vaadake oma veebilehti</string>
     <string name="cct_account_mismatch_card_text">Siin leitud lehtede nägemiseks värskendage rakenduse &lt;b>%1$s seadeid&lt;/b> ja lülitage sisse sünkroonimine konto &lt;b>%2$s&lt;/b> jaoks</string>
@@ -171,7 +175,6 @@
     <string name="delivered">Edastatud</string>
     <string name="device_photo_group_header">Seadmes olevad fotod</string>
     <string name="docs_group_header">Dokumendid</string>
-    <string name="donate">Anneta</string>
     <string name="donate_button_label">Anneta</string>
     <string name="done">Valmis</string>
     <string name="done_label">Valmis</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Allalaaditud faili ei leitud</string>
     <string name="download_setting_message">Allalaaditud jaod eemaldatakse 30 päeva pärast või 24 tundi pärast lõpetamist</string>
     <string name="downloaded">Alla laaditud</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Allalaaditud jaod</string>
     <string name="downloading">Allalaadimine …</string>
     <string name="downloads">Allalaadimised</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Saadaolevad jaod</string>
     <string name="episode_page_section_title">Jagu</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Teile</string>
     <string name="error">Viga</string>
     <string name="error_message">Otsing ebaõnnestus. Proovige hiljem uuesti.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Iga tööpäev (E–R)</string>
     <string name="every_weekday_lower">iga tööpäev (E–R)</string>
     <string name="expand_button_title">Täpsemad</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Podcast sisaldab vulgaarset sisu</string>
     <string name="fast_forward">Keri edasi</string>
     <string name="favorite_images_tag_title">Lemmikkujutised</string>
     <string name="favorite_pages_tag_title">Lemmiklehed</string>
+    <string name="favorite_screenshots_tag_title">Lemmikekraanipildid</string>
     <string name="first_run_cling_title">Tere tulemast</string>
     <string name="flight_group_header">Lennud</string>
     <string name="folder_closed">Kaust on suletud</string>
@@ -300,9 +305,6 @@ Otsige podcasti uuesti."</string>
     <string name="homebase_link_tool_tip_message">Vaadake oma tellimusi siin</string>
     <string name="hotseat_out_of_space">Salves Lemmikud pole rohkem ruumi</string>
     <string name="hour_picker_description">Ringikujuline tunniliugur</string>
-    <string name="https_info_close">Sule</string>
-    <string name="https_info_message">Teie ühendus podcasti saidiga on privaatne.</string>
-    <string name="https_info_title">Turvaline ühendus</string>
     <string name="i18n_address_line1_accessibility_label">Aadress: 1. rida</string>
     <string name="i18n_address_line1_label">Aadress</string>
     <string name="i18n_address_line2_accessibility_label">Aadress: 2. rida</string>
@@ -365,7 +367,6 @@ Otsige podcasti uuesti."</string>
     <string name="image_viewer_video_view_count_label">Vaatamised</string>
     <string name="image_viewer_video_watch_label">Vaadake</string>
     <string name="image_viewer_view_all_related_images_accessibility">Kuva kõik seotud kujutised</string>
-    <string name="image_viewer_view_saved">Kuva salvestatud</string>
     <string name="image_viewer_visit_site">Külasta</string>
     <string name="indexing_not_ready">Meil ei ole veel sisu teile kuvamiseks. Looge Interneti-ühendus ja tulge mõne minuti pärast tagasi.</string>
     <string name="info_target_label">Rakenduse teave</string>
@@ -405,6 +406,7 @@ Otsige podcasti uuesti."</string>
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Märgi esitatuks</string>
     <string name="mark_as_unplayed">Märgi mitteesitatuks</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Teie podcastid</string>
     <string name="media_route_chooser_dialog_title">Ülekandmine seadmesse</string>
     <string name="media_route_chooser_searching">Seadmete otsimine …</string>
@@ -520,10 +522,12 @@ Avastage ja juhtige jaotises Minu tegevused kõiki oma Google'i otsinguid ning t
     <string name="playback_panel_error">Ei saa esitada</string>
     <string name="playback_status_buffering">Puhverdamine …</string>
     <string name="please_select">Valige</string>
+    <string name="podcast_retry_download">Proovi uuesti</string>
     <string name="podcasts">Podcastid</string>
     <string name="preferences_license_summary">Avatud lähtekoodiga tarkvara litsentsiteave</string>
     <string name="preferences_license_title">Avatud lähtekoodi litsentsid</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Päring: %s.</string>
     <string name="query_people_group_header">Kontaktid</string>
     <string name="quoted_query">„%1$s”</string>
@@ -665,7 +669,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">Jagude allalaadimiseks vajab Google juurdepääsu teie seadme salvestusruumile</string>
     <string name="request_storage_permission_dialog_title">Lubage juurdepääs salvestusruumile</string>
     <string name="reservation_group_header">Reserveerimised</string>
-    <string name="retry">Proovi uuesti</string>
     <string name="retry_failed_download">Proovi uuesti alla laadida</string>
     <string name="returned">Tagastatud</string>
     <string name="review_count_text">(%d)</string>
@@ -727,6 +730,7 @@ See saade ei ole praegu saadaval."</string>
     <string name="snackbar_message_removed_from_recently">Hiljutistelt lehtedelt eemaldatud</string>
     <string name="source_chip_desc">Vaadake sisu kontaktilt %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Ülekandmise ajal pole kiirusseaded saadaval.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Telli</string>
     <string name="subscribe_to_see_new_episodes">Uute jagude nägemiseks tellige podcastid</string>
@@ -736,6 +740,7 @@ See saade ei ole praegu saadaval."</string>
     <string name="suw_next_button_label">Edasi</string>
     <string name="tab_episodes_in_progress">Pooleli</string>
     <string name="tab_new_episodes">Uued</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">Kontakti %s peitmine õnnestus.</string>
     <string name="toast_hide_fail">Midagi läks valesti! Kontakti %s ei peidetud.</string>
     <string name="toast_unhide">Kontakti %s peidust väljatoomine õnnestus.</string>

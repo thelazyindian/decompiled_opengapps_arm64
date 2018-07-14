@@ -108,10 +108,14 @@
     <string name="cancel">გაუქმება</string>
     <string name="cancel_favorites_selection">გაუქმება</string>
     <string name="cancelled">გაუქმებულია</string>
+    <string name="cast_fail_to_connect_message">%1$s ამჟამად ვერ დაკავშირდა. ცადეთ მოგვიანებით.</string>
+    <string name="cast_fail_to_reconnect_message">%1$s ამჟამად ვერ დაკავშირდა ხელახლა. ცადეთ მოგვიანებით.</string>
     <string name="cast_notification_connected_message">დაკავშირებულია %1$s-თან</string>
     <string name="cast_notification_connecting_message">მიმდინარეობს %1$s-თან დაკავშირება</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">კავშირის გაწყვეტა</string>
+    <string name="cast_reconnecting_message">მიმდინარეობს ხელახლა დაკავშირების მცდელობა</string>
+    <string name="cast_success_to_reconnect_message">%1$s დაკავშირებულია ხელახლა</string>
     <string name="cct_account_mismatch_card_button_text">%1$s-ის გახსნა</string>
     <string name="cct_account_mismatch_card_header">თქვენი ვებგვერდების ნახვა</string>
     <string name="cct_account_mismatch_card_text">აქ ნაპოვნი გვერდების სანახავად, განაახლეთ &lt;b>%1$s-ის პარამეტრები&lt;/b> და ჩართეთ სინქრონიზაცია &lt;b>%2$s-ისთვის&lt;/b></string>
@@ -171,7 +175,6 @@
     <string name="delivered">მიწოდებულია</string>
     <string name="device_photo_group_header">მოწყობილობის ფოტოები</string>
     <string name="docs_group_header">დოკუმენტები</string>
-    <string name="donate">შეწირვა</string>
     <string name="donate_button_label">შეწირვა</string>
     <string name="done">მზადაა</string>
     <string name="done_label">დასრულება</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">ჩამოტვირთვა ვერ მოიძებნა</string>
     <string name="download_setting_message">ჩამოტვირთული ეპიზოდები ამოიშლება დასრულებიდან 30 დღის ან 24 საათის შემდეგ</string>
     <string name="downloaded">ჩამოტვირთული</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">ჩამოტვირთული ეპიზოდები</string>
     <string name="downloading">მიმდინარეობს ჩამოტვირთვა...</string>
     <string name="downloads">ჩამოტვირთვები</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">ხელმისაწვდომი ეპიზოდები</string>
     <string name="episode_page_section_title">ეპიზოდი</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">თქვენთვის</string>
     <string name="error">შეცდომა</string>
     <string name="error_message">ძიება ვერ შესრულდა. გთხოვთ, ცადოთ მოგვიანებით.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">ყოველ სამუშაო დღეს (ორშ-პარ)</string>
     <string name="every_weekday_lower">ყოველ სამუშაო დღეს (ორშ-პარ)</string>
     <string name="expand_button_title">დამატებით</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">პოდკასტი შეიცავს სექსუალური ხასიათის კონტენტს</string>
     <string name="fast_forward">გადახვევა ბოლოში</string>
     <string name="favorite_images_tag_title">რჩეული სურათები</string>
     <string name="favorite_pages_tag_title">რჩეული გვერდები</string>
+    <string name="favorite_screenshots_tag_title">რჩეული ეკრანის ანაბეჭდები</string>
     <string name="first_run_cling_title">მოგესალმებით</string>
     <string name="flight_group_header">ფრენები</string>
     <string name="folder_closed">საქაღალდე დაიხურა</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">იხილეთ თქვენი გამოწერები აქ</string>
     <string name="hotseat_out_of_space">რჩეულების თაროზე ადგილი არ არის</string>
     <string name="hour_picker_description">საათების წრიული სლაიდერი</string>
-    <string name="https_info_close">დახურვა</string>
-    <string name="https_info_message">პოდკასტის საიტთან თქვენი კავშირი კონფიდენციალურია.</string>
-    <string name="https_info_title">დაცული კავშირი</string>
     <string name="i18n_address_line1_accessibility_label">ქუჩის მისამართი: ხაზი 1</string>
     <string name="i18n_address_line1_label">ქუჩის მისამართი</string>
     <string name="i18n_address_line2_accessibility_label">ქუჩის მისამართი: ხაზი 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">ნახვების რაოდენობა</string>
     <string name="image_viewer_video_watch_label">ყურება</string>
     <string name="image_viewer_view_all_related_images_accessibility">ყველა დაკავშირებული სურათის ნახვა</string>
-    <string name="image_viewer_view_saved">შენახულის ნახვა</string>
     <string name="image_viewer_visit_site">ვიზიტი</string>
     <string name="indexing_not_ready">საჩვენებელი კონტენტი ჯერ არ არის. დაუკავშირდით ინტერნეტს და დაბრუნდით რამდენიმე წუთში.</string>
     <string name="info_target_label">აპის შესახებ</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">დაკრულად მონიშვნა</string>
     <string name="mark_as_unplayed">დაუკვრელად მონიშვნა</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">თქვენი პოდკასტები</string>
     <string name="media_route_chooser_dialog_title">ტრანსლირება მოწყობილობაში:</string>
     <string name="media_route_chooser_searching">მიმდინარეობს მოწყობილობების ძიება…</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">დაკვრა შეუძლებელია</string>
     <string name="playback_status_buffering">მიმდინარეობს ბუფერიზაცია…</string>
     <string name="please_select">გთხოვთ, აირჩიოთ</string>
+    <string name="podcast_retry_download">ხელახლა ცდა</string>
     <string name="podcasts">პოდკასტები</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">მოთხოვნა: %s</string>
     <string name="query_people_group_header">კონტაქტები</string>
     <string name="quoted_query">„%1$s“</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">ეპიზოდების ჩამოსატვირთად Google თქვენი მოწყობილობის მეხსიერებაზე წვდომას საჭიროებს</string>
     <string name="request_storage_permission_dialog_title">დაუშვით წვდომა მეხსიერებაზე</string>
     <string name="reservation_group_header">ჯავშნები</string>
-    <string name="retry">გამეორება</string>
     <string name="retry_failed_download">ჩამოტვირთვის ხელახლა ცდა</string>
     <string name="returned">დაბრუნებულია</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="snackbar_message_removed_from_recently">ამოიშალა ბოლოდროინდელი გვერდებიდან</string>
     <string name="source_chip_desc">%s-ის კონტენტის ნახვა.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">სიჩქარის პარამეტრები მიუწვდომელია ტრანსლირებისას.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">გამოწერა</string>
     <string name="subscribe_to_see_new_episodes">ახალი ეპიზოდების სანახავად გამოიწერეთ პოდკასტები</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="suw_next_button_label">შემდეგი</string>
     <string name="tab_episodes_in_progress">მიმდინარე</string>
     <string name="tab_new_episodes">ახალი</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s-ის დამალვა შესრულდა.</string>
     <string name="toast_hide_fail">რაღაც შეცდომაა! %s-ის დამალვა ვერ მოხერხდა.</string>
     <string name="toast_unhide">%s-ის გამოჩენა შესრულდა.</string>

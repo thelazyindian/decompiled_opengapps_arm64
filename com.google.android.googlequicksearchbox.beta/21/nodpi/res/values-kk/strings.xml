@@ -108,10 +108,14 @@
     <string name="cancel">Бас тарту</string>
     <string name="cancel_favorites_selection">Бас тарту</string>
     <string name="cancelled">Бас тартылған</string>
+    <string name="cast_fail_to_connect_message">%1$s құрылғысына жалғанбады. Әрекетті кейінірек қайталаңыз.</string>
+    <string name="cast_fail_to_reconnect_message">%1$s құрылғысына жалғанбады. Әрекетті кейінірек қайталаңыз.</string>
     <string name="cast_notification_connected_message">%1$s қосылу орындалды</string>
     <string name="cast_notification_connecting_message">%1$s қосылу орындалуда</string>
     <string name="cast_notification_default_channel_name">Cast</string>
     <string name="cast_notification_disconnect">Ажырату</string>
+    <string name="cast_reconnecting_message">Қайта жалғануда</string>
+    <string name="cast_success_to_reconnect_message">%1$s құрылғысына қайта жалғанды</string>
     <string name="cct_account_mismatch_card_button_text">%1$s бетін ашу</string>
     <string name="cct_account_mismatch_card_header">Веббеттерді көру</string>
     <string name="cct_account_mismatch_card_text">Осы жердегі беттерді көру үшін &lt;b>%1$s параметрлерін&lt;/b> жаңартып, &lt;b>%2$s&lt;/b> синхрондауды қосыңыз</string>
@@ -171,7 +175,6 @@
     <string name="delivered">Жеткізілген</string>
     <string name="device_photo_group_header">Құрылғыдағы фотосуреттер</string>
     <string name="docs_group_header">Құжаттар</string>
-    <string name="donate">Қайырымдылыққа беру</string>
     <string name="donate_button_label">Қайырымдылыққа беру</string>
     <string name="done">Дайын</string>
     <string name="done_label">Дайын</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">Жүктеп алынған файл табылмады</string>
     <string name="download_setting_message">Сериялар жүктеп алынған соң 30 күннен кейін немесе тыңдалған соң 24 сағаттан кейін өшіріледі</string>
     <string name="downloaded">Жүктеп алынды</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">Жүктеп алынған сериялар</string>
     <string name="downloading">Жүктелуде…</string>
     <string name="downloads">Жүктеп алынғандар</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">Қолжетімді эпизодтар</string>
     <string name="episode_page_section_title">Эпизод</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">Сіз үшін</string>
     <string name="error">Қате</string>
     <string name="error_message">Іздеу сәтсіз аяқталды. Әрекетті кейінірек қайталап көріңіз.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">Әр жұмыс күні (дс–жм)</string>
     <string name="every_weekday_lower">әр жұмыс күні (дс–жм)</string>
     <string name="expand_button_title">Қосымша</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">Подкаста цензураланбаған көріністер бар</string>
     <string name="fast_forward">Жылдам алға айналдыру</string>
     <string name="favorite_images_tag_title">Таңдаулы суреттер</string>
     <string name="favorite_pages_tag_title">Таңдаулы беттер</string>
+    <string name="favorite_screenshots_tag_title">Таңдаулы скриншоттар</string>
     <string name="first_run_cling_title">Қош келдіңіз</string>
     <string name="flight_group_header">Ұшу рейстері</string>
     <string name="folder_closed">Қалта жабылды</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">Жазылымдарыңызды осы жерден көріңіз</string>
     <string name="hotseat_out_of_space">Қалаулылар науасында орын қалмады</string>
     <string name="hour_picker_description">Сағат тілі</string>
-    <string name="https_info_close">Жабу</string>
-    <string name="https_info_message">Подкаст сайтымен байланысыңыз құпия сақталады.</string>
-    <string name="https_info_title">Қауіпсіз байланыс</string>
     <string name="i18n_address_line1_accessibility_label">Көше мекенжайы: 1-жол</string>
     <string name="i18n_address_line1_label">Көше мекенжайы</string>
     <string name="i18n_address_line2_accessibility_label">Көше мекенжайы: 2-жол</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">Көрілген саны</string>
     <string name="image_viewer_video_watch_label">Көру</string>
     <string name="image_viewer_view_all_related_images_accessibility">Барлық қатысты кескіндерді көру</string>
-    <string name="image_viewer_view_saved">Сақталғандарды көру</string>
     <string name="image_viewer_visit_site">Кіру</string>
     <string name="indexing_not_ready">Әзірге көрсетілетін мазмұн жоқ. Интернетке қосылып, бірнеше минуттан кейін қайта кіріп көріңіз.</string>
     <string name="info_target_label">Қолданба ақпары</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">Ойнатылған деп белгілеу</string>
     <string name="mark_as_unplayed">Ойнатылмаған деп белгілеу</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">Подкастар</string>
     <string name="media_route_chooser_dialog_title">Құрылғыға трансляциялау:</string>
     <string name="media_route_chooser_searching">Құрылғылар ізделуде…</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">Ойнатылмады</string>
     <string name="playback_status_buffering">Буферлеуде...</string>
     <string name="please_select">Таңдаңыз</string>
+    <string name="podcast_retry_download">Қайталау</string>
     <string name="podcasts">Подкастілер</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">Сұрау: %s.</string>
     <string name="query_people_group_header">Контактілер</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s сұрауы бойынша і
     <string name="request_storage_permission_dialog_message">Серияларды жүктеп алу үшін Google құрылғыңыздың жадын пайдалануына рұқсат беріңіз</string>
     <string name="request_storage_permission_dialog_title">Жад пайдалануға рұқсат беріңіз</string>
     <string name="reservation_group_header">Тапсырыстар</string>
-    <string name="retry">Қайталау</string>
     <string name="retry_failed_download">Жүктеп алу әрекетін қайталау</string>
     <string name="returned">Қайтарылған</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s сұрауы бойынша і
     <string name="snackbar_message_removed_from_recently">Соңғы кірген беттерден өшірілді</string>
     <string name="source_chip_desc">%s жіберген мазмұнды көру.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">Трансляциялау кезінде жылдамдық параметрлері қолжетімді емес.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">Жазылу</string>
     <string name="subscribe_to_see_new_episodes">Жаңа эпизодтарды көру үшін подкастарға жазылыңыз</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s сұрауы бойынша і
     <string name="suw_next_button_label">Келесі</string>
     <string name="tab_episodes_in_progress">Аяқталмаған</string>
     <string name="tab_new_episodes">Жаңа</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s жасырылды.</string>
     <string name="toast_hide_fail">Бірдеңе дұрыс болмады! %s жасырылмады.</string>
     <string name="toast_unhide">%s көрсетілді.</string>

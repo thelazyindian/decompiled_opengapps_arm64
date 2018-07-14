@@ -1023,6 +1023,7 @@
         <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
         <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
         <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
         <item name="colorAccent">?colorSecondary</item>
@@ -1061,6 +1062,7 @@
         <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
         <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
         <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
         <item name="colorAccent">?colorSecondary</item>
@@ -1098,6 +1100,7 @@
         <item name="textAppearanceSubtitle2">@style/TextAppearance.MaterialComponents.Subtitle2</item>
         <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
         <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
         <item name="colorAccent">?colorSecondary</item>
@@ -1136,6 +1139,7 @@
         <item name="textInputStyle">@style/Widget.Design.TextInputLayout</item>
         <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
         <item name="borderlessButtonStyle">@style/Widget.MaterialComponents.Button.TextButton</item>
+        <item name="toolbarStyle">@style/Widget.MaterialComponents.Toolbar</item>
         <item name="colorPrimary">@color/design_default_color_primary</item>
         <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
         <item name="colorAccent">?colorSecondary</item>
@@ -1810,14 +1814,14 @@
         <item name="chipCornerRadius">16.0dip</item>
         <item name="chipStrokeColor">#00000000</item>
         <item name="chipStrokeWidth">0.0dip</item>
-        <item name="chipIconEnabled">true</item>
+        <item name="chipIconVisible">true</item>
         <item name="chipIcon">@null</item>
         <item name="chipIconSize">24.0dip</item>
-        <item name="closeIconEnabled">true</item>
+        <item name="closeIconVisible">true</item>
         <item name="closeIcon">@drawable/ic_mtrl_chip_close_circle</item>
         <item name="closeIconTint">@color/mtrl_chip_close_icon_tint</item>
         <item name="closeIconSize">18.0dip</item>
-        <item name="checkedIconEnabled">true</item>
+        <item name="checkedIconVisible">true</item>
         <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_circle</item>
         <item name="chipStartPadding">4.0dip</item>
         <item name="iconStartPadding">0.0dip</item>
@@ -1859,11 +1863,13 @@
         <item name="android:fontFamily">Roboto Medium</item>
     </style>
     <style name="BottomSheetDialog" parent="@style/Theme.Design.Light.BottomSheetDialog">
+        <item name="android:colorBackground">@android:color/transparent</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/black</item>
     </style>
+    <style name="BottomSheetDialog.DarkTheme" parent="@style/BottomSheetDialog" />
     <style name="BubbleSnackbar">
         <item name="android:textSize">12.0sp</item>
         <item name="android:paddingLeft">@dimen/bubble_snackbar_padding</item>
@@ -3886,6 +3892,13 @@
         <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
     </style>
+    <style name="PageFooterActionLink">
+        <item name="android:textAppearance">?textAppearanceCaption</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/action_link_background</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:paddingRight">16.0dip</item>
+    </style>
     <style name="PaymentsOobe.Text.Message" parent="@android:style/TextAppearance">
         <item name="android:textSize">16.0sp</item>
         <item name="android:textColor">@color/quantum_black_text</item>
@@ -5688,6 +5701,15 @@
     <style name="Text.Button.Message" parent="@style/Text.Message">
         <item name="android:textColor">@color/google_blue</item>
     </style>
+    <style name="Text.Dialog.Message" parent="@android:style/TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/quantum_black_text</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="Text.Dialog.Message.Bold" parent="@style/Text.Dialog.Message">
+        <item name="android:textStyle">bold</item>
+    </style>
     <style name="Text.Error.Message" parent="@android:style/TextAppearance">
         <item name="android:textSize">14.0sp</item>
         <item name="android:textColor">@color/quantum_googred900</item>
@@ -5983,9 +6005,6 @@
         <item name="android:textColor">@color/google_tabs_icon_color_selector</item>
         <item name="textAllCaps">false</item>
     </style>
-    <style name="TextAppearance.GoogleMaterial.Tab.Secondary" parent="@style/TextAppearance.GoogleMaterial.Tab">
-        <item name="android:textColor">@color/google_tabs_secondary_text_color_selector</item>
-    </style>
     <style name="TextAppearance.GoogleMaterial.Toolbar.Subtitle" parent="@style/TextAppearance.GoogleMaterial.Subhead1">
         <item name="android:textSize">@dimen/google_toolbar_text_size_subtitle</item>
     </style>
@@ -6110,9 +6129,6 @@
     </style>
     <style name="TextAppearance.MaterialComponents.Tab" parent="@style/TextAppearance.Design.Tab">
         <item name="android:textColor">@color/mtrl_tabs_icon_color_selector</item>
-    </style>
-    <style name="TextAppearance.MaterialComponents.Tab.Colored" parent="@style/TextAppearance.MaterialComponents.Tab">
-        <item name="android:textColor">@color/mtrl_tabs_icon_color_selector_colored</item>
     </style>
     <style name="TextAppearance.MediaRouter.PrimaryText" parent="@style/TextAppearance.AppCompat.Subhead" />
     <style name="TextAppearance.MediaRouter.SecondaryText" parent="@style/TextAppearance.AppCompat.Body1" />
@@ -7174,10 +7190,12 @@
         <item name="android:stateListAnimator">@animator/google_btn_state_list_anim</item>
         <item name="rippleColor">@color/google_btn_filled_btn_ripple_color</item>
         <item name="iconTint">@color/google_btn_text_color_selector</item>
-        <item name="additionalPaddingStartForIcon">@dimen/google_btn_additional_padding_start_for_icon</item>
-        <item name="additionalPaddingEndForIcon">@dimen/google_btn_additional_padding_end_for_icon</item>
         <item name="enforceTextAppearance">false</item>
         <item name="backgroundTint">@color/google_btn_filled_btn_bg_color_selector</item>
+    </style>
+    <style name="Widget.GoogleMaterial.Button.Icon" parent="@style/Widget.GoogleMaterial.Button">
+        <item name="android:paddingLeft">@dimen/google_btn_icon_btn_padding_left</item>
+        <item name="android:paddingRight">@dimen/google_btn_icon_btn_padding_right</item>
     </style>
     <style name="Widget.GoogleMaterial.CardView" parent="@style/Widget.MaterialComponents.CardView">
         <item name="strokeColor">@color/google_grey300</item>
@@ -7194,9 +7212,9 @@
         <item name="android:checkable">false</item>
         <item name="chipMinHeight">32.0dip</item>
         <item name="chipCornerRadius">16.0dip</item>
-        <item name="chipIconEnabled">true</item>
-        <item name="closeIconEnabled">false</item>
-        <item name="checkedIconEnabled">false</item>
+        <item name="chipIconVisible">true</item>
+        <item name="closeIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
         <item name="chipStartPadding">8.0dip</item>
         <item name="iconStartPadding">0.0dip</item>
         <item name="iconEndPadding">0.0dip</item>
@@ -7231,10 +7249,10 @@
         <item name="android:checkable">true</item>
         <item name="chipMinHeight">32.0dip</item>
         <item name="chipCornerRadius">8.0dip</item>
-        <item name="chipIconEnabled">false</item>
-        <item name="closeIconEnabled">false</item>
+        <item name="chipIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
         <item name="closeIconSize">18.0dip</item>
-        <item name="checkedIconEnabled">false</item>
+        <item name="checkedIconVisible">false</item>
         <item name="chipStartPadding">8.0dip</item>
         <item name="iconStartPadding">0.0dip</item>
         <item name="iconEndPadding">-2.0dip</item>
@@ -7307,23 +7325,34 @@
         <item name="iconTint">@color/google_btn_text_color_selector_secondary</item>
         <item name="backgroundTint">@color/google_btn_protected_btn_bg_color_selector</item>
     </style>
-    <style name="Widget.GoogleMaterial.Snackbar" parent="@style/Widget.MaterialComponents.Snackbar.FullWidth" />
+    <style name="Widget.GoogleMaterial.ProtectedButton.Icon" parent="@style/Widget.GoogleMaterial.ProtectedButton">
+        <item name="android:paddingLeft">@dimen/google_btn_icon_btn_padding_left</item>
+        <item name="android:paddingRight">@dimen/google_btn_icon_btn_padding_right</item>
+    </style>
+    <style name="Widget.GoogleMaterial.Snackbar" parent="@style/Widget.MaterialComponents.Snackbar" />
+    <style name="Widget.GoogleMaterial.Snackbar.FullWidth" parent="@style/Widget.MaterialComponents.Snackbar.FullWidth" />
     <style name="Widget.GoogleMaterial.StrokedButton" parent="@style/Widget.GoogleMaterial.TextButton">
         <item name="android:stateListAnimator">@animator/google_btn_stroked_btn_state_list_anim</item>
         <item name="strokeColor">@color/google_btn_stroke_color_selector</item>
         <item name="strokeWidth">@dimen/mtrl_btn_stroke_size</item>
     </style>
+    <style name="Widget.GoogleMaterial.StrokedButton.Icon" parent="@style/Widget.GoogleMaterial.StrokedButton">
+        <item name="android:paddingLeft">@dimen/google_btn_icon_btn_padding_left</item>
+        <item name="android:paddingRight">@dimen/google_btn_icon_btn_padding_right</item>
+    </style>
     <style name="Widget.GoogleMaterial.TabLayout" parent="@style/Widget.MaterialComponents.TabLayout">
         <item name="tabIndicator">@drawable/google_tabs_rounded_line_indicator</item>
         <item name="tabIndicatorFullWidth">false</item>
         <item name="tabTextAppearance">@style/TextAppearance.GoogleMaterial.Tab</item>
+        <item name="tabTextColor">@color/google_tabs_icon_color_selector</item>
         <item name="tabIconTint">@color/google_tabs_icon_color_selector</item>
+        <item name="enforceTextAppearance">false</item>
     </style>
     <style name="Widget.GoogleMaterial.TabLayout.Secondary" parent="@style/Widget.GoogleMaterial.TabLayout">
         <item name="android:background">@drawable/google_tabs_secondary_tabs_background</item>
         <item name="tabIndicator">@drawable/google_tabs_line_indicator</item>
         <item name="tabIndicatorFullWidth">true</item>
-        <item name="tabTextAppearance">@style/TextAppearance.GoogleMaterial.Tab.Secondary</item>
+        <item name="tabTextColor">@color/google_tabs_secondary_text_color_selector</item>
     </style>
     <style name="Widget.GoogleMaterial.TextButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
         <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.MaterialButton.Secondary</item>
@@ -7332,8 +7361,6 @@
         <item name="android:paddingRight">@dimen/google_btn_padding_right</item>
         <item name="rippleColor">@color/google_btn_ripple_color</item>
         <item name="iconTint">@color/google_btn_text_color_selector_secondary</item>
-        <item name="additionalPaddingStartForIcon">@dimen/google_btn_additional_padding_start_for_icon</item>
-        <item name="additionalPaddingEndForIcon">@dimen/google_btn_additional_padding_end_for_icon</item>
         <item name="enforceTextAppearance">false</item>
     </style>
     <style name="Widget.GoogleMaterial.TextButton.Dialog" parent="@style/Widget.GoogleMaterial.TextButton">
@@ -7343,9 +7370,19 @@
         <item name="android:minWidth">@dimen/mtrl_btn_dialog_btn_min_width</item>
         <item name="android:layout_marginStart">@dimen/google_btn_dialog_btn_spacing</item>
     </style>
+    <style name="Widget.GoogleMaterial.TextButton.Dialog.Icon" parent="@style/Widget.GoogleMaterial.TextButton.Dialog" />
+    <style name="Widget.GoogleMaterial.TextButton.Icon" parent="@style/Widget.GoogleMaterial.TextButton">
+        <item name="android:paddingLeft">@dimen/google_btn_icon_btn_padding_left</item>
+        <item name="android:paddingRight">@dimen/google_btn_icon_btn_padding_right</item>
+    </style>
     <style name="Widget.GoogleMaterial.TextButton.Snackbar" parent="@style/Widget.GoogleMaterial.TextButton">
+        <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.Subhead1</item>
+        <item name="android:textColor">@color/google_snackbar_button</item>
         <item name="android:paddingLeft">@dimen/mtrl_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/mtrl_btn_padding_right</item>
+    </style>
+    <style name="Widget.GoogleMaterial.TextButton.Snackbar.Icon" parent="@style/Widget.GoogleMaterial.TextButton.Snackbar">
+        <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
     </style>
     <style name="Widget.GoogleMaterial.TextInputLayout.FilledBox" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox" />
     <style name="Widget.GoogleMaterial.TextInputLayout.FilledBox.Dense" parent="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense" />
@@ -7396,17 +7433,21 @@
         <item name="rippleColor">@color/mtrl_btn_ripple_color</item>
         <item name="iconPadding">@dimen/mtrl_btn_icon_padding</item>
         <item name="iconTint">@color/mtrl_btn_text_color_selector</item>
-        <item name="additionalPaddingStartForIcon">@dimen/mtrl_btn_additional_padding_start_for_icon</item>
-        <item name="additionalPaddingEndForIcon">@dimen/mtrl_btn_additional_padding_end_for_icon</item>
         <item name="cornerRadius">@dimen/mtrl_btn_corner_radius</item>
         <item name="enforceTextAppearance">true</item>
         <item name="backgroundTint">@color/mtrl_btn_bg_color_selector</item>
+    </style>
+    <style name="Widget.MaterialComponents.Button.Icon" parent="@style/Widget.MaterialComponents.Button">
+        <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
     </style>
     <style name="Widget.MaterialComponents.Button.OutlinedButton" parent="@style/Widget.MaterialComponents.Button.TextButton">
         <item name="android:paddingLeft">@dimen/mtrl_btn_padding_left</item>
         <item name="android:paddingRight">@dimen/mtrl_btn_padding_right</item>
         <item name="strokeColor">@color/mtrl_btn_stroke_color_selector</item>
         <item name="strokeWidth">@dimen/mtrl_btn_stroke_size</item>
+    </style>
+    <style name="Widget.MaterialComponents.Button.OutlinedButton.Icon" parent="@style/Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
     </style>
     <style name="Widget.MaterialComponents.Button.TextButton" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="android:textColor">@color/mtrl_text_btn_text_color_selector</item>
@@ -7420,21 +7461,26 @@
     <style name="Widget.MaterialComponents.Button.TextButton.Dialog" parent="@style/Widget.MaterialComponents.Button.TextButton">
         <item name="android:minWidth">@dimen/mtrl_btn_dialog_btn_min_width</item>
     </style>
+    <style name="Widget.MaterialComponents.Button.TextButton.Dialog.Icon" parent="@style/Widget.MaterialComponents.Button.TextButton.Dialog" />
+    <style name="Widget.MaterialComponents.Button.TextButton.Icon" parent="@style/Widget.MaterialComponents.Button.TextButton" />
     <style name="Widget.MaterialComponents.Button.UnelevatedButton" parent="@style/Widget.MaterialComponents.Button">
         <item name="android:stateListAnimator">@animator/mtrl_btn_unelevated_state_list_anim</item>
+    </style>
+    <style name="Widget.MaterialComponents.Button.UnelevatedButton.Icon" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:paddingLeft">@dimen/mtrl_btn_icon_btn_padding_left</item>
     </style>
     <style name="Widget.MaterialComponents.CardView" parent="@style/CardView">
         <item name="cardBackgroundColor">?colorBackgroundFloating</item>
         <item name="cardElevation">@dimen/mtrl_card_elevation</item>
     </style>
     <style name="Widget.MaterialComponents.Chip.Action" parent="@style/Base.Widget.MaterialComponents.Chip">
-        <item name="closeIconEnabled">false</item>
+        <item name="closeIconVisible">false</item>
     </style>
     <style name="Widget.MaterialComponents.Chip.Choice" parent="@style/Base.Widget.MaterialComponents.Chip">
         <item name="android:checkable">true</item>
-        <item name="chipIconEnabled">false</item>
-        <item name="closeIconEnabled">false</item>
-        <item name="checkedIconEnabled">false</item>
+        <item name="chipIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
         <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_black</item>
     </style>
     <style name="Widget.MaterialComponents.Chip.Entry" parent="@style/Base.Widget.MaterialComponents.Chip">
@@ -7442,8 +7488,8 @@
     </style>
     <style name="Widget.MaterialComponents.Chip.Filter" parent="@style/Base.Widget.MaterialComponents.Chip">
         <item name="android:checkable">true</item>
-        <item name="chipIconEnabled">false</item>
-        <item name="closeIconEnabled">false</item>
+        <item name="chipIconVisible">false</item>
+        <item name="closeIconVisible">false</item>
         <item name="checkedIcon">@drawable/ic_mtrl_chip_checked_black</item>
     </style>
     <style name="Widget.MaterialComponents.ChipGroup" parent="@android:style/Widget">
@@ -7473,15 +7519,17 @@
         <item name="android:background">@android:color/white</item>
         <item name="tabIndicatorColor">?colorAccent</item>
         <item name="tabIndicatorAnimationDuration">@integer/mtrl_tab_indicator_anim_duration_ms</item>
-        <item name="tabTextAppearance">@style/TextAppearance.MaterialComponents.Tab</item>
+        <item name="tabTextAppearance">?textAppearanceButton</item>
+        <item name="tabTextColor">@color/mtrl_tabs_icon_color_selector</item>
         <item name="tabIconTint">@color/mtrl_tabs_icon_color_selector</item>
         <item name="tabRippleColor">@color/mtrl_tabs_ripple_color</item>
         <item name="tabUnboundedRipple">true</item>
+        <item name="enforceTextAppearance">true</item>
     </style>
     <style name="Widget.MaterialComponents.TabLayout.Colored" parent="@style/Widget.MaterialComponents.TabLayout">
         <item name="android:background">?colorAccent</item>
         <item name="tabIndicatorColor">@android:color/white</item>
-        <item name="tabTextAppearance">@style/TextAppearance.MaterialComponents.Tab.Colored</item>
+        <item name="tabTextColor">@color/mtrl_tabs_icon_color_selector_colored</item>
         <item name="tabIconTint">@color/mtrl_tabs_icon_color_selector_colored</item>
         <item name="tabRippleColor">@color/mtrl_tabs_colored_ripple_color</item>
     </style>
@@ -7516,6 +7564,13 @@
     </style>
     <style name="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="android:theme">@style/ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense</item>
+    </style>
+    <style name="Widget.MaterialComponents.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:minHeight">@dimen/mtrl_toolbar_default_height</item>
+        <item name="titleTextAppearance">?textAppearanceHeadline6</item>
+        <item name="subtitleTextAppearance">?textAppearanceSubtitle1</item>
+        <item name="titleTextColor">?android:textColorPrimary</item>
+        <item name="subtitleTextColor">?android:textColorSecondary</item>
     </style>
     <style name="Widget.MediaRouter.Light.MediaRouteButton" parent="@style/Widget.AppCompat.Light.ActionButton">
         <item name="externalRouteEnabledDrawable">@drawable/mr_button_light</item>
@@ -7913,6 +7968,20 @@
         <item name="android:includeFontPadding">false</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
+    <style name="back_of_card_dark_theme">
+        <item name="backOfCardCloseFontColor">#fff8f9fa</item>
+        <item name="backOfCardHeaderBackgroundColor">@android:color/transparent</item>
+        <item name="backOfCardLineColor">#ff424346</item>
+        <item name="cardActionIconTint">#ffbdc1c6</item>
+        <item name="cardActionLabelColor">#fff8f9fa</item>
+    </style>
+    <style name="back_of_card_light_theme">
+        <item name="backOfCardCloseFontColor">@color/hq_grey900</item>
+        <item name="backOfCardHeaderBackgroundColor">@color/boc_header_background</item>
+        <item name="backOfCardLineColor">@color/back_of_card_navigation_line_color</item>
+        <item name="cardActionIconTint">#ff70757a</item>
+        <item name="cardActionLabelColor">@color/hq_grey900</item>
+    </style>
     <style name="bottom_dialog_button" parent="@style/bottom_dialog_button_base">
         <item name="android:textSize">@dimen/bottom_dialog_text_size</item>
         <item name="android:paddingLeft">@dimen/bottom_dialog_button_horizontal_padding</item>
@@ -8049,23 +8118,6 @@
         <item name="android:paddingStart">16.0dip</item>
         <item name="android:paddingEnd">20.0dip</item>
     </style>
-    <style name="countdown_confirm_button" parent="@style/countdown_confirm_button_base">
-        <item name="android:textSize">@dimen/countdown_confirm_button_text_size</item>
-        <item name="android:textColor">@color/quantum_white_100</item>
-        <item name="android:background">@drawable/countdown_confirm_button_background</item>
-        <item name="android:paddingLeft">@dimen/countdown_confirm_button_horizontal_padding</item>
-        <item name="android:paddingTop">@dimen/countdown_confirm_button_vertical_padding</item>
-        <item name="android:paddingRight">@dimen/countdown_confirm_button_horizontal_padding</item>
-        <item name="android:paddingBottom">@dimen/countdown_confirm_button_vertical_padding</item>
-        <item name="android:minWidth">@dimen/countdown_confirm_button_min_width</item>
-        <item name="android:minHeight">@dimen/countdown_confirm_button_min_height</item>
-        <item name="android:textAllCaps">true</item>
-        <item name="android:fontFamily">Roboto Medium</item>
-    </style>
-    <style name="countdown_confirm_button_base" parent="@android:style/Widget.Button" />
-    <style name="countdown_progress_bar" parent="@android:style/Widget.ProgressBar.Horizontal">
-        <item name="android:progressDrawable">@drawable/countdown_bar</item>
-    </style>
     <style name="disambiguation_sub_item_divider_padding">
         <item name="android:paddingLeft">@dimen/modular_action_contact_image_small_size_plus_margins</item>
     </style>
@@ -8185,6 +8237,26 @@
     <style name="fuse_ui_confirm_button_base" parent="@android:style/Widget.Button" />
     <style name="fuse_ui_progress_bar" parent="@android:style/Widget.ProgressBar.Horizontal">
         <item name="android:progressDrawable">@drawable/gmm_intent_fuse_ui_progress_bar</item>
+    </style>
+    <style name="gm_font_weight_black">
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="gm_font_weight_light">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="gm_font_weight_medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="gm_font_weight_regular">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="gm_font_weight_thin">
+        <item name="android:fontFamily">sans-serif-thin</item>
+        <item name="android:textAlignment">viewStart</item>
     </style>
     <style name="google_podcasts_promotion_card_button" parent="@style/quantum_text_button_black">
         <item name="android:textColor">@color/google_blue600</item>
@@ -8752,16 +8824,6 @@
     </style>
     <style name="podcast_title" parent="@style/quantum_text_title_black">
         <item name="android:textSize">16.0sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-    </style>
-    <style name="promo_message_card_button_text" parent="@style/message_card_text">
-        <item name="android:textSize">@dimen/promo_message_card_button_text_size</item>
-        <item name="android:textColor">@color/quantum_googblue500</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:gravity">top</item>
-        <item name="android:layout_marginTop">@dimen/message_card_small_margin</item>
-        <item name="android:maxLines">2</item>
-        <item name="android:textAllCaps">true</item>
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="promotion_card_accept_button">
@@ -9455,6 +9517,12 @@
     <style name="small_content_critic_tray" parent="@style/small_content_generic_tray">
         <item name="scmExtraInfoMarginTop">32.0dip</item>
         <item name="scmPaddingTop">8.0dip</item>
+    </style>
+    <style name="small_content_critic_tray_gestalt" parent="@style/small_content_critic_tray">
+        <item name="scmGutterStartMargin">1.0dip</item>
+        <item name="scmPaddingBottom">0.0dip</item>
+        <item name="scmPaddingEnd">8.0dip</item>
+        <item name="scmPaddingTop">0.0dip</item>
     </style>
     <style name="small_content_generic_tray" parent="@style/small_content_module_default">
         <item name="scmContentPaddingTop">0.0dip</item>

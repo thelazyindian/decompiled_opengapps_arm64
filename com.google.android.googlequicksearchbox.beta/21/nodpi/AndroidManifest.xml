@@ -568,7 +568,6 @@
                 <action android:name="com.google.android.googlequicksearchbox.ACCOUNT_CREDENTIAL_UPDATE"/>
             </intent-filter>
         </receiver>
-        <service android:name="com.google.android.apps.gsa.search.core.google.gaia.changed.AccountsChangedService" android:process=":search"/>
         <receiver android:name="com.google.android.apps.gsa.search.core.location.LocationReceiver" android:process=":search">
             <intent-filter>
                 <action android:name="com.google.android.apps.sidekick.VEHICLE_EXIT_LOCATION"/>
@@ -814,6 +813,23 @@
                 <data android:pathPrefix="/podcasts?"/>
                 <data android:path="/podcasts"/>
                 <data android:host="www.google.com"/>
+                <data android:scheme="https"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="com.google.android.apps.gsa.staticplugins.hotwordenrollment.deeplink.EnterVoiceMatchActivity" android:noHistory="true" android:process=":search" android:taskAffinity="" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity-alias android:name="com.google.android.apps.gsa.opa.VoiceMatchEnrollmentActivityEntryPoint" android:targetActivity="com.google.android.apps.gsa.staticplugins.hotwordenrollment.deeplink.EnterVoiceMatchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="voicematch"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="assistant.google.com" android:path="/voicematch"/>
+                <data android:scheme="http"/>
                 <data android:scheme="https"/>
             </intent-filter>
         </activity-alias>

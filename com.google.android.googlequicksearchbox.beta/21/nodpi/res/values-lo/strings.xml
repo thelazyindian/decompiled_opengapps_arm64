@@ -108,10 +108,14 @@
     <string name="cancel">ຍົກເລີກ</string>
     <string name="cancel_favorites_selection">ຍົກເລີກ</string>
     <string name="cancelled">ຍົກເລີກແລ້ວ</string>
+    <string name="cast_fail_to_connect_message">ບໍ່ສາມາດເຊື່ອມຕໍ່ກັບ %1$s ໄດ້ໃນຂະນະນີ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.</string>
+    <string name="cast_fail_to_reconnect_message">ບໍ່ສາມາດເຊື່ອມຕໍ່ຄືນໃໝ່ກັບ %1$s ໄດ້ໃນຂະນະນີ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.</string>
     <string name="cast_notification_connected_message">ເຊື່ອມຕໍ່ຫາ %1$s ແລ້ວ</string>
     <string name="cast_notification_connecting_message">ກຳລັງເຊື່ອມຕໍ່ຫາ %1$s</string>
     <string name="cast_notification_default_channel_name">ການສົ່ງສັນຍານ</string>
     <string name="cast_notification_disconnect">ຕັດການເຊື່ອມຕໍ່</string>
+    <string name="cast_reconnecting_message">ກຳລັງລອງເຊື່ອມຕໍ່ຄືນໃໝ່</string>
+    <string name="cast_success_to_reconnect_message">ເຊື່ອມຕໍ່ຄືນໃໝ່ກັບ %1$s ແລ້ວ</string>
     <string name="cct_account_mismatch_card_button_text">ເປີດ %1$s</string>
     <string name="cct_account_mismatch_card_header">ເບິ່ງໜ້າເວັບຂອງທ່ານ</string>
     <string name="cct_account_mismatch_card_text">ເພື່ອເບິ່ງໜ້າເວັບທີ່ທ່ານຊອກເຫັນຢູ່ບ່ອນນີ້, ກະລຸນາອັບເດດ &lt;b>ການຕັ້ງຄ່າ %1$s&lt;/b> ແລະ ເປີດການຊິ້ງຂໍ້ມູນສຳລັບ &lt;b>%2$s&lt;/b></string>
@@ -171,7 +175,6 @@
     <string name="delivered">ຈັດສົ່ງແລ້ວ</string>
     <string name="device_photo_group_header">ຮູບພາບໃນອຸປະກອນ</string>
     <string name="docs_group_header">ເອກະສານ</string>
-    <string name="donate">ບໍລິຈາກ</string>
     <string name="donate_button_label">ບໍລິຈາກ</string>
     <string name="done">ແລ້ວໆ</string>
     <string name="done_label">ແລ້ວໆ</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">ບໍ່ເຫັນການດາວໂຫຼດ</string>
     <string name="download_setting_message">ລຶບຕອນທີ່ດາວໂຫຼດມາອອກຫຼັງຈາກ 30 ມື້ ຫຼື 24 ຊົ່ວໂມງຫຼັງຈາກຟັງສຳເລັດແລ້ວ</string>
     <string name="downloaded">ດາວໂຫລດແລ້ວ</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">ຕອນທີ່ດາວໂຫຼດມາ</string>
     <string name="downloading">ກຳລັງດາວໂຫລດ...</string>
     <string name="downloads">ການດາວໂຫລດ</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">ຕອນທີ່ມີໃຫ້</string>
     <string name="episode_page_section_title">ຕອນ</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">ສຳລັບທ່ານ</string>
     <string name="error">ຜິດພາດ</string>
     <string name="error_message">ຊອກຫາບໍ່ສຳເລັດ. ກະລຸນາລອງໃໝ່ພາຍຫຼັງ.</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">ທຸກໆມື້ເຮັດວຽກ (ຈັນ–ສຸກ)</string>
     <string name="every_weekday_lower">ທຸກໆມື້ເຮັດວຽກ (ຈັນ–ສຸກ)</string>
     <string name="expand_button_title">ຂັ້ນສູງ</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">ປອດຄາສທ໌ນີ້ປະກອບມີເນື້ອຫາບໍ່ເໝາະສົມ</string>
     <string name="fast_forward">ເລື່ອນໄປໜ້າ</string>
     <string name="favorite_images_tag_title">ຮູບພາບທີ່ມັກ</string>
     <string name="favorite_pages_tag_title">ໜ້າເວັບທີ່ມັກ</string>
+    <string name="favorite_screenshots_tag_title">ຮູບໜ້າຈໍທີ່ມັກ</string>
     <string name="first_run_cling_title">ຍິນດີຕ້ອນຮັບ</string>
     <string name="flight_group_header">ຖ້ຽວບິນ</string>
     <string name="folder_closed">ປິດໂຟນເດີແລ້ວ</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">ເບິ່ງການສະໝັກໃຊ້ຂອງທ່ານຢູ່ບ່ອນນີ້</string>
     <string name="hotseat_out_of_space">ບໍ່ມີບ່ອນຫວ່າງໃນຖາດສຳລັບເກັບສິ່ງທີ່ໃຊ້ເປັນປະຈຳ</string>
     <string name="hour_picker_description">ໂຕໝຸນປັບຊົ່ວໂມງ</string>
-    <string name="https_info_close">ປິດ</string>
-    <string name="https_info_message">ການເຊື່ອມຕໍ່ຂອງທ່ານກັບເວັບໄຊປອດຄາສທ໌ເປັນແບບສ່ວນຕົວ.</string>
-    <string name="https_info_title">ການເຊື່ອມຕໍ່ທີ່ປອດໄພ</string>
     <string name="i18n_address_line1_accessibility_label">ທີ່ຢູ່​ທາງ​ຖະໜົນ: ​ແຖວ 1</string>
     <string name="i18n_address_line1_label">ທີ່ຢູ່ຖະໜົນ</string>
     <string name="i18n_address_line2_accessibility_label">ທີ່ຢູ່​ທາງ​ຖະໜົນ: ​ແຖວ 2</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">ວິວ</string>
     <string name="image_viewer_video_watch_label">ເບິ່ງ</string>
     <string name="image_viewer_view_all_related_images_accessibility">ເບິ່ງທຸກຮູບພາບທີ່ກ່ຽວຂ້ອງ</string>
-    <string name="image_viewer_view_saved">ເບິ່ງຮູບທີ່ບັນທຶກໄວ້</string>
     <string name="image_viewer_visit_site">ເຂົ້າເບິ່ງ</string>
     <string name="indexing_not_ready">ພວກເຮົາຍັງບໍ່ທັນມີເນື້ອຫາທີ່ຈະສະແດງໃຫ້ທ່ານເຫັນເທື່ອ. ກະລຸນາເຊື່ອມຕໍ່ກັບອິນເຕີເນັດ ແລະ ກັບມາໃໝ່ໃນອີກສອງສາມນາທີ.</string>
     <string name="info_target_label">ຂໍ້ມູນແອັບຯ</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">ໝາຍເປັນຫຼິ້ນແລ້ວ</string>
     <string name="mark_as_unplayed">ໝາຍເປັນບໍ່ທັນໄດ້ຫຼິ້ນເທື່ອ</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">ປອດຄາສທ໌ຂອງທ່ານ</string>
     <string name="media_route_chooser_dialog_title">ສົ່ງສັນຍານຫາ</string>
     <string name="media_route_chooser_searching">ກຳລັງຊອກຫາອຸປະກອນ…</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">ບໍ່ສາມາດຫຼິ້ນໄດ້</string>
     <string name="playback_status_buffering">ກຳລັງໂຫຼດຂໍ້ມູນ...</string>
     <string name="please_select">​ກະ​ລຸ​ນາ​ເລືອກ</string>
+    <string name="podcast_retry_download">ລອງໃໝ່</string>
     <string name="podcasts">ພອດຄາສ</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">ຄຳຊອກຫາ: %s.</string>
     <string name="query_people_group_header">ລາຍຊື່ຜູ້ຕິດຕໍ່</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">ເພື່ອດາວໂຫຼດຕອນຕ່າງໆ, Google ຈຳເປັນຕ້ອງເຂົ້າເຖິງບ່ອນຈັດເກັບຂໍ້ມູນໃນອຸປະກອນຂອງທ່ານ</string>
     <string name="request_storage_permission_dialog_title">ອະນຸຍາດໃຫ້ເຂົ້າໃຊ້ບ່ອນຈັດເກັບຂໍ້ມູນ</string>
     <string name="reservation_group_header">ການຈອງ</string>
-    <string name="retry">ລອງໃໝ່</string>
     <string name="retry_failed_download">ລອງດາວໂຫລດໃໝ່</string>
     <string name="returned">ສົ່ງກັບຄືນແລ້ວ</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="snackbar_message_removed_from_recently">ລຶບອອກຈາກໜ້າຫຼ້າສຸດ</string>
     <string name="source_chip_desc">ເບິ່ງເນື້ອຫາຈາກ %s.</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">ການຕັ້ງຄ່າຄວາມໄວບໍ່ສາມາດໃຊ້ໄດ້ໃນເວລາທີ່ສົ່ງສັນຍານຢູ່.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">ສະໝັກໃຊ້</string>
     <string name="subscribe_to_see_new_episodes">ສະໝັກໃຊ້ປອດຄາສທ໌ເພື່ອເບິ່ງຕອນໃໝ່</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="suw_next_button_label">ຕໍ່​ໄປ</string>
     <string name="tab_episodes_in_progress">ພວມດຳເນີນຢູ່</string>
     <string name="tab_new_episodes">ໃໝ່</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">ໄດ້ເຊື່ອງ %s ສຳເລັດແລ້ວ.</string>
     <string name="toast_hide_fail">ມີບາງຢ່າງຜິດພາດ! ເຊື່ອງ %s ບໍ່ສຳເລັດ.</string>
     <string name="toast_unhide">ໄດ້ຍົກເລີກການເຊື່ອງ %s ສຳເລັດແລ້ວ.</string>

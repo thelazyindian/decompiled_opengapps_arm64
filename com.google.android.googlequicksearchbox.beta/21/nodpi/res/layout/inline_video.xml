@@ -2,7 +2,7 @@
 <FrameLayout android:id="@id/photo_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:thegoogle="http://schemas.android.com/apk/res-auto">
     <com.google.android.apps.gsa.now.shared.ui.RoundedCornerFrameLayout android:id="@id/photo_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <FrameLayout android:tag="@string/video_rounded_corner_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/autoplay_video_description" android:alpha="0.0">
+        <FrameLayout android:tag="@string/video_rounded_corner_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/autoplay_video_description">
             <View android:id="@id/video_black_overlay_for_transition" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
         </FrameLayout>
         <com.google.android.apps.gsa.now.shared.ui.CrossfadingWebImageView android:id="@id/photo" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@null" thegoogle:crossfadeDuration="@integer/image_crossfade_duration" thegoogle:pressedHighlightColor="@color/image_pressed_highlight" thegoogle:cornerRadius="@dimen/rounded_corner_radius" thegoogle:roundCorners="topLeft" />

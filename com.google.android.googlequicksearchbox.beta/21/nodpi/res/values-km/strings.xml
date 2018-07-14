@@ -108,10 +108,14 @@
     <string name="cancel">បោះបង់</string>
     <string name="cancel_favorites_selection">បោះបង់</string>
     <string name="cancelled">បាន​បោះបង់</string>
+    <string name="cast_fail_to_connect_message">មិនអាច​ភ្ជាប់ទៅ %1$s នៅពេលនេះ​បានទេ។ សូមព្យាយាម​ម្ដងទៀត​នៅពេលក្រោយ។</string>
+    <string name="cast_fail_to_reconnect_message">មិនអាចភ្ជាប់ទៅ %1$s នៅពេលនេះ​បានទេ។ សូមព្យាយាម​ម្ដងទៀត​នៅពេលក្រោយ។</string>
     <string name="cast_notification_connected_message">ភ្ជាប់​ទៅ​​ %1$s</string>
     <string name="cast_notification_connecting_message">កំពុងភ្ជាប់ទៅ %1$s</string>
     <string name="cast_notification_default_channel_name">ភ្ជាប់</string>
     <string name="cast_notification_disconnect">ផ្ដាច់</string>
+    <string name="cast_reconnecting_message">កំពុង​ព្យាយាម​ភ្ជាប់​ឡើងវិញ</string>
+    <string name="cast_success_to_reconnect_message">បានភ្ជាប់​ទៅ %1$s ឡើងវិញ</string>
     <string name="cct_account_mismatch_card_button_text">បើក %1$s</string>
     <string name="cct_account_mismatch_card_header">មើល​ទំព័រ​បណ្ដាញ​របស់អ្នក</string>
     <string name="cct_account_mismatch_card_text">ដើម្បី​មើល​ទំព័រ​ដែលអ្នក​រកឃើញ​នៅទីនេះ សូម​ធ្វើបច្ចុប្បន្នភាព&lt;b>%1$s ការកំណត់&lt;/b> រួច​បើក​សមកាលកម្ម​សម្រាប់ &lt;b>%2$s&lt;/b></string>
@@ -171,7 +175,6 @@
     <string name="delivered">បាន​បញ្ជូន</string>
     <string name="device_photo_group_header">រូបថតនៅ​លើ​ឧបករណ៍</string>
     <string name="docs_group_header">ឯកសារ</string>
-    <string name="donate">បរិច្ចាគ</string>
     <string name="donate_button_label">បរិច្ចាគ</string>
     <string name="done">រួចរាល់</string>
     <string name="done_label">ធ្វើ​រួច</string>
@@ -182,6 +185,7 @@
     <string name="download_not_found">រកមិនឃើញ​ការទាញយក​ទេ</string>
     <string name="download_setting_message">ភាគ​​ដែល​បាន​ទាញ​យក​ត្រូវបាន​លុប​ បន្ទាប់ពី​រយៈពេល 30 ថ្ងៃ ឬ 24 ម៉ោង​ បន្ទាប់ពី​បញ្ចប់</string>
     <string name="downloaded">បាន​ទាញ​យក</string>
+    <string name="downloaded_episode">Episode downloaded</string>
     <string name="downloaded_episodes">ភាគ​ដែល​បាន​ទាញ​យក</string>
     <string name="downloading">កំពុងទាញយក...</string>
     <string name="downloads">ឯកសារ​ទាញ​យក</string>
@@ -194,6 +198,7 @@
     <string name="episode_date">%1$s</string>
     <string name="episode_list_title_text">ភាគ​ដែលមាន</string>
     <string name="episode_page_section_title">ភាគ</string>
+    <string name="episode_results">Episode results</string>
     <string name="episodes_for_you">សម្រាប់អ្នក</string>
     <string name="error">បញ្ហា</string>
     <string name="error_message">ការស្វែងរកបានបរាជ័យ សូមព្យាយាមនៅពេលក្រោយ។</string>
@@ -201,11 +206,11 @@
     <string name="every_weekday">រាល់ថ្ងៃ​ធ្វើការ (ច័ន្ទ–សុក្រ)</string>
     <string name="every_weekday_lower">រៀង​រាល់ថ្ងៃ​ធ្វើ​ការ​ (ចន្ទ–សុក្រ)</string>
     <string name="expand_button_title">កម្រិតខ្ពស់</string>
-    <string name="expect_delivery_day">%s</string>
     <string name="explicit_content_label">ផតខាសមានខ្លឹមសារ​លក្ខណៈអាសអាភាស ឬហិង្សា</string>
     <string name="fast_forward">ខាទៅមុខលឿន</string>
     <string name="favorite_images_tag_title">រូបភាពដែលចូលចិត្ត</string>
     <string name="favorite_pages_tag_title">ទំព័រដែលចូលចិត្ត</string>
+    <string name="favorite_screenshots_tag_title">រូបថតអេក្រង់​សំណព្វ</string>
     <string name="first_run_cling_title">សូម​ស្វាគមន៍​</string>
     <string name="flight_group_header">ជើង​ហោះហើរ</string>
     <string name="folder_closed">បាន​បិទ​ថត</string>
@@ -300,9 +305,6 @@
     <string name="homebase_link_tool_tip_message">មើល​ការ​ជាវ​របស់​អ្នក​នៅទីនេះ</string>
     <string name="hotseat_out_of_space">គ្មាន​បន្ទប់​​ក្នុង​ថាស​និយម​ប្រើ</string>
     <string name="hour_picker_description">គ្រាប់​រំកិល​រង្វង់​ម៉ោង</string>
-    <string name="https_info_close">បិទ</string>
-    <string name="https_info_message">ការតភ្ជាប់របស់អ្នកទៅគេហទំព័រផតខាសនេះមានលក្ខណៈឯកជន</string>
-    <string name="https_info_title">ការតភ្ជាប់ដែលមានសុវត្ថិភាព</string>
     <string name="i18n_address_line1_accessibility_label">អាសយដ្ឋានផ្លូវ៖ បន្ទាត់ទី 1 (គោល)</string>
     <string name="i18n_address_line1_label">អាសយដ្ឋាន​ផ្លូវ</string>
     <string name="i18n_address_line2_accessibility_label">អាសយដ្ឋានផ្លូវ៖ បន្ទាត់ទី 2 (បន្ថែម)</string>
@@ -365,7 +367,6 @@
     <string name="image_viewer_video_view_count_label">ការមើល</string>
     <string name="image_viewer_video_watch_label">មើល</string>
     <string name="image_viewer_view_all_related_images_accessibility">មើលរូបភាពដែលពាក់ព័ន្ធទាំងអស់</string>
-    <string name="image_viewer_view_saved">មើលទំព័រដែលបានរក្សាទុក</string>
     <string name="image_viewer_visit_site">ចូលទៅកាន់</string>
     <string name="indexing_not_ready">យើង​មិនទាន់​មាន​ខ្លឹមសារ​ដើម្បី​បង្ហាញ​អ្នក​នៅឡើយទេ។ សូមភ្ជាប់​អ៊ីនធឺណិត ហើយ​ត្រឡប់មក​ម្ដងទៀត​ក្នុងរយៈពេល​ពីរបី​នាទី​ក្រោយ។</string>
     <string name="info_target_label">ព័ត៌មាន​កម្មវិធី</string>
@@ -405,6 +406,7 @@
     <string name="longpress_menu_visit_site">@string/image_viewer_visit_site</string>
     <string name="mark_as_played">សម្គាល់​ថាបាន​ចាក់</string>
     <string name="mark_as_unplayed">សម្គាល់​ថាមិនបាន​ចាក់</string>
+    <string name="marked_as_played">Marked as played</string>
     <string name="media_item_type_your_podcasts">ផតខាស​របស់​អ្នក</string>
     <string name="media_route_chooser_dialog_title">បញ្ជូន​ទៅ</string>
     <string name="media_route_chooser_searching">កំពុង​ស្វែងរក​ឧបករណ៍…</string>
@@ -520,8 +522,10 @@
     <string name="playback_panel_error">មិនអាចចាក់បានទេ</string>
     <string name="playback_status_buffering">កំពុង​បម្រុងទុក...</string>
     <string name="please_select">សូម​ជ្រើស</string>
+    <string name="podcast_retry_download">ព្យាយាមម្ដងទៀត</string>
     <string name="podcasts">ផតខាស</string>
     <string name="price_range_separator">·</string>
+    <string name="privacy">Privacy</string>
     <string name="query_desc">សំណួរ៖ %s ។</string>
     <string name="query_people_group_header">ទំនាក់ទំនង</string>
     <string name="quoted_query">\"%1$s\"</string>
@@ -663,7 +667,6 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="request_storage_permission_dialog_message">ដើម្បីទាញ​យកភាគ​នានា Google ត្រូវការ​ចូល​ប្រើ​ទំហំ​ផ្ទុក​ឧបករណ៍​របស់អ្នក</string>
     <string name="request_storage_permission_dialog_title">អនុញ្ញាត​ឱ្យចូល​ប្រើ​ទំហំ​ផ្ទុក</string>
     <string name="reservation_group_header">ការ​កក់</string>
-    <string name="retry">ព្យាយាមម្ដងទៀត</string>
     <string name="retry_failed_download">ព្យាយាម​ទាញ​យក​ម្ដងទៀត</string>
     <string name="returned">បាន​ប្រគល់​វិញ</string>
     <string name="review_count_text">(%d)</string>
@@ -725,6 +728,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="snackbar_message_removed_from_recently">បាន​ដក​ចេញ​ពី​ទំព័រ​ថ្មីៗ</string>
     <string name="source_chip_desc">មើល​ខ្លឹមសារ​ពី %s ។</string>
     <string name="space">﻿</string>
+    <string name="speed_setting_disabled_message">ការកំណត់​ល្បឿន​មិនអាច​ប្រើបានទេ ខណៈពេល​បញ្ជូន។</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subscribe_button_label">​ជាវ​</string>
     <string name="subscribe_to_see_new_episodes">ជាវ​ផតខាស ដើម្បី​មើល​ភាគថ្មី</string>
@@ -734,6 +738,7 @@ https://www.google.com/search?q=%1$s&amp;tbm=%2$s"</string>
     <string name="suw_next_button_label">បន្ទាប់</string>
     <string name="tab_episodes_in_progress">មិនទាន់បញ្ចប់</string>
     <string name="tab_new_episodes">ថ្មី</string>
+    <string name="terms">Terms</string>
     <string name="toast_hide">%s ត្រូវបានលាក់ដោយជោគជ័យ។</string>
     <string name="toast_hide_fail">មានអ្វីមួយខុសប្រក្រតី! %s មិនត្រូវបានលាក់ទេ។</string>
     <string name="toast_unhide">%s ត្រូវបានឈប់លាក់ដោយជោគជ័យ។</string>
