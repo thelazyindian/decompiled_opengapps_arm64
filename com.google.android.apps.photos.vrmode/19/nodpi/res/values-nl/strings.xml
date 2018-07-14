@@ -608,12 +608,12 @@ Je foto's en video's blijven in de bibliotheek staan."</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">Opslagruimte kopen</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">"Je hebt meer opslagruimte nodig om back-ups van foto's en video's te maken in oorspronkelijke kwaliteit"</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">Geen opslagruimte meer</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">"Koop meer opslagruimte om back-ups van je foto's en video's te blijven maken in oorspronkelijke kwaliteit"</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">%d%% vol</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">Accountopslag</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">"Foto's en video's worden opgeslagen met een lagere beeldkwaliteit (gratis onbeperkte opslagruimte). &lt;a href=\"help:\">Meer informatie&lt;/a>"</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">Back-up met lagere resolutie</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">Opslagruimte kopen</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">"Koop meer opslagruimte om back-ups van je foto's en video's te blijven maken in oorspronkelijke kwaliteit"</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">Maak %d GB aan ruimte vrij door de kwaliteit van bestaande items te verlagen.</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">Doorgaan</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">Andere opties</string>
@@ -639,7 +639,6 @@ Je foto's en video's blijven in de bibliotheek staan."</string>
     <string name="photos_comments_popupmenu_delete_comment">Reactie verwijderen</string>
     <string name="photos_comments_popupmenu_report_abuse">Misbruik melden</string>
     <string name="photos_comments_popupmenu_text_copied">Tekst gekopieerd</string>
-    <string name="photos_comments_ui_comment_list_header">Activiteit</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">"Foto's toevoegen aan gedeeld album"</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Reacties zijn nu uitgeschakeld</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Zeg iets</string>
@@ -1594,7 +1593,7 @@ Helemaal automatisch."</string>
     <string name="photos_photobook_assistant_card_header">Fotoboek</string>
     <string name="photos_photobook_assistant_card_shipping_button">Aan de slag</string>
     <string name="photos_photobook_buyflow_buy_error_message">Je hebt een internetverbinding nodig om te betalen</string>
-    <string name="photos_photobook_buyflow_checkout">Afrekenen</string>
+    <string name="photos_photobook_buyflow_checkout">Betalen</string>
     <string name="photos_photobook_buyflow_gift_message_character_unsupported">Bevat niet-ondersteunde tekens</string>
     <string name="photos_photobook_buyflow_gift_message_default_message">Ik heb dit fotoboek voor je gemaakt. Hopelijk vind je het mooi!</string>
     <string name="photos_photobook_buyflow_gift_message_default_message_from">Van %s</string>
@@ -1673,6 +1672,7 @@ Helemaal automatisch."</string>
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">Indeling voor foto-inzet</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">Indeling voor foto boven titel</string>
     <string name="photos_photobook_preview_edit_cover_error">Je hebt een internetverbinding nodig om een omslag te bewerken</string>
+    <string name="photos_photobook_preview_edit_cover_title">Omslag bewerken</string>
     <string name="photos_photobook_preview_edit_layout_error">Je hebt een internetverbinding nodig om een fotoboek te bewerken</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">Indeling voor pagina vullen</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">Indeling voor foto-inzet</string>
@@ -1700,12 +1700,11 @@ Helemaal automatisch."</string>
     <string name="photos_photobook_product_actionbar_title">Boektype kiezen</string>
     <string name="photos_photobook_product_description_and_page_count">%1$s, %2$s</string>
     <string name="photos_photobook_product_price_per_page">%s per extra pagina</string>
-    <string name="photos_photobook_product_select_button_text">selecteren</string>
+    <string name="photos_photobook_product_select_button_text">Selecteren</string>
     <string name="photos_photobook_promotion_allphotos_button_1">Aan de slag</string>
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">Sluiten</string>
     <string name="photos_photobook_promotion_allphotos_header_1">Geen verzendkosten</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">op fotoboeken t/m Cyber Monday</string>
-    <string name="photos_photobook_promotion_free_shipping">Geen verzendkosten</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Herinneringen</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Selectie bewerken</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Boekvoorbeeld bekijken</string>
@@ -1748,7 +1747,7 @@ Helemaal automatisch."</string>
     <string name="photos_photobook_storefront_order_details">Bestelgegevens</string>
     <string name="photos_photobook_storefront_order_info">Bestelinformatie</string>
     <string name="photos_photobook_storefront_order_number">Bestelnummer</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">Je bestelling wordt binnen twee tot drie werkdagen na de besteldatum gedrukt</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">Je bestelling wordt binnen drie tot vier werkdagen na de besteldatum gedrukt</string>
     <string name="photos_photobook_storefront_past_orders">Eerdere bestellingen</string>
     <string name="photos_photobook_storefront_promo_code">Promotiecode</string>
     <string name="photos_photobook_storefront_quantity">Aantal: %d</string>
@@ -1780,7 +1779,7 @@ Helemaal automatisch."</string>
     <string name="photos_photobook_storefront_yes">Ja</string>
     <string name="photos_photobook_title_empty_title_placeholder">Voeg een titel toe</string>
     <string name="photos_photobook_title_no_title_warning_dialog_message">Je hebt geen titel aan de omslagpagina toegevoegd. Weet je zeker dat je nu wilt betalen?</string>
-    <string name="photos_photobook_title_no_title_warning_dialog_positive_button">Afrekenen</string>
+    <string name="photos_photobook_title_no_title_warning_dialog_positive_button">Betalen</string>
     <string name="photos_photobook_title_problem_invalid_character">Titel bevat ongeldige tekens</string>
     <string name="photos_photobook_title_problem_too_long">Titel is te lang</string>
     <string name="photos_photobook_title_problem_unknown_problem">Ongeldige titel</string>
@@ -1895,6 +1894,7 @@ Helemaal automatisch."</string>
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">Controleer je verbinding</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">Kan niet bewerken, controleer je verbinding</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">Fout bij opslaan van foto.</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">ANNULEREN</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">ORIGINEEL BEWERKEN</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">"Deze foto is aangepast in een eerdere versie van Google Foto's. Bewerk het origineel om die wijzigingen ongedaan te maken en nieuwe bewerkingen door te voeren."</string>
@@ -2100,7 +2100,7 @@ Helemaal automatisch."</string>
     <string name="photos_search_explore_favorites_query">favorieten</string>
     <string name="photos_search_explore_movie_query">film</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">Gezichten verbergen</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Verbergen en weergeven</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">%1$s verbergen</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">Gezichten verborgen</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">Ongedaan maken</string>
@@ -2207,7 +2207,7 @@ Helemaal automatisch."</string>
     <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">"Google Foto's gebruikt gezichtsgroepering &lt;a href=help:>Meer informatie&lt;/a>"</string>
     <string name="photos_search_peoplelabeling_avatar_content_description">Avatar-pictogram voor personenalbum</string>
     <string name="photos_search_peoplelabeling_clear">Naam wissen</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">CONTACTEN ZOEKEN OP APPARAAT</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">Er is een internetverbinding nodig om de naam te bewerken</string>
     <string name="photos_search_peoplelabeling_fail_message">Fout bij labelen van cluster</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">Veelgebruikte contacten</string>
@@ -2473,7 +2473,6 @@ Je bibliotheek is gedeeld. Gesynchroniseerde items zijn mogelijk ook beschikbaar
     <string name="photos_sharingtab_picker_impl_add_to_album">Toevoegen aan album</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">Toevoegen aan bestaand album</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">Toevoegen?</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">Gedeeld album maken</string>
     <string name="photos_sharingtab_picker_impl_error_adding">Fout bij toevoegen.</string>
     <string name="photos_sharingtab_picker_impl_label">Suggesties bekijken</string>
     <string name="photos_sharingtab_picker_impl_message_hint_text">Voeg een bericht toe</string>
@@ -2755,7 +2754,7 @@ Deze foto's worden nog steeds weergegeven in albums, zoekresultaten en je archie
     <string name="search_empty_state_title">Geen resultaten</string>
     <string name="select_accessibility_action">Een actie selecteren</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">Over voorgestelde mensen</string>
     <string name="sendkit_ui_add_message_title">Bericht toevoegen</string>
     <string name="sendkit_ui_autocomplete_add_recipient">Ontvanger toevoegen</string>
     <string name="sendkit_ui_autocomplete_already_selected">Contact is al geselecteerd</string>
@@ -2807,7 +2806,6 @@ Deze foto's worden nog steeds weergegeven in albums, zoekresultaten en je archie
     <string name="sendkit_ui_sharing_as">Delen als %s</string>
     <string name="sendkit_ui_show_more">Meer</string>
     <string name="sendkit_ui_show_more_content_description">Meer contacten</string>
-    <string name="sendkit_ui_show_phone_contacts">Telefooncontacten weergeven</string>
     <string name="sendkit_ui_sms_charges">Standaard sms-kosten zijn van toepassing</string>
     <string name="sendkit_ui_starred">Met ster</string>
     <string name="sendkit_ui_top_suggestions">Topsuggesties</string>
@@ -2826,7 +2824,7 @@ Deze foto's worden nog steeds weergegeven in albums, zoekresultaten en je archie
     <string name="social_storageformatter_integer_storage_amount">%1$d %2$s</string>
     <string name="social_storageformatter_mb">MB</string>
     <string name="social_storageformatter_tb">TB</string>
-    <string name="status_bar_getting_your_photos_title">"Foto's ophalen…"</string>
+    <string name="status_bar_getting_your_photos_title">"Je foto's ophalen…"</string>
     <string name="switch_text_off">Uit</string>
     <string name="switch_text_on">Aan</string>
     <string name="switch_viewer_action">Wisselen</string>

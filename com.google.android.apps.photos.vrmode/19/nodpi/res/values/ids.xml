@@ -25,6 +25,7 @@
     <item type="id" name="featurehighlight_view" />
     <item type="id" name="featurehighlight_view_tag_fragment" />
     <item type="id" name="ghost_view" />
+    <item type="id" name="glide_custom_view_target_tag" />
     <item type="id" name="google_account_added_result" />
     <item type="id" name="home" />
     <item type="id" name="ingest_notification_importing" />
@@ -50,7 +51,9 @@
     <item type="id" name="photos_album_editalbumphotos_load_media_features_task_id" />
     <item type="id" name="photos_album_editalbumphotos_load_new_media_features_task_id" />
     <item type="id" name="photos_album_editalbumphotos_load_original_media_features_task_id" />
+    <item type="id" name="photos_album_editalbumphotos_new_selection_id" />
     <item type="id" name="photos_album_editalbumphotos_optimisticaction_load_collection_features_task_id" />
+    <item type="id" name="photos_album_editalbumphotos_original_selection_id" />
     <item type="id" name="photos_album_editalbumphotos_picker" />
     <item type="id" name="photos_album_editalbumphotos_task_load_collection_features_task_id" />
     <item type="id" name="photos_album_editalbumphotos_task_load_media_features_task_id" />
@@ -150,7 +153,6 @@
     <item type="id" name="photos_backup_notifications_stalled" />
     <item type="id" name="photos_backup_persistentstatus_notification_id" />
     <item type="id" name="photos_backup_settings_local_folders_map_loader_id" />
-    <item type="id" name="photos_backup_settings_storage_quota_info_loader_id" />
     <item type="id" name="photos_burst_fragment_item_type" />
     <item type="id" name="photos_burst_fragment_loader_id" />
     <item type="id" name="photos_cameraassistant_impl_shade_item_view_type" />
@@ -179,6 +181,7 @@
     <item type="id" name="photos_cast_menu_item_id" />
     <item type="id" name="photos_cloudstorage_assistant_buystorage_flow_request_code" />
     <item type="id" name="photos_cloudstorage_buystorage_googleone_mixin_buy_storage_activity_id" />
+    <item type="id" name="photos_cloudstorage_ui_backupoptions_storage_quota_info_loader_id" />
     <item type="id" name="photos_comments_adapteritem_viewtype_comment" />
     <item type="id" name="photos_comments_adapteritem_viewtype_comment_off" />
     <item type="id" name="photos_comments_load_media_key_task_id" />
@@ -216,10 +219,8 @@
     <item type="id" name="photos_daydream_viewbinders_setting_viewtype_id" />
     <item type="id" name="photos_devicemanagement_freeupspacebar_batch_loader" />
     <item type="id" name="photos_devicesetup_backup_settings_request_code" />
-    <item type="id" name="photos_devicesetup_backup_settings_storage_loader" />
     <item type="id" name="photos_devicesetup_backup_transferred_files_view_type" />
     <item type="id" name="photos_devicesetup_onboardingsheet_backup_confirmation_request" />
-    <item type="id" name="photos_devicesetup_resources_storage_quota_info_loader_id" />
     <item type="id" name="photos_download_write_permission_request" />
     <item type="id" name="photos_drawermenu_partner_actors_loader_id" />
     <item type="id" name="photos_editdate_feature_loader" />
@@ -243,6 +244,7 @@
     <item type="id" name="photos_envelope_feed_collection_feature_loader_id" />
     <item type="id" name="photos_envelope_feed_commentbar_viewbinders_count_viewtype" />
     <item type="id" name="photos_envelope_feed_commentbar_viewbinders_preview_viewtype" />
+    <item type="id" name="photos_envelope_feed_commentpreview_comment_loader_id" />
     <item type="id" name="photos_envelope_feed_media_loader_id" />
     <item type="id" name="photos_envelope_feed_mixins_comment_loader_id" />
     <item type="id" name="photos_envelope_feed_mixins_hearts_loader_id" />
@@ -260,6 +262,7 @@
     <item type="id" name="photos_envelope_settings_people_member_item_view_type" />
     <item type="id" name="photos_envelope_settings_request_code" />
     <item type="id" name="photos_envelope_suggest_load_suggestion_feature_loader_id" />
+    <item type="id" name="photos_externaledit_menu_item_id" />
     <item type="id" name="photos_externalmedia_find_id" />
     <item type="id" name="photos_externalmedia_find_media_task_id" />
     <item type="id" name="photos_facegaia_allphotospromo_viewtype" />
@@ -537,6 +540,8 @@
     <item type="id" name="photos_search_explore_categoryview_explore_divider_viewtype" />
     <item type="id" name="photos_search_explore_categoryview_explore_grid_item_viewtype" />
     <item type="id" name="photos_search_explore_categoryview_loader_id" />
+    <item type="id" name="photos_search_explore_suggestedmerge_loader_id" />
+    <item type="id" name="photos_search_explore_suggestedmerge_viewtype" />
     <item type="id" name="photos_search_explore_ui_autocomplete" />
     <item type="id" name="photos_search_explore_ui_explore_loader_id" />
     <item type="id" name="photos_search_explore_ui_loader_id" />
@@ -825,6 +830,7 @@
     <item type="id" name="album_cover_subtitle" />
     <item type="id" name="accessibility_announcement_view" />
     <item type="id" name="comment_banner_preview_container" />
+    <item type="id" name="comment_preview_fragment_container" />
     <item type="id" name="collection_title_card" />
     <item type="id" name="collection_title_editing" />
     <item type="id" name="collection_title" />
@@ -979,7 +985,6 @@
     <item type="id" name="product_name" />
     <item type="id" name="product_price" />
     <item type="id" name="product_description" />
-    <item type="id" name="promotion_tag" />
     <item type="id" name="product_price_per_page" />
     <item type="id" name="product_error" />
     <item type="id" name="book_product_container" />
@@ -1022,8 +1027,6 @@
     <item type="id" name="cluster_image_container2" />
     <item type="id" name="cluster_image_container3" />
     <item type="id" name="comment_list_container" />
-    <item type="id" name="comment_list_header" />
-    <item type="id" name="comment_list_header_divider" />
     <item type="id" name="comment_list" />
     <item type="id" name="component" />
     <item type="id" name="component_header" />
@@ -1095,6 +1098,7 @@
     <item type="id" name="cpe_image_container" />
     <item type="id" name="cpe_image_preview" />
     <item type="id" name="cpe_crop_toolbar_fragment_container" />
+    <item type="id" name="austins_interns_mystery_fragment_container" />
     <item type="id" name="cpe_toolbar_fragment_container" />
     <item type="id" name="photo_editor_navigation_bar_background" />
     <item type="id" name="cpe_preset_item_label" />
@@ -1119,6 +1123,8 @@
     <item type="id" name="cpe_adjustments_tool" />
     <item type="id" name="cpe_crop_tool" />
     <item type="id" name="cpe_crop_tool_space" />
+    <item type="id" name="austins_interns_mystery_feature_image_view" />
+    <item type="id" name="austins_interns_mystery_feature_space" />
     <item type="id" name="vertical_divider_line" />
     <item type="id" name="cpe_oem_editor_before_space" />
     <item type="id" name="cpe_oem_editor" />
@@ -1374,6 +1380,7 @@
     <item type="id" name="location_subtitle" />
     <item type="id" name="photos_album_enrichment_ui_enrichment_content" />
     <item type="id" name="photos_album_enrichment_ui_location_content" />
+    <item type="id" name="photos_album_enrichment_ui_location_icon" />
     <item type="id" name="location_enrichment_text" />
     <item type="id" name="photos_dateheaders_locations_locationlabeledu_header_icon" />
     <item type="id" name="photos_dateheaders_locations_locationlabeledu_header_title" />
@@ -1418,7 +1425,8 @@
     <item type="id" name="scrubber_pane" />
     <item type="id" name="scrubber_view" />
     <item type="id" name="change_soundtrack_button" />
-    <item type="id" name="divider_line" />
+    <item type="id" name="divider_line_portrait" />
+    <item type="id" name="divider_line_landscape" />
     <item type="id" name="clip_editor_view" />
     <item type="id" name="mr_chooser_title" />
     <item type="id" name="mr_chooser_list" />
@@ -1506,6 +1514,7 @@
     <item type="id" name="comment_bar_container" />
     <item type="id" name="image_view" />
     <item type="id" name="image_view2" />
+    <item type="id" name="collapse_info_panel_fab_viewstub" />
     <item type="id" name="photo_background_fragment_container_viewstub" />
     <item type="id" name="photos_photofragment_processing_viewstub" />
     <item type="id" name="photos_photofragment_processing_inflated_viewstub" />
@@ -1614,6 +1623,7 @@
     <item type="id" name="sync_status_text" />
     <item type="id" name="empty_title" />
     <item type="id" name="photos_albums_empty_create_album_button" />
+    <item type="id" name="photos_albums_grid_add_item_button" />
     <item type="id" name="photos_albums_date_scrubber_view" />
     <item type="id" name="load_more_button" />
     <item type="id" name="archive_selection_count" />
@@ -1706,8 +1716,13 @@
     <item type="id" name="more_options_button" />
     <item type="id" name="upsell_webview_activity" />
     <item type="id" name="webview" />
+    <item type="id" name="photos_cloudstorage_ui_backoptions_account_avatar" />
+    <item type="id" name="avatar_badge" />
+    <item type="id" name="photos_cloudstorage_ui_backoptions_account_picker_list_item_title" />
+    <item type="id" name="photos_cloudstorage_ui_backoptions_account_picker_list_item_subtitle" />
     <item type="id" name="storage_quota_limit" />
     <item type="id" name="storage_quota_percentage" />
+    <item type="id" name="storage_message" />
     <item type="id" name="backup_at_lower_resolution_option" />
     <item type="id" name="backup_at_lower_resolution_down_arrow" />
     <item type="id" name="backup_at_lower_resolution_up_arrow" />
@@ -1824,6 +1839,10 @@
     <item type="id" name="comment_count_status_bar_shadow" />
     <item type="id" name="comment_count_status_bar" />
     <item type="id" name="num_comments" />
+    <item type="id" name="photos_envelope_feed_commentpreview_root_layout" />
+    <item type="id" name="photos_envelope_feed_commentpreview_text_container" />
+    <item type="id" name="photos_envelope_feed_commentpreview_profile_image_view" />
+    <item type="id" name="photos_envelope_feed_commentpreview_textview" />
     <item type="id" name="save_action_text" />
     <item type="id" name="photos_envelope_settings_people_alert_message" />
     <item type="id" name="invite_method" />
@@ -1863,7 +1882,9 @@
     <item type="id" name="photos_facegaia_optin_impl_opt_in_5_avatars" />
     <item type="id" name="photos_facegaia_optin_impl_opt_in_6_avatars_view_stub" />
     <item type="id" name="photos_facegaia_optin_impl_opt_in_6_avatars" />
+    <item type="id" name="divider_start" />
     <item type="id" name="user_account" />
+    <item type="id" name="divider_end" />
     <item type="id" name="avatars" />
     <item type="id" name="more_faces_button" />
     <item type="id" name="change_face_selection" />
@@ -1963,6 +1984,7 @@
     <item type="id" name="account_layout" />
     <item type="id" name="selected_account_bar" />
     <item type="id" name="account_avatar" />
+    <item type="id" name="collapse_info_panel_fab" />
     <item type="id" name="radiogroup" />
     <item type="id" name="video" />
     <item type="id" name="gif" />
@@ -2010,10 +2032,10 @@
     <item type="id" name="photos_partneraccount_onboarding_image" />
     <item type="id" name="photos_partneraccount_onboarding_scrollable" />
     <item type="id" name="partner_avatar" />
-    <item type="id" name="decline_button" />
-    <item type="id" name="accept_button" />
     <item type="id" name="partner_email" />
     <item type="id" name="invitation_msg" />
+    <item type="id" name="decline_button" />
+    <item type="id" name="accept_button" />
     <item type="id" name="get_started_button" />
     <item type="id" name="summary_text_no_pfc" />
     <item type="id" name="selected_people_text" />
@@ -2024,6 +2046,8 @@
     <item type="id" name="photos_partneraccount_settings_sender_select_new_date" />
     <item type="id" name="photos_peoplepicker_tile" />
     <item type="id" name="photos_permissions_required_button" />
+    <item type="id" name="checkout_button" />
+    <item type="id" name="checkout_details_container" />
     <item type="id" name="photo_book_type" />
     <item type="id" name="base_price" />
     <item type="id" name="extra_pages_item" />
@@ -2036,7 +2060,6 @@
     <item type="id" name="gift_message_container" />
     <item type="id" name="gift_message" />
     <item type="id" name="subtotal_price" />
-    <item type="id" name="checkout_button" />
     <item type="id" name="page_text_view" />
     <item type="id" name="page_caption_preview" />
     <item type="id" name="page_caption_container" />
@@ -2050,17 +2073,21 @@
     <item type="id" name="banner_text_holder" />
     <item type="id" name="banner_dismiss_button" />
     <item type="id" name="banner_text" />
-    <item type="id" name="slideshow_page_image" />
+    <item type="id" name="slideshow_text_layout" />
     <item type="id" name="slideshow_page_title" />
     <item type="id" name="slideshow_page_subtitle" />
+    <item type="id" name="slideshow_page_image" />
     <item type="id" name="banner_container" />
     <item type="id" name="start_book_button" />
     <item type="id" name="create_book_fab" />
     <item type="id" name="view_all" />
     <item type="id" name="cost" />
+    <item type="id" name="address_lines" />
+    <item type="id" name="help_link" />
     <item type="id" name="scroll_view" />
     <item type="id" name="summary_card" />
     <item type="id" name="tracking_card" />
+    <item type="id" name="shipping_card_gm1" />
     <item type="id" name="shipping_card" />
     <item type="id" name="cost_card" />
     <item type="id" name="cover_image" />
@@ -2155,6 +2182,8 @@
     <item type="id" name="optin_title" />
     <item type="id" name="optin_desc" />
     <item type="id" name="settings_button" />
+    <item type="id" name="photos_search_explore_suggestedmerge_avatar" />
+    <item type="id" name="photos_search_explore_suggestedmerge_count" />
     <item type="id" name="promo_container" />
     <item type="id" name="photos_search_peoplegroupingonboarding_opt_in_promo" />
     <item type="id" name="no_thanks_button" />
@@ -2524,7 +2553,6 @@
     <item type="id" name="photos_videoplayer_video_slomo_control_gradient_stub" />
     <item type="id" name="video_progress_group" />
     <item type="id" name="video_current_time" />
-    <item type="id" name="slomo_range_bar" />
     <item type="id" name="photos_videoplayer_video_slomo_range_bar_stub" />
     <item type="id" name="video_player_progress" />
     <item type="id" name="video_total_time" />
@@ -2541,6 +2569,7 @@
     <item type="id" name="visible" />
     <item type="id" name="masked" />
     <item type="id" name="drop_cursor_shape" />
+    <item type="id" name="error_icon" />
     <item type="id" name="launchscreens_product_logo" />
     <item type="id" name="launchscreens_logo_text" />
     <item type="id" name="photos_album_albumeditmode_choose_photos_menu_item" />

@@ -608,12 +608,12 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">Köp lagringsutrymme</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">Du behöver ytterligare lagringsutrymme för att säkerhetskopiera foton och video i originalkvalitet</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">Slut på lagringsutrymme</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">Köpt mer lagringsutrymme om du vill försätta säkerhetskopiera foton och videor i originalkvalitet</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">%d%% fullt</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">Lagringsutrymme på kontot</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">Foton och videor sparas med lägre bildkvalitet (kostnadsfritt obegränsat lagringsutrymme). &lt;a href=\"help:\">Läs mer&lt;/a></string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">Säkerhetskopiera vid lägre upplösning</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">Köp lagringsutrymme</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">Köpt mer lagringsutrymme om du vill försätta säkerhetskopiera foton och videor i originalkvalitet</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">Återfå %d GB lagringsutrymme genom att sänka kvaliteten på befintliga objekt.</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">Fortsätt</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">Andra alternativ</string>
@@ -639,7 +639,6 @@ Dina foton och videor finns kvar i biblioteket."</string>
     <string name="photos_comments_popupmenu_delete_comment">Ta bort kommentar</string>
     <string name="photos_comments_popupmenu_report_abuse">Anmäl otillåten användning</string>
     <string name="photos_comments_popupmenu_text_copied">Text kopierad</string>
-    <string name="photos_comments_ui_comment_list_header">Aktivitet</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Lägg till foton i delat album</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Kommentarer har nu stängts av</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Säg något</string>
@@ -918,12 +917,12 @@ för den angivna videofilen."</string>
     <string name="photos_envelope_settings_getlink_getting_link">Länken hämtas</string>
     <string name="photos_envelope_settings_getlink_link_not_found">Det gick inte att hitta länken</string>
     <string name="photos_envelope_settings_getlink_link_to_share">Länk att dela</string>
-    <string name="photos_envelope_settings_hidename_show_email">Dölja namn och visa e-postadress i stället</string>
+    <string name="photos_envelope_settings_hidename_show_email">Dölj namn och visa e-postadress i stället</string>
     <string name="photos_envelope_settings_hidename_show_number">Dölj namn och visa nummer i stället</string>
     <string name="photos_envelope_settings_load_error">Det gick inte att läsa in alternativ</string>
     <string name="photos_envelope_settings_people_add_recipient_item_title">Bjud in andra</string>
     <string name="photos_envelope_settings_people_block_person">Blockera person</string>
-    <string name="photos_envelope_settings_people_block_person_confirmation_message">De kan inte kontakta dig i Google Foto och du kan inte se deras foton och kommentarer i Google Foto. Blockeringen gäller även i vissa andra Google-produkter, till exempel Google+ och Hangouts. &lt;a href=help:>Läs mer&lt;/a></string>
+    <string name="photos_envelope_settings_people_block_person_confirmation_message">Personen kan inte kontakta dig i Google Foto och du kan inte se personens foton och kommentarer i Google Foto. Blockeringen gäller även i vissa andra Google-produkter, till exempel Google+ och Hangouts. &lt;a href=help:>Läs mer&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Blockera</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_title">Blockera %1$s?</string>
     <string name="photos_envelope_settings_people_header_item_title">Medlemmar</string>
@@ -1673,6 +1672,7 @@ Automatiskt."</string>
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">Layout med infogat foto</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">Layout med foto ovanför titel</string>
     <string name="photos_photobook_preview_edit_cover_error">Du behöver inte internetanslutning för att redigera omslaget</string>
+    <string name="photos_photobook_preview_edit_cover_title">Redigera omslag</string>
     <string name="photos_photobook_preview_edit_layout_error">Du behöver en internetanslutning för att redigera en fotobok</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">Layout med helt utfallande foto</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">Layout med infogat foto</string>
@@ -1700,12 +1700,11 @@ Automatiskt."</string>
     <string name="photos_photobook_product_actionbar_title">Välj boktyp</string>
     <string name="photos_photobook_product_description_and_page_count">%1$s, %2$s</string>
     <string name="photos_photobook_product_price_per_page">%s/ytterligare sida</string>
-    <string name="photos_photobook_product_select_button_text">välj</string>
+    <string name="photos_photobook_product_select_button_text">Välj</string>
     <string name="photos_photobook_promotion_allphotos_button_1">Kom igång</string>
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">Stäng</string>
     <string name="photos_photobook_promotion_allphotos_header_1">Fri frakt</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">för fotoböcker till och med Cyber Monday</string>
-    <string name="photos_photobook_promotion_free_shipping">Fri frakt</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Minnen</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Redigera val</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Visa förhandsgranskning av bok</string>
@@ -1748,7 +1747,7 @@ Automatiskt."</string>
     <string name="photos_photobook_storefront_order_details">Beställningsuppgifter</string>
     <string name="photos_photobook_storefront_order_info">Beställningsinformation</string>
     <string name="photos_photobook_storefront_order_number">Beställningsnummer</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">Din beställning kommer att skrivas ut inom 2–3 arbetsdagar från beställningsdatumet</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">Din beställning trycks inom 3–4 arbetsdagar från beställningsdatumet</string>
     <string name="photos_photobook_storefront_past_orders">Tidigare beställningar</string>
     <string name="photos_photobook_storefront_promo_code">Kampanjkod</string>
     <string name="photos_photobook_storefront_quantity">Antal: %d</string>
@@ -1895,6 +1894,7 @@ Automatiskt."</string>
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">Kontrollera anslutningen</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">Det går inte att redigera, kontrollera anslutningen</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">Det gick inte att spara fotot.</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">AVBRYT</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">REDIGERA ORIGINAL</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">Det här fotot har ändrats i en tidigare version av Google Foto. Redigera originalet om du vill ångra ändringarna och göra nya ändringar.</string>
@@ -2100,7 +2100,7 @@ Automatiskt."</string>
     <string name="photos_search_explore_favorites_query">favoriter</string>
     <string name="photos_search_explore_movie_query">film</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">Dölj ansikten</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Dölj och visa</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">dölj %1$s</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">Ansikten döljs</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">Ångra</string>
@@ -2207,7 +2207,7 @@ grupperade efter bekanta ansikten"</string>
     <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Google Foto använder ansiktsgruppering &lt;a href=help:>Läs mer&lt;/a></string>
     <string name="photos_search_peoplelabeling_avatar_content_description">Avatarikon för personalbum</string>
     <string name="photos_search_peoplelabeling_clear">Rensa namn</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">SÖK EFTER KONTAKTER PÅ ENHET</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">En internetanslutning krävs för att redigera namnet</string>
     <string name="photos_search_peoplelabeling_fail_message">Det gick inte att ange etikett på kluster</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">Personer du kontaktar ofta</string>
@@ -2222,7 +2222,7 @@ grupperade efter bekanta ansikten"</string>
     <string name="photos_search_searchbox_hint_text_template">Sök efter ”%s”</string>
     <string name="photos_search_searchbox_text">Sök bland dina foton</string>
     <string name="photos_search_searchbox_voice_search_button">Knapp för röstsökning</string>
-    <string name="photos_search_searchresults_carousel_title">In albums</string>
+    <string name="photos_search_searchresults_carousel_title">I album</string>
     <string name="photos_search_searchresults_empty_page_360_button">Använd Cardboard Camera</string>
     <string name="photos_search_searchresults_empty_page_360_caption">Här visas 360-foton och 360-videor, till exempel fotosfärer och virtuell verklighet</string>
     <string name="photos_search_searchresults_empty_page_360_title">Bli uppslukad av dina foton och videor</string>
@@ -2405,7 +2405,7 @@ Ditt bibliotek delas. Synkroniserade objekt kan även vara tillgängliga för %s
     <string name="photos_share_selection_too_large_title">Urvalet är för stort</string>
     <string name="photos_share_sendkit_impl_add_recipient_title">Lägg till mottagare</string>
     <string name="photos_share_sendkit_impl_app_name">Google Foto</string>
-    <string name="photos_share_sendkit_impl_collaboration_locked_title">Det är bara du som kan lägga till foton</string>
+    <string name="photos_share_sendkit_impl_collaboration_locked_title">Bara du kan lägga till foton</string>
     <string name="photos_share_sendkit_impl_collaboration_menu_opened">Menyn för aktivering och inaktivering av samarbete är öppen</string>
     <string name="photos_share_sendkit_impl_collaboration_toggle_button_state_locked">Knapp för att aktivera och inaktivera samarbete. För tillfället kan bara du lägga till foton.</string>
     <string name="photos_share_sendkit_impl_collaboration_toggle_button_state_unlocked">Knapp för att aktivera och inaktivera samarbete. För tillfället kan andra lägga till foton.</string>
@@ -2418,7 +2418,7 @@ Ditt bibliotek delas. Synkroniserade objekt kan även vara tillgängliga för %s
     <string name="photos_share_sendkit_impl_partner_sharing_subtitle_no_photos_shared">Inga foton delas ännu.</string>
     <string name="photos_share_sendkit_impl_partner_sharing_title">Välj partner</string>
     <string name="photos_share_sharedalbums_collaboration_switch_label">Låt andra lägga till sina foton</string>
-    <string name="photos_share_sharedalbums_collaboration_switch_locked_off">Det är bara du som kan lägga till foton</string>
+    <string name="photos_share_sharedalbums_collaboration_switch_locked_off">Bara du kan lägga till foton</string>
     <string name="photos_share_sharedalbums_collaboration_switch_locked_on">Andra kan lägga till foton</string>
     <string name="photos_share_sharedalbums_create_link">Skapa länk</string>
     <string name="photos_share_sharedalbums_new_shared_album">Nytt delat album</string>
@@ -2473,7 +2473,6 @@ Ditt bibliotek delas. Synkroniserade objekt kan även vara tillgängliga för %s
     <string name="photos_sharingtab_picker_impl_add_to_album">Lägg till i album</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">Lägg till i befintligt album</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">Lägg till?</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">Skapa delat album</string>
     <string name="photos_sharingtab_picker_impl_error_adding">Det gick inte att lägga till foton</string>
     <string name="photos_sharingtab_picker_impl_label">Granska förslag</string>
     <string name="photos_sharingtab_picker_impl_message_hint_text">Lägg till ett meddelande</string>
@@ -2611,7 +2610,7 @@ Du ser dem fortfarande i album, sökresultat och i arkivet."</string>
     <string name="photos_trash_ui_trash_info">Objekt i papperskorgen raderas permanent efter 60 dagar.</string>
     <string name="photos_trash_ui_trash_info_new">Objekt i papperskorgen tas bort efter 60 dagar. &lt;a href=help:>Läs mer&lt;/a></string>
     <string name="photos_unicorn_sharing_disabled">Fotodelning har inaktiverats i Google Foto.</string>
-    <string name="photos_unicorn_sharing_disabled_title">Det går inte att dela foton</string>
+    <string name="photos_unicorn_sharing_disabled_title">Det går inte att dela fotot</string>
     <string name="photos_update_expired">Denna version är inte längre tillgänglig. Uppdatera nu om du vill fortsätta använda Google Foto.</string>
     <string name="photos_update_treatment_default_message">Uppdatera Google Foto-appen och få de senaste funktionerna</string>
     <string name="photos_update_treatment_not_now_button">Inte nu</string>
@@ -2755,7 +2754,7 @@ Du ser dem fortfarande i album, sökresultat och i arkivet."</string>
     <string name="search_empty_state_title">Inga resultat</string>
     <string name="select_accessibility_action">Välj en åtgärd</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">Om föreslagna personer</string>
     <string name="sendkit_ui_add_message_title">Lägg till meddelande</string>
     <string name="sendkit_ui_autocomplete_add_recipient">Lägg till mottagare</string>
     <string name="sendkit_ui_autocomplete_already_selected">Redan markerad</string>
@@ -2807,7 +2806,6 @@ Du ser dem fortfarande i album, sökresultat och i arkivet."</string>
     <string name="sendkit_ui_sharing_as">Delar som %s</string>
     <string name="sendkit_ui_show_more">Fler</string>
     <string name="sendkit_ui_show_more_content_description">Fler kontakter</string>
-    <string name="sendkit_ui_show_phone_contacts">Visa telefonkontakter</string>
     <string name="sendkit_ui_sms_charges">Standardavgifter för sms tillkommer</string>
     <string name="sendkit_ui_starred">Stjärnmärkt</string>
     <string name="sendkit_ui_top_suggestions">De bästa förslagen</string>
@@ -2826,7 +2824,7 @@ Du ser dem fortfarande i album, sökresultat och i arkivet."</string>
     <string name="social_storageformatter_integer_storage_amount">%1$d %2$s</string>
     <string name="social_storageformatter_mb">MB</string>
     <string name="social_storageformatter_tb">TB</string>
-    <string name="status_bar_getting_your_photos_title">Hämtar foton ...</string>
+    <string name="status_bar_getting_your_photos_title">Hämtar dina foton ...</string>
     <string name="switch_text_off">Av</string>
     <string name="switch_text_on">På</string>
     <string name="switch_viewer_action">Ändra</string>

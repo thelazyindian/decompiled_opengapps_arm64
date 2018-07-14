@@ -59,6 +59,7 @@
     <color name="google_opensearchbar_background_color">@color/google_white</color>
     <color name="google_opensearchbar_hint_text_color">@color/google_grey600</color>
     <color name="google_opensearchbar_text_color">@color/google_grey900</color>
+    <color name="google_red600">#ffd93025</color>
     <color name="google_scrim">#99000000</color>
     <color name="google_white">#ffffffff</color>
     <color name="hats_lib_checkbox_tint">#8c333333</color>
@@ -109,16 +110,16 @@
     <color name="photos_album_enrichment_ui_enrichment_outline">#1e000000</color>
     <color name="photos_album_enrichment_ui_enrichment_transparent_white">#00ffffff</color>
     <color name="photos_album_enrichment_ui_enrichment_white_30">#4dffffff</color>
-    <color name="photos_album_enrichment_ui_location_enrichment_text">@color/quantum_black_secondary_text</color>
     <color name="photos_album_enrichment_ui_map_background">#ffb2d0fe</color>
     <color name="photos_album_enrichment_ui_map_marker_background">#ffffffff</color>
     <color name="photos_album_enrichment_ui_map_path_color">@color/quantum_googred500</color>
     <color name="photos_album_enrichment_ui_map_primary_text">@color/quantum_grey900</color>
     <color name="photos_album_enrichment_ui_map_secondary_text">@color/quantum_grey600</color>
     <color name="photos_album_enrichment_ui_map_text_shadow">#ffffffff</color>
-    <color name="photos_album_enrichment_ui_narrative_enrichment_text">#ff000000</color>
     <color name="photos_album_ui_flat_button_pressed">#ffebebeb</color>
     <color name="photos_album_ui_flat_button_ripple">#ffc5c5c5</color>
+    <color name="photos_allphotos_fragment_month_month_text_color">@color/quantum_black_text</color>
+    <color name="photos_allphotos_fragment_month_year_text_color">@color/quantum_grey600</color>
     <color name="photos_assistant_cardui_critical_title">@color/quantum_googred500</color>
     <color name="photos_assistant_cardui_disabled_button_text">#61000000</color>
     <color name="photos_assistant_cardui_div_line_color">#1f000000</color>
@@ -144,13 +145,14 @@
     <color name="photos_carousel_common_places_bg_color">@color/quantum_googgreen500</color>
     <color name="photos_carousel_common_things_bg_color">@color/quantum_cyan500</color>
     <color name="photos_carousel_common_videos_bg_color">@color/quantum_purple500</color>
-    <color name="photos_cloudstorage_ui_backupoptions_progressbar_alert_color">@color/quantum_googred500</color>
-    <color name="photos_cloudstorage_ui_backupoptions_progressbar_no_alert_color">@color/quantum_googblue500</color>
+    <color name="photos_cloudstorage_ui_backupoptions_alert_color">@color/quantum_googred500</color>
+    <color name="photos_cloudstorage_ui_backupoptions_no_alert_color">@color/quantum_googblue500</color>
     <color name="photos_envelope_feed_adapteritem_add_to_library_label_color">@color/quantum_googblue</color>
     <color name="photos_envelope_feed_adapteritem_photos_saved_label_color">@color/quantum_grey400</color>
     <color name="photos_envelope_feed_adapteritem_viewer_num_updates_line_color">@color/quantum_grey300</color>
     <color name="photos_envelope_feed_suggestion_card_background_color">@color/quantum_grey100</color>
     <color name="photos_feedback_blue_grey_500">#ff607d8b</color>
+    <color name="photos_gridlayers_zoom_fab_background">@color/quantum_white_100</color>
     <color name="photos_lens_card_carousel_matching_links_item_title">#ff2d48ae</color>
     <color name="photos_lens_card_carousel_matching_links_item_website">#ff097138</color>
     <color name="photos_lens_ui_dark_text_color">#de000000</color>
@@ -163,15 +165,42 @@
     <color name="photos_notifications_default_color">@color/quantum_googblue</color>
     <color name="photos_page_recycler_blank_square_backgroud">@color/quantum_grey300</color>
     <color name="photos_pager_mv_tag_text_color">#89ffffff</color>
+    <color name="photos_partneraccount_onboarding_background">@color/quantum_googblue800</color>
+    <color name="photos_partneraccount_onboarding_bullet">@color/quantum_white_100</color>
+    <color name="photos_partneraccount_onboarding_bullet_number">@color/quantum_googblue800</color>
+    <color name="photos_partneraccount_onboarding_learn_more">@color/quantum_white_secondary_text</color>
+    <color name="photos_partneraccount_onboarding_text">@color/quantum_white_text</color>
+    <color name="photos_partneraccount_onboarding_title">@color/quantum_white_text</color>
     <color name="photos_peoplemachine_collage_shadow_color">#37000000</color>
     <color name="photos_peoplemachine_features_default_background">@color/quantum_googblue900</color>
     <color name="photos_peoplemachine_features_default_share_fab_background">@color/quantum_googblue500</color>
     <color name="photos_photoadapteritem_media_overlay_gradient">#42000000</color>
     <color name="photos_photoadapteritem_photo_background">@color/photos_photoadapteritem_photo_background_gm1</color>
     <color name="photos_photoadapteritem_photo_placeholder">@color/quantum_grey300</color>
+    <color name="photos_photobook_buyflow_gift_message_input_bottom_line_normal">@android:color/transparent</color>
     <color name="photos_photobook_picker_impl_disabled_text">#42000000</color>
+    <color name="photos_photobook_preview_page_number_color">@color/quantum_black_secondary_text</color>
     <color name="photos_photobook_slideshow_current_slide_page_color">#8a000000</color>
     <color name="photos_photobook_slideshow_other_slide_page_color">#3d000000</color>
+    <color name="photos_photobook_storefront_item_border_color">@android:color/transparent</color>
+    <color name="photos_photobook_storefront_order_details_address_color">@color/quantum_black_secondary_text</color>
+    <color name="photos_photobook_storefront_order_details_content_color">@color/quantum_black_secondary_text</color>
+    <color name="photos_photobook_storefront_order_details_content_linkColor">@color/quantum_googblue</color>
+    <color name="photos_photobook_storefront_order_status_canceled_color">@color/quantum_black_hint_text</color>
+    <color name="photos_photobook_storefront_order_status_delivered_color">@color/quantum_black_hint_text</color>
+    <color name="photos_photobook_storefront_order_status_printing_color">@color/quantum_black_hint_text</color>
+    <color name="photos_photobook_storefront_order_status_processing_color">@color/quantum_black_hint_text</color>
+    <color name="photos_photobook_storefront_order_status_refunded_color">@color/quantum_black_hint_text</color>
+    <color name="photos_photobook_storefront_order_status_shipped_color">@color/quantum_black_hint_text</color>
+    <color name="photos_photobook_theme_actionbar_background_primary">@color/quantum_grey100</color>
+    <color name="photos_photobook_theme_actionbar_background_secondary">@color/quantum_googblue</color>
+    <color name="photos_photobook_theme_actionbar_title_secondary">@color/quantum_white_100</color>
+    <color name="photos_photobook_theme_actionbar_up_primary">@color/quantum_grey600</color>
+    <color name="photos_photobook_theme_actionbar_up_secondary">@color/quantum_white_100</color>
+    <color name="photos_photobook_theme_background_primary">@color/quantum_grey100</color>
+    <color name="photos_photobook_theme_background_secondary">@color/quantum_grey100</color>
+    <color name="photos_photobook_theme_banner_background">@color/quantum_grey200</color>
+    <color name="photos_photobook_theme_page_border_color">@android:color/transparent</color>
     <color name="photos_photobook_viewbinder_page_backgound_color">@color/quantum_white_100</color>
     <color name="photos_photobook_viewbinder_page_separator_color">#ffd6d6d6</color>
     <color name="photos_photobook_viewbinder_page_shadow_end_color">#03000000</color>
@@ -199,6 +228,7 @@
     <color name="photos_photoeditor_presets_background">@color/photos_photoeditor_commonui_toolbar_background</color>
     <color name="photos_photoeditor_presets_list_item_title">@android:color/white</color>
     <color name="photos_photoeditor_slider_slider_colored_thumb_color">@color/quantum_googblue500</color>
+    <color name="photos_photoeditor_slider_slider_disabled_thumb_color">@color/quantum_grey800</color>
     <color name="photos_photoeditor_slider_slider_halo_thumb_color">#50bebebe</color>
     <color name="photos_photoeditor_slider_slider_inset_thumb_color">@android:color/white</color>
     <color name="photos_photoeditor_slider_slider_trackbar_background_color">#70bebebe</color>
@@ -215,6 +245,7 @@
     <color name="photos_search_peoplegroupingonboarding_existing_overlay">#8a000000</color>
     <color name="photos_sharingtab_impl_suggestionsview_card_image_background">@color/quantum_grey100</color>
     <color name="photos_sharingtab_impl_suggestionsview_card_image_count_overlay">#4c000000</color>
+    <color name="photos_sharingtab_impl_suggestionsview_card_overflow_count_text">@color/quantum_white_100</color>
     <color name="photos_suggestedactions_editor_save_button_text_color">#42ffffff</color>
     <color name="photos_suggestedrotations_original_badge_background_color">#de212121</color>
     <color name="photos_tabbar_badge">@color/quantum_googred500</color>
@@ -320,7 +351,6 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <color name="sendkit_api_default_action_bar_color">#ffaaaaaa</color>
     <color name="sendkit_ui_autocomplete_background_color">#ffffffff</color>
     <color name="sendkit_ui_autocomplete_chip_background">#ffefefef</color>
     <color name="sendkit_ui_autocomplete_hint_color">#ff888888</color>
@@ -348,7 +378,6 @@
     <color name="tooltip_background_light">#e6ffffff</color>
     <color name="transparent_bg">#00000000</color>
     <color name="white_transparent">#4cffffff</color>
-    <color name="year_adapter_item_divider">#ffc6c6c6</color>
     <item type="color" name="APKTOOL_DUMMY_6">false</item>
     <item type="color" name="APKTOOL_DUMMY_7">false</item>
     <item type="color" name="APKTOOL_DUMMY_9">false</item>
@@ -445,7 +474,6 @@
     <item type="color" name="APKTOOL_DUMMY_98">false</item>
     <item type="color" name="APKTOOL_DUMMY_99">false</item>
     <item type="color" name="APKTOOL_DUMMY_9a">false</item>
-    <item type="color" name="APKTOOL_DUMMY_9b">false</item>
     <item type="color" name="APKTOOL_DUMMY_9c">false</item>
     <item type="color" name="APKTOOL_DUMMY_9d">false</item>
     <item type="color" name="APKTOOL_DUMMY_9e">false</item>
@@ -466,51 +494,28 @@
     <item type="color" name="APKTOOL_DUMMY_da">false</item>
     <item type="color" name="APKTOOL_DUMMY_db">false</item>
     <item type="color" name="APKTOOL_DUMMY_dc">false</item>
-    <item type="color" name="APKTOOL_DUMMY_fc">false</item>
+    <item type="color" name="APKTOOL_DUMMY_fa">false</item>
     <item type="color" name="APKTOOL_DUMMY_fd">false</item>
-    <item type="color" name="APKTOOL_DUMMY_12a">false</item>
-    <item type="color" name="APKTOOL_DUMMY_143">false</item>
-    <item type="color" name="APKTOOL_DUMMY_15e">false</item>
-    <item type="color" name="APKTOOL_DUMMY_15f">false</item>
-    <item type="color" name="APKTOOL_DUMMY_161">false</item>
-    <item type="color" name="APKTOOL_DUMMY_16c">false</item>
-    <item type="color" name="APKTOOL_DUMMY_171">false</item>
-    <item type="color" name="APKTOOL_DUMMY_172">false</item>
-    <item type="color" name="APKTOOL_DUMMY_173">false</item>
-    <item type="color" name="APKTOOL_DUMMY_174">false</item>
-    <item type="color" name="APKTOOL_DUMMY_175">false</item>
-    <item type="color" name="APKTOOL_DUMMY_176">false</item>
-    <item type="color" name="APKTOOL_DUMMY_177">false</item>
-    <item type="color" name="APKTOOL_DUMMY_180">false</item>
+    <item type="color" name="APKTOOL_DUMMY_fe">false</item>
+    <item type="color" name="APKTOOL_DUMMY_139">false</item>
+    <item type="color" name="APKTOOL_DUMMY_148">false</item>
+    <item type="color" name="APKTOOL_DUMMY_162">false</item>
+    <item type="color" name="APKTOOL_DUMMY_17e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_17f">false</item>
     <item type="color" name="APKTOOL_DUMMY_181">false</item>
-    <item type="color" name="APKTOOL_DUMMY_182">false</item>
-    <item type="color" name="APKTOOL_DUMMY_183">false</item>
-    <item type="color" name="APKTOOL_DUMMY_184">false</item>
-    <item type="color" name="APKTOOL_DUMMY_186">false</item>
-    <item type="color" name="APKTOOL_DUMMY_187">false</item>
-    <item type="color" name="APKTOOL_DUMMY_188">false</item>
-    <item type="color" name="APKTOOL_DUMMY_189">false</item>
-    <item type="color" name="APKTOOL_DUMMY_18a">false</item>
-    <item type="color" name="APKTOOL_DUMMY_18b">false</item>
     <item type="color" name="APKTOOL_DUMMY_18c">false</item>
-    <item type="color" name="APKTOOL_DUMMY_18d">false</item>
+    <item type="color" name="APKTOOL_DUMMY_191">false</item>
+    <item type="color" name="APKTOOL_DUMMY_192">false</item>
     <item type="color" name="APKTOOL_DUMMY_193">false</item>
+    <item type="color" name="APKTOOL_DUMMY_194">false</item>
     <item type="color" name="APKTOOL_DUMMY_195">false</item>
     <item type="color" name="APKTOOL_DUMMY_196">false</item>
     <item type="color" name="APKTOOL_DUMMY_197">false</item>
-    <item type="color" name="APKTOOL_DUMMY_199">false</item>
-    <item type="color" name="APKTOOL_DUMMY_19a">false</item>
-    <item type="color" name="APKTOOL_DUMMY_19b">false</item>
-    <item type="color" name="APKTOOL_DUMMY_19c">false</item>
-    <item type="color" name="APKTOOL_DUMMY_19d">false</item>
-    <item type="color" name="APKTOOL_DUMMY_19e">false</item>
-    <item type="color" name="APKTOOL_DUMMY_19f">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a0">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a1">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a2">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a3">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a4">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1a5">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a6">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a7">false</item>
     <item type="color" name="APKTOOL_DUMMY_1a8">false</item>
@@ -519,16 +524,10 @@
     <item type="color" name="APKTOOL_DUMMY_1ab">false</item>
     <item type="color" name="APKTOOL_DUMMY_1ac">false</item>
     <item type="color" name="APKTOOL_DUMMY_1ad">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1ae">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1af">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1b1">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1b2">false</item>
     <item type="color" name="APKTOOL_DUMMY_1b3">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1b4">false</item>
     <item type="color" name="APKTOOL_DUMMY_1b5">false</item>
     <item type="color" name="APKTOOL_DUMMY_1b6">false</item>
     <item type="color" name="APKTOOL_DUMMY_1b7">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1b8">false</item>
     <item type="color" name="APKTOOL_DUMMY_1b9">false</item>
     <item type="color" name="APKTOOL_DUMMY_1ba">false</item>
     <item type="color" name="APKTOOL_DUMMY_1bb">false</item>
@@ -550,94 +549,98 @@
     <item type="color" name="APKTOOL_DUMMY_1cb">false</item>
     <item type="color" name="APKTOOL_DUMMY_1cc">false</item>
     <item type="color" name="APKTOOL_DUMMY_1cd">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1ce">false</item>
     <item type="color" name="APKTOOL_DUMMY_1cf">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1d0">false</item>
     <item type="color" name="APKTOOL_DUMMY_1d1">false</item>
     <item type="color" name="APKTOOL_DUMMY_1d2">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1d3">false</item>
     <item type="color" name="APKTOOL_DUMMY_1d4">false</item>
     <item type="color" name="APKTOOL_DUMMY_1d5">false</item>
     <item type="color" name="APKTOOL_DUMMY_1d6">false</item>
     <item type="color" name="APKTOOL_DUMMY_1d7">false</item>
     <item type="color" name="APKTOOL_DUMMY_1d8">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1d9">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1da">false</item>
     <item type="color" name="APKTOOL_DUMMY_1db">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1dc">false</item>
     <item type="color" name="APKTOOL_DUMMY_1dd">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1de">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1df">false</item>
     <item type="color" name="APKTOOL_DUMMY_1e0">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1e1">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1e2">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1e3">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1e4">false</item>
     <item type="color" name="APKTOOL_DUMMY_1e5">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1e6">false</item>
     <item type="color" name="APKTOOL_DUMMY_1e7">false</item>
     <item type="color" name="APKTOOL_DUMMY_1e8">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1e9">false</item>
     <item type="color" name="APKTOOL_DUMMY_1ea">false</item>
     <item type="color" name="APKTOOL_DUMMY_1eb">false</item>
     <item type="color" name="APKTOOL_DUMMY_1ec">false</item>
     <item type="color" name="APKTOOL_DUMMY_1ed">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1ee">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1ef">false</item>
     <item type="color" name="APKTOOL_DUMMY_1f0">false</item>
     <item type="color" name="APKTOOL_DUMMY_1f1">false</item>
     <item type="color" name="APKTOOL_DUMMY_1f2">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1f3">false</item>
     <item type="color" name="APKTOOL_DUMMY_1f4">false</item>
     <item type="color" name="APKTOOL_DUMMY_1f5">false</item>
     <item type="color" name="APKTOOL_DUMMY_1f6">false</item>
     <item type="color" name="APKTOOL_DUMMY_1f7">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1f9">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1fa">false</item>
+    <item type="color" name="APKTOOL_DUMMY_1f8">false</item>
     <item type="color" name="APKTOOL_DUMMY_1fb">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1fc">false</item>
     <item type="color" name="APKTOOL_DUMMY_1fd">false</item>
-    <item type="color" name="APKTOOL_DUMMY_1ff">false</item>
-    <item type="color" name="APKTOOL_DUMMY_202">false</item>
-    <item type="color" name="APKTOOL_DUMMY_203">false</item>
+    <item type="color" name="APKTOOL_DUMMY_200">false</item>
     <item type="color" name="APKTOOL_DUMMY_205">false</item>
+    <item type="color" name="APKTOOL_DUMMY_207">false</item>
     <item type="color" name="APKTOOL_DUMMY_208">false</item>
-    <item type="color" name="APKTOOL_DUMMY_209">false</item>
     <item type="color" name="APKTOOL_DUMMY_20a">false</item>
     <item type="color" name="APKTOOL_DUMMY_20b">false</item>
     <item type="color" name="APKTOOL_DUMMY_20c">false</item>
+    <item type="color" name="APKTOOL_DUMMY_20d">false</item>
     <item type="color" name="APKTOOL_DUMMY_20e">false</item>
-    <item type="color" name="APKTOOL_DUMMY_20f">false</item>
     <item type="color" name="APKTOOL_DUMMY_210">false</item>
     <item type="color" name="APKTOOL_DUMMY_211">false</item>
     <item type="color" name="APKTOOL_DUMMY_212">false</item>
     <item type="color" name="APKTOOL_DUMMY_213">false</item>
     <item type="color" name="APKTOOL_DUMMY_214">false</item>
     <item type="color" name="APKTOOL_DUMMY_215">false</item>
+    <item type="color" name="APKTOOL_DUMMY_216">false</item>
+    <item type="color" name="APKTOOL_DUMMY_217">false</item>
+    <item type="color" name="APKTOOL_DUMMY_219">false</item>
+    <item type="color" name="APKTOOL_DUMMY_21a">false</item>
+    <item type="color" name="APKTOOL_DUMMY_21b">false</item>
+    <item type="color" name="APKTOOL_DUMMY_21c">false</item>
+    <item type="color" name="APKTOOL_DUMMY_21d">false</item>
+    <item type="color" name="APKTOOL_DUMMY_21f">false</item>
     <item type="color" name="APKTOOL_DUMMY_222">false</item>
     <item type="color" name="APKTOOL_DUMMY_223">false</item>
-    <item type="color" name="APKTOOL_DUMMY_224">false</item>
     <item type="color" name="APKTOOL_DUMMY_225">false</item>
-    <item type="color" name="APKTOOL_DUMMY_226">false</item>
-    <item type="color" name="APKTOOL_DUMMY_227">false</item>
     <item type="color" name="APKTOOL_DUMMY_228">false</item>
     <item type="color" name="APKTOOL_DUMMY_229">false</item>
+    <item type="color" name="APKTOOL_DUMMY_22a">false</item>
+    <item type="color" name="APKTOOL_DUMMY_22b">false</item>
     <item type="color" name="APKTOOL_DUMMY_22c">false</item>
-    <item type="color" name="APKTOOL_DUMMY_22d">false</item>
     <item type="color" name="APKTOOL_DUMMY_22e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_22f">false</item>
     <item type="color" name="APKTOOL_DUMMY_230">false</item>
     <item type="color" name="APKTOOL_DUMMY_231">false</item>
     <item type="color" name="APKTOOL_DUMMY_232">false</item>
     <item type="color" name="APKTOOL_DUMMY_233">false</item>
     <item type="color" name="APKTOOL_DUMMY_234">false</item>
     <item type="color" name="APKTOOL_DUMMY_235">false</item>
-    <item type="color" name="APKTOOL_DUMMY_236">false</item>
-    <item type="color" name="APKTOOL_DUMMY_237">false</item>
-    <item type="color" name="APKTOOL_DUMMY_239">false</item>
-    <item type="color" name="APKTOOL_DUMMY_23a">false</item>
-    <item type="color" name="APKTOOL_DUMMY_23b">false</item>
-    <item type="color" name="APKTOOL_DUMMY_23c">false</item>
-    <item type="color" name="APKTOOL_DUMMY_23d">false</item>
-    <item type="color" name="APKTOOL_DUMMY_23f">false</item>
-    <item type="color" name="APKTOOL_DUMMY_241">false</item>
     <item type="color" name="APKTOOL_DUMMY_242">false</item>
     <item type="color" name="APKTOOL_DUMMY_243">false</item>
     <item type="color" name="APKTOOL_DUMMY_244">false</item>
     <item type="color" name="APKTOOL_DUMMY_245">false</item>
     <item type="color" name="APKTOOL_DUMMY_246">false</item>
+    <item type="color" name="APKTOOL_DUMMY_247">false</item>
     <item type="color" name="APKTOOL_DUMMY_248">false</item>
-    <item type="color" name="APKTOOL_DUMMY_24a">false</item>
-    <item type="color" name="APKTOOL_DUMMY_24b">false</item>
+    <item type="color" name="APKTOOL_DUMMY_249">false</item>
     <item type="color" name="APKTOOL_DUMMY_24c">false</item>
     <item type="color" name="APKTOOL_DUMMY_24d">false</item>
     <item type="color" name="APKTOOL_DUMMY_24e">false</item>
-    <item type="color" name="APKTOOL_DUMMY_24f">false</item>
     <item type="color" name="APKTOOL_DUMMY_250">false</item>
     <item type="color" name="APKTOOL_DUMMY_251">false</item>
     <item type="color" name="APKTOOL_DUMMY_252">false</item>
@@ -646,22 +649,19 @@
     <item type="color" name="APKTOOL_DUMMY_255">false</item>
     <item type="color" name="APKTOOL_DUMMY_256">false</item>
     <item type="color" name="APKTOOL_DUMMY_257">false</item>
-    <item type="color" name="APKTOOL_DUMMY_258">false</item>
     <item type="color" name="APKTOOL_DUMMY_259">false</item>
     <item type="color" name="APKTOOL_DUMMY_25a">false</item>
     <item type="color" name="APKTOOL_DUMMY_25b">false</item>
     <item type="color" name="APKTOOL_DUMMY_25c">false</item>
     <item type="color" name="APKTOOL_DUMMY_25d">false</item>
-    <item type="color" name="APKTOOL_DUMMY_25e">false</item>
     <item type="color" name="APKTOOL_DUMMY_25f">false</item>
-    <item type="color" name="APKTOOL_DUMMY_260">false</item>
     <item type="color" name="APKTOOL_DUMMY_261">false</item>
     <item type="color" name="APKTOOL_DUMMY_262">false</item>
     <item type="color" name="APKTOOL_DUMMY_263">false</item>
     <item type="color" name="APKTOOL_DUMMY_264">false</item>
+    <item type="color" name="APKTOOL_DUMMY_265">false</item>
     <item type="color" name="APKTOOL_DUMMY_266">false</item>
     <item type="color" name="APKTOOL_DUMMY_268">false</item>
-    <item type="color" name="APKTOOL_DUMMY_269">false</item>
     <item type="color" name="APKTOOL_DUMMY_26a">false</item>
     <item type="color" name="APKTOOL_DUMMY_26b">false</item>
     <item type="color" name="APKTOOL_DUMMY_26c">false</item>
@@ -687,10 +687,9 @@
     <item type="color" name="APKTOOL_DUMMY_280">false</item>
     <item type="color" name="APKTOOL_DUMMY_281">false</item>
     <item type="color" name="APKTOOL_DUMMY_282">false</item>
+    <item type="color" name="APKTOOL_DUMMY_283">false</item>
     <item type="color" name="APKTOOL_DUMMY_284">false</item>
-    <item type="color" name="APKTOOL_DUMMY_285">false</item>
     <item type="color" name="APKTOOL_DUMMY_286">false</item>
-    <item type="color" name="APKTOOL_DUMMY_287">false</item>
     <item type="color" name="APKTOOL_DUMMY_288">false</item>
     <item type="color" name="APKTOOL_DUMMY_289">false</item>
     <item type="color" name="APKTOOL_DUMMY_28a">false</item>
@@ -705,6 +704,7 @@
     <item type="color" name="APKTOOL_DUMMY_293">false</item>
     <item type="color" name="APKTOOL_DUMMY_294">false</item>
     <item type="color" name="APKTOOL_DUMMY_295">false</item>
+    <item type="color" name="APKTOOL_DUMMY_296">false</item>
     <item type="color" name="APKTOOL_DUMMY_297">false</item>
     <item type="color" name="APKTOOL_DUMMY_298">false</item>
     <item type="color" name="APKTOOL_DUMMY_299">false</item>
@@ -714,9 +714,9 @@
     <item type="color" name="APKTOOL_DUMMY_29d">false</item>
     <item type="color" name="APKTOOL_DUMMY_29e">false</item>
     <item type="color" name="APKTOOL_DUMMY_29f">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2a0">false</item>
     <item type="color" name="APKTOOL_DUMMY_2a1">false</item>
     <item type="color" name="APKTOOL_DUMMY_2a2">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2a3">false</item>
     <item type="color" name="APKTOOL_DUMMY_2a4">false</item>
     <item type="color" name="APKTOOL_DUMMY_2a5">false</item>
     <item type="color" name="APKTOOL_DUMMY_2a6">false</item>
@@ -735,7 +735,6 @@
     <item type="color" name="APKTOOL_DUMMY_2b3">false</item>
     <item type="color" name="APKTOOL_DUMMY_2b4">false</item>
     <item type="color" name="APKTOOL_DUMMY_2b5">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2b6">false</item>
     <item type="color" name="APKTOOL_DUMMY_2b7">false</item>
     <item type="color" name="APKTOOL_DUMMY_2b8">false</item>
     <item type="color" name="APKTOOL_DUMMY_2b9">false</item>
@@ -745,11 +744,15 @@
     <item type="color" name="APKTOOL_DUMMY_2bd">false</item>
     <item type="color" name="APKTOOL_DUMMY_2be">false</item>
     <item type="color" name="APKTOOL_DUMMY_2bf">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2c0">false</item>
     <item type="color" name="APKTOOL_DUMMY_2c1">false</item>
     <item type="color" name="APKTOOL_DUMMY_2c2">false</item>
     <item type="color" name="APKTOOL_DUMMY_2c3">false</item>
     <item type="color" name="APKTOOL_DUMMY_2c4">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2c5">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2c6">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2c7">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2c8">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2c9">false</item>
     <item type="color" name="APKTOOL_DUMMY_2ca">false</item>
     <item type="color" name="APKTOOL_DUMMY_2cb">false</item>
     <item type="color" name="APKTOOL_DUMMY_2cc">false</item>
@@ -760,54 +763,81 @@
     <item type="color" name="APKTOOL_DUMMY_2d1">false</item>
     <item type="color" name="APKTOOL_DUMMY_2d2">false</item>
     <item type="color" name="APKTOOL_DUMMY_2d3">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2d4">false</item>
     <item type="color" name="APKTOOL_DUMMY_2d5">false</item>
     <item type="color" name="APKTOOL_DUMMY_2d6">false</item>
     <item type="color" name="APKTOOL_DUMMY_2d7">false</item>
     <item type="color" name="APKTOOL_DUMMY_2d8">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2d9">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2da">false</item>
     <item type="color" name="APKTOOL_DUMMY_2db">false</item>
     <item type="color" name="APKTOOL_DUMMY_2dc">false</item>
     <item type="color" name="APKTOOL_DUMMY_2dd">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2e5">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2e6">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2e8">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2e9">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2f4">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2de">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2df">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2e0">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2e1">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2e2">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2e3">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2e4">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2ea">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2eb">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2ec">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2ed">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2ee">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2ef">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2f0">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2f1">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2f2">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2f3">false</item>
     <item type="color" name="APKTOOL_DUMMY_2f5">false</item>
     <item type="color" name="APKTOOL_DUMMY_2f6">false</item>
     <item type="color" name="APKTOOL_DUMMY_2f7">false</item>
-    <item type="color" name="APKTOOL_DUMMY_2ff">false</item>
-    <item type="color" name="APKTOOL_DUMMY_300">false</item>
-    <item type="color" name="APKTOOL_DUMMY_301">false</item>
-    <item type="color" name="APKTOOL_DUMMY_302">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2f8">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2fb">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2fc">false</item>
+    <item type="color" name="APKTOOL_DUMMY_2fd">false</item>
     <item type="color" name="APKTOOL_DUMMY_304">false</item>
-    <item type="color" name="APKTOOL_DUMMY_306">false</item>
+    <item type="color" name="APKTOOL_DUMMY_305">false</item>
+    <item type="color" name="APKTOOL_DUMMY_307">false</item>
     <item type="color" name="APKTOOL_DUMMY_308">false</item>
-    <item type="color" name="APKTOOL_DUMMY_309">false</item>
-    <item type="color" name="APKTOOL_DUMMY_30d">false</item>
-    <item type="color" name="APKTOOL_DUMMY_30e">false</item>
-    <item type="color" name="APKTOOL_DUMMY_30f">false</item>
-    <item type="color" name="APKTOOL_DUMMY_310">false</item>
-    <item type="color" name="APKTOOL_DUMMY_311">false</item>
-    <item type="color" name="APKTOOL_DUMMY_312">false</item>
     <item type="color" name="APKTOOL_DUMMY_313">false</item>
     <item type="color" name="APKTOOL_DUMMY_314">false</item>
     <item type="color" name="APKTOOL_DUMMY_315">false</item>
     <item type="color" name="APKTOOL_DUMMY_316">false</item>
-    <item type="color" name="APKTOOL_DUMMY_317">false</item>
-    <item type="color" name="APKTOOL_DUMMY_318">false</item>
-    <item type="color" name="APKTOOL_DUMMY_319">false</item>
-    <item type="color" name="APKTOOL_DUMMY_31a">false</item>
+    <item type="color" name="APKTOOL_DUMMY_31e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_31f">false</item>
+    <item type="color" name="APKTOOL_DUMMY_320">false</item>
+    <item type="color" name="APKTOOL_DUMMY_321">false</item>
+    <item type="color" name="APKTOOL_DUMMY_323">false</item>
+    <item type="color" name="APKTOOL_DUMMY_325">false</item>
+    <item type="color" name="APKTOOL_DUMMY_327">false</item>
+    <item type="color" name="APKTOOL_DUMMY_328">false</item>
+    <item type="color" name="APKTOOL_DUMMY_32c">false</item>
+    <item type="color" name="APKTOOL_DUMMY_32d">false</item>
+    <item type="color" name="APKTOOL_DUMMY_32e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_32f">false</item>
+    <item type="color" name="APKTOOL_DUMMY_330">false</item>
     <item type="color" name="APKTOOL_DUMMY_331">false</item>
     <item type="color" name="APKTOOL_DUMMY_332">false</item>
+    <item type="color" name="APKTOOL_DUMMY_333">false</item>
+    <item type="color" name="APKTOOL_DUMMY_334">false</item>
+    <item type="color" name="APKTOOL_DUMMY_335">false</item>
     <item type="color" name="APKTOOL_DUMMY_336">false</item>
     <item type="color" name="APKTOOL_DUMMY_337">false</item>
     <item type="color" name="APKTOOL_DUMMY_338">false</item>
-    <item type="color" name="APKTOOL_DUMMY_33f">false</item>
-    <item type="color" name="APKTOOL_DUMMY_341">false</item>
-    <item type="color" name="APKTOOL_DUMMY_34b">false</item>
-    <item type="color" name="APKTOOL_DUMMY_34e">false</item>
+    <item type="color" name="APKTOOL_DUMMY_339">false</item>
     <item type="color" name="APKTOOL_DUMMY_34f">false</item>
-    <item type="color" name="APKTOOL_DUMMY_353">false</item>
-    <item type="color" name="APKTOOL_DUMMY_35b">false</item>
+    <item type="color" name="APKTOOL_DUMMY_350">false</item>
+    <item type="color" name="APKTOOL_DUMMY_354">false</item>
+    <item type="color" name="APKTOOL_DUMMY_355">false</item>
+    <item type="color" name="APKTOOL_DUMMY_356">false</item>
     <item type="color" name="APKTOOL_DUMMY_35d">false</item>
+    <item type="color" name="APKTOOL_DUMMY_35f">false</item>
+    <item type="color" name="APKTOOL_DUMMY_369">false</item>
+    <item type="color" name="APKTOOL_DUMMY_36c">false</item>
+    <item type="color" name="APKTOOL_DUMMY_36d">false</item>
+    <item type="color" name="APKTOOL_DUMMY_371">false</item>
+    <item type="color" name="APKTOOL_DUMMY_379">false</item>
+    <item type="color" name="APKTOOL_DUMMY_37b">false</item>
 </resources>

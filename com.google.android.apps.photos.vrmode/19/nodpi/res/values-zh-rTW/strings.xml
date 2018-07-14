@@ -77,7 +77,7 @@
     <string name="delete_interstitial_negative_text">取消</string>
     <string name="delete_interstitial_positive_text">移至垃圾桶</string>
     <string name="delete_learn_more">&lt;a href=help:>瞭解詳情&lt;/a></string>
-    <string name="device_folders_card_description">只要備份「下載」和「螢幕擷取畫面」等資料夾，你就可以在 Google 相簿相片庫中查看、搜尋以及整理備份內容</string>
+    <string name="device_folders_card_description">備份「下載」和「螢幕擷取畫面」等資料夾，即可在 Google 相片庫中查看、搜尋及整理備份內容</string>
     <string name="device_folders_card_primary_button">裝置資料夾</string>
     <string name="device_folders_card_title">備份裝置資料夾</string>
     <string name="device_folders_title">裝置資料夾</string>
@@ -122,7 +122,7 @@
     <string name="image_halloween_tooltip">為相片中的人物臉孔加上怪異和可愛的彩妝</string>
     <string name="image_hdr_tooltip">調和相片的曝光差異</string>
     <string name="image_love_tooltip">在情人擁抱的相片中加入愛心圖案</string>
-    <string name="image_pano_tooltip">拼接景色相連的相片</string>
+    <string name="image_pano_tooltip">使用相關相片拼接而成</string>
     <string name="image_photobomb_tooltip">在相片中加入名人</string>
     <string name="image_smile_tooltip">以一系列相似的相片組成</string>
     <string name="image_snowglobe_tooltip">為冬季場景的相片加上下雪特效</string>
@@ -201,7 +201,7 @@
     <string name="photo_image_style">特效</string>
     <string name="photo_image_twinkle">閃爍效果</string>
     <string name="photo_image_uncrop">縮小</string>
-    <string name="photo_location_setting_desc">來自透過連結 (而非其他方式) 共享的相片和影片</string>
+    <string name="photo_location_setting_desc">如果相片和影片是透過連結分享 (而非其他方式)，刪除地理位置資訊</string>
     <string name="photo_location_setting_title">移除地理位置資訊</string>
     <string name="photos_accessibility_collage">美術拼貼</string>
     <string name="photos_accessibility_collage_metadata">利用 %s 拍攝的相片製作而成的美術拼貼</string>
@@ -276,7 +276,7 @@
     <string name="photos_album_promos_first_joiner_subtitle">你新增項目到相簿或有人加入相簿時，相關使用者會收到更新通知</string>
     <string name="photos_album_promos_first_joiner_title">查看哪些人已加入</string>
     <string name="photos_album_promos_sharing_options_subtitle">讓其他人在這本相簿中新增相片</string>
-    <string name="photos_album_promos_sharing_options_title">新的共享選項</string>
+    <string name="photos_album_promos_sharing_options_title">新的分享選項</string>
     <string name="photos_album_removealbum_delete_album">刪除相簿</string>
     <string name="photos_album_removealbum_delete_album_dialog_message">相簿一經刪除即無法復原。不過，刪除相簿後，當中的相片和影片仍會保留在你的相片庫中。</string>
     <string name="photos_album_removealbum_delete_album_dialog_title">要刪除相簿嗎？</string>
@@ -304,7 +304,7 @@
     <string name="photos_album_sorting_ui_recently_added_popup_item_description">將相簿項目依新增時間由新到舊排序</string>
     <string name="photos_album_titlecard_facepile_add_recipients_button_content_desc">新增收件者</string>
     <string name="photos_album_titlecard_facepile_join_button_text">加入</string>
-    <string name="photos_album_titlecard_facepile_sharing_options_content_desc">共享選項</string>
+    <string name="photos_album_titlecard_facepile_sharing_options_content_desc">分享選項</string>
     <string name="photos_album_ui_accessibility_custom_action_edit_location">編輯位置資訊</string>
     <string name="photos_album_ui_accessibility_custom_action_edit_map">編輯地圖</string>
     <string name="photos_album_ui_accessibility_custom_action_edit_text">編輯文字</string>
@@ -608,12 +608,12 @@
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">購買儲存空間</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">你必須添購儲存空間，才能以原始畫質備份相片和影片</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">儲存空間已滿</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">如要繼續以原始畫質備份你的相片和影片，請購買更多儲存空間</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">已使用 %d%%</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">帳戶儲存空間</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">相片和影片會以較低畫質儲存 (免費無限儲存空間)。&lt;a href=\"help:\">瞭解詳情&lt;/a></string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">以較低解析度備份</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">購買儲存空間</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">如要繼續以原始畫質備份你的相片和影片，請購買更多儲存空間</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">降低現有項目的畫質，釋出 %d GB 的儲存空間。</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">繼續</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">其他選項</string>
@@ -639,7 +639,6 @@
     <string name="photos_comments_popupmenu_delete_comment">刪除留言</string>
     <string name="photos_comments_popupmenu_report_abuse">檢舉濫用行為</string>
     <string name="photos_comments_popupmenu_text_copied">已複製文字</string>
-    <string name="photos_comments_ui_comment_list_header">活動</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">新增相片到共享相簿</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">已關閉留言功能</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">新增留言</string>
@@ -901,7 +900,7 @@
     <string name="photos_envelope_savetolibrary_failed">儲存至相片庫時發生問題</string>
     <string name="photos_envelope_savetolibrary_succeeded">已加入相片庫</string>
     <string name="photos_envelope_settings_block_error">封鎖使用者時發生錯誤</string>
-    <string name="photos_envelope_settings_block_undo_block_text">已封鎖使用者</string>
+    <string name="photos_envelope_settings_block_undo_block_text">已封鎖分享對象</string>
     <string name="photos_envelope_settings_block_undo_error">解除封鎖使用者時發生錯誤</string>
     <string name="photos_envelope_settings_canaddcomment_allow">留言</string>
     <string name="photos_envelope_settings_canaddcomment_allow_comments_and_likes">留言及表示喜歡</string>
@@ -917,12 +916,12 @@
     <string name="photos_envelope_settings_getlink_copy_link_complete">完成！已複製連結</string>
     <string name="photos_envelope_settings_getlink_getting_link">正在取得連結</string>
     <string name="photos_envelope_settings_getlink_link_not_found">找不到連結</string>
-    <string name="photos_envelope_settings_getlink_link_to_share">共享連結</string>
+    <string name="photos_envelope_settings_getlink_link_to_share">分享連結</string>
     <string name="photos_envelope_settings_hidename_show_email">隱藏名稱並改為顯示電子郵件地址</string>
     <string name="photos_envelope_settings_hidename_show_number">隱藏名稱並改為顯示電話號碼</string>
     <string name="photos_envelope_settings_load_error">載入選項時發生錯誤</string>
     <string name="photos_envelope_settings_people_add_recipient_item_title">邀請其他人</string>
-    <string name="photos_envelope_settings_people_block_person">封鎖使用者</string>
+    <string name="photos_envelope_settings_people_block_person">封鎖分享對象</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_message">封鎖對象將無法透過 Google 相簿與你聯絡，你也無法查看對方在 Google 相簿中的相片或留言。封鎖效力也將延伸至 Google+ 和 Hangouts 等其他特定 Google 產品。&lt;a href=help:>瞭解詳情&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">封鎖</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_title">確定要封鎖%1$s嗎？</string>
@@ -951,7 +950,7 @@
     <string name="photos_envelope_settings_title">選項</string>
     <string name="photos_envelope_sharetext_continue">繼續</string>
     <string name="photos_envelope_sharetext_continue_as">以%s的身分繼續操作</string>
-    <string name="photos_envelope_sharetext_default_share_message">%s邀請你加入共享相簿。</string>
+    <string name="photos_envelope_sharetext_default_share_message">%s與你分享了相片。</string>
     <string name="photos_envelope_signedoutpromo_message">有新相片和留言時傳送通知給你</string>
     <string name="photos_envelope_signedoutpromo_not_now_button">暫時不要</string>
     <string name="photos_envelope_signedoutpromo_sign_in_button">登入</string>
@@ -990,7 +989,7 @@
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_positive_button">移除標籤</string>
     <string name="photos_facegaia_optin_impl_picker_remove_dialog_title">要移除「我」標籤嗎？</string>
     <string name="photos_facegaia_optin_impl_selected">已選取</string>
-    <string name="photos_facegaia_optin_impl_title">選擇你的臉孔以享有個人化 Google 相簿服務</string>
+    <string name="photos_facegaia_optin_impl_title">選擇你的臉孔，打造個人專屬的 Google 相簿</string>
     <string name="photos_favorites_promo_dialog_body_photo">輕鬆在相簿中找出你收藏的相片</string>
     <string name="photos_favorites_promo_dialog_negative_button">完成</string>
     <string name="photos_favorites_promo_dialog_title">已收藏！</string>
@@ -1013,7 +1012,7 @@
     <string name="photos_home_menu_action_month">月檢視</string>
     <string name="photos_home_menu_action_year">年檢視</string>
     <string name="photos_home_menu_label_layout">版面配置</string>
-    <string name="photos_home_menu_new_shared_album">建立新的共享項目</string>
+    <string name="photos_home_menu_new_shared_album">建立新的共享相簿</string>
     <string name="photos_home_menu_skipped_suggestions">略過的建議</string>
     <string name="photos_launchershortcuts_full_auto_free_up_space">釋出空間</string>
     <string name="photos_launchershortcuts_full_auto_free_up_space_short">釋出空間</string>
@@ -1673,6 +1672,7 @@
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">插入相片的版面配置</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">相片下方搭配標題的版面配置</string>
     <string name="photos_photobook_preview_edit_cover_error">你必須連上網際網路才能編輯封面</string>
+    <string name="photos_photobook_preview_edit_cover_title">編輯封面</string>
     <string name="photos_photobook_preview_edit_layout_error">你必須連上網際網路才能編輯相片書</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">全出血版面配置</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">插入相片的版面配置</string>
@@ -1705,7 +1705,6 @@
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">關閉</string>
     <string name="photos_photobook_promotion_allphotos_header_1">免運費</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">相片書促銷活動將持續至「網路星期一」當日截止</string>
-    <string name="photos_photobook_promotion_free_shipping">免運費</string>
     <string name="photos_photobook_promotion_general_book_cover_title">回憶</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">變更選取的項目</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">查看相片書預覽</string>
@@ -1748,7 +1747,7 @@
     <string name="photos_photobook_storefront_order_details">訂單明細</string>
     <string name="photos_photobook_storefront_order_info">訂單資訊</string>
     <string name="photos_photobook_storefront_order_number">訂單號碼</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">你訂購的相片書會在下單後的 2 到 3 個工作天內印製完成</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">你訂購的相片書會在下單後的 3 到 4 個工作天內印製完成</string>
     <string name="photos_photobook_storefront_past_orders">之前的訂單</string>
     <string name="photos_photobook_storefront_promo_code">促銷代碼</string>
     <string name="photos_photobook_storefront_quantity">數量：%d</string>
@@ -1895,6 +1894,7 @@
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">請檢查你的連線狀態</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">無法編輯，請檢查你的連線狀態</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">儲存相片時發生錯誤。</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">取消</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">編輯原始相片</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">這張相片已透過舊版 Google 相簿修改。編輯原始相片即可復原先前的變更，並進行新的編輯。</string>
@@ -2100,7 +2100,7 @@
     <string name="photos_search_explore_favorites_query">收藏</string>
     <string name="photos_search_explore_movie_query">影片</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">隱藏臉孔</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">隱藏或顯示</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">將%1$s設為隱藏</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">已隱藏臉孔</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">復原</string>
@@ -2207,7 +2207,7 @@
     <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Google 相簿採用臉孔特徵分組技術。&lt;a href=help:>瞭解詳情&lt;/a></string>
     <string name="photos_search_peoplelabeling_avatar_content_description">使用者相簿的顯示圖片圖示</string>
     <string name="photos_search_peoplelabeling_clear">清除名稱</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">搜尋裝置上的聯絡人</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">你必須連上網際網路才能編輯名稱</string>
     <string name="photos_search_peoplelabeling_fail_message">為叢集加上標籤時發生錯誤</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">常用聯絡人</string>
@@ -2222,7 +2222,7 @@
     <string name="photos_search_searchbox_hint_text_template">搜尋「%s」</string>
     <string name="photos_search_searchbox_text">搜尋相片</string>
     <string name="photos_search_searchbox_voice_search_button">語音搜尋按鈕</string>
-    <string name="photos_search_searchresults_carousel_title">In albums</string>
+    <string name="photos_search_searchresults_carousel_title">在相簿中</string>
     <string name="photos_search_searchresults_empty_page_360_button">使用 Cardboard 相機</string>
     <string name="photos_search_searchresults_empty_page_360_caption">360 度相片和影片 (例如 Photo Sphere 全景相片和 VR) 會顯示在這裡</string>
     <string name="photos_search_searchresults_empty_page_360_title">融入你的相片和影片中</string>
@@ -2386,7 +2386,7 @@
     <string name="photos_share_method_create_link_caption">只有你可以新增</string>
     <string name="photos_share_method_estimated_size_gigabyte">%.1f GB</string>
     <string name="photos_share_method_estimated_size_megabyte">%.1f MB</string>
-    <string name="photos_share_method_large">大型尺寸</string>
+    <string name="photos_share_method_large">大尺寸</string>
     <string name="photos_share_method_shared_album">共享相簿</string>
     <string name="photos_share_method_shared_album_caption">其他人可以新增</string>
     <string name="photos_share_method_small">小型尺寸</string>
@@ -2473,13 +2473,12 @@
     <string name="photos_sharingtab_picker_impl_add_to_album">新增到相簿</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">新增到現有相簿</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">要新增嗎？</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">建立共享相簿</string>
     <string name="photos_sharingtab_picker_impl_error_adding">新增時發生錯誤。</string>
     <string name="photos_sharingtab_picker_impl_label">查看建議</string>
     <string name="photos_sharingtab_picker_impl_message_hint_text">新增訊息</string>
     <string name="photos_sharingtab_picker_impl_overflow_desc">開啟溢位選單</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">選取現有相簿</string>
-    <string name="photos_sharingtab_picker_impl_overflow_select_people">選取使用者</string>
+    <string name="photos_sharingtab_picker_impl_overflow_select_people">選取聯絡人</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">選取更多相片</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">這是誰？</string>
     <string name="photos_sharingtab_picker_impl_selected_label">已選取</string>
@@ -2755,7 +2754,7 @@
     <string name="search_empty_state_title">沒有相符的結果</string>
     <string name="select_accessibility_action">選取一項動作</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">關於推薦人選</string>
     <string name="sendkit_ui_add_message_title">新增訊息</string>
     <string name="sendkit_ui_autocomplete_add_recipient">新增收件者</string>
     <string name="sendkit_ui_autocomplete_already_selected">已選取</string>
@@ -2807,7 +2806,6 @@
     <string name="sendkit_ui_sharing_as">以 %s 的身分分享</string>
     <string name="sendkit_ui_show_more">更多</string>
     <string name="sendkit_ui_show_more_content_description">更多聯絡人</string>
-    <string name="sendkit_ui_show_phone_contacts">顯示手機聯絡人</string>
     <string name="sendkit_ui_sms_charges">需支付標準簡訊費用</string>
     <string name="sendkit_ui_starred">已加星號</string>
     <string name="sendkit_ui_top_suggestions">關聯性最高的使用者</string>
@@ -2826,7 +2824,7 @@
     <string name="social_storageformatter_integer_storage_amount">%1$d %2$s</string>
     <string name="social_storageformatter_mb">MB</string>
     <string name="social_storageformatter_tb">TB</string>
-    <string name="status_bar_getting_your_photos_title">正在載入相片…</string>
+    <string name="status_bar_getting_your_photos_title">正在下載你的相片…</string>
     <string name="switch_text_off">關閉</string>
     <string name="switch_text_on">開啟</string>
     <string name="switch_viewer_action">切換</string>

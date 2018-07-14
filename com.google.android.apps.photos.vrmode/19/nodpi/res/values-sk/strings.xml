@@ -77,7 +77,7 @@
     <string name="delete_interstitial_negative_text">Zrušiť</string>
     <string name="delete_interstitial_positive_text">Presunúť do koša</string>
     <string name="delete_learn_more">&lt;a href=help:>Ďalšie informácie&lt;/a></string>
-    <string name="device_folders_card_description">Zálohujte si priečinky, napríklad Stiahnuté súbory a Snímky obrazovky, aby ste mohli zobraziť, prehľadávať a usporiadať ich obsah v knižnici Fotiek</string>
+    <string name="device_folders_card_description">Zálohujte si priečinky ako Stiahnuté súbory alebo Snímky obrazovky a budete môcť ich obsah zobrazovať, prehľadávať a usporadúvať v knižnici Fotiek</string>
     <string name="device_folders_card_primary_button">Priečinky zariadenia</string>
     <string name="device_folders_card_title">Zálohovanie priečinkov zariadenia</string>
     <string name="device_folders_title">Priečinky zariadenia</string>
@@ -110,7 +110,7 @@
     <string name="image_halloween_tooltip">Vytvorené pridaním strašidelného a rozkošného mejkapu na tváre ľudí</string>
     <string name="image_hdr_tooltip">Vytvára sa zlúčením rôznych expozícií</string>
     <string name="image_love_tooltip">Vytvorené pridaním srdiečok k láskyplnému objatiu</string>
-    <string name="image_pano_tooltip">Vytvára sa spojením súvisiacich fotiek</string>
+    <string name="image_pano_tooltip">Vytvára sa zlepovaním súvisiacich fotiek</string>
     <string name="image_photobomb_tooltip">Vytvorené pridaním celebrity do vašej fotky</string>
     <string name="image_smile_tooltip">Vytvorené zo skupiny podobných fotiek</string>
     <string name="image_snowglobe_tooltip">Vytvorené pridaním padajúceho snehu do zimných scén</string>
@@ -291,7 +291,7 @@ Vaše fotky a videá zostanú vo vašej knižnici."</string>
     <string name="photos_album_sorting_ui_recently_added">Nedávno pridané</string>
     <string name="photos_album_sorting_ui_recently_added_popup_item_description">Zoradiť položky albumu tak, že nedávno pridané položky budú uvedené ako prvé</string>
     <string name="photos_album_titlecard_facepile_add_recipients_button_content_desc">Pridať príjemcov</string>
-    <string name="photos_album_titlecard_facepile_join_button_text">Pridať sa</string>
+    <string name="photos_album_titlecard_facepile_join_button_text">Pripojiť sa</string>
     <string name="photos_album_titlecard_facepile_sharing_options_content_desc">Možnosti zdieľania</string>
     <string name="photos_album_ui_accessibility_custom_action_edit_location">Upraviť polohu</string>
     <string name="photos_album_ui_accessibility_custom_action_edit_map">Upraviť mapu</string>
@@ -526,7 +526,7 @@ Vaše fotky a videá zostanú vo vašej knižnici."</string>
     <string name="photos_backup_settings_upload_size_high_quality_title">Vysoká kvalita (neobmedzené úložisko zdarma)</string>
     <string name="photos_backup_settings_upload_size_original_fallback">Pôvodná kvalita (obmedzené úložiskom účtu)</string>
     <string name="photos_backup_settings_upload_size_original_limited">Pôvodné (voľný priestor %s)</string>
-    <string name="photos_backup_settings_upload_size_original_subtitle">V úplnom rozlíšení sa počíta do limitu úložiska</string>
+    <string name="photos_backup_settings_upload_size_original_subtitle">V úplnom rozlíšení sa fotky počítajú do limitu úložiska</string>
     <string name="photos_backup_settings_upload_size_original_subtitle_when_free_storage">Fotky a videá v plnom rozlíšení</string>
     <string name="photos_backup_settings_upload_size_original_unlimited">Originál (využité miesto: %s)</string>
     <string name="photos_backup_settings_upload_size_original_when_free_storage">Pôvodná veľkosť (až na 2 roky zdarma)</string>
@@ -596,12 +596,12 @@ Vaše fotky a videá zostanú vo vašej knižnici."</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">Kúpiť úložisko</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">Ak chcete fotky a videá zálohovať v pôvodnej kvalite, potrebujete ďalšie úložisko</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">Nedostatok úložiska</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">Ak chcete aj naďalej zálohovať fotky a videá v pôvodnej kvalite, kúpte si viac úložiska</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">Plné na %d %%</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">Úložisko účtu</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">Fotky a videá sa ukladajú v nižšej vizuálnej kvalite (neobmedzené úložisko zdarma). &lt;a href=\"help:\">Ďalšie informácie&lt;/a></string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">Zálohovať v nižšom rozlíšení</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">Kúpiť úložisko</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">Ak chcete aj naďalej zálohovať fotky a videá v pôvodnej kvalite, kúpte si viac úložiska</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">Obnovte %d GB úložiska tým, že znížite kvalitu existujúcich položiek.</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">Pokračovať</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">Ďalšie možnosti</string>
@@ -627,7 +627,6 @@ Vaše fotky a videá zostanú vo vašej knižnici."</string>
     <string name="photos_comments_popupmenu_delete_comment">Odstrániť komentár</string>
     <string name="photos_comments_popupmenu_report_abuse">Nahlásiť zneužitie</string>
     <string name="photos_comments_popupmenu_text_copied">Text bol skopírovaný</string>
-    <string name="photos_comments_ui_comment_list_header">Aktivita</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Pridať fotky do zdieľaného albumu</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Komentáre sú vypnuté</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Pridajte komentár</string>
@@ -883,7 +882,7 @@ podporované"</string>
     <string name="photos_envelope_feed_error_loading_data">Aktivitu v albume nebolo možné načítať</string>
     <string name="photos_envelope_feed_no_activity">Žiadna aktivita</string>
     <string name="photos_envelope_leaveenvelope_confirm_leave_envelope_confirm">Opustiť album</string>
-    <string name="photos_envelope_leaveenvelope_confirm_leave_envelope_message">Položky a komentáre, ktoré ste pridali, budú odstránené. Do tohto albumu už nemôžete byť znova pozvaný/-á.</string>
+    <string name="photos_envelope_leaveenvelope_confirm_leave_envelope_message">Položky a komentáre, ktoré ste pridali, budú odstránené. Do tohto albumu vás nebude možné znovu pozvať.</string>
     <string name="photos_envelope_leaveenvelope_confirm_leave_envelope_title">Opustiť album?</string>
     <string name="photos_envelope_leaveenvelope_leave_failed_message">Nebolo možné opustiť album</string>
     <string name="photos_envelope_savetolibrary_failed">Pri ukladaní do knižnice sa vyskytli problémy</string>
@@ -906,18 +905,18 @@ podporované"</string>
     <string name="photos_envelope_settings_getlink_getting_link">Získava sa odkaz</string>
     <string name="photos_envelope_settings_getlink_link_not_found">Odkaz nebol nájdený</string>
     <string name="photos_envelope_settings_getlink_link_to_share">Odkaz na zdieľanie</string>
-    <string name="photos_envelope_settings_hidename_show_email">Skryť meno a zobraziť namiesto neho e-mailovú adresu</string>
+    <string name="photos_envelope_settings_hidename_show_email">Skryť meno a zobraziť namiesto neho e‑mail</string>
     <string name="photos_envelope_settings_hidename_show_number">Skryť meno a zobraziť namiesto neho číslo</string>
     <string name="photos_envelope_settings_load_error">Pri načítavaní možností došlo k chybe</string>
     <string name="photos_envelope_settings_people_add_recipient_item_title">Pozvať ľudí</string>
     <string name="photos_envelope_settings_people_block_person">Zablokovať osobu</string>
-    <string name="photos_envelope_settings_people_block_person_confirmation_message">Nebude vás môcť kontaktovať vo Fotkách Google a vy neuvidíte fotky ani komentáre danej osoby vo Fotkách Google. Blokovanie sa bude vzťahovať aj na niektoré ďalšie produkty Google, napríklad Google+ a Hangouts. &lt;a href=help:>Ďalšie informácie&lt;/a></string>
+    <string name="photos_envelope_settings_people_block_person_confirmation_message">Nebude vás môcť kontaktovať vo Fotkách Google a vy neuvidíte fotky ani komentáre danej osoby vo Fotkách Google. Blokovanie sa bude vzťahovať aj na niektoré ďalšie služby Googlu, napríklad Google+ a Hangouts. &lt;a href=help:>Ďalšie informácie&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Blokovať</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_title">Zablokovať používateľa %1$s?</string>
     <string name="photos_envelope_settings_people_header_item_title">Členovia</string>
     <string name="photos_envelope_settings_people_leave_album">Opustiť album</string>
     <string name="photos_envelope_settings_people_member_invite_method_app">Odoslané prostredníctvom Fotiek Google</string>
-    <string name="photos_envelope_settings_people_member_item_invited">Pozvaný/-á</string>
+    <string name="photos_envelope_settings_people_member_item_invited">Pozvaní</string>
     <string name="photos_envelope_settings_people_member_item_owner">Vlastník</string>
     <string name="photos_envelope_settings_people_overflow_desc">Otvoriť rozšírenú ponuku</string>
     <string name="photos_envelope_settings_people_remove_invite">Odstrániť pozvánku</string>
@@ -927,19 +926,19 @@ podporované"</string>
     <string name="photos_envelope_settings_share_bullet_header">Týmto sa natrvalo:</string>
     <string name="photos_envelope_settings_share_delete_confirm">Odstrániť</string>
     <string name="photos_envelope_settings_share_delete_explanation">Tento album nie je uložený vo vašich albumoch. Ak ho prestanete zdieľať, bude natrvalo odstránený. Vaše fotky v knižnici zostanú.</string>
-    <string name="photos_envelope_settings_share_delete_title">Zastaviť zdieľanie a odstrániť album?</string>
+    <string name="photos_envelope_settings_share_delete_title">Prestať album zdieľať a odstrániť ho?</string>
     <string name="photos_envelope_settings_share_make_album_private">nastaví album ako súkromný.</string>
     <string name="photos_envelope_settings_share_read_album_failed">Aktualizácie nebolo možné načítať</string>
     <string name="photos_envelope_settings_share_remove_comments">odstránia všetky komentáre vrátane vašich,</string>
     <string name="photos_envelope_settings_share_remove_photos_by_others">odstránia všetky fotky, ktoré pridali ostatní,</string>
     <string name="photos_envelope_settings_share_saving_changes">Ukladajú sa zmeny</string>
-    <string name="photos_envelope_settings_share_stop_sharing_confirm">Ukončiť zdieľanie</string>
-    <string name="photos_envelope_settings_share_stop_title">Ukončiť zdieľanie tohto albumu?</string>
+    <string name="photos_envelope_settings_share_stop_sharing_confirm">Prestať zdieľať</string>
+    <string name="photos_envelope_settings_share_stop_title">Chcete prestať tento album zdieľať?</string>
     <string name="photos_envelope_settings_share_unshare_album_failed">Zrušenie zdieľania nebolo možné</string>
     <string name="photos_envelope_settings_title">Možnosti</string>
     <string name="photos_envelope_sharetext_continue">Pokračovať</string>
     <string name="photos_envelope_sharetext_continue_as">Pokračovať ako %s</string>
-    <string name="photos_envelope_sharetext_default_share_message">%s s vami zdieľa fotky.</string>
+    <string name="photos_envelope_sharetext_default_share_message">%s s vami zdieľa fotky</string>
     <string name="photos_envelope_signedoutpromo_message">Nastavte si upozornenia na nové fotky a komentáre</string>
     <string name="photos_envelope_signedoutpromo_not_now_button">Teraz nie</string>
     <string name="photos_envelope_signedoutpromo_sign_in_button">Prihlásiť sa</string>
@@ -1407,7 +1406,7 @@ presunutím tejto položky do archívu."</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_reciprocate_title_no_name">Zdieľať s partnerom/-kou tiež</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_select">Vybrať fotky</string>
     <string name="photos_partneraccount_grid_actionbar_partneraccount_settings_title">Nastavenia zdieľanej knižnice</string>
-    <string name="photos_partneraccount_grid_error_read_partner_media">Pri načítavaní médií partnera došlo k problému</string>
+    <string name="photos_partneraccount_grid_error_read_partner_media">Problém s načítaním mediálnych súborov partnera</string>
     <string name="photos_partneraccount_grid_partneraccount_grid_shared_with_partner_title">Zdieľané s používateľom %1$s</string>
     <string name="photos_partneraccount_grid_photos_from_partner_empty_description">Tu sa zobrazia nové fotky pridané do zdieľanej knižnice</string>
     <string name="photos_partneraccount_grid_photos_from_partner_empty_title">Nič tu nie je</string>
@@ -1537,7 +1536,7 @@ Automaticky."</string>
     <string name="photos_partneraccount_settings_sender_title">Partner(ka) má prístup k:</string>
     <string name="photos_partneraccount_settings_sender_title_with_name">%1$s má prístup k:</string>
     <string name="photos_partneraccount_settings_stop_sharing_dialog_message">%1$s už nebude mať prístup k vašim fotkám</string>
-    <string name="photos_partneraccount_settings_stop_sharing_dialog_positive_button">Ukončiť zdieľanie</string>
+    <string name="photos_partneraccount_settings_stop_sharing_dialog_positive_button">Prestať zdieľať</string>
     <string name="photos_partneraccount_settings_stop_sharing_dialog_title">Chcete prestať zdieľať svoju knižnicu?</string>
     <string name="photos_partneraccount_settings_update_partner_account_disconnection_error">Pri odpájaní partnerského účtu sa vyskytol problém</string>
     <string name="photos_partneraccount_settings_update_partner_sharing_settings_error">Pri aktualizácii nastavení sa vyskytol problém</string>
@@ -1661,6 +1660,7 @@ Automaticky."</string>
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">Rozloženie s vloženou fotkou</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">Rozloženie s fotkou nad názvom</string>
     <string name="photos_photobook_preview_edit_cover_error">Na úpravu obálky potrebujete internetové pripojenie</string>
+    <string name="photos_photobook_preview_edit_cover_title">Upraviť titulnú stranu</string>
     <string name="photos_photobook_preview_edit_layout_error">Na úpravu fotoknihy potrebujete internetové pripojenie</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">Rozloženie bez okrajov</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">Rozloženie s vloženou fotkou</string>
@@ -1688,12 +1688,11 @@ Automaticky."</string>
     <string name="photos_photobook_product_actionbar_title">Vyberte typ knihy</string>
     <string name="photos_photobook_product_description_and_page_count">%1$s, %2$s</string>
     <string name="photos_photobook_product_price_per_page">%s za stranu navyše</string>
-    <string name="photos_photobook_product_select_button_text">vybrať</string>
+    <string name="photos_photobook_product_select_button_text">Vybrať</string>
     <string name="photos_photobook_promotion_allphotos_button_1">Začíname</string>
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">Zavrieť</string>
     <string name="photos_photobook_promotion_allphotos_header_1">Doprava zdarma</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">na fotoknihy do kybernetického pondelka</string>
-    <string name="photos_photobook_promotion_free_shipping">Doprava zdarma</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Spomienky</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Upraviť výber</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Zobraziť ukážku knihy</string>
@@ -1736,7 +1735,7 @@ Automaticky."</string>
     <string name="photos_photobook_storefront_order_details">Podrobnosti objednávky</string>
     <string name="photos_photobook_storefront_order_info">Informácie o objednávke</string>
     <string name="photos_photobook_storefront_order_number">Číslo objednávky</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">Vaša objednávka bude vytlačená do 2 – 3 pracovných dní od dátumu objednávky</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">Vaša objednávka bude vytlačená do 3 – 4 pracovných dní od dátumu objednávky</string>
     <string name="photos_photobook_storefront_past_orders">Minulé objednávky</string>
     <string name="photos_photobook_storefront_promo_code">Promo kód</string>
     <string name="photos_photobook_storefront_quantity">Množstvo: %d</string>
@@ -1808,7 +1807,7 @@ Automaticky."</string>
     <string name="photos_photoeditor_adjustments_saturation_deep_blue">Tmavomodrá</string>
     <string name="photos_photoeditor_adjustments_saturation_skin_tone">Tón pleti</string>
     <string name="photos_photoeditor_adjustments_shadows">Tiene</string>
-    <string name="photos_photoeditor_adjustments_temperature">Teplota farby</string>
+    <string name="photos_photoeditor_adjustments_temperature">Farebná teplota</string>
     <string name="photos_photoeditor_adjustments_tint">Tónovanie</string>
     <string name="photos_photoeditor_adjustments_vignette">Vinetácia</string>
     <string name="photos_photoeditor_adjustments_white_point">Biela</string>
@@ -1824,7 +1823,7 @@ Automaticky."</string>
     <string name="photos_photoeditor_commonui_editor_action_save">ULOŽIŤ</string>
     <string name="photos_photoeditor_commonui_editor_action_save_copy">Uložiť kópiu</string>
     <string name="photos_photoeditor_commonui_editor_action_stabilize">Stabilizovať</string>
-    <string name="photos_photoeditor_commonui_editor_action_undo_edits">Vrátiť úpravy späť</string>
+    <string name="photos_photoeditor_commonui_editor_action_undo_edits">Vrátiť úpravy</string>
     <string name="photos_photoeditor_commonui_leave_editing_cancel">ĎALEJ UPRAVOVAŤ</string>
     <string name="photos_photoeditor_commonui_leave_editing_confirm">ZAHODIŤ</string>
     <string name="photos_photoeditor_commonui_leave_editing_message">Zmeny neboli uložené</string>
@@ -1868,7 +1867,7 @@ Automaticky."</string>
     <string name="photos_photoeditor_fragments_a11y_original_image_shown">Zobrazuje sa pôvodná fotka</string>
     <string name="photos_photoeditor_fragments_a11y_select_editor">Kliknutím na toto tlačidlo vyberiete používanie iného editora</string>
     <string name="photos_photoeditor_fragments_a11y_view_filters">Použiť filter na fotku</string>
-    <string name="photos_photoeditor_fragments_comparison_banner">Pôvodná fotka</string>
+    <string name="photos_photoeditor_fragments_comparison_banner">Pôvodné</string>
     <string name="photos_photoeditor_fragments_cpu_not_supported_error">Úprava nie je v tomto zariadení podporovaná</string>
     <string name="photos_photoeditor_fragments_discard_changes_dialog_cancel">Nezahodiť</string>
     <string name="photos_photoeditor_fragments_discard_changes_dialog_continue">Zahodiť</string>
@@ -1883,6 +1882,7 @@ Automaticky."</string>
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">Skontrolujte svoje pripojenie</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">Úprava nebola možná, skontrolujte svoje pripojenie</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">Pri ukladaní fotky došlo k chybe</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">ZRUŠIŤ</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">UPRAVIŤ ORIGINÁL</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">Táto fotka bola upravená v predchádzajúcej verzii Fotiek Google. Upravením pôvodnej fotky zrušíte dané zmeny a vytvoríte nové úpravy.</string>
@@ -1910,7 +1910,7 @@ Automaticky."</string>
     <string name="photos_photoeditor_presets_metro">Metro</string>
     <string name="photos_photoeditor_presets_modena">Modena</string>
     <string name="photos_photoeditor_presets_ollie">Ollie</string>
-    <string name="photos_photoeditor_presets_original">Pôvodná fotka</string>
+    <string name="photos_photoeditor_presets_original">Pôvodné</string>
     <string name="photos_photoeditor_presets_palma">Palma</string>
     <string name="photos_photoeditor_presets_reel">Reel</string>
     <string name="photos_photoeditor_presets_strength_cancel">Zrušiť</string>
@@ -1933,13 +1933,13 @@ Automaticky."</string>
     <string name="photos_photoeditor_ui_aspect_ratio_flip_to_landscape">Prevrátiť na šírku</string>
     <string name="photos_photoeditor_ui_aspect_ratio_flip_to_portrait">Prevrátiť na výšku</string>
     <string name="photos_photoeditor_ui_aspect_ratio_free">Vlastné</string>
-    <string name="photos_photoeditor_ui_aspect_ratio_original">Pôvodná fotka</string>
+    <string name="photos_photoeditor_ui_aspect_ratio_original">Pôvodné</string>
     <string name="photos_photoeditor_ui_aspect_ratio_square">Štvorec</string>
     <string name="photos_photofragment_albumcover_set_album_cover_failed">Titulná fotka albumu sa nedá zmeniť.</string>
     <string name="photos_photofragment_albumcover_set_album_cover_success">Titulná fotka albumu bola zmenená.</string>
     <string name="photos_photofragment_components_edit_cant_edit_message_file_dimensions">Súbory menšie než 50 pixelov nie je možné upravovať</string>
     <string name="photos_photofragment_components_edit_cant_edit_message_file_type">Tento typ súboru nie je možné upravovať</string>
-    <string name="photos_photofragment_components_edit_error_loading">Načítanie zlyhalo. Nie je možné vykonať úpravy.</string>
+    <string name="photos_photofragment_components_edit_error_loading">Načítanie zlyhalo, nie je možné upravovať.</string>
     <string name="photos_photofragment_components_edit_insufficient_device_space_video">Video sa nedá stiahnuť, úložisko zariadenia je plné</string>
     <string name="photos_photofragment_components_edit_loading_media">Načítava sa…</string>
     <string name="photos_photofragment_components_edit_oem_dialog_title">Úprava pomocou:</string>
@@ -2088,7 +2088,7 @@ Automaticky."</string>
     <string name="photos_search_explore_favorites_query">obľúbené</string>
     <string name="photos_search_explore_movie_query">film</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">Skryť tváre</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Skryť a zobraziť</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">skryť používateľa %1$s</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">Tváre boli skryté</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">Späť</string>
@@ -2195,14 +2195,14 @@ Automaticky."</string>
     <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Fotky Google používajú zoskupovanie tvárí. &lt;a href=help:>Ďalšie informácie&lt;/a></string>
     <string name="photos_search_peoplelabeling_avatar_content_description">Ikona avataru pre album s ľuďmi</string>
     <string name="photos_search_peoplelabeling_clear">Vymazať meno</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">VYHĽADÁVAŤ KONTAKTY V ZARIADENÍ</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">Na úpravu názvu potrebujete internetové pripojenie</string>
     <string name="photos_search_peoplelabeling_fail_message">Pri označovaní klastra sa vyskytla chyba</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">Často používané kontakty</string>
     <string name="photos_search_peoplelabeling_header_subtitle">Využite rýchle vyhľadávanie podľa mena</string>
     <string name="photos_search_peoplelabeling_header_title">Pridajte meno</string>
-    <string name="photos_search_peoplelabeling_merge_dialog_message">Budú zlúčené dokopy</string>
-    <string name="photos_search_peoplelabeling_merge_dialog_title">Tá istá tvár?</string>
+    <string name="photos_search_peoplelabeling_merge_dialog_message">Tváre budú zlúčené</string>
+    <string name="photos_search_peoplelabeling_merge_dialog_title">Je to rovnaká tvár?</string>
     <string name="photos_search_peoplelabeling_no">Nie</string>
     <string name="photos_search_peoplelabeling_search">Nové meno</string>
     <string name="photos_search_peoplelabeling_yes">Áno</string>
@@ -2210,7 +2210,7 @@ Automaticky."</string>
     <string name="photos_search_searchbox_hint_text_template">Hľadať „%s“</string>
     <string name="photos_search_searchbox_text">Hľadať vo vašich fotkách</string>
     <string name="photos_search_searchbox_voice_search_button">Tlačidlo hlasového vyhľadávania</string>
-    <string name="photos_search_searchresults_carousel_title">In albums</string>
+    <string name="photos_search_searchresults_carousel_title">V albumoch</string>
     <string name="photos_search_searchresults_empty_page_360_button">Použiť Cardboard Camera</string>
     <string name="photos_search_searchresults_empty_page_360_caption">Tu sa zobrazia 360° fotky a videá, ako sú sférické fotky a fotky VR</string>
     <string name="photos_search_searchresults_empty_page_360_title">Pohrúžte sa do svojich fotiek a videí</string>
@@ -2369,7 +2369,7 @@ Vaša knižnica je zdieľaná. Synchronizované položky môžu byť k dispozí
     <string name="photos_share_link_created_and_copied">Odkaz bol skopírovaný. Zdieľajte ho v aplikácii.</string>
     <string name="photos_share_menu_label">Ponuka zdieľania</string>
     <string name="photos_share_method_actual">Skutočná veľkosť</string>
-    <string name="photos_share_method_back_button">Zdieľať ako</string>
+    <string name="photos_share_method_back_button">Zdieľať</string>
     <string name="photos_share_method_create_link">Vytvoriť odkaz</string>
     <string name="photos_share_method_create_link_caption">Pridávať môžete iba vy</string>
     <string name="photos_share_method_estimated_size_gigabyte">%.1f GB</string>
@@ -2398,7 +2398,7 @@ Vaša knižnica je zdieľaná. Synchronizované položky môžu byť k dispozí
     <string name="photos_share_sendkit_impl_collaboration_toggle_button_state_locked">Tlačidlo prepnutia spolupráce (momentálne môžete pridávať fotky iba vy).</string>
     <string name="photos_share_sendkit_impl_collaboration_toggle_button_state_unlocked">Tlačidlo prepnutia spolupráce (momentálne môžu ostatní pridávať fotky).</string>
     <string name="photos_share_sendkit_impl_collaboration_toggle_description">Prepínanie spolupráce</string>
-    <string name="photos_share_sendkit_impl_collaboration_unlocked_title">Umožniť ostatným pridávať fotky</string>
+    <string name="photos_share_sendkit_impl_collaboration_unlocked_title">Povoliť ostatným pridávať fotky</string>
     <string name="photos_share_sendkit_impl_error_invalid_contact">Zadajte platnú e-mailovú adresu</string>
     <string name="photos_share_sendkit_impl_error_unmatched_contact">Tento účet Google nebolo možné nájsť</string>
     <string name="photos_share_sendkit_impl_hint_text_without_phone">Zadajte meno alebo e-mail</string>
@@ -2410,7 +2410,7 @@ Vaša knižnica je zdieľaná. Synchronizované položky môžu byť k dispozí
     <string name="photos_share_sharedalbums_collaboration_switch_locked_on">Ostatní môžu pridávať fotky</string>
     <string name="photos_share_sharedalbums_create_link">Vytvoriť odkaz</string>
     <string name="photos_share_sharedalbums_new_shared_album">Nový zdieľaný album</string>
-    <string name="photos_share_sharedalbums_new_shared_link">Odkaz na nový zdieľaný album</string>
+    <string name="photos_share_sharedalbums_new_shared_link">Nový zdieľaný odkaz</string>
     <string name="photos_share_sharedalbums_share_as_video">Zdieľať ako video</string>
     <string name="photos_share_sharedalbums_shared_album">Zdieľaný album</string>
     <string name="photos_share_uploadhandlers_progress_title">Získava sa odkaz</string>
@@ -2421,7 +2421,7 @@ Vaša knižnica je zdieľaná. Synchronizované položky môžu byť k dispozí
     <string name="photos_sharedlinks_adapteritems_status_waiting">Čaká sa na pripojenie</string>
     <string name="photos_sharedlinks_delete_button">Odstrániť zdieľanie</string>
     <string name="photos_sharedlinks_error_explanation">Tieto fotky nebolo možné zdieľať. Skúste to znova.</string>
-    <string name="photos_sharedlinks_pending_explanation">Tieto fotky budú zdieľané, keď budete online.</string>
+    <string name="photos_sharedlinks_pending_explanation">Tieto fotky budú zdieľané, až budete online.</string>
     <string name="photos_sharedlinks_sending_explanation">Tieto fotky sa odosielajú. Pri pomalom pripojení to môže chvíľu trvať.</string>
     <string name="photos_sharedlinks_subtitle_recipient_name_separator">,</string>
     <string name="photos_sharedlinks_subtitle_recipient_you">Vy</string>
@@ -2457,11 +2457,10 @@ Vaša knižnica je zdieľaná. Synchronizované položky môžu byť k dispozí
     <string name="photos_sharingtab_impl_viewbinders_status_error">Pri odosielaní došlo k problému</string>
     <string name="photos_sharingtab_impl_viewbinders_status_waiting">Čaká sa na pripojenie</string>
     <string name="photos_sharingtab_picker_impl_add_button">Pridať</string>
-    <string name="photos_sharingtab_picker_impl_add_recipients">Pridať príjemcov</string>
+    <string name="photos_sharingtab_picker_impl_add_recipients">Pridajte príjemcov</string>
     <string name="photos_sharingtab_picker_impl_add_to_album">Pridať do albumu</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">Pridať do existujúceho albumu</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">Pridať?</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">Vytvorenie zdieľaného albumu</string>
     <string name="photos_sharingtab_picker_impl_error_adding">Pri pridávaní sa vyskytla chyba.</string>
     <string name="photos_sharingtab_picker_impl_label">Skontrolovať návrhy</string>
     <string name="photos_sharingtab_picker_impl_message_hint_text">Pridajte správu</string>
@@ -2743,7 +2742,7 @@ Aj naďalej ich uvidíte v albumoch, výsledkoch vyhľadávania a v archíve.
     <string name="search_empty_state_title">Žiadne výsledky</string>
     <string name="select_accessibility_action">Vybrať akciu</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">O navrhovaných ľuďoch</string>
     <string name="sendkit_ui_add_message_title">Pridanie správy</string>
     <string name="sendkit_ui_autocomplete_add_recipient">Pridať príjemcu</string>
     <string name="sendkit_ui_autocomplete_already_selected">Kontakt je už vybratý</string>
@@ -2752,7 +2751,7 @@ Aj naďalej ich uvidíte v albumoch, výsledkoch vyhľadávania a v archíve.
     <string name="sendkit_ui_autocomplete_hint_text_no_email">Type a name or phone number</string>
     <string name="sendkit_ui_autocomplete_hint_text_no_phone_number">Zadajte meno alebo e-mail</string>
     <string name="sendkit_ui_autocomplete_hint_text_no_phone_number_no_email">Type a name</string>
-    <string name="sendkit_ui_autocomplete_invalid_input">Zadajte platné telefónne číslo alebo e-mailovú adresu</string>
+    <string name="sendkit_ui_autocomplete_invalid_input">Zadajte platné telefónne číslo alebo e‑mailovú adresu</string>
     <string name="sendkit_ui_autocomplete_invalid_input_no_email">Please insert a valid phone number</string>
     <string name="sendkit_ui_autocomplete_invalid_input_no_phone_number">Zadajte platnú e-mailovú adresu</string>
     <string name="sendkit_ui_autocomplete_recipient_list">Príjemcovia: %s</string>
@@ -2795,7 +2794,6 @@ Aj naďalej ich uvidíte v albumoch, výsledkoch vyhľadávania a v archíve.
     <string name="sendkit_ui_sharing_as">Zdieľate ako %s</string>
     <string name="sendkit_ui_show_more">Ďalšie</string>
     <string name="sendkit_ui_show_more_content_description">Ďalšie kontakty</string>
-    <string name="sendkit_ui_show_phone_contacts">Zobraziť kontakty v telefóne</string>
     <string name="sendkit_ui_sms_charges">Účtujú sa štandardné poplatky za SMS</string>
     <string name="sendkit_ui_starred">S hviezdičkou</string>
     <string name="sendkit_ui_top_suggestions">Najlepšie návrhy</string>
@@ -2804,7 +2802,7 @@ Aj naďalej ich uvidíte v albumoch, výsledkoch vyhľadávania a v archíve.
     <string name="settings_progress_message_updating">Načítava sa…</string>
     <string name="share_progress_download_progress">Sťahuje sa… ešte %d súb.</string>
     <string name="share_progress_download_title">Fotky sa sťahujú</string>
-    <string name="share_starting">%s, zdieľa sa…</string>
+    <string name="share_starting">Zdieľa sa s aplikáciou %s…</string>
     <string name="single_notification_title">Máte upozornenie</string>
     <string name="skip_button">Vynechať</string>
     <string name="skip_trash_negative_text">Zrušiť</string>
@@ -2814,7 +2812,7 @@ Aj naďalej ich uvidíte v albumoch, výsledkoch vyhľadávania a v archíve.
     <string name="social_storageformatter_integer_storage_amount">%1$d %2$s</string>
     <string name="social_storageformatter_mb">MB</string>
     <string name="social_storageformatter_tb">TB</string>
-    <string name="status_bar_getting_your_photos_title">Fotky sa sťahujú…</string>
+    <string name="status_bar_getting_your_photos_title">Získavajú sa fotky…</string>
     <string name="switch_text_off">Vypnuté</string>
     <string name="switch_text_on">Zapnuté</string>
     <string name="switch_viewer_action">Prepnúť</string>

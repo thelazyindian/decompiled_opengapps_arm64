@@ -608,12 +608,12 @@
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">购买存储空间</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">您需要额外存储空间才可按原始画质备份照片和视频</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">存储空间不足</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">要继续以原始画质备份照片和视频，请购买更多存储空间</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">已使用 %d%%</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">帐号存储空间</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">照片和视频会以较低画质保存（免费无限存储空间）。&lt;a href=\"help:\">了解详情&lt;/a></string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">以较低分辨率备份</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">购买存储空间</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">要继续以原始画质备份照片和视频，请购买更多存储空间</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">降低现有内容的画质，恢复 %d GB 的存储空间。</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">继续</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">其他选项</string>
@@ -639,7 +639,6 @@
     <string name="photos_comments_popupmenu_delete_comment">删除评论</string>
     <string name="photos_comments_popupmenu_report_abuse">举报滥用行为</string>
     <string name="photos_comments_popupmenu_text_copied">文本已复制</string>
-    <string name="photos_comments_ui_comment_list_header">活动</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">将照片添加到共享相册</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">评论功能现已停用</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">说点什么</string>
@@ -686,7 +685,7 @@
     <string name="photos_create_mediabundle_create_new_photo_book">照片书</string>
     <string name="photos_create_mediabundle_validation_error_avtype_other">选择无效。</string>
     <string name="photos_create_mediabundle_validation_error_avtype_static_images_only">请选择 %1$d 至 %2$d 张照片。</string>
-    <string name="photos_create_mediabundle_validation_error_bounds">请选择 %1$d 到 %2$d 项内容。</string>
+    <string name="photos_create_mediabundle_validation_error_bounds">请选择 %1$d 到 %2$d 张。</string>
     <string name="photos_create_mediabundle_validation_error_unsupported_movie_asset_types">影片只能包含照片和视频。</string>
     <string name="photos_create_movie_bottom_sheet_item_manual">选择照片和视频</string>
     <string name="photos_create_movie_concept_confirmation_subtitle">影片制作可能需要一段时间。完成后，您会收到相应通知。</string>
@@ -707,7 +706,7 @@
     <string name="photos_create_uploadhandlers_new_movie_failure">制作影片时出现问题，请重试。</string>
     <string name="photos_create_uploadhandlers_upload_failed">上传内容时出现问题。</string>
     <string name="photos_create_viewbinder_heading_albums">相册</string>
-    <string name="photos_create_viewbinder_heading_shared">已分享</string>
+    <string name="photos_create_viewbinder_heading_shared">共享相册</string>
     <string name="photos_create_viewbinder_shared_badge">已分享</string>
     <string name="photos_create_viewbinder_subtitle_divider">•</string>
     <string name="photos_create_viewbinder_title_add_to">添加到</string>
@@ -758,7 +757,7 @@
     <string name="photos_devicesetup_auto_backup_options_get_help">&lt;a href=help:>详细了解&lt;/a>备份选项</string>
     <string name="photos_devicesetup_auto_backup_second_title">照片和视频的上传大小</string>
     <string name="photos_devicesetup_auto_backup_storage_policy_get_help">&lt;a href=help:>详细了解&lt;/a>上传大小和存储选项</string>
-    <string name="photos_devicesetup_back_up_your_photos_description">备份到 photos.google.com，确保私密性，这样您就可以通过所有设备查看照片了。您可以随时在“设置”中更改此设置。</string>
+    <string name="photos_devicesetup_back_up_your_photos_description">备份到 photos.google.com 私人存储空间，这样您就可以通过所有设备查看照片了。您可以随时在“设置”中更改此设置。</string>
     <string name="photos_devicesetup_backup_and_sync_label">备份与同步设置</string>
     <string name="photos_devicesetup_backup_is_free">备份功能可让您以高画质免费保存无限量的照片</string>
     <string name="photos_devicesetup_backup_off_subtitle">备份照片和视频可确保它们安全无虞并可随时随地访问</string>
@@ -919,7 +918,7 @@
     <string name="photos_envelope_settings_getlink_link_not_found">找不到链接</string>
     <string name="photos_envelope_settings_getlink_link_to_share">分享链接</string>
     <string name="photos_envelope_settings_hidename_show_email">隐藏姓名，改为显示电子邮件地址</string>
-    <string name="photos_envelope_settings_hidename_show_number">隐藏用户名并改为显示号码</string>
+    <string name="photos_envelope_settings_hidename_show_number">隐藏用户名，改为显示电话号码</string>
     <string name="photos_envelope_settings_load_error">加载选项时出错</string>
     <string name="photos_envelope_settings_people_add_recipient_item_title">邀请他人</string>
     <string name="photos_envelope_settings_people_block_person">屏蔽此人</string>
@@ -950,7 +949,7 @@
     <string name="photos_envelope_settings_share_unshare_album_failed">无法停止分享。</string>
     <string name="photos_envelope_settings_title">选项</string>
     <string name="photos_envelope_sharetext_continue">继续</string>
-    <string name="photos_envelope_sharetext_continue_as">继续以%s的身份操作</string>
+    <string name="photos_envelope_sharetext_continue_as">继续使用%s帐号</string>
     <string name="photos_envelope_sharetext_default_share_message">%s与您分享了照片。</string>
     <string name="photos_envelope_signedoutpromo_message">有新照片和新评论时发送通知</string>
     <string name="photos_envelope_signedoutpromo_not_now_button">以后再说</string>
@@ -1345,7 +1344,7 @@
 清理自己的照片库。"</string>
     <string name="photos_pager_autoawesome_image_colorization_tooltip">使用黑白照片制作而成</string>
     <string name="photos_pager_autoawesome_image_gif_from_video_tooltip">使用视频制作而成</string>
-    <string name="photos_pager_autoawesome_image_movie_tooltip">将照片和视频混合</string>
+    <string name="photos_pager_autoawesome_image_movie_tooltip">由照片和视频混合在一起制作而成</string>
     <string name="photos_pager_autoawesome_photo_image_colorization">效果</string>
     <string name="photos_pager_autoawesome_photo_image_movie">影片</string>
     <string name="photos_pager_autobackup_error">无法备份。内容过大或类型未知。</string>
@@ -1567,7 +1566,7 @@
     <string name="photos_peoplemachine_ui_share">分享</string>
     <string name="photos_peoplemachine_ui_share_all">全部分享</string>
     <string name="photos_peoplemachine_ui_share_collage">分享拼贴</string>
-    <string name="photos_peoplepicker_activity_title">选择人员</string>
+    <string name="photos_peoplepicker_activity_title">选择联系人</string>
     <string name="photos_peoplepicker_loading_error">加载人物集群时出错</string>
     <string name="photos_peoplepicker_select_tagged_person_content_description">选择%s</string>
     <string name="photos_peoplepicker_select_untagged_person_content_description">选择这个未标记的人</string>
@@ -1673,6 +1672,7 @@
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">插入照片布局</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">“照片在标题上方”布局</string>
     <string name="photos_photobook_preview_edit_cover_error">您需要连接互联网才能修改封面</string>
+    <string name="photos_photobook_preview_edit_cover_title">修改封面照片</string>
     <string name="photos_photobook_preview_edit_layout_error">您需要连接互联网才能编辑照片书</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">全出血布局</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">插入照片布局</string>
@@ -1705,7 +1705,6 @@
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">关闭</string>
     <string name="photos_photobook_promotion_allphotos_header_1">免运费</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">照片书促销优惠将持续到网购星期一</string>
-    <string name="photos_photobook_promotion_free_shipping">免运费</string>
     <string name="photos_photobook_promotion_general_book_cover_title">回忆</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">修改所选内容</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">预览照片书</string>
@@ -1748,7 +1747,7 @@
     <string name="photos_photobook_storefront_order_details">订单详情</string>
     <string name="photos_photobook_storefront_order_info">订单信息</string>
     <string name="photos_photobook_storefront_order_number">订单编号</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">您的订单会在下单后 2 - 3 个工作日内印刷</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">您订购的照片书会在下单后 3 - 4 个工作日内印刷</string>
     <string name="photos_photobook_storefront_past_orders">过往订单</string>
     <string name="photos_photobook_storefront_promo_code">促销代码</string>
     <string name="photos_photobook_storefront_quantity">数量：%d</string>
@@ -1895,6 +1894,7 @@
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">请检查您的网络连接</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">无法修改，请检查您的网络连接</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">保存照片时出错。</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">取消</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">修改原图</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">此照片曾用旧版 Google 照片更改过。修改原始照片，可撤消这些更改并重新进行修改。</string>
@@ -2100,7 +2100,7 @@
     <string name="photos_search_explore_favorites_query">收藏夹</string>
     <string name="photos_search_explore_movie_query">影片</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">隐藏面孔</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">隐藏和显示</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">隐藏%1$s</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">已隐藏面孔</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">撤消</string>
@@ -2207,7 +2207,7 @@
     <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Google 照片采用面孔特征分组技术。&lt;a href=help:>了解详情&lt;/a></string>
     <string name="photos_search_peoplelabeling_avatar_content_description">人物相册的头像图标</string>
     <string name="photos_search_peoplelabeling_clear">清除名称</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">搜索设备上的联系人</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">您需要连接互联网才能修改名称</string>
     <string name="photos_search_peoplelabeling_fail_message">为集群添加标签时出错</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">常用联系人</string>
@@ -2222,7 +2222,7 @@
     <string name="photos_search_searchbox_hint_text_template">搜索“%s”</string>
     <string name="photos_search_searchbox_text">搜索您的照片</string>
     <string name="photos_search_searchbox_voice_search_button">语音搜索按钮</string>
-    <string name="photos_search_searchresults_carousel_title">In albums</string>
+    <string name="photos_search_searchresults_carousel_title">在相册中</string>
     <string name="photos_search_searchresults_empty_page_360_button">使用 Cardboard 相机</string>
     <string name="photos_search_searchresults_empty_page_360_caption">360 度全景照片和视频（如 Photo Sphere 照片和 VR 照片）会显示在此处</string>
     <string name="photos_search_searchresults_empty_page_360_title">获取身临其境的照片和视频欣赏体验</string>
@@ -2271,7 +2271,7 @@
     <string name="photos_selection_cabmode_menue_copy_to_folder">复制到文件夹</string>
     <string name="photos_selection_cabmode_menue_move_to_folder">移至文件夹</string>
     <string name="photos_selection_cabmode_photo_picker_one_up_done_button_label">创建</string>
-    <string name="photos_selection_cabmode_picker_title_multiple_default">选择多项内容</string>
+    <string name="photos_selection_cabmode_picker_title_multiple_default">选择多个照片/视频</string>
     <string name="photos_selection_cabmode_picker_title_single_default">选择一项内容</string>
     <string name="photos_selection_cabmode_post_share_button_text">分享</string>
     <string name="photos_selection_cabmode_text_done">完成并保存</string>
@@ -2378,7 +2378,7 @@
     <string name="photos_share_handler_view">查看</string>
     <string name="photos_share_handler_wait_for_server">正在保存最近的更改</string>
     <string name="photos_share_link_created">链接已创建。</string>
-    <string name="photos_share_link_created_and_copied">已复制链接。在应用中分享该链接。</string>
+    <string name="photos_share_link_created_and_copied">链接已复制，您可以通过某应用与他人分享。</string>
     <string name="photos_share_menu_label">“分享”菜单</string>
     <string name="photos_share_method_actual">实际尺寸</string>
     <string name="photos_share_method_back_button">分享方式</string>
@@ -2464,7 +2464,7 @@
     <string name="photos_sharingtab_impl_viewbinders_new_album_one_photo">%s与您分享了 1 张照片</string>
     <string name="photos_sharingtab_impl_viewbinders_new_album_report_abuse">举报滥用行为</string>
     <string name="photos_sharingtab_impl_viewbinders_section_create_shared_album">要创建共享相册吗？</string>
-    <string name="photos_sharingtab_impl_viewbinders_section_shared">已分享</string>
+    <string name="photos_sharingtab_impl_viewbinders_section_shared">共享相册</string>
     <string name="photos_sharingtab_impl_viewbinders_section_shared_icon_desc">创建新的共享相册</string>
     <string name="photos_sharingtab_impl_viewbinders_status_error">无法发送</string>
     <string name="photos_sharingtab_impl_viewbinders_status_waiting">正在等待网络连接</string>
@@ -2473,13 +2473,12 @@
     <string name="photos_sharingtab_picker_impl_add_to_album">添加到相册</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">添加到现有相册</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">要添加吗？</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">创建共享相册</string>
     <string name="photos_sharingtab_picker_impl_error_adding">添加到相册时出错。</string>
     <string name="photos_sharingtab_picker_impl_label">查看建议</string>
     <string name="photos_sharingtab_picker_impl_message_hint_text">添加消息</string>
     <string name="photos_sharingtab_picker_impl_overflow_desc">打开菜单</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">选择现有相册</string>
-    <string name="photos_sharingtab_picker_impl_overflow_select_people">选择人员</string>
+    <string name="photos_sharingtab_picker_impl_overflow_select_people">选择联系人</string>
     <string name="photos_sharingtab_picker_impl_select_more_button">选择更多照片</string>
     <string name="photos_sharingtab_picker_impl_select_recipient_text">这是谁？</string>
     <string name="photos_sharingtab_picker_impl_selected_label">已选</string>
@@ -2488,7 +2487,7 @@
     <string name="photos_sharingtab_picker_impl_sender_email">以 %1$s 身份分享</string>
     <string name="photos_sharingtab_picker_impl_tap_to_add_recipients">点按即可添加为收件人</string>
     <string name="photos_sharingtab_picker_impl_title_hint_text">添加标题</string>
-    <string name="photos_sharingtab_picker_impl_to_field_label">至</string>
+    <string name="photos_sharingtab_picker_impl_to_field_label">分享范围</string>
     <string name="photos_strings_app_name">照片</string>
     <string name="photos_strings_back_button">返回</string>
     <string name="photos_strings_dismiss_button">关闭</string>
@@ -2610,7 +2609,7 @@
     <string name="photos_trash_ui_title">回收站</string>
     <string name="photos_trash_ui_trash_info">回收站中的内容会在 60 天后永久删除。</string>
     <string name="photos_trash_ui_trash_info_new">回收站中的内容将在 60 天后被移除。&lt;a href=\"help:\">了解详情&lt;/a></string>
-    <string name="photos_unicorn_sharing_disabled">已通过 Google 照片关闭照片分享功能。</string>
+    <string name="photos_unicorn_sharing_disabled">Google 照片中的照片分享功能已停用。</string>
     <string name="photos_unicorn_sharing_disabled_title">无法分享照片</string>
     <string name="photos_update_expired">此版本已停止使用。要继续使用 Google 照片，请立即更新。</string>
     <string name="photos_update_treatment_default_message">更新您的 Google 照片应用获取最新功能</string>
@@ -2755,7 +2754,7 @@
     <string name="search_empty_state_title">无结果</string>
     <string name="select_accessibility_action">选择 1 项操作</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">关于推荐的对象</string>
     <string name="sendkit_ui_add_message_title">输入消息</string>
     <string name="sendkit_ui_autocomplete_add_recipient">添加接收者</string>
     <string name="sendkit_ui_autocomplete_already_selected">已经选择</string>
@@ -2807,7 +2806,6 @@
     <string name="sendkit_ui_sharing_as">以%s的身份分享</string>
     <string name="sendkit_ui_show_more">更多</string>
     <string name="sendkit_ui_show_more_content_description">更多联系人</string>
-    <string name="sendkit_ui_show_phone_contacts">显示手机联系人</string>
     <string name="sendkit_ui_sms_charges">需支付标准短信费用</string>
     <string name="sendkit_ui_starred">已加星标</string>
     <string name="sendkit_ui_top_suggestions">首推人选</string>
@@ -2816,7 +2814,7 @@
     <string name="settings_progress_message_updating">正在加载…</string>
     <string name="share_progress_download_progress">正在下载…还剩 %d 个文件</string>
     <string name="share_progress_download_title">正在获取照片</string>
-    <string name="share_starting">正在分享到 %s…</string>
+    <string name="share_starting">正在分享到%s…</string>
     <string name="single_notification_title">你有 1 条通知</string>
     <string name="skip_button">跳过</string>
     <string name="skip_trash_negative_text">取消</string>
@@ -2826,7 +2824,7 @@
     <string name="social_storageformatter_integer_storage_amount">%1$d%2$s</string>
     <string name="social_storageformatter_mb">MB</string>
     <string name="social_storageformatter_tb">TB</string>
-    <string name="status_bar_getting_your_photos_title">正在同步下载云端照片…</string>
+    <string name="status_bar_getting_your_photos_title">正在获取您的照片…</string>
     <string name="switch_text_off">关闭</string>
     <string name="switch_text_on">开启</string>
     <string name="switch_viewer_action">切换</string>

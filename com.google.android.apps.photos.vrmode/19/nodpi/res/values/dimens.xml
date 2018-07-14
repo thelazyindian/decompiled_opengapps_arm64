@@ -307,6 +307,8 @@
     <dimen name="mtrl_navigation_elevation">0.0dip</dimen>
     <dimen name="mtrl_navigation_item_horizontal_padding">22.0dip</dimen>
     <dimen name="mtrl_navigation_item_icon_padding">14.0dip</dimen>
+    <dimen name="mtrl_snackbar_background_corner_radius">4.0dip</dimen>
+    <dimen name="mtrl_snackbar_margin">8.0dip</dimen>
     <dimen name="mtrl_textinput_box_bottom_offset">3.0dip</dimen>
     <dimen name="mtrl_textinput_box_label_cutout_padding">4.0dip</dimen>
     <dimen name="mtrl_textinput_box_stroke_width_default">1.0dip</dimen>
@@ -347,14 +349,13 @@
     <dimen name="photos_album_enrichment_ui_add_place_enrichments_text_size">16.0sp</dimen>
     <dimen name="photos_album_enrichment_ui_add_place_enrichments_vertical_padding_large">16.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_add_place_enrichments_vertical_padding_medium">12.0dip</dimen>
-    <dimen name="photos_album_enrichment_ui_enrichment_outline_radius">2.0dip</dimen>
+    <item type="dimen" name="photos_album_enrichment_ui_enrichment_outline_radius">@dimen/photos_theme_rounded_corner_radius</item>
     <dimen name="photos_album_enrichment_ui_enrichment_outline_width">1.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_enrichment_stroke_width">8.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_location_editing_fragment_end_padding">16.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_location_editing_fragment_search_height">56.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_location_editing_fragment_start_padding">16.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_location_enrichment_horizontal_margin">16.0dip</dimen>
-    <dimen name="photos_album_enrichment_ui_location_enrichment_text_size">14.0sp</dimen>
     <dimen name="photos_album_enrichment_ui_location_enrichment_vertical_margin">16.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_map_editing_edit_text_end_padding">8.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_map_editing_edit_text_parent_height">56.0dip</dimen>
@@ -371,7 +372,6 @@
     <dimen name="photos_album_enrichment_ui_map_enrichment_text_padding">8.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_map_primary_text_size">20.0sp</dimen>
     <dimen name="photos_album_enrichment_ui_map_secondary_text_size">14.0sp</dimen>
-    <dimen name="photos_album_enrichment_ui_narrative_enrichment_text_size">16.0sp</dimen>
     <dimen name="photos_album_enrichment_ui_text_enrichment_dragged_size">120.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_text_enrichment_horizontal_margin">20.0dip</dimen>
     <dimen name="photos_album_enrichment_ui_text_enrichment_horizontal_padding">16.0dip</dimen>
@@ -389,8 +389,11 @@
     <dimen name="photos_album_titlecard_facepile_join_button_extra_padding_horizontal">5.0dip</dimen>
     <dimen name="photos_album_titlecard_facepile_join_button_min_width">64.0dip</dimen>
     <dimen name="photos_album_titlecard_facepile_margin_vertical">16.0dip</dimen>
+    <dimen name="photos_album_titlecard_facepile_top_padding_owner_and_title">4.0dip</dimen>
+    <dimen name="photos_album_titlecard_facepile_top_padding_owner_only">4.0dip</dimen>
     <dimen name="photos_album_titlecard_title_tile_bottom_padding">28.0dip</dimen>
     <dimen name="photos_album_titlecard_title_tile_start_padding">72.0dip</dimen>
+    <dimen name="photos_album_titlecard_title_tile_top_padding">30.0dip</dimen>
     <dimen name="photos_album_ui_photo_stroke_width">4.0dip</dimen>
     <dimen name="photos_albums_empty_footer_min_height">140.0dip</dimen>
     <dimen name="photos_albums_grid_section_height">0.0dip</dimen>
@@ -408,8 +411,10 @@
     <dimen name="photos_albums_view_text_container_height">80.0dip</dimen>
     <dimen name="photos_allphotos_fragment_hats_margin">16.0dip</dimen>
     <dimen name="photos_allphotos_fragment_hats_max_width">448.0dip</dimen>
+    <dimen name="photos_allphotos_fragment_month_month_bottom_padding">10.0dip</dimen>
     <dimen name="photos_allphotos_fragment_month_month_start_padding">22.0dip</dimen>
     <dimen name="photos_allphotos_fragment_month_photo_view_size">35.0dip</dimen>
+    <dimen name="photos_allphotos_fragment_month_title_font_size">16.0sp</dimen>
     <dimen name="photos_allphotos_fragment_month_title_size">70.0dip</dimen>
     <dimen name="photos_allphotos_fragment_month_vertical_zoom_offset">30.0dip</dimen>
     <dimen name="photos_allphotos_fragment_month_year_header_height">41.0dip</dimen>
@@ -538,7 +543,6 @@
     <dimen name="photos_cloudstorage_ui_backupoptions_divider_line_width">1.0dip</dimen>
     <dimen name="photos_cloudstorage_ui_backupoptions_page_horizontal_padding">16.0dip</dimen>
     <dimen name="photos_cloudstorage_ui_backupoptions_progressbar_vertical_padding">8.0dip</dimen>
-    <dimen name="photos_comments_ui_comment_list_header_height">48.0dip</dimen>
     <dimen name="photos_comments_ui_comment_list_top_offset">112.0dip</dimen>
     <dimen name="photos_comments_ui_commentbar_comment_bar_height">56.0dip</dimen>
     <dimen name="photos_comments_ui_commentbar_comment_bar_shadow_height">8.0dip</dimen>
@@ -565,6 +569,7 @@
     <dimen name="photos_devicesetup_resources_account_picker_padding_left">16.0dip</dimen>
     <dimen name="photos_devicesetup_resources_account_picker_padding_right">16.0dip</dimen>
     <dimen name="photos_devicesetup_resources_minimum_tap_target_area">48.0dip</dimen>
+    <dimen name="photos_devicesetup_resources_subtitle_extra_margin">0.0dip</dimen>
     <dimen name="photos_devicesetup_settings_radio_width">56.0dip</dimen>
     <dimen name="photos_drawermenu_drawer_item_sign_in_button_height">64.0dip</dimen>
     <dimen name="photos_drawermenu_logo_lockup_container_margin_top">24.0dip</dimen>
@@ -623,10 +628,10 @@
     <dimen name="photos_facegaia_optin_impl_detailed_description_translation_y">62.0dip</dimen>
     <dimen name="photos_facegaia_optin_impl_none_of_these_button_translation_y">20.0dip</dimen>
     <dimen name="photos_facegaia_optin_impl_opt_in_sheet_margin">24.0dip</dimen>
-    <dimen name="photos_floatingsearchbar_cardui_additional_side_padding">2.3499756dip</dimen>
+    <dimen name="photos_floatingsearchbar_cardui_additional_side_padding">2.4699707dip</dimen>
     <dimen name="photos_floatingsearchbar_cardui_corner_radius">2.0dip</dimen>
     <dimen name="photos_floatingsearchbar_cardui_default_elevation">2.0dip</dimen>
-    <dimen name="photos_floatingsearchbar_cardui_max_elevation">4.6999817dip</dimen>
+    <dimen name="photos_floatingsearchbar_cardui_max_elevation">4.939972dip</dimen>
     <dimen name="photos_floatingsearchbar_clip_line_height">1.0dip</dimen>
     <dimen name="photos_floatingsearchbar_height">48.0dip</dimen>
     <dimen name="photos_floatingsearchbar_margin">8.0dip</dimen>
@@ -717,6 +722,7 @@
     <dimen name="photos_movies_activity_action_bar_shadow_elevation">2.0dip</dimen>
     <dimen name="photos_movies_activity_play_pause_button_size">48.0dip</dimen>
     <dimen name="photos_movies_activity_scrubber_pane_elevation">4.0dip</dimen>
+    <dimen name="photos_movies_ui_clipeditor_impl_beat_snap_threshold">50.0dip</dimen>
     <dimen name="photos_movies_ui_clipeditor_impl_clip_drag_elevation">6.0dip</dimen>
     <dimen name="photos_movies_ui_clipeditor_impl_clip_drag_speed_dp_per_second">8.0dip</dimen>
     <dimen name="photos_movies_ui_clipeditor_impl_imagebutton_padding">12.0dip</dimen>
@@ -792,7 +798,6 @@
     <dimen name="photos_photobook_buyflow_gift_message_floating_hint_padding">16.0dip</dimen>
     <dimen name="photos_photobook_confirmation_card_internal_padding">24.0dip</dimen>
     <dimen name="photos_photobook_confirmation_order_thumbnail_border_radius">2.0dip</dimen>
-    <dimen name="photos_photobook_crop_rounded_corner_radius">2.0dip</dimen>
     <dimen name="photos_photobook_preview_cover_preview_primary_view_margin_horizontal">24.0dip</dimen>
     <dimen name="photos_photobook_preview_cover_style_toggle_title_font_size">2.0sp</dimen>
     <dimen name="photos_photobook_preview_layout_switching_button_margin">10.0dip</dimen>
@@ -800,6 +805,7 @@
     <dimen name="photos_photobook_preview_layout_switching_cardview_size">46.0dip</dimen>
     <dimen name="photos_photobook_preview_layout_switching_primary_view_margin_horizontal">24.0dip</dimen>
     <dimen name="photos_photobook_preview_layout_switching_primary_view_margin_vertical">36.0dip</dimen>
+    <dimen name="photos_photobook_preview_page_layout_toggle_container_padding">0.0dip</dimen>
     <dimen name="photos_photobook_preview_page_number_font_size">12.0sp</dimen>
     <dimen name="photos_photobook_product_error_text_max_width">280.0dip</dimen>
     <dimen name="photos_photobook_product_item_top_margin">5.0dip</dimen>
@@ -813,9 +819,28 @@
     <dimen name="photos_photobook_promotion_user_asset_shadow_size">2.0dip</dimen>
     <dimen name="photos_photobook_slideshow_circle_page_indicator_default_height">36.0dip</dimen>
     <dimen name="photos_photobook_slideshow_circle_page_indicator_default_radius">4.0dip</dimen>
+    <item type="dimen" name="photos_photobook_storefront_carousel_slide_show_image_weight">0.55</item>
+    <item type="dimen" name="photos_photobook_storefront_carousel_slide_show_text_weight">0.45</item>
     <dimen name="photos_photobook_storefront_item_border_radius">2.0dip</dimen>
+    <dimen name="photos_photobook_storefront_item_border_width">0.0dip</dimen>
     <dimen name="photos_photobook_storefront_item_info_section_height">88.0dip</dimen>
     <dimen name="photos_photobook_storefront_item_info_section_padding_bottom">20.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_button_bar_paddingLeft">12.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_button_bar_paddingRight">12.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_card_marginBottom">7.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_card_marginTop">8.0dip</dimen>
+    <item type="dimen" name="photos_photobook_storefront_order_details_content_lineSpacingMultiplier">1.3</item>
+    <dimen name="photos_photobook_storefront_order_details_cover_image_radius">96.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_fragment_paddingTop">16.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_image_card_cornerRadius">0.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_layout_paddingBottom">24.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_layout_paddingLeft">24.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_layout_paddingRight">24.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_layout_paddingTop">24.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_notice_marginTop">8.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_text_layout_paddingStart">24.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_text_layout_paddingTop">6.0dip</dimen>
+    <dimen name="photos_photobook_storefront_order_details_title_paddingBottom">16.0dip</dimen>
     <dimen name="photos_photobook_storefront_slide_show_image_padding_bottom_general">0.0dip</dimen>
     <dimen name="photos_photobook_storefront_slide_show_image_padding_bottom_page_4">20.0dip</dimen>
     <dimen name="photos_photobook_storefront_slide_show_image_padding_top_general">16.0dip</dimen>
@@ -826,9 +851,12 @@
     <dimen name="photos_photobook_storefront_slide_show_subtitle_margin_top">6.0dip</dimen>
     <dimen name="photos_photobook_storefront_wizard_item_size">72.0dip</dimen>
     <dimen name="photos_photobook_storefront_wizard_maximal_spacing">36.0dip</dimen>
+    <dimen name="photos_photobook_theme_page_border_width">0.0dip</dimen>
+    <dimen name="photos_photobook_theme_preview_one_up_page_corner_radius">2.0dip</dimen>
+    <dimen name="photos_photobook_theme_preview_page_corner_radius">2.0dip</dimen>
+    <dimen name="photos_photobook_theme_preview_page_layout_botton_corner_radius">2.0dip</dimen>
     <dimen name="photos_photobook_title_editable_title_min_width">24.0dip</dimen>
     <dimen name="photos_photobook_viewbinder_book_content_page_warning_inset">8.0dip</dimen>
-    <dimen name="photos_photobook_viewbinder_book_page_shadow_radius">2.0dip</dimen>
     <dimen name="photos_photobook_viewbinder_book_page_shadow_size">2.0dip</dimen>
     <dimen name="photos_photobook_viewbinder_book_product_hardcover_font_size">13.0sp</dimen>
     <dimen name="photos_photobook_viewbinder_book_product_softcover_font_size">10.0sp</dimen>
@@ -971,8 +999,8 @@
     <dimen name="photos_search_autocomplete_zeroprefix_people_more_button_size">56.0dip</dimen>
     <dimen name="photos_search_autocomplete_zeroprefix_people_section_avatar_size">40.0dip</dimen>
     <dimen name="photos_search_autocomplete_zeroprefix_people_section_avatar_spacing">16.0dip</dimen>
-    <dimen name="photos_search_cardui_margin_side">5.049988dip</dimen>
-    <dimen name="photos_search_cardui_margin_top">4.049988dip</dimen>
+    <dimen name="photos_search_cardui_margin_side">5.2299805dip</dimen>
+    <dimen name="photos_search_cardui_margin_top">4.0dip</dimen>
     <dimen name="photos_search_carousel_container_bottom_margin">0.0dip</dimen>
     <dimen name="photos_search_carousel_container_height">138.0dip</dimen>
     <dimen name="photos_search_carousel_container_top_margin">0.0dip</dimen>
@@ -1003,7 +1031,8 @@
     <dimen name="photos_search_localclusters_ui_sync_status_height">48.0dip</dimen>
     <dimen name="photos_search_localclusters_ui_sync_status_photo_horizontal_spacing">2.0dip</dimen>
     <dimen name="photos_search_peoplelabeling_header_avatar_progress_bar_size">28.0dip</dimen>
-    <dimen name="photos_search_peoplelabeling_header_avatar_size">64.0dip</dimen>
+    <dimen name="photos_search_peoplelabeling_header_avatar_size">48.0dip</dimen>
+    <dimen name="photos_search_peoplelabeling_header_title_padding_bottom">0.0dip</dimen>
     <dimen name="photos_search_searchbox_height">48.0dip</dimen>
     <dimen name="photos_searchretention_full_notification_large_icon_size">64.0dip</dimen>
     <dimen name="photos_settings_preference_padding_bottom">12.0dip</dimen>
@@ -1149,6 +1178,7 @@
     <dimen name="sendkit_ui_action_bar_send_padding_vertical">16.0dip</dimen>
     <dimen name="sendkit_ui_alphabet_header_padding">15.0dip</dimen>
     <dimen name="sendkit_ui_alphabet_header_text_size">28.0sp</dimen>
+    <dimen name="sendkit_ui_alphabet_header_text_size_google_material">16.0sp</dimen>
     <dimen name="sendkit_ui_alphabet_header_textview_width">42.0dip</dimen>
     <dimen name="sendkit_ui_alphabet_header_vertical_margin">8.0dip</dimen>
     <dimen name="sendkit_ui_autocomplete_avatar_size">40.0dip</dimen>
@@ -1242,11 +1272,13 @@
     <dimen name="sendkit_ui_nav_bar_height">24.0dip</dimen>
     <dimen name="sendkit_ui_no_contacts_avatar_size">48.0dip</dimen>
     <dimen name="sendkit_ui_phone_contacts_text_size">12.0sp</dimen>
+    <dimen name="sendkit_ui_phone_contacts_text_size_google_material">14.0sp</dimen>
     <dimen name="sendkit_ui_row_divider_height">1.0dip</dimen>
     <dimen name="sendkit_ui_send_button_margin">12.0dip</dimen>
     <dimen name="sendkit_ui_send_button_progress_margin">8.0dip</dimen>
     <dimen name="sendkit_ui_send_button_progress_size">24.0dip</dimen>
     <dimen name="sendkit_ui_send_button_text_size">16.0sp</dimen>
+    <dimen name="sendkit_ui_send_button_text_size_google_material">14.0sp</dimen>
     <dimen name="sendkit_ui_shareable_apps_grid_row_height">100.0dip</dimen>
     <dimen name="sendkit_ui_shareable_apps_item_padding">8.0dip</dimen>
     <dimen name="sendkit_ui_subtitle_text_size">12.0sp</dimen>
@@ -1381,11 +1413,9 @@
     <item type="dimen" name="APKTOOL_DUMMY_183">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_187">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_18a">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_194">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_195">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_196">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_197">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_19a">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_19b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_199">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_19c">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_19d">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_19e">false</item>
@@ -1401,103 +1431,110 @@
     <item type="dimen" name="APKTOOL_DUMMY_1a8">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1a9">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1aa">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_1c1">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_1c2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_1ab">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_1ac">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1c3">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1c4">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1c5">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1c6">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1c7">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_1c8">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_258">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_259">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_262">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_263">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_1c9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_1ca">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_25d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_25e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_267">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_268">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_299">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_29a">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_29d">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_2a8">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_2cc">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_2ec">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_2ff">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_322">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_323">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_362">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_363">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_364">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_365">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_366">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_3a5">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_43d">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_43e">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_46c">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_46d">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_46e">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_46f">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_470">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_471">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_476">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_4b3">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_4ea">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_4f1">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_507">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_50b">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_50f">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_510">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_511">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_512">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_26d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_29e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_29f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_2a2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_2a3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_2ad">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_2d2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_2f2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_2fb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_306">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_329">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_32a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_34a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_36b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_36c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_36d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_36e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_36f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_3ae">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_3dc">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_45d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_45e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_48c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_48d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_48e">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_48f">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_490">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_491">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_496">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_4d3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_4d5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_50c">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_513">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_514">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_515">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_516">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_517">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_518">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_519">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_51a">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_51b">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_51f">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_520">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_528">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_529">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_52d">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_531">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_532">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_533">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_534">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_535">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_536">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_537">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_538">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_539">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_53a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_53b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_53c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_53d">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_541">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_542">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_543">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_550">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_554">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_555">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_560">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_54a">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_564">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_565">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_566">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_573">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_577">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_578">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_579">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_57b">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_582">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_586">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_583">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_588">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_595">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_599">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_59a">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5a0">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_59b">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_59c">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_59e">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5a5">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5a6">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5a7">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5a8">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5a9">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5b0">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5b1">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5c1">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5c6">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5c9">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5ab">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5b8">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5bd">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5be">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5c5">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5ca">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5cb">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5cc">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5cd">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5ce">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5d0">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5d1">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5d5">false</item>
     <item type="dimen" name="APKTOOL_DUMMY_5d6">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5da">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5db">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5dc">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5dd">false</item>
-    <item type="dimen" name="APKTOOL_DUMMY_5de">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5e6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5eb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5ee">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5ef">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5f1">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5f2">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5f3">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5f5">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5f6">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5fa">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5fb">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_5ff">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_600">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_601">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_602">false</item>
+    <item type="dimen" name="APKTOOL_DUMMY_603">false</item>
 </resources>

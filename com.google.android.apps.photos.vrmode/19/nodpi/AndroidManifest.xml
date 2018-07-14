@@ -108,12 +108,6 @@
             </intent-filter>
         </service>
         <service android:exported="false" android:name="com.google.android.apps.photos.backup.core.AutobackupJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <activity android:exported="false" android:name="com.google.android.apps.photos.backup.exported.AutoBackupSettingsExportedActivity" android:resizeableActivity="true" android:theme="@style/Theme.Photos.Backup.Settings.Preferences">
-            <intent-filter>
-                <action android:name="com.google.android.apps.photos.backup.exported.PHOTOS_BACKUP_SETTINGS"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-        </activity>
         <receiver android:enabled="true" android:exported="true" android:name="com.google.android.apps.photos.backup.freestorage.full.PixelOfferReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
@@ -176,7 +170,7 @@
                 <data android:host="photos.google.com" android:pathPattern="/movies/create" android:scheme="https"/>
             </intent-filter>
         </activity-alias>
-        <activity android:exported="false" android:name="com.google.android.apps.photos.create.movie.CreateNewMovieThemePickerActivity" android:resizeableActivity="true"/>
+        <activity android:exported="false" android:name="com.google.android.apps.photos.create.movie.CreateNewMovieThemePickerActivity" android:resizeableActivity="true" android:theme="@style/photos_concept_movie_theme_picker_theme"/>
         <service android:exported="false" android:name="com.google.android.apps.photos.dataplan.common.UpdateMobileDataPlanJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.daydream.DreamSettingsActivity"/>
         <service android:exported="true" android:icon="@mipmap/photos_launcher" android:label="@string/photos_theme_google_photos" android:name="com.google.android.apps.photos.daydream.PhotosDreamService" android:permission="android.permission.BIND_DREAM_SERVICE">
@@ -248,6 +242,11 @@
                 <data android:host="photos.google.com" android:pathPattern="/share/.*" android:scheme="https"/>
                 <data android:host="photos.google.com" android:pathPattern="/u/.*/share/.*" android:scheme="http"/>
                 <data android:host="photos.google.com" android:pathPattern="/u/.*/share/.*" android:scheme="https"/>
+            </intent-filter>
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:host="goo.gl" android:pathPattern="/photos/.*" android:scheme="http"/>
                 <data android:host="goo.gl" android:pathPattern="/photos/.*" android:scheme="https"/>
             </intent-filter>
@@ -454,11 +453,11 @@
         <activity android:exported="false" android:label="@string/photos_peoplepicker_activity_title" android:name="com.google.android.apps.photos.peoplepicker.CreationPeoplePickerActivity" android:resizeableActivity="true" android:theme="@style/Theme.Photos.PeoplePicker"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.permissions.required.NoPermissionsActivity" android:theme="@style/Theme.Photos.Fullscreen"/>
         <activity android:exported="false" android:name="com.google.android.apps.photos.permissions.required.RequiredRuntimePermissionsCheckerActivity" android:theme="@style/Theme.Photos.Transparent"/>
-        <activity android:exported="false" android:name="com.google.android.apps.photos.photobook.confirmation.OrderConfirmationActivity" android:theme="@style/Theme.PhotoBook"/>
-        <activity android:exported="false" android:label="@string/photos_photobook_impl_activity_label" android:name="com.google.android.apps.photos.photobook.impl.PrintPhotoBookActivity" android:resizeableActivity="true" android:theme="@style/Theme.PhotoBook" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
+        <activity android:exported="false" android:name="com.google.android.apps.photos.photobook.confirmation.OrderConfirmationActivity" android:theme="@style/photos_photobook_theme"/>
+        <activity android:exported="false" android:label="@string/photos_photobook_impl_activity_label" android:name="com.google.android.apps.photos.photobook.impl.PrintPhotoBookActivity" android:resizeableActivity="true" android:theme="@style/photos_photobook_theme" android:windowSoftInputMode="stateAlwaysHidden|adjustResize"/>
         <receiver android:exported="false" android:name="com.google.android.apps.photos.photobook.notification.DismissNotificationBroadcastReceiver"/>
         <activity android:exported="false" android:label="@string/photos_picker_impl_label_media_picker" android:name="com.google.android.apps.photos.photobook.picker.impl.PhotoBookPickerActivity" android:theme="@style/Theme.Photos.NoTitle"/>
-        <activity android:description="@string/photos_photobook_storefront_title" android:exported="true" android:label="@string/photos_photobook_storefront_title" android:launchMode="singleTop" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookStoreFrontActivity" android:parentActivityName="com.google.android.apps.photos.home.HomeActivity" android:theme="@style/Theme.Photos.PhotoBook.StoreFront"/>
+        <activity android:description="@string/photos_photobook_storefront_title" android:exported="true" android:label="@string/photos_photobook_storefront_title" android:launchMode="singleTop" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookStoreFrontActivity" android:parentActivityName="com.google.android.apps.photos.home.HomeActivity" android:theme="@style/photos_photobook_storefront_theme"/>
         <activity-alias android:enabled="false" android:exported="true" android:label="@string/photos_photobook_storefront_title" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookStoreFrontActivityAlias" android:parentActivityName="com.google.android.apps.photos.home.HomeActivity" android:targetActivity="com.google.android.apps.photos.photobook.storefront.PhotoBookStoreFrontActivity">
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW"/>
@@ -470,9 +469,9 @@
                 <data android:host="photos.google.com" android:pathPattern="/u/.*/photobooks" android:scheme="https"/>
             </intent-filter>
         </activity-alias>
-        <activity android:exported="false" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookEmptyStoreFrontActivity" android:theme="@style/Theme.Photos.PhotoBook.EmptyStoreFront"/>
-        <activity android:description="@string/photos_photobook_storefront_order_details" android:exported="false" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookOrderDetailsActivity" android:theme="@style/Theme.Photos.PhotoBook.StoreFront"/>
-        <activity android:exported="false" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookStoreFrontViewAllActivity" android:theme="@style/Theme.PhotoBook.ViewAll"/>
+        <activity android:exported="false" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookEmptyStoreFrontActivity" android:theme="@style/photos_photobook_storefront_empty_state_theme"/>
+        <activity android:description="@string/photos_photobook_storefront_order_details" android:exported="false" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookOrderDetailsActivity" android:theme="@style/photos_photobook_storefront_theme"/>
+        <activity android:exported="false" android:name="com.google.android.apps.photos.photobook.storefront.PhotoBookStoreFrontViewAllActivity" android:theme="@style/photos_photobook_storefront_view_all_theme"/>
         <provider android:authorities="com.google.android.apps.photos.photoeditor.cachedfileprovider" android:exported="false" android:grantUriPermissions="true" android:name="com.google.android.apps.photos.photoeditor.cachedfileprovider.impl.CachedFileProvider" android:syncable="false"/>
         <activity android:configChanges="orientation|screenLayout|screenSize|smallestScreenSize" android:exported="false" android:label="@string/photos_photoeditor_commonui_name" android:name="com.google.android.apps.photos.photoeditor.fragments.ConsumerPhotoEditorActivity" android:theme="@style/Theme.Photos.PhotoEditor">
             <intent-filter>
@@ -511,6 +510,11 @@
         <service android:exported="false" android:name="com.google.android.apps.photos.registration.ReachabilityJobService" android:permission="android.permission.BIND_JOB_SERVICE"/>
         <activity android:excludeFromRecents="true" android:exported="false" android:name="com.google.android.apps.photos.restore.notification.RestoreNotificationConfirmationDialog" android:noHistory="true" android:theme="@style/Theme.Photos.Translucent.NoTitleBar.NoActionBar"/>
         <service android:exported="false" android:name="com.google.android.apps.photos.restore.service.RestoreServiceInternal"/>
+        <receiver android:exported="true" android:name="com.google.android.apps.photos.restore.service.RestoreRestartReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
         <activity android:exported="false" android:launchMode="singleTop" android:name="com.google.android.apps.photos.retentiveactions.DesktopUploaderActionActivity" android:parentActivityName="com.google.android.apps.photos.home.HomeActivity" android:screenOrientation="portrait"/>
         <activity android:exported="false" android:launchMode="singleTop" android:name="com.google.android.apps.photos.retentiveactions.RetentiveActionNotificationRedirectActivity" android:parentActivityName="com.google.android.apps.photos.home.HomeActivity"/>
         <receiver android:exported="false" android:name="com.google.android.apps.photos.retentiveactions.RetentiveActionsNotificationController$RetentiveActionsNotificationAlarmReceiver"/>

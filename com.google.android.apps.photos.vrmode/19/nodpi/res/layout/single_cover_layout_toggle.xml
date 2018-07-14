@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout android:layout_gravity="center_vertical" android:id="@id/cover_style_toggle" android:background="@drawable/photo_style_toggle_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/photos_photobook_preview_layout_switching_button_margin"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <android.support.design.card.MaterialCardView android:layout_gravity="center" android:layout_width="@dimen/photos_photobook_preview_layout_switching_cardview_size" android:layout_height="@dimen/photos_photobook_preview_layout_switching_cardview_size" android:layout_margin="@dimen/photos_photobook_preview_layout_switching_cardview_margin" app:cardCornerRadius="2.0dip" app:cardElevation="2.0dip" app:cardUseCompatPadding="true">
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.design.card.MaterialCardView android:layout_gravity="center" android:layout_width="@dimen/photos_photobook_preview_layout_switching_cardview_size" android:layout_height="@dimen/photos_photobook_preview_layout_switching_cardview_size" android:layout_margin="@dimen/photos_photobook_preview_layout_switching_cardview_margin" style="@style/photos_photobook_theme_preview_page_layout_button_card_view">
         <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/photobook_cover_layout" />
     </android.support.design.card.MaterialCardView>
 </FrameLayout>

@@ -534,7 +534,7 @@
     <string name="photos_backup_settings_help_preference">バックアップと同期のヘルプ</string>
     <string name="photos_backup_settings_roaming_switch">ローミング</string>
     <string name="photos_backup_settings_upload_size_category">アップロード サイズ</string>
-    <string name="photos_backup_settings_upload_size_high_quality_subtitle">品質を保ちながらファイルサイズを削減します</string>
+    <string name="photos_backup_settings_upload_size_high_quality_subtitle">画質をきれいに保ちながらファイルサイズを削減します</string>
     <string name="photos_backup_settings_upload_size_high_quality_title">高画質（無料、容量無制限）</string>
     <string name="photos_backup_settings_upload_size_original_fallback">元のサイズ（アカウントの空き容量を消費）</string>
     <string name="photos_backup_settings_upload_size_original_limited">元のサイズ（残り %s）</string>
@@ -608,12 +608,12 @@
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">保存容量を購入</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">写真や動画を元の品質でバックアップするには、保存容量を追加する必要があります</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">保存容量が不足しています</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">元の画質で写真と動画の バックアップを継続するには、追加の保存容量をご購入ください</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">%d%% 使用中</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">アカウントの保存容量</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">写真と動画は 元の画質より低い解像度で保存されます（無料、容量無制限）。&lt;a href=\"help:\">詳細&lt;/a></string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">低解像度でバックアップ</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">保存容量を購入</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">元の画質で写真と動画の バックアップを継続するには、追加の保存容量をご購入ください</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">既存のファイルの品質を下げることで、空き容量を %d GB 増やせます。</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">続行</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">その他のオプション</string>
@@ -639,7 +639,6 @@
     <string name="photos_comments_popupmenu_delete_comment">コメントを削除</string>
     <string name="photos_comments_popupmenu_report_abuse">不正行為を報告</string>
     <string name="photos_comments_popupmenu_text_copied">テキストをコピーしました</string>
-    <string name="photos_comments_ui_comment_list_header">更新情報</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">写真を共有アルバムに追加</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">コメント機能は現在 OFF です</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">コメントを入力してください</string>
@@ -755,7 +754,7 @@
     <string name="photos_devicemanagement_loading">既にバックアップされているファイルを検索しています</string>
     <string name="photos_devicemanagement_post_deletion_toast">端末の空き容量が %1$s 増えました</string>
     <string name="photos_devicesetup_add_account">アカウントを追加</string>
-    <string name="photos_devicesetup_auto_backup_options_get_help">バックアップの設定の&lt;a href=help:>詳細&lt;/a>をご覧ください</string>
+    <string name="photos_devicesetup_auto_backup_options_get_help">バックアップについての&lt;a href=help:>詳細&lt;/a>をご覧ください</string>
     <string name="photos_devicesetup_auto_backup_second_title">写真と動画のアップロード サイズ</string>
     <string name="photos_devicesetup_auto_backup_storage_policy_get_help">アップロード サイズとストレージの設定の&lt;a href=help:>詳細&lt;/a>をご覧ください</string>
     <string name="photos_devicesetup_back_up_your_photos_description">photos.google.com に写真を非公開でバックアップして、あらゆる端末で表示できるようにします。この設定は [設定] でいつでも変更できます。</string>
@@ -776,7 +775,7 @@
     <string name="photos_devicesetup_done_label">確認</string>
     <string name="photos_devicesetup_google_one_description">写真と動画は、Google One メンバーシップの保存容量を使用して元の解像度でバックアップするように設定されています</string>
     <string name="photos_devicesetup_high_quality_storage_label">アップロード サイズ: 高画質（無料、容量無制限）</string>
-    <string name="photos_devicesetup_high_quality_storage_subtitle">品質を保ちながらファイルサイズを削減します</string>
+    <string name="photos_devicesetup_high_quality_storage_subtitle">画質をきれいに保ちながらファイルサイズを削減します</string>
     <string name="photos_devicesetup_high_quality_storage_title">高画質（無料、容量無制限）</string>
     <string name="photos_devicesetup_keep_backup_off">バックアップを OFF のままにしますか？</string>
     <string name="photos_devicesetup_keep_off">OFF のままにする</string>
@@ -806,11 +805,11 @@
     <string name="photos_devicesetup_redeem_successful_dialog_title">無料で保存可能になりました</string>
     <string name="photos_devicesetup_resources_auto_backup">バックアップと同期</string>
     <string name="photos_devicesetup_resources_auto_backup_description">%1$s のバックアップと同期</string>
-    <string name="photos_devicesetup_resources_auto_backup_help_content_description">バックアップのオプションの詳細</string>
+    <string name="photos_devicesetup_resources_auto_backup_help_content_description">バックアップについての詳細</string>
     <string name="photos_devicesetup_resources_auto_backup_settings">バックアップと同期の設定</string>
     <string name="photos_devicesetup_resources_auto_backup_title_info">これは [設定] でいつでも変更できます</string>
     <string name="photos_devicesetup_resources_auto_backup_title_info_auto_backup_settings">この設定はいつでも変更できます</string>
-    <string name="photos_devicesetup_resources_auto_backup_title_info_learn_more">バックアップのオプションの&lt;a href=\"help:\">詳細&lt;/a>をご覧ください。この設定は [設定] でいつでも変更できます。</string>
+    <string name="photos_devicesetup_resources_auto_backup_title_info_learn_more">バックアップについての&lt;a href=\"help:\">詳細&lt;/a>をご覧ください。この設定は [設定] でいつでも変更できます。</string>
     <string name="photos_devicesetup_resources_auto_backup_welcome_title">Google フォトへようこそ</string>
     <string name="photos_devicesetup_sign_in">ログイン</string>
     <string name="photos_devicesetup_sign_in_to_back_up">ログインしてバックアップ</string>
@@ -1673,6 +1672,7 @@
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">写真をはめ込むレイアウト</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">タイトルの上に写真を配置するレイアウト</string>
     <string name="photos_photobook_preview_edit_cover_error">表紙を編集するにはインターネット接続が必要です</string>
+    <string name="photos_photobook_preview_edit_cover_title">カバーを編集</string>
     <string name="photos_photobook_preview_edit_layout_error">フォトブックを編集するにはインターネット接続が必要です</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">フルブリードのレイアウト</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">写真をはめ込むレイアウト</string>
@@ -1705,7 +1705,6 @@
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">閉じる</string>
     <string name="photos_photobook_promotion_allphotos_header_1">送料無料</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">サイバー マンデーまでフォトブックがお得</string>
-    <string name="photos_photobook_promotion_free_shipping">送料無料</string>
     <string name="photos_photobook_promotion_general_book_cover_title">思い出</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">選択内容を編集</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">フォトブックのプレビューを表示</string>
@@ -1748,7 +1747,7 @@
     <string name="photos_photobook_storefront_order_details">ご注文内容</string>
     <string name="photos_photobook_storefront_order_info">ご注文情報</string>
     <string name="photos_photobook_storefront_order_number">注文番号</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">ご注文のフォトブックは注文日から 2～3 営業日以内に印刷されます</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">ご注文のフォトブックは注文日から 3～4 営業日以内に印刷されます</string>
     <string name="photos_photobook_storefront_past_orders">ご注文履歴</string>
     <string name="photos_photobook_storefront_promo_code">プロモーション コード</string>
     <string name="photos_photobook_storefront_quantity">数量: %d 冊</string>
@@ -1895,6 +1894,7 @@
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">接続をご確認ください</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">編集できません。接続をご確認ください</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">写真の保存中にエラーが発生しました。</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">キャンセル</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">元の写真を編集</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">この写真は以前のバージョンの Google フォトで変更されました。元の写真を編集すると、その変更が取り消されて新しい編集が適用されます。</string>
@@ -2025,7 +2025,7 @@
     <string name="photos_restore_notification_title_low_battery">写真や動画を復元するには、端末を電源に接続する必要があります</string>
     <string name="photos_restore_notification_title_on_metered_connection">写真や動画を復元するために Wi-Fi を待機しています</string>
     <string name="photos_restore_notification_title_waiting_for_data">写真や動画を復元するために接続を待機しています</string>
-    <string name="photos_restore_notification_view_photos_videos">Google フォトですべての写真や動画を表示</string>
+    <string name="photos_restore_notification_view_photos_videos">Google フォトですべての写真や動画を表示できます</string>
     <string name="photos_retentiveactions_desktop_uploader_action_button_text">古い写真を追加</string>
     <string name="photos_retentiveactions_desktop_uploader_activity_title">パソコン上の古い写真の追加</string>
     <string name="photos_retentiveactions_desktop_uploader_email_sent_button_text">メール送信完了</string>
@@ -2100,7 +2100,7 @@
     <string name="photos_search_explore_favorites_query">お気に入り</string>
     <string name="photos_search_explore_movie_query">ムービー</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">顔を非表示</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">表示と非表示を切り替え</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">%1$s さんを非表示</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">顔を非表示にしました</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">元に戻す</string>
@@ -2204,10 +2204,10 @@
     <string name="photos_search_peoplegroupingonboarding_existing_recapture_on_button">ON にする</string>
     <string name="photos_search_peoplegroupingonboarding_existing_recapture_title_v2">人物の顔で写真を整理しないようにしますか？</string>
     <string name="photos_search_peoplegroupingonboarding_existing_title">人物のグループで写真を見つけられます</string>
-    <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Google フォトにはフェイス グルーピング機能が搭載されています &lt;a href=help:>詳細&lt;/a></string>
+    <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Google フォトにはフェイス グルーピング機能が搭載されています。&lt;a href=help:>詳細&lt;/a></string>
     <string name="photos_search_peoplelabeling_avatar_content_description">人物アルバムのアバターアイコン</string>
     <string name="photos_search_peoplelabeling_clear">名前をクリア</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">端末内の連絡先を検索</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">名前の編集にはインターネット接続が必要です</string>
     <string name="photos_search_peoplelabeling_fail_message">ラベルの一括追加中にエラーが発生しました</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">よく使う連絡先</string>
@@ -2222,7 +2222,7 @@
     <string name="photos_search_searchbox_hint_text_template">「%s」を検索</string>
     <string name="photos_search_searchbox_text">写真を検索</string>
     <string name="photos_search_searchbox_voice_search_button">音声検索ボタン</string>
-    <string name="photos_search_searchresults_carousel_title">In albums</string>
+    <string name="photos_search_searchresults_carousel_title">アルバム内</string>
     <string name="photos_search_searchresults_empty_page_360_button">Cardboard カメラ アプリを使う</string>
     <string name="photos_search_searchresults_empty_page_360_caption">パノラマ写真や VR 写真などの 360° 写真や動画がここに表示されます</string>
     <string name="photos_search_searchresults_empty_page_360_title">写真や動画に臨場感を</string>
@@ -2473,7 +2473,6 @@
     <string name="photos_sharingtab_picker_impl_add_to_album">アルバムに追加</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">既存のアルバムに追加</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">追加しますか？</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">共有アルバムの作成</string>
     <string name="photos_sharingtab_picker_impl_error_adding">追加できませんでした。</string>
     <string name="photos_sharingtab_picker_impl_label">候補の確認</string>
     <string name="photos_sharingtab_picker_impl_message_hint_text">メッセージを追加</string>
@@ -2755,7 +2754,7 @@
     <string name="search_empty_state_title">一致する結果はありません</string>
     <string name="select_accessibility_action">操作を選択</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">候補のユーザーについて</string>
     <string name="sendkit_ui_add_message_title">メッセージの追加</string>
     <string name="sendkit_ui_autocomplete_add_recipient">受信者を追加</string>
     <string name="sendkit_ui_autocomplete_already_selected">すでに選択しています</string>
@@ -2807,7 +2806,6 @@
     <string name="sendkit_ui_sharing_as">%s として共有しています</string>
     <string name="sendkit_ui_show_more">もっと見る</string>
     <string name="sendkit_ui_show_more_content_description">その他の連絡先</string>
-    <string name="sendkit_ui_show_phone_contacts">端末本体の連絡先を表示する</string>
     <string name="sendkit_ui_sms_charges">通常の SMS 料金がかかります</string>
     <string name="sendkit_ui_starred">スター付き</string>
     <string name="sendkit_ui_top_suggestions">上位の候補</string>

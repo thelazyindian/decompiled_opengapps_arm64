@@ -391,7 +391,7 @@
     <string name="photos_assistant_cardui_tips_header">Съвети</string>
     <string name="photos_assistant_create_header">Създаване</string>
     <string name="photos_assistant_locationreporting_checking_settings">Настройките на профила ви се проверяват…</string>
-    <string name="photos_assistant_overview_card_description">Намирайте нови филми, колажи и други неща, създадено за вас от снимките и видеоклиповете ви</string>
+    <string name="photos_assistant_overview_card_description">Намирайте нови филми, колажи и други неща, създадени за вас от снимките и видеоклиповете ви</string>
     <string name="photos_assistant_overview_card_title">Имате Асистент!</string>
     <string name="photos_assistant_overview_dismiss_button">Разбрах</string>
     <string name="photos_assistant_ratetheapp_card_description">Мнението ви има значение</string>
@@ -596,12 +596,12 @@
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">Покупка на хранилище</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">За да се създават на снимките и видеоклиповете ви резервни копия с оригинално качество, ви е нужно допълнително хранилище</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">Хранилището свърши</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">За да продължите да създавате на снимките и видеоклиповете си резервни копия с оригинално качество, купете още хранилище.</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">Използвано: %d%%</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">Хранилище на профила</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">Снимките и видеоклиповете се запазват с намалено визуално качество (безплатно неограничено хранилище). &lt;a href=\"help:\">Научете повече&lt;/a></string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">Създаване на резервни копия с по-ниска разделителна способност</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">Покупка на хранилище</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">За да продължите да създавате на снимките и видеоклиповете си резервни копия с оригинално качество, купете още хранилище</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">Освободете %d ГБ хранилище, като намалите качеството на съществуващите елементи.</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">Напред</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">Други опции</string>
@@ -627,7 +627,6 @@
     <string name="photos_comments_popupmenu_delete_comment">Изтриване на коментара</string>
     <string name="photos_comments_popupmenu_report_abuse">Сигнал за злоупотреба</string>
     <string name="photos_comments_popupmenu_text_copied">Текстът бе копиран</string>
-    <string name="photos_comments_ui_comment_list_header">Активност</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">Добавяне на снимки в споделения албум</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Коментарите са изключени</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Кажете нещо</string>
@@ -911,7 +910,7 @@
     <string name="photos_envelope_settings_load_error">Грешка при зареждането на опциите</string>
     <string name="photos_envelope_settings_people_add_recipient_item_title">Поканване на хора</string>
     <string name="photos_envelope_settings_people_block_person">Блокиране на човек</string>
-    <string name="photos_envelope_settings_people_block_person_confirmation_message">Те няма да могат да се свързват с вас от Google Снимки и вие няма да виждате снимките и коментарите им там. Блокирането ще се приложи и за определени продукти на Google, като Google+ и Hangouts. &lt;a href=help:>Научете повече&lt;/a></string>
+    <string name="photos_envelope_settings_people_block_person_confirmation_message">Този потребител няма да може да се свързва с вас от Google Снимки и вие няма да виждате снимките и коментарите му там. Блокирането ще се приложи и за определени продукти на Google, като Google+ и Hangouts. &lt;a href=help:>Научете повече&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Блокиране</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_title">Да се блокира ли %1$s?</string>
     <string name="photos_envelope_settings_people_header_item_title">Членове</string>
@@ -1661,6 +1660,7 @@
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">Оформление със снимка с полета</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">Оформление със снимка над заглавието</string>
     <string name="photos_photobook_preview_edit_cover_error">За редактиране на корицата е необходима връзка с интернет</string>
+    <string name="photos_photobook_preview_edit_cover_title">Редактиране на корицата</string>
     <string name="photos_photobook_preview_edit_layout_error">За редактиране на фотоалбум е необходима връзка с интернет</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">Оформление с изображение от край до край</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">Оформление със снимка с полета</string>
@@ -1688,12 +1688,11 @@
     <string name="photos_photobook_product_actionbar_title">Изберете типа на книгата</string>
     <string name="photos_photobook_product_description_and_page_count">%1$s, %2$s</string>
     <string name="photos_photobook_product_price_per_page">%s за допълнителна страница</string>
-    <string name="photos_photobook_product_select_button_text">изберете</string>
+    <string name="photos_photobook_product_select_button_text">Избор</string>
     <string name="photos_photobook_promotion_allphotos_button_1">Първи стъпки</string>
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">Отхвърляне</string>
     <string name="photos_photobook_promotion_allphotos_header_1">Безплатна доставка</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">във фотоалбуми до Киберпонеделник</string>
-    <string name="photos_photobook_promotion_free_shipping">Безплатна доставка</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Спомени</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Редактиране на избраното</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Визуализация на фотоалбума</string>
@@ -1736,7 +1735,7 @@
     <string name="photos_photobook_storefront_order_details">Подробности за поръчката</string>
     <string name="photos_photobook_storefront_order_info">Информация за поръчката</string>
     <string name="photos_photobook_storefront_order_number">Номер на поръчката</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">Поръчката ви ще бъде отпечатана в рамките на 2 до 3 работни дни след датата на поръчката ви</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">Поръчката ви ще бъде отпечатана в рамките на 3 до 4 работни дни</string>
     <string name="photos_photobook_storefront_past_orders">Минали поръчки</string>
     <string name="photos_photobook_storefront_promo_code">Промоционален код</string>
     <string name="photos_photobook_storefront_quantity">Количество: %d</string>
@@ -1883,6 +1882,7 @@
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">Проверете връзката си</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">Редактирането не е възможно. Проверете връзката си</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">Грешка при запазването на снимката.</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">ОТКАЗ</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">РЕДАКТ. НА ОРИГИНАЛА</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">Тази снимка е променена с по-ранна версия на Google Снимки. Редактирайте оригинала, за да отмените тези промени и да извършите нови редакции.</string>
@@ -2088,7 +2088,7 @@
     <string name="photos_search_explore_favorites_query">любими</string>
     <string name="photos_search_explore_movie_query">филм</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">Скриване на лицата</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Скриване и показване</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">скриване на %1$s</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">Лицата са скрити</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">Отмяна</string>
@@ -2195,7 +2195,7 @@
     <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Google Снимки използва групиране на лица &lt;a href=help:>Научете повече&lt;/a></string>
     <string name="photos_search_peoplelabeling_avatar_content_description">Икона на аватар за албума „Хора“</string>
     <string name="photos_search_peoplelabeling_clear">Изчистване на името</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">ТЪРСЕНЕ В КОНТАКТИТЕ НА УСТРОЙСТВОТО</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">За редактиране на името е необходима връзка с интернет</string>
     <string name="photos_search_peoplelabeling_fail_message">Грешка при обозначаването на групата с етикет</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">Често използвани контакти</string>
@@ -2210,7 +2210,7 @@
     <string name="photos_search_searchbox_hint_text_template">Търсете „%s“</string>
     <string name="photos_search_searchbox_text">Търсене в снимките ви</string>
     <string name="photos_search_searchbox_voice_search_button">Бутон за гласово търсене</string>
-    <string name="photos_search_searchresults_carousel_title">In albums</string>
+    <string name="photos_search_searchresults_carousel_title">В албумите</string>
     <string name="photos_search_searchresults_empty_page_360_button">Използване на Cardboard Camera</string>
     <string name="photos_search_searchresults_empty_page_360_caption">Тук ще се покажат 360-градусовите снимки и видеоклипове, като например 360-градусови панорами и изображения от VR</string>
     <string name="photos_search_searchresults_empty_page_360_title">Потопете се в снимките и видеоклиповете си</string>
@@ -2461,7 +2461,6 @@
     <string name="photos_sharingtab_picker_impl_add_to_album">Добавяне в албума</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">Добавяне в съществуващ албум</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">Да се добави ли?</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">Създаване на споделен албум</string>
     <string name="photos_sharingtab_picker_impl_error_adding">Грешка при добавянето.</string>
     <string name="photos_sharingtab_picker_impl_label">Преглед на предложенията</string>
     <string name="photos_sharingtab_picker_impl_message_hint_text">Добавете съобщение</string>
@@ -2743,7 +2742,7 @@
     <string name="search_empty_state_title">Няма резултати</string>
     <string name="select_accessibility_action">Избиране на действие</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">Всичко за предложените хора</string>
     <string name="sendkit_ui_add_message_title">Добавяне на съобщение</string>
     <string name="sendkit_ui_autocomplete_add_recipient">Добавяне на получател</string>
     <string name="sendkit_ui_autocomplete_already_selected">Вече е избрано</string>
@@ -2795,7 +2794,6 @@
     <string name="sendkit_ui_sharing_as">Споделяне като %s</string>
     <string name="sendkit_ui_show_more">Повече</string>
     <string name="sendkit_ui_show_more_content_description">Още контакти</string>
-    <string name="sendkit_ui_show_phone_contacts">Показване на контактите в телефона</string>
     <string name="sendkit_ui_sms_charges">Важат стандартните цени за SMS</string>
     <string name="sendkit_ui_starred">Със звезда</string>
     <string name="sendkit_ui_top_suggestions">Най-популярни предложения</string>
@@ -2814,7 +2812,7 @@
     <string name="social_storageformatter_integer_storage_amount">%1$d %2$s</string>
     <string name="social_storageformatter_mb">МБ</string>
     <string name="social_storageformatter_tb">ТБ</string>
-    <string name="status_bar_getting_your_photos_title">Снимките се получават…</string>
+    <string name="status_bar_getting_your_photos_title">Снимките ви се получават…</string>
     <string name="switch_text_off">Изкл.</string>
     <string name="switch_text_on">Вкл.</string>
     <string name="switch_viewer_action">Смяна</string>

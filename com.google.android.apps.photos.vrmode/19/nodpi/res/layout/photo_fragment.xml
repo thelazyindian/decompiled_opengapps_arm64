@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/collapse_info_panel_fab_viewstub" android:layout="@layout/photos_mediadetails_collapse_fab" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     <ViewStub android:id="@id/photo_background_fragment_container_viewstub" android:layout="@layout/photo_background" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/photos_photofragment_processing_viewstub" android:layout="@layout/photos_photofragment_processing_pill" android:inflatedId="@id/photos_photofragment_processing_inflated_viewstub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
     <ViewStub android:layout_gravity="center" android:id="@id/photos_photofragment_loading_indicator_viewstub" android:layout="@layout/photos_photofragment_loading_indicator" android:inflatedId="@id/photos_photofragment_loading_indicator_inflated_viewstub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />

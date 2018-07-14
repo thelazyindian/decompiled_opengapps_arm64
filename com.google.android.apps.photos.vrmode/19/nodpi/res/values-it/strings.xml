@@ -77,7 +77,7 @@
     <string name="delete_interstitial_negative_text">Annulla</string>
     <string name="delete_interstitial_positive_text">Sposta nel cestino</string>
     <string name="delete_learn_more">&lt;a href=help:>Dettagli&lt;/a></string>
-    <string name="device_folders_card_description">Esegue il backup di cartelle come Download e Screenshot per visualizzare, effettuare ricerche e organizzare i contenuti nella raccolta di Foto.</string>
+    <string name="device_folders_card_description">Esegui il backup di cartelle come Download e Screenshot per visualizzare, effettuare ricerche e organizzare i contenuti nella raccolta di Foto.</string>
     <string name="device_folders_card_primary_button">Cartelle dispositivo</string>
     <string name="device_folders_card_title">Backup delle cartelle del dispositivo</string>
     <string name="device_folders_title">Cartelle dispositivo</string>
@@ -468,7 +468,7 @@ Le foto e i video rimangono nella raccolta."</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_confirm_button_text">Effettua il backup</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_message">Saranno usati %s della rete dati</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_confirm_button_text">OK</string>
-    <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_message">Verrà caricato una volta riconnesso</string>
+    <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_message">Il caricamento verrà effettuato quando la connessione sarà attiva</string>
     <string name="photos_backup_notifications_mixin_stalled_notification_dialog_offline_title">In attesa di connessione</string>
     <string name="photos_backup_notifications_mixin_uploader_dialog_continue_over_cellular_button_text">OK</string>
     <string name="photos_backup_notifications_mixin_uploader_dialog_message">Stai usando %s della rete dati</string>
@@ -506,11 +506,11 @@ Le foto e i video rimangono nella raccolta."</string>
     <string name="photos_backup_settings_accessibility_upload_size_high_quality_selected">Dimensione di alta qualità selezionata</string>
     <string name="photos_backup_settings_accessibility_upload_size_original_selected">Dimensione originale selezionata</string>
     <string name="photos_backup_settings_account_category">Account di backup</string>
-    <string name="photos_backup_settings_account_summary_quota_load_failed">Dati sullo spazio di archiviazione in uso non disponibili</string>
+    <string name="photos_backup_settings_account_summary_quota_load_failed">Dati sullo spazio di archiviazione usato non disponibili</string>
     <string name="photos_backup_settings_account_summary_quota_loaded">%1$s rimanenti di %2$s</string>
     <string name="photos_backup_settings_account_summary_quota_loaded_free_storage">In uso: %1$s di %2$s</string>
     <string name="photos_backup_settings_account_summary_quota_loaded_unlimited">%s in uso</string>
-    <string name="photos_backup_settings_account_summary_quota_loading">Ricezione dati sullo spazio di archiviazione in uso…</string>
+    <string name="photos_backup_settings_account_summary_quota_loading">Ricezione dati sullo spazio di archiviazione usato…</string>
     <string name="photos_backup_settings_activity_context">Carica, cerca, organizza, modifica e condividi le tue foto da qualsiasi dispositivo</string>
     <string name="photos_backup_settings_activity_title">Backup e sincronizzazione</string>
     <string name="photos_backup_settings_backup_offer_help_link">Assistenza backup</string>
@@ -534,7 +534,7 @@ Le foto e i video rimangono nella raccolta."</string>
     <string name="photos_backup_settings_help_preference">Guida a backup e sincronizzazione</string>
     <string name="photos_backup_settings_roaming_switch">Roaming</string>
     <string name="photos_backup_settings_upload_size_category">Dimensioni caricamento</string>
-    <string name="photos_backup_settings_upload_size_high_quality_subtitle">Ottima qualità visiva e dimensioni del file ridotte</string>
+    <string name="photos_backup_settings_upload_size_high_quality_subtitle">Ottima qualità visiva e dimensioni dei file ridotte</string>
     <string name="photos_backup_settings_upload_size_high_quality_title">Alta qualità (spazio di archiviazione gratuito illimitato)</string>
     <string name="photos_backup_settings_upload_size_original_fallback">"Originale (limitato allo spazio di archiviazione dell'account)"</string>
     <string name="photos_backup_settings_upload_size_original_limited">Originale (spazio di archiviazione rimanente: %s)</string>
@@ -598,7 +598,7 @@ Le foto e i video rimangono nella raccolta."</string>
     <string name="photos_cast_impl_video">Video</string>
     <string name="photos_cast_menu_cast">Trasmetti</string>
     <string name="photos_cloudstorage_assistant_storage_1gb_left_card_description">Se esaurisci lo spazio di archiviazione, foto e video non verranno più sottoposti a backup. Per continuare con il backup, acquista altro spazio di archiviazione o modifica le opzioni di backup.</string>
-    <string name="photos_cloudstorage_assistant_storage_1gb_left_card_title">"Lo spazio di archiviazione dell'account è pieno al %d%%"</string>
+    <string name="photos_cloudstorage_assistant_storage_1gb_left_card_title">"Spazio di archiviazione dell'account utilizzato: %d%%"</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_buy_storage_button_text">Acquista spazio archiviazione</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_description">Per continuare a eseguire il backup in qualità originale (alla massima risoluzione), acquista altro spazio di archiviazione. Se esaurisci lo spazio di archiviazione, foto e video verranno sottoposti a backup in alta qualità (con dimensioni ridotte).</string>
     <string name="photos_cloudstorage_assistant_storage_near_full_card_out_of_storage_description">Il backup di foto e video non viene più eseguito. Acquista spazio di archiviazione per continuare a eseguire il backup di foto e video in qualità originale o modifica le dimensioni di caricamento in Impostazioni.</string>
@@ -608,12 +608,12 @@ Le foto e i video rimangono nella raccolta."</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_buy_storage_button">Acquista spazio di archiviazione</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_message">Per il backup di foto e video alla qualità originale è necessario ulteriore spazio di archiviazione</string>
     <string name="photos_cloudstorage_quota_out_of_storage_dialog_title">Spazio di archiviazione esaurito</string>
-    <string name="photos_cloudstorage_ui_backupoptions_account_storage_message">Per continuare a sottoporre a backup foto e video in qualità originale, acquista altro spazio di archiviazione</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_percentage">%d%% esaurito</string>
     <string name="photos_cloudstorage_ui_backupoptions_account_storage_title">"Spazio di archiviazione dell'account"</string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_message">Foto e video vengono salvati a una qualità visiva ridotta (spazio di archiviazione gratuito illimitato). &lt;a href=\"help:\">Ulteriori informazioni&lt;/a></string>
     <string name="photos_cloudstorage_ui_backupoptions_backup_hq_title">Backup a una risoluzione più bassa</string>
     <string name="photos_cloudstorage_ui_backupoptions_buy_storage_button">Acquista spazio di archiviazione</string>
+    <string name="photos_cloudstorage_ui_backupoptions_buy_storage_message">Per continuare a eseguire il backup di foto e video in qualità originale, acquista altro spazio di archiviazione</string>
     <string name="photos_cloudstorage_ui_backupoptions_compress_existing_items">Recupera %d GB di spazio di archiviazione riducendo la qualità degli elementi esistenti.</string>
     <string name="photos_cloudstorage_ui_backupoptions_continue_button">Continua</string>
     <string name="photos_cloudstorage_ui_backupoptions_other_options">Altre opzioni</string>
@@ -639,7 +639,6 @@ Le foto e i video rimangono nella raccolta."</string>
     <string name="photos_comments_popupmenu_delete_comment">Elimina commento</string>
     <string name="photos_comments_popupmenu_report_abuse">Segnala abuso</string>
     <string name="photos_comments_popupmenu_text_copied">Testo copiato</string>
-    <string name="photos_comments_ui_comment_list_header">Attività</string>
     <string name="photos_comments_ui_commentbar_add_photos_icon_content_desc">"Aggiungi foto all'album condiviso"</string>
     <string name="photos_comments_ui_commentbar_comments_off_hint_text">Commenti disattivati</string>
     <string name="photos_comments_ui_commentbar_say_something_hint_text">Scrivi qualcosa</string>
@@ -776,7 +775,7 @@ Le foto e i video rimangono nella raccolta."</string>
     <string name="photos_devicesetup_done_label">CONFERMA</string>
     <string name="photos_devicesetup_google_one_description">"È impostato il backup di foto e video alla massima risoluzione utilizzando lo spazio di archiviazione dell'abbonamento a Google One"</string>
     <string name="photos_devicesetup_high_quality_storage_label">Dimensioni caricamento: alta qualità (spazio di archiviazione illimitato gratuito)</string>
-    <string name="photos_devicesetup_high_quality_storage_subtitle">Ottima qualità visiva e dimensioni del file ridotte</string>
+    <string name="photos_devicesetup_high_quality_storage_subtitle">Ottima qualità visiva e dimensioni dei file ridotte</string>
     <string name="photos_devicesetup_high_quality_storage_title">Alta qualità (spazio di archiviazione gratuito illimitato)</string>
     <string name="photos_devicesetup_keep_backup_off">Lasciare disattivato il backup?</string>
     <string name="photos_devicesetup_keep_off">Lascia disattivato</string>
@@ -918,12 +917,12 @@ per il file video specificato."</string>
     <string name="photos_envelope_settings_getlink_getting_link">Recupero link</string>
     <string name="photos_envelope_settings_getlink_link_not_found">Impossibile trovare il link</string>
     <string name="photos_envelope_settings_getlink_link_to_share">Link da condividere</string>
-    <string name="photos_envelope_settings_hidename_show_email">"Nascondi il nome e mostra invece l'indirizzo email"</string>
-    <string name="photos_envelope_settings_hidename_show_number">Nascondi il nome e mostra invece il numero</string>
+    <string name="photos_envelope_settings_hidename_show_email">"Nascondi il nome e mostra l'indirizzo email"</string>
+    <string name="photos_envelope_settings_hidename_show_number">Nascondi il nome e mostra il numero</string>
     <string name="photos_envelope_settings_load_error">Errore caricamento opzioni</string>
     <string name="photos_envelope_settings_people_add_recipient_item_title">Invita utenti</string>
     <string name="photos_envelope_settings_people_block_person">Blocca persona</string>
-    <string name="photos_envelope_settings_people_block_person_confirmation_message">Non potrà contattarti su Google Foto e non potrai visualizzare le sue foto e i suoi commenti in Google Foto. Il blocco verrà applicato ad altri prodotti Google specifici, come Google+ e Hangouts. &lt;a href=help:>Ulteriori informazioni&lt;/a></string>
+    <string name="photos_envelope_settings_people_block_person_confirmation_message">Non potrà contattarti su Google Foto e non potrai visualizzare le sue foto e i suoi commenti in Google Foto. Il blocco verrà applicato anche ad altri prodotti Google specifici, come Google+ e Hangouts. &lt;a href=help:>Ulteriori informazioni&lt;/a></string>
     <string name="photos_envelope_settings_people_block_person_confirmation_positive_button">Blocca</string>
     <string name="photos_envelope_settings_people_block_person_confirmation_title">Bloccare %1$s?</string>
     <string name="photos_envelope_settings_people_header_item_title">Membri</string>
@@ -951,7 +950,7 @@ per il file video specificato."</string>
     <string name="photos_envelope_settings_title">Opzioni</string>
     <string name="photos_envelope_sharetext_continue">Continua</string>
     <string name="photos_envelope_sharetext_continue_as">Continua come %s</string>
-    <string name="photos_envelope_sharetext_default_share_message">%s ha condiviso foto con te.</string>
+    <string name="photos_envelope_sharetext_default_share_message">%s ha condiviso delle foto con te.</string>
     <string name="photos_envelope_signedoutpromo_message">Ricevi notifiche di nuove foto e commenti</string>
     <string name="photos_envelope_signedoutpromo_not_now_button">Non adesso</string>
     <string name="photos_envelope_signedoutpromo_sign_in_button">Accedi</string>
@@ -1013,7 +1012,7 @@ Foto e video saranno visualizzati qui."</string>
     <string name="photos_home_menu_action_month">Visualizzazione mensile</string>
     <string name="photos_home_menu_action_year">Visualizzazione annuale</string>
     <string name="photos_home_menu_label_layout">Visualizzazione</string>
-    <string name="photos_home_menu_new_shared_album">Avvia nuova condivisione</string>
+    <string name="photos_home_menu_new_shared_album">Inizia nuova condivisione</string>
     <string name="photos_home_menu_skipped_suggestions">Suggerimenti ignorati</string>
     <string name="photos_launchershortcuts_full_auto_free_up_space">Libera spazio</string>
     <string name="photos_launchershortcuts_full_auto_free_up_space_short">Libera</string>
@@ -1345,7 +1344,7 @@ Foto e video saranno visualizzati qui."</string>
 spostando questo elemento in Archivio."</string>
     <string name="photos_pager_autoawesome_image_colorization_tooltip">Creata da una foto in bianco e nero</string>
     <string name="photos_pager_autoawesome_image_gif_from_video_tooltip">Crea da video</string>
-    <string name="photos_pager_autoawesome_image_movie_tooltip">Creato con un mix di foto e vide</string>
+    <string name="photos_pager_autoawesome_image_movie_tooltip">Creato con un mix di foto e video</string>
     <string name="photos_pager_autoawesome_photo_image_colorization">Effetti</string>
     <string name="photos_pager_autoawesome_photo_image_movie">Filmato</string>
     <string name="photos_pager_autobackup_error">Backup non eseguito. Dimensioni eccessive o tipo sconosciuto.</string>
@@ -1673,6 +1672,7 @@ Automaticamente."</string>
     <string name="photos_photobook_preview_edit_cover_a11y_margin_photo_above_title">Layout con foto inserita</string>
     <string name="photos_photobook_preview_edit_cover_a11y_photo_above_title">Layout con foto sopra il titolo</string>
     <string name="photos_photobook_preview_edit_cover_error">Per modificare la copertina è necessaria la connessione a Internet</string>
+    <string name="photos_photobook_preview_edit_cover_title">Modifica copertina</string>
     <string name="photos_photobook_preview_edit_layout_error">Per modificare il fotolibro è necessaria la connessione a Internet</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_full_bleed_photo">Layout al vivo</string>
     <string name="photos_photobook_preview_edit_other_page_a11y_scale_to_fit">Layout con foto inserita</string>
@@ -1700,12 +1700,11 @@ Automaticamente."</string>
     <string name="photos_photobook_product_actionbar_title">Scegli tipo di libro</string>
     <string name="photos_photobook_product_description_and_page_count">%1$s, %2$s</string>
     <string name="photos_photobook_product_price_per_page">%s/pagina aggiuntiva</string>
-    <string name="photos_photobook_product_select_button_text">seleziona</string>
+    <string name="photos_photobook_product_select_button_text">Seleziona</string>
     <string name="photos_photobook_promotion_allphotos_button_1">Inizia</string>
     <string name="photos_photobook_promotion_allphotos_dismiss_content_description">Ignora</string>
     <string name="photos_photobook_promotion_allphotos_header_1">Spedizione gratuita</string>
     <string name="photos_photobook_promotion_allphotos_subtext_1">sui fotolibri in occasione del Cyber Monday</string>
-    <string name="photos_photobook_promotion_free_shipping">Spedizione gratuita</string>
     <string name="photos_photobook_promotion_general_book_cover_title">Ricordi</string>
     <string name="photos_photobook_remediation_dialog_edit_selection_option">Modifica selezione</string>
     <string name="photos_photobook_remediation_dialog_view_preview_option">Visualizza anteprima fotolibro</string>
@@ -1748,7 +1747,7 @@ Automaticamente."</string>
     <string name="photos_photobook_storefront_order_details">Dettagli ordine</string>
     <string name="photos_photobook_storefront_order_info">"Informazioni sull'ordine"</string>
     <string name="photos_photobook_storefront_order_number">Numero ordine</string>
-    <string name="photos_photobook_storefront_order_printing_time_notice">"Il tuo ordine verrà stampato entro 2-3 giorni lavorativi dalla data dell'ordine"</string>
+    <string name="photos_photobook_storefront_order_printing_time_notice">"Il tuo ordine verrà stampato entro 3-4 giorni lavorativi dalla data dell'ordine"</string>
     <string name="photos_photobook_storefront_past_orders">Ordini precedenti</string>
     <string name="photos_photobook_storefront_promo_code">Codice promozionale</string>
     <string name="photos_photobook_storefront_quantity">Quantità: %d</string>
@@ -1811,11 +1810,11 @@ Automaticamente."</string>
     <string name="photos_photoeditor_adjustments_contrast">Contrasto</string>
     <string name="photos_photoeditor_adjustments_depth">Profondità</string>
     <string name="photos_photoeditor_adjustments_depth_blur_intensity">Sfocatura</string>
-    <string name="photos_photoeditor_adjustments_depth_foreground_blur">Sfocatura in primo piano</string>
+    <string name="photos_photoeditor_adjustments_depth_foreground_blur">Sfocatura anteriore</string>
     <string name="photos_photoeditor_adjustments_exposure">Esposizione</string>
     <string name="photos_photoeditor_adjustments_highlights">Alte luci</string>
     <string name="photos_photoeditor_adjustments_light">Luce</string>
-    <string name="photos_photoeditor_adjustments_pop">Pop</string>
+    <string name="photos_photoeditor_adjustments_pop">Dettaglio</string>
     <string name="photos_photoeditor_adjustments_saturation">Saturazione</string>
     <string name="photos_photoeditor_adjustments_saturation_deep_blue">Blu scuro</string>
     <string name="photos_photoeditor_adjustments_saturation_skin_tone">Incarnato</string>
@@ -1895,6 +1894,7 @@ Automaticamente."</string>
     <string name="photos_photoeditor_fragments_editor_load_remote_fullsize_error_message">Verifica la connessione</string>
     <string name="photos_photoeditor_fragments_editor_loading_error">Impossibile modificare. Verifica la connessione.</string>
     <string name="photos_photoeditor_fragments_editor_saving_error">Errore durante il salvataggio della foto.</string>
+    <string name="photos_photoeditor_fragments_focus_a11y_focus_ring">Two finger tap or drag to set focus</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_cancel">ANNULLA</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_confirm">MODIFICA ORIGINALE</string>
     <string name="photos_photoeditor_fragments_invalid_edit_list_message">"La foto è stata modificata con una versione precedente di Google Foto. Modifica l'originale per annullare le modifiche e apportarne di nuove."</string>
@@ -1943,10 +1943,10 @@ Automaticamente."</string>
     <string name="photos_photoeditor_ui_aspect_ratio_3_2">3:2</string>
     <string name="photos_photoeditor_ui_aspect_ratio_4_3">4:3</string>
     <string name="photos_photoeditor_ui_aspect_ratio_flip_to_landscape">Passa a orient. orizzont.</string>
-    <string name="photos_photoeditor_ui_aspect_ratio_flip_to_portrait">Passa a orient. verticale</string>
-    <string name="photos_photoeditor_ui_aspect_ratio_free">Libere</string>
-    <string name="photos_photoeditor_ui_aspect_ratio_original">Originali</string>
-    <string name="photos_photoeditor_ui_aspect_ratio_square">Quadrate</string>
+    <string name="photos_photoeditor_ui_aspect_ratio_flip_to_portrait">Orientamento verticale</string>
+    <string name="photos_photoeditor_ui_aspect_ratio_free">Libero</string>
+    <string name="photos_photoeditor_ui_aspect_ratio_original">Originale</string>
+    <string name="photos_photoeditor_ui_aspect_ratio_square">Quadrato</string>
     <string name="photos_photofragment_albumcover_set_album_cover_failed">"Impossibile modificare la copertina dell'album."</string>
     <string name="photos_photofragment_albumcover_set_album_cover_success">Copertina album cambiata.</string>
     <string name="photos_photofragment_components_edit_cant_edit_message_file_dimensions">I file più piccoli di 50 px non possono essere modificati</string>
@@ -2100,7 +2100,7 @@ Automaticamente."</string>
     <string name="photos_search_explore_favorites_query">preferiti</string>
     <string name="photos_search_explore_movie_query">filmato</string>
     <string name="photos_search_explore_peoplehiding_hide_people_title">Nascondi volti</string>
-    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Nascondi e mostra</string>
+    <string name="photos_search_explore_peoplehiding_hide_show_people_title">Hide &amp; Show</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_content_description">nascondi %1$s</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_toast">Volti nascosti</string>
     <string name="photos_search_explore_peoplehiding_person_hidden_undo">Annulla</string>
@@ -2207,13 +2207,13 @@ Automaticamente."</string>
     <string name="photos_search_peoplegroupingonboarding_newuser_photo_face_grouping_learn_more">Google Foto utilizza il raggruppamento dei volti &lt;a href=help:>Ulteriori informazioni&lt;/a></string>
     <string name="photos_search_peoplelabeling_avatar_content_description">"Icona dell'avatar per l'album delle persone"</string>
     <string name="photos_search_peoplelabeling_clear">Cancella nome</string>
-    <string name="photos_search_peoplelabeling_contacts_item_title">CERCA CONTATTI SUL DISPOSITIVO</string>
+    <string name="photos_search_peoplelabeling_contacts_item_title">Search contacts on device</string>
     <string name="photos_search_peoplelabeling_fail_connection_message">Per modificare il nome devi essere connesso a Internet</string>
     <string name="photos_search_peoplelabeling_fail_message">"Errore durante l'etichettatura gruppo"</string>
     <string name="photos_search_peoplelabeling_frequent_contacts_header">Contatti frequenti</string>
     <string name="photos_search_peoplelabeling_header_subtitle">Trovale velocemente in base al nome</string>
     <string name="photos_search_peoplelabeling_header_title">Aggiungi un nome</string>
-    <string name="photos_search_peoplelabeling_merge_dialog_message">Verranno uniti</string>
+    <string name="photos_search_peoplelabeling_merge_dialog_message">Le foto verranno unite</string>
     <string name="photos_search_peoplelabeling_merge_dialog_title">Stesso volto?</string>
     <string name="photos_search_peoplelabeling_no">No</string>
     <string name="photos_search_peoplelabeling_search">Nuovo nome</string>
@@ -2222,7 +2222,7 @@ Automaticamente."</string>
     <string name="photos_search_searchbox_hint_text_template">Cerca \"%s\"</string>
     <string name="photos_search_searchbox_text">Cerca nelle tue foto</string>
     <string name="photos_search_searchbox_voice_search_button">Pulsante Ricerca vocale</string>
-    <string name="photos_search_searchresults_carousel_title">In albums</string>
+    <string name="photos_search_searchresults_carousel_title">Negli album</string>
     <string name="photos_search_searchresults_empty_page_360_button">Utilizza Fotocamera Cardboard</string>
     <string name="photos_search_searchresults_empty_page_360_caption">Foto e video a 360° come foto sferiche e VR verranno visualizzati qui</string>
     <string name="photos_search_searchresults_empty_page_360_title">Immergiti nelle tue foto e video</string>
@@ -2237,7 +2237,7 @@ Automaticamente."</string>
     <string name="photos_search_searchresults_empty_page_movies_caption">Crea filmati con foto, video e la musica che preferisci</string>
     <string name="photos_search_searchresults_empty_page_movies_title">Continua a raccontare la tua storia</string>
     <string name="photos_search_searchresults_empty_page_photo_scan_button">Utilizza FotoScan</string>
-    <string name="photos_search_searchresults_empty_page_photoscan_caption">"Con l'app FotoScan di Google Foto, acquisisci e digitalizza le tue foto stampate"</string>
+    <string name="photos_search_searchresults_empty_page_photoscan_caption">"Digitalizza le tue foto stampate con l'app FotoScan di Google Foto"</string>
     <string name="photos_search_searchresults_empty_page_photoscan_title">Conserva i tuoi ricordi</string>
     <string name="photos_search_searchresults_empty_page_videos_caption">I video che crei vengono mostrati qui</string>
     <string name="photos_search_searchresults_empty_page_videos_title">Ciak, si gira!</string>
@@ -2460,12 +2460,12 @@ La raccolta è condivisa. Gli elementi sincronizzati potrebbero essere disponibi
     <string name="photos_sharingtab_impl_viewbinders_new_activity">Nuova attività</string>
     <string name="photos_sharingtab_impl_viewbinders_new_album_block_owner">Blocca %s</string>
     <string name="photos_sharingtab_impl_viewbinders_new_album_leave_album">"Esci dall'album"</string>
-    <string name="photos_sharingtab_impl_viewbinders_new_album_multiple_photos">%s ha condiviso foto con te</string>
+    <string name="photos_sharingtab_impl_viewbinders_new_album_multiple_photos">%s ha condiviso delle foto con te</string>
     <string name="photos_sharingtab_impl_viewbinders_new_album_one_photo">%s ha condiviso una foto con te</string>
     <string name="photos_sharingtab_impl_viewbinders_new_album_report_abuse">Segnala abuso</string>
     <string name="photos_sharingtab_impl_viewbinders_section_create_shared_album">Creare album condiviso?</string>
     <string name="photos_sharingtab_impl_viewbinders_section_shared">Condivisi</string>
-    <string name="photos_sharingtab_impl_viewbinders_section_shared_icon_desc">Avvia nuova condivisione</string>
+    <string name="photos_sharingtab_impl_viewbinders_section_shared_icon_desc">Inizia nuova condivisione</string>
     <string name="photos_sharingtab_impl_viewbinders_status_error">"Problemi durante l'invio"</string>
     <string name="photos_sharingtab_impl_viewbinders_status_waiting">In attesa di connessione</string>
     <string name="photos_sharingtab_picker_impl_add_button">Aggiungi</string>
@@ -2473,10 +2473,9 @@ La raccolta è condivisa. Gli elementi sincronizzati potrebbero essere disponibi
     <string name="photos_sharingtab_picker_impl_add_to_album">Aggiungi a un album</string>
     <string name="photos_sharingtab_picker_impl_add_to_existing_album">"Aggiungi all'album esistente"</string>
     <string name="photos_sharingtab_picker_impl_cluster_recipient_add">Aggiungere?</string>
-    <string name="photos_sharingtab_picker_impl_create_shared_album">Crea album condiviso</string>
     <string name="photos_sharingtab_picker_impl_error_adding">"Errore durante l'aggiunta."</string>
     <string name="photos_sharingtab_picker_impl_label">Esamina suggerimenti</string>
-    <string name="photos_sharingtab_picker_impl_message_hint_text">Aggiungi messaggio</string>
+    <string name="photos_sharingtab_picker_impl_message_hint_text">Aggiungi un messaggio</string>
     <string name="photos_sharingtab_picker_impl_overflow_desc">Apri il menu extra</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_album">Seleziona album esistente</string>
     <string name="photos_sharingtab_picker_impl_overflow_select_people">Seleziona persone</string>
@@ -2755,7 +2754,7 @@ Continuerai a visualizzarle negli album, tra i risultati di ricerca e nell'archi
     <string name="search_empty_state_title">Nessun risultato</string>
     <string name="select_accessibility_action">"Seleziona un'azione"</string>
     <string name="sendkit_ui_about_suggested_people_info">To make sharing easier, Google suggests people to share with based on your interactions</string>
-    <string name="sendkit_ui_about_top_suggestions">About suggested people</string>
+    <string name="sendkit_ui_about_top_suggestions">Informazioni sulle persone suggerite</string>
     <string name="sendkit_ui_add_message_title">Aggiungi messaggio</string>
     <string name="sendkit_ui_autocomplete_add_recipient">Aggiungi destinatario</string>
     <string name="sendkit_ui_autocomplete_already_selected">Contatto già selezionato</string>
@@ -2807,7 +2806,6 @@ Continuerai a visualizzarle negli album, tra i risultati di ricerca e nell'archi
     <string name="sendkit_ui_sharing_as">Condivisione come %s</string>
     <string name="sendkit_ui_show_more">Altri</string>
     <string name="sendkit_ui_show_more_content_description">Altri contatti</string>
-    <string name="sendkit_ui_show_phone_contacts">Mostra contatti telefonici</string>
     <string name="sendkit_ui_sms_charges">Possono applicarsi i costi standard per gli SMS</string>
     <string name="sendkit_ui_starred">Speciali</string>
     <string name="sendkit_ui_top_suggestions">Migliori suggerimenti</string>
@@ -2826,7 +2824,7 @@ Continuerai a visualizzarle negli album, tra i risultati di ricerca e nell'archi
     <string name="social_storageformatter_integer_storage_amount">%1$d %2$s</string>
     <string name="social_storageformatter_mb">MB</string>
     <string name="social_storageformatter_tb">TB</string>
-    <string name="status_bar_getting_your_photos_title">Recupero delle foto…</string>
+    <string name="status_bar_getting_your_photos_title">Recupero foto…</string>
     <string name="switch_text_off">Non attivo</string>
     <string name="switch_text_on">Attivo</string>
     <string name="switch_viewer_action">Cambia</string>

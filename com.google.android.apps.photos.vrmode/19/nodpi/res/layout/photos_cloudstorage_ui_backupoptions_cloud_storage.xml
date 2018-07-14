@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:paddingTop="@dimen/photos_cloudstorage_ui_backupoptions_account_storage_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photos_cloudstorage_ui_backupoptions_account_storage_title" android:lineSpacingExtra="6.0sp" android:paddingStart="@dimen/photos_cloudstorage_ui_backupoptions_page_horizontal_padding" android:paddingEnd="@dimen/photos_cloudstorage_ui_backupoptions_page_horizontal_padding" />
+    <ProgressBar android:id="@id/progress_bar" android:paddingTop="@dimen/photos_cloudstorage_ui_backupoptions_progressbar_vertical_padding" android:paddingBottom="@dimen/photos_cloudstorage_ui_backupoptions_progressbar_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/photos_cloudstorage_ui_backupoptions_page_horizontal_padding" android:paddingEnd="@dimen/photos_cloudstorage_ui_backupoptions_page_horizontal_padding" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/photos_cloudstorage_ui_backupoptions_page_horizontal_padding" android:paddingEnd="@dimen/photos_cloudstorage_ui_backupoptions_page_horizontal_padding">
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:id="@id/storage_quota_limit" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:lineSpacingExtra="6.0sp" android:paddingEnd="48.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.Photos.Body2" android:id="@id/storage_quota_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="6.0sp" />
+    </LinearLayout>
+</merge>
