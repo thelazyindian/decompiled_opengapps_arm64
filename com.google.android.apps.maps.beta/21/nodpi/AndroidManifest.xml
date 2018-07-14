@@ -837,6 +837,7 @@
         <activity-alias android:exported="false" android:name="com.google.android.apps.maps.RequestLocationIntentActivity" android:targetActivity="com.google.android.maps.MapsActivity"/>
         <activity-alias android:exported="false" android:name="com.google.android.apps.maps.LocationShareBurstingActivity" android:targetActivity="com.google.android.maps.MapsActivity"/>
         <activity-alias android:exported="true" android:name="com.google.android.apps.maps.LocationShareShortcutActivity" android:targetActivity="com.google.android.maps.MapsActivity"/>
+        <activity-alias android:exported="true" android:name="com.google.android.apps.maps.ShowSharedLocationsScreenActivity" android:targetActivity="com.google.android.maps.MapsActivity"/>
         <activity-alias android:exported="false" android:name="com.google.android.apps.maps.GmbPromotionActivity" android:targetActivity="com.google.android.maps.MapsActivity"/>
         <activity-alias android:exported="false" android:name="com.google.android.apps.maps.TodoPhotoActivity" android:targetActivity="com.google.android.maps.MapsActivity"/>
         <activity-alias android:exported="false" android:name="com.google.android.apps.maps.CommuteSettingsActivity" android:targetActivity="com.google.android.maps.MapsActivity"/>
@@ -874,6 +875,11 @@
             <intent-filter>
                 <action android:name="com.google.android.apps.gmm.traffic.notification.service.TrafficToPlaceNotificationGeofenceReceiver.ACTION_DISMISS"/>
                 <action android:name="com.google.android.apps.gmm.traffic.notification.service.TrafficToPlaceNotificationGeofenceReceiver.ACTION_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="true" android:name="com.google.android.apps.gmm.geofence.GeofenceBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.google.android.apps.gmm.geofence.GeofenceBroadcastReceiver.GEOFENCE_RECEIVER_ACTION"/>
             </intent-filter>
         </receiver>
         <service android:name="com.google.android.apps.gmm.navigation.service.base.NavigationService"/>
@@ -1012,17 +1018,6 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="com.google.android.apps.gmm.ugc.posttrip.EnforceTripStoreTtlReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
-                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
-            </intent-filter>
-        </receiver>
-        <service android:exported="true" android:name="com.google.android.apps.gmm.ugc.posttrip.EnforceTripStoreTtlService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
-            <intent-filter>
-                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
-            </intent-filter>
-        </service>
         <receiver android:exported="false" android:label="Be the first service" android:name="com.google.android.apps.gmm.ugc.ataplace.AtAPlaceService"/>
         <receiver android:name="com.google.android.apps.gmm.ugc.tasks.nearby.UgcTasksNearbyBroadcastReceiver">
             <intent-filter>
@@ -1538,14 +1533,21 @@
             <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
         </provider>
         <receiver android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.intent.UpdateSharesBroadcastReceiver"/>
-        <receiver android:name="com.google.android.apps.gmm.locationsharing.reporting.LocationReportingController$RestartDetectionBroadcastReceiver">
+        <receiver android:name="com.google.android.apps.gmm.locationsharing.reporting.RestartDetectionBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <receiver android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.reporting.LocationReportingController$ActivityRecognitionBroadcastReceiver"/>
+        <receiver android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.reporting.ActivityRecognitionBroadcastReceiver"/>
         <receiver android:exported="false" android:name="com.google.android.apps.gmm.transit.commute.TransitCommuteNotificationBroadcastReceiver"/>
+        <service android:exported="true" android:name="com.google.android.apps.gmm.directions.commute.setup.service.CommuteSetupService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:enabled="true" android:exported="true" android:name="com.google.android.apps.gmm.directions.commute.setup.service.CommuteSetupBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
         <receiver android:name="com.google.android.apps.gmm.transit.TransitStationBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
@@ -1565,7 +1567,8 @@
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
             </intent-filter>
         </receiver>
-        <service android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.reporting.LocationReportingService"/>
+        <service android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.reporting.ReporterService"/>
+        <service android:exported="false" android:name="com.google.android.apps.gmm.locationsharing.reporting.ReportingTaskExecutorService"/>
         <service android:exported="true" android:name="com.google.android.apps.gmm.location.heatmap.HeatmapExpirationService" android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE">
             <intent-filter>
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>

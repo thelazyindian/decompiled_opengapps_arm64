@@ -21,6 +21,7 @@
     <item type="id" name="avatar_recents_one" />
     <item type="id" name="bar_chart_clearer" />
     <item type="id" name="base_compass_button" />
+    <item type="id" name="block_description" />
     <item type="id" name="bottom_popup_container" />
     <item type="id" name="butterfly_view_state" />
     <item type="id" name="button" />
@@ -47,6 +48,8 @@
     <item type="id" name="details_cardlist" />
     <item type="id" name="details_content" />
     <item type="id" name="dialog" />
+    <item type="id" name="dialog_body" />
+    <item type="id" name="dialog_title" />
     <item type="id" name="direction_feedback_option_closed" />
     <item type="id" name="direction_feedback_option_not_fit_biking" />
     <item type="id" name="direction_feedback_option_not_fit_walking" />
@@ -72,7 +75,6 @@
     <item type="id" name="featurehighlight_view" />
     <item type="id" name="featurehighlight_view_tag_fragment" />
     <item type="id" name="ff_touch_interceptor" />
-    <item type="id" name="first_illustration_pic" />
     <item type="id" name="flm_paddingEnd" />
     <item type="id" name="flm_paddingStart" />
     <item type="id" name="flm_width" />
@@ -80,9 +82,9 @@
     <item type="id" name="floating_pin_anchor" />
     <item type="id" name="floating_pin_image" />
     <item type="id" name="focus_listener" />
-    <item type="id" name="fourth_illustration_pic" />
     <item type="id" name="free_nav_destination_bar" />
     <item type="id" name="ghost_view" />
+    <item type="id" name="glide_custom_view_target_tag" />
     <item type="id" name="glide_tag_id" />
     <item type="id" name="goldfinger_card_index" />
     <item type="id" name="guide_page_layout_root" />
@@ -90,6 +92,7 @@
     <item type="id" name="header_container" />
     <item type="id" name="hide_if_clipped" />
     <item type="id" name="home" />
+    <item type="id" name="home_actionable_content_tag" />
     <item type="id" name="home_bottom_sheet" />
     <item type="id" name="home_error_tag" />
     <item type="id" name="home_full_screen_view" />
@@ -135,6 +138,7 @@
     <item type="id" name="map_copyright_content" />
     <item type="id" name="map_frame" />
     <item type="id" name="map_point_picker_bottom_sheet" />
+    <item type="id" name="menu_block" />
     <item type="id" name="message_content" />
     <item type="id" name="mod_sharing_fablet_container" />
     <item type="id" name="mtrl_child_content_container" />
@@ -155,6 +159,7 @@
     <item type="id" name="navigation_prompt_confirmation" />
     <item type="id" name="navigation_prompt_icon_and_text" />
     <item type="id" name="nearby_stations_carousel" />
+    <item type="id" name="negative_button" />
     <item type="id" name="notification_opt_out_dismiss" />
     <item type="id" name="notification_opt_out_inner_container" />
     <item type="id" name="notification_opt_out_turn_off" />
@@ -177,6 +182,7 @@
     <item type="id" name="picture_in_picture_cover" />
     <item type="id" name="placepage_directions_button" />
     <item type="id" name="placesheet_search_box" />
+    <item type="id" name="positive_button" />
     <item type="id" name="preview_view" />
     <item type="id" name="progress_circular" />
     <item type="id" name="progress_horizontal" />
@@ -191,6 +197,7 @@
     <item type="id" name="recycler_view_listener_manager" />
     <item type="id" name="recycler_view_snap_helper" />
     <item type="id" name="renderable_components_applier" />
+    <item type="id" name="report_spam" />
     <item type="id" name="reveal_carousel_scroll_view" />
     <item type="id" name="ride_sheet_card_list" />
     <item type="id" name="ride_sheet_header" />
@@ -212,7 +219,6 @@
     <item type="id" name="search_omnibox_menu_button" />
     <item type="id" name="search_omnibox_text_box" />
     <item type="id" name="search_omnibox_text_clear" />
-    <item type="id" name="second_illustration_pic" />
     <item type="id" name="send_feedback_form" />
     <item type="id" name="sendkit_ui_correct_input_edit_text" />
     <item type="id" name="sendkit_ui_holder_tag" />
@@ -251,7 +257,6 @@
     <item type="id" name="textinput_counter" />
     <item type="id" name="textinput_error" />
     <item type="id" name="textinput_helper_text" />
-    <item type="id" name="third_illustration_pic" />
     <item type="id" name="timeline_generic_impression_logger" />
     <item type="id" name="timeline_mini_timeline" />
     <item type="id" name="timeline_segment_adding_list_view" />
@@ -283,8 +288,6 @@
     <item type="id" name="view_offset_helper" />
     <item type="id" name="view_properties" />
     <item type="id" name="view_update_action" />
-    <item type="id" name="viewbuilder_behaviors" />
-    <item type="id" name="viewbuilder_context" />
     <item type="id" name="visual_element_view_tag" />
     <item type="id" name="watermark_image" />
     <item type="id" name="waypoint_row_grabber" />
@@ -341,9 +344,6 @@
     <item type="id" name="search_voice_btn" />
     <item type="id" name="select_dialog_listview" />
     <item type="id" name="message" />
-    <item type="id" name="credential_chooser_heading" />
-    <item type="id" name="credential_chooser_subtitle" />
-    <item type="id" name="credential_chooser_credential_holder" />
     <item type="id" name="avatar" />
     <item type="id" name="account_address" />
     <item type="id" name="accounts_list" />
@@ -445,6 +445,109 @@
     <item type="id" name="personalsearchtutorialtablet_stub" />
     <item type="id" name="ugctaskssearchbuttontutorial_overlay" />
     <item type="id" name="ugctaskssearchbuttontutorial_stub" />
+    <item type="id" name="shortlist_ui_container" />
+    <item type="id" name="browser_actions_menu_view" />
+    <item type="id" name="browser_actions_header_text" />
+    <item type="id" name="browser_actions_menu_items" />
+    <item type="id" name="browser_actions_menu_item_icon" />
+    <item type="id" name="browser_actions_menu_item_text" />
+    <item type="id" name="message_avatar" />
+    <item type="id" name="label_container" />
+    <item type="id" name="label_content" />
+    <item type="id" name="message_text_separator" />
+    <item type="id" name="send_status" />
+    <item type="id" name="right_icon" />
+    <item type="id" name="icon_container" />
+    <item type="id" name="text_container" />
+    <item type="id" name="container" />
+    <item type="id" name="paged_scroll_view" />
+    <item type="id" name="max_width_layout" />
+    <item type="id" name="recycler_view" />
+    <item type="id" name="page_up" />
+    <item type="id" name="filler" />
+    <item type="id" name="scrollbar_thumb" />
+    <item type="id" name="page_down" />
+    <item type="id" name="component" />
+    <item type="id" name="component_header" />
+    <item type="id" name="cards_area_wrapper" />
+    <item type="id" name="footer_buttons_area" />
+    <item type="id" name="back_button" />
+    <item type="id" name="undo_button" />
+    <item type="id" name="done_button" />
+    <item type="id" name="accept_message_button" />
+    <item type="id" name="title_text" />
+    <item type="id" name="linear_container" />
+    <item type="id" name="compose" />
+    <item type="id" name="send_message_button" />
+    <item type="id" name="consent_step1" />
+    <item type="id" name="consent_step1_image" />
+    <item type="id" name="consent_step1_title" />
+    <item type="id" name="consent_step1_description" />
+    <item type="id" name="consent_step1_next_button" />
+    <item type="id" name="consent_step2" />
+    <item type="id" name="consent_step2_image" />
+    <item type="id" name="consent_step2_description" />
+    <item type="id" name="consent_step2_cancel_button" />
+    <item type="id" name="consent_step2_ok_button" />
+    <item type="id" name="consent_step3" />
+    <item type="id" name="consent_step3_image" />
+    <item type="id" name="consent_step3_title" />
+    <item type="id" name="consent_step3_description" />
+    <item type="id" name="consent_step3_start_button" />
+    <item type="id" name="conversation_avatar" />
+    <item type="id" name="conversation_container" />
+    <item type="id" name="conversation_title" />
+    <item type="id" name="conversation_description" />
+    <item type="id" name="collapsing_toolbar" />
+    <item type="id" name="header_contents" />
+    <item type="id" name="header_title" />
+    <item type="id" name="header_status" />
+    <item type="id" name="toolbar" />
+    <item type="id" name="empty_conversation_list_stub" />
+    <item type="id" name="empty_conversation_list" />
+    <item type="id" name="paged_recycler" />
+    <item type="id" name="conversation_body" />
+    <item type="id" name="messages_list" />
+    <item type="id" name="conversation_header" />
+    <item type="id" name="compose_view" />
+    <item type="id" name="done" />
+    <item type="id" name="date_picker_header" />
+    <item type="id" name="day_picker_selected_date_layout" />
+    <item type="id" name="date_picker_month_and_day" />
+    <item type="id" name="date_picker_month" />
+    <item type="id" name="date_picker_day" />
+    <item type="id" name="date_picker_year" />
+    <item type="id" name="animator" />
+    <item type="id" name="debug_date_time" />
+    <item type="id" name="clear_debug_date_time" />
+    <item type="id" name="last_message_timestamp" />
+    <item type="id" name="number_of_unread_messages" />
+    <item type="id" name="smallLabel" />
+    <item type="id" name="largeLabel" />
+    <item type="id" name="coordinator" />
+    <item type="id" name="touch_outside" />
+    <item type="id" name="design_bottom_sheet" />
+    <item type="id" name="navigation_header_container" />
+    <item type="id" name="design_navigation_view" />
+    <item type="id" name="design_menu_item_text" />
+    <item type="id" name="design_menu_item_action_area_stub" />
+    <item type="id" name="design_menu_item_action_area" />
+    <item type="id" name="text_input_password_toggle" />
+    <item type="id" name="previous_button" />
+    <item type="id" name="date_pager" />
+    <item type="id" name="forward_button" />
+    <item type="id" name="icon_frame" />
+    <item type="id" name="far_turn_step_text_view" />
+    <item type="id" name="far_turn_distance_text_view" />
+    <item type="id" name="feedback_suggestion_options" />
+    <item type="id" name="fragment_container" />
+    <item type="id" name="settings_button" />
+    <item type="id" name="permissions_layout" />
+    <item type="id" name="location_icon" />
+    <item type="id" name="roadblock_layout" />
+    <item type="id" name="credential_chooser_heading" />
+    <item type="id" name="credential_chooser_subtitle" />
+    <item type="id" name="credential_chooser_credential_holder" />
     <item type="id" name="bbb_credential_chooser_heading" />
     <item type="id" name="bbb_credential_chooser_subtitle" />
     <item type="id" name="bbb_credential_chooser_credential_holder" />
@@ -492,70 +595,9 @@
     <item type="id" name="bbb_credential_info_profile_picture" />
     <item type="id" name="bbb_credential_primary_label" />
     <item type="id" name="bbb_credential_secondary_label" />
-    <item type="id" name="browser_actions_menu_view" />
-    <item type="id" name="browser_actions_header_text" />
-    <item type="id" name="browser_actions_menu_items" />
-    <item type="id" name="browser_actions_menu_item_icon" />
-    <item type="id" name="browser_actions_menu_item_text" />
-    <item type="id" name="message_avatar" />
-    <item type="id" name="label_container" />
-    <item type="id" name="label_content" />
-    <item type="id" name="right_icon" />
-    <item type="id" name="icon_container" />
-    <item type="id" name="text_container" />
-    <item type="id" name="container" />
-    <item type="id" name="paged_scroll_view" />
-    <item type="id" name="max_width_layout" />
-    <item type="id" name="recycler_view" />
-    <item type="id" name="page_up" />
-    <item type="id" name="filler" />
-    <item type="id" name="scrollbar_thumb" />
-    <item type="id" name="page_down" />
-    <item type="id" name="component" />
-    <item type="id" name="component_header" />
-    <item type="id" name="cards_area_wrapper" />
-    <item type="id" name="footer_buttons_area" />
-    <item type="id" name="back_button" />
-    <item type="id" name="undo_button" />
-    <item type="id" name="done_button" />
-    <item type="id" name="accept_message_button" />
-    <item type="id" name="title_text" />
-    <item type="id" name="linear_container" />
-    <item type="id" name="compose" />
-    <item type="id" name="send_message_button" />
     <item type="id" name="consent_text" />
     <item type="id" name="consent_subheading" />
     <item type="id" name="consent_ok_button" />
-    <item type="id" name="consent_step1" />
-    <item type="id" name="consent_step1_image" />
-    <item type="id" name="consent_step1_title" />
-    <item type="id" name="consent_step1_description" />
-    <item type="id" name="consent_step1_next_button" />
-    <item type="id" name="consent_step2" />
-    <item type="id" name="consent_step2_image" />
-    <item type="id" name="consent_step2_description" />
-    <item type="id" name="consent_step2_cancel_button" />
-    <item type="id" name="consent_step2_ok_button" />
-    <item type="id" name="consent_step3" />
-    <item type="id" name="consent_step3_image" />
-    <item type="id" name="consent_step3_title" />
-    <item type="id" name="consent_step3_description" />
-    <item type="id" name="consent_step3_start_button" />
-    <item type="id" name="conversation_avatar" />
-    <item type="id" name="conversation_container" />
-    <item type="id" name="conversation_title" />
-    <item type="id" name="conversation_description" />
-    <item type="id" name="collapsing_toolbar" />
-    <item type="id" name="header_contents" />
-    <item type="id" name="header_title" />
-    <item type="id" name="header_status" />
-    <item type="id" name="toolbar" />
-    <item type="id" name="empty_conversation_list_stub" />
-    <item type="id" name="empty_conversation_list" />
-    <item type="id" name="paged_recycler" />
-    <item type="id" name="conversation_header" />
-    <item type="id" name="messages_list" />
-    <item type="id" name="compose_view" />
     <item type="id" name="create_account_heading" />
     <item type="id" name="create_account_subtitle" />
     <item type="id" name="claims_wrapper" />
@@ -568,32 +610,6 @@
     <item type="id" name="location_consent_text" />
     <item type="id" name="fine_print" />
     <item type="id" name="allow_button" />
-    <item type="id" name="done" />
-    <item type="id" name="date_picker_header" />
-    <item type="id" name="day_picker_selected_date_layout" />
-    <item type="id" name="date_picker_month_and_day" />
-    <item type="id" name="date_picker_month" />
-    <item type="id" name="date_picker_day" />
-    <item type="id" name="date_picker_year" />
-    <item type="id" name="animator" />
-    <item type="id" name="debug_date_time" />
-    <item type="id" name="clear_debug_date_time" />
-    <item type="id" name="last_message_timestamp" />
-    <item type="id" name="number_of_unread_messages" />
-    <item type="id" name="smallLabel" />
-    <item type="id" name="largeLabel" />
-    <item type="id" name="coordinator" />
-    <item type="id" name="touch_outside" />
-    <item type="id" name="design_bottom_sheet" />
-    <item type="id" name="navigation_header_container" />
-    <item type="id" name="design_navigation_view" />
-    <item type="id" name="design_menu_item_text" />
-    <item type="id" name="design_menu_item_action_area_stub" />
-    <item type="id" name="design_menu_item_action_area" />
-    <item type="id" name="text_input_password_toggle" />
-    <item type="id" name="previous_button" />
-    <item type="id" name="date_pager" />
-    <item type="id" name="forward_button" />
     <item type="id" name="add_phone_heading" />
     <item type="id" name="add_phone_subtitle" />
     <item type="id" name="content_wrapper" />
@@ -606,15 +622,11 @@
     <item type="id" name="enter_code_title" />
     <item type="id" name="enter_code_subheading" />
     <item type="id" name="enter_sms_code" />
-    <item type="id" name="icon_frame" />
-    <item type="id" name="far_turn_step_text_view" />
-    <item type="id" name="far_turn_distance_text_view" />
-    <item type="id" name="feedback_suggestion_options" />
-    <item type="id" name="fragment_container" />
-    <item type="id" name="settings_button" />
-    <item type="id" name="permissions_layout" />
-    <item type="id" name="location_icon" />
-    <item type="id" name="roadblock_layout" />
+    <item type="id" name="credential_info_profile_picture" />
+    <item type="id" name="credential_primary_label" />
+    <item type="id" name="credential_secondary_label" />
+    <item type="id" name="subtitle" />
+    <item type="id" name="try_again" />
     <item type="id" name="title_textbox" />
     <item type="id" name="progress_content" />
     <item type="id" name="description_textbox" />
@@ -934,9 +946,6 @@
     <item type="id" name="action_icon" />
     <item type="id" name="speaker" />
     <item type="id" name="sign_in" />
-    <item type="id" name="credential_info_profile_picture" />
-    <item type="id" name="credential_primary_label" />
-    <item type="id" name="credential_secondary_label" />
     <item type="id" name="placeholder" />
     <item type="id" name="survey_container" />
     <item type="id" name="content_textbox" />
@@ -962,6 +971,14 @@
     <item type="id" name="toastbar_button2" />
     <item type="id" name="toastbar_button3" />
     <item type="id" name="toastbar_buttons" />
+    <item type="id" name="traffic_to_place_notification" />
+    <item type="id" name="traffic_to_place_notification_header" />
+    <item type="id" name="traffic_to_place_notification_title" />
+    <item type="id" name="traffic_to_place_notification_subtitle" />
+    <item type="id" name="traffic_to_place_notification_mini_map" />
+    <item type="id" name="traffic_to_place_notification_expanded" />
+    <item type="id" name="traffic_to_place_notification_icon_before_app_title" />
+    <item type="id" name="traffic_to_place_notification_app_title" />
     <item type="id" name="action_stop" />
     <item type="id" name="action_stop_text" />
     <item type="id" name="action_share_trip" />
@@ -970,7 +987,6 @@
     <item type="id" name="description_container" />
     <item type="id" name="smallIcon" />
     <item type="id" name="header_text" />
-    <item type="id" name="transit_state_icon" />
     <item type="id" name="transit_line_context_padding" />
     <item type="id" name="transit_line_context" />
     <item type="id" name="transit_station_next_departure_container" />
@@ -1018,9 +1034,9 @@
     <item type="id" name="description" />
     <item type="id" name="lines_with_status" />
     <item type="id" name="long_description" />
+    <item type="id" name="unblock_label" />
+    <item type="id" name="unblock_button" />
     <item type="id" name="card_item" />
-    <item type="id" name="subtitle" />
-    <item type="id" name="try_again" />
     <item type="id" name="mapImage" />
     <item type="id" name="pinImage" />
     <item type="id" name="error_overlay_frame" />
@@ -1032,7 +1048,10 @@
     <item type="id" name="speaker_animation" />
     <item type="id" name="visible" />
     <item type="id" name="masked" />
+    <item type="id" name="left_background" />
+    <item type="id" name="middle_background" />
     <item type="id" name="launchscreens_product_logo" />
     <item type="id" name="launchscreens_logo_text" />
+    <item type="id" name="right_background" />
     <item type="id" name="sendkit_ui_about_top_suggestions" />
 </resources>

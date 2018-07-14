@@ -4,6 +4,7 @@
     <attr name="accountExpandCloseDrawable" format="reference" />
     <attr name="accountExpandDividerDrawable" format="reference" />
     <attr name="accountExpandOpenDrawable" format="reference" />
+    <attr name="blockDialogStyle" format="reference" />
     <attr name="bottomAppBarStyle" format="reference" />
     <attr name="bottomNavigationStyle" format="reference" />
     <attr name="bottomSheetDialogTheme" format="reference" />
@@ -70,6 +71,7 @@
     <attr name="textAppearanceSubtitle2" format="reference" />
     <attr name="textInputStyle" format="reference" />
     <attr name="title" format="string" />
+    <attr name="unblockStyle" format="reference" />
     <attr name="navigationMode">
         <enum name="listMode" value="1" />
         <enum name="normal" value="0" />
@@ -119,6 +121,9 @@
     <attr name="showTitle" format="boolean" />
     <attr name="buttonIconDimen" format="dimension" />
     <attr name="minIntervalSeconds" format="integer" />
+    <attr name="logoSpriteDrawable" format="reference" />
+    <attr name="frameCount" format="integer" />
+    <attr name="durationMillis" format="integer" />
     <attr name="aplosAxisRangeHighlighterStart" format="string" />
     <attr name="aplosAxisRangeHighlighterEnd" format="string" />
     <attr name="aplosAxisRangeHighlighterLineColor" format="color" />
@@ -382,6 +387,10 @@
     <attr name="colorError" format="reference|color" />
     <attr name="viewInflaterClass" format="string" />
     <attr name="launchMiniPlate" format="boolean" />
+    <attr name="logoShape">
+        <enum name="mic" value="2" />
+        <enum name="poodle" value="1" />
+    </attr>
     <attr name="autoResizeText_resizeStepUnit">
         <enum name="unitDip" value="1" />
         <enum name="unitIn" value="4" />
@@ -407,11 +416,11 @@
     </attr>
     <attr name="unselectedChipBackgroundColor" format="color" />
     <attr name="unselectedChipTextColor" format="color" />
+    <attr name="buttonColor" format="color" />
     <attr name="fabAlignmentMode">
         <enum name="end" value="1" />
         <enum name="center" value="0" />
     </attr>
-    <attr name="fabAttached" format="boolean" />
     <attr name="fabCradleMargin" format="dimension" />
     <attr name="fabCradleRoundedCornerRadius" format="dimension" />
     <attr name="fabCradleVerticalOffset" format="dimension" />
@@ -466,14 +475,17 @@
     <attr name="chipCornerRadius" format="dimension" />
     <attr name="chipStrokeColor" format="color" />
     <attr name="chipStrokeWidth" format="dimension" />
+    <attr name="chipIconVisible" format="boolean" />
     <attr name="chipIconEnabled" format="boolean" />
     <attr name="chipIcon" format="reference" />
     <attr name="chipIconTint" format="color" />
     <attr name="chipIconSize" format="dimension" />
+    <attr name="closeIconVisible" format="boolean" />
     <attr name="closeIconEnabled" format="boolean" />
     <attr name="closeIcon" format="reference" />
     <attr name="closeIconTint" format="color" />
     <attr name="closeIconSize" format="dimension" />
+    <attr name="checkedIconVisible" format="boolean" />
     <attr name="checkedIconEnabled" format="boolean" />
     <attr name="checkedIcon" format="reference" />
     <attr name="chipStartPadding" format="dimension" />
@@ -995,8 +1007,6 @@
         <flag name="textStart" value="0x00000002" />
     </attr>
     <attr name="iconTint" format="color" />
-    <attr name="additionalPaddingStartForIcon" format="dimension" />
-    <attr name="additionalPaddingEndForIcon" format="dimension" />
     <attr name="cornerRadius" format="dimension" />
     <attr name="carMaxWidth" format="dimension" />
     <attr name="maxWidthLinearLayoutWidth" format="dimension" />
@@ -1136,6 +1146,10 @@
         <enum name="auto" value="0" />
         <enum name="small" value="2" />
     </attr>
+    <attr name="leftText" format="string" />
+    <attr name="middleText" format="string" />
+    <attr name="rightText" format="string" />
+    <attr name="titleText" format="string" />
     <attr name="paddingBottomNoButtons" format="dimension" />
     <attr name="paddingTopNoTitle" format="dimension" />
     <attr name="layoutManager" format="string" />
@@ -1198,6 +1212,7 @@
         <enum name="light" value="1" />
     </attr>
     <attr name="scopeUris" format="reference|string" />
+    <attr name="snackbarStyle" format="reference" />
     <attr name="snackbarButtonStyle" format="reference" />
     <attr name="maxActionInlineWidth" format="dimension" />
     <attr name="numberOfPageBuffers" format="integer" />
@@ -1329,6 +1344,7 @@
     <attr name="titleTextColor" format="color" />
     <attr name="subtitleTextColor" format="color" />
     <attr name="desiredCompoundDrawablePadding" format="reference" />
+    <attr name="unblockButtonColor" format="color" />
     <attr name="paddingStart" format="dimension" />
     <attr name="paddingEnd" format="dimension" />
     <attr name="theme" format="reference" />

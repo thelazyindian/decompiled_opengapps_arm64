@@ -7,7 +7,6 @@
             <TextView android:ellipsize="end" android:id="@id/transit_station_departures_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TransitNotificationText" />
         </LinearLayout>
         <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <ImageView android:layout_gravity="center_vertical" android:id="@id/transit_state_icon" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="6.0dip" android:alpha="0.54" />
             <TextView android:layout_gravity="bottom" android:id="@id/transit_station_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" style="@style/TransitNotificationText.Info" />
         </LinearLayout>
     </LinearLayout>
